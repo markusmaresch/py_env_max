@@ -259,6 +259,7 @@ filelock==3.0.12 # LEVEL_00
 flake8==3.9.2 # better linter than pyflakes
 gprof2dot==2021.2.21 # LEVEL_00 # attempt to visualize cProfile
 pydeps==1.10.3 # cd src/main; pydeps .; open main.svg
+autopep8==1.5.7 # using fix_file ..
 
 #
 # Low level dependencies
