@@ -38,7 +38,7 @@ matplotlib-inline==0.1.3
 scipy==1.7.1 # Scientific Library for Python
 seaborn==0.11.2 # Statistical data visualization
 numba==0.54.0
-openpyxl==3.0.7
+openpyxl==3.0.9
 XlsxWriter==3.0.1 # LEVEL_00 needed for pandas XLSX ...
 toolz==0.11.1 # LEVEL_00
 
@@ -110,15 +110,15 @@ Babel==2.9.1
 bert-for-tf2==0.14.9
 bertviz==1.2.0  # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger
 sentencepiece==0.1.96 # LEVEL_00 # for BERT
-boto3==1.18.45 # required by bertviz
-botocore==1.21.45 # required by boto3
+boto3==1.18.47 # required by bertviz
+botocore==1.21.47 # required by boto3
 #
 spacy==3.1.3
 spacy-legacy==3.0.8 # LEVEL_00
 spacytextblob==3.0.1
 # spacy-transformers  # downgrades transformers !!
 #
-transformers==4.10.2
+transformers==4.10.3
 datasets==1.12.1
 #
 tokenizers==0.10.3 # LEVEL_00
@@ -181,7 +181,7 @@ TA-lib==0.4.21 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip install --upgrade
 # GUI & Visualization
 #
 qtconsole==5.1.1
-QtPy==1.11.1 # LEVEL_00
+QtPy==1.11.2 # LEVEL_00
 PySimpleGUI==4.47.0 # LEVEL_00
 PyQt5==5.15.4
 PyQt5-Qt5==5.15.2 # LEVEL_00
@@ -203,7 +203,7 @@ kiwisolver==1.3.2 # LEVEL_00
 #
 dash==2.0.0
 dash-auth==1.4.1
-dash-bootstrap-components==0.13.0
+dash-bootstrap-components==0.13.1
 dash-canvas==0.1.0
 dash-core-components==2.0.0 # LEVEL_00
 dash-html-components==2.0.0 # LEVEL_00
@@ -233,7 +233,7 @@ jupyter-dash==0.4.0
 jupyter-packaging==0.10.5
 jupyter-server==1.11.0
 jupyter-server-proxy==3.1.0
-jupyterlab==3.1.12
+jupyterlab==3.1.13
 #jupyterlab-dash==0.1.0a3
 jupyterlab-pygments==0.1.2
 jupyterlab-server==2.8.1
@@ -256,7 +256,7 @@ colorama==0.4.4 # LEVEL_00 Cross-platform colored terminal text
 filelock==3.0.12 # LEVEL_00
 flake8==3.9.2 # better linter than pyflakes
 gprof2dot==2021.2.21 # LEVEL_00 # attempt to visualize cProfile
-pydeps==1.10.0 # cd src/main; pydeps .; open main.svg
+pydeps==1.10.3 # cd src/main; pydeps .; open main.svg
 
 #
 # Low level dependencies
@@ -306,7 +306,7 @@ dill==0.3.4 # LEVEL_00
 dm-tree==0.1.6
 dnspython==2.1.0 # LEVEL_00
 docutils==0.17.1 # LEVEL_00
-elasticsearch==7.14.2
+elasticsearch==7.15.0
 email-validator==1.1.3
 entrypoints==0.3 # LEVEL_00
 ephem==4.0.0.2 # LEVEL_00
@@ -317,7 +317,7 @@ Flask==2.0.1
 Flask-Compress==1.10.1
 Flask-SeaSurf==0.3.1
 freetype-py==2.2.0 # LEVEL_00
-fsspec==2021.8.1 # LEVEL_00
+fsspec==2021.9.0 # LEVEL_00
 future==0.18.2 # LEVEL_00
 geographiclib==1.52 # LEVEL_00
 geopy==2.2.0
@@ -464,10 +464,10 @@ typer==0.4.0
 typeshed-client==1.1.1
 typing-inspect==0.7.1
 ua-parser==0.10.0 # LEVEL_00
-ujson==4.1.0 # LEVEL_00
+ujson==4.2.0 # LEVEL_00
 Unidecode==1.3.2 # LEVEL_00
 uritemplate==3.0.1 # LEVEL_00
-urllib3==1.26.6 # LEVEL_00
+urllib3==1.26.7 # LEVEL_00
 url-normalize==1.4.3
 wasabi==0.8.2 # LEVEL_00
 wcwidth==0.2.5 # LEVEL_00
