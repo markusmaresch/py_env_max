@@ -27,6 +27,8 @@ bokeh==2.3.3 # LOCKED # 2.4.0 does not work easily just yet; typing-extensions a
 pystan==2.19.1.1 # LOCKED # POST_INSTALL_00 # prophet 1.0.1 has requirement pystan~=2.19.1.1
 cmdstanpy==0.9.68 # LOCKED # prophet==1.0.1 requires cmdstanpy==0.9.68
 #
+graphviz==0.17  # needed for dependecy graphing .. missing dependencies, but still needed
+#
 
 #
 # Generic Low Level Tools
