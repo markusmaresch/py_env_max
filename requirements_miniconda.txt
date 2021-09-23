@@ -1,0 +1,483 @@
+###################################################################################
+#
+# requirements master
+# keep in ONE file, which works best for cross package interdependencies :-|
+#
+# If loaded in PyCharm, a YELLOW line needs to be explained, else it is out dated
+#
+###################################################################################
+#
+# Pre-Installs .. separate install before anything else
+#
+numpy==1.19.5 # LEVEL_00 # PRE_INSTALL_00 # LOCKED # tensorflow 2.5.0. wants 1.19.x;
+
+#
+# Low Level hard dependencies
+#
+gast==0.4.0 # LEVEL_00 # LOCKED # tensorflow requirement, generic ast
+six==1.15.0 # LEVEL_00 # LOCKED # tensorflow 2.5.0 requires it
+typing-extensions==3.7.4.3 # LEVEL_00 # LOCKED # tensorflow==2.6.0 requires ~3.7.4
+clang==5.0 # LEVEL_00 # LOCKED # tensorflow==2.6.0 requires clang~=5.0
+absl-py==0.12.0 # LOCKED # tensorflow-metadata 1.2.0 has requirement absl-py<0.13,>=0.9
+h5py==3.1.0 # LOCKED # tensorflow==2.6.0 requires h5py~=3.1.0
+google-auth==1.35.0 # LOCKED # tensorboard==2.6.0 requires google-auth>=1.6.3,<2
+flatbuffers==1.12 # LOCKED # LEVEL_00 # tensorflow 2.6.0 requires flatbuffers~=1.12.0
+bokeh==2.3.3 # LOCKED # 2.4.0 does not work easily just yet; typing-extensions and tensorflow !!
+#
+pystan==2.19.1.1 # LOCKED # POST_INSTALL_00 # prophet 1.0.1 has requirement pystan~=2.19.1.1
+cmdstanpy==0.9.68 # LOCKED # prophet==1.0.1 requires cmdstanpy==0.9.68
+#
+
+#
+# Generic Low Level Tools
+#
+pandas==1.3.3
+pandas-datareader==0.10.0
+matplotlib==3.4.3
+matplotlib-inline==0.1.3
+scipy==1.7.1 # Scientific Library for Python
+seaborn==0.11.2 # Statistical data visualization
+numba==0.54.0
+openpyxl==3.0.7
+XlsxWriter==3.0.1 # LEVEL_00 needed for pandas XLSX ...
+toolz==0.11.1 # LEVEL_00
+
+#
+#
+# Machine Learning
+#
+tensorboard==2.6.0
+tensorboard-data-server==0.6.1 # LEVEL_00
+tensorboard-plugin-wit==1.8.0 # LEVEL_00
+tensorflow==2.6.0
+tensorflow-addons==0.14.0
+tensorflow-datasets==4.4.0
+tensorflow-estimator==2.6.0 # LEVEL_00
+tensorflow-hub==0.12.0
+tensorflow-metadata==1.2.0
+tensorflow-model-optimization==0.6.0
+tensorflow-text==2.6.0
+tf-models-official==2.6.0
+tf-slim==1.1.0
+#
+keras==2.6.0 # LEVEL_00
+Keras-Preprocessing==1.1.2
+#
+huggingface-hub==0.0.17
+#
+xgboost==1.4.2 # check installation notes
+#
+torch==1.9.1
+torch-optimizer==0.1.0
+torchaudio==0.9.1
+torchvision==0.10.1
+pytorch-ranger==0.1.1
+#
+Theano==1.0.5
+nose==1.3.7 # LEVEL_00
+#
+fastai==2.5.2
+fastcore==1.3.26
+fastdownload==0.0.5
+fastprogress==1.0.0
+#
+h2o==3.34.0.1
+#
+gym==0.20.0
+#
+gensim==4.1.2
+#
+#ktrain>=0.27.2
+#
+#
+# Time Series
+#
+#darts>=0.9.1  # time series predictions (behind on requirements)
+#tsai>=0.2.18  # time series and sequences, triggers huge number of dependencies !
+prophet==1.0.1  # time series forecasts from Facebook
+Cython==0.29.24 # LEVEL_00 # pystan: cython!=0.25.1,>=0.22
+convertdate==2.3.2 # for prophet
+LunarCalendar==0.0.9 # for prophet
+holidays==0.11.2 # for prophet
+
+#
+# NLP
+#
+nltk==3.6.3
+#
+Babel==2.9.1
+#
+bert-for-tf2==0.14.9
+bertviz==1.2.0  # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger
+sentencepiece==0.1.96 # LEVEL_00 # for BERT
+boto3==1.18.45 # required by bertviz
+botocore==1.21.45 # required by boto3
+#
+spacy==3.1.3
+spacy-legacy==3.0.8 # LEVEL_00
+spacytextblob==3.0.1
+# spacy-transformers  # downgrades transformers !!
+#
+transformers==4.10.2
+datasets==1.12.1
+#
+tokenizers==0.10.3 # LEVEL_00
+#
+textblob==0.15.3
+wordcloud==1.8.1
+#
+#newspaper3k>=0.2.8
+
+#
+# Data Science
+#
+imbalanced-learn==0.8.0
+kaggle==1.5.12
+dask[complete]==2021.9.1
+dask-glm==0.2.0
+dask-ml==1.9.0
+distributed==2021.9.1
+scikit-image==0.18.3
+scikit-learn==0.24.2
+pyod==0.9.3  # outlyer detection
+
+#
+# Computer Vision
+#
+opencv-python==4.5.3.56
+opencv-python-headless==4.5.3.56
+Pillow==8.3.2 # LEVEL_00
+imageio==2.9.0
+tifffile==2021.8.30
+
+#
+# Finance
+#
+alpha-vantage==2.3.1
+coinpaprika==0.1.0
+empyrical==0.5.5 # empyrical 0.5.3 - technical analysis: Common financial risk metrics
+finta==1.3 # https://pypi.org/project/finta (pip install --upgrade finta ... for >= 0.4.1
+ib-insync==0.9.66 # InteractiveBrokers 3rd party trading api ip_insync; dataclasses # if necessary
+iexfinance==0.5.0 #
+intrinio-sdk==5.15.0
+oandapyV20==0.7.2 # LEVEL_00 # urwid urwidtrees # for OANDA console
+tiingo==0.14.0    # https://github.com/hydrosquall/tiingo-python          Python REST Client for interacting with the Tiingo Financial Data API https://pypi.org/project/tiingo
+# alpaca-trade-api>=1.2.0 # https://github.com/alpacahq/alpaca-trade-api-python
+# histdata-downloader npyscreen # Forex Downloader
+#
+pandas_market_calendars==3.1
+exchange_calendars==3.3
+pandas-finance==0.1.2
+mplfinance==0.12.7a17
+#
+yahoofinancials==1.6  # https://github.com/JECSand/yahoofinancials
+yfinance==0.1.63 # https://github.com/ranaroussi/yfinance
+#
+pyfolio==0.9.2 # https://github.com/quantopian/pyfolio ; https://www.quantopian.com/docs/user-guide/tools/pyfolio
+py-vollib==1.0.1 # option pricing
+TA-lib==0.4.21 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip install --upgrade --no-cache-dir ta-lib # sometimes needed
+
+#
+# GUI & Visualization
+#
+qtconsole==5.1.1
+QtPy==1.11.1 # LEVEL_00
+PySimpleGUI==4.47.0 # LEVEL_00
+PyQt5==5.15.4
+PyQt5-Qt5==5.15.2 # LEVEL_00
+PyQt5-sip==12.9.0 # LEVEL_00
+pyqtgraph==0.12.2 # for Chaos
+PyOpenGL==3.1.5 # LEVEL_00 # for PySpace
+pygame==2.0.1 # LEVEL_00
+Pygments==2.10.0 # LEVEL_00
+pydot==1.4.2 # Python interface to Graphviz's Dot
+networkx==2.6.3 # LEVEL_00 # includes drawing graphs
+# pysimpleguiqt>=0.35.0
+#
+vispy==0.8.1
+#
+Kivy==2.0.0
+Kivy-examples==2.0.0
+Kivy-Garden==0.1.4
+kiwisolver==1.3.2 # LEVEL_00
+#
+dash==2.0.0
+dash-auth==1.4.1
+dash-bootstrap-components==0.13.0
+dash-canvas==0.1.0
+dash-core-components==2.0.0 # LEVEL_00
+dash-html-components==2.0.0 # LEVEL_00
+dash-table==5.0.0 # LEVEL_00
+
+
+#
+# Google ..
+#
+google-api-core==2.0.1
+google-api-python-client==2.22.0
+google-auth-httplib2==0.1.0
+google-auth-oauthlib==0.4.6
+google-pasta==0.2.0
+googleapis-common-protos==1.53.0
+googletransx==2.4.2
+
+#
+# Jupyter
+#
+jupyter==1.0.0
+jupyter-bokeh==3.0.2
+jupyter-client==7.0.3
+jupyter-console==6.4.0
+jupyter-core==4.8.1
+jupyter-dash==0.4.0
+jupyter-packaging==0.10.5
+jupyter-server==1.11.0
+jupyter-server-proxy==3.1.0
+jupyterlab==3.1.12
+#jupyterlab-dash==0.1.0a3
+jupyterlab-pygments==0.1.2
+jupyterlab-server==2.8.1
+jupyterlab-widgets==1.0.2 # LEVEL_00
+
+#
+# Network
+#
+twint==2.1.20 # Twitter downloader
+#dropbox>=11.14.0  # DropBox API
+
+#
+# Tools
+#
+beautifulsoup4==4.10.0
+pipdeptree==2.1.0 # pip dependencies
+persist-queue==0.7.0 # LEVEL_00 # Use with iLock !! (or celery ?)
+cloudscraper==1.2.58 # bypass Cloudflare's anti-bot page
+colorama==0.4.4 # LEVEL_00 Cross-platform colored terminal text
+filelock==3.0.12 # LEVEL_00
+flake8==3.9.2 # better linter than pyflakes
+gprof2dot==2021.2.21 # LEVEL_00 # attempt to visualize cProfile
+pydeps==1.10.0 # cd src/main; pydeps .; open main.svg
+
+#
+# Low level dependencies
+#
+##################################################################
+
+aenum==3.1.0 # LEVEL_00
+aiodns==3.0.0
+aiohttp==3.7.4.post0
+aiohttp-socks==0.6.0
+altgraph==0.17.2 # LEVEL_00
+ansi2html==1.6.0 # LEVEL_00
+anyio==3.3.1
+appdirs==1.4.4 # LEVEL_00
+appnope==0.1.2 # LEVEL_00
+argon2-cffi==21.1.0
+arrow==1.1.1
+ast-decompiler==0.4.0 # LEVEL_00
+astunparse==1.6.3
+async-timeout==3.0.1 # LEVEL_00
+asynq==1.4.0
+attrs==21.2.0 # LEVEL_00
+backcall==0.2.0 # LEVEL_00
+bleach==4.1.0
+blis==0.7.4
+Brotli==1.0.9 # LEVEL_00
+cachetools==4.2.2 # LEVEL_00
+catalogue==2.0.6 # LEVEL_00
+cchardet==2.1.7 # LEVEL_00
+cffi==1.14.6
+chardet==4.0.0 # LEVEL_00
+charset-normalizer==2.0.6 # LEVEL_00
+chart-studio==1.1.0
+click==8.0.1 # Python composable command line interface toolkit
+cloudpickle==2.0.0 # LEVEL_00
+codemod==1.0.0 # LEVEL_00
+commonmark==0.9.1 # LEVEL_00
+coverage==5.5 # LEVEL_00
+croniter==1.0.15
+cycler==0.10.0
+cymem==2.0.5 # LEVEL_00
+debugpy==1.4.3 # LEVEL_00
+decorator==5.1.0 # LEVEL_00
+defusedxml==0.7.1 # LEVEL_00
+deprecation==2.1.0
+dill==0.3.4 # LEVEL_00
+dm-tree==0.1.6
+dnspython==2.1.0 # LEVEL_00
+docutils==0.17.1 # LEVEL_00
+elasticsearch==7.14.2
+email-validator==1.1.3
+entrypoints==0.3 # LEVEL_00
+ephem==4.0.0.2 # LEVEL_00
+et-xmlfile==1.1.0 # LEVEL_00
+eventkit==0.8.8
+fake-useragent==0.1.11 # LEVEL_00
+Flask==2.0.1
+Flask-Compress==1.10.1
+Flask-SeaSurf==0.3.1
+freetype-py==2.2.0 # LEVEL_00
+fsspec==2021.8.1 # LEVEL_00
+future==0.18.2 # LEVEL_00
+geographiclib==1.52 # LEVEL_00
+geopy==2.2.0
+gin-config==0.4.0 # LEVEL_00
+grpcio==1.40.0
+HeapDict==1.0.1 # LEVEL_00
+hijri-converter==2.2.1 # LEVEL_00
+hsluv==5.0.2 # LEVEL_00
+httplib2==0.19.1
+idna==3.2 # LEVEL_00
+importlib-resources==5.2.2
+ipykernel==6.4.1
+ipython==7.27.0
+ipython-genutils==0.2.0 # LEVEL_00
+ipywidgets==7.6.5
+iso8601==0.1.16 # LEVEL_00
+itsdangerous==2.0.1 # LEVEL_00
+jedi==0.18.0
+Jinja2==3.0.1
+jmespath==0.10.0 # LEVEL_00
+joblib==1.0.1 # LEVEL_00
+json5==0.9.6 # LEVEL_00
+jsonschema==3.2.0
+korean-lunar-calendar==0.2.1 # LEVEL_00
+llvmlite==0.37.0 # LEVEL_00
+locket==0.2.1 # LEVEL_00
+lxml==4.6.3 # LEVEL_00
+m3u8==0.9.0 # play list parser, udemy-dl2
+macholib==1.15.2
+Markdown==3.3.4 # LEVEL_00
+MarkupSafe==2.0.1 # LEVEL_00
+mccabe==0.6.1 # LEVEL_00
+memory-profiler==0.58.0
+mistune==0.8.4 # LEVEL_00
+msgpack==1.0.2 # LEVEL_00
+multidict==5.1.0 # LEVEL_00
+multipledispatch==0.6.0
+multiprocess==0.70.12.2
+multitasking==0.0.9 # LEVEL_00
+murmurhash==1.0.5 # LEVEL_00
+mypy==0.910
+mypy-extensions==0.4.3 # LEVEL_00 # investigate more for automated checking
+nbclassic==0.3.2
+nbclient==0.5.4
+nbconvert==6.1.0
+nbformat==5.1.3
+nest-asyncio==1.5.1 # LEVEL_00
+netifaces==0.11.0 # LEVEL_00
+notebook==6.4.4
+oauth2client==4.1.3
+oauthlib==3.1.1 # LEVEL_00
+opt-einsum==3.3.0
+packaging==21.0
+pandocfilters==1.5.0 # LEVEL_00
+params-flow==0.8.2
+parso==0.8.2 # LEVEL_00
+partd==1.2.0
+pathy==0.6.0
+patsy==0.5.1
+pexpect==4.8.0
+pickleshare==0.7.5 # LEVEL_00
+plotly==5.3.1
+pmdarima==1.8.2
+portalocker==2.3.2 # LEVEL_00
+preshed==3.0.5
+prometheus-client==0.11.0 # LEVEL_00
+promise==2.3
+prompt-toolkit==3.0.20
+proto-plus==1.19.0
+protobuf==3.18.0
+psutil==5.8.0 # LEVEL_00
+ptyprocess==0.7.0 # LEVEL_00
+py-cpuinfo==8.0.0 # LEVEL_00
+py-lets-be-rational==1.0.1
+py-params==0.10.2 # LEVEL_00
+pyanalyze==0.3.1
+pyarrow==5.0.0
+pyasn1==0.4.8 # LEVEL_00
+pyasn1-modules==0.2.8
+pycares==4.0.0
+pycocotools==2.0.2
+pycodestyle==2.7.0 # LEVEL_00
+pycparser==2.20 # LEVEL_00
+pydantic==1.8.2
+pyflakes==2.3.1 # LEVEL_00
+pyinstaller==4.5.1
+pyinstaller-hooks-contrib==2021.3 # LEVEL_00 # deployment
+pyluach==1.3.0 # LEVEL_00
+PyMeeus==0.5.11 # LEVEL_00
+pyparsing==2.4.7 # LEVEL_00
+pyrsistent==0.18.0 # LEVEL_00
+PySocks==1.7.1 # LEVEL_00
+python-dateutil==2.8.2
+python-slugify==5.0.2
+python-socks==1.2.4 # LEVEL_00
+pytz==2021.1 # LEVEL_00
+PyWavelets==1.1.1
+PyYAML==5.4.1 # LEVEL_00
+pyzmq==22.3.0 # LEVEL_00
+qcore==1.7.0
+regex==2021.8.28 # LEVEL_00
+requests==2.26.0
+requests-cache==0.8.1
+requests-oauthlib==1.3.0
+requests-toolbelt==0.9.1
+requests-unixsocket==0.2.0
+retrying==1.3.3
+rich==10.10.0
+rsa==4.7.2
+s3transfer==0.5.0
+sacrebleu==2.0.0
+sacremoses==0.0.45
+schedule==1.1.0 # LEVEL_00
+Send2Trash==1.8.0 # LEVEL_00
+seqeval==1.2.2
+setuptools-git==1.2 # LEVEL_00
+simpervisor==0.4 # LEVEL_00
+simplejson==3.17.5 # LEVEL_00
+smart-open==5.2.1 # LEVEL_00
+sniffio==1.2.0 # LEVEL_00
+sortedcontainers==2.4.0 # LEVEL_00 # Python Sorted Container Types: SortedList, SortedDict, and SortedSet
+soupsieve==2.2.1 # LEVEL_00
+srsly==2.4.1
+statsmodels==0.12.2
+stdlib-list==0.8.0 # LEVEL_00
+stumpy==1.9.2
+tabulate==0.8.9 # LEVEL_00
+tblib==1.7.0 # LEVEL_00
+tenacity==8.0.1 # LEVEL_00
+termcolor==1.1.0 # LEVEL_00
+terminado==0.12.1
+testpath==0.5.0 # LEVEL_00
+text-unidecode==1.3 # LEVEL_00
+thinc==8.0.10
+threadpoolctl==2.2.0  # LEVEL_00
+toml==0.10.2 # LEVEL_00
+tomlkit==0.7.2 # LEVEL_00
+tornado==6.1 # LEVEL_00 # A Python web framework and asynchronous networking library
+tqdm==4.62.3 # LEVEL_00 # A Fast, Extensible Progress Meter
+traitlets==5.1.0 # LEVEL_00
+typed-ast==1.4.3 # LEVEL_00
+typeguard==2.12.1 # LEVEL_00
+typer==0.4.0
+typeshed-client==1.1.1
+typing-inspect==0.7.1
+ua-parser==0.10.0 # LEVEL_00
+ujson==4.1.0 # LEVEL_00
+Unidecode==1.3.2 # LEVEL_00
+uritemplate==3.0.1 # LEVEL_00
+urllib3==1.26.6 # LEVEL_00
+url-normalize==1.4.3
+wasabi==0.8.2 # LEVEL_00
+wcwidth==0.2.5 # LEVEL_00
+webencodings==0.5.1 # LEVEL_00
+websocket-client==1.2.1 # LEVEL_00
+Werkzeug==2.0.1 # LEVEL_00
+widgetsnbextension==3.5.1
+wireless==0.3.3 # LEVEL_00
+wrapt==1.12.1 # LEVEL_00
+xxhash==2.0.2 # LEVEL_00
+yarl==1.6.3
+zict==2.0.0
+zipp==3.5.0 # LEVEL_00
