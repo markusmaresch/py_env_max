@@ -185,7 +185,7 @@ TA-lib==0.4.21 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip install --upgrade
 #
 qtconsole==5.1.1
 QtPy==1.11.2 # LEVEL_00
-PySimpleGUI==4.47.0 # LEVEL_00
+PySimpleGUI==4.48.0 # LEVEL_00
 PyQt5==5.15.4
 PyQt5-Qt5==5.15.2 # LEVEL_00
 PyQt5-sip==12.9.0 # LEVEL_00
@@ -239,7 +239,7 @@ jupyter-server-proxy==3.1.0
 jupyterlab==3.1.13
 #jupyterlab-dash==0.1.0a3
 jupyterlab-pygments==0.1.2
-jupyterlab-server==2.8.1
+jupyterlab-server==2.8.2
 jupyterlab-widgets==1.0.2 # LEVEL_00
 
 #
@@ -259,7 +259,7 @@ colorama==0.4.4 # LEVEL_00 Cross-platform colored terminal text
 filelock==3.0.12 # LEVEL_00
 flake8==3.9.2 # better linter than pyflakes
 gprof2dot==2021.2.21 # LEVEL_00 # attempt to visualize cProfile
-pydeps==1.10.3 # cd src/main; pydeps .; open main.svg
+pydeps==1.10.5 # cd src/main; pydeps .; open main.svg
 autopep8==1.5.7 # using fix_file ..
 
 #
@@ -273,7 +273,7 @@ aiohttp==3.7.4.post0
 aiohttp-socks==0.6.0
 altgraph==0.17.2 # LEVEL_00
 ansi2html==1.6.0 # LEVEL_00
-anyio==3.3.1
+anyio==3.3.2
 appdirs==1.4.4 # LEVEL_00
 appnope==0.1.2 # LEVEL_00
 argon2-cffi==21.1.0
@@ -334,7 +334,7 @@ httplib2==0.19.1
 idna==3.2 # LEVEL_00
 importlib-resources==5.2.2
 ipykernel==6.4.1
-ipython==7.27.0
+ipython==7.28.0
 ipython-genutils==0.2.0 # LEVEL_00
 ipywidgets==7.6.5
 iso8601==0.1.16 # LEVEL_00
@@ -366,7 +366,7 @@ mypy==0.910
 mypy-extensions==0.4.3 # LEVEL_00 # investigate more for automated checking
 nbclassic==0.3.2
 nbclient==0.5.4
-nbconvert==6.1.0
+nbconvert==6.2.0
 nbformat==5.1.3
 nest-asyncio==1.5.1 # LEVEL_00
 netifaces==0.11.0 # LEVEL_00
@@ -380,7 +380,7 @@ params-flow==0.8.2
 parso==0.8.2 # LEVEL_00
 partd==1.2.0
 pathy==0.6.0
-patsy==0.5.1
+patsy==0.5.2
 pexpect==4.8.0
 pickleshare==0.7.5 # LEVEL_00
 plotly==5.3.1
@@ -432,7 +432,7 @@ rich==10.11.0
 rsa==4.7.2
 s3transfer==0.5.0
 sacrebleu==2.0.0
-sacremoses==0.0.45
+sacremoses==0.0.46
 schedule==1.1.0 # LEVEL_00
 Send2Trash==1.8.0 # LEVEL_00
 seqeval==1.2.2
