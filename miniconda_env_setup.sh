@@ -40,9 +40,11 @@ read ans
 if [ 1 -eq 1 ]; then
   # numpy .. PRE_INSTALL_00
   # independant .. LEVEL_00
+  # LEVEL_01
+  # LEVEL_02
   # TA-lib .. NO_CACHE_DIR  # needs to be rebuilt
   # pystan .. POST_INSTALL_00
-  tags="PRE_INSTALL_00 LEVEL_00 NO_CACHE_DIR POST_INSTALL_00"
+  tags="PRE_INSTALL_00 LEVEL_00 LEVEL_01 LEVEL_02 NO_CACHE_DIR POST_INSTALL_00"
   for tag in $tags; do
     echo "Pre Install Tag: $tag"
     requirements_tmp="requirements_${tag}.txt"
