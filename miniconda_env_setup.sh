@@ -57,39 +57,12 @@ if [ 1 -eq 1 ]; then
     fi
     pip install $ncd -r $requirements_tmp
     pip_check_exit
-    echo "Done"
+    echo "Done: $tag"
     rm -f $requirements_tmp
   done
 fi
 
 #exit 0
-
-if [ 0 -eq 1 ]; then
-  #
-  # migrate this to ordered list of installs .. before everything else AND observe dependencies
-  #
-  pip_list="pip.list.tmp"
-  pip list > $pip_list
-  pres="numpy Cython six Pillow pystan pandas convertdate LunarCalendar holidays tqdm" # pandas here ????
-  pres="numpy Cython" # six Pillow pystan pandas convertdate LunarCalendar holidays tqdm" # pandas here ????
-  for pre in $pres; do
-    vrsn=$(cat $pip_list | grep -e "^${pre} " | xargs)
-    lines=$(echo $vrsn | wc -l | xargs)
-    if [ -n "$vrsn" -a $lines -eq 1 ]; then
-      echo "Appears we have $pre .. $vrsn"
-      continue
-    fi
-    requirements_tmp="requirements_${pre}.txt"
-    grep -e ^${pre} $requirements_all > $requirements_tmp
-    echo "Pre-Installing $requirements_tmp .."
-    pip install -r $requirements_tmp
-    pip_check_exit
-    echo "Done"
-    rm -f $requirements_tmp
-    pip list > $pip_list # update, it could have changed
-  done
-  rm -f $pip_list
-fi
 
 for requirements_one in $requirements_all; do
   cmd="pip install -r $requirements_one"

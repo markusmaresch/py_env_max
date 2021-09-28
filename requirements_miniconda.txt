@@ -69,6 +69,9 @@ huggingface-hub==0.0.17
 #
 xgboost==1.4.2 # check installation notes
 #
+pyro-api==0.1.2 # probabilistic modeling and inference
+pyro-ppl==1.7.0
+#
 torch==1.9.1
 torch-optimizer==0.1.0
 torchaudio==0.9.1
