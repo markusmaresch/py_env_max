@@ -116,15 +116,15 @@ Babel==2.9.1
 bert-for-tf2==0.14.9
 bertviz==1.2.0  # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger
 sentencepiece==0.1.96 # LEVEL_00 # for BERT
-boto3==1.18.48 # required by bertviz
-botocore==1.21.48 # required by boto3
+boto3==1.18.50 # required by bertviz
+botocore==1.21.50 # required by boto3
 #
 spacy==3.1.3
 spacy-legacy==3.0.8 # LEVEL_00
 spacytextblob==3.0.1
 # spacy-transformers  # downgrades transformers !!
 #
-transformers==4.10.3
+transformers==4.11.0
 datasets==1.12.1
 #
 tokenizers==0.10.3 # LEVEL_00
@@ -220,7 +220,7 @@ dash-table==5.0.0 # LEVEL_00
 # Google ..
 #
 google-api-core==2.0.1
-google-api-python-client==2.22.0
+google-api-python-client==2.23.0
 google-auth-httplib2==0.1.0
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
@@ -231,15 +231,15 @@ googletransx==2.4.2
 # Jupyter
 #
 jupyter==1.0.0
-jupyter-bokeh==3.0.2
-jupyter-client==7.0.3
+jupyter-bokeh==3.0.3
+jupyter-client==7.0.4
 jupyter-console==6.4.0
 jupyter-core==4.8.1
 jupyter-dash==0.4.0
-jupyter-packaging==0.10.5
+jupyter-packaging==0.10.6
 jupyter-server==1.11.0
 jupyter-server-proxy==3.1.0
-jupyterlab==3.1.13
+jupyterlab==3.1.14
 #jupyterlab-dash==0.1.0a3
 jupyterlab-pygments==0.1.2
 jupyterlab-server==2.8.2
@@ -259,11 +259,17 @@ pipdeptree==2.1.0 # pip dependencies
 persist-queue==0.7.0 # LEVEL_00 # Use with iLock !! (or celery ?)
 cloudscraper==1.2.58 # bypass Cloudflare's anti-bot page
 colorama==0.4.4 # LEVEL_00 Cross-platform colored terminal text
-filelock==3.0.12 # LEVEL_00
+filelock==3.1.0 # LEVEL_00
 flake8==3.9.2 # better linter than pyflakes
 gprof2dot==2021.2.21 # LEVEL_00 # attempt to visualize cProfile
 pydeps==1.10.5 # cd src/main; pydeps .; open main.svg
 autopep8==1.5.7 # using fix_file ..
+mypy==0.910
+mypy-extensions==0.4.3 # LEVEL_00 # investigate more for automated checking
+pytype==2021.9.27
+importlab==0.6.1
+libcst==0.3.21
+ninja==1.10.2
 
 #
 # Low level dependencies
@@ -272,7 +278,7 @@ autopep8==1.5.7 # using fix_file ..
 
 aenum==3.1.0 # LEVEL_00
 aiodns==3.0.0
-aiohttp==3.7.4.post0
+aiohttp==3.7.4.post0 # Async http client/server framework (asyncio)
 aiohttp-socks==0.6.0
 altgraph==0.17.2 # LEVEL_00
 ansi2html==1.6.0 # LEVEL_00
@@ -329,7 +335,7 @@ future==0.18.2 # LEVEL_00
 geographiclib==1.52 # LEVEL_00
 geopy==2.2.0
 gin-config==0.4.0 # LEVEL_00
-grpcio==1.40.0
+grpcio==1.41.0
 HeapDict==1.0.1 # LEVEL_00
 hijri-converter==2.2.2 # LEVEL_00
 hsluv==5.0.2 # LEVEL_00
@@ -365,8 +371,6 @@ multipledispatch==0.6.0
 multiprocess==0.70.12.2
 multitasking==0.0.9 # LEVEL_00
 murmurhash==1.0.5 # LEVEL_00
-mypy==0.910
-mypy-extensions==0.4.3 # LEVEL_00 # investigate more for automated checking
 nbclassic==0.3.2
 nbclient==0.5.4
 nbconvert==6.2.0
@@ -487,4 +491,4 @@ wrapt==1.12.1 # LEVEL_00
 xxhash==2.0.2 # LEVEL_00
 yarl==1.6.3
 zict==2.0.0
-zipp==3.5.0 # LEVEL_00
+zipp==3.5.1 # LEVEL_00
