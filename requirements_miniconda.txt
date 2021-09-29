@@ -104,7 +104,7 @@ prophet==1.0.1  # time series forecasts from Facebook, depends on pandas
 Cython==0.29.24 # LEVEL_00 # pystan: cython!=0.25.1,>=0.22
 convertdate==2.3.2 # LEVEL_01 # for prophet (requires pytz, pymeeus)
 LunarCalendar==0.0.9 # for prophet
-holidays==0.11.2 # for prophet
+holidays==0.11.3 # for prophet
 
 #
 # NLP
@@ -116,15 +116,15 @@ Babel==2.9.1
 bert-for-tf2==0.14.9
 bertviz==1.2.0  # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger
 sentencepiece==0.1.96 # LEVEL_00 # for BERT
-boto3==1.18.50 # required by bertviz
-botocore==1.21.50 # required by boto3
+boto3==1.18.51 # required by bertviz
+botocore==1.21.51 # required by boto3
 #
 spacy==3.1.3
 spacy-legacy==3.0.8 # LEVEL_00
 spacytextblob==3.0.1
 # spacy-transformers  # downgrades transformers !!
 #
-transformers==4.11.0
+transformers==4.11.1
 datasets==1.12.1
 #
 tokenizers==0.10.3 # LEVEL_00
@@ -137,7 +137,7 @@ wordcloud==1.8.1
 #
 # Data Science
 #
-imbalanced-learn==0.8.0
+imbalanced-learn==0.8.1
 kaggle==1.5.12
 dask[complete]==2021.9.1
 dask-glm==0.2.0
@@ -200,7 +200,7 @@ pydot==1.4.2 # Python interface to Graphviz's Dot
 networkx==2.6.3 # LEVEL_00 # includes drawing graphs
 # pysimpleguiqt>=0.35.0
 #
-vispy==0.8.1
+vispy==0.9.0
 #
 Kivy==2.0.0
 Kivy-examples==2.0.0
@@ -232,7 +232,7 @@ googletransx==2.4.2
 #
 jupyter==1.0.0
 jupyter-bokeh==3.0.3
-jupyter-client==7.0.4
+jupyter-client==7.0.5
 jupyter-console==6.4.0
 jupyter-core==4.8.1
 jupyter-dash==0.4.0
@@ -396,7 +396,7 @@ preshed==3.0.5
 prometheus-client==0.11.0 # LEVEL_00
 promise==2.3
 prompt-toolkit==3.0.20
-proto-plus==1.19.0
+proto-plus==1.19.1
 protobuf==3.18.0
 psutil==5.8.0 # LEVEL_00
 ptyprocess==0.7.0 # LEVEL_00
@@ -482,7 +482,7 @@ url-normalize==1.4.3
 wasabi==0.8.2 # LEVEL_00
 wcwidth==0.2.5 # LEVEL_00
 webencodings==0.5.1 # LEVEL_00
-websockets==9.1 # LEVEL_00
+websockets==10.0 # LEVEL_00
 websocket-client==1.2.1 # LEVEL_00
 Werkzeug==2.0.1 # LEVEL_00
 widgetsnbextension==3.5.1
@@ -491,4 +491,4 @@ wrapt==1.12.1 # LEVEL_00
 xxhash==2.0.2 # LEVEL_00
 yarl==1.6.3
 zict==2.0.0
-zipp==3.5.1 # LEVEL_00
+zipp==3.6.0 # LEVEL_00
