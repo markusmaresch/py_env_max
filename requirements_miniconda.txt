@@ -52,7 +52,7 @@ bokeh==2.3.3 # LOCKED # 2.4.0 does not work easily just yet; typing-extensions a
 pystan==2.19.1.1 # LOCKED # POST_INSTALL_00 # prophet 1.0.1 has requirement pystan~=2.19.1.1
 cmdstanpy==0.9.68 # LOCKED # prophet==1.0.1 requires cmdstanpy==0.9.68
 #
-graphviz==0.17  # needed for dependecy graphing .. missing dependencies, but still needed
+graphviz==0.17  # LEVEL_00 # needed for dependecy graphing .. missing dependencies, but still needed
 #
 
 #
@@ -88,7 +88,7 @@ tf-models-official==2.6.0
 tf-slim==1.1.0
 #
 keras==2.6.0 # LEVEL_01
-Keras-Preprocessing==1.1.2
+keras-Preprocessing==1.1.2 # LEVEL_02
 #
 huggingface-hub==0.0.17
 #
@@ -103,7 +103,7 @@ torchaudio==0.9.1
 torchvision==0.10.1
 pytorch-ranger==0.1.1
 #
-Theano==1.0.5
+theano==1.0.5 # LEVEL_02
 nose==1.3.7 # LEVEL_01
 #
 fastai==2.5.2
@@ -126,9 +126,9 @@ pmdarima==1.8.3
 #darts>=0.9.1  # time series predictions (behind on requirements)
 #tsai>=0.2.18  # time series and sequences, triggers huge number of dependencies !
 prophet==1.0.1  # time series forecasts from Facebook, depends on pandas
-Cython==0.29.24 # LEVEL_01 # pystan: cython!=0.25.1,>=0.22
+cython==0.29.24 # LEVEL_01 # pystan: cython!=0.25.1,>=0.22
 convertdate==2.3.2 # LEVEL_02 # for prophet (requires pytz, pymeeus)
-LunarCalendar==0.0.9 # for prophet
+lunarcalendar==0.0.9 # LEVEL_03 # for prophet
 holidays==0.11.3.1 # for prophet
 
 #
@@ -136,7 +136,7 @@ holidays==0.11.3.1 # for prophet
 #
 nltk==3.6.3
 #
-Babel==2.9.1
+babel==2.9.1 # LEVEL_02
 #
 bert-for-tf2==0.14.9
 bertviz==1.2.0  # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger
@@ -206,7 +206,7 @@ yfinance==0.1.63 # https://github.com/ranaroussi/yfinance
 #
 pyfolio==0.9.2 # https://github.com/quantopian/pyfolio ; https://www.quantopian.com/docs/user-guide/tools/pyfolio
 py-vollib==1.0.1 # option pricing
-TA-lib==0.4.21 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip install --upgrade --no-cache-dir ta-lib # sometimes needed
+ta-lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip install --upgrade --no-cache-dir ta-lib # sometimes needed
 
 #
 # GUI & Visualization
@@ -214,7 +214,7 @@ TA-lib==0.4.21 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip install --upgrade
 qtconsole==5.1.1
 QtPy==1.11.2 # LEVEL_01
 PySimpleGUI==4.48.0 # LEVEL_01
-PyQt5==5.15.4
+pyQt5==5.15.4 # LEVEL_02
 PyQt5-Qt5==5.15.2 # LEVEL_01
 PyQt5-sip==12.9.0 # LEVEL_01
 pyqtgraph==0.12.2 # for Chaos
@@ -227,9 +227,9 @@ networkx==2.6.3 # LEVEL_01 # includes drawing graphs
 #
 vispy==0.9.0
 #
-Kivy==2.0.0
-Kivy-examples==2.0.0
-Kivy-Garden==0.1.4
+kivy==2.0.0 # LEVEL_04
+kivy-examples==2.0.0 # LEVEL_04
+kivy-Garden==0.1.4 # LEVEL_03
 kiwisolver==1.3.2 # LEVEL_01
 #
 dash==2.0.0
@@ -319,7 +319,7 @@ attrs==21.2.0 # LEVEL_01
 backcall==0.2.0 # LEVEL_01
 bleach==4.1.0
 blis==0.7.4
-Brotli==1.0.9 # LEVEL_01
+brotli==1.0.9 # LEVEL_01
 cachetools==4.2.2 # LEVEL_01
 catalogue==2.0.6 # LEVEL_01
 cchardet==2.1.7 # LEVEL_01
@@ -327,7 +327,7 @@ cffi==1.14.6
 chardet==4.0.0 # LEVEL_01
 charset-normalizer==2.0.6 # LEVEL_01
 chart-studio==1.1.0
-click==8.0.1 # Python composable command line interface toolkit
+click==8.0.1 # LEVEL_01 # Python composable command line interface toolkit
 cloudpickle==2.0.0 # LEVEL_01
 codemod==1.0.0 # LEVEL_01
 commonmark==0.9.1 # LEVEL_01
@@ -350,9 +350,9 @@ ephem==4.0.0.2 # LEVEL_01
 et-xmlfile==1.1.0 # LEVEL_01
 eventkit==0.8.8
 fake-useragent==0.1.11 # LEVEL_01
-Flask==2.0.1
-Flask-Compress==1.10.1
-Flask-SeaSurf==0.3.1
+flask==2.0.1 # LEVEL_03
+flask-compress==1.10.1 # LEVEL_03
+flask-seasurf==0.3.1 # LEVEL_03
 freetype-py==2.2.0 # LEVEL_01
 fsspec==2021.9.0 # LEVEL_01
 future==0.18.2 # LEVEL_01
@@ -360,7 +360,7 @@ geographiclib==1.52 # LEVEL_01
 geopy==2.2.0
 gin-config==0.4.0 # LEVEL_01
 grpcio==1.41.0
-HeapDict==1.0.1 # LEVEL_01
+heapdict==1.0.1 # LEVEL_01
 hijri-converter==2.2.2 # LEVEL_01
 hsluv==5.0.2 # LEVEL_01
 httplib2==0.19.1
@@ -373,7 +373,7 @@ ipywidgets==7.6.5
 iso8601==0.1.16 # LEVEL_01
 itsdangerous==2.0.1 # LEVEL_01
 jedi==0.18.0
-Jinja2==3.0.1
+jinja2==3.0.1 # LEVEL_02
 jmespath==0.10.0 # LEVEL_01
 joblib==1.0.1 # LEVEL_01
 json5==0.9.6 # LEVEL_01
@@ -448,7 +448,7 @@ python-dateutil==2.8.2 # LEVEL_02 (depends on six)
 python-slugify==5.0.2
 python-socks==1.2.4 # LEVEL_01
 pytz==2021.1 # LEVEL_01
-PyWavelets==1.1.1
+pywavelets==1.1.1 # LEVEL_02
 PyYAML==5.4.1 # LEVEL_01
 pyzmq==22.3.0 # LEVEL_01
 qcore==1.7.0
