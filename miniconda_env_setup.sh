@@ -20,7 +20,13 @@ env_dir="$HOME/miniconda3/envs/${py_env_name}"
 if [ ! -d ${env_dir} ]; then
   echo "No Env: $env_dir .. create ?"
   read ans
-  conda create --name $py_env_name python=${python_default_version}
+  conda_create_tmp_log="conda_create_tmp.log"
+  conda create --name $py_env_name python=${python_default_version} | tee $conda_create_tmp_log
+  echo "New Packages:"
+  grep -A100 -e "NEW packages" $conda_create_tmp_log | \
+    grep -B100 -e "^Proceed" | grep -e "^  " | grep -e "::" | awk '{print $1}'
+  # check above with 'CONDA_CREATE' in requirements*.txt
+  rm -f $conda_create_tmp_log
 else
   echo "Have Env: $env_dir .. use/update (Y/CTRL-C) ??"
   read ans
@@ -38,13 +44,14 @@ echo "Ready for: $cmd ... (Y/CTRL-C) ??"
 read ans
 
 if [ 1 -eq 1 ]; then
-  # numpy .. PRE_INSTALL_00
-  # independant .. LEVEL_00
-  # LEVEL_01
-  # LEVEL_02
-  # TA-lib .. NO_CACHE_DIR  # needs to be rebuilt
-  # pystan .. POST_INSTALL_00
-  tags="PRE_INSTALL_00 LEVEL_00 LEVEL_01 LEVEL_02 NO_CACHE_DIR POST_INSTALL_00"
+  # CONDA_CREATE (also LEVEL_00) .. directly from conda create, like: certifi, tk, pip ...
+  # PRE_INSTALL_00 .. like numpy
+  # LEVEL_01 .. like: pipdeptree
+  # LEVEL_02 .. like: convertdate
+  # LEVEL_03 .. like: pandas
+  # NO_CACHE_DIR # needs to be rebuilt, like: TA-lib
+  # POST_INSTALL_00 # after everything else, like: pystan
+  tags="PRE_INSTALL_00 LEVEL_01 LEVEL_02 LEVEL_03 NO_CACHE_DIR POST_INSTALL_00"
   for tag in $tags; do
     echo "Pre Install Tag: $tag"
     requirements_tmp="requirements_${tag}.txt"
