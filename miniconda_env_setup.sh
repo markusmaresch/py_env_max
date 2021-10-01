@@ -51,7 +51,7 @@ if [ 1 -eq 1 ]; then
   # LEVEL_03 .. like: pandas
   # NO_CACHE_DIR # needs to be rebuilt, like: TA-lib
   # POST_INSTALL_00 # after everything else, like: pystan
-  tags="PRE_INSTALL_00 LEVEL_01 LEVEL_02 LEVEL_03 NO_CACHE_DIR POST_INSTALL_00"
+  tags="PRE_INSTALL_00 LEVEL_01 LEVEL_02 LEVEL_03 LEVEL_04 NO_CACHE_DIR POST_INSTALL_00"
   for tag in $tags; do
     echo "Pre Install Tag: $tag"
     requirements_tmp="requirements_${tag}.txt"
