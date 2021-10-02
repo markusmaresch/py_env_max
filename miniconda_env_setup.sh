@@ -51,7 +51,7 @@ if [ 1 -eq 1 ]; then
   # LEVEL_02 .. like: convertdate
   # LEVEL_03 .. like: pandas
   # POST_INSTALL_00 # after everything else, like: pystan
-  tags="PRE_INSTALL_00 NO_CACHE_DIR LEVEL_01 LEVEL_02 LEVEL_03 LEVEL_04 POST_INSTALL_00"
+  tags="PRE_INSTALL_00 NO_CACHE_DIR LEVEL_01 LEVEL_02 LEVEL_03 LEVEL_04 LEVEL_05 POST_INSTALL_00"
   for tag in $tags; do
     echo "Pre Install Tag: $tag"
     requirements_tmp="requirements_${tag}.txt"
@@ -78,4 +78,8 @@ for requirements_one in $requirements_all; do
   echo "Done: $?: $cmd  ... now checking"
   pip_check_exit
 done
+
+unlabled=$(grep -v -e "^#" $requirements_all | grep -v -e '^$' | grep -v -e "LEVEL_" | sort | wc -l | xargs)
+echo "Unlabeled: LABEL's: $unlabled"
+
 exit 0
