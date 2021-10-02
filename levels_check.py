@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 import sys
+import os
 import json
 import typing
 from itertools import chain
@@ -17,26 +18,33 @@ from pipdeptree import PackageDAG
 class LevelsCache:
     def __init__(self, levels_max: int):
         self.levels_max = levels_max
-        self.xxx = [dict() for x in range(levels_max)]
+        self.level_dicts = [dict() for x in range(levels_max)]
         return
 
     def add(self, level: int, package: dict):
-        d = self.xxx[level]
+        d = self.level_dicts[level]
         key = package['key']
         d[key] = package
         return
 
     def find_below(self, level: int, package: dict) -> bool:
         key = package['key']
-        for l in range(1, self.levels_max):
-            d = self.xxx[l]
+        for l in range(1, level):  # we should NOT search ALL levels
+            d = self.level_dicts[l]
             if d.get(key):
                 return True
         return False
 
+    def find_level(self, key: str) -> int:
+        for level in range(1, self.levels_max):
+            d = self.level_dicts[level]
+            if d.get(key):
+                return level
+        return -1
+
     def show(self) -> bool:
         for l in range(1, self.levels_max):
-            level_dict = self.xxx[l]
+            level_dict = self.level_dicts[l]
             if len(level_dict) < 1:
                 continue
             for package_name in level_dict:
@@ -47,13 +55,10 @@ class LevelsCache:
         return True
 
 
-# flatten = chain.from_iterable
-
-
 class LevelsCheck:
     json_full = 'pipdeptree.cache'
     requirements_txt = 'requirements_miniconda.txt'  # make this configurable
-    levels_max = 10  # level 6 currently is realized maximum
+    levels_max = 12  # level 9 currently is realized maximum
 
     def __init__(self):
         self.levels_cache = LevelsCache(self.levels_max)
@@ -75,31 +80,27 @@ class LevelsCheck:
 
         """
         tree = tree.sort()
-        branch_keys = set(r.key for r in chain.from_iterable(tree.values()))
+        # branch_keys = set(r.key for r in chain.from_iterable(tree.values()))
         nodes = [p for p in tree.keys()]  # if p.key not in branch_keys]
 
         def aux(node, parent=None, chain=None):
             if chain is None:
                 chain = [node.project_name]
-
             d = node.as_dict()
             if parent:
                 d['required_version'] = node.version_spec if node.version_spec else 'Any'
             else:
                 d['required_version'] = d['installed_version']
-
             d['dependencies'] = [
                 aux(c, parent=node, chain=chain + [c.project_name])
                 for c in tree.get_children(node.key)
                 if c.project_name not in chain
             ]
-
             return d
 
         return json.dumps([aux(p) for p in nodes], indent=indent)
 
     def parse_levels(self, pruned_list_of_dicts: typing.List[dict]):
-
         lod = pruned_list_of_dicts
         lc = self.levels_cache
         level = 0
@@ -118,7 +119,7 @@ class LevelsCheck:
                 if level == 1:
                     if len(dependencies) < 1:
                         lc.add(level, d)
-                        #print('P: {} {} -> D: None .. Level 0'.format(package_name, required_version))
+                        # print('P: {} {} -> D: None .. Level 0'.format(package_name, required_version))
                         # do not append to next
                     else:
                         next_lod.append(d)
@@ -132,20 +133,82 @@ class LevelsCheck:
                         #      .format(package_name, required_version, dependency_name, found_all_below))
                     if found_all_below:
                         lc.add(level, d)
-                        #print('P: {} {} -> Level {}  (found_all_below)'
+                        # print('P: {} {} -> Level {}  (found_all_below)'
                         #      .format(package_name, required_version, level))
                         # do not append to next
                     else:
                         next_lod.append(d)
-                        #print('P: {} {} -> Level {}  (NOT found_all_below)'
+                        # print('P: {} {} -> Level {}  (NOT found_all_below)'
                         #      .format(package_name, required_version, level))
-                #print('-' * 8)
+                # print('-' * 8)
             del lod
             lod = next_lod
             print('=' * 8)
         print('=' * 72)
         lc.show()
         return
+
+    def modify_requirements(self) -> bool:
+        req_src = self.requirements_txt
+        if not os.path.exists(req_src):
+            return False
+        with open(req_src, 'r') as f:
+            lines_org = f.readlines()
+        req_dst = req_src.replace('.txt', '.tmp')
+        if os.path.exists(req_dst):
+            os.remove(req_dst)
+
+        changed = False
+        fatal = False
+        seps = ['=', '>', '<', '~', '[']
+        lc = self.levels_cache
+        lines_new = []
+        for line_org in lines_org:
+            # print('{}'.format(line_org), end='')
+            if line_org[0] == '#' or line_org[0] == '\n':
+                lines_new.append(line_org)
+                continue
+            level = (-1)
+            for sep in seps:
+                parts = line_org.split(sep)
+                package = parts[0]
+                level = lc.find_level(key=package)
+                if level > 0:
+                    break
+            if level <= 0:
+                lines_new.append(line_org)
+                print('No package found in: {}'.format(line_org), end='')
+                fatal = True
+                continue
+            level_needed = 'LEVEL_{:0=2d}'.format(level)
+            if line_org.find(level_needed) >= 0:
+                # LEVEL_xy is correct
+                lines_new.append(line_org)
+                continue
+            # replace LEVEL_?? with level_needed
+            level_wrong = None
+            for l in range(self.levels_max):
+                level_wrong = 'LEVEL_{:0=2d}'.format(l)
+                if line_org.find(level_wrong) > 0:
+                    break
+            if level_wrong == None:
+                print('No LEVEL_?? found for \'{}\' in \'{}\''.format(level_needed, line_org), end='')
+                lines_new.append(line_org)
+                fatal = True
+                continue
+            line_new = line_org.replace(level_wrong, level_needed)
+            lines_new.append(line_new)
+            changed = True
+        # for
+        if fatal:
+            return False
+        if changed:
+            print('Writing: {}'.format(req_dst))
+            with open(req_dst, 'w') as f:
+                f.writelines(lines_new)
+        else:
+            print('All levels correct: {}'.format(req_src))
+        return True
 
     def prune_dependencies2(self, full_list_of_dicts: typing.List[dict]) -> typing.List[dict]:
         for d in full_list_of_dicts:
@@ -187,6 +250,7 @@ def main():
     lc = LevelsCheck()
     pruned_list_of_dicts = lc.get_packages_installed()
     lc.parse_levels(pruned_list_of_dicts)
+    lc.modify_requirements()
     return
 
 
