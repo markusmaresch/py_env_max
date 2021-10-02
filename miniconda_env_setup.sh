@@ -6,14 +6,23 @@ python_default_version="3.9"
 py_env_name="py_env_202110"  # change/count up
 
 pip_check_exit() {
-  pip check
+  pip_check_tmp="pip_check.tmp"
+  pip check | tee $pip_check_tmp
   ret=$?
+  echo "pip check ret: $ret"
   if [ $ret != 0 ]; then
-    echo
-    echo "pip check failed: ret=$ret"
-    echo
-    exit $ret
+    other_errors=$(grep -v -e ", which is not installed.$" $pip_check_tmp | wc -l | xargs)
+    echo "other_errors: $other_errors"
+    if [ $other_errors -gt 0 ]; then
+      echo
+      echo "pip check failed: ret=$ret"
+      echo
+      rm -f $pip_check_tmp
+      exit $ret
+    fi
+    echo "Ignoring not installed warnings .."
   fi
+  rm -f $pip_check_tmp
 }
 
 env_dir="$HOME/miniconda3/envs/${py_env_name}"

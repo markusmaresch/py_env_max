@@ -37,7 +37,7 @@ pipdeptree==2.1.0 # LEVEL_02 # INTERNAL # needed at the end of script for packag
 numpy==1.19.5 # LEVEL_01 # PRE_INSTALL_00 # LOCKED # tensorflow 2.5.0. wants 1.19.x;
 
 #
-# Low Level hard dependencies
+# Hard dependencies
 #
 gast==0.4.0 # LEVEL_01 # LOCKED # tensorflow requirement, generic ast
 six==1.15.0 # LEVEL_01 # LOCKED # tensorflow 2.5.0 requires it
@@ -48,6 +48,7 @@ h5py==3.1.0 # LEVEL_02 # LOCKED # tensorflow==2.6.0 requires h5py~=3.1.0
 google-auth==1.35.0 # LEVEL_03 # LOCKED # tensorboard==2.6.0 requires google-auth>=1.6.3,<2
 flatbuffers==1.12 # LOCKED # LEVEL_01 # tensorflow 2.6.0 requires flatbuffers~=1.12.0
 bokeh==2.3.3 # LEVEL_03 # LOCKED # 2.4.0 does not work easily just yet; typing-extensions and tensorflow !!
+jupyter-bokeh==3.0.3 # LEVEL_05 # LOCKED # 3.0.4 does not work easily just yet; typing-extensions and tensorflow !!
 #
 pystan==2.19.1.1 # LEVEL_02 # LOCKED # POST_INSTALL_00 # prophet 1.0.1 has requirement pystan~=2.19.1.1
 cmdstanpy==0.9.68 # LEVEL_04 # LOCKED # prophet==1.0.1 requires cmdstanpy==0.9.68
@@ -256,7 +257,6 @@ googletransx==2.4.2 # LEVEL_03
 # Jupyter
 #
 jupyter==1.0.0 # LEVEL_05
-jupyter-bokeh==3.0.3 # LEVEL_05
 jupyter-client==7.0.5 # LEVEL_03
 jupyter-console==6.4.0 # LEVEL_04
 jupyter-core==4.8.1 # LEVEL_02
@@ -283,7 +283,7 @@ beautifulsoup4==4.10.0 # LEVEL_02
 persist-queue==0.7.0 # LEVEL_01 # Use with iLock !! (or celery ?)
 cloudscraper==1.2.58 # LEVEL_03 # bypass Cloudflare's anti-bot page
 colorama==0.4.4 # LEVEL_01 Cross-platform colored terminal text
-filelock==3.1.0 # LEVEL_01
+filelock==3.2.0 # LEVEL_01
 flake8==3.9.2 # LEVEL_02 # better linter than pyflakes
 gprof2dot==2021.2.21 # LEVEL_01 # attempt to visualize cProfile
 pydeps==1.10.5 # LEVEL_02 # cd src/main; pydeps .; open main.svg
@@ -310,7 +310,7 @@ anyio==3.3.2 # LEVEL_02
 appdirs==1.4.4 # LEVEL_01
 appnope==0.1.2 # LEVEL_01
 argon2-cffi==21.1.0 # LEVEL_03
-arrow==1.1.1 # LEVEL_03
+arrow==1.2.0 # LEVEL_03
 ast-decompiler==0.4.0 # LEVEL_01
 astunparse==1.6.3 # LEVEL_02
 async-timeout==3.0.1 # LEVEL_01
@@ -320,7 +320,7 @@ backcall==0.2.0 # LEVEL_01
 bleach==4.1.0 # LEVEL_03
 blis==0.7.4 # LEVEL_02
 brotli==1.0.9 # LEVEL_01
-cachetools==4.2.2 # LEVEL_01
+cachetools==4.2.4 # LEVEL_01
 catalogue==2.0.6 # LEVEL_01
 cchardet==2.1.7 # LEVEL_01
 cffi==1.14.6 # LEVEL_02
@@ -346,7 +346,7 @@ docutils==0.17.1 # LEVEL_01
 elasticsearch==7.15.0 # LEVEL_02
 email-validator==1.1.3 # LEVEL_02
 entrypoints==0.3 # LEVEL_01
-ephem==4.0.0.2 # LEVEL_01
+ephem==4.1 # LEVEL_01
 et-xmlfile==1.1.0 # LEVEL_01
 eventkit==0.8.8 # LEVEL_02
 fake-useragent==0.1.11 # LEVEL_01
@@ -354,7 +354,7 @@ flask==2.0.1 # LEVEL_03
 flask-compress==1.10.1 # LEVEL_03
 flask-seasurf==0.3.1 # LEVEL_03
 freetype-py==2.2.0 # LEVEL_01
-fsspec==2021.9.0 # LEVEL_01
+fsspec==2021.10.0 # LEVEL_01
 future==0.18.2 # LEVEL_01
 geographiclib==1.52 # LEVEL_01
 geopy==2.2.0 # LEVEL_02
@@ -420,7 +420,7 @@ preshed==3.0.5 # LEVEL_02
 prometheus-client==0.11.0 # LEVEL_01
 promise==2.3 # LEVEL_02
 prompt-toolkit==3.0.20 # LEVEL_02
-proto-plus==1.19.1 # LEVEL_02
+proto-plus==1.19.2 # LEVEL_02
 protobuf==3.18.0 # LEVEL_01
 psutil==5.8.0 # LEVEL_01
 ptyprocess==0.7.0 # LEVEL_01
@@ -447,12 +447,12 @@ pysocks==1.7.1 # LEVEL_01
 python-dateutil==2.8.2 # LEVEL_02 (depends on six)
 python-slugify==5.0.2 # LEVEL_02
 python-socks==1.2.4 # LEVEL_01
-pytz==2021.1 # LEVEL_01
+pytz==2021.3 # LEVEL_01
 pywavelets==1.1.1 # LEVEL_02
 pyyaml==5.4.1 # LEVEL_01
 pyzmq==22.3.0 # LEVEL_01
 qcore==1.7.0 # LEVEL_02
-regex==2021.9.24 # LEVEL_01
+regex==2021.9.30 # LEVEL_01
 requests==2.26.0 # LEVEL_02
 requests-cache==0.8.1 # LEVEL_03
 requests-oauthlib==1.3.0 # LEVEL_02
@@ -475,7 +475,7 @@ sniffio==1.2.0 # LEVEL_01
 sortedcontainers==2.4.0 # LEVEL_01 # Python Sorted Container Types: SortedList, SortedDict, and SortedSet
 soupsieve==2.2.1 # LEVEL_01
 srsly==2.4.1 # LEVEL_02
-statsmodels==0.12.2 # LEVEL_03
+statsmodels==0.13.0 # LEVEL_03
 stdlib-list==0.8.0 # LEVEL_01
 stumpy==1.9.2 # LEVEL_02
 tabulate==0.8.9 # LEVEL_01
