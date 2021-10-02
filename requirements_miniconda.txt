@@ -43,17 +43,17 @@ gast==0.4.0 # LEVEL_01 # LOCKED # tensorflow requirement, generic ast
 six==1.15.0 # LEVEL_01 # LOCKED # tensorflow 2.5.0 requires it
 typing-extensions==3.7.4.3 # LEVEL_01 # LOCKED # tensorflow==2.6.0 requires ~3.7.4
 clang==5.0 # LEVEL_01 # LOCKED # tensorflow==2.6.0 requires clang~=5.0
-absl-py==0.12.0 # LOCKED # LEVEL_02 # tensorflow-metadata 1.2.0 has requirement absl-py<0.13,>=0.9
+absl-py==0.12.0 # LEVEL_02 # LOCKED # tensorflow-metadata 1.2.0 has requirement absl-py<0.13,>=0.9
 h5py==3.1.0 # LEVEL_02 # LOCKED # tensorflow==2.6.0 requires h5py~=3.1.0
 google-auth==1.35.0 # LEVEL_03 # LOCKED # tensorboard==2.6.0 requires google-auth>=1.6.3,<2
-flatbuffers==1.12 # LOCKED # LEVEL_01 # tensorflow 2.6.0 requires flatbuffers~=1.12.0
+flatbuffers==1.12 # LEVEL_01 # LOCKED # tensorflow 2.6.0 requires flatbuffers~=1.12.0
 bokeh==2.3.3 # LEVEL_03 # LOCKED # 2.4.0 does not work easily just yet; typing-extensions and tensorflow !!
 jupyter-bokeh==3.0.3 # LEVEL_05 # LOCKED # 3.0.4 does not work easily just yet; typing-extensions and tensorflow !!
 #
 pystan==2.19.1.1 # LEVEL_02 # LOCKED # POST_INSTALL_00 # prophet 1.0.1 has requirement pystan~=2.19.1.1
 cmdstanpy==0.9.68 # LEVEL_04 # LOCKED # prophet==1.0.1 requires cmdstanpy==0.9.68
 #
-graphviz==0.17  # LEVEL_00 # needed for dependecy graphing .. missing dependencies, but still needed
+graphviz==0.17 # LEVEL_01 # needed for dependecy graphing .. missing dependencies, but still needed
 #
 
 #
@@ -486,7 +486,7 @@ terminado==0.12.1 # LEVEL_02
 testpath==0.5.0 # LEVEL_01
 text-unidecode==1.3 # LEVEL_01
 thinc==8.0.10 # LEVEL_02
-threadpoolctl==3.0.0  # LEVEL_01
+threadpoolctl==3.0.0 # LEVEL_01
 toml==0.10.2 # LEVEL_01
 tomlkit==0.7.2 # LEVEL_01
 tornado==6.1 # LEVEL_01 # A Python web framework and asynchronous networking library
