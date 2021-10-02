@@ -192,13 +192,13 @@ finta==1.3 # LEVEL_04
 ib-insync==0.9.66 # LEVEL_02 # InteractiveBrokers 3rd party trading api ip_insync; dataclasses # if necessary
 iexfinance==0.5.0 # LEVEL_04
 intrinio-sdk==5.15.0 # LEVEL_03
-oandapyV20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console
+oandapyv20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console
 tiingo==0.14.0 # LEVEL_02 # Python REST Client for interacting with the Tiingo Financial Data API https://pypi.org/project/tiingo
 # alpaca-trade-api>=1.3.0 # old dependencies
 # histdata-downloader npyscreen # Forex Downloader
 #
-pandas_market_calendars==3.1 # LEVEL_04
-exchange_calendars==3.3 # LEVEL_04
+pandas-market-calendars==3.1 # LEVEL_04
+exchange-calendars==3.3 # LEVEL_04
 pandas-finance==0.1.2 # LEVEL_04
 mplfinance==0.12.7a17 # LEVEL_04
 #
