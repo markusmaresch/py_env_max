@@ -82,7 +82,7 @@ tensorflow-datasets==4.4.0 # LEVEL_03
 tensorflow-estimator==2.6.0 # LEVEL_01
 tensorflow-hub==0.12.0 # LEVEL_02
 tensorflow-metadata==1.2.0 # LEVEL_02
-tensorflow-model-optimization==0.6.0 # LEVEL_02
+tensorflow-model-optimization==0.7.0 # LEVEL_02
 tensorflow-text==2.6.0 # LEVEL_03
 tf-models-official==2.6.0 # LEVEL_04
 tf-slim==1.1.0 # LEVEL_02
@@ -141,8 +141,8 @@ babel==2.9.1 # LEVEL_02
 bert-for-tf2==0.14.9 # LEVEL_03
 bertviz==1.2.0 # LEVEL_05 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger
 sentencepiece==0.1.96 # LEVEL_01 # for BERT
-boto3==1.18.51 # LEVEL_04 # required by bertviz
-botocore==1.21.51 # LEVEL_03 # required by boto3
+boto3==1.18.53 # LEVEL_04 # required by bertviz
+botocore==1.21.53 # LEVEL_03 # required by boto3
 #
 spacy==3.1.3 # LEVEL_03
 spacy-legacy==3.0.8 # LEVEL_01
@@ -170,7 +170,7 @@ dask-ml==1.9.0 # LEVEL_04
 distributed==2021.9.1 # LEVEL_03
 scikit-image==0.18.3 # LEVEL_03
 scikit-learn==1.0 # LEVEL_03
-pyod==0.9.3 # LEVEL_04 # outlyer detection
+pyod==0.9.4 # LEVEL_04 # outlyer detection
 
 #
 # Computer Vision
@@ -213,7 +213,7 @@ ta-lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip instal
 #
 qtconsole==5.1.1 # LEVEL_04
 qtpy==1.11.2 # LEVEL_01
-pysimplegui==4.48.0 # LEVEL_01
+pysimplegui==4.49.0 # LEVEL_01
 pyqt5==5.15.4 # LEVEL_02
 pyqt5-qt5==5.15.2 # LEVEL_01
 pyqt5-sip==12.9.0 # LEVEL_01
