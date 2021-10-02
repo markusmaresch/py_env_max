@@ -283,17 +283,17 @@ beautifulsoup4==4.10.0 # LEVEL_02
 persist-queue==0.7.0 # LEVEL_01 # Use with iLock !! (or celery ?)
 cloudscraper==1.2.58 # LEVEL_04 # bypass Cloudflare's anti-bot page
 colorama==0.4.4 # LEVEL_01 Cross-platform colored terminal text
-filelock==3.2.0 # LEVEL_01
+filelock==3.2.1 # LEVEL_01
 flake8==3.9.2 # LEVEL_02 # better linter than pyflakes
 gprof2dot==2021.2.21 # LEVEL_01 # attempt to visualize cProfile
-pydeps==1.10.5 # LEVEL_02 # cd src/main; pydeps .; open main.svg
+pydeps==1.10.10 # LEVEL_02 # cd src/main; pydeps .; open main.svg
 autopep8==1.5.7 # LEVEL_02 # using fix_file ..
 mypy==0.910 # LEVEL_02
 mypy-extensions==0.4.3 # LEVEL_01 # investigate more for automated checking
 pytype==2021.9.27 # LEVEL_04
 importlab==0.6.1 # LEVEL_02
 libcst==0.3.21 # LEVEL_03
-ninja==1.10.2 # LEVEL_01
+ninja==1.10.2.1 # LEVEL_01
 
 #
 # Low level dependencies
