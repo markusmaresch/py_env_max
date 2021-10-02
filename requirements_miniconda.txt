@@ -377,7 +377,7 @@ jinja2==3.0.1 # LEVEL_02
 jmespath==0.10.0 # LEVEL_01
 joblib==1.0.1 # LEVEL_01
 json5==0.9.6 # LEVEL_01
-jsonschema==3.2.0 # LEVEL_02
+jsonschema==4.0.1 # LEVEL_02
 korean-lunar-calendar==0.2.1 # LEVEL_01
 llvmlite==0.37.0 # LEVEL_01
 locket==0.2.1 # LEVEL_01
@@ -486,7 +486,7 @@ terminado==0.12.1 # LEVEL_02
 testpath==0.5.0 # LEVEL_01
 text-unidecode==1.3 # LEVEL_01
 thinc==8.0.10 # LEVEL_02
-threadpoolctl==2.2.0  # LEVEL_01
+threadpoolctl==3.0.0  # LEVEL_01
 toml==0.10.2 # LEVEL_01
 tomlkit==0.7.2 # LEVEL_01
 tornado==6.1 # LEVEL_01 # A Python web framework and asynchronous networking library
