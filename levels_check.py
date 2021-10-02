@@ -108,7 +108,7 @@ class LevelsCheck:
             level += 1
             if level >= self.levels_max:
                 break
-            print('Level {} .. {} packages'.format(level, len(lod)))
+            # print('Level {} .. {} packages'.format(level, len(lod)))
             if len(lod) < 1:
                 break
             next_lod = list()
@@ -143,9 +143,9 @@ class LevelsCheck:
                 # print('-' * 8)
             del lod
             lod = next_lod
-            print('=' * 8)
-        print('=' * 72)
-        lc.show()
+            # print('=' * 8)
+        # print('=' * 72)
+        # lc.show()
         return
 
     def modify_requirements(self) -> bool:

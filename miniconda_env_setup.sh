@@ -53,7 +53,7 @@ requirements_all="requirements_miniconda.txt" # could be more, but this is not g
 lines_no_label=$(grep -v -e "^#" $requirements_all | grep -v -e '^$' | grep -v -e " LEVEL_[0-9][0-9]" | sort)
 if [ -n "$lines_no_label" ]; then
   num_no_label=$(echo "$lines_no_label" | wc -l | xargs)
-  echo "Unlabeled: LABEL's: $num_no_label .. need to fix first (may add the highest level used)"
+  echo "Unlabeled: LABEL's: $num_no_label .. need to fix first (may add as LEVEL_99)"
   echo "--------"
   echo "$lines_no_label"
   echo "^^^^^^^^"
@@ -71,19 +71,24 @@ if [ 1 -eq 1 ]; then
   # LEVEL_01 .. like: pipdeptree
   # LEVEL_02 .. like: convertdate
   # LEVEL_03 .. like: pandas
-  ##POST_INSTALL_00 # NOT_USED: after everything else, like: pystan
-  tags="PRE_INSTALL_00 NO_CACHE_DIR LEVEL_01 LEVEL_02 LEVEL_03 LEVEL_04 LEVEL_05 LEVEL_06 LEVEL_07"
+  # ...
+  tags="PRE_INSTALL_00 NO_CACHE_DIR"
+  for i in $(seq 1 1 19); do
+    num=$(printf "%02d" $i)
+    level_xx="LEVEL_$num"
+    tags="$tags $level_xx"
+  done
   for tag in $tags; do
     echo "Pre Install Tag: $tag"
     requirements_tmp="requirements_${tag}.txt"
     grep -e "${tag}" $requirements_all > $requirements_tmp
     num_lines=$(cat $requirements_tmp | wc -l | xargs)
     if [ $num_lines -lt 1 ]; then
-      echo "Ignoring $requirements_tmp .. no packages !"
+      echo "Ignoring $requirements_tmp .. no more packages ..."
       rm -f $requirements_tmp
-      continue
+      break
     fi
-    echo "Pre-Installing $requirements_tmp .. $num_lines packages"
+    echo "Installing $requirements_tmp .. $num_lines packages"
     if [ "$tag" == "NO_CACHE_DIR" ]; then
       ncd="--no-cache-dir"
     else
@@ -96,18 +101,5 @@ if [ 1 -eq 1 ]; then
     echo
   done
 fi
-
-#exit 0
-
-for requirements_one in $requirements_all; do
-  if [ 1 -eq 1 ]; then
-    break # NOT NEEDED ANY MORE ?!
-  fi
-  cmd="pip install -r $requirements_one"
-  $cmd
-  echo
-  echo "Done: $?: $cmd  ... now checking"
-  pip_check_exit
-done
 
 exit 0
