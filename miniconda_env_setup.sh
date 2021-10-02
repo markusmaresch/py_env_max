@@ -79,12 +79,13 @@ if [ 1 -eq 1 ]; then
     tags="$tags $level_xx"
   done
   for tag in $tags; do
-    echo "Pre Install Tag: $tag"
+    #echo "Install Tag: $tag"
     requirements_tmp="requirements_${tag}.txt"
     grep -e "${tag}" $requirements_all > $requirements_tmp
     num_lines=$(cat $requirements_tmp | wc -l | xargs)
     if [ $num_lines -lt 1 ]; then
       echo "Ignoring $requirements_tmp .. no more packages ..."
+      echo
       rm -f $requirements_tmp
       break
     fi
@@ -94,7 +95,7 @@ if [ 1 -eq 1 ]; then
     else
       ncd=""
     fi
-    pip install $ncd -r $requirements_tmp
+    pip install $ncd -r $requirements_tmp | grep -v -e "^Requirement already satisfied: "
     pip_check_exit
     rm -f $requirements_tmp
     echo "Done: $tag"
