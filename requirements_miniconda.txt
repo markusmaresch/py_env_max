@@ -45,9 +45,9 @@ typing-extensions==3.7.4.3 # LEVEL_01 # LOCKED # tensorflow==2.6.0 requires ~3.7
 clang==5.0 # LEVEL_01 # LOCKED # tensorflow==2.6.0 requires clang~=5.0
 absl-py==0.12.0 # LOCKED # LEVEL_02 # tensorflow-metadata 1.2.0 has requirement absl-py<0.13,>=0.9
 h5py==3.1.0 # LEVEL_02 # LOCKED # tensorflow==2.6.0 requires h5py~=3.1.0
-google-auth==1.35.0 # LOCKED # tensorboard==2.6.0 requires google-auth>=1.6.3,<2
+google-auth==1.35.0 # LEVEL_03 # LOCKED # tensorboard==2.6.0 requires google-auth>=1.6.3,<2
 flatbuffers==1.12 # LOCKED # LEVEL_01 # tensorflow 2.6.0 requires flatbuffers~=1.12.0
-bokeh==2.3.3 # LOCKED # 2.4.0 does not work easily just yet; typing-extensions and tensorflow !!
+bokeh==2.3.3 # LEVEL_03 # LOCKED # 2.4.0 does not work easily just yet; typing-extensions and tensorflow !!
 #
 pystan==2.19.1.1 # LEVEL_02 # LOCKED # POST_INSTALL_00 # prophet 1.0.1 has requirement pystan~=2.19.1.1
 cmdstanpy==0.9.68 # LOCKED # prophet==1.0.1 requires cmdstanpy==0.9.68
@@ -59,11 +59,11 @@ graphviz==0.17  # LEVEL_00 # needed for dependecy graphing .. missing dependenci
 # Generic Low Level Tools
 #
 pandas==1.3.3 # LEVEL_03
-pandas-datareader==0.10.0
-matplotlib==3.4.3
+pandas-datareader==0.10.0 # LEVEL_03
+matplotlib==3.4.3 # LEVEL_03
 matplotlib-inline==0.1.3 # LEVEL_02
 scipy==1.7.1 # LEVEL_02 # Scientific Library for Python
-seaborn==0.11.2 # Statistical data visualization
+seaborn==0.11.2 # LEVEL_03 # Statistical data visualization
 numba==0.54.0 # LEVEL_02
 openpyxl==3.0.9 # LEVEL_02
 xlsxwriter==3.0.1 # LEVEL_01 needed for pandas XLSX ...
@@ -73,49 +73,49 @@ toolz==0.11.1 # LEVEL_01
 #
 # Machine Learning
 #
-tensorboard==2.6.0
+tensorboard==2.6.0 # LEVEL_03
 tensorboard-data-server==0.6.1 # LEVEL_01
 tensorboard-plugin-wit==1.8.0 # LEVEL_01
-tensorflow==2.6.0
+tensorflow==2.6.0 # LEVEL_03
 tensorflow-addons==0.14.0 # LEVEL_02
-tensorflow-datasets==4.4.0
+tensorflow-datasets==4.4.0 # LEVEL_03
 tensorflow-estimator==2.6.0 # LEVEL_01
 tensorflow-hub==0.12.0 # LEVEL_02
 tensorflow-metadata==1.2.0 # LEVEL_02
 tensorflow-model-optimization==0.6.0 # LEVEL_02
-tensorflow-text==2.6.0
+tensorflow-text==2.6.0 # LEVEL_03
 tf-models-official==2.6.0
 tf-slim==1.1.0 # LEVEL_02
 #
 keras==2.6.0 # LEVEL_01
 keras-preprocessing==1.1.2 # LEVEL_02
 #
-huggingface-hub==0.0.17
+huggingface-hub==0.0.17 # LEVEL_03
 #
 xgboost==1.4.2 # LEVEL_02 # check installation notes
 #
 pyro-api==0.1.2 # LEVEL_01 # probabilistic modeling and inference
-pyro-ppl==1.7.0
+pyro-ppl==1.7.0 # LEVEL_03
 #
 torch==1.9.1 # LEVEL_02
-torch-optimizer==0.1.0
+torch-optimizer==0.1.0 # LEVEL_03
 torchaudio==0.9.1 # LEVEL_02
 torchvision==0.10.1 # LEVEL_02
-pytorch-ranger==0.1.1
+pytorch-ranger==0.1.1 # LEVEL_03
 #
 theano==1.0.5 # LEVEL_02
 nose==1.3.7 # LEVEL_01
 #
 fastai==2.5.2
-fastcore==1.3.26
-fastdownload==0.0.5
+fastcore==1.3.26 # LEVEL_03
+fastdownload==0.0.5 # LEVEL_03
 fastprogress==1.0.0 # LEVEL_02
 #
-h2o==3.34.0.1
+h2o==3.34.0.1 # LEVEL_03
 #
 gym==0.20.0 # LEVEL_02
 #
-gensim==4.1.2
+gensim==4.1.2 # LEVEL_03
 #
 #ktrain>=0.27.2
 #
@@ -129,7 +129,7 @@ prophet==1.0.1  # time series forecasts from Facebook, depends on pandas
 cython==0.29.24 # LEVEL_01 # pystan: cython!=0.25.1,>=0.22
 convertdate==2.3.2 # LEVEL_02 # for prophet (requires pytz, pymeeus)
 lunarcalendar==0.0.9 # LEVEL_03 # for prophet
-holidays==0.11.3.1 # for prophet
+holidays==0.11.3.1 # LEVEL_03 # for prophet
 
 #
 # NLP
@@ -138,24 +138,24 @@ nltk==3.6.3 # LEVEL_02
 #
 babel==2.9.1 # LEVEL_02
 #
-bert-for-tf2==0.14.9
+bert-for-tf2==0.14.9 # LEVEL_03
 bertviz==1.2.0  # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger
 sentencepiece==0.1.96 # LEVEL_01 # for BERT
 boto3==1.18.51 # required by bertviz
-botocore==1.21.51 # required by boto3
+botocore==1.21.51 # LEVEL_03 # required by boto3
 #
-spacy==3.1.3
+spacy==3.1.3 # LEVEL_03
 spacy-legacy==3.0.8 # LEVEL_01
-spacytextblob==3.0.1
+spacytextblob==3.0.1 # LEVEL_03
 # spacy-transformers  # downgrades transformers !!
 #
-transformers==4.11.2
+transformers==4.11.2 # LEVEL_03
 datasets==1.12.1
 #
 tokenizers==0.10.3 # LEVEL_01
 #
 textblob==0.15.3 # LEVEL_02
-wordcloud==1.8.1
+wordcloud==1.8.1 # LEVEL_03
 #
 #newspaper3k>=0.2.8
 
@@ -163,13 +163,13 @@ wordcloud==1.8.1
 # Data Science
 #
 imbalanced-learn==0.8.1
-kaggle==1.5.12
-dask[complete]==2021.9.1
+kaggle==1.5.12 # LEVEL_03
+dask[complete]==2021.9.1 # LEVEL_03
 dask-glm==0.2.0
 dask-ml==1.9.0
-distributed==2021.9.1
-scikit-image==0.18.3
-scikit-learn==1.0
+distributed==2021.9.1 # LEVEL_03
+scikit-image==0.18.3 # LEVEL_03
+scikit-learn==1.0 # LEVEL_03
 pyod==0.9.3  # outlyer detection
 
 #
@@ -184,13 +184,13 @@ tifffile==2021.8.30 # LEVEL_02
 #
 # Finance
 #
-alpha-vantage==2.3.1
-coinpaprika==0.1.0
+alpha-vantage==2.3.1 # LEVEL_03
+coinpaprika==0.1.0 # LEVEL_03
 empyrical==0.5.5 # empyrical 0.5.3 - technical analysis: Common financial risk metrics
 finta==1.3 # https://pypi.org/project/finta (pip install --upgrade finta ... for >= 0.4.1
 ib-insync==0.9.66 # LEVEL_02 # InteractiveBrokers 3rd party trading api ip_insync; dataclasses # if necessary
 iexfinance==0.5.0 #
-intrinio-sdk==5.15.0
+intrinio-sdk==5.15.0 # LEVEL_03
 oandapyV20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console
 tiingo==0.14.0 # LEVEL_02 # Python REST Client for interacting with the Tiingo Financial Data API https://pypi.org/project/tiingo
 # alpaca-trade-api>=1.3.0 # old dependencies
@@ -202,10 +202,10 @@ pandas-finance==0.1.2
 mplfinance==0.12.7a17
 #
 yahoofinancials==1.6 # LEVEL_02 # https://github.com/JECSand/yahoofinancials
-yfinance==0.1.63 # https://github.com/ranaroussi/yfinance
+yfinance==0.1.63 # LEVEL_03 # https://github.com/ranaroussi/yfinance
 #
 pyfolio==0.9.2 # https://github.com/quantopian/pyfolio ; https://www.quantopian.com/docs/user-guide/tools/pyfolio
-py-vollib==1.0.1 # option pricing
+py-vollib==1.0.1 # LEVEL_03 # option pricing
 ta-lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip install --upgrade --no-cache-dir ta-lib # sometimes needed
 
 #
@@ -214,7 +214,7 @@ ta-lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip instal
 qtconsole==5.1.1
 qtpy==1.11.2 # LEVEL_01
 pysimplegui==4.48.0 # LEVEL_01
-pyQt5==5.15.4 # LEVEL_02
+pyqt5==5.15.4 # LEVEL_02
 pyqt5-qt5==5.15.2 # LEVEL_01
 pyqt5-sip==12.9.0 # LEVEL_01
 pyqtgraph==0.12.2 # LEVEL_02 # for Chaos
@@ -246,22 +246,22 @@ dash-table==5.0.0 # LEVEL_01
 #
 google-api-core==2.0.1
 google-api-python-client==2.23.0
-google-auth-httplib2==0.1.0
-google-auth-oauthlib==0.4.6
+google-auth-httplib2==0.1.0 # LEVEL_03
+google-auth-oauthlib==0.4.6 # LEVEL_03
 google-pasta==0.2.0 # LEVEL_02
 googleapis-common-protos==1.53.0 # LEVEL_02
-googletransx==2.4.2
+googletransx==2.4.2 # LEVEL_03
 
 #
 # Jupyter
 #
 jupyter==1.0.0
 jupyter-bokeh==3.0.3
-jupyter-client==7.0.5
+jupyter-client==7.0.5 # LEVEL_03
 jupyter-console==6.4.0
 jupyter-core==4.8.1 # LEVEL_02
 jupyter-dash==0.4.0
-jupyter-packaging==0.10.6
+jupyter-packaging==0.10.6 # LEVEL_03
 jupyter-server==1.11.0
 jupyter-server-proxy==3.1.0
 jupyterlab==3.1.14
@@ -273,7 +273,7 @@ jupyterlab-widgets==1.0.2 # LEVEL_01
 #
 # Network
 #
-twint==2.1.20 # Twitter downloader
+twint==2.1.20 # LEVEL_03 # Twitter downloader
 #dropbox>=11.14.0  # DropBox API
 
 #
@@ -281,7 +281,7 @@ twint==2.1.20 # Twitter downloader
 #
 beautifulsoup4==4.10.0 # LEVEL_02
 persist-queue==0.7.0 # LEVEL_01 # Use with iLock !! (or celery ?)
-cloudscraper==1.2.58 # bypass Cloudflare's anti-bot page
+cloudscraper==1.2.58 # LEVEL_03 # bypass Cloudflare's anti-bot page
 colorama==0.4.4 # LEVEL_01 Cross-platform colored terminal text
 filelock==3.1.0 # LEVEL_01
 flake8==3.9.2 # LEVEL_02 # better linter than pyflakes
@@ -290,9 +290,9 @@ pydeps==1.10.5 # LEVEL_02 # cd src/main; pydeps .; open main.svg
 autopep8==1.5.7 # LEVEL_02 # using fix_file ..
 mypy==0.910 # LEVEL_02
 mypy-extensions==0.4.3 # LEVEL_01 # investigate more for automated checking
-pytype==2021.9.27
+pytype==2021.9.27 # LEVEL_03
 importlab==0.6.1 # LEVEL_02
-libcst==0.3.21
+libcst==0.3.21 # LEVEL_03
 ninja==1.10.2 # LEVEL_01
 
 #
@@ -301,23 +301,23 @@ ninja==1.10.2 # LEVEL_01
 ##################################################################
 
 aenum==3.1.0 # LEVEL_01
-aiodns==3.0.0
-aiohttp==3.7.4.post0 # Async http client/server framework (asyncio)
-aiohttp-socks==0.6.0
+aiodns==3.0.0 # LEVEL_03
+aiohttp==3.7.4.post0 # LEVEL_03 # Async http client/server framework (asyncio)
+aiohttp-socks==0.6.0 # LEVEL_03
 altgraph==0.17.2 # LEVEL_01
 ansi2html==1.6.0 # LEVEL_01
 anyio==3.3.2 # LEVEL_02
 appdirs==1.4.4 # LEVEL_01
 appnope==0.1.2 # LEVEL_01
-argon2-cffi==21.1.0
-arrow==1.1.1
+argon2-cffi==21.1.0 # LEVEL_03
+arrow==1.1.1 # LEVEL_03
 ast-decompiler==0.4.0 # LEVEL_01
 astunparse==1.6.3 # LEVEL_02
 async-timeout==3.0.1 # LEVEL_01
-asynq==1.4.0
+asynq==1.4.0 # LEVEL_03
 attrs==21.2.0 # LEVEL_01
 backcall==0.2.0 # LEVEL_01
-bleach==4.1.0
+bleach==4.1.0 # LEVEL_03
 blis==0.7.4 # LEVEL_02
 brotli==1.0.9 # LEVEL_01
 cachetools==4.2.2 # LEVEL_01
@@ -326,19 +326,19 @@ cchardet==2.1.7 # LEVEL_01
 cffi==1.14.6 # LEVEL_02
 chardet==4.0.0 # LEVEL_01
 charset-normalizer==2.0.6 # LEVEL_01
-chart-studio==1.1.0
+chart-studio==1.1.0 # LEVEL_03
 click==8.0.1 # LEVEL_01 # Python composable command line interface toolkit
 cloudpickle==2.0.0 # LEVEL_01
 codemod==1.0.0 # LEVEL_01
 commonmark==0.9.1 # LEVEL_01
 coverage==5.5 # LEVEL_01
-croniter==1.0.15
+croniter==1.0.15 # LEVEL_03
 cycler==0.10.0 # LEVEL_02
 cymem==2.0.5 # LEVEL_01
 debugpy==1.4.3 # LEVEL_01
 decorator==5.1.0 # LEVEL_01
 defusedxml==0.7.1 # LEVEL_01
-deprecation==2.1.0
+deprecation==2.1.0 # LEVEL_03
 dill==0.3.4 # LEVEL_01
 dm-tree==0.1.6 # LEVEL_02
 dnspython==2.1.0 # LEVEL_01
@@ -367,7 +367,7 @@ httplib2==0.19.1 # LEVEL_02
 idna==3.2 # LEVEL_01
 importlib-resources==5.2.2 # LEVEL_02
 ipykernel==6.4.1
-ipython==7.28.0
+ipython==7.28.0 # LEVEL_03
 ipython-genutils==0.2.0 # LEVEL_01
 ipywidgets==7.6.5
 iso8601==0.1.16 # LEVEL_01
@@ -396,13 +396,13 @@ multiprocess==0.70.12.2 # LEVEL_02
 multitasking==0.0.9 # LEVEL_01
 murmurhash==1.0.5 # LEVEL_01
 nbclassic==0.3.2
-nbclient==0.5.4
-nbconvert==6.2.0
+nbclient==0.5.4 # LEVEL_03
+nbconvert==6.2.0 # LEVEL_03
 nbformat==5.1.3 # LEVEL_02
 nest-asyncio==1.5.1 # LEVEL_01
 netifaces==0.11.0 # LEVEL_01
 notebook==6.4.4
-oauth2client==4.1.3
+oauth2client==4.1.3 # LEVEL_03
 oauthlib==3.1.1 # LEVEL_01
 opt-einsum==3.3.0 # LEVEL_02
 packaging==21.0 # LEVEL_02
@@ -410,7 +410,7 @@ pandocfilters==1.5.0 # LEVEL_01
 params-flow==0.8.2 # LEVEL_02
 parso==0.8.2 # LEVEL_01
 partd==1.2.0 # LEVEL_02
-pathy==0.6.0
+pathy==0.6.0 # LEVEL_03
 patsy==0.5.2 # LEVEL_02
 pexpect==4.8.0 # LEVEL_02
 pickleshare==0.7.5 # LEVEL_01
@@ -427,12 +427,12 @@ ptyprocess==0.7.0 # LEVEL_01
 py-cpuinfo==8.0.0 # LEVEL_01
 py-lets-be-rational==1.0.1 # LEVEL_02
 py-params==0.10.2 # LEVEL_01
-pyanalyze==0.3.1
+pyanalyze==0.3.1 # LEVEL_03
 pyarrow==5.0.0 # LEVEL_02
 pyasn1==0.4.8 # LEVEL_01
 pyasn1-modules==0.2.8 # LEVEL_02
 pycares==4.0.0 # LEVEL_02
-pycocotools==2.0.2
+pycocotools==2.0.2 # LEVEL_03
 pycodestyle==2.7.0 # LEVEL_01
 pycparser==2.20 # LEVEL_01
 pydantic==1.8.2 # LEVEL_02
@@ -454,19 +454,19 @@ pyzmq==22.3.0 # LEVEL_01
 qcore==1.7.0 # LEVEL_02
 regex==2021.9.24 # LEVEL_01
 requests==2.26.0 # LEVEL_02
-requests-cache==0.8.1
+requests-cache==0.8.1 # LEVEL_03
 requests-oauthlib==1.3.0 # LEVEL_02
 requests-toolbelt==0.9.1 # LEVEL_02
 requests-unixsocket==0.2.0 # LEVEL_02
 retrying==1.3.3 # LEVEL_02
 rich==10.11.0 # LEVEL_02
 rsa==4.7.2 # LEVEL_02
-s3transfer==0.5.0
+s3transfer==0.5.0 # LEVEL_03
 sacrebleu==2.0.0 # LEVEL_02
 sacremoses==0.0.46 # LEVEL_02
 schedule==1.1.0 # LEVEL_01
 send2trash==1.8.0 # LEVEL_01
-seqeval==1.2.2
+seqeval==1.2.2 # LEVEL_03
 setuptools-git==1.2 # LEVEL_01
 simpervisor==0.4 # LEVEL_01
 simplejson==3.17.5 # LEVEL_01
@@ -475,7 +475,7 @@ sniffio==1.2.0 # LEVEL_01
 sortedcontainers==2.4.0 # LEVEL_01 # Python Sorted Container Types: SortedList, SortedDict, and SortedSet
 soupsieve==2.2.1 # LEVEL_01
 srsly==2.4.1 # LEVEL_02
-statsmodels==0.12.2
+statsmodels==0.12.2 # LEVEL_03
 stdlib-list==0.8.0 # LEVEL_01
 stumpy==1.9.2 # LEVEL_02
 tabulate==0.8.9 # LEVEL_01
