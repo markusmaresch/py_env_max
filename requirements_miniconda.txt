@@ -425,7 +425,7 @@ prometheus-client==0.11.0 # LEVEL_01
 promise==2.3 # LEVEL_02
 prompt-toolkit==3.0.20 # LEVEL_02
 proto-plus==1.19.2 # LEVEL_02
-protobuf==3.18.0 # LEVEL_01
+protobuf==3.18.1 # LEVEL_01
 psutil==5.8.0 # LEVEL_01
 ptyprocess==0.7.0 # LEVEL_01
 py-cpuinfo==8.0.0 # LEVEL_01
