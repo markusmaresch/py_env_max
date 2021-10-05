@@ -181,7 +181,8 @@ opencv-python-headless==4.5.3.56 # LEVEL_02
 pillow==8.3.2 # LEVEL_01
 imageio==2.9.0 # LEVEL_02
 tifffile==2021.8.30 # LEVEL_02
-
+#
+openvino==2021.4.1 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org
 #
 # Finance
 #

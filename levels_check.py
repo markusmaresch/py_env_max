@@ -158,7 +158,7 @@ class LevelsCheck:
         if os.path.exists(req_dst):
             os.remove(req_dst)
 
-        changed = False
+        changes = 0
         fatal = False
         seps = ['=', '>', '<', '~', '[']
         lc = self.levels_cache
@@ -187,7 +187,7 @@ class LevelsCheck:
                 continue
             # replace LEVEL_?? with level_needed
             level_wrong = None
-            for l in range(self.levels_max):
+            for l in range(100):  # we allow _xy with 2 digits
                 level_wrong = 'LEVEL_{:0=2d}'.format(l)
                 if line_org.find(level_wrong) > 0:
                     break
@@ -198,12 +198,12 @@ class LevelsCheck:
                 continue
             line_new = line_org.replace(level_wrong, level_needed)
             lines_new.append(line_new)
-            changed = True
+            changes += 1
         # for
         if fatal:
             return False
-        if changed:
-            print('Writing: {}'.format(req_dst))
+        if changes > 0:
+            print('Writing: {} with {} changes'.format(req_dst, changes))
             with open(req_dst, 'w') as f:
                 f.writelines(lines_new)
         else:
