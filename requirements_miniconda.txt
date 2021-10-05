@@ -47,6 +47,7 @@ absl-py==0.12.0 # LEVEL_02 # LOCKED # tensorflow-metadata 1.2.0 has requirement 
 h5py==3.1.0 # LEVEL_02 # LOCKED # tensorflow==2.6.0 requires h5py~=3.1.0
 google-auth==1.35.0 # LEVEL_03 # LOCKED # tensorboard==2.6.0 requires google-auth>=1.6.3,<2
 flatbuffers==1.12 # LEVEL_01 # LOCKED # tensorflow 2.6.0 requires flatbuffers~=1.12.0
+wrapt==1.12.1 # LEVEL_01 # tensorflow 2.6.0 requires 1.12.1 # Module for decorators, wrappers and monkey patching.
 bokeh==2.3.3 # LEVEL_03 # LOCKED # 2.4.0 does not work easily just yet; typing-extensions and tensorflow !!
 jupyter-bokeh==3.0.3 # LEVEL_09 # LOCKED # 3.0.4 does not work easily just yet; typing-extensions and tensorflow !!
 #
@@ -91,7 +92,7 @@ tf-slim==1.1.0 # LEVEL_03
 keras==2.6.0 # LEVEL_01
 keras-preprocessing==1.1.2 # LEVEL_02
 #
-huggingface-hub==0.0.17 # LEVEL_03
+huggingface-hub==0.0.18 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
 #
 xgboost==1.4.2 # LEVEL_03 # check installation notes
 #
@@ -142,8 +143,8 @@ babel==2.9.1 # LEVEL_02
 bert-for-tf2==0.14.9 # LEVEL_03
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger
 sentencepiece==0.1.96 # LEVEL_01 # for BERT
-boto3==1.18.54 # LEVEL_05 # required by bertviz
-botocore==1.21.54 # LEVEL_03 # required by boto3
+boto3==1.18.55 # LEVEL_05 # The AWS SDK for Python # required by bertviz
+botocore==1.21.55 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
 #
 spacy==3.1.3 # LEVEL_04
 spacy-legacy==3.0.8 # LEVEL_01
@@ -183,6 +184,7 @@ imageio==2.9.0 # LEVEL_02
 tifffile==2021.8.30 # LEVEL_02
 #
 openvino==2021.4.1 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org
+#openvino-dev==2021.4.1 # LEVEL_99 # has issues !!! # Openvino Tools
 #
 # Finance
 #
@@ -247,7 +249,7 @@ dash-table==5.0.0 # LEVEL_01
 # Google ..
 #
 google-api-core==2.0.1 # LEVEL_04
-google-api-python-client==2.23.0 # LEVEL_05
+google-api-python-client==2.24.0 # LEVEL_05 # Google API Client Library for Python
 google-auth-httplib2==0.1.0 # LEVEL_04
 google-auth-oauthlib==0.4.6 # LEVEL_04
 google-pasta==0.2.0 # LEVEL_02
@@ -258,18 +260,20 @@ googletransx==2.4.2 # LEVEL_03
 # Jupyter
 #
 jupyter==1.0.0 # LEVEL_09
-jupyter-client==7.0.5 # LEVEL_03
+jupyter-client==7.0.6 # LEVEL_03 # Jupyter protocol implementation and client libraries
 jupyter-console==6.4.0 # LEVEL_05
 jupyter-core==4.8.1 # LEVEL_02
 jupyter-dash==0.4.0 # LEVEL_06
 jupyter-packaging==0.10.6 # LEVEL_04
-jupyter-server==1.11.0 # LEVEL_06
+jupyter-server==1.11.1 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
 jupyter-server-proxy==3.1.0 # LEVEL_07
-jupyterlab==3.1.14 # LEVEL_08
+jupyterlab==3.1.16 # LEVEL_08 # JupyterLab computational environment
 #jupyterlab-dash==0.1.0a3
 jupyterlab-pygments==0.1.2 # LEVEL_02
 jupyterlab-server==2.8.2 # LEVEL_07
 jupyterlab-widgets==1.0.2 # LEVEL_01
+#
+notebook==6.4.4 # LEVEL_06 # A web-based notebook environment for interactive computing
 
 #
 # Network
@@ -287,14 +291,14 @@ colorama==0.4.4 # LEVEL_01 Cross-platform colored terminal text
 filelock==3.3.0 # LEVEL_01
 flake8==3.9.2 # LEVEL_02 # better linter than pyflakes
 gprof2dot==2021.2.21 # LEVEL_01 # attempt to visualize cProfile
-pydeps==1.10.10 # LEVEL_02 # cd src/main; pydeps .; open main.svg
+pydeps==1.10.11 # LEVEL_02 # display module dependencies # cd src/main; pydeps .; open main.svg
 autopep8==1.5.7 # LEVEL_02 # using fix_file ..
 mypy==0.910 # LEVEL_02
 mypy-extensions==0.4.3 # LEVEL_01 # investigate more for automated checking
-pytype==2021.9.27 # LEVEL_04
+pytype==2021.10.4 # LEVEL_04 # type inferencer
 importlab==0.6.1 # LEVEL_02
 libcst==0.3.21 # LEVEL_03
-ninja==1.10.2.1 # LEVEL_01
+ninja==1.10.2.2 # LEVEL_01 # small build system with a focus on speed
 
 #
 # Low level dependencies
@@ -336,7 +340,7 @@ coverage==6.0 # LEVEL_01
 croniter==1.0.15 # LEVEL_03
 cycler==0.10.0 # LEVEL_02
 cymem==2.0.5 # LEVEL_01
-debugpy==1.4.3 # LEVEL_01
+debugpy==1.5.0 # LEVEL_01 # Debug Adapter Protocol for Python
 decorator==5.1.0 # LEVEL_01
 defusedxml==0.7.1 # LEVEL_01
 deprecation==2.1.0 # LEVEL_03
@@ -374,7 +378,7 @@ ipywidgets==7.6.5 # LEVEL_08
 iso8601==0.1.16 # LEVEL_01
 itsdangerous==2.0.1 # LEVEL_01
 jedi==0.18.0 # LEVEL_02
-jinja2==3.0.1 # LEVEL_02
+jinja2==3.0.2 # LEVEL_02 # template engine
 jmespath==0.10.0 # LEVEL_01
 joblib==1.0.1 # LEVEL_01
 json5==0.9.6 # LEVEL_01
@@ -402,7 +406,6 @@ nbconvert==6.2.0 # LEVEL_05
 nbformat==5.1.3 # LEVEL_03
 nest-asyncio==1.5.1 # LEVEL_01
 netifaces==0.11.0 # LEVEL_01
-notebook==6.4.4 # LEVEL_06
 oauth2client==4.1.3 # LEVEL_03
 oauthlib==3.1.1 # LEVEL_01
 opt-einsum==3.3.0 # LEVEL_02
@@ -512,7 +515,6 @@ websocket-client==1.2.1 # LEVEL_01
 werkzeug==2.0.1 # LEVEL_01
 widgetsnbextension==3.5.1 # LEVEL_07
 wireless==0.3.3 # LEVEL_01
-wrapt==1.12.1 # LEVEL_01
 xxhash==2.0.2 # LEVEL_01
 yarl==1.6.3 # LEVEL_02
 zict==2.0.0 # LEVEL_02
