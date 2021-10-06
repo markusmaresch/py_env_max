@@ -175,7 +175,7 @@ class LevelsCheck:
                 level = lc.find_level(key=package)
                 if level > 0:
                     break
-            if level <= 0:
+            if level <= 0: # might have to remove the cache file !! (or typos in packages !)
                 lines_new.append(line_org)
                 print('No package found in: {}'.format(line_org), end='')
                 fatal = True
@@ -237,7 +237,10 @@ class LevelsCheck:
         local_only = False
         user_only = False
         pkgs = get_installed_distributions(local_only=local_only, user_only=user_only)
-        tree = PackageDAG.from_pkgs(pkgs)
+        try:
+            tree = PackageDAG.from_pkgs(pkgs)
+        except:
+            return None
         json_string = self.render_json_tree(tree, indent=4)
         with open(self.json_full, 'w') as f:
             f.write(json_string)
