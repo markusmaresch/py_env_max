@@ -248,7 +248,7 @@ dash-table==5.0.0 # LEVEL_01
 #
 # Google ..
 #
-google-api-core==2.0.1 # LEVEL_04
+google-api-core==2.1.0 # LEVEL_04
 google-api-python-client==2.24.0 # LEVEL_05 # Google API Client Library for Python
 google-auth-httplib2==0.1.0 # LEVEL_04
 google-auth-oauthlib==0.4.6 # LEVEL_04
@@ -265,9 +265,9 @@ jupyter-console==6.4.0 # LEVEL_05
 jupyter-core==4.8.1 # LEVEL_02
 jupyter-dash==0.4.0 # LEVEL_06
 jupyter-packaging==0.10.6 # LEVEL_04
-jupyter-server==1.11.1 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
+jupyter-server==1.11.1 # LEVEL_06 # The backend-i.e. core services, APIs, and REST endpoints-to Jupyter web applications.
 jupyter-server-proxy==3.1.0 # LEVEL_07
-jupyterlab==3.1.16 # LEVEL_08 # JupyterLab computational environment
+jupyterlab==3.1.17 # LEVEL_08 # JupyterLab computational environment
 #jupyterlab-dash==0.1.0a3
 jupyterlab-pygments==0.1.2 # LEVEL_02
 jupyterlab-server==2.8.2 # LEVEL_07
@@ -463,7 +463,7 @@ requests-oauthlib==1.3.0 # LEVEL_03
 requests-toolbelt==0.9.1 # LEVEL_03
 requests-unixsocket==0.2.0 # LEVEL_03
 retrying==1.3.3 # LEVEL_02
-rich==10.11.0 # LEVEL_02
+rich==10.12.0 # LEVEL_02
 rsa==4.7.2 # LEVEL_02
 s3transfer==0.5.0 # LEVEL_04
 sacrebleu==2.0.0 # LEVEL_02
@@ -512,7 +512,7 @@ wcwidth==0.2.5 # LEVEL_01
 webencodings==0.5.1 # LEVEL_01
 websockets==10.0 # LEVEL_01
 websocket-client==1.2.1 # LEVEL_01
-werkzeug==2.0.1 # LEVEL_01
+werkzeug==2.0.2 # LEVEL_01
 widgetsnbextension==3.5.1 # LEVEL_07
 wireless==0.3.3 # LEVEL_01
 xxhash==2.0.2 # LEVEL_01
