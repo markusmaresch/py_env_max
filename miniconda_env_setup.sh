@@ -109,7 +109,12 @@ if [ 1 -eq 1 ]; then
     else
       ncd=""
     fi
-    pip install $ncd -r $requirements_tmp | grep -v -e "^Requirement already satisfied: "
+    pip install $ncd -r $requirements_tmp #| grep -v -e "^Requirement already satisfied: "
+    ret=$?
+    if [ $ret != 0 ]; then
+      echo "pip install $ncd -r $requirements_tmp .. ret: $ret"
+      exit 1
+    fi
     pip_check_exit
     rm -f $requirements_tmp
     echo "Done: $tag"
