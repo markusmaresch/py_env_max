@@ -113,9 +113,9 @@ fastcore==1.3.26 # LEVEL_03
 fastdownload==0.0.5 # LEVEL_04
 fastprogress==1.0.0 # LEVEL_02
 #
-h2o==3.35.0.2 # LEVEL_03
+h2o==3.34.0.3 # LEVEL_03
 #
-gym==0.20.0 # LEVEL_02
+gym==0.21.0 # LEVEL_02
 #
 gensim==4.1.2 # LEVEL_03
 #
@@ -146,15 +146,15 @@ babel==2.9.1 # LEVEL_02
 bert-for-tf2==0.14.9 # LEVEL_03
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger
 sentencepiece==0.1.96 # LEVEL_01 # for BERT
-boto3==1.18.55 # LEVEL_05 # The AWS SDK for Python # required by bertviz
-botocore==1.21.55 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
+boto3==1.18.57 # LEVEL_05 # The AWS SDK for Python # required by bertviz
+botocore==1.21.57 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
 #
 spacy==3.1.3 # LEVEL_04
 spacy-legacy==3.0.8 # LEVEL_01
 spacytextblob==3.0.1 # LEVEL_05
 # spacy-transformers  # downgrades transformers !!
 #
-transformers==4.11.2 # LEVEL_04
+transformers==4.11.3 # LEVEL_04
 datasets==1.12.1 # LEVEL_04
 #
 tokenizers==0.10.3 # LEVEL_01
@@ -197,7 +197,7 @@ empyrical==0.5.5 # LEVEL_05 # empyrical 0.5.3 - technical analysis: Common finan
 finta==1.3 # LEVEL_04
 ib-insync==0.9.66 # LEVEL_03 # InteractiveBrokers 3rd party trading api ip_insync; dataclasses # if necessary
 iexfinance==0.5.0 # LEVEL_04
-intrinio-sdk==5.15.0 # LEVEL_03
+intrinio-sdk==5.16.0 # LEVEL_03
 oandapyv20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console
 tiingo==0.14.0 # LEVEL_03 # Python REST Client for interacting with the Tiingo Financial Data API https://pypi.org/project/tiingo
 # alpaca-trade-api>=1.3.0 # old dependencies
@@ -270,7 +270,7 @@ jupyter-dash==0.4.0 # LEVEL_06
 jupyter-packaging==0.10.6 # LEVEL_04
 jupyter-server==1.11.1 # LEVEL_06 # The backend-i.e. core services, APIs, and REST endpoints-to Jupyter web applications.
 jupyter-server-proxy==3.1.0 # LEVEL_07
-jupyterlab==3.1.17 # LEVEL_08 # JupyterLab computational environment
+jupyterlab==3.1.18 # LEVEL_08 # JupyterLab computational environment
 #jupyterlab-dash==0.1.0a3
 jupyterlab-pygments==0.1.2 # LEVEL_02
 jupyterlab-server==2.8.2 # LEVEL_07
@@ -292,7 +292,10 @@ persist-queue==0.7.0 # LEVEL_01 # Use with iLock !! (or celery ?)
 cloudscraper==1.2.58 # LEVEL_04 # bypass Cloudflare's anti-bot page
 colorama==0.4.4 # LEVEL_01 Cross-platform colored terminal text
 filelock==3.3.0 # LEVEL_01
+#
 flake8==3.9.2 # LEVEL_02 # better linter than pyflakes
+pyflakes==2.3.1 # LEVEL_01
+#
 gprof2dot==2021.2.21 # LEVEL_01 # attempt to visualize cProfile
 pydeps==1.10.12 # LEVEL_02 # display module dependencies # cd src/main; pydeps .; open main.svg
 autopep8==1.5.7 # LEVEL_02 # using fix_file ..
@@ -312,6 +315,7 @@ aenum==3.1.0 # LEVEL_01
 aiodns==3.0.0 # LEVEL_04
 aiohttp==3.7.4.post0 # LEVEL_03 # Async http client/server framework (asyncio)
 aiohttp-socks==0.6.0 # LEVEL_04
+#aioredis==2.0.0 # LEVEL_02
 altgraph==0.17.2 # LEVEL_01
 ansi2html==1.6.0 # LEVEL_01
 anyio==3.3.2 # LEVEL_02
@@ -339,7 +343,7 @@ click==8.0.1 # LEVEL_01 # Python composable command line interface toolkit
 cloudpickle==2.0.0 # LEVEL_01
 codemod==1.0.0 # LEVEL_01
 commonmark==0.9.1 # LEVEL_01
-coverage==6.0 # LEVEL_01
+coverage==6.0.1 # LEVEL_01
 croniter==1.0.15 # LEVEL_03
 cycler==0.10.0 # LEVEL_02
 cymem==2.0.5 # LEVEL_01
@@ -371,7 +375,7 @@ grpcio==1.41.0 # LEVEL_02
 heapdict==1.0.1 # LEVEL_01
 hijri-converter==2.2.2 # LEVEL_01
 hsluv==5.0.2 # LEVEL_01
-httplib2==0.19.1 # LEVEL_02
+httplib2==0.20.1 # LEVEL_02
 idna==3.2 # LEVEL_01
 importlib-resources==5.2.2 # LEVEL_02
 ipykernel==6.4.1 # LEVEL_04
@@ -383,7 +387,7 @@ itsdangerous==2.0.1 # LEVEL_01
 jedi==0.18.0 # LEVEL_02
 jinja2==3.0.2 # LEVEL_02 # template engine
 jmespath==0.10.0 # LEVEL_01
-joblib==1.0.1 # LEVEL_01
+joblib==1.1.0 # LEVEL_01
 json5==0.9.6 # LEVEL_01
 jsonschema==4.0.1 # LEVEL_02
 korean-lunar-calendar==0.2.1 # LEVEL_01
@@ -443,7 +447,6 @@ pycocotools==2.0.2 # LEVEL_04
 pycodestyle==2.7.0 # LEVEL_01
 pycparser==2.20 # LEVEL_01
 pydantic==1.8.2 # LEVEL_02
-pyflakes==2.3.1 # LEVEL_01
 pyinstaller==4.5.1 # LEVEL_03
 pyinstaller-hooks-contrib==2021.3 # LEVEL_01 # deployment
 pyluach==1.3.0 # LEVEL_01
@@ -519,6 +522,6 @@ werkzeug==2.0.2 # LEVEL_01
 widgetsnbextension==3.5.1 # LEVEL_07
 wireless==0.3.3 # LEVEL_01
 xxhash==2.0.2 # LEVEL_01
-yarl==1.6.3 # LEVEL_02
+yarl==1.7.0 # LEVEL_02
 zict==2.0.0 # LEVEL_02
 zipp==3.6.0 # LEVEL_01

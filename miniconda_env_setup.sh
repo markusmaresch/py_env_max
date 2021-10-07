@@ -79,10 +79,24 @@ if [ 1 -eq 1 ]; then
     tags="$tags $level_xx"
   done
   for tag in $tags; do
-    #echo "Install Tag: $tag"
     requirements_tmp="requirements_${tag}.txt"
-    grep -e "${tag}" $requirements_all > $requirements_tmp
-    num_lines=$(cat $requirements_tmp | wc -l | xargs)
+    if [ "${tag:0:6}" = "LEVEL_" ]; then
+      num=$(echo ${tag:6:7} | bc -l)
+      echo "Case LEVEL $num"
+      rm -f $requirements_tmp
+      for i in $(seq $num -1 0); do
+        num2=$(printf "%02d" $i)
+        level_xx="LEVEL_$num2"
+        grep -e "${level_xx}" $requirements_all >> $requirements_tmp
+        if [ $i -eq $num ]; then
+          num_lines=$(cat $requirements_tmp | wc -l | xargs)
+        fi
+        #cho "Adding ${level_xx} .. $num_lines"
+      done
+    else
+      grep -e "${tag}" $requirements_all > $requirements_tmp
+      num_lines=$(cat $requirements_tmp | wc -l | xargs)
+    fi
     if [ $num_lines -lt 1 ]; then
       echo "Ignoring $requirements_tmp .. no more packages ..."
       echo
