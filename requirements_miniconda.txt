@@ -56,6 +56,8 @@ cmdstanpy==0.9.68 # LEVEL_04 # LOCKED # prophet==1.0.1 requires cmdstanpy==0.9.6
 #
 graphviz==0.17 # LEVEL_01 # needed for dependecy graphing .. missing dependencies, but still needed
 #
+pyflakes==2.3.1 # LEVEL_01 # required by flake8
+#
 
 #
 # Generic Low Level Tools
@@ -92,7 +94,7 @@ tf-slim==1.1.0 # LEVEL_03
 keras==2.6.0 # LEVEL_01
 keras-preprocessing==1.1.2 # LEVEL_02
 #
-huggingface-hub==0.0.18 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
+huggingface-hub==0.0.19 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
 #
 xgboost==1.4.2 # LEVEL_03 # check installation notes
 #
@@ -294,7 +296,6 @@ colorama==0.4.4 # LEVEL_01 Cross-platform colored terminal text
 filelock==3.3.0 # LEVEL_01
 #
 flake8==3.9.2 # LEVEL_02 # better linter than pyflakes
-pyflakes==2.3.1 # LEVEL_01
 #
 gprof2dot==2021.2.21 # LEVEL_01 # attempt to visualize cProfile
 pydeps==1.10.12 # LEVEL_02 # display module dependencies # cd src/main; pydeps .; open main.svg
