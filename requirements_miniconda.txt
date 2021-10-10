@@ -59,6 +59,8 @@ graphviz==0.17 # LEVEL_01 # needed for dependecy graphing .. missing dependencie
 pyflakes==2.3.1 # LEVEL_01 # required by flake8
 #
 httpx==0.18.1 # LEVEL_04 # tda-api requires this version
+#
+uritemplate==3.0.1 # LEVEL_01 # can't update to 4.0.0
 
 #
 # Generic Low Level Tools
@@ -69,7 +71,7 @@ matplotlib==3.4.3 # LEVEL_03
 matplotlib-inline==0.1.3 # LEVEL_02
 scipy==1.7.1 # LEVEL_02 # Scientific Library for Python
 seaborn==0.11.2 # LEVEL_04 # Statistical data visualization
-numba==0.54.0 # LEVEL_02
+numba==0.54.1 # LEVEL_02
 openpyxl==3.0.9 # LEVEL_02
 xlsxwriter==3.0.1 # LEVEL_01 needed for pandas XLSX ...
 toolz==0.11.1 # LEVEL_01
@@ -149,8 +151,8 @@ babel==2.9.1 # LEVEL_02
 bert-for-tf2==0.14.9 # LEVEL_03
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger
 sentencepiece==0.1.96 # LEVEL_01 # for BERT
-boto3==1.18.57 # LEVEL_05 # The AWS SDK for Python # required by bertviz
-botocore==1.21.57 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
+boto3==1.18.58 # LEVEL_05 # The AWS SDK for Python # required by bertviz
+botocore==1.21.58 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
 #
 spacy==3.1.3 # LEVEL_04
 spacy-legacy==3.0.8 # LEVEL_01
@@ -187,7 +189,7 @@ opencv-python==4.5.3.56 # LEVEL_02
 opencv-python-headless==4.5.3.56 # LEVEL_02
 pillow==8.3.2 # LEVEL_01
 imageio==2.9.0 # LEVEL_02
-tifffile==2021.8.30 # LEVEL_02
+tifffile==2021.10.10 # LEVEL_02
 #
 openvino==2021.4.1 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org
 #openvino-dev==2021.4.1 # LEVEL_99 # has issues !!! # Openvino Tools
@@ -198,7 +200,7 @@ alpha-vantage==2.3.1 # LEVEL_04
 coinpaprika==0.1.0 # LEVEL_03
 empyrical==0.5.5 # LEVEL_05 # empyrical 0.5.3 - technical analysis: Common financial risk metrics
 finta==1.3 # LEVEL_04
-ib-insync==0.9.66 # LEVEL_03 # InteractiveBrokers 3rd party trading api ip_insync; dataclasses # if necessary
+ib-insync==0.9.67 # LEVEL_03 # InteractiveBrokers 3rd party trading api ip_insync; dataclasses # if necessary
 iexfinance==0.5.0 # LEVEL_04
 intrinio-sdk==5.16.0 # LEVEL_03
 oandapyv20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console
@@ -225,7 +227,7 @@ cryptography==35.0.0 # LEVEL_03
 h11==0.12.0 # LEVEL_01
 httpcore==0.13.7 # LEVEL_03
 pyotp==2.6.0 # LEVEL_01
-python-dotenv==0.19.0 # LEVEL_01
+python-dotenv==0.19.1 # LEVEL_01
 rfc3986==1.5.0 # LEVEL_01
 selenium==3.141.0 # LEVEL_02
 #
@@ -239,7 +241,7 @@ pyqt5-qt5==5.15.2 # LEVEL_01
 pyqt5-sip==12.9.0 # LEVEL_01
 pyqtgraph==0.12.2 # LEVEL_02 # for Chaos
 pyopengl==3.1.5 # LEVEL_01 # for PySpace
-pygame==2.0.1 # LEVEL_01
+pygame==2.0.2 # LEVEL_01
 pygments==2.10.0 # LEVEL_01
 pydot==1.4.2 # LEVEL_02 # Python interface to Graphviz's Dot
 networkx==2.6.3 # LEVEL_01 # includes drawing graphs
@@ -330,7 +332,7 @@ aiohttp-socks==0.6.0 # LEVEL_04
 #aioredis==2.0.0 # LEVEL_02
 altgraph==0.17.2 # LEVEL_01
 ansi2html==1.6.0 # LEVEL_01
-anyio==3.3.2 # LEVEL_02
+anyio==3.3.3 # LEVEL_02
 appdirs==1.4.4 # LEVEL_01
 appnope==0.1.2 # LEVEL_01
 argon2-cffi==21.1.0 # LEVEL_03
@@ -351,7 +353,7 @@ cffi==1.14.6 # LEVEL_02
 chardet==4.0.0 # LEVEL_01
 charset-normalizer==2.0.6 # LEVEL_01
 chart-studio==1.1.0 # LEVEL_03
-click==8.0.1 # LEVEL_01 # Python composable command line interface toolkit
+click==8.0.3 # LEVEL_01 # Python composable command line interface toolkit
 cloudpickle==2.0.0 # LEVEL_01
 codemod==1.0.0 # LEVEL_01
 commonmark==0.9.1 # LEVEL_01
@@ -372,7 +374,7 @@ email-validator==1.1.3 # LEVEL_02
 entrypoints==0.3 # LEVEL_01
 ephem==4.1 # LEVEL_01
 et-xmlfile==1.1.0 # LEVEL_01
-eventkit==0.8.8 # LEVEL_02
+eventkit==0.8.9 # LEVEL_02
 fake-useragent==0.1.11 # LEVEL_01
 flask==2.0.2 # LEVEL_03
 flask-compress==1.10.1 # LEVEL_04
@@ -401,7 +403,7 @@ jinja2==3.0.2 # LEVEL_02 # template engine
 jmespath==0.10.0 # LEVEL_01
 joblib==1.1.0 # LEVEL_01
 json5==0.9.6 # LEVEL_01
-jsonschema==4.0.1 # LEVEL_02
+jsonschema==4.1.0 # LEVEL_02
 korean-lunar-calendar==0.2.1 # LEVEL_01
 llvmlite==0.37.0 # LEVEL_01
 locket==0.2.1 # LEVEL_01
@@ -443,7 +445,7 @@ preshed==3.0.5 # LEVEL_02
 prometheus-client==0.11.0 # LEVEL_01
 promise==2.3 # LEVEL_02
 prompt-toolkit==3.0.20 # LEVEL_02
-proto-plus==1.19.2 # LEVEL_02
+proto-plus==1.19.4 # LEVEL_02
 protobuf==3.18.1 # LEVEL_01
 psutil==5.8.0 # LEVEL_01
 ptyprocess==0.7.0 # LEVEL_01
@@ -474,7 +476,7 @@ pywavelets==1.1.1 # LEVEL_02
 pyyaml==5.4.1 # LEVEL_01
 pyzmq==22.3.0 # LEVEL_01
 qcore==1.7.0 # LEVEL_02
-regex==2021.9.30 # LEVEL_01
+regex==2021.10.8 # LEVEL_01
 requests==2.26.0 # LEVEL_02
 requests-cache==0.8.1 # LEVEL_03
 requests-oauthlib==1.3.0 # LEVEL_03
@@ -522,7 +524,6 @@ typing-inspect==0.7.1 # LEVEL_02
 ua-parser==0.10.0 # LEVEL_01
 ujson==4.2.0 # LEVEL_01
 unidecode==1.3.2 # LEVEL_01
-uritemplate==3.0.1 # LEVEL_01
 urllib3==1.26.7 # LEVEL_01
 url-normalize==1.4.3 # LEVEL_02
 wasabi==0.8.2 # LEVEL_01
