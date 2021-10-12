@@ -59,7 +59,10 @@ graphviz==0.17 # LEVEL_01 # needed for dependecy graphing .. missing dependencie
 httpx==0.18.1 # LEVEL_04 # tda-api requires this version
 #
 uritemplate==3.0.1 # LEVEL_01 # can't update to 4.0.0
-
+#
+flake8==3.9.2 # LEVEL_02 # better linter than pyflakes,
+pyflakes==2.3.1 # LEVEL_01 # required by flake8
+pycodestyle==2.7.0 # LEVEL_01
 #
 # Generic Low Level Tools
 #
@@ -142,7 +145,7 @@ holidays==0.11.3.1 # LEVEL_03 # for prophet
 #
 # NLP
 #
-nltk==3.6.3 # LEVEL_02
+nltk==3.6.5 # LEVEL_02
 #
 babel==2.9.1 # LEVEL_02
 #
@@ -305,10 +308,6 @@ persist-queue==0.7.0 # LEVEL_01 # Use with iLock !! (or celery ?)
 cloudscraper==1.2.58 # LEVEL_04 # bypass Cloudflare's anti-bot page
 colorama==0.4.4 # LEVEL_01 Cross-platform colored terminal text
 filelock==3.3.0 # LEVEL_01
-#
-flake8==3.9.2 # LEVEL_02 # better linter than pyflakes,
-pyflakes==2.3.1 # LEVEL_01 # required by flake8
-pycodestyle==2.7.0 # LEVEL_01
 #
 #
 gprof2dot==2021.2.21 # LEVEL_01 # attempt to visualize cProfile
