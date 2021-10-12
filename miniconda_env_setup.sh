@@ -39,8 +39,9 @@ if [ ! -d ${env_dir} ]; then
   # check above with 'CONDA_CREATE' in requirements*.txt
   rm -f $conda_create_tmp_log
 else
-  echo "Have Env: $env_dir .. use/update (Y/CTRL-C) ??"
-  read ans
+  echo "Have Env: $env_dir ..."
+  #echo "Have Env: $env_dir .. use/update (Y/CTRL-C) ??"
+  #read ans
 fi
 
 echo "Activate $py_env_name .."
