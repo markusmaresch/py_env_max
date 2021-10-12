@@ -318,7 +318,10 @@ pytype==2021.10.11 # LEVEL_04 # type inferencer
 importlab==0.6.1 # LEVEL_02
 libcst==0.3.21 # LEVEL_03
 ninja==1.10.2.2 # LEVEL_01 # small build system with a focus on speed
-
+#
+pipx==0.16.4 # LEVEL_03
+userpath==1.7.0 # LEVEL_02
+argcomplete==1.12.3 # LEVEL_01
 #
 # Low level dependencies
 #
