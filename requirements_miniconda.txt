@@ -29,7 +29,7 @@
 #
 # Internal
 #
-pipdeptree==2.1.0 # LEVEL_02 # INTERNAL # needed at the end of script for package management
+pipdeptree==2.2.0 # LEVEL_02 # INTERNAL # needed at the end of script for package management
 
 #
 # Pre-Installs .. separate install before anything else
@@ -219,8 +219,9 @@ ta-lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip instal
 #
 robin-stocks==2.0.4 # LEVEL_04
 tda-api==1.3.7 # LEVEL_05
-authlib==0.15.4 # LEVEL_04
 cryptography==35.0.0 # LEVEL_03
+#
+authlib==0.15.4 # LEVEL_04
 h11==0.12.0 # LEVEL_01
 httpcore==0.13.7 # LEVEL_03
 pyotp==2.6.0 # LEVEL_01
@@ -258,7 +259,6 @@ dash-canvas==0.1.0 # LEVEL_06
 dash-core-components==2.0.0 # LEVEL_01
 dash-html-components==2.0.0 # LEVEL_01
 dash-table==5.0.0 # LEVEL_01
-
 
 #
 # Google ..

@@ -66,7 +66,6 @@ echo "Ready for: $cmd ... (Y/CTRL-C) ??"
 read ans
 
 if [ 1 -eq 1 ]; then
-  # CONDA_CREATE (also LEVEL_00) .. directly from conda create, like: certifi, tk, pip ...
   # PRE_INSTALL_00 .. like numpy
   # NO_CACHE_DIR # needs to be rebuilt, like: ta-lib
   # LEVEL_01 .. like: pipdeptree
