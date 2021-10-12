@@ -208,7 +208,7 @@ tiingo==0.14.0 # LEVEL_03 # Python REST Client for interacting with the Tiingo F
 # alpaca-trade-api>=1.3.0 # old dependencies
 # histdata-downloader npyscreen # Forex Downloader
 #
-pandas-market-calendars==3.1 # LEVEL_05
+pandas-market-calendars==3.2 # LEVEL_05
 exchange-calendars==3.3 # LEVEL_04
 pandas-finance==0.1.2 # LEVEL_05
 mplfinance==0.12.7a17 # LEVEL_04
@@ -239,7 +239,7 @@ pysimplegui==4.49.0 # LEVEL_01
 pyqt5==5.15.4 # LEVEL_02
 pyqt5-qt5==5.15.2 # LEVEL_01
 pyqt5-sip==12.9.0 # LEVEL_01
-pyqtgraph==0.12.2 # LEVEL_02 # for Chaos
+pyqtgraph==0.12.3 # LEVEL_02 # for Chaos
 pyopengl==3.1.5 # LEVEL_01 # for PySpace
 pygame==2.0.2 # LEVEL_01
 pygments==2.10.0 # LEVEL_01
@@ -315,7 +315,7 @@ pydeps==1.10.12 # LEVEL_02 # display module dependencies # cd src/main; pydeps .
 autopep8==1.5.7 # LEVEL_02 # using fix_file ..
 mypy==0.910 # LEVEL_02
 mypy-extensions==0.4.3 # LEVEL_01 # investigate more for automated checking
-pytype==2021.10.4 # LEVEL_04 # type inferencer
+pytype==2021.10.11 # LEVEL_04 # type inferencer
 importlab==0.6.1 # LEVEL_02
 libcst==0.3.21 # LEVEL_03
 ninja==1.10.2.2 # LEVEL_01 # small build system with a focus on speed
@@ -351,13 +351,13 @@ catalogue==2.0.6 # LEVEL_01
 cchardet==2.1.7 # LEVEL_01
 cffi==1.14.6 # LEVEL_02
 chardet==4.0.0 # LEVEL_01
-charset-normalizer==2.0.6 # LEVEL_01
+charset-normalizer==2.0.7 # LEVEL_01
 chart-studio==1.1.0 # LEVEL_03
 click==8.0.3 # LEVEL_01 # Python composable command line interface toolkit
 cloudpickle==2.0.0 # LEVEL_01
 codemod==1.0.0 # LEVEL_01
 commonmark==0.9.1 # LEVEL_01
-coverage==6.0.1 # LEVEL_01
+coverage==6.0.2 # LEVEL_01
 croniter==1.0.15 # LEVEL_03
 cycler==0.10.0 # LEVEL_02
 cymem==2.0.5 # LEVEL_01
@@ -445,7 +445,7 @@ preshed==3.0.5 # LEVEL_02
 prometheus-client==0.11.0 # LEVEL_01
 promise==2.3 # LEVEL_02
 prompt-toolkit==3.0.20 # LEVEL_02
-proto-plus==1.19.4 # LEVEL_02
+proto-plus==1.19.5 # LEVEL_02
 protobuf==3.18.1 # LEVEL_01
 psutil==5.8.0 # LEVEL_01
 ptyprocess==0.7.0 # LEVEL_01
@@ -517,7 +517,7 @@ tornado==6.1 # LEVEL_01 # A Python web framework and asynchronous networking lib
 tqdm==4.62.3 # LEVEL_01 # A Fast, Extensible Progress Meter
 traitlets==5.1.0 # LEVEL_01
 typed-ast==1.4.3 # LEVEL_01
-typeguard==2.12.1 # LEVEL_01
+typeguard==2.13.0 # LEVEL_01
 typer==0.4.0 # LEVEL_02
 typeshed-client==1.1.1 # LEVEL_03
 typing-inspect==0.7.1 # LEVEL_02
