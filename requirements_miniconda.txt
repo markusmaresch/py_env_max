@@ -122,7 +122,7 @@ gym==0.21.0 # LEVEL_02
 gensim==4.1.2 # LEVEL_03
 #
 openai==0.10.5 # LEVEL_04
-pandas-stubs==1.2.0.24 # LEVEL_01 # needed by openai
+pandas-stubs==1.2.0.27 # LEVEL_01 # needed by openai
 #
 #ktrain>=0.27.2
 #
@@ -157,7 +157,7 @@ spacytextblob==3.0.1 # LEVEL_05
 # spacy-transformers  # downgrades transformers !!
 #
 transformers==4.11.3 # LEVEL_04
-datasets==1.13.0 # LEVEL_04
+datasets==1.13.2 # LEVEL_04
 #
 tokenizers==0.10.3 # LEVEL_01
 #
@@ -283,7 +283,7 @@ jupyter-dash==0.4.0 # LEVEL_06
 jupyter-packaging==0.10.6 # LEVEL_04
 jupyter-server==1.11.1 # LEVEL_06 # The backend-i.e. core services, APIs, and REST endpoints-to Jupyter web applications.
 jupyter-server-proxy==3.1.0 # LEVEL_07
-jupyterlab==3.1.18 # LEVEL_08 # JupyterLab computational environment
+jupyterlab==3.2.0 # LEVEL_08 # JupyterLab computational environment
 #jupyterlab-dash==0.1.0a3
 jupyterlab-pygments==0.1.2 # LEVEL_02
 jupyterlab-server==2.8.2 # LEVEL_07
