@@ -109,12 +109,17 @@ if [ 1 -eq 1 ]; then
     else
       ncd=""
     fi
-    pip install $ncd -r $requirements_tmp #| grep -v -e "^Requirement already satisfied: "
+    requirements_log="requirements_${tag}.log"
+    pip install $ncd -r $requirements_tmp > $requirements_log
     ret=$?
     if [ $ret != 0 ]; then
+      cat $requirements_log
       echo "pip install $ncd -r $requirements_tmp .. ret: $ret"
+      rm -f $requirements_log
       exit 1
     fi
+    grep -v -e "^Requirement already satisfied: " $requirements_log
+    rm -f $requirements_log
     pip_check_exit
     rm -f $requirements_tmp
     echo "Done: $tag"
