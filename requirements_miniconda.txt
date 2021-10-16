@@ -37,6 +37,12 @@ pipdeptree==2.2.0 # LEVEL_02 # INTERNAL # needed at the end of script for packag
 numpy==1.19.5 # LEVEL_01 # PRE_INSTALL_00 # LOCKED # tensorflow 2.5.0. wants 1.19.x;
 
 #
+# not recognized by 'req.txt'
+#
+mplfinance==0.12.7a17 # LEVEL_04
+
+
+#
 # Hard dependencies
 #
 gast==0.4.0 # LEVEL_01 # LOCKED # tensorflow requirement, generic ast
@@ -59,6 +65,8 @@ graphviz==0.17 # LEVEL_01 # needed for dependecy graphing .. missing dependencie
 httpx==0.18.1 # LEVEL_04 # tda-api requires this version, tda-api
 #
 uritemplate==3.0.1 # LEVEL_01 # can't update to 4.0.0, google-api-python-client
+box2d==2.3.2 # LEVEL_01
+
 #
 # Generic Low Level Tools
 #
@@ -72,7 +80,6 @@ numba==0.54.1 # LEVEL_02
 openpyxl==3.0.9 # LEVEL_02
 xlsxwriter==3.0.1 # LEVEL_01 needed for pandas XLSX ...
 toolz==0.11.1 # LEVEL_01
-box2d==2.3.2 # LEVEL_01
 pybullet==3.2.0 # LEVEL_01
 
 #
@@ -229,7 +236,6 @@ trading-calendars==2.1.1 # LEVEL_04
 pandas-market-calendars==3.2 # LEVEL_05
 exchange-calendars==3.3 # LEVEL_04
 pandas-finance==0.1.2 # LEVEL_05
-mplfinance==0.12.7a17 # LEVEL_04
 #
 yahoofinancials==1.6 # LEVEL_03 # https://github.com/JECSand/yahoofinancials
 yfinance==0.1.63 # LEVEL_04 # https://github.com/ranaroussi/yfinance
