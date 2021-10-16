@@ -214,6 +214,7 @@ opencv-python-headless==4.5.3.56 # LEVEL_02
 pillow==8.4.0 # LEVEL_01
 imageio==2.9.0 # LEVEL_02
 tifffile==2021.10.12 # LEVEL_02
+kaleido==0.2.1 # LEVEL_01
 #
 openvino==2021.4.1 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org
 #openvino-dev==2021.4.1 # LEVEL_99 # has issues !!! # Openvino Tools
