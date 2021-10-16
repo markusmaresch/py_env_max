@@ -23,8 +23,8 @@ class LevelsCache:
 
     def add(self, level: int, package: dict):
         d = self.level_dicts[level]
-        key = package['key']
-        d[key] = package
+        key_lower = package['key'].lower()
+        d[key_lower] = package
         return
 
     def find_below(self, level: int, package: dict) -> bool:
@@ -36,9 +36,10 @@ class LevelsCache:
         return False
 
     def find_level(self, key: str) -> int:
+        key_lower = key.lower()
         for level in range(1, self.levels_max):
             d = self.level_dicts[level]
-            if d.get(key):
+            if d.get(key_lower):
                 return level
         return -1
 
@@ -175,7 +176,7 @@ class LevelsCheck:
                 level = lc.find_level(key=package)
                 if level > 0:
                     break
-            if level <= 0: # might have to remove the cache file !! (or typos in packages !)
+            if level <= 0:  # might have to remove the cache file !! (or typos in packages !)
                 lines_new.append(line_org)
                 print('No package found in: {}'.format(line_org), end='')
                 fatal = True
