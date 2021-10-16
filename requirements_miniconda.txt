@@ -80,6 +80,17 @@ pybullet==3.2.0 # LEVEL_01
 #
 elegantrl==0.3.2 # LEVEL_04
 box2d-py==2.3.8 # LEVEL_01
+#
+#finrl==0.3.1 # LEVEL_05 # may cause all sorts of issues
+#stable-baselines3==1.2.0 # LEVEL_01
+#ray==1.7.0 # LEVEL_01
+#tensorboardX==2.4 # LEVEL_01
+#ccxt==1.58.26 # LEVEL_01
+#jqdatasdk==1.8.10 # LEVEL_01
+#
+lz4==3.1.3 # LEVEL_01
+gputil==1.4.0 # LEVEL_01
+wrds==3.1.1 # LEVEL_04 # access to WRDS Data, SQL 2 pandas
 
 #
 #
@@ -211,9 +222,10 @@ iexfinance==0.5.0 # LEVEL_04
 intrinio-sdk==5.16.0 # LEVEL_03
 oandapyv20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console
 tiingo==0.14.0 # LEVEL_03 # Python REST Client for interacting with the Tiingo Financial Data API https://pypi.org/project/tiingo
-# alpaca-trade-api>=1.3.0 # old dependencies
+#alpaca-trade-api==1.3.0 # LEVEL_02 # old dependencies
 # histdata-downloader npyscreen # Forex Downloader
 #
+trading-calendars==2.1.1 # LEVEL_04
 pandas-market-calendars==3.2 # LEVEL_05
 exchange-calendars==3.3 # LEVEL_04
 pandas-finance==0.1.2 # LEVEL_05
@@ -334,6 +346,8 @@ ninja==1.10.2.2 # LEVEL_01 # small build system with a focus on speed
 pipx==0.16.4 # LEVEL_03
 userpath==1.7.0 # LEVEL_02
 argcomplete==1.12.3 # LEVEL_01
+#
+pytest==6.2.5 # LEVEL_03
 #
 # Low level dependencies
 #

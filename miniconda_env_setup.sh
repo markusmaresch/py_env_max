@@ -54,7 +54,7 @@ requirements_all="requirements_miniconda.txt" # could be more, but this is not g
 lines_no_label=$(grep -v -e "^#" $requirements_all | grep -v -e '^$' | grep -v -e " LEVEL_[0-9][0-9]" | sort)
 if [ -n "$lines_no_label" ]; then
   num_no_label=$(echo "$lines_no_label" | wc -l | xargs)
-  echo "Unlabeled: LABEL's: $num_no_label .. need to fix first (may add as LEVEL_99)"
+  echo "Unlabeled: LABEL's: $num_no_label .. need to fix first (may add as LEVEL_09)"
   echo "--------"
   echo "$lines_no_label"
   echo "^^^^^^^^"
@@ -109,17 +109,12 @@ if [ 1 -eq 1 ]; then
     else
       ncd=""
     fi
-    requirements_log="requirements_${tag}.log"
-    pip install $ncd -r $requirements_tmp > $requirements_log
-    ret=$?
+    pip install $ncd -r $requirements_tmp | grep -v -e "^Requirement already satisfied: "
+    ret=${PIPESTATUS[0]}
     if [ $ret != 0 ]; then
-      cat $requirements_log
       echo "pip install $ncd -r $requirements_tmp .. ret: $ret"
-      rm -f $requirements_log
       exit 1
     fi
-    grep -v -e "^Requirement already satisfied: " $requirements_log
-    rm -f $requirements_log
     pip_check_exit
     rm -f $requirements_tmp
     echo "Done: $tag"
