@@ -122,7 +122,7 @@ gym==0.21.0 # LEVEL_02
 gensim==4.1.2 # LEVEL_03
 #
 openai==0.10.5 # LEVEL_04
-pandas-stubs==1.2.0.27 # LEVEL_01 # needed by openai
+pandas-stubs==1.2.0.29 # LEVEL_01 # needed by openai
 #
 #ktrain>=0.27.2
 #
@@ -148,8 +148,8 @@ babel==2.9.1 # LEVEL_02
 bert-for-tf2==0.14.9 # LEVEL_03
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger
 sentencepiece==0.1.96 # LEVEL_01 # for BERT
-boto3==1.18.62 # LEVEL_05 # The AWS SDK for Python # required by bertviz
-botocore==1.21.62 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
+boto3==1.18.63 # LEVEL_05 # The AWS SDK for Python # required by bertviz
+botocore==1.21.63 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
 #
 spacy==3.1.3 # LEVEL_04
 spacy-legacy==3.0.8 # LEVEL_01
@@ -157,7 +157,7 @@ spacytextblob==3.0.1 # LEVEL_05
 # spacy-transformers  # downgrades transformers !!
 #
 transformers==4.11.3 # LEVEL_04
-datasets==1.13.2 # LEVEL_04
+datasets==1.13.3 # LEVEL_04
 #
 tokenizers==0.10.3 # LEVEL_01
 #
@@ -173,7 +173,7 @@ imbalanced-learn==0.8.1 # LEVEL_04
 kaggle==1.5.12 # LEVEL_03
 dask[complete]==2021.9.1 # LEVEL_03
 dask-glm==0.2.0 # LEVEL_04
-dask-ml==1.9.0 # LEVEL_05
+dask-ml==2021.10.17 #1.9.0 # LEVEL_05
 distributed==2021.9.1 # LEVEL_04
 scikit-image==0.18.3 # LEVEL_04
 scikit-learn==1.0 # LEVEL_03
@@ -304,7 +304,7 @@ beautifulsoup4==4.10.0 # LEVEL_02
 persist-queue==0.7.0 # LEVEL_01 # Use with iLock !! (or celery ?)
 cloudscraper==1.2.58 # LEVEL_04 # bypass Cloudflare's anti-bot page
 colorama==0.4.4 # LEVEL_01 Cross-platform colored terminal text
-filelock==3.3.0 # LEVEL_01
+filelock==3.3.1 # LEVEL_01
 #
 flake8==4.0.1 # LEVEL_02 # better linter than pyflakes
 pyflakes==2.4.0 # LEVEL_01 # required by flake8
@@ -335,7 +335,7 @@ aiohttp-socks==0.6.0 # LEVEL_04
 #aioredis==2.0.0 # LEVEL_02
 altgraph==0.17.2 # LEVEL_01
 ansi2html==1.6.0 # LEVEL_01
-anyio==3.3.3 # LEVEL_02
+anyio==3.3.4 # LEVEL_02
 appdirs==1.4.4 # LEVEL_01
 appnope==0.1.2 # LEVEL_01
 argon2-cffi==21.1.0 # LEVEL_03
@@ -383,7 +383,7 @@ flask==2.0.2 # LEVEL_03
 flask-compress==1.10.1 # LEVEL_04
 flask-seasurf==0.3.1 # LEVEL_04
 freetype-py==2.2.0 # LEVEL_01
-fsspec==2021.10.0 # LEVEL_01
+fsspec==2021.10.1 # LEVEL_01
 future==0.18.2 # LEVEL_01
 geographiclib==1.52 # LEVEL_01
 geopy==2.2.0 # LEVEL_02
