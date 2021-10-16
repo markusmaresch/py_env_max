@@ -76,6 +76,12 @@ box2d==2.3.2 # LEVEL_01
 pybullet==3.2.0 # LEVEL_01
 
 #
+# Super Collectors .. building on others
+#
+elegantrl==0.3.2 # LEVEL_04
+box2d-py==2.3.8 # LEVEL_01
+
+#
 #
 # Machine Learning
 #
