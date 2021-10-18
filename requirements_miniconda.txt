@@ -250,7 +250,7 @@ robin-stocks==2.0.4 # LEVEL_04
 tda-api==1.4.0 # LEVEL_06
 cryptography==35.0.0 # LEVEL_03
 #
-authlib==0.15.4 # LEVEL_04
+authlib==0.15.5 # LEVEL_04
 h11==0.12.0 # LEVEL_01
 httpcore==0.13.7 # LEVEL_03
 pyotp==2.6.0 # LEVEL_01
@@ -274,7 +274,7 @@ scs==2.1.4 # LEVEL_03
 qtconsole==5.1.1 # LEVEL_05
 qtpy==1.11.2 # LEVEL_01
 pysimplegui==4.50.0 # LEVEL_01
-pyqt5==5.15.4 # LEVEL_02
+pyqt5==5.15.5 # LEVEL_02
 pyqt5-qt5==5.15.2 # LEVEL_01
 pyqt5-sip==12.9.0 # LEVEL_01
 pyqtgraph==0.12.3 # LEVEL_02 # for Chaos
@@ -500,7 +500,7 @@ pyanalyze==0.3.1 # LEVEL_04
 pyarrow==5.0.0 # LEVEL_02
 pyasn1==0.4.8 # LEVEL_01
 pyasn1-modules==0.2.8 # LEVEL_02
-pycares==4.0.0 # LEVEL_03
+pycares==4.1.1 # LEVEL_03
 pycocotools==2.0.2 # LEVEL_04
 pycparser==2.20 # LEVEL_01
 pydantic==1.8.2 # LEVEL_02
