@@ -150,7 +150,7 @@ gym==0.21.0 # LEVEL_02
 gensim==4.1.2 # LEVEL_03
 #
 openai==0.10.5 # LEVEL_04
-pandas-stubs==1.2.0.29 # LEVEL_01 # needed by openai
+pandas-stubs==1.2.0.30 # LEVEL_01 # needed by openai
 #
 #ktrain>=0.27.2
 #
@@ -247,7 +247,7 @@ py-vollib==1.0.1 # LEVEL_04 # option pricing
 ta-lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip install --upgrade --no-cache-dir ta-lib # sometimes needed
 #
 robin-stocks==2.0.4 # LEVEL_04
-tda-api==1.3.7 # LEVEL_06
+tda-api==1.4.0 # LEVEL_06
 cryptography==35.0.0 # LEVEL_03
 #
 authlib==0.15.4 # LEVEL_04
@@ -273,7 +273,7 @@ scs==2.1.4 # LEVEL_03
 #
 qtconsole==5.1.1 # LEVEL_05
 qtpy==1.11.2 # LEVEL_01
-pysimplegui==4.49.0 # LEVEL_01
+pysimplegui==4.50.0 # LEVEL_01
 pyqt5==5.15.4 # LEVEL_02
 pyqt5-qt5==5.15.2 # LEVEL_01
 pyqt5-sip==12.9.0 # LEVEL_01
@@ -435,7 +435,7 @@ hijri-converter==2.2.2 # LEVEL_01
 hsluv==5.0.2 # LEVEL_01
 httplib2==0.20.1 # LEVEL_02
 idna==3.3 # LEVEL_01
-importlib-resources==5.2.2 # LEVEL_02
+importlib-resources==5.2.3 # LEVEL_02
 ipykernel==6.4.1 # LEVEL_04
 ipython==7.28.0 # LEVEL_03
 ipython-genutils==0.2.0 # LEVEL_01
