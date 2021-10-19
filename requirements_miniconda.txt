@@ -176,8 +176,8 @@ babel==2.9.1 # LEVEL_02
 bert-for-tf2==0.14.9 # LEVEL_03
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger
 sentencepiece==0.1.96 # LEVEL_01 # for BERT
-boto3==1.18.64 # LEVEL_05 # The AWS SDK for Python # required by bertviz
-botocore==1.21.64 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
+boto3==1.18.65 # LEVEL_05 # The AWS SDK for Python # required by bertviz
+botocore==1.21.65 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
 #
 spacy==3.1.3 # LEVEL_04
 spacy-legacy==3.0.8 # LEVEL_01
@@ -185,7 +185,7 @@ spacytextblob==3.0.1 # LEVEL_05
 # spacy-transformers  # downgrades transformers !!
 #
 transformers==4.11.3 # LEVEL_04
-datasets==1.13.3 # LEVEL_04
+datasets==1.14.0 # LEVEL_04
 #
 tokenizers==0.10.3 # LEVEL_01
 #
@@ -206,7 +206,7 @@ distributed==2021.9.1 # LEVEL_04
 scikit-image==0.18.3 # LEVEL_04
 scikit-learn==1.0 # LEVEL_03
 pyod==0.9.4 # LEVEL_05 # outlyer detection
-jax==0.2.22 # LEVEL_03 # Differentiate, compile, and transform Numpy code
+jax==0.2.24 # LEVEL_03 # Differentiate, compile, and transform Numpy code
 
 #
 # Computer Vision
@@ -247,7 +247,7 @@ py-vollib==1.0.1 # LEVEL_04 # option pricing
 ta-lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip install --upgrade --no-cache-dir ta-lib # sometimes needed
 #
 robin-stocks==2.0.4 # LEVEL_04
-tda-api==1.4.0 # LEVEL_06
+tda-api==1.4.1 # LEVEL_06
 cryptography==35.0.0 # LEVEL_03
 #
 authlib==0.15.5 # LEVEL_04
@@ -273,7 +273,7 @@ scs==2.1.4 # LEVEL_03
 #
 qtconsole==5.1.1 # LEVEL_05
 qtpy==1.11.2 # LEVEL_01
-pysimplegui==4.51.0 # LEVEL_01
+pysimplegui==4.51.2 # LEVEL_01
 pyqt5==5.15.5 # LEVEL_02
 pyqt5-qt5==5.15.2 # LEVEL_01
 pyqt5-sip==12.9.0 # LEVEL_01
@@ -304,7 +304,7 @@ dash-table==5.0.0 # LEVEL_01
 # Google ..
 #
 google-api-core==2.1.1 # LEVEL_04
-google-api-python-client==2.26.1 # LEVEL_05 # Google API Client Library for Python
+google-api-python-client==2.27.0 # LEVEL_05 # Google API Client Library for Python
 google-auth-httplib2==0.1.0 # LEVEL_04
 google-auth-oauthlib==0.4.6 # LEVEL_04
 google-pasta==0.2.0 # LEVEL_02
@@ -328,7 +328,7 @@ jupyterlab-pygments==0.1.2 # LEVEL_02
 jupyterlab-server==2.8.2 # LEVEL_07
 jupyterlab-widgets==1.0.2 # LEVEL_01
 #
-notebook==6.4.4 # LEVEL_06 # A web-based notebook environment for interactive computing
+notebook==6.4.5 # LEVEL_06 # A web-based notebook environment for interactive computing
 
 #
 # Network
