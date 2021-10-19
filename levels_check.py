@@ -5,7 +5,6 @@ import sys
 import os
 import json
 import typing
-from itertools import chain
 
 #
 # a bit akward - use pip and pipdeptree in order to get the currently
