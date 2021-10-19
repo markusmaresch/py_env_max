@@ -240,7 +240,7 @@ exchange-calendars==3.3 # LEVEL_04
 pandas-finance==0.1.2 # LEVEL_05
 #
 yahoofinancials==1.6 # LEVEL_03 # https://github.com/JECSand/yahoofinancials
-yfinance==0.1.63 # LEVEL_04 # https://github.com/ranaroussi/yfinance
+yfinance==0.1.64 # LEVEL_04 # https://github.com/ranaroussi/yfinance
 #
 pyfolio==0.9.2 # LEVEL_06 # https://github.com/quantopian/pyfolio ; https://www.quantopian.com/docs/user-guide/tools/pyfolio
 py-vollib==1.0.1 # LEVEL_04 # option pricing
@@ -511,7 +511,7 @@ pymeeus==0.5.11 # LEVEL_01
 pyparsing==2.4.7 # LEVEL_01
 pyrsistent==0.18.0 # LEVEL_01
 pysocks==1.7.1 # LEVEL_01
-python-dateutil==2.8.2 # LEVEL_02 (depends on six)
+python-dateutil==2.8.2 # LEVEL_02
 python-slugify==5.0.2 # LEVEL_02
 python-socks==1.2.4 # LEVEL_01
 pytz==2021.3 # LEVEL_01
@@ -581,3 +581,19 @@ xxhash==2.0.2 # LEVEL_01
 yarl==1.7.0 # LEVEL_02
 zict==2.0.0 # LEVEL_02
 zipp==3.6.0 # LEVEL_01
+#
+#
+# Resolve below
+#
+#streamlit # has some dependencies !!
+tbb==2021.4.0 # LEVEL_01
+tiledb==0.10.3 # LEVEL_02
+tinycss2==1.1.0 # LEVEL_02
+xarray==0.19.0 # LEVEL_04
+zstd==1.5.0.2 # LEVEL_01
+#
+spectra==0.0.11 # LEVEL_03
+colormath==3.0.0 # LEVEL_02
+#
+sphinx==4.2.0 # LEVEL_03
+sphinx-panels==0.6.0 # LEVEL_04
