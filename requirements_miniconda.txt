@@ -150,7 +150,7 @@ gym==0.21.0 # LEVEL_02
 gensim==4.1.2 # LEVEL_03
 #
 openai==0.10.5 # LEVEL_04
-pandas-stubs==1.2.0.30 # LEVEL_01 # needed by openai
+pandas-stubs==1.2.0.31 # LEVEL_01 # needed by openai
 #
 #ktrain>=0.27.2
 #
@@ -176,8 +176,8 @@ babel==2.9.1 # LEVEL_02
 bert-for-tf2==0.14.9 # LEVEL_03
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger
 sentencepiece==0.1.96 # LEVEL_01 # for BERT
-boto3==1.18.63 # LEVEL_05 # The AWS SDK for Python # required by bertviz
-botocore==1.21.63 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
+boto3==1.18.64 # LEVEL_05 # The AWS SDK for Python # required by bertviz
+botocore==1.21.64 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
 #
 spacy==3.1.3 # LEVEL_04
 spacy-legacy==3.0.8 # LEVEL_01
@@ -273,7 +273,7 @@ scs==2.1.4 # LEVEL_03
 #
 qtconsole==5.1.1 # LEVEL_05
 qtpy==1.11.2 # LEVEL_01
-pysimplegui==4.50.0 # LEVEL_01
+pysimplegui==4.51.0 # LEVEL_01
 pyqt5==5.15.5 # LEVEL_02
 pyqt5-qt5==5.15.2 # LEVEL_01
 pyqt5-sip==12.9.0 # LEVEL_01
@@ -319,7 +319,7 @@ jupyter-client==7.0.6 # LEVEL_03 # Jupyter protocol implementation and client li
 jupyter-console==6.4.0 # LEVEL_05
 jupyter-core==4.8.1 # LEVEL_02
 jupyter-dash==0.4.0 # LEVEL_06
-jupyter-packaging==0.10.6 # LEVEL_04
+jupyter-packaging==0.11.0 # LEVEL_04
 jupyter-server==1.11.1 # LEVEL_06 # The backend-i.e. core services, APIs, and REST endpoints-to Jupyter web applications.
 jupyter-server-proxy==3.1.0 # LEVEL_07
 jupyterlab==3.2.0 # LEVEL_08 # JupyterLab computational environment
@@ -354,7 +354,7 @@ pydeps==1.10.12 # LEVEL_02 # display module dependencies # cd src/main; pydeps .
 autopep8==1.5.7 # LEVEL_02 # using fix_file ..
 mypy==0.910 # LEVEL_02
 mypy-extensions==0.4.3 # LEVEL_01 # investigate more for automated checking
-pytype==2021.10.11 # LEVEL_04 # type inferencer
+pytype==2021.10.18 # LEVEL_04 # type inferencer
 importlab==0.6.1 # LEVEL_02
 libcst==0.3.21 # LEVEL_03
 ninja==1.10.2.2 # LEVEL_01 # small build system with a focus on speed
@@ -405,7 +405,7 @@ coverage==6.0.2 # LEVEL_01
 croniter==1.0.15 # LEVEL_03
 cycler==0.10.0 # LEVEL_02
 cymem==2.0.5 # LEVEL_01
-debugpy==1.5.0 # LEVEL_01 # Debug Adapter Protocol for Python
+debugpy==1.5.1 # LEVEL_01 # Debug Adapter Protocol for Python
 decorator==5.1.0 # LEVEL_01
 defusedxml==0.7.1 # LEVEL_01
 deprecation==2.1.0 # LEVEL_03
@@ -435,7 +435,7 @@ hijri-converter==2.2.2 # LEVEL_01
 hsluv==5.0.2 # LEVEL_01
 httplib2==0.20.1 # LEVEL_02
 idna==3.3 # LEVEL_01
-importlib-resources==5.2.3 # LEVEL_02
+importlib-resources==5.3.0 # LEVEL_02
 ipykernel==6.4.1 # LEVEL_04
 ipython==7.28.0 # LEVEL_03
 ipython-genutils==0.2.0 # LEVEL_01
@@ -500,7 +500,7 @@ pyanalyze==0.3.1 # LEVEL_04
 pyarrow==5.0.0 # LEVEL_02
 pyasn1==0.4.8 # LEVEL_01
 pyasn1-modules==0.2.8 # LEVEL_02
-pycares==4.1.1 # LEVEL_03
+pycares==4.1.2 # LEVEL_03
 pycocotools==2.0.2 # LEVEL_04
 pycparser==2.20 # LEVEL_01
 pydantic==1.8.2 # LEVEL_02
