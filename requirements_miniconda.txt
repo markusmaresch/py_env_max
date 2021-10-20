@@ -68,6 +68,8 @@ uritemplate==3.0.1 # LEVEL_01 # can't update to 4.0.0, google-api-python-client
 box2d==2.3.2 # LEVEL_01
 #
 kaleido==0.2.1 # LEVEL_01 # somehow can't update to 0.2.1.post
+#
+smmap==4.0.0 # LEVEL_01 # can't update to 5.0.0 yet, due to gitdb ?
 
 #
 # Generic Low Level Tools
@@ -294,7 +296,7 @@ kiwisolver==1.3.2 # LEVEL_01
 #
 dash==2.0.0 # LEVEL_05
 dash-auth==1.4.1 # LEVEL_06
-dash-bootstrap-components==0.13.1 # LEVEL_06
+dash-bootstrap-components==1.0.0 # 0.13.1 # LEVEL_06
 dash-canvas==0.1.0 # LEVEL_06
 dash-core-components==2.0.0 # LEVEL_01
 dash-html-components==2.0.0 # LEVEL_01
@@ -323,7 +325,6 @@ jupyter-packaging==0.11.0 # LEVEL_04
 jupyter-server==1.11.1 # LEVEL_06 # The backend-i.e. core services, APIs, and REST endpoints-to Jupyter web applications.
 jupyter-server-proxy==3.1.0 # LEVEL_07
 jupyterlab==3.2.1 # LEVEL_08 # JupyterLab computational environment
-#jupyterlab-dash==0.1.0a3
 jupyterlab-pygments==0.1.2 # LEVEL_02
 jupyterlab-server==2.8.2 # LEVEL_07
 jupyterlab-widgets==1.0.2 # LEVEL_01
@@ -373,7 +374,7 @@ aenum==3.1.0 # LEVEL_01
 aiodns==3.0.0 # LEVEL_04
 aiohttp==3.7.4.post0 # LEVEL_03 # Async http client/server framework (asyncio)
 aiohttp-socks==0.6.0 # LEVEL_04
-aioredis==1.3.1 # LEVEL_02, can't update to 2.0.0
+aioredis==2.0.0 # 1.3.1 # LEVEL_02
 altgraph==0.17.2 # LEVEL_01
 ansi2html==1.6.0 # LEVEL_01
 anyio==3.3.4 # LEVEL_02
@@ -628,7 +629,6 @@ validators==0.18.2 # LEVEL_02
 #
 GitPython==3.1.24 # LEVEL_03
 gitdb==4.0.7 # LEVEL_02
-smmap==4.0.0 # LEVEL_01 # can't update to 5.0.0 yet ?
 #
 #
 jqdatasdk==1.8.10 # LEVEL_04
