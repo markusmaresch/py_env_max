@@ -6,6 +6,7 @@ import os
 import time
 import json
 import typing
+import difflib
 
 #
 # a bit akward - use pip and pipdeptree in order to get the currently
@@ -170,10 +171,18 @@ class LevelsCheck:
                 lines_new.append(line_org)
                 continue
             level = (-1)
+            underline = '_'
             for sep in seps:
                 parts = line_org.split(sep)
                 package = parts[0]
                 level = lc.find_level(key=package)
+                if level > 0:
+                    break
+                # for packages, like Mastodon.py ..
+                if package.find(underline) < 0:
+                    continue
+                package2 = package.replace(underline, '.')
+                level = lc.find_level(key=package2)
                 if level > 0:
                     break
             if level <= 0:  # might have to remove the cache file !! (or typos in packages !)
@@ -207,6 +216,12 @@ class LevelsCheck:
             print('Writing: {} with {} changes'.format(req_dst, changes))
             with open(req_dst, 'w') as f:
                 f.writelines(lines_new)
+            with open(req_src) as file_1, open(req_dst) as file_2:
+                differ = difflib.Differ()
+                for line in differ.compare(file_1.readlines(), file_2.readlines()):
+                    if line.startswith(' '):
+                        continue
+                    print(line, end='')
         else:
             print('All levels correct: {}'.format(req_src))
         return True
