@@ -653,3 +653,23 @@ py-spy==0.3.10 # LEVEL_01
 pydeck==0.7.0 # LEVEL_09
 PyMySQL==1.0.2 # LEVEL_01
 cattrs==1.8.0 # LEVEL_02
+#
+biopython==1.79 # LEVEL_02
+boost==0.1 # LEVEL_04
+Mastodon_py==1.5.1 # LEVEL_03
+blurhash==1.1.4 # LEVEL_01
+python-magic==0.4.24 # LEVEL_01
+#
+brotlipy==0.7.0 # LEVEL_03
+click-plugins==1.1.1 # LEVEL_02
+cligj==0.7.2 # LEVEL_02
+#
+colorcet==2.0.6 # LEVEL_03
+param==1.11.1 # LEVEL_01
+pyct==0.4.8 # LEVEL_02
+#
+conllu==4.4.1 # LEVEL_01
+cssselect2==0.4.1 # LEVEL_03
+#
+cytoolz==0.11.0 # LEVEL_02
+
