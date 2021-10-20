@@ -94,7 +94,6 @@ box2d-py==2.3.8 # LEVEL_01
 #
 #finrl==0.3.1 # LEVEL_05 # may cause all sorts of issues
 #ccxt==1.58.26 # LEVEL_01
-#jqdatasdk==1.8.10 # LEVEL_01
 #
 tensorboardX==2.4 # LEVEL_02
 ray==1.7.0 # LEVEL_03
@@ -685,3 +684,24 @@ cytoolz==0.11.0 # LEVEL_02
 importlib-metadata==4.8.1 # LEVEL_02
 pathspec==0.9.0 # LEVEL_01
 #
+datashader==0.13.0 # LEVEL_05
+datashape==0.5.2 # LEVEL_03
+#
+dlpack==0.1 # LEVEL_01
+#
+faiss-cpu==1.7.1.post2 # LEVEL_01
+#
+fastrlock==0.6 # LEVEL_01
+fastavro==1.4.5 # LEVEL_01
+#
+fiona==1.8.20 # LEVEL_03
+munch==2.5.0 # LEVEL_02
+#
+fire==0.4.0 # LEVEL_02
+#
+geopandas==0.10.2 # LEVEL_04
+pyproj==3.2.1 # LEVEL_02
+shapely==1.7.1 # LEVEL_01
+#
+#geotiff==0.2.3 # LEVEL_04 # has old dependencies on tifffile
+geos==0.2.3 # LEVEL_04
