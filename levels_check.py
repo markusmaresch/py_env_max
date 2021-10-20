@@ -3,6 +3,7 @@
 #
 import sys
 import os
+import time
 import json
 import typing
 
@@ -224,13 +225,21 @@ class LevelsCheck:
         return full_list_of_dicts
 
     def get_packages_installed(self) -> typing.List[dict]:
+        max_seconds = 2.0 * 60.0
+        now = time.time()
         try:
             with open(self.json_full) as f:
-                json_string = f.read()
-                full_list_of_dicts = json.loads(json_string)
-                pruned_list_of_dicts = self.prune_dependencies2(full_list_of_dicts)
-                print('Using cache: {} ..'.format(self.json_full))
-                return pruned_list_of_dicts
+                stamp = os.path.getmtime(self.json_full)
+                delta_seconds = (now - stamp)
+                if delta_seconds >= max_seconds:
+                    print('Ignoring cache: older max_seconds: {} {}'
+                          .format(max_seconds, os.path.basename(self.json_full)))
+                else:
+                    json_string = f.read()
+                    full_list_of_dicts = json.loads(json_string)
+                    pruned_list_of_dicts = self.prune_dependencies2(full_list_of_dicts)
+                    print('Using cache: {} ..'.format(self.json_full))
+                    return pruned_list_of_dicts
         except:
             print('No cache: {} ..'.format(self.json_full))
 
