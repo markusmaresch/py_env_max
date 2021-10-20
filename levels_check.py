@@ -219,7 +219,7 @@ class LevelsCheck:
             with open(req_src) as file_1, open(req_dst) as file_2:
                 differ = difflib.Differ()
                 for line in differ.compare(file_1.readlines(), file_2.readlines()):
-                    if line.startswith(' '):
+                    if line.startswith(' ') or line.startswith('?') or line[0] == '\n':
                         continue
                     print(line, end='')
         else:
