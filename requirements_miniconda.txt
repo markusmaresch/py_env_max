@@ -246,7 +246,7 @@ pyfolio==0.9.2 # LEVEL_06 # https://github.com/quantopian/pyfolio ; https://www.
 py-vollib==1.0.1 # LEVEL_04 # option pricing
 ta-lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip install --upgrade --no-cache-dir ta-lib # sometimes needed
 #
-robin-stocks==2.0.4 # LEVEL_04
+robin-stocks==2.1.0 # LEVEL_04
 tda-api==1.4.1 # LEVEL_06
 cryptography==35.0.0 # LEVEL_03
 #
@@ -261,7 +261,7 @@ selenium==4.0.0 # LEVEL_05
 stockstats==0.3.2 # LEVEL_04
 int-date==0.1.8 # LEVEL_03
 #
-pyportfolioopt==1.4.2 # LEVEL_06
+pyportfolioopt==1.5.1 # LEVEL_06
 cvxpy==1.1.15 # LEVEL_05
 ecos==2.0.7.post1 # LEVEL_03
 osqp==0.6.2.post0 # LEVEL_04
@@ -285,7 +285,7 @@ pydot==1.4.2 # LEVEL_02 # Python interface to Graphviz's Dot
 networkx==2.6.3 # LEVEL_01 # includes drawing graphs
 # pysimpleguiqt>=0.35.0
 #
-vispy==0.9.0 # LEVEL_02
+vispy==0.9.1 # LEVEL_02
 #
 kivy==2.0.0 # LEVEL_04
 kivy-examples==2.0.0 # LEVEL_04
@@ -322,7 +322,7 @@ jupyter-dash==0.4.0 # LEVEL_06
 jupyter-packaging==0.11.0 # LEVEL_04
 jupyter-server==1.11.1 # LEVEL_06 # The backend-i.e. core services, APIs, and REST endpoints-to Jupyter web applications.
 jupyter-server-proxy==3.1.0 # LEVEL_07
-jupyterlab==3.2.0 # LEVEL_08 # JupyterLab computational environment
+jupyterlab==3.2.1 # LEVEL_08 # JupyterLab computational environment
 #jupyterlab-dash==0.1.0a3
 jupyterlab-pygments==0.1.2 # LEVEL_02
 jupyterlab-server==2.8.2 # LEVEL_07
@@ -436,7 +436,7 @@ hsluv==5.0.2 # LEVEL_01
 httplib2==0.20.1 # LEVEL_02
 idna==3.3 # LEVEL_01
 importlib-resources==5.3.0 # LEVEL_02
-ipykernel==6.4.1 # LEVEL_04
+ipykernel==6.4.2 # LEVEL_04
 ipython==7.28.0 # LEVEL_03
 ipython-genutils==0.2.0 # LEVEL_01
 ipywidgets==7.6.5 # LEVEL_08
@@ -447,7 +447,7 @@ jinja2==3.0.2 # LEVEL_02 # template engine
 jmespath==0.10.0 # LEVEL_01
 joblib==1.1.0 # LEVEL_01
 json5==0.9.6 # LEVEL_01
-jsonschema==4.1.0 # LEVEL_02
+jsonschema==4.1.2 # LEVEL_02
 korean-lunar-calendar==0.2.1 # LEVEL_01
 llvmlite==0.37.0 # LEVEL_01
 locket==0.2.1 # LEVEL_01
@@ -552,7 +552,7 @@ termcolor==1.1.0 # LEVEL_01
 terminado==0.12.1 # LEVEL_02
 testpath==0.5.0 # LEVEL_01
 text-unidecode==1.3 # LEVEL_01
-thinc==8.0.10 # LEVEL_03
+thinc==8.0.11 # LEVEL_03
 threadpoolctl==3.0.0 # LEVEL_01
 toml==0.10.2 # LEVEL_01
 tomlkit==0.7.2 # LEVEL_01
