@@ -180,8 +180,8 @@ babel==2.9.1 # LEVEL_02
 bert-for-tf2==0.14.9 # LEVEL_03
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger
 sentencepiece==0.1.96 # LEVEL_01 # for BERT
-boto3==1.19.0 # LEVEL_05 # The AWS SDK for Python # required by bertviz
-botocore==1.22.0 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
+boto3==1.19.2 # LEVEL_05 # The AWS SDK for Python # required by bertviz
+botocore==1.22.2 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
 #
 spacy==3.1.3 # LEVEL_04
 spacy-legacy==3.0.8 # LEVEL_01
