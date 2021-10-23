@@ -2,18 +2,6 @@
 # try to add them all !!
 #
 #
-glib==1.0.0 # LEVEL_01
-glog==0.3.1 # LEVEL_01
-gunicorn==20.1.0 # LEVEL_01
-#
-icu==0.0.1 # LEVEL_01
-imagecodecs-lite==2020.1.31 # LEVEL_01
-krb5==0.2.0 # LEVEL_01
-msgpack-python==0.5.6 # LEVEL_01
-#
-nibabel==3.2.1 # LEVEL_01
-nilearn==0.8.1 # LEVEL_01
-#
 nodejs==0.1.1 # LEVEL_01
 nvstrings==0.6.1.post1 # LEVEL_01
 olefile==0.46 # LEVEL_01
