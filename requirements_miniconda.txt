@@ -282,11 +282,13 @@ scs==2.1.4 # LEVEL_03
 #
 qtconsole==5.1.1 # LEVEL_05
 qtpy==1.11.2 # LEVEL_01
-pysimplegui==4.51.6 # LEVEL_01
+pysimplegui==4.51.7 # LEVEL_01
 pyqt5==5.15.5 # LEVEL_02
 pyqt5-qt5==5.15.2 # LEVEL_01
 pyqt5-sip==12.9.0 # LEVEL_01
 pyqtgraph==0.12.3 # LEVEL_02 # for Chaos
+glib==1.0.0 # LEVEL_01 # A python graphics library that piggy-backs off of pyqt5
+#
 pyopengl==3.1.5 # LEVEL_01 # for PySpace
 pygame==2.0.2 # LEVEL_01
 pygments==2.10.0 # LEVEL_01
@@ -362,7 +364,7 @@ pycodestyle==2.8.0 # LEVEL_01
 #
 gprof2dot==2021.2.21 # LEVEL_01 # attempt to visualize cProfile
 pydeps==1.10.12 # LEVEL_02 # display module dependencies # cd src/main; pydeps .; open main.svg
-autopep8==1.5.7 # LEVEL_02 # using fix_file ..
+autopep8==1.6.0 # LEVEL_02 # using fix_file ..
 mypy==0.910 # LEVEL_02
 mypy-extensions==0.4.3 # LEVEL_01 # investigate more for automated checking
 pytype==2021.10.18 # LEVEL_04 # type inferencer
@@ -642,7 +644,7 @@ tzdata==2021.4 # LEVEL_01
 validators==0.18.2 # LEVEL_02
 #
 GitPython==3.1.24 # LEVEL_03
-gitdb==4.0.8 # LEVEL_02
+gitdb==4.0.9 # LEVEL_02
 #
 #
 jqdatasdk==1.8.10 # LEVEL_04
@@ -712,8 +714,8 @@ shapely==1.7.1 # LEVEL_01
 #geotiff==0.2.3 # LEVEL_04 # has old dependencies on tifffile
 geos==0.2.3 # LEVEL_04
 #
-glib==1.0.0 # LEVEL_01
-glog==0.3.1 # LEVEL_02
+glog==0.3.1 # LEVEL_02 # Simple Google-style logging wrapper for Python
+python-gflags==3.1.2 # LEVEL_01 # Google Commandline Flags Module
 #
 gunicorn==20.1.0 # LEVEL_02
 #
@@ -765,4 +767,11 @@ proj==0.2.0 # LEVEL_04
 pyee==8.2.2 # LEVEL_01
 #
 rouge-score==0.0.4 # LEVEL_03
+#
+pynvml==11.0.0 # LEVEL_01
+#
+numcodecs==0.9.1 # LEVEL_02 # Python package providing buffer compression and transformation codecs for use in data storage and communication application
+zarr==2.10.2 # LEVEL_03 # An implementation of chunked, compressed, N-dimensional arrays for Python
+fasteners==0.16.3 # LEVEL_02 # python package that provides useful locks
+asciitree==0.3.3 # LEVEL_01 # Draws ASCII trees
 #

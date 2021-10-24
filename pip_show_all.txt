@@ -196,6 +196,17 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: python-dateutil
 Required-by: proj
 ---
+Name: asciitree
+Version: 0.3.3
+Summary: Draws ASCII trees.
+Home-page: http://github.com/mbr/asciitree
+Author: Marc Brinkmann
+Author-email: git@marcbrinkmann.de
+License: MIT
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
+Required-by: zarr
+---
 Name: ast-decompiler
 Version: 0.4.0
 Summary: Python module to decompile AST to Python code
@@ -296,7 +307,7 @@ Requires: cryptography
 Required-by: tda-api
 ---
 Name: autopep8
-Version: 1.5.7
+Version: 1.6.0
 Summary: A tool that automatically formats Python code to conform to the PEP 8 style guide
 Home-page: https://github.com/hhatto/autopep8
 Author: Hideo Hattori
@@ -1362,6 +1373,17 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: fastcore fastprogress
 Required-by: fastai
 ---
+Name: fasteners
+Version: 0.16.3
+Summary: A python package that provides useful locks.
+Home-page: https://github.com/harlowja/fasteners
+Author: Joshua Harlow
+Author-email: harlowja@yahoo-inc.com
+License: ASL 2.0
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: six
+Required-by: zarr
+---
 Name: fastprogress
 Version: 1.0.0
 Summary: A nested progress with plotting options for fastai
@@ -1616,7 +1638,7 @@ Requires:
 Required-by: tf-models-official
 ---
 Name: gitdb
-Version: 4.0.8
+Version: 4.0.9
 Summary: Git Object Database
 Home-page: https://github.com/gitpython-developers/gitdb
 Author: Sebastian Thiel
@@ -3034,6 +3056,17 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: llvmlite numpy setuptools
 Required-by: dask-ml datashader pyod stumpy
 ---
+Name: numcodecs
+Version: 0.9.1
+Summary: A Python package providing buffer compression and transformation codecs for use in data storage and communication applications.
+Home-page: https://github.com/zarr-developers/numcodecs
+Author: Alistair Miles
+Author-email: alimanfoo@googlemail.com
+License: MIT
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: numpy
+Required-by: zarr
+---
 Name: numpy
 Version: 1.19.5
 Summary: NumPy is the fundamental package for array computing with Python.
@@ -3043,7 +3076,7 @@ Author-email:
 License: BSD
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh cmdstanpy colormath cvxpy dask-ml datasets datashader datashape ecos elegantrl empyrical eventkit exchange-calendars fastprogress finta gensim gym h5py imagecodecs imageio imbalanced-learn jax jqdatasdk matplotlib nibabel nilearn numba opencv-python opencv-python-headless openvino opt-einsum osqp pandas params-flow patsy pmdarima prophet py-lets-be-rational py-vollib pyarrow pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan qdldl ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 statsmodels stockstats stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official thinc tifffile tiledb torchvision trading-calendars transformers vispy wordcloud wrds xarray xgboost yfinance
+Required-by: Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh cmdstanpy colormath cvxpy dask-ml datasets datashader datashape ecos elegantrl empyrical eventkit exchange-calendars fastprogress finta gensim gym h5py imagecodecs imageio imbalanced-learn jax jqdatasdk matplotlib nibabel nilearn numba numcodecs opencv-python opencv-python-headless openvino opt-einsum osqp pandas params-flow patsy pmdarima prophet py-lets-be-rational py-vollib pyarrow pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan qdldl ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 statsmodels stockstats stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official thinc tifffile tiledb torchvision trading-calendars transformers vispy wordcloud wrds xarray xgboost yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -4201,7 +4234,7 @@ Requires:
 Required-by: jsonschema
 ---
 Name: PySimpleGUI
-Version: 4.51.6
+Version: 4.51.7
 Summary: Python GUIs for Humans. Launched in 2018. It's 2021 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 300 Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers.
 Home-page: https://github.com/PySimpleGUI/PySimpleGUI
 Author: PySimpleGUI
@@ -4847,7 +4880,7 @@ Author-email: benjamin@python.org
 License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py astunparse atari-py bleach blessings chart-studio cycler cypari dm-tree fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk jqdatasdk kaggle multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil retrying rouge-score sacremoses tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators
+Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py astunparse atari-py bleach blessings chart-studio cycler cypari dm-tree fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk jqdatasdk kaggle multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil retrying rouge-score sacremoses tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators
 ---
 Name: smart-open
 Version: 5.2.1
@@ -6134,6 +6167,17 @@ Author-email: ran@aroussi.com
 License: Apache
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: lxml multitasking numpy pandas requests
+Required-by: 
+---
+Name: zarr
+Version: 2.10.2
+Summary: An implementation of chunked, compressed, N-dimensional arrays for Python.
+Home-page: https://github.com/zarr-developers/zarr-python
+Author: 
+Author-email: 
+License: MIT
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: asciitree fasteners numcodecs numpy
 Required-by: 
 ---
 Name: zict
