@@ -102,7 +102,7 @@ class LevelsCheck:
 
         return json.dumps([aux(p) for p in nodes], indent=indent)
 
-    def parse_levels(self, pruned_list_of_dicts: typing.List[dict]):
+    def parse_levels(self, pruned_list_of_dicts: typing.List[dict]) -> bool:
         lod = pruned_list_of_dicts
         lc = self.levels_cache
         level = 0
@@ -152,7 +152,7 @@ class LevelsCheck:
             # print('=' * 8)
         # print('=' * 72)
         # lc.show()
-        return
+        return True
 
     def modify_requirements(self) -> bool:
         req_src = self.requirements_txt
@@ -192,7 +192,7 @@ class LevelsCheck:
             if level <= 0:  # might have to remove the cache file !! (or typos in packages !)
                 lines_new.append(line_org)
                 print('No package found in: {}'.format(line_org), end='')
-                #fatal = True
+                fatal = True
                 continue
             level_needed = 'LEVEL_{:0=2d}'.format(level)
             if line_org.find(level_needed) >= 0:
@@ -226,6 +226,7 @@ class LevelsCheck:
                     if line.startswith(' ') or line.startswith('?') or line[0] == '\n':
                         continue
                     print(line, end='')
+            return False
         else:
             print('All levels correct: {}'.format(req_src))
         return True
@@ -243,7 +244,7 @@ class LevelsCheck:
                 dep['dependencies'] = dict()
         return full_list_of_dicts
 
-    def get_packages_installed(self) -> typing.List[dict]:
+    def get_packages_installed(self) -> typing.Union[typing.List[dict], typing.Any]:
         max_seconds = 2.0 * 60.0
         now = time.time()
         try:
@@ -280,9 +281,13 @@ class LevelsCheck:
 def main():
     lc = LevelsCheck()
     pruned_list_of_dicts = lc.get_packages_installed()
-    lc.parse_levels(pruned_list_of_dicts)
-    lc.modify_requirements()
-    return
+    if pruned_list_of_dicts is None:
+        return 1
+    if not lc.parse_levels(pruned_list_of_dicts):
+        return 1
+    if not lc.modify_requirements():
+        return 1
+    return 0
 
 
 if __name__ == '__main__':
