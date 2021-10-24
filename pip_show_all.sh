@@ -2,6 +2,9 @@
 #
 # create pip_show_all.txt ... takes a while
 #
+python pip_show_all.py
+exit 0
+
 pip_show_all="pip_show_all.txt"
 
 echo "Recreate/Update ${pip_show_all} ? (will take a while) (Y/CTRL-C)"
