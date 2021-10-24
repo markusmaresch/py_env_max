@@ -898,7 +898,7 @@ Author-email: culler@uic.edu, nathan@dunfield.info
 License: GPLv2+
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: future six
-Required-by: snappy
+Required-by: 
 ---
 Name: Cython
 Version: 0.29.24
@@ -1107,7 +1107,7 @@ Author-email: michele.simionato@gmail.com
 License: new BSD License
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: Mastodon.py ipython snappy spherogram validators
+Required-by: Mastodon.py ipython validators
 ---
 Name: defusedxml
 Version: 0.7.1
@@ -1558,7 +1558,7 @@ Author-email: culler@marc-culler.info, nathan@dunfield.info
 License: GPLv2+
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: snappy
+Required-by: 
 ---
 Name: gast
 Version: 0.4.0
@@ -2185,7 +2185,7 @@ Author-email: ipython-dev@python.org
 License: BSD
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: appnope backcall decorator jedi matplotlib-inline pexpect pickleshare prompt-toolkit pygments setuptools traitlets
-Required-by: ipykernel ipywidgets jupyter-console jupyter-dash jupyterlab pyfolio snappy
+Required-by: ipykernel ipywidgets jupyter-console jupyter-dash jupyterlab pyfolio
 ---
 Name: ipython-genutils
 Version: 0.2.0
@@ -2559,7 +2559,7 @@ Author-email: snappy-help@computop.org
 License: UNKNOWN
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: spherogram
+Required-by: 
 ---
 Name: korean-lunar-calendar
 Version: 0.2.1
@@ -2966,7 +2966,7 @@ Author-email: hagberg@lanl.gov
 License: UNKNOWN
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: colormath importlab scikit-image spherogram
+Required-by: colormath importlab scikit-image
 ---
 Name: nibabel
 Version: 3.2.1
@@ -3527,7 +3527,7 @@ Author-email: culler@uic.edu, nathan@dunfield.info
 License: GPLv2+
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: snappy
+Required-by: 
 ---
 Name: plotly
 Version: 5.3.1
@@ -4121,7 +4121,7 @@ Author-email: drj@pobox.com
 License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: snappy
+Required-by: 
 ---
 Name: pyportfolioopt
 Version: 1.5.1
@@ -4904,28 +4904,6 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: 
 Required-by: gitdb
 ---
-Name: snappy
-Version: 3.0.1
-Summary: Studying the topology and geometry of 3-manifolds, with a focus on hyperbolic structures.
-Home-page: http://snappy.computop.org
-Author: Marc Culler and Nathan M. Dunfield
-Author-email: culler@uic.edu, nathan@dunfield.info
-License: GPLv2+
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
-Requires: FXrays cypari decorator ipython plink pypng snappy-manifolds spherogram
-Required-by: 
----
-Name: snappy-manifolds
-Version: 1.1.2
-Summary: Database of snappy manifolds
-Home-page: https://github.com/3-manifolds/snappy_manifolds
-Author: Marc Culler and Nathan M. Dunfield and Mattias Goerner and Malik Obeidin
-Author-email: snappy-help@computop.org, mobeidin@illiois.edu
-License: GPLv2+
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
-Requires: 
-Required-by: snappy spherogram
----
 Name: sniffio
 Version: 1.2.0
 Summary: Sniff out which async library your code is running under
@@ -5013,17 +4991,6 @@ License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: colormath
 Required-by: 
----
-Name: spherogram
-Version: 2.0
-Summary: Spherical diagrams for 3-manifold topology
-Home-page: https://github.com/3-manifolds/Spherogram
-Author: Marc Culler and Nathan M. Dunfield
-Author-email: culler@marc-culler.info, nathan@dunfield.info
-License: GPLv2+
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
-Requires: decorator knot-floer-homology networkx snappy-manifolds
-Required-by: snappy
 ---
 Name: Sphinx
 Version: 4.2.0

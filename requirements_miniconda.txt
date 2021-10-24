@@ -736,9 +736,9 @@ nilearn==0.8.1 # LEVEL_04
 #
 rtree==0.9.7 # LEVEL_01
 #
-snappy==3.0.1 # LEVEL_04
-snappy-manifolds==1.1.2 # LEVEL_01
-spherogram==2.0 # LEVEL_02
+#snappy==3.0.1 # LEVEL_04
+#snappy-manifolds==1.1.2 # LEVEL_01
+#spherogram==2.0 # LEVEL_02
 cypari==2.4.1 # LEVEL_02
 FXrays==1.3.5 # LEVEL_01
 knot-floer-homology==1.1 # LEVEL_01
