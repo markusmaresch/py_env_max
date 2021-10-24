@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -f pipdeptree.cache
+
 if ! python levels_check.py; then
   exit 1
 fi
@@ -10,4 +12,5 @@ fi
 
 ./not_specified_packages.sh
 
+rm -f pipdeptree.cache
 exit 0
