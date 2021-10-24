@@ -30,8 +30,8 @@ class PipShowAll:
         print('Querying with: {} <{} packages>'.format(cmd_pip_show, len(packages)))
         packs = ' '.join([str(elem) for elem in packages])
         cmd_pip_show = '{} {}'.format(cmd_pip_show, packs)
-        pip_show_all_txt = 'pip_show_all.txt'
-        with open(pip_show_all_txt, 'w') as f:
+        pip_show_all = 'pip_show_all.log'
+        with open(pip_show_all, 'w') as f:
             with os.popen(cmd_pip_show) as pipe:
                 for line in pipe:
                     items = line.split(':')
@@ -47,7 +47,7 @@ class PipShowAll:
                 # for line
             # pipe
         # write
-        print('Created: {}'.format(pip_show_all_txt))
+        print('Created: {}'.format(pip_show_all))
         return 0
 
 

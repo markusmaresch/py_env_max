@@ -1,19 +1,5 @@
 #!/bin/bash
 #
-# create pip_show_all.txt ... takes a while
+# create pip_show_all.log ... takes a while
 #
 python pip_show_all.py
-exit 0
-
-pip_show_all="pip_show_all.txt"
-
-echo "Recreate/Update ${pip_show_all} ? (will take a while) (Y/CTRL-C)"
-read ans
-
-rm -f $pip_show_all
-for p in $(pip list | awk '{print $1}' | grep -v -e "Package" -e "^--------"); do
-  echo "======== ${p} BELOW"
-  pip show $p
-  echo "======== ${p} ABOVE"
-done | tee -a $pip_show_all
-
