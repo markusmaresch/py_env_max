@@ -106,13 +106,16 @@ class LevelsCheck:
         lod = pruned_list_of_dicts
         lc = self.levels_cache
         level = 0
+        old_len_lod = 999
         while True:
             level += 1
             if level >= self.levels_max:
                 break
-            # print('Level {} .. {} packages'.format(level, len(lod)))
+            if old_len_lod == len(lod) == 1:
+                break
             if len(lod) < 1:
                 break
+            # print('Level {} .. {} packages'.format(level, len(lod)))
             next_lod = list()
             for d in lod:
                 package_name = d['key']
@@ -143,6 +146,7 @@ class LevelsCheck:
                         # print('P: {} {} -> Level {}  (NOT found_all_below)'
                         #      .format(package_name, required_version, level))
                 # print('-' * 8)
+            old_len_lod = len(lod)
             del lod
             lod = next_lod
             # print('=' * 8)
@@ -188,7 +192,7 @@ class LevelsCheck:
             if level <= 0:  # might have to remove the cache file !! (or typos in packages !)
                 lines_new.append(line_org)
                 print('No package found in: {}'.format(line_org), end='')
-                fatal = True
+                #fatal = True
                 continue
             level_needed = 'LEVEL_{:0=2d}'.format(level)
             if line_org.find(level_needed) >= 0:
