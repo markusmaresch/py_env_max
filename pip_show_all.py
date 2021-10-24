@@ -38,10 +38,11 @@ class PipShowAll:
                     key = items[0]
                     if key == 'Requires' or key == 'Required-by':
                         items.pop(0)
-                        items2 = items[0].strip().split(',')
-                        items2.sort()
-                        items3 = ' '.join([str(e.strip()) for e in items2])
-                        line = '{}: {}\n'.format(key, items3)
+                        items_split = items[0].strip().split(',')
+                        items_sorted = [str(e.strip()) for e in items_split]
+                        items_sorted.sort()
+                        items_str = ' '.join([e for e in items_sorted])
+                        line = '{}: {}\n'.format(key, items_str)
                     f.write(line)
                 # for line
             # pipe
