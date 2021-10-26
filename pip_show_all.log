@@ -4739,28 +4739,6 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: 
 Required-by: 
 ---
-Name: ruamel.yaml
-Version: 0.17.16
-Summary: ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
-Home-page: https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree
-Author: Anthon van der Neut
-Author-email: a.van.der.neut@ruamel.eu
-License: MIT license
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
-Requires: ruamel.yaml.clib
-Required-by: 
----
-Name: ruamel.yaml.clib
-Version: 0.2.6
-Summary: C version of reader, parser and emitter for ruamel.yaml derived from libyaml
-Home-page: https://sourceforge.net/p/ruamel-yaml-clib/code/ci/default/tree
-Author: Anthon van der Neut
-Author-email: a.van.der.neut@ruamel.eu
-License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
-Requires: 
-Required-by: ruamel.yaml
----
 Name: s3transfer
 Version: 0.5.0
 Summary: An Amazon S3 Transfer Manager
