@@ -186,7 +186,7 @@ Requires: cffi
 Required-by: jupyter-server notebook
 ---
 Name: arrow
-Version: 1.2.0
+Version: 1.2.1
 Summary: Better dates & times for Python
 Home-page: https://arrow.readthedocs.io
 Author: Chris Smith
@@ -472,7 +472,7 @@ Requires: Mastodon.py sqlalchemy
 Required-by: 
 ---
 Name: boto3
-Version: 1.19.2
+Version: 1.19.4
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -483,7 +483,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.22.2
+Version: 1.22.4
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -1308,7 +1308,7 @@ Requires: numpy
 Required-by: ib-insync
 ---
 Name: exchange-calendars
-Version: 3.3
+Version: 3.4
 Summary: exchange_calendars is a Python library with securities exchange calendars
 Home-page: https://github.com/gerrymanoim/exchange_calendars
 Author: Gerry Manoim
@@ -1693,7 +1693,7 @@ Requires: python-gflags six
 Required-by: 
 ---
 Name: google-api-core
-Version: 2.1.1
+Version: 2.2.0
 Summary: Google API client core library
 Home-page: https://github.com/googleapis/python-api-core
 Author: Google LLC
@@ -1704,7 +1704,7 @@ Requires: google-auth googleapis-common-protos protobuf requests setuptools
 Required-by: google-api-python-client opencensus
 ---
 Name: google-api-python-client
-Version: 2.27.0
+Version: 2.28.0
 Summary: Google API Client Library for Python
 Home-page: https://github.com/googleapis/google-api-python-client/
 Author: Google LLC
@@ -1836,7 +1836,7 @@ Requires:
 Required-by: SQLAlchemy
 ---
 Name: grpcio
-Version: 1.41.0
+Version: 1.41.1
 Summary: HTTP/2-based RPC framework
 Home-page: https://grpc.io
 Author: The gRPC Authors
@@ -3332,7 +3332,7 @@ Requires: exchange-calendars pandas python-dateutil pytz
 Required-by: 
 ---
 Name: pandas-stubs
-Version: 1.2.0.33
+Version: 1.2.0.35
 Summary: Type annotations for Pandas
 Home-page: https://github.com/VirtusLab/pandas-stubs
 Author: Zbigniew Królikowski
@@ -3420,7 +3420,7 @@ Requires:
 Required-by: 
 ---
 Name: pathy
-Version: 0.6.0
+Version: 0.6.1
 Summary: pathlib.Path subclasses for local and cloud bucket storage
 Home-page: https://github.com/justindujardin/pathy
 Author: Justin DuJardin
@@ -3684,7 +3684,7 @@ Requires: Cython LunarCalendar cmdstanpy convertdate holidays matplotlib numpy p
 Required-by: 
 ---
 Name: proto-plus
-Version: 1.19.5
+Version: 1.19.6
 Summary: Beautiful, Pythonic protocol buffers.
 Home-page: https://github.com/googleapis/proto-plus-python.git
 Author: Google LLC
@@ -3816,7 +3816,7 @@ Requires: aenum ast-decompiler asynq attrs codemod mypy-extensions qcore six typ
 Required-by: 
 ---
 Name: pyarrow
-Version: 5.0.0
+Version: 6.0.0
 Summary: Python library for Apache Arrow
 Home-page: https://arrow.apache.org/
 Author: 
@@ -4267,7 +4267,7 @@ Requires:
 Required-by: jsonschema
 ---
 Name: PySimpleGUI
-Version: 4.51.7
+Version: 4.53.0
 Summary: Python GUIs for Humans. Launched in 2018. It's 2021 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 300 Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers.
 Home-page: https://github.com/PySimpleGUI/PySimpleGUI
 Author: PySimpleGUI
@@ -4388,7 +4388,7 @@ Requires: torch
 Required-by: torch-optimizer
 ---
 Name: pytype
-Version: 2021.10.18
+Version: 2021.10.25
 Summary: Python type inferencer
 Home-page: https://google.github.io/pytype
 Author: 
@@ -5631,7 +5631,7 @@ Requires: typing-extensions
 Required-by: bertviz elegantrl fastai pyro-ppl pytorch-ranger stable-baselines3 torch-optimizer torchaudio torchvision
 ---
 Name: torch-optimizer
-Version: 0.1.0
+Version: 0.2.0
 Summary: pytorch-optimizer
 Home-page: https://github.com/jettify/pytorch-optimizer
 Author: Nikolay Novik
@@ -5697,7 +5697,7 @@ Requires: numpy pandas python-dateutil pytz six toolz
 Required-by: 
 ---
 Name: traitlets
-Version: 5.1.0
+Version: 5.1.1
 Summary: Traitlets Python configuration system
 Home-page: https://github.com/ipython/traitlets
 Author: IPython Development Team
@@ -5829,7 +5829,7 @@ Requires: mypy-extensions typing-extensions
 Required-by: libcst pyanalyze
 ---
 Name: tzdata
-Version: 2021.4
+Version: 2021.5
 Summary: Provider of IANA time zone data
 Home-page: https://github.com/python/tzdata
 Author: Python Software Foundation
@@ -5840,7 +5840,7 @@ Requires:
 Required-by: pytz-deprecation-shim
 ---
 Name: tzlocal
-Version: 4.0.1
+Version: 4.0.2
 Summary: tzinfo object for the local timezone
 Home-page: UNKNOWN
 Author: Lennart Regebro
