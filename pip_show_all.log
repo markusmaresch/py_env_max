@@ -1206,7 +1206,7 @@ Author-email: goodger@python.org
 License: public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt)
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: Kivy Kivy-examples Sphinx pydata-sphinx-theme sphinx-panels
+Required-by: Kivy Kivy-examples Sphinx pydata-sphinx-theme python-daemon sphinx-panels
 ---
 Name: ecos
 Version: 2.0.7.post1
@@ -2637,6 +2637,28 @@ License: BSD-2-Clause
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: partd
+---
+Name: lockfile
+Version: 0.12.2
+Summary: Platform-independent file locking module
+Home-page: http://launchpad.net/pylockfile
+Author: OpenStack
+Author-email: openstack-dev@lists.openstack.org
+License: UNKNOWN
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
+Required-by: python-daemon
+---
+Name: luigi
+Version: 3.0.3
+Summary: Workflow mgmgt + task scheduling + dependency resolution.
+Home-page: https://github.com/spotify/luigi
+Author: The Luigi Authors
+Author-email: 
+License: Apache License 2.0
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: python-daemon python-dateutil tenacity tornado
+Required-by: 
 ---
 Name: LunarCalendar
 Version: 0.0.9
@@ -4310,6 +4332,17 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: attrs iniconfig packaging pluggy py toml
 Required-by: 
 ---
+Name: python-daemon
+Version: 2.3.0
+Summary: Library to implement a well-behaved Unix daemon process.
+Home-page: https://pagure.io/python-daemon/
+Author: Ben Finney
+Author-email: ben+python@benfinney.id.au
+License: Apache-2
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: docutils lockfile setuptools
+Required-by: luigi
+---
 Name: python-dateutil
 Version: 2.8.2
 Summary: Extensions to the standard Python datetime module
@@ -4319,7 +4352,7 @@ Author-email: gustavo@niemeyer.net
 License: Dual License
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
-Required-by: LunarCalendar Mastodon.py arrow bokeh botocore croniter datashape exchange-calendars holidays int-date intrinio-sdk jupyter-client kaggle matplotlib pandas pandas-market-calendars prophet tda-api trading-calendars
+Required-by: LunarCalendar Mastodon.py arrow bokeh botocore croniter datashape exchange-calendars holidays int-date intrinio-sdk jupyter-client kaggle luigi matplotlib pandas pandas-market-calendars prophet tda-api trading-calendars
 ---
 Name: python-dotenv
 Version: 0.19.1
@@ -4880,7 +4913,7 @@ Author-email: distutils-sig@python.org
 License: UNKNOWN
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: Fiona PasteDeploy Sphinx distributed google-api-core google-auth gunicorn ipython jupyter-packaging numba plaster pmdarima pycocotools pyinstaller pyramid rapids spacy tensorboard thinc xarray zope.deprecation zope.interface
+Required-by: Fiona PasteDeploy Sphinx distributed google-api-core google-auth gunicorn ipython jupyter-packaging numba plaster pmdarima pycocotools pyinstaller pyramid python-daemon rapids spacy tensorboard thinc xarray zope.deprecation zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -4935,7 +4968,7 @@ Author-email: benjamin@python.org
 License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py astunparse atari-py bleach blessings chart-studio cycler cypari dm-tree fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil requests-file retrying rouge-score sacremoses tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators
+Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py astunparse atari-py bleach blessings chart-studio cycler cypari dm-tree fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil requests-file retrying rouge-score sacremoses tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators
 ---
 Name: smart-open
 Version: 5.2.1
@@ -5268,15 +5301,15 @@ Requires: authlib autopep8 httpx prompt-toolkit python-dateutil selenium websock
 Required-by: 
 ---
 Name: tenacity
-Version: 8.0.1
+Version: 6.3.1
 Summary: Retry code until it succeeds
 Home-page: https://github.com/jd/tenacity
 Author: Julien Danjou
 Author-email: julien@danjou.info
 License: Apache 2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
-Requires: 
-Required-by: plotly
+Requires: six
+Required-by: luigi plotly
 ---
 Name: tensorboard
 Version: 2.7.0
@@ -5672,7 +5705,7 @@ Author-email: python-tornado@googlegroups.com
 License: http://www.apache.org/licenses/LICENSE-2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: bokeh distributed ipykernel jupyter-client jupyter-server jupyterlab notebook terminado
+Required-by: bokeh distributed ipykernel jupyter-client jupyter-server jupyterlab luigi notebook terminado
 ---
 Name: tqdm
 Version: 4.62.3

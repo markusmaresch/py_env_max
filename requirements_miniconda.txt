@@ -52,7 +52,7 @@ absl-py==0.12.0 # LEVEL_02 # LOCKED # tensorflow-metadata 1.2.0 has requirement 
 h5py==3.1.0 # LEVEL_02 # LOCKED # tensorflow==2.6.0 requires h5py~=3.1.0
 google-auth==1.35.0 # LEVEL_03 # LOCKED # tensorboard==2.6.0 requires google-auth>=1.6.3,<2
 flatbuffers==1.12 # LEVEL_01 # LOCKED # tensorflow 2.6.0 requires flatbuffers~=1.12.0
-wrapt==1.12.1 # LEVEL_01 # tensorflow 2.6.0 requires 1.12.1 # Module for decorators, wrappers and monkey patching.
+wrapt==1.12.1 # LEVEL_01 # LOCKED # tensorflow 2.6.0 requires 1.12.1 # Module for decorators, wrappers and monkey patching.
 #
 typing-extensions==3.7.4.3 # LEVEL_01 # LOCKED # tensorflow==2.6.0 requires ~3.7.4
 #
@@ -62,23 +62,25 @@ jupyter-bokeh==3.0.3 # LEVEL_09 # LOCKED # 3.0.4 does not work easily just yet; 
 pystan==2.19.1.1 # LEVEL_02 # LOCKED # POST_INSTALL_00 # prophet 1.0.1 has requirement pystan~=2.19.1.1
 cmdstanpy==0.9.68 # LEVEL_04 # LOCKED # prophet==1.0.1 requires cmdstanpy==0.9.68
 #
-graphviz==0.17 # LEVEL_01 # needed for dependecy graphing .. missing dependencies, but still needed
+graphviz==0.17 # LEVEL_01 # LOCKED # needed for dependecy graphing .. missing dependencies, but still needed
 #
-box2d==2.3.2 # LEVEL_01
+box2d==2.3.2 # LEVEL_01 # LOCKED
 #
-kaleido==0.2.1 # LEVEL_01 # somehow can't update to 0.2.1.post
+kaleido==0.2.1 # LEVEL_01 # LOCKED # somehow can't update to 0.2.1.post
 #
-smmap==4.0.0 # LEVEL_01 # can't update to 5.0.0 yet, due to gitdb ?
+smmap==4.0.0 # LEVEL_01 # LOCKED # can't update to 5.0.0 yet, due to gitdb ?
 #
-pyparsing==2.4.7 # LEVEL_01 # google-api-python-client
+pyparsing==2.4.7 # LEVEL_01 # LOCKED # needed by google-api-python-client
 #
-stable-baselines3==1.2.0 # LEVEL_04 # Pytorch version of Stable Baselines, implementations of reinforcement learning algorithms. # version 1.3.0 depends on gym<0.20 :-(
+stable-baselines3==1.2.0 # LEVEL_04 # LOCKED # Pytorch version of Stable Baselines, implementations of reinforcement learning algorithms. # version 1.3.0 depends on gym<0.20 :-(
 #
-optional-django==0.1.0 # LEVEL_01 # nodejs needs it # Utils for apps to provide optional support for django applications
+optional-django==0.1.0 # LEVEL_01 # LOCKED # nodejs needs it # Utils for apps to provide optional support for django applications
 #
-textblob==0.15.3 # LEVEL_03 # spacytextblob 3.0.1 requires textblob<0.16.0,>=0.15.3 # Simple, Pythonic text processing. Sentiment analysis, part-of-speech tagging, noun phrase parsing
+textblob==0.15.3 # LEVEL_03 # LOCKED # spacytextblob 3.0.1 requires textblob<0.16.0,>=0.15.3 # Simple, Pythonic text processing. Sentiment analysis, part-of-speech tagging, noun phrase parsing
 #
-docutils==0.17.1 # LEVEL_01 # sphinx 4.2.0 requires docutils<0.18,>=0.14
+docutils==0.17.1 # LEVEL_01 # LOCKED # sphinx 4.2.0 requires docutils<0.18,>=0.14
+#
+tenacity==6.3.1 # LEVEL_02 # LOCKED # luigi requires tenacity<7,>=6.3.0 # Retry code until it succeeds
 
 #
 # Generic Low Level Tools
@@ -324,6 +326,10 @@ dash-html-components==2.0.0 # LEVEL_01
 dash-table==5.0.0 # LEVEL_01
 dash-cytoscape==0.3.0 # LEVEL_06
 dash-renderer==1.9.1 # LEVEL_01
+#
+chart-studio==1.1.0 # LEVEL_04 # Utilities for interfacing with plotly's Chart Studio
+plotly==5.3.1 # LEVEL_03 # An open-source, interactive data visualization library for Python
+#
 
 #
 # Google ..
@@ -390,6 +396,11 @@ argcomplete==1.12.3 # LEVEL_01
 #
 pytest==6.2.5 # LEVEL_03
 #
+luigi==3.0.3 # LEVEL_03 # Workflow mgmgt + task scheduling + dependency resolution
+python-daemon==2.3.0 # LEVEL_02 # Library to implement a well-behaved Unix daemon process
+lockfile==0.12.2 # LEVEL_01 # Platform-independent file locking module
+
+#
 # Low level dependencies
 #
 ##################################################################
@@ -421,7 +432,6 @@ cchardet==2.1.7 # LEVEL_01
 cffi==1.15.0 # LEVEL_02
 chardet==4.0.0 # LEVEL_01
 charset-normalizer==2.0.7 # LEVEL_01
-chart-studio==1.1.0 # LEVEL_03
 click==8.0.3 # LEVEL_01 # Python composable command line interface toolkit
 cloudpickle==2.0.0 # LEVEL_01
 codemod==1.0.0 # LEVEL_01
@@ -510,7 +520,6 @@ pathy==0.6.1 # LEVEL_03
 patsy==0.5.2 # LEVEL_02
 pexpect==4.8.0 # LEVEL_02
 pickleshare==0.7.5 # LEVEL_01
-plotly==5.3.1 # LEVEL_02
 portalocker==2.3.2 # LEVEL_01
 preshed==3.0.6 # LEVEL_02
 prometheus-client==0.11.0 # LEVEL_01
@@ -573,7 +582,6 @@ stdlib-list==0.8.0 # LEVEL_01
 stumpy==1.9.2 # LEVEL_03
 tabulate==0.8.9 # LEVEL_01
 tblib==1.7.0 # LEVEL_01
-tenacity==8.0.1 # LEVEL_01
 termcolor==1.1.0 # LEVEL_01
 terminado==0.12.1 # LEVEL_02
 testpath==0.5.0 # LEVEL_01
