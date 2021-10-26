@@ -5411,7 +5411,7 @@ Requires: numpy protobuf
 Required-by: tensorflow-text tf-models-official
 ---
 Name: tensorflow-metadata
-Version: 1.2.0
+Version: 1.4.0
 Summary: Library and standards for schema and statistics.
 Home-page: UNKNOWN
 Author: Google Inc.

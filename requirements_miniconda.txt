@@ -125,7 +125,7 @@ tensorflow-addons==0.14.0 # LEVEL_02
 tensorflow-datasets==4.4.0 # LEVEL_04
 tensorflow-estimator==2.6.0 # LEVEL_01
 tensorflow-hub==0.12.0 # LEVEL_02
-tensorflow-metadata==1.2.0 # LEVEL_03
+tensorflow-metadata==1.4.0 # LEVEL_03 # Library and standards for schema and statistics
 tensorflow-model-optimization==0.7.0 # LEVEL_03
 tensorflow-text==2.6.0 # LEVEL_07
 tf-models-official==2.6.0 # LEVEL_08
