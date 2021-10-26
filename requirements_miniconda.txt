@@ -349,7 +349,7 @@ uritemplate==4.1.1 # LEVEL_01 # required by google-api-python-client
 jupyter==1.0.0 # LEVEL_09
 jupyter-client==7.0.6 # LEVEL_03 # Jupyter protocol implementation and client libraries
 jupyter-console==6.4.0 # LEVEL_05
-jupyter-core==4.8.1 # LEVEL_02
+jupyter-core==4.8.2 # LEVEL_02
 jupyter-dash==0.4.0 # LEVEL_06
 jupyter-packaging==0.11.0 # LEVEL_04
 jupyter-server==1.11.1 # LEVEL_06 # The backend-i.e. core services, APIs, and REST endpoints-to Jupyter web applications.
