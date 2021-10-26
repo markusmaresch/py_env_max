@@ -12,8 +12,8 @@ grep CONDA_CREATE $requirements | \
   echo "Package"
   echo "-----------------------------"
   echo "dask"
-  echo "ruamel.yaml"
-  echo "ruamel.yaml.clib"
+  #echo "ruamel.yaml"
+  #echo "ruamel.yaml.clib"
 ) >> $cc_tmp
 
 for p in $(pip list | awk '{print $1}'); do
