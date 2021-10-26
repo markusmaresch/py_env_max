@@ -1,5 +1,7 @@
 #!/bin/bash
 
+conda --version > conda_version.txt
+
 rm -f pipdeptree.cache
 
 if ! python levels_check.py; then

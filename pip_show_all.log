@@ -593,7 +593,7 @@ Requires:
 Required-by: twint
 ---
 Name: certifi
-Version: 2021.5.30
+Version: 2021.10.8
 Summary: Python package for providing Mozilla's CA Bundle.
 Home-page: https://certifiio.readthedocs.io/en/latest/
 Author: Kenneth Reitz
