@@ -293,7 +293,7 @@ Author-email: hs@ox.cx
 License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: Fiona aiohttp aiohttp-socks cattrs jsonschema outcome pyanalyze pytest pytype ray requests-cache tensorflow-datasets trio
+Required-by: Fiona aiohttp aiohttp-socks cattrs jsonschema outcome pyanalyze pytest pytype ray requests-cache tensorflow-datasets trio zeep
 ---
 Name: Authlib
 Version: 0.15.5
@@ -536,6 +536,17 @@ License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cffi
 Required-by: 
+---
+Name: cached-property
+Version: 1.5.2
+Summary: A decorator for caching properties in classes.
+Home-page: https://github.com/pydanny/cached-property
+Author: Daniel Greenfeld
+Author-email: pydanny@gmail.com
+License: BSD
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
+Required-by: zeep
 ---
 Name: cachetools
 Version: 4.2.4
@@ -843,7 +854,7 @@ Author-email: cryptography-dev@python.org
 License: BSD or Apache License, Version 2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cffi
-Required-by: Authlib pyOpenSSL robin-stocks
+Required-by: Authlib pyOpenSSL rapidminer robin-stocks
 ---
 Name: cssselect2
 Version: 0.4.1
@@ -1888,7 +1899,7 @@ Author-email: andrew.collette@gmail.com
 License: BSD
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
-Required-by: tensorflow
+Required-by: rapidminer tensorflow
 ---
 Name: HeapDict
 Version: 1.0.1
@@ -2219,6 +2230,17 @@ License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: m3u8
+---
+Name: isodate
+Version: 0.6.0
+Summary: An ISO 8601 date/time/duration parser and formatter
+Home-page: https://github.com/gweis/isodate/
+Author: Gerhard Weis
+Author-email: gerhard.weis@proclos.com
+License: BSD
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: six
+Required-by: zeep
 ---
 Name: itsdangerous
 Version: 2.0.1
@@ -2636,7 +2658,7 @@ Author-email: lxml-dev@lxml.de
 License: BSD
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: geos pandas-datareader yfinance
+Required-by: geos pandas-datareader yfinance zeep
 ---
 Name: lz4
 Version: 3.1.3
@@ -3076,7 +3098,7 @@ Author-email:
 License: BSD
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh cmdstanpy colormath cvxpy dask-ml datasets datashader datashape ecos elegantrl empyrical eventkit exchange-calendars fastprogress finta gensim gym h5py imagecodecs imageio imbalanced-learn jax jqdatasdk matplotlib nibabel nilearn numba numcodecs opencv-python opencv-python-headless openvino opt-einsum osqp pandas params-flow patsy pmdarima prophet py-lets-be-rational py-vollib pyarrow pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan qdldl ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 statsmodels stockstats stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official thinc tifffile tiledb torchvision trading-calendars transformers vispy wordcloud wrds xarray xgboost yfinance zarr
+Required-by: Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh cmdstanpy colormath cvxpy dask-ml datasets datashader datashape ecos elegantrl empyrical eventkit exchange-calendars fastprogress finta gensim gym h5py imagecodecs imageio imbalanced-learn jax jqdatasdk matplotlib nibabel nilearn numba numcodecs opencv-python opencv-python-headless openvino opt-einsum osqp pandas params-flow patsy pmdarima prophet py-lets-be-rational py-vollib pyarrow pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 statsmodels stockstats stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official thinc tifffile tiledb torchvision trading-calendars transformers vispy wordcloud wrds xarray xgboost yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -3274,7 +3296,7 @@ Author-email: pandas-dev@python.org
 License: BSD-3-Clause
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy python-dateutil pytz
-Required-by: altair cmdstanpy dask-ml datasets datashader empyrical exchange-calendars fastai finta geopandas iexfinance jqdatasdk mplfinance nilearn openai pandas-datareader pandas-finance pandas-market-calendars pmdarima prophet py-vollib pyfolio pyportfolioopt seaborn stable-baselines3 statsmodels stockstats tf-models-official trading-calendars twint wrds xarray yfinance
+Required-by: altair cmdstanpy dask-ml datasets datashader empyrical exchange-calendars fastai finta geopandas iexfinance jqdatasdk mplfinance nilearn openai pandas-datareader pandas-finance pandas-market-calendars pmdarima prophet py-vollib pyfolio pyportfolioopt rapidminer seaborn stable-baselines3 statsmodels stockstats tf-models-official trading-calendars twint wrds xarray yfinance
 ---
 Name: pandas-datareader
 Version: 0.10.0
@@ -3517,6 +3539,17 @@ License: UNKNOWN
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: PasteDeploy plaster
 Required-by: pyramid
+---
+Name: platformdirs
+Version: 2.4.0
+Summary: A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir".
+Home-page: https://github.com/platformdirs/platformdirs
+Author: 
+Author-email: 
+License: MIT
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
+Required-by: zeep
 ---
 Name: plink
 Version: 2.4
@@ -3904,12 +3937,12 @@ Requires: beautifulsoup4 docutils sphinx
 Required-by: 
 ---
 Name: pydeck
-Version: 0.7.0
+Version: 0.7.1
 Summary: Widget for deck.gl maps
 Home-page: https://github.com/visgl/deck.gl/tree/master/bindings/pydeck
 Author: Andrew Duberstein
 Author-email: ajduberstein@gmail.com
-License: Apache 2.0 License
+License: Apache License 2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: ipykernel ipywidgets jinja2 numpy traitlets
 Required-by: 
@@ -4374,7 +4407,7 @@ Author-email: stuart@stuartbishop.net
 License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: Babel LunarCalendar Mastodon.py convertdate exchange-calendars pandas pandas-market-calendars pyfolio trading-calendars yahoofinancials
+Required-by: Babel LunarCalendar Mastodon.py convertdate exchange-calendars pandas pandas-market-calendars pyfolio trading-calendars yahoofinancials zeep
 ---
 Name: pytz-deprecation-shim
 Version: 0.1.0.post0
@@ -4475,6 +4508,17 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: 
 Required-by: qtconsole
 ---
+Name: rapidminer
+Version: 9.10.0.0
+Summary: Tools for running RapidMiner processes and managing RapidMiner repositories.
+Home-page: https://github.com/rapidminer/python-rapidminer
+Author: RapidMiner
+Author-email: 
+License: AGPL
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: cryptography h5py numpy pandas requests zeep
+Required-by: 
+---
 Name: rapids
 Version: 0.0.1
 Summary: REST APIs documented and sensible
@@ -4528,7 +4572,7 @@ Author-email: me@kennethreitz.org
 License: Apache 2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: certifi charset-normalizer idna urllib3
-Required-by: Kivy-Garden Mastodon.py Sphinx alpha-vantage bertviz chart-studio cloudscraper coinpaprika dash-auth datasets fastai google-api-core googletransx h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle nilearn openai pandas-datareader pandas-finance requests-cache requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy tensorboard tensorflow-datasets tiingo transformers yfinance
+Required-by: Kivy-Garden Mastodon.py Sphinx alpha-vantage bertviz chart-studio cloudscraper coinpaprika dash-auth datasets fastai google-api-core googletransx h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle nilearn openai pandas-datareader pandas-finance rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy tensorboard tensorflow-datasets tiingo transformers yfinance zeep
 ---
 Name: requests-cache
 Version: 0.8.1
@@ -4540,6 +4584,17 @@ License: BSD License
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: appdirs attrs cattrs requests url-normalize urllib3
 Required-by: pandas-finance
+---
+Name: requests-file
+Version: 1.5.1
+Summary: File transport adapter for Requests
+Home-page: http://github.com/dashea/requests-file
+Author: David Shea
+Author-email: reallylongword@gmail.com
+License: Apache 2.0
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: requests six
+Required-by: zeep
 ---
 Name: requests-oauthlib
 Version: 1.3.0
@@ -4561,7 +4616,7 @@ Author-email: graffatcolmingov@gmail.com
 License: Apache 2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: requests
-Required-by: cloudscraper
+Required-by: cloudscraper zeep
 ---
 Name: requests-unixsocket
 Version: 0.2.0
@@ -4729,7 +4784,7 @@ Requires: PyWavelets imageio matplotlib networkx numpy pillow scipy tifffile
 Required-by: dash-canvas
 ---
 Name: scikit-learn
-Version: 1.0
+Version: 1.0.1
 Summary: A set of python modules for machine learning and data mining
 Home-page: http://scikit-learn.org
 Author: 
@@ -4839,7 +4894,7 @@ Requires:
 Required-by: prophet
 ---
 Name: Shapely
-Version: 1.7.1
+Version: 1.8.0
 Summary: Geometric objects, predicates, and operations
 Home-page: https://github.com/Toblerity/Shapely
 Author: Sean Gillies
@@ -4880,7 +4935,7 @@ Author-email: benjamin@python.org
 License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py astunparse atari-py bleach blessings chart-studio cycler cypari dm-tree fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk jqdatasdk kaggle multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil retrying rouge-score sacremoses tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators
+Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py astunparse atari-py bleach blessings chart-studio cycler cypari dm-tree fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil requests-file retrying rouge-score sacremoses tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators
 ---
 Name: smart-open
 Version: 5.2.1
@@ -6146,6 +6201,17 @@ License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: asciitree fasteners numcodecs numpy
 Required-by: 
+---
+Name: zeep
+Version: 4.1.0
+Summary: A modern/fast Python SOAP client based on lxml / requests
+Home-page: http://docs.python-zeep.org
+Author: Michael van Tellingen
+Author-email: michaelvantellingen@gmail.com
+License: MIT
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: attrs cached-property isodate lxml platformdirs pytz requests requests-file requests-toolbelt
+Required-by: rapidminer
 ---
 Name: zict
 Version: 2.0.0
