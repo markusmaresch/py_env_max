@@ -48,3 +48,6 @@ brew install docker ## was: brew cask install docker
 
 # ffmpeg for udemy-dl
 brew install ffmpeg
+
+# for box2d-py
+brew install swig
