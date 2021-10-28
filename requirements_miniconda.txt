@@ -161,7 +161,7 @@ gym==0.21.0 # LEVEL_02
 #
 gensim==4.1.2 # LEVEL_03
 #
-openai==0.10.5 # LEVEL_04
+openai==0.11.0 # LEVEL_04
 pandas-stubs==1.2.0.35 # LEVEL_01 # needed by openai
 #
 #ktrain>=0.27.2
@@ -188,8 +188,8 @@ babel==2.9.1 # LEVEL_02
 bert-for-tf2==0.14.9 # LEVEL_03
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger
 sentencepiece==0.1.96 # LEVEL_01 # for BERT
-boto3==1.19.4 # LEVEL_05 # The AWS SDK for Python # required by bertviz
-botocore==1.22.4 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
+boto3==1.19.5 # LEVEL_05 # The AWS SDK for Python # required by bertviz
+botocore==1.22.5 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
 #
 spacy==3.1.3 # LEVEL_04
 spacy-legacy==3.0.8 # LEVEL_01
@@ -221,7 +221,7 @@ distributed==2021.10.0 # LEVEL_04
 #
 scikit-image==0.18.3 # LEVEL_04
 scikit-learn==1.0.1 # LEVEL_03
-pyod==0.9.4 # LEVEL_05 # outlyer detection
+pyod==0.9.5 # LEVEL_05 # outlyer detection
 jax==0.2.24 # LEVEL_03 # Differentiate, compile, and transform Numpy code
 #
 rapidminer==9.10.0.0 # LEVEL_05 # Tools for running RapidMiner processes and managing RapidMiner repositories.
@@ -237,7 +237,7 @@ platformdirs==2.4.0 # LEVEL_01 # module for determining appropriate platform-spe
 opencv-python==4.5.4.58 # LEVEL_02
 opencv-python-headless==4.5.4.58 # LEVEL_02
 pillow==8.4.0 # LEVEL_01
-imageio==2.9.0 # LEVEL_02
+imageio==2.10.1 # LEVEL_02
 tifffile==2021.10.12 # LEVEL_02
 #
 openvino==2021.4.1 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org
@@ -310,7 +310,7 @@ pydot==1.4.2 # LEVEL_02 # Python interface to Graphviz's Dot
 networkx==2.6.3 # LEVEL_01 # includes drawing graphs
 # pysimpleguiqt>=0.35.0
 #
-vispy==0.9.2 # LEVEL_02
+vispy==0.9.3 # LEVEL_02
 #
 kivy==2.0.0 # LEVEL_04
 kivy-examples==2.0.0 # LEVEL_04
@@ -349,7 +349,7 @@ uritemplate==4.1.1 # LEVEL_01 # required by google-api-python-client
 jupyter==1.0.0 # LEVEL_09
 jupyter-client==7.0.6 # LEVEL_03 # Jupyter protocol implementation and client libraries
 jupyter-console==6.4.0 # LEVEL_05
-jupyter-core==4.8.2 # LEVEL_02
+jupyter-core==4.9.1 # LEVEL_02
 jupyter-dash==0.4.0 # LEVEL_06
 jupyter-packaging==0.11.0 # LEVEL_04
 jupyter-server==1.11.1 # LEVEL_06 # The backend-i.e. core services, APIs, and REST endpoints-to Jupyter web applications.
@@ -525,7 +525,7 @@ preshed==3.0.6 # LEVEL_02
 prometheus-client==0.11.0 # LEVEL_01
 promise==2.3 # LEVEL_02
 prompt-toolkit==3.0.21 # LEVEL_02
-proto-plus==1.19.6 # LEVEL_02
+proto-plus==1.19.7 # LEVEL_02
 protobuf==3.19.0 # LEVEL_01
 psutil==5.8.0 # LEVEL_01
 ptyprocess==0.7.0 # LEVEL_01
@@ -621,7 +621,7 @@ zipp==3.6.0 # LEVEL_01
 #
 #streamlit # has some dependencies !!
 tbb==2021.4.0 # LEVEL_01
-tiledb==0.10.3 # LEVEL_02
+tiledb==0.10.4 # LEVEL_02
 tinycss2==1.1.0 # LEVEL_02
 xarray==0.19.0 # LEVEL_04
 zstd==1.5.0.2 # LEVEL_01
