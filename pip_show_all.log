@@ -20,6 +20,17 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: 
 Required-by: pyanalyze
 ---
+Name: agate
+Version: 1.6.1
+Summary: A data analysis library that is optimized for humans instead of machines.
+Home-page: http://agate.readthedocs.org/
+Author: Christopher Groskopf
+Author-email: chrisgroskopf@gmail.com
+License: MIT
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: Babel isodate leather parsedatetime python-slugify pytimeparse six
+Required-by: 
+---
 Name: aiodns
 Version: 3.0.0
 Summary: Simple DNS resolver for asyncio
@@ -207,6 +218,17 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: 
 Required-by: zarr
 ---
+Name: asn1crypto
+Version: 1.4.0
+Summary: Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP
+Home-page: https://github.com/wbond/asn1crypto
+Author: wbond
+Author-email: will@wbond.net
+License: MIT
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
+Required-by: oscrypto
+---
 Name: ast-decompiler
 Version: 0.4.0
 Summary: Python module to decompile AST to Python code
@@ -317,6 +339,39 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: pycodestyle toml
 Required-by: tda-api
 ---
+Name: azure-common
+Version: 1.1.27
+Summary: Microsoft Azure Client Library for Python (Common)
+Home-page: https://github.com/Azure/azure-sdk-for-python
+Author: Microsoft Corporation
+Author-email: azpysdkhelp@microsoft.com
+License: MIT License
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
+Required-by: 
+---
+Name: azure-core
+Version: 1.19.0
+Summary: Microsoft Azure Core Library for Python
+Home-page: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/core/azure-core
+Author: Microsoft Corporation
+Author-email: azpysdkhelp@microsoft.com
+License: MIT License
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: requests six
+Required-by: azure-storage-blob
+---
+Name: azure-storage-blob
+Version: 12.9.0
+Summary: Microsoft Azure Blob Storage Client Library for Python
+Home-page: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/storage/azure-storage-blob
+Author: Microsoft Corporation
+Author-email: ascl@microsoft.com
+License: MIT License
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: azure-core cryptography msrest
+Required-by: 
+---
 Name: Babel
 Version: 2.9.1
 Summary: Internationalization utilities
@@ -326,7 +381,7 @@ Author-email: armin.ronacher@active-4.com
 License: BSD
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pytz
-Required-by: Sphinx jupyterlab-server
+Required-by: Sphinx agate jupyterlab-server
 ---
 Name: backcall
 Version: 0.2.0
@@ -472,7 +527,7 @@ Requires: Mastodon.py sqlalchemy
 Required-by: 
 ---
 Name: boto3
-Version: 1.19.5
+Version: 1.19.6
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -483,7 +538,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.22.5
+Version: 1.22.6
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -601,7 +656,7 @@ Author-email: me@kennethreitz.com
 License: MPL-2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: Fiona elasticsearch httpx intrinio-sdk kaggle pyproj requests
+Required-by: Fiona elasticsearch httpx intrinio-sdk kaggle msrest pyproj requests
 ---
 Name: cffi
 Version: 1.15.0
@@ -854,7 +909,7 @@ Author-email: cryptography-dev@python.org
 License: BSD or Apache License, Version 2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cffi
-Required-by: Authlib pyOpenSSL rapidminer robin-stocks
+Required-by: Authlib azure-storage-blob pyOpenSSL rapidminer robin-stocks
 ---
 Name: cssselect2
 Version: 0.4.1
@@ -1097,6 +1152,17 @@ License: BSD
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: multipledispatch numpy python-dateutil
 Required-by: datashader
+---
+Name: dbt-extractor
+Version: 0.4.0
+Summary: 
+Home-page: 
+Author: Nathaniel May <nathaniel.may@fishtownanalytics.com>
+Author-email: Nathaniel May <nathaniel.may@fishtownanalytics.com>
+License: 
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
+Required-by: 
 ---
 Name: debugpy
 Version: 1.5.1
@@ -1693,7 +1759,7 @@ Requires: python-gflags six
 Required-by: 
 ---
 Name: google-api-core
-Version: 2.2.0
+Version: 2.2.1
 Summary: Google API client core library
 Home-page: https://github.com/googleapis/python-api-core
 Author: Google LLC
@@ -1701,7 +1767,7 @@ Author-email: googleapis-packages@google.com
 License: Apache 2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: google-auth googleapis-common-protos protobuf requests setuptools
-Required-by: google-api-python-client opencensus
+Required-by: google-api-python-client google-cloud-bigquery google-cloud-core opencensus
 ---
 Name: google-api-python-client
 Version: 2.28.0
@@ -1723,7 +1789,7 @@ Author-email: googleapis-packages@google.com
 License: Apache 2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cachetools pyasn1-modules rsa setuptools six
-Required-by: google-api-core google-api-python-client google-auth-httplib2 google-auth-oauthlib tensorboard
+Required-by: google-api-core google-api-python-client google-auth-httplib2 google-auth-oauthlib google-cloud-core tensorboard
 ---
 Name: google-auth-httplib2
 Version: 0.1.0
@@ -1747,6 +1813,39 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: google-auth requests-oauthlib
 Required-by: tensorboard
 ---
+Name: google-cloud-bigquery
+Version: 2.29.0
+Summary: Google BigQuery API client library
+Home-page: https://github.com/googleapis/python-bigquery
+Author: Google LLC
+Author-email: googleapis-packages@google.com
+License: Apache 2.0
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: google-api-core google-cloud-core google-resumable-media grpcio packaging proto-plus protobuf python-dateutil requests
+Required-by: 
+---
+Name: google-cloud-core
+Version: 2.1.0
+Summary: Google Cloud API client core library
+Home-page: https://github.com/googleapis/python-cloud-core
+Author: Google LLC
+Author-email: googleapis-packages@google.com
+License: Apache 2.0
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: google-api-core google-auth
+Required-by: google-cloud-bigquery
+---
+Name: google-crc32c
+Version: 1.3.0
+Summary: A python wrapper of the C library 'Google CRC32C'
+Home-page: https://github.com/googleapis/python-crc32c
+Author: Google LLC
+Author-email: googleapis-packages@google.com
+License: Apache 2.0
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
+Required-by: google-resumable-media
+---
 Name: google-pasta
 Version: 0.2.0
 Summary: pasta is an AST-based Python refactoring library
@@ -1758,6 +1857,17 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: six
 Required-by: tensorflow
 ---
+Name: google-resumable-media
+Version: 2.1.0
+Summary: Utilities for Google Media Downloads and Resumable Uploads
+Home-page: https://github.com/googleapis/google-resumable-media-python
+Author: Google Cloud Platform
+Author-email: googleapis-publisher@google.com
+License: Apache 2.0
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: google-crc32c
+Required-by: google-cloud-bigquery
+---
 Name: googleapis-common-protos
 Version: 1.53.0
 Summary: Common protobufs used in Google APIs
@@ -1767,7 +1877,7 @@ Author-email: googleapis-packages@google.com
 License: Apache-2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: protobuf
-Required-by: google-api-core tensorflow-metadata
+Required-by: google-api-core grpcio-status tensorflow-metadata
 ---
 Name: googletransx
 Version: 2.4.2
@@ -1844,7 +1954,18 @@ Author-email: grpc-io@googlegroups.com
 License: Apache License 2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
-Required-by: ray tensorboard tensorflow
+Required-by: google-cloud-bigquery grpcio-status ray tensorboard tensorflow
+---
+Name: grpcio-status
+Version: 1.41.1
+Summary: Status proto mapping for gRPC
+Home-page: https://grpc.io
+Author: The gRPC Authors
+Author-email: grpc-io@googlegroups.com
+License: Apache License 2.0
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: googleapis-common-protos grpcio protobuf
+Required-by: 
 ---
 Name: gunicorn
 Version: 20.1.0
@@ -2130,7 +2251,7 @@ Author-email: jaraco@jaraco.com
 License: UNKNOWN
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: zipp
-Required-by: 
+Required-by: keyring
 ---
 Name: importlib-resources
 Version: 5.3.0
@@ -2240,7 +2361,7 @@ Author-email: gerhard.weis@proclos.com
 License: BSD
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
-Required-by: zeep
+Required-by: agate msrest zeep
 ---
 Name: itsdangerous
 Version: 2.0.1
@@ -2317,6 +2438,17 @@ Author-email: xlx@joinquant.com
 License: Apache License v2
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: SQLAlchemy msgpack numpy pandas pymysql requests six thriftpy2
+Required-by: 
+---
+Name: json-rpc
+Version: 1.13.0
+Summary: JSON-RPC transport implementation
+Home-page: https://github.com/pavlov99/json-rpc
+Author: Kirill Pavlov
+Author-email: k@p99.io
+License: MIT
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
 Required-by: 
 ---
 Name: json5
@@ -2528,6 +2660,17 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: numpy six
 Required-by: tensorflow
 ---
+Name: keyring
+Version: 23.2.1
+Summary: Store and access your passwords safely.
+Home-page: https://github.com/jaraco/keyring
+Author: Kang Zhang
+Author-email: jobo.zh@gmail.com
+License: UNKNOWN
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: importlib-metadata
+Required-by: 
+---
 Name: Kivy
 Version: 2.0.0
 Summary: A software library for rapid development of hardware-accelerated multitouch applications.
@@ -2605,6 +2748,17 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: 
 Required-by: 
 ---
+Name: leather
+Version: 0.3.4
+Summary: Python charting for 80% of humans.
+Home-page: http://leather.readthedocs.io/
+Author: Christopher Groskopf
+Author-email: chrisgroskopf@gmail.com
+License: MIT
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: six
+Required-by: agate
+---
 Name: libcst
 Version: 0.3.21
 Summary: A concrete syntax tree with AST-like properties for Python 3.5, 3.6, 3.7 and 3.8 programs.
@@ -2648,6 +2802,17 @@ License: UNKNOWN
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: python-daemon
+---
+Name: Logbook
+Version: 1.5.3
+Summary: A logging replacement for Python
+Home-page: http://logbook.pocoo.org/
+Author: Armin Ronacher, Georg Brandl
+Author-email: armin.ronacher@active-4.com
+License: BSD
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
+Required-by: 
 ---
 Name: luigi
 Version: 3.0.3
@@ -2737,6 +2902,17 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: 
 Required-by: Jinja2
 ---
+Name: mashumaro
+Version: 2.8
+Summary: Fast serialization framework on top of dataclasses
+Home-page: https://github.com/Fatal1ty/mashumaro
+Author: Alexander Tikhonov
+Author-email: random.gauss@gmail.com
+License: Apache License, Version 2.0
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: msgpack pyyaml typing-extensions
+Required-by: 
+---
 Name: Mastodon.py
 Version: 1.5.1
 Summary: Python wrapper for the Mastodon API
@@ -2792,6 +2968,17 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: psutil
 Required-by: 
 ---
+Name: minimal-snowplow-tracker
+Version: 0.0.2
+Summary: A minimal snowplow event tracker for Python. Add analytics to your Python and Django apps, webapps and games
+Home-page: https://www.fishtownanalytics.com
+Author: Anuj More, Alexander Dean, Fred Blundun, Drew Banin, Jacob Beck, Connor McArthur
+Author-email: 
+License: Apache License 2.0
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: requests six
+Required-by: 
+---
 Name: mistune
 Version: 0.8.4
 Summary: The fastest markdown parser in pure Python
@@ -2834,7 +3021,7 @@ Author-email: songofacandy@gmail.com
 License: Apache 2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: distributed jqdatasdk ray
+Required-by: distributed jqdatasdk mashumaro ray
 ---
 Name: msgpack-python
 Version: 0.5.6
@@ -2846,6 +3033,17 @@ License: Apache 2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
+---
+Name: msrest
+Version: 0.6.21
+Summary: AutoRest swagger generator Python client runtime.
+Home-page: https://github.com/Azure/msrest-for-python
+Author: Microsoft Corporation
+Author-email: 
+License: MIT License
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: certifi isodate requests requests-oauthlib
+Required-by: azure-storage-blob
 ---
 Name: multidict
 Version: 5.2.0
@@ -3276,6 +3474,17 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: 
 Required-by: nodejs
 ---
+Name: oscrypto
+Version: 1.2.1
+Summary: TLS (SSL) sockets, key generation, encryption, decryption, signing, verification and KDFs using the OS crypto libraries. Does not require a compiler, and relies on the OS for patching. Works on Windows, OS X and Linux/BSD.
+Home-page: https://github.com/wbond/oscrypto
+Author: wbond
+Author-email: will@wbond.net
+License: MIT
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: asn1crypto
+Required-by: 
+---
 Name: osqp
 Version: 0.6.2.post0
 Summary: OSQP: The Operator Splitting QP Solver
@@ -3307,7 +3516,7 @@ Author-email: donald@stufft.io
 License: BSD-2-Clause or Apache-2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pyparsing
-Required-by: Sphinx bleach bokeh dask dask-ml datasets deprecation fastai fastcore huggingface-hub jupyter-packaging jupyterlab jupyterlab-server nibabel pipx pytest spacy transformers
+Required-by: Sphinx bleach bokeh dask dask-ml datasets deprecation fastai fastcore google-cloud-bigquery huggingface-hub jupyter-packaging jupyterlab jupyterlab-server nibabel pipx pytest spacy transformers
 ---
 Name: pandas
 Version: 1.3.4
@@ -3396,6 +3605,17 @@ License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy py-params tqdm
 Required-by: bert-for-tf2
+---
+Name: parsedatetime
+Version: 2.6
+Summary: Parse human-readable date/time text.
+Home-page: https://github.com/bear/parsedatetime
+Author: Mike Taylor
+Author-email: bear@bear.im
+License: Apache License 2.0
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
+Required-by: agate
 ---
 Name: parso
 Version: 0.8.2
@@ -3714,7 +3934,7 @@ Author-email: googleapis-packages@google.com
 License: Apache 2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: protobuf
-Required-by: 
+Required-by: google-cloud-bigquery
 ---
 Name: protobuf
 Version: 3.19.0
@@ -3725,7 +3945,7 @@ Author-email:
 License: 3-Clause BSD License
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: google-api-core googleapis-common-protos proto-plus ray tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata
+Required-by: google-api-core google-cloud-bigquery googleapis-common-protos grpcio-status proto-plus ray tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata
 ---
 Name: psutil
 Version: 5.8.0
@@ -3925,6 +4145,17 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: 
 Required-by: cffi
 ---
+Name: pycryptodomex
+Version: 3.11.0
+Summary: Cryptographic library for Python
+Home-page: https://www.pycryptodome.org
+Author: Helder Eijs
+Author-email: helderijs@gmail.com
+License: BSD, Public Domain
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
+Required-by: 
+---
 Name: pyct
 Version: 0.4.8
 Summary: Python package common tasks for users (e.g. copy examples, fetch data, ...)
@@ -4067,6 +4298,17 @@ License: UNKNOWN
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pyinstaller
+---
+Name: PyJWT
+Version: 2.3.0
+Summary: JSON Web Token implementation in Python
+Home-page: https://github.com/jpadilla/pyjwt
+Author: Jose Padilla
+Author-email: hello@jpadilla.com
+License: MIT
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
+Required-by: 
 ---
 Name: pyluach
 Version: 1.3.0
@@ -4352,7 +4594,7 @@ Author-email: gustavo@niemeyer.net
 License: Dual License
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
-Required-by: LunarCalendar Mastodon.py arrow bokeh botocore croniter datashape exchange-calendars holidays int-date intrinio-sdk jupyter-client kaggle luigi matplotlib pandas pandas-market-calendars prophet tda-api trading-calendars
+Required-by: LunarCalendar Mastodon.py arrow bokeh botocore croniter datashape exchange-calendars google-cloud-bigquery holidays int-date intrinio-sdk jupyter-client kaggle luigi matplotlib pandas pandas-market-calendars prophet tda-api trading-calendars
 ---
 Name: python-dotenv
 Version: 0.19.1
@@ -4396,7 +4638,7 @@ Author-email: info@neekware.com
 License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: text-unidecode
-Required-by: kaggle
+Required-by: agate kaggle
 ---
 Name: python-socks
 Version: 1.2.4
@@ -4408,6 +4650,17 @@ License: Apache 2
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: aiohttp-socks
+---
+Name: pytimeparse
+Version: 1.1.8
+Summary: Time expression parser
+Home-page: https://github.com/wroberts/pytimeparse
+Author: Will Roberts
+Author-email: wildwilhelm@gmail.com
+License: License :: OSI Approved :: MIT License
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
+Required-by: agate
 ---
 Name: pytorch-ranger
 Version: 0.1.1
@@ -4484,7 +4737,7 @@ Author-email: xi@resolvent.net
 License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: bokeh dask distributed fastai huggingface-hub libcst rapids ray tf-models-official transformers
+Required-by: bokeh dask distributed fastai huggingface-hub libcst mashumaro rapids ray tf-models-official transformers
 ---
 Name: pyzmq
 Version: 22.3.0
@@ -4564,7 +4817,7 @@ Requires: PyYAML pyramid setuptools venusian zope.interface
 Required-by: 
 ---
 Name: ray
-Version: 1.7.1
+Version: 1.7.0
 Summary: Ray provides a simple, universal API for building distributed applications.
 Home-page: https://github.com/ray-project/ray
 Author: Ray Team
@@ -4605,7 +4858,7 @@ Author-email: me@kennethreitz.org
 License: Apache 2.0
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: certifi charset-normalizer idna urllib3
-Required-by: Kivy-Garden Mastodon.py Sphinx alpha-vantage bertviz chart-studio cloudscraper coinpaprika dash-auth datasets fastai google-api-core googletransx h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle nilearn openai pandas-datareader pandas-finance rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy tensorboard tensorflow-datasets tiingo transformers yfinance zeep
+Required-by: Kivy-Garden Mastodon.py Sphinx alpha-vantage azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth datasets fastai google-api-core google-cloud-bigquery googletransx h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle minimal-snowplow-tracker msrest nilearn openai pandas-datareader pandas-finance rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy tensorboard tensorflow-datasets tiingo transformers yfinance zeep
 ---
 Name: requests-cache
 Version: 0.8.1
@@ -4638,7 +4891,7 @@ Author-email: me@kennethreitz.com
 License: ISC
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: oauthlib requests
-Required-by: google-auth-oauthlib
+Required-by: google-auth-oauthlib msrest
 ---
 Name: requests-toolbelt
 Version: 0.9.1
@@ -4738,6 +4991,28 @@ License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
+---
+Name: ruamel.yaml
+Version: 0.17.16
+Summary: ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
+Home-page: https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree
+Author: Anthon van der Neut
+Author-email: a.van.der.neut@ruamel.eu
+License: MIT license
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: ruamel.yaml.clib
+Required-by: 
+---
+Name: ruamel.yaml.clib
+Version: 0.2.6
+Summary: C version of reader, parser and emitter for ruamel.yaml derived from libyaml
+Home-page: https://sourceforge.net/p/ruamel-yaml-clib/code/ci/default/tree
+Author: Anthon van der Neut
+Author-email: a.van.der.neut@ruamel.eu
+License: MIT
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
+Required-by: ruamel.yaml
 ---
 Name: s3transfer
 Version: 0.5.0
@@ -4946,7 +5221,7 @@ Author-email: benjamin@python.org
 License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py astunparse atari-py bleach blessings chart-studio cycler cypari dm-tree fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil requests-file retrying rouge-score sacremoses tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators
+Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py agate astunparse atari-py azure-core bleach blessings chart-studio cycler cypari dm-tree fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil requests-file retrying rouge-score sacremoses tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators
 ---
 Name: smart-open
 Version: 5.2.1
@@ -5156,6 +5431,17 @@ License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: greenlet
 Required-by: boost jqdatasdk wrds
+---
+Name: sqlparse
+Version: 0.4.2
+Summary: A non-validating SQL parser.
+Home-page: https://github.com/andialbrecht/sqlparse
+Author: Andi Albrecht
+Author-email: albrecht.andi@gmail.com
+License: BSD-3-Clause
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
+Required-by: 
 ---
 Name: srsly
 Version: 2.4.2
@@ -5510,7 +5796,7 @@ Requires: numpy scipy six
 Required-by: 
 ---
 Name: thinc
-Version: 8.0.11
+Version: 8.0.12
 Summary: A refreshing functional take on deep learning, compatible with your favorite libraries
 Home-page: https://github.com/explosion/thinc
 Author: Explosion
@@ -5719,7 +6005,7 @@ Requires:
 Required-by: ipykernel ipython ipywidgets jupyter-client jupyter-core jupyter-server matplotlib-inline nbclient nbconvert nbformat notebook pydeck qtconsole
 ---
 Name: transformers
-Version: 4.11.3
+Version: 4.12.0
 Summary: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 Home-page: https://github.com/huggingface/transformers
 Author: Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Sam Shleifer, Patrick von Platen, Sylvain Gugger, Suraj Patil, Stas Bekman, Google AI Language Team Authors, Open AI team Authors, Facebook AI Authors, Carnegie Mellon University Authors
@@ -5826,7 +6112,7 @@ Author-email: levkivskyi@gmail.com
 License: PSF
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: GitPython aiohttp aioredis bokeh huggingface-hub jax libcst mypy pyanalyze pydantic tensorflow torch typing-inspect
+Required-by: GitPython aiohttp aioredis bokeh huggingface-hub jax libcst mashumaro mypy pyanalyze pydantic tensorflow torch typing-inspect
 ---
 Name: typing-inspect
 Version: 0.7.1
