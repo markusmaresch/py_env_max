@@ -22,7 +22,8 @@ for p in $(pip list | awk '{print $1}'); do
     #echo "Possible: $p"
     grep -q -i "^${p}$" $cc_tmp
     if [ $? -ne 0 ]; then
-      echo "Not specified: $p"
+      version=$(pip show $p | grep -e "^Version: " | awk '{print $2}')
+      echo "Not specified: ${p}==${version}"
     fi
   fi
 done
