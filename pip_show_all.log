@@ -2936,7 +2936,7 @@ Requires:
 Required-by: mypy pyanalyze typing-inspect
 ---
 Name: nbclassic
-Version: 0.3.3
+Version: 0.3.4
 Summary: Jupyter Notebook as a Jupyter Server extension.
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
