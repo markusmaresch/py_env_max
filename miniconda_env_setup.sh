@@ -6,7 +6,7 @@ py_env_name="py_env_202110"  # change/count up
 python_default_version="3.9"
 
 pip_check_exit() {
-  pip_check_tmp="pip_check.tmp"
+  pip_check_tmp="/tmp/pip_check.$$.tmp"
   pip check | tee $pip_check_tmp
   ret=$?
   echo "pip check ret: $ret"
@@ -79,7 +79,7 @@ if [ 1 -eq 1 ]; then
     tags="$tags $level_xx"
   done
   for tag in $tags; do
-    requirements_tmp="requirements_${tag}.txt"
+    requirements_tmp="/tmo/requirements_${tag}.$$.txt"
     if [ "${tag:0:6}" = "LEVEL_" ]; then
       num=$(echo ${tag:6:7} | bc -l)
       echo "Case LEVEL $num"
