@@ -10,7 +10,7 @@ Requires: six
 Required-by: jax rouge-score tensorboard tensorflow tensorflow-datasets tensorflow-metadata tf-slim
 ---
 Name: aenum
-Version: 3.1.0
+Version: 3.1.1
 Summary: Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
 Home-page: https://github.com/ethanfurman/aenum
 Author: Ethan Furman
@@ -395,7 +395,7 @@ Requires:
 Required-by: ipython
 ---
 Name: base58
-Version: 2.1.0
+Version: 2.1.1
 Summary: Base58 and Base58Check implementation.
 Home-page: https://github.com/keis/base58
 Author: David Keijser
@@ -879,7 +879,7 @@ Requires: pymeeus pytz
 Required-by: holidays prophet
 ---
 Name: coverage
-Version: 6.1
+Version: 6.1.1
 Summary: Code coverage measurement for Python
 Home-page: https://github.com/nedbat/coveragepy
 Author: Ned Batchelder and 145 others
@@ -4256,7 +4256,7 @@ Requires: empyrical ipython matplotlib numpy pandas pytz scikit-learn scipy seab
 Required-by: 
 ---
 Name: pygame
-Version: 2.0.2
+Version: 2.0.3
 Summary: Python Game Development
 Home-page: https://www.pygame.org
 Author: A community project.
@@ -4993,7 +4993,7 @@ Requires:
 Required-by: 
 ---
 Name: ruamel.yaml
-Version: 0.17.16
+Version: 0.17.17
 Summary: ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
 Home-page: https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree
 Author: Anthon van der Neut
@@ -5928,7 +5928,7 @@ Requires: typing-extensions
 Required-by: bertviz elegantrl fastai pyro-ppl pytorch-ranger stable-baselines3 torch-optimizer torchaudio torchvision
 ---
 Name: torch-optimizer
-Version: 0.2.0
+Version: 0.3.0
 Summary: pytorch-optimizer
 Home-page: https://github.com/jettify/pytorch-optimizer
 Author: Nikolay Novik

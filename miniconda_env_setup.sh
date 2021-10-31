@@ -79,7 +79,7 @@ if [ 1 -eq 1 ]; then
     tags="$tags $level_xx"
   done
   for tag in $tags; do
-    requirements_tmp="/tmo/requirements_${tag}.$$.txt"
+    requirements_tmp="/tmp/requirements_${tag}.$$.txt"
     if [ "${tag:0:6}" = "LEVEL_" ]; then
       num=$(echo ${tag:6:7} | bc -l)
       echo "Case LEVEL $num"

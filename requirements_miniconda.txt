@@ -144,7 +144,7 @@ pyro-api==0.1.2 # LEVEL_01 # probabilistic modeling and inference
 pyro-ppl==1.7.0 # LEVEL_03
 #
 torch==1.10.0 # LEVEL_02
-torch-optimizer==0.2.0 # LEVEL_04
+torch-optimizer==0.3.0 # LEVEL_04
 torchaudio==0.10.0 # LEVEL_03
 torchvision==0.11.1 # LEVEL_03
 pytorch-ranger==0.1.1 # LEVEL_03 # Ranger - a synergistic optimizer using RAdam (Rectified Adam) and LookAhead in one codebase
@@ -308,7 +308,7 @@ pyqtgraph==0.12.3 # LEVEL_02 # for Chaos
 glib==1.0.0 # LEVEL_01 # A python graphics library that piggy-backs off of pyqt5
 #
 pyopengl==3.1.5 # LEVEL_01 # for PySpace
-pygame==2.0.2 # LEVEL_01
+pygame==2.0.3 # LEVEL_01
 pygments==2.10.0 # LEVEL_01
 pydot==1.4.2 # LEVEL_02 # Python interface to Graphviz's Dot
 networkx==2.6.3 # LEVEL_01 # includes drawing graphs
@@ -421,7 +421,7 @@ lockfile==0.12.2 # LEVEL_01 # Platform-independent file locking module
 #
 ##################################################################
 
-aenum==3.1.0 # LEVEL_01
+aenum==3.1.1 # LEVEL_01
 aiodns==3.0.0 # LEVEL_04
 aiohttp==3.7.4.post0 # LEVEL_03 # Async http client/server framework (asyncio)
 aiohttp-socks==0.6.0 # LEVEL_04
@@ -452,7 +452,7 @@ click==8.0.3 # LEVEL_01 # Python composable command line interface toolkit
 cloudpickle==2.0.0 # LEVEL_01
 codemod==1.0.0 # LEVEL_01
 commonmark==0.9.1 # LEVEL_01
-coverage==6.1 # LEVEL_01
+coverage==6.1.1 # LEVEL_01
 croniter==1.0.15 # LEVEL_03
 cycler==0.11.0 # LEVEL_01 # Composable style cycles
 cymem==2.0.6 # LEVEL_01
@@ -696,7 +696,7 @@ aiohttp-cors==0.7.0 # LEVEL_04
 altair==4.1.0 # LEVEL_04
 astor==0.8.1 # LEVEL_01
 atari-py==0.2.9 # LEVEL_02
-base58==2.1.0 # LEVEL_01
+base58==2.1.1 # LEVEL_01
 blessings==1.7 # LEVEL_02
 blinker==1.4 # LEVEL_01
 colorful==0.5.4 # LEVEL_01
@@ -826,7 +826,7 @@ msrest==0.6.21 # LEVEL_04 # AutoRest swagger generator Python client runtime.
 oscrypto==1.2.1 # LEVEL_02 # TLS (SSL) sockets, key generation, encryption, decryption, signing, verification and KDFs using the OS crypto libraries. Does not require a compiler, and relies on the OS for patching. Works on Windows, OS X and Linux/BSD.
 pycryptodomex==3.11.0 # LEVEL_01 # Cryptographic library for Python
 pytimeparse==1.1.8 # LEVEL_01 # Time expression parser
-ruamel_yaml==0.17.16 # LEVEL_02 # ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
+ruamel_yaml==0.17.17 # LEVEL_02 # ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
 ruamel_yaml_clib==0.2.6 # LEVEL_01 # C version of reader, parser and emitter for ruamel.yaml derived from libyaml
 #
 sqlparse==0.4.2 # LEVEL_01 # A non-validating SQL parser.
