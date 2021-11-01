@@ -82,7 +82,7 @@ if [ 1 -eq 1 ]; then
     requirements_tmp="/tmp/requirements_${tag}.$$.txt"
     if [ "${tag:0:6}" = "LEVEL_" ]; then
       num=$(echo ${tag:6:7} | bc -l)
-      echo "Case LEVEL $num"
+      echo "LEVEL $num"
       rm -f $requirements_tmp
       for i in $(seq $num -1 0); do
         num2=$(printf "%02d" $i)

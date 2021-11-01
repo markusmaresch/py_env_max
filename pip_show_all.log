@@ -43,14 +43,14 @@ Requires: pycares
 Required-by: twint
 ---
 Name: aiohttp
-Version: 3.7.4.post0
+Version: 3.8.0
 Summary: Async http client/server framework (asyncio)
 Home-page: https://github.com/aio-libs/aiohttp
-Author: Nikolay Kim
-Author-email: fafhrd91@gmail.com
+Author: 
+Author-email: 
 License: Apache 2
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
-Requires: async-timeout attrs chardet multidict typing-extensions yarl
+Requires: aiosignal async-timeout attrs charset-normalizer frozenlist multidict yarl
 Required-by: aiohttp-cors aiohttp-socks alpha-vantage datasets jupyter-server-proxy twint
 ---
 Name: aiohttp-cors
@@ -85,6 +85,17 @@ License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: async-timeout typing-extensions
 Required-by: 
+---
+Name: aiosignal
+Version: 1.2.0
+Summary: aiosignal: a list of registered asynchronous callbacks
+Home-page: https://github.com/aio-libs/aiosignal
+Author: Nikolay Kim
+Author-email: fafhrd91@gmail.com
+License: Apache 2
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: frozenlist
+Required-by: aiohttp
 ---
 Name: alabaster
 Version: 0.7.12
@@ -274,14 +285,14 @@ Requires:
 Required-by: trio trio-websocket
 ---
 Name: async-timeout
-Version: 3.0.1
+Version: 4.0.0
 Summary: Timeout context manager for asyncio programs
 Home-page: https://github.com/aio-libs/async_timeout/
 Author: Andrew Svetlov
 Author-email: andrew.svetlov@gmail.com
 License: Apache 2
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
-Requires: 
+Requires: typing-extensions
 Required-by: aiohttp aioredis
 ---
 Name: asynq
@@ -527,7 +538,7 @@ Requires: Mastodon.py sqlalchemy
 Required-by: 
 ---
 Name: boto3
-Version: 1.19.7
+Version: 1.19.8
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -538,7 +549,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.22.7
+Version: 1.22.8
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -678,7 +689,7 @@ Author-email: mark@diveintomark.org
 License: LGPL
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: aiohttp
+Required-by: 
 ---
 Name: charset-normalizer
 Version: 2.0.7
@@ -689,7 +700,7 @@ Author-email: ahmed.tahri@cloudnursery.dev
 License: MIT
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: httpx requests
+Required-by: aiohttp httpx requests
 ---
 Name: chart-studio
 Version: 1.1.0
@@ -1604,6 +1615,17 @@ Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-
 Requires: 
 Required-by: vispy
 ---
+Name: frozenlist
+Version: 1.2.0
+Summary: A list-like structure which implements collections.abc.MutableSequence
+Home-page: https://github.com/aio-libs/frozenlist
+Author: Nikolay Kim
+Author-email: fafhrd91@gmail.com
+License: Apache 2
+Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
+Requires: 
+Required-by: aiohttp aiosignal
+---
 Name: fsspec
 Version: 2021.10.1
 Summary: File-system specification
@@ -2298,14 +2320,14 @@ Requires: certifi python-dateutil retrying six urllib3
 Required-by: 
 ---
 Name: ipykernel
-Version: 6.4.2
+Version: 6.5.0
 Summary: IPython Kernel for Jupyter
 Home-page: https://ipython.org
 Author: IPython Development Team
 Author-email: ipython-dev@scipy.org
 License: BSD
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
-Requires: appnope debugpy ipython ipython-genutils jupyter-client matplotlib-inline tornado traitlets
+Requires: appnope debugpy ipython jupyter-client matplotlib-inline tornado traitlets
 Required-by: ipywidgets jupyter jupyter-console jupyter-dash notebook pydeck qtconsole
 ---
 Name: ipython
@@ -2328,7 +2350,7 @@ Author-email: ipython-dev@scipy.org
 License: BSD
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: ipykernel ipywidgets jupyter-server nbformat notebook qtconsole
+Required-by: ipywidgets jupyter-server nbformat notebook qtconsole
 ---
 Name: ipywidgets
 Version: 7.6.5
@@ -6112,7 +6134,7 @@ Author-email: levkivskyi@gmail.com
 License: PSF
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
-Required-by: GitPython aiohttp aioredis bokeh huggingface-hub jax libcst mashumaro mypy pyanalyze pydantic tensorflow torch typing-inspect
+Required-by: GitPython aioredis async-timeout bokeh huggingface-hub jax libcst mashumaro mypy pyanalyze pydantic tensorflow torch typing-inspect
 ---
 Name: typing-inspect
 Version: 0.7.1
@@ -6434,12 +6456,12 @@ Requires: numpy scipy
 Required-by: 
 ---
 Name: XlsxWriter
-Version: 3.0.1
+Version: 3.0.2
 Summary: A Python module for creating Excel XLSX files.
 Home-page: https://github.com/jmcnamara/XlsxWriter
 Author: John McNamara
 Author-email: jmcnamara@cpan.org
-License: BSD
+License: BSD-2-Clause
 Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
