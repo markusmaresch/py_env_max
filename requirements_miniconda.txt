@@ -110,7 +110,7 @@ box2d-py==2.3.8 # LEVEL_01
 #ccxt==1.58.26 # LEVEL_01
 #
 tensorboardX==2.4 # LEVEL_02 # TensorBoardX lets you watch Tensors Flow without Tensorflow
-ray==1.7.0 # LEVEL_03 # Ray provides a simple, universal API for building distributed applications.
+ray==1.8.0 # LEVEL_03 # Ray provides a simple, universal API for building distributed applications.
 lz4==3.1.3 # LEVEL_01
 gputil==1.4.0 # LEVEL_01 # Python module for getting the GPU status from NVIDA GPUs using nvidia-smi
 wrds==3.1.1 # LEVEL_04 # access to WRDS Data, SQL 2 pandas
@@ -153,7 +153,7 @@ theano==1.0.5 # LEVEL_03
 nose==1.3.7 # LEVEL_01
 #
 fastai==2.5.3 # LEVEL_05
-fastcore==1.3.26 # LEVEL_03
+fastcore==1.3.27 # LEVEL_03
 fastdownload==0.0.5 # LEVEL_04
 fastprogress==1.0.0 # LEVEL_02
 #
@@ -190,8 +190,8 @@ babel==2.9.1 # LEVEL_02 # Internationalization utilities
 bert-for-tf2==0.14.9 # LEVEL_03
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger
 sentencepiece==0.1.96 # LEVEL_01 # for BERT
-boto3==1.19.8 # LEVEL_05 # The AWS SDK for Python # required by bertviz
-botocore==1.22.8 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
+boto3==1.19.9 # LEVEL_05 # The AWS SDK for Python # required by bertviz
+botocore==1.22.9 # LEVEL_03 # Low-level, data-driven core of boto 3 # required by boto3
 #
 spacy==3.1.4 # LEVEL_04
 spacy-legacy==3.0.8 # LEVEL_01
@@ -242,7 +242,7 @@ opencv-python==4.5.4.58 # LEVEL_02
 opencv-python-headless==4.5.4.58 # LEVEL_02
 pillow==8.4.0 # LEVEL_01
 imageio==2.10.1 # LEVEL_02
-tifffile==2021.10.12 # LEVEL_02
+tifffile==2021.11.2 # LEVEL_02
 #
 openvino==2021.4.1 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org
 #openvino-dev==2021.4.1 # LEVEL_99 # has issues !!! # Openvino Tools
@@ -344,7 +344,7 @@ google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC3
 google-resumable-media==2.1.0 # LEVEL_02 # Utilities for Google Media Downloads and Resumable Uploads
 #
 google-api-core==2.2.1 # LEVEL_04 # Google API client core library
-google-api-python-client==2.28.0 # LEVEL_05 # Google API Client Library for Python
+google-api-python-client==2.29.0 # LEVEL_05 # Google API Client Library for Python
 google-auth-httplib2==0.1.0 # LEVEL_04
 google-auth-oauthlib==0.4.6 # LEVEL_04
 google-pasta==0.2.0 # LEVEL_02 # pasta is an AST-based Python refactoring library
@@ -354,7 +354,7 @@ uritemplate==4.1.1 # LEVEL_01 # required by google-api-python-client
 
 # Azure
 azure-storage-blob==12.9.0 # LEVEL_05 # Microsoft Azure Blob Storage Client Library for Python
-azure-core==1.19.0 # LEVEL_03 # Microsoft Azure Core Library for Python
+azure-core==1.19.1 # LEVEL_03 # Microsoft Azure Core Library for Python
 azure-common==1.1.27 # LEVEL_01 # Microsoft Azure Client Library for Python (Common)
 
 #
@@ -366,7 +366,7 @@ jupyter-console==6.4.0 # LEVEL_05
 jupyter-core==4.9.1 # LEVEL_02
 jupyter-dash==0.4.0 # LEVEL_06
 jupyter-packaging==0.11.0 # LEVEL_04
-jupyter-server==1.11.1 # LEVEL_06 # The backend-i.e. core services, APIs, and REST endpoints-to Jupyter web applications.
+jupyter-server==1.11.2 # LEVEL_06 # The backend-i.e. core services, APIs, and REST endpoints-to Jupyter web applications.
 jupyter-server-proxy==3.1.0 # LEVEL_07
 jupyterlab==3.2.1 # LEVEL_08 # JupyterLab computational environment
 jupyterlab-pygments==0.1.2 # LEVEL_02
@@ -421,7 +421,7 @@ lockfile==0.12.2 # LEVEL_01 # Platform-independent file locking module
 #
 ##################################################################
 
-aenum==3.1.1 # LEVEL_01
+aenum==3.1.2 # LEVEL_01
 aiodns==3.0.0 # LEVEL_04
 aiohttp==3.8.0 # LEVEL_03 # Async http client/server framework (asyncio)
 async-timeout==4.0.0 # LEVEL_02
@@ -487,7 +487,7 @@ grpcio==1.41.1 # LEVEL_02 # HTTP/2-based RPC framework
 heapdict==1.0.1 # LEVEL_01
 hijri-converter==2.2.2 # LEVEL_01
 hsluv==5.0.2 # LEVEL_01
-httplib2==0.20.1 # LEVEL_02
+httplib2==0.20.2 # LEVEL_02
 idna==3.3 # LEVEL_01
 importlib-resources==5.4.0 # LEVEL_02
 ipykernel==6.5.0 # LEVEL_04 # IPython Kernel for Jupyter
@@ -503,7 +503,7 @@ joblib==1.1.0 # LEVEL_01
 korean-lunar-calendar==0.2.1 # LEVEL_01
 llvmlite==0.37.0 # LEVEL_01
 locket==0.2.1 # LEVEL_01
-lxml==4.6.3 # LEVEL_01
+lxml==4.6.4 # LEVEL_01
 m3u8==0.9.0 # LEVEL_02 # play list parser, udemy-dl2
 macholib==1.15.2 # LEVEL_02
 markdown==3.3.4 # LEVEL_01
@@ -569,7 +569,7 @@ pywavelets==1.1.1 # LEVEL_02
 pyyaml==6.0 # LEVEL_01
 pyzmq==22.3.0 # LEVEL_01
 qcore==1.7.0 # LEVEL_02
-regex==2021.10.23 # LEVEL_01
+regex==2021.11.1 # LEVEL_01
 requests==2.26.0 # LEVEL_02
 requests-cache==0.8.1 # LEVEL_03
 requests-oauthlib==1.3.0 # LEVEL_03
@@ -624,7 +624,7 @@ websocket-client==1.2.1 # LEVEL_01
 werkzeug==2.0.2 # LEVEL_01
 wireless==0.3.3 # LEVEL_01
 xxhash==2.0.2 # LEVEL_01
-yarl==1.7.0 # LEVEL_02
+yarl==1.7.2 # LEVEL_02
 zict==2.0.0 # LEVEL_02
 zipp==3.6.0 # LEVEL_01
 #
@@ -820,7 +820,7 @@ dbt-extractor==0.4.0 # LEVEL_01 #
 keyring==23.2.1 # LEVEL_03 # Store and access your passwords safely
 leather==0.3.4 # LEVEL_02 # Python charting for 80% of humans
 Logbook==1.5.3 # LEVEL_01 # A logging replacement for Python
-mashumaro==2.8 # LEVEL_02 # Fast serialization framework on top of dataclasses
+mashumaro==2.9 # LEVEL_02 # Fast serialization framework on top of dataclasses
 minimal-snowplow-tracker==0.0.2 # LEVEL_03 # A minimal snowplow event tracker for Python. Add analytics to your Python and Django apps, webapps and games
 msrest==0.6.21 # LEVEL_04 # AutoRest swagger generator Python client runtime.
 oscrypto==1.2.1 # LEVEL_02 # TLS (SSL) sockets, key generation, encryption, decryption, signing, verification and KDFs using the OS crypto libraries. Does not require a compiler, and relies on the OS for patching. Works on Windows, OS X and Linux/BSD.
