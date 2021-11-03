@@ -167,6 +167,7 @@ class LevelsCheck:
         changes = 0
         fatal = False
         seps = ['=', '>', '<', '~', '[']
+        underline = '_'
         lc = self.levels_cache
         lines_new = []
         for line_org in lines_org:
@@ -175,7 +176,6 @@ class LevelsCheck:
                 lines_new.append(line_org)
                 continue
             level = (-1)
-            underline = '_'
             for sep in seps:
                 parts = line_org.split(sep)
                 package = parts[0]
@@ -201,7 +201,7 @@ class LevelsCheck:
                 continue
             # replace LEVEL_?? with level_needed
             level_wrong = None
-            for l in range(100):  # we allow _xy with 2 digits
+            for l in range(self.levels_max * 2):
                 level_wrong = 'LEVEL_{:0=2d}'.format(l)
                 if line_org.find(level_wrong) > 0:
                     break
@@ -232,16 +232,17 @@ class LevelsCheck:
         return True
 
     def prune_dependencies2(self, full_list_of_dicts: typing.List[dict]) -> typing.List[dict]:
+        key_dependencies = 'dependencies'
         for d in full_list_of_dicts:
             package_name = d['key']
-            dependencies = d['dependencies']
+            dependencies = d[key_dependencies]
             for dep in dependencies:
                 # print('P: {} -> D: {}'.format(package_name, dep['key']))
-                dependencies2 = dep['dependencies']
+                dependencies2 = dep[key_dependencies]
                 if len(dependencies2) < 1:
                     continue
-                del dep['dependencies']
-                dep['dependencies'] = dict()
+                del dep[key_dependencies]
+                dep[key_dependencies] = dict()
         return full_list_of_dicts
 
     def get_packages_installed(self) -> typing.Union[typing.List[dict], typing.Any]:
@@ -252,8 +253,8 @@ class LevelsCheck:
                 stamp = os.path.getmtime(self.json_full)
                 delta_seconds = (now - stamp)
                 if delta_seconds >= max_seconds:
-                    print('Ignoring cache: older max_seconds: {} {}'
-                          .format(max_seconds, os.path.basename(self.json_full)))
+                    print('Ignoring cache: {} older max_seconds: {}'
+                          .format(os.path.basename(self.json_full), max_seconds))
                 else:
                     json_string = f.read()
                     full_list_of_dicts = json.loads(json_string)
