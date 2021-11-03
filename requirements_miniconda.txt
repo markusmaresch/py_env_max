@@ -122,7 +122,7 @@ wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
 tensorboard==2.7.0 # LEVEL_05 # TensorBoard lets you watch Tensors Flow
 tensorboard-data-server==0.6.1 # LEVEL_01 # Fast data loading for TensorBoard
 tensorboard-plugin-wit==1.8.0 # LEVEL_01 # What-If Tool TensorBoard plugin
-tensorflow==2.6.0 # LEVEL_06 # TensorFlow is an open source machine learning framework for everyone
+tensorflow==2.6.1 # LEVEL_06 # TensorFlow is an open source machine learning framework for everyone
 tensorflow-addons==0.14.0 # LEVEL_02 # TensorFlow Addons
 tensorflow-datasets==4.4.0 # LEVEL_04 # tensorflow/datasets is a library of datasets ready to use with TensorFlow
 tensorflow-estimator==2.7.0 # LEVEL_01 # TensorFlow Estimator
