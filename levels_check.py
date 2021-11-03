@@ -56,6 +56,7 @@ class LevelsCache:
             print('=' * 8)
         return True
 
+
 class PackageInfo:
     package_info_name = 'pip_show_all.log'
 
@@ -78,10 +79,10 @@ class PackageInfo:
                 if key == 'Summary':
                     items.pop(0)
                     summary = line.replace('Summary:', '').strip()
-                    #print('Summary: \'{}\' -> \'{}\''.format(package, summary))
+                    # print('Summary: \'{}\' -> \'{}\''.format(package, summary))
                     d[package.lower()] = summary
                     del summary
-                    del package # in order to trigger an error and avoid wrong assignments..
+                    del package  # in order to trigger an error and avoid wrong assignments..
             # for
         # with
         print('Summaries: {}'.format(len(d)))
@@ -97,12 +98,11 @@ class PackageInfo:
         summary = self.pi_dict.get(lower_package)
         if summary is not None:
             return summary
-        lower_package2 = package.lower().replace('_', '.') # Mastodon_py
+        lower_package2 = package.lower().replace('_', '.')  # Mastodon_py
         summary = self.pi_dict.get(lower_package2)
         if summary is None:
             print('get_summary({},{},{}) ?'.format(package, lower_package, lower_package2))
         return summary
-
 
 
 class LevelsCheck:
@@ -230,7 +230,7 @@ class LevelsCheck:
                 lines_new.append(line_org)
                 continue
             level = (-1)
-            package=None
+            package = None
             for sep in seps:
                 parts = line_org.split(sep)
                 package = parts[0]
@@ -275,6 +275,8 @@ class LevelsCheck:
 
             summary = self.get_summary(package=package, ignore_case=True)
             if summary is not None and summary and summary != 'UNKNOWN':
+                if summary[-1] == '.':
+                    summary = summary[:-1]
                 summary_needed = ' # {}\n'.format(summary)
                 i = line_new.find(summary_needed)
                 if i < 0:

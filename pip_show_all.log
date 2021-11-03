@@ -489,7 +489,7 @@ Requires: Mastodon.py sqlalchemy
 Required-by: 
 ---
 Name: boto3
-Version: 1.19.9
+Version: 1.19.10
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -499,7 +499,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.22.9
+Version: 1.22.10
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -849,9 +849,9 @@ Requires: tinycss2 webencodings
 Required-by: 
 ---
 Name: cvxpy
-Version: 1.1.15
+Version: 1.1.17
 Summary: A domain-specific language for modeling convex optimization problems in Python.
-Home-page: http://github.com/cvxgrp/cvxpy/
+Home-page: https://github.com/cvxpy/cvxpy
 Author: Steven Diamond, Eric Chu, Stephen Boyd
 Author-email: stevend2@stanford.edu, akshayka@cs.stanford.edu, echu508@stanford.edu, boyd@stanford.edu
 License: Apache License, Version 2.0
@@ -1569,7 +1569,7 @@ Requires: flask lxml pillow
 Required-by: 
 ---
 Name: gin-config
-Version: 0.4.0
+Version: 0.5.0
 Summary: Gin-Config: A lightweight configuration library for Python
 Home-page: https://github.com/google/gin-config
 Author: The Gin-Config Team
@@ -1619,7 +1619,7 @@ Requires: python-gflags six
 Required-by: 
 ---
 Name: google-api-core
-Version: 2.2.1
+Version: 2.2.2
 Summary: Google API client core library
 Home-page: https://github.com/googleapis/python-api-core
 Author: Google LLC
@@ -1669,7 +1669,7 @@ Requires: google-auth requests-oauthlib
 Required-by: tensorboard
 ---
 Name: google-cloud-bigquery
-Version: 2.29.0
+Version: 2.30.0
 Summary: Google BigQuery API client library
 Home-page: https://github.com/googleapis/python-bigquery
 Author: Google LLC
@@ -3259,7 +3259,7 @@ Requires: exchange-calendars pandas python-dateutil pytz
 Required-by: 
 ---
 Name: pandas-stubs
-Version: 1.2.0.35
+Version: 1.2.0.36
 Summary: Type annotations for Pandas
 Home-page: https://github.com/VirtusLab/pandas-stubs
 Author: Zbigniew Królikowski
@@ -4269,7 +4269,7 @@ Requires: torch
 Required-by: torch-optimizer
 ---
 Name: pytype
-Version: 2021.10.25
+Version: 2021.11.2
 Summary: Python type inferencer
 Home-page: https://google.github.io/pytype
 Author: 
@@ -4419,7 +4419,7 @@ Requires:
 Required-by: ray
 ---
 Name: regex
-Version: 2021.11.1
+Version: 2021.11.2
 Summary: Alternative regular expression module, to replace re.
 Home-page: https://github.com/mrabarnett/mrab-regex
 Author: Matthew Barnett
@@ -4716,7 +4716,7 @@ Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy Sphinx distributed google-api-core google-auth gunicorn ipython jupyter-packaging numba plaster pmdarima pycocotools pyinstaller pyramid python-daemon rapids spacy tensorboard thinc xarray zope.deprecation zope.interface
+Required-by: Fiona PasteDeploy Sphinx distributed google-api-core google-auth gunicorn ipython jupyter-packaging numba plaster pmdarima pycocotools pyinstaller pyramid python-daemon rapids spacy tensorboard thinc zope.deprecation zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -4819,7 +4819,7 @@ Requires:
 Required-by: distributed trio
 ---
 Name: soupsieve
-Version: 2.2.1
+Version: 2.3
 Summary: A modern CSS selector implementation for Beautiful Soup.
 Home-page: https://github.com/facelessuser/soupsieve
 Author: Isaac Muse
@@ -5849,13 +5849,13 @@ Requires: h11
 Required-by: trio-websocket
 ---
 Name: xarray
-Version: 0.19.0
+Version: 0.20.0
 Summary: N-D labeled arrays and datasets in Python
 Home-page: https://github.com/pydata/xarray
 Author: xarray Developers
 Author-email: xarray@googlegroups.com
 License: Apache
-Requires: numpy pandas setuptools
+Requires: numpy pandas
 Required-by: datashader
 ---
 Name: xgboost
