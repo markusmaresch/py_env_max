@@ -56,14 +56,67 @@ class LevelsCache:
             print('=' * 8)
         return True
 
+class PackageInfo:
+    package_info_name = 'pip_show_all.log'
+
+    def __init__(self):
+        self.pi_dict = self.get_dictionary(log_name=self.package_info_name)
+        t = self.get_summary('numpy')
+        return
+
+    def get_dictionary(self, log_name: str) -> dict:
+        d = dict()
+        with open(log_name, 'r') as f:
+            package = None
+            for line in f:
+                items = line.split(':')
+                key = items[0]
+                if key == 'Name':
+                    items.pop(0)
+                    package = items[0].strip()
+                    continue
+                if key == 'Summary':
+                    items.pop(0)
+                    summary = line.replace('Summary:', '').strip()
+                    #print('Summary: \'{}\' -> \'{}\''.format(package, summary))
+                    d[package.lower()] = summary
+                    del summary
+                    del package # in order to trigger an error and avoid wrong assignments..
+            # for
+        # with
+        print('Summaries: {}'.format(len(d)))
+        return d
+
+    def get_summary(self, package: str, ignore_case: bool = False) -> typing.Union[str, object]:
+        if package is None or not isinstance(package, str):
+            return None
+        summary = self.pi_dict.get(package)
+        if summary is not None:
+            return summary
+        lower_package = package.lower()
+        summary = self.pi_dict.get(lower_package)
+        if summary is not None:
+            return summary
+        lower_package2 = package.lower().replace('_', '.') # Mastodon_py
+        summary = self.pi_dict.get(lower_package2)
+        if summary is None:
+            print('get_summary({},{},{}) ?'.format(package, lower_package, lower_package2))
+        return summary
+
+
 
 class LevelsCheck:
     json_full = 'pipdeptree.cache'
     requirements_txt = 'requirements_miniconda.txt'  # make this configurable
-    levels_max = 12  # level 9 currently is realized maximum
 
     def __init__(self):
+        self.levels_max = 12  # level 9 currently is realized maximum
+        self.cache_max_seconds = 5.0 * 60.0
         self.levels_cache = LevelsCache(self.levels_max)
+        self.package_info = PackageInfo()
+
+    def get_summary(self, package: str, ignore_case: bool = False) -> typing.Union[str, object]:
+        return self.package_info.get_summary(package=package, ignore_case=ignore_case)
 
     def render_json_tree(self, tree: PackageDAG, indent: int):
         """Converts the tree into a nested json representation.
@@ -165,6 +218,7 @@ class LevelsCheck:
             os.remove(req_dst)
 
         changes = 0
+        changes2 = 0
         fatal = False
         seps = ['=', '>', '<', '~', '[']
         underline = '_'
@@ -176,6 +230,7 @@ class LevelsCheck:
                 lines_new.append(line_org)
                 continue
             level = (-1)
+            package=None
             for sep in seps:
                 parts = line_org.split(sep)
                 package = parts[0]
@@ -194,30 +249,51 @@ class LevelsCheck:
                 print('No package found in: {}'.format(line_org), end='')
                 fatal = True
                 continue
+
             level_needed = 'LEVEL_{:0=2d}'.format(level)
             if line_org.find(level_needed) >= 0:
                 # LEVEL_xy is correct
-                lines_new.append(line_org)
-                continue
-            # replace LEVEL_?? with level_needed
-            level_wrong = None
-            for l in range(self.levels_max * 2):
-                level_wrong = 'LEVEL_{:0=2d}'.format(l)
-                if line_org.find(level_wrong) > 0:
-                    break
-            if level_wrong == None:
-                print('No LEVEL_?? found for \'{}\' in \'{}\''.format(level_needed, line_org), end='')
-                lines_new.append(line_org)
-                fatal = True
-                continue
-            line_new = line_org.replace(level_wrong, level_needed)
-            lines_new.append(line_new)
-            changes += 1
+                line_new = line_org
+            else:
+                changes += 1
+                # replace LEVEL_?? with level_needed
+                level_wrong = None
+                lev = 0
+                levels_max = self.levels_max * 2
+                for lev in range(levels_max):
+                    level_wrong = 'LEVEL_{:0=2d}'.format(lev)
+                    if line_org.find(level_wrong) > 0:
+                        break
+                if lev == levels_max - 1:
+                    print('No LEVEL_?? found for \'{}\' in \'{}\''.format(level_needed, line_org), end='')
+                    line_new = line_org
+                    fatal = True
+                else:
+                    line_new = line_org.replace(level_wrong, level_needed)
+                # fi
+            # fi
+
+            summary = self.get_summary(package=package, ignore_case=True)
+            if summary is not None:
+                summary_needed = ' # {}\n'.format(summary)
+                i = line_new.find(summary_needed)
+                if i < 0:
+                    changes2 += 1
+                    line_new2 = line_new[:-1] + summary_needed
+                else:
+                    line_new2 = line_new
+            else:
+                line_new2 = line_new
+
+            lines_new.append(line_new2)
+            del line_new
+            del line_new2
         # for
+
         if fatal:
             return False
-        if changes > 0:
-            print('Writing: {} with {} changes'.format(req_dst, changes))
+        if changes > 0 or changes2 > 0:
+            print('Writing: {} with {}/{} changes'.format(req_dst, changes, changes2))
             with open(req_dst, 'w') as f:
                 f.writelines(lines_new)
             with open(req_src) as file_1, open(req_dst) as file_2:
@@ -246,7 +322,7 @@ class LevelsCheck:
         return full_list_of_dicts
 
     def get_packages_installed(self) -> typing.Union[typing.List[dict], typing.Any]:
-        max_seconds = 2.0 * 60.0
+        max_seconds = self.cache_max_seconds
         now = time.time()
         try:
             with open(self.json_full) as f:

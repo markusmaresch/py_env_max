@@ -31,20 +31,12 @@ class PipShowAll:
         packs = ' '.join([str(elem) for elem in packages])
         cmd_pip_show = '{} {}'.format(cmd_pip_show, packs)
         pip_show_all = 'pip_show_all.log'
-        package = None
         with open(pip_show_all, 'w') as f:
             with os.popen(cmd_pip_show) as pipe:
                 for line in pipe:
                     items = line.split(':')
                     key = items[0]
-                    if key == 'Name':
-                        items.pop(0)
-                        package = items[0].strip()
-                    elif key == 'Summary':
-                        items.pop(0)
-                        summary = line.replace('Summary:', '').strip()
-                        print('Summary: \'{}\' -> \'{}\''.format(package, summary))
-                    elif key == 'Requires'  or key == 'Required-by':
+                    if key == 'Requires'  or key == 'Required-by':
                         items.pop(0)
                         items_split = items[0].strip().split(',')
                         items_sorted = [str(e.strip()) for e in items_split]
