@@ -164,7 +164,7 @@ gym==0.21.0 # LEVEL_02 # Gym: A universal API for reinforcement learning environ
 gensim==4.1.2 # LEVEL_03 # Python framework for fast Vector Space Modelling
 #
 openai==0.11.0 # LEVEL_04 # Python client library for the OpenAI API
-pandas-stubs==1.2.0.35 # LEVEL_01 # needed by openai # Type annotations for Pandas
+pandas-stubs==1.2.0.36 # LEVEL_01 # needed by openai # Type annotations for Pandas
 #
 #ktrain>=0.27.2
 #
@@ -190,8 +190,8 @@ Babel==2.9.1 # LEVEL_02 # Internationalization utilities
 bert-for-tf2==0.14.9 # LEVEL_03 # A TensorFlow 2.0 Keras implementation of BERT.
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger # Attention visualization tool for NLP Transformer models.
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
-boto3==1.19.9 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
-botocore==1.22.9 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3.
+boto3==1.19.10 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+botocore==1.22.10 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3.
 #
 spacy==3.1.4 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
 spacy-legacy==3.0.8 # LEVEL_01 # Legacy registered functions for spaCy backwards compatibility
@@ -289,7 +289,7 @@ stockstats==0.3.2 # LEVEL_04 # DataFrame with inline stock statistics support.
 int-date==0.1.8 # LEVEL_03 # Utility for int date like 20150312.
 #
 pyportfolioopt==1.5.1 # LEVEL_06 # Financial portfolio optimization in python
-cvxpy==1.1.15 # LEVEL_05 # A domain-specific language for modeling convex optimization problems in Python.
+cvxpy==1.1.17 # LEVEL_05 # A domain-specific language for modeling convex optimization problems in Python.
 ecos==2.0.7.post1 # LEVEL_03 # This is the Python package for ECOS: Embedded Cone Solver. See Github page for more information.
 osqp==0.6.2.post0 # LEVEL_04 # OSQP: The Operator Splitting QP Solver
 qdldl==0.1.5.post0 # LEVEL_03 # QDLDL, a free LDL factorization routine.
@@ -338,12 +338,12 @@ plotly==5.3.1 # LEVEL_03 # An open-source, interactive data visualization librar
 #
 # Google ..
 #
-google-cloud-bigquery==2.29.0 # LEVEL_06 # Google BigQuery API client library
+google-cloud-bigquery==2.30.0 # LEVEL_06 # Google BigQuery API client library
 google-cloud-core==2.1.0 # LEVEL_05 # Google Cloud API client core library
 google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC32C'
 google-resumable-media==2.1.0 # LEVEL_02 # Utilities for Google Media Downloads and Resumable Uploads
 #
-google-api-core==2.2.1 # LEVEL_04 # Google API client core library
+google-api-core==2.2.2 # LEVEL_04 # Google API client core library
 google-api-python-client==2.29.0 # LEVEL_05 # Google API Client Library for Python
 google-auth-httplib2==0.1.0 # LEVEL_04 # Google Authentication Library: httplib2 transport
 google-auth-oauthlib==0.4.6 # LEVEL_04 # Google Authentication Library
@@ -401,7 +401,7 @@ pydeps==1.10.12 # LEVEL_02 # cd src/main; pydeps .; open main.svg # Display modu
 autopep8==1.6.0 # LEVEL_02 # using fix_file .. # A tool that automatically formats Python code to conform to the PEP 8 style guide
 mypy==0.910 # LEVEL_02 # Optional static typing for Python
 mypy-extensions==0.4.3 # LEVEL_01 # investigate more for automated checking # Experimental type system extensions for programs checked with the mypy typechecker.
-pytype==2021.10.25 # LEVEL_04 # Python type inferencer
+pytype==2021.11.2 # LEVEL_04 # Python type inferencer
 importlab==0.6.1 # LEVEL_02 # A library to calculate python dependency graphs.
 libcst==0.3.21 # LEVEL_03 # A concrete syntax tree with AST-like properties for Python 3.5, 3.6, 3.7 and 3.8 programs.
 ninja==1.10.2.2 # LEVEL_01 # Ninja is a small build system with a focus on speed
@@ -481,7 +481,7 @@ fsspec==2021.10.1 # LEVEL_01 # File-system specification
 future==0.18.2 # LEVEL_01 # Clean single-source support for Python 3 and 2
 geographiclib==1.52 # LEVEL_01 # The geodesic routines from GeographicLib
 geopy==2.2.0 # LEVEL_02 # Python Geocoding Toolbox
-gin-config==0.4.0 # LEVEL_01 # Gin-Config: A lightweight configuration library for Python
+gin-config==0.5.0 # LEVEL_01 # Gin-Config: A lightweight configuration library for Python
 grpcio-status==1.41.1 # LEVEL_03 # Status proto mapping for gRPC
 grpcio==1.41.1 # LEVEL_02 # HTTP/2-based RPC framework
 heapdict==1.0.1 # LEVEL_01 # a heap with decrease-key and increase-key operations
@@ -569,7 +569,7 @@ pywavelets==1.1.1 # LEVEL_02 # PyWavelets, wavelet transform module
 pyyaml==6.0 # LEVEL_01 # YAML parser and emitter for Python
 pyzmq==22.3.0 # LEVEL_01 # Python bindings for 0MQ
 qcore==1.7.0 # LEVEL_02 # Quora's core utility library
-regex==2021.11.1 # LEVEL_01 # Alternative regular expression module, to replace re.
+regex==2021.11.2 # LEVEL_01 # Alternative regular expression module, to replace re.
 requests==2.26.0 # LEVEL_02 # Python HTTP for Humans.
 requests-cache==0.8.1 # LEVEL_03 # A transparent persistent cache for the requests library
 requests-oauthlib==1.3.0 # LEVEL_03 # OAuthlib authentication support for Requests.
@@ -589,7 +589,7 @@ simpervisor==0.4 # LEVEL_01 # Simple async process supervisor
 smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)
 sniffio==1.2.0 # LEVEL_01 # Sniff out which async library your code is running under
 sortedcontainers==2.4.0 # LEVEL_01 # Sorted Containers -- Sorted List, Sorted Dict, Sorted Set
-soupsieve==2.2.1 # LEVEL_01 # A modern CSS selector implementation for Beautiful Soup.
+soupsieve==2.3 # LEVEL_01 # A modern CSS selector implementation for Beautiful Soup.
 srsly==2.4.2 # LEVEL_02 # Modern high-performance serialization utilities for Python
 statsmodels==0.13.0 # LEVEL_04 # Statistical computations and models for Python
 stdlib-list==0.8.0 # LEVEL_01 # A list of Python Standard Libraries (2.6-7, 3.2-9).
@@ -644,7 +644,7 @@ PyJWT==2.3.0 # LEVEL_01 # JSON Web Token implementation in Python
 tbb==2021.4.0 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
 tiledb==0.10.4 # LEVEL_02 # Pythonic interface to the TileDB array storage manager
 tinycss2==1.1.0 # LEVEL_02 # tinycss2
-xarray==0.19.0 # LEVEL_04 # N-D labeled arrays and datasets in Python
+xarray==0.20.0 # LEVEL_04 # N-D labeled arrays and datasets in Python
 zstd==1.5.0.2 # LEVEL_01 # ZSTD Bindings for Python
 #
 spectra==0.0.11 # LEVEL_03 # Color scales and color conversion made easy for Python.
