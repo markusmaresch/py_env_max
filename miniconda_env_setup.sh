@@ -2,7 +2,7 @@
 #
 # creates/updates conda environment based on requirements
 #
-py_env_name="py_env_202110"  # change/count up
+py_env_name="py_env_202110.tmp"  # change/count up
 python_default_version="3.9"
 
 pip_check_exit() {
