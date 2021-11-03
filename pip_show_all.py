@@ -36,6 +36,9 @@ class PipShowAll:
                 for line in pipe:
                     items = line.split(':')
                     key = items[0]
+                    if key == 'Location':
+                        # we drop this intentionally
+                        continue
                     if key == 'Requires'  or key == 'Required-by':
                         items.pop(0)
                         items_split = items[0].strip().split(',')

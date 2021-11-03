@@ -5,7 +5,6 @@ Home-page: https://github.com/abseil/abseil-py
 Author: The Abseil Authors
 Author-email: 
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
 Required-by: jax rouge-score tensorboard tensorflow tensorflow-datasets tensorflow-metadata tf-slim
 ---
@@ -16,7 +15,6 @@ Home-page: https://github.com/ethanfurman/aenum
 Author: Ethan Furman
 Author-email: ethan@stoneleaf.us
 License: BSD License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pyanalyze
 ---
@@ -27,7 +25,6 @@ Home-page: http://agate.readthedocs.org/
 Author: Christopher Groskopf
 Author-email: chrisgroskopf@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Babel isodate leather parsedatetime python-slugify pytimeparse six
 Required-by: 
 ---
@@ -38,7 +35,6 @@ Home-page: https://github.com/saghul/aiodns
 Author: Saúl Ibarra Corretgé
 Author-email: s@saghul.net
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pycares
 Required-by: twint
 ---
@@ -49,7 +45,6 @@ Home-page: https://github.com/aio-libs/aiohttp
 Author: 
 Author-email: 
 License: Apache 2
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: aiosignal async-timeout attrs charset-normalizer frozenlist multidict yarl
 Required-by: aiohttp-cors aiohttp-socks alpha-vantage datasets jupyter-server-proxy twint
 ---
@@ -60,7 +55,6 @@ Home-page: https://github.com/aio-libs/aiohttp-cors
 Author: Vladimir Rutsky and aio-libs team
 Author-email: vladimir@rutsky.org
 License: Apache License, Version 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: aiohttp
 Required-by: 
 ---
@@ -71,7 +65,6 @@ Home-page: https://github.com/romis2012/aiohttp-socks
 Author: Roman Snegirev
 Author-email: snegiryev@gmail.com
 License: Apache 2
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: aiohttp attrs python-socks
 Required-by: twint
 ---
@@ -82,7 +75,6 @@ Home-page: https://github.com/aio-libs/aioredis
 Author: 
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: async-timeout typing-extensions
 Required-by: 
 ---
@@ -93,7 +85,6 @@ Home-page: https://github.com/aio-libs/aiosignal
 Author: Nikolay Kim
 Author-email: fafhrd91@gmail.com
 License: Apache 2
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: frozenlist
 Required-by: aiohttp
 ---
@@ -104,7 +95,6 @@ Home-page: https://alabaster.readthedocs.io
 Author: Jeff Forcier
 Author-email: jeff@bitprophet.org
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Sphinx
 ---
@@ -115,7 +105,6 @@ Home-page: https://github.com/RomelTorres/alpha_vantage
 Author: Romel J. Torres
 Author-email: romel.torres@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: aiohttp requests
 Required-by: 
 ---
@@ -126,7 +115,6 @@ Home-page: http://altair-viz.github.io
 Author: Brian E. Granger / Jake VanderPlas
 Author-email: jakevdp@gmail.com
 License: BSD 3-clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: entrypoints jinja2 jsonschema numpy pandas toolz
 Required-by: 
 ---
@@ -137,7 +125,6 @@ Home-page: https://altgraph.readthedocs.io
 Author: Ronald Oussoren
 Author-email: ronaldoussoren@mac.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: macholib pyinstaller
 ---
@@ -148,7 +135,6 @@ Home-page: https://github.com/pycontribs/ansi2html
 Author: Ralph Bean
 Author-email: rbean@redhat.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: jupyter-dash
 ---
@@ -159,7 +145,6 @@ Home-page: UNKNOWN
 Author: Alex Grönholm
 Author-email: alex.gronholm@nextday.fi
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: idna sniffio
 Required-by: httpcore jupyter-server
 ---
@@ -170,7 +155,6 @@ Home-page: http://github.com/ActiveState/appdirs
 Author: Trent Mick
 Author-email: trentm@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: requests-cache
 ---
@@ -181,7 +165,6 @@ Home-page: http://github.com/minrk/appnope
 Author: Min Ragan-Kelley
 Author-email: benjaminrk@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: ipykernel ipython
 ---
@@ -192,7 +175,6 @@ Home-page: https://github.com/kislyuk/argcomplete
 Author: Andrey Kislyuk
 Author-email: kislyuk@gmail.com
 License: Apache Software License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pipx
 ---
@@ -203,7 +185,6 @@ Home-page: https://argon2-cffi.readthedocs.io/
 Author: Hynek Schlawack
 Author-email: hs@ox.cx
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cffi
 Required-by: jupyter-server notebook
 ---
@@ -214,7 +195,6 @@ Home-page: https://arrow.readthedocs.io
 Author: Chris Smith
 Author-email: crsmithdev@gmail.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: python-dateutil
 Required-by: proj
 ---
@@ -225,7 +205,6 @@ Home-page: http://github.com/mbr/asciitree
 Author: Marc Brinkmann
 Author-email: git@marcbrinkmann.de
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: zarr
 ---
@@ -236,7 +215,6 @@ Home-page: https://github.com/wbond/asn1crypto
 Author: wbond
 Author-email: will@wbond.net
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: oscrypto
 ---
@@ -247,7 +225,6 @@ Home-page: https://github.com/JelleZijlstra/ast_decompiler
 Author: Jelle Zijlstra
 Author-email: jelle.zijlstra@gmail.com
 License: Apache 2.0 license
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pyanalyze
 ---
@@ -258,7 +235,6 @@ Home-page: https://github.com/berkerpeksag/astor
 Author: Patrick Maupin
 Author-email: pmaupin@gmail.com
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -269,7 +245,6 @@ Home-page: https://github.com/simonpercivall/astunparse
 Author: 
 Author-email: 
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six wheel
 Required-by: tensorflow
 ---
@@ -280,7 +255,6 @@ Home-page: https://github.com/python-trio/async_generator
 Author: Nathaniel J. Smith
 Author-email: njs@pobox.com
 License: MIT -or- Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: trio trio-websocket
 ---
@@ -291,7 +265,6 @@ Home-page: https://github.com/aio-libs/async_timeout/
 Author: Andrew Svetlov
 Author-email: andrew.svetlov@gmail.com
 License: Apache 2
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: typing-extensions
 Required-by: aiohttp aioredis
 ---
@@ -302,7 +275,6 @@ Home-page: https://github.com/quora/asynq
 Author: Quora, Inc.
 Author-email: asynq@quora.com
 License: Apache Software License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Cython pygments qcore
 Required-by: pyanalyze
 ---
@@ -313,7 +285,6 @@ Home-page: https://github.com/openai/atari-py
 Author: OpenAI
 Author-email: info@openai.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy six
 Required-by: 
 ---
@@ -324,7 +295,6 @@ Home-page: https://www.attrs.org/
 Author: Hynek Schlawack
 Author-email: hs@ox.cx
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Fiona aiohttp aiohttp-socks cattrs jsonschema outcome pyanalyze pytest pytype ray requests-cache tensorflow-datasets trio zeep
 ---
@@ -335,7 +305,6 @@ Home-page: https://authlib.org/
 Author: Hsiaoming Yang
 Author-email: me@lepture.com
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cryptography
 Required-by: tda-api
 ---
@@ -346,7 +315,6 @@ Home-page: https://github.com/hhatto/autopep8
 Author: Hideo Hattori
 Author-email: hhatto.jp@gmail.com
 License: Expat License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pycodestyle toml
 Required-by: tda-api
 ---
@@ -357,7 +325,6 @@ Home-page: https://github.com/Azure/azure-sdk-for-python
 Author: Microsoft Corporation
 Author-email: azpysdkhelp@microsoft.com
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -368,7 +335,6 @@ Home-page: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/core/azur
 Author: Microsoft Corporation
 Author-email: azpysdkhelp@microsoft.com
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: requests six
 Required-by: azure-storage-blob
 ---
@@ -379,7 +345,6 @@ Home-page: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/storage/a
 Author: Microsoft Corporation
 Author-email: ascl@microsoft.com
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: azure-core cryptography msrest
 Required-by: 
 ---
@@ -390,7 +355,6 @@ Home-page: http://babel.pocoo.org/
 Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pytz
 Required-by: Sphinx agate jupyterlab-server
 ---
@@ -401,7 +365,6 @@ Home-page: https://github.com/takluyver/backcall
 Author: Thomas Kluyver
 Author-email: thomas@kluyver.me.uk
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: ipython
 ---
@@ -412,7 +375,6 @@ Home-page: https://github.com/keis/base58
 Author: David Keijser
 Author-email: keijser@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -423,7 +385,6 @@ Home-page: http://www.crummy.com/software/BeautifulSoup/bs4/
 Author: Leonard Richardson
 Author-email: leonardr@segfault.org
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: soupsieve
 Required-by: pandas-finance pydata-sphinx-theme twint yahoofinancials
 ---
@@ -434,7 +395,6 @@ Home-page: https://github.com/kpe/bert-for-tf2/
 Author: kpe
 Author-email: kpe.git@gmailbox.org
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: params-flow py-params
 Required-by: 
 ---
@@ -445,7 +405,6 @@ Home-page: https://github.com/jessevig/bertviz
 Author: Jesse Vig
 Author-email: 
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: boto3 regex requests sentencepiece torch tqdm transformers
 Required-by: 
 ---
@@ -456,7 +415,6 @@ Home-page: https://biopython.org/
 Author: The Biopython Contributors
 Author-email: biopython@biopython.org
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: 
 ---
@@ -467,7 +425,6 @@ Home-page: https://github.com/mozilla/bleach
 Author: 
 Author-email: 
 License: Apache Software License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: packaging six webencodings
 Required-by: nbconvert
 ---
@@ -478,7 +435,6 @@ Home-page: https://github.com/erikrose/blessings
 Author: Erik Rose
 Author-email: erikrose@grinchcentral.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
 Required-by: gpustat
 ---
@@ -489,7 +445,6 @@ Home-page: http://pythonhosted.org/blinker/
 Author: Jason Kirtland
 Author-email: jek@discorporate.us
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -500,7 +455,6 @@ Home-page: https://github.com/explosion/cython-blis
 Author: Matthew Honnibal
 Author-email: matt@explosion.ai
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: spacy thinc
 ---
@@ -511,7 +465,6 @@ Home-page: https://github.com/halcy/blurhash-python
 Author: Lorenz Diener
 Author-email: lorenzd+blurhashpypi@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Mastodon.py
 ---
@@ -522,7 +475,6 @@ Home-page: http://github.com/bokeh/bokeh
 Author: Bokeh Team
 Author-email: info@bokeh.org
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Jinja2 PyYAML numpy packaging pillow python-dateutil tornado typing-extensions
 Required-by: jupyter-bokeh
 ---
@@ -533,7 +485,6 @@ Home-page: https://gitlab.com/chaica/boost
 Author: Carl Chenet
 Author-email: chaica@ohmytux.com
 License: GNU GPL v3
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Mastodon.py sqlalchemy
 Required-by: 
 ---
@@ -544,7 +495,6 @@ Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
 Author-email: 
 License: Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
@@ -555,7 +505,6 @@ Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
 Author-email: 
 License: Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: jmespath python-dateutil urllib3
 Required-by: boto3 s3transfer
 ---
@@ -566,7 +515,6 @@ Home-page: http://pybox2d.googlecode.com/
 Author: Ken Lauer
 Author-email: sirkne at gmail dot com
 License: zlib
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -577,7 +525,6 @@ Home-page: https://github.com/openai/box2d-py
 Author: Ken Lauer
 Author-email: sirkne@gmail.com
 License: zlib
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: elegantrl
 ---
@@ -588,7 +535,6 @@ Home-page: https://github.com/google/brotli
 Author: The Brotli Authors
 Author-email: UNKNOWN
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Flask-Compress
 ---
@@ -599,7 +545,6 @@ Home-page: https://github.com/python-hyper/brotlipy/
 Author: Cory Benfield
 Author-email: cory@lukasa.co.uk
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cffi
 Required-by: 
 ---
@@ -610,7 +555,6 @@ Home-page: https://github.com/pydanny/cached-property
 Author: Daniel Greenfeld
 Author-email: pydanny@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: zeep
 ---
@@ -621,7 +565,6 @@ Home-page: https://github.com/tkem/cachetools/
 Author: Thomas Kemmer
 Author-email: tkemmer@computer.org
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: google-auth
 ---
@@ -632,7 +575,6 @@ Home-page: https://github.com/explosion/catalogue
 Author: Explosion
 Author-email: contact@explosion.ai
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: spacy srsly thinc
 ---
@@ -643,7 +585,6 @@ Home-page: https://github.com/Tinche/cattrs
 Author: Tin Tvrtkovic
 Author-email: tinchester@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: attrs
 Required-by: requests-cache
 ---
@@ -654,7 +595,6 @@ Home-page: https://github.com/PyYoshi/cChardet
 Author: PyYoshi
 Author-email: myoshi321go@gmail.com
 License: Mozilla Public License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: twint
 ---
@@ -665,7 +605,6 @@ Home-page: https://certifiio.readthedocs.io/en/latest/
 Author: Kenneth Reitz
 Author-email: me@kennethreitz.com
 License: MPL-2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Fiona elasticsearch httpx intrinio-sdk kaggle msrest pyproj requests
 ---
@@ -676,7 +615,6 @@ Home-page: http://cffi.readthedocs.org
 Author: Armin Rigo, Maciej Fijalkowski
 Author-email: python-cffi@googlegroups.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pycparser
 Required-by: argon2-cffi brotlipy cryptography pycares
 ---
@@ -687,7 +625,6 @@ Home-page: https://github.com/chardet/chardet
 Author: Mark Pilgrim
 Author-email: mark@diveintomark.org
 License: LGPL
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -698,7 +635,6 @@ Home-page: https://github.com/ousret/charset_normalizer
 Author: Ahmed TAHRI @Ousret
 Author-email: ahmed.tahri@cloudnursery.dev
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: aiohttp httpx requests
 ---
@@ -709,7 +645,6 @@ Home-page: https://plot.ly/python/
 Author: Chris P
 Author-email: chris@plot.ly
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: plotly requests retrying six
 Required-by: dash-auth
 ---
@@ -720,7 +655,6 @@ Home-page: http://clang.llvm.org/
 Author: LLVM team
 Author-email: UNKNOWN
 License: License :: OSI Approved :: University of Illinois/NCSA Open Source License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: tensorflow
 ---
@@ -731,7 +665,6 @@ Home-page: https://palletsprojects.com/p/click/
 Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Fiona Flask click-plugins cligj distributed nltk proj ray sacremoses typer userpath
 ---
@@ -742,7 +675,6 @@ Home-page: https://github.com/click-contrib/click-plugins
 Author: Kevin Wurster, Sean Gillies
 Author-email: wursterk@gmail.com, sean.gillies@gmail.com
 License: New BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: click
 Required-by: Fiona
 ---
@@ -753,7 +685,6 @@ Home-page: https://github.com/mapbox/cligj
 Author: Sean Gillies
 Author-email: sean@mapbox.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: click
 Required-by: Fiona
 ---
@@ -764,7 +695,6 @@ Home-page: https://github.com/cloudpipe/cloudpickle
 Author: Cloudpipe
 Author-email: cloudpipe@googlegroups.com
 License: BSD 3-Clause License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: dask dask-glm distributed gym stable-baselines3
 ---
@@ -775,7 +705,6 @@ Home-page: https://github.com/venomous/cloudscraper
 Author: VeNoMouS
 Author-email: venom@gen-x.co.nz
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pyparsing requests requests-toolbelt
 Required-by: 
 ---
@@ -786,7 +715,6 @@ Home-page: https://github.com/stan-dev/cmdstanpy
 Author: Stan Dev Team
 Author-email: 
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy pandas ujson
 Required-by: prophet
 ---
@@ -797,7 +725,6 @@ Home-page: http://github.com/facebook/codemod
 Author: Facebook
 Author-email: facebook@facebook.com
 License: Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pyanalyze
 ---
@@ -808,7 +735,6 @@ Home-page: https://github.com/s0h3ck/coinpaprika-api-python-client/
 Author: s0h3ck
 Author-email: s0h3ck@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: requests
 Required-by: 
 ---
@@ -819,7 +745,6 @@ Home-page: https://github.com/tartley/colorama
 Author: Jonathan Hartley
 Author-email: tartley@tartley.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: rich sacrebleu
 ---
@@ -830,7 +755,6 @@ Home-page: https://colorcet.holoviz.org
 Author: James A. Bednar
 Author-email: jbednar@anaconda.com
 License: CC-BY License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: param pyct
 Required-by: datashader
 ---
@@ -841,7 +765,6 @@ Home-page: http://github.com/timofurrer/colorful
 Author: Timo Furrer
 Author-email: tuxtimo@gmail.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -852,7 +775,6 @@ Home-page: https://github.com/gtaylor/python-colormath
 Author: Gregory Taylor
 Author-email: gtaylor@gc-taylor.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: networkx numpy
 Required-by: spectra
 ---
@@ -863,7 +785,6 @@ Home-page: https://github.com/rtfd/commonmark.py
 Author: Bibek Kafle <bkafle662@gmail.com>, Roland Shoemaker <rolandshoemaker@gmail.com>
 Author-email: rolandshoemaker@gmail.com
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: rich
 ---
@@ -874,7 +795,6 @@ Home-page: https://github.com/EmilStenstrom/conllu/
 Author: Emil Stenström
 Author-email: emil@emilstenstrom.se
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -885,7 +805,6 @@ Home-page: https://github.com/fitnr/convertdate
 Author: Neil Freeman
 Author-email: contact@fakeisthenewreal.org
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pymeeus pytz
 Required-by: holidays prophet
 ---
@@ -896,7 +815,6 @@ Home-page: https://github.com/nedbat/coveragepy
 Author: Ned Batchelder and 145 others
 Author-email: ned@nedbatchelder.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -907,7 +825,6 @@ Home-page: http://github.com/kiorky/croniter
 Author: Matsumoto Taichi, kiorky
 Author-email: taichino@gmail.com, kiorky@cryptelium.net
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: python-dateutil
 Required-by: 
 ---
@@ -918,7 +835,6 @@ Home-page: https://github.com/pyca/cryptography
 Author: The Python Cryptographic Authority and individual contributors
 Author-email: cryptography-dev@python.org
 License: BSD or Apache License, Version 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cffi
 Required-by: Authlib azure-storage-blob pyOpenSSL rapidminer robin-stocks
 ---
@@ -929,7 +845,6 @@ Home-page: https://doc.courtbouillon.org/cssselect2/
 Author: Simon Sapin
 Author-email: simon.sapin@exyr.org
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: tinycss2 webencodings
 Required-by: 
 ---
@@ -940,7 +855,6 @@ Home-page: http://github.com/cvxgrp/cvxpy/
 Author: Steven Diamond, Eric Chu, Stephen Boyd
 Author-email: stevend2@stanford.edu, akshayka@cs.stanford.edu, echu508@stanford.edu, boyd@stanford.edu
 License: Apache License, Version 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: ecos numpy osqp scipy scs
 Required-by: pyportfolioopt
 ---
@@ -951,7 +865,6 @@ Home-page: https://github.com/matplotlib/cycler
 Author: Thomas A Caswell
 Author-email: matplotlib-users@python.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: matplotlib
 ---
@@ -962,7 +875,6 @@ Home-page: https://github.com/explosion/cymem
 Author: Matthew Honnibal
 Author-email: matt@explosion.ai
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: preshed spacy thinc
 ---
@@ -973,7 +885,6 @@ Home-page: https://bitbucket.org/t3m/cypari
 Author: Marc Culler and Nathan M. Dunfield
 Author-email: culler@uic.edu, nathan@dunfield.info
 License: GPLv2+
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: future six
 Required-by: 
 ---
@@ -984,7 +895,6 @@ Home-page: http://cython.org/
 Author: Robert Bradshaw, Stefan Behnel, Dag Seljebotn, Greg Ewing, et al.
 Author-email: cython-devel@python.org
 License: Apache
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: asynq pmdarima prophet pycocotools pystan qcore tf-models-official
 ---
@@ -995,7 +905,6 @@ Home-page: https://github.com/pytoolz/cytoolz
 Author: https://raw.github.com/pytoolz/cytoolz/master/AUTHORS.md
 Author-email: erik.n.welch@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: toolz
 Required-by: 
 ---
@@ -1006,7 +915,6 @@ Home-page: https://plotly.com/dash
 Author: Chris Parmer
 Author-email: chris@plotly.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Flask dash-core-components dash-html-components dash-table flask-compress plotly
 Required-by: dash-auth dash-bootstrap-components dash-canvas dash-cytoscape jupyter-dash
 ---
@@ -1017,7 +925,6 @@ Home-page: https://plotly.com/dash
 Author: Christopher Parmer
 Author-email: chris@plotly.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Flask chart-studio dash flask-compress flask-seasurf itsdangerous requests retrying ua-parser
 Required-by: 
 ---
@@ -1028,7 +935,6 @@ Home-page: https://dash-bootstrap-components.opensource.faculty.ai/
 Author: Faculty
 Author-email: opensource@faculty.ai
 License: Apache Software License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: dash
 Required-by: 
 ---
@@ -1039,7 +945,6 @@ Home-page: https://github.com/plotly/dash-canvas
 Author: Emmanuelle Gouillart <emmanuelle.gouillart@nsup.org>
 Author-email: UNKNOWN
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Pillow dash scikit-image scikit-learn
 Required-by: 
 ---
@@ -1050,7 +955,6 @@ Home-page: UNKNOWN
 Author: Chris Parmer <chris@plotly.com>
 Author-email: chris@plotly.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: dash
 ---
@@ -1061,7 +965,6 @@ Home-page: https://dash.plotly.com/cytoscape
 Author: The Plotly Team <cytoscape@plotly.com>
 Author-email: cytoscape@plotly.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: dash
 Required-by: 
 ---
@@ -1072,7 +975,6 @@ Home-page: https://github.com/plotly/dash-html-components
 Author: Chris Parmer <chris@plotly.com>
 Author-email: chris@plotly.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: dash
 ---
@@ -1083,7 +985,6 @@ Home-page: UNKNOWN
 Author: Chris Parmer
 Author-email: chris@plotly.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -1094,7 +995,6 @@ Home-page: UNKNOWN
 Author: Chris Parmer <chris@plotly.com>
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: dash
 ---
@@ -1105,7 +1005,6 @@ Home-page: https://github.com/dask/dask/
 Author: 
 Author-email: 
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cloudpickle fsspec packaging partd pyyaml toolz
 Required-by: dask-glm dask-ml datashader distributed
 ---
@@ -1116,7 +1015,6 @@ Home-page: http://github.com/dask/dask-glm/
 Author: 
 Author-email: 
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cloudpickle dask multipledispatch scikit-learn scipy
 Required-by: dask-ml
 ---
@@ -1127,7 +1025,6 @@ Home-page: https://github.com/dask/dask-ml
 Author: Tom Augspurger
 Author-email: taugspurger@anaconda.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: dask dask-glm distributed multipledispatch numba numpy packaging pandas scikit-learn scipy
 Required-by: 
 ---
@@ -1138,7 +1035,6 @@ Home-page: https://github.com/huggingface/datasets
 Author: HuggingFace Inc.
 Author-email: thomas@huggingface.co
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: aiohttp dill fsspec huggingface-hub multiprocess numpy packaging pandas pyarrow requests tqdm xxhash
 Required-by: 
 ---
@@ -1149,7 +1045,6 @@ Home-page: https://datashader.org
 Author: 
 Author-email: 
 License: New BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: colorcet dask datashape numba numpy pandas param pillow pyct scipy xarray
 Required-by: 
 ---
@@ -1160,7 +1055,6 @@ Home-page: http://datashape.readthedocs.org/en/latest/
 Author: Continuum Analytics
 Author-email: blaze-dev@continuum.io
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: multipledispatch numpy python-dateutil
 Required-by: datashader
 ---
@@ -1171,7 +1065,6 @@ Home-page:
 Author: Nathaniel May <nathaniel.may@fishtownanalytics.com>
 Author-email: Nathaniel May <nathaniel.may@fishtownanalytics.com>
 License: 
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -1182,7 +1075,6 @@ Home-page: https://aka.ms/debugpy
 Author: Microsoft Corporation
 Author-email: ptvshelp@microsoft.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: ipykernel
 ---
@@ -1193,7 +1085,6 @@ Home-page: https://github.com/micheles/decorator
 Author: Michele Simionato
 Author-email: michele.simionato@gmail.com
 License: new BSD License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Mastodon.py ipython validators
 ---
@@ -1204,7 +1095,6 @@ Home-page: https://github.com/tiran/defusedxml
 Author: Christian Heimes
 Author-email: christian@python.org
 License: PSFL
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: nbconvert
 ---
@@ -1215,7 +1105,6 @@ Home-page: http://deprecation.readthedocs.io/
 Author: Brian Curtin
 Author-email: brian@python.org
 License: Apache 2
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: packaging
 Required-by: jupyter-packaging
 ---
@@ -1226,7 +1115,6 @@ Home-page: https://github.com/uqfoundation/dill
 Author: Mike McKerns
 Author-email: 
 License: 3-clause BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: datasets multiprocess tensorflow-datasets
 ---
@@ -1237,7 +1125,6 @@ Home-page: https://distributed.dask.org
 Author: 
 Author-email: 
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: click cloudpickle dask jinja2 msgpack psutil pyyaml setuptools sortedcontainers tblib toolz tornado zict
 Required-by: dask-ml
 ---
@@ -1248,7 +1135,6 @@ Home-page: https://github.com/dmlc/dlpack
 Author: dlpack
 Author-email: tianqi.tchen@gmail.com
 License: Apache-2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -1259,7 +1145,6 @@ Home-page: https://github.com/deepmind/tree
 Author: DeepMind
 Author-email: tree-copybara@google.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
 Required-by: tensorflow-model-optimization
 ---
@@ -1270,7 +1155,6 @@ Home-page: http://www.dnspython.org
 Author: Bob Halley
 Author-email: halley@dnspython.org
 License: ISC
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: email-validator
 ---
@@ -1281,7 +1165,6 @@ Home-page: http://docutils.sourceforge.net/
 Author: David Goodger
 Author-email: goodger@python.org
 License: public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt)
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Kivy Kivy-examples Sphinx pydata-sphinx-theme python-daemon sphinx-panels
 ---
@@ -1292,7 +1175,6 @@ Home-page: http://github.com/embotech/ecos
 Author: Alexander Domahidi, Eric Chu, Han Wang, Santiago Akle
 Author-email: domahidi@embotech.com, echu@cs.stanford.edu, hanwang2@stanford.edu, tiagoakle@gmail.com
 License: GPLv3
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy scipy
 Required-by: cvxpy
 ---
@@ -1303,7 +1185,6 @@ Home-page: https://github.com/elastic/elasticsearch-py
 Author: Honza Král, Nick Lang
 Author-email: honza.kral@gmail.com, nick@nicklang.com
 License: Apache-2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: certifi urllib3
 Required-by: twint
 ---
@@ -1314,7 +1195,6 @@ Home-page: https://github.com/AI4Finance-LLC/ElegantRL
 Author: Xiaoyang Liu, Steven Li, Hongyang Yang, Jiahao Zheng
 Author-email: XL2427@columbia.edu
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: box2d-py gym matplotlib numpy opencv-python pybullet torch
 Required-by: 
 ---
@@ -1325,7 +1205,6 @@ Home-page: https://github.com/JoshData/python-email-validator
 Author: Joshua Tauberer
 Author-email: jt@occams.info
 License: CC0 (copyright waived)
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: dnspython idna
 Required-by: 
 ---
@@ -1336,7 +1215,6 @@ Home-page: https://github.com/quantopian/empyrical
 Author: 
 Author-email: 
 License: Apache License, Version 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy pandas pandas-datareader scipy
 Required-by: pyfolio
 ---
@@ -1347,7 +1225,6 @@ Home-page: https://github.com/takluyver/entrypoints
 Author: Thomas Kluyver
 Author-email: thomas@kluyver.me.uk
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: altair jupyter-client jupyterlab-server nbconvert
 ---
@@ -1358,7 +1235,6 @@ Home-page: http://rhodesmill.org/pyephem/
 Author: Brandon Rhodes
 Author-email: brandon@rhodesmill.org
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: LunarCalendar
 ---
@@ -1369,7 +1245,6 @@ Home-page: https://foss.heptapod.net/openpyxl/et_xmlfile
 Author: See ATUHORS.txt
 Author-email: charlie.clark@clark-consulting.eu
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: openpyxl
 ---
@@ -1380,7 +1255,6 @@ Home-page: https://github.com/erdewit/eventkit
 Author: Ewald R. de Wit
 Author-email: ewald.de.wit@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: ib-insync
 ---
@@ -1391,7 +1265,6 @@ Home-page: https://github.com/gerrymanoim/exchange_calendars
 Author: Gerry Manoim
 Author-email: gerrymanoim@gmail.com
 License: Apache License, Version 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: korean-lunar-calendar numpy pandas pyluach python-dateutil pytz toolz
 Required-by: pandas-market-calendars
 ---
@@ -1402,7 +1275,6 @@ Home-page: https://github.com/kyamagu/faiss-wheels
 Author: Kota Yamaguchi
 Author-email: KotaYamaguchi1984@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -1413,7 +1285,6 @@ Home-page: https://github.com/hellysmile/fake-useragent
 Author: hellysmile@gmail.com
 Author-email: hellysmile@gmail.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: twint
 ---
@@ -1424,7 +1295,6 @@ Home-page: https://github.com/fastai/fastai/tree/master/
 Author: Jeremy Howard, Sylvain Gugger, and contributors
 Author-email: info@fast.ai
 License: Apache Software License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: fastcore fastdownload fastprogress matplotlib packaging pandas pillow pip pyyaml requests scikit-learn scipy spacy torch torchvision
 Required-by: 
 ---
@@ -1435,7 +1305,6 @@ Home-page: https://github.com/fastavro/fastavro
 Author: Miki Tebeka
 Author-email: miki.tebeka@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -1446,7 +1315,6 @@ Home-page: https://github.com/fastai/fastcore/tree/master/
 Author: Jeremy Howard and Sylvain Gugger
 Author-email: infos@fast.ai
 License: Apache Software License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: packaging pip
 Required-by: fastai fastdownload
 ---
@@ -1457,7 +1325,6 @@ Home-page: https://github.com/fastai/fastdownload/tree/master/
 Author: Jeremy Howard
 Author-email: info@fast.ai
 License: Apache Software License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: fastcore fastprogress
 Required-by: fastai
 ---
@@ -1468,7 +1335,6 @@ Home-page: https://github.com/harlowja/fasteners
 Author: Joshua Harlow
 Author-email: harlowja@yahoo-inc.com
 License: ASL 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
 Required-by: zarr
 ---
@@ -1479,7 +1345,6 @@ Home-page: https://github.com/fastai/fastprogress
 Author: Sylvain Gugger
 Author-email: info@fast.ai
 License: Apache Software License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: fastai fastdownload
 ---
@@ -1490,7 +1355,6 @@ Home-page: https://github.com/scoder/fastrlock
 Author: Stefan Behnel
 Author-email: stefan_ml@behnel.de
 License: MIT style
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -1501,7 +1365,6 @@ Home-page: https://github.com/tox-dev/py-filelock
 Author: Benedikt Schmitt
 Author-email: benedikt@benediktschmitt.de
 License: Unlicense
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: huggingface-hub ray transformers
 ---
@@ -1512,7 +1375,6 @@ Home-page: https://github.com/peerchemist/finta
 Author: Peerchemist
 Author-email: peerchemist@protonmail.ch
 License: LGPLv3+
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy pandas
 Required-by: 
 ---
@@ -1523,7 +1385,6 @@ Home-page: http://github.com/Toblerity/Fiona
 Author: Sean Gillies
 Author-email: sean.gillies@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: attrs certifi click click-plugins cligj munch setuptools six
 Required-by: geopandas
 ---
@@ -1534,7 +1395,6 @@ Home-page: https://github.com/google/python-fire
 Author: David Bieber
 Author-email: dbieber@google.com
 License: Apache Software License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six termcolor
 Required-by: 
 ---
@@ -1545,7 +1405,6 @@ Home-page: https://github.com/pycqa/flake8
 Author: Tarek Ziade
 Author-email: tarek@ziade.org
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: mccabe pycodestyle pyflakes
 Required-by: 
 ---
@@ -1556,7 +1415,6 @@ Home-page: https://palletsprojects.com/p/flask
 Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Jinja2 Werkzeug click itsdangerous
 Required-by: Flask-Caching Flask-Compress Flask-SeaSurf dash dash-auth geos jupyter-dash
 ---
@@ -1567,7 +1425,6 @@ Home-page: https://github.com/sh4nks/flask-caching
 Author: Peter Justin
 Author-email: peter.justin@outlook.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Flask
 Required-by: 
 ---
@@ -1578,7 +1435,6 @@ Home-page: https://github.com/colour-science/flask-compress
 Author: Thomas Mansencal
 Author-email: thomas.mansencal@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: brotli flask
 Required-by: dash dash-auth
 ---
@@ -1589,7 +1445,6 @@ Home-page: https://github.com/maxcountryman/flask-seasurf/
 Author: Max Countryman
 Author-email: maxc@me.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Flask
 Required-by: dash-auth
 ---
@@ -1600,7 +1455,6 @@ Home-page: https://google.github.io/flatbuffers/
 Author: FlatBuffers Contributors
 Author-email: me@rwinslow.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: tensorflow
 ---
@@ -1611,7 +1465,6 @@ Home-page: https://github.com/rougier/freetype-py
 Author: Nicolas P. Rougier
 Author-email: Nicolas.Rougier@inria.fr
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: vispy
 ---
@@ -1622,7 +1475,6 @@ Home-page: https://github.com/aio-libs/frozenlist
 Author: Nikolay Kim
 Author-email: fafhrd91@gmail.com
 License: Apache 2
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: aiohttp aiosignal
 ---
@@ -1633,7 +1485,6 @@ Home-page: http://github.com/intake/filesystem_spec
 Author: 
 Author-email: 
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: dask datasets
 ---
@@ -1644,7 +1495,6 @@ Home-page: https://python-future.org
 Author: Ed Schofield
 Author-email: ed@pythoncharmers.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: cypari h2o parsedatetime tensorflow-datasets
 ---
@@ -1655,7 +1505,6 @@ Home-page: http://t3m.computop.org
 Author: Marc Culler and Nathan M. Dunfield
 Author-email: culler@marc-culler.info, nathan@dunfield.info
 License: GPLv2+
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -1666,7 +1515,6 @@ Home-page: https://github.com/serge-sans-paille/gast/
 Author: serge-sans-paille
 Author-email: serge.guelton@telecom-bretagne.eu
 License: BSD 3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: tensorflow
 ---
@@ -1677,7 +1525,6 @@ Home-page: http://radimrehurek.com/gensim
 Author: Radim Rehurek
 Author-email: me@radimrehurek.com
 License: LGPL-2.1-only
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy scipy smart-open
 Required-by: 
 ---
@@ -1688,7 +1535,6 @@ Home-page: https://geographiclib.sourceforge.io/1.52/python
 Author: Charles Karney
 Author-email: charles@karney.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: geopy
 ---
@@ -1699,7 +1545,6 @@ Home-page: http://geopandas.org
 Author: GeoPandas contributors
 Author-email: kjordahl@alum.mit.edu
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: fiona pandas pyproj shapely
 Required-by: 
 ---
@@ -1710,7 +1555,6 @@ Home-page: https://github.com/geopy/geopy
 Author: 
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: geographiclib
 Required-by: twint
 ---
@@ -1721,7 +1565,6 @@ Home-page: https://github.com/grst/geos
 Author: Gregor Sturm
 Author-email: mail@gregor-sturm.de
 License: GPLv3
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: flask lxml pillow
 Required-by: 
 ---
@@ -1732,7 +1575,6 @@ Home-page: https://github.com/google/gin-config
 Author: The Gin-Config Team
 Author-email: 
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: tf-models-official
 ---
@@ -1743,7 +1585,6 @@ Home-page: https://github.com/gitpython-developers/gitdb
 Author: Sebastian Thiel
 Author-email: byronimo@gmail.com
 License: BSD License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: smmap
 Required-by: GitPython
 ---
@@ -1754,7 +1595,6 @@ Home-page: https://github.com/gitpython-developers/GitPython
 Author: Sebastian Thiel, Michael Trier
 Author-email: byronimo@gmail.com, mtrier@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: gitdb typing-extensions
 Required-by: 
 ---
@@ -1765,7 +1605,6 @@ Home-page: UNKNOWN
 Author: its_me
 Author-email: rycepie3909@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -1776,7 +1615,6 @@ Home-page: https://github.com/benley/python-glog
 Author: Benjamin Staffin
 Author-email: benley@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: python-gflags six
 Required-by: 
 ---
@@ -1787,7 +1625,6 @@ Home-page: https://github.com/googleapis/python-api-core
 Author: Google LLC
 Author-email: googleapis-packages@google.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: google-auth googleapis-common-protos protobuf requests setuptools
 Required-by: google-api-python-client google-cloud-bigquery google-cloud-core opencensus
 ---
@@ -1798,7 +1635,6 @@ Home-page: https://github.com/googleapis/google-api-python-client/
 Author: Google LLC
 Author-email: googleapis-packages@google.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: google-api-core google-auth google-auth-httplib2 httplib2 uritemplate
 Required-by: tf-models-official
 ---
@@ -1809,7 +1645,6 @@ Home-page: https://github.com/googleapis/google-auth-library-python
 Author: Google Cloud Platform
 Author-email: googleapis-packages@google.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cachetools pyasn1-modules rsa setuptools six
 Required-by: google-api-core google-api-python-client google-auth-httplib2 google-auth-oauthlib google-cloud-core tensorboard
 ---
@@ -1820,7 +1655,6 @@ Home-page: https://github.com/GoogleCloudPlatform/google-auth-library-python-htt
 Author: Google Cloud Platform
 Author-email: googleapis-packages@google.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: google-auth httplib2 six
 Required-by: google-api-python-client
 ---
@@ -1831,7 +1665,6 @@ Home-page: https://github.com/GoogleCloudPlatform/google-auth-library-python-oau
 Author: Google Cloud Platform
 Author-email: jonwayne+google-auth@google.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: google-auth requests-oauthlib
 Required-by: tensorboard
 ---
@@ -1842,7 +1675,6 @@ Home-page: https://github.com/googleapis/python-bigquery
 Author: Google LLC
 Author-email: googleapis-packages@google.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: google-api-core google-cloud-core google-resumable-media grpcio packaging proto-plus protobuf python-dateutil requests
 Required-by: 
 ---
@@ -1853,7 +1685,6 @@ Home-page: https://github.com/googleapis/python-cloud-core
 Author: Google LLC
 Author-email: googleapis-packages@google.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: google-api-core google-auth
 Required-by: google-cloud-bigquery
 ---
@@ -1864,7 +1695,6 @@ Home-page: https://github.com/googleapis/python-crc32c
 Author: Google LLC
 Author-email: googleapis-packages@google.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: google-resumable-media
 ---
@@ -1875,7 +1705,6 @@ Home-page: https://github.com/google/pasta
 Author: Nick Smith
 Author-email: smithnick@google.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
 Required-by: tensorflow
 ---
@@ -1886,7 +1715,6 @@ Home-page: https://github.com/googleapis/google-resumable-media-python
 Author: Google Cloud Platform
 Author-email: googleapis-publisher@google.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: google-crc32c
 Required-by: google-cloud-bigquery
 ---
@@ -1897,7 +1725,6 @@ Home-page: https://github.com/googleapis/python-api-common-protos
 Author: Google LLC
 Author-email: googleapis-packages@google.com
 License: Apache-2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: protobuf
 Required-by: google-api-core grpcio-status tensorflow-metadata
 ---
@@ -1908,7 +1735,6 @@ Home-page: https://github.com/x0rkov/py-googletrans
 Author: x0rxkov
 Author-email: x0rxkov@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: requests
 Required-by: twint
 ---
@@ -1919,7 +1745,6 @@ Home-page: https://github.com/jrfonseca/gprof2dot
 Author: Jose Fonseca
 Author-email: jose.r.fonseca@gmail.com
 License: LGPL
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -1930,7 +1755,6 @@ Home-page: https://github.com/wookayin/gpustat
 Author: Jongwook Choi
 Author-email: wookayin@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: blessings nvidia-ml-py3 psutil six
 Required-by: 
 ---
@@ -1941,7 +1765,6 @@ Home-page: https://github.com/anderskm/gputil
 Author: Anders Krogh Mortensen
 Author-email: anderskroghm@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -1952,7 +1775,6 @@ Home-page: https://github.com/xflr6/graphviz
 Author: Sebastian Bank
 Author-email: sebastian.bank@uni-leipzig.de
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -1963,7 +1785,6 @@ Home-page: https://greenlet.readthedocs.io/
 Author: Alexey Borzenkov
 Author-email: snaury@gmail.com
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: SQLAlchemy
 ---
@@ -1974,7 +1795,6 @@ Home-page: https://grpc.io
 Author: The gRPC Authors
 Author-email: grpc-io@googlegroups.com
 License: Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
 Required-by: google-cloud-bigquery grpcio-status ray tensorboard tensorflow
 ---
@@ -1985,7 +1805,6 @@ Home-page: https://grpc.io
 Author: The gRPC Authors
 Author-email: grpc-io@googlegroups.com
 License: Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: googleapis-common-protos grpcio protobuf
 Required-by: 
 ---
@@ -1996,7 +1815,6 @@ Home-page: https://gunicorn.org
 Author: Benoit Chesneau
 Author-email: benoitc@e-engura.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: setuptools
 Required-by: 
 ---
@@ -2007,7 +1825,6 @@ Home-page: https://github.com/openai/gym
 Author: OpenAI
 Author-email: jkterry@umd.edu
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cloudpickle numpy
 Required-by: elegantrl stable-baselines3
 ---
@@ -2018,7 +1835,6 @@ Home-page: https://github.com/python-hyper/h11
 Author: Nathaniel J. Smith
 Author-email: njs@pobox.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: httpcore wsproto
 ---
@@ -2029,7 +1845,6 @@ Home-page: https://github.com/h2oai/h2o-3.git
 Author: H2O.ai
 Author-email: support@h2o.ai
 License: Apache v2
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: future requests tabulate
 Required-by: 
 ---
@@ -2040,7 +1855,6 @@ Home-page: http://www.h5py.org
 Author: Andrew Collette
 Author-email: andrew.collette@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: rapidminer tensorflow
 ---
@@ -2051,7 +1865,6 @@ Home-page: http://stutzbachenterprises.com/
 Author: Stutzbach Enterprises, LLC
 Author-email: daniel@stutzbachenterprises.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: zict
 ---
@@ -2062,7 +1875,6 @@ Home-page: https://github.com/dralshehri/hijri-converter
 Author: Mohd Alshehri
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: holidays
 ---
@@ -2073,7 +1885,6 @@ Home-page: https://github.com/redis/hiredis-py
 Author: Jan-Erik Rediger, Pieter Noordhuis
 Author-email: janerik@fnordig.de, pcnoordhuis@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -2084,7 +1895,6 @@ Home-page: https://github.com/dr-prodigy/python-holidays
 Author: ryanss
 Author-email: ryanssdev@icloud.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: convertdate hijri-converter korean-lunar-calendar python-dateutil
 Required-by: prophet
 ---
@@ -2095,7 +1905,6 @@ Home-page: https://www.hsluv.org
 Author: 
 Author-email: alexei@boronine.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: vispy
 ---
@@ -2106,7 +1915,6 @@ Home-page: https://github.com/encode/httpcore
 Author: Tom Christie
 Author-email: tom@tomchristie.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: anyio h11 sniffio
 Required-by: httpx
 ---
@@ -2117,7 +1925,6 @@ Home-page: https://github.com/httplib2/httplib2
 Author: Joe Gregorio
 Author-email: joe@bitworking.org
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pyparsing
 Required-by: google-api-python-client google-auth-httplib2 oauth2client
 ---
@@ -2128,7 +1935,6 @@ Home-page: https://github.com/encode/httpx
 Author: Tom Christie
 Author-email: tom@tomchristie.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: certifi charset-normalizer httpcore rfc3986 sniffio
 Required-by: tda-api
 ---
@@ -2139,7 +1945,6 @@ Home-page: https://github.com/huggingface/huggingface_hub
 Author: Hugging Face, Inc.
 Author-email: julien@huggingface.co
 License: Apache
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: filelock packaging pyyaml requests tqdm typing-extensions
 Required-by: datasets transformers
 ---
@@ -2150,7 +1955,6 @@ Home-page: https://github.com/Pylons/hupper
 Author: Michael Merickel
 Author-email: pylons-discuss@googlegroups.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pyramid
 ---
@@ -2161,7 +1965,6 @@ Home-page: https://github.com/erdewit/ib_insync
 Author: Ewald R. de Wit
 Author-email: ewald.de.wit@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: eventkit nest-asyncio
 Required-by: 
 ---
@@ -2172,7 +1975,6 @@ Home-page: https://github.com/dicelab-rhul/ICU
 Author: Benedict Wilkins
 Author-email: benrjw@googlemail.co.uk
 License: GNU3
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -2183,7 +1985,6 @@ Home-page: https://github.com/kjd/idna
 Author: Kim Davies
 Author-email: kim@cynosure.com.au
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: anyio email-validator requests trio yarl
 ---
@@ -2194,7 +1995,6 @@ Home-page: https://github.com/addisonlynch/iexfinance
 Author: Addison Lynch
 Author-email: ahljunk@gmail.com
 License: Apache
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pandas requests
 Required-by: 
 ---
@@ -2205,7 +2005,6 @@ Home-page: https://www.lfd.uci.edu/~gohlke/
 Author: Christoph Gohlke
 Author-email: cgohlke@uci.edu
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: imagecodecs-lite
 ---
@@ -2216,7 +2015,6 @@ Home-page: https://www.lfd.uci.edu/~gohlke/
 Author: Christoph Gohlke
 Author-email: cgohlke@uci.edu
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: imagecodecs
 Required-by: 
 ---
@@ -2227,7 +2025,6 @@ Home-page: https://github.com/imageio/imageio
 Author: imageio contributors
 Author-email: almar.klein@gmail.com
 License: BSD-2-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy pillow
 Required-by: scikit-image
 ---
@@ -2238,7 +2035,6 @@ Home-page: https://github.com/shibukawa/imagesize_py
 Author: Yoshiki Shibukawa
 Author-email: yoshiki@shibu.jp
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Sphinx
 ---
@@ -2249,7 +2045,6 @@ Home-page: https://github.com/scikit-learn-contrib/imbalanced-learn
 Author: 
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: joblib numpy scikit-learn scipy
 Required-by: 
 ---
@@ -2260,7 +2055,6 @@ Home-page: https://github.com/google/importlab
 Author: 
 Author-email: 
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: networkx
 Required-by: pytype
 ---
@@ -2271,7 +2065,6 @@ Home-page: https://github.com/python/importlib_metadata
 Author: Jason R. Coombs
 Author-email: jaraco@jaraco.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: zipp
 Required-by: keyring
 ---
@@ -2282,7 +2075,6 @@ Home-page: https://github.com/python/importlib_resources
 Author: Barry Warsaw
 Author-email: barry@python.org
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: zipp
 Required-by: typeshed-client
 ---
@@ -2293,7 +2085,6 @@ Home-page: http://github.com/RonnyPfannschmidt/iniconfig
 Author: Ronny Pfannschmidt, Holger Krekel
 Author-email: opensource@ronnypfannschmidt.de, holger.krekel@gmail.com
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pytest
 ---
@@ -2304,7 +2095,6 @@ Home-page: http://github.com/jealous/int_date
 Author: Cedric Zhuang
 Author-email: cedric.zhuang@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: python-dateutil six
 Required-by: stockstats
 ---
@@ -2315,7 +2105,6 @@ Home-page: https://github.com/intrinio/python-sdk
 Author: UNKNOWN
 Author-email: UNKNOWN
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: certifi python-dateutil retrying six urllib3
 Required-by: 
 ---
@@ -2326,7 +2115,6 @@ Home-page: https://ipython.org
 Author: IPython Development Team
 Author-email: ipython-dev@scipy.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: appnope debugpy ipython jupyter-client matplotlib-inline tornado traitlets
 Required-by: ipywidgets jupyter jupyter-console jupyter-dash notebook pydeck qtconsole
 ---
@@ -2337,7 +2125,6 @@ Home-page: https://ipython.org
 Author: The IPython Development Team
 Author-email: ipython-dev@python.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: appnope backcall decorator jedi matplotlib-inline pexpect pickleshare prompt-toolkit pygments setuptools traitlets
 Required-by: ipykernel ipywidgets jupyter-console jupyter-dash jupyterlab pyfolio
 ---
@@ -2348,7 +2135,6 @@ Home-page: http://ipython.org
 Author: IPython Development Team
 Author-email: ipython-dev@scipy.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: ipywidgets jupyter-server nbformat notebook qtconsole
 ---
@@ -2359,7 +2145,6 @@ Home-page: http://ipython.org
 Author: IPython Development Team
 Author-email: ipython-dev@scipy.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: ipykernel ipython ipython-genutils jupyterlab-widgets nbformat traitlets widgetsnbextension
 Required-by: jupyter jupyter-bokeh pydeck
 ---
@@ -2370,7 +2155,6 @@ Home-page: https://github.com/micktwomey/pyiso8601
 Author: Michael Twomey
 Author-email: pyiso8601@mick.twomeylee.name
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: m3u8
 ---
@@ -2381,7 +2165,6 @@ Home-page: https://github.com/gweis/isodate/
 Author: Gerhard Weis
 Author-email: gerhard.weis@proclos.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
 Required-by: agate msrest zeep
 ---
@@ -2392,7 +2175,6 @@ Home-page: https://palletsprojects.com/p/itsdangerous/
 Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Flask dash-auth
 ---
@@ -2403,7 +2185,6 @@ Home-page: https://github.com/google/jax
 Author: JAX team
 Author-email: jax-dev@google.com
 License: Apache-2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: absl-py numpy opt-einsum scipy typing-extensions
 Required-by: 
 ---
@@ -2414,7 +2195,6 @@ Home-page: https://github.com/davidhalter/jedi
 Author: David Halter
 Author-email: davidhalter88@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: parso
 Required-by: ipython
 ---
@@ -2425,7 +2205,6 @@ Home-page: https://palletsprojects.com/p/jinja/
 Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: MarkupSafe
 Required-by: Flask Sphinx altair bokeh distributed jupyter-server jupyterlab jupyterlab-server nbconvert notebook pydeck spacy
 ---
@@ -2436,7 +2215,6 @@ Home-page: https://github.com/jmespath/jmespath.py
 Author: James Saryerwinnie
 Author-email: js@jamesls.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: boto3 botocore
 ---
@@ -2447,7 +2225,6 @@ Home-page: https://joblib.readthedocs.io
 Author: Gael Varoquaux
 Author-email: gael.varoquaux@normalesup.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: imbalanced-learn nilearn nltk pmdarima pyod sacremoses scikit-learn
 ---
@@ -2458,7 +2235,6 @@ Home-page: https://www.joinquant.com/data
 Author: JoinQuant
 Author-email: xlx@joinquant.com
 License: Apache License v2
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: SQLAlchemy msgpack numpy pandas pymysql requests six thriftpy2
 Required-by: 
 ---
@@ -2469,7 +2245,6 @@ Home-page: https://github.com/pavlov99/json-rpc
 Author: Kirill Pavlov
 Author-email: k@p99.io
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -2480,7 +2255,6 @@ Home-page: https://github.com/dpranke/pyjson5
 Author: Dirk Pranke
 Author-email: dpranke@chromium.org
 License: Apache
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: jupyterlab-server
 ---
@@ -2491,7 +2265,6 @@ Home-page: https://github.com/Julian/jsonschema
 Author: Julian Berman
 Author-email: Julian@GrayVines.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: attrs pyrsistent
 Required-by: altair jupyterlab-server nbformat ray
 ---
@@ -2502,7 +2275,6 @@ Home-page: http://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: ipykernel ipywidgets jupyter-console nbconvert notebook qtconsole
 Required-by: 
 ---
@@ -2513,7 +2285,6 @@ Home-page: https://github.com/bokeh/jupyter_bokeh
 Author: Bokeh team
 Author-email: info@bokeh.org
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: bokeh ipywidgets
 Required-by: 
 ---
@@ -2524,7 +2295,6 @@ Home-page: https://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: entrypoints jupyter-core nest-asyncio python-dateutil pyzmq tornado traitlets
 Required-by: ipykernel jupyter-console jupyter-server nbclient notebook qtconsole
 ---
@@ -2535,7 +2305,6 @@ Home-page: https://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: ipykernel ipython jupyter-client prompt-toolkit pygments
 Required-by: jupyter
 ---
@@ -2546,7 +2315,6 @@ Home-page: https://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.org
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: traitlets
 Required-by: jupyter-client jupyter-server jupyterlab nbconvert nbformat notebook qtconsole
 ---
@@ -2557,7 +2325,6 @@ Home-page: https://github.com/plotly/jupyter-dash
 Author: Plotly
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: ansi2html dash flask ipykernel ipython requests retrying
 Required-by: 
 ---
@@ -2568,7 +2335,6 @@ Home-page: http://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD 3-Clause License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: deprecation packaging setuptools tomlkit wheel
 Required-by: 
 ---
@@ -2579,7 +2345,6 @@ Home-page: https://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Send2Trash anyio argon2-cffi ipython-genutils jinja2 jupyter-client jupyter-core nbconvert nbformat prometheus-client pyzmq terminado tornado traitlets websocket-client
 Required-by: jupyter-server-proxy jupyterlab jupyterlab-server nbclassic
 ---
@@ -2590,7 +2355,6 @@ Home-page: https://github.com/jupyterhub/jupyter-server-proxy
 Author: Ryan Lovett & Yuvi Panda
 Author-email: rylo@berkeley.edu
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: aiohttp jupyter-server simpervisor
 Required-by: 
 ---
@@ -2601,7 +2365,6 @@ Home-page: https://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: ipython jinja2 jupyter-core jupyter-server jupyterlab-server nbclassic packaging tornado
 Required-by: 
 ---
@@ -2612,7 +2375,6 @@ Home-page: http://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pygments
 Required-by: nbconvert
 ---
@@ -2623,7 +2385,6 @@ Home-page: https://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: babel entrypoints jinja2 json5 jsonschema jupyter-server packaging requests
 Required-by: jupyterlab
 ---
@@ -2634,7 +2395,6 @@ Home-page: https://github.com/jupyter-widgets/ipywidgets
 Author: Jupyter Development Team
 Author-email: 
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: ipywidgets
 ---
@@ -2645,7 +2405,6 @@ Home-page: https://github.com/Kaggle/kaggle-api
 Author: Kaggle
 Author-email: support@kaggle.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: certifi python-dateutil python-slugify requests six tqdm urllib3
 Required-by: tf-models-official
 ---
@@ -2656,7 +2415,6 @@ Home-page: UNKNOWN
 Author: Jon Mease
 Author-email: jon@plotly.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -2667,7 +2425,6 @@ Home-page: https://keras.io/
 Author: Google Inc.
 Author-email: packages@tensorflow.org
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: tensorflow
 ---
@@ -2678,7 +2435,6 @@ Home-page: https://github.com/keras-team/keras-preprocessing
 Author: Keras Team
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy six
 Required-by: tensorflow
 ---
@@ -2689,7 +2445,6 @@ Home-page: https://github.com/jaraco/keyring
 Author: Kang Zhang
 Author-email: jobo.zh@gmail.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: importlib-metadata
 Required-by: 
 ---
@@ -2700,7 +2455,6 @@ Home-page: http://kivy.org
 Author: Kivy Team and other contributors
 Author-email: kivy-dev@googlegroups.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Kivy-Garden docutils pygments
 Required-by: 
 ---
@@ -2711,7 +2465,6 @@ Home-page: http://kivy.org
 Author: Kivy Team and other contributors
 Author-email: kivy-dev@googlegroups.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Kivy-Garden docutils pygments
 Required-by: 
 ---
@@ -2722,7 +2475,6 @@ Home-page: UNKNOWN
 Author: UNKNOWN
 Author-email: UNKNOWN
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: requests
 Required-by: Kivy Kivy-examples
 ---
@@ -2733,7 +2485,6 @@ Home-page: https://github.com/nucleic/kiwi
 Author: The Nucleic Development Team
 Author-email: sccolbert@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: matplotlib vispy
 ---
@@ -2744,7 +2495,6 @@ Home-page: https://github.com/3-manifolds/knot_floer_homology
 Author: Zoltán Szabó, Marc Culler, Nathan M. Dunfield, and Matthias Goerner
 Author-email: snappy-help@computop.org
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -2755,7 +2505,6 @@ Home-page: https://github.com/usingsky/korean_lunar_calendar_py
 Author: Jinil Lee
 Author-email: usingsky@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: exchange-calendars holidays
 ---
@@ -2766,7 +2515,6 @@ Home-page: https://github.com/jborean93/pykrb5
 Author: Jordan Borean
 Author-email: jborean93@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -2777,7 +2525,6 @@ Home-page: http://leather.readthedocs.io/
 Author: Christopher Groskopf
 Author-email: chrisgroskopf@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
 Required-by: agate
 ---
@@ -2788,7 +2535,6 @@ Home-page: https://github.com/Instagram/LibCST
 Author: 
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pyyaml typing-extensions typing-inspect
 Required-by: pytype
 ---
@@ -2799,7 +2545,6 @@ Home-page: http://llvmlite.pydata.org
 Author: Continuum Analytics, Inc.
 Author-email: numba-users@continuum.io
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: numba
 ---
@@ -2810,7 +2555,6 @@ Home-page: http://github.com/mwilliamson/locket.py
 Author: Michael Williamson
 Author-email: mike@zwobble.org
 License: BSD-2-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: partd
 ---
@@ -2821,7 +2565,6 @@ Home-page: http://launchpad.net/pylockfile
 Author: OpenStack
 Author-email: openstack-dev@lists.openstack.org
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: python-daemon
 ---
@@ -2832,7 +2575,6 @@ Home-page: http://logbook.pocoo.org/
 Author: Armin Ronacher, Georg Brandl
 Author-email: armin.ronacher@active-4.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -2843,7 +2585,6 @@ Home-page: https://github.com/spotify/luigi
 Author: The Luigi Authors
 Author-email: 
 License: Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: python-daemon python-dateutil tenacity tornado
 Required-by: 
 ---
@@ -2854,7 +2595,6 @@ Home-page: https://github.com/wolfhong/LunarCalendar
 Author: wolfhong
 Author-email: hongxucai1991@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: ephem python-dateutil pytz
 Required-by: prophet
 ---
@@ -2865,7 +2605,6 @@ Home-page: https://lxml.de/
 Author: lxml dev team
 Author-email: lxml-dev@lxml.de
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: geos pandas-datareader yfinance zeep
 ---
@@ -2876,7 +2615,6 @@ Home-page: https://github.com/python-lz4/python-lz4
 Author: Jonathan Underwood
 Author-email: jonathan.underwood@gmail.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -2887,7 +2625,6 @@ Home-page: https://github.com/globocom/m3u8
 Author: Globo.com
 Author-email: videos3@corp.globo.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: iso8601
 Required-by: 
 ---
@@ -2898,7 +2635,6 @@ Home-page: http://github.com/ronaldoussoren/macholib
 Author: Ronald Oussoren
 Author-email: ronaldoussoren@mac.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: altgraph
 Required-by: pyinstaller
 ---
@@ -2909,7 +2645,6 @@ Home-page: https://Python-Markdown.github.io/
 Author: Manfred Stienstra, Yuri takhteyev and Waylan limberg
 Author-email: python.markdown@gmail.com
 License: BSD License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: tensorboard
 ---
@@ -2920,7 +2655,6 @@ Home-page: https://palletsprojects.com/p/markupsafe/
 Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Jinja2
 ---
@@ -2931,7 +2665,6 @@ Home-page: https://github.com/Fatal1ty/mashumaro
 Author: Alexander Tikhonov
 Author-email: random.gauss@gmail.com
 License: Apache License, Version 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: msgpack pyyaml typing-extensions
 Required-by: 
 ---
@@ -2942,7 +2675,6 @@ Home-page: https://github.com/halcy/Mastodon.py
 Author: Lorenz Diener
 Author-email: lorenzd+mastodonpypypi@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: blurhash decorator python-dateutil python-magic pytz requests six
 Required-by: boost
 ---
@@ -2953,7 +2685,6 @@ Home-page: https://matplotlib.org
 Author: John D. Hunter, Michael Droettboom
 Author-email: matplotlib-users@python.org
 License: PSF
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cycler kiwisolver numpy pillow pyparsing python-dateutil
 Required-by: elegantrl fastai mplfinance prophet pycocotools pyfolio pyod scikit-image seaborn stable-baselines3 tf-models-official wordcloud
 ---
@@ -2964,7 +2695,6 @@ Home-page: https://github.com/ipython/matplotlib-inline
 Author: IPython Development Team
 Author-email: ipython-dev@scipy.org
 License: BSD 3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: traitlets
 Required-by: ipykernel ipython
 ---
@@ -2975,7 +2705,6 @@ Home-page: https://github.com/pycqa/mccabe
 Author: Ian Cordasco
 Author-email: graffatcolmingov@gmail.com
 License: Expat license
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: flake8
 ---
@@ -2986,7 +2715,6 @@ Home-page: https://github.com/pythonprofilers/memory_profiler
 Author: Fabian Pedregosa
 Author-email: f@bianp.net
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: psutil
 Required-by: 
 ---
@@ -2997,7 +2725,6 @@ Home-page: https://www.fishtownanalytics.com
 Author: Anuj More, Alexander Dean, Fred Blundun, Drew Banin, Jacob Beck, Connor McArthur
 Author-email: 
 License: Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: requests six
 Required-by: 
 ---
@@ -3008,7 +2735,6 @@ Home-page: https://github.com/lepture/mistune
 Author: Hsiaoming Yang
 Author-email: me@lepture.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: nbconvert
 ---
@@ -3019,7 +2745,6 @@ Home-page: http://mock.readthedocs.org/en/latest/
 Author: Testing Cabal
 Author-email: testing-in-python@lists.idyll.org
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: wrds
 ---
@@ -3030,7 +2755,6 @@ Home-page: http://github.com/matplotlib/mplfinance
 Author: MPL Developers
 Author-email: matplotlib-users@python.org
 License: BSD-style
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: matplotlib pandas
 Required-by: 
 ---
@@ -3041,7 +2765,6 @@ Home-page: https://msgpack.org/
 Author: Inada Naoki
 Author-email: songofacandy@gmail.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: distributed jqdatasdk mashumaro ray
 ---
@@ -3052,7 +2775,6 @@ Home-page: http://msgpack.org/
 Author: INADA Naoki
 Author-email: songofacandy@gmail.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -3063,7 +2785,6 @@ Home-page: https://github.com/Azure/msrest-for-python
 Author: Microsoft Corporation
 Author-email: 
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: certifi isodate requests requests-oauthlib
 Required-by: azure-storage-blob
 ---
@@ -3074,7 +2795,6 @@ Home-page: https://github.com/aio-libs/multidict
 Author: Andrew Svetlov
 Author-email: andrew.svetlov@gmail.com
 License: Apache 2
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: aiohttp yarl
 ---
@@ -3085,7 +2805,6 @@ Home-page: http://github.com/mrocklin/multipledispatch/
 Author: Matthew Rocklin
 Author-email: mrocklin@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
 Required-by: dask-glm dask-ml datashape
 ---
@@ -3096,7 +2815,6 @@ Home-page: https://github.com/uqfoundation/multiprocess
 Author: Mike McKerns
 Author-email: 
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: dill
 Required-by: datasets
 ---
@@ -3107,7 +2825,6 @@ Home-page: https://github.com/ranaroussi/multitasking
 Author: Ran Aroussi
 Author-email: ran@aroussi.com
 License: Apache
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: yfinance
 ---
@@ -3118,7 +2835,6 @@ Home-page: https://github.com/Infinidat/munch
 Author: Rotem Yaari
 Author-email: vmalloc@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
 Required-by: Fiona
 ---
@@ -3129,7 +2845,6 @@ Home-page: https://github.com/explosion/murmurhash
 Author: Matthew Honnibal
 Author-email: matt@explosion.ai
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: preshed spacy thinc
 ---
@@ -3140,7 +2855,6 @@ Home-page: http://www.mypy-lang.org/
 Author: Jukka Lehtosalo
 Author-email: jukka.lehtosalo@iki.fi
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: mypy-extensions toml typing-extensions
 Required-by: 
 ---
@@ -3151,7 +2865,6 @@ Home-page: https://github.com/python/mypy_extensions
 Author: The mypy developers
 Author-email: jukka.lehtosalo@iki.fi
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: mypy pyanalyze typing-inspect
 ---
@@ -3162,7 +2875,6 @@ Home-page: https://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: jupyter-server notebook
 Required-by: jupyterlab
 ---
@@ -3173,7 +2885,6 @@ Home-page: https://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: jupyter-client nbformat nest-asyncio traitlets
 Required-by: nbconvert
 ---
@@ -3184,7 +2895,6 @@ Home-page: https://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: bleach defusedxml entrypoints jinja2 jupyter-core jupyterlab-pygments mistune nbclient nbformat pandocfilters pygments testpath traitlets
 Required-by: jupyter jupyter-server notebook
 ---
@@ -3195,7 +2905,6 @@ Home-page: http://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: ipython-genutils jsonschema jupyter-core traitlets
 Required-by: ipywidgets jupyter-server nbclient nbconvert notebook
 ---
@@ -3206,7 +2915,6 @@ Home-page: https://github.com/erdewit/nest_asyncio
 Author: Ewald R. de Wit
 Author-email: ewald.de.wit@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: ib-insync jupyter-client nbclient
 ---
@@ -3217,7 +2925,6 @@ Home-page: https://github.com/al45tair/netifaces
 Author: Alastair Houghton
 Author-email: alastair@alastairs-place.net
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -3228,7 +2935,6 @@ Home-page: https://networkx.org/
 Author: Aric Hagberg
 Author-email: hagberg@lanl.gov
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: colormath importlab scikit-image
 ---
@@ -3239,7 +2945,6 @@ Home-page: https://nipy.org/nibabel
 Author: nibabel developers
 Author-email: neuroimaging@python.org
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy packaging
 Required-by: nilearn
 ---
@@ -3250,7 +2955,6 @@ Home-page: http://nilearn.github.io
 Author: 
 Author-email: 
 License: new BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: joblib nibabel numpy pandas requests scikit-learn scipy
 Required-by: 
 ---
@@ -3261,7 +2965,6 @@ Home-page: http://ninja-build.org/
 Author: Jean-Christophe Fillion-Robin
 Author-email: scikit-build@googlegroups.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pytype
 ---
@@ -3272,7 +2975,6 @@ Home-page: http://nltk.org/
 Author: NLTK Team
 Author-email: nltk.team@gmail.com
 License: Apache License, Version 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: click joblib regex tqdm
 Required-by: rouge-score textblob
 ---
@@ -3283,7 +2985,6 @@ Home-page: https://github.com/markfinger/python-nodejs
 Author: Mark Finger
 Author-email: markfinger@gmail.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: optional-django
 Required-by: 
 ---
@@ -3294,7 +2995,6 @@ Home-page: http://readthedocs.org/docs/nose/
 Author: Jason Pellerin
 Author-email: jpellerin+nose@gmail.com
 License: GNU LGPL
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -3305,7 +3005,6 @@ Home-page: http://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Send2Trash argon2-cffi ipykernel ipython-genutils jinja2 jupyter-client jupyter-core nbconvert nbformat prometheus-client pyzmq terminado tornado traitlets
 Required-by: jupyter nbclassic widgetsnbextension
 ---
@@ -3316,7 +3015,6 @@ Home-page: https://numba.pydata.org
 Author: Anaconda, Inc.
 Author-email: numba-users@continuum.io
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: llvmlite numpy setuptools
 Required-by: dask-ml datashader pyod stumpy
 ---
@@ -3327,7 +3025,6 @@ Home-page: https://github.com/zarr-developers/numcodecs
 Author: Alistair Miles
 Author-email: alimanfoo@googlemail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: zarr
 ---
@@ -3338,7 +3035,6 @@ Home-page: https://www.numpy.org
 Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh cmdstanpy colormath cvxpy dask-ml datasets datashader datashape ecos elegantrl empyrical eventkit exchange-calendars fastprogress finta gensim gym h5py imagecodecs imageio imbalanced-learn jax jqdatasdk matplotlib nibabel nilearn numba numcodecs opencv-python opencv-python-headless openvino opt-einsum osqp pandas params-flow patsy pmdarima prophet py-lets-be-rational py-vollib pyarrow pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 statsmodels stockstats stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official thinc tifffile tiledb torchvision trading-calendars transformers vispy wordcloud wrds xarray xgboost yfinance zarr
 ---
@@ -3349,7 +3045,6 @@ Home-page: http://www.nvidia.com/
 Author: NVIDIA Corporation
 Author-email: nvml-bindings@nvidia.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: gpustat
 ---
@@ -3360,7 +3055,6 @@ Home-page: http://github.com/hootnot/oanda-api-v20
 Author: F. Brekeveld
 Author-email: f.brekeveld@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -3371,7 +3065,6 @@ Home-page: http://github.com/google/oauth2client/
 Author: Google Inc.
 Author-email: jonwayne+oauth2client@google.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: httplib2 pyasn1 pyasn1-modules rsa six
 Required-by: tf-models-official
 ---
@@ -3382,7 +3075,6 @@ Home-page: https://github.com/oauthlib/oauthlib
 Author: The OAuthlib Community
 Author-email: idan@gazit.me
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: requests-oauthlib
 ---
@@ -3393,7 +3085,6 @@ Home-page: https://www.decalage.info/python/olefileio
 Author: Philippe Lagadec
 Author-email: nospam@decalage.info
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -3404,7 +3095,6 @@ Home-page: https://github.com/openai/openai-python
 Author: OpenAI
 Author-email: support@openai.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: openpyxl pandas pandas-stubs requests tqdm
 Required-by: 
 ---
@@ -3415,7 +3105,6 @@ Home-page: https://github.com/census-instrumentation/opencensus-python
 Author: OpenCensus Authors
 Author-email: census-developers@googlegroups.com
 License: Apache-2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: google-api-core opencensus-context
 Required-by: 
 ---
@@ -3426,7 +3115,6 @@ Home-page: https://github.com/census-instrumentation/opencensus-python/tree/mast
 Author: OpenCensus Authors
 Author-email: census-developers@googlegroups.com
 License: Apache-2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: opencensus
 ---
@@ -3437,7 +3125,6 @@ Home-page: https://github.com/skvark/opencv-python
 Author: 
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: elegantrl
 ---
@@ -3448,7 +3135,6 @@ Home-page: https://github.com/skvark/opencv-python
 Author: 
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: tf-models-official
 ---
@@ -3459,7 +3145,6 @@ Home-page: https://openpyxl.readthedocs.io
 Author: See AUTHORS
 Author-email: charlie.clark@clark-consulting.eu
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: et-xmlfile
 Required-by: openai
 ---
@@ -3470,7 +3155,6 @@ Home-page: https://docs.openvinotoolkit.org/latest/index.html
 Author: Intel Corporation
 Author-email: openvino_pushbot@intel.com
 License: Proprietary - Intel
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: 
 ---
@@ -3481,7 +3165,6 @@ Home-page: https://github.com/dgasmith/opt_einsum
 Author: Daniel Smith
 Author-email: dgasmith@icloud.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: jax pyro-ppl tensorflow
 ---
@@ -3492,7 +3175,6 @@ Home-page: https://github.com/markfinger/optional-django
 Author: Mark Finger
 Author-email: markfinger@gmail.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: nodejs
 ---
@@ -3503,7 +3185,6 @@ Home-page: https://github.com/wbond/oscrypto
 Author: wbond
 Author-email: will@wbond.net
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: asn1crypto
 Required-by: 
 ---
@@ -3514,7 +3195,6 @@ Home-page: https://osqp.org/
 Author: Bartolomeo Stellato, Goran Banjac
 Author-email: bartolomeo.stellato@gmail.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy qdldl scipy
 Required-by: cvxpy
 ---
@@ -3525,7 +3205,6 @@ Home-page: https://github.com/python-trio/outcome
 Author: Frazer McLean
 Author-email: frazer@frazermclean.co.uk
 License: MIT -or- Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: attrs
 Required-by: trio
 ---
@@ -3536,7 +3215,6 @@ Home-page: https://github.com/pypa/packaging
 Author: Donald Stufft and individual contributors
 Author-email: donald@stufft.io
 License: BSD-2-Clause or Apache-2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pyparsing
 Required-by: Sphinx bleach bokeh dask dask-ml datasets deprecation fastai fastcore google-cloud-bigquery huggingface-hub jupyter-packaging jupyterlab jupyterlab-server nibabel pipx pytest spacy transformers
 ---
@@ -3547,7 +3225,6 @@ Home-page: https://pandas.pydata.org
 Author: The Pandas Development Team
 Author-email: pandas-dev@python.org
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy python-dateutil pytz
 Required-by: altair cmdstanpy dask-ml datasets datashader empyrical exchange-calendars fastai finta geopandas iexfinance jqdatasdk mplfinance nilearn openai pandas-datareader pandas-finance pandas-market-calendars pmdarima prophet py-vollib pyfolio pyportfolioopt rapidminer seaborn stable-baselines3 statsmodels stockstats tf-models-official trading-calendars twint wrds xarray yfinance
 ---
@@ -3558,7 +3235,6 @@ Home-page: https://github.com/pydata/pandas-datareader
 Author: The PyData Development Team
 Author-email: pydata@googlegroups.com
 License: BSD License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: lxml pandas requests
 Required-by: empyrical pandas-finance
 ---
@@ -3569,7 +3245,6 @@ Home-page: https://github.com/davidastephens/pandas-finance
 Author: David Stephens
 Author-email: david@davidstephens.io
 License: BSD License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: beautifulsoup4 pandas pandas-datareader requests requests-cache
 Required-by: 
 ---
@@ -3580,7 +3255,6 @@ Home-page: https://github.com/rsheftel/pandas_market_calendars
 Author: Ryan Sheftel
 Author-email: rsheftel@alumni.upenn.edu
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: exchange-calendars pandas python-dateutil pytz
 Required-by: 
 ---
@@ -3591,7 +3265,6 @@ Home-page: https://github.com/VirtusLab/pandas-stubs
 Author: Zbigniew Królikowski
 Author-email: zkrolikowski@virtuslab.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: openai
 ---
@@ -3602,7 +3275,6 @@ Home-page: http://github.com/jgm/pandocfilters
 Author: John MacFarlane
 Author-email: fiddlosopher@gmail.com
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: nbconvert
 ---
@@ -3613,7 +3285,6 @@ Home-page: http://param.holoviz.org/
 Author: HoloViz
 Author-email: developers@holoviz.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: colorcet datashader pyct pyviz-comms
 ---
@@ -3624,7 +3295,6 @@ Home-page: https://github.com/kpe/params-flow/
 Author: kpe
 Author-email: kpe.git@gmailbox.org
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy py-params tqdm
 Required-by: bert-for-tf2
 ---
@@ -3635,7 +3305,6 @@ Home-page: https://github.com/bear/parsedatetime
 Author: Mike Taylor
 Author-email: bear@bear.im
 License: Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: future
 Required-by: agate
 ---
@@ -3646,7 +3315,6 @@ Home-page: https://github.com/davidhalter/parso
 Author: David Halter
 Author-email: davidhalter88@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: jedi
 ---
@@ -3657,7 +3325,6 @@ Home-page: http://github.com/dask/partd/
 Author: 
 Author-email: 
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: locket toolz
 Required-by: dask
 ---
@@ -3668,7 +3335,6 @@ Home-page: https://pylonsproject.org/
 Author: Ian Bicking
 Author-email: pylons-discuss@googlegroups.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: setuptools
 Required-by: plaster-pastedeploy
 ---
@@ -3679,7 +3345,6 @@ Home-page: https://github.com/cpburnz/python-path-specification
 Author: Caleb P. Burns
 Author-email: cpburnz@gmail.com
 License: MPL 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -3690,7 +3355,6 @@ Home-page: https://github.com/justindujardin/pathy
 Author: Justin DuJardin
 Author-email: justin@dujardinconsulting.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: smart-open typer
 Required-by: spacy
 ---
@@ -3701,7 +3365,6 @@ Home-page: https://github.com/pydata/patsy
 Author: Nathaniel J. Smith
 Author-email: njs@pobox.com
 License: 2-clause BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy six
 Required-by: statsmodels
 ---
@@ -3712,7 +3375,6 @@ Home-page: http://github.com/peter-wangxu/persist-queue
 Author: Peter Wang
 Author-email: wangxu198709@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -3723,7 +3385,6 @@ Home-page: https://pexpect.readthedocs.io/
 Author: Noah Spurrier; Thomas Kluyver; Jeff Quast
 Author-email: noah@noah.org, thomas@kluyver.me.uk, contact@jeffquast.com
 License: ISC license
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: ptyprocess
 Required-by: ipython
 ---
@@ -3734,7 +3395,6 @@ Home-page: https://github.com/pickleshare/pickleshare
 Author: Ville Vainio
 Author-email: vivainio@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: ipython
 ---
@@ -3745,7 +3405,6 @@ Home-page: https://python-pillow.org
 Author: Alex Clark (PIL Fork Author)
 Author-email: aclark@python-pillow.org
 License: HPND
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: bokeh dash-canvas datashader fastai geos imageio matplotlib scikit-image tf-models-official torchvision wordcloud
 ---
@@ -3756,7 +3415,6 @@ Home-page: https://pip.pypa.io/
 Author: The pip developers
 Author-email: distutils-sig@python.org
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: fastai fastcore pipdeptree
 ---
@@ -3767,7 +3425,6 @@ Home-page: https://github.com/naiquevin/pipdeptree
 Author: Vineet Naik
 Author-email: naikvin@gmail.com
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pip
 Required-by: 
 ---
@@ -3778,7 +3435,6 @@ Home-page: https://github.com/pypa/pipx
 Author: Chad Smith
 Author-email: Chad Smith <grassfedcode@gmail.com>
 License: License :: OSI Approved :: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: argcomplete packaging userpath
 Required-by: 
 ---
@@ -3789,7 +3445,6 @@ Home-page: https://docs.pylonsproject.org/projects/plaster/en/latest/
 Author: Michael Merickel
 Author-email: pylons-discuss@googlegroups.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: setuptools
 Required-by: plaster-pastedeploy pyramid
 ---
@@ -3800,7 +3455,6 @@ Home-page: https://github.com/Pylons/plaster_pastedeploy
 Author: Hunter Senft-Grupp
 Author-email: pylons-discuss@googlegroups.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: PasteDeploy plaster
 Required-by: pyramid
 ---
@@ -3811,7 +3465,6 @@ Home-page: https://github.com/platformdirs/platformdirs
 Author: 
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: zeep
 ---
@@ -3822,7 +3475,6 @@ Home-page: http://www.math.uic.edu/t3m/plink/doc/
 Author: Marc Culler and Nathan M. Dunfield
 Author-email: culler@uic.edu, nathan@dunfield.info
 License: GPLv2+
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -3833,7 +3485,6 @@ Home-page: https://plotly.com/python/
 Author: Chris P
 Author-email: chris@plot.ly
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six tenacity
 Required-by: chart-studio dash
 ---
@@ -3844,7 +3495,6 @@ Home-page: https://github.com/pytest-dev/pluggy
 Author: Holger Krekel
 Author-email: holger@merlinux.eu
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pytest
 ---
@@ -3855,7 +3505,6 @@ Home-page: http://www.dabeaz.com/ply/
 Author: David Beazley
 Author-email: dave@dabeaz.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: thriftpy2
 ---
@@ -3866,7 +3515,6 @@ Home-page: http://alkaline-ml.com/pmdarima
 Author: 
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Cython joblib numpy pandas scikit-learn scipy setuptools statsmodels urllib3
 Required-by: 
 ---
@@ -3877,7 +3525,6 @@ Home-page: https://github.com/WoLpH/portalocker
 Author: Rick van Hattem
 Author-email: wolph@wol.ph
 License: PSF
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: sacrebleu
 ---
@@ -3888,7 +3535,6 @@ Home-page: https://github.com/explosion/preshed
 Author: Matthew Honnibal
 Author-email: matt@explosion.ai
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cymem murmurhash
 Required-by: spacy thinc
 ---
@@ -3899,7 +3545,6 @@ Home-page: https://github.com/larsyencken/proj
 Author: Lars Yencken
 Author-email: lars@yencken.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: arrow click
 Required-by: 
 ---
@@ -3910,7 +3555,6 @@ Home-page: https://github.com/prometheus/client_python
 Author: Brian Brazil
 Author-email: brian.brazil@robustperception.io
 License: Apache Software License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: jupyter-server notebook
 ---
@@ -3921,7 +3565,6 @@ Home-page: https://github.com/syrusakbary/promise
 Author: Syrus Akbary
 Author-email: me@syrusakbary.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
 Required-by: tensorflow-datasets
 ---
@@ -3932,7 +3575,6 @@ Home-page: https://github.com/prompt-toolkit/python-prompt-toolkit
 Author: Jonathan Slenders
 Author-email: 
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: wcwidth
 Required-by: ipython jupyter-console tda-api
 ---
@@ -3943,7 +3585,6 @@ Home-page: https://facebook.github.io/prophet/
 Author: Sean J. Taylor <sjtz@pm.me>, Ben Letham <bletham@fb.com>
 Author-email: sjtz@pm.me
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Cython LunarCalendar cmdstanpy convertdate holidays matplotlib numpy pandas pystan python-dateutil setuptools-git tqdm
 Required-by: 
 ---
@@ -3954,7 +3595,6 @@ Home-page: https://github.com/googleapis/proto-plus-python.git
 Author: Google LLC
 Author-email: googleapis-packages@google.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: protobuf
 Required-by: google-cloud-bigquery
 ---
@@ -3965,7 +3605,6 @@ Home-page: https://developers.google.com/protocol-buffers/
 Author: 
 Author-email: 
 License: 3-Clause BSD License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: google-api-core google-cloud-bigquery googleapis-common-protos grpcio-status proto-plus ray tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata
 ---
@@ -3976,7 +3615,6 @@ Home-page: https://github.com/giampaolo/psutil
 Author: Giampaolo Rodola
 Author-email: g.rodola@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: distributed gpustat memory-profiler tf-models-official
 ---
@@ -3987,7 +3625,6 @@ Home-page: https://psycopg.org/
 Author: Federico Di Gregorio
 Author-email: fog@initd.org
 License: LGPL with exceptions
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: wrds
 ---
@@ -3998,7 +3635,6 @@ Home-page: https://github.com/pexpect/ptyprocess
 Author: Thomas Kluyver
 Author-email: thomas@kluyver.me.uk
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pexpect terminado
 ---
@@ -4009,7 +3645,6 @@ Home-page: https://py.readthedocs.io/
 Author: holger krekel, Ronny Pfannschmidt, Benjamin Peterson and others
 Author-email: pytest-dev@python.org
 License: MIT license
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pytest
 ---
@@ -4020,7 +3655,6 @@ Home-page: https://github.com/workhorsy/py-cpuinfo
 Author: Matthew Brennan Jones
 Author-email: matthew.brennan.jones@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: tf-models-official
 ---
@@ -4031,7 +3665,6 @@ Home-page: http://jaeckel.org
 Author: 
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: py-vollib
 ---
@@ -4042,7 +3675,6 @@ Home-page: https://github.com/kpe/py-params/
 Author: kpe
 Author-email: kpe.git@gmailbox.org
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: bert-for-tf2 params-flow
 ---
@@ -4053,7 +3685,6 @@ Home-page: https://github.com/benfred/py-spy
 Author: Ben Frederickson <github@benfrederickson.com>
 Author-email: Ben Frederickson <github@benfrederickson.com>
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -4064,7 +3695,6 @@ Home-page: http://vollib.org
 Author: 
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy pandas py-lets-be-rational scipy simplejson
 Required-by: 
 ---
@@ -4075,7 +3705,6 @@ Home-page: https://github.com/quora/pyanalyze
 Author: Quora, Inc.
 Author-email: jelle@quora.com
 License: Apache Software License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: aenum ast-decompiler asynq attrs codemod mypy-extensions qcore six typeshed-client typing-extensions typing-inspect
 Required-by: 
 ---
@@ -4086,7 +3715,6 @@ Home-page: https://arrow.apache.org/
 Author: 
 Author-email: 
 License: Apache License, Version 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: datasets
 ---
@@ -4097,7 +3725,6 @@ Home-page: https://github.com/etingof/pyasn1
 Author: Ilya Etingof
 Author-email: etingof@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: oauth2client pyasn1-modules rsa
 ---
@@ -4108,7 +3735,6 @@ Home-page: https://github.com/etingof/pyasn1-modules
 Author: Ilya Etingof
 Author-email: etingof@gmail.com
 License: BSD-2-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pyasn1
 Required-by: google-auth oauth2client
 ---
@@ -4119,7 +3745,6 @@ Home-page: https://github.com/bulletphysics/bullet3
 Author: Erwin Coumans, Yunfei Bai, Jasmine Hsu
 Author-email: erwincoumans@google.com
 License: zlib
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: elegantrl
 ---
@@ -4130,7 +3755,6 @@ Home-page: http://github.com/saghul/pycares
 Author: Saúl Ibarra Corretgé
 Author-email: s@saghul.net
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cffi
 Required-by: aiodns
 ---
@@ -4141,7 +3765,6 @@ Home-page: UNKNOWN
 Author: UNKNOWN
 Author-email: UNKNOWN
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cython matplotlib setuptools
 Required-by: tf-models-official
 ---
@@ -4152,7 +3775,6 @@ Home-page: https://pycodestyle.pycqa.org/
 Author: Johann C. Rocholl
 Author-email: johann@rocholl.net
 License: Expat license
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: autopep8 flake8
 ---
@@ -4163,7 +3785,6 @@ Home-page: https://github.com/eliben/pycparser
 Author: Eli Bendersky
 Author-email: eliben@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: cffi
 ---
@@ -4174,7 +3795,6 @@ Home-page: https://www.pycryptodome.org
 Author: Helder Eijs
 Author-email: helderijs@gmail.com
 License: BSD, Public Domain
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -4185,7 +3805,6 @@ Home-page: https://github.com/pyviz-dev/pyct
 Author: HoloViz
 Author-email: holoviews@gmail.com
 License: BSD 3-Clause License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: param
 Required-by: colorcet datashader
 ---
@@ -4196,7 +3815,6 @@ Home-page: https://github.com/samuelcolvin/pydantic
 Author: Samuel Colvin
 Author-email: s@muelcolvin.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: typing-extensions
 Required-by: spacy thinc
 ---
@@ -4207,7 +3825,6 @@ Home-page: https://github.com/pydata/pydata-sphinx-theme
 Author: 
 Author-email: 
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: beautifulsoup4 docutils sphinx
 Required-by: 
 ---
@@ -4218,7 +3835,6 @@ Home-page: https://github.com/visgl/deck.gl/tree/master/bindings/pydeck
 Author: Andrew Duberstein
 Author-email: ajduberstein@gmail.com
 License: Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: ipykernel ipywidgets jinja2 numpy traitlets
 Required-by: 
 ---
@@ -4229,7 +3845,6 @@ Home-page: https://github.com/thebjorn/pydeps
 Author: bjorn
 Author-email: bp@datakortet.no
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: stdlib-list
 Required-by: 
 ---
@@ -4240,7 +3855,6 @@ Home-page: https://github.com/pydot/pydot
 Author: Ero Carrera
 Author-email: ero.carrera@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pyparsing
 Required-by: 
 ---
@@ -4251,7 +3865,6 @@ Home-page: https://github.com/jfhbrook/pyee
 Author: Josh Holbrook
 Author-email: josh.holbrook@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -4262,7 +3875,6 @@ Home-page: https://github.com/PyCQA/pyflakes
 Author: A lot of people
 Author-email: code-quality@python.org
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: flake8
 ---
@@ -4273,7 +3885,6 @@ Home-page: https://github.com/quantopian/pyfolio
 Author: 
 Author-email: 
 License: Apache License, Version 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: empyrical ipython matplotlib numpy pandas pytz scikit-learn scipy seaborn
 Required-by: 
 ---
@@ -4284,7 +3895,6 @@ Home-page: https://www.pygame.org
 Author: A community project.
 Author-email: pygame@pygame.org
 License: LGPL
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -4295,7 +3905,6 @@ Home-page: https://pygments.org/
 Author: Georg Brandl
 Author-email: georg@python.org
 License: BSD License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Kivy Kivy-examples Sphinx asynq ipython jupyter-console jupyterlab-pygments nbconvert qtconsole rich
 ---
@@ -4306,7 +3915,6 @@ Home-page: http://www.pyinstaller.org/
 Author: Hartmut Goebel, Giovanni Bajo, David Vierra, David Cortesi, Martin Zibricky
 Author-email: 
 License: GPLv2-or-later with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones)
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: altgraph macholib pyinstaller-hooks-contrib setuptools
 Required-by: 
 ---
@@ -4317,7 +3925,6 @@ Home-page: https://github.com/pyinstaller/pyinstaller-hooks-contrib
 Author: 
 Author-email: 
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pyinstaller
 ---
@@ -4328,7 +3935,6 @@ Home-page: https://github.com/jpadilla/pyjwt
 Author: Jose Padilla
 Author-email: hello@jpadilla.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -4339,7 +3945,6 @@ Home-page: https://github.com/simlist/pyluach
 Author: MS List
 Author-email: simlist@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: exchange-calendars
 ---
@@ -4350,7 +3955,6 @@ Home-page: https://github.com/architest/pymeeus
 Author: Dagoberto Salazar
 Author-email: dagoberto.salazar@gmail.com
 License: LGPLv3
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: convertdate
 ---
@@ -4361,7 +3965,6 @@ Home-page: https://github.com/PyMySQL/PyMySQL/
 Author: yutaka.matsubara
 Author-email: yutaka.matsubara@gmail.com
 License: "MIT"
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: jqdatasdk
 ---
@@ -4372,7 +3975,6 @@ Home-page: http://www.nvidia.com/
 Author: NVIDIA Corporation
 Author-email: rzamora@nvidia.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -4383,7 +3985,6 @@ Home-page: https://github.com/yzhao062/pyod
 Author: Yue Zhao
 Author-email: zhaoy@cmu.edu
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: joblib matplotlib numba numpy scikit-learn scipy six statsmodels
 Required-by: 
 ---
@@ -4394,7 +3995,6 @@ Home-page: http://pyopengl.sourceforge.net
 Author: Mike C. Fletcher
 Author-email: mcfletch@vrplumber.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -4405,7 +4005,6 @@ Home-page: https://pyopenssl.org/
 Author: The pyOpenSSL developers
 Author-email: cryptography-dev@python.org
 License: Apache License, Version 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cryptography six
 Required-by: 
 ---
@@ -4416,7 +4015,6 @@ Home-page: https://github.com/pyotp/pyotp
 Author: PyOTP contributors
 Author-email: kislyuk@gmail.com
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: robin-stocks
 ---
@@ -4427,7 +4025,6 @@ Home-page: https://github.com/pyparsing/pyparsing/
 Author: Paul McGuire
 Author-email: ptmcg@users.sourceforge.net
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: cloudscraper httplib2 matplotlib packaging pydot
 ---
@@ -4438,7 +4035,6 @@ Home-page: https://github.com/drj11/pypng
 Author: David Jones
 Author-email: drj@pobox.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -4449,7 +4045,6 @@ Home-page: https://github.com/robertmartin8/PyPortfolioOpt
 Author: Robert Andrew Martin
 Author-email: martin.robertandrew@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cvxpy numpy pandas scipy
 Required-by: 
 ---
@@ -4460,7 +4055,6 @@ Home-page: https://github.com/pyproj4/pyproj
 Author: Jeff Whitaker
 Author-email: jeffrey.s.whitaker@noaa.gov
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: certifi
 Required-by: geopandas
 ---
@@ -4471,7 +4065,6 @@ Home-page: https://www.riverbankcomputing.com/software/pyqt/
 Author: Riverbank Computing Limited
 Author-email: info@riverbankcomputing.com
 License: GPL v3
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: PyQt5-Qt5 PyQt5-sip
 Required-by: 
 ---
@@ -4482,7 +4075,6 @@ Home-page: https://www.riverbankcomputing.com/software/pyqt/
 Author: Riverbank Computing Limited
 Author-email: info@riverbankcomputing.com
 License: LGPL v3
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: PyQt5
 ---
@@ -4493,7 +4085,6 @@ Home-page: https://www.riverbankcomputing.com/software/sip/
 Author: Riverbank Computing Limited
 Author-email: info@riverbankcomputing.com
 License: SIP
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: PyQt5
 ---
@@ -4504,7 +4095,6 @@ Home-page: http://www.pyqtgraph.org
 Author: Luke Campagnola
 Author-email: luke.campagnola@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: 
 ---
@@ -4515,7 +4105,6 @@ Home-page: https://trypyramid.com
 Author: Chris McDonough, Agendaless Consulting
 Author-email: pylons-discuss@googlegroups.com
 License: BSD-derived (Repoze)
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: hupper plaster plaster-pastedeploy setuptools translationstring venusian webob zope.deprecation zope.interface
 Required-by: rapids
 ---
@@ -4526,7 +4115,6 @@ Home-page: https://github.com/pyro-ppl/pyro-api
 Author: Uber AI Labs
 Author-email: npradhan@uber.com
 License: Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pyro-ppl
 ---
@@ -4537,7 +4125,6 @@ Home-page: http://pyro.ai
 Author: Uber AI Labs
 Author-email: 
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy opt-einsum pyro-api torch tqdm
 Required-by: 
 ---
@@ -4548,7 +4135,6 @@ Home-page: http://github.com/tobgu/pyrsistent/
 Author: Tobias Gustafsson
 Author-email: tobias.l.gustafsson@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: jsonschema
 ---
@@ -4559,7 +4145,6 @@ Home-page: https://github.com/PySimpleGUI/PySimpleGUI
 Author: PySimpleGUI
 Author-email: PySimpleGUI@PySimpleGUI.org
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -4570,7 +4155,6 @@ Home-page: https://github.com/Anorov/PySocks
 Author: Anorov
 Author-email: anorov.vorona@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: twint
 ---
@@ -4581,7 +4165,6 @@ Home-page: https://github.com/stan-dev/pystan
 Author: 
 Author-email: 
 License: GPLv3
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Cython numpy
 Required-by: prophet
 ---
@@ -4592,7 +4175,6 @@ Home-page: https://docs.pytest.org/en/latest/
 Author: Holger Krekel, Bruno Oliveira, Ronny Pfannschmidt, Floris Bruynooghe, Brianna Laugher, Florian Bruhin and others
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: attrs iniconfig packaging pluggy py toml
 Required-by: 
 ---
@@ -4603,7 +4185,6 @@ Home-page: https://pagure.io/python-daemon/
 Author: Ben Finney
 Author-email: ben+python@benfinney.id.au
 License: Apache-2
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: docutils lockfile setuptools
 Required-by: luigi
 ---
@@ -4614,7 +4195,6 @@ Home-page: https://github.com/dateutil/dateutil
 Author: Gustavo Niemeyer
 Author-email: gustavo@niemeyer.net
 License: Dual License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
 Required-by: LunarCalendar Mastodon.py arrow bokeh botocore croniter datashape exchange-calendars google-cloud-bigquery holidays int-date intrinio-sdk jupyter-client kaggle luigi matplotlib pandas pandas-market-calendars prophet tda-api trading-calendars
 ---
@@ -4625,7 +4205,6 @@ Home-page: https://github.com/theskumar/python-dotenv
 Author: Saurabh Kumar
 Author-email: me+github@saurabh-kumar.com
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: robin-stocks
 ---
@@ -4636,7 +4215,6 @@ Home-page: https://github.com/google/python-gflags
 Author: Google Inc. and others
 Author-email: google-gflags@googlegroups.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: glog
 ---
@@ -4647,7 +4225,6 @@ Home-page: http://github.com/ahupp/python-magic
 Author: Adam Hupp
 Author-email: adam@hupp.org
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Mastodon.py
 ---
@@ -4658,7 +4235,6 @@ Home-page: https://github.com/un33k/python-slugify
 Author: Val Neekman
 Author-email: info@neekware.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: text-unidecode
 Required-by: agate kaggle
 ---
@@ -4669,7 +4245,6 @@ Home-page: https://github.com/romis2012/python-socks
 Author: Roman Snegirev
 Author-email: snegiryev@gmail.com
 License: Apache 2
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: aiohttp-socks
 ---
@@ -4680,7 +4255,6 @@ Home-page: https://github.com/wroberts/pytimeparse
 Author: Will Roberts
 Author-email: wildwilhelm@gmail.com
 License: License :: OSI Approved :: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: agate
 ---
@@ -4691,7 +4265,6 @@ Home-page: https://github.com/mpariente/Ranger-Deep-Learning-Optimizer
 Author: 
 Author-email: 
 License: Apache
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: torch
 Required-by: torch-optimizer
 ---
@@ -4702,7 +4275,6 @@ Home-page: https://google.github.io/pytype
 Author: 
 Author-email: 
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: attrs importlab libcst ninja tabulate toml typed-ast
 Required-by: 
 ---
@@ -4713,7 +4285,6 @@ Home-page: http://pythonhosted.org/pytz
 Author: Stuart Bishop
 Author-email: stuart@stuartbishop.net
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Babel LunarCalendar Mastodon.py convertdate exchange-calendars pandas pandas-market-calendars pyfolio trading-calendars yahoofinancials zeep
 ---
@@ -4724,7 +4295,6 @@ Home-page: https://github.com/pganssle/pytz-deprecation-shim
 Author: Paul Ganssle
 Author-email: paul@ganssle.io
 License: Apache-2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: tzdata
 Required-by: tzlocal
 ---
@@ -4735,7 +4305,6 @@ Home-page: https://holoviz.org
 Author: Philipp Rudiger
 Author-email: philipp.jfr@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: param
 Required-by: 
 ---
@@ -4746,7 +4315,6 @@ Home-page: https://github.com/PyWavelets/pywt
 Author: 
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: scikit-image
 ---
@@ -4757,7 +4325,6 @@ Home-page: https://pyyaml.org/
 Author: Kirill Simonov
 Author-email: xi@resolvent.net
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: bokeh dask distributed fastai huggingface-hub libcst mashumaro rapids ray tf-models-official transformers
 ---
@@ -4768,7 +4335,6 @@ Home-page: https://pyzmq.readthedocs.org
 Author: Brian E. Granger, Min Ragan-Kelley
 Author-email: zeromq-dev@lists.zeromq.org
 License: LGPL+BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: jupyter-client jupyter-server notebook qtconsole
 ---
@@ -4779,7 +4345,6 @@ Home-page: https://github.com/quora/qcore
 Author: Quora, Inc.
 Author-email: asynq@quora.com
 License: Apache Software License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Cython
 Required-by: asynq pyanalyze
 ---
@@ -4790,7 +4355,6 @@ Home-page: https://github.com/oxfordcontrol/qdldl-python/
 Author: Bartolomeo Stellato, Paul Goulart, Goran Banjac
 Author-email: bartolomeo.stellato@gmail.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy scipy
 Required-by: osqp
 ---
@@ -4801,7 +4365,6 @@ Home-page: http://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: ipykernel ipython-genutils jupyter-client jupyter-core pygments pyzmq qtpy traitlets
 Required-by: jupyter
 ---
@@ -4812,7 +4375,6 @@ Home-page: https://github.com/spyder-ide/qtpy
 Author: Colin Duquesnoy and the Spyder Development Team
 Author-email: spyder.python@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: qtconsole
 ---
@@ -4823,7 +4385,6 @@ Home-page: https://github.com/rapidminer/python-rapidminer
 Author: RapidMiner
 Author-email: 
 License: AGPL
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cryptography h5py numpy pandas requests zeep
 Required-by: 
 ---
@@ -4834,7 +4395,6 @@ Home-page: https://github.com/sinoroc/rapids
 Author: sinoroc
 Author-email: sinoroc.code+python@gmail.com
 License: Apache-2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: PyYAML pyramid setuptools venusian zope.interface
 Required-by: 
 ---
@@ -4845,7 +4405,6 @@ Home-page: https://github.com/ray-project/ray
 Author: Ray Team
 Author-email: ray-dev@googlegroups.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: attrs click filelock grpcio jsonschema msgpack numpy protobuf pyyaml redis
 Required-by: 
 ---
@@ -4856,7 +4415,6 @@ Home-page: https://github.com/andymccurdy/redis-py
 Author: Andy McCurdy
 Author-email: sedrik@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: ray
 ---
@@ -4867,7 +4425,6 @@ Home-page: https://github.com/mrabarnett/mrab-regex
 Author: Matthew Barnett
 Author-email: regex@mrabarnett.plus.com
 License: Apache Software License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: bertviz nltk sacrebleu sacremoses transformers
 ---
@@ -4878,7 +4435,6 @@ Home-page: https://requests.readthedocs.io
 Author: Kenneth Reitz
 Author-email: me@kennethreitz.org
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: certifi charset-normalizer idna urllib3
 Required-by: Kivy-Garden Mastodon.py Sphinx alpha-vantage azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth datasets fastai google-api-core google-cloud-bigquery googletransx h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle minimal-snowplow-tracker msrest nilearn openai pandas-datareader pandas-finance rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy tensorboard tensorflow-datasets tiingo transformers yfinance zeep
 ---
@@ -4889,7 +4445,6 @@ Home-page: https://github.com/reclosedev/requests-cache
 Author: Roman Haritonov
 Author-email: 
 License: BSD License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: appdirs attrs cattrs requests url-normalize urllib3
 Required-by: pandas-finance
 ---
@@ -4900,7 +4455,6 @@ Home-page: http://github.com/dashea/requests-file
 Author: David Shea
 Author-email: reallylongword@gmail.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: requests six
 Required-by: zeep
 ---
@@ -4911,7 +4465,6 @@ Home-page: https://github.com/requests/requests-oauthlib
 Author: Kenneth Reitz
 Author-email: me@kennethreitz.com
 License: ISC
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: oauthlib requests
 Required-by: google-auth-oauthlib msrest
 ---
@@ -4922,7 +4475,6 @@ Home-page: https://toolbelt.readthedocs.org
 Author: Ian Cordasco, Cory Benfield
 Author-email: graffatcolmingov@gmail.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: requests
 Required-by: cloudscraper zeep
 ---
@@ -4933,7 +4485,6 @@ Home-page: https://github.com/msabramo/requests-unixsocket
 Author: Marc Abramowitz
 Author-email: marc@marc-abramowitz.com
 License: Apache-2
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: requests urllib3
 Required-by: 
 ---
@@ -4944,7 +4495,6 @@ Home-page: https://github.com/rholder/retrying
 Author: Ray Holder
 Author-email: UNKNOWN
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
 Required-by: chart-studio dash-auth intrinio-sdk jupyter-dash
 ---
@@ -4955,7 +4505,6 @@ Home-page: http://rfc3986.readthedocs.io
 Author: Ian Stapleton Cordasco
 Author-email: graffatcolmingov@gmail.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: httpx
 ---
@@ -4966,7 +4515,6 @@ Home-page: https://github.com/willmcgugan/rich
 Author: Will McGugan
 Author-email: willmcgugan@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: colorama commonmark pygments
 Required-by: 
 ---
@@ -4977,7 +4525,6 @@ Home-page: https://github.com/jmfernandes/robin_stocks
 Author: Josh Fernandes
 Author-email: joshfernandes@mac.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cryptography pyotp python-dotenv requests
 Required-by: 
 ---
@@ -4988,7 +4535,6 @@ Home-page: https://github.com/google-research/google-research/tree/master/rouge
 Author: Google LLC
 Author-email: no-reply@google.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: absl-py nltk numpy six
 Required-by: 
 ---
@@ -4999,7 +4545,6 @@ Home-page: https://stuvel.eu/rsa
 Author: Sybren A. Stuvel
 Author-email: sybren@stuvel.eu
 License: ASL 2
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pyasn1
 Required-by: google-auth oauth2client
 ---
@@ -5010,7 +4555,6 @@ Home-page: https://github.com/Toblerity/rtree
 Author: Sean Gillies
 Author-email: sean.gillies@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -5021,7 +4565,6 @@ Home-page: https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree
 Author: Anthon van der Neut
 Author-email: a.van.der.neut@ruamel.eu
 License: MIT license
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: ruamel.yaml.clib
 Required-by: 
 ---
@@ -5032,7 +4575,6 @@ Home-page: https://sourceforge.net/p/ruamel-yaml-clib/code/ci/default/tree
 Author: Anthon van der Neut
 Author-email: a.van.der.neut@ruamel.eu
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: ruamel.yaml
 ---
@@ -5043,7 +4585,6 @@ Home-page: https://github.com/boto/s3transfer
 Author: Amazon Web Services
 Author-email: kyknapp1@gmail.com
 License: Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: botocore
 Required-by: boto3
 ---
@@ -5054,7 +4595,6 @@ Home-page: https://github.com/mjpost/sacrebleu
 Author: Matt Post
 Author-email: post@cs.jhu.edu
 License: Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: colorama numpy portalocker regex tabulate
 Required-by: tf-models-official
 ---
@@ -5065,7 +4605,6 @@ Home-page: https://github.com/alvations/sacremoses
 Author: UNKNOWN
 Author-email: UNKNOWN
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: click joblib regex six tqdm
 Required-by: transformers
 ---
@@ -5076,7 +4615,6 @@ Home-page: https://github.com/dbader/schedule
 Author: Daniel Bader
 Author-email: mail@dbader.org
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: twint
 ---
@@ -5087,7 +4625,6 @@ Home-page: https://scikit-image.org
 Author: 
 Author-email: 
 License: Modified BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: PyWavelets imageio matplotlib networkx numpy pillow scipy tifffile
 Required-by: dash-canvas
 ---
@@ -5098,7 +4635,6 @@ Home-page: http://scikit-learn.org
 Author: 
 Author-email: 
 License: new BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: joblib numpy scipy threadpoolctl
 Required-by: dash-canvas dask-glm dask-ml fastai imbalanced-learn nilearn pmdarima pyfolio pyod seqeval
 ---
@@ -5109,7 +4645,6 @@ Home-page: https://www.scipy.org
 Author: 
 Author-email: 
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: Theano cvxpy dask-glm dask-ml datashader ecos empyrical fastai gensim imbalanced-learn jax nilearn osqp pmdarima py-vollib pyfolio pyod pyportfolioopt qdldl scikit-image scikit-learn scs seaborn statsmodels stumpy tf-models-official xgboost
 ---
@@ -5120,7 +4655,6 @@ Home-page: http://github.com/cvxgrp/scs
 Author: Brendan O'Donoghue
 Author-email: bodonoghue85@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy scipy
 Required-by: cvxpy
 ---
@@ -5131,7 +4665,6 @@ Home-page: https://seaborn.pydata.org
 Author: Michael Waskom
 Author-email: mwaskom@gmail.com
 License: BSD (3-clause)
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: matplotlib numpy pandas scipy
 Required-by: pyfolio
 ---
@@ -5142,7 +4675,6 @@ Home-page: https://www.selenium.dev
 Author: 
 Author-email: 
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: trio trio-websocket urllib3
 Required-by: tda-api
 ---
@@ -5153,7 +4685,6 @@ Home-page: https://github.com/arsenetar/send2trash
 Author: Andrew Senetar
 Author-email: arsenetar@voltaicideas.net
 License: BSD License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: jupyter-server notebook
 ---
@@ -5164,7 +4695,6 @@ Home-page: https://github.com/google/sentencepiece
 Author: Taku Kudo
 Author-email: taku@google.com
 License: Apache
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: bertviz tf-models-official
 ---
@@ -5175,7 +4705,6 @@ Home-page: https://github.com/chakki-works/seqeval
 Author: Hironsan
 Author-email: hiroki.nakayama.py@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy scikit-learn
 Required-by: tf-models-official
 ---
@@ -5186,7 +4715,6 @@ Home-page: https://github.com/pypa/setuptools
 Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Fiona PasteDeploy Sphinx distributed google-api-core google-auth gunicorn ipython jupyter-packaging numba plaster pmdarima pycocotools pyinstaller pyramid python-daemon rapids spacy tensorboard thinc xarray zope.deprecation zope.interface
 ---
@@ -5197,7 +4725,6 @@ Home-page: https://github.com/wichert/setuptools-git
 Author: Marc Abramowitz
 Author-email: msabramo@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: prophet
 ---
@@ -5208,7 +4735,6 @@ Home-page: https://github.com/Toblerity/Shapely
 Author: Sean Gillies
 Author-email: sean.gillies@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: geopandas
 ---
@@ -5219,7 +4745,6 @@ Home-page: https://github.com/yuvipanda/simpervisor
 Author: Yuvi Panda
 Author-email: yuvipanda@gmail.com
 License: BSD 3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: jupyter-server-proxy
 ---
@@ -5230,7 +4755,6 @@ Home-page: https://github.com/simplejson/simplejson
 Author: Bob Ippolito
 Author-email: bob@redivi.com
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: py-vollib
 ---
@@ -5241,7 +4765,6 @@ Home-page: https://github.com/benjaminp/six
 Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py agate astunparse atari-py azure-core bleach blessings chart-studio cypari dm-tree fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil requests-file retrying rouge-score sacremoses tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators
 ---
@@ -5252,7 +4775,6 @@ Home-page: https://github.com/piskvorky/smart_open
 Author: Radim Rehurek
 Author-email: me@radimrehurek.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: gensim pathy
 ---
@@ -5263,7 +4785,6 @@ Home-page: https://github.com/gitpython-developers/smmap
 Author: Sebastian Thiel
 Author-email: byronimo@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: gitdb
 ---
@@ -5274,7 +4795,6 @@ Home-page: https://github.com/python-trio/sniffio
 Author: Nathaniel J. Smith
 Author-email: njs@pobox.com
 License: MIT -or- Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: anyio httpcore httpx trio
 ---
@@ -5285,7 +4805,6 @@ Home-page: https://github.com/snowballstem/snowball
 Author: Snowball Developers
 Author-email: snowball-discuss@lists.tartarus.org
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Sphinx
 ---
@@ -5296,7 +4815,6 @@ Home-page: http://www.grantjenks.com/docs/sortedcontainers/
 Author: Grant Jenks
 Author-email: contact@grantjenks.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: distributed trio
 ---
@@ -5307,7 +4825,6 @@ Home-page: https://github.com/facelessuser/soupsieve
 Author: Isaac Muse
 Author-email: Isaac.Muse@gmail.com
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: beautifulsoup4
 ---
@@ -5318,7 +4835,6 @@ Home-page: https://spacy.io
 Author: Explosion
 Author-email: contact@explosion.ai
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: blis catalogue cymem jinja2 murmurhash numpy packaging pathy preshed pydantic requests setuptools spacy-legacy srsly thinc tqdm typer wasabi
 Required-by: fastai spacytextblob
 ---
@@ -5329,7 +4845,6 @@ Home-page: https://spacy.io
 Author: Explosion
 Author-email: contact@explosion.ai
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: spacy
 ---
@@ -5340,7 +4855,6 @@ Home-page: https://github.com/SamEdwardes/spaCyTextBlob
 Author: SamEdwardes
 Author-email: edwardes.s@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: spacy textblob
 Required-by: 
 ---
@@ -5351,7 +4865,6 @@ Home-page: http://github.com/jsvine/spectra
 Author: Jeremy Singer-Vine
 Author-email: jsvine@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: colormath
 Required-by: 
 ---
@@ -5362,7 +4875,6 @@ Home-page: https://www.sphinx-doc.org/
 Author: Georg Brandl
 Author-email: georg@python.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Jinja2 Pygments alabaster babel docutils imagesize packaging requests setuptools snowballstemmer sphinxcontrib-applehelp sphinxcontrib-devhelp sphinxcontrib-htmlhelp sphinxcontrib-jsmath sphinxcontrib-qthelp sphinxcontrib-serializinghtml
 Required-by: pydata-sphinx-theme sphinx-panels
 ---
@@ -5373,7 +4885,6 @@ Home-page: https://github.com/executablebooks/sphinx-panels
 Author: Chris Sewell
 Author-email: chrisj_sewell@hotmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: docutils sphinx
 Required-by: 
 ---
@@ -5384,7 +4895,6 @@ Home-page: http://sphinx-doc.org/
 Author: Georg Brandl
 Author-email: georg@python.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Sphinx
 ---
@@ -5395,7 +4905,6 @@ Home-page: http://sphinx-doc.org/
 Author: Georg Brandl
 Author-email: georg@python.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Sphinx
 ---
@@ -5406,7 +4915,6 @@ Home-page: http://sphinx-doc.org/
 Author: Georg Brandl
 Author-email: georg@python.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Sphinx
 ---
@@ -5417,7 +4925,6 @@ Home-page: http://sphinx-doc.org/
 Author: Georg Brandl
 Author-email: georg@python.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Sphinx
 ---
@@ -5428,7 +4935,6 @@ Home-page: http://sphinx-doc.org/
 Author: Georg Brandl
 Author-email: georg@python.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Sphinx
 ---
@@ -5439,7 +4945,6 @@ Home-page: http://sphinx-doc.org/
 Author: Georg Brandl
 Author-email: georg@python.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Sphinx
 ---
@@ -5450,7 +4955,6 @@ Home-page: https://www.sqlalchemy.org
 Author: Mike Bayer
 Author-email: mike_mp@zzzcomputing.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: greenlet
 Required-by: boost jqdatasdk wrds
 ---
@@ -5461,7 +4965,6 @@ Home-page: https://github.com/andialbrecht/sqlparse
 Author: Andi Albrecht
 Author-email: albrecht.andi@gmail.com
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -5472,7 +4975,6 @@ Home-page: https://github.com/explosion/srsly
 Author: Explosion
 Author-email: contact@explosion.ai
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: catalogue
 Required-by: spacy thinc
 ---
@@ -5483,7 +4985,6 @@ Home-page: https://github.com/DLR-RM/stable-baselines3
 Author: Antonin Raffin
 Author-email: antonin.raffin@dlr.de
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: cloudpickle gym matplotlib numpy pandas torch
 Required-by: 
 ---
@@ -5494,7 +4995,6 @@ Home-page: https://www.statsmodels.org/
 Author: 
 Author-email: 
 License: BSD License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy pandas patsy scipy
 Required-by: pmdarima pyod
 ---
@@ -5505,7 +5005,6 @@ Home-page: https://github.com/jackmaney/python-stdlib-list
 Author: Jack Maney
 Author-email: jackmaney@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pydeps
 ---
@@ -5516,7 +5015,6 @@ Home-page: http://github.com/jealous/stockstats
 Author: Cedric Zhuang
 Author-email: jealous@163.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: int-date numpy pandas
 Required-by: 
 ---
@@ -5527,7 +5025,6 @@ Home-page: https://github.com/TDAmeritrade/stumpy
 Author: Sean M. Law
 Author-email: seanmylaw@gmail.com
 License: BSD-3
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numba numpy scipy
 Required-by: 
 ---
@@ -5538,7 +5035,6 @@ Home-page: http://github.com/mrjbq7/ta-lib
 Author: John Benediktsson
 Author-email: mrjbq7@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: 
 ---
@@ -5549,7 +5045,6 @@ Home-page: https://github.com/astanin/python-tabulate
 Author: Sergey Astanin
 Author-email: s.astanin@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: h2o pytype sacrebleu
 ---
@@ -5560,7 +5055,6 @@ Home-page: https://software.intel.com/content/www/us/en/develop/tools/oneapi/com
 Author: Intel Corporation
 Author-email: scripting@intel.com
 License: Intel Simplified Software License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -5571,7 +5065,6 @@ Home-page: https://github.com/ionelmc/python-tblib
 Author: Ionel Cristian Mărieș
 Author-email: contact@ionelmc.ro
 License: BSD-2-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: distributed
 ---
@@ -5582,7 +5075,6 @@ Home-page: https://github.com/alexgolec/tda-api
 Author: Alex Golec
 Author-email: bottomless.septic.tank@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: authlib autopep8 httpx prompt-toolkit python-dateutil selenium websockets
 Required-by: 
 ---
@@ -5593,7 +5085,6 @@ Home-page: https://github.com/jd/tenacity
 Author: Julien Danjou
 Author-email: julien@danjou.info
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
 Required-by: luigi plotly
 ---
@@ -5604,7 +5095,6 @@ Home-page: https://github.com/tensorflow/tensorboard
 Author: Google Inc.
 Author-email: packages@tensorflow.org
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: absl-py google-auth google-auth-oauthlib grpcio markdown numpy protobuf requests setuptools tensorboard-data-server tensorboard-plugin-wit werkzeug wheel
 Required-by: tensorflow
 ---
@@ -5615,7 +5105,6 @@ Home-page: https://github.com/tensorflow/tensorboard/tree/master/tensorboard/dat
 Author: Google Inc.
 Author-email: packages@tensorflow.org
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: tensorboard
 ---
@@ -5626,7 +5115,6 @@ Home-page: https://whatif-tool.dev
 Author: Google Inc.
 Author-email: packages@tensorflow.org
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: tensorboard
 ---
@@ -5637,7 +5125,6 @@ Home-page: https://github.com/lanpa/tensorboardX
 Author: Tzu-Wei Huang
 Author-email: huang.dexter@gmail.com
 License: MIT license
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy protobuf
 Required-by: 
 ---
@@ -5648,7 +5135,6 @@ Home-page: https://www.tensorflow.org/
 Author: Google Inc.
 Author-email: packages@tensorflow.org
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: absl-py astunparse clang flatbuffers gast google-pasta grpcio h5py keras keras-preprocessing numpy opt-einsum protobuf six tensorboard tensorflow-estimator termcolor typing-extensions wheel wrapt
 Required-by: tensorflow-text tf-models-official
 ---
@@ -5659,7 +5145,6 @@ Home-page: UNKNOWN
 Author: Google Inc.
 Author-email: opensource@google.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: typeguard
 Required-by: tf-models-official
 ---
@@ -5670,7 +5155,6 @@ Home-page: https://github.com/tensorflow/datasets
 Author: Google Inc.
 Author-email: packages@tensorflow.org
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: absl-py attrs dill future numpy promise protobuf requests six tensorflow-metadata termcolor tqdm
 Required-by: tf-models-official
 ---
@@ -5681,7 +5165,6 @@ Home-page: https://www.tensorflow.org/
 Author: Google Inc.
 Author-email: 
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: tensorflow
 ---
@@ -5692,7 +5175,6 @@ Home-page: https://github.com/tensorflow/hub
 Author: Google LLC
 Author-email: packages@tensorflow.org
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy protobuf
 Required-by: tensorflow-text tf-models-official
 ---
@@ -5703,7 +5185,6 @@ Home-page: UNKNOWN
 Author: Google Inc.
 Author-email: tensorflow-extended-dev@googlegroups.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: absl-py googleapis-common-protos protobuf
 Required-by: tensorflow-datasets
 ---
@@ -5714,7 +5195,6 @@ Home-page: https://github.com/tensorflow/model-optimization
 Author: Google LLC
 Author-email: no-reply@google.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: dm-tree numpy six
 Required-by: tf-models-official
 ---
@@ -5725,7 +5205,6 @@ Home-page: http://github.com/tensorflow/text
 Author: Google Inc.
 Author-email: packages@tensorflow.org
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: tensorflow tensorflow-hub
 Required-by: tf-models-official
 ---
@@ -5736,7 +5215,6 @@ Home-page: http://pypi.python.org/pypi/termcolor
 Author: Konstantin Lepa
 Author-email: konstantin.lepa@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: fire tensorflow tensorflow-datasets
 ---
@@ -5747,7 +5225,6 @@ Home-page: https://github.com/jupyter/terminado
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: ptyprocess tornado
 Required-by: jupyter-server notebook
 ---
@@ -5758,7 +5235,6 @@ Home-page:
 Author: 
 Author-email: Jupyter Development Team <jupyter@googlegroups.com>
 License: 
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: nbconvert
 ---
@@ -5769,7 +5245,6 @@ Home-page: https://github.com/kmike/text-unidecode/
 Author: Mikhail Korobov
 Author-email: kmike84@gmail.com
 License: Artistic License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: python-slugify
 ---
@@ -5780,7 +5255,6 @@ Home-page: https://github.com/sloria/TextBlob
 Author: Steven Loria
 Author-email: sloria1@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: nltk
 Required-by: spacytextblob
 ---
@@ -5791,7 +5265,6 @@ Home-page: https://github.com/tensorflow/models
 Author: Google Inc.
 Author-email: no-reply@google.com
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: Cython Pillow gin-config google-api-python-client kaggle matplotlib numpy oauth2client opencv-python-headless pandas psutil py-cpuinfo pycocotools pyyaml sacrebleu scipy sentencepiece seqeval six tensorflow tensorflow-addons tensorflow-datasets tensorflow-hub tensorflow-model-optimization tensorflow-text tf-slim
 Required-by: 
 ---
@@ -5802,7 +5275,6 @@ Home-page: https://github.com/google-research/tf-slim
 Author: The TF-Slim Team
 Author-email: 
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: absl-py
 Required-by: tf-models-official
 ---
@@ -5813,7 +5285,6 @@ Home-page: http://deeplearning.net/software/theano/
 Author: LISA laboratory, University of Montreal
 Author-email: theano-dev@googlegroups.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy scipy six
 Required-by: 
 ---
@@ -5824,7 +5295,6 @@ Home-page: https://github.com/explosion/thinc
 Author: Explosion
 Author-email: contact@explosion.ai
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: blis catalogue cymem murmurhash numpy preshed pydantic setuptools srsly wasabi
 Required-by: spacy
 ---
@@ -5835,7 +5305,6 @@ Home-page: https://github.com/joblib/threadpoolctl
 Author: Thomas Moreau
 Author-email: thomas.moreau.2010@gmail.com
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: scikit-learn
 ---
@@ -5846,7 +5315,6 @@ Home-page: https://thriftpy2.readthedocs.io/
 Author: ThriftPy Organization
 Author-email: gotzehsing@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: ply
 Required-by: jqdatasdk
 ---
@@ -5857,7 +5325,6 @@ Home-page: https://www.lfd.uci.edu/~gohlke/
 Author: Christoph Gohlke
 Author-email: cgohlke@uci.edu
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: scikit-image
 ---
@@ -5868,7 +5335,6 @@ Home-page: https://github.com/hydrosquall/tiingo-python
 Author: Cameron Yick
 Author-email: cameron.yick@gmail.com
 License: MIT license
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: requests
 Required-by: 
 ---
@@ -5879,7 +5345,6 @@ Home-page: https://github.com/TileDB-Inc/TileDB-Py
 Author: TileDB, Inc.
 Author-email: help@tiledb.io
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy
 Required-by: 
 ---
@@ -5890,7 +5355,6 @@ Home-page: https://www.courtbouillon.org/tinycss2
 Author: Simon Sapin
 Author-email: simon.sapin@exyr.org
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: webencodings
 Required-by: cssselect2
 ---
@@ -5901,7 +5365,6 @@ Home-page: https://github.com/huggingface/tokenizers
 Author: Anthony MOI
 Author-email: anthony@huggingface.co
 License: Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: transformers
 ---
@@ -5912,7 +5375,6 @@ Home-page: https://github.com/uiri/toml
 Author: William Pearson
 Author-email: uiri@xqz.ca
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: autopep8 mypy pytest pytype
 ---
@@ -5923,7 +5385,6 @@ Home-page: https://github.com/sdispater/tomlkit
 Author: Sébastien Eustace
 Author-email: sebastien@eustace.io
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: jupyter-packaging
 ---
@@ -5934,7 +5395,6 @@ Home-page: https://github.com/pytoolz/toolz/
 Author: https://raw.github.com/pytoolz/toolz/master/AUTHORS.md
 Author-email: 
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: altair cytoolz dask distributed exchange-calendars partd trading-calendars
 ---
@@ -5945,7 +5405,6 @@ Home-page: https://pytorch.org/
 Author: PyTorch Team
 Author-email: packages@pytorch.org
 License: BSD-3
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: typing-extensions
 Required-by: bertviz elegantrl fastai pyro-ppl pytorch-ranger stable-baselines3 torch-optimizer torchaudio torchvision
 ---
@@ -5956,7 +5415,6 @@ Home-page: https://github.com/jettify/pytorch-optimizer
 Author: Nikolay Novik
 Author-email: nickolainovik@gmail.com
 License: Apache 2
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pytorch-ranger torch
 Required-by: 
 ---
@@ -5967,7 +5425,6 @@ Home-page: https://github.com/pytorch/audio
 Author: Soumith Chintala, David Pollack, Sean Naren, Peter Goldsborough
 Author-email: soumith@pytorch.org
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: torch
 Required-by: 
 ---
@@ -5978,7 +5435,6 @@ Home-page: https://github.com/pytorch/vision
 Author: PyTorch Core Team
 Author-email: soumith@pytorch.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy pillow torch
 Required-by: fastai
 ---
@@ -5989,7 +5445,6 @@ Home-page: http://www.tornadoweb.org/
 Author: Facebook
 Author-email: python-tornado@googlegroups.com
 License: http://www.apache.org/licenses/LICENSE-2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: bokeh distributed ipykernel jupyter-client jupyter-server jupyterlab luigi notebook terminado
 ---
@@ -6000,7 +5455,6 @@ Home-page: https://tqdm.github.io
 Author: 
 Author-email: 
 License: MPLv2.0, MIT Licences
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: bertviz datasets huggingface-hub kaggle nltk openai params-flow prophet pyro-ppl sacremoses spacy tensorflow-datasets transformers
 ---
@@ -6011,7 +5465,6 @@ Home-page: https://github.com/quantopian/trading_calendars
 Author: Quantopian Inc
 Author-email: opensource@quantopian.com
 License: Apache License, Version 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy pandas python-dateutil pytz six toolz
 Required-by: 
 ---
@@ -6022,7 +5475,6 @@ Home-page: https://github.com/ipython/traitlets
 Author: IPython Development Team
 Author-email: ipython-dev@python.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: ipykernel ipython ipywidgets jupyter-client jupyter-core jupyter-server matplotlib-inline nbclient nbconvert nbformat notebook pydeck qtconsole
 ---
@@ -6033,7 +5485,6 @@ Home-page: https://github.com/huggingface/transformers
 Author: Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Sam Shleifer, Patrick von Platen, Sylvain Gugger, Suraj Patil, Stas Bekman, Google AI Language Team Authors, Open AI team Authors, Facebook AI Authors, Carnegie Mellon University Authors
 Author-email: thomas@huggingface.co
 License: Apache
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: filelock huggingface-hub numpy packaging pyyaml regex requests sacremoses tokenizers tqdm
 Required-by: bertviz
 ---
@@ -6044,7 +5495,6 @@ Home-page: https://github.com/Pylons/translationstring
 Author: Chris McDonough, Agendaless Consulting
 Author-email: pylons-discuss@googlegroups.com
 License: BSD-like (http://repoze.org/license.html)
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pyramid
 ---
@@ -6055,7 +5505,6 @@ Home-page: https://github.com/python-trio/trio
 Author: Nathaniel J. Smith
 Author-email: njs@pobox.com
 License: MIT -or- Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: async-generator attrs idna outcome sniffio sortedcontainers
 Required-by: selenium trio-websocket
 ---
@@ -6066,7 +5515,6 @@ Home-page: https://github.com/HyperionGray/trio-websocket
 Author: Mark E. Haase
 Author-email: mehaase@gmail.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: async-generator trio wsproto
 Required-by: selenium
 ---
@@ -6077,7 +5525,6 @@ Home-page: https://github.com/twintproject/twint
 Author: Cody Zacharias
 Author-email: codyzacharias@pm.me
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: aiodns aiohttp aiohttp-socks beautifulsoup4 cchardet elasticsearch fake-useragent geopy googletransx pandas pysocks schedule
 Required-by: 
 ---
@@ -6088,7 +5535,6 @@ Home-page: https://github.com/python/typed_ast
 Author: David Fisher
 Author-email: UNKNOWN
 License: Apache License 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pytype typeshed-client
 ---
@@ -6099,7 +5545,6 @@ Home-page: UNKNOWN
 Author: Alex Grönholm
 Author-email: alex.gronholm@nextday.fi
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: tensorflow-addons
 ---
@@ -6110,7 +5555,6 @@ Home-page: https://github.com/tiangolo/typer
 Author: Sebastián Ramírez
 Author-email: tiangolo@gmail.com
 License: 
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: click
 Required-by: pathy spacy
 ---
@@ -6121,7 +5565,6 @@ Home-page: https://github.com/JelleZijlstra/typeshed_client
 Author: Jelle Zijlstra
 Author-email: jelle.zijlstra@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: importlib-resources typed-ast
 Required-by: pyanalyze
 ---
@@ -6132,7 +5575,6 @@ Home-page: https://github.com/python/typing/blob/master/typing_extensions/README
 Author: Guido van Rossum, Jukka Lehtosalo, Lukasz Langa, Michael Lee
 Author-email: levkivskyi@gmail.com
 License: PSF
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: GitPython aioredis async-timeout bokeh huggingface-hub jax libcst mashumaro mypy pyanalyze pydantic tensorflow torch typing-inspect
 ---
@@ -6143,7 +5585,6 @@ Home-page: https://github.com/ilevkivskyi/typing_inspect
 Author: Ivan Levkivskyi
 Author-email: levkivskyi@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: mypy-extensions typing-extensions
 Required-by: libcst pyanalyze
 ---
@@ -6154,7 +5595,6 @@ Home-page: https://github.com/python/tzdata
 Author: Python Software Foundation
 Author-email: datetime-sig@python.org
 License: Apache-2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pytz-deprecation-shim
 ---
@@ -6165,7 +5605,6 @@ Home-page: UNKNOWN
 Author: Lennart Regebro
 Author-email: regebro@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: pytz-deprecation-shim
 Required-by: 
 ---
@@ -6176,7 +5615,6 @@ Home-page: https://github.com/ua-parser/uap-python
 Author: PBS
 Author-email: no-reply@pbs.org
 License: Apache 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: dash-auth
 ---
@@ -6187,7 +5625,6 @@ Home-page: https://github.com/ultrajson/ultrajson
 Author: Jonas Tarnstrom
 Author-email: 
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: cmdstanpy
 ---
@@ -6198,7 +5635,6 @@ Home-page: UNKNOWN
 Author: Tomaz Solc
 Author-email: tomaz.solc@tablix.org
 License: GPL
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -6209,7 +5645,6 @@ Home-page: https://uritemplate.readthedocs.org
 Author: Ian Stapleton Cordasco
 Author-email: graffatcolmingov@gmail.com
 License: BSD 3-Clause License or Apache License, Version 2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: google-api-python-client
 ---
@@ -6220,7 +5655,6 @@ Home-page: https://github.com/niksite/url-normalize
 Author: Nikolay Panov
 Author-email: github@npanov.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: six
 Required-by: requests-cache
 ---
@@ -6231,7 +5665,6 @@ Home-page: https://urllib3.readthedocs.io/
 Author: Andrey Petrov
 Author-email: andrey.petrov@shazow.net
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: botocore elasticsearch intrinio-sdk kaggle pmdarima requests requests-cache requests-unixsocket selenium
 ---
@@ -6242,7 +5675,6 @@ Home-page: https://github.com/ofek/userpath
 Author: Ofek Lev
 Author-email: ofekmeister@gmail.com
 License: MIT OR Apache-2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: click
 Required-by: pipx
 ---
@@ -6253,7 +5685,6 @@ Home-page: https://github.com/kvesteri/validators
 Author: Konsta Vesterinen
 Author-email: konsta@fastmonkeys.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: decorator six
 Required-by: 
 ---
@@ -6264,7 +5695,6 @@ Home-page: https://pylonsproject.org/
 Author: Chris McDonough, Agendaless Consulting
 Author-email: pylons-devel@googlegroups.com
 License: BSD-derived (http://www.repoze.org/LICENSE.txt)
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pyramid rapids
 ---
@@ -6275,7 +5705,6 @@ Home-page: http://vispy.org
 Author: Vispy contributors
 Author-email: vispy@googlegroups.com
 License: (new) BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: freetype-py hsluv kiwisolver numpy
 Required-by: 
 ---
@@ -6286,7 +5715,6 @@ Home-page: https://ines.io
 Author: Ines Montani
 Author-email: ines@explosion.ai
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: spacy thinc
 ---
@@ -6297,7 +5725,6 @@ Home-page: https://github.com/jquast/wcwidth
 Author: Jeff Quast
 Author-email: contact@jeffquast.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: prompt-toolkit
 ---
@@ -6308,7 +5735,6 @@ Home-page: https://github.com/SimonSapin/python-webencodings
 Author: Geoffrey Sneddon
 Author-email: me@gsnedders.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: bleach cssselect2 tinycss2
 ---
@@ -6319,7 +5745,6 @@ Home-page: http://webob.org/
 Author: Ian Bicking
 Author-email: ianb@colorstudy.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: pyramid
 ---
@@ -6330,7 +5755,6 @@ Home-page: https://github.com/websocket-client/websocket-client.git
 Author: liris
 Author-email: liris.pp@gmail.com
 License: Apache-2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: jupyter-server
 ---
@@ -6341,7 +5765,6 @@ Home-page: https://github.com/aaugustin/websockets
 Author: Aymeric Augustin
 Author-email: aymeric.augustin@m4x.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: tda-api
 ---
@@ -6352,7 +5775,6 @@ Home-page: https://palletsprojects.com/p/werkzeug/
 Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: Flask tensorboard
 ---
@@ -6363,7 +5785,6 @@ Home-page: https://github.com/pypa/wheel
 Author: Daniel Holth
 Author-email: dholth@fastmail.fm
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: astunparse jupyter-packaging tensorboard tensorflow
 ---
@@ -6374,7 +5795,6 @@ Home-page: http://ipython.org
 Author: IPython Development Team
 Author-email: ipython-dev@scipy.org
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: notebook
 Required-by: ipywidgets
 ---
@@ -6385,7 +5805,6 @@ Home-page: https://github.com/joshvillbrandt/wireless
 Author: Josh Villbrandt
 Author-email: josh@javconcepts.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -6396,7 +5815,6 @@ Home-page: https://github.com/amueller/word_cloud
 Author: Andreas Mueller
 Author-email: t3kcit+wordcloud@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: matplotlib numpy pillow
 Required-by: 
 ---
@@ -6407,7 +5825,6 @@ Home-page: https://github.com/GrahamDumpleton/wrapt
 Author: Graham Dumpleton
 Author-email: Graham.Dumpleton@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: tensorflow
 ---
@@ -6418,7 +5835,6 @@ Home-page: http://www.whartonwrds.com
 Author: WRDS
 Author-email: wrds@wharton.upenn.edu
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: mock numpy pandas psycopg2-binary sqlalchemy
 Required-by: 
 ---
@@ -6429,7 +5845,6 @@ Home-page: https://github.com/python-hyper/wsproto/
 Author: Benno Rice
 Author-email: benno@jeamland.net
 License: MIT License
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: h11
 Required-by: trio-websocket
 ---
@@ -6440,7 +5855,6 @@ Home-page: https://github.com/pydata/xarray
 Author: xarray Developers
 Author-email: xarray@googlegroups.com
 License: Apache
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy pandas setuptools
 Required-by: datashader
 ---
@@ -6451,7 +5865,6 @@ Home-page: https://github.com/dmlc/xgboost
 Author: 
 Author-email: 
 License: Apache-2.0
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: numpy scipy
 Required-by: 
 ---
@@ -6462,7 +5875,6 @@ Home-page: https://github.com/jmcnamara/XlsxWriter
 Author: John McNamara
 Author-email: jmcnamara@cpan.org
 License: BSD-2-Clause
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
 ---
@@ -6473,7 +5885,6 @@ Home-page: https://github.com/ifduyue/python-xxhash
 Author: Yue Du
 Author-email: ifduyue@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: datasets
 ---
@@ -6484,7 +5895,6 @@ Home-page: https://github.com/JECSand/yahoofinancials
 Author: Connor Sanders
 Author-email: connor@exceleri.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: beautifulsoup4 pytz
 Required-by: 
 ---
@@ -6495,7 +5905,6 @@ Home-page: https://github.com/aio-libs/yarl/
 Author: Andrew Svetlov
 Author-email: andrew.svetlov@gmail.com
 License: Apache 2
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: idna multidict
 Required-by: aiohttp
 ---
@@ -6506,7 +5915,6 @@ Home-page: https://github.com/ranaroussi/yfinance
 Author: Ran Aroussi
 Author-email: ran@aroussi.com
 License: Apache
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: lxml multitasking numpy pandas requests
 Required-by: 
 ---
@@ -6517,7 +5925,6 @@ Home-page: https://github.com/zarr-developers/zarr-python
 Author: 
 Author-email: 
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: asciitree fasteners numcodecs numpy
 Required-by: 
 ---
@@ -6528,7 +5935,6 @@ Home-page: http://docs.python-zeep.org
 Author: Michael van Tellingen
 Author-email: michaelvantellingen@gmail.com
 License: MIT
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: attrs cached-property isodate lxml platformdirs pytz requests requests-file requests-toolbelt
 Required-by: rapidminer
 ---
@@ -6539,7 +5945,6 @@ Home-page: http://zict.readthedocs.io/en/latest/
 Author: 
 Author-email: 
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: heapdict
 Required-by: distributed
 ---
@@ -6550,7 +5955,6 @@ Home-page: https://github.com/jaraco/zipp
 Author: Jason R. Coombs
 Author-email: jaraco@jaraco.com
 License: UNKNOWN
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: importlib-metadata importlib-resources
 ---
@@ -6561,7 +5965,6 @@ Home-page: https://github.com/zopefoundation/zope.deprecation
 Author: Zope Corporation and Contributors
 Author-email: zope-dev@zope.org
 License: ZPL 2.1
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: setuptools
 Required-by: pyramid
 ---
@@ -6572,7 +5975,6 @@ Home-page: https://github.com/zopefoundation/zope.interface
 Author: Zope Foundation and Contributors
 Author-email: zope-dev@zope.org
 License: ZPL 2.1
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: setuptools
 Required-by: pyramid rapids
 ---
@@ -6583,6 +5985,5 @@ Home-page: https://github.com/sergey-dryabzhinsky/python-zstd
 Author: Sergey Dryabzhinsky, Anton Stuk
 Author-email: sergey.dryabzhinsky@gmail.com
 License: BSD
-Location: /Users/markusmaresch/miniconda3/envs/py_env_202110/lib/python3.9/site-packages
 Requires: 
 Required-by: 
