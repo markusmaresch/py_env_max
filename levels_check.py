@@ -312,7 +312,6 @@ class LevelsCheck:
     def prune_dependencies2(self, full_list_of_dicts: typing.List[dict]) -> typing.List[dict]:
         key_dependencies = 'dependencies'
         for d in full_list_of_dicts:
-            package_name = d['key']
             dependencies = d[key_dependencies]
             for dep in dependencies:
                 # print('P: {} -> D: {}'.format(package_name, dep['key']))
@@ -330,9 +329,9 @@ class LevelsCheck:
             with open(self.json_full) as f:
                 stamp = os.path.getmtime(self.json_full)
                 delta_seconds = (now - stamp)
-                if delta_seconds >= max_seconds:
-                    print('Ignoring cache: {} older max_seconds: {}'
-                          .format(os.path.basename(self.json_full), max_seconds))
+                if delta_seconds > max_seconds:
+                    print('Ignoring cache: {} too old: {} > {}'
+                          .format(os.path.basename(self.json_full), delta_seconds, max_seconds))
                 else:
                     json_string = f.read()
                     full_list_of_dicts = json.loads(json_string)
