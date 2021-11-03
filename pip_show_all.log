@@ -1029,7 +1029,7 @@ Requires: dask dask-glm distributed multipledispatch numba numpy packaging panda
 Required-by: 
 ---
 Name: datasets
-Version: 1.14.0
+Version: 1.15.1
 Summary: HuggingFace community-driven open-source library of datasets
 Home-page: https://github.com/huggingface/datasets
 Author: HuggingFace Inc.
@@ -1939,7 +1939,7 @@ Requires: certifi charset-normalizer httpcore rfc3986 sniffio
 Required-by: tda-api
 ---
 Name: huggingface-hub
-Version: 0.0.19
+Version: 0.1.0
 Summary: Client library to download and publish models on the huggingface.co hub
 Home-page: https://github.com/huggingface/huggingface_hub
 Author: Hugging Face, Inc.
@@ -2419,11 +2419,11 @@ Requires:
 Required-by: 
 ---
 Name: keras
-Version: 2.6.0
-Summary: TensorFlow Keras.
+Version: 2.7.0
+Summary: Deep learning for humans.
 Home-page: https://keras.io/
-Author: Google Inc.
-Author-email: packages@tensorflow.org
+Author: Keras team
+Author-email: keras-users@googlegroups.com
 License: Apache 2.0
 Requires: 
 Required-by: tensorflow
@@ -5479,7 +5479,7 @@ Requires:
 Required-by: ipykernel ipython ipywidgets jupyter-client jupyter-core jupyter-server matplotlib-inline nbclient nbconvert nbformat notebook pydeck qtconsole
 ---
 Name: transformers
-Version: 4.12.2
+Version: 4.12.3
 Summary: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 Home-page: https://github.com/huggingface/transformers
 Author: Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Sam Shleifer, Patrick von Platen, Sylvain Gugger, Suraj Patil, Stas Bekman, Google AI Language Team Authors, Open AI team Authors, Facebook AI Authors, Carnegie Mellon University Authors

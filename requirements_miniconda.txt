@@ -133,10 +133,11 @@ tensorflow-text==2.6.0 # LEVEL_07 # TF.Text is a TensorFlow library of text rela
 tf-models-official==2.6.0 # LEVEL_08 # TensorFlow Official Models
 tf-slim==1.1.0 # LEVEL_03 # TensorFlow-Slim: A lightweight library for defining, training and evaluating complex models in TensorFlow
 #
-keras==2.6.0 # LEVEL_01 # TensorFlow Keras
+keras==2.7.0 # LEVEL_01 # TensorFlow Keras # Deep learning for humans
 Keras-Preprocessing==1.1.2 # LEVEL_02 # Easy data preprocessing and data augmentation for deep learning models
 #
-huggingface-hub==0.0.19 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
+huggingface-hub==0.1.0 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
+datasets==1.15.1 # LEVEL_04 # HuggingFace community-driven open-source library of datasets
 #
 xgboost==1.5.0 # LEVEL_03 # check installation notes # XGBoost Python Package
 #
@@ -198,8 +199,7 @@ spacy-legacy==3.0.8 # LEVEL_01 # Legacy registered functions for spaCy backwards
 spacytextblob==3.0.1 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
 # spacy-transformers  # downgrades transformers !!
 #
-transformers==4.12.2 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
-datasets==1.14.0 # LEVEL_04 # HuggingFace community-driven open-source library of datasets
+transformers==4.12.3 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 #
 tokenizers==0.10.3 # LEVEL_01 # Fast and Customizable Tokenizers
 #
