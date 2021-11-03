@@ -270,7 +270,7 @@ yahoofinancials==1.6 # LEVEL_03 # https://github.com/JECSand/yahoofinancials # A
 yfinance==0.1.64 # LEVEL_04 # https://github.com/ranaroussi/yfinance # Yahoo! Finance market data downloader
 #
 pyfolio==0.9.2 # LEVEL_06 # https://github.com/quantopian/pyfolio ; https://www.quantopian.com/docs/user-guide/tools/pyfolio # pyfolio is a Python library for performance and risk analysis of financial portfolios
-py-vollib==1.0.1 # LEVEL_04 # option pricing # UNKNOWN
+py-vollib==1.0.1 # LEVEL_04 # option pricing
 ta-lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip install --upgrade --no-cache-dir ta-lib # sometimes needed # Python wrapper for TA-Lib
 #
 robin-stocks==2.1.0 # LEVEL_04 # A Python wrapper around the Robinhood API
@@ -318,7 +318,7 @@ vispy==0.9.3 # LEVEL_02 # Interactive visualization in Python
 #
 kivy==2.0.0 # LEVEL_04 # A software library for rapid development of hardware-accelerated multitouch applications.
 kivy-examples==2.0.0 # LEVEL_04 # Kivy examples.
-kivy-garden==0.1.4 # LEVEL_03 # UNKNOWN
+kivy-garden==0.1.4 # LEVEL_03
 kiwisolver==1.3.2 # LEVEL_01 # A fast implementation of the Cassowary constraint solver
 #
 dash==2.0.0 # LEVEL_05 # A Python framework for building reactive web-apps. Developed by Plotly.
@@ -428,7 +428,7 @@ async-timeout==4.0.0 # LEVEL_02 # Timeout context manager for asyncio programs
 aiohttp-socks==0.6.0 # LEVEL_04 # Proxy connector for aiohttp
 aioredis==2.0.0 # 1.3.1 # LEVEL_03 # asyncio (PEP 3156) Redis support
 altgraph==0.17.2 # LEVEL_01 # Python graph (network) package
-ansi2html==1.6.0 # LEVEL_01 # UNKNOWN
+ansi2html==1.6.0 # LEVEL_01
 anyio==3.3.4 # LEVEL_02 # High level compatibility layer for multiple asynchronous event loop implementations
 appdirs==1.4.4 # LEVEL_01 # A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir".
 appnope==0.1.2 # LEVEL_01 # Disable App Nap on macOS >= 10.9
@@ -815,7 +815,7 @@ fasteners==0.16.3 # LEVEL_02 # A python package that provides useful locks.
 asciitree==0.3.3 # LEVEL_01 # Draws ASCII trees.
 #
 # dbt !! not compatible with many versions !!
-asn1crypto==1.4.0 # LEVEL_01 # # Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP
+asn1crypto==1.4.0 # LEVEL_01 # Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP
 dbt-extractor==0.4.0 # LEVEL_01
 keyring==23.2.1 # LEVEL_03 # Store and access your passwords safely.
 leather==0.3.4 # LEVEL_02 # Python charting for 80% of humans.

@@ -274,7 +274,7 @@ class LevelsCheck:
             # fi
 
             summary = self.get_summary(package=package, ignore_case=True)
-            if summary is not None:
+            if summary is not None and summary and summary != 'UNKNOWN':
                 summary_needed = ' # {}\n'.format(summary)
                 i = line_new.find(summary_needed)
                 if i < 0:
