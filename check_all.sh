@@ -15,4 +15,8 @@ fi
 ./not_specified_packages.sh
 
 rm -f pipdeptree.cache
+
+git status
+git diff
+
 exit 0
