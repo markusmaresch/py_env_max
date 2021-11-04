@@ -328,6 +328,16 @@ License: Expat License
 Requires: pycodestyle toml
 Required-by: tda-api
 ---
+Name: axial-positional-embedding
+Version: 0.2.1
+Summary: Axial Positional Embedding
+Home-page: https://github.com/lucidrains/axial-positional-embedding
+Author: Phil Wang
+Author-email: lucidrains@gmail.com
+License: MIT
+Requires: torch
+Required-by: performer-pytorch
+---
 Name: azure-common
 Version: 1.1.27
 Summary: Microsoft Azure Client Library for Python (Common)
@@ -1217,6 +1227,16 @@ Author-email: domahidi@embotech.com, echu@cs.stanford.edu, hanwang2@stanford.edu
 License: GPLv3
 Requires: numpy scipy
 Required-by: cvxpy
+---
+Name: einops
+Version: 0.3.2
+Summary: A new flavour of deep learning operations
+Home-page: https://github.com/arogozhnikov/einops
+Author: Alex Rogozhnikov
+Author-email: 
+License: UNKNOWN
+Requires: 
+Required-by: nystrom-attention performer-pytorch
 ---
 Name: elasticsearch
 Version: 7.15.1
@@ -2588,6 +2608,16 @@ License: BSD
 Requires: 
 Required-by: numba
 ---
+Name: local-attention
+Version: 1.4.3
+Summary: Local windowed attention, for language modeling
+Home-page: https://github.com/lucidrains/local-attention
+Author: Phil Wang
+Author-email: lucidrains@gmail.com
+License: MIT
+Requires: torch
+Required-by: performer-pytorch
+---
 Name: locket
 Version: 0.2.1
 Summary: File-based locks for Python for Linux and Windows
@@ -3098,6 +3128,16 @@ License: BSD
 Requires: 
 Required-by: gpustat
 ---
+Name: nystrom-attention
+Version: 0.0.11
+Summary: Nystrom Attention - Pytorch
+Home-page: https://github.com/lucidrains/nystrom-attention
+Author: Phil Wang
+Author-email: lucidrains@gmail.com
+License: MIT
+Requires: einops torch
+Required-by: 
+---
 Name: oandapyV20
 Version: 0.7.2
 Summary: Python wrapper for the OANDA REST-V20 API
@@ -3437,6 +3477,16 @@ Author-email: njs@pobox.com
 License: 2-clause BSD
 Requires: numpy six
 Required-by: statsmodels
+---
+Name: performer-pytorch
+Version: 1.1.2
+Summary: Performer - Pytorch
+Home-page: https://github.com/lucidrains/performer-pytorch
+Author: Phil Wang
+Author-email: lucidrains@gmail.com
+License: MIT
+Requires: axial-positional-embedding einops local-attention torch
+Required-by: 
 ---
 Name: persist-queue
 Version: 0.7.0
@@ -5526,7 +5576,7 @@ Author: PyTorch Team
 Author-email: packages@pytorch.org
 License: BSD-3
 Requires: typing-extensions
-Required-by: bertviz elegantrl fastai pyro-ppl pytorch-lightning pytorch-ranger stable-baselines3 torch-optimizer torchaudio torchmetrics torchvision
+Required-by: axial-positional-embedding bertviz elegantrl fastai local-attention nystrom-attention performer-pytorch pyro-ppl pytorch-lightning pytorch-ranger stable-baselines3 torch-optimizer torchaudio torchmetrics torchvision
 ---
 Name: torch-optimizer
 Version: 0.3.0
