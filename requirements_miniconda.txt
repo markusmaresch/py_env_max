@@ -86,6 +86,8 @@ parsedatetime==2.4 # LEVEL_02 # LOCKED # agate 1.6.3 requires 2.4 # Parse human-
 #
 pyDeprecate==0.3.1 # LEVEL_01 # pytorch-lightning 1.5.0 has requirement pyDeprecate==0.3.1 # Deprecation tooling
 #
+antlr4-python3-runtime==4.8 # LEVEL_01 # omegaconf 2.1.1 requires antlr4-python3-runtime==4.8 # ANTLR 4.8 runtime for Python 3.7
+#
 #
 # Generic Low Level Tools
 #
@@ -342,7 +344,7 @@ plotly==5.3.1 # LEVEL_03 # An open-source, interactive data visualization librar
 #
 # Google ..
 #
-google-cloud-bigquery==2.30.0 # LEVEL_06 # Google BigQuery API client library
+google-cloud-bigquery==2.30.1 # LEVEL_06 # Google BigQuery API client library
 google-cloud-core==2.1.0 # LEVEL_05 # Google Cloud API client core library
 google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC32C'
 google-resumable-media==2.1.0 # LEVEL_02 # Utilities for Google Media Downloads and Resumable Uploads
@@ -857,7 +859,6 @@ docker-pycreds==0.4.0 # LEVEL_02 # Python bindings for the docker credentials st
 sentry-sdk==1.4.3 # LEVEL_02 # Python client for Sentry (https://sentry.io)
 yaspin==2.1.0 # LEVEL_02 # Yet Another Terminal Spinner
 einops==0.3.2 # LEVEL_01 # A new flavour of deep learning operations
-antlr4-python3-runtime==4.8 # LEVEL_01 # ANTLR 4.8 runtime for Python 3.7
 configparser==5.1.0 # LEVEL_01 # Updated configparser from Python 3.8 for Python 2.6+
 pathtools==0.1.2 # LEVEL_01 # File system general utilities
 shortuuid==1.0.1 # LEVEL_01 # A generator library for concise, unambiguous and URL-safe UUIDs
