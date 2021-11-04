@@ -606,7 +606,7 @@ Author: Kenneth Reitz
 Author-email: me@kennethreitz.com
 License: MPL-2.0
 Requires: 
-Required-by: Fiona elasticsearch httpx intrinio-sdk kaggle msrest pyproj requests
+Required-by: Fiona elasticsearch httpx intrinio-sdk kaggle msrest pyproj requests sentry-sdk
 ---
 Name: cffi
 Version: 1.15.0
@@ -666,7 +666,7 @@ Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
 Requires: 
-Required-by: Fiona Flask click-plugins cligj distributed nltk proj ray sacremoses typer userpath
+Required-by: Fiona Flask click-plugins cligj distributed nltk proj ray sacremoses typer userpath wandb
 ---
 Name: click-plugins
 Version: 1.1.1
@@ -787,6 +787,16 @@ Author-email: rolandshoemaker@gmail.com
 License: BSD-3-Clause
 Requires: 
 Required-by: rich
+---
+Name: configparser
+Version: 5.1.0
+Summary: Updated configparser from Python 3.8 for Python 2.6+.
+Home-page: https://github.com/jaraco/configparser/
+Author: Łukasz Langa
+Author-email: lukasz@langa.pl
+License: UNKNOWN
+Requires: 
+Required-by: wandb
 ---
 Name: conllu
 Version: 4.4.1
@@ -1157,6 +1167,16 @@ Author-email: halley@dnspython.org
 License: ISC
 Requires: 
 Required-by: email-validator
+---
+Name: docker-pycreds
+Version: 0.4.0
+Summary: Python bindings for the docker credentials store API
+Home-page: https://github.com/shin-/dockerpy-creds
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: Apache License 2.0
+Requires: six
+Required-by: wandb
 ---
 Name: docutils
 Version: 0.17.1
@@ -1596,7 +1616,7 @@ Author: Sebastian Thiel, Michael Trier
 Author-email: byronimo@gmail.com, mtrier@gmail.com
 License: BSD
 Requires: gitdb typing-extensions
-Required-by: 
+Required-by: wandb
 ---
 Name: glib
 Version: 1.0.0
@@ -3348,6 +3368,16 @@ License: MPL 2.0
 Requires: 
 Required-by: 
 ---
+Name: pathtools
+Version: 0.1.2
+Summary: File system general utilities
+Home-page: http://github.com/gorakhargosh/pathtools
+Author: Yesudeep Mangalapilly
+Author-email: yesudeep@gmail.com
+License: MIT License
+Requires: 
+Required-by: wandb
+---
 Name: pathy
 Version: 0.6.1
 Summary: pathlib.Path subclasses for local and cloud bucket storage
@@ -3566,7 +3596,7 @@ Author: Syrus Akbary
 Author-email: me@syrusakbary.com
 License: MIT
 Requires: six
-Required-by: tensorflow-datasets
+Required-by: tensorflow-datasets wandb
 ---
 Name: prompt-toolkit
 Version: 3.0.22
@@ -3606,7 +3636,7 @@ Author:
 Author-email: 
 License: 3-Clause BSD License
 Requires: 
-Required-by: google-api-core google-cloud-bigquery googleapis-common-protos grpcio-status proto-plus ray tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata
+Required-by: google-api-core google-cloud-bigquery googleapis-common-protos grpcio-status proto-plus ray tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata wandb
 ---
 Name: psutil
 Version: 5.8.0
@@ -3616,7 +3646,7 @@ Author: Giampaolo Rodola
 Author-email: g.rodola@gmail.com
 License: BSD
 Requires: 
-Required-by: distributed gpustat memory-profiler tf-models-official
+Required-by: distributed gpustat memory-profiler tf-models-official wandb
 ---
 Name: psycopg2-binary
 Version: 2.9.1
@@ -4196,7 +4226,7 @@ Author: Gustavo Niemeyer
 Author-email: gustavo@niemeyer.net
 License: Dual License
 Requires: six
-Required-by: LunarCalendar Mastodon.py arrow bokeh botocore croniter datashape exchange-calendars google-cloud-bigquery holidays int-date intrinio-sdk jupyter-client kaggle luigi matplotlib pandas pandas-market-calendars prophet tda-api trading-calendars
+Required-by: LunarCalendar Mastodon.py arrow bokeh botocore croniter datashape exchange-calendars google-cloud-bigquery holidays int-date intrinio-sdk jupyter-client kaggle luigi matplotlib pandas pandas-market-calendars prophet tda-api trading-calendars wandb
 ---
 Name: python-dotenv
 Version: 0.19.1
@@ -4326,7 +4356,7 @@ Author: Kirill Simonov
 Author-email: xi@resolvent.net
 License: MIT
 Requires: 
-Required-by: bokeh dask distributed fastai huggingface-hub libcst mashumaro rapids ray tf-models-official transformers
+Required-by: bokeh dask distributed fastai huggingface-hub libcst mashumaro rapids ray tf-models-official transformers wandb
 ---
 Name: pyzmq
 Version: 22.3.0
@@ -4436,7 +4466,7 @@ Author: Kenneth Reitz
 Author-email: me@kennethreitz.org
 License: Apache 2.0
 Requires: certifi charset-normalizer idna urllib3
-Required-by: Kivy-Garden Mastodon.py Sphinx alpha-vantage azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth datasets fastai google-api-core google-cloud-bigquery googletransx h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle minimal-snowplow-tracker msrest nilearn openai pandas-datareader pandas-finance rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy tensorboard tensorflow-datasets tiingo transformers yfinance zeep
+Required-by: Kivy-Garden Mastodon.py Sphinx alpha-vantage azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth datasets fastai google-api-core google-cloud-bigquery googletransx h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle minimal-snowplow-tracker msrest nilearn openai pandas-datareader pandas-finance rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy tensorboard tensorflow-datasets tiingo transformers wandb yfinance zeep
 ---
 Name: requests-cache
 Version: 0.8.1
@@ -4698,6 +4728,16 @@ License: Apache
 Requires: 
 Required-by: bertviz tf-models-official
 ---
+Name: sentry-sdk
+Version: 1.4.3
+Summary: Python client for Sentry (https://sentry.io)
+Home-page: https://github.com/getsentry/sentry-python
+Author: Sentry Team and Contributors
+Author-email: hello@sentry.io
+License: BSD
+Requires: certifi urllib3
+Required-by: wandb
+---
 Name: seqeval
 Version: 1.2.2
 Summary: Testing framework for sequence labeling
@@ -4738,6 +4778,16 @@ License: BSD
 Requires: 
 Required-by: geopandas
 ---
+Name: shortuuid
+Version: 1.0.1
+Summary: A generator library for concise, unambiguous and URL-safe UUIDs.
+Home-page: https://github.com/stochastic-technologies/shortuuid/
+Author: Stochastic Technologies
+Author-email: info@stochastictechnologies.com
+License: BSD
+Requires: 
+Required-by: wandb
+---
 Name: simpervisor
 Version: 0.4
 Summary: Simple async process supervisor
@@ -4766,7 +4816,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py agate astunparse atari-py azure-core bleach blessings chart-studio cypari dm-tree fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil requests-file retrying rouge-score sacremoses tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators
+Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py agate astunparse atari-py azure-core bleach blessings chart-studio cypari dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil requests-file retrying rouge-score sacremoses tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators wandb
 ---
 Name: smart-open
 Version: 5.2.1
@@ -5028,6 +5078,16 @@ License: BSD-3
 Requires: numba numpy scipy
 Required-by: 
 ---
+Name: subprocess32
+Version: 3.5.4
+Summary: A backport of the subprocess module from Python 3 for use on 2.x.
+Home-page: https://github.com/google/python-subprocess32
+Author: 
+Author-email: 
+License: PSF license
+Requires: 
+Required-by: wandb
+---
 Name: TA-Lib
 Version: 0.4.21
 Summary: Python wrapper for TA-Lib
@@ -5216,7 +5276,7 @@ Author: Konstantin Lepa
 Author-email: konstantin.lepa@gmail.com
 License: MIT
 Requires: 
-Required-by: fire tensorflow tensorflow-datasets
+Required-by: fire tensorflow tensorflow-datasets yaspin
 ---
 Name: terminado
 Version: 0.12.1
@@ -5666,7 +5726,7 @@ Author: Andrey Petrov
 Author-email: andrey.petrov@shazow.net
 License: MIT
 Requires: 
-Required-by: botocore elasticsearch intrinio-sdk kaggle pmdarima requests requests-cache requests-unixsocket selenium
+Required-by: botocore elasticsearch intrinio-sdk kaggle pmdarima requests requests-cache requests-unixsocket selenium sentry-sdk
 ---
 Name: userpath
 Version: 1.7.0
@@ -5706,6 +5766,16 @@ Author: Vispy contributors
 Author-email: vispy@googlegroups.com
 License: (new) BSD
 Requires: freetype-py hsluv kiwisolver numpy
+Required-by: 
+---
+Name: wandb
+Version: 0.12.6
+Summary: A CLI and library for interacting with the Weights and Biases API.
+Home-page: https://github.com/wandb/client
+Author: Weights & Biases
+Author-email: support@wandb.com
+License: MIT license
+Requires: Click GitPython PyYAML configparser docker-pycreds pathtools promise protobuf psutil python-dateutil requests sentry-sdk shortuuid six subprocess32 yaspin
 Required-by: 
 ---
 Name: wasabi
@@ -5907,6 +5977,16 @@ Author-email: andrew.svetlov@gmail.com
 License: Apache 2
 Requires: idna multidict
 Required-by: aiohttp
+---
+Name: yaspin
+Version: 2.1.0
+Summary: Yet Another Terminal Spinner
+Home-page: https://github.com/pavdmyt/yaspin
+Author: Pavlo Dmytrenko
+Author-email: mail@pavdmyt.com
+License: MIT
+Requires: termcolor
+Required-by: wandb
 ---
 Name: yfinance
 Version: 0.1.64

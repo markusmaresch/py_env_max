@@ -834,3 +834,20 @@ sqlparse==0.4.2 # LEVEL_01 # A non-validating SQL parser
 aiosignal==1.2.0 # LEVEL_02 # aiosignal: a list of registered asynchronous callbacks
 frozenlist==1.2.0 # LEVEL_01 # A list-like structure which implements collections.abc.MutableSequence
 #
+#
+#cmdstanpy==0.9.77
+#performer-pytorch==1.1.2
+#nystrom-attention==0.0.11
+#pytorch-lightning==1.5.0
+#netCDF4==1.5.8
+#omegaconf==2.1.1
+#
+wandb==0.12.6 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
+docker-pycreds==0.4.0 # LEVEL_02 # Python bindings for the docker credentials store API
+sentry-sdk==1.4.3 # LEVEL_02 # Python client for Sentry (https://sentry.io)
+yaspin==2.1.0 # LEVEL_02 # Yet Another Terminal Spinner
+configparser==5.1.0 # LEVEL_01 # Updated configparser from Python 3.8 for Python 2.6+
+pathtools==0.1.2 # LEVEL_01 # File system general utilities
+shortuuid==1.0.1 # LEVEL_01 # A generator library for concise, unambiguous and URL-safe UUIDs
+subprocess32==3.5.4 # LEVEL_01 # A backport of the subprocess module from Python 3 for use on 2.x
+#
