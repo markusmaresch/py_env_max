@@ -5,6 +5,16 @@
 py_env_name="py_env_202111"  # change/count up
 python_default_version="3.9"
 
+while [ "$1" != "" ]; do
+  if [ "$1" == "-tmp" ]; then
+    py_env_name="${py_env_name}.tmp"
+    shift
+    continue
+  fi
+  echo "What is: ${1} ?"
+  exit 1
+done
+
 pip_check_exit() {
   pip_check_tmp="/tmp/pip_check.$$.tmp"
   pip check | tee $pip_check_tmp
