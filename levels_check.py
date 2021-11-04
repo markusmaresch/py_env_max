@@ -106,7 +106,7 @@ class PackageInfo:
 
 
 class LevelsCheck:
-    json_full = 'pipdeptree.cache'
+    json_full = '/tmp/pipdeptree.cache'
     requirements_txt = 'requirements_miniconda.txt'  # make this configurable
 
     def __init__(self):
