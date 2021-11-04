@@ -776,7 +776,7 @@ Author: Jonathan Hartley
 Author-email: tartley@tartley.com
 License: BSD
 Requires: 
-Required-by: rich sacrebleu
+Required-by: rich sacrebleu sphinx-autobuild
 ---
 Name: colorcet
 Version: 2.0.6
@@ -816,7 +816,7 @@ Author: Bibek Kafle <bkafle662@gmail.com>, Roland Shoemaker <rolandshoemaker@gma
 Author-email: rolandshoemaker@gmail.com
 License: BSD-3-Clause
 Requires: 
-Required-by: rich
+Required-by: recommonmark rich
 ---
 Name: configparser
 Version: 5.1.0
@@ -1216,7 +1216,7 @@ Author: David Goodger
 Author-email: goodger@python.org
 License: public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt)
 Requires: 
-Required-by: Kivy Kivy-examples Sphinx pydata-sphinx-theme python-daemon sphinx-panels
+Required-by: Kivy Kivy-examples Sphinx nbsphinx pydata-sphinx-theme python-daemon recommonmark sphinx-panels sphinx-rtd-theme
 ---
 Name: ecos
 Version: 2.0.7.post1
@@ -2266,7 +2266,7 @@ Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
 Requires: MarkupSafe
-Required-by: Flask Sphinx altair bokeh distributed jupyter-server jupyterlab jupyterlab-server nbconvert notebook pydeck spacy
+Required-by: Flask Sphinx altair bokeh distributed jupyter-server jupyterlab jupyterlab-server nbconvert nbsphinx notebook pydeck spacy
 ---
 Name: jmespath
 Version: 0.10.0
@@ -2598,6 +2598,16 @@ License: MIT
 Requires: pyyaml typing-extensions typing-inspect
 Required-by: pytype
 ---
+Name: livereload
+Version: 2.6.3
+Summary: Python LiveReload is an awesome tool for web developers
+Home-page: https://github.com/lepture/python-livereload
+Author: Hsiaoming Yang
+Author-email: me@lepture.com
+License: BSD
+Requires: six tornado
+Required-by: sphinx-autobuild
+---
 Name: llvmlite
 Version: 0.37.0
 Summary: lightweight wrapper around basic LLVM functionality
@@ -2716,7 +2726,7 @@ Author: Manfred Stienstra, Yuri takhteyev and Waylan limberg
 Author-email: python.markdown@gmail.com
 License: BSD License
 Requires: 
-Required-by: tensorboard
+Required-by: sphinx-markdown-tables tensorboard
 ---
 Name: MarkupSafe
 Version: 2.0.1
@@ -2966,7 +2976,7 @@ Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD
 Requires: bleach defusedxml entrypoints jinja2 jupyter-core jupyterlab-pygments mistune nbclient nbformat pandocfilters pygments testpath traitlets
-Required-by: jupyter jupyter-server notebook
+Required-by: jupyter jupyter-server nbsphinx notebook
 ---
 Name: nbformat
 Version: 5.1.3
@@ -2976,7 +2986,17 @@ Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD
 Requires: ipython-genutils jsonschema jupyter-core traitlets
-Required-by: ipywidgets jupyter-server nbclient nbconvert notebook
+Required-by: ipywidgets jupyter-server nbclient nbconvert nbsphinx notebook
+---
+Name: nbsphinx
+Version: 0.8.7
+Summary: Jupyter Notebook Tools for Sphinx
+Home-page: https://nbsphinx.readthedocs.io/
+Author: Matthias Geier
+Author-email: Matthias.Geier@gmail.com
+License: MIT
+Requires: docutils jinja2 nbconvert nbformat sphinx traitlets
+Required-by: 
 ---
 Name: nest-asyncio
 Version: 1.5.1
@@ -4548,6 +4568,16 @@ License: Apache 2.0
 Requires: attrs click filelock grpcio jsonschema msgpack numpy protobuf pyyaml redis
 Required-by: 
 ---
+Name: recommonmark
+Version: 0.7.1
+Summary: A docutils-compatibility bridge to CommonMark, enabling you to write CommonMark inside of Docutils & Sphinx projects.
+Home-page: https://github.com/rtfd/recommonmark
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Requires: commonmark docutils sphinx
+Required-by: 
+---
 Name: redis
 Version: 3.5.3
 Summary: Python client for Redis key-value store
@@ -4926,7 +4956,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py agate astunparse atari-py azure-core bleach blessings chart-studio cypari dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil requests-file retrying rouge-score sacremoses tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators wandb
+Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py agate astunparse atari-py azure-core bleach blessings chart-studio cypari dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil requests-file retrying rouge-score sacremoses tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators wandb
 ---
 Name: smart-open
 Version: 5.2.1
@@ -5036,7 +5066,27 @@ Author: Georg Brandl
 Author-email: georg@python.org
 License: BSD
 Requires: Jinja2 Pygments alabaster babel docutils imagesize packaging requests setuptools snowballstemmer sphinxcontrib-applehelp sphinxcontrib-devhelp sphinxcontrib-htmlhelp sphinxcontrib-jsmath sphinxcontrib-qthelp sphinxcontrib-serializinghtml
-Required-by: pydata-sphinx-theme sphinx-panels
+Required-by: nbsphinx pydata-sphinx-theme recommonmark sphinx-autobuild sphinx-panels sphinx-rtd-theme
+---
+Name: sphinx-autobuild
+Version: 2021.3.14
+Summary: Rebuild Sphinx documentation on changes, with live-reload in the browser.
+Home-page: https://github.com/executablebooks/sphinx-autobuild
+Author: Jonathan Stoppani
+Author-email: jonathan@stoppani.name
+License: MIT
+Requires: colorama livereload sphinx
+Required-by: 
+---
+Name: sphinx-markdown-tables
+Version: 0.0.15
+Summary: A Sphinx extension for rendering tables written in markdown
+Home-page: https://github.com/ryanfox/sphinx-markdown-tables
+Author: Ryan Fox
+Author-email: ryan@foxrow.com
+License: UNKNOWN
+Requires: markdown
+Required-by: 
 ---
 Name: sphinx-panels
 Version: 0.6.0
@@ -5044,6 +5094,16 @@ Summary: A sphinx extension for creating panels in a grid layout.
 Home-page: https://github.com/executablebooks/sphinx-panels
 Author: Chris Sewell
 Author-email: chrisj_sewell@hotmail.com
+License: MIT
+Requires: docutils sphinx
+Required-by: 
+---
+Name: sphinx-rtd-theme
+Version: 1.0.0
+Summary: Read the Docs theme for Sphinx
+Home-page: https://github.com/readthedocs/sphinx_rtd_theme
+Author: Dave Snider, Read the Docs, Inc. & contributors
+Author-email: dev@readthedocs.org
 License: MIT
 Requires: docutils sphinx
 Required-by: 
@@ -5626,7 +5686,7 @@ Author: Facebook
 Author-email: python-tornado@googlegroups.com
 License: http://www.apache.org/licenses/LICENSE-2.0
 Requires: 
-Required-by: bokeh distributed ipykernel jupyter-client jupyter-server jupyterlab luigi notebook terminado
+Required-by: bokeh distributed ipykernel jupyter-client jupyter-server jupyterlab livereload luigi notebook terminado
 ---
 Name: tqdm
 Version: 4.62.3
@@ -5656,7 +5716,7 @@ Author: IPython Development Team
 Author-email: ipython-dev@python.org
 License: BSD
 Requires: 
-Required-by: ipykernel ipython ipywidgets jupyter-client jupyter-core jupyter-server matplotlib-inline nbclient nbconvert nbformat notebook pydeck qtconsole
+Required-by: ipykernel ipython ipywidgets jupyter-client jupyter-core jupyter-server matplotlib-inline nbclient nbconvert nbformat nbsphinx notebook pydeck qtconsole
 ---
 Name: transformers
 Version: 4.12.3

@@ -83,7 +83,9 @@ docutils==0.17.1 # LEVEL_01 # LOCKED # sphinx 4.2.0 requires docutils<0.18,>=0.1
 tenacity==6.3.1 # LEVEL_02 # LOCKED # luigi requires tenacity<7,>=6.3.0 # Retry code until it succeeds
 #
 parsedatetime==2.4 # LEVEL_02 # LOCKED # agate 1.6.3 requires 2.4 # Parse human-readable date/time text
-
+#
+pyDeprecate==0.3.1 # LEVEL_01 # pytorch-lightning 1.5.0 has requirement pyDeprecate==0.3.1 # Deprecation tooling
+#
 #
 # Generic Low Level Tools
 #
@@ -500,7 +502,6 @@ iso8601==0.1.16 # LEVEL_01 # Simple module to parse ISO 8601 dates
 itsdangerous==2.0.1 # LEVEL_01 # Safely pass data to untrusted environments and back
 jedi==0.18.0 # LEVEL_02 # An autocompletion tool for Python that can be used for text editors
 jinja2==3.0.2 # LEVEL_02 # template engine # A very fast and expressive template engine
-jmespath==0.10.0 # LEVEL_01 # JSON Matching Expressions
 joblib==1.1.0 # LEVEL_01 # Lightweight pipelining with Python functions
 korean-lunar-calendar==0.2.1 # LEVEL_01 # Korean Lunar Calendar
 llvmlite==0.37.0 # LEVEL_01 # lightweight wrapper around basic LLVM functionality
@@ -519,10 +520,13 @@ multipledispatch==0.6.0 # LEVEL_02 # Multiple dispatch
 multiprocess==0.70.12.2 # LEVEL_02 # better multiprocessing and multithreading in python
 multitasking==0.0.9 # LEVEL_01 # Non-blocking Python methods using decorators
 murmurhash==1.0.6 # LEVEL_01 # Cython bindings for MurmurHash
+#
 nbclassic==0.3.4 # LEVEL_07 # Jupyter Notebook as a Jupyter Server extension
+nbsphinx==0.8.7 # LEVEL_06 # Jupyter Notebook Tools for Sphinx
 nbclient==0.5.4 # LEVEL_04 # A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor
 nbconvert==6.2.0 # LEVEL_05 # Converting Jupyter Notebooks
 nbformat==5.1.3 # LEVEL_03 # The Jupyter Notebook format
+#
 nest-asyncio==1.5.1 # LEVEL_01 # Patch asyncio to allow nested event loops
 netifaces==0.11.0 # LEVEL_01 # Portable network interface information
 oauth2client==4.1.3 # LEVEL_03 # OAuth 2.0 client library
@@ -638,6 +642,7 @@ json-rpc==1.13.0 # LEVEL_01 # JSON-RPC transport implementation
 simplejson==3.17.5 # LEVEL_01 # Simple, fast, extensible JSON encoder/decoder for Python
 ujson==4.2.0 # LEVEL_01 # Ultra fast JSON encoder and decoder for Python
 PyJWT==2.3.0 # LEVEL_01 # JSON Web Token implementation in Python
+jmespath==0.10.0 # LEVEL_01 # JSON Matching Expressions
 #
 #
 # Resolve below
@@ -654,8 +659,11 @@ colormath==3.0.0 # LEVEL_02 # Color math and conversion library
 #
 pydata-sphinx-theme==0.7.1 # LEVEL_04 # Bootstrap-based Sphinx theme from the PyData community
 #
-sphinx==4.2.0 # LEVEL_03 # Python documentation generator
+sphinx-autobuild==2021.3.14 # LEVEL_04 # Rebuild Sphinx documentation on changes, with live-reload in the browser
+sphinx-rtd-theme==1.0.0 # LEVEL_04 # Read the Docs theme for Sphinx
 sphinx-panels==0.6.0 # LEVEL_04 # A sphinx extension for creating panels in a grid layout
+sphinx==4.2.0 # LEVEL_03 # Python documentation generator
+sphinx-markdown-tables==0.0.15 # LEVEL_02 # A Sphinx extension for rendering tables written in markdown
 sphinxcontrib-applehelp==1.0.2 # LEVEL_01 # sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books
 sphinxcontrib-devhelp==1.0.2 # LEVEL_01 # sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp document
 sphinxcontrib-htmlhelp==2.0.0 # LEVEL_01 # sphinxcontrib-htmlhelp is a sphinx extension which renders HTML help files
@@ -849,10 +857,12 @@ docker-pycreds==0.4.0 # LEVEL_02 # Python bindings for the docker credentials st
 sentry-sdk==1.4.3 # LEVEL_02 # Python client for Sentry (https://sentry.io)
 yaspin==2.1.0 # LEVEL_02 # Yet Another Terminal Spinner
 einops==0.3.2 # LEVEL_01 # A new flavour of deep learning operations
-pyDeprecate==0.3.1 # LEVEL_01 # Deprecation tooling
 antlr4-python3-runtime==4.8 # LEVEL_01 # ANTLR 4.8 runtime for Python 3.7
 configparser==5.1.0 # LEVEL_01 # Updated configparser from Python 3.8 for Python 2.6+
 pathtools==0.1.2 # LEVEL_01 # File system general utilities
 shortuuid==1.0.1 # LEVEL_01 # A generator library for concise, unambiguous and URL-safe UUIDs
 subprocess32==3.5.4 # LEVEL_01 # A backport of the subprocess module from Python 3 for use on 2.x
+#
+recommonmark==0.7.1 # LEVEL_04 # A docutils-compatibility bridge to CommonMark, enabling you to write CommonMark inside of Docutils & Sphinx projects
+livereload==2.6.3 # LEVEL_02 # Python LiveReload is an awesome tool for web developers
 #
