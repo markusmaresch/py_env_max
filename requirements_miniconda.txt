@@ -835,12 +835,18 @@ aiosignal==1.2.0 # LEVEL_02 # aiosignal: a list of registered asynchronous callb
 frozenlist==1.2.0 # LEVEL_01 # A list-like structure which implements collections.abc.MutableSequence
 #
 #
-#cmdstanpy==0.9.77
 #performer-pytorch==1.1.2
 #nystrom-attention==0.0.11
-#pytorch-lightning==1.5.0
-#netCDF4==1.5.8
-#omegaconf==2.1.1
+#
+pytorch-lightning==1.5.0 # LEVEL_06
+pyDeprecate==0.3.1 # LEVEL_01
+torchmetrics==0.6.0 # LEVEL_03
+#
+netCDF4==1.5.8 # LEVEL_03 # Provides an object-oriented python interface to the netCDF version 4 library
+cftime==1.5.1.1 # LEVEL_02 # Time-handling functionality from netcdf4-python
+#
+omegaconf==2.1.1 # LEVEL_02 # A flexible configuration library
+antlr4-python3-runtime==4.8 # LEVEL_01 # ANTLR 4.8 runtime for Python 3.7
 #
 wandb==0.12.6 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
 docker-pycreds==0.4.0 # LEVEL_02 # Python bindings for the docker credentials store API
