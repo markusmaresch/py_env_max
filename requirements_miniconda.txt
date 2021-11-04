@@ -354,7 +354,7 @@ uritemplate==4.1.1 # LEVEL_01 # required by google-api-python-client # Implement
 
 # Azure
 azure-storage-blob==12.9.0 # LEVEL_05 # Microsoft Azure Blob Storage Client Library for Python
-azure-core==1.19.1 # LEVEL_03 # Microsoft Azure Core Library for Python
+azure-core==1.20.0 # LEVEL_03 # Microsoft Azure Core Library for Python
 azure-common==1.1.27 # LEVEL_01 # Microsoft Azure Client Library for Python (Common)
 
 #
@@ -368,7 +368,7 @@ jupyter-dash==0.4.0 # LEVEL_06 # Dash support for the Jupyter notebook interface
 jupyter-packaging==0.11.0 # LEVEL_04 # Jupyter Packaging Utilities
 jupyter-server==1.11.2 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-server-proxy==3.1.0 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
-jupyterlab==3.2.1 # LEVEL_08 # JupyterLab computational environment
+jupyterlab==3.2.2 # LEVEL_08 # JupyterLab computational environment
 jupyterlab-pygments==0.1.2 # LEVEL_02 # Pygments theme using JupyterLab CSS variables
 jupyterlab-server==2.8.2 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications 
 jupyterlab-widgets==1.0.2 # LEVEL_01 # A JupyterLab extension
@@ -539,7 +539,7 @@ portalocker==2.3.2 # LEVEL_01 # Wraps the portalocker recipe for easy usage
 preshed==3.0.6 # LEVEL_02 # Cython hash table that trusts the keys are pre-hashed
 prometheus-client==0.12.0 # LEVEL_01 # Python client for the Prometheus monitoring system
 promise==2.3 # LEVEL_02 # Promises/A+ implementation for Python
-prompt-toolkit==3.0.21 # LEVEL_02 # Library for building powerful interactive command lines in Python
+prompt-toolkit==3.0.22 # LEVEL_02 # Library for building powerful interactive command lines in Python
 proto-plus==1.19.7 # LEVEL_02 # Beautiful, Pythonic protocol buffers
 protobuf==3.19.1 # LEVEL_01 # Protocol Buffers
 psutil==5.8.0 # LEVEL_01 # Cross-platform lib for process and system monitoring in Python
@@ -630,7 +630,7 @@ zipp==3.6.0 # LEVEL_01 # Backport of pathlib-compatible object wrapper for zip f
 #
 # Json
 #
-jsonschema==4.1.2 # LEVEL_02 # An implementation of JSON Schema validation for Python
+jsonschema==4.2.0 # LEVEL_02 # An implementation of JSON Schema validation for Python
 json5==0.9.6 # LEVEL_01 # A Python implementation of the JSON5 data format
 json-rpc==1.13.0 # LEVEL_01 # JSON-RPC transport implementation
 simplejson==3.17.5 # LEVEL_01 # Simple, fast, extensible JSON encoder/decoder for Python
@@ -669,7 +669,7 @@ iniconfig==1.1.1 # LEVEL_01 # iniconfig: brain-dead simple config-ini parsing
 mock==4.0.3 # LEVEL_01 # Rolling backport of unittest.mock for all Pythons
 outcome==1.1.0 # LEVEL_02 # Capture the outcome of Python function calls
 pluggy==1.0.0 # LEVEL_01 # plugin and hook calling mechanisms for python
-py==1.10.0 # LEVEL_01 # library with cross-python path, ini-parsing, io, code, log facilities
+py==1.11.0 # LEVEL_01 # library with cross-python path, ini-parsing, io, code, log facilities
 psycopg2-binary==2.9.1 # LEVEL_01 # psycopg2 - Python-PostgreSQL Database Adapter
 pyOpenSSL==21.0.0 # LEVEL_04 # Python wrapper module around the OpenSSL library
 redis==3.5.3 # LEVEL_01 # Python client for Redis key-value store
@@ -833,3 +833,4 @@ sqlparse==0.4.2 # LEVEL_01 # A non-validating SQL parser
 #
 aiosignal==1.2.0 # LEVEL_02 # aiosignal: a list of registered asynchronous callbacks
 frozenlist==1.2.0 # LEVEL_01 # A list-like structure which implements collections.abc.MutableSequence
+#

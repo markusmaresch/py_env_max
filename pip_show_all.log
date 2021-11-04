@@ -329,7 +329,7 @@ Requires:
 Required-by: 
 ---
 Name: azure-core
-Version: 1.19.1
+Version: 1.20.0
 Summary: Microsoft Azure Core Library for Python
 Home-page: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/core/azure-core
 Author: Microsoft Corporation
@@ -2259,7 +2259,7 @@ Requires:
 Required-by: jupyterlab-server
 ---
 Name: jsonschema
-Version: 4.1.2
+Version: 4.2.0
 Summary: An implementation of JSON Schema validation for Python
 Home-page: https://github.com/Julian/jsonschema
 Author: Julian Berman
@@ -2359,7 +2359,7 @@ Requires: aiohttp jupyter-server simpervisor
 Required-by: 
 ---
 Name: jupyterlab
-Version: 3.2.1
+Version: 3.2.2
 Summary: JupyterLab computational environment
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3569,7 +3569,7 @@ Requires: six
 Required-by: tensorflow-datasets
 ---
 Name: prompt-toolkit
-Version: 3.0.21
+Version: 3.0.22
 Summary: Library for building powerful interactive command lines in Python
 Home-page: https://github.com/prompt-toolkit/python-prompt-toolkit
 Author: Jonathan Slenders
@@ -3639,7 +3639,7 @@ Requires:
 Required-by: pexpect terminado
 ---
 Name: py
-Version: 1.10.0
+Version: 1.11.0
 Summary: library with cross-python path, ini-parsing, io, code, log facilities
 Home-page: https://py.readthedocs.io/
 Author: holger krekel, Ronny Pfannschmidt, Benjamin Peterson and others
