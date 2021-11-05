@@ -16,7 +16,7 @@ fi
 
 rm -f /tmp/pipdeptree.cache
 
-git status
 git diff
+git status
 
 exit 0

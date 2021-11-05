@@ -128,16 +128,20 @@ performer-pytorch==1.1.2 # LEVEL_04 # Performer - Pytorch
 tensorboard==2.7.0 # LEVEL_05 # TensorBoard lets you watch Tensors Flow
 tensorboard-data-server==0.6.1 # LEVEL_01 # Fast data loading for TensorBoard
 tensorboard-plugin-wit==1.8.0 # LEVEL_01 # What-If Tool TensorBoard plugin
+#
+tensorflow-text==2.6.0 # LEVEL_07 # TF.Text is a TensorFlow library of text related ops, modules, and subgraphs
 tensorflow==2.6.0 # LEVEL_06 # TensorFlow is an open source machine learning framework for everyone
-tensorflow-addons==0.14.0 # LEVEL_02 # TensorFlow Addons
 tensorflow-datasets==4.4.0 # LEVEL_04 # tensorflow/datasets is a library of datasets ready to use with TensorFlow
-tensorflow-estimator==2.7.0 # LEVEL_01 # TensorFlow Estimator
-tensorflow-hub==0.12.0 # LEVEL_02 # TensorFlow Hub is a library to foster the publication, discovery, and consumption of reusable parts of machine learning models
 tensorflow-metadata==1.4.0 # LEVEL_03 # Library and standards for schema and statistics
 tensorflow-model-optimization==0.7.0 # LEVEL_03 # A suite of tools that users, both novice and advanced can use to optimize machine learning models for deployment and execution
-tensorflow-text==2.6.0 # LEVEL_07 # TF.Text is a TensorFlow library of text related ops, modules, and subgraphs
+tensorflow-addons==0.14.0 # LEVEL_02 # TensorFlow Addons
+tensorflow-hub==0.12.0 # LEVEL_02 # TensorFlow Hub is a library to foster the publication, discovery, and consumption of reusable parts of machine learning models
+tensorflow-io-gcs-filesystem==0.21.0 # LEVEL_01 # TensorFlow IO
+tensorflow-estimator==2.7.0 # LEVEL_01 # TensorFlow Estimator
+#
 tf-models-official==2.6.0 # LEVEL_08 # TensorFlow Official Models
 tf-slim==1.1.0 # LEVEL_03 # TensorFlow-Slim: A lightweight library for defining, training and evaluating complex models in TensorFlow
+#
 #
 keras==2.7.0 # LEVEL_01 # TensorFlow Keras # Deep learning for humans
 Keras-Preprocessing==1.1.2 # LEVEL_02 # Easy data preprocessing and data augmentation for deep learning models
@@ -392,6 +396,7 @@ twint==2.1.20 # LEVEL_05 # Twitter downloader # An advanced Twitter scraping & O
 #
 # Tools
 #
+libclang==12.0.0 # LEVEL_01 # Clang Python Bindings, mirrored from the official LLVM repo: https://github.com/llvm/llvm-project/tree/main/clang/bindings/python, to make the installation process easier
 beautifulsoup4==4.10.0 # LEVEL_02 # Screen-scraping library
 persist-queue==0.7.0 # LEVEL_01 # Use with iLock !! (or celery ?) # A thread-safe disk based persistent queue in Python
 cloudscraper==1.2.58 # LEVEL_04 # A Python module to bypass Cloudflare's anti-bot page
