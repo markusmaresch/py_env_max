@@ -197,8 +197,8 @@ Babel==2.9.1 # LEVEL_02 # Internationalization utilities
 bert-for-tf2==0.14.9 # LEVEL_03 # A TensorFlow 2.0 Keras implementation of BERT
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger # Attention visualization tool for NLP Transformer models
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
-boto3==1.19.10 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
-botocore==1.22.10 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+boto3==1.19.11 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+botocore==1.22.11 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 #
 spacy==3.1.4 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
 spacy-legacy==3.0.8 # LEVEL_01 # Legacy registered functions for spaCy backwards compatibility
@@ -247,7 +247,7 @@ platformdirs==2.4.0 # LEVEL_01 # A small Python module for determining appropria
 opencv-python==4.5.4.58 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.4.58 # LEVEL_02 # Wrapper package for OpenCV python bindings
 pillow==8.4.0 # LEVEL_01 # Python Imaging Library (Fork)
-imageio==2.10.1 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
+imageio==2.10.2 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
 #
 openvino==2021.4.1 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org # Inference Engine Python* API
