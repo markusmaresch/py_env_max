@@ -311,7 +311,7 @@ scs==2.1.4 # LEVEL_03 # scs: splitting conic solver
 #
 qtconsole==5.1.1 # LEVEL_05 # Jupyter Qt console
 qtpy==1.11.2 # LEVEL_01 # Provides an abstraction layer on top of the various Qt bindings (PyQt5, PyQt4 and PySide) and additional custom QWidgets
-pysimplegui==4.55.0 # LEVEL_01 # Python GUIs for Humans. Launched in 2018. It's 2021 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers
+pysimplegui==4.55.1 # LEVEL_01 # Python GUIs for Humans. Launched in 2018. It's 2021 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers
 pyqt5==5.15.6 # LEVEL_02 # Python bindings for the Qt cross platform application toolkit
 pyqt5-qt5==5.15.2 # LEVEL_01 # The subset of a Qt installation needed by PyQt5
 pyqt5-sip==12.9.0 # LEVEL_01 # The sip module support for PyQt5
@@ -506,7 +506,7 @@ ipykernel==6.5.0 # LEVEL_04 # IPython Kernel for Jupyter
 ipython==7.29.0 # LEVEL_03 # IPython: Productive Interactive Computing
 ipython-genutils==0.2.0 # LEVEL_01 # Vestigial utilities from IPython
 ipywidgets==7.6.5 # LEVEL_08 # IPython HTML widgets for Jupyter
-iso8601==0.1.16 # LEVEL_01 # Simple module to parse ISO 8601 dates
+iso8601==1.0.0 # LEVEL_01 # Simple module to parse ISO 8601 dates
 itsdangerous==2.0.1 # LEVEL_01 # Safely pass data to untrusted environments and back
 jedi==0.18.0 # LEVEL_02 # An autocompletion tool for Python that can be used for text editors
 jinja2==3.0.2 # LEVEL_02 # template engine # A very fast and expressive template engine
