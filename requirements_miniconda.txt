@@ -95,12 +95,12 @@ pandas==1.3.4 # LEVEL_03 # Powerful data structures for data analysis, time seri
 pandas-datareader==0.10.0 # LEVEL_04 # Data readers extracted from the pandas codebase,should be compatible with recent pandas versions
 matplotlib==3.4.3 # LEVEL_03 # Python plotting package
 matplotlib-inline==0.1.3 # LEVEL_02 # Inline Matplotlib backend for Jupyter
-scipy==1.7.1 # LEVEL_02 # SciPy: Scientific Library for Python
+scipy==1.7.2 # LEVEL_02 # SciPy: Scientific Library for Python
 seaborn==0.11.2 # LEVEL_04 # seaborn: statistical data visualization
 numba==0.54.1 # LEVEL_02 # compiling Python code using LLVM
 openpyxl==3.0.9 # LEVEL_02 # A Python library to read/write Excel 2010 xlsx/xlsm files
 XlsxWriter==3.0.2 # LEVEL_01 # needed for pandas XLSX # A Python module for creating Excel XLSX files
-toolz==0.11.1 # LEVEL_01 # List processing tools and functional utilities
+toolz==0.11.2 # LEVEL_01 # List processing tools and functional utilities
 pybullet==3.2.0 # LEVEL_01 # Official Python Interface for the Bullet Physics SDK specialized for Robotics Simulation and Reinforcement Learning
 httpx==0.20.0 # LEVEL_04 # The next generation HTTP client
 
@@ -120,7 +120,7 @@ GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status 
 wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
 #
 pytorch-lightning==1.5.0 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
-performer-pytorch==1.1.2 # LEVEL_04 # Performer - Pytorch
+performer-pytorch==1.1.3 # LEVEL_04 # Performer - Pytorch
 #
 #
 # Machine Learning
@@ -201,12 +201,13 @@ Babel==2.9.1 # LEVEL_02 # Internationalization utilities
 bert-for-tf2==0.14.9 # LEVEL_03 # A TensorFlow 2.0 Keras implementation of BERT
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger # Attention visualization tool for NLP Transformer models
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
-boto3==1.19.11 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
-botocore==1.22.11 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+boto3==1.19.12 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+botocore==1.22.12 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 #
-spacy==3.1.4 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
+spacy==3.2.0 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
 spacy-legacy==3.0.8 # LEVEL_01 # Legacy registered functions for spaCy backwards compatibility
 spacytextblob==3.0.1 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
+spacy-loggers==1.0.1 # LEVEL_02 # Logging utilities for SpaCy
 # spacy-transformers  # downgrades transformers !!
 #
 transformers==4.12.3 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
@@ -310,7 +311,7 @@ scs==2.1.4 # LEVEL_03 # scs: splitting conic solver
 #
 qtconsole==5.1.1 # LEVEL_05 # Jupyter Qt console
 qtpy==1.11.2 # LEVEL_01 # Provides an abstraction layer on top of the various Qt bindings (PyQt5, PyQt4 and PySide) and additional custom QWidgets
-pysimplegui==4.53.0 # LEVEL_01 # Python GUIs for Humans. Launched in 2018. It's 2021 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 300 Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers
+pysimplegui==4.55.0 # LEVEL_01 # Python GUIs for Humans. Launched in 2018. It's 2021 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers
 pyqt5==5.15.6 # LEVEL_02 # Python bindings for the Qt cross platform application toolkit
 pyqt5-qt5==5.15.2 # LEVEL_01 # The subset of a Qt installation needed by PyQt5
 pyqt5-sip==12.9.0 # LEVEL_01 # The sip module support for PyQt5
@@ -318,7 +319,7 @@ pyqtgraph==0.12.3 # LEVEL_02 # for Chaos # Scientific Graphics and GUI Library f
 glib==1.0.0 # LEVEL_01 # A python graphics library that piggy-backs off of pyqt5
 #
 pyopengl==3.1.5 # LEVEL_01 # for PySpace # Standard OpenGL bindings for Python
-pygame==2.0.3 # LEVEL_01 # Python Game Development
+pygame==2.1.0 # LEVEL_01 # Python Game Development
 pygments==2.10.0 # LEVEL_01 # Pygments is a syntax highlighting package written in Python
 pydot==1.4.2 # LEVEL_02 # Python interface to Graphviz's Dot
 networkx==2.6.3 # LEVEL_01 # Python package for creating and manipulating graphs and networks
@@ -589,7 +590,7 @@ requests-oauthlib==1.3.0 # LEVEL_03 # OAuthlib authentication support for Reques
 requests-toolbelt==0.9.1 # LEVEL_03 # A utility belt for advanced users of python-requests
 requests-unixsocket==0.2.0 # LEVEL_03 # Use requests to talk HTTP via a UNIX domain socket
 retrying==1.3.3 # LEVEL_02 # Retrying
-rich==10.12.0 # LEVEL_02 # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+rich==10.13.0 # LEVEL_02 # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 rsa==4.7.2 # LEVEL_02 # Pure-Python RSA implementation
 s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
 sacrebleu==2.0.0 # LEVEL_02 # Hassle-free computation of shareable, comparable, and reproducible BLEU, chrF, and TER scores
@@ -872,3 +873,4 @@ subprocess32==3.5.4 # LEVEL_01 # A backport of the subprocess module from Python
 recommonmark==0.7.1 # LEVEL_04 # A docutils-compatibility bridge to CommonMark, enabling you to write CommonMark inside of Docutils & Sphinx projects
 livereload==2.6.3 # LEVEL_02 # Python LiveReload is an awesome tool for web developers
 #
+langcodes==3.2.1 # LEVEL_01 # Labels and compares human languages in a standardized way
