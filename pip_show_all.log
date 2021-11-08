@@ -349,7 +349,7 @@ Requires:
 Required-by: 
 ---
 Name: azure-core
-Version: 1.20.0
+Version: 1.20.1
 Summary: Microsoft Azure Core Library for Python
 Home-page: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/core/azure-core
 Author: Microsoft Corporation
@@ -509,7 +509,7 @@ Requires: Mastodon.py sqlalchemy
 Required-by: 
 ---
 Name: boto3
-Version: 1.19.12
+Version: 1.20.0
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -519,7 +519,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.22.12
+Version: 1.23.0
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -1039,7 +1039,7 @@ Requires:
 Required-by: dash
 ---
 Name: dask
-Version: 2021.11.0
+Version: 2021.11.1
 Summary: Parallel PyData with Task Scheduling
 Home-page: https://github.com/dask/dask/
 Author: 
@@ -1159,7 +1159,7 @@ Requires:
 Required-by: datasets multiprocess tensorflow-datasets
 ---
 Name: distributed
-Version: 2021.11.0
+Version: 2021.11.1
 Summary: Distributed scheduler for Dask
 Home-page: https://distributed.dask.org
 Author: 
@@ -1999,7 +1999,7 @@ Requires: certifi charset-normalizer httpcore rfc3986 sniffio
 Required-by: tda-api
 ---
 Name: huggingface-hub
-Version: 0.1.1
+Version: 0.1.2
 Summary: Client library to download and publish models on the huggingface.co hub
 Home-page: https://github.com/huggingface/huggingface_hub
 Author: Hugging Face, Inc.
@@ -2979,7 +2979,7 @@ Requires: jupyter-server notebook
 Required-by: jupyterlab
 ---
 Name: nbclient
-Version: 0.5.4
+Version: 0.5.5
 Summary: A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor.
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -4539,7 +4539,7 @@ Requires: numpy scipy
 Required-by: osqp
 ---
 Name: qtconsole
-Version: 5.1.1
+Version: 5.2.0
 Summary: Jupyter Qt console
 Home-page: http://jupyter.org
 Author: Jupyter Development Team
@@ -4939,7 +4939,7 @@ Requires:
 Required-by: geopandas
 ---
 Name: shortuuid
-Version: 1.0.1
+Version: 1.0.3
 Summary: A generator library for concise, unambiguous and URL-safe UUIDs.
 Home-page: https://github.com/stochastic-technologies/shortuuid/
 Author: Stochastic Technologies

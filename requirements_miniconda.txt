@@ -147,7 +147,7 @@ keras==2.7.0 # LEVEL_01 # TensorFlow Keras # Deep learning for humans
 Keras-Preprocessing==1.1.2 # LEVEL_02 # Easy data preprocessing and data augmentation for deep learning models
 #
 datasets==1.15.1 # LEVEL_04 # HuggingFace community-driven open-source library of datasets
-huggingface-hub==0.1.1 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
+huggingface-hub==0.1.2 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
 #
 xgboost==1.5.0 # LEVEL_03 # check installation notes # XGBoost Python Package
 #
@@ -201,8 +201,8 @@ Babel==2.9.1 # LEVEL_02 # Internationalization utilities
 bert-for-tf2==0.14.9 # LEVEL_03 # A TensorFlow 2.0 Keras implementation of BERT
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger # Attention visualization tool for NLP Transformer models
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
-boto3==1.19.12 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
-botocore==1.22.12 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+boto3==1.20.0 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+botocore==1.23.0 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 #
 spacy==3.2.0 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
 spacy-legacy==3.0.8 # LEVEL_01 # Legacy registered functions for spaCy backwards compatibility
@@ -226,10 +226,10 @@ kaggle==1.5.12 # LEVEL_03 # Kaggle API
 #
 agate==1.6.3 # LEVEL_03 # A data analysis library that is optimized for humans instead of machines
 #
-dask-ml==2021.10.17 #1.9.0 # LEVEL_05 # A library for distributed and parallel machine learning
+dask-ml==2021.10.17 # LEVEL_05 # A library for distributed and parallel machine learning
 dask-glm==0.2.0 # LEVEL_04 # Generalized Linear Models with Dask
-distributed==2021.11.0 # LEVEL_04 # Distributed scheduler for Dask
-dask[complete]==2021.11.0 # LEVEL_03 # Parallel PyData with Task Scheduling
+distributed==2021.11.1 # LEVEL_04 # Distributed scheduler for Dask
+dask[complete]==2021.11.1 # LEVEL_03 # Parallel PyData with Task Scheduling
 #dask-xgboost==0.2.0 # LEVEL_02 # outdated !
 # dask-cuda==21.10.0 # LEVEL_05 # outdated requirements
 # pynvml==11.0.0 # LEVEL_01 # POTENTIALLY_UNUSED # Python Bindings for the NVIDIA Management Library
@@ -309,7 +309,7 @@ scs==2.1.4 # LEVEL_03 # scs: splitting conic solver
 #
 # GUI & Visualization
 #
-qtconsole==5.1.1 # LEVEL_05 # Jupyter Qt console
+qtconsole==5.2.0 # LEVEL_05 # Jupyter Qt console
 qtpy==1.11.2 # LEVEL_01 # Provides an abstraction layer on top of the various Qt bindings (PyQt5, PyQt4 and PySide) and additional custom QWidgets
 pysimplegui==4.55.1 # LEVEL_01 # Python GUIs for Humans. Launched in 2018. It's 2021 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers
 pyqt5==5.15.6 # LEVEL_02 # Python bindings for the Qt cross platform application toolkit
@@ -365,7 +365,7 @@ uritemplate==4.1.1 # LEVEL_01 # required by google-api-python-client # Implement
 
 # Azure
 azure-storage-blob==12.9.0 # LEVEL_05 # Microsoft Azure Blob Storage Client Library for Python
-azure-core==1.20.0 # LEVEL_03 # Microsoft Azure Core Library for Python
+azure-core==1.20.1 # LEVEL_03 # Microsoft Azure Core Library for Python
 azure-common==1.1.27 # LEVEL_01 # Microsoft Azure Client Library for Python (Common)
 
 #
@@ -531,8 +531,8 @@ murmurhash==1.0.6 # LEVEL_01 # Cython bindings for MurmurHash
 #
 nbclassic==0.3.4 # LEVEL_07 # Jupyter Notebook as a Jupyter Server extension
 nbsphinx==0.8.7 # LEVEL_06 # Jupyter Notebook Tools for Sphinx
-nbclient==0.5.4 # LEVEL_04 # A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor
 nbconvert==6.2.0 # LEVEL_05 # Converting Jupyter Notebooks
+nbclient==0.5.5 # LEVEL_04 # A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor
 nbformat==5.1.3 # LEVEL_03 # The Jupyter Notebook format
 #
 nest-asyncio==1.5.1 # LEVEL_01 # Patch asyncio to allow nested event loops
@@ -867,7 +867,7 @@ yaspin==2.1.0 # LEVEL_02 # Yet Another Terminal Spinner
 einops==0.3.2 # LEVEL_01 # A new flavour of deep learning operations
 configparser==5.1.0 # LEVEL_01 # Updated configparser from Python 3.8 for Python 2.6+
 pathtools==0.1.2 # LEVEL_01 # File system general utilities
-shortuuid==1.0.1 # LEVEL_01 # A generator library for concise, unambiguous and URL-safe UUIDs
+shortuuid==1.0.3 # LEVEL_01 # A generator library for concise, unambiguous and URL-safe UUIDs
 subprocess32==3.5.4 # LEVEL_01 # A backport of the subprocess module from Python 3 for use on 2.x
 #
 recommonmark==0.7.1 # LEVEL_04 # A docutils-compatibility bridge to CommonMark, enabling you to write CommonMark inside of Docutils & Sphinx projects
