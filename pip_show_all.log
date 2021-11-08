@@ -4939,11 +4939,11 @@ Requires:
 Required-by: geopandas
 ---
 Name: shortuuid
-Version: 1.0.3
+Version: 1.0.6
 Summary: A generator library for concise, unambiguous and URL-safe UUIDs.
-Home-page: https://github.com/stochastic-technologies/shortuuid/
-Author: Stochastic Technologies
-Author-email: info@stochastictechnologies.com
+Home-page: https://github.com/skorokithakis/shortuuid/
+Author: Stavros Korokithakis
+Author-email: hi@stavros.io
 License: BSD
 Requires: 
 Required-by: wandb

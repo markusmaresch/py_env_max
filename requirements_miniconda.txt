@@ -91,18 +91,18 @@ antlr4-python3-runtime==4.8 # LEVEL_01 # omegaconf 2.1.1 requires antlr4-python3
 #
 # Generic Low Level Tools
 #
-pandas==1.3.4 # LEVEL_03 # Powerful data structures for data analysis, time series, and statistics
+httpx==0.20.0 # LEVEL_04 # The next generation HTTP client
+seaborn==0.11.2 # LEVEL_04 # seaborn: statistical data visualization
 pandas-datareader==0.10.0 # LEVEL_04 # Data readers extracted from the pandas codebase,should be compatible with recent pandas versions
+pandas==1.3.4 # LEVEL_03 # Powerful data structures for data analysis, time series, and statistics
 matplotlib==3.4.3 # LEVEL_03 # Python plotting package
 matplotlib-inline==0.1.3 # LEVEL_02 # Inline Matplotlib backend for Jupyter
 scipy==1.7.2 # LEVEL_02 # SciPy: Scientific Library for Python
-seaborn==0.11.2 # LEVEL_04 # seaborn: statistical data visualization
 numba==0.54.1 # LEVEL_02 # compiling Python code using LLVM
 openpyxl==3.0.9 # LEVEL_02 # A Python library to read/write Excel 2010 xlsx/xlsm files
 XlsxWriter==3.0.2 # LEVEL_01 # needed for pandas XLSX # A Python module for creating Excel XLSX files
 toolz==0.11.2 # LEVEL_01 # List processing tools and functional utilities
 pybullet==3.2.0 # LEVEL_01 # Official Python Interface for the Bullet Physics SDK specialized for Robotics Simulation and Reinforcement Learning
-httpx==0.20.0 # LEVEL_04 # The next generation HTTP client
 
 #
 # Super Collectors .. building on others
@@ -113,14 +113,11 @@ box2d-py==2.3.8 # LEVEL_01 # Python Box2D
 #finrl==0.3.1 # LEVEL_05 # may cause all sorts of issues
 #ccxt==1.58.26 # LEVEL_01
 #
-tensorboardX==2.4 # LEVEL_02 # TensorBoardX lets you watch Tensors Flow without Tensorflow
+wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
 ray==1.8.0 # LEVEL_03 # Ray provides a simple, universal API for building distributed applications
+tensorboardX==2.4 # LEVEL_02 # TensorBoardX lets you watch Tensors Flow without Tensorflow
 lz4==3.1.3 # LEVEL_01 # LZ4 Bindings for Python
 GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status from NVIDA GPUs using nvidia-smi
-wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
-#
-pytorch-lightning==1.5.0 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
-performer-pytorch==1.1.3 # LEVEL_04 # Performer - Pytorch
 #
 #
 # Machine Learning
@@ -143,22 +140,25 @@ tf-models-official==2.6.0 # LEVEL_08 # TensorFlow Official Models
 tf-slim==1.1.0 # LEVEL_03 # TensorFlow-Slim: A lightweight library for defining, training and evaluating complex models in TensorFlow
 #
 #
-keras==2.7.0 # LEVEL_01 # TensorFlow Keras # Deep learning for humans
 Keras-Preprocessing==1.1.2 # LEVEL_02 # Easy data preprocessing and data augmentation for deep learning models
+keras==2.7.0 # LEVEL_01 # TensorFlow Keras # Deep learning for humans
 #
 datasets==1.15.1 # LEVEL_04 # HuggingFace community-driven open-source library of datasets
 huggingface-hub==0.1.2 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
 #
 xgboost==1.5.0 # LEVEL_03 # check installation notes # XGBoost Python Package
 #
-pyro-api==0.1.2 # LEVEL_01 # Generic API for dispatch to Pyro backends
 pyro-ppl==1.7.0 # LEVEL_03 # A Python library for probabilistic modeling and inference
+pyro-api==0.1.2 # LEVEL_01 # Generic API for dispatch to Pyro backends
 #
-torch==1.10.0 # LEVEL_02 # Tensors and Dynamic neural networks in Python with strong GPU acceleration
+pytorch-lightning==1.5.0 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
+performer-pytorch==1.1.3 # LEVEL_04 # Performer - Pytorch
 torch-optimizer==0.3.0 # LEVEL_04 # pytorch-optimizer
 torchaudio==0.10.0 # LEVEL_03 # An audio package for PyTorch
 torchvision==0.11.1 # LEVEL_03 # image and video datasets and models for torch deep learning
 pytorch-ranger==0.1.1 # LEVEL_03 # Ranger - a synergistic optimizer using RAdam (Rectified Adam) and LookAhead in one codebase
+torchmetrics==0.6.0 # LEVEL_03 # PyTorch native Metrics
+torch==1.10.0 # LEVEL_02 # Tensors and Dynamic neural networks in Python with strong GPU acceleration
 #
 Theano==1.0.5 # LEVEL_03 # Optimizing compiler for evaluating mathematical expressions on CPUs and GPUs
 nose==1.3.7 # LEVEL_01 # nose extends unittest to make testing easier
@@ -204,10 +204,10 @@ sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
 boto3==1.20.0 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 botocore==1.23.0 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 #
-spacy==3.2.0 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
-spacy-legacy==3.0.8 # LEVEL_01 # Legacy registered functions for spaCy backwards compatibility
 spacytextblob==3.0.1 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
+spacy==3.2.0 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
 spacy-loggers==1.0.1 # LEVEL_02 # Logging utilities for SpaCy
+spacy-legacy==3.0.8 # LEVEL_01 # Legacy registered functions for spaCy backwards compatibility
 # spacy-transformers  # downgrades transformers !!
 #
 transformers==4.12.3 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
@@ -251,41 +251,40 @@ platformdirs==2.4.0 # LEVEL_01 # A small Python module for determining appropria
 #
 opencv-python==4.5.4.58 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.4.58 # LEVEL_02 # Wrapper package for OpenCV python bindings
-pillow==8.4.0 # LEVEL_01 # Python Imaging Library (Fork)
 imageio==2.10.3 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
+pillow==8.4.0 # LEVEL_01 # Python Imaging Library (Fork)
 #
 openvino==2021.4.1 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org # Inference Engine Python* API
 #openvino-dev==2021.4.1 # LEVEL_99 # has issues !!! # Openvino Tools
 #
 # Finance
 #
-alpha-vantage==2.3.1 # LEVEL_04 # Python module to get stock data from the Alpha Vantage Api
-coinpaprika==0.1.0 # LEVEL_03 # Coinpaprika API Python client
+tda-api==1.4.1 # LEVEL_06 # An unofficial wrapper around the TD Ameritrade HTTP API
+pyfolio==0.9.2 # LEVEL_06 # https://github.com/quantopian/pyfolio ; https://www.quantopian.com/docs/user-guide/tools/pyfolio # pyfolio is a Python library for performance and risk analysis of financial portfolios
+pandas-finance==0.1.2 # LEVEL_05 # High level API for access to and analysis of financial data
 empyrical==0.5.5 # LEVEL_05 # empyrical is a Python library with performance and risk statistics commonly used in quantitative finance
+pandas-market-calendars==3.2 # LEVEL_05 # Market and exchange trading calendars for pandas
+exchange-calendars==3.4 # LEVEL_04 # exchange_calendars is a Python library with securities exchange calendars
+alpha-vantage==2.3.1 # LEVEL_04 # Python module to get stock data from the Alpha Vantage Api
 finta==1.3 # LEVEL_04 # Common financial technical indicators implemented in Pandas
-ib-insync==0.9.69 # LEVEL_03 # InteractiveBrokers 3rd party trading api ip_insync; dataclasses # if necessary # Python sync/async framework for Interactive Brokers API
 iexfinance==0.5.0 # LEVEL_04 # Python module to get stock data from IEX Cloud and IEX API 1.0
+trading-calendars==2.1.1 # LEVEL_04 # trading_calendars is a Python library with securities exchange calendars used by Quantopian's Zipline
+yfinance==0.1.64 # LEVEL_04 # https://github.com/ranaroussi/yfinance # Yahoo! Finance market data downloader
+yahoofinancials==1.6 # LEVEL_03 # https://github.com/JECSand/yahoofinancials # A powerful financial data module used for pulling both fundamental and technical data from Yahoo Finance
+coinpaprika==0.1.0 # LEVEL_03 # Coinpaprika API Python client
+ib-insync==0.9.69 # LEVEL_03 # InteractiveBrokers 3rd party trading api ip_insync; dataclasses # if necessary # Python sync/async framework for Interactive Brokers API
 intrinio-sdk==5.16.0 # LEVEL_03 # Intrinio API
-oandapyv20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console # Python wrapper for the OANDA REST-V20 API
 tiingo==0.14.0 # LEVEL_03 # Python REST Client for interacting with the Tiingo Financial Data API https://pypi.org/project/tiingo # REST Client for Tiingo Data Platform API
+oandapyv20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console # Python wrapper for the OANDA REST-V20 API
 #alpaca-trade-api==1.3.0 # LEVEL_02 # old dependencies
 # histdata-downloader npyscreen # Forex Downloader
 #
-trading-calendars==2.1.1 # LEVEL_04 # trading_calendars is a Python library with securities exchange calendars used by Quantopian's Zipline
-pandas-market-calendars==3.2 # LEVEL_05 # Market and exchange trading calendars for pandas
-exchange-calendars==3.4 # LEVEL_04 # exchange_calendars is a Python library with securities exchange calendars
-pandas-finance==0.1.2 # LEVEL_05 # High level API for access to and analysis of financial data
 #
-yahoofinancials==1.6 # LEVEL_03 # https://github.com/JECSand/yahoofinancials # A powerful financial data module used for pulling both fundamental and technical data from Yahoo Finance
-yfinance==0.1.64 # LEVEL_04 # https://github.com/ranaroussi/yfinance # Yahoo! Finance market data downloader
-#
-pyfolio==0.9.2 # LEVEL_06 # https://github.com/quantopian/pyfolio ; https://www.quantopian.com/docs/user-guide/tools/pyfolio # pyfolio is a Python library for performance and risk analysis of financial portfolios
 py-vollib==1.0.1 # LEVEL_04 # option pricing
 ta-lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip install --upgrade --no-cache-dir ta-lib # sometimes needed # Python wrapper for TA-Lib
 #
 robin-stocks==2.1.0 # LEVEL_04 # A Python wrapper around the Robinhood API
-tda-api==1.4.1 # LEVEL_06 # An unofficial wrapper around the TD Ameritrade HTTP API
 cryptography==35.0.0 # LEVEL_03 # cryptography is a package which provides cryptographic recipes and primitives to Python developers
 #
 authlib==0.15.5 # LEVEL_04 # The ultimate Python library in building OAuth and OpenID Connect servers
@@ -857,7 +856,6 @@ wandb==0.12.6 # LEVEL_04 # A CLI and library for interacting with the Weights an
 axial-positional-embedding==0.2.1 # LEVEL_03 # Axial Positional Embedding
 local-attention==1.4.3 # LEVEL_03 # Local windowed attention, for language modeling
 nystrom-attention==0.0.11 # LEVEL_03 # Nystrom Attention - Pytorch
-torchmetrics==0.6.0 # LEVEL_03 # PyTorch native Metrics
 netCDF4==1.5.8 # LEVEL_03 # Provides an object-oriented python interface to the netCDF version 4 library
 cftime==1.5.1.1 # LEVEL_02 # Time-handling functionality from netcdf4-python
 omegaconf==2.1.1 # LEVEL_02 # A flexible configuration library
@@ -867,7 +865,7 @@ yaspin==2.1.0 # LEVEL_02 # Yet Another Terminal Spinner
 einops==0.3.2 # LEVEL_01 # A new flavour of deep learning operations
 configparser==5.1.0 # LEVEL_01 # Updated configparser from Python 3.8 for Python 2.6+
 pathtools==0.1.2 # LEVEL_01 # File system general utilities
-shortuuid==1.0.3 # LEVEL_01 # A generator library for concise, unambiguous and URL-safe UUIDs
+shortuuid==1.0.6 # LEVEL_01 # A generator library for concise, unambiguous and URL-safe UUIDs
 subprocess32==3.5.4 # LEVEL_01 # A backport of the subprocess module from Python 3 for use on 2.x
 #
 recommonmark==0.7.1 # LEVEL_04 # A docutils-compatibility bridge to CommonMark, enabling you to write CommonMark inside of Docutils & Sphinx projects
