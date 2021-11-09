@@ -4346,6 +4346,16 @@ Author: Holger Krekel, Bruno Oliveira, Ronny Pfannschmidt, Floris Bruynooghe, Br
 Author-email: 
 License: MIT
 Requires: attrs iniconfig packaging pluggy py toml
+Required-by: pytest-asyncio
+---
+Name: pytest-asyncio
+Version: 0.16.0
+Summary: Pytest support for asyncio.
+Home-page: https://github.com/pytest-dev/pytest-asyncio
+Author: Tin Tvrtković
+Author-email: tinchester@gmail.com
+License: Apache 2.0
+Requires: pytest
 Required-by: 
 ---
 Name: python-daemon
@@ -5096,7 +5106,7 @@ Author: Georg Brandl
 Author-email: georg@python.org
 License: BSD
 Requires: Jinja2 Pygments alabaster babel docutils imagesize packaging requests setuptools snowballstemmer sphinxcontrib-applehelp sphinxcontrib-devhelp sphinxcontrib-htmlhelp sphinxcontrib-jsmath sphinxcontrib-qthelp sphinxcontrib-serializinghtml
-Required-by: nbsphinx pydata-sphinx-theme recommonmark sphinx-autobuild sphinx-panels sphinx-rtd-theme
+Required-by: nbsphinx pydata-sphinx-theme recommonmark sphinx-autobuild sphinx-autodoc-typehints sphinx-panels sphinx-rtd-theme
 ---
 Name: sphinx-autobuild
 Version: 2021.3.14
@@ -5106,6 +5116,16 @@ Author: Jonathan Stoppani
 Author-email: jonathan@stoppani.name
 License: MIT
 Requires: colorama livereload sphinx
+Required-by: 
+---
+Name: sphinx-autodoc-typehints
+Version: 1.12.0
+Summary: Type hints (PEP 484) support for the Sphinx autodoc extension
+Home-page: UNKNOWN
+Author: Alex Grönholm
+Author-email: alex.gronholm@nextday.fi
+License: MIT
+Requires: Sphinx
 Required-by: 
 ---
 Name: sphinx-markdown-tables

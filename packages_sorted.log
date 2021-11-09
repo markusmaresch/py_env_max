@@ -551,6 +551,7 @@ pycocotools
 pydata-sphinx-theme
 pyopenssl
 pyramid
+pytest-asyncio
 pytype
 recommonmark
 robin-stocks
@@ -560,6 +561,7 @@ seaborn
 seqeval
 spacy
 sphinx-autobuild
+sphinx-autodoc-typehints
 sphinx-panels
 sphinx-rtd-theme
 stable-baselines3

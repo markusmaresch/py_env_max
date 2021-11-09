@@ -424,6 +424,7 @@ pydata-sphinx-theme==0.7.1 # LEVEL_04 # Bootstrap-based Sphinx theme from the Py
 sphinx-autobuild==2021.3.14 # LEVEL_04 # Rebuild Sphinx documentation on changes, with live-reload in the browser
 sphinx-rtd-theme==1.0.0 # LEVEL_04 # Read the Docs theme for Sphinx
 sphinx-panels==0.6.0 # LEVEL_04 # A sphinx extension for creating panels in a grid layout
+sphinx-autodoc-typehints==1.12.0 # LEVEL_04 # Type hints (PEP 484) support for the Sphinx autodoc extension
 Sphinx==4.2.0 # LEVEL_03 # Python documentation generator
 sphinx-markdown-tables==0.0.15 # LEVEL_02 # A Sphinx extension for rendering tables written in markdown
 sphinxcontrib-applehelp==1.0.2 # LEVEL_01 # sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books
@@ -469,6 +470,7 @@ userpath==1.7.0 # LEVEL_02 # Cross-platform tool for adding locations to the use
 argcomplete==1.12.3 # LEVEL_01 # Bash tab completion for argparse
 #
 pytest==6.2.5 # LEVEL_03 # pytest: simple powerful testing with Python
+pytest-asyncio==0.16.0 # LEVEL_04 # Pytest support for asyncio
 #
 luigi==3.0.3 # LEVEL_03 # Workflow mgmgt + task scheduling + dependency resolution
 python-daemon==2.3.0 # LEVEL_02 # Library to implement a well-behaved Unix daemon process
