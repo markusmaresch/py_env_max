@@ -1689,7 +1689,7 @@ Requires: google-auth googleapis-common-protos protobuf requests setuptools
 Required-by: google-api-python-client google-cloud-bigquery google-cloud-core opencensus
 ---
 Name: google-api-python-client
-Version: 2.29.0
+Version: 2.30.0
 Summary: Google API Client Library for Python
 Home-page: https://github.com/googleapis/google-api-python-client/
 Author: Google LLC
@@ -1739,7 +1739,7 @@ Requires: google-api-core google-cloud-core google-resumable-media grpcio packag
 Required-by: 
 ---
 Name: google-cloud-core
-Version: 2.1.0
+Version: 2.2.0
 Summary: Google Cloud API client core library
 Home-page: https://github.com/googleapis/python-cloud-core
 Author: Google LLC
@@ -2089,7 +2089,7 @@ Requires: numpy pillow
 Required-by: scikit-image
 ---
 Name: imagesize
-Version: 1.2.0
+Version: 1.3.0
 Summary: Getting image size from png/jpeg/jpeg2000/gif file
 Home-page: https://github.com/shibukawa/imagesize_py
 Author: Yoshiki Shibukawa
@@ -2119,7 +2119,7 @@ Requires: networkx
 Required-by: pytype
 ---
 Name: importlib-metadata
-Version: 4.8.1
+Version: 4.8.2
 Summary: Read metadata from Python packages
 Home-page: https://github.com/python/importlib_metadata
 Author: Jason R. Coombs
@@ -3749,7 +3749,7 @@ Requires: Cython LunarCalendar cmdstanpy convertdate holidays matplotlib numpy p
 Required-by: 
 ---
 Name: proto-plus
-Version: 1.19.7
+Version: 1.19.8
 Summary: Beautiful, Pythonic protocol buffers.
 Home-page: https://github.com/googleapis/proto-plus-python.git
 Author: Google LLC
@@ -4489,7 +4489,7 @@ Requires: param
 Required-by: 
 ---
 Name: PyWavelets
-Version: 1.1.1
+Version: 1.2.0
 Summary: PyWavelets, wavelet transform module
 Home-page: https://github.com/PyWavelets/pywt
 Author: 
@@ -4939,7 +4939,7 @@ Requires:
 Required-by: geopandas
 ---
 Name: shortuuid
-Version: 1.0.6
+Version: 1.0.7
 Summary: A generator library for concise, unambiguous and URL-safe UUIDs.
 Home-page: https://github.com/skorokithakis/shortuuid/
 Author: Stavros Korokithakis

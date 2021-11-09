@@ -26,6 +26,10 @@ class PipShowAll:
                 # print(package)
                 packages.append(package)
 
+        #
+        # replace with https://importlib-metadata.readthedocs.io/en/latest/using.html
+        #
+
         cmd_pip_show = 'pip show'
         print('Querying with: {} <{} packages>'.format(cmd_pip_show, len(packages)))
         packs = ' '.join([str(elem) for elem in packages])

@@ -283,7 +283,7 @@ class LevelsCheck:
             if summary is not None and summary and summary != 'UNKNOWN':
                 if summary[-1] == '.':
                     summary = summary[:-1]
-                summary_needed = ' # {}\n'.format(summary)
+                summary_needed = ' # {}\n'.format(summary.strip())
                 i = line_new.find(summary_needed)
                 if i < 0:
                     changes2 += 1
