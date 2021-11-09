@@ -2259,7 +2259,7 @@ Requires: parso
 Required-by: ipython
 ---
 Name: Jinja2
-Version: 3.0.2
+Version: 3.0.3
 Summary: A very fast and expressive template engine.
 Home-page: https://palletsprojects.com/p/jinja/
 Author: Armin Ronacher
@@ -4619,7 +4619,7 @@ Requires:
 Required-by: ray
 ---
 Name: regex
-Version: 2021.11.2
+Version: 2021.11.9
 Summary: Alternative regular expression module, to replace re.
 Home-page: https://github.com/mrabarnett/mrab-regex
 Author: Matthew Barnett
