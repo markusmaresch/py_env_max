@@ -2479,11 +2479,11 @@ Requires:
 Required-by: 
 ---
 Name: keras
-Version: 2.7.0
-Summary: Deep learning for humans.
+Version: 2.6.0
+Summary: TensorFlow Keras.
 Home-page: https://keras.io/
-Author: Keras team
-Author-email: keras-users@googlegroups.com
+Author: Google Inc.
+Author-email: packages@tensorflow.org
 License: Apache 2.0
 Requires: 
 Required-by: tensorflow
@@ -5349,7 +5349,7 @@ Requires: six
 Required-by: luigi plotly
 ---
 Name: tensorboard
-Version: 2.7.0
+Version: 2.6.0
 Summary: TensorBoard lets you watch Tensors Flow
 Home-page: https://github.com/tensorflow/tensorboard
 Author: Google Inc.
@@ -5389,7 +5389,7 @@ Requires: numpy protobuf
 Required-by: 
 ---
 Name: tensorflow
-Version: 2.6.0
+Version: 2.6.2
 Summary: TensorFlow is an open source machine learning framework for everyone.
 Home-page: https://www.tensorflow.org/
 Author: Google Inc.
@@ -5419,7 +5419,7 @@ Requires: absl-py attrs dill future numpy promise protobuf requests six tensorfl
 Required-by: tf-models-official
 ---
 Name: tensorflow-estimator
-Version: 2.7.0
+Version: 2.6.0
 Summary: TensorFlow Estimator.
 Home-page: https://www.tensorflow.org/
 Author: Google Inc.

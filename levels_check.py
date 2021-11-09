@@ -80,7 +80,7 @@ class PackageInfo:
                     items.pop(0)
                     summary = line.replace('Summary:', '').strip()
                     # print('Summary: \'{}\' -> \'{}\''.format(package, summary))
-                    d[package.lower()] = summary
+                    d[package] = summary
                     del summary
                     del package  # in order to trigger an error and avoid wrong assignments..
             # for
@@ -88,20 +88,20 @@ class PackageInfo:
         print('Summaries: {}'.format(len(d)))
         return d
 
-    def get_summary(self, package: str, ignore_case: bool = False) -> typing.Union[str, object]:
+    def get_summary(self, package: str) -> typing.Union[str, object]:
         if package is None or not isinstance(package, str):
             return None
         summary = self.pi_dict.get(package)
         if summary is not None:
             return summary
-        lower_package = package.lower()
-        summary = self.pi_dict.get(lower_package)
-        if summary is not None:
-            return summary
-        lower_package2 = package.lower().replace('_', '.')  # Mastodon_py
-        summary = self.pi_dict.get(lower_package2)
+        # lower_package = package#.lower()
+        # summary = self.pi_dict.get(lower_package)
+        # if summary is not None:
+        #    return summary
+        package2 = package.replace('_', '.')  # Mastodon_py
+        summary = self.pi_dict.get(package2)
         if summary is None:
-            print('get_summary({},{},{}) ?'.format(package, lower_package, lower_package2))
+            print('get_summary({},{}) ?'.format(package, package2))
         return summary
 
 
@@ -115,8 +115,8 @@ class LevelsCheck:
         self.levels_cache = LevelsCache(self.levels_max)
         self.package_info = PackageInfo()
 
-    def get_summary(self, package: str, ignore_case: bool = False) -> typing.Union[str, object]:
-        return self.package_info.get_summary(package=package, ignore_case=ignore_case)
+    def get_summary(self, package: str) -> typing.Union[str, object]:
+        return self.package_info.get_summary(package=package)
 
     def render_json_tree(self, tree: PackageDAG, indent: int):
         """Converts the tree into a nested json representation.
@@ -160,51 +160,57 @@ class LevelsCheck:
         lc = self.levels_cache
         level = 0
         old_len_lod = 999
-        while True:
-            level += 1
-            if level >= self.levels_max:
-                break
-            if old_len_lod == len(lod) == 1:
-                break
-            if len(lod) < 1:
-                break
-            # print('Level {} .. {} packages'.format(level, len(lod)))
-            next_lod = list()
-            for d in lod:
-                package_name = d['key']
-                required_version = d['required_version']
-                dependencies = d['dependencies']
-                if level == 1:
-                    if len(dependencies) < 1:
-                        lc.add(level, d)
-                        # print('P: {} {} -> D: None .. Level 0'.format(package_name, required_version))
-                        # do not append to next
+
+        packages_sorted = 'packages_sorted.log'
+        with open(packages_sorted, 'w') as ps_file:
+            while True:
+                level += 1
+                if level >= self.levels_max:
+                    break
+                if old_len_lod == len(lod) == 1:
+                    break
+                if len(lod) < 1:
+                    break
+                # print('Level {} .. {} packages'.format(level, len(lod)))
+                next_lod = list()
+                for d in lod:
+                    package_name = d['key']
+                    required_version = d['required_version']
+                    dependencies = d['dependencies']
+                    if level == 1:
+                        if len(dependencies) < 1:
+                            lc.add(level, d)
+                            ps_file.write('{}\n'.format(package_name))
+                            # print('P: {} {} -> D: None .. Level 0'.format(package_name, required_version))
+                            # do not append to next
+                        else:
+                            next_lod.append(d)
                     else:
-                        next_lod.append(d)
-                else:
-                    found_all_below = True
-                    for dep in dependencies:
-                        dependency_name = dep['key']
-                        if not lc.find_below(level, dep):
-                            found_all_below = False
-                        # print('P: {} {} -> D: {} .. {}'
-                        #      .format(package_name, required_version, dependency_name, found_all_below))
-                    if found_all_below:
-                        lc.add(level, d)
-                        # print('P: {} {} -> Level {}  (found_all_below)'
-                        #      .format(package_name, required_version, level))
-                        # do not append to next
-                    else:
-                        next_lod.append(d)
-                        # print('P: {} {} -> Level {}  (NOT found_all_below)'
-                        #      .format(package_name, required_version, level))
-                # print('-' * 8)
-            old_len_lod = len(lod)
-            del lod
-            lod = next_lod
-            # print('=' * 8)
-        # print('=' * 72)
-        # lc.show()
+                        found_all_below = True
+                        for dep in dependencies:
+                            dependency_name = dep['key']
+                            if not lc.find_below(level, dep):
+                                found_all_below = False
+                            # print('P: {} {} -> D: {} .. {}'
+                            #      .format(package_name, required_version, dependency_name, found_all_below))
+                        if found_all_below:
+                            lc.add(level, d)
+                            ps_file.write('{}\n'.format(package_name))
+                            # print('P: {} {} -> Level {}  (found_all_below)'
+                            #      .format(package_name, required_version, level))
+                            # do not append to next
+                        else:
+                            next_lod.append(d)
+                            # print('P: {} {} -> Level {}  (NOT found_all_below)'
+                            #      .format(package_name, required_version, level))
+                    # print('-' * 8)
+                old_len_lod = len(lod)
+                del lod
+                lod = next_lod
+                # print('=' * 8)
+            # print('=' * 72)
+            # lc.show()
+        # with
         return True
 
     def modify_requirements(self) -> bool:
@@ -273,7 +279,7 @@ class LevelsCheck:
                 # fi
             # fi
 
-            summary = self.get_summary(package=package, ignore_case=True)
+            summary = self.get_summary(package=package)
             if summary is not None and summary and summary != 'UNKNOWN':
                 if summary[-1] == '.':
                     summary = summary[:-1]

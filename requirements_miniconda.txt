@@ -122,26 +122,26 @@ GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status 
 #
 # Machine Learning
 #
-tensorboard==2.7.0 # LEVEL_05 # TensorBoard lets you watch Tensors Flow
+tensorboard==2.6.0 # LEVEL_05 # TensorBoard lets you watch Tensors Flow
 tensorboard-data-server==0.6.1 # LEVEL_01 # Fast data loading for TensorBoard
 tensorboard-plugin-wit==1.8.0 # LEVEL_01 # What-If Tool TensorBoard plugin
 #
 tensorflow-text==2.6.0 # LEVEL_07 # TF.Text is a TensorFlow library of text related ops, modules, and subgraphs
-tensorflow==2.6.0 # LEVEL_06 # TensorFlow is an open source machine learning framework for everyone
+tensorflow==2.6.2 # LEVEL_06 # TensorFlow is an open source machine learning framework for everyone
 tensorflow-datasets==4.4.0 # LEVEL_04 # tensorflow/datasets is a library of datasets ready to use with TensorFlow
 tensorflow-metadata==1.4.0 # LEVEL_03 # Library and standards for schema and statistics
 tensorflow-model-optimization==0.7.0 # LEVEL_03 # A suite of tools that users, both novice and advanced can use to optimize machine learning models for deployment and execution
 tensorflow-addons==0.14.0 # LEVEL_02 # TensorFlow Addons
 tensorflow-hub==0.12.0 # LEVEL_02 # TensorFlow Hub is a library to foster the publication, discovery, and consumption of reusable parts of machine learning models
 tensorflow-io-gcs-filesystem==0.21.0 # LEVEL_01 # TensorFlow IO
-tensorflow-estimator==2.7.0 # LEVEL_01 # TensorFlow Estimator
+tensorflow-estimator==2.6.0 # LEVEL_01 # TensorFlow Estimator
 #
 tf-models-official==2.6.0 # LEVEL_08 # TensorFlow Official Models
 tf-slim==1.1.0 # LEVEL_03 # TensorFlow-Slim: A lightweight library for defining, training and evaluating complex models in TensorFlow
 #
 #
 Keras-Preprocessing==1.1.2 # LEVEL_02 # Easy data preprocessing and data augmentation for deep learning models
-keras==2.7.0 # LEVEL_01 # TensorFlow Keras # Deep learning for humans
+keras==2.6.0 # LEVEL_01 # TensorFlow Keras
 #
 datasets==1.15.1 # LEVEL_04 # HuggingFace community-driven open-source library of datasets
 huggingface-hub==0.1.2 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
@@ -253,7 +253,7 @@ opencv-python==4.5.4.58 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.4.58 # LEVEL_02 # Wrapper package for OpenCV python bindings
 imageio==2.10.3 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
-pillow==8.4.0 # LEVEL_01 # Python Imaging Library (Fork)
+Pillow==8.4.0 # LEVEL_01 # Python Imaging Library (Fork)
 #
 openvino==2021.4.1 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org # Inference Engine Python* API
 #openvino-dev==2021.4.1 # LEVEL_99 # has issues !!! # Openvino Tools
@@ -276,18 +276,18 @@ coinpaprika==0.1.0 # LEVEL_03 # Coinpaprika API Python client
 ib-insync==0.9.69 # LEVEL_03 # InteractiveBrokers 3rd party trading api ip_insync; dataclasses # if necessary # Python sync/async framework for Interactive Brokers API
 intrinio-sdk==5.16.0 # LEVEL_03 # Intrinio API
 tiingo==0.14.0 # LEVEL_03 # Python REST Client for interacting with the Tiingo Financial Data API https://pypi.org/project/tiingo # REST Client for Tiingo Data Platform API
-oandapyv20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console # Python wrapper for the OANDA REST-V20 API
+oandapyV20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console # Python wrapper for the OANDA REST-V20 API
 #alpaca-trade-api==1.3.0 # LEVEL_02 # old dependencies
 # histdata-downloader npyscreen # Forex Downloader
 #
 #
 py-vollib==1.0.1 # LEVEL_04 # option pricing
-ta-lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip install --upgrade --no-cache-dir ta-lib # sometimes needed # Python wrapper for TA-Lib
+TA-Lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip install --upgrade --no-cache-dir ta-lib # sometimes needed # Python wrapper for TA-Lib
 #
 robin-stocks==2.1.0 # LEVEL_04 # A Python wrapper around the Robinhood API
 cryptography==35.0.0 # LEVEL_03 # cryptography is a package which provides cryptographic recipes and primitives to Python developers
 #
-authlib==0.15.5 # LEVEL_04 # The ultimate Python library in building OAuth and OpenID Connect servers
+Authlib==0.15.5 # LEVEL_04 # The ultimate Python library in building OAuth and OpenID Connect servers
 h11==0.12.0 # LEVEL_01 # A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
 httpcore==0.13.7 # LEVEL_03 # A minimal low-level HTTP client
 pyotp==2.6.0 # LEVEL_01 # Python One Time Password Library
@@ -309,26 +309,26 @@ scs==2.1.4 # LEVEL_03 # scs: splitting conic solver
 # GUI & Visualization
 #
 qtconsole==5.2.0 # LEVEL_05 # Jupyter Qt console
-qtpy==1.11.2 # LEVEL_01 # Provides an abstraction layer on top of the various Qt bindings (PyQt5, PyQt4 and PySide) and additional custom QWidgets
-pysimplegui==4.55.1 # LEVEL_01 # Python GUIs for Humans. Launched in 2018. It's 2021 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers
-pyqt5==5.15.6 # LEVEL_02 # Python bindings for the Qt cross platform application toolkit
-pyqt5-qt5==5.15.2 # LEVEL_01 # The subset of a Qt installation needed by PyQt5
-pyqt5-sip==12.9.0 # LEVEL_01 # The sip module support for PyQt5
+QtPy==1.11.2 # LEVEL_01 # Provides an abstraction layer on top of the various Qt bindings (PyQt5, PyQt4 and PySide) and additional custom QWidgets
+PySimpleGUI==4.55.1 # LEVEL_01 # Python GUIs for Humans. Launched in 2018. It's 2021 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers
+PyQt5==5.15.6 # LEVEL_02 # Python bindings for the Qt cross platform application toolkit
+PyQt5-Qt5==5.15.2 # LEVEL_01 # The subset of a Qt installation needed by PyQt5
+PyQt5-sip==12.9.0 # LEVEL_01 # The sip module support for PyQt5
 pyqtgraph==0.12.3 # LEVEL_02 # for Chaos # Scientific Graphics and GUI Library for Python
 glib==1.0.0 # LEVEL_01 # A python graphics library that piggy-backs off of pyqt5
 #
-pyopengl==3.1.5 # LEVEL_01 # for PySpace # Standard OpenGL bindings for Python
+PyOpenGL==3.1.5 # LEVEL_01 # for PySpace # Standard OpenGL bindings for Python
 pygame==2.1.0 # LEVEL_01 # Python Game Development
-pygments==2.10.0 # LEVEL_01 # Pygments is a syntax highlighting package written in Python
+Pygments==2.10.0 # LEVEL_01 # Pygments is a syntax highlighting package written in Python
 pydot==1.4.2 # LEVEL_02 # Python interface to Graphviz's Dot
 networkx==2.6.3 # LEVEL_01 # Python package for creating and manipulating graphs and networks
 # pysimpleguiqt>=0.35.0
 #
 vispy==0.9.3 # LEVEL_02 # Interactive visualization in Python
 #
-kivy==2.0.0 # LEVEL_04 # A software library for rapid development of hardware-accelerated multitouch applications
-kivy-examples==2.0.0 # LEVEL_04 # Kivy examples
-kivy-garden==0.1.4 # LEVEL_03
+Kivy==2.0.0 # LEVEL_04 # A software library for rapid development of hardware-accelerated multitouch applications
+Kivy-examples==2.0.0 # LEVEL_04 # Kivy examples
+Kivy-Garden==0.1.4 # LEVEL_03
 kiwisolver==1.3.2 # LEVEL_01 # A fast implementation of the Cassowary constraint solver
 #
 dash==2.0.0 # LEVEL_05 # A Python framework for building reactive web-apps. Developed by Plotly
@@ -452,7 +452,7 @@ attrs==21.2.0 # LEVEL_01 # Classes Without Boilerplate
 backcall==0.2.0 # LEVEL_01 # Specifications for callback functions passed in to an API
 bleach==4.1.0 # LEVEL_03 # An easy safelist-based HTML-sanitizing tool
 blis==0.7.5 # LEVEL_02 # The Blis BLAS-like linear algebra library, as a self-contained C-extension
-brotli==1.0.9 # LEVEL_01 # Python bindings for the Brotli compression library
+Brotli==1.0.9 # LEVEL_01 # Python bindings for the Brotli compression library
 cachetools==4.2.4 # LEVEL_01 # Extensible memoizing collections and decorators
 catalogue==2.0.6 # LEVEL_01 # Super lightweight function registries for your library
 cchardet==2.1.7 # LEVEL_01 # cChardet is high speed universal character encoding detector
@@ -482,10 +482,10 @@ et-xmlfile==1.1.0 # LEVEL_01 # An implementation of lxml.xmlfile for the standar
 eventkit==0.8.9 # LEVEL_02 # Event-driven data pipelines
 fake-useragent==0.1.11 # LEVEL_01 # Up to date simple useragent faker with real world database
 #
-flask==2.0.2 # LEVEL_03 # A simple framework for building complex web applications
-flask-compress==1.10.1 # LEVEL_04 # Compress responses in your Flask app with gzip, deflate or brotli
-flask-seasurf==0.3.1 # LEVEL_04 # An updated CSRF extension for Flask
-flask-caching==1.10.1 # LEVEL_04 # Adds caching support to your Flask application
+Flask==2.0.2 # LEVEL_03 # A simple framework for building complex web applications
+Flask-Compress==1.10.1 # LEVEL_04 # Compress responses in your Flask app with gzip, deflate or brotli
+Flask-SeaSurf==0.3.1 # LEVEL_04 # An updated CSRF extension for Flask
+Flask-Caching==1.10.1 # LEVEL_04 # Adds caching support to your Flask application
 #
 freetype-py==2.2.0 # LEVEL_01 # Freetype python bindings
 fsspec==2021.11.0 # LEVEL_01 # File-system specification
@@ -495,7 +495,7 @@ geopy==2.2.0 # LEVEL_02 # Python Geocoding Toolbox
 gin-config==0.5.0 # LEVEL_01 # Gin-Config: A lightweight configuration library for Python
 grpcio-status==1.41.1 # LEVEL_03 # Status proto mapping for gRPC
 grpcio==1.41.1 # LEVEL_02 # HTTP/2-based RPC framework
-heapdict==1.0.1 # LEVEL_01 # a heap with decrease-key and increase-key operations
+HeapDict==1.0.1 # LEVEL_01 # a heap with decrease-key and increase-key operations
 hijri-converter==2.2.2 # LEVEL_01 # Accurate Hijri-Gregorian dates converter based on the Umm al-Qura calendar
 hsluv==5.0.2 # LEVEL_01 # Human-friendly HSL
 httplib2==0.20.2 # LEVEL_02 # A comprehensive HTTP client library
@@ -508,7 +508,7 @@ ipywidgets==7.6.5 # LEVEL_08 # IPython HTML widgets for Jupyter
 iso8601==1.0.0 # LEVEL_01 # Simple module to parse ISO 8601 dates
 itsdangerous==2.0.1 # LEVEL_01 # Safely pass data to untrusted environments and back
 jedi==0.18.0 # LEVEL_02 # An autocompletion tool for Python that can be used for text editors
-jinja2==3.0.2 # LEVEL_02 # template engine # A very fast and expressive template engine
+Jinja2==3.0.2 # LEVEL_02 # template engine # A very fast and expressive template engine
 joblib==1.1.0 # LEVEL_01 # Lightweight pipelining with Python functions
 korean-lunar-calendar==0.2.1 # LEVEL_01 # Korean Lunar Calendar
 llvmlite==0.37.0 # LEVEL_01 # lightweight wrapper around basic LLVM functionality
@@ -516,8 +516,8 @@ locket==0.2.1 # LEVEL_01 # File-based locks for Python for Linux and Windows
 lxml==4.6.4 # LEVEL_01 # Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API
 m3u8==0.9.0 # LEVEL_02 # play list parser, udemy-dl2 # Python m3u8 parser
 macholib==1.15.2 # LEVEL_02 # Mach-O header analysis and editing
-markdown==3.3.4 # LEVEL_01 # Python implementation of Markdown
-markupsafe==2.0.1 # LEVEL_01 # Safely add untrusted strings to HTML/XML markup
+Markdown==3.3.4 # LEVEL_01 # Python implementation of Markdown
+MarkupSafe==2.0.1 # LEVEL_01 # Safely add untrusted strings to HTML/XML markup
 mccabe==0.6.1 # LEVEL_01 # McCabe checker, plugin for flake8
 memory-profiler==0.58.0 # LEVEL_02 # A module for monitoring memory usage of a python program
 mistune==0.8.4 # LEVEL_01 # The fastest markdown parser in pure Python
@@ -571,15 +571,15 @@ pydantic==1.8.2 # LEVEL_02 # Data validation and settings management using pytho
 pyinstaller==4.6 # LEVEL_03 # PyInstaller bundles a Python application and all its dependencies into a single package
 pyinstaller-hooks-contrib==2021.3 # LEVEL_01 # deployment # Community maintained hooks for PyInstaller
 pyluach==1.3.0 # LEVEL_01 # Pyluach is a Python package for manipulating Hebrew dates,                     Gregorian-Hebrew calendar conversions, getting the weekly                     parsha, and other Jewish calendar related calculations
-pymeeus==0.5.11 # LEVEL_01 # Python implementation of Jean Meeus astronomical routines
+PyMeeus==0.5.11 # LEVEL_01 # Python implementation of Jean Meeus astronomical routines
 pyrsistent==0.18.0 # LEVEL_01 # Persistent/Functional/Immutable data structures
-pysocks==1.7.1 # LEVEL_01 # A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information
+PySocks==1.7.1 # LEVEL_01 # A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information
 python-dateutil==2.8.2 # LEVEL_02 # Extensions to the standard Python datetime module
 python-slugify==5.0.2 # LEVEL_02 # A Python Slugify application that handles Unicode
 python-socks==1.2.4 # LEVEL_01 # Core proxy (SOCKS4, SOCKS5, HTTP tunneling) functionality for Python
 pytz==2021.3 # LEVEL_01 # World timezone definitions, modern and historical
-pywavelets==1.1.1 # LEVEL_02 # PyWavelets, wavelet transform module
-pyyaml==6.0 # LEVEL_01 # YAML parser and emitter for Python
+PyWavelets==1.1.1 # LEVEL_02 # PyWavelets, wavelet transform module
+PyYAML==6.0 # LEVEL_01 # YAML parser and emitter for Python
 pyzmq==22.3.0 # LEVEL_01 # Python bindings for 0MQ
 qcore==1.7.0 # LEVEL_02 # Quora's core utility library
 regex==2021.11.2 # LEVEL_01 # Alternative regular expression module, to replace re
@@ -595,7 +595,7 @@ s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
 sacrebleu==2.0.0 # LEVEL_02 # Hassle-free computation of shareable, comparable, and reproducible BLEU, chrF, and TER scores
 sacremoses==0.0.46 # LEVEL_02 # SacreMoses
 schedule==1.1.0 # LEVEL_01 # Job scheduling for humans
-send2trash==1.8.0 # LEVEL_01 # Send file to trash natively under Mac OS X, Windows and Linux
+Send2Trash==1.8.0 # LEVEL_01 # Send file to trash natively under Mac OS X, Windows and Linux
 seqeval==1.2.2 # LEVEL_04 # Testing framework for sequence labeling
 setuptools-git==1.2 # LEVEL_01 # Setuptools revision control system plugin for Git
 simpervisor==0.4 # LEVEL_01 # Simple async process supervisor
@@ -626,7 +626,7 @@ typer==0.4.0 # LEVEL_02 # Typer, build great CLIs. Easy to code. Based on Python
 typeshed-client==1.1.2 # LEVEL_03 # A library for accessing stubs in typeshed
 typing-inspect==0.7.1 # LEVEL_02 # Runtime inspection utilities for typing module
 ua-parser==0.10.0 # LEVEL_01 # Python port of Browserscope's user agent parser
-unidecode==1.3.2 # LEVEL_01 # ASCII transliterations of Unicode text
+Unidecode==1.3.2 # LEVEL_01 # ASCII transliterations of Unicode text
 urllib3==1.26.7 # LEVEL_01 # HTTP library with thread-safe connection pooling, file post, and more
 url-normalize==1.4.3 # LEVEL_02 # URL normalization for Python
 wasabi==0.8.2 # LEVEL_01 # A lightweight console printing and formatting toolkit
@@ -634,7 +634,7 @@ wcwidth==0.2.5 # LEVEL_01 # Measures the displayed width of unicode strings in a
 webencodings==0.5.1 # LEVEL_01 # Character encoding aliases for legacy web content
 websockets==10.0 # LEVEL_01 # An implementation of the WebSocket Protocol (RFC 6455 & 7692)
 websocket-client==1.2.1 # LEVEL_01 # WebSocket client for Python with low level API options
-werkzeug==2.0.2 # LEVEL_01 # The comprehensive WSGI web application library
+Werkzeug==2.0.2 # LEVEL_01 # The comprehensive WSGI web application library
 wireless==0.3.3 # LEVEL_01 # A dead simple, cross-platform Python library to connect to wireless networks
 xxhash==2.0.2 # LEVEL_01 # Python binding for xxHash
 yarl==1.7.2 # LEVEL_02 # Yet another URL library
@@ -669,7 +669,7 @@ pydata-sphinx-theme==0.7.1 # LEVEL_04 # Bootstrap-based Sphinx theme from the Py
 sphinx-autobuild==2021.3.14 # LEVEL_04 # Rebuild Sphinx documentation on changes, with live-reload in the browser
 sphinx-rtd-theme==1.0.0 # LEVEL_04 # Read the Docs theme for Sphinx
 sphinx-panels==0.6.0 # LEVEL_04 # A sphinx extension for creating panels in a grid layout
-sphinx==4.2.0 # LEVEL_03 # Python documentation generator
+Sphinx==4.2.0 # LEVEL_03 # Python documentation generator
 sphinx-markdown-tables==0.0.15 # LEVEL_02 # A Sphinx extension for rendering tables written in markdown
 sphinxcontrib-applehelp==1.0.2 # LEVEL_01 # sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books
 sphinxcontrib-devhelp==1.0.2 # LEVEL_01 # sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp document
@@ -759,14 +759,14 @@ faiss-cpu==1.7.1.post2 # LEVEL_01 # A library for efficient similarity search an
 fastrlock==0.8 # LEVEL_01 # Fast, re-entrant optimistic lock implemented in Cython
 fastavro==1.4.7 # LEVEL_01 # Fast read/write of AVRO files
 #
-fiona==1.8.20 # LEVEL_03 # Fiona reads and writes spatial data files
+Fiona==1.8.20 # LEVEL_03 # Fiona reads and writes spatial data files
 munch==2.5.0 # LEVEL_02 # A dot-accessible dictionary (a la JavaScript objects)
 #
 fire==0.4.0 # LEVEL_02 # A library for automatically generating command line interfaces
 #
 geopandas==0.10.2 # LEVEL_04 # Geographic pandas extensions
 pyproj==3.2.1 # LEVEL_02 # Python interface to PROJ (cartographic projections and coordinate transformations library)
-shapely==1.8.0 # LEVEL_01 # Geometric objects, predicates, and operations
+Shapely==1.8.0 # LEVEL_01 # Geometric objects, predicates, and operations
 #
 #geotiff==0.2.3 # LEVEL_04 # has old dependencies on tifffile
 geos==0.2.3 # LEVEL_04 # Map server to view, measure and print maps in a web browserand to display maps as an overlay in google earth
@@ -788,7 +788,7 @@ msgpack-python==0.5.6 # LEVEL_01 # MessagePack (de)serializer
 nibabel==3.2.1 # LEVEL_03 # Access a multitude of neuroimaging data formats
 nilearn==0.8.1 # LEVEL_04 # Statistical learning for neuroimaging in Python
 #
-rtree==0.9.7 # LEVEL_01 # R-Tree spatial index for Python GIS
+Rtree==0.9.7 # LEVEL_01 # R-Tree spatial index for Python GIS
 #
 #snappy==3.0.1 # LEVEL_04
 #snappy-manifolds==1.1.2 # LEVEL_01
@@ -808,7 +808,7 @@ plaster-pastedeploy==0.7 # LEVEL_03 # A loader implementing the PasteDeploy synt
 pyramid==2.0 # LEVEL_04 # The Pyramid Web Framework, a Pylons project
 translationstring==1.4 # LEVEL_01 # Utility library for i18n relied on by various Repoze and Pyramid packages
 venusian==3.0.0 # LEVEL_01 # A library for deferring decorator actions
-webob==1.8.7 # LEVEL_01 # WSGI request and response object
+WebOb==1.8.7 # LEVEL_01 # WSGI request and response object
 zope_deprecation==4.4.0 # LEVEL_02 # Zope Deprecation Infrastructure
 zope_interface==5.4.0 # LEVEL_02 # Interfaces for Python
 #
