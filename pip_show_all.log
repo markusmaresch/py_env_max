@@ -269,10 +269,10 @@ Requires:
 Required-by: trio trio-websocket
 ---
 Name: async-timeout
-Version: 4.0.0
+Version: 4.0.1
 Summary: Timeout context manager for asyncio programs
-Home-page: https://github.com/aio-libs/async_timeout/
-Author: Andrew Svetlov
+Home-page: https://github.com/aio-libs/async-timeout
+Author: Andrew Svetlov <andrew.svetlov@gmail.com>
 Author-email: andrew.svetlov@gmail.com
 License: Apache 2
 Requires: typing-extensions
@@ -849,10 +849,10 @@ Requires: pymeeus pytz
 Required-by: holidays prophet
 ---
 Name: coverage
-Version: 6.1.1
+Version: 6.1.2
 Summary: Code coverage measurement for Python
 Home-page: https://github.com/nedbat/coveragepy
-Author: Ned Batchelder and 145 others
+Author: Ned Batchelder and 146 others
 Author-email: ned@nedbatchelder.com
 License: Apache 2.0
 Requires: 
@@ -1239,7 +1239,7 @@ Requires:
 Required-by: nystrom-attention performer-pytorch
 ---
 Name: elasticsearch
-Version: 7.15.1
+Version: 7.15.2
 Summary: Python client for Elasticsearch
 Home-page: https://github.com/elastic/elasticsearch-py
 Author: Honza Král, Nick Lang
@@ -2059,7 +2059,7 @@ Requires: pandas requests
 Required-by: 
 ---
 Name: imagecodecs
-Version: 2021.8.26
+Version: 2021.11.11
 Summary: Image transformation, compression, and decompression codecs
 Home-page: https://www.lfd.uci.edu/~gohlke/
 Author: Christoph Gohlke
@@ -2579,11 +2579,11 @@ Requires:
 Required-by: 
 ---
 Name: langcodes
-Version: 3.2.1
-Summary: Labels and compares human languages in a standardized way
-Home-page: http://github.com/rspeer/langcodes
-Author: 
-Author-email: 
+Version: 3.3.0
+Summary: Tools for labeling human languages with IETF language tags
+Home-page: https://github.com/rspeer/langcodes
+Author: Elia Robyn Speer
+Author-email: rspeer@arborelia.net
 License: MIT
 Requires: 
 Required-by: spacy
@@ -3629,9 +3629,9 @@ Requires:
 Required-by: zeep
 ---
 Name: plink
-Version: 2.4
+Version: 2.4.1
 Summary: A full featured Tk-based knot and link editor
-Home-page: http://www.math.uic.edu/t3m/plink/doc/
+Home-page: https://www.math.uic.edu/t3m/plink/doc/
 Author: Marc Culler and Nathan M. Dunfield
 Author-email: culler@uic.edu, nathan@dunfield.info
 License: GPLv2+
@@ -3779,7 +3779,7 @@ Requires:
 Required-by: distributed gpustat memory-profiler tf-models-official wandb
 ---
 Name: psycopg2-binary
-Version: 2.9.1
+Version: 2.9.2
 Summary: psycopg2 - Python-PostgreSQL Database Adapter
 Home-page: https://psycopg.org/
 Author: Federico Di Gregorio
@@ -3979,7 +3979,7 @@ Requires: typing-extensions
 Required-by: spacy thinc
 ---
 Name: pydata-sphinx-theme
-Version: 0.7.1
+Version: 0.7.2
 Summary: Bootstrap-based Sphinx theme from the PyData community
 Home-page: https://github.com/pydata/pydata-sphinx-theme
 Author: 
@@ -4079,7 +4079,7 @@ Requires:
 Required-by: Kivy Kivy-examples Sphinx asynq ipython jupyter-console jupyterlab-pygments nbconvert qtconsole rich
 ---
 Name: pyinstaller
-Version: 4.6
+Version: 4.7
 Summary: PyInstaller bundles a Python application and all its dependencies into a single package.
 Home-page: http://www.pyinstaller.org/
 Author: Hartmut Goebel, Giovanni Bajo, David Vierra, David Cortesi, Martin Zibricky
@@ -4619,7 +4619,7 @@ Requires:
 Required-by: ray
 ---
 Name: regex
-Version: 2021.11.9
+Version: 2021.11.10
 Summary: Alternative regular expression module, to replace re.
 Home-page: https://github.com/mrabarnett/mrab-regex
 Author: Matthew Barnett
@@ -4949,7 +4949,7 @@ Requires:
 Required-by: geopandas
 ---
 Name: shortuuid
-Version: 1.0.7
+Version: 1.0.8
 Summary: A generator library for concise, unambiguous and URL-safe UUIDs.
 Home-page: https://github.com/skorokithakis/shortuuid/
 Author: Stavros Korokithakis
@@ -5039,7 +5039,7 @@ Requires:
 Required-by: distributed trio
 ---
 Name: soupsieve
-Version: 2.3
+Version: 2.3.1
 Summary: A modern CSS selector implementation for Beautiful Soup.
 Home-page: https://github.com/facelessuser/soupsieve
 Author: Isaac Muse
@@ -5099,7 +5099,7 @@ Requires: colormath
 Required-by: 
 ---
 Name: Sphinx
-Version: 4.2.0
+Version: 4.3.0
 Summary: Python documentation generator
 Home-page: https://www.sphinx-doc.org/
 Author: Georg Brandl
@@ -5219,7 +5219,7 @@ Requires:
 Required-by: Sphinx
 ---
 Name: SQLAlchemy
-Version: 1.4.26
+Version: 1.4.27
 Summary: Database Abstraction Library
 Home-page: https://www.sqlalchemy.org
 Author: Mike Bayer
@@ -5829,11 +5829,11 @@ Requires: aiodns aiohttp aiohttp-socks beautifulsoup4 cchardet elasticsearch fak
 Required-by: 
 ---
 Name: typed-ast
-Version: 1.4.3
+Version: 1.5.0
 Summary: a fork of Python 2 and 3 ast modules with type comment support
 Home-page: https://github.com/python/typed_ast
 Author: David Fisher
-Author-email: UNKNOWN
+Author-email: 
 License: Apache License 2.0
 Requires: 
 Required-by: pytype typeshed-client
