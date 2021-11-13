@@ -88,6 +88,7 @@ pyDeprecate==0.3.1 # LEVEL_01 # pytorch-lightning 1.5.0 has requirement pyDeprec
 #
 antlr4-python3-runtime==4.8 # LEVEL_01 # omegaconf 2.1.1 requires antlr4-python3-runtime==4.8 # ANTLR 4.8 runtime for Python 3.7
 #
+httpcore==0.13.7 # LEVEL_03 # LOCKED # A minimal low-level HTTP client
 #
 # Generic Low Level Tools
 #
@@ -150,7 +151,7 @@ xgboost==1.5.0 # LEVEL_03 # check installation notes # XGBoost Python Package
 pyro-ppl==1.7.0 # LEVEL_03 # A Python library for probabilistic modeling and inference
 pyro-api==0.1.2 # LEVEL_01 # Generic API for dispatch to Pyro backends
 #
-pytorch-lightning==1.5.0 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
+pytorch-lightning==1.5.1 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
 performer-pytorch==1.1.3 # LEVEL_04 # Performer - Pytorch
 torch-optimizer==0.3.0 # LEVEL_04 # pytorch-optimizer
 torchaudio==0.10.0 # LEVEL_03 # An audio package for PyTorch
@@ -200,8 +201,8 @@ Babel==2.9.1 # LEVEL_02 # Internationalization utilities
 bert-for-tf2==0.14.9 # LEVEL_03 # A TensorFlow 2.0 Keras implementation of BERT
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger # Attention visualization tool for NLP Transformer models
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
-boto3==1.20.0 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
-botocore==1.23.0 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+boto3==1.20.4 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+botocore==1.23.4 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 #
 spacytextblob==3.0.1 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
 spacy==3.2.0 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
@@ -236,7 +237,7 @@ dask[complete]==2021.11.1 # LEVEL_03 # Parallel PyData with Task Scheduling
 scikit-image==0.18.3 # LEVEL_04 # Image processing in Python
 scikit-learn==1.0.1 # LEVEL_03 # A set of python modules for machine learning and data mining
 pyod==0.9.5 # LEVEL_05 # outlyer detection # A Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
-jax==0.2.24 # LEVEL_03 # Differentiate, compile, and transform Numpy code
+jax==0.2.25 # LEVEL_03 # Differentiate, compile, and transform Numpy code
 #
 rapidminer==9.10.0.0 # LEVEL_05 # Tools for running RapidMiner processes and managing RapidMiner repositories
 zeep==4.1.0 # LEVEL_04 # A modern/fast Python SOAP client based on lxml / requests
@@ -250,7 +251,7 @@ platformdirs==2.4.0 # LEVEL_01 # A small Python module for determining appropria
 #
 opencv-python==4.5.4.58 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.4.58 # LEVEL_02 # Wrapper package for OpenCV python bindings
-imageio==2.10.3 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
+imageio==2.10.4 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
 Pillow==8.4.0 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
@@ -289,9 +290,8 @@ cryptography==35.0.0 # LEVEL_03 # cryptography is a package which provides crypt
 #
 Authlib==0.15.5 # LEVEL_04 # The ultimate Python library in building OAuth and OpenID Connect servers
 h11==0.12.0 # LEVEL_01 # A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
-httpcore==0.13.7 # LEVEL_03 # A minimal low-level HTTP client
 pyotp==2.6.0 # LEVEL_01 # Python One Time Password Library
-python-dotenv==0.19.1 # LEVEL_01 # Read key-value pairs from a .env file and set them as environment variables
+python-dotenv==0.19.2 # LEVEL_01 # Read key-value pairs from a .env file and set them as environment variables
 rfc3986==1.5.0 # LEVEL_01 # Validating URI References per RFC 3986
 selenium==4.0.0 # LEVEL_05 # 
 #
@@ -347,7 +347,7 @@ plotly==5.3.1 # LEVEL_03 # An open-source, interactive data visualization librar
 # Google ..
 #
 google-cloud-bigquery==2.30.1 # LEVEL_06 # Google BigQuery API client library
-google-cloud-core==2.2.0 # LEVEL_05 # Google Cloud API client core library
+google-cloud-core==2.2.1 # LEVEL_05 # Google Cloud API client core library
 google-resumable-media==2.1.0 # LEVEL_02 # Utilities for Google Media Downloads and Resumable Uploads
 google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC32C'
 #
@@ -373,7 +373,7 @@ s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
 # Jupyter
 #
 jupyter==1.0.0 # LEVEL_09 # Jupyter metapackage. Install all the Jupyter components in one go
-jupyterlab==3.2.2 # LEVEL_08 # JupyterLab computational environment
+jupyterlab==3.2.3 # LEVEL_08 # JupyterLab computational environment
 jupyter-server-proxy==3.1.0 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
 jupyterlab-server==2.8.2 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.0 # LEVEL_06 # Dash support for the Jupyter notebook interface
@@ -390,10 +390,10 @@ widgetsnbextension==3.5.2 # LEVEL_07 # IPython HTML widgets for Jupyter
 nbclassic==0.3.4 # LEVEL_07 # Jupyter Notebook as a Jupyter Server extension
 notebook==6.4.5 # LEVEL_06 # A web-based notebook environment for interactive computing
 nbsphinx==0.8.7 # LEVEL_06 # Jupyter Notebook Tools for Sphinx
-nbconvert==6.2.0 # LEVEL_05 # Converting Jupyter Notebooks
+nbconvert==6.3.0 # LEVEL_05 # Converting Jupyter Notebooks
 qtconsole==5.2.0 # LEVEL_05 # Jupyter Qt console
 ipykernel==6.5.0 # LEVEL_04 # IPython Kernel for Jupyter
-nbclient==0.5.5 # LEVEL_04 # A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor
+nbclient==0.5.8 # LEVEL_04 # A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor
 nbformat==5.1.3 # LEVEL_03 # The Jupyter Notebook format
 matplotlib-inline==0.1.3 # LEVEL_02 # Inline Matplotlib backend for Jupyter
 #
