@@ -131,9 +131,9 @@ tensorflow==2.6.2 # LEVEL_06 # TensorFlow is an open source machine learning fra
 tensorflow-datasets==4.4.0 # LEVEL_04 # tensorflow/datasets is a library of datasets ready to use with TensorFlow
 tensorflow-metadata==1.4.0 # LEVEL_03 # Library and standards for schema and statistics
 tensorflow-model-optimization==0.7.0 # LEVEL_03 # A suite of tools that users, both novice and advanced can use to optimize machine learning models for deployment and execution
-tensorflow-addons==0.14.0 # LEVEL_02 # TensorFlow Addons
+tensorflow-addons==0.15.0 # LEVEL_02 # TensorFlow Addons
 tensorflow-hub==0.12.0 # LEVEL_02 # TensorFlow Hub is a library to foster the publication, discovery, and consumption of reusable parts of machine learning models
-tensorflow-io-gcs-filesystem==0.21.0 # LEVEL_01 # TensorFlow IO
+tensorflow-io-gcs-filesystem==0.22.0 # LEVEL_01 # TensorFlow IO
 tensorflow-estimator==2.6.0 # LEVEL_01 # TensorFlow Estimator
 #
 tf-models-official==2.6.0 # LEVEL_08 # TensorFlow Official Models
@@ -201,8 +201,8 @@ Babel==2.9.1 # LEVEL_02 # Internationalization utilities
 bert-for-tf2==0.14.9 # LEVEL_03 # A TensorFlow 2.0 Keras implementation of BERT
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger # Attention visualization tool for NLP Transformer models
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
-boto3==1.20.4 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
-botocore==1.23.4 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+boto3==1.20.5 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+botocore==1.23.5 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 #
 spacytextblob==3.0.1 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
 spacy==3.2.0 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
@@ -271,7 +271,7 @@ alpha-vantage==2.3.1 # LEVEL_04 # Python module to get stock data from the Alpha
 finta==1.3 # LEVEL_04 # Common financial technical indicators implemented in Pandas
 iexfinance==0.5.0 # LEVEL_04 # Python module to get stock data from IEX Cloud and IEX API 1.0
 trading-calendars==2.1.1 # LEVEL_04 # trading_calendars is a Python library with securities exchange calendars used by Quantopian's Zipline
-yfinance==0.1.64 # LEVEL_04 # https://github.com/ranaroussi/yfinance # Yahoo! Finance market data downloader
+yfinance==0.1.66 # LEVEL_04 # https://github.com/ranaroussi/yfinance # Yahoo! Finance market data downloader
 yahoofinancials==1.6 # LEVEL_03 # https://github.com/JECSand/yahoofinancials # A powerful financial data module used for pulling both fundamental and technical data from Yahoo Finance
 coinpaprika==0.1.0 # LEVEL_03 # Coinpaprika API Python client
 ib-insync==0.9.69 # LEVEL_03 # InteractiveBrokers 3rd party trading api ip_insync; dataclasses # if necessary # Python sync/async framework for Interactive Brokers API
@@ -461,7 +461,7 @@ pydeps==1.10.12 # LEVEL_02 # cd src/main; pydeps .; open main.svg # Display modu
 autopep8==1.6.0 # LEVEL_02 # using fix_file # A tool that automatically formats Python code to conform to the PEP 8 style guide
 mypy==0.910 # LEVEL_02 # Optional static typing for Python
 mypy-extensions==0.4.3 # LEVEL_01 # investigate more for automated checking # Experimental type system extensions for programs checked with the mypy typechecker
-pytype==2021.11.2 # LEVEL_04 # Python type inferencer
+pytype==2021.11.12 # LEVEL_04 # Python type inferencer
 importlab==0.6.1 # LEVEL_02 # A library to calculate python dependency graphs
 libcst==0.3.21 # LEVEL_03 # A concrete syntax tree with AST-like properties for Python 3.5, 3.6, 3.7 and 3.8 programs
 ninja==1.10.2.2 # LEVEL_01 # Ninja is a small build system with a focus on speed
@@ -487,7 +487,7 @@ aiohttp-socks==0.6.0 # LEVEL_04 # Proxy connector for aiohttp
 pyanalyze==0.3.1 # LEVEL_04 # A static analyzer for Python
 pycocotools==2.0.2 # LEVEL_04 # Official APIs for the MS-COCO dataset
 #
-aenum==3.1.3 # LEVEL_01 # Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
+aenum==3.1.5 # LEVEL_01 # Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
 aiohttp==3.8.0 # LEVEL_03 # Async http client/server framework (asyncio)
 async-timeout==4.0.1 # LEVEL_02 # Timeout context manager for asyncio programs
 aioredis==2.0.0 # 1.3.1 # LEVEL_03 # asyncio (PEP 3156) Redis support
@@ -570,7 +570,7 @@ msgpack==1.0.2 # LEVEL_01 # MessagePack (de)serializer
 multidict==5.2.0 # LEVEL_01 # multidict implementation
 multipledispatch==0.6.0 # LEVEL_02 # Multiple dispatch
 multiprocess==0.70.12.2 # LEVEL_02 # better multiprocessing and multithreading in python
-multitasking==0.0.9 # LEVEL_01 # Non-blocking Python methods using decorators
+multitasking==0.0.10 # LEVEL_01 # Non-blocking Python methods using decorators
 murmurhash==1.0.6 # LEVEL_01 # Cython bindings for MurmurHash
 nest-asyncio==1.5.1 # LEVEL_01 # Patch asyncio to allow nested event loops
 netifaces==0.11.0 # LEVEL_01 # Portable network interface information
@@ -637,7 +637,7 @@ simpervisor==0.4 # LEVEL_01 # Simple async process supervisor
 sniffio==1.2.0 # LEVEL_01 # Sniff out which async library your code is running under
 sortedcontainers==2.4.0 # LEVEL_01 # Sorted Containers -- Sorted List, Sorted Dict, Sorted Set
 srsly==2.4.2 # LEVEL_02 # Modern high-performance serialization utilities for Python
-statsmodels==0.13.0 # LEVEL_04 # Statistical computations and models for Python
+statsmodels==0.13.1 # LEVEL_04 # Statistical computations and models for Python
 stdlib-list==0.8.0 # LEVEL_01 # A list of Python Standard Libraries (2.6-7, 3.2-9)
 stumpy==1.9.2 # LEVEL_03 # A powerful and scalable library that can be used for a variety of time series data mining tasks
 tabulate==0.8.9 # LEVEL_01 # Pretty-print tabular data
@@ -680,7 +680,7 @@ zipp==3.6.0 # LEVEL_01 # Backport of pathlib-compatible object wrapper for zip f
 #
 #streamlit # has some dependencies !!
 tbb==2021.4.0 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
-tiledb==0.10.4 # LEVEL_02 # Pythonic interface to the TileDB array storage manager
+tiledb==0.10.5 # LEVEL_02 # Pythonic interface to the TileDB array storage manager
 tinycss2==1.1.0 # LEVEL_02 # tinycss2
 xarray==0.20.1 # LEVEL_04 # N-D labeled arrays and datasets in Python
 zstd==1.5.0.2 # LEVEL_01 # ZSTD Bindings for Python
@@ -730,7 +730,7 @@ hiredis==2.0.0 # LEVEL_01 # Python wrapper for hiredis
 nvidia-ml-py3==7.352.0 # LEVEL_01 # Python Bindings for the NVIDIA Management Library
 opencensus==0.8.0 # LEVEL_05 # A stats collection and distributed tracing framework
 opencensus-context==0.1.2 # LEVEL_01 # OpenCensus Runtime Context
-py-spy==0.3.10 # LEVEL_01 # Sampling profiler for Python programs
+py-spy==0.3.11 # LEVEL_01 # Sampling profiler for Python programs
 pydeck==0.7.1 # LEVEL_09 # Widget for deck.gl maps
 PyMySQL==1.0.2 # LEVEL_01 # Pure Python MySQL Driver
 cattrs==1.8.0 # LEVEL_02 # Composable complex class support for attrs and dataclasses
