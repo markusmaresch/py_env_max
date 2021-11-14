@@ -6069,7 +6069,7 @@ Requires:
 Required-by: jupyter-server
 ---
 Name: websockets
-Version: 10.0
+Version: 10.1
 Summary: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
 Home-page: https://github.com/aaugustin/websockets
 Author: Aymeric Augustin
