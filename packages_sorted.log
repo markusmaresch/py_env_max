@@ -202,6 +202,7 @@ sentencepiece
 setuptools
 setuptools-git
 shapely
+shellingham
 shortuuid
 simpervisor
 simplejson

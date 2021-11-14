@@ -4958,6 +4958,16 @@ License: BSD
 Requires: 
 Required-by: geopandas
 ---
+Name: shellingham
+Version: 1.4.0
+Summary: Tool to Detect Surrounding Shell
+Home-page: https://github.com/sarugaku/shellingham
+Author: Tzu-ping Chung
+Author-email: uranusjr@gmail.com
+License: ISC License
+Requires: 
+Required-by: 
+---
 Name: shortuuid
 Version: 1.0.8
 Summary: A generator library for concise, unambiguous and URL-safe UUIDs.
