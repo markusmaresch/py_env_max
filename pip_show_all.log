@@ -39,7 +39,7 @@ Requires: pycares
 Required-by: twint
 ---
 Name: aiohttp
-Version: 3.8.0
+Version: 3.8.1
 Summary: Async http client/server framework (asyncio)
 Home-page: https://github.com/aio-libs/aiohttp
 Author: 
@@ -1267,6 +1267,16 @@ Author-email: jt@occams.info
 License: CC0 (copyright waived)
 Requires: dnspython idna
 Required-by: 
+---
+Name: emoji
+Version: 1.6.1
+Summary: Emoji for Python
+Home-page: https://github.com/carpedm20/emoji/
+Author: Taehoon Kim, Kevin Wurster and Tahir Jalilov
+Author-email: carpedm20@gmail.com
+License: New BSD
+Requires: 
+Required-by: stanza
 ---
 Name: empyrical
 Version: 0.5.5
@@ -3156,7 +3166,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh cftime cmdstanpy colormath cvxpy dask-ml datasets datashader datashape ecos elegantrl empyrical eventkit exchange-calendars fastprogress finta gensim gym h5py imagecodecs imageio imbalanced-learn jax jqdatasdk matplotlib netCDF4 nibabel nilearn numba numcodecs opencv-python opencv-python-headless openvino opt-einsum osqp pandas params-flow patsy pmdarima prophet py-lets-be-rational py-vollib pyarrow pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 statsmodels stockstats stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers vispy wordcloud wrds xarray xgboost yfinance zarr
+Required-by: Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh cftime cmdstanpy colormath cvxpy dask-ml datasets datashader datashape ecos elegantrl empyrical eventkit exchange-calendars fastprogress finta gensim gym h5py imagecodecs imageio imbalanced-learn jax jqdatasdk matplotlib netCDF4 nibabel nilearn numba numcodecs opencv-python opencv-python-headless openvino opt-einsum osqp pandas params-flow patsy pmdarima prophet py-lets-be-rational py-vollib pyarrow pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 stanza statsmodels stockstats stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers vispy wordcloud wrds xarray xgboost yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -3766,7 +3776,7 @@ Author:
 Author-email: 
 License: 3-Clause BSD License
 Requires: 
-Required-by: google-api-core google-cloud-bigquery googleapis-common-protos grpcio-status proto-plus ray tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata wandb
+Required-by: google-api-core google-cloud-bigquery googleapis-common-protos grpcio-status proto-plus ray stanza tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata wandb
 ---
 Name: psutil
 Version: 5.8.0
@@ -4636,7 +4646,7 @@ Author: Kenneth Reitz
 Author-email: me@kennethreitz.org
 License: Apache 2.0
 Requires: certifi charset-normalizer idna urllib3
-Required-by: Kivy-Garden Mastodon.py Sphinx alpha-vantage azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth datasets fastai google-api-core google-cloud-bigquery googletransx h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle minimal-snowplow-tracker msrest nilearn openai pandas-datareader pandas-finance rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy tensorboard tensorflow-datasets tiingo transformers wandb yfinance zeep
+Required-by: Kivy-Garden Mastodon.py Sphinx alpha-vantage azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth datasets fastai google-api-core google-cloud-bigquery googletransx h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle minimal-snowplow-tracker msrest nilearn openai pandas-datareader pandas-finance rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy stanza tensorboard tensorflow-datasets tiingo transformers wandb yfinance zeep
 ---
 Name: requests-cache
 Version: 0.8.1
@@ -4986,7 +4996,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py agate astunparse atari-py azure-core bleach blessings chart-studio cypari dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil requests-file retrying rouge-score sacremoses tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators wandb
+Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py agate astunparse atari-py azure-core bleach blessings chart-studio cypari dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil requests-file retrying rouge-score sacremoses stanza tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators wandb
 ---
 Name: smart-open
 Version: 5.2.1
@@ -5256,6 +5266,16 @@ Author: Antonin Raffin
 Author-email: antonin.raffin@dlr.de
 License: MIT
 Requires: cloudpickle gym matplotlib numpy pandas torch
+Required-by: 
+---
+Name: stanza
+Version: 1.3.0
+Summary: A Python NLP Library for Many Human Languages, by the Stanford NLP Group
+Home-page: https://github.com/stanfordnlp/stanza
+Author: Stanford Natural Language Processing Group
+Author-email: jebolton@stanford.edu
+License: Apache License 2.0
+Requires: emoji numpy protobuf requests six torch tqdm
 Required-by: 
 ---
 Name: statsmodels
@@ -5696,7 +5716,7 @@ Author: PyTorch Team
 Author-email: packages@pytorch.org
 License: BSD-3
 Requires: typing-extensions
-Required-by: axial-positional-embedding bertviz elegantrl fastai local-attention nystrom-attention performer-pytorch pyro-ppl pytorch-lightning pytorch-ranger stable-baselines3 torch-optimizer torchaudio torchmetrics torchvision
+Required-by: axial-positional-embedding bertviz elegantrl fastai local-attention nystrom-attention performer-pytorch pyro-ppl pytorch-lightning pytorch-ranger stable-baselines3 stanza torch-optimizer torchaudio torchmetrics torchvision
 ---
 Name: torch-optimizer
 Version: 0.3.0
@@ -5756,7 +5776,7 @@ Author:
 Author-email: 
 License: MPLv2.0, MIT Licences
 Requires: 
-Required-by: bertviz datasets huggingface-hub kaggle nltk openai params-flow prophet pyro-ppl pytorch-lightning sacremoses spacy tensorflow-datasets transformers
+Required-by: bertviz datasets huggingface-hub kaggle nltk openai params-flow prophet pyro-ppl pytorch-lightning sacremoses spacy stanza tensorflow-datasets transformers
 ---
 Name: trading-calendars
 Version: 2.1.1

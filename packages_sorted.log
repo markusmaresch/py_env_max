@@ -53,6 +53,7 @@ dlpack
 dnspython
 docutils
 einops
+emoji
 entrypoints
 ephem
 et-xmlfile
@@ -486,6 +487,7 @@ scikit-learn
 scs
 spectra
 sphinx
+stanza
 stumpy
 tensorflow-metadata
 tensorflow-model-optimization
