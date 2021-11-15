@@ -211,8 +211,8 @@ Babel==2.9.1 # LEVEL_02 # Internationalization utilities
 bert-for-tf2==0.14.9 # LEVEL_03 # A TensorFlow 2.0 Keras implementation of BERT
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger # Attention visualization tool for NLP Transformer models
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
-boto3==1.20.5 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
-botocore==1.23.5 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+boto3==1.20.6 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+botocore==1.23.6 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 #
 spacytextblob==3.0.1 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
 spacy==3.2.0 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
@@ -400,7 +400,7 @@ jupyterlab-server==2.8.2 # LEVEL_07 # A set of server components for JupyterLab 
 jupyter-dash==0.4.0 # LEVEL_06 # Dash support for the Jupyter notebook interface
 jupyter-server==1.11.2 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-console==6.4.0 # LEVEL_05 # Jupyter terminal console
-jupyter-packaging==0.11.0 # LEVEL_04 # Jupyter Packaging Utilities
+jupyter-packaging==0.11.1 # LEVEL_04 # Jupyter Packaging Utilities
 jupyter-client==7.0.6 # LEVEL_03 # Jupyter protocol implementation and client libraries
 jupyter-core==4.9.1 # LEVEL_02 # Jupyter core package. A base package on which Jupyter projects rely
 jupyterlab-pygments==0.1.2 # LEVEL_02 # Pygments theme using JupyterLab CSS variables
