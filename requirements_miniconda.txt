@@ -52,6 +52,8 @@ absl-py==0.12.0 # LEVEL_02 # LOCKED # tensorflow-metadata 1.2.0 has requirement 
 h5py==3.1.0 # LEVEL_02 # LOCKED # tensorflow==2.6.0 requires h5py~=3.1.0 # Read and write HDF5 files from Python
 google-auth==1.35.0 # LEVEL_03 # LOCKED # tensorboard==2.6.0 requires google-auth>=1.6.3,<2 # Google Authentication Library
 flatbuffers==1.12 # LEVEL_01 # LOCKED # tensorflow 2.6.0 requires flatbuffers~=1.12.0 # The FlatBuffers serialization format for Python
+#
+Deprecated==1.2.13 # LEVEL_02 # Python @deprecated decorator to deprecate old python classes, functions or methods
 wrapt==1.12.1 # LEVEL_01 # LOCKED # tensorflow 2.6.0 requires 1.12.1 # Module for decorators, wrappers and monkey patching
 #
 typing-extensions==3.7.4.3 # LEVEL_01 # LOCKED # tensorflow==2.6.0 requires ~3.7.4 # Backported and Experimental Type Hints for Python 3.5+
