@@ -191,7 +191,6 @@ pytz
 pyyaml
 pyzmq
 qtpy
-redis
 regex
 rfc3986
 rtree
@@ -287,6 +286,7 @@ colormath
 convertdate
 cypari
 cytoolz
+deprecated
 dm-tree
 docker-pycreds
 elasticsearch
@@ -477,7 +477,7 @@ pyro-ppl
 pytest
 pytorch-ranger
 qdldl
-ray
+redis
 requests-cache
 requests-file
 requests-oauthlib
@@ -556,6 +556,7 @@ pyopenssl
 pyramid
 pytest-asyncio
 pytype
+ray
 recommonmark
 robin-stocks
 s3transfer

@@ -114,7 +114,8 @@ box2d-py==2.3.8 # LEVEL_01 # Python Box2D
 #ccxt==1.58.26 # LEVEL_01
 #
 wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
-ray==1.8.0 # LEVEL_03 # Ray provides a simple, universal API for building distributed applications
+ray==1.8.0 # LEVEL_04 # Ray provides a simple, universal API for building distributed applications
+redis==4.0.0 # LEVEL_03 # Python client for Redis database and key-value store
 tensorboardX==2.4 # LEVEL_02 # TensorBoardX lets you watch Tensors Flow without Tensorflow
 lz4==3.1.3 # LEVEL_01 # LZ4 Bindings for Python
 GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status from NVIDA GPUs using nvidia-smi
@@ -178,7 +179,7 @@ gym==0.21.0 # LEVEL_02 # Gym: A universal API for reinforcement learning environ
 gensim==4.1.2 # LEVEL_03 # Python framework for fast Vector Space Modelling
 #
 openai==0.11.0 # LEVEL_04 # Python client library for the OpenAI API
-pandas-stubs==1.2.0.37 # LEVEL_01 # needed by openai # Type annotations for Pandas
+pandas-stubs==1.2.0.38 # LEVEL_01 # needed by openai # Type annotations for Pandas
 #
 wandb==0.12.6 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
 #
@@ -348,7 +349,7 @@ dash-table==5.0.0 # LEVEL_01 # Dash table
 dash-renderer==1.9.1 # LEVEL_01 # Front-end component renderer for Dash
 #
 chart-studio==1.1.0 # LEVEL_04 # Utilities for interfacing with plotly's Chart Studio
-plotly==5.3.1 # LEVEL_03 # An open-source, interactive data visualization library for Python
+plotly==5.4.0 # LEVEL_03 # An open-source, interactive data visualization library for Python
 #
 #
 # Color & Terminal
@@ -716,7 +717,6 @@ outcome==1.1.0 # LEVEL_02 # Capture the outcome of Python function calls
 pluggy==1.0.0 # LEVEL_01 # plugin and hook calling mechanisms for python
 py==1.11.0 # LEVEL_01 # library with cross-python path, ini-parsing, io, code, log facilities
 pyOpenSSL==21.0.0 # LEVEL_04 # Python wrapper module around the OpenSSL library
-redis==3.5.3 # LEVEL_01 # Python client for Redis key-value store
 snowballstemmer==2.1.0 # LEVEL_01 # This package provides 29 stemmers for 28 languages generated from Snowball algorithms
 trio==0.19.0 # LEVEL_03 # A friendly Python library for async concurrency and I/O
 trio-websocket==0.9.2 # LEVEL_04 # WebSocket library for Trio

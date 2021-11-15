@@ -1138,6 +1138,16 @@ License: PSFL
 Requires: 
 Required-by: nbconvert
 ---
+Name: Deprecated
+Version: 1.2.13
+Summary: Python @deprecated decorator to deprecate old python classes, functions or methods.
+Home-page: https://github.com/tantale/deprecated
+Author: Laurent LAPORTE
+Author-email: tantale.solutions@gmail.com
+License: MIT
+Requires: wrapt
+Required-by: redis
+---
 Name: deprecation
 Version: 2.1.0
 Summary: A library to handle automated deprecations
@@ -3409,7 +3419,7 @@ Requires: exchange-calendars pandas python-dateutil pytz
 Required-by: 
 ---
 Name: pandas-stubs
-Version: 1.2.0.37
+Version: 1.2.0.38
 Summary: Type annotations for Pandas
 Home-page: https://github.com/VirtusLab/pandas-stubs
 Author: Zbigniew Królikowski
@@ -3649,7 +3659,7 @@ Requires:
 Required-by: 
 ---
 Name: plotly
-Version: 5.3.1
+Version: 5.4.0
 Summary: An open-source, interactive data visualization library for Python
 Home-page: https://plotly.com/python/
 Author: Chris P
@@ -4619,13 +4629,13 @@ Requires: commonmark docutils sphinx
 Required-by: 
 ---
 Name: redis
-Version: 3.5.3
-Summary: Python client for Redis key-value store
-Home-page: https://github.com/andymccurdy/redis-py
-Author: Andy McCurdy
-Author-email: sedrik@gmail.com
+Version: 4.0.0
+Summary: Python client for Redis database and key-value store
+Home-page: https://github.com/redis/redis-py
+Author: Redis Inc.
+Author-email: oss@redis.com
 License: MIT
-Requires: 
+Requires: deprecated
 Required-by: ray
 ---
 Name: regex
@@ -6166,7 +6176,7 @@ Author: Graham Dumpleton
 Author-email: Graham.Dumpleton@gmail.com
 License: BSD
 Requires: 
-Required-by: tensorflow
+Required-by: Deprecated tensorflow
 ---
 Name: wrds
 Version: 3.1.1
