@@ -686,7 +686,7 @@ Author: LLVM team
 Author-email: UNKNOWN
 License: License :: OSI Approved :: University of Illinois/NCSA Open Source License
 Requires: 
-Required-by: tensorflow
+Required-by: 
 ---
 Name: click
 Version: 8.0.3
@@ -2499,11 +2499,11 @@ Requires:
 Required-by: 
 ---
 Name: keras
-Version: 2.6.0
-Summary: TensorFlow Keras.
+Version: 2.7.0
+Summary: Deep learning for humans.
 Home-page: https://keras.io/
-Author: Google Inc.
-Author-email: packages@tensorflow.org
+Author: Keras team
+Author-email: keras-users@googlegroups.com
 License: Apache 2.0
 Requires: 
 Required-by: tensorflow
@@ -2626,7 +2626,7 @@ Author: Tao He
 Author-email: sighingnow@gmail.com
 License: Apache License 2.0
 Requires: 
-Required-by: 
+Required-by: tensorflow
 ---
 Name: libcst
 Version: 0.3.21
@@ -5409,7 +5409,7 @@ Requires: six
 Required-by: luigi plotly
 ---
 Name: tensorboard
-Version: 2.6.0
+Version: 2.7.0
 Summary: TensorBoard lets you watch Tensors Flow
 Home-page: https://github.com/tensorflow/tensorboard
 Author: Google Inc.
@@ -5449,13 +5449,13 @@ Requires: numpy protobuf
 Required-by: 
 ---
 Name: tensorflow
-Version: 2.6.2
+Version: 2.7.0
 Summary: TensorFlow is an open source machine learning framework for everyone.
 Home-page: https://www.tensorflow.org/
 Author: Google Inc.
 Author-email: packages@tensorflow.org
 License: Apache 2.0
-Requires: absl-py astunparse clang flatbuffers gast google-pasta grpcio h5py keras keras-preprocessing numpy opt-einsum protobuf six tensorboard tensorflow-estimator termcolor typing-extensions wheel wrapt
+Requires: absl-py astunparse flatbuffers gast google-pasta grpcio h5py keras keras-preprocessing libclang numpy opt-einsum protobuf six tensorboard tensorflow-estimator tensorflow-io-gcs-filesystem termcolor typing-extensions wheel wrapt
 Required-by: tensorflow-text tf-models-official
 ---
 Name: tensorflow-addons
@@ -5479,7 +5479,7 @@ Requires: absl-py attrs dill future numpy promise protobuf requests six tensorfl
 Required-by: tf-models-official
 ---
 Name: tensorflow-estimator
-Version: 2.6.0
+Version: 2.7.0
 Summary: TensorFlow Estimator.
 Home-page: https://www.tensorflow.org/
 Author: Google Inc.
@@ -5506,7 +5506,7 @@ Author: Google Inc.
 Author-email: opensource@google.com
 License: UNKNOWN
 Requires: 
-Required-by: 
+Required-by: tensorflow
 ---
 Name: tensorflow-metadata
 Version: 1.4.0
@@ -5529,7 +5529,7 @@ Requires: dm-tree numpy six
 Required-by: tf-models-official
 ---
 Name: tensorflow-text
-Version: 2.6.0
+Version: 2.7.0
 Summary: TF.Text is a TensorFlow library of text related ops, modules, and subgraphs.
 Home-page: http://github.com/tensorflow/text
 Author: Google Inc.
@@ -5669,7 +5669,7 @@ Requires: requests
 Required-by: 
 ---
 Name: tiledb
-Version: 0.10.5
+Version: 0.11.0
 Summary: Pythonic interface to the TileDB array storage manager
 Home-page: https://github.com/TileDB-Inc/TileDB-Py
 Author: TileDB, Inc.
