@@ -5889,7 +5889,7 @@ Requires: click
 Required-by: pathy spacy
 ---
 Name: typeshed-client
-Version: 1.1.2
+Version: 1.1.3
 Summary: A library for accessing stubs in typeshed.
 Home-page: https://github.com/JelleZijlstra/typeshed_client
 Author: Jelle Zijlstra
