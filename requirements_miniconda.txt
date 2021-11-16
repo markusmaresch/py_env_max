@@ -155,7 +155,7 @@ xgboost==1.5.0 # LEVEL_03 # check installation notes # XGBoost Python Package
 pyro-ppl==1.7.0 # LEVEL_03 # A Python library for probabilistic modeling and inference
 pyro-api==0.1.2 # LEVEL_01 # Generic API for dispatch to Pyro backends
 #
-pytorch-lightning==1.5.1 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
+pytorch-lightning==1.5.2 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
 performer-pytorch==1.1.3 # LEVEL_04 # Performer - Pytorch
 torch-optimizer==0.3.0 # LEVEL_04 # pytorch-optimizer
 torchaudio==0.10.0 # LEVEL_03 # An audio package for PyTorch
@@ -211,8 +211,8 @@ Babel==2.9.1 # LEVEL_02 # Internationalization utilities
 bert-for-tf2==0.14.9 # LEVEL_03 # A TensorFlow 2.0 Keras implementation of BERT
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger # Attention visualization tool for NLP Transformer models
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
-boto3==1.20.6 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
-botocore==1.23.6 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+boto3==1.20.7 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+botocore==1.23.7 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 #
 spacytextblob==3.0.1 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
 spacy==3.2.0 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
@@ -722,7 +722,7 @@ outcome==1.1.0 # LEVEL_02 # Capture the outcome of Python function calls
 pluggy==1.0.0 # LEVEL_01 # plugin and hook calling mechanisms for python
 py==1.11.0 # LEVEL_01 # library with cross-python path, ini-parsing, io, code, log facilities
 pyOpenSSL==21.0.0 # LEVEL_04 # Python wrapper module around the OpenSSL library
-snowballstemmer==2.1.0 # LEVEL_01 # This package provides 29 stemmers for 28 languages generated from Snowball algorithms
+snowballstemmer==2.2.0 # LEVEL_01 # This package provides 29 stemmers for 28 languages generated from Snowball algorithms
 trio==0.19.0 # LEVEL_03 # A friendly Python library for async concurrency and I/O
 trio-websocket==0.9.2 # LEVEL_04 # WebSocket library for Trio
 wsproto==1.0.0 # LEVEL_02 # WebSockets state-machine based protocol implementation
