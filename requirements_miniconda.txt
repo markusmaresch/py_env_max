@@ -372,7 +372,7 @@ google-cloud-core==2.2.1 # LEVEL_05 # Google Cloud API client core library
 google-resumable-media==2.1.0 # LEVEL_02 # Utilities for Google Media Downloads and Resumable Uploads
 google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC32C'
 #
-google-api-python-client==2.30.0 # LEVEL_05 # Google API Client Library for Python
+google-api-python-client==2.31.0 # LEVEL_05 # Google API Client Library for Python
 google-api-core==2.2.2 # LEVEL_04 # Google API client core library
 google-auth-httplib2==0.1.0 # LEVEL_04 # Google Authentication Library: httplib2 transport
 google-auth-oauthlib==0.4.6 # LEVEL_04 # Google Authentication Library
@@ -497,6 +497,12 @@ luigi==3.0.3 # LEVEL_03 # Workflow mgmgt + task scheduling + dependency resoluti
 python-daemon==2.3.0 # LEVEL_02 # Library to implement a well-behaved Unix daemon process
 lockfile==0.12.2 # LEVEL_01 # Platform-independent file locking module
 
+# Markdown
+Markdown==3.3.5 # LEVEL_03 # Python implementation of Markdown
+commonmark==0.9.1 # LEVEL_01 # Python parser for the CommonMark Markdown spec
+mistune==0.8.4 # LEVEL_01 # The fastest markdown parser in pure Python
+
+
 #
 # Low level dependencies
 #
@@ -535,7 +541,6 @@ charset-normalizer==2.0.7 # LEVEL_01 # The Real First Universal Charset Detector
 click==8.0.3 # LEVEL_01 # Composable command line interface toolkit
 cloudpickle==2.0.0 # LEVEL_01 # Extended pickling support for Python objects
 codemod==1.0.0 # LEVEL_01 # Codemod is a tool/library to assist you with large-scale codebase refactors that can be partially automated but still require human oversight and occasional intervention. Codemod was developed at Facebook and released as open source
-commonmark==0.9.1 # LEVEL_01 # Python parser for the CommonMark Markdown spec
 coverage==6.1.2 # LEVEL_01 # Code coverage measurement for Python
 croniter==1.0.15 # LEVEL_03 # croniter provides iteration for datetime object with cron like format
 cycler==0.11.0 # LEVEL_01 # Composable style cycles
@@ -581,11 +586,9 @@ locket==0.2.1 # LEVEL_01 # File-based locks for Python for Linux and Windows
 lxml==4.6.4 # LEVEL_01 # Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API
 m3u8==0.9.0 # LEVEL_02 # play list parser, udemy-dl2 # Python m3u8 parser
 macholib==1.15.2 # LEVEL_02 # Mach-O header analysis and editing
-Markdown==3.3.5 # LEVEL_03 # Python implementation of Markdown
 MarkupSafe==2.0.1 # LEVEL_01 # Safely add untrusted strings to HTML/XML markup
 mccabe==0.6.1 # LEVEL_01 # McCabe checker, plugin for flake8
 memory-profiler==0.58.0 # LEVEL_02 # A module for monitoring memory usage of a python program
-mistune==0.8.4 # LEVEL_01 # The fastest markdown parser in pure Python
 msgpack==1.0.2 # LEVEL_01 # MessagePack (de)serializer
 multidict==5.2.0 # LEVEL_01 # multidict implementation
 multipledispatch==0.6.0 # LEVEL_02 # Multiple dispatch
