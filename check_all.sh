@@ -9,10 +9,15 @@ fi
 rm -f /tmp/pipdeptree.cache
 
 if ! python levels_check.py; then
+  echo "Fix errors above, before continuing"
   exit 1
 fi
 
 ./not_specified_packages.sh
+if [ $? -ne 0 ]; then
+  echo "Fix not specified packages first"
+  exit 1
+fi
 
 rm -f /tmp/pipdeptree.cache
 

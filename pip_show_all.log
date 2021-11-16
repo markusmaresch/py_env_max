@@ -626,7 +626,7 @@ Author: Kenneth Reitz
 Author-email: me@kennethreitz.com
 License: MPL-2.0
 Requires: 
-Required-by: Fiona elasticsearch httpx intrinio-sdk kaggle msrest pyproj requests sentry-sdk
+Required-by: Fiona elasticsearch httpcore httpx intrinio-sdk kaggle msrest pyproj requests sentry-sdk
 ---
 Name: cffi
 Version: 1.15.0
@@ -1439,7 +1439,7 @@ Requires:
 Required-by: 
 ---
 Name: filelock
-Version: 3.3.2
+Version: 3.4.0
 Summary: A platform independent file lock.
 Home-page: https://github.com/tox-dev/py-filelock
 Author: Benedikt Schmitt
@@ -1537,6 +1537,16 @@ Author-email: me@rwinslow.com
 License: Apache 2.0
 Requires: 
 Required-by: tensorflow
+---
+Name: fonttools
+Version: 4.28.1
+Summary: Tools to manipulate font files
+Home-page: http://github.com/fonttools/fonttools
+Author: Just van Rossum
+Author-email: just@letterror.com
+License: MIT
+Requires: 
+Required-by: matplotlib
 ---
 Name: freetype-py
 Version: 2.2.0
@@ -1989,13 +1999,13 @@ Requires:
 Required-by: vispy
 ---
 Name: httpcore
-Version: 0.13.7
+Version: 0.14.2
 Summary: A minimal low-level HTTP client.
 Home-page: https://github.com/encode/httpcore
 Author: Tom Christie
 Author-email: tom@tomchristie.com
 License: BSD
-Requires: anyio h11 sniffio
+Requires: anyio certifi h11 sniffio
 Required-by: httpx
 ---
 Name: httplib2
@@ -2009,7 +2019,7 @@ Requires: pyparsing
 Required-by: google-api-python-client google-auth-httplib2 oauth2client
 ---
 Name: httpx
-Version: 0.20.0
+Version: 0.21.1
 Summary: The next generation HTTP client.
 Home-page: https://github.com/encode/httpx
 Author: Tom Christie
@@ -2799,13 +2809,13 @@ Requires: blurhash decorator python-dateutil python-magic pytz requests six
 Required-by: boost
 ---
 Name: matplotlib
-Version: 3.4.3
+Version: 3.5.0
 Summary: Python plotting package
 Home-page: https://matplotlib.org
 Author: John D. Hunter, Michael Droettboom
 Author-email: matplotlib-users@python.org
 License: PSF
-Requires: cycler kiwisolver numpy pillow pyparsing python-dateutil
+Requires: cycler fonttools kiwisolver numpy packaging pillow pyparsing python-dateutil setuptools-scm
 Required-by: elegantrl fastai mplfinance prophet pycocotools pyfolio pyod scikit-image seaborn stable-baselines3 tf-models-official wordcloud
 ---
 Name: matplotlib-inline
@@ -3376,7 +3386,7 @@ Author: Donald Stufft and individual contributors
 Author-email: donald@stufft.io
 License: BSD-2-Clause or Apache-2.0
 Requires: pyparsing
-Required-by: Sphinx bleach bokeh dask dask-ml datasets deprecation fastai fastcore google-cloud-bigquery huggingface-hub jupyter-packaging jupyterlab jupyterlab-server nibabel pipx pytest pytorch-lightning spacy torchmetrics transformers
+Required-by: Sphinx bleach bokeh dask dask-ml datasets deprecation fastai fastcore google-cloud-bigquery huggingface-hub jupyter-packaging jupyterlab jupyterlab-server matplotlib nibabel pipx pytest pytorch-lightning setuptools-scm spacy torchmetrics transformers
 ---
 Name: pandas
 Version: 1.3.4
@@ -4946,7 +4956,7 @@ Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy Sphinx distributed google-api-core google-auth gunicorn ipython jupyter-packaging numba plaster pmdarima pycocotools pyinstaller pyramid python-daemon rapids spacy tensorboard thinc zope.deprecation zope.interface
+Required-by: Fiona PasteDeploy Sphinx distributed google-api-core google-auth gunicorn ipython jupyter-packaging numba plaster pmdarima pycocotools pyinstaller pyramid python-daemon rapids setuptools-scm spacy tensorboard thinc zope.deprecation zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -4957,6 +4967,16 @@ Author-email: msabramo@gmail.com
 License: BSD
 Requires: 
 Required-by: prophet
+---
+Name: setuptools-scm
+Version: 6.3.2
+Summary: the blessed package to manage your versions by scm tags
+Home-page: https://github.com/pypa/setuptools_scm/
+Author: Ronny Pfannschmidt
+Author-email: opensource@ronnypfannschmidt.de
+License: MIT
+Requires: packaging setuptools tomli
+Required-by: matplotlib
 ---
 Name: Shapely
 Version: 1.8.0
@@ -5707,6 +5727,16 @@ Author-email: uiri@xqz.ca
 License: MIT
 Requires: 
 Required-by: autopep8 mypy pytest pytype
+---
+Name: tomli
+Version: 1.2.2
+Summary: A lil' TOML parser
+Home-page: 
+Author: 
+Author-email: Taneli Hukkinen <hukkin@users.noreply.github.com>
+License: 
+Requires: 
+Required-by: setuptools-scm
 ---
 Name: tomlkit
 Version: 0.7.2

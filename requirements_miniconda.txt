@@ -39,7 +39,7 @@ numpy==1.19.5 # LEVEL_01 # PRE_INSTALL_00 # LOCKED # tensorflow 2.5.0. wants 1.1
 #
 # not recognized by 'req.txt'
 #
-mplfinance==0.12.7a17 # LEVEL_04 # Utilities for the visualization, and visual analysis, of financial data
+mplfinance==0.12.7a17 # LEVEL_05 # Utilities for the visualization, and visual analysis, of financial data
 
 
 #
@@ -51,7 +51,7 @@ clang==5.0 # LEVEL_01 # LOCKED # tensorflow==2.6.0 requires clang~=5.0 # libclan
 absl-py==0.12.0 # LEVEL_02 # LOCKED # tensorflow-metadata 1.2.0 has requirement absl-py<0.13,>=0.9 # Abseil Python Common Libraries, see https://github.com/abseil/abseil-py
 h5py==3.1.0 # LEVEL_02 # LOCKED # tensorflow==2.6.0 requires h5py~=3.1.0 # Read and write HDF5 files from Python
 google-auth==1.35.0 # LEVEL_03 # LOCKED # tensorboard==2.6.0 requires google-auth>=1.6.3,<2 # Google Authentication Library
-flatbuffers==1.12 # LEVEL_01 # LOCKED # tensorflow 2.6.0 requires flatbuffers~=1.12.0 # The FlatBuffers serialization format for Python
+flatbuffers==1.12 # LEVEL_01 # LOCKED # The FlatBuffers serialization format for Python
 #
 Deprecated==1.2.13 # LEVEL_02 # Python @deprecated decorator to deprecate old python classes, functions or methods
 wrapt==1.12.1 # LEVEL_01 # LOCKED # tensorflow 2.6.0 requires 1.12.1 # Module for decorators, wrappers and monkey patching
@@ -74,7 +74,7 @@ smmap==4.0.0 # LEVEL_01 # LOCKED # can't update to 5.0.0 yet, due to gitdb ? # A
 #
 pyparsing==2.4.7 # LEVEL_01 # LOCKED # packaging 21.2 requires pyparsing<3,>=2.0.2; httplib2 0.20.1 requires pyparsing<3,>=2.4.2 # Python parsing module
 #
-stable-baselines3==1.2.0 # LEVEL_04 # LOCKED # version 1.3.0 depends on gym<0.20 :-( # Pytorch version of Stable Baselines, implementations of reinforcement learning algorithms
+stable-baselines3==1.2.0 # LEVEL_05 # LOCKED # version 1.3.0 depends on gym<0.20 :-( # Pytorch version of Stable Baselines, implementations of reinforcement learning algorithms
 #
 optional-django==0.1.0 # LEVEL_01 # LOCKED # nodejs needs it # Utils for apps to provide optional support for django applications
 #
@@ -90,15 +90,15 @@ pyDeprecate==0.3.1 # LEVEL_01 # pytorch-lightning 1.5.0 has requirement pyDeprec
 #
 antlr4-python3-runtime==4.8 # LEVEL_01 # omegaconf 2.1.1 requires antlr4-python3-runtime==4.8 # ANTLR 4.8 runtime for Python 3.7
 #
-httpcore==0.13.7 # LEVEL_03 # LOCKED # A minimal low-level HTTP client
 #
 # Generic Low Level Tools
 #
-httpx==0.21.0 # LEVEL_04 # The next generation HTTP client
-seaborn==0.11.2 # LEVEL_04 # seaborn: statistical data visualization
+httpcore==0.14.2 # LEVEL_03 # A minimal low-level HTTP client
+httpx==0.21.1 # LEVEL_04 # The next generation HTTP client
+seaborn==0.11.2 # LEVEL_05 # seaborn: statistical data visualization
 pandas-datareader==0.10.0 # LEVEL_04 # Data readers extracted from the pandas codebase,should be compatible with recent pandas versions
 pandas==1.3.4 # LEVEL_03 # Powerful data structures for data analysis, time series, and statistics
-matplotlib==3.4.3 # LEVEL_03 # Python plotting package
+matplotlib==3.5.0 # LEVEL_04 # Python plotting package
 scipy==1.7.2 # LEVEL_02 # SciPy: Scientific Library for Python
 numba==0.54.1 # LEVEL_02 # compiling Python code using LLVM
 openpyxl==3.0.9 # LEVEL_02 # A Python library to read/write Excel 2010 xlsx/xlsm files
@@ -109,7 +109,7 @@ pybullet==3.2.0 # LEVEL_01 # Official Python Interface for the Bullet Physics SD
 #
 # Super Collectors .. building on others
 #
-elegantrl==0.3.2 # LEVEL_04 # Lightweight, Efficient and Stable DRL Implementation Using PyTorch
+elegantrl==0.3.2 # LEVEL_05 # Lightweight, Efficient and Stable DRL Implementation Using PyTorch
 box2d-py==2.3.8 # LEVEL_01 # Python Box2D
 #
 #finrl==0.3.1 # LEVEL_05 # may cause all sorts of issues
@@ -225,7 +225,7 @@ transformers==4.12.3 # LEVEL_04 # State-of-the-art Natural Language Processing f
 #
 tokenizers==0.10.3 # LEVEL_01 # Fast and Customizable Tokenizers
 #
-wordcloud==1.8.1 # LEVEL_04 # A little word cloud generator
+wordcloud==1.8.1 # LEVEL_05 # A little word cloud generator
 #
 #newspaper3k>=0.2.8
 
@@ -245,7 +245,7 @@ dask[complete]==2021.11.1 # LEVEL_03 # Parallel PyData with Task Scheduling
 # dask-cuda==21.10.0 # LEVEL_05 # outdated requirements
 # pynvml==11.0.0 # LEVEL_01 # POTENTIALLY_UNUSED # Python Bindings for the NVIDIA Management Library
 #
-scikit-image==0.18.3 # LEVEL_04 # Image processing in Python
+scikit-image==0.18.3 # LEVEL_05 # Image processing in Python
 scikit-learn==1.0.1 # LEVEL_03 # A set of python modules for machine learning and data mining
 pyod==0.9.5 # LEVEL_05 # outlyer detection # A Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
 jax==0.2.25 # LEVEL_03 # Differentiate, compile, and transform Numpy code
@@ -470,7 +470,7 @@ beautifulsoup4==4.10.0 # LEVEL_02 # Screen-scraping library
 soupsieve==2.3.1 # LEVEL_01 # A modern CSS selector implementation for Beautiful Soup
 libclang==12.0.0 # LEVEL_01 # Clang Python Bindings, mirrored from the official LLVM repo: https://github.com/llvm/llvm-project/tree/main/clang/bindings/python, to make the installation process easier
 persist-queue==0.7.0 # LEVEL_01 # Use with iLock !! (or celery ?) # A thread-safe disk based persistent queue in Python
-filelock==3.3.2 # LEVEL_01 # A platform independent file lock
+filelock==3.4.0 # LEVEL_01 # A platform independent file lock
 #
 flake8==4.0.1 # LEVEL_02 # better linter than pyflakes # the modular source code checker: pep8 pyflakes and co
 pyflakes==2.4.0 # LEVEL_01 # required by flake8 # passive checker of Python programs
@@ -505,7 +505,7 @@ lockfile==0.12.2 # LEVEL_01 # Platform-independent file locking module
 aiodns==3.0.0 # LEVEL_04 # Simple DNS resolver for asyncio
 aiohttp-socks==0.6.0 # LEVEL_04 # Proxy connector for aiohttp
 pyanalyze==0.3.1 # LEVEL_04 # A static analyzer for Python
-pycocotools==2.0.2 # LEVEL_04 # Official APIs for the MS-COCO dataset
+pycocotools==2.0.2 # LEVEL_05 # Official APIs for the MS-COCO dataset
 #
 aenum==3.1.5 # LEVEL_01 # Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
 aiohttp==3.8.1 # LEVEL_03 # Async http client/server framework (asyncio)
@@ -889,3 +889,8 @@ kiwisolver==1.3.2 # LEVEL_01 # A fast implementation of the Cassowary constraint
 emoji==1.6.1 # LEVEL_01 # Emoji for Python
 #
 shellingham==1.4.0 # LEVEL_01 # Tool to Detect Surrounding Shell
+#
+fonttools==4.28.1 # LEVEL_01 # Tools to manipulate font files
+setuptools-scm==6.3.2 # LEVEL_03 # the blessed package to manage your versions by scm tags
+tomli==1.2.2 # LEVEL_01 # A lil' TOML parser
+#

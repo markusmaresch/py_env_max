@@ -16,6 +16,7 @@ grep CONDA_CREATE $requirements | \
   #echo "ruamel.yaml.clib"
 ) >> $cc_tmp
 
+ret=0
 for p in $(pip list | awk '{print $1}'); do
   grep -q -i "^${p}==" $requirements
   if [ $? -ne 0 ]; then
@@ -24,8 +25,11 @@ for p in $(pip list | awk '{print $1}'); do
     if [ $? -ne 0 ]; then
       version=$(pip show $p | grep -e "^Version: " | awk '{print $2}')
       echo "Not specified: ${p}==${version}"
+      ret=1
     fi
   fi
 done
 
 rm -f $cc_tmp
+
+exit $ret
