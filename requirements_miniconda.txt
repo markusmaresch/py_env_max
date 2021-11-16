@@ -141,7 +141,7 @@ tensorflow-addons==0.15.0 # LEVEL_02 # TensorFlow Addons
 tensorflow-hub==0.12.0 # LEVEL_02 # TensorFlow Hub is a library to foster the publication, discovery, and consumption of reusable parts of machine learning models
 tensorflow-io-gcs-filesystem==0.22.0 # LEVEL_01 # TensorFlow IO
 #
-tf-models-official==2.6.0 # LEVEL_08 # TensorFlow Official Models
+tf-models-official==2.7.0 # LEVEL_08 # TensorFlow Official Models
 tf-slim==1.1.0 # LEVEL_03 # TensorFlow-Slim: A lightweight library for defining, training and evaluating complex models in TensorFlow
 #
 #
@@ -272,7 +272,7 @@ openvino==2021.4.1 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.o
 #
 # Finance
 #
-tda-api==1.4.1 # LEVEL_06 # An unofficial wrapper around the TD Ameritrade HTTP API
+tda-api==1.5 # LEVEL_06 # An unofficial wrapper around the TD Ameritrade HTTP API
 pyfolio==0.9.2 # LEVEL_06 # https://github.com/quantopian/pyfolio ; https://www.quantopian.com/docs/user-guide/tools/pyfolio # pyfolio is a Python library for performance and risk analysis of financial portfolios
 pandas-finance==0.1.2 # LEVEL_05 # High level API for access to and analysis of financial data
 empyrical==0.5.5 # LEVEL_05 # empyrical is a Python library with performance and risk statistics commonly used in quantitative finance
@@ -359,7 +359,7 @@ spectra==0.0.11 # LEVEL_03 # old # Color scales and color conversion made easy f
 colorcet==2.0.6 # LEVEL_03 # Collection of perceptually uniform colormaps
 colormath==3.0.0 # LEVEL_02 # not maintained # Color math and conversion library
 blessings==1.7 # LEVEL_02 # old # A thin, practical wrapper around terminal coloring, styling, and positioning
-rich==10.13.0 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+rich==10.14.0 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 colorama==0.4.4 # LEVEL_01 # Cross-platform colored terminal text
 termcolor==1.1.0 # LEVEL_01 # OLD !! # ANSII Color formatting for output in terminal
 colorful==0.5.4 # LEVEL_01 # old # Terminal string styling done right, in Python
@@ -433,7 +433,7 @@ Flask==2.0.2 # LEVEL_03 # A simple framework for building complex web applicatio
 jsonschema==4.2.1 # LEVEL_02 # An implementation of JSON Schema validation for Python
 json5==0.9.6 # LEVEL_01 # A Python implementation of the JSON5 data format
 json-rpc==1.13.0 # LEVEL_01 # JSON-RPC transport implementation
-simplejson==3.17.5 # LEVEL_01 # Simple, fast, extensible JSON encoder/decoder for Python
+simplejson==3.17.6 # LEVEL_01 # Simple, fast, extensible JSON encoder/decoder for Python
 ujson==4.2.0 # LEVEL_01 # Ultra fast JSON encoder and decoder for Python
 PyJWT==2.3.0 # LEVEL_01 # JSON Web Token implementation in Python
 jmespath==0.10.0 # LEVEL_01 # JSON Matching Expressions
@@ -447,7 +447,7 @@ sphinx-rtd-theme==1.0.0 # LEVEL_04 # Read the Docs theme for Sphinx
 sphinx-panels==0.6.0 # LEVEL_04 # A sphinx extension for creating panels in a grid layout
 sphinx-autodoc-typehints==1.12.0 # LEVEL_04 # Type hints (PEP 484) support for the Sphinx autodoc extension
 Sphinx==4.3.0 # LEVEL_03 # Python documentation generator
-sphinx-markdown-tables==0.0.15 # LEVEL_02 # A Sphinx extension for rendering tables written in markdown
+sphinx-markdown-tables==0.0.15 # LEVEL_04 # A Sphinx extension for rendering tables written in markdown
 sphinxcontrib-applehelp==1.0.2 # LEVEL_01 # sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books
 sphinxcontrib-devhelp==1.0.2 # LEVEL_01 # sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp document
 sphinxcontrib-htmlhelp==2.0.0 # LEVEL_01 # sphinxcontrib-htmlhelp is a sphinx extension which renders HTML help files
@@ -581,7 +581,7 @@ locket==0.2.1 # LEVEL_01 # File-based locks for Python for Linux and Windows
 lxml==4.6.4 # LEVEL_01 # Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API
 m3u8==0.9.0 # LEVEL_02 # play list parser, udemy-dl2 # Python m3u8 parser
 macholib==1.15.2 # LEVEL_02 # Mach-O header analysis and editing
-Markdown==3.3.4 # LEVEL_01 # Python implementation of Markdown
+Markdown==3.3.5 # LEVEL_03 # Python implementation of Markdown
 MarkupSafe==2.0.1 # LEVEL_01 # Safely add untrusted strings to HTML/XML markup
 mccabe==0.6.1 # LEVEL_01 # McCabe checker, plugin for flake8
 memory-profiler==0.58.0 # LEVEL_02 # A module for monitoring memory usage of a python program

@@ -2156,7 +2156,7 @@ Author: Jason R. Coombs
 Author-email: jaraco@jaraco.com
 License: UNKNOWN
 Requires: zipp
-Required-by: keyring
+Required-by: Markdown keyring
 ---
 Name: importlib-resources
 Version: 5.4.0
@@ -2769,13 +2769,13 @@ Requires: altgraph
 Required-by: pyinstaller
 ---
 Name: Markdown
-Version: 3.3.4
+Version: 3.3.5
 Summary: Python implementation of Markdown.
 Home-page: https://Python-Markdown.github.io/
 Author: Manfred Stienstra, Yuri takhteyev and Waylan limberg
 Author-email: python.markdown@gmail.com
 License: BSD License
-Requires: 
+Requires: importlib-metadata
 Required-by: sphinx-markdown-tables tensorboard
 ---
 Name: MarkupSafe
@@ -4739,7 +4739,7 @@ Requires:
 Required-by: httpx
 ---
 Name: rich
-Version: 10.13.0
+Version: 10.14.0
 Summary: Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 Home-page: https://github.com/willmcgugan/rich
 Author: Will McGugan
@@ -5019,7 +5019,7 @@ Requires:
 Required-by: jupyter-server-proxy
 ---
 Name: simplejson
-Version: 3.17.5
+Version: 3.17.6
 Summary: Simple, fast, extensible JSON encoder/decoder for Python
 Home-page: https://github.com/simplejson/simplejson
 Author: Bob Ippolito
@@ -5409,7 +5409,7 @@ Requires:
 Required-by: distributed
 ---
 Name: tda-api
-Version: 1.4.1
+Version: 1.5
 Summary: An unofficial wrapper around the TD Ameritrade HTTP API.
 Home-page: https://github.com/alexgolec/tda-api
 Author: Alex Golec
@@ -5609,7 +5609,7 @@ Requires: nltk
 Required-by: spacytextblob
 ---
 Name: tf-models-official
-Version: 2.6.0
+Version: 2.7.0
 Summary: TensorFlow Official Models
 Home-page: https://github.com/tensorflow/models
 Author: Google Inc.

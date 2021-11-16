@@ -110,7 +110,6 @@ lockfile
 logbook
 lxml
 lz4
-markdown
 markupsafe
 mccabe
 mistune
@@ -385,7 +384,6 @@ sacremoses
 scipy
 sentry-sdk
 spacy-loggers
-sphinx-markdown-tables
 sqlalchemy
 srsly
 ta-lib
@@ -460,6 +458,7 @@ libcst
 local-attention
 luigi
 lunarcalendar
+markdown
 mastodon.py
 minimal-snowplow-tracker
 nbformat
@@ -564,6 +563,7 @@ seqeval
 spacy
 sphinx-autobuild
 sphinx-autodoc-typehints
+sphinx-markdown-tables
 sphinx-panels
 sphinx-rtd-theme
 statsmodels
