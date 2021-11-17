@@ -90,6 +90,7 @@ pyDeprecate==0.3.1 # LEVEL_01 # pytorch-lightning 1.5.0 has requirement pyDeprec
 #
 antlr4-python3-runtime==4.8 # LEVEL_01 # omegaconf 2.1.1 requires antlr4-python3-runtime==4.8 # ANTLR 4.8 runtime for Python 3.7
 #
+dask-ml==2021.10.17 # LEVEL_05 # LOCKED # numpy conflict # A library for distributed and parallel machine learning
 #
 # Generic Low Level Tools
 #
@@ -221,11 +222,13 @@ spacy-legacy==3.0.8 # LEVEL_01 # Legacy registered functions for spaCy backwards
 # spacy-transformers  # downgrades transformers !!
 thinc==8.0.13 # LEVEL_03 # A refreshing functional take on deep learning, compatible with your favorite libraries
 #
-transformers==4.12.3 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
+transformers==4.12.4 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 #
 tokenizers==0.10.3 # LEVEL_01 # Fast and Customizable Tokenizers
 #
 wordcloud==1.8.1 # LEVEL_05 # A little word cloud generator
+#
+snowballstemmer==2.2.0 # LEVEL_01 # This package provides 29 stemmers for 28 languages generated from Snowball algorithms
 #
 #newspaper3k>=0.2.8
 
@@ -237,7 +240,6 @@ kaggle==1.5.12 # LEVEL_03 # Kaggle API
 #
 agate==1.6.3 # LEVEL_03 # A data analysis library that is optimized for humans instead of machines
 #
-dask-ml==2021.10.17 # LEVEL_05 # A library for distributed and parallel machine learning
 dask-glm==0.2.0 # LEVEL_04 # Generalized Linear Models with Dask
 distributed==2021.11.1 # LEVEL_04 # Distributed scheduler for Dask
 dask[complete]==2021.11.1 # LEVEL_03 # Parallel PyData with Task Scheduling
@@ -262,7 +264,7 @@ platformdirs==2.4.0 # LEVEL_01 # A small Python module for determining appropria
 #
 opencv-python==4.5.4.58 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.4.58 # LEVEL_02 # Wrapper package for OpenCV python bindings
-imageio==2.10.4 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
+imageio==2.10.5 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
 Pillow==8.4.0 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
@@ -409,7 +411,7 @@ jupyterlab-widgets==1.0.2 # LEVEL_01 # A JupyterLab extension
 ipywidgets==7.6.5 # LEVEL_08 # IPython HTML widgets for Jupyter
 widgetsnbextension==3.5.2 # LEVEL_07 # IPython HTML widgets for Jupyter
 nbclassic==0.3.4 # LEVEL_07 # Jupyter Notebook as a Jupyter Server extension
-notebook==6.4.5 # LEVEL_06 # A web-based notebook environment for interactive computing
+notebook==6.4.6 # LEVEL_06 # A web-based notebook environment for interactive computing
 nbsphinx==0.8.7 # LEVEL_06 # Jupyter Notebook Tools for Sphinx
 nbconvert==6.3.0 # LEVEL_05 # Converting Jupyter Notebooks
 qtconsole==5.2.0 # LEVEL_05 # Jupyter Qt console
@@ -577,7 +579,7 @@ ipython==7.29.0 # LEVEL_03 # IPython: Productive Interactive Computing
 ipython-genutils==0.2.0 # LEVEL_01 # Vestigial utilities from IPython
 iso8601==1.0.0 # LEVEL_01 # Simple module to parse ISO 8601 dates
 itsdangerous==2.0.1 # LEVEL_01 # Safely pass data to untrusted environments and back
-jedi==0.18.0 # LEVEL_02 # An autocompletion tool for Python that can be used for text editors
+jedi==0.18.1 # LEVEL_02 # An autocompletion tool for Python that can be used for text editors
 Jinja2==3.0.3 # LEVEL_02 # template engine # A very fast and expressive template engine
 joblib==1.1.0 # LEVEL_01 # Lightweight pipelining with Python functions
 korean-lunar-calendar==0.2.1 # LEVEL_01 # Korean Lunar Calendar
@@ -722,7 +724,6 @@ outcome==1.1.0 # LEVEL_02 # Capture the outcome of Python function calls
 pluggy==1.0.0 # LEVEL_01 # plugin and hook calling mechanisms for python
 py==1.11.0 # LEVEL_01 # library with cross-python path, ini-parsing, io, code, log facilities
 pyOpenSSL==21.0.0 # LEVEL_04 # Python wrapper module around the OpenSSL library
-snowballstemmer==2.2.0 # LEVEL_01 # This package provides 29 stemmers for 28 languages generated from Snowball algorithms
 trio==0.19.0 # LEVEL_03 # A friendly Python library for async concurrency and I/O
 trio-websocket==0.9.2 # LEVEL_04 # WebSocket library for Trio
 wsproto==1.0.0 # LEVEL_02 # WebSockets state-machine based protocol implementation

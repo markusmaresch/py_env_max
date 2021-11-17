@@ -2109,7 +2109,7 @@ Requires: imagecodecs
 Required-by: 
 ---
 Name: imageio
-Version: 2.10.4
+Version: 2.10.5
 Summary: Library for reading and writing a wide range of image, video, scientific, and volumetric data formats.
 Home-page: https://github.com/imageio/imageio
 Author: imageio contributors
@@ -2279,7 +2279,7 @@ Requires: absl-py numpy opt-einsum scipy typing-extensions
 Required-by: 
 ---
 Name: jedi
-Version: 0.18.0
+Version: 0.18.1
 Summary: An autocompletion tool for Python that can be used for text editors.
 Home-page: https://github.com/davidhalter/jedi
 Author: David Halter
@@ -3056,7 +3056,7 @@ Author: Ewald R. de Wit
 Author-email: ewald.de.wit@gmail.com
 License: BSD
 Requires: 
-Required-by: ib-insync jupyter-client nbclient
+Required-by: ib-insync jupyter-client nbclient notebook
 ---
 Name: netCDF4
 Version: 1.5.8
@@ -3149,13 +3149,13 @@ Requires:
 Required-by: 
 ---
 Name: notebook
-Version: 6.4.5
+Version: 6.4.6
 Summary: A web-based notebook environment for interactive computing
 Home-page: http://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD
-Requires: Send2Trash argon2-cffi ipykernel ipython-genutils jinja2 jupyter-client jupyter-core nbconvert nbformat prometheus-client pyzmq terminado tornado traitlets
+Requires: Send2Trash argon2-cffi ipykernel ipython-genutils jinja2 jupyter-client jupyter-core nbconvert nbformat nest-asyncio prometheus-client pyzmq terminado tornado traitlets
 Required-by: jupyter nbclassic widgetsnbextension
 ---
 Name: numba
@@ -5849,7 +5849,7 @@ Requires:
 Required-by: ipykernel ipython ipywidgets jupyter-client jupyter-core jupyter-server matplotlib-inline nbclient nbconvert nbformat nbsphinx notebook pydeck qtconsole
 ---
 Name: transformers
-Version: 4.12.3
+Version: 4.12.4
 Summary: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 Home-page: https://github.com/huggingface/transformers
 Author: Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Sam Shleifer, Patrick von Platen, Sylvain Gugger, Suraj Patil, Stas Bekman, Google AI Language Team Authors, Open AI team Authors, Facebook AI Authors, Carnegie Mellon University Authors
