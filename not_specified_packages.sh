@@ -3,7 +3,7 @@
 # list installed packages, that are NOT in requirements
 #
 requirements="requirements_miniconda.txt"
-cc_tmp="conda_created.tmp"
+cc_tmp="/tmp/conda_created.$$.tmp"
 
 grep CONDA_CREATE $requirements | \
   awk '{print $1}' | sed -e "s/^#//g" > $cc_tmp
@@ -12,8 +12,6 @@ grep CONDA_CREATE $requirements | \
   echo "Package"
   echo "-----------------------------"
   echo "dask"
-  #echo "ruamel.yaml"
-  #echo "ruamel.yaml.clib"
 ) >> $cc_tmp
 
 ret=0
