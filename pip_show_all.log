@@ -828,6 +828,16 @@ License: UNKNOWN
 Requires: 
 Required-by: wandb
 ---
+Name: confluent-kafka
+Version: 1.7.0
+Summary: Confluent's Python client for Apache Kafka
+Home-page: https://github.com/confluentinc/confluent-kafka-python
+Author: Confluent Inc
+Author-email: support@confluent.io
+License: UNKNOWN
+Requires: 
+Required-by: 
+---
 Name: conllu
 Version: 4.4.1
 Summary: CoNLL-U Parser parses a CoNLL-U formatted string into a nested python dictionary
@@ -3319,7 +3329,7 @@ Requires: et-xmlfile
 Required-by: openai
 ---
 Name: openvino
-Version: 2021.4.1
+Version: 2021.4.2
 Summary: Inference Engine Python* API
 Home-page: https://docs.openvinotoolkit.org/latest/index.html
 Author: Intel Corporation

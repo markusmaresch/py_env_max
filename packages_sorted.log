@@ -35,6 +35,7 @@ colorama
 colorful
 commonmark
 configparser
+confluent-kafka
 conllu
 coverage
 cycler

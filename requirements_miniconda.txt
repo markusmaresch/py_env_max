@@ -235,6 +235,8 @@ snowballstemmer==2.2.0 # LEVEL_01 # This package provides 29 stemmers for 28 lan
 #
 # Data Science
 #
+confluent-kafka==1.7.0 # LEVEL_01 # Confluent's Python client for Apache Kafka
+#
 imbalanced-learn==0.8.1 # LEVEL_04 # Toolbox for imbalanced dataset in machine learning
 kaggle==1.5.12 # LEVEL_03 # Kaggle API
 #
@@ -269,7 +271,7 @@ tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
 Pillow==8.4.0 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
 #
-openvino==2021.4.1 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org # Inference Engine Python* API
+openvino==2021.4.2 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org # Inference Engine Python* API
 #openvino-dev==2021.4.1 # LEVEL_99 # has issues !!! # Openvino Tools
 #
 # Finance
