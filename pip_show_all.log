@@ -5978,13 +5978,13 @@ License: MIT
 Requires: importlib-resources typed-ast
 Required-by: pyanalyze
 ---
-Name: typing-extensions
-Version: 3.7.4.3
-Summary: Backported and Experimental Type Hints for Python 3.5+
-Home-page: https://github.com/python/typing/blob/master/typing_extensions/README.rst
-Author: Guido van Rossum, Jukka Lehtosalo, Lukasz Langa, Michael Lee
-Author-email: levkivskyi@gmail.com
-License: PSF
+Name: typing_extensions
+Version: 4.0.0
+Summary: Backported and Experimental Type Hints for Python 3.6+
+Home-page: 
+Author: 
+Author-email: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
+License: 
 Requires: 
 Required-by: GitPython aioredis async-timeout bokeh huggingface-hub jax libcst mashumaro mypy pyanalyze pydantic pytorch-lightning tensorflow torch typing-inspect
 ---

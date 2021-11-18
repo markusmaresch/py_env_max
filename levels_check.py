@@ -250,6 +250,11 @@ class LevelsCheck:
                 level = lc.find_level(key=package2)
                 if level > 0:
                     break
+                package3 = package.replace('_', '-')  # typing_extensions ..
+                level = lc.find_level(key=package3)
+                if level > 0:
+                    break
+                # print('package: {} {}'.format(package, sep))
             if level <= 0:  # might have to remove the cache file !! (or typos in packages !)
                 lines_new.append(line_org)
                 print('No package found in: {}'.format(line_org), end='')

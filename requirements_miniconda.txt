@@ -56,8 +56,6 @@ flatbuffers==1.12 # LEVEL_01 # LOCKED # The FlatBuffers serialization format for
 Deprecated==1.2.13 # LEVEL_02 # Python @deprecated decorator to deprecate old python classes, functions or methods
 wrapt==1.12.1 # LEVEL_01 # LOCKED # tensorflow 2.6.0 requires 1.12.1 # Module for decorators, wrappers and monkey patching
 #
-typing-extensions==3.7.4.3 # LEVEL_01 # LOCKED # tensorflow==2.6.0 requires ~3.7.4 # Backported and Experimental Type Hints for Python 3.5+
-#
 panel==0.11.0 # LEVEL_04 # LOCKED # A high level app and dashboarding solution for Python
 bokeh==2.3.3 # LEVEL_03 # LOCKED # 2.4.0 does not work easily just yet; typing-extensions and tensorflow !! # Interactive plots and applications in the browser from Python
 jupyter-bokeh==3.0.3 # LEVEL_09 # LOCKED # 3.0.4 does not work easily just yet; typing-extensions and tensorflow !! # A Jupyter extension for rendering Bokeh content
@@ -92,6 +90,12 @@ pyDeprecate==0.3.1 # LEVEL_01 # pytorch-lightning 1.5.0 has requirement pyDeprec
 antlr4-python3-runtime==4.8 # LEVEL_01 # omegaconf 2.1.1 requires antlr4-python3-runtime==4.8 # ANTLR 4.8 runtime for Python 3.7
 #
 dask-ml==2021.10.17 # LEVEL_05 # LOCKED # numpy conflict # A library for distributed and parallel machine learning
+#
+#
+#
+# Former LOCKED ..
+typing_extensions==4.0.0 # LEVEL_01 # Backported and Experimental Type Hints for Python 3.6+
+
 #
 # Generic Low Level Tools
 #
