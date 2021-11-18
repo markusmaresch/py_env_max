@@ -1539,7 +1539,7 @@ Requires: Flask
 Required-by: dash-auth
 ---
 Name: flatbuffers
-Version: 1.12
+Version: 2.0
 Summary: The FlatBuffers serialization format for Python
 Home-page: https://google.github.io/flatbuffers/
 Author: FlatBuffers Contributors
@@ -1739,7 +1739,7 @@ Requires: google-api-core google-auth google-auth-httplib2 httplib2 uritemplate
 Required-by: tf-models-official
 ---
 Name: google-auth
-Version: 1.35.0
+Version: 2.3.3
 Summary: Google Authentication Library
 Home-page: https://github.com/googleapis/google-auth-library-python
 Author: Google Cloud Platform

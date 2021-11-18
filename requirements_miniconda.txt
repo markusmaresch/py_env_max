@@ -47,9 +47,6 @@ mplfinance==0.12.7a17 # LEVEL_05 # Utilities for the visualization, and visual a
 #
 gast==0.4.0 # LEVEL_01 # LOCKED # tensorflow 2.6.0 <0.5.0 # Python AST that abstracts the underlying Python version
 absl-py==0.12.0 # LEVEL_02 # LOCKED # tensorflow-metadata 1.2.0 has requirement absl-py<0.13,>=0.9 # Abseil Python Common Libraries, see https://github.com/abseil/abseil-py
-h5py==3.6.0 # LEVEL_02 # LOCKED # tensorflow==2.6.0 requires h5py~=3.1.0 # Read and write HDF5 files from Python
-google-auth==1.35.0 # LEVEL_03 # LOCKED # tensorboard==2.6.0 requires google-auth>=1.6.3,<2 # Google Authentication Library
-flatbuffers==1.12 # LEVEL_01 # LOCKED # The FlatBuffers serialization format for Python
 #
 wrapt==1.12.1 # LEVEL_01 # LOCKED # tensorflow 2.6.0 requires 1.12.1 # Module for decorators, wrappers and monkey patching
 #
@@ -96,6 +93,9 @@ Deprecated==1.2.13 # LEVEL_02 # Python @deprecated decorator to deprecate old py
 typing_extensions==4.0.0 # LEVEL_01 # Backported and Experimental Type Hints for Python 3.6+
 six==1.16.0 # LEVEL_01 # Python 2 and 3 compatibility utilities
 clang==11.0 # LEVEL_01 # libclang python bindings
+h5py==3.6.0 # LEVEL_02 # Read and write HDF5 files from Python
+google-auth==2.3.3 # LEVEL_03 # Google Authentication Library
+flatbuffers==2.0 # LEVEL_01 # The FlatBuffers serialization format for Python
 
 #
 # Generic Low Level Tools
