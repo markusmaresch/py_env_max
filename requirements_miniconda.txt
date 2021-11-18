@@ -34,7 +34,7 @@ pipdeptree==2.2.0 # LEVEL_02 # INTERNAL # Command line utility to show dependenc
 #
 # Pre-Installs .. separate install before anything else
 #
-numpy==1.19.5 # LEVEL_01 # PRE_INSTALL_00 # LOCKED # tensorflow 2.5.0. wants 1.19.x; # NumPy is the fundamental package for array computing with Python
+numpy==1.19.5 # LEVEL_01 # PRE_INSTALL_00 # LOCKED # openvino<1.20; # NumPy is the fundamental package for array computing with Python
 
 #
 # not recognized by 'req.txt'
