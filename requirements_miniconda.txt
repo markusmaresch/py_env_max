@@ -95,7 +95,7 @@ dask-ml==2021.10.17 # LEVEL_05 # LOCKED # numpy conflict # A library for distrib
 #
 # Generic Low Level Tools
 #
-httpcore==0.14.2 # LEVEL_03 # A minimal low-level HTTP client
+httpcore==0.14.3 # LEVEL_03 # A minimal low-level HTTP client
 httpx==0.21.1 # LEVEL_04 # The next generation HTTP client
 seaborn==0.11.2 # LEVEL_05 # seaborn: statistical data visualization
 pandas-datareader==0.10.0 # LEVEL_04 # Data readers extracted from the pandas codebase,should be compatible with recent pandas versions
