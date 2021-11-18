@@ -46,9 +46,8 @@ mplfinance==0.12.7a17 # LEVEL_05 # Utilities for the visualization, and visual a
 # Hard dependencies
 #
 gast==0.4.0 # LEVEL_01 # LOCKED # tensorflow 2.6.0 <0.5.0 # Python AST that abstracts the underlying Python version
-clang==5.0 # LEVEL_01 # LOCKED # tensorflow==2.6.0 requires clang~=5.0 # libclang python bindings
 absl-py==0.12.0 # LEVEL_02 # LOCKED # tensorflow-metadata 1.2.0 has requirement absl-py<0.13,>=0.9 # Abseil Python Common Libraries, see https://github.com/abseil/abseil-py
-h5py==3.1.0 # LEVEL_02 # LOCKED # tensorflow==2.6.0 requires h5py~=3.1.0 # Read and write HDF5 files from Python
+h5py==3.6.0 # LEVEL_02 # LOCKED # tensorflow==2.6.0 requires h5py~=3.1.0 # Read and write HDF5 files from Python
 google-auth==1.35.0 # LEVEL_03 # LOCKED # tensorboard==2.6.0 requires google-auth>=1.6.3,<2 # Google Authentication Library
 flatbuffers==1.12 # LEVEL_01 # LOCKED # The FlatBuffers serialization format for Python
 #
@@ -96,6 +95,7 @@ dask-ml==2021.10.17 # LEVEL_05 # LOCKED # numpy conflict # A library for distrib
 Deprecated==1.2.13 # LEVEL_02 # Python @deprecated decorator to deprecate old python classes, functions or methods
 typing_extensions==4.0.0 # LEVEL_01 # Backported and Experimental Type Hints for Python 3.6+
 six==1.16.0 # LEVEL_01 # Python 2 and 3 compatibility utilities
+clang==11.0 # LEVEL_01 # libclang python bindings
 
 #
 # Generic Low Level Tools
@@ -218,8 +218,8 @@ Babel==2.9.1 # LEVEL_02 # Internationalization utilities
 bert-for-tf2==0.14.9 # LEVEL_03 # A TensorFlow 2.0 Keras implementation of BERT
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger # Attention visualization tool for NLP Transformer models
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
-boto3==1.20.9 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
-botocore==1.23.9 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+boto3==1.20.8 # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+botocore==1.23.8 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 #
 spacytextblob==3.0.1 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
 spacy==3.2.0 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
