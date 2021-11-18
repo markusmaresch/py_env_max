@@ -548,6 +548,7 @@ nilearn
 openai
 osqp
 pandas-datareader
+panel
 performer-pytorch
 proj
 py-vollib
@@ -591,6 +592,7 @@ empyrical
 fastai
 google-api-python-client
 google-cloud-core
+holoviews
 jupyter-console
 mplfinance
 nbconvert
