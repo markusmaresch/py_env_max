@@ -6,6 +6,15 @@ import sys
 print('\nimport_some start')
 
 try:
+    import clang
+    print('clang=={}'.format(clang))
+
+    import six
+    print('six=={}'.format(six.__version__))
+
+    import gast
+    print('gast=={}'.format(gast))
+
     import openvino
     print('openvino=={}'.format(openvino))
 
