@@ -2,6 +2,10 @@
 
 conda --version > conda_version.txt
 
+if ! python import_some.py; then
+  exit 1
+fi
+
 if ! python pip_show_all.py; then
   exit 1
 fi
