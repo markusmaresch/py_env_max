@@ -2459,7 +2459,7 @@ Requires: aiohttp jupyter-server simpervisor
 Required-by: 
 ---
 Name: jupyterlab
-Version: 3.2.3
+Version: 3.2.4
 Summary: JupyterLab computational environment
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -4966,7 +4966,7 @@ Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy Sphinx distributed google-api-core google-auth gunicorn ipython jupyter-packaging numba plaster pmdarima pycocotools pyinstaller pyramid python-daemon rapids setuptools-scm spacy tensorboard thinc zope.deprecation zope.interface
+Required-by: Fiona PasteDeploy Sphinx distributed google-api-core google-auth gunicorn ipython jupyter-packaging numba plaster pmdarima pycocotools pyinstaller pyramid python-daemon rapids setuptools-scm spacy streamz tensorboard thinc zope.deprecation zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -5046,7 +5046,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py agate astunparse atari-py azure-core bleach blessings chart-studio cypari dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil requests-file retrying rouge-score sacremoses stanza tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators wandb
+Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py agate astunparse atari-py azure-core bleach blessings chart-studio cypari dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyanalyze pyod python-dateutil requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators wandb
 ---
 Name: smart-open
 Version: 5.2.1
@@ -5356,6 +5356,16 @@ Author: Cedric Zhuang
 Author-email: jealous@163.com
 License: BSD
 Requires: int-date numpy pandas
+Required-by: 
+---
+Name: streamz
+Version: 0.6.3
+Summary: Streams
+Home-page: http://github.com/python-streamz/streamz/
+Author: 
+Author-email: 
+License: BSD
+Requires: setuptools six toolz tornado zict
 Required-by: 
 ---
 Name: stumpy
@@ -5766,7 +5776,7 @@ Author: https://raw.github.com/pytoolz/toolz/master/AUTHORS.md
 Author-email: 
 License: BSD
 Requires: 
-Required-by: altair cytoolz dask distributed exchange-calendars partd trading-calendars
+Required-by: altair cytoolz dask distributed exchange-calendars partd streamz trading-calendars
 ---
 Name: torch
 Version: 1.10.0
@@ -5826,7 +5836,7 @@ Author: Facebook
 Author-email: python-tornado@googlegroups.com
 License: http://www.apache.org/licenses/LICENSE-2.0
 Requires: 
-Required-by: bokeh distributed ipykernel jupyter-client jupyter-server jupyterlab livereload luigi notebook terminado
+Required-by: bokeh distributed ipykernel jupyter-client jupyter-server jupyterlab livereload luigi notebook streamz terminado
 ---
 Name: tqdm
 Version: 4.62.3
@@ -6346,7 +6356,7 @@ Author:
 Author-email: 
 License: BSD
 Requires: heapdict
-Required-by: distributed
+Required-by: distributed streamz
 ---
 Name: zipp
 Version: 3.6.0

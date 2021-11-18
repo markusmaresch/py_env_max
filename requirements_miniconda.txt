@@ -126,7 +126,7 @@ GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status 
 #
 # Machine Learning
 #
-tensorflow-text==2.7.1 # LEVEL_07 # TF.Text is a TensorFlow library of text related ops, modules, and subgraphs
+tensorflow-text==2.7.0 # LEVEL_07 # TF.Text is a TensorFlow library of text related ops, modules, and subgraphs
 tensorflow==2.7.0 # LEVEL_06 # TensorFlow is an open source machine learning framework for everyone
 tensorboard==2.7.0 # LEVEL_05 # TensorBoard lets you watch Tensors Flow
 tensorflow-estimator==2.7.0 # LEVEL_01 # TensorFlow Estimator
@@ -234,6 +234,8 @@ snowballstemmer==2.2.0 # LEVEL_01 # This package provides 29 stemmers for 28 lan
 
 #
 # Data Science
+#
+streamz==0.6.3 # LEVEL_03 # Streams
 #
 confluent-kafka==1.7.0 # LEVEL_01 # Confluent's Python client for Apache Kafka
 #

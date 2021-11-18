@@ -491,6 +491,7 @@ setuptools-scm
 spectra
 sphinx
 stanza
+streamz
 stumpy
 tensorflow-metadata
 tensorflow-model-optimization
