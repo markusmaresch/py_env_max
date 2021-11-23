@@ -879,7 +879,7 @@ Requires: python-dateutil
 Required-by: 
 ---
 Name: cryptography
-Version: 35.0.0
+Version: 36.0.0
 Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
 Home-page: https://github.com/pyca/cryptography
 Author: The Python Cryptographic Authority and individual contributors
@@ -2399,7 +2399,7 @@ Requires: bokeh ipywidgets
 Required-by: 
 ---
 Name: jupyter-client
-Version: 7.0.6
+Version: 7.1.0
 Summary: Jupyter protocol implementation and client libraries
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -2449,7 +2449,7 @@ Requires: deprecation packaging setuptools tomlkit wheel
 Required-by: 
 ---
 Name: jupyter-server
-Version: 1.11.2
+Version: 1.12.0
 Summary: The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3029,7 +3029,7 @@ Requires: jupyter-server notebook
 Required-by: jupyterlab
 ---
 Name: nbclient
-Version: 0.5.8
+Version: 0.5.9
 Summary: A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor.
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -4609,7 +4609,7 @@ Requires: numpy scipy
 Required-by: osqp
 ---
 Name: qtconsole
-Version: 5.2.0
+Version: 5.2.1
 Summary: Jupyter Qt console
 Home-page: http://jupyter.org
 Author: Jupyter Development Team
@@ -4929,7 +4929,7 @@ Requires: matplotlib numpy pandas scipy
 Required-by: pyfolio
 ---
 Name: selenium
-Version: 4.0.0
+Version: 4.1.0
 Summary: 
 Home-page: https://www.selenium.dev
 Author: 
@@ -6029,7 +6029,7 @@ Requires:
 Required-by: dash-auth
 ---
 Name: ujson
-Version: 4.2.0
+Version: 4.3.0
 Summary: Ultra fast JSON encoder and decoder for Python
 Home-page: https://github.com/ultrajson/ultrajson
 Author: Jonas Tarnstrom
@@ -6339,8 +6339,8 @@ Requires: termcolor
 Required-by: wandb
 ---
 Name: yfinance
-Version: 0.1.66
-Summary: Yahoo! Finance market data downloader
+Version: 0.1.67
+Summary: Download market data from Yahoo! Finance API
 Home-page: https://github.com/ranaroussi/yfinance
 Author: Ran Aroussi
 Author-email: ran@aroussi.com
