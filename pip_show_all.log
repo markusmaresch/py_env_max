@@ -489,7 +489,7 @@ Requires:
 Required-by: Mastodon.py
 ---
 Name: bokeh
-Version: 2.4.1
+Version: 2.4.2
 Summary: Interactive plots and applications in the browser from Python
 Home-page: https://github.com/bokeh/bokeh
 Author: Bokeh Team
@@ -3469,7 +3469,7 @@ Requires:
 Required-by: nbconvert
 ---
 Name: panel
-Version: 0.12.4
+Version: 0.12.5
 Summary: A high level app and dashboarding solution for Python.
 Home-page: http://panel.holoviz.org
 Author: HoloViz
@@ -4669,7 +4669,7 @@ Requires: commonmark docutils sphinx
 Required-by: 
 ---
 Name: redis
-Version: 4.0.1
+Version: 4.0.2
 Summary: Python client for Redis database and key-value store
 Home-page: https://github.com/redis/redis-py
 Author: Redis Inc.
@@ -5499,7 +5499,7 @@ Requires:
 Required-by: tensorboard
 ---
 Name: tensorboardX
-Version: 2.4
+Version: 2.4.1
 Summary: TensorBoardX lets you watch Tensors Flow without Tensorflow
 Home-page: https://github.com/lanpa/tensorboardX
 Author: Tzu-Wei Huang
