@@ -91,8 +91,8 @@ h5py==3.6.0 # LEVEL_02 # Read and write HDF5 files from Python
 google-auth==2.3.3 # LEVEL_03 # Google Authentication Library
 flatbuffers==2.0 # LEVEL_01 # The FlatBuffers serialization format for Python
 wrapt==1.13.3 # LEVEL_01 # Module for decorators, wrappers and monkey patching
-panel==0.12.4 # LEVEL_04 # A high level app and dashboarding solution for Python
-bokeh==2.4.1 # LEVEL_03 # Interactive plots and applications in the browser from Python
+panel==0.12.5 # LEVEL_04 # A high level app and dashboarding solution for Python
+bokeh==2.4.2 # LEVEL_03 # Interactive plots and applications in the browser from Python
 jupyter-bokeh==3.0.4 # LEVEL_09 # A Jupyter extension for rendering Bokeh content
 #
 # Generic Low Level Tools
@@ -121,8 +121,8 @@ box2d-py==2.3.8 # LEVEL_01 # Python Box2D
 #
 wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
 ray==1.8.0 # LEVEL_04 # Ray provides a simple, universal API for building distributed applications
-redis==4.0.1 # LEVEL_03 # Python client for Redis database and key-value store
-tensorboardX==2.4 # LEVEL_02 # TensorBoardX lets you watch Tensors Flow without Tensorflow
+redis==4.0.2 # LEVEL_03 # Python client for Redis database and key-value store
+tensorboardX==2.4.1 # LEVEL_02 # TensorBoardX lets you watch Tensors Flow without Tensorflow
 lz4==3.1.3 # LEVEL_01 # LZ4 Bindings for Python
 GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status from NVIDA GPUs using nvidia-smi
 #
