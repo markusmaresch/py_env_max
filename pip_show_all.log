@@ -2659,7 +2659,7 @@ Requires:
 Required-by: tensorflow
 ---
 Name: libcst
-Version: 0.3.21
+Version: 0.3.23
 Summary: A concrete syntax tree with AST-like properties for Python 3.5, 3.6, 3.7 and 3.8 programs.
 Home-page: https://github.com/Instagram/LibCST
 Author: 
@@ -3129,7 +3129,7 @@ Requires: joblib nibabel numpy pandas requests scikit-learn scipy
 Required-by: 
 ---
 Name: ninja
-Version: 1.10.2.2
+Version: 1.10.2.3
 Summary: Ninja is a small build system with a focus on speed
 Home-page: http://ninja-build.org/
 Author: Jean-Christophe Fillion-Robin
@@ -4519,7 +4519,7 @@ Requires: torch
 Required-by: torch-optimizer
 ---
 Name: pytype
-Version: 2021.11.12
+Version: 2021.11.18
 Summary: Python type inferencer
 Home-page: https://google.github.io/pytype
 Author: 
@@ -5949,7 +5949,7 @@ Requires:
 Required-by: pytype typeshed-client
 ---
 Name: typeguard
-Version: 2.13.0
+Version: 2.13.2
 Summary: Run-time type checker for Python
 Home-page: UNKNOWN
 Author: Alex Grönholm
