@@ -6,6 +6,21 @@ import sys
 print('\nimport_some start')
 
 try:
+    import iso8601
+    print('iso8601=={}'.format(iso8601.UTC))
+
+    import python_socks
+    print('python_socks=={}'.format(python_socks.__version__))
+
+    import tiledb
+    print('tiledb=={}'.format(tiledb.__version__))
+
+    import tinycss2
+    print('tinycss2=={}'.format(tinycss2.__version__))
+
+    import zarr
+    print('zarr=={}'.format(zarr.__version__))
+
     import clang
     print('clang=={}'.format(clang))
 

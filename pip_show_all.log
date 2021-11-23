@@ -59,7 +59,7 @@ Requires: aiohttp
 Required-by: 
 ---
 Name: aiohttp-socks
-Version: 0.6.0
+Version: 0.7.1
 Summary: Proxy connector for aiohttp
 Home-page: https://github.com/romis2012/aiohttp-socks
 Author: Roman Snegirev
@@ -149,7 +149,7 @@ Requires:
 Required-by: omegaconf
 ---
 Name: anyio
-Version: 3.3.4
+Version: 3.4.0
 Summary: High level compatibility layer for multiple asynchronous event loop implementations
 Home-page: UNKNOWN
 Author: Alex Grönholm
@@ -2109,7 +2109,7 @@ Requires: pandas requests
 Required-by: 
 ---
 Name: imagecodecs
-Version: 2021.11.11
+Version: 2021.11.20
 Summary: Image transformation, compression, and decompression codecs
 Home-page: https://www.lfd.uci.edu/~gohlke/
 Author: Christoph Gohlke
@@ -2259,7 +2259,7 @@ Requires: ipykernel ipython ipython-genutils jupyterlab-widgets nbformat traitle
 Required-by: jupyter jupyter-bokeh pydeck
 ---
 Name: iso8601
-Version: 1.0.0
+Version: 1.0.2
 Summary: Simple module to parse ISO 8601 dates
 Home-page: https://github.com/micktwomey/pyiso8601
 Author: Michael Twomey
@@ -4479,7 +4479,7 @@ Requires: text-unidecode
 Required-by: agate kaggle
 ---
 Name: python-socks
-Version: 1.2.4
+Version: 2.0.0
 Summary: Core proxy (SOCKS4, SOCKS5, HTTP tunneling) functionality for Python
 Home-page: https://github.com/romis2012/python-socks
 Author: Roman Snegirev
@@ -5729,7 +5729,7 @@ Requires: requests
 Required-by: 
 ---
 Name: tiledb
-Version: 0.11.0
+Version: 0.11.1
 Summary: Pythonic interface to the TileDB array storage manager
 Home-page: https://github.com/TileDB-Inc/TileDB-Py
 Author: TileDB, Inc.
@@ -5739,12 +5739,12 @@ Requires: numpy
 Required-by: 
 ---
 Name: tinycss2
-Version: 1.1.0
-Summary: tinycss2
-Home-page: https://www.courtbouillon.org/tinycss2
-Author: Simon Sapin
-Author-email: simon.sapin@exyr.org
-License: UNKNOWN
+Version: 1.1.1
+Summary: A tiny CSS parser
+Home-page: 
+Author: 
+Author-email: Simon Sapin <simon.sapin@exyr.org>
+License: 
 Requires: webencodings
 Required-by: cssselect2
 ---
@@ -6349,7 +6349,7 @@ Requires: lxml multitasking numpy pandas requests
 Required-by: 
 ---
 Name: zarr
-Version: 2.10.2
+Version: 2.10.3
 Summary: An implementation of chunked, compressed, N-dimensional arrays for Python.
 Home-page: https://github.com/zarr-developers/zarr-python
 Author: 
