@@ -187,7 +187,7 @@ gensim==4.1.2 # LEVEL_03 # Python framework for fast Vector Space Modelling
 openai==0.11.0 # LEVEL_04 # Python client library for the OpenAI API
 pandas-stubs==1.2.0.38 # LEVEL_01 # needed by openai # Type annotations for Pandas
 #
-wandb==0.12.6 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
+wandb==0.12.7 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
 #
 #ktrain>=0.27.2
 #
@@ -198,7 +198,7 @@ pmdarima==1.8.4 # LEVEL_05 # Python's forecast::auto.arima equivalent
 #darts>=0.9.1  # time series predictions (behind on requirements)
 #tsai>=0.2.18  # time series and sequences, triggers huge number of dependencies !
 prophet==1.0.1 # LEVEL_05 # time series forecasts from Facebook # Automatic Forecasting Procedure
-stumpy==1.9.2 # LEVEL_03 # A powerful and scalable library that can be used for a variety of time series data mining tasks
+stumpy==1.10.0 # LEVEL_03 # A powerful and scalable library that can be used for a variety of time series data mining tasks
 Cython==0.29.24 # LEVEL_01 # pystan: cython!=0.25.1,>=0.22 # The Cython compiler for writing C extensions for the Python language
 
 #
@@ -233,8 +233,8 @@ Babel==2.9.1 # LEVEL_02 # Internationalization utilities
 bert-for-tf2==0.14.9 # LEVEL_03 # A TensorFlow 2.0 Keras implementation of BERT
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger # Attention visualization tool for NLP Transformer models
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
-boto3==1.20.8  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
-botocore==1.23.9 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+boto3==1.20.12  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+botocore==1.23.12 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 #
 spacytextblob==3.0.1 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
 spacy==3.2.0 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
@@ -266,8 +266,8 @@ kaggle==1.5.12 # LEVEL_03 # Kaggle API
 agate==1.6.3 # LEVEL_03 # A data analysis library that is optimized for humans instead of machines
 #
 dask-glm==0.2.0 # LEVEL_04 # Generalized Linear Models with Dask
-distributed==2021.11.1 # LEVEL_04 # Distributed scheduler for Dask
-dask[complete]==2021.11.1 # LEVEL_03 # Parallel PyData with Task Scheduling
+distributed==2021.11.2 # LEVEL_04 # Distributed scheduler for Dask
+dask[complete]==2021.11.2 # LEVEL_03 # Parallel PyData with Task Scheduling
 #dask-xgboost==0.2.0 # LEVEL_02 # outdated !
 # dask-cuda==21.10.0 # LEVEL_05 # outdated requirements
 # pynvml==11.0.0 # LEVEL_01 # POTENTIALLY_UNUSED # Python Bindings for the NVIDIA Management Library
@@ -288,9 +288,9 @@ platformdirs==2.4.0 # LEVEL_01 # A small Python module for determining appropria
 #
 imagecodecs-lite==2020.1.31 # LEVEL_03 # The imagecodecs-lite package is deprecated. Use the imagecodecs package instead
 imagecodecs==2021.11.20 # LEVEL_02 # Image transformation, compression, and decompression codecs
-opencv-python==4.5.4.58 # LEVEL_02 # Wrapper package for OpenCV python bindings
-opencv-python-headless==4.5.4.58 # LEVEL_02 # Wrapper package for OpenCV python bindings
-imageio==2.11.0 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
+opencv-python==4.5.4.60 # LEVEL_02 # Wrapper package for OpenCV python bindings
+opencv-python-headless==4.5.4.60 # LEVEL_02 # Wrapper package for OpenCV python bindings
+imageio==2.11.1 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
 Pillow==8.4.0 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file

@@ -509,7 +509,7 @@ Requires: Mastodon.py sqlalchemy
 Required-by: 
 ---
 Name: boto3
-Version: 1.20.8
+Version: 1.20.12
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -519,7 +519,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.23.9
+Version: 1.23.12
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -1049,7 +1049,7 @@ Requires:
 Required-by: dash
 ---
 Name: dask
-Version: 2021.11.1
+Version: 2021.11.2
 Summary: Parallel PyData with Task Scheduling
 Home-page: https://github.com/dask/dask/
 Author: 
@@ -1179,7 +1179,7 @@ Requires:
 Required-by: datasets multiprocess tensorflow-datasets
 ---
 Name: distributed
-Version: 2021.11.1
+Version: 2021.11.2
 Summary: Distributed scheduler for Dask
 Home-page: https://distributed.dask.org
 Author: 
@@ -2129,7 +2129,7 @@ Requires: imagecodecs
 Required-by: 
 ---
 Name: imageio
-Version: 2.11.0
+Version: 2.11.1
 Summary: Library for reading and writing a wide range of image, video, scientific, and volumetric data formats.
 Home-page: https://github.com/imageio/imageio
 Author: imageio contributors
@@ -3309,7 +3309,7 @@ Requires:
 Required-by: opencensus
 ---
 Name: opencv-python
-Version: 4.5.4.58
+Version: 4.5.4.60
 Summary: Wrapper package for OpenCV python bindings.
 Home-page: https://github.com/skvark/opencv-python
 Author: 
@@ -3319,7 +3319,7 @@ Requires: numpy
 Required-by: elegantrl
 ---
 Name: opencv-python-headless
-Version: 4.5.4.58
+Version: 4.5.4.60
 Summary: Wrapper package for OpenCV python bindings.
 Home-page: https://github.com/skvark/opencv-python
 Author: 
@@ -5389,12 +5389,12 @@ Requires: setuptools six toolz tornado zict
 Required-by: 
 ---
 Name: stumpy
-Version: 1.9.2
+Version: 1.10.0
 Summary: A powerful and scalable library that can be used for a variety of time series data mining tasks
 Home-page: https://github.com/TDAmeritrade/stumpy
 Author: Sean M. Law
 Author-email: seanmylaw@gmail.com
-License: BSD-3
+License: 3-clause BSD License
 Requires: numba numpy scipy
 Required-by: 
 ---
@@ -6119,7 +6119,7 @@ Requires: freetype-py hsluv kiwisolver numpy
 Required-by: 
 ---
 Name: wandb
-Version: 0.12.6
+Version: 0.12.7
 Summary: A CLI and library for interacting with the Weights and Biases API.
 Home-page: https://github.com/wandb/client
 Author: Weights & Biases
