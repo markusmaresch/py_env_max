@@ -103,7 +103,7 @@ seaborn==0.11.2 # LEVEL_05 # seaborn: statistical data visualization
 pandas-datareader==0.10.0 # LEVEL_04 # Data readers extracted from the pandas codebase,should be compatible with recent pandas versions
 pandas==1.3.4 # LEVEL_03 # Powerful data structures for data analysis, time series, and statistics
 matplotlib==3.5.0 # LEVEL_04 # Python plotting package
-scipy==1.7.2 # LEVEL_02 # SciPy: Scientific Library for Python
+scipy==1.7.3 # LEVEL_02 # SciPy: Scientific Library for Python
 numba==0.54.1 # LEVEL_02 # compiling Python code using LLVM
 openpyxl==3.0.9 # LEVEL_02 # A Python library to read/write Excel 2010 xlsx/xlsm files
 XlsxWriter==3.0.2 # LEVEL_01 # needed for pandas XLSX # A Python module for creating Excel XLSX files
@@ -154,12 +154,12 @@ Keras-Preprocessing==1.1.2 # LEVEL_02 # Easy data preprocessing and data augment
 datasets==1.15.1 # LEVEL_04 # HuggingFace community-driven open-source library of datasets
 huggingface-hub==0.1.2 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
 #
-xgboost==1.5.0 # LEVEL_03 # check installation notes # XGBoost Python Package
+xgboost==1.5.1 # LEVEL_03 # check installation notes # XGBoost Python Package
 #
 pyro-ppl==1.7.0 # LEVEL_03 # A Python library for probabilistic modeling and inference
 pyro-api==0.1.2 # LEVEL_01 # Generic API for dispatch to Pyro backends
 #
-pytorch-lightning==1.5.2 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
+pytorch-lightning==1.5.3 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
 performer-pytorch==1.1.3 # LEVEL_04 # Performer - Pytorch
 torch-optimizer==0.3.0 # LEVEL_04 # pytorch-optimizer
 torchaudio==0.10.0 # LEVEL_03 # An audio package for PyTorch
@@ -233,8 +233,8 @@ Babel==2.9.1 # LEVEL_02 # Internationalization utilities
 bert-for-tf2==0.14.9 # LEVEL_03 # A TensorFlow 2.0 Keras implementation of BERT
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger # Attention visualization tool for NLP Transformer models
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
-boto3==1.20.12  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
-botocore==1.23.12 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+boto3==1.20.13  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+botocore==1.23.13 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 #
 spacytextblob==3.0.1 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
 spacy==3.2.0 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
@@ -363,7 +363,7 @@ networkx==2.6.3 # LEVEL_01 # Python package for creating and manipulating graphs
 #
 holoviews==1.14.6 # LEVEL_05 # Stop plotting your data - annotate your data and let it visualize itself
 #
-vispy==0.9.3 # LEVEL_02 # Interactive visualization in Python
+vispy==0.9.4 # LEVEL_02 # Interactive visualization in Python
 #
 Kivy==2.0.0 # LEVEL_04 # A software library for rapid development of hardware-accelerated multitouch applications
 Kivy-examples==2.0.0 # LEVEL_04 # Kivy examples
@@ -581,7 +581,7 @@ catalogue==2.0.6 # LEVEL_01 # Super lightweight function registries for your lib
 cchardet==2.1.7 # LEVEL_01 # cChardet is high speed universal character encoding detector
 cffi==1.15.0 # LEVEL_02 # Foreign Function Interface for Python calling C code
 chardet==4.0.0 # LEVEL_01 # Universal encoding detector for Python 2 and 3
-charset-normalizer==2.0.7 # LEVEL_01 # The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet
+charset-normalizer==2.0.8 # LEVEL_01 # The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet
 click==8.0.3 # LEVEL_01 # Composable command line interface toolkit
 cloudpickle==2.0.0 # LEVEL_01 # Extended pickling support for Python objects
 codemod==1.0.0 # LEVEL_01 # Codemod is a tool/library to assist you with large-scale codebase refactors that can be partially automated but still require human oversight and occasional intervention. Codemod was developed at Facebook and released as open source
