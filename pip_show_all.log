@@ -4799,12 +4799,12 @@ Requires: absl-py nltk numpy six
 Required-by: 
 ---
 Name: rsa
-Version: 4.7.2
+Version: 4.8
 Summary: Pure-Python RSA implementation
 Home-page: https://stuvel.eu/rsa
-Author: Sybren A. Stuvel
+Author: Sybren A. Stüvel
 Author-email: sybren@stuvel.eu
-License: ASL 2
+License: Apache-2.0
 Requires: pyasn1
 Required-by: google-auth oauth2client
 ---
