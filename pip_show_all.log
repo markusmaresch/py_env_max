@@ -1549,7 +1549,7 @@ Requires:
 Required-by: tensorflow
 ---
 Name: fonttools
-Version: 4.28.1
+Version: 4.28.2
 Summary: Tools to manipulate font files
 Home-page: http://github.com/fonttools/fonttools
 Author: Just van Rossum
@@ -2129,7 +2129,7 @@ Requires: imagecodecs
 Required-by: 
 ---
 Name: imageio
-Version: 2.11.1
+Version: 2.12.0
 Summary: Library for reading and writing a wide range of image, video, scientific, and volumetric data formats.
 Home-page: https://github.com/imageio/imageio
 Author: imageio contributors
@@ -5589,7 +5589,7 @@ Requires: dm-tree numpy six
 Required-by: tf-models-official
 ---
 Name: tensorflow-text
-Version: 2.7.2
+Version: 2.7.3
 Summary: TF.Text is a TensorFlow library of text related ops, modules, and subgraphs.
 Home-page: http://github.com/tensorflow/text
 Author: Google Inc.

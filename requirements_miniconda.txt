@@ -129,7 +129,7 @@ GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status 
 #
 # Machine Learning
 #
-tensorflow-text==2.7.2 # LEVEL_07 # TF.Text is a TensorFlow library of text related ops, modules, and subgraphs
+tensorflow-text==2.7.3 # LEVEL_07 # TF.Text is a TensorFlow library of text related ops, modules, and subgraphs
 tensorflow==2.7.0 # LEVEL_06 # TensorFlow is an open source machine learning framework for everyone
 tensorboard==2.7.0 # LEVEL_05 # TensorBoard lets you watch Tensors Flow
 tensorflow-estimator==2.7.0 # LEVEL_01 # TensorFlow Estimator
@@ -290,7 +290,7 @@ imagecodecs-lite==2020.1.31 # LEVEL_03 # The imagecodecs-lite package is depreca
 imagecodecs==2021.11.20 # LEVEL_02 # Image transformation, compression, and decompression codecs
 opencv-python==4.5.4.60 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.4.60 # LEVEL_02 # Wrapper package for OpenCV python bindings
-imageio==2.11.1 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
+imageio==2.12.0 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
 Pillow==8.4.0 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
@@ -918,7 +918,7 @@ emoji==1.6.1 # LEVEL_01 # Emoji for Python
 #
 shellingham==1.4.0 # LEVEL_01 # Tool to Detect Surrounding Shell
 #
-fonttools==4.28.1 # LEVEL_01 # Tools to manipulate font files
+fonttools==4.28.2 # LEVEL_01 # Tools to manipulate font files
 setuptools-scm==6.3.2 # LEVEL_03 # the blessed package to manage your versions by scm tags
 tomli==1.2.2 # LEVEL_01 # A lil' TOML parser
 #
