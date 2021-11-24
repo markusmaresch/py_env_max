@@ -628,7 +628,7 @@ m3u8==0.9.0 # LEVEL_02 # play list parser, udemy-dl2 # Python m3u8 parser
 macholib==1.15.2 # LEVEL_02 # Mach-O header analysis and editing
 MarkupSafe==2.0.1 # LEVEL_01 # Safely add untrusted strings to HTML/XML markup
 memory-profiler==0.58.0 # LEVEL_02 # A module for monitoring memory usage of a python program
-msgpack==1.0.2 # LEVEL_01 # MessagePack (de)serializer
+msgpack==1.0.3 # LEVEL_01 # MessagePack (de)serializer
 multidict==5.2.0 # LEVEL_01 # multidict implementation
 multipledispatch==0.6.0 # LEVEL_02 # Multiple dispatch
 multiprocess==0.70.12.2 # LEVEL_02 # better multiprocessing and multithreading in python

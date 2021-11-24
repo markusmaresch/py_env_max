@@ -2909,7 +2909,7 @@ Requires: matplotlib pandas
 Required-by: 
 ---
 Name: msgpack
-Version: 1.0.2
+Version: 1.0.3
 Summary: MessagePack (de)serializer.
 Home-page: https://msgpack.org/
 Author: Inada Naoki
