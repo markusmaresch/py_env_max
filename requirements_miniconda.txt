@@ -73,6 +73,8 @@ antlr4-python3-runtime==4.8 # LEVEL_01 # omegaconf 2.1.1 requires antlr4-python3
 #
 dask-ml==2021.10.17 # LEVEL_05 # LOCKED # numpy conflict # A library for distributed and parallel machine learning
 #
+graphviz==0.18.2 # LEVEL_01 # needed for dependecy graphing .. missing dependencies, but still needed # Simple Python interface for Graphviz
+#
 #
 #
 # Former LOCKED .. now freed ;-)
@@ -87,7 +89,6 @@ flatbuffers==2.0 # LEVEL_01 # The FlatBuffers serialization format for Python
 wrapt==1.13.3 # LEVEL_01 # Module for decorators, wrappers and monkey patching
 panel==0.12.5 # LEVEL_04 # A high level app and dashboarding solution for Python
 bokeh==2.4.2 # LEVEL_03 # Interactive plots and applications in the browser from Python
-graphviz==0.18.2 # LEVEL_01 # needed for dependecy graphing .. missing dependencies, but still needed # Simple Python interface for Graphviz
 smmap==5.0.0 # LEVEL_01 # A pure Python implementation of a sliding window memory map manager
 pyparsing==3.0.6 # LEVEL_01 # Python parsing module
 #
@@ -181,7 +182,7 @@ gym==0.21.0 # LEVEL_02 # Gym: A universal API for reinforcement learning environ
 gensim==4.1.2 # LEVEL_03 # Python framework for fast Vector Space Modelling
 #
 openai==0.11.0 # LEVEL_04 # Python client library for the OpenAI API
-pandas-stubs==1.2.0.38 # LEVEL_01 # needed by openai # Type annotations for Pandas
+pandas-stubs==1.2.0.39 # LEVEL_01 # needed by openai # Type annotations for Pandas
 #
 wandb==0.12.7 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
 #
@@ -503,7 +504,7 @@ cssselect2==0.4.1 # LEVEL_03 # cssselect2
 #
 # Checkers
 #
-pytype==2021.11.18 # LEVEL_04 # Python type inferencer
+pytype==2021.11.24 # LEVEL_04 # Python type inferencer
 flake8==4.0.1 # LEVEL_02 # better linter than pyflakes # the modular source code checker: pep8 pyflakes and co
 mccabe==0.6.1 # LEVEL_01 # McCabe checker, plugin for flake8
 typeguard==2.13.2 # LEVEL_01 # Run-time type checker for Python
@@ -553,7 +554,7 @@ mistune==0.8.4 # LEVEL_01 # The fastest markdown parser in pure Python
 aiodns==3.0.0 # LEVEL_04 # Simple DNS resolver for asyncio
 aiohttp-socks==0.7.1 # LEVEL_04 # Proxy connector for aiohttp
 pyanalyze==0.4.0 # LEVEL_04 # A static analyzer for Python
-pycocotools==2.0.2 # LEVEL_05 # Official APIs for the MS-COCO dataset
+pycocotools==2.0.3 # LEVEL_05 # Official APIs for the MS-COCO dataset
 #
 aenum==3.1.5 # LEVEL_01 # Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
 aiohttp==3.8.1 # LEVEL_03 # Async http client/server framework (asyncio)
@@ -878,7 +879,7 @@ asciitree==0.3.3 # LEVEL_01 # Draws ASCII trees
 # dbt !! not compatible with many versions !!
 asn1crypto==1.4.0 # LEVEL_01 # Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP
 dbt-extractor==0.4.0 # LEVEL_01
-keyring==23.2.1 # LEVEL_03 # Store and access your passwords safely
+keyring==23.3.0 # LEVEL_03 # Store and access your passwords safely
 leather==0.3.4 # LEVEL_02 # Python charting for 80% of humans
 Logbook==1.5.3 # LEVEL_01 # A logging replacement for Python
 mashumaro==2.9 # LEVEL_02 # Fast serialization framework on top of dataclasses

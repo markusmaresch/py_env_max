@@ -2549,7 +2549,7 @@ Requires: numpy six
 Required-by: tensorflow
 ---
 Name: keyring
-Version: 23.2.1
+Version: 23.3.0
 Summary: Store and access your passwords safely.
 Home-page: https://github.com/jaraco/keyring
 Author: Kang Zhang
@@ -3449,7 +3449,7 @@ Requires: exchange-calendars pandas python-dateutil pytz
 Required-by: 
 ---
 Name: pandas-stubs
-Version: 1.2.0.38
+Version: 1.2.0.39
 Summary: Type annotations for Pandas
 Home-page: https://github.com/VirtusLab/pandas-stubs
 Author: Zbigniew Królikowski
@@ -3979,12 +3979,12 @@ Requires: cffi
 Required-by: aiodns
 ---
 Name: pycocotools
-Version: 2.0.2
+Version: 2.0.3
 Summary: Official APIs for the MS-COCO dataset
-Home-page: UNKNOWN
-Author: UNKNOWN
-Author-email: UNKNOWN
-License: UNKNOWN
+Home-page: https://github.com/ppwwyyxx/cocoapi
+Author: 
+Author-email: 
+License: FreeBSD
 Requires: cython matplotlib setuptools
 Required-by: tf-models-official
 ---
@@ -4519,13 +4519,13 @@ Requires: torch
 Required-by: torch-optimizer
 ---
 Name: pytype
-Version: 2021.11.18
+Version: 2021.11.24
 Summary: Python type inferencer
 Home-page: https://google.github.io/pytype
 Author: 
 Author-email: 
 License: Apache 2.0
-Requires: attrs importlab libcst ninja tabulate toml typed-ast
+Requires: attrs importlab libcst ninja tabulate toml
 Required-by: 
 ---
 Name: pytz
@@ -5946,7 +5946,7 @@ Author: David Fisher
 Author-email: 
 License: Apache License 2.0
 Requires: 
-Required-by: pytype typeshed-client
+Required-by: typeshed-client
 ---
 Name: typeguard
 Version: 2.13.2
