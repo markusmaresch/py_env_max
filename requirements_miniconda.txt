@@ -148,7 +148,7 @@ tf-slim==1.1.0 # LEVEL_03 # TensorFlow-Slim: A lightweight library for defining,
 #
 Keras-Preprocessing==1.1.2 # LEVEL_02 # Easy data preprocessing and data augmentation for deep learning models
 #
-datasets==1.15.1 # LEVEL_04 # HuggingFace community-driven open-source library of datasets
+datasets==1.16.1 # LEVEL_04 # HuggingFace community-driven open-source library of datasets
 huggingface-hub==0.1.2 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
 #
 xgboost==1.5.1 # LEVEL_03 # check installation notes # XGBoost Python Package
@@ -230,8 +230,8 @@ Babel==2.9.1 # LEVEL_02 # Internationalization utilities
 bert-for-tf2==0.14.9 # LEVEL_03 # A TensorFlow 2.0 Keras implementation of BERT
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger # Attention visualization tool for NLP Transformer models
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
-boto3==1.20.13  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
-botocore==1.23.13 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+boto3==1.20.14  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+botocore==1.23.14 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 #
 spacytextblob==3.0.1 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
 spacy==3.2.0 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
@@ -511,6 +511,8 @@ typeguard==2.13.2 # LEVEL_01 # Run-time type checker for Python
 pyflakes==2.4.0 # LEVEL_01 # required by flake8 # passive checker of Python programs
 pycodestyle==2.8.0 # LEVEL_01 # Python style guide checker
 mypy-extensions==0.4.3 # LEVEL_01 # Experimental type system extensions for programs checked with the mypy typechecker
+mypy==0.910 # LEVEL_02 # Optional static typing for Python
+autopep8==1.6.0 # LEVEL_02 # using fix_file # A tool that automatically formats Python code to conform to the PEP 8 style guide
 
 #
 # Tools
@@ -523,8 +525,6 @@ filelock==3.4.0 # LEVEL_01 # A platform independent file lock
 #
 gprof2dot==2021.2.21 # LEVEL_01 # attempt to visualize cProfile # Generate a dot graph from the output of several profilers
 pydeps==1.10.12 # LEVEL_02 # cd src/main; pydeps .; open main.svg # Display module dependencies
-autopep8==1.6.0 # LEVEL_02 # using fix_file # A tool that automatically formats Python code to conform to the PEP 8 style guide
-mypy==0.910 # LEVEL_02 # Optional static typing for Python
 importlab==0.6.1 # LEVEL_02 # A library to calculate python dependency graphs
 libcst==0.3.23 # LEVEL_03 # A concrete syntax tree with AST-like properties for Python 3.5, 3.6, 3.7 and 3.8 programs
 ninja==1.10.2.3 # LEVEL_01 # Ninja is a small build system with a focus on speed
