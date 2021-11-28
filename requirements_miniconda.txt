@@ -310,7 +310,7 @@ trading-calendars==2.1.1 # LEVEL_04 # trading_calendars is a Python library with
 yfinance==0.1.67 # LEVEL_04 # https://github.com/ranaroussi/yfinance # Download market data from Yahoo! Finance API
 yahoofinancials==1.6 # LEVEL_03 # https://github.com/JECSand/yahoofinancials # A powerful financial data module used for pulling both fundamental and technical data from Yahoo Finance
 coinpaprika==0.1.0 # LEVEL_03 # Coinpaprika API Python client
-ib-insync==0.9.69 # LEVEL_03 # InteractiveBrokers 3rd party trading api ip_insync; dataclasses # if necessary # Python sync/async framework for Interactive Brokers API
+ib-insync==0.9.70 # LEVEL_03 # InteractiveBrokers 3rd party trading api ip_insync; dataclasses # if necessary # Python sync/async framework for Interactive Brokers API
 intrinio-sdk==5.16.0 # LEVEL_03 # Intrinio API
 tiingo==0.14.0 # LEVEL_03 # Python REST Client for interacting with the Tiingo Financial Data API https://pypi.org/project/tiingo # REST Client for Tiingo Data Platform API
 oandapyV20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console # Python wrapper for the OANDA REST-V20 API
@@ -367,7 +367,7 @@ Kivy-examples==2.0.0 # LEVEL_04 # Kivy examples
 Kivy-Garden==0.1.4 # LEVEL_03
 #
 dash-auth==1.4.1 # LEVEL_06 # Dash Authorization Package
-dash-bootstrap-components==1.0.0 # LEVEL_06 # Bootstrap themed components for use in Plotly Dash
+dash-bootstrap-components==1.0.1 # LEVEL_06 # Bootstrap themed components for use in Plotly Dash
 dash-canvas==0.1.0 # LEVEL_06 # Sketching pad for dash based on react-sketch
 dash-cytoscape==0.3.0 # LEVEL_06 # A Component Library for Dash aimed at facilitating network visualization in Python, wrapped around Cytoscape.js
 dash==2.0.0 # LEVEL_05 # A Python framework for building reactive web-apps. Developed by Plotly
@@ -382,10 +382,10 @@ plotly==5.4.0 # LEVEL_03 # An open-source, interactive data visualization librar
 #
 # Color & Terminal
 spectra==0.0.11 # LEVEL_03 # old # Color scales and color conversion made easy for Python
-colorcet==2.0.6 # LEVEL_03 # Collection of perceptually uniform colormaps
+colorcet==3.0.0 # LEVEL_03 # Collection of perceptually uniform colormaps
 colormath==3.0.0 # LEVEL_02 # not maintained # Color math and conversion library
 blessings==1.7 # LEVEL_02 # old # A thin, practical wrapper around terminal coloring, styling, and positioning
-rich==10.14.0 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+rich==10.15.0 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 colorama==0.4.4 # LEVEL_01 # Cross-platform colored terminal text
 termcolor==1.1.0 # LEVEL_01 # OLD !! # ANSII Color formatting for output in terminal
 colorful==0.5.4 # LEVEL_01 # old # Terminal string styling done right, in Python
@@ -425,7 +425,7 @@ jupyterlab==3.2.4 # LEVEL_08 # JupyterLab computational environment
 jupyter-server-proxy==3.1.0 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
 jupyterlab-server==2.8.2 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.0 # LEVEL_06 # Dash support for the Jupyter notebook interface
-jupyter-server==1.12.0 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
+jupyter-server==1.12.1 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-console==6.4.0 # LEVEL_05 # Jupyter terminal console
 jupyter-packaging==0.11.1 # LEVEL_04 # Jupyter Packaging Utilities
 jupyter-client==7.1.0 # LEVEL_03 # Jupyter protocol implementation and client libraries
@@ -478,7 +478,7 @@ sphinx-autobuild==2021.3.14 # LEVEL_04 # Rebuild Sphinx documentation on changes
 sphinx-rtd-theme==1.0.0 # LEVEL_04 # Read the Docs theme for Sphinx
 sphinx-panels==0.6.0 # LEVEL_04 # A sphinx extension for creating panels in a grid layout
 sphinx-autodoc-typehints==1.12.0 # LEVEL_04 # Type hints (PEP 484) support for the Sphinx autodoc extension
-Sphinx==4.3.0 # LEVEL_03 # Python documentation generator
+Sphinx==4.3.1 # LEVEL_03 # Python documentation generator
 sphinx-markdown-tables==0.0.15 # LEVEL_04 # A Sphinx extension for rendering tables written in markdown
 sphinxcontrib-applehelp==1.0.2 # LEVEL_01 # sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books
 sphinxcontrib-devhelp==1.0.2 # LEVEL_01 # sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp document
@@ -583,7 +583,7 @@ charset-normalizer==2.0.8 # LEVEL_01 # The Real First Universal Charset Detector
 click==8.0.3 # LEVEL_01 # Composable command line interface toolkit
 cloudpickle==2.0.0 # LEVEL_01 # Extended pickling support for Python objects
 codemod==1.0.0 # LEVEL_01 # Codemod is a tool/library to assist you with large-scale codebase refactors that can be partially automated but still require human oversight and occasional intervention. Codemod was developed at Facebook and released as open source
-coverage==6.1.2 # LEVEL_01 # Code coverage measurement for Python
+coverage==6.2 # LEVEL_01 # Code coverage measurement for Python
 croniter==1.0.15 # LEVEL_03 # croniter provides iteration for datetime object with cron like format
 cycler==0.11.0 # LEVEL_01 # Composable style cycles
 cymem==2.0.6 # LEVEL_01 # Manage calls to calloc/free through Cython
@@ -597,12 +597,12 @@ dnspython==2.1.0 # LEVEL_01 # DNS toolkit
 elasticsearch==7.15.2 # LEVEL_02 # Python client for Elasticsearch
 email-validator==1.1.3 # LEVEL_02 # A robust email syntax and deliverability validation library for Python 2.x/3.x
 entrypoints==0.3 # LEVEL_01 # Discover and load entry points from installed packages
-ephem==4.1 # LEVEL_01 # Compute positions of the planets and stars
+ephem==4.1.1 # LEVEL_01 # Compute positions of the planets and stars
 et-xmlfile==1.1.0 # LEVEL_01 # An implementation of lxml.xmlfile for the standard library
 eventkit==0.8.9 # LEVEL_02 # Event-driven data pipelines
 fake-useragent==0.1.11 # LEVEL_01 # Up to date simple useragent faker with real world database
 freetype-py==2.2.0 # LEVEL_01 # Freetype python bindings
-fsspec==2021.11.0 # LEVEL_01 # File-system specification
+fsspec==2021.11.1 # LEVEL_01 # File-system specification
 future==0.18.2 # LEVEL_01 # Clean single-source support for Python 3 and 2
 geographiclib==1.52 # LEVEL_01 # The geodesic routines from GeographicLib
 geopy==2.2.0 # LEVEL_02 # Python Geocoding Toolbox
@@ -612,7 +612,7 @@ hsluv==5.0.2 # LEVEL_01 # Human-friendly HSL
 httplib2==0.20.2 # LEVEL_02 # A comprehensive HTTP client library
 idna==3.3 # LEVEL_01 # Internationalized Domain Names in Applications (IDNA)
 importlib-resources==5.4.0 # LEVEL_02 # Read resources from Python packages
-ipython==7.29.0 # LEVEL_03 # IPython: Productive Interactive Computing
+ipython==7.30.0 # LEVEL_03 # IPython: Productive Interactive Computing
 ipython-genutils==0.2.0 # LEVEL_01 # Vestigial utilities from IPython
 itsdangerous==2.0.1 # LEVEL_01 # Safely pass data to untrusted environments and back
 jedi==0.18.1 # LEVEL_02 # An autocompletion tool for Python that can be used for text editors
@@ -650,7 +650,7 @@ portalocker==2.3.2 # LEVEL_01 # Wraps the portalocker recipe for easy usage
 preshed==3.0.6 # LEVEL_02 # Cython hash table that trusts the keys are pre-hashed
 prometheus-client==0.12.0 # LEVEL_01 # Python client for the Prometheus monitoring system
 promise==2.3 # LEVEL_02 # Promises/A+ implementation for Python
-prompt-toolkit==3.0.22 # LEVEL_02 # Library for building powerful interactive command lines in Python
+prompt-toolkit==3.0.23 # LEVEL_02 # Library for building powerful interactive command lines in Python
 proto-plus==1.19.8 # LEVEL_02 # Beautiful, Pythonic protocol buffers
 protobuf==3.19.1 # LEVEL_01 # Protocol Buffers
 psutil==5.8.0 # LEVEL_01 # Cross-platform lib for process and system monitoring in Python
@@ -741,7 +741,7 @@ psycopg2-binary==2.9.2 # LEVEL_01 # psycopg2 - Python-PostgreSQL Database Adapte
 #
 #streamlit # has some dependencies !!
 tbb==2021.4.0 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
-tiledb==0.11.1 # LEVEL_02 # Pythonic interface to the TileDB array storage manager
+tiledb==0.11.2 # LEVEL_02 # Pythonic interface to the TileDB array storage manager
 xarray==0.20.1 # LEVEL_04 # N-D labeled arrays and datasets in Python
 zstd==1.5.0.2 # LEVEL_01 # ZSTD Bindings for Python
 #
@@ -879,7 +879,7 @@ asciitree==0.3.3 # LEVEL_01 # Draws ASCII trees
 # dbt !! not compatible with many versions !!
 asn1crypto==1.4.0 # LEVEL_01 # Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP
 dbt-extractor==0.4.0 # LEVEL_01
-keyring==23.3.0 # LEVEL_03 # Store and access your passwords safely
+keyring==23.4.0 # LEVEL_03 # Store and access your passwords safely
 leather==0.3.4 # LEVEL_02 # Python charting for 80% of humans
 Logbook==1.5.3 # LEVEL_01 # A logging replacement for Python
 mashumaro==2.9 # LEVEL_02 # Fast serialization framework on top of dataclasses
@@ -920,3 +920,6 @@ fonttools==4.28.2 # LEVEL_01 # Tools to manipulate font files
 setuptools-scm==6.3.2 # LEVEL_03 # the blessed package to manage your versions by scm tags
 tomli==1.2.2 # LEVEL_01 # A lil' TOML parser
 #
+#
+# Manually
+# git+https://github.com/zzzeek/sliderepl # LEVEL_02

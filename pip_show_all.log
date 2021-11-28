@@ -779,7 +779,7 @@ Requires:
 Required-by: rich sacrebleu sphinx-autobuild
 ---
 Name: colorcet
-Version: 2.0.6
+Version: 3.0.0
 Summary: Collection of perceptually uniform colormaps
 Home-page: https://colorcet.holoviz.org
 Author: James A. Bednar
@@ -859,7 +859,7 @@ Requires: pymeeus pytz
 Required-by: holidays prophet
 ---
 Name: coverage
-Version: 6.1.2
+Version: 6.2
 Summary: Code coverage measurement for Python
 Home-page: https://github.com/nedbat/coveragepy
 Author: Ned Batchelder and 146 others
@@ -979,7 +979,7 @@ Requires: Flask chart-studio dash flask-compress flask-seasurf itsdangerous requ
 Required-by: 
 ---
 Name: dash-bootstrap-components
-Version: 1.0.0
+Version: 1.0.1
 Summary: Bootstrap themed components for use in Plotly Dash
 Home-page: https://dash-bootstrap-components.opensource.faculty.ai/
 Author: Faculty
@@ -1319,7 +1319,7 @@ Requires:
 Required-by: altair jupyter-client jupyterlab-server nbconvert
 ---
 Name: ephem
-Version: 4.1
+Version: 4.1.1
 Summary: Compute positions of the planets and stars
 Home-page: http://rhodesmill.org/pyephem/
 Author: Brandon Rhodes
@@ -1579,7 +1579,7 @@ Requires:
 Required-by: aiohttp aiosignal
 ---
 Name: fsspec
-Version: 2021.11.0
+Version: 2021.11.1
 Summary: File-system specification
 Home-page: http://github.com/fsspec/filesystem_spec
 Author: 
@@ -2069,7 +2069,7 @@ Requires:
 Required-by: pyramid
 ---
 Name: ib-insync
-Version: 0.9.69
+Version: 0.9.70
 Summary: Python sync/async framework for Interactive Brokers API
 Home-page: https://github.com/erdewit/ib_insync
 Author: Ewald R. de Wit
@@ -2229,7 +2229,7 @@ Requires: appnope debugpy ipython jupyter-client matplotlib-inline tornado trait
 Required-by: ipywidgets jupyter jupyter-console jupyter-dash notebook pydeck qtconsole
 ---
 Name: ipython
-Version: 7.29.0
+Version: 7.30.0
 Summary: IPython: Productive Interactive Computing
 Home-page: https://ipython.org
 Author: The IPython Development Team
@@ -2449,7 +2449,7 @@ Requires: deprecation packaging setuptools tomlkit wheel
 Required-by: 
 ---
 Name: jupyter-server
-Version: 1.12.0
+Version: 1.12.1
 Summary: The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -2549,7 +2549,7 @@ Requires: numpy six
 Required-by: tensorflow
 ---
 Name: keyring
-Version: 23.3.0
+Version: 23.4.0
 Summary: Store and access your passwords safely.
 Home-page: https://github.com/jaraco/keyring
 Author: Kang Zhang
@@ -3789,7 +3789,7 @@ Requires: six
 Required-by: tensorflow-datasets wandb
 ---
 Name: prompt-toolkit
-Version: 3.0.22
+Version: 3.0.23
 Summary: Library for building powerful interactive command lines in Python
 Home-page: https://github.com/prompt-toolkit/python-prompt-toolkit
 Author: Jonathan Slenders
@@ -4136,7 +4136,7 @@ Author: Georg Brandl
 Author-email: georg@python.org
 License: BSD License
 Requires: 
-Required-by: Kivy Kivy-examples Sphinx asynq ipython jupyter-console jupyterlab-pygments nbconvert qtconsole rich
+Required-by: Kivy Kivy-examples Sphinx asynq ipython jupyter-console jupyterlab-pygments nbconvert qtconsole rich sliderepl
 ---
 Name: pyinstaller
 Version: 4.7
@@ -4769,7 +4769,7 @@ Requires:
 Required-by: httpx
 ---
 Name: rich
-Version: 10.14.0
+Version: 10.15.0
 Summary: Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 Home-page: https://github.com/willmcgugan/rich
 Author: Will McGugan
@@ -5068,6 +5068,16 @@ License: MIT
 Requires: 
 Required-by: Fiona Keras-Preprocessing Mastodon.py Theano absl-py agate astunparse atari-py azure-core bleach blessings chart-studio cypari dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyod python-dateutil requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators wandb
 ---
+Name: sliderepl
+Version: 1.1.dev0
+Summary: Runs a python script as a series of slides for presentation.
+Home-page: http://github.com/zzzeek/sliderepl
+Author: Jason Kirtland, Mike Bayer
+Author-email: mike@zzzcomputing.com
+License: MIT
+Requires: pygments
+Required-by: 
+---
 Name: smart-open
 Version: 5.2.1
 Summary: Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)
@@ -5179,7 +5189,7 @@ Requires: colormath
 Required-by: 
 ---
 Name: Sphinx
-Version: 4.3.0
+Version: 4.3.1
 Summary: Python documentation generator
 Home-page: https://www.sphinx-doc.org/
 Author: Georg Brandl
@@ -5729,7 +5739,7 @@ Requires: requests
 Required-by: 
 ---
 Name: tiledb
-Version: 0.11.1
+Version: 0.11.2
 Summary: Pythonic interface to the TileDB array storage manager
 Home-page: https://github.com/TileDB-Inc/TileDB-Py
 Author: TileDB, Inc.
