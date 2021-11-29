@@ -33,6 +33,7 @@ cloudpickle
 codemod
 colorama
 colorful
+colorlover
 commonmark
 configparser
 confluent-kafka
@@ -68,6 +69,7 @@ fonttools
 freetype-py
 frozenlist
 fsspec
+funcy
 future
 fxrays
 gast
@@ -84,6 +86,7 @@ heapdict
 hijri-converter
 hiredis
 hsluv
+htmlmin
 hupper
 icu
 idna
@@ -118,6 +121,7 @@ mock
 msgpack
 msgpack-python
 multidict
+multimethod
 multitasking
 murmurhash
 mypy-extensions
@@ -184,6 +188,7 @@ pyrsistent
 pysimplegui
 pysocks
 python-dotenv
+python-editor
 python-gflags
 python-magic
 python-socks
@@ -224,6 +229,7 @@ sqlparse
 stdlib-list
 subprocess32
 tabulate
+tangled-up-in-unicode
 tbb
 tblib
 tensorboard-data-server
@@ -325,6 +331,7 @@ leather
 livereload
 m3u8
 macholib
+mako
 mashumaro
 matplotlib-inline
 memory-profiler
@@ -336,6 +343,7 @@ nltk
 nodejs
 numba
 numcodecs
+numexpr
 omegaconf
 opencv-python
 opencv-python-headless
@@ -375,6 +383,7 @@ pytz-deprecation-shim
 pyviz-comms
 pywavelets
 qcore
+querystring-parser
 requests
 retrying
 rich
@@ -384,6 +393,7 @@ sacrebleu
 sacremoses
 scipy
 sentry-sdk
+sliderepl
 spacy-loggers
 sqlalchemy
 srsly
@@ -413,6 +423,7 @@ zope.interface
 agate
 aiohttp
 aioredis
+alembic
 argon2-cffi
 arrow
 asynq
@@ -429,8 +440,10 @@ croniter
 cryptography
 cssselect2
 dask
+databricks-cli
 datashape
 deprecation
+docker
 ecos
 fastcore
 fiona
@@ -447,6 +460,7 @@ httpcore
 huggingface-hub
 ib-insync
 imagecodecs-lite
+imagehash
 int-date
 intrinio-sdk
 ipython
@@ -541,6 +555,8 @@ jqdatasdk
 jupyter-packaging
 kivy
 kivy-examples
+kmodes
+lightgbm
 matplotlib
 msrest
 nbclient
@@ -551,9 +567,12 @@ pandas-datareader
 panel
 performer-pytorch
 proj
+prometheus-flask-exporter
 py-vollib
 pyanalyze
 pydata-sphinx-theme
+pyldavis
+pynndescent
 pyopenssl
 pyramid
 pytest-asyncio
@@ -576,6 +595,7 @@ torch-optimizer
 trading-calendars
 transformers
 trio-websocket
+visions
 wandb
 wrds
 xarray
@@ -583,6 +603,7 @@ yfinance
 zeep
 azure-storage-blob
 boto3
+catboost
 cvxpy
 dash
 dask-ml
@@ -594,11 +615,14 @@ google-api-python-client
 google-cloud-core
 holoviews
 jupyter-console
+mlflow
+mlxtend
 mplfinance
 nbconvert
 opencensus
 pandas-finance
 pandas-market-calendars
+phik
 pmdarima
 prophet
 pycocotools
@@ -607,13 +631,16 @@ qtconsole
 rapidminer
 rapids
 scikit-image
+scikit-plot
 seaborn
 selenium
 spacytextblob
 stable-baselines3
 tensorboard
 twint
+umap-learn
 wordcloud
+yellowbrick
 bertviz
 dash-auth
 dash-bootstrap-components
@@ -622,6 +649,7 @@ dash-cytoscape
 google-cloud-bigquery
 jupyter-dash
 jupyter-server
+missingno
 nbsphinx
 notebook
 pyfolio
@@ -632,11 +660,14 @@ tensorflow
 jupyter-server-proxy
 jupyterlab-server
 nbclassic
+pandas-profiling
 tensorflow-text
 widgetsnbextension
 ipywidgets
 jupyterlab
 tf-models-official
+cufflinks
 jupyter
 jupyter-bokeh
 pydeck
+pycaret

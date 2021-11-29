@@ -12,6 +12,7 @@ grep CONDA_CREATE $requirements | \
   echo "Package"
   echo "-----------------------------"
   echo "dask"
+  echo "sliderepl"
 ) >> $cc_tmp
 
 ret=0

@@ -73,6 +73,8 @@ antlr4-python3-runtime==4.8 # LEVEL_01 # omegaconf 2.1.1 requires antlr4-python3
 #
 dask-ml==2021.10.17 # LEVEL_05 # LOCKED # numpy conflict # A library for distributed and parallel machine learning
 #
+joblib==1.0.1 # LEVEL_01 # LOCKED # pycaret requires this # Lightweight pipelining with Python functions
+#
 graphviz==0.18.2 # LEVEL_01 # needed for dependecy graphing .. missing dependencies, but still needed # Simple Python interface for Graphviz
 #
 #
@@ -102,6 +104,7 @@ pandas==1.3.4 # LEVEL_03 # Powerful data structures for data analysis, time seri
 matplotlib==3.5.0 # LEVEL_04 # Python plotting package
 scipy==1.7.3 # LEVEL_02 # SciPy: Scientific Library for Python
 numba==0.54.1 # LEVEL_02 # compiling Python code using LLVM
+numexpr==2.7.3 # LEVEL_02 # Fast numerical expression evaluator for NumPy
 openpyxl==3.0.9 # LEVEL_02 # A Python library to read/write Excel 2010 xlsx/xlsm files
 XlsxWriter==3.0.2 # LEVEL_01 # needed for pandas XLSX # A Python module for creating Excel XLSX files
 toolz==0.11.2 # LEVEL_01 # List processing tools and functional utilities
@@ -269,6 +272,7 @@ dask[complete]==2021.11.2 # LEVEL_03 # Parallel PyData with Task Scheduling
 # dask-cuda==21.10.0 # LEVEL_05 # outdated requirements
 # pynvml==11.0.0 # LEVEL_01 # POTENTIALLY_UNUSED # Python Bindings for the NVIDIA Management Library
 #
+scikit-plot==0.3.7 # LEVEL_05 # An intuitive library to add plotting functionality to scikit-learn objects
 scikit-image==0.18.3 # LEVEL_05 # Image processing in Python
 scikit-learn==1.0.1 # LEVEL_03 # A set of python modules for machine learning and data mining
 pyod==0.9.5 # LEVEL_05 # outlyer detection # A Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
@@ -518,7 +522,6 @@ autopep8==1.6.0 # LEVEL_02 # using fix_file # A tool that automatically formats 
 # Tools
 #
 cloudscraper==1.2.58 # LEVEL_04 # A Python module to bypass Cloudflare's anti-bot page
-beautifulsoup4==4.10.0 # LEVEL_02 # Screen-scraping library
 libclang==12.0.0 # LEVEL_01 # Clang Python Bindings, mirrored from the official LLVM repo: https://github.com/llvm/llvm-project/tree/main/clang/bindings/python, to make the installation process easier
 persist-queue==0.7.0 # LEVEL_01 # Use with iLock !! (or celery ?) # A thread-safe disk based persistent queue in Python
 filelock==3.4.0 # LEVEL_01 # A platform independent file lock
@@ -545,6 +548,12 @@ Markdown==3.3.6 # LEVEL_03 # Python implementation of Markdown
 commonmark==0.9.1 # LEVEL_01 # Python parser for the CommonMark Markdown spec
 mistune==0.8.4 # LEVEL_01 # The fastest markdown parser in pure Python
 
+# HTML scraping, sanitizing, minimizing
+beautifulsoup4==4.10.0 # LEVEL_02 # Screen-scraping library
+bleach==4.1.0 # LEVEL_03 # An easy safelist-based HTML-sanitizing tool
+ansi2html==1.6.0 # LEVEL_01
+MarkupSafe==2.0.1 # LEVEL_01 # Safely add untrusted strings to HTML/XML markup
+htmlmin==0.1.12 # LEVEL_01 # An HTML Minifier
 
 #
 # Low level dependencies
@@ -561,7 +570,6 @@ aiohttp==3.8.1 # LEVEL_03 # Async http client/server framework (asyncio)
 async-timeout==4.0.1 # LEVEL_02 # Timeout context manager for asyncio programs
 aioredis==2.0.0 # 1.3.1 # LEVEL_03 # asyncio (PEP 3156) Redis support
 altgraph==0.17.2 # LEVEL_01 # Python graph (network) package
-ansi2html==1.6.0 # LEVEL_01
 anyio==3.4.0 # LEVEL_02 # High level compatibility layer for multiple asynchronous event loop implementations
 appdirs==1.4.4 # LEVEL_01 # A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir"
 appnope==0.1.2 # LEVEL_01 # Disable App Nap on macOS >= 10.9
@@ -571,7 +579,6 @@ astunparse==1.6.3 # LEVEL_02 # An AST unparser for Python
 asynq==1.4.0 # LEVEL_03 # Quora's asynq library
 attrs==21.2.0 # LEVEL_01 # Classes Without Boilerplate
 backcall==0.2.0 # LEVEL_01 # Specifications for callback functions passed in to an API
-bleach==4.1.0 # LEVEL_03 # An easy safelist-based HTML-sanitizing tool
 blis==0.7.5 # LEVEL_02 # The Blis BLAS-like linear algebra library, as a self-contained C-extension
 Brotli==1.0.9 # LEVEL_01 # Python bindings for the Brotli compression library
 cachetools==4.2.4 # LEVEL_01 # Extensible memoizing collections and decorators
@@ -617,14 +624,12 @@ ipython-genutils==0.2.0 # LEVEL_01 # Vestigial utilities from IPython
 itsdangerous==2.0.1 # LEVEL_01 # Safely pass data to untrusted environments and back
 jedi==0.18.1 # LEVEL_02 # An autocompletion tool for Python that can be used for text editors
 Jinja2==3.0.3 # LEVEL_02 # template engine # A very fast and expressive template engine
-joblib==1.1.0 # LEVEL_01 # Lightweight pipelining with Python functions
 korean-lunar-calendar==0.2.1 # LEVEL_01 # Korean Lunar Calendar
 llvmlite==0.37.0 # LEVEL_01 # lightweight wrapper around basic LLVM functionality
 locket==0.2.1 # LEVEL_01 # File-based locks for Python for Linux and Windows
 lxml==4.6.4 # LEVEL_01 # Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API
 m3u8==0.9.0 # LEVEL_02 # play list parser, udemy-dl2 # Python m3u8 parser
 macholib==1.15.2 # LEVEL_02 # Mach-O header analysis and editing
-MarkupSafe==2.0.1 # LEVEL_01 # Safely add untrusted strings to HTML/XML markup
 memory-profiler==0.58.0 # LEVEL_02 # A module for monitoring memory usage of a python program
 msgpack==1.0.3 # LEVEL_01 # MessagePack (de)serializer
 multidict==5.2.0 # LEVEL_01 # multidict implementation
@@ -734,6 +739,7 @@ SQLAlchemy== 1.4.27 # LEVEL_02 # Database Abstraction Library
 PyMySQL==1.0.2 # LEVEL_01 # Pure Python MySQL Driver
 sqlparse==0.4.2 # LEVEL_01 # A non-validating SQL parser
 psycopg2-binary==2.9.2 # LEVEL_01 # psycopg2 - Python-PostgreSQL Database Adapter
+alembic==1.4.1 # LEVEL_03 # A database migration tool for SQLAlchemy
 
 #
 #
@@ -923,3 +929,34 @@ tomli==1.2.2 # LEVEL_01 # A lil' TOML parser
 #
 # Manually
 # git+https://github.com/zzzeek/sliderepl # LEVEL_02
+#
+# work: pycaret
+pycaret==2.2.2 # LEVEL_10 # PyCaret - An open source, low-code machine learning library in Python
+cufflinks==0.17.3 # LEVEL_09 # Productivity Tools for Plotly + Pandas
+pandas-profiling==3.1.0 # LEVEL_07 # Generate profile report for pandas DataFrame
+missingno==0.5.0 # LEVEL_06 # Missing data visualization module for Python
+#
+mlflow==1.21.0 # LEVEL_05 # MLflow: A Platform for ML Development and Productionization
+mlxtend==0.19.0 # LEVEL_05 # Machine Learning Library Extensions
+catboost==1.0.3 # LEVEL_05 # Catboost Python Package
+phik==0.12.0 # LEVEL_05 # Phi_K correlation analyzer library
+umap-learn==0.5.2 # LEVEL_05 # Uniform Manifold Approximation and Projection
+yellowbrick==1.3.post1 # LEVEL_05 # A suite of visual analysis and diagnostic tools for machine learning
+#
+visions==0.7.4 # LEVEL_04 # Visions
+prometheus-flask-exporter==0.18.6 # LEVEL_04 # Prometheus metrics exporter for Flask
+kmodes==0.11.1 # LEVEL_04 # Python implementations of the k-modes and k-prototypes clustering algorithms for clustering categorical data
+lightgbm==3.3.1 # LEVEL_04 # LightGBM Python Package
+imagehash==4.2.1 # LEVEL_03 #
+docker==5.0.3 # LEVEL_03 # A Python library for the Docker Engine API
+databricks-cli==0.16.2 # LEVEL_03 # A command line interface for Databricks
+Mako==1.1.6 # LEVEL_02 # A super-fast templating language that borrows the  best ideas from the existing templating languages
+pyLDAvis==3.2.2 # LEVEL_04 # Interactive topic model visualization. Port of the R package
+pynndescent==0.5.5 # LEVEL_04 # Nearest Neighbor Descent
+python-editor==1.0.4 # LEVEL_01 # Programmatically open an editor, capture the result
+querystring-parser==1.2.4 # LEVEL_02 # QueryString parser for Python/Django that correctly handles nested dictionaries
+#
+tangled-up-in-unicode==0.1.0 # LEVEL_01 # Access to the Unicode Character Database (UCD)
+colorlover==0.3.0 # LEVEL_01 # Color scales for IPython notebook
+funcy==1.16 # LEVEL_01 # A fancy and practical functional tools
+multimethod==1.6 # LEVEL_01 # Multiple argument dispatching
