@@ -177,6 +177,7 @@ pyluach
 pymeeus
 pymysql
 pynvml
+pyodbc
 pyopengl
 pyotp
 pyparsing

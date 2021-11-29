@@ -317,7 +317,7 @@ imageio==2.13.0 # LEVEL_02 # Library for reading and writing a wide range of ima
 tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
 Pillow==8.4.0 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
-imagehash==4.2.1 # LEVEL_03 #
+ImageHash==4.2.1 # LEVEL_03 # Image Hashing library
 #
 openvino==2021.4.2 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org # Inference Engine Python* API
 #openvino-dev==2021.4.1 # LEVEL_99 # has issues !!! # Openvino Tools
@@ -787,8 +787,10 @@ python-socks==2.0.0 # LEVEL_01 # Core proxy (SOCKS4, SOCKS5, HTTP tunneling) fun
 #
 SQLAlchemy== 1.4.27 # LEVEL_02 # Database Abstraction Library
 PyMySQL==1.0.2 # LEVEL_01 # Pure Python MySQL Driver
+pyodbc==4.0.32 # LEVEL_01 # DB API Module for ODBC
 sqlparse==0.4.2 # LEVEL_01 # A non-validating SQL parser
 psycopg2-binary==2.9.2 # LEVEL_01 # psycopg2 - Python-PostgreSQL Database Adapter
+greenlet==1.1.2 # LEVEL_01 # required by SQLAlchemy # Lightweight in-process concurrent programming
 
 #
 #
@@ -802,7 +804,6 @@ zstd==1.5.0.2 # LEVEL_01 # ZSTD Bindings for Python
 #
 alabaster==0.7.12 # LEVEL_01 # A configurable sidebar-enabled Sphinx theme
 async-generator==1.10 # LEVEL_01 # Async generators and context managers for Python 3.5+
-greenlet==1.1.2 # LEVEL_01 # Lightweight in-process concurrent programming
 iniconfig==1.1.1 # LEVEL_01 # iniconfig: brain-dead simple config-ini parsing
 mock==4.0.3 # LEVEL_01 # Rolling backport of unittest.mock for all Pythons
 outcome==1.1.0 # LEVEL_02 # Capture the outcome of Python function calls

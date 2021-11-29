@@ -83,11 +83,15 @@ if [ 1 -eq 1 ]; then
   # LEVEL_03 .. like: pandas
   # ...
   tags="PRE_INSTALL_00 NO_CACHE_DIR"
-  for i in $(seq 1 1 19); do
+  sequence=$(seq 1 1 19)
+  #sequence=$(seq 1 1 4; seq 5 5 15)
+  for i in $sequence; do
     num=$(printf "%02d" $i)
     level_xx="LEVEL_$num"
     tags="$tags $level_xx"
   done
+  #echo "Tags: $tags"
+  #exit 0
   for tag in $tags; do
     requirements_tmp="/tmp/requirements_${tag}.$$.txt"
     if [ "${tag:0:6}" = "LEVEL_" ]; then

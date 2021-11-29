@@ -1939,7 +1939,7 @@ Requires:
 Required-by: 
 ---
 Name: graphviz
-Version: 0.18.2
+Version: 0.19
 Summary: Simple Python interface for Graphviz
 Home-page: https://github.com/xflr6/graphviz
 Author: Sebastian Bank
@@ -4447,6 +4447,16 @@ Author-email: zhaoy@cmu.edu
 License: UNKNOWN
 Requires: joblib matplotlib numba numpy scikit-learn scipy six statsmodels
 Required-by: pycaret
+---
+Name: pyodbc
+Version: 4.0.32
+Summary: DB API Module for ODBC
+Home-page: https://github.com/mkleehammer/pyodbc
+Author: 
+Author-email: 
+License: MIT
+Requires: 
+Required-by: 
 ---
 Name: PyOpenGL
 Version: 3.1.5
