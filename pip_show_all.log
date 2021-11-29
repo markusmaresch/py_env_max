@@ -2129,7 +2129,7 @@ Requires: imagecodecs
 Required-by: 
 ---
 Name: imageio
-Version: 2.12.0
+Version: 2.13.0
 Summary: Library for reading and writing a wide range of image, video, scientific, and volumetric data formats.
 Home-page: https://github.com/imageio/imageio
 Author: imageio contributors

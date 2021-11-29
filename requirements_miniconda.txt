@@ -287,7 +287,7 @@ imagecodecs-lite==2020.1.31 # LEVEL_03 # The imagecodecs-lite package is depreca
 imagecodecs==2021.11.20 # LEVEL_02 # Image transformation, compression, and decompression codecs
 opencv-python==4.5.4.60 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.4.60 # LEVEL_02 # Wrapper package for OpenCV python bindings
-imageio==2.12.0 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
+imageio==2.13.0 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
 Pillow==8.4.0 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
