@@ -393,7 +393,6 @@ sacrebleu
 sacremoses
 scipy
 sentry-sdk
-sliderepl
 spacy-loggers
 sqlalchemy
 srsly
