@@ -88,7 +88,7 @@ pycaret==2.2.2 # LEVEL_10 # LOCKED # old dependencies # PyCaret - An open source
 # Former LOCKED .. now freed ;-)
 #
 Deprecated==1.2.13 # LEVEL_02 # Python @deprecated decorator to deprecate old python classes, functions or methods
-typing_extensions==4.0.0 # LEVEL_01 # Backported and Experimental Type Hints for Python 3.6+
+typing_extensions==4.0.1 # LEVEL_01 # Backported and Experimental Type Hints for Python 3.6+
 six==1.16.0 # LEVEL_01 # Python 2 and 3 compatibility utilities
 clang==11.0 # LEVEL_01 # libclang python bindings
 h5py==3.6.0 # LEVEL_02 # Read and write HDF5 files from Python
@@ -108,7 +108,7 @@ seaborn==0.11.2 # LEVEL_05 # seaborn: statistical data visualization
 matplotlib==3.5.0 # LEVEL_04 # Python plotting package
 scipy==1.7.3 # LEVEL_02 # SciPy: Scientific Library for Python
 numba==0.54.1 # LEVEL_02 # compiling Python code using LLVM
-numexpr==2.7.3 # LEVEL_02 # Fast numerical expression evaluator for NumPy
+numexpr==2.8.0 # LEVEL_02 # Fast numerical expression evaluator for NumPy
 openpyxl==3.0.9 # LEVEL_02 # A Python library to read/write Excel 2010 xlsx/xlsm files
 toolz==0.11.2 # LEVEL_01 # List processing tools and functional utilities
 pybullet==3.2.0 # LEVEL_01 # Official Python Interface for the Bullet Physics SDK specialized for Robotics Simulation and Reinforcement Learning
@@ -152,7 +152,7 @@ tensorboard-data-server==0.6.1 # LEVEL_01 # Fast data loading for TensorBoard
 tensorboard-plugin-wit==1.8.0 # LEVEL_01 # What-If Tool TensorBoard plugin
 #
 tensorflow-datasets==4.4.0 # LEVEL_04 # tensorflow/datasets is a library of datasets ready to use with TensorFlow
-tensorflow-metadata==1.4.0 # LEVEL_03 # Library and standards for schema and statistics
+tensorflow-metadata==1.5.0 # LEVEL_03 # Library and standards for schema and statistics
 tensorflow-model-optimization==0.7.0 # LEVEL_03 # A suite of tools that users, both novice and advanced can use to optimize machine learning models for deployment and execution
 tensorflow-addons==0.15.0 # LEVEL_02 # TensorFlow Addons
 tensorflow-hub==0.12.0 # LEVEL_02 # TensorFlow Hub is a library to foster the publication, discovery, and consumption of reusable parts of machine learning models
@@ -165,14 +165,14 @@ tf-slim==1.1.0 # LEVEL_03 # TensorFlow-Slim: A lightweight library for defining,
 Keras-Preprocessing==1.1.2 # LEVEL_02 # Easy data preprocessing and data augmentation for deep learning models
 #
 datasets==1.16.1 # LEVEL_04 # HuggingFace community-driven open-source library of datasets
-huggingface-hub==0.1.2 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
+huggingface-hub==0.2.0 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
 #
 xgboost==1.5.1 # LEVEL_03 # check installation notes # XGBoost Python Package
 #
 pyro-ppl==1.7.0 # LEVEL_03 # A Python library for probabilistic modeling and inference
 pyro-api==0.1.2 # LEVEL_01 # Generic API for dispatch to Pyro backends
 #
-pytorch-lightning==1.5.3 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
+pytorch-lightning==1.5.4 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
 performer-pytorch==1.1.3 # LEVEL_04 # Performer - Pytorch
 torch-optimizer==0.3.0 # LEVEL_04 # pytorch-optimizer
 torchaudio==0.10.0 # LEVEL_03 # An audio package for PyTorch
@@ -203,7 +203,7 @@ wandb==0.12.7 # LEVEL_04 # A CLI and library for interacting with the Weights an
 #
 #ktrain>=0.27.2
 #
-mlflow==1.21.0 # LEVEL_05 # MLflow: A Platform for ML Development and Productionization
+mlflow==1.22.0 # LEVEL_05 # MLflow: A Platform for ML Development and Productionization
 mlxtend==0.19.0 # LEVEL_05 # Machine Learning Library Extensions
 catboost==1.0.3 # LEVEL_05 # Catboost Python Package
 phik==0.12.0 # LEVEL_05 # Phi_K correlation analyzer library
@@ -255,8 +255,8 @@ Babel==2.9.1 # LEVEL_02 # Internationalization utilities
 bert-for-tf2==0.14.9 # LEVEL_03 # A TensorFlow 2.0 Keras implementation of BERT
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger # Attention visualization tool for NLP Transformer models
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
-boto3==1.20.15  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
-botocore==1.23.15 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+boto3==1.20.18  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+botocore==1.23.18 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 #
 spacytextblob==3.0.1 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
 spacy==3.2.0 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
@@ -313,7 +313,7 @@ imagecodecs-lite==2020.1.31 # LEVEL_03 # The imagecodecs-lite package is depreca
 imagecodecs==2021.11.20 # LEVEL_02 # Image transformation, compression, and decompression codecs
 opencv-python==4.5.4.60 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.4.60 # LEVEL_02 # Wrapper package for OpenCV python bindings
-imageio==2.13.0 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
+imageio==2.13.1 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
 Pillow==8.4.0 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
@@ -418,7 +418,7 @@ spectra==0.0.11 # LEVEL_03 # old # Color scales and color conversion made easy f
 colorcet==3.0.0 # LEVEL_03 # Collection of perceptually uniform colormaps
 colormath==3.0.0 # LEVEL_02 # not maintained # Color math and conversion library
 blessings==1.7 # LEVEL_02 # old # A thin, practical wrapper around terminal coloring, styling, and positioning
-rich==10.15.0 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+rich==10.15.2 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 colorama==0.4.4 # LEVEL_01 # Cross-platform colored terminal text
 termcolor==1.1.0 # LEVEL_01 # OLD !! # ANSII Color formatting for output in terminal
 colorful==0.5.4 # LEVEL_01 # old # Terminal string styling done right, in Python
@@ -433,7 +433,7 @@ google-cloud-core==2.2.1 # LEVEL_05 # Google Cloud API client core library
 google-resumable-media==2.1.0 # LEVEL_02 # Utilities for Google Media Downloads and Resumable Uploads
 google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC32C'
 #
-google-api-python-client==2.31.0 # LEVEL_05 # Google API Client Library for Python
+google-api-python-client==2.32.0 # LEVEL_05 # Google API Client Library for Python
 google-api-core==2.2.2 # LEVEL_04 # Google API client core library
 google-auth-httplib2==0.1.0 # LEVEL_04 # Google Authentication Library: httplib2 transport
 google-auth-oauthlib==0.4.6 # LEVEL_04 # Google Authentication Library
@@ -457,7 +457,7 @@ s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
 jupyter-bokeh==3.0.4 # LEVEL_09 # A Jupyter extension for rendering Bokeh content
 jupyter==1.0.0 # LEVEL_09 # Jupyter metapackage. Install all the Jupyter components in one go
 jupyterlab==3.2.4 # LEVEL_08 # JupyterLab computational environment
-jupyter-server-proxy==3.1.0 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
+jupyter-server-proxy==3.2.0 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
 jupyterlab-server==2.8.2 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.0 # LEVEL_06 # Dash support for the Jupyter notebook interface
 jupyter-server==1.12.1 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
@@ -475,7 +475,7 @@ notebook==6.4.6 # LEVEL_06 # A web-based notebook environment for interactive co
 nbsphinx==0.8.7 # LEVEL_06 # Jupyter Notebook Tools for Sphinx
 nbconvert==6.3.0 # LEVEL_05 # Converting Jupyter Notebooks
 qtconsole==5.2.1 # LEVEL_05 # Jupyter Qt console
-ipykernel==6.5.1 # LEVEL_04 # IPython Kernel for Jupyter
+ipykernel==6.6.0 # LEVEL_04 # IPython Kernel for Jupyter
 nbclient==0.5.9 # LEVEL_04 # A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor
 nbformat==5.1.3 # LEVEL_03 # The Jupyter Notebook format
 matplotlib-inline==0.1.3 # LEVEL_02 # Inline Matplotlib backend for Jupyter
@@ -542,7 +542,7 @@ cssselect2==0.4.1 # LEVEL_03 # cssselect2
 pytest-asyncio==0.16.0 # LEVEL_04 # Pytest support for asyncio
 pytest==6.2.5 # LEVEL_03 # pytest: simple powerful testing with Python
 pyanalyze==0.4.0 # LEVEL_04 # A static analyzer for Python
-pytype==2021.11.24 # LEVEL_04 # Python type inferencer
+pytype==2021.11.29 # LEVEL_04 # Python type inferencer
 flake8==4.0.1 # LEVEL_02 # better linter than pyflakes # the modular source code checker: pep8 pyflakes and co
 mypy==0.910 # LEVEL_02 # Optional static typing for Python
 mypy-extensions==0.4.3 # LEVEL_01 # Experimental type system extensions for programs checked with the mypy typechecker
@@ -688,14 +688,14 @@ multipledispatch==0.6.0 # LEVEL_02 # Multiple dispatch
 multiprocess==0.70.12.2 # LEVEL_02 # better multiprocessing and multithreading in python
 multitasking==0.0.10 # LEVEL_01 # Non-blocking Python methods using decorators
 murmurhash==1.0.6 # LEVEL_01 # Cython bindings for MurmurHash
-nest-asyncio==1.5.1 # LEVEL_01 # Patch asyncio to allow nested event loops
+nest-asyncio==1.5.4 # LEVEL_01 # Patch asyncio to allow nested event loops
 netifaces==0.11.0 # LEVEL_01 # Portable network interface information
 oauth2client==4.1.3 # LEVEL_03 # OAuth 2.0 client library
 oauthlib==3.1.1 # LEVEL_01 # A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
 opt-einsum==3.3.0 # LEVEL_02 # Optimizing numpys einsum function
 pandocfilters==1.5.0 # LEVEL_01 # Utilities for writing pandoc filters in python
 params-flow==0.8.2 # LEVEL_02 # Tensorflow Keras utilities for reducing boilerplate code
-parso==0.8.2 # LEVEL_01 # A Python Parser
+parso==0.8.3 # LEVEL_01 # A Python Parser
 partd==1.2.0 # LEVEL_02 # Appendable key-value storage
 pathy==0.6.1 # LEVEL_03 # pathlib.Path subclasses for local and cloud bucket storage
 patsy==0.5.2 # LEVEL_02 # A Python package for describing statistical models and for building design matrices
@@ -797,7 +797,7 @@ greenlet==1.1.2 # LEVEL_01 # required by SQLAlchemy # Lightweight in-process con
 # Resolve below
 #
 #streamlit # has some dependencies !!
-tbb==2021.4.0 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
+tbb==2021.5.0 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
 tiledb==0.11.2 # LEVEL_02 # Pythonic interface to the TileDB array storage manager
 xarray==0.20.1 # LEVEL_04 # N-D labeled arrays and datasets in Python
 zstd==1.5.0.2 # LEVEL_01 # ZSTD Bindings for Python
@@ -861,7 +861,7 @@ datashape==0.5.2 # LEVEL_03 # A data description language
 #
 dlpack==0.1 # LEVEL_01 # Machine learning for systems
 #
-faiss-cpu==1.7.1.post2 # LEVEL_01 # A library for efficient similarity search and clustering of dense vectors
+faiss-cpu==1.7.1.post3 # LEVEL_01 # A library for efficient similarity search and clustering of dense vectors
 #
 fastavro==1.4.7 # LEVEL_01 # Fast read/write of AVRO files
 #
