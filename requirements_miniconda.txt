@@ -27,9 +27,10 @@
 #zlib # LEVEL_00 # CONDA_CREATE
 
 #
-# Internal
+# Internal .. needed early by this system
 #
 pipdeptree==2.2.0 # LEVEL_02 # INTERNAL # Command line utility to show dependency tree of packages
+importlib-metadata==4.8.2 # LEVEL_02 # INTERNAL # Read metadata from Python packages
 
 #
 # Pre-Installs .. separate install before anything else
@@ -576,7 +577,6 @@ pyinstaller-hooks-contrib==2021.4 # LEVEL_01 # deployment # Community maintained
 # Packages
 importlib-resources==5.4.0 # LEVEL_02 # Read resources from Python packages
 packaging==21.3 # LEVEL_02 # Core utilities for Python packages
-importlib-metadata==4.8.2 # LEVEL_02 # Read metadata from Python packages
 entrypoints==0.3 # LEVEL_01 # Discover and load entry points from installed packages
 
 # Locking
@@ -671,7 +671,7 @@ gin-config==0.5.0 # LEVEL_01 # Gin-Config: A lightweight configuration library f
 HeapDict==1.0.1 # LEVEL_01 # a heap with decrease-key and increase-key operations
 httplib2==0.20.2 # LEVEL_02 # A comprehensive HTTP client library
 idna==3.3 # LEVEL_01 # Internationalized Domain Names in Applications (IDNA)
-ipython==7.30.0 # LEVEL_03 # IPython: Productive Interactive Computing
+ipython==7.30.1 # LEVEL_03 # IPython: Productive Interactive Computing
 ipython-genutils==0.2.0 # LEVEL_01 # Vestigial utilities from IPython
 itsdangerous==2.0.1 # LEVEL_01 # Safely pass data to untrusted environments and back
 jedi==0.18.1 # LEVEL_02 # An autocompletion tool for Python that can be used for text editors
@@ -800,7 +800,7 @@ greenlet==1.1.2 # LEVEL_01 # required by SQLAlchemy # Lightweight in-process con
 tbb==2021.5.0 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
 tiledb==0.11.2 # LEVEL_02 # Pythonic interface to the TileDB array storage manager
 xarray==0.20.1 # LEVEL_04 # N-D labeled arrays and datasets in Python
-zstd==1.5.0.2 # LEVEL_01 # ZSTD Bindings for Python
+zstd==1.5.0.3 # LEVEL_01 # ZSTD Bindings for Python
 #
 alabaster==0.7.12 # LEVEL_01 # A configurable sidebar-enabled Sphinx theme
 async-generator==1.10 # LEVEL_01 # Async generators and context managers for Python 3.5+

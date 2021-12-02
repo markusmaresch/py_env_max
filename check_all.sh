@@ -2,7 +2,7 @@
 
 conda --version > conda_version.txt
 
-if ! python import_some.py; then
+if ! python inspect_all.py; then
   exit 1
 fi
 
