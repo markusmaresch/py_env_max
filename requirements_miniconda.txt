@@ -134,7 +134,7 @@ box2d-py==2.3.8 # LEVEL_01 # Python Box2D
 #ccxt==1.58.26 # LEVEL_01
 #
 wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
-ray==1.8.0 # LEVEL_04 # Ray provides a simple, universal API for building distributed applications
+ray==1.9.0 # LEVEL_04 # Ray provides a simple, universal API for building distributed applications
 redis==4.0.2 # LEVEL_03 # Python client for Redis database and key-value store
 tensorboardX==2.4.1 # LEVEL_02 # TensorBoardX lets you watch Tensors Flow without Tensorflow
 lz4==3.1.10 # LEVEL_01 # LZ4 Bindings for Python
@@ -166,7 +166,7 @@ tf-slim==1.1.0 # LEVEL_03 # TensorFlow-Slim: A lightweight library for defining,
 Keras-Preprocessing==1.1.2 # LEVEL_02 # Easy data preprocessing and data augmentation for deep learning models
 #
 datasets==1.16.1 # LEVEL_04 # HuggingFace community-driven open-source library of datasets
-huggingface-hub==0.2.0 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
+huggingface-hub==0.2.1 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
 #
 xgboost==1.5.1 # LEVEL_03 # check installation notes # XGBoost Python Package
 #
@@ -198,7 +198,7 @@ gym==0.21.0 # LEVEL_02 # Gym: A universal API for reinforcement learning environ
 #
 gensim==4.1.2 # LEVEL_03 # Python framework for fast Vector Space Modelling
 #
-openai==0.11.0 # LEVEL_04 # Python client library for the OpenAI API
+openai==0.11.1 # LEVEL_04 # Python client library for the OpenAI API
 #
 wandb==0.12.7 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
 #
@@ -296,7 +296,7 @@ dask[complete]==2021.11.2 # LEVEL_03 # Parallel PyData with Task Scheduling
 # pynvml==11.0.0 # LEVEL_01 # POTENTIALLY_UNUSED # Python Bindings for the NVIDIA Management Library
 #
 scikit-plot==0.3.7 # LEVEL_05 # An intuitive library to add plotting functionality to scikit-learn objects
-scikit-image==0.18.3 # LEVEL_05 # Image processing in Python
+scikit-image==0.19.0 # LEVEL_03 # Image processing in Python
 scikit-learn==1.0.1 # LEVEL_03 # A set of python modules for machine learning and data mining
 pyod==0.9.5 # LEVEL_05 # outlyer detection # A Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
 jax==0.2.25 # LEVEL_03 # Differentiate, compile, and transform Numpy code
@@ -371,7 +371,7 @@ scs==2.1.4 # LEVEL_03 # scs: splitting conic solver
 #
 # GUI & Visualization
 #
-QtPy==1.11.2 # LEVEL_01 # Provides an abstraction layer on top of the various Qt bindings (PyQt5, PyQt4 and PySide) and additional custom QWidgets
+QtPy==1.11.3 # LEVEL_01 # Provides an abstraction layer on top of the various Qt bindings (PyQt5, PyQt4 and PySide) and additional custom QWidgets
 PySimpleGUI==4.55.1 # LEVEL_01 # Python GUIs for Humans. Launched in 2018. It's 2021 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers
 PyQt5==5.15.6 # LEVEL_02 # Python bindings for the Qt cross platform application toolkit
 PyQt5-Qt5==5.15.2 # LEVEL_01 # The subset of a Qt installation needed by PyQt5
@@ -445,7 +445,7 @@ uritemplate==4.1.1 # LEVEL_01 # required by google-api-python-client # Implement
 
 # Azure
 azure-storage-blob==12.9.0 # LEVEL_05 # Microsoft Azure Blob Storage Client Library for Python
-azure-core==1.20.1 # LEVEL_03 # Microsoft Azure Core Library for Python
+azure-core==1.21.0 # LEVEL_03 # Microsoft Azure Core Library for Python
 azure-common==1.1.27 # LEVEL_01 # Microsoft Azure Client Library for Python (Common)
 smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)
 
@@ -800,7 +800,7 @@ greenlet==1.1.2 # LEVEL_01 # required by SQLAlchemy # Lightweight in-process con
 tbb==2021.5.0 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
 tiledb==0.11.2 # LEVEL_02 # Pythonic interface to the TileDB array storage manager
 xarray==0.20.1 # LEVEL_04 # N-D labeled arrays and datasets in Python
-zstd==1.5.0.3 # LEVEL_01 # ZSTD Bindings for Python
+zstd==1.5.0.4 # LEVEL_01 # ZSTD Bindings for Python
 #
 alabaster==0.7.12 # LEVEL_01 # A configurable sidebar-enabled Sphinx theme
 async-generator==1.10 # LEVEL_01 # Async generators and context managers for Python 3.5+
@@ -950,7 +950,7 @@ cftime==1.5.1.1 # LEVEL_02 # Time-handling functionality from netcdf4-python
 omegaconf==2.1.1 # LEVEL_02 # A flexible configuration library
 sentry-sdk==1.5.0 # LEVEL_02 # Python client for Sentry (https://sentry.io)
 yaspin==2.1.0 # LEVEL_02 # Yet Another Terminal Spinner
-configparser==5.1.0 # LEVEL_01 # Updated configparser from Python 3.8 for Python 2.6+
+configparser==5.2.0 # LEVEL_01 # Updated configparser from Python 3.8 for Python 2.6+
 pathtools==0.1.2 # LEVEL_01 # File system general utilities
 shortuuid==1.0.8 # LEVEL_01 # A generator library for concise, unambiguous and URL-safe UUIDs
 subprocess32==3.5.4 # LEVEL_01 # A backport of the subprocess module from Python 3 for use on 2.x
@@ -965,7 +965,7 @@ emoji==1.6.1 # LEVEL_01 # Emoji for Python
 #
 shellingham==1.4.0 # LEVEL_01 # Tool to Detect Surrounding Shell
 #
-fonttools==4.28.2 # LEVEL_01 # Tools to manipulate font files
+fonttools==4.28.3 # LEVEL_01 # Tools to manipulate font files
 setuptools-scm==6.3.2 # LEVEL_03 # the blessed package to manage your versions by scm tags
 tomli==1.2.2 # LEVEL_01 # A lil' TOML parser
 #

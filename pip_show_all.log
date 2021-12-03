@@ -359,7 +359,7 @@ Requires:
 Required-by: 
 ---
 Name: azure-core
-Version: 1.20.1
+Version: 1.21.0
 Summary: Microsoft Azure Core Library for Python
 Home-page: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/core/azure-core
 Author: Microsoft Corporation
@@ -849,7 +849,7 @@ Requires:
 Required-by: recommonmark rich
 ---
 Name: configparser
-Version: 5.1.0
+Version: 5.2.0
 Summary: Updated configparser from Python 3.8 for Python 2.6+.
 Home-page: https://github.com/jaraco/configparser/
 Author: Łukasz Langa
@@ -1609,7 +1609,7 @@ Requires:
 Required-by: tensorflow
 ---
 Name: fonttools
-Version: 4.28.2
+Version: 4.28.3
 Summary: Tools to manipulate font files
 Home-page: http://github.com/fonttools/fonttools
 Author: Just van Rossum
@@ -2129,7 +2129,7 @@ Requires: certifi charset-normalizer httpcore rfc3986 sniffio
 Required-by: tda-api
 ---
 Name: huggingface-hub
-Version: 0.2.0
+Version: 0.2.1
 Summary: Client library to download and publish models on the huggingface.co hub
 Home-page: https://github.com/huggingface/huggingface_hub
 Author: Hugging Face, Inc.
@@ -2956,7 +2956,7 @@ Author: John D. Hunter, Michael Droettboom
 Author-email: matplotlib-users@python.org
 License: PSF
 Requires: cycler fonttools kiwisolver numpy packaging pillow pyparsing python-dateutil setuptools-scm
-Required-by: catboost elegantrl fastai missingno mlxtend mplfinance pandas-profiling phik prophet pycaret pycocotools pyfolio pyod scikit-image scikit-plot seaborn stable-baselines3 tf-models-official wordcloud yellowbrick
+Required-by: catboost elegantrl fastai missingno mlxtend mplfinance pandas-profiling phik prophet pycaret pycocotools pyfolio pyod scikit-plot seaborn stable-baselines3 tf-models-official wordcloud yellowbrick
 ---
 Name: matplotlib-inline
 Version: 0.1.3
@@ -3449,7 +3449,7 @@ Requires: PyYAML antlr4-python3-runtime
 Required-by: 
 ---
 Name: openai
-Version: 0.11.0
+Version: 0.11.1
 Summary: Python client library for the OpenAI API
 Home-page: https://github.com/openai/openai-python
 Author: OpenAI
@@ -3576,7 +3576,7 @@ Author: Donald Stufft and individual contributors
 Author-email: donald@stufft.io
 License: BSD-2-Clause or Apache-2.0
 Requires: pyparsing
-Required-by: Sphinx bleach bokeh dask dask-ml datasets deprecation fastai fastcore google-cloud-bigquery huggingface-hub jupyter-packaging jupyterlab jupyterlab-server matplotlib mlflow nibabel pipx pytest pytorch-lightning setuptools-scm spacy torchmetrics transformers
+Required-by: Sphinx bleach bokeh dask dask-ml datasets deprecation fastai fastcore google-cloud-bigquery huggingface-hub jupyter-packaging jupyterlab jupyterlab-server matplotlib mlflow nibabel pipx pytest pytorch-lightning scikit-image setuptools-scm spacy torchmetrics transformers
 ---
 Name: pandas
 Version: 1.3.4
@@ -4869,7 +4869,7 @@ Requires: ipykernel ipython-genutils jupyter-client jupyter-core pygments pyzmq 
 Required-by: jupyter
 ---
 Name: QtPy
-Version: 1.11.2
+Version: 1.11.3
 Summary: Provides an abstraction layer on top of the various Qt bindings (PyQt5, PyQt4 and PySide) and additional custom QWidgets.
 Home-page: https://github.com/spyder-ide/qtpy
 Author: Colin Duquesnoy and the Spyder Development Team
@@ -4909,7 +4909,7 @@ Requires: PyYAML pyramid setuptools venusian zope.interface
 Required-by: 
 ---
 Name: ray
-Version: 1.8.0
+Version: 1.9.0
 Summary: Ray provides a simple, universal API for building distributed applications.
 Home-page: https://github.com/ray-project/ray
 Author: Ray Team
@@ -5139,13 +5139,13 @@ Requires:
 Required-by: twint
 ---
 Name: scikit-image
-Version: 0.18.3
+Version: 0.19.0
 Summary: Image processing in Python
 Home-page: https://scikit-image.org
 Author: 
 Author-email: 
 License: Modified BSD
-Requires: PyWavelets imageio matplotlib networkx numpy pillow scipy tifffile
+Requires: PyWavelets imageio networkx numpy packaging pillow scipy tifffile
 Required-by: dash-canvas
 ---
 Name: scikit-learn
@@ -6719,7 +6719,7 @@ Requires: setuptools
 Required-by: pyramid rapids
 ---
 Name: zstd
-Version: 1.5.0.3
+Version: 1.5.0.4
 Summary: ZSTD Bindings for Python
 Home-page: https://github.com/sergey-dryabzhinsky/python-zstd
 Author: Sergey Dryabzhinsky, Anton Stuk

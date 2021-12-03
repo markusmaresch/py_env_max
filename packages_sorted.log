@@ -499,6 +499,7 @@ requests-oauthlib
 requests-toolbelt
 requests-unixsocket
 rouge-score
+scikit-image
 scikit-learn
 scs
 setuptools-scm
@@ -630,7 +631,6 @@ pyod
 qtconsole
 rapidminer
 rapids
-scikit-image
 scikit-plot
 seaborn
 selenium
