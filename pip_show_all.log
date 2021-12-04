@@ -519,7 +519,7 @@ Requires: Mastodon.py sqlalchemy
 Required-by: 
 ---
 Name: boto3
-Version: 1.20.19
+Version: 1.20.20
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -529,7 +529,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.23.19
+Version: 1.23.20
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -679,7 +679,7 @@ Requires:
 Required-by: 
 ---
 Name: charset-normalizer
-Version: 2.0.8
+Version: 2.0.9
 Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
 Home-page: https://github.com/ousret/charset_normalizer
 Author: Ahmed TAHRI @Ousret
@@ -899,7 +899,7 @@ Requires:
 Required-by: 
 ---
 Name: croniter
-Version: 1.0.15
+Version: 1.1.0
 Summary: croniter provides iteration for datetime object with cron like format
 Home-page: http://github.com/kiorky/croniter
 Author: Matsumoto Taichi, kiorky
@@ -3449,7 +3449,7 @@ Requires: PyYAML antlr4-python3-runtime
 Required-by: 
 ---
 Name: openai
-Version: 0.11.1
+Version: 0.11.3
 Summary: Python client library for the OpenAI API
 Home-page: https://github.com/openai/openai-python
 Author: OpenAI
@@ -4219,7 +4219,7 @@ Requires:
 Required-by: cffi
 ---
 Name: pycryptodomex
-Version: 3.11.0
+Version: 3.12.0
 Summary: Cryptographic library for Python
 Home-page: https://www.pycryptodome.org
 Author: Helder Eijs
@@ -5709,7 +5709,7 @@ Requires:
 Required-by: pandas-profiling visions
 ---
 Name: tbb
-Version: 2021.5.0
+Version: 2021.4.0
 Summary: Intel® oneAPI Threading Building Blocks (oneTBB)
 Home-page: https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onetbb.html
 Author: Intel Corporation
@@ -6219,7 +6219,7 @@ Requires: aiodns aiohttp aiohttp-socks beautifulsoup4 cchardet elasticsearch fak
 Required-by: 
 ---
 Name: typed-ast
-Version: 1.5.0
+Version: 1.5.1
 Summary: a fork of Python 2 and 3 ast modules with type comment support
 Home-page: https://github.com/python/typed_ast
 Author: David Fisher
