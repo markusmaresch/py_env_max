@@ -84,6 +84,11 @@ pyLDAvis==3.2.2 # LEVEL_04 # LOCKED # pycaret ? # Interactive topic model visual
 #
 pycaret==2.2.2 # LEVEL_10 # LOCKED # old dependencies # PyCaret - An open source, low-code machine learning library in Python
 #
+mistune==0.8.4 # LEVEL_01 # LOCKED # nbconvert 6.3.0 requires mistune<2,>=0.8.1 # The fastest markdown parser in pure Python
+#
+pybullet==3.2.0 # LEVEL_01 # LOCKED # can't update ? # Official Python Interface for the Bullet Physics SDK specialized for Robotics Simulation and Reinforcement Learning
+#
+visions==0.7.4 # LEVEL_04 # LOCKED # pandas-profiling 3.1.0 requires visions[type_image_path]==0.7.4 # Visions
 #
 #
 # Former LOCKED .. now freed ;-)
@@ -112,7 +117,6 @@ numba==0.54.1 # LEVEL_02 # compiling Python code using LLVM
 numexpr==2.8.0 # LEVEL_02 # Fast numerical expression evaluator for NumPy
 openpyxl==3.0.9 # LEVEL_02 # A Python library to read/write Excel 2010 xlsx/xlsm files
 toolz==0.11.2 # LEVEL_01 # List processing tools and functional utilities
-pybullet==3.2.0 # LEVEL_01 # Official Python Interface for the Bullet Physics SDK specialized for Robotics Simulation and Reinforcement Learning
 #
 #
 # Pandas
@@ -347,7 +351,7 @@ oandapyV20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console # Python wra
 #
 #
 py-vollib==1.0.1 # LEVEL_04 # option pricing
-TA-Lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # fix: pip uninstall ta-lib; pip install --upgrade --no-cache-dir ta-lib # sometimes needed # Python wrapper for TA-Lib
+TA-Lib==0.4.22 # LEVEL_02 # NO_CACHE_DIR # Python wrapper for TA-Lib
 #
 robin-stocks==2.1.0 # LEVEL_04 # A Python wrapper around the Robinhood API
 cryptography==36.0.0 # LEVEL_03 # cryptography is a package which provides cryptographic recipes and primitives to Python developers
@@ -558,7 +562,6 @@ py-spy==0.3.11 # LEVEL_01 # Sampling profiler for Python programs
 # Markdown
 Markdown==3.3.6 # LEVEL_03 # Python implementation of Markdown
 commonmark==0.9.1 # LEVEL_01 # Python parser for the CommonMark Markdown spec
-mistune==0.8.4 # LEVEL_01 # The fastest markdown parser in pure Python
 
 # HTML scraping, sanitizing, minimizing
 beautifulsoup4==4.10.0 # LEVEL_02 # Screen-scraping library
@@ -658,7 +661,7 @@ dm-tree==0.1.6 # LEVEL_02 # Tree is a library for working with nested data struc
 dnspython==2.1.0 # LEVEL_01 # DNS toolkit
 elasticsearch==7.15.2 # LEVEL_02 # Python client for Elasticsearch
 email-validator==1.1.3 # LEVEL_02 # A robust email syntax and deliverability validation library for Python 2.x/3.x
-ephem==4.1.1 # LEVEL_01 # Compute positions of the planets and stars
+ephem==4.1.2 # LEVEL_01 # Compute positions of the planets and stars
 et-xmlfile==1.1.0 # LEVEL_01 # An implementation of lxml.xmlfile for the standard library
 eventkit==0.8.9 # LEVEL_02 # Event-driven data pipelines
 fake-useragent==0.1.11 # LEVEL_01 # Up to date simple useragent faker with real world database
@@ -969,7 +972,6 @@ fonttools==4.28.3 # LEVEL_01 # Tools to manipulate font files
 setuptools-scm==6.3.2 # LEVEL_03 # the blessed package to manage your versions by scm tags
 tomli==1.2.2 # LEVEL_01 # A lil' TOML parser
 #
-visions==0.7.4 # LEVEL_04 # Visions
 databricks-cli==0.16.2 # LEVEL_03 # A command line interface for Databricks
 Mako==1.1.6 # LEVEL_02 # A super-fast templating language that borrows the  best ideas from the existing templating languages
 python-editor==1.0.4 # LEVEL_01 # Programmatically open an editor, capture the result

@@ -1379,7 +1379,7 @@ Requires:
 Required-by: altair jupyter-client jupyterlab-server mlflow nbconvert
 ---
 Name: ephem
-Version: 4.1.1
+Version: 4.1.2
 Summary: Compute positions of the planets and stars
 Home-page: http://rhodesmill.org/pyephem/
 Author: Brandon Rhodes
@@ -5679,7 +5679,7 @@ Requires:
 Required-by: wandb
 ---
 Name: TA-Lib
-Version: 0.4.21
+Version: 0.4.22
 Summary: Python wrapper for TA-Lib
 Home-page: http://github.com/mrjbq7/ta-lib
 Author: John Benediktsson
