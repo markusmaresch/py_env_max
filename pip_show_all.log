@@ -5679,7 +5679,7 @@ Requires:
 Required-by: wandb
 ---
 Name: TA-Lib
-Version: 0.4.22
+Version: 0.4.21
 Summary: Python wrapper for TA-Lib
 Home-page: http://github.com/mrjbq7/ta-lib
 Author: John Benediktsson

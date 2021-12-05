@@ -38,6 +38,9 @@ importlib-metadata==4.8.2 # LEVEL_02 # INTERNAL # Read metadata from Python pack
 numpy==1.19.5 # LEVEL_01 # PRE_INSTALL_00 # LOCKED # openvino<1.20; # NumPy is the fundamental package for array computing with Python
 
 #
+TA-Lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # Still issue with upgrading !!! # Python wrapper for TA-Lib
+
+#
 # not recognized by 'req.txt'
 #
 mplfinance==0.12.7a17 # LEVEL_05 # Utilities for the visualization, and visual analysis, of financial data
@@ -351,7 +354,6 @@ oandapyV20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console # Python wra
 #
 #
 py-vollib==1.0.1 # LEVEL_04 # option pricing
-TA-Lib==0.4.22 # LEVEL_02 # NO_CACHE_DIR # Python wrapper for TA-Lib
 #
 robin-stocks==2.1.0 # LEVEL_04 # A Python wrapper around the Robinhood API
 cryptography==36.0.0 # LEVEL_03 # cryptography is a package which provides cryptographic recipes and primitives to Python developers
