@@ -260,6 +260,7 @@ unidecode
 uritemplate
 urllib3
 venusian
+vine
 wasabi
 wcwidth
 webencodings
@@ -276,6 +277,7 @@ zipp
 zstd
 absl-py
 aiosignal
+amqp
 anyio
 astunparse
 async-timeout

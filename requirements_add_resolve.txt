@@ -5,8 +5,7 @@
 
 #perceptilabs==0.13.4
 
-amqp
-analytics-python
+analytics-python==1.4.0
 asgiref
 #
 backoff
@@ -53,7 +52,6 @@ starlette
 tf2onnx
 uamqp
 uvicorn
-vine
 waitress
 #
 pyobjc

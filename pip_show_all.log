@@ -138,6 +138,16 @@ License: MIT
 Requires: 
 Required-by: macholib pyinstaller
 ---
+Name: amqp
+Version: 5.0.6
+Summary: Low-level AMQP client for Python (fork of amqplib).
+Home-page: http://github.com/celery/py-amqp
+Author: Barry Pederson
+Author-email: pyamqp@celeryproject.org
+License: BSD
+Requires: vine
+Required-by: 
+---
 Name: ansi2html
 Version: 1.6.0
 Summary: UNKNOWN
@@ -6417,6 +6427,16 @@ Author-email: pylons-devel@googlegroups.com
 License: BSD-derived (http://www.repoze.org/LICENSE.txt)
 Requires: 
 Required-by: pyramid rapids
+---
+Name: vine
+Version: 5.0.0
+Summary: Promises, promises, promises.
+Home-page: http://github.com/celery/vine
+Author: Ask Solem
+Author-email: ask@celeryproject.org
+License: BSD
+Requires: 
+Required-by: amqp
 ---
 Name: visions
 Version: 0.7.4
