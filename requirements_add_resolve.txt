@@ -5,7 +5,6 @@
 
 #perceptilabs==0.13.4
 
-absl-py
 amqp
 analytics-python
 asgiref
@@ -36,12 +35,9 @@ Flask-CacheBuster
 Flask-Cors
 Flask-Login
 flower
-gast
 gradio
 gym-unity
 humanize
-joblib
-keras-nightly
 keras-unet-collection
 keras2onnx
 kombu
@@ -57,6 +53,12 @@ paramiko
 pycryptodome
 pydub
 PyGithub
+starlette
+tf2onnx
+uamqp
+uvicorn
+vine
+waitress
 #
 PyNaCl
 pyobjc
@@ -160,11 +162,4 @@ pyobjc-framework-VideoToolbox
 pyobjc-framework-Vision
 pyobjc-framework-WebKit
 #
-setuptools
-starlette
-tf2onnx
-uamqp
-uvicorn
-vine
-waitress
 

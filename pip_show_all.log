@@ -619,9 +619,9 @@ Requires: graphviz matplotlib numpy pandas plotly scipy six
 Required-by: pycaret
 ---
 Name: cattrs
-Version: 1.8.0
+Version: 1.9.0
 Summary: Composable complex class support for attrs and dataclasses.
-Home-page: https://github.com/Tinche/cattrs
+Home-page: https://github.com/python-attrs/cattrs
 Author: Tin Tvrtkovic
 Author-email: tinchester@gmail.com
 License: MIT
@@ -979,7 +979,7 @@ Requires: future six
 Required-by: 
 ---
 Name: Cython
-Version: 0.29.24
+Version: 0.29.25
 Summary: The Cython compiler for writing C extensions for the Python language.
 Home-page: http://cython.org/
 Author: Robert Bradshaw, Stefan Behnel, Dag Seljebotn, Greg Ewing, et al.
@@ -6109,7 +6109,7 @@ Requires: torch
 Required-by: 
 ---
 Name: torchmetrics
-Version: 0.6.0
+Version: 0.6.1
 Summary: PyTorch native Metrics
 Home-page: https://github.com/PyTorchLightning/metrics
 Author: PyTorchLightning et al.
@@ -6249,7 +6249,7 @@ Requires: click
 Required-by: pathy spacy
 ---
 Name: typeshed-client
-Version: 1.1.3
+Version: 1.1.4
 Summary: A library for accessing stubs in typeshed.
 Home-page: https://github.com/JelleZijlstra/typeshed_client
 Author: Jelle Zijlstra
@@ -6429,7 +6429,7 @@ Requires: Click GitPython PyYAML configparser docker-pycreds pathtools promise p
 Required-by: 
 ---
 Name: wasabi
-Version: 0.8.2
+Version: 0.9.0
 Summary: A lightweight console printing and formatting toolkit
 Home-page: https://ines.io
 Author: Ines Montani
