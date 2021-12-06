@@ -28,9 +28,7 @@ django-request-logging
 djangorestframework
 fastapi
 ffmpy
-Flask-CacheBuster
-Flask-Cors
-Flask-Login
+#
 flower
 gradio
 gym-unity

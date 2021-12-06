@@ -1576,7 +1576,17 @@ Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
 Requires: Jinja2 Werkzeug click itsdangerous
-Required-by: Flask-Caching Flask-Compress Flask-SeaSurf dash dash-auth geos jupyter-dash mlflow prometheus-flask-exporter
+Required-by: Flask-CacheBuster Flask-Caching Flask-Compress Flask-Cors Flask-Login Flask-SeaSurf dash dash-auth geos jupyter-dash mlflow prometheus-flask-exporter
+---
+Name: Flask-CacheBuster
+Version: 1.0.0
+Summary: Flask-CacheBuster is a lightweight Flask extension that adds a hash to the URL query parameters of each static file.
+Home-page: https://github.com/israel-fl/Flask-CacheBuster
+Author: Israel Flores
+Author-email: jobs@israelfl.com
+License: MIT
+Requires: Flask
+Required-by: 
 ---
 Name: Flask-Caching
 Version: 1.10.1
@@ -1597,6 +1607,26 @@ Author-email: thomas.mansencal@gmail.com
 License: MIT
 Requires: brotli flask
 Required-by: dash dash-auth
+---
+Name: Flask-Cors
+Version: 3.0.10
+Summary: A Flask extension adding a decorator for CORS support
+Home-page: https://github.com/corydolphin/flask-cors
+Author: Cory Dolphin
+Author-email: corydolphin@gmail.com
+License: MIT
+Requires: Flask Six
+Required-by: 
+---
+Name: Flask-Login
+Version: 0.5.0
+Summary: User session management for Flask
+Home-page: https://github.com/maxcountryman/flask-login
+Author: Matthew Frazier
+Author-email: leafstormrush@gmail.com
+License: MIT
+Requires: Flask
+Required-by: 
 ---
 Name: Flask-SeaSurf
 Version: 0.3.1
@@ -5366,7 +5396,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona ImageHash Keras-Preprocessing Mastodon.py PyNaCl Theano absl-py agate astunparse atari-py azure-core bleach blessings catboost chart-studio cufflinks cypari databricks-cli dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyod python-dateutil querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators wandb
+Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py PyNaCl Theano absl-py agate astunparse atari-py azure-core bleach blessings catboost chart-studio cufflinks cypari databricks-cli dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyod python-dateutil querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators wandb
 ---
 Name: smart-open
 Version: 5.2.1

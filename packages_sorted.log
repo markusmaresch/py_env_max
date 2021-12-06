@@ -543,8 +543,11 @@ distributed
 exchange-calendars
 fastdownload
 finta
+flask-cachebuster
 flask-caching
 flask-compress
+flask-cors
+flask-login
 flask-seasurf
 geopandas
 geos
