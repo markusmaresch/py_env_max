@@ -6,7 +6,6 @@
 #perceptilabs==0.13.4
 
 analytics-python==1.4.0
-asgiref
 #
 backoff
 backports.cached-property
@@ -19,13 +18,7 @@ click-didyoumean
 click-repl
 curtsies
 cwcwidth
-Django
-django-cors-headers
-django-extensions
-django-http-exceptions
-django-model-utils
-django-request-logging
-djangorestframework
+#
 fastapi
 ffmpy
 #

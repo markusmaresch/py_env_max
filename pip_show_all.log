@@ -238,6 +238,16 @@ License: MIT
 Requires: 
 Required-by: zarr
 ---
+Name: asgiref
+Version: 3.4.1
+Summary: ASGI specs, helper code, and adapters
+Home-page: https://github.com/django/asgiref/
+Author: Django Software Foundation
+Author-email: foundation@djangoproject.com
+License: BSD
+Requires: 
+Required-by: Django
+---
 Name: asn1crypto
 Version: 1.4.0
 Summary: Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP
@@ -1247,6 +1257,76 @@ Author-email:
 License: BSD
 Requires: click cloudpickle dask jinja2 msgpack psutil pyyaml setuptools sortedcontainers tblib toolz tornado zict
 Required-by: dask-ml
+---
+Name: Django
+Version: 3.2.9
+Summary: A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+Home-page: https://www.djangoproject.com/
+Author: Django Software Foundation
+Author-email: foundation@djangoproject.com
+License: BSD-3-Clause
+Requires: asgiref pytz sqlparse
+Required-by: django-cors-headers django-extensions django-http-exceptions django-model-utils django-request-logging djangorestframework
+---
+Name: django-cors-headers
+Version: 3.10.1
+Summary: django-cors-headers is a Django application for handling the server headers required for Cross-Origin Resource Sharing (CORS).
+Home-page: https://github.com/adamchainz/django-cors-headers
+Author: Otto Yiu
+Author-email: otto@live.ca
+License: MIT License
+Requires: Django
+Required-by: 
+---
+Name: django-extensions
+Version: 3.1.5
+Summary: Extensions for Django
+Home-page: http://github.com/django-extensions/django-extensions
+Author: Michael Trier
+Author-email: mtrier@gmail.com
+License: MIT License
+Requires: Django
+Required-by: 
+---
+Name: django-http-exceptions
+Version: 1.4.0
+Summary: django raisable http exceptions
+Home-page: https://github.com/isik-kaplan/django_http_exceptions
+Author: isik-kaplan
+Author-email: 
+License: MIT LICENSE
+Requires: django
+Required-by: 
+---
+Name: django-model-utils
+Version: 4.2.0
+Summary: Django model mixins and utilities
+Home-page: https://github.com/jazzband/django-model-utils
+Author: Carl Meyer
+Author-email: carl@oddbird.net
+License: BSD
+Requires: Django
+Required-by: 
+---
+Name: django-request-logging
+Version: 0.7.3
+Summary: Django middleware that logs http request body.
+Home-page: https://github.com/Rhumbix/django-request-logging.git
+Author: Rhumbix
+Author-email: dev@rhumbix.com
+License: MIT
+Requires: Django
+Required-by: 
+---
+Name: djangorestframework
+Version: 3.12.4
+Summary: Web APIs for Django, made easy.
+Home-page: https://www.django-rest-framework.org/
+Author: Tom Christie
+Author-email: tom@tomchristie.com
+License: BSD
+Requires: django
+Required-by: 
 ---
 Name: dlpack
 Version: 0.1
@@ -4846,7 +4926,7 @@ Author: Stuart Bishop
 Author-email: stuart@stuartbishop.net
 License: MIT
 Requires: 
-Required-by: Babel LunarCalendar Mastodon.py convertdate exchange-calendars mlflow pandas pandas-market-calendars pyfolio trading-calendars yahoofinancials zeep
+Required-by: Babel Django LunarCalendar Mastodon.py convertdate exchange-calendars mlflow pandas pandas-market-calendars pyfolio trading-calendars yahoofinancials zeep
 ---
 Name: pytz-deprecation-shim
 Version: 0.1.0.post0
@@ -5646,7 +5726,7 @@ Author: Andi Albrecht
 Author-email: albrecht.andi@gmail.com
 License: BSD-3-Clause
 Requires: 
-Required-by: mlflow
+Required-by: Django mlflow
 ---
 Name: srsly
 Version: 2.4.2

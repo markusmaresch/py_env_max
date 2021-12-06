@@ -490,6 +490,18 @@ matplotlib-inline==0.1.3 # LEVEL_02 # Inline Matplotlib backend for Jupyter
 #
 
 #
+# Django
+#
+django-cors-headers==3.10.1 # LEVEL_03 # django-cors-headers is a Django application for handling the server headers required for Cross-Origin Resource Sharing (CORS)
+django-extensions==3.1.5 # LEVEL_03 # Extensions for Django
+django-http-exceptions==1.4.0 # LEVEL_03 # django raisable http exceptions
+django-model-utils==4.2.0 # LEVEL_03 # Django model mixins and utilities
+django-request-logging==0.7.3 # LEVEL_03 # Django middleware that logs http request body
+djangorestframework==3.12.4 # LEVEL_03 # Web APIs for Django, made easy
+Django==3.2.9 # LEVEL_02 # A high-level Python Web framework that encourages rapid development and clean, pragmatic design
+asgiref==3.4.1 # LEVEL_01 # ASGI specs, helper code, and adapters
+
+#
 # Flask
 #
 Flask-Compress==1.10.1 # LEVEL_04 # Compress responses in your Flask app with gzip, deflate or brotli

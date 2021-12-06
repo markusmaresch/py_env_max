@@ -7,6 +7,7 @@ appdirs
 appnope
 argcomplete
 asciitree
+asgiref
 asn1crypto
 ast-decompiler
 astor
@@ -298,6 +299,7 @@ convertdate
 cypari
 cytoolz
 deprecated
+django
 dm-tree
 docker-pycreds
 elasticsearch
@@ -445,6 +447,12 @@ dask
 databricks-cli
 datashape
 deprecation
+django-cors-headers
+django-extensions
+django-http-exceptions
+django-model-utils
+django-request-logging
+djangorestframework
 docker
 ecos
 fastcore
