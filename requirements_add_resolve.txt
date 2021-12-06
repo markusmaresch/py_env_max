@@ -9,8 +9,6 @@ amqp
 analytics-python
 asgiref
 #
-azure-eventhub
-#
 backoff
 backports.cached-property
 bcrypt
@@ -46,13 +44,11 @@ mixpanel
 mlagents-envs
 monotonic
 more-itertools
-numpy
 onnx
 onnxconverter-common
 paramiko
 pycryptodome
 pydub
-PyGithub
 starlette
 tf2onnx
 uamqp

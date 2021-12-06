@@ -263,8 +263,6 @@ Babel==2.9.1 # LEVEL_02 # Internationalization utilities
 bert-for-tf2==0.14.9 # LEVEL_03 # A TensorFlow 2.0 Keras implementation of BERT
 bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger # Attention visualization tool for NLP Transformer models
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
-boto3==1.20.20  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
-botocore==1.23.20 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 #
 spacytextblob==3.0.1 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
 spacy==3.2.0 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
@@ -450,13 +448,16 @@ googletransx==2.4.2 # LEVEL_03 # Free Google Translate API for Python. Translate
 uritemplate==4.1.1 # LEVEL_01 # required by google-api-python-client # Implementation of RFC 6570 URI Templates
 
 # Azure
+#azure-eventhub==5.6.1 # LEVEL_06 #
 azure-storage-blob==12.9.0 # LEVEL_05 # Microsoft Azure Blob Storage Client Library for Python
 azure-core==1.21.0 # LEVEL_03 # Microsoft Azure Core Library for Python
 azure-common==1.1.27 # LEVEL_01 # Microsoft Azure Client Library for Python (Common)
 smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)
 
 # Amazon
+boto3==1.20.20  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
+botocore==1.23.20 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 
 #
 # Jupyter
@@ -823,6 +824,7 @@ validators==0.18.2 # LEVEL_02 # Python Data Validation for Humans™
 #
 GitPython==3.1.24 # LEVEL_03 # GitPython is a python library used to interact with Git repositories
 gitdb==4.0.9 # LEVEL_02 # Git Object Database
+#PyGithub==1.55 # LEVEL_01 #
 #
 #
 jqdatasdk==1.8.10 # LEVEL_04 # jqdatasdk<easy utility for getting financial market data of China>
