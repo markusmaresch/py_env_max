@@ -56,7 +56,6 @@ uvicorn
 vine
 waitress
 #
-PyNaCl
 pyobjc
 pyobjc-core
 pyobjc-framework-Accounts

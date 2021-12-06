@@ -488,6 +488,7 @@ plaster-pastedeploy
 plotly
 pycares
 pyinstaller
+pynacl
 pyro-ppl
 pytest
 pytorch-ranger
@@ -572,6 +573,7 @@ prometheus-flask-exporter
 py-vollib
 pyanalyze
 pydata-sphinx-theme
+pygithub
 pyldavis
 pynndescent
 pyopenssl

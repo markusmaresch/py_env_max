@@ -822,9 +822,10 @@ wsproto==1.0.0 # LEVEL_02 # WebSockets state-machine based protocol implementati
 #
 validators==0.18.2 # LEVEL_02 # Python Data Validation for Humans™
 #
+PyGithub==1.55 # LEVEL_04 # Use the full Github API v3
+PyNaCl==1.4.0 # LEVEL_03 # Python binding to the Networking and Cryptography (NaCl) library
 GitPython==3.1.24 # LEVEL_03 # GitPython is a python library used to interact with Git repositories
 gitdb==4.0.9 # LEVEL_02 # Git Object Database
-#PyGithub==1.55 # LEVEL_01 #
 #
 #
 jqdatasdk==1.8.10 # LEVEL_04 # jqdatasdk<easy utility for getting financial market data of China>

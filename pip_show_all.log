@@ -656,7 +656,7 @@ Author: Armin Rigo, Maciej Fijalkowski
 Author-email: python-cffi@googlegroups.com
 License: MIT
 Requires: pycparser
-Required-by: argon2-cffi brotlipy cryptography pycares
+Required-by: PyNaCl argon2-cffi brotlipy cryptography pycares
 ---
 Name: cftime
 Version: 1.5.1.1
@@ -1206,7 +1206,7 @@ Author: Laurent LAPORTE
 Author-email: tantale.solutions@gmail.com
 License: MIT
 Requires: wrapt
-Required-by: redis
+Required-by: PyGithub redis
 ---
 Name: deprecation
 Version: 2.1.0
@@ -4338,6 +4338,16 @@ License: LGPL
 Requires: 
 Required-by: 
 ---
+Name: PyGithub
+Version: 1.55
+Summary: Use the full Github API v3
+Home-page: https://github.com/pygithub/pygithub
+Author: Vincent Jacques
+Author-email: vincent@vincent-jacques.net
+License: UNKNOWN
+Requires: deprecated pyjwt pynacl requests
+Required-by: 
+---
 Name: Pygments
 Version: 2.10.0
 Summary: Pygments is a syntax highlighting package written in Python.
@@ -4376,7 +4386,7 @@ Author: Jose Padilla
 Author-email: hello@jpadilla.com
 License: MIT
 Requires: 
-Required-by: 
+Required-by: PyGithub
 ---
 Name: pyLDAvis
 Version: 3.2.2
@@ -4417,6 +4427,16 @@ Author-email: yutaka.matsubara@gmail.com
 License: "MIT"
 Requires: 
 Required-by: jqdatasdk
+---
+Name: PyNaCl
+Version: 1.4.0
+Summary: Python binding to the Networking and Cryptography (NaCl) library
+Home-page: https://github.com/pyca/pynacl/
+Author: The PyNaCl developers
+Author-email: cryptography-dev@python.org
+License: Apache License 2.0
+Requires: cffi six
+Required-by: PyGithub
 ---
 Name: pynndescent
 Version: 0.5.5
@@ -4956,7 +4976,7 @@ Author: Kenneth Reitz
 Author-email: me@kennethreitz.org
 License: Apache 2.0
 Requires: certifi charset-normalizer idna urllib3
-Required-by: Kivy-Garden Mastodon.py Sphinx alpha-vantage azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth databricks-cli datasets docker fastai google-api-core google-cloud-bigquery googletransx h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle minimal-snowplow-tracker mlflow msrest nilearn openai pandas-datareader pandas-finance pandas-profiling panel rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy stanza tensorboard tensorflow-datasets tiingo transformers wandb yfinance zeep
+Required-by: Kivy-Garden Mastodon.py PyGithub Sphinx alpha-vantage azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth databricks-cli datasets docker fastai google-api-core google-cloud-bigquery googletransx h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle minimal-snowplow-tracker mlflow msrest nilearn openai pandas-datareader pandas-finance pandas-profiling panel rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy stanza tensorboard tensorflow-datasets tiingo transformers wandb yfinance zeep
 ---
 Name: requests-cache
 Version: 0.8.1
@@ -5336,7 +5356,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate astunparse atari-py azure-core bleach blessings catboost chart-studio cufflinks cypari databricks-cli dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyod python-dateutil querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators wandb
+Required-by: Fiona ImageHash Keras-Preprocessing Mastodon.py PyNaCl Theano absl-py agate astunparse atari-py azure-core bleach blessings catboost chart-studio cufflinks cypari databricks-cli dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyod python-dateutil querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators wandb
 ---
 Name: smart-open
 Version: 5.2.1
