@@ -319,7 +319,7 @@ imagecodecs-lite==2020.1.31 # LEVEL_03 # The imagecodecs-lite package is depreca
 imagecodecs==2021.11.20 # LEVEL_02 # Image transformation, compression, and decompression codecs
 opencv-python==4.5.4.60 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.4.60 # LEVEL_02 # Wrapper package for OpenCV python bindings
-imageio==2.13.1 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
+imageio==2.13.2 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
 Pillow==8.4.0 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
@@ -438,7 +438,7 @@ google-cloud-core==2.2.1 # LEVEL_05 # Google Cloud API client core library
 google-resumable-media==2.1.0 # LEVEL_02 # Utilities for Google Media Downloads and Resumable Uploads
 google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC32C'
 #
-google-api-python-client==2.32.0 # LEVEL_05 # Google API Client Library for Python
+google-api-python-client==2.33.0 # LEVEL_05 # Google API Client Library for Python
 google-api-core==2.2.2 # LEVEL_04 # Google API client core library
 google-auth-httplib2==0.1.0 # LEVEL_04 # Google Authentication Library: httplib2 transport
 google-auth-oauthlib==0.4.6 # LEVEL_04 # Google Authentication Library
@@ -448,11 +448,12 @@ googletransx==2.4.2 # LEVEL_03 # Free Google Translate API for Python. Translate
 uritemplate==4.1.1 # LEVEL_01 # required by google-api-python-client # Implementation of RFC 6570 URI Templates
 
 # Azure
-#azure-eventhub==5.6.1 # LEVEL_06 #
+azure-eventhub==5.6.1 # LEVEL_04 # Microsoft Azure Event Hubs Client Library for Python
 azure-storage-blob==12.9.0 # LEVEL_05 # Microsoft Azure Blob Storage Client Library for Python
-azure-core==1.21.0 # LEVEL_03 # Microsoft Azure Core Library for Python
+azure-core==1.21.1 # LEVEL_03 # Microsoft Azure Core Library for Python
 azure-common==1.1.27 # LEVEL_01 # Microsoft Azure Client Library for Python (Common)
 smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)
+uamqp==1.4.3 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
 boto3==1.20.21  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
@@ -468,7 +469,7 @@ jupyterlab==3.2.4 # LEVEL_08 # JupyterLab computational environment
 jupyter-server-proxy==3.2.0 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
 jupyterlab-server==2.8.2 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.0 # LEVEL_06 # Dash support for the Jupyter notebook interface
-jupyter-server==1.12.1 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
+jupyter-server==1.13.0 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-console==6.4.0 # LEVEL_05 # Jupyter terminal console
 jupyter-packaging==0.11.1 # LEVEL_04 # Jupyter Packaging Utilities
 jupyter-client==7.1.0 # LEVEL_03 # Jupyter protocol implementation and client libraries
@@ -781,7 +782,7 @@ tqdm==4.62.3 # LEVEL_01 # Fast, Extensible Progress Meter
 traitlets==5.1.1 # LEVEL_01 # Traitlets Python configuration system
 typed-ast==1.5.1 # LEVEL_01 # a fork of Python 2 and 3 ast modules with type comment support
 typer==0.4.0 # LEVEL_02 # Typer, build great CLIs. Easy to code. Based on Python type hints
-typeshed-client==1.1.4 # LEVEL_03 # A library for accessing stubs in typeshed
+typeshed-client==1.2.0 # LEVEL_03 # A library for accessing stubs in typeshed
 typing-inspect==0.7.1 # LEVEL_02 # Runtime inspection utilities for typing module
 ua-parser==0.10.0 # LEVEL_01 # Python port of Browserscope's user agent parser
 Unidecode==1.3.2 # LEVEL_01 # ASCII transliterations of Unicode text
@@ -791,7 +792,7 @@ wasabi==0.9.0 # LEVEL_01 # A lightweight console printing and formatting toolkit
 wcwidth==0.2.5 # LEVEL_01 # Measures the displayed width of unicode strings in a terminal
 webencodings==0.5.1 # LEVEL_01 # Character encoding aliases for legacy web content
 websockets==10.1 # LEVEL_01 # An implementation of the WebSocket Protocol (RFC 6455 & 7692)
-websocket-client==1.2.1 # LEVEL_01 # WebSocket client for Python with low level API options
+websocket-client==1.2.2 # LEVEL_01 # WebSocket client for Python with low level API options
 Werkzeug==2.0.2 # LEVEL_01 # The comprehensive WSGI web application library
 wireless==0.3.3 # LEVEL_01 # A dead simple, cross-platform Python library to connect to wireless networks
 xxhash==2.0.2 # LEVEL_01 # Python binding for xxHash

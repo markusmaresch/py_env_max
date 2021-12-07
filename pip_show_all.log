@@ -379,14 +379,24 @@ Requires:
 Required-by: 
 ---
 Name: azure-core
-Version: 1.21.0
+Version: 1.21.1
 Summary: Microsoft Azure Core Library for Python
 Home-page: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/core/azure-core
 Author: Microsoft Corporation
 Author-email: azpysdkhelp@microsoft.com
 License: MIT License
 Requires: requests six
-Required-by: azure-storage-blob
+Required-by: azure-eventhub azure-storage-blob
+---
+Name: azure-eventhub
+Version: 5.6.1
+Summary: Microsoft Azure Event Hubs Client Library for Python
+Home-page: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/eventhub/azure-eventhub
+Author: Microsoft Corporation
+Author-email: azpysdkhelp@microsoft.com
+License: MIT License
+Requires: azure-core uamqp
+Required-by: 
 ---
 Name: azure-storage-blob
 Version: 12.9.0
@@ -666,7 +676,7 @@ Author: Kenneth Reitz
 Author-email: me@kennethreitz.com
 License: MPL-2.0
 Requires: 
-Required-by: Fiona elasticsearch httpcore httpx intrinio-sdk kaggle msrest pyproj requests sentry-sdk
+Required-by: Fiona elasticsearch httpcore httpx intrinio-sdk kaggle msrest pyproj requests sentry-sdk uamqp
 ---
 Name: cffi
 Version: 1.15.0
@@ -1919,7 +1929,7 @@ Requires: google-auth googleapis-common-protos protobuf requests setuptools
 Required-by: google-api-python-client google-cloud-bigquery google-cloud-core opencensus
 ---
 Name: google-api-python-client
-Version: 2.32.0
+Version: 2.33.0
 Summary: Google API Client Library for Python
 Home-page: https://github.com/googleapis/google-api-python-client/
 Author: Google LLC
@@ -2339,7 +2349,7 @@ Requires: PyWavelets numpy pillow scipy six
 Required-by: 
 ---
 Name: imageio
-Version: 2.13.1
+Version: 2.13.2
 Summary: Library for reading and writing a wide range of image, video, scientific, and volumetric data formats.
 Home-page: https://github.com/imageio/imageio
 Author: imageio contributors
@@ -2659,7 +2669,7 @@ Requires: deprecation packaging setuptools tomlkit wheel
 Required-by: 
 ---
 Name: jupyter-server
-Version: 1.12.1
+Version: 1.13.0
 Summary: The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -5476,7 +5486,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py PyNaCl Theano absl-py agate astunparse atari-py azure-core bleach blessings catboost chart-studio cufflinks cypari databricks-cli dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyod python-dateutil querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars url-normalize validators wandb
+Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py PyNaCl Theano absl-py agate astunparse atari-py azure-core bleach blessings catboost chart-studio cufflinks cypari databricks-cli dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyod python-dateutil querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars uamqp url-normalize validators wandb
 ---
 Name: smart-open
 Version: 5.2.1
@@ -6389,7 +6399,7 @@ Requires: click
 Required-by: pathy spacy
 ---
 Name: typeshed-client
-Version: 1.1.4
+Version: 1.2.0
 Summary: A library for accessing stubs in typeshed.
 Home-page: https://github.com/JelleZijlstra/typeshed_client
 Author: Jelle Zijlstra
@@ -6447,6 +6457,16 @@ Author-email: no-reply@pbs.org
 License: Apache 2.0
 Requires: 
 Required-by: dash-auth
+---
+Name: uamqp
+Version: 1.4.3
+Summary: AMQP 1.0 Client Library for Python
+Home-page: https://github.com/Azure/azure-uamqp-python
+Author: Microsoft Corporation
+Author-email: azpysdkhelp@microsoft.com
+License: MIT License
+Requires: certifi six
+Required-by: azure-eventhub
 ---
 Name: ujson
 Version: 4.3.0
@@ -6619,7 +6639,7 @@ Requires:
 Required-by: pyramid
 ---
 Name: websocket-client
-Version: 1.2.1
+Version: 1.2.2
 Summary: WebSocket client for Python with low level API options
 Home-page: https://github.com/websocket-client/websocket-client.git
 Author: liris

@@ -414,6 +414,7 @@ tinycss2
 torch
 typer
 typing-inspect
+uamqp
 url-normalize
 userpath
 validators
@@ -541,6 +542,7 @@ aiohttp-socks
 alpha-vantage
 altair
 authlib
+azure-eventhub
 boost
 chart-studio
 cloudscraper
