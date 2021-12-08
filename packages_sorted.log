@@ -429,7 +429,7 @@ agate
 aiohttp
 aioredis
 alembic
-argon2-cffi
+argon2-cffi-bindings
 arrow
 asynq
 axial-positional-embedding
@@ -541,6 +541,7 @@ aiohttp-cors
 aiohttp-socks
 alpha-vantage
 altair
+argon2-cffi
 authlib
 azure-eventhub
 boost
