@@ -1929,7 +1929,7 @@ Requires: python-gflags six
 Required-by: 
 ---
 Name: google-api-core
-Version: 2.2.2
+Version: 2.3.0
 Summary: Google API client core library
 Home-page: https://github.com/googleapis/python-api-core
 Author: Google LLC
@@ -4909,7 +4909,7 @@ Requires:
 Required-by: agate
 ---
 Name: pytorch-lightning
-Version: 1.5.4
+Version: 1.5.5
 Summary: PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate.
 Home-page: https://github.com/PyTorchLightning/pytorch-lightning
 Author: William Falcon et al.
@@ -5559,7 +5559,7 @@ Requires:
 Required-by: beautifulsoup4
 ---
 Name: spacy
-Version: 3.2.0
+Version: 3.2.1
 Summary: Industrial-strength Natural Language Processing (NLP) in Python
 Home-page: https://spacy.io
 Author: Explosion

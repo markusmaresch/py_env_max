@@ -450,7 +450,7 @@ google-resumable-media==2.1.0 # LEVEL_02 # Utilities for Google Media Downloads 
 google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC32C'
 #
 google-api-python-client==2.33.0 # LEVEL_05 # Google API Client Library for Python
-google-api-core==2.3.2 # LEVEL_04 # Google API client core library
+google-api-core==2.3.0 # LEVEL_04 # Google API client core library
 google-auth-httplib2==0.1.0 # LEVEL_04 # Google Authentication Library: httplib2 transport
 google-auth-oauthlib==0.4.6 # LEVEL_04 # Google Authentication Library
 google-pasta==0.2.0 # LEVEL_02 # pasta is an AST-based Python refactoring library
