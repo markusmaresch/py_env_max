@@ -180,7 +180,7 @@ xgboost==1.5.1 # LEVEL_03 # check installation notes # XGBoost Python Package
 pyro-ppl==1.7.0 # LEVEL_03 # A Python library for probabilistic modeling and inference
 pyro-api==0.1.2 # LEVEL_01 # Generic API for dispatch to Pyro backends
 #
-pytorch-lightning==1.5.4 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
+pytorch-lightning==1.5.5 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
 performer-pytorch==1.1.3 # LEVEL_04 # Performer - Pytorch
 torch-optimizer==0.3.0 # LEVEL_04 # pytorch-optimizer
 torchaudio==0.10.0 # LEVEL_03 # An audio package for PyTorch
@@ -265,7 +265,7 @@ bertviz==1.2.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
 #
 spacytextblob==3.0.1 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
-spacy==3.2.0 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
+spacy==3.2.1 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
 spacy-loggers==1.0.1 # LEVEL_02 # Logging utilities for SpaCy
 spacy-legacy==3.0.8 # LEVEL_01 # Legacy registered functions for spaCy backwards compatibility
 # spacy-transformers  # downgrades transformers !!
@@ -450,11 +450,11 @@ google-resumable-media==2.1.0 # LEVEL_02 # Utilities for Google Media Downloads 
 google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC32C'
 #
 google-api-python-client==2.33.0 # LEVEL_05 # Google API Client Library for Python
-google-api-core==2.2.2 # LEVEL_04 # Google API client core library
+google-api-core==2.3.2 # LEVEL_04 # Google API client core library
 google-auth-httplib2==0.1.0 # LEVEL_04 # Google Authentication Library: httplib2 transport
 google-auth-oauthlib==0.4.6 # LEVEL_04 # Google Authentication Library
 google-pasta==0.2.0 # LEVEL_02 # pasta is an AST-based Python refactoring library
-googleapis-common-protos==1.53.0 # LEVEL_02 # Common protobufs used in Google APIs
+googleapis-common-protos==1.54.0 # LEVEL_02 # Common protobufs used in Google APIs
 googletransx==2.4.2 # LEVEL_03 # Free Google Translate API for Python. Translates totally free of charge
 uritemplate==4.1.1 # LEVEL_01 # required by google-api-python-client # Implementation of RFC 6570 URI Templates
 
@@ -581,6 +581,7 @@ flake8==4.0.1 # LEVEL_02 # better linter than pyflakes # the modular source code
 mypy==0.910 # LEVEL_02 # Optional static typing for Python
 mypy-extensions==0.4.3 # LEVEL_01 # Experimental type system extensions for programs checked with the mypy typechecker
 autopep8==1.6.0 # LEVEL_02 # using fix_file # A tool that automatically formats Python code to conform to the PEP 8 style guide
+memory-profiler==0.59.0 # LEVEL_02 # A module for monitoring memory usage of a python program
 mccabe==0.6.1 # LEVEL_01 # McCabe checker, plugin for flake8
 typeguard==2.13.2 # LEVEL_01 # Run-time type checker for Python
 pyflakes==2.4.0 # LEVEL_01 # required by flake8 # passive checker of Python programs
@@ -687,7 +688,7 @@ deprecation==2.1.0 # LEVEL_03 # A library to handle automated deprecations
 dill==0.3.4 # LEVEL_01 # serialize all of python
 dm-tree==0.1.6 # LEVEL_02 # Tree is a library for working with nested data structures
 dnspython==2.1.0 # LEVEL_01 # DNS toolkit
-elasticsearch==7.15.2 # LEVEL_02 # Python client for Elasticsearch
+elasticsearch==7.16.0 # LEVEL_02 # Python client for Elasticsearch
 email-validator==1.1.3 # LEVEL_02 # A robust email syntax and deliverability validation library for Python 2.x/3.x
 ephem==4.1.2 # LEVEL_01 # Compute positions of the planets and stars
 et-xmlfile==1.1.0 # LEVEL_01 # An implementation of lxml.xmlfile for the standard library
@@ -712,7 +713,6 @@ llvmlite==0.37.0 # LEVEL_01 # lightweight wrapper around basic LLVM functionalit
 lxml==4.6.4 # LEVEL_01 # Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API
 m3u8==0.9.0 # LEVEL_02 # play list parser, udemy-dl2 # Python m3u8 parser
 macholib==1.15.2 # LEVEL_02 # Mach-O header analysis and editing
-memory-profiler==0.58.0 # LEVEL_02 # A module for monitoring memory usage of a python program
 msgpack==1.0.3 # LEVEL_01 # MessagePack (de)serializer
 multidict==5.2.0 # LEVEL_01 # multidict implementation
 multipledispatch==0.6.0 # LEVEL_02 # Multiple dispatch
@@ -802,7 +802,7 @@ wasabi==0.9.0 # LEVEL_01 # A lightweight console printing and formatting toolkit
 wcwidth==0.2.5 # LEVEL_01 # Measures the displayed width of unicode strings in a terminal
 webencodings==0.5.1 # LEVEL_01 # Character encoding aliases for legacy web content
 websockets==10.1 # LEVEL_01 # An implementation of the WebSocket Protocol (RFC 6455 & 7692)
-websocket-client==1.2.2 # LEVEL_01 # WebSocket client for Python with low level API options
+websocket-client==1.2.3 # LEVEL_01 # WebSocket client for Python with low level API options
 Werkzeug==2.0.2 # LEVEL_01 # The comprehensive WSGI web application library
 wireless==0.3.3 # LEVEL_01 # A dead simple, cross-platform Python library to connect to wireless networks
 xxhash==2.0.2 # LEVEL_01 # Python binding for xxHash
@@ -829,7 +829,7 @@ greenlet==1.1.2 # LEVEL_01 # required by SQLAlchemy # Lightweight in-process con
 #
 #streamlit # has some dependencies !!
 tbb==2021.4.0 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
-tiledb==0.11.2 # LEVEL_02 # Pythonic interface to the TileDB array storage manager
+tiledb==0.11.3 # LEVEL_02 # Pythonic interface to the TileDB array storage manager
 xarray==0.20.1 # LEVEL_04 # N-D labeled arrays and datasets in Python
 zstd==1.5.0.4 # LEVEL_01 # ZSTD Bindings for Python
 #
