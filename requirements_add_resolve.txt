@@ -5,6 +5,8 @@
 
 #perceptilabs==0.13.4
 
+gym-unity==0.27.0
+#
 analytics-python==1.4.0
 #
 backoff
@@ -24,7 +26,6 @@ ffmpy
 #
 flower
 gradio
-gym-unity
 humanize
 keras-unet-collection
 keras2onnx
@@ -33,7 +34,7 @@ markdown2
 mixpanel
 mlagents-envs
 monotonic
-more-itertools
+more-itertools==8.12.0
 onnx
 onnxconverter-common
 paramiko
@@ -44,8 +45,8 @@ tf2onnx
 uvicorn
 waitress
 #
-pyobjc
-pyobjc-core
+pyobjc==8.1
+pyobjc-core==8.1
 pyobjc-framework-Accounts
 pyobjc-framework-AddressBook
 pyobjc-framework-AdSupport
