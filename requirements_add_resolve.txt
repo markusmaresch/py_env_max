@@ -41,7 +41,6 @@ pycryptodome
 pydub
 starlette
 tf2onnx
-uamqp
 uvicorn
 waitress
 #

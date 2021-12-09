@@ -104,7 +104,7 @@ h5py==3.6.0 # LEVEL_02 # Read and write HDF5 files from Python
 google-auth==2.3.3 # LEVEL_03 # Google Authentication Library
 flatbuffers==2.0 # LEVEL_01 # The FlatBuffers serialization format for Python
 wrapt==1.13.3 # LEVEL_01 # Module for decorators, wrappers and monkey patching
-panel==0.12.5 # LEVEL_04 # A high level app and dashboarding solution for Python
+panel==0.12.6 # LEVEL_04 # A high level app and dashboarding solution for Python
 bokeh==2.4.2 # LEVEL_03 # Interactive plots and applications in the browser from Python
 smmap==5.0.0 # LEVEL_01 # A pure Python implementation of a sliding window memory map manager
 pyparsing==3.0.6 # LEVEL_01 # Python parsing module
@@ -271,7 +271,7 @@ spacy-legacy==3.0.8 # LEVEL_01 # Legacy registered functions for spaCy backwards
 # spacy-transformers  # downgrades transformers !!
 thinc==8.0.13 # LEVEL_03 # A refreshing functional take on deep learning, compatible with your favorite libraries
 #
-transformers==4.12.5 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
+transformers==4.13.0 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 #
 tokenizers==0.10.3 # LEVEL_01 # Fast and Customizable Tokenizers
 #
@@ -304,7 +304,7 @@ scikit-plot==0.3.7 # LEVEL_05 # An intuitive library to add plotting functionali
 scikit-image==0.19.0 # LEVEL_03 # Image processing in Python
 scikit-learn==1.0.1 # LEVEL_03 # A set of python modules for machine learning and data mining
 pyod==0.9.5 # LEVEL_05 # outlyer detection # A Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
-jax==0.2.25 # LEVEL_03 # Differentiate, compile, and transform Numpy code
+jax==0.2.26 # LEVEL_03 # Differentiate, compile, and transform Numpy code
 #
 rapidminer==9.10.0.0 # LEVEL_05 # Tools for running RapidMiner processes and managing RapidMiner repositories
 zeep==4.1.0 # LEVEL_04 # A modern/fast Python SOAP client based on lxml / requests
@@ -319,7 +319,7 @@ imagecodecs-lite==2020.1.31 # LEVEL_03 # The imagecodecs-lite package is depreca
 imagecodecs==2021.11.20 # LEVEL_02 # Image transformation, compression, and decompression codecs
 opencv-python==4.5.4.60 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.4.60 # LEVEL_02 # Wrapper package for OpenCV python bindings
-imageio==2.13.2 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
+imageio==2.13.3 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
 Pillow==8.4.0 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
@@ -467,9 +467,9 @@ smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, A
 uamqp==1.4.3 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.20.21  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.20.23  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.23.21 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.23.23 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 
 #
 # Jupyter
@@ -480,7 +480,7 @@ jupyterlab==3.2.4 # LEVEL_08 # JupyterLab computational environment
 jupyter-server-proxy==3.2.0 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
 jupyterlab-server==2.8.2 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.0 # LEVEL_06 # Dash support for the Jupyter notebook interface
-jupyter-server==1.13.0 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
+jupyter-server==1.13.1 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-console==6.4.0 # LEVEL_05 # Jupyter terminal console
 jupyter-packaging==0.11.1 # LEVEL_04 # Jupyter Packaging Utilities
 jupyter-client==7.1.0 # LEVEL_03 # Jupyter protocol implementation and client libraries
@@ -576,7 +576,7 @@ cssselect2==0.4.1 # LEVEL_03 # cssselect2
 pytest-asyncio==0.16.0 # LEVEL_04 # Pytest support for asyncio
 pytest==6.2.5 # LEVEL_03 # pytest: simple powerful testing with Python
 pyanalyze==0.4.0 # LEVEL_04 # A static analyzer for Python
-pytype==2021.11.29 # LEVEL_04 # Python type inferencer
+pytype==2021.12.8 # LEVEL_04 # Python type inferencer
 flake8==4.0.1 # LEVEL_02 # better linter than pyflakes # the modular source code checker: pep8 pyflakes and co
 mypy==0.910 # LEVEL_02 # Optional static typing for Python
 mypy-extensions==0.4.3 # LEVEL_01 # Experimental type system extensions for programs checked with the mypy typechecker
@@ -738,7 +738,7 @@ prometheus-flask-exporter==0.18.6 # LEVEL_04 # Prometheus metrics exporter for F
 prometheus-client==0.12.0 # LEVEL_01 # Python client for the Prometheus monitoring system
 #
 promise==2.3 # LEVEL_02 # Promises/A+ implementation for Python
-prompt-toolkit==3.0.23 # LEVEL_02 # Library for building powerful interactive command lines in Python
+prompt-toolkit==3.0.24 # LEVEL_02 # Library for building powerful interactive command lines in Python
 proto-plus==1.19.8 # LEVEL_02 # Beautiful, Pythonic protocol buffers
 protobuf==3.19.1 # LEVEL_01 # Protocol Buffers
 psutil==5.8.0 # LEVEL_01 # Cross-platform lib for process and system monitoring in Python
@@ -816,7 +816,7 @@ python-socks==2.0.0 # LEVEL_01 # Core proxy (SOCKS4, SOCKS5, HTTP tunneling) fun
 #
 # SQL
 #
-SQLAlchemy== 1.4.27 # LEVEL_02 # Database Abstraction Library
+SQLAlchemy== 1.4.28 # LEVEL_02 # Database Abstraction Library
 PyMySQL==1.0.2 # LEVEL_01 # Pure Python MySQL Driver
 pyodbc==4.0.32 # LEVEL_01 # DB API Module for ODBC
 sqlparse==0.4.2 # LEVEL_01 # A non-validating SQL parser
@@ -828,7 +828,7 @@ greenlet==1.1.2 # LEVEL_01 # required by SQLAlchemy # Lightweight in-process con
 # Resolve below
 #
 #streamlit # has some dependencies !!
-tbb==2021.4.0 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
+tbb==2021.5.0 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
 tiledb==0.11.3 # LEVEL_02 # Pythonic interface to the TileDB array storage manager
 xarray==0.20.1 # LEVEL_04 # N-D labeled arrays and datasets in Python
 zstd==1.5.0.4 # LEVEL_01 # ZSTD Bindings for Python
@@ -952,7 +952,7 @@ pyviz-comms==2.1.0 # LEVEL_02 # Bidirectional communication for the HoloViz ecos
 proj==0.2.0 # LEVEL_04 # A command-line manager for archiving and retrieving projects
 pyee==8.2.2 # LEVEL_01 # A port of node.js's EventEmitter to python
 rouge-score==0.0.4 # LEVEL_03 # Pure python implementation of ROUGE-1.5.5
-pynvml==11.0.0 # LEVEL_01 # Python Bindings for the NVIDIA Management Library
+pynvml==11.4.1 # LEVEL_01 # Python Bindings for the NVIDIA Management Library
 #
 numcodecs==0.9.1 # LEVEL_02 # A Python package providing buffer compression and transformation codecs for use in data storage and communication applications
 zarr==2.10.3 # LEVEL_03 # An implementation of chunked, compressed, N-dimensional arrays for Python

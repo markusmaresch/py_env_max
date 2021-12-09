@@ -559,7 +559,7 @@ Requires: Mastodon.py sqlalchemy
 Required-by: 
 ---
 Name: boto3
-Version: 1.20.21
+Version: 1.20.23
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -569,7 +569,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.23.21
+Version: 1.23.23
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -2359,7 +2359,7 @@ Requires: PyWavelets numpy pillow scipy six
 Required-by: 
 ---
 Name: imageio
-Version: 2.13.2
+Version: 2.13.3
 Summary: Library for reading and writing a wide range of image, video, scientific, and volumetric data formats.
 Home-page: https://github.com/imageio/imageio
 Author: imageio contributors
@@ -2519,7 +2519,7 @@ Requires:
 Required-by: Flask dash-auth
 ---
 Name: jax
-Version: 0.2.25
+Version: 0.2.26
 Summary: Differentiate, compile, and transform Numpy code.
 Home-page: https://github.com/google/jax
 Author: JAX team
@@ -2679,7 +2679,7 @@ Requires: deprecation packaging setuptools tomlkit wheel
 Required-by: 
 ---
 Name: jupyter-server
-Version: 1.13.0
+Version: 1.13.1
 Summary: The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3789,7 +3789,7 @@ Requires:
 Required-by: nbconvert
 ---
 Name: panel
-Version: 0.12.5
+Version: 0.12.6
 Summary: A high level app and dashboarding solution for Python.
 Home-page: http://panel.holoviz.org
 Author: HoloViz
@@ -4129,7 +4129,7 @@ Requires: six
 Required-by: tensorflow-datasets wandb
 ---
 Name: prompt-toolkit
-Version: 3.0.23
+Version: 3.0.24
 Summary: Library for building powerful interactive command lines in Python
 Home-page: https://github.com/prompt-toolkit/python-prompt-toolkit
 Author: Jonathan Slenders
@@ -4589,7 +4589,7 @@ Requires: joblib llvmlite numba scikit-learn scipy
 Required-by: umap-learn
 ---
 Name: pynvml
-Version: 11.0.0
+Version: 11.4.1
 Summary: Python Bindings for the NVIDIA Management Library
 Home-page: http://www.nvidia.com/
 Author: NVIDIA Corporation
@@ -4929,7 +4929,7 @@ Requires: torch
 Required-by: torch-optimizer
 ---
 Name: pytype
-Version: 2021.11.29
+Version: 2021.12.8
 Summary: Python type inferencer
 Home-page: https://google.github.io/pytype
 Author: 
@@ -5729,7 +5729,7 @@ Requires:
 Required-by: Sphinx
 ---
 Name: SQLAlchemy
-Version: 1.4.27
+Version: 1.4.28
 Summary: Database Abstraction Library
 Home-page: https://www.sqlalchemy.org
 Author: Mike Bayer
@@ -5869,7 +5869,7 @@ Requires:
 Required-by: pandas-profiling visions
 ---
 Name: tbb
-Version: 2021.4.0
+Version: 2021.5.0
 Summary: Intel® oneAPI Threading Building Blocks (oneTBB)
 Home-page: https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onetbb.html
 Author: Intel Corporation
@@ -6329,7 +6329,7 @@ Requires:
 Required-by: ipykernel ipython ipywidgets jupyter-client jupyter-core jupyter-server matplotlib-inline nbclient nbconvert nbformat nbsphinx notebook pydeck qtconsole
 ---
 Name: transformers
-Version: 4.12.5
+Version: 4.13.0
 Summary: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 Home-page: https://github.com/huggingface/transformers
 Author: Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Sam Shleifer, Patrick von Platen, Sylvain Gugger, Suraj Patil, Stas Bekman, Google AI Language Team Authors, Open AI team Authors, Facebook AI Authors, Carnegie Mellon University Authors
