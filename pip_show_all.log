@@ -2699,7 +2699,7 @@ Requires: aiohttp jupyter-server simpervisor
 Required-by: 
 ---
 Name: jupyterlab
-Version: 3.2.4
+Version: 3.2.5
 Summary: JupyterLab computational environment
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -6749,7 +6749,7 @@ Requires: h11
 Required-by: trio-websocket
 ---
 Name: xarray
-Version: 0.20.1
+Version: 0.20.2
 Summary: N-D labeled arrays and datasets in Python
 Home-page: https://github.com/pydata/xarray
 Author: xarray Developers

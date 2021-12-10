@@ -476,7 +476,7 @@ botocore==1.23.23 # LEVEL_03 # required by boto3 # Low-level, data-driven core o
 #
 jupyter-bokeh==3.0.4 # LEVEL_09 # A Jupyter extension for rendering Bokeh content
 jupyter==1.0.0 # LEVEL_09 # Jupyter metapackage. Install all the Jupyter components in one go
-jupyterlab==3.2.4 # LEVEL_08 # JupyterLab computational environment
+jupyterlab==3.2.5 # LEVEL_08 # JupyterLab computational environment
 jupyter-server-proxy==3.2.0 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
 jupyterlab-server==2.8.2 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.0 # LEVEL_06 # Dash support for the Jupyter notebook interface
@@ -830,7 +830,7 @@ greenlet==1.1.2 # LEVEL_01 # required by SQLAlchemy # Lightweight in-process con
 #streamlit # has some dependencies !!
 tbb==2021.5.0 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
 tiledb==0.11.3 # LEVEL_02 # Pythonic interface to the TileDB array storage manager
-xarray==0.20.1 # LEVEL_04 # N-D labeled arrays and datasets in Python
+xarray==0.20.2 # LEVEL_04 # N-D labeled arrays and datasets in Python
 zstd==1.5.0.4 # LEVEL_01 # ZSTD Bindings for Python
 #
 alabaster==0.7.12 # LEVEL_01 # A configurable sidebar-enabled Sphinx theme
