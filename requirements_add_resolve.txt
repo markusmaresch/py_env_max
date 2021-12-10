@@ -5,19 +5,17 @@
 
 #perceptilabs==0.13.4
 
-analytics-python==1.4.0
 #
 backoff
 backports.cached-property
 bcrypt
 billiard
 boltons
-boto
-celery
-click-didyoumean
-click-repl
-curtsies
-cwcwidth
+celery==5.2.1
+click-didyoumean==0.3.0
+click-repl==0.2.0
+curtsies==0.3.10
+cwcwidth==0.1.5
 #
 fastapi
 ffmpy
@@ -30,8 +28,6 @@ keras2onnx
 kombu
 markdown2
 mixpanel
-mlagents-envs
-monotonic
 more-itertools==8.12.0
 onnx
 onnxconverter-common

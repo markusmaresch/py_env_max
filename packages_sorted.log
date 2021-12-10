@@ -15,9 +15,11 @@ async-generator
 attrs
 azure-common
 backcall
+backoff
 base58
 blinker
 blurhash
+boto
 box2d
 box2d-py
 brotli
@@ -119,6 +121,7 @@ markupsafe
 mccabe
 mistune
 mock
+monotonic
 msgpack
 msgpack-python
 multidict
@@ -429,6 +432,7 @@ agate
 aiohttp
 aioredis
 alembic
+analytics-python
 argon2-cffi-bindings
 arrow
 asynq
