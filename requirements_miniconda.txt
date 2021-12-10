@@ -93,6 +93,8 @@ pybullet==3.2.0 # LEVEL_01 # LOCKED # can't update ? # Official Python Interface
 #
 visions==0.7.4 # LEVEL_04 # LOCKED # pandas-profiling 3.1.0 requires visions[type_image_path]==0.7.4 # Visions
 #
+backoff==1.10.0 # LEVEL_01 # LOCKED # analytics-python requires 1.10.0 # Function decoration for backoff and retry
+#
 #
 # Former LOCKED .. now freed ;-)
 #
@@ -296,8 +298,8 @@ kaggle==1.5.12 # LEVEL_03 # Kaggle API
 agate==1.6.3 # LEVEL_03 # A data analysis library that is optimized for humans instead of machines
 #
 dask-glm==0.2.0 # LEVEL_04 # Generalized Linear Models with Dask
-distributed==2021.11.2 # LEVEL_04 # Distributed scheduler for Dask
-dask[complete]==2021.11.2 # LEVEL_03 # Parallel PyData with Task Scheduling
+distributed==2021.12.0 # LEVEL_04 # Distributed scheduler for Dask
+dask[complete]==2021.12.0 # LEVEL_03 # Parallel PyData with Task Scheduling
 #dask-xgboost==0.2.0 # LEVEL_02 # outdated !
 # dask-cuda==21.10.0 # LEVEL_05 # outdated requirements
 # pynvml==11.0.0 # LEVEL_01 # POTENTIALLY_UNUSED # Python Bindings for the NVIDIA Management Library
@@ -361,6 +363,7 @@ pyportfolioopt==1.5.1 # LEVEL_06 # Financial portfolio optimization in python
 # Password & Cryptography
 #
 argon2-cffi==21.2.0 # LEVEL_04 # The secure Argon2 password hashing algorithm
+bcrypt==3.2.0 # LEVEL_03 # Modern password hashing for your software and your servers
 argon2-cffi-bindings==21.2.0 # LEVEL_03 # Low-level CFFI bindings for Argon2
 cryptography==36.0.0 # LEVEL_03 # cryptography is a package which provides cryptographic recipes and primitives to Python developers
 keyring==23.4.0 # LEVEL_03 # Store and access your passwords safely
@@ -1015,5 +1018,18 @@ vine==5.0.0 # LEVEL_01 # Promises, promises, promises
 #
 
 analytics-python==1.4.0 # LEVEL_03 # The hassle-free way to integrate analytics into any python application
-backoff==1.10.0 # LEVEL_01 # Function decoration for backoff and retry
 monotonic==1.6 # LEVEL_01 # An implementation of time.monotonic() for Python 2 & < 3.3
+#
+billiard==3.6.4.0 # LEVEL_01 # Python multiprocessing fork with improvements and bugfixes
+celery==5.2.1 # LEVEL_04 # Distributed Task Queue
+click-didyoumean==0.3.0 # LEVEL_02 # Enables git-like *did-you-mean* feature in click
+click-repl==0.2.0 # LEVEL_03 # REPL plugin for Click
+kombu==5.2.2 # LEVEL_03  # Messaging library for Python
+#
+curtsies==0.3.10 # LEVEL_03 # Curses-like terminal wrapper, with colored strings!
+cwcwidth==0.1.5 # LEVEL_01 # Python bindings for wc(s)width
+#
+waitress==2.0.0 # LEVEL_01 # Waitress WSGI server
+starlette==0.17.1 # LEVEL_03 # The little ASGI library that shines
+boltons==21.0.0 # LEVEL_01 # When they're not builtins, they're boltons
+#

@@ -6,16 +6,7 @@
 #perceptilabs==0.13.4
 
 #
-backoff
 backports.cached-property
-bcrypt
-billiard
-boltons
-celery==5.2.1
-click-didyoumean==0.3.0
-click-repl==0.2.0
-curtsies==0.3.10
-cwcwidth==0.1.5
 #
 fastapi
 ffmpy
@@ -25,7 +16,6 @@ gradio
 humanize
 keras-unet-collection
 keras2onnx
-kombu
 markdown2
 mixpanel
 more-itertools==8.12.0
@@ -34,10 +24,8 @@ onnxconverter-common
 paramiko
 pycryptodome
 pydub
-starlette
 tf2onnx
 uvicorn
-waitress
 #
 pyobjc==8.1
 pyobjc-core==8.1

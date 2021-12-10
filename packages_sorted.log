@@ -17,8 +17,10 @@ azure-common
 backcall
 backoff
 base58
+billiard
 blinker
 blurhash
+boltons
 boto
 box2d
 box2d-py
@@ -42,6 +44,7 @@ configparser
 confluent-kafka
 conllu
 coverage
+cwcwidth
 cycler
 cymem
 cython
@@ -265,6 +268,7 @@ uritemplate
 urllib3
 venusian
 vine
+waitress
 wasabi
 wcwidth
 webencodings
@@ -295,6 +299,7 @@ blis
 cattrs
 cffi
 cftime
+click-didyoumean
 click-plugins
 cligj
 colormath
@@ -438,16 +443,19 @@ arrow
 asynq
 axial-positional-embedding
 azure-core
+bcrypt
 bert-for-tf2
 bleach
 bokeh
 botocore
 brotlipy
+click-repl
 coinpaprika
 colorcet
 croniter
 cryptography
 cssselect2
+curtsies
 dask
 databricks-cli
 datashape
@@ -484,6 +492,7 @@ jupyter-client
 kaggle
 keyring
 kivy-garden
+kombu
 libcst
 local-attention
 luigi
@@ -523,6 +532,7 @@ setuptools-scm
 spectra
 sphinx
 stanza
+starlette
 streamz
 stumpy
 tensorflow-metadata
@@ -550,6 +560,7 @@ argon2-cffi
 authlib
 azure-eventhub
 boost
+celery
 chart-studio
 cloudscraper
 cmdstanpy
