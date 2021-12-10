@@ -1017,30 +1017,26 @@ amqp==5.0.6 # LEVEL_02 # Low-level AMQP client for Python (fork of amqplib)
 vine==5.0.0 # LEVEL_01 # Promises, promises, promises
 #
 
-analytics-python==1.4.0 # LEVEL_03 # The hassle-free way to integrate analytics into any python application
-monotonic==1.6 # LEVEL_01 # An implementation of time.monotonic() for Python 2 & < 3.3
-#
-billiard==3.6.4.0 # LEVEL_01 # Python multiprocessing fork with improvements and bugfixes
+flower==1.0.0 # LEVEL_05 # Celery Flower
+gradio==2.4.6 # LEVEL_05 # Python library for easily interacting with trained machine learning models
+paramiko==2.8.1 # LEVEL_04 # SSH2 protocol library
+fastapi==0.70.0 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
 celery==5.2.1 # LEVEL_04 # Distributed Task Queue
-click-didyoumean==0.3.0 # LEVEL_02 # Enables git-like *did-you-mean* feature in click
+analytics-python==1.4.0 # LEVEL_03 # The hassle-free way to integrate analytics into any python application
 click-repl==0.2.0 # LEVEL_03 # REPL plugin for Click
 kombu==5.2.2 # LEVEL_03  # Messaging library for Python
-#
 curtsies==0.3.10 # LEVEL_03 # Curses-like terminal wrapper, with colored strings!
-cwcwidth==0.1.5 # LEVEL_01 # Python bindings for wc(s)width
-#
-waitress==2.0.0 # LEVEL_01 # Waitress WSGI server
 starlette==0.16.0 # LEVEL_03 # The little ASGI library that shines
+click-didyoumean==0.3.0 # LEVEL_02 # Enables git-like *did-you-mean* feature in click
+monotonic==1.6 # LEVEL_01 # An implementation of time.monotonic() for Python 2 & < 3.3
+billiard==3.6.4.0 # LEVEL_01 # Python multiprocessing fork with improvements and bugfixes
+cwcwidth==0.1.5 # LEVEL_01 # Python bindings for wc(s)width
+waitress==2.0.0 # LEVEL_01 # Waitress WSGI server
 boltons==21.0.0 # LEVEL_01 # When they're not builtins, they're boltons
-fastapi==0.70.0 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
 ffmpy==0.3.0 # LEVEL_01 # A simple Python wrapper for ffmpeg
-flower==1.0.0 # LEVEL_05 # Celery Flower
 humanize==3.13.1 # LEVEL_01 # Python humanize utilities
 backports.cached-property==1.0.1 # LEVEL_01 # cached_property() - computed once per instance, cached as attribute
-#
-gradio==2.4.6 # LEVEL_05 # Python library for easily interacting with trained machine learning models
 markdown2==2.4.2 # LEVEL_01 # A fast and complete Python implementation of Markdown
-paramiko==2.8.1 # LEVEL_04 # SSH2 protocol library
 pycryptodome==3.12.0 # LEVEL_01 # Cryptographic library for Python
 pydub==0.25.1 # LEVEL_01 # Manipulate audio with an simple and easy high level interface
 #
