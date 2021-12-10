@@ -16,6 +16,7 @@ attrs
 azure-common
 backcall
 backoff
+backports.cached-property
 base58
 billiard
 blinker
@@ -69,6 +70,7 @@ faiss-cpu
 fake-useragent
 fastavro
 fastrlock
+ffmpy
 filelock
 flatbuffers
 fonttools
@@ -93,6 +95,7 @@ hijri-converter
 hiredis
 hsluv
 htmlmin
+humanize
 hupper
 icu
 idna
@@ -120,6 +123,7 @@ lockfile
 logbook
 lxml
 lz4
+markdown2
 markupsafe
 mccabe
 mistune
@@ -172,8 +176,10 @@ pyasn1
 pybullet
 pycodestyle
 pycparser
+pycryptodome
 pycryptodomex
 pydeprecate
+pydub
 pyee
 pyflakes
 pygame
@@ -568,6 +574,7 @@ dask-glm
 datasets
 distributed
 exchange-calendars
+fastapi
 fastdownload
 finta
 flask-cachebuster
@@ -600,6 +607,7 @@ openai
 osqp
 pandas-datareader
 panel
+paramiko
 performer-pytorch
 proj
 prometheus-flask-exporter
@@ -647,8 +655,10 @@ datashader
 elegantrl
 empyrical
 fastai
+flower
 google-api-python-client
 google-cloud-core
+gradio
 holoviews
 jupyter-console
 mlflow

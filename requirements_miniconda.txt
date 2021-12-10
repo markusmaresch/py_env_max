@@ -1030,6 +1030,17 @@ curtsies==0.3.10 # LEVEL_03 # Curses-like terminal wrapper, with colored strings
 cwcwidth==0.1.5 # LEVEL_01 # Python bindings for wc(s)width
 #
 waitress==2.0.0 # LEVEL_01 # Waitress WSGI server
-starlette==0.17.1 # LEVEL_03 # The little ASGI library that shines
+starlette==0.16.0 # LEVEL_03 # The little ASGI library that shines
 boltons==21.0.0 # LEVEL_01 # When they're not builtins, they're boltons
+fastapi==0.70.0 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
+ffmpy==0.3.0 # LEVEL_01 # A simple Python wrapper for ffmpeg
+flower==1.0.0 # LEVEL_05 # Celery Flower
+humanize==3.13.1 # LEVEL_01 # Python humanize utilities
+backports.cached-property==1.0.1 # LEVEL_01 # cached_property() - computed once per instance, cached as attribute
+#
+gradio==2.4.6 # LEVEL_05 # Python library for easily interacting with trained machine learning models
+markdown2==2.4.2 # LEVEL_01 # A fast and complete Python implementation of Markdown
+paramiko==2.8.1 # LEVEL_04 # SSH2 protocol library
+pycryptodome==3.12.0 # LEVEL_01 # Cryptographic library for Python
+pydub==0.25.1 # LEVEL_01 # Manipulate audio with an simple and easy high level interface
 #

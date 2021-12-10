@@ -4,26 +4,13 @@
 #Version
 
 #perceptilabs==0.13.4
-
 #
-backports.cached-property
-#
-fastapi
-ffmpy
-#
-flower
-gradio
-humanize
 keras-unet-collection
 keras2onnx
-markdown2
 mixpanel
 more-itertools==8.12.0
 onnx
 onnxconverter-common
-paramiko
-pycryptodome
-pydub
 tf2onnx
 uvicorn
 #
