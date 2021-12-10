@@ -786,7 +786,7 @@ Author: Cloudpipe
 Author-email: cloudpipe@googlegroups.com
 License: BSD 3-Clause License
 Requires: 
-Required-by: dask dask-glm distributed gym mlflow stable-baselines3
+Required-by: dask dask-glm distributed gym mlagents-envs mlflow stable-baselines3
 ---
 Name: cloudscraper
 Version: 1.2.58
@@ -2106,7 +2106,7 @@ Author: The gRPC Authors
 Author-email: grpc-io@googlegroups.com
 License: Apache License 2.0
 Requires: six
-Required-by: google-cloud-bigquery grpcio-status ray tensorboard tensorflow
+Required-by: google-cloud-bigquery grpcio-status mlagents-envs ray tensorboard tensorflow
 ---
 Name: grpcio-status
 Version: 1.42.0
@@ -2136,7 +2136,17 @@ Author: OpenAI
 Author-email: jkterry@umd.edu
 License: UNKNOWN
 Requires: cloudpickle numpy
-Required-by: elegantrl stable-baselines3
+Required-by: elegantrl gym-unity stable-baselines3
+---
+Name: gym-unity
+Version: 0.27.0
+Summary: Unity Machine Learning Agents Gym Interface
+Home-page: https://github.com/Unity-Technologies/ml-agents
+Author: Unity Technologies
+Author-email: ML-Agents@unity3d.com
+License: Apache License 2.0
+Requires: gym mlagents-envs
+Required-by: 
 ---
 Name: h11
 Version: 0.12.0
@@ -3158,6 +3168,16 @@ License: BSD
 Requires: 
 Required-by: nbconvert
 ---
+Name: mlagents-envs
+Version: 0.27.0
+Summary: Unity Machine Learning Agents Interface
+Home-page: https://github.com/Unity-Technologies/ml-agents
+Author: Unity Technologies
+Author-email: ML-Agents@unity3d.com
+License: UNKNOWN
+Requires: Pillow cloudpickle grpcio numpy protobuf pyyaml
+Required-by: gym-unity
+---
 Name: mlflow
 Version: 1.22.0
 Summary: MLflow: A Platform for ML Development and Productionization
@@ -3516,7 +3536,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: ImageHash Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost cftime cmdstanpy colormath cufflinks cvxpy dask-ml datasets datashader datashape ecos elegantrl empyrical eventkit exchange-calendars fastprogress finta gensim gym h5py holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk kmodes lightgbm matplotlib missingno mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 stanza statsmodels stockstats stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: ImageHash Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost cftime cmdstanpy colormath cufflinks cvxpy dask-ml datasets datashader datashape ecos elegantrl empyrical eventkit exchange-calendars fastprogress finta gensim gym h5py holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 stanza statsmodels stockstats stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -3956,7 +3976,7 @@ Author: Alex Clark (PIL Fork Author)
 Author-email: aclark@python-pillow.org
 License: HPND
 Requires: 
-Required-by: ImageHash bokeh dash-canvas datashader fastai geos imageio matplotlib scikit-image tf-models-official torchvision wordcloud
+Required-by: ImageHash bokeh dash-canvas datashader fastai geos imageio matplotlib mlagents-envs scikit-image tf-models-official torchvision wordcloud
 ---
 Name: pip
 Version: 21.2.4
@@ -4166,7 +4186,7 @@ Author:
 Author-email: 
 License: 3-Clause BSD License
 Requires: 
-Required-by: google-api-core google-cloud-bigquery googleapis-common-protos grpcio-status mlflow proto-plus ray stanza tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata wandb
+Required-by: google-api-core google-cloud-bigquery googleapis-common-protos grpcio-status mlagents-envs mlflow proto-plus ray stanza tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata wandb
 ---
 Name: psutil
 Version: 5.8.0
@@ -4986,7 +5006,7 @@ Author: Kirill Simonov
 Author-email: xi@resolvent.net
 License: MIT
 Requires: 
-Required-by: bokeh dask distributed fastai huggingface-hub libcst mashumaro mlflow omegaconf pandas-profiling pytorch-lightning rapids ray tf-models-official transformers wandb
+Required-by: bokeh dask distributed fastai huggingface-hub libcst mashumaro mlagents-envs mlflow omegaconf pandas-profiling pytorch-lightning rapids ray tf-models-official transformers wandb
 ---
 Name: pyzmq
 Version: 22.3.0

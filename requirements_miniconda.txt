@@ -201,6 +201,8 @@ fastprogress==1.0.0 # LEVEL_02 # A nested progress with plotting options for fas
 #
 h2o==3.34.0.3 # LEVEL_03 # H2O, Fast Scalable Machine Learning, for python
 #
+gym-unity==0.27.0 # LEVEL_04 # Unity Machine Learning Agents Gym Interface
+mlagents-envs==0.27.0 # LEVEL_03 # Unity Machine Learning Agents Interface
 gym==0.21.0 # LEVEL_02 # Gym: A universal API for reinforcement learning environments
 #
 gensim==4.1.2 # LEVEL_03 # Python framework for fast Vector Space Modelling

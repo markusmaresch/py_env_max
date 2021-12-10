@@ -487,6 +487,7 @@ lunarcalendar
 markdown
 mastodon.py
 minimal-snowplow-tracker
+mlagents-envs
 nbformat
 netcdf4
 nibabel
@@ -565,6 +566,7 @@ geos
 google-api-core
 google-auth-httplib2
 google-auth-oauthlib
+gym-unity
 httpx
 iexfinance
 imbalanced-learn
