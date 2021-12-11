@@ -16,7 +16,6 @@ attrs
 azure-common
 backcall
 backoff
-backports.cached-property
 base58
 billiard
 blinker

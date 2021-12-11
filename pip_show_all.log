@@ -219,7 +219,7 @@ Requires:
 Required-by: pipx
 ---
 Name: argon2-cffi
-Version: 21.2.0
+Version: 21.3.0
 Summary: The secure Argon2 password hashing algorithm.
 Home-page: 
 Author: 
@@ -457,16 +457,6 @@ Author-email: rgreen@goscoutgo.com
 License: MIT
 Requires: 
 Required-by: analytics-python
----
-Name: backports.cached-property
-Version: 1.0.1
-Summary: cached_property() - computed once per instance, cached as attribute
-Home-page: https://github.com/penguinolog/backports.cached_property
-Author: Aleksei Stepanov
-Author-email: penguinolog@gmail.com
-License: MIT License
-Requires: 
-Required-by: 
 ---
 Name: base58
 Version: 2.1.1
@@ -1249,7 +1239,7 @@ Requires:
 Required-by: dash
 ---
 Name: dask
-Version: 2021.11.2
+Version: 2021.12.0
 Summary: Parallel PyData with Task Scheduling
 Home-page: https://github.com/dask/dask/
 Author: 
@@ -1389,7 +1379,7 @@ Requires:
 Required-by: datasets multiprocess tensorflow-datasets
 ---
 Name: distributed
-Version: 2021.11.2
+Version: 2021.12.0
 Summary: Distributed scheduler for Dask
 Home-page: https://distributed.dask.org
 Author: 
@@ -6649,7 +6639,7 @@ Requires:
 Required-by: typeshed-client
 ---
 Name: typeguard
-Version: 2.13.2
+Version: 2.13.3
 Summary: Run-time type checker for Python
 Home-page: UNKNOWN
 Author: Alex Grönholm
