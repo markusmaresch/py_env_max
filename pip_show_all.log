@@ -266,7 +266,7 @@ Author: Django Software Foundation
 Author-email: foundation@djangoproject.com
 License: BSD
 Requires: 
-Required-by: Django
+Required-by: Django uvicorn
 ---
 Name: asn1crypto
 Version: 1.4.0
@@ -826,7 +826,7 @@ Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
 Requires: 
-Required-by: Fiona Flask celery click-didyoumean click-plugins click-repl cligj databricks-cli distributed mlflow nltk proj ray sacremoses typer userpath wandb
+Required-by: Fiona Flask celery click-didyoumean click-plugins click-repl cligj databricks-cli distributed mlflow nltk proj ray sacremoses typer userpath uvicorn wandb
 ---
 Name: click-didyoumean
 Version: 0.3.0
@@ -1869,14 +1869,14 @@ Requires: Flask
 Required-by: dash-auth
 ---
 Name: flatbuffers
-Version: 2.0
+Version: 1.12
 Summary: The FlatBuffers serialization format for Python
 Home-page: https://google.github.io/flatbuffers/
 Author: FlatBuffers Contributors
 Author-email: me@rwinslow.com
 License: Apache 2.0
 Requires: 
-Required-by: tensorflow
+Required-by: tensorflow tf2onnx
 ---
 Name: flower
 Version: 1.0.0
@@ -2306,7 +2306,7 @@ Author: Nathaniel J. Smith
 Author-email: njs@pobox.com
 License: MIT
 Requires: 
-Required-by: httpcore wsproto
+Required-by: httpcore uvicorn wsproto
 ---
 Name: h2o
 Version: 3.34.0.3
@@ -3348,6 +3348,16 @@ License: BSD
 Requires: 
 Required-by: nbconvert
 ---
+Name: mixpanel
+Version: 4.9.0
+Summary: Official Mixpanel library for Python
+Home-page: https://github.com/mixpanel/mixpanel-python
+Author: Mixpanel, Inc.
+Author-email: dev@mixpanel.com
+License: Apache
+Requires: requests six urllib3
+Required-by: 
+---
 Name: mlagents-envs
 Version: 0.27.0
 Summary: Unity Machine Learning Agents Interface
@@ -3397,6 +3407,16 @@ Author-email: ori@wikimedia.org
 License: Apache
 Requires: 
 Required-by: analytics-python
+---
+Name: more-itertools
+Version: 8.12.0
+Summary: More routines for operating on iterables, beyond itertools
+Home-page: https://github.com/more-itertools/more-itertools
+Author: Erik Rose
+Author-email: erikrose@grinchcentral.com
+License: MIT
+Requires: 
+Required-by: 
 ---
 Name: mplfinance
 Version: 0.12.7a17
@@ -3726,7 +3746,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: ImageHash Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost cftime cmdstanpy colormath cufflinks cvxpy dask-ml datasets datashader datashape ecos elegantrl empyrical eventkit exchange-calendars fastprogress finta gensim gradio gym h5py holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 stanza statsmodels stockstats stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: ImageHash Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost cftime cmdstanpy colormath cufflinks cvxpy dask-ml datasets datashader datashape ecos elegantrl empyrical eventkit exchange-calendars fastprogress finta gensim gradio gym h5py holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 stanza statsmodels stockstats stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -3797,6 +3817,16 @@ Author-email: omry@yadan.net
 License: UNKNOWN
 Requires: PyYAML antlr4-python3-runtime
 Required-by: 
+---
+Name: onnx
+Version: 1.10.2
+Summary: Open Neural Network Exchange
+Home-page: https://github.com/onnx/onnx
+Author: ONNX
+Author-email: onnx-technical-discuss@lists.lfai.foundation
+License: Apache License v2.0
+Requires: numpy protobuf six typing-extensions
+Required-by: tf2onnx
 ---
 Name: openai
 Version: 0.11.3
@@ -4386,7 +4416,7 @@ Author:
 Author-email: 
 License: 3-Clause BSD License
 Requires: 
-Required-by: google-api-core google-cloud-bigquery googleapis-common-protos grpcio-status mlagents-envs mlflow proto-plus ray stanza tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata wandb
+Required-by: google-api-core google-cloud-bigquery googleapis-common-protos grpcio-status mlagents-envs mlflow onnx proto-plus ray stanza tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata wandb
 ---
 Name: psutil
 Version: 5.8.0
@@ -5356,7 +5386,7 @@ Author: Kenneth Reitz
 Author-email: me@kennethreitz.org
 License: Apache 2.0
 Requires: certifi charset-normalizer idna urllib3
-Required-by: Kivy-Garden Mastodon.py PyGithub Sphinx alpha-vantage analytics-python azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth databricks-cli datasets docker fastai google-api-core google-cloud-bigquery googletransx gradio h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle minimal-snowplow-tracker mlflow msrest nilearn openai pandas-datareader pandas-finance pandas-profiling panel rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy stanza tensorboard tensorflow-datasets tiingo transformers wandb yfinance zeep
+Required-by: Kivy-Garden Mastodon.py PyGithub Sphinx alpha-vantage analytics-python azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth databricks-cli datasets docker fastai google-api-core google-cloud-bigquery googletransx gradio h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle minimal-snowplow-tracker mixpanel mlflow msrest nilearn openai pandas-datareader pandas-finance pandas-profiling panel rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy stanza tensorboard tensorflow-datasets tf2onnx tiingo transformers wandb yfinance zeep
 ---
 Name: requests-cache
 Version: 0.8.1
@@ -5736,7 +5766,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py PyNaCl Theano absl-py agate analytics-python astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker multipledispatch munch oauth2client patsy plotly promise pyOpenSSL pyod python-dateutil querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official trading-calendars uamqp url-normalize validators wandb
+Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py PyNaCl Theano absl-py agate analytics-python astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client onnx patsy plotly promise pyOpenSSL pyod python-dateutil querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb
 ---
 Name: smart-open
 Version: 5.2.1
@@ -6358,6 +6388,16 @@ License: Apache 2.0
 Requires: absl-py
 Required-by: tf-models-official
 ---
+Name: tf2onnx
+Version: 1.9.3
+Summary: Tensorflow to ONNX converter
+Home-page: https://github.com/onnx/tensorflow-onnx
+Author: onnx@microsoft.com
+Author-email: onnx@microsoft.com
+License: Apache License v2.0
+Requires: flatbuffers numpy onnx requests six
+Required-by: 
+---
 Name: Theano
 Version: 1.0.5
 Summary: Optimizing compiler for evaluating mathematical expressions on CPUs and GPUs.
@@ -6676,7 +6716,7 @@ Author:
 Author-email: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 License: 
 Requires: 
-Required-by: GitPython aioredis async-timeout bokeh huggingface-hub jax libcst mashumaro mypy pyanalyze pydantic pytorch-lightning tensorflow torch typing-inspect
+Required-by: GitPython aioredis async-timeout bokeh huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pytorch-lightning tensorflow torch typing-inspect
 ---
 Name: typing-inspect
 Version: 0.7.1
@@ -6786,7 +6826,7 @@ Author: Andrey Petrov
 Author-email: andrey.petrov@shazow.net
 License: MIT
 Requires: 
-Required-by: botocore elasticsearch intrinio-sdk kaggle pmdarima requests requests-cache requests-unixsocket selenium sentry-sdk
+Required-by: botocore elasticsearch intrinio-sdk kaggle mixpanel pmdarima requests requests-cache requests-unixsocket selenium sentry-sdk
 ---
 Name: userpath
 Version: 1.7.0
@@ -6797,6 +6837,16 @@ Author-email: ofekmeister@gmail.com
 License: MIT OR Apache-2.0
 Requires: click
 Required-by: pipx
+---
+Name: uvicorn
+Version: 0.16.0
+Summary: The lightning-fast ASGI server.
+Home-page: https://www.uvicorn.org/
+Author: Tom Christie
+Author-email: tom@tomchristie.com
+License: BSD
+Requires: asgiref click h11
+Required-by: 
 ---
 Name: validators
 Version: 0.18.2
