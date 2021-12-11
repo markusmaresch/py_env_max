@@ -110,6 +110,7 @@ json5
 jupyterlab-widgets
 kaleido
 keras
+keras-unet-collection
 kiwisolver
 knot-floer-homology
 korean-lunar-calendar
@@ -516,6 +517,7 @@ nibabel
 numexpr
 nystrom-attention
 oauth2client
+onnxconverter-common
 pandas
 pathy
 pipx
@@ -602,6 +604,7 @@ imbalanced-learn
 ipykernel
 jqdatasdk
 jupyter-packaging
+keras2onnx
 kivy
 kivy-examples
 kmodes

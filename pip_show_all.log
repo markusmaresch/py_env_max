@@ -1786,7 +1786,7 @@ Author: David Bieber
 Author-email: dbieber@google.com
 License: Apache Software License
 Requires: six termcolor
-Required-by: 
+Required-by: keras2onnx
 ---
 Name: flake8
 Version: 4.0.1
@@ -2948,6 +2948,26 @@ License: MIT
 Requires: numpy six
 Required-by: tensorflow
 ---
+Name: keras-unet-collection
+Version: 0.1.11
+Summary: The Tensorflow, Keras implementation of U-net, V-net, U-net++, UNET 3+, Attention U-net, R2U-net, ResUnet-a, U^2-Net, TransUNET, and Swin-UNET with optional ImageNet-trained backbones.
+Home-page: https://github.com/yingkaisha/keras-unet-collection
+Author: Yingkai (Kyle) Sha
+Author-email: yingkaisha@gmail.com
+License: UNKNOWN
+Requires: 
+Required-by: 
+---
+Name: keras2onnx
+Version: 1.7.0
+Summary: Converts Machine Learning models to ONNX for use in Windows ML
+Home-page: https://github.com/onnx/keras-onnx
+Author: Microsoft Corporation
+Author-email: winmlcvt@microsoft.com
+License: MIT License
+Requires: fire numpy onnx onnxconverter-common protobuf requests
+Required-by: 
+---
 Name: keyring
 Version: 23.4.0
 Summary: Store and access your passwords safely.
@@ -3746,7 +3766,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: ImageHash Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost cftime cmdstanpy colormath cufflinks cvxpy dask-ml datasets datashader datashape ecos elegantrl empyrical eventkit exchange-calendars fastprogress finta gensim gradio gym h5py holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 stanza statsmodels stockstats stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: ImageHash Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost cftime cmdstanpy colormath cufflinks cvxpy dask-ml datasets datashader datashape ecos elegantrl empyrical eventkit exchange-calendars fastprogress finta gensim gradio gym h5py holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 stanza statsmodels stockstats stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -3826,7 +3846,17 @@ Author: ONNX
 Author-email: onnx-technical-discuss@lists.lfai.foundation
 License: Apache License v2.0
 Requires: numpy protobuf six typing-extensions
-Required-by: tf2onnx
+Required-by: keras2onnx onnxconverter-common tf2onnx
+---
+Name: onnxconverter-common
+Version: 1.9.0
+Summary: ONNX Converter and Optimization Tools
+Home-page: https://github.com/microsoft/onnxconverter-common
+Author: Microsoft Corporation
+Author-email: onnx@microsoft.com
+License: MIT License
+Requires: numpy onnx protobuf
+Required-by: keras2onnx
 ---
 Name: openai
 Version: 0.11.3
@@ -4416,7 +4446,7 @@ Author:
 Author-email: 
 License: 3-Clause BSD License
 Requires: 
-Required-by: google-api-core google-cloud-bigquery googleapis-common-protos grpcio-status mlagents-envs mlflow onnx proto-plus ray stanza tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata wandb
+Required-by: google-api-core google-cloud-bigquery googleapis-common-protos grpcio-status keras2onnx mlagents-envs mlflow onnx onnxconverter-common proto-plus ray stanza tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata wandb
 ---
 Name: psutil
 Version: 5.8.0
@@ -5386,7 +5416,7 @@ Author: Kenneth Reitz
 Author-email: me@kennethreitz.org
 License: Apache 2.0
 Requires: certifi charset-normalizer idna urllib3
-Required-by: Kivy-Garden Mastodon.py PyGithub Sphinx alpha-vantage analytics-python azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth databricks-cli datasets docker fastai google-api-core google-cloud-bigquery googletransx gradio h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle minimal-snowplow-tracker mixpanel mlflow msrest nilearn openai pandas-datareader pandas-finance pandas-profiling panel rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy stanza tensorboard tensorflow-datasets tf2onnx tiingo transformers wandb yfinance zeep
+Required-by: Kivy-Garden Mastodon.py PyGithub Sphinx alpha-vantage analytics-python azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth databricks-cli datasets docker fastai google-api-core google-cloud-bigquery googletransx gradio h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle keras2onnx minimal-snowplow-tracker mixpanel mlflow msrest nilearn openai pandas-datareader pandas-finance pandas-profiling panel rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy stanza tensorboard tensorflow-datasets tf2onnx tiingo transformers wandb yfinance zeep
 ---
 Name: requests-cache
 Version: 0.8.1
