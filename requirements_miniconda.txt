@@ -132,7 +132,7 @@ toolz==0.11.2 # LEVEL_01 # List processing tools and functional utilities
 pandas-profiling==3.1.0 # LEVEL_06 # Generate profile report for pandas DataFrame
 pandas-datareader==0.10.0 # LEVEL_04 # Data readers extracted from the pandas codebase,should be compatible with recent pandas versions
 geopandas==0.10.2 # LEVEL_04 # Geographic pandas extensions
-pandas==1.3.4 # LEVEL_03 # Powerful data structures for data analysis, time series, and statistics
+pandas==1.3.5 # LEVEL_03 # Powerful data structures for data analysis, time series, and statistics
 pandas-stubs==1.2.0.39 # LEVEL_01 # needed by openai # Type annotations for Pandas
 XlsxWriter==3.0.2 # LEVEL_01 # needed for pandas XLSX # A Python module for creating Excel XLSX files
 
@@ -388,7 +388,7 @@ selenium==4.1.0 # LEVEL_05 #
 #
 #
 cvxpy==1.1.17 # LEVEL_05 # A domain-specific language for modeling convex optimization problems in Python
-ecos==2.0.7.post1 # LEVEL_03 # This is the Python package for ECOS: Embedded Cone Solver. See Github page for more information
+ecos==2.0.8 # LEVEL_03 # This is the Python package for ECOS: Embedded Cone Solver. See Github page for more information
 osqp==0.6.2.post0 # LEVEL_04 # OSQP: The Operator Splitting QP Solver
 qdldl==0.1.5.post0 # LEVEL_03 # QDLDL, a free LDL factorization routine
 scs==2.1.4 # LEVEL_03 # scs: splitting conic solver
@@ -418,7 +418,7 @@ Kivy-examples==2.0.0 # LEVEL_04 # Kivy examples
 Kivy-Garden==0.1.4 # LEVEL_03
 #
 dash-auth==1.4.1 # LEVEL_06 # Dash Authorization Package
-dash-bootstrap-components==1.0.1 # LEVEL_06 # Bootstrap themed components for use in Plotly Dash
+dash-bootstrap-components==1.0.2 # LEVEL_06 # Bootstrap themed components for use in Plotly Dash
 dash-canvas==0.1.0 # LEVEL_06 # Sketching pad for dash based on react-sketch
 dash-cytoscape==0.3.0 # LEVEL_06 # A Component Library for Dash aimed at facilitating network visualization in Python, wrapped around Cytoscape.js
 dash==2.0.0 # LEVEL_05 # A Python framework for building reactive web-apps. Developed by Plotly
@@ -444,7 +444,7 @@ spectra==0.0.11 # LEVEL_03 # old # Color scales and color conversion made easy f
 colorcet==3.0.0 # LEVEL_03 # Collection of perceptually uniform colormaps
 colormath==3.0.0 # LEVEL_02 # not maintained # Color math and conversion library
 blessings==1.7 # LEVEL_02 # old # A thin, practical wrapper around terminal coloring, styling, and positioning
-rich==10.15.2 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+rich==10.16.0 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 colorama==0.4.4 # LEVEL_01 # Cross-platform colored terminal text
 termcolor==1.1.0 # LEVEL_01 # OLD !! # ANSII Color formatting for output in terminal
 colorful==0.5.4 # LEVEL_01 # old # Terminal string styling done right, in Python
@@ -722,7 +722,7 @@ jedi==0.18.1 # LEVEL_02 # An autocompletion tool for Python that can be used for
 Jinja2==3.0.3 # LEVEL_02 # template engine # A very fast and expressive template engine
 korean-lunar-calendar==0.2.1 # LEVEL_01 # Korean Lunar Calendar
 llvmlite==0.37.0 # LEVEL_01 # lightweight wrapper around basic LLVM functionality
-lxml==4.6.4 # LEVEL_01 # Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API
+lxml==4.6.5 # LEVEL_01 # Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API
 m3u8==0.9.0 # LEVEL_02 # play list parser, udemy-dl2 # Python m3u8 parser
 macholib==1.15.2 # LEVEL_02 # Mach-O header analysis and editing
 msgpack==1.0.3 # LEVEL_01 # MessagePack (de)serializer
@@ -1026,7 +1026,7 @@ vine==5.0.0 # LEVEL_01 # Promises, promises, promises
 flower==1.0.0 # LEVEL_05 # Celery Flower
 gradio==2.4.6 # LEVEL_05 # Python library for easily interacting with trained machine learning models
 paramiko==2.8.1 # LEVEL_04 # SSH2 protocol library
-fastapi==0.70.0 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
+fastapi==0.70.1 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
 celery==5.2.1 # LEVEL_04 # Distributed Task Queue
 analytics-python==1.4.0 # LEVEL_03 # The hassle-free way to integrate analytics into any python application
 click-repl==0.2.0 # LEVEL_03 # REPL plugin for Click
