@@ -119,7 +119,7 @@ if [ 1 -eq 1 ]; then
     fi
     echo "Installing $requirements_tmp .. $num_lines packages"
     if [ "$tag" == "NO_CACHE_DIR" ]; then
-      ncd="--no-cache-dir"
+      ncd="--no-cache-dir --no-binary :all:"
     else
       ncd=""
     fi
