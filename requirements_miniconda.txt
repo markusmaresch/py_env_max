@@ -27,12 +27,6 @@
 #zlib # LEVEL_00 # CONDA_CREATE
 
 #
-# Internal .. needed early by this system
-#
-pipdeptree==2.2.0 # LEVEL_02 # INTERNAL # Command line utility to show dependency tree of packages
-importlib-metadata==4.8.2 # LEVEL_02 # INTERNAL # Read metadata from Python packages
-
-#
 # Pre-Installs .. separate install before anything else
 #
 numpy==1.19.5 # LEVEL_01 # PRE_INSTALL_00 # LOCKED # openvino<1.20; # NumPy is the fundamental package for array computing with Python
@@ -113,6 +107,13 @@ panel==0.12.6 # LEVEL_04 # A high level app and dashboarding solution for Python
 bokeh==2.4.2 # LEVEL_03 # Interactive plots and applications in the browser from Python
 smmap==5.0.0 # LEVEL_01 # A pure Python implementation of a sliding window memory map manager
 pyparsing==3.0.6 # LEVEL_01 # Python parsing module
+
+#
+# Internal .. needed early by this system
+#
+pipdeptree==2.2.0 # LEVEL_02 # INTERNAL # Command line utility to show dependency tree of packages
+importlib-metadata==4.8.3 # LEVEL_02 # INTERNAL # Read metadata from Python packages
+
 #
 # Generic Low Level Tools
 #
