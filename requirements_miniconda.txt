@@ -169,7 +169,7 @@ tensorflow-metadata==1.5.0 # LEVEL_03 # Library and standards for schema and sta
 tensorflow-model-optimization==0.7.0 # LEVEL_03 # A suite of tools that users, both novice and advanced can use to optimize machine learning models for deployment and execution
 tensorflow-addons==0.15.0 # LEVEL_02 # TensorFlow Addons
 tensorflow-hub==0.12.0 # LEVEL_02 # TensorFlow Hub is a library to foster the publication, discovery, and consumption of reusable parts of machine learning models
-tensorflow-io-gcs-filesystem==0.22.0 # LEVEL_01 # TensorFlow IO
+tensorflow-io-gcs-filesystem==0.23.1 # LEVEL_01 # TensorFlow IO
 #
 tf-models-official==2.7.0 # LEVEL_08 # TensorFlow Official Models
 tf-slim==1.1.0 # LEVEL_03 # TensorFlow-Slim: A lightweight library for defining, training and evaluating complex models in TensorFlow
@@ -182,18 +182,18 @@ huggingface-hub==0.2.1 # LEVEL_03 # Client library to download and publish model
 #
 xgboost==1.5.1 # LEVEL_03 # check installation notes # XGBoost Python Package
 #
-pyro-ppl==1.7.0 # LEVEL_03 # A Python library for probabilistic modeling and inference
+pyro-ppl==1.8.0 # LEVEL_03 # A Python library for probabilistic modeling and inference
 pyro-api==0.1.2 # LEVEL_01 # Generic API for dispatch to Pyro backends
 #
-pytorch-lightning==1.5.5 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
+pytorch-lightning==1.5.6 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
 performer-pytorch==1.1.3 # LEVEL_04 # Performer - Pytorch
 torch-optimizer==0.3.0 # LEVEL_04 # pytorch-optimizer
-torchaudio==0.10.0 # LEVEL_03 # An audio package for PyTorch
-torchvision==0.11.1 # LEVEL_03 # image and video datasets and models for torch deep learning
+torchaudio==0.10.1 # LEVEL_03 # An audio package for PyTorch
+torchvision==0.11.2 # LEVEL_03 # image and video datasets and models for torch deep learning
 pytorch-ranger==0.1.1 # LEVEL_03 # Ranger - a synergistic optimizer using RAdam (Rectified Adam) and LookAhead in one codebase
-torchmetrics==0.6.1 # LEVEL_03 # PyTorch native Metrics
+torchmetrics==0.6.2 # LEVEL_03 # PyTorch native Metrics
 nystrom-attention==0.0.11 # LEVEL_03 # Nystrom Attention - Pytorch
-torch==1.10.0 # LEVEL_02 # Tensors and Dynamic neural networks in Python with strong GPU acceleration
+torch==1.10.1 # LEVEL_02 # Tensors and Dynamic neural networks in Python with strong GPU acceleration
 einops==0.3.2 # LEVEL_01 # A new flavour of deep learning operations
 #
 Theano==1.0.5 # LEVEL_03 # Optimizing compiler for evaluating mathematical expressions on CPUs and GPUs
@@ -212,9 +212,9 @@ gym==0.21.0 # LEVEL_02 # Gym: A universal API for reinforcement learning environ
 #
 gensim==4.1.2 # LEVEL_03 # Python framework for fast Vector Space Modelling
 #
-openai==0.11.3 # LEVEL_04 # Python client library for the OpenAI API
+openai==0.11.4 # LEVEL_04 # Python client library for the OpenAI API
 #
-wandb==0.12.7 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
+wandb==0.12.8 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
 #
 #ktrain>=0.27.2
 #
@@ -237,7 +237,7 @@ pmdarima==1.8.4 # LEVEL_05 # Python's forecast::auto.arima equivalent
 #darts>=0.9.1  # time series predictions (behind on requirements)
 #tsai>=0.2.18  # time series and sequences, triggers huge number of dependencies !
 prophet==1.0.1 # LEVEL_05 # time series forecasts from Facebook # Automatic Forecasting Procedure
-stumpy==1.10.0 # LEVEL_03 # A powerful and scalable library that can be used for a variety of time series data mining tasks
+stumpy==1.10.1 # LEVEL_03 # A powerful and scalable library that can be used for a variety of time series data mining tasks
 Cython==0.29.25 # LEVEL_01 # pystan: cython!=0.25.1,>=0.22 # The Cython compiler for writing C extensions for the Python language
 
 #
@@ -280,7 +280,7 @@ spacy-legacy==3.0.8 # LEVEL_01 # Legacy registered functions for spaCy backwards
 # spacy-transformers  # downgrades transformers !!
 thinc==8.0.13 # LEVEL_03 # A refreshing functional take on deep learning, compatible with your favorite libraries
 #
-transformers==4.13.0 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
+transformers==4.14.1 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 #
 tokenizers==0.10.3 # LEVEL_01 # Fast and Customizable Tokenizers
 #
@@ -310,7 +310,7 @@ dask[complete]==2021.12.0 # LEVEL_03 # Parallel PyData with Task Scheduling
 # pynvml==11.0.0 # LEVEL_01 # POTENTIALLY_UNUSED # Python Bindings for the NVIDIA Management Library
 #
 scikit-plot==0.3.7 # LEVEL_04 # An intuitive library to add plotting functionality to scikit-learn objects
-scikit-image==0.19.0 # LEVEL_03 # Image processing in Python
+scikit-image==0.19.1 # LEVEL_03 # Image processing in Python
 scikit-learn==1.0.1 # LEVEL_03 # A set of python modules for machine learning and data mining
 pyod==0.9.5 # LEVEL_05 # outlyer detection # A Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
 jax==0.2.26 # LEVEL_03 # Differentiate, compile, and transform Numpy code
@@ -369,7 +369,7 @@ pyportfolioopt==1.5.1 # LEVEL_06 # Financial portfolio optimization in python
 argon2-cffi==21.3.0 # LEVEL_04 # The secure Argon2 password hashing algorithm
 bcrypt==3.2.0 # LEVEL_03 # Modern password hashing for your software and your servers
 argon2-cffi-bindings==21.2.0 # LEVEL_03 # Low-level CFFI bindings for Argon2
-cryptography==36.0.0 # LEVEL_03 # cryptography is a package which provides cryptographic recipes and primitives to Python developers
+cryptography==36.0.1 # LEVEL_03 # cryptography is a package which provides cryptographic recipes and primitives to Python developers
 keyring==23.4.0 # LEVEL_03 # Store and access your passwords safely
 PyNaCl==1.4.0 # LEVEL_03 # Python binding to the Networking and Cryptography (NaCl) library
 oscrypto==1.2.1 # LEVEL_02 # TLS (SSL) sockets, key generation, encryption, decryption, signing, verification and KDFs using the OS crypto libraries. Does not require a compiler, and relies on the OS for patching. Works on Windows, OS X and Linux/BSD
@@ -391,7 +391,7 @@ cvxpy==1.1.17 # LEVEL_05 # A domain-specific language for modeling convex optimi
 ecos==2.0.8 # LEVEL_03 # This is the Python package for ECOS: Embedded Cone Solver. See Github page for more information
 osqp==0.6.2.post0 # LEVEL_04 # OSQP: The Operator Splitting QP Solver
 qdldl==0.1.5.post0 # LEVEL_03 # QDLDL, a free LDL factorization routine
-scs==2.1.4 # LEVEL_03 # scs: splitting conic solver
+scs==3.0.0 # LEVEL_03 # scs: splitting conic solver
 
 #
 # GUI & Visualization
@@ -411,7 +411,7 @@ pydot==1.4.2 # LEVEL_02 # Python interface to Graphviz's Dot
 networkx==2.6.3 # LEVEL_01 # Python package for creating and manipulating graphs and networks
 # pysimpleguiqt>=0.35.0
 #
-holoviews==1.14.6 # LEVEL_05 # Stop plotting your data - annotate your data and let it visualize itself
+holoviews==1.14.7 # LEVEL_05 # Stop plotting your data - annotate your data and let it visualize itself
 #
 Kivy==2.0.0 # LEVEL_04 # A software library for rapid development of hardware-accelerated multitouch applications
 Kivy-examples==2.0.0 # LEVEL_04 # Kivy examples
@@ -444,7 +444,7 @@ spectra==0.0.11 # LEVEL_03 # old # Color scales and color conversion made easy f
 colorcet==3.0.0 # LEVEL_03 # Collection of perceptually uniform colormaps
 colormath==3.0.0 # LEVEL_02 # not maintained # Color math and conversion library
 blessings==1.7 # LEVEL_02 # old # A thin, practical wrapper around terminal coloring, styling, and positioning
-rich==10.16.0 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+rich==10.16.1 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 colorama==0.4.4 # LEVEL_01 # Cross-platform colored terminal text
 termcolor==1.1.0 # LEVEL_01 # OLD !! # ANSII Color formatting for output in terminal
 colorful==0.5.4 # LEVEL_01 # old # Terminal string styling done right, in Python
@@ -460,7 +460,7 @@ google-resumable-media==2.1.0 # LEVEL_02 # Utilities for Google Media Downloads 
 google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC32C'
 #
 google-api-python-client==2.33.0 # LEVEL_05 # Google API Client Library for Python
-google-api-core==2.3.0 # LEVEL_04 # Google API client core library
+google-api-core==2.3.2 # LEVEL_04 # Google API client core library
 google-auth-httplib2==0.1.0 # LEVEL_04 # Google Authentication Library: httplib2 transport
 google-auth-oauthlib==0.4.6 # LEVEL_04 # Google Authentication Library
 google-pasta==0.2.0 # LEVEL_02 # pasta is an AST-based Python refactoring library
@@ -477,9 +477,9 @@ smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, A
 uamqp==1.4.3 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.20.23  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.20.24  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.23.23 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.23.24 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -520,7 +520,7 @@ django-extensions==3.1.5 # LEVEL_03 # Extensions for Django
 django-http-exceptions==1.4.0 # LEVEL_03 # django raisable http exceptions
 django-model-utils==4.2.0 # LEVEL_03 # Django model mixins and utilities
 django-request-logging==0.7.3 # LEVEL_03 # Django middleware that logs http request body
-djangorestframework==3.13.0 # LEVEL_03 # Web APIs for Django, made easy
+djangorestframework==3.13.1 # LEVEL_03 # Web APIs for Django, made easy
 Django==4.0 # LEVEL_02 # A high-level Python web framework that encourages rapid development and clean, pragmatic design
 asgiref==3.4.1 # LEVEL_01 # ASGI specs, helper code, and adapters
 
@@ -537,10 +537,10 @@ Flask==2.0.2 # LEVEL_03 # A simple framework for building complex web applicatio
 #
 # Json
 #
-jsonschema==4.2.1 # LEVEL_02 # An implementation of JSON Schema validation for Python
+jsonschema==4.3.0 # LEVEL_02 # An implementation of JSON Schema validation for Python
 json5==0.9.6 # LEVEL_01 # A Python implementation of the JSON5 data format
 simplejson==3.17.6 # LEVEL_01 # Simple, fast, extensible JSON encoder/decoder for Python
-ujson==4.3.0 # LEVEL_01 # Ultra fast JSON encoder and decoder for Python
+ujson==5.0.0 # LEVEL_01 # Ultra fast JSON encoder and decoder for Python
 PyJWT==2.3.0 # LEVEL_01 # JSON Web Token implementation in Python
 jmespath==0.10.0 # LEVEL_01 # JSON Matching Expressions
 #
@@ -587,9 +587,9 @@ cssselect2==0.4.1 # LEVEL_03 # cssselect2
 pytest-asyncio==0.16.0 # LEVEL_04 # Pytest support for asyncio
 pytest==6.2.5 # LEVEL_03 # pytest: simple powerful testing with Python
 pyanalyze==0.5.0 # LEVEL_04 # A static analyzer for Python
-pytype==2021.12.8 # LEVEL_04 # Python type inferencer
+pytype==2021.12.15 # LEVEL_04 # Python type inferencer
 flake8==4.0.1 # LEVEL_02 # better linter than pyflakes # the modular source code checker: pep8 pyflakes and co
-mypy==0.910 # LEVEL_02 # Optional static typing for Python
+mypy==0.920 # LEVEL_02 # Optional static typing for Python
 mypy-extensions==0.4.3 # LEVEL_01 # Experimental type system extensions for programs checked with the mypy typechecker
 autopep8==1.6.0 # LEVEL_02 # using fix_file # A tool that automatically formats Python code to conform to the PEP 8 style guide
 memory-profiler==0.59.0 # LEVEL_02 # A module for monitoring memory usage of a python program
@@ -722,7 +722,7 @@ jedi==0.18.1 # LEVEL_02 # An autocompletion tool for Python that can be used for
 Jinja2==3.0.3 # LEVEL_02 # template engine # A very fast and expressive template engine
 korean-lunar-calendar==0.2.1 # LEVEL_01 # Korean Lunar Calendar
 llvmlite==0.37.0 # LEVEL_01 # lightweight wrapper around basic LLVM functionality
-lxml==4.6.5 # LEVEL_01 # Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API
+lxml==4.7.1 # LEVEL_01 # Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API
 m3u8==0.9.0 # LEVEL_02 # play list parser, udemy-dl2 # Python m3u8 parser
 macholib==1.15.2 # LEVEL_02 # Mach-O header analysis and editing
 msgpack==1.0.3 # LEVEL_01 # MessagePack (de)serializer
@@ -1005,7 +1005,7 @@ emoji==1.6.1 # LEVEL_01 # Emoji for Python
 #
 shellingham==1.4.0 # LEVEL_01 # Tool to Detect Surrounding Shell
 #
-fonttools==4.28.3 # LEVEL_01 # Tools to manipulate font files
+fonttools==4.28.4 # LEVEL_01 # Tools to manipulate font files
 setuptools-scm==6.3.2 # LEVEL_03 # the blessed package to manage your versions by scm tags
 tomli==2.0.0 # LEVEL_01 # A lil' TOML parser
 #
@@ -1024,7 +1024,7 @@ vine==5.0.0 # LEVEL_01 # Promises, promises, promises
 #
 
 flower==1.0.0 # LEVEL_05 # Celery Flower
-gradio==2.4.6 # LEVEL_05 # Python library for easily interacting with trained machine learning models
+gradio==2.5.2 # LEVEL_05 # Python library for easily interacting with trained machine learning models
 paramiko==2.8.1 # LEVEL_04 # SSH2 protocol library
 fastapi==0.70.1 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
 celery==5.2.1 # LEVEL_04 # Distributed Task Queue

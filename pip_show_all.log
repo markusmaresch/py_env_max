@@ -619,7 +619,7 @@ Requires:
 Required-by: 
 ---
 Name: boto3
-Version: 1.20.23
+Version: 1.20.24
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -629,7 +629,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.23.23
+Version: 1.23.24
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -1039,7 +1039,7 @@ Requires: python-dateutil
 Required-by: 
 ---
 Name: cryptography
-Version: 36.0.0
+Version: 36.0.1
 Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
 Home-page: https://github.com/pyca/cryptography
 Author: The Python Cryptographic Authority and individual contributors
@@ -1449,7 +1449,7 @@ Requires: Django
 Required-by: 
 ---
 Name: djangorestframework
-Version: 3.13.0
+Version: 3.13.1
 Summary: Web APIs for Django, made easy.
 Home-page: https://www.django-rest-framework.org/
 Author: Tom Christie
@@ -1889,7 +1889,7 @@ Requires: celery humanize prometheus-client pytz tornado
 Required-by: 
 ---
 Name: fonttools
-Version: 4.28.3
+Version: 4.28.4
 Summary: Tools to manipulate font files
 Home-page: http://github.com/fonttools/fonttools
 Author: Just van Rossum
@@ -2069,7 +2069,7 @@ Requires: python-gflags six
 Required-by: 
 ---
 Name: google-api-core
-Version: 2.3.0
+Version: 2.3.2
 Summary: Google API client core library
 Home-page: https://github.com/googleapis/python-api-core
 Author: Google LLC
@@ -2219,7 +2219,7 @@ Requires:
 Required-by: 
 ---
 Name: gradio
-Version: 2.4.6
+Version: 2.5.2
 Summary: Python library for easily interacting with trained machine learning models
 Home-page: https://github.com/gradio-app/gradio-UI
 Author: Abubakar Abid
@@ -2369,7 +2369,7 @@ Requires: convertdate hijri-converter korean-lunar-calendar python-dateutil
 Required-by: prophet
 ---
 Name: holoviews
-Version: 1.14.6
+Version: 1.14.7
 Summary: Stop plotting your data - annotate your data and let it visualize itself.
 Home-page: https://www.holoviews.org
 Author: Jean-Luc Stevens and Philipp Rudiger
@@ -2769,7 +2769,7 @@ Requires:
 Required-by: jupyterlab-server
 ---
 Name: jsonschema
-Version: 4.2.1
+Version: 4.3.0
 Summary: An implementation of JSON Schema validation for Python
 Home-page: https://github.com/Julian/jsonschema
 Author: Julian Berman
@@ -3199,7 +3199,7 @@ Requires: ephem python-dateutil pytz
 Required-by: prophet
 ---
 Name: lxml
-Version: 4.6.5
+Version: 4.7.1
 Summary: Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
 Home-page: https://lxml.de/
 Author: lxml dev team
@@ -3549,13 +3549,13 @@ Requires:
 Required-by: preshed spacy thinc
 ---
 Name: mypy
-Version: 0.910
+Version: 0.920
 Summary: Optional static typing for Python
 Home-page: http://www.mypy-lang.org/
 Author: Jukka Lehtosalo
 Author-email: jukka.lehtosalo@iki.fi
 License: MIT License
-Requires: mypy-extensions toml typing-extensions
+Requires: mypy-extensions tomli typing-extensions
 Required-by: 
 ---
 Name: mypy-extensions
@@ -3859,7 +3859,7 @@ Requires: numpy onnx protobuf
 Required-by: keras2onnx
 ---
 Name: openai
-Version: 0.11.3
+Version: 0.11.4
 Summary: Python client library for the OpenAI API
 Home-page: https://github.com/openai/openai-python
 Author: OpenAI
@@ -5049,7 +5049,7 @@ Requires:
 Required-by: pyro-ppl
 ---
 Name: pyro-ppl
-Version: 1.7.0
+Version: 1.8.0
 Summary: A Python library for probabilistic modeling and inference
 Home-page: http://pyro.ai
 Author: Uber AI Labs
@@ -5209,7 +5209,7 @@ Requires:
 Required-by: agate
 ---
 Name: pytorch-lightning
-Version: 1.5.5
+Version: 1.5.6
 Summary: PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate.
 Home-page: https://github.com/PyTorchLightning/pytorch-lightning
 Author: William Falcon et al.
@@ -5229,7 +5229,7 @@ Requires: torch
 Required-by: torch-optimizer
 ---
 Name: pytype
-Version: 2021.12.8
+Version: 2021.12.15
 Summary: Python type inferencer
 Home-page: https://google.github.io/pytype
 Author: 
@@ -5489,7 +5489,7 @@ Requires:
 Required-by: httpx
 ---
 Name: rich
-Version: 10.16.0
+Version: 10.16.1
 Summary: Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 Home-page: https://github.com/willmcgugan/rich
 Author: Will McGugan
@@ -5599,7 +5599,7 @@ Requires:
 Required-by: twint
 ---
 Name: scikit-image
-Version: 0.19.0
+Version: 0.19.1
 Summary: Image processing in Python
 Home-page: https://scikit-image.org
 Author: 
@@ -5639,7 +5639,7 @@ Requires: numpy
 Required-by: ImageHash Theano catboost cvxpy dask-glm dask-ml datashader ecos empyrical fastai gensim imbalanced-learn jax kmodes lightgbm missingno mlxtend nilearn osqp pandas-profiling phik pmdarima py-vollib pyLDAvis pyfolio pynndescent pyod pyportfolioopt qdldl scikit-image scikit-learn scikit-plot scs seaborn statsmodels stumpy tf-models-official umap-learn xgboost yellowbrick
 ---
 Name: scs
-Version: 2.1.4
+Version: 3.0.0
 Summary: scs: splitting conic solver
 Home-page: http://github.com/cvxgrp/scs
 Author: Brendan O'Donoghue
@@ -6129,7 +6129,7 @@ Requires: setuptools six toolz tornado zict
 Required-by: 
 ---
 Name: stumpy
-Version: 1.10.0
+Version: 1.10.1
 Summary: A powerful and scalable library that can be used for a variety of time series data mining tasks
 Home-page: https://github.com/TDAmeritrade/stumpy
 Author: Sean M. Law
@@ -6309,7 +6309,7 @@ Requires: numpy protobuf
 Required-by: tensorflow-text tf-models-official
 ---
 Name: tensorflow-io-gcs-filesystem
-Version: 0.22.0
+Version: 0.23.1
 Summary: TensorFlow IO
 Home-page: https://github.com/tensorflow/io
 Author: Google Inc.
@@ -6526,7 +6526,7 @@ Author: William Pearson
 Author-email: uiri@xqz.ca
 License: MIT
 Requires: 
-Required-by: autopep8 mypy pytest pytype
+Required-by: autopep8 pytest pytype
 ---
 Name: tomli
 Version: 2.0.0
@@ -6536,7 +6536,7 @@ Author:
 Author-email: Taneli Hukkinen <hukkin@users.noreply.github.com>
 License: 
 Requires: 
-Required-by: setuptools-scm
+Required-by: mypy setuptools-scm
 ---
 Name: tomlkit
 Version: 0.7.2
@@ -6559,7 +6559,7 @@ Requires:
 Required-by: altair cytoolz dask distributed exchange-calendars partd streamz trading-calendars
 ---
 Name: torch
-Version: 1.10.0
+Version: 1.10.1
 Summary: Tensors and Dynamic neural networks in Python with strong GPU acceleration
 Home-page: https://pytorch.org/
 Author: PyTorch Team
@@ -6579,7 +6579,7 @@ Requires: pytorch-ranger torch
 Required-by: 
 ---
 Name: torchaudio
-Version: 0.10.0
+Version: 0.10.1
 Summary: An audio package for PyTorch
 Home-page: https://github.com/pytorch/audio
 Author: Soumith Chintala, David Pollack, Sean Naren, Peter Goldsborough
@@ -6589,7 +6589,7 @@ Requires: torch
 Required-by: 
 ---
 Name: torchmetrics
-Version: 0.6.1
+Version: 0.6.2
 Summary: PyTorch native Metrics
 Home-page: https://github.com/PyTorchLightning/metrics
 Author: PyTorchLightning et al.
@@ -6599,7 +6599,7 @@ Requires: numpy packaging torch
 Required-by: pytorch-lightning
 ---
 Name: torchvision
-Version: 0.11.1
+Version: 0.11.2
 Summary: image and video datasets and models for torch deep learning
 Home-page: https://github.com/pytorch/vision
 Author: PyTorch Core Team
@@ -6649,7 +6649,7 @@ Requires:
 Required-by: ipykernel ipython ipywidgets jupyter-client jupyter-core jupyter-server matplotlib-inline nbclient nbconvert nbformat nbsphinx notebook pydeck qtconsole
 ---
 Name: transformers
-Version: 4.13.0
+Version: 4.14.1
 Summary: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 Home-page: https://github.com/huggingface/transformers
 Author: Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Sam Shleifer, Patrick von Platen, Sylvain Gugger, Suraj Patil, Stas Bekman, Google AI Language Team Authors, Open AI team Authors, Facebook AI Authors, Carnegie Mellon University Authors
@@ -6799,7 +6799,7 @@ Requires: certifi six
 Required-by: azure-eventhub
 ---
 Name: ujson
-Version: 4.3.0
+Version: 5.0.0
 Summary: Ultra fast JSON encoder and decoder for Python
 Home-page: https://github.com/ultrajson/ultrajson
 Author: Jonas Tarnstrom
@@ -6939,7 +6939,7 @@ Requires:
 Required-by: 
 ---
 Name: wandb
-Version: 0.12.7
+Version: 0.12.8
 Summary: A CLI and library for interacting with the Weights and Biases API.
 Home-page: https://github.com/wandb/client
 Author: Weights & Biases
