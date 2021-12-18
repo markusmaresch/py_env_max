@@ -112,7 +112,7 @@ pyparsing==3.0.6 # LEVEL_01 # Python parsing module
 # Internal .. needed early by this system
 #
 pipdeptree==2.2.0 # LEVEL_02 # INTERNAL # Command line utility to show dependency tree of packages
-importlib-metadata==4.8.3 # LEVEL_02 # INTERNAL # Read metadata from Python packages
+importlib-metadata==4.9.0 # LEVEL_02 # INTERNAL # Read metadata from Python packages
 
 #
 # Generic Low Level Tools
@@ -215,7 +215,7 @@ gensim==4.1.2 # LEVEL_03 # Python framework for fast Vector Space Modelling
 #
 openai==0.11.4 # LEVEL_04 # Python client library for the OpenAI API
 #
-wandb==0.12.8 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
+wandb==0.12.9 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
 #
 #ktrain>=0.27.2
 #
@@ -239,7 +239,7 @@ pmdarima==1.8.4 # LEVEL_05 # Python's forecast::auto.arima equivalent
 #tsai>=0.2.18  # time series and sequences, triggers huge number of dependencies !
 prophet==1.0.1 # LEVEL_05 # time series forecasts from Facebook # Automatic Forecasting Procedure
 stumpy==1.10.1 # LEVEL_03 # A powerful and scalable library that can be used for a variety of time series data mining tasks
-Cython==0.29.25 # LEVEL_01 # pystan: cython!=0.25.1,>=0.22 # The Cython compiler for writing C extensions for the Python language
+Cython==0.29.26 # LEVEL_01 # pystan: cython!=0.25.1,>=0.22 # The Cython compiler for writing C extensions for the Python language
 
 #
 # Date & Time conversions
@@ -538,7 +538,7 @@ Flask==2.0.2 # LEVEL_03 # A simple framework for building complex web applicatio
 #
 # Json
 #
-jsonschema==4.3.0 # LEVEL_02 # An implementation of JSON Schema validation for Python
+jsonschema==4.3.1 # LEVEL_02 # An implementation of JSON Schema validation for Python
 json5==0.9.6 # LEVEL_01 # A Python implementation of the JSON5 data format
 simplejson==3.17.6 # LEVEL_01 # Simple, fast, extensible JSON encoder/decoder for Python
 ujson==5.0.0 # LEVEL_01 # Ultra fast JSON encoder and decoder for Python
@@ -547,8 +547,8 @@ jmespath==0.10.0 # LEVEL_01 # JSON Matching Expressions
 #
 # RPC
 #
-grpcio-status==1.42.0 # LEVEL_03 # Status proto mapping for gRPC
-grpcio==1.42.0 # LEVEL_02 # HTTP/2-based RPC framework
+grpcio-status==1.43.0 # LEVEL_03 # Status proto mapping for gRPC
+grpcio==1.43.0 # LEVEL_02 # HTTP/2-based RPC framework
 json-rpc==1.13.0 # LEVEL_01 # JSON-RPC transport implementation
 
 #
@@ -593,7 +593,7 @@ flake8==4.0.1 # LEVEL_02 # better linter than pyflakes # the modular source code
 mypy==0.920 # LEVEL_02 # Optional static typing for Python
 mypy-extensions==0.4.3 # LEVEL_01 # Experimental type system extensions for programs checked with the mypy typechecker
 autopep8==1.6.0 # LEVEL_02 # using fix_file # A tool that automatically formats Python code to conform to the PEP 8 style guide
-memory-profiler==0.59.0 # LEVEL_02 # A module for monitoring memory usage of a python program
+memory-profiler==0.60.0 # LEVEL_02 # A module for monitoring memory usage of a python program
 mccabe==0.6.1 # LEVEL_01 # McCabe checker, plugin for flake8
 typeguard==2.13.3 # LEVEL_01 # Run-time type checker for Python
 pyflakes==2.4.0 # LEVEL_01 # required by flake8 # passive checker of Python programs
@@ -824,7 +824,7 @@ zict==2.0.0 # LEVEL_02 # Mutable mapping tools
 zipp==3.6.0 # LEVEL_01 # Backport of pathlib-compatible object wrapper for zip files
 #
 PySocks==1.7.1 # LEVEL_01 # A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information
-python-socks==2.0.0 # LEVEL_01 # Core proxy (SOCKS4, SOCKS5, HTTP tunneling) functionality for Python
+python-socks==2.0.1 # LEVEL_01 # Core proxy (SOCKS4, SOCKS5, HTTP tunneling) functionality for Python
 #
 #
 # SQL
@@ -975,7 +975,7 @@ asciitree==0.3.3 # LEVEL_01 # Draws ASCII trees
 dbt-extractor==0.4.0 # LEVEL_01
 leather==0.3.4 # LEVEL_02 # Python charting for 80% of humans
 Logbook==1.5.3 # LEVEL_01 # A logging replacement for Python
-mashumaro==2.9 # LEVEL_02 # Fast serialization framework on top of dataclasses
+mashumaro==2.9.1 # LEVEL_02 # Fast serialization framework on top of dataclasses
 minimal-snowplow-tracker==0.0.2 # LEVEL_03 # A minimal snowplow event tracker for Python. Add analytics to your Python and Django apps, webapps and games
 msrest==0.6.21 # LEVEL_04 # AutoRest swagger generator Python client runtime
 ruamel_yaml==0.17.17 # LEVEL_02 # ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order

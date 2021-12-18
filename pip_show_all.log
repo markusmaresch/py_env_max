@@ -1129,7 +1129,7 @@ Requires: future six
 Required-by: 
 ---
 Name: Cython
-Version: 0.29.25
+Version: 0.29.26
 Summary: The Cython compiler for writing C extensions for the Python language.
 Home-page: http://cython.org/
 Author: Robert Bradshaw, Stefan Behnel, Dag Seljebotn, Greg Ewing, et al.
@@ -2249,7 +2249,7 @@ Requires:
 Required-by: SQLAlchemy
 ---
 Name: grpcio
-Version: 1.42.0
+Version: 1.43.0
 Summary: HTTP/2-based RPC framework
 Home-page: https://grpc.io
 Author: The gRPC Authors
@@ -2259,7 +2259,7 @@ Requires: six
 Required-by: google-cloud-bigquery grpcio-status mlagents-envs ray tensorboard tensorflow
 ---
 Name: grpcio-status
-Version: 1.42.0
+Version: 1.43.0
 Summary: Status proto mapping for gRPC
 Home-page: https://grpc.io
 Author: The gRPC Authors
@@ -2569,7 +2569,7 @@ Requires: networkx
 Required-by: pytype
 ---
 Name: importlib-metadata
-Version: 4.8.3
+Version: 4.9.0
 Summary: Read metadata from Python packages
 Home-page: https://github.com/python/importlib_metadata
 Author: Jason R. Coombs
@@ -2769,7 +2769,7 @@ Requires:
 Required-by: jupyterlab-server
 ---
 Name: jsonschema
-Version: 4.3.0
+Version: 4.3.1
 Summary: An implementation of JSON Schema validation for Python
 Home-page: https://github.com/Julian/jsonschema
 Author: Julian Berman
@@ -3279,7 +3279,7 @@ Requires:
 Required-by: Jinja2 Mako pandas-profiling
 ---
 Name: mashumaro
-Version: 2.9
+Version: 2.9.1
 Summary: Fast serialization framework on top of dataclasses
 Home-page: https://github.com/Fatal1ty/mashumaro
 Author: Alexander Tikhonov
@@ -3329,7 +3329,7 @@ Requires:
 Required-by: flake8
 ---
 Name: memory-profiler
-Version: 0.59.0
+Version: 0.60.0
 Summary: A module for monitoring memory usage of a python program
 Home-page: https://github.com/pythonprofilers/memory_profiler
 Author: Fabian Pedregosa
@@ -5189,7 +5189,7 @@ Requires: text-unidecode
 Required-by: agate kaggle
 ---
 Name: python-socks
-Version: 2.0.0
+Version: 2.0.1
 Summary: Core proxy (SOCKS4, SOCKS5, HTTP tunneling) functionality for Python
 Home-page: https://github.com/romis2012/python-socks
 Author: Roman Snegirev
@@ -6939,7 +6939,7 @@ Requires:
 Required-by: 
 ---
 Name: wandb
-Version: 0.12.8
+Version: 0.12.9
 Summary: A CLI and library for interacting with the Weights and Biases API.
 Home-page: https://github.com/wandb/client
 Author: Weights & Biases
