@@ -112,7 +112,7 @@ pyparsing==3.0.6 # LEVEL_01 # Python parsing module
 # Internal .. needed early by this system
 #
 pipdeptree==2.2.0 # LEVEL_02 # INTERNAL # Command line utility to show dependency tree of packages
-importlib-metadata==4.9.0 # LEVEL_02 # INTERNAL # Read metadata from Python packages
+importlib-metadata==4.10.0 # LEVEL_02 # INTERNAL # Read metadata from Python packages
 
 #
 # Generic Low Level Tools
@@ -538,10 +538,10 @@ Flask==2.0.2 # LEVEL_03 # A simple framework for building complex web applicatio
 #
 # Json
 #
-jsonschema==4.3.1 # LEVEL_02 # An implementation of JSON Schema validation for Python
+jsonschema==4.3.2 # LEVEL_02 # An implementation of JSON Schema validation for Python
 json5==0.9.6 # LEVEL_01 # A Python implementation of the JSON5 data format
 simplejson==3.17.6 # LEVEL_01 # Simple, fast, extensible JSON encoder/decoder for Python
-ujson==5.0.0 # LEVEL_01 # Ultra fast JSON encoder and decoder for Python
+ujson==5.1.0 # LEVEL_01 # Ultra fast JSON encoder and decoder for Python
 PyJWT==2.3.0 # LEVEL_01 # JSON Web Token implementation in Python
 jmespath==0.10.0 # LEVEL_01 # JSON Matching Expressions
 #
@@ -559,7 +559,7 @@ sphinx-autobuild==2021.3.14 # LEVEL_04 # Rebuild Sphinx documentation on changes
 sphinx-rtd-theme==1.0.0 # LEVEL_04 # Read the Docs theme for Sphinx
 sphinx-panels==0.6.0 # LEVEL_04 # A sphinx extension for creating panels in a grid layout
 sphinx-autodoc-typehints==1.12.0 # LEVEL_04 # Type hints (PEP 484) support for the Sphinx autodoc extension
-Sphinx==4.3.1 # LEVEL_03 # Python documentation generator
+Sphinx==4.3.2 # LEVEL_03 # Python documentation generator
 sphinx-markdown-tables==0.0.15 # LEVEL_04 # A Sphinx extension for rendering tables written in markdown
 sphinxcontrib-applehelp==1.0.2 # LEVEL_01 # sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books
 sphinxcontrib-devhelp==1.0.2 # LEVEL_01 # sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp document
@@ -653,7 +653,7 @@ argcomplete==1.12.3 # LEVEL_01 # Bash tab completion for argparse
 luigi==3.0.3 # LEVEL_03 # Workflow mgmgt + task scheduling + dependency resolution
 python-daemon==2.3.0 # LEVEL_02 # Library to implement a well-behaved Unix daemon process
 #
-funcy==1.16 # LEVEL_01 # A fancy and practical functional tools
+funcy==1.17 # LEVEL_01 # A fancy and practical functional tools
 multimethod==1.6 # LEVEL_01 # Multiple argument dispatching
 
 
@@ -668,8 +668,8 @@ pycocotools==2.0.3 # LEVEL_04 # Official APIs for the MS-COCO dataset
 #
 aenum==3.1.5 # LEVEL_01 # Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
 aiohttp==3.8.1 # LEVEL_03 # Async http client/server framework (asyncio)
-async-timeout==4.0.1 # LEVEL_02 # Timeout context manager for asyncio programs
-aioredis==2.0.0 # 1.3.1 # LEVEL_03 # asyncio (PEP 3156) Redis support
+async-timeout==4.0.2 # LEVEL_01 # Timeout context manager for asyncio programs
+aioredis==2.0.0 # 1.3.1 # LEVEL_02 # asyncio (PEP 3156) Redis support
 altgraph==0.17.2 # LEVEL_01 # Python graph (network) package
 anyio==3.4.0 # LEVEL_02 # High level compatibility layer for multiple asynchronous event loop implementations
 appdirs==1.4.4 # LEVEL_01 # A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir"
@@ -799,7 +799,7 @@ testpath==0.5.0 # LEVEL_01 # Test utilities for code working with files and comm
 text-unidecode==1.3 # LEVEL_01 # The most basic Text::Unidecode port
 threadpoolctl==3.0.0 # LEVEL_01 # threadpoolctl
 toml==0.10.2 # LEVEL_01 # Python Library for Tom's Obvious, Minimal Language
-tomlkit==0.7.2 # LEVEL_01 # Style preserving TOML library
+tomlkit==0.8.0 # LEVEL_01 # Style preserving TOML library
 tornado==6.1 # LEVEL_01 # Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed
 tqdm==4.62.3 # LEVEL_01 # Fast, Extensible Progress Meter
 traitlets==5.1.1 # LEVEL_01 # Traitlets Python configuration system
@@ -1006,7 +1006,7 @@ emoji==1.6.1 # LEVEL_01 # Emoji for Python
 #
 shellingham==1.4.0 # LEVEL_01 # Tool to Detect Surrounding Shell
 #
-fonttools==4.28.4 # LEVEL_01 # Tools to manipulate font files
+fonttools==4.28.5 # LEVEL_01 # Tools to manipulate font files
 setuptools-scm==6.3.2 # LEVEL_03 # the blessed package to manage your versions by scm tags
 tomli==2.0.0 # LEVEL_01 # A lil' TOML parser
 #
@@ -1020,7 +1020,7 @@ querystring-parser==1.2.4 # LEVEL_02 # QueryString parser for Python/Django that
 # git+https://github.com/zzzeek/sliderepl # LEVEL_02
 #
 
-amqp==5.0.7 # LEVEL_02 # Low-level AMQP client for Python (fork of amqplib)
+amqp==5.0.9 # LEVEL_02 # Low-level AMQP client for Python (fork of amqplib)
 vine==5.0.0 # LEVEL_01 # Promises, promises, promises
 #
 

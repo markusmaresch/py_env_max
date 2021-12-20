@@ -12,6 +12,7 @@ asn1crypto
 ast-decompiler
 astor
 async-generator
+async-timeout
 attrs
 azure-common
 backcall
@@ -291,11 +292,11 @@ xxhash
 zipp
 zstd
 absl-py
+aioredis
 aiosignal
 amqp
 anyio
 astunparse
-async-timeout
 atari-py
 autopep8
 babel
@@ -443,7 +444,6 @@ zope.deprecation
 zope.interface
 agate
 aiohttp
-aioredis
 alembic
 analytics-python
 argon2-cffi-bindings
