@@ -93,6 +93,8 @@ starlette==0.16.0 # LEVEL_03 # LOCKED # needed by fastapi # The little ASGI libr
 #
 flatbuffers==1.12 # LEVEL_01 # LOCKED # The FlatBuffers serialization format for Python
 #
+cachetools==4.2.4 # LEVEL_01 # LOCKED # google-auth 2.3.3 requires it # Extensible memoizing collections and decorators
+#
 #
 # Former LOCKED .. now freed ;-)
 #
@@ -149,7 +151,6 @@ box2d-py==2.3.8 # LEVEL_01 # Python Box2D
 wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
 ray==1.9.0 # LEVEL_04 # Ray provides a simple, universal API for building distributed applications
 redis==4.0.2 # LEVEL_03 # Python client for Redis database and key-value store
-tensorboardX==2.4.1 # LEVEL_02 # TensorBoardX lets you watch Tensors Flow without Tensorflow
 lz4==3.1.10 # LEVEL_01 # LZ4 Bindings for Python
 GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status from NVIDA GPUs using nvidia-smi
 #
@@ -175,10 +176,13 @@ tensorflow-io-gcs-filesystem==0.23.1 # LEVEL_01 # TensorFlow IO
 tf-models-official==2.7.0 # LEVEL_08 # TensorFlow Official Models
 tf-slim==1.1.0 # LEVEL_03 # TensorFlow-Slim: A lightweight library for defining, training and evaluating complex models in TensorFlow
 #
+tensorboardX==2.4.1 # LEVEL_02 # TensorBoardX lets you watch Tensors Flow without Tensorflow
+params-flow==0.8.2 # LEVEL_02 # Tensorflow Keras utilities for reducing boilerplate code
+#
 #
 Keras-Preprocessing==1.1.2 # LEVEL_02 # Easy data preprocessing and data augmentation for deep learning models
 #
-datasets==1.16.1 # LEVEL_04 # HuggingFace community-driven open-source library of datasets
+datasets==1.17.0 # LEVEL_04 # HuggingFace community-driven open-source library of datasets
 huggingface-hub==0.2.1 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
 #
 xgboost==1.5.1 # LEVEL_03 # check installation notes # XGBoost Python Package
@@ -186,7 +190,7 @@ xgboost==1.5.1 # LEVEL_03 # check installation notes # XGBoost Python Package
 pyro-ppl==1.8.0 # LEVEL_03 # A Python library for probabilistic modeling and inference
 pyro-api==0.1.2 # LEVEL_01 # Generic API for dispatch to Pyro backends
 #
-pytorch-lightning==1.5.6 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
+pytorch-lightning==1.5.7 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
 performer-pytorch==1.1.3 # LEVEL_04 # Performer - Pytorch
 torch-optimizer==0.3.0 # LEVEL_04 # pytorch-optimizer
 torchaudio==0.10.1 # LEVEL_03 # An audio package for PyTorch
@@ -478,9 +482,9 @@ smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, A
 uamqp==1.4.3 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.20.25  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.20.26  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.23.25 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.23.26 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -590,7 +594,7 @@ pytest==6.2.5 # LEVEL_03 # pytest: simple powerful testing with Python
 pyanalyze==0.5.0 # LEVEL_04 # A static analyzer for Python
 pytype==2021.12.15 # LEVEL_04 # Python type inferencer
 flake8==4.0.1 # LEVEL_02 # better linter than pyflakes # the modular source code checker: pep8 pyflakes and co
-mypy==0.920 # LEVEL_02 # Optional static typing for Python
+mypy==0.921 # LEVEL_02 # Optional static typing for Python
 mypy-extensions==0.4.3 # LEVEL_01 # Experimental type system extensions for programs checked with the mypy typechecker
 autopep8==1.6.0 # LEVEL_02 # using fix_file # A tool that automatically formats Python code to conform to the PEP 8 style guide
 memory-profiler==0.60.0 # LEVEL_02 # A module for monitoring memory usage of a python program
@@ -681,7 +685,6 @@ attrs==21.2.0 # LEVEL_01 # Classes Without Boilerplate
 backcall==0.2.0 # LEVEL_01 # Specifications for callback functions passed in to an API
 blis==0.7.5 # LEVEL_02 # The Blis BLAS-like linear algebra library, as a self-contained C-extension
 Brotli==1.0.9 # LEVEL_01 # Python bindings for the Brotli compression library
-cachetools==4.2.4 # LEVEL_01 # Extensible memoizing collections and decorators
 catalogue==2.0.6 # LEVEL_01 # Super lightweight function registries for your library
 cchardet==2.1.7 # LEVEL_01 # cChardet is high speed universal character encoding detector
 cffi==1.15.0 # LEVEL_02 # Foreign Function Interface for Python calling C code
@@ -738,7 +741,6 @@ oauth2client==4.1.3 # LEVEL_03 # OAuth 2.0 client library
 oauthlib==3.1.1 # LEVEL_01 # A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
 opt-einsum==3.3.0 # LEVEL_02 # Optimizing numpys einsum function
 pandocfilters==1.5.0 # LEVEL_01 # Utilities for writing pandoc filters in python
-params-flow==0.8.2 # LEVEL_02 # Tensorflow Keras utilities for reducing boilerplate code
 parso==0.8.3 # LEVEL_01 # A Python Parser
 partd==1.2.0 # LEVEL_02 # Appendable key-value storage
 pathy==0.6.1 # LEVEL_03 # pathlib.Path subclasses for local and cloud bucket storage
@@ -1025,7 +1027,7 @@ vine==5.0.0 # LEVEL_01 # Promises, promises, promises
 #
 
 flower==1.0.0 # LEVEL_05 # Celery Flower
-gradio==2.5.2 # LEVEL_05 # Python library for easily interacting with trained machine learning models
+gradio==2.5.3 # LEVEL_05 # Python library for easily interacting with trained machine learning models
 paramiko==2.8.1 # LEVEL_04 # SSH2 protocol library
 fastapi==0.70.1 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
 celery==5.2.1 # LEVEL_04 # Distributed Task Queue
