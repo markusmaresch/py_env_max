@@ -209,7 +209,7 @@ fastcore==1.3.27 # LEVEL_03 # Python supercharged for fastai development
 fastdownload==0.0.5 # LEVEL_04 # A general purpose data downloading library
 fastprogress==1.0.0 # LEVEL_02 # A nested progress with plotting options for fastai
 #
-h2o==3.34.0.3 # LEVEL_03 # H2O, Fast Scalable Machine Learning, for python
+h2o==3.34.0.7 # LEVEL_03 # H2O, Fast Scalable Machine Learning, for python
 #
 gym-unity==0.27.0 # LEVEL_04 # Unity Machine Learning Agents Gym Interface
 mlagents-envs==0.27.0 # LEVEL_03 # Unity Machine Learning Agents Interface

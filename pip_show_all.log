@@ -2309,7 +2309,7 @@ Requires:
 Required-by: httpcore uvicorn wsproto
 ---
 Name: h2o
-Version: 3.34.0.3
+Version: 3.34.0.7
 Summary: H2O, Fast Scalable Machine Learning, for python 
 Home-page: https://github.com/h2oai/h2o-3.git
 Author: H2O.ai
