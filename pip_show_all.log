@@ -2889,7 +2889,7 @@ Requires: pygments
 Required-by: nbconvert
 ---
 Name: jupyterlab-server
-Version: 2.9.0
+Version: 2.10.1
 Summary: A set of server components for JupyterLab and JupyterLab like applications .
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3549,7 +3549,7 @@ Requires:
 Required-by: preshed spacy thinc
 ---
 Name: mypy
-Version: 0.921
+Version: 0.930
 Summary: Optional static typing for Python
 Home-page: http://www.mypy-lang.org/
 Author: Jukka Lehtosalo
@@ -3859,7 +3859,7 @@ Requires: numpy onnx protobuf
 Required-by: keras2onnx
 ---
 Name: openai
-Version: 0.11.4
+Version: 0.11.5
 Summary: Python client library for the OpenAI API
 Home-page: https://github.com/openai/openai-python
 Author: OpenAI
@@ -3986,7 +3986,7 @@ Author: Donald Stufft and individual contributors
 Author-email: donald@stufft.io
 License: BSD-2-Clause or Apache-2.0
 Requires: pyparsing
-Required-by: Sphinx bleach bokeh dask dask-ml datasets deprecation fastai fastcore google-cloud-bigquery huggingface-hub jupyter-packaging jupyterlab jupyterlab-server matplotlib mlflow nibabel numexpr pipx pytest pytorch-lightning scikit-image setuptools-scm spacy torchmetrics transformers
+Required-by: QtPy Sphinx bleach bokeh dask dask-ml datasets deprecation fastai fastcore google-cloud-bigquery huggingface-hub jupyter-packaging jupyterlab jupyterlab-server matplotlib mlflow nibabel numexpr pipx pytest pytorch-lightning scikit-image setuptools-scm spacy torchmetrics transformers
 ---
 Name: pandas
 Version: 1.3.5
@@ -5329,13 +5329,13 @@ Requires: ipykernel ipython-genutils jupyter-client jupyter-core pygments pyzmq 
 Required-by: jupyter
 ---
 Name: QtPy
-Version: 1.11.3
-Summary: Provides an abstraction layer on top of the various Qt bindings (PyQt5, PyQt4 and PySide) and additional custom QWidgets.
+Version: 2.0.0
+Summary: Provides an abstraction layer on top of the various Qt bindings (PyQt5/6 and PySide2/6).
 Home-page: https://github.com/spyder-ide/qtpy
 Author: Colin Duquesnoy and the Spyder Development Team
 Author-email: spyder.python@gmail.com
 License: MIT
-Requires: 
+Requires: packaging
 Required-by: qtconsole
 ---
 Name: querystring-parser
@@ -5369,7 +5369,7 @@ Requires: PyYAML pyramid setuptools venusian zope.interface
 Required-by: 
 ---
 Name: ray
-Version: 1.9.0
+Version: 1.9.1
 Summary: Ray provides a simple, universal API for building distributed applications.
 Home-page: https://github.com/ray-project/ray
 Author: Ray Team
@@ -6489,7 +6489,7 @@ Requires: requests
 Required-by: 
 ---
 Name: tiledb
-Version: 0.11.3
+Version: 0.11.4
 Summary: Pythonic interface to the TileDB array storage manager
 Home-page: https://github.com/TileDB-Inc/TileDB-Py
 Author: TileDB, Inc.
@@ -6649,7 +6649,7 @@ Requires:
 Required-by: ipykernel ipython ipywidgets jupyter-client jupyter-core jupyter-server matplotlib-inline nbclient nbconvert nbformat nbsphinx notebook pydeck qtconsole
 ---
 Name: transformers
-Version: 4.14.1
+Version: 4.15.0
 Summary: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 Home-page: https://github.com/huggingface/transformers
 Author: Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Sam Shleifer, Patrick von Platen, Sylvain Gugger, Suraj Patil, Stas Bekman, Google AI Language Team Authors, Open AI team Authors, Facebook AI Authors, Carnegie Mellon University Authors

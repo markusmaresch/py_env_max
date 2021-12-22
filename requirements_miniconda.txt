@@ -149,7 +149,7 @@ box2d-py==2.3.8 # LEVEL_01 # Python Box2D
 #ccxt==1.58.26 # LEVEL_01
 #
 wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
-ray==1.9.0 # LEVEL_04 # Ray provides a simple, universal API for building distributed applications
+ray==1.9.1 # LEVEL_04 # Ray provides a simple, universal API for building distributed applications
 redis==4.0.2 # LEVEL_03 # Python client for Redis database and key-value store
 lz4==3.1.10 # LEVEL_01 # LZ4 Bindings for Python
 GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status from NVIDA GPUs using nvidia-smi
@@ -217,7 +217,7 @@ gym==0.21.0 # LEVEL_02 # Gym: A universal API for reinforcement learning environ
 #
 gensim==4.1.2 # LEVEL_03 # Python framework for fast Vector Space Modelling
 #
-openai==0.11.4 # LEVEL_04 # Python client library for the OpenAI API
+openai==0.11.5 # LEVEL_04 # Python client library for the OpenAI API
 #
 wandb==0.12.9 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
 #
@@ -285,7 +285,7 @@ spacy-legacy==3.0.8 # LEVEL_01 # Legacy registered functions for spaCy backwards
 # spacy-transformers  # downgrades transformers !!
 thinc==8.0.13 # LEVEL_03 # A refreshing functional take on deep learning, compatible with your favorite libraries
 #
-transformers==4.14.1 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
+transformers==4.15.0 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 #
 tokenizers==0.10.3 # LEVEL_01 # Fast and Customizable Tokenizers
 #
@@ -401,7 +401,7 @@ scs==3.0.0 # LEVEL_03 # scs: splitting conic solver
 #
 # GUI & Visualization
 #
-QtPy==1.11.3 # LEVEL_01 # Provides an abstraction layer on top of the various Qt bindings (PyQt5, PyQt4 and PySide) and additional custom QWidgets
+QtPy==2.0.0 # LEVEL_03 # Provides an abstraction layer on top of the various Qt bindings (PyQt5/6 and PySide2/6)
 PySimpleGUI==4.55.1 # LEVEL_01 # Python GUIs for Humans. Launched in 2018. It's 2021 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers
 PyQt5==5.15.6 # LEVEL_02 # Python bindings for the Qt cross platform application toolkit
 PyQt5-Qt5==5.15.2 # LEVEL_01 # The subset of a Qt installation needed by PyQt5
@@ -494,7 +494,7 @@ jupyter-bokeh==3.0.4 # LEVEL_09 # A Jupyter extension for rendering Bokeh conten
 jupyter==1.0.0 # LEVEL_09 # Jupyter metapackage. Install all the Jupyter components in one go
 jupyterlab==3.2.5 # LEVEL_08 # JupyterLab computational environment
 jupyter-server-proxy==3.2.0 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
-jupyterlab-server==2.9.0 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
+jupyterlab-server==2.10.1 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.0 # LEVEL_06 # Dash support for the Jupyter notebook interface
 jupyter-server==1.13.1 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-console==6.4.0 # LEVEL_05 # Jupyter terminal console
@@ -594,7 +594,7 @@ pytest==6.2.5 # LEVEL_03 # pytest: simple powerful testing with Python
 pyanalyze==0.5.0 # LEVEL_04 # A static analyzer for Python
 pytype==2021.12.15 # LEVEL_04 # Python type inferencer
 flake8==4.0.1 # LEVEL_02 # better linter than pyflakes # the modular source code checker: pep8 pyflakes and co
-mypy==0.921 # LEVEL_02 # Optional static typing for Python
+mypy==0.930 # LEVEL_02 # Optional static typing for Python
 mypy-extensions==0.4.3 # LEVEL_01 # Experimental type system extensions for programs checked with the mypy typechecker
 autopep8==1.6.0 # LEVEL_02 # using fix_file # A tool that automatically formats Python code to conform to the PEP 8 style guide
 memory-profiler==0.60.0 # LEVEL_02 # A module for monitoring memory usage of a python program
@@ -844,7 +844,7 @@ greenlet==1.1.2 # LEVEL_01 # required by SQLAlchemy # Lightweight in-process con
 #
 #streamlit # has some dependencies !!
 tbb==2021.5.0 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
-tiledb==0.11.3 # LEVEL_02 # Pythonic interface to the TileDB array storage manager
+tiledb==0.11.4 # LEVEL_02 # Pythonic interface to the TileDB array storage manager
 xarray==0.20.2 # LEVEL_04 # N-D labeled arrays and datasets in Python
 zstd==1.5.0.4 # LEVEL_01 # ZSTD Bindings for Python
 #

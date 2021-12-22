@@ -212,7 +212,6 @@ pytimeparse
 pytz
 pyyaml
 pyzmq
-qtpy
 regex
 rfc3986
 rtree
@@ -530,6 +529,7 @@ pyro-ppl
 pytest
 pytorch-ranger
 qdldl
+qtpy
 redis
 requests-cache
 requests-file
