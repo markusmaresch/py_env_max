@@ -424,7 +424,6 @@ tensorflow-hub
 terminado
 thriftpy2
 tifffile
-tiledb
 tinycss2
 torch
 typer
@@ -555,6 +554,7 @@ tf2onnx
 theano
 thinc
 tiingo
+tiledb
 torchaudio
 torchmetrics
 torchvision
