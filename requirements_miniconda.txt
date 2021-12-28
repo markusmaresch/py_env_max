@@ -154,7 +154,7 @@ box2d-py==2.3.8 # LEVEL_01 # Python Box2D
 #
 wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
 ray==1.9.1 # LEVEL_04 # Ray provides a simple, universal API for building distributed applications
-redis==4.0.2 # LEVEL_03 # Python client for Redis database and key-value store
+redis==4.1.0 # LEVEL_03 # Python client for Redis database and key-value store
 lz4==3.1.10 # LEVEL_01 # LZ4 Bindings for Python
 GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status from NVIDA GPUs using nvidia-smi
 #
@@ -246,7 +246,7 @@ pmdarima==1.8.4 # LEVEL_05 # Python's forecast::auto.arima equivalent
 #darts>=0.9.1  # time series predictions (behind on requirements)
 #tsai>=0.2.18  # time series and sequences, triggers huge number of dependencies !
 prophet==1.0.1 # LEVEL_05 # time series forecasts from Facebook # Automatic Forecasting Procedure
-stumpy==1.10.1 # LEVEL_03 # A powerful and scalable library that can be used for a variety of time series data mining tasks
+stumpy==1.10.2 # LEVEL_03 # A powerful and scalable library that can be used for a variety of time series data mining tasks
 Cython==0.29.26 # LEVEL_01 # pystan: cython!=0.25.1,>=0.22 # The Cython compiler for writing C extensions for the Python language
 
 #
@@ -318,14 +318,14 @@ dask[complete]==2021.12.0 # LEVEL_03 # Parallel PyData with Task Scheduling
 #
 scikit-plot==0.3.7 # LEVEL_04 # An intuitive library to add plotting functionality to scikit-learn objects
 scikit-image==0.19.1 # LEVEL_03 # Image processing in Python
-scikit-learn==1.0.1 # LEVEL_03 # A set of python modules for machine learning and data mining
-pyod==0.9.5 # LEVEL_05 # outlyer detection # A Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
+scikit-learn==1.0.2 # LEVEL_03 # A set of python modules for machine learning and data mining
+pyod==0.9.6 # LEVEL_05 # outlyer detection # A Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
 jax==0.2.26 # LEVEL_03 # Differentiate, compile, and transform Numpy code
 #
 zeep==4.1.0 # LEVEL_04 # A modern/fast Python SOAP client based on lxml / requests
 requests-file==1.5.1 # LEVEL_03 # File transport adapter for Requests
 cached-property==1.5.2 # LEVEL_01 # A decorator for caching properties in classes
-platformdirs==2.4.0 # LEVEL_01 # A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir"
+platformdirs==2.4.1 # LEVEL_01 # A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir"
 
 #
 # Computer Vision
@@ -394,9 +394,9 @@ rfc3986==1.5.0 # LEVEL_01 # Validating URI References per RFC 3986
 selenium==4.1.0 # LEVEL_05 #
 #
 #
-cvxpy==1.1.17 # LEVEL_05 # A domain-specific language for modeling convex optimization problems in Python
+cvxpy==1.1.18 # LEVEL_05 # A domain-specific language for modeling convex optimization problems in Python
 ecos==2.0.8 # LEVEL_03 # This is the Python package for ECOS: Embedded Cone Solver. See Github page for more information
-osqp==0.6.2.post0 # LEVEL_04 # OSQP: The Operator Splitting QP Solver
+osqp==0.6.2.post1 # LEVEL_04 # OSQP: The Operator Splitting QP Solver
 qdldl==0.1.5.post0 # LEVEL_03 # QDLDL, a free LDL factorization routine
 scs==3.0.0 # LEVEL_03 # scs: splitting conic solver
 
@@ -412,7 +412,7 @@ pyqtgraph==0.12.3 # LEVEL_02 # for Chaos # Scientific Graphics and GUI Library f
 glib==1.0.0 # LEVEL_01 # A python graphics library that piggy-backs off of pyqt5
 #
 PyOpenGL==3.1.5 # LEVEL_01 # for PySpace # Standard OpenGL bindings for Python
-pygame==2.1.0 # LEVEL_01 # Python Game Development
+pygame==2.1.2 # LEVEL_01 # Python Game Development
 Pygments==2.10.0 # LEVEL_01 # Pygments is a syntax highlighting package written in Python
 pydot==1.4.2 # LEVEL_02 # Python interface to Graphviz's Dot
 networkx==2.6.3 # LEVEL_01 # Python package for creating and manipulating graphs and networks
@@ -620,7 +620,7 @@ MarkupSafe==2.0.1 # LEVEL_01 # Safely add untrusted strings to HTML/XML markup
 htmlmin==0.1.12 # LEVEL_01 # An HTML Minifier
 
 # Install, Deploy
-pipx==0.16.4 # LEVEL_03 # Install and Run Python Applications in Isolated Environments
+pipx==0.16.5 # LEVEL_03 # Install and Run Python Applications in Isolated Environments
 docker==5.0.3 # LEVEL_03 # A Python library for the Docker Engine API
 docker-pycreds==0.4.0 # LEVEL_02 # Python bindings for the docker credentials store API
 pyinstaller==4.7 # LEVEL_03 # PyInstaller bundles a Python application and all its dependencies into a single package
@@ -633,7 +633,7 @@ entrypoints==0.3 # LEVEL_01 # Discover and load entry points from installed pack
 
 # Locking
 fasteners==0.16.3 # LEVEL_02 # A python package that provides useful locks
-filelock==3.4.0 # LEVEL_01 # A platform independent file lock
+filelock==3.4.2 # LEVEL_01 # A platform independent file lock
 lockfile==0.12.2 # LEVEL_01 # Platform-independent file locking module
 locket==0.2.1 # LEVEL_01 # File-based locks for Python for Linux and Windows
 portalocker==2.3.2 # LEVEL_01 # Wraps the portalocker recipe for easy usage
@@ -675,7 +675,7 @@ pycocotools==2.0.3 # LEVEL_04 # Official APIs for the MS-COCO dataset
 aenum==3.1.5 # LEVEL_01 # Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
 aiohttp==3.8.1 # LEVEL_03 # Async http client/server framework (asyncio)
 async-timeout==4.0.2 # LEVEL_01 # Timeout context manager for asyncio programs
-aioredis==2.0.0 # 1.3.1 # LEVEL_02 # asyncio (PEP 3156) Redis support
+aioredis==2.0.1 # 1.3.1 # LEVEL_02 # asyncio (PEP 3156) Redis support
 altgraph==0.17.2 # LEVEL_01 # Python graph (network) package
 anyio==3.4.0 # LEVEL_02 # High level compatibility layer for multiple asynchronous event loop implementations
 appdirs==1.4.4 # LEVEL_01 # A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir"
@@ -683,7 +683,7 @@ appnope==0.1.2 # LEVEL_01 # Disable App Nap on macOS >= 10.9
 ast-decompiler==0.4.0 # LEVEL_01 # Python module to decompile AST to Python code
 astunparse==1.6.3 # LEVEL_02 # An AST unparser for Python
 asynq==1.4.0 # LEVEL_03 # Quora's asynq library
-attrs==21.2.0 # LEVEL_01 # Classes Without Boilerplate
+attrs==21.3.0 # LEVEL_01 # Classes Without Boilerplate
 backcall==0.2.0 # LEVEL_01 # Specifications for callback functions passed in to an API
 blis==0.7.5 # LEVEL_02 # The Blis BLAS-like linear algebra library, as a self-contained C-extension
 Brotli==1.0.9 # LEVEL_01 # Python bindings for the Brotli compression library
@@ -706,7 +706,7 @@ deprecation==2.1.0 # LEVEL_03 # A library to handle automated deprecations
 dill==0.3.4 # LEVEL_01 # serialize all of python
 dm-tree==0.1.6 # LEVEL_02 # Tree is a library for working with nested data structures
 dnspython==2.1.0 # LEVEL_01 # DNS toolkit
-elasticsearch==7.16.1 # LEVEL_02 # Python client for Elasticsearch
+elasticsearch==7.16.2 # LEVEL_02 # Python client for Elasticsearch
 email-validator==1.1.3 # LEVEL_02 # A robust email syntax and deliverability validation library for Python 2.x/3.x
 ephem==4.1.3 # LEVEL_01 # Compute positions of the planets and stars
 et-xmlfile==1.1.0 # LEVEL_01 # An implementation of lxml.xmlfile for the standard library
@@ -751,7 +751,7 @@ pexpect==4.8.0 # LEVEL_02 # Pexpect allows easy control of interactive console a
 pickleshare==0.7.5 # LEVEL_01 # Tiny 'shelve'-like database with concurrency support
 preshed==3.0.6 # LEVEL_02 # Cython hash table that trusts the keys are pre-hashed
 #
-prometheus-flask-exporter==0.18.6 # LEVEL_04 # Prometheus metrics exporter for Flask
+prometheus-flask-exporter==0.18.7 # LEVEL_04 # Prometheus metrics exporter for Flask
 prometheus-client==0.12.0 # LEVEL_01 # Python client for the Prometheus monitoring system
 #
 promise==2.3 # LEVEL_02 # Promises/A+ implementation for Python
@@ -781,7 +781,7 @@ requests==2.26.0 # LEVEL_02 # Python HTTP for Humans
 requests-cache==0.8.1 # LEVEL_03 # A transparent persistent cache for the requests library
 requests-oauthlib==1.3.0 # LEVEL_03 # OAuthlib authentication support for Requests
 requests-toolbelt==0.9.1 # LEVEL_03 # A utility belt for advanced users of python-requests
-requests-unixsocket==0.2.0 # LEVEL_03 # Use requests to talk HTTP via a UNIX domain socket
+requests-unixsocket==0.3.0 # LEVEL_03 # Use requests to talk HTTP via a UNIX domain socket
 retrying==1.3.3 # LEVEL_02 # Retrying
 rsa==4.8 # LEVEL_02 # Pure-Python RSA implementation
 sacrebleu==2.0.0 # LEVEL_02 # Hassle-free computation of shareable, comparable, and reproducible BLEU, chrF, and TER scores
@@ -911,7 +911,7 @@ dlpack==0.1 # LEVEL_01 # Machine learning for systems
 #
 faiss-cpu==1.7.1.post3 # LEVEL_01 # A library for efficient similarity search and clustering of dense vectors
 #
-fastavro==1.4.7 # LEVEL_01 # Fast read/write of AVRO files
+fastavro==1.4.8 # LEVEL_01 # Fast read/write of AVRO files
 #
 Fiona==1.8.20 # LEVEL_03 # Fiona reads and writes spatial data files
 munch==2.5.0 # LEVEL_02 # A dot-accessible dictionary (a la JavaScript objects)
@@ -981,7 +981,7 @@ Logbook==1.5.3 # LEVEL_01 # A logging replacement for Python
 mashumaro==2.9.1 # LEVEL_02 # Fast serialization framework on top of dataclasses
 minimal-snowplow-tracker==0.0.2 # LEVEL_03 # A minimal snowplow event tracker for Python. Add analytics to your Python and Django apps, webapps and games
 msrest==0.6.21 # LEVEL_04 # AutoRest swagger generator Python client runtime
-ruamel_yaml==0.17.17 # LEVEL_02 # ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
+ruamel_yaml==0.17.19 # LEVEL_02 # ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
 ruamel_yaml_clib==0.2.6 # LEVEL_01 # C version of reader, parser and emitter for ruamel.yaml derived from libyaml
 #
 aiosignal==1.2.0 # LEVEL_02 # aiosignal: a list of registered asynchronous callbacks
@@ -1028,10 +1028,10 @@ vine==5.0.0 # LEVEL_01 # Promises, promises, promises
 #
 
 flower==1.0.0 # LEVEL_05 # Celery Flower
-gradio==2.5.3 # LEVEL_05 # Python library for easily interacting with trained machine learning models
-paramiko==2.8.1 # LEVEL_04 # SSH2 protocol library
+gradio==2.6.3 # LEVEL_05 # Python library for easily interacting with trained machine learning models
+paramiko==2.9.1 # LEVEL_04 # SSH2 protocol library
 fastapi==0.70.1 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
-celery==5.2.1 # LEVEL_04 # Distributed Task Queue
+celery==5.2.2 # LEVEL_04 # Distributed Task Queue
 analytics-python==1.4.0 # LEVEL_03 # The hassle-free way to integrate analytics into any python application
 click-repl==0.2.0 # LEVEL_03 # REPL plugin for Click
 kombu==5.2.2 # LEVEL_03  # Messaging library for Python
@@ -1039,7 +1039,7 @@ curtsies==0.3.10 # LEVEL_03 # Curses-like terminal wrapper, with colored strings
 click-didyoumean==0.3.0 # LEVEL_02 # Enables git-like *did-you-mean* feature in click
 monotonic==1.6 # LEVEL_01 # An implementation of time.monotonic() for Python 2 & < 3.3
 billiard==3.6.4.0 # LEVEL_01 # Python multiprocessing fork with improvements and bugfixes
-cwcwidth==0.1.5 # LEVEL_01 # Python bindings for wc(s)width
+cwcwidth==0.1.6 # LEVEL_01 # Python bindings for wc(s)width
 waitress==2.0.0 # LEVEL_01 # Waitress WSGI server
 boltons==21.0.0 # LEVEL_01 # When they're not builtins, they're boltons
 ffmpy==0.3.0 # LEVEL_01 # A simple Python wrapper for ffmpeg
