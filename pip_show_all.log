@@ -119,7 +119,7 @@ Requires: aiohttp requests
 Required-by: 
 ---
 Name: altair
-Version: 4.1.0
+Version: 4.2.0
 Summary: Altair: A declarative statistical visualization library for Python.
 Home-page: http://altair-viz.github.io
 Author: Brian E. Granger / Jake VanderPlas
@@ -349,7 +349,7 @@ Requires: numpy six
 Required-by: 
 ---
 Name: attrs
-Version: 21.3.0
+Version: 21.4.0
 Summary: Classes Without Boilerplate
 Home-page: https://www.attrs.org/
 Author: Hynek Schlawack
@@ -739,7 +739,7 @@ Requires:
 Required-by: twint
 ---
 Name: celery
-Version: 5.2.2
+Version: 5.2.3
 Summary: Distributed Task Queue.
 Home-page: http://celeryproject.org
 Author: Ask Solem
@@ -2219,7 +2219,7 @@ Requires:
 Required-by: 
 ---
 Name: gradio
-Version: 2.6.3
+Version: 2.6.4
 Summary: Python library for easily interacting with trained machine learning models
 Home-page: https://github.com/gradio-app/gradio-UI
 Author: Abubakar Abid, Ali Abid, Ali Abdalla, Dawood Khan, Ahsen Khaliq
@@ -2889,7 +2889,7 @@ Requires: pygments
 Required-by: nbconvert
 ---
 Name: jupyterlab-server
-Version: 2.10.1
+Version: 2.10.2
 Summary: A set of server components for JupyterLab and JupyterLab like applications .
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3039,7 +3039,7 @@ Requires:
 Required-by: 
 ---
 Name: kombu
-Version: 5.2.2
+Version: 5.2.3
 Summary: Messaging library for Python.
 Home-page: https://kombu.readthedocs.io
 Author: Ask Solem
@@ -3689,7 +3689,7 @@ Requires:
 Required-by: pytype
 ---
 Name: nltk
-Version: 3.6.6
+Version: 3.6.7
 Summary: Natural Language Toolkit
 Home-page: https://www.nltk.org/
 Author: NLTK Team
@@ -3889,23 +3889,23 @@ Requires:
 Required-by: opencensus
 ---
 Name: opencv-python
-Version: 4.5.4.60
+Version: 4.5.5.62
 Summary: Wrapper package for OpenCV python bindings.
 Home-page: https://github.com/skvark/opencv-python
 Author: 
 Author-email: 
 License: MIT
-Requires: numpy
+Requires: numpy numpy numpy
 Required-by: elegantrl
 ---
 Name: opencv-python-headless
-Version: 4.5.4.60
+Version: 4.5.5.62
 Summary: Wrapper package for OpenCV python bindings.
 Home-page: https://github.com/skvark/opencv-python
 Author: 
 Author-email: 
 License: MIT
-Requires: numpy
+Requires: numpy numpy numpy
 Required-by: tf-models-official
 ---
 Name: openpyxl
@@ -3959,7 +3959,7 @@ Requires: asn1crypto
 Required-by: 
 ---
 Name: osqp
-Version: 0.6.2.post1
+Version: 0.6.2.post4
 Summary: OSQP: The Operator Splitting QP Solver
 Home-page: https://osqp.org/
 Author: Bartolomeo Stellato, Goran Banjac
@@ -4259,7 +4259,7 @@ Requires: pip
 Required-by: 
 ---
 Name: pipx
-Version: 0.16.5
+Version: 0.17.0
 Summary: Install and Run Python Applications in Isolated Environments
 Home-page: https://github.com/pypa/pipx
 Author: Chad Smith
@@ -4449,7 +4449,7 @@ Requires:
 Required-by: google-api-core google-cloud-bigquery googleapis-common-protos grpcio-status keras2onnx mlagents-envs mlflow onnx onnxconverter-common proto-plus ray stanza tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata wandb
 ---
 Name: psutil
-Version: 5.8.0
+Version: 5.9.0
 Summary: Cross-platform lib for process and system monitoring in Python.
 Home-page: https://github.com/giampaolo/psutil
 Author: Giampaolo Rodola
@@ -4459,7 +4459,7 @@ Requires:
 Required-by: distributed gpustat memory-profiler tf-models-official wandb
 ---
 Name: psycopg2-binary
-Version: 2.9.2
+Version: 2.9.3
 Summary: psycopg2 - Python-PostgreSQL Database Adapter
 Home-page: https://psycopg.org/
 Author: Federico Di Gregorio
@@ -4789,7 +4789,7 @@ Requires: deprecated pyjwt pynacl requests
 Required-by: 
 ---
 Name: Pygments
-Version: 2.10.0
+Version: 2.11.0
 Summary: Pygments is a syntax highlighting package written in Python.
 Home-page: https://pygments.org/
 Author: Georg Brandl
@@ -5709,7 +5709,7 @@ Requires: numpy scikit-learn
 Required-by: tf-models-official
 ---
 Name: setuptools
-Version: 58.0.4
+Version: 59.6.0
 Summary: Easily download, build, install, upgrade, and uninstall Python packages
 Home-page: https://github.com/pypa/setuptools
 Author: Python Packaging Authority
@@ -7169,7 +7169,7 @@ Requires: cycler matplotlib numpy scikit-learn scipy
 Required-by: pycaret
 ---
 Name: yfinance
-Version: 0.1.67
+Version: 0.1.68
 Summary: Download market data from Yahoo! Finance API
 Home-page: https://github.com/ranaroussi/yfinance
 Author: Ran Aroussi
