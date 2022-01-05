@@ -99,6 +99,8 @@ typeshed-client==1.2.3 # LEVEL_03 # LOCKED # pyanalyze 0.5.0 requires typeshed-c
 #
 tokenizers==0.10.3 # LEVEL_01 # LOCKED # transformers 4.15.0 has requirement tokenizers<0.11,>=0.10.1 # Fast and Customizable Tokenizers
 #
+pydantic==1.8.2 # LEVEL_02 # LOCKED # thinc 8.0.13; spacy 3.2.1 require pydantic!=1.8,!=1.8.1,<1.9.0,>=1.7.4 # Data validation and settings management using python 3.6 type hinting
+#
 #
 # Former LOCKED .. now freed ;-)
 #
@@ -123,8 +125,8 @@ importlib-metadata==4.10.0 # LEVEL_02 # INTERNAL # Read metadata from Python pac
 #
 # Generic Low Level Tools
 #
-httpcore==0.14.3 # LEVEL_03 # A minimal low-level HTTP client
-httpx==0.21.1 # LEVEL_04 # The next generation HTTP client
+httpcore==0.14.4 # LEVEL_03 # A minimal low-level HTTP client
+httpx==0.21.2 # LEVEL_04 # The next generation HTTP client
 seaborn==0.11.2 # LEVEL_04 # seaborn: statistical data visualization
 matplotlib==3.5.1 # LEVEL_03 # Python plotting package
 scipy==1.7.3 # LEVEL_02 # SciPy: Scientific Library for Python
@@ -140,7 +142,7 @@ pandas-profiling==3.1.0 # LEVEL_06 # Generate profile report for pandas DataFram
 pandas-datareader==0.10.0 # LEVEL_04 # Data readers extracted from the pandas codebase,should be compatible with recent pandas versions
 geopandas==0.10.2 # LEVEL_04 # Geographic pandas extensions
 pandas==1.3.5 # LEVEL_03 # Powerful data structures for data analysis, time series, and statistics
-pandas-stubs==1.2.0.39 # LEVEL_01 # needed by openai # Type annotations for Pandas
+pandas-stubs==1.2.0.40 # LEVEL_01 # needed by openai # Type annotations for Pandas
 XlsxWriter==3.0.2 # LEVEL_01 # needed for pandas XLSX # A Python module for creating Excel XLSX files
 
 #
@@ -194,7 +196,7 @@ xgboost==1.5.1 # LEVEL_03 # check installation notes # XGBoost Python Package
 pyro-ppl==1.8.0 # LEVEL_03 # A Python library for probabilistic modeling and inference
 pyro-api==0.1.2 # LEVEL_01 # Generic API for dispatch to Pyro backends
 #
-pytorch-lightning==1.5.7 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
+pytorch-lightning==1.5.8 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
 performer-pytorch==1.1.3 # LEVEL_04 # Performer - Pytorch
 torch-optimizer==0.3.0 # LEVEL_04 # pytorch-optimizer
 torchaudio==0.10.1 # LEVEL_03 # An audio package for PyTorch
@@ -252,9 +254,9 @@ Cython==0.29.26 # LEVEL_01 # pystan: cython!=0.25.1,>=0.22 # The Cython compiler
 #
 # Date & Time conversions
 #
-int-date==0.1.8 # LEVEL_03 # Utility for int date like 20150312
+int-date==0.2.0 # LEVEL_03 # Utility for int date like 20150312
 arrow==1.2.1 # LEVEL_03 # Better dates & times for Python
-holidays==0.11.3.1 # LEVEL_03 # for prophet # Generate and work with holidays in Python
+holidays==0.12 # LEVEL_03 # for prophet # Generate and work with holidays in Python
 LunarCalendar==0.0.9 # LEVEL_03 # for prophet # A lunar calendar converter, including a number of lunar and solar holidays, mainly from China
 tzlocal==4.1 # LEVEL_03 # tzinfo object for the local timezone
 pytz-deprecation-shim==0.1.0.post0 # LEVEL_02 # Shims to make deprecation of pytz easier
@@ -319,7 +321,7 @@ dask[complete]==2021.12.0 # LEVEL_03 # Parallel PyData with Task Scheduling
 scikit-plot==0.3.7 # LEVEL_04 # An intuitive library to add plotting functionality to scikit-learn objects
 scikit-image==0.19.1 # LEVEL_03 # Image processing in Python
 scikit-learn==1.0.2 # LEVEL_03 # A set of python modules for machine learning and data mining
-pyod==0.9.6 # LEVEL_05 # outlyer detection # A Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
+pyod==0.9.7 # LEVEL_05 # outlyer detection # A Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
 jax==0.2.26 # LEVEL_03 # Differentiate, compile, and transform Numpy code
 #
 zeep==4.1.0 # LEVEL_04 # A modern/fast Python SOAP client based on lxml / requests
@@ -336,7 +338,7 @@ opencv-python==4.5.5.62 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.5.62 # LEVEL_02 # Wrapper package for OpenCV python bindings
 imageio==2.13.5 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
-Pillow==8.4.0 # LEVEL_01 # Python Imaging Library (Fork)
+Pillow==9.0.0 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
 ImageHash==4.2.1 # LEVEL_03 # Image Hashing library
 #
@@ -377,7 +379,7 @@ argon2-cffi==21.3.0 # LEVEL_04 # The secure Argon2 password hashing algorithm
 bcrypt==3.2.0 # LEVEL_03 # Modern password hashing for your software and your servers
 argon2-cffi-bindings==21.2.0 # LEVEL_03 # Low-level CFFI bindings for Argon2
 cryptography==36.0.1 # LEVEL_03 # cryptography is a package which provides cryptographic recipes and primitives to Python developers
-keyring==23.4.0 # LEVEL_03 # Store and access your passwords safely
+keyring==23.5.0 # LEVEL_03 # Store and access your passwords safely
 PyNaCl==1.4.0 # LEVEL_03 # Python binding to the Networking and Cryptography (NaCl) library
 oscrypto==1.2.1 # LEVEL_02 # TLS (SSL) sockets, key generation, encryption, decryption, signing, verification and KDFs using the OS crypto libraries. Does not require a compiler, and relies on the OS for patching. Works on Windows, OS X and Linux/BSD
 pyotp==2.6.0 # LEVEL_01 # Python One Time Password Library
@@ -395,10 +397,10 @@ selenium==4.1.0 # LEVEL_05 #
 #
 #
 cvxpy==1.1.18 # LEVEL_05 # A domain-specific language for modeling convex optimization problems in Python
-ecos==2.0.8 # LEVEL_03 # This is the Python package for ECOS: Embedded Cone Solver. See Github page for more information
+ecos==2.0.10 # LEVEL_03 # This is the Python package for ECOS: Embedded Cone Solver. See Github page for more information
 osqp==0.6.2.post4 # LEVEL_04 # OSQP: The Operator Splitting QP Solver
 qdldl==0.1.5.post0 # LEVEL_03 # QDLDL, a free LDL factorization routine
-scs==3.0.0 # LEVEL_03 # scs: splitting conic solver
+scs==3.0.1 # LEVEL_03 # scs: splitting conic solver
 
 #
 # GUI & Visualization
@@ -413,7 +415,7 @@ glib==1.0.0 # LEVEL_01 # A python graphics library that piggy-backs off of pyqt5
 #
 PyOpenGL==3.1.5 # LEVEL_01 # for PySpace # Standard OpenGL bindings for Python
 pygame==2.1.2 # LEVEL_01 # Python Game Development
-Pygments==2.11.0 # LEVEL_01 # Pygments is a syntax highlighting package written in Python
+Pygments==2.11.1 # LEVEL_01 # Pygments is a syntax highlighting package written in Python
 pydot==1.4.2 # LEVEL_02 # Python interface to Graphviz's Dot
 networkx==2.6.3 # LEVEL_01 # Python package for creating and manipulating graphs and networks
 # pysimpleguiqt>=0.35.0
@@ -451,7 +453,7 @@ spectra==0.0.11 # LEVEL_03 # old # Color scales and color conversion made easy f
 colorcet==3.0.0 # LEVEL_03 # Collection of perceptually uniform colormaps
 colormath==3.0.0 # LEVEL_02 # not maintained # Color math and conversion library
 blessings==1.7 # LEVEL_02 # old # A thin, practical wrapper around terminal coloring, styling, and positioning
-rich==10.16.1 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+rich==10.16.2 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 colorama==0.4.4 # LEVEL_01 # Cross-platform colored terminal text
 termcolor==1.1.0 # LEVEL_01 # OLD !! # ANSII Color formatting for output in terminal
 colorful==0.5.4 # LEVEL_01 # old # Terminal string styling done right, in Python
@@ -466,7 +468,7 @@ google-cloud-core==2.2.1 # LEVEL_05 # Google Cloud API client core library
 google-resumable-media==2.1.0 # LEVEL_02 # Utilities for Google Media Downloads and Resumable Uploads
 google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC32C'
 #
-google-api-python-client==2.33.0 # LEVEL_05 # Google API Client Library for Python
+google-api-python-client==2.34.0 # LEVEL_05 # Google API Client Library for Python
 google-api-core==2.3.2 # LEVEL_04 # Google API client core library
 google-auth-httplib2==0.1.0 # LEVEL_04 # Google Authentication Library: httplib2 transport
 google-auth-oauthlib==0.4.6 # LEVEL_04 # Google Authentication Library
@@ -484,9 +486,9 @@ smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, A
 uamqp==1.4.3 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.20.26  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.20.28  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.23.26 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.23.28 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -510,10 +512,10 @@ ipywidgets==7.6.5 # LEVEL_08 # IPython HTML widgets for Jupyter
 widgetsnbextension==3.5.2 # LEVEL_07 # IPython HTML widgets for Jupyter
 nbclassic==0.3.4 # LEVEL_07 # Jupyter Notebook as a Jupyter Server extension
 notebook==6.4.6 # LEVEL_06 # A web-based notebook environment for interactive computing
-nbsphinx==0.8.7 # LEVEL_06 # Jupyter Notebook Tools for Sphinx
-nbconvert==6.3.0 # LEVEL_05 # Converting Jupyter Notebooks
+nbsphinx==0.8.8 # LEVEL_06 # Jupyter Notebook Tools for Sphinx
+nbconvert==6.4.0 # LEVEL_05 # Converting Jupyter Notebooks
 qtconsole==5.2.2 # LEVEL_05 # Jupyter Qt console
-ipykernel==6.6.0 # LEVEL_04 # IPython Kernel for Jupyter
+ipykernel==6.6.1 # LEVEL_04 # IPython Kernel for Jupyter
 nbclient==0.5.9 # LEVEL_04 # A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor
 nbformat==5.1.3 # LEVEL_03 # The Jupyter Notebook format
 matplotlib-inline==0.1.3 # LEVEL_02 # Inline Matplotlib backend for Jupyter
@@ -528,7 +530,7 @@ django-http-exceptions==1.4.0 # LEVEL_03 # django raisable http exceptions
 django-model-utils==4.2.0 # LEVEL_03 # Django model mixins and utilities
 django-request-logging==0.7.3 # LEVEL_03 # Django middleware that logs http request body
 djangorestframework==3.13.1 # LEVEL_03 # Web APIs for Django, made easy
-Django==4.0 # LEVEL_02 # A high-level Python web framework that encourages rapid development and clean, pragmatic design
+Django==4.0.1 # LEVEL_02 # A high-level Python web framework that encourages rapid development and clean, pragmatic design
 asgiref==3.4.1 # LEVEL_01 # ASGI specs, helper code, and adapters
 
 #
@@ -544,7 +546,7 @@ Flask==2.0.2 # LEVEL_03 # A simple framework for building complex web applicatio
 #
 # Json
 #
-jsonschema==4.3.2 # LEVEL_02 # An implementation of JSON Schema validation for Python
+jsonschema==4.3.3 # LEVEL_02 # An implementation of JSON Schema validation for Python
 json5==0.9.6 # LEVEL_01 # A Python implementation of the JSON5 data format
 simplejson==3.17.6 # LEVEL_01 # Simple, fast, extensible JSON encoder/decoder for Python
 ujson==5.1.0 # LEVEL_01 # Ultra fast JSON encoder and decoder for Python
@@ -564,7 +566,7 @@ pydata-sphinx-theme==0.7.2 # LEVEL_04 # Bootstrap-based Sphinx theme from the Py
 sphinx-autobuild==2021.3.14 # LEVEL_04 # Rebuild Sphinx documentation on changes, with live-reload in the browser
 sphinx-rtd-theme==1.0.0 # LEVEL_04 # Read the Docs theme for Sphinx
 sphinx-panels==0.6.0 # LEVEL_04 # A sphinx extension for creating panels in a grid layout
-sphinx-autodoc-typehints==1.12.0 # LEVEL_04 # Type hints (PEP 484) support for the Sphinx autodoc extension
+sphinx-autodoc-typehints==1.13.1 # LEVEL_04 # Type hints (PEP 484) support for the Sphinx autodoc extension
 Sphinx==4.3.2 # LEVEL_03 # Python documentation generator
 sphinx-markdown-tables==0.0.15 # LEVEL_04 # A Sphinx extension for rendering tables written in markdown
 sphinxcontrib-applehelp==1.0.2 # LEVEL_01 # sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books
@@ -620,7 +622,7 @@ MarkupSafe==2.0.1 # LEVEL_01 # Safely add untrusted strings to HTML/XML markup
 htmlmin==0.1.12 # LEVEL_01 # An HTML Minifier
 
 # Install, Deploy
-pipx==0.17.0 # LEVEL_03 # Install and Run Python Applications in Isolated Environments
+pipx==1.0.0 # LEVEL_03 # Install and Run Python Applications in Isolated Environments
 docker==5.0.3 # LEVEL_03 # A Python library for the Docker Engine API
 docker-pycreds==0.4.0 # LEVEL_02 # Python bindings for the docker credentials store API
 pyinstaller==4.7 # LEVEL_03 # PyInstaller bundles a Python application and all its dependencies into a single package
@@ -654,7 +656,7 @@ libcst==0.3.23 # LEVEL_03 # A concrete syntax tree with AST-like properties for 
 ninja==1.10.2.3 # LEVEL_01 # Ninja is a small build system with a focus on speed
 #
 userpath==1.7.0 # LEVEL_02 # Cross-platform tool for adding locations to the user PATH, no elevated privileges required!
-argcomplete==1.12.3 # LEVEL_01 # Bash tab completion for argparse
+argcomplete==2.0.0 # LEVEL_01 # Bash tab completion for argparse
 #
 luigi==3.0.3 # LEVEL_03 # Workflow mgmgt + task scheduling + dependency resolution
 python-daemon==2.3.0 # LEVEL_02 # Library to implement a well-behaved Unix daemon process
@@ -691,7 +693,7 @@ catalogue==2.0.6 # LEVEL_01 # Super lightweight function registries for your lib
 cchardet==2.1.7 # LEVEL_01 # cChardet is high speed universal character encoding detector
 cffi==1.15.0 # LEVEL_02 # Foreign Function Interface for Python calling C code
 chardet==4.0.0 # LEVEL_01 # Universal encoding detector for Python 2 and 3
-charset-normalizer==2.0.9 # LEVEL_01 # The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet
+charset-normalizer==2.0.10 # LEVEL_01 # The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet
 click==8.0.3 # LEVEL_01 # Composable command line interface toolkit
 cloudpickle==2.0.0 # LEVEL_01 # Extended pickling support for Python objects
 codemod==1.0.0 # LEVEL_01 # Codemod is a tool/library to assist you with large-scale codebase refactors that can be partially automated but still require human oversight and occasional intervention. Codemod was developed at Facebook and released as open source
@@ -721,7 +723,7 @@ gin-config==0.5.0 # LEVEL_01 # Gin-Config: A lightweight configuration library f
 HeapDict==1.0.1 # LEVEL_01 # a heap with decrease-key and increase-key operations
 httplib2==0.20.2 # LEVEL_02 # A comprehensive HTTP client library
 idna==3.3 # LEVEL_01 # Internationalized Domain Names in Applications (IDNA)
-ipython==7.30.1 # LEVEL_03 # IPython: Productive Interactive Computing
+ipython==7.31.0 # LEVEL_03 # IPython: Productive Interactive Computing
 ipython-genutils==0.2.0 # LEVEL_01 # Vestigial utilities from IPython
 itsdangerous==2.0.1 # LEVEL_01 # Safely pass data to untrusted environments and back
 jedi==0.18.1 # LEVEL_02 # An autocompletion tool for Python that can be used for text editors
@@ -768,7 +770,6 @@ pyasn1==0.4.8 # LEVEL_01 # ASN.1 types and codecs
 pyasn1-modules==0.2.8 # LEVEL_02 # A collection of ASN.1-based protocols modules
 pycares==4.1.2 # LEVEL_03 # Python interface for c-ares
 pycparser==2.21 # LEVEL_01 # C parser in Python
-pydantic==1.8.2 # LEVEL_02 # Data validation and settings management using python 3.6 type hinting
 PyMeeus==0.5.11 # LEVEL_01 # Python implementation of Jean Meeus astronomical routines
 pyrsistent==0.18.0 # LEVEL_01 # Persistent/Functional/Immutable data structures
 python-slugify==5.0.2 # LEVEL_02 # A Python Slugify application that handles Unicode
@@ -777,8 +778,8 @@ PyYAML==6.0 # LEVEL_01 # YAML parser and emitter for Python
 pyzmq==22.3.0 # LEVEL_01 # Python bindings for 0MQ
 qcore==1.7.0 # LEVEL_02 # Quora's core utility library
 regex==2021.11.10 # LEVEL_01 # Alternative regular expression module, to replace re
-requests==2.26.0 # LEVEL_02 # Python HTTP for Humans
-requests-cache==0.8.1 # LEVEL_03 # A transparent persistent cache for the requests library
+requests==2.27.1 # LEVEL_02 # Python HTTP for Humans
+requests-cache==0.9.0 # LEVEL_03 # A transparent persistent cache for the requests library
 requests-oauthlib==1.3.0 # LEVEL_03 # OAuthlib authentication support for Requests
 requests-toolbelt==0.9.1 # LEVEL_03 # A utility belt for advanced users of python-requests
 requests-unixsocket==0.3.0 # LEVEL_03 # Use requests to talk HTTP via a UNIX domain socket
@@ -824,7 +825,7 @@ wireless==0.3.3 # LEVEL_01 # A dead simple, cross-platform Python library to con
 xxhash==2.0.2 # LEVEL_01 # Python binding for xxHash
 yarl==1.7.2 # LEVEL_02 # Yet another URL library
 zict==2.0.0 # LEVEL_02 # Mutable mapping tools
-zipp==3.6.0 # LEVEL_01 # Backport of pathlib-compatible object wrapper for zip files
+zipp==3.7.0 # LEVEL_01 # Backport of pathlib-compatible object wrapper for zip files
 #
 PySocks==1.7.1 # LEVEL_01 # A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information
 python-socks==2.0.1 # LEVEL_01 # Core proxy (SOCKS4, SOCKS5, HTTP tunneling) functionality for Python
@@ -847,7 +848,7 @@ greenlet==1.1.2 # LEVEL_01 # required by SQLAlchemy # Lightweight in-process con
 tbb==2021.5.0 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
 tiledb==0.11.5 # LEVEL_03 # Pythonic interface to the TileDB array storage manager
 xarray==0.20.2 # LEVEL_04 # N-D labeled arrays and datasets in Python
-zstd==1.5.0.4 # LEVEL_01 # ZSTD Bindings for Python
+zstd==1.5.1.0 # LEVEL_01 # ZSTD Bindings for Python
 #
 alabaster==0.7.12 # LEVEL_01 # A configurable sidebar-enabled Sphinx theme
 async-generator==1.10 # LEVEL_01 # Async generators and context managers for Python 3.5+
@@ -883,7 +884,7 @@ nvidia-ml-py3==7.352.0 # LEVEL_01 # Python Bindings for the NVIDIA Management Li
 opencensus==0.8.0 # LEVEL_05 # A stats collection and distributed tracing framework
 opencensus-context==0.1.2 # LEVEL_01 # OpenCensus Runtime Context
 pydeck==0.7.1 # LEVEL_09 # Widget for deck.gl maps
-cattrs==1.9.0 # LEVEL_02 # Composable complex class support for attrs and dataclasses
+cattrs==1.10.0 # LEVEL_02 # Composable complex class support for attrs and dataclasses
 #
 biopython==1.79 # LEVEL_02 # Freely available tools for computational molecular biology
 boost==0.1 # LEVEL_04 # Boost automatically toots from Mastodon users
@@ -978,10 +979,10 @@ asciitree==0.3.3 # LEVEL_01 # Draws ASCII trees
 dbt-extractor==0.4.0 # LEVEL_01
 leather==0.3.4 # LEVEL_02 # Python charting for 80% of humans
 Logbook==1.5.3 # LEVEL_01 # A logging replacement for Python
-mashumaro==2.9.1 # LEVEL_02 # Fast serialization framework on top of dataclasses
+mashumaro==2.11 # LEVEL_02 # Fast serialization framework on top of dataclasses
 minimal-snowplow-tracker==0.0.2 # LEVEL_03 # A minimal snowplow event tracker for Python. Add analytics to your Python and Django apps, webapps and games
 msrest==0.6.21 # LEVEL_04 # AutoRest swagger generator Python client runtime
-ruamel_yaml==0.17.19 # LEVEL_02 # ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
+ruamel_yaml==0.17.20 # LEVEL_02 # ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
 ruamel_yaml_clib==0.2.6 # LEVEL_01 # C version of reader, parser and emitter for ruamel.yaml derived from libyaml
 #
 aiosignal==1.2.0 # LEVEL_02 # aiosignal: a list of registered asynchronous callbacks
@@ -1024,7 +1025,7 @@ vine==5.0.0 # LEVEL_01 # Promises, promises, promises
 #
 
 flower==1.0.0 # LEVEL_05 # Celery Flower
-gradio==2.6.4 # LEVEL_05 # Python library for easily interacting with trained machine learning models
+gradio==2.7.0 # LEVEL_05 # Python library for easily interacting with trained machine learning models
 paramiko==2.9.1 # LEVEL_04 # SSH2 protocol library
 fastapi==0.70.1 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
 celery==5.2.3 # LEVEL_04 # Distributed Task Queue

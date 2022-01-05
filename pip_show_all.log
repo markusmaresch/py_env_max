@@ -209,7 +209,7 @@ Requires:
 Required-by: ipykernel ipython
 ---
 Name: argcomplete
-Version: 1.12.3
+Version: 2.0.0
 Summary: Bash tab completion for argparse
 Home-page: https://github.com/kislyuk/argcomplete
 Author: Andrey Kislyuk
@@ -619,7 +619,7 @@ Requires:
 Required-by: 
 ---
 Name: boto3
-Version: 1.20.26
+Version: 1.20.28
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -629,7 +629,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.23.26
+Version: 1.23.28
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -719,7 +719,7 @@ Requires: graphviz matplotlib numpy pandas plotly scipy six
 Required-by: pycaret
 ---
 Name: cattrs
-Version: 1.9.0
+Version: 1.10.0
 Summary: Composable complex class support for attrs and dataclasses.
 Home-page: https://github.com/python-attrs/cattrs
 Author: Tin Tvrtkovic
@@ -789,7 +789,7 @@ Requires:
 Required-by: 
 ---
 Name: charset-normalizer
-Version: 2.0.9
+Version: 2.0.10
 Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
 Home-page: https://github.com/ousret/charset_normalizer
 Author: Ahmed TAHRI @Ousret
@@ -1389,7 +1389,7 @@ Requires: click cloudpickle dask jinja2 msgpack psutil pyyaml setuptools sortedc
 Required-by: dask-ml
 ---
 Name: Django
-Version: 4.0
+Version: 4.0.1
 Summary: A high-level Python web framework that encourages rapid development and clean, pragmatic design.
 Home-page: https://www.djangoproject.com/
 Author: Django Software Foundation
@@ -1519,7 +1519,7 @@ Requires:
 Required-by: Kivy Kivy-examples Sphinx nbsphinx pydata-sphinx-theme python-daemon recommonmark sphinx-panels sphinx-rtd-theme
 ---
 Name: ecos
-Version: 2.0.8
+Version: 2.0.10
 Summary: This is the Python package for ECOS: Embedded Cone Solver. See Github page for more information.
 Home-page: http://github.com/embotech/ecos
 Author: Alexander Domahidi, Eric Chu, Han Wang, Santiago Akle
@@ -2079,7 +2079,7 @@ Requires: google-auth googleapis-common-protos protobuf requests setuptools
 Required-by: google-api-python-client google-cloud-bigquery google-cloud-core opencensus
 ---
 Name: google-api-python-client
-Version: 2.33.0
+Version: 2.34.0
 Summary: Google API Client Library for Python
 Home-page: https://github.com/googleapis/google-api-python-client/
 Author: Google LLC
@@ -2219,7 +2219,7 @@ Requires:
 Required-by: 
 ---
 Name: gradio
-Version: 2.6.4
+Version: 2.7.0
 Summary: Python library for easily interacting with trained machine learning models
 Home-page: https://github.com/gradio-app/gradio-UI
 Author: Abubakar Abid, Ali Abid, Ali Abdalla, Dawood Khan, Ahsen Khaliq
@@ -2359,11 +2359,11 @@ Requires:
 Required-by: 
 ---
 Name: holidays
-Version: 0.11.3.1
+Version: 0.12
 Summary: Generate and work with holidays in Python
 Home-page: https://github.com/dr-prodigy/python-holidays
-Author: ryanss
-Author-email: ryanssdev@icloud.com
+Author: dr-prodigy (formerly ryanss)
+Author-email: maurizio.montel@gmail.com
 License: MIT
 Requires: convertdate hijri-converter korean-lunar-calendar python-dateutil
 Required-by: prophet
@@ -2399,7 +2399,7 @@ Requires:
 Required-by: pandas-profiling
 ---
 Name: httpcore
-Version: 0.14.3
+Version: 0.14.4
 Summary: A minimal low-level HTTP client.
 Home-page: https://github.com/encode/httpcore
 Author: Tom Christie
@@ -2419,7 +2419,7 @@ Requires: pyparsing
 Required-by: google-api-python-client google-auth-httplib2 oauth2client
 ---
 Name: httpx
-Version: 0.21.1
+Version: 0.21.2
 Summary: The next generation HTTP client.
 Home-page: https://github.com/encode/httpx
 Author: Tom Christie
@@ -2599,9 +2599,9 @@ Requires:
 Required-by: pytest
 ---
 Name: int-date
-Version: 0.1.8
+Version: 0.2.0
 Summary: Utility for int date like 20150312.
-Home-page: http://github.com/jealous/int_date
+Home-page: https://github.com/jealous/int_date
 Author: Cedric Zhuang
 Author-email: cedric.zhuang@gmail.com
 License: BSD
@@ -2619,17 +2619,17 @@ Requires: certifi python-dateutil retrying six urllib3
 Required-by: 
 ---
 Name: ipykernel
-Version: 6.6.0
+Version: 6.6.1
 Summary: IPython Kernel for Jupyter
 Home-page: https://ipython.org
 Author: IPython Development Team
 Author-email: ipython-dev@scipy.org
 License: BSD
-Requires: appnope debugpy ipython jupyter-client matplotlib-inline tornado traitlets
+Requires: appnope debugpy ipython jupyter-client matplotlib-inline nest-asyncio tornado traitlets
 Required-by: ipywidgets jupyter jupyter-console jupyter-dash notebook pydeck qtconsole
 ---
 Name: ipython
-Version: 7.30.1
+Version: 7.31.0
 Summary: IPython: Productive Interactive Computing
 Home-page: https://ipython.org
 Author: The IPython Development Team
@@ -2769,7 +2769,7 @@ Requires:
 Required-by: jupyterlab-server
 ---
 Name: jsonschema
-Version: 4.3.2
+Version: 4.3.3
 Summary: An implementation of JSON Schema validation for Python
 Home-page: https://github.com/Julian/jsonschema
 Author: Julian Berman
@@ -2969,7 +2969,7 @@ Requires: fire numpy onnx onnxconverter-common protobuf requests
 Required-by: 
 ---
 Name: keyring
-Version: 23.4.0
+Version: 23.5.0
 Summary: Store and access your passwords safely.
 Home-page: https://github.com/jaraco/keyring
 Author: Kang Zhang
@@ -3279,7 +3279,7 @@ Requires:
 Required-by: Jinja2 Mako pandas-profiling
 ---
 Name: mashumaro
-Version: 2.9.1
+Version: 2.11
 Summary: Fast serialization framework on top of dataclasses
 Home-page: https://github.com/Fatal1ty/mashumaro
 Author: Alexander Tikhonov
@@ -3589,7 +3589,7 @@ Requires: jupyter-client nbformat nest-asyncio traitlets
 Required-by: nbconvert
 ---
 Name: nbconvert
-Version: 6.3.0
+Version: 6.4.0
 Summary: Converting Jupyter Notebooks
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3609,7 +3609,7 @@ Requires: ipython-genutils jsonschema jupyter-core traitlets
 Required-by: ipywidgets jupyter-server nbclient nbconvert nbsphinx notebook
 ---
 Name: nbsphinx
-Version: 0.8.7
+Version: 0.8.8
 Summary: Jupyter Notebook Tools for Sphinx
 Home-page: https://nbsphinx.readthedocs.io/
 Author: Matthias Geier
@@ -3626,7 +3626,7 @@ Author: Ewald R. de Wit
 Author-email: ewald.de.wit@gmail.com
 License: BSD
 Requires: 
-Required-by: ib-insync jupyter-client nbclient notebook
+Required-by: ib-insync ipykernel jupyter-client nbclient notebook
 ---
 Name: netCDF4
 Version: 1.5.8
@@ -4039,7 +4039,7 @@ Requires: PyYAML htmlmin jinja2 joblib markupsafe matplotlib missingno multimeth
 Required-by: pycaret
 ---
 Name: pandas-stubs
-Version: 1.2.0.39
+Version: 1.2.0.40
 Summary: Type annotations for Pandas
 Home-page: https://github.com/VirtusLab/pandas-stubs
 Author: Zbigniew Królikowski
@@ -4229,7 +4229,7 @@ Requires:
 Required-by: ipython
 ---
 Name: Pillow
-Version: 8.4.0
+Version: 9.0.0
 Summary: Python Imaging Library (Fork)
 Home-page: https://python-pillow.org
 Author: Alex Clark (PIL Fork Author)
@@ -4259,7 +4259,7 @@ Requires: pip
 Required-by: 
 ---
 Name: pipx
-Version: 0.17.0
+Version: 1.0.0
 Summary: Install and Run Python Applications in Isolated Environments
 Home-page: https://github.com/pypa/pipx
 Author: Chad Smith
@@ -4789,7 +4789,7 @@ Requires: deprecated pyjwt pynacl requests
 Required-by: 
 ---
 Name: Pygments
-Version: 2.11.0
+Version: 2.11.1
 Summary: Pygments is a syntax highlighting package written in Python.
 Home-page: https://pygments.org/
 Author: Georg Brandl
@@ -4899,7 +4899,7 @@ Requires:
 Required-by: 
 ---
 Name: pyod
-Version: 0.9.6
+Version: 0.9.7
 Summary: A Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
 Home-page: https://github.com/yzhao062/pyod
 Author: Yue Zhao
@@ -5209,7 +5209,7 @@ Requires:
 Required-by: agate
 ---
 Name: pytorch-lightning
-Version: 1.5.7
+Version: 1.5.8
 Summary: PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate.
 Home-page: https://github.com/PyTorchLightning/pytorch-lightning
 Author: William Falcon et al.
@@ -5409,7 +5409,7 @@ Requires:
 Required-by: bertviz nltk sacrebleu sacremoses transformers
 ---
 Name: requests
-Version: 2.26.0
+Version: 2.27.1
 Summary: Python HTTP for Humans.
 Home-page: https://requests.readthedocs.io
 Author: Kenneth Reitz
@@ -5419,12 +5419,12 @@ Requires: certifi charset-normalizer idna urllib3
 Required-by: Kivy-Garden Mastodon.py PyGithub Sphinx alpha-vantage analytics-python azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth databricks-cli datasets docker fastai google-api-core google-cloud-bigquery googletransx gradio h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle keras2onnx minimal-snowplow-tracker mixpanel mlflow msrest nilearn openai pandas-datareader pandas-finance pandas-profiling panel rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy stanza tensorboard tensorflow-datasets tf2onnx tiingo transformers wandb yfinance zeep
 ---
 Name: requests-cache
-Version: 0.8.1
+Version: 0.9.0
 Summary: A transparent persistent cache for the requests library
 Home-page: https://github.com/reclosedev/requests-cache
 Author: Roman Haritonov
 Author-email: 
-License: BSD License
+License: BSD-2-Clause
 Requires: appdirs attrs cattrs requests url-normalize urllib3
 Required-by: pandas-finance
 ---
@@ -5489,7 +5489,7 @@ Requires:
 Required-by: httpx
 ---
 Name: rich
-Version: 10.16.1
+Version: 10.16.2
 Summary: Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 Home-page: https://github.com/willmcgugan/rich
 Author: Will McGugan
@@ -5539,7 +5539,7 @@ Requires:
 Required-by: 
 ---
 Name: ruamel.yaml
-Version: 0.17.19
+Version: 0.17.20
 Summary: ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
 Home-page: https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree
 Author: Anthon van der Neut
@@ -5639,7 +5639,7 @@ Requires: numpy
 Required-by: ImageHash Theano catboost cvxpy dask-glm dask-ml datashader ecos empyrical fastai gensim imbalanced-learn jax kmodes lightgbm missingno mlxtend nilearn osqp pandas-profiling phik pmdarima py-vollib pyLDAvis pyfolio pynndescent pyod pyportfolioopt qdldl scikit-image scikit-learn scikit-plot scs seaborn statsmodels stumpy tf-models-official umap-learn xgboost yellowbrick
 ---
 Name: scs
-Version: 3.0.0
+Version: 3.0.1
 Summary: scs: splitting conic solver
 Home-page: http://github.com/cvxgrp/scs
 Author: Brendan O'Donoghue
@@ -5929,9 +5929,9 @@ Requires: colorama livereload sphinx
 Required-by: 
 ---
 Name: sphinx-autodoc-typehints
-Version: 1.12.0
+Version: 1.13.1
 Summary: Type hints (PEP 484) support for the Sphinx autodoc extension
-Home-page: UNKNOWN
+Home-page: https://github.com/tox-dev/sphinx-autodoc-typehints
 Author: Alex Grönholm
 Author-email: alex.gronholm@nextday.fi
 License: MIT
@@ -7209,7 +7209,7 @@ Requires: heapdict
 Required-by: distributed streamz
 ---
 Name: zipp
-Version: 3.6.0
+Version: 3.7.0
 Summary: Backport of pathlib-compatible object wrapper for zip files
 Home-page: https://github.com/jaraco/zipp
 Author: Jason R. Coombs
@@ -7239,7 +7239,7 @@ Requires: setuptools
 Required-by: pyramid rapids
 ---
 Name: zstd
-Version: 1.5.0.4
+Version: 1.5.1.0
 Summary: ZSTD Bindings for Python
 Home-page: https://github.com/sergey-dryabzhinsky/python-zstd
 Author: Sergey Dryabzhinsky, Anton Stuk
