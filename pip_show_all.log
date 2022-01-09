@@ -5579,7 +5579,7 @@ Requires: colorama numpy portalocker regex tabulate
 Required-by: tf-models-official
 ---
 Name: sacremoses
-Version: 0.0.46
+Version: 0.0.47
 Summary: SacreMoses
 Home-page: https://github.com/alvations/sacremoses
 Author: UNKNOWN
