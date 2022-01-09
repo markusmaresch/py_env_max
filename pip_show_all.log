@@ -1136,7 +1136,7 @@ Author: Robert Bradshaw, Stefan Behnel, Dag Seljebotn, Greg Ewing, et al.
 Author-email: cython-devel@python.org
 License: Apache
 Requires: 
-Required-by: asynq pmdarima prophet pycocotools pystan qcore tf-models-official
+Required-by: asynq pmdarima prophet pystan qcore tf-models-official
 ---
 Name: cytoolz
 Version: 0.11.2
@@ -1679,7 +1679,7 @@ Requires: pydantic starlette
 Required-by: 
 ---
 Name: fastavro
-Version: 1.4.8
+Version: 1.4.9
 Summary: Fast read/write of AVRO files
 Home-page: https://github.com/fastavro/fastavro
 Author: Miki Tebeka
@@ -3766,7 +3766,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: ImageHash Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost cftime cmdstanpy colormath cufflinks cvxpy dask-ml datasets datashader datashape ecos elegantrl empyrical eventkit exchange-calendars fastprogress finta gensim gradio gym h5py holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: ImageHash Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost cftime cmdstanpy colormath cufflinks cvxpy dask-ml datasets datashader datashape ecos elegantrl empyrical eventkit exchange-calendars fastprogress finta gensim gradio gym h5py holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -4079,7 +4079,7 @@ Requires:
 Required-by: colorcet datashader holoviews panel pyct pyviz-comms
 ---
 Name: paramiko
-Version: 2.9.1
+Version: 2.9.2
 Summary: SSH2 protocol library
 Home-page: https://paramiko.org
 Author: Jeff Forcier
@@ -4609,13 +4609,13 @@ Requires: IPython catboost cufflinks gensim imbalanced-learn ipywidgets joblib k
 Required-by: 
 ---
 Name: pycocotools
-Version: 2.0.3
+Version: 2.0.4
 Summary: Official APIs for the MS-COCO dataset
 Home-page: https://github.com/ppwwyyxx/cocoapi
 Author: 
 Author-email: 
 License: FreeBSD
-Requires: cython matplotlib setuptools
+Requires: matplotlib numpy
 Required-by: tf-models-official
 ---
 Name: pycodestyle
@@ -5716,7 +5716,7 @@ Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy Sphinx celery cufflinks distributed google-api-core google-auth gunicorn ipython jupyter-packaging mlxtend numba plaster pmdarima pycocotools pyinstaller pyramid python-daemon rapids setuptools-scm spacy streamz tensorboard thinc zope.deprecation zope.interface
+Required-by: Fiona PasteDeploy Sphinx celery cufflinks distributed google-api-core google-auth gunicorn ipython jupyter-packaging mlxtend numba plaster pmdarima pyinstaller pyramid python-daemon rapids setuptools-scm spacy streamz tensorboard thinc zope.deprecation zope.interface
 ---
 Name: setuptools-git
 Version: 1.2

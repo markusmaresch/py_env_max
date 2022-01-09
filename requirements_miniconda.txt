@@ -89,6 +89,7 @@ visions==0.7.4 # LEVEL_04 # LOCKED # pandas-profiling 3.1.0 requires visions[typ
 #
 backoff==1.10.0 # LEVEL_01 # LOCKED # analytics-python requires 1.10.0 # Function decoration for backoff and retry
 #
+fastapi==0.70.0 # LEVEL_04 # LOCKED # dependencies do not resolve ?? # FastAPI framework, high performance, easy to learn, fast to code, ready for production
 starlette==0.16.0 # LEVEL_03 # LOCKED # needed by fastapi # The little ASGI library that shines
 #
 flatbuffers==1.12 # LEVEL_01 # LOCKED # The FlatBuffers serialization format for Python
@@ -672,7 +673,7 @@ multimethod==1.6 # LEVEL_01 # Multiple argument dispatching
 
 aiodns==3.0.0 # LEVEL_04 # Simple DNS resolver for asyncio
 aiohttp-socks==0.7.1 # LEVEL_04 # Proxy connector for aiohttp
-pycocotools==2.0.3 # LEVEL_04 # Official APIs for the MS-COCO dataset
+pycocotools==2.0.4 # LEVEL_04 # Official APIs for the MS-COCO dataset
 #
 aenum==3.1.5 # LEVEL_01 # Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
 aiohttp==3.8.1 # LEVEL_03 # Async http client/server framework (asyncio)
@@ -912,7 +913,7 @@ dlpack==0.1 # LEVEL_01 # Machine learning for systems
 #
 faiss-cpu==1.7.1.post3 # LEVEL_01 # A library for efficient similarity search and clustering of dense vectors
 #
-fastavro==1.4.8 # LEVEL_01 # Fast read/write of AVRO files
+fastavro==1.4.9 # LEVEL_01 # Fast read/write of AVRO files
 #
 Fiona==1.8.20 # LEVEL_03 # Fiona reads and writes spatial data files
 munch==2.5.0 # LEVEL_02 # A dot-accessible dictionary (a la JavaScript objects)
@@ -1026,8 +1027,7 @@ vine==5.0.0 # LEVEL_01 # Promises, promises, promises
 
 flower==1.0.0 # LEVEL_05 # Celery Flower
 gradio==2.7.0 # LEVEL_05 # Python library for easily interacting with trained machine learning models
-paramiko==2.9.1 # LEVEL_04 # SSH2 protocol library
-fastapi==0.70.0 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
+paramiko==2.9.2 # LEVEL_04 # SSH2 protocol library
 celery==5.2.3 # LEVEL_04 # Distributed Task Queue
 analytics-python==1.4.0 # LEVEL_03 # The hassle-free way to integrate analytics into any python application
 click-repl==0.2.0 # LEVEL_03 # REPL plugin for Click
