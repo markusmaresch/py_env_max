@@ -576,6 +576,8 @@ sphinxcontrib-htmlhelp==2.0.0 # LEVEL_01 # sphinxcontrib-htmlhelp is a sphinx ex
 sphinxcontrib-jsmath==1.0.1 # LEVEL_01 # A sphinx extension which renders display math in HTML via JavaScript
 sphinxcontrib-qthelp==1.0.3 # LEVEL_01 # sphinxcontrib-qthelp is a sphinx extension which outputs QtHelp document
 sphinxcontrib-serializinghtml==1.1.5 # LEVEL_01 # sphinxcontrib-serializinghtml is a sphinx extension which outputs "serialized" HTML files (json and pickle)
+alabaster==0.7.12 # LEVEL_01 # A configurable sidebar-enabled Sphinx theme
+recommonmark==0.7.1 # LEVEL_04 # A docutils-compatibility bridge to CommonMark, enabling you to write CommonMark inside of Docutils & Sphinx projects
 #
 
 #
@@ -851,7 +853,6 @@ tiledb==0.11.5 # LEVEL_03 # Pythonic interface to the TileDB array storage manag
 xarray==0.20.2 # LEVEL_04 # N-D labeled arrays and datasets in Python
 zstd==1.5.1.0 # LEVEL_01 # ZSTD Bindings for Python
 #
-alabaster==0.7.12 # LEVEL_01 # A configurable sidebar-enabled Sphinx theme
 async-generator==1.10 # LEVEL_01 # Async generators and context managers for Python 3.5+
 iniconfig==1.1.1 # LEVEL_01 # iniconfig: brain-dead simple config-ini parsing
 mock==4.0.3 # LEVEL_01 # Rolling backport of unittest.mock for all Pythons
@@ -1001,7 +1002,6 @@ pathtools==0.1.2 # LEVEL_01 # File system general utilities
 shortuuid==1.0.8 # LEVEL_01 # A generator library for concise, unambiguous and URL-safe UUIDs
 subprocess32==3.5.4 # LEVEL_01 # A backport of the subprocess module from Python 3 for use on 2.x
 #
-recommonmark==0.7.1 # LEVEL_04 # A docutils-compatibility bridge to CommonMark, enabling you to write CommonMark inside of Docutils & Sphinx projects
 livereload==2.6.3 # LEVEL_02 # Python LiveReload is an awesome tool for web developers
 #
 langcodes==3.3.0 # LEVEL_01 # Tools for labeling human languages with IETF language tags
