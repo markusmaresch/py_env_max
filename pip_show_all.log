@@ -1669,7 +1669,7 @@ Requires: fastcore fastdownload fastprogress matplotlib packaging pandas pillow 
 Required-by: 
 ---
 Name: fastapi
-Version: 0.70.0
+Version: 0.71.0
 Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
 Home-page: https://github.com/tiangolo/fastapi
 Author: Sebastián Ramírez
@@ -6079,7 +6079,7 @@ Requires: emoji numpy protobuf requests six torch tqdm
 Required-by: 
 ---
 Name: starlette
-Version: 0.16.0
+Version: 0.17.1
 Summary: The little ASGI library that shines.
 Home-page: https://github.com/encode/starlette
 Author: Tom Christie

@@ -89,9 +89,6 @@ visions==0.7.4 # LEVEL_04 # LOCKED # pandas-profiling 3.1.0 requires visions[typ
 #
 backoff==1.10.0 # LEVEL_01 # LOCKED # analytics-python requires 1.10.0 # Function decoration for backoff and retry
 #
-fastapi==0.70.0 # LEVEL_04 # LOCKED # dependencies do not resolve ?? # FastAPI framework, high performance, easy to learn, fast to code, ready for production
-starlette==0.16.0 # LEVEL_03 # LOCKED # needed by fastapi # The little ASGI library that shines
-#
 flatbuffers==1.12 # LEVEL_01 # LOCKED # The FlatBuffers serialization format for Python
 #
 cachetools==4.2.4 # LEVEL_01 # LOCKED # google-auth 2.3.3 requires it # Extensible memoizing collections and decorators
@@ -104,6 +101,9 @@ pydantic==1.8.2 # LEVEL_02 # LOCKED # thinc 8.0.13; spacy 3.2.1 require pydantic
 #
 #
 # Former LOCKED .. now freed ;-)
+#
+fastapi==0.71.0 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
+starlette==0.17.1 # LEVEL_03 # The little ASGI library that shines
 #
 Deprecated==1.2.13 # LEVEL_02 # Python @deprecated decorator to deprecate old python classes, functions or methods
 typing_extensions==4.0.1 # LEVEL_01 # Backported and Experimental Type Hints for Python 3.6+
