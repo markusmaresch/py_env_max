@@ -126,7 +126,7 @@ importlib-metadata==4.10.0 # LEVEL_02 # INTERNAL # Read metadata from Python pac
 # Generic Low Level Tools
 #
 httpcore==0.14.4 # LEVEL_03 # A minimal low-level HTTP client
-httpx==0.21.2 # LEVEL_04 # The next generation HTTP client
+httpx==0.21.3 # LEVEL_04 # The next generation HTTP client
 seaborn==0.11.2 # LEVEL_04 # seaborn: statistical data visualization
 matplotlib==3.5.1 # LEVEL_03 # Python plotting package
 scipy==1.7.3 # LEVEL_02 # SciPy: Scientific Library for Python
@@ -170,7 +170,7 @@ tensorflow-estimator==2.7.0 # LEVEL_01 # TensorFlow Estimator
 keras==2.7.0 # LEVEL_01 # Deep learning for humans
 #
 tensorboard-data-server==0.6.1 # LEVEL_01 # Fast data loading for TensorBoard
-tensorboard-plugin-wit==1.8.0 # LEVEL_01 # What-If Tool TensorBoard plugin
+tensorboard-plugin-wit==1.8.1 # LEVEL_01 # What-If Tool TensorBoard plugin
 #
 tensorflow-datasets==4.4.0 # LEVEL_04 # tensorflow/datasets is a library of datasets ready to use with TensorFlow
 tensorflow-metadata==1.5.0 # LEVEL_03 # Library and standards for schema and statistics
@@ -237,7 +237,7 @@ umap-learn==0.5.2 # LEVEL_05 # Uniform Manifold Approximation and Projection
 yellowbrick==1.3.post1 # LEVEL_04 # A suite of visual analysis and diagnostic tools for machine learning
 pynndescent==0.5.5 # LEVEL_04 # Nearest Neighbor Descent
 kmodes==0.11.1 # LEVEL_04 # Python implementations of the k-modes and k-prototypes clustering algorithms for clustering categorical data
-lightgbm==3.3.1 # LEVEL_04 # LightGBM Python Package
+lightgbm==3.3.2 # LEVEL_04 # LightGBM Python Package
 #
 rapidminer==9.10.0.0 # LEVEL_05 # Tools for running RapidMiner processes and managing RapidMiner repositories
 
@@ -304,7 +304,7 @@ snowballstemmer==2.2.0 # LEVEL_01 # This package provides 29 stemmers for 28 lan
 #
 streamz==0.6.3 # LEVEL_03 # Streams
 #
-confluent-kafka==1.7.0 # LEVEL_01 # Confluent's Python client for Apache Kafka
+confluent-kafka==1.8.2 # LEVEL_01 # Confluent's Python client for Apache Kafka
 #
 imbalanced-learn==0.8.1 # LEVEL_04 # Toolbox for imbalanced dataset in machine learning
 kaggle==1.5.12 # LEVEL_03 # Kaggle API
@@ -369,7 +369,7 @@ oandapyV20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console # Python wra
 #
 py-vollib==1.0.1 # LEVEL_04 # option pricing
 robin-stocks==2.1.0 # LEVEL_04 # A Python wrapper around the Robinhood API
-stockstats==0.3.2 # LEVEL_04 # DataFrame with inline stock statistics support
+stockstats==0.4.1 # LEVEL_04 # DataFrame with inline stock statistics support
 pyportfolioopt==1.5.1 # LEVEL_06 # Financial portfolio optimization in python
 #
 #
@@ -398,7 +398,7 @@ selenium==4.1.0 # LEVEL_05 #
 #
 cvxpy==1.1.18 # LEVEL_05 # A domain-specific language for modeling convex optimization problems in Python
 ecos==2.0.10 # LEVEL_03 # This is the Python package for ECOS: Embedded Cone Solver. See Github page for more information
-osqp==0.6.2.post4 # LEVEL_04 # OSQP: The Operator Splitting QP Solver
+osqp==0.6.2.post5 # LEVEL_04 # OSQP: The Operator Splitting QP Solver
 qdldl==0.1.5.post0 # LEVEL_03 # QDLDL, a free LDL factorization routine
 scs==3.0.1 # LEVEL_03 # scs: splitting conic solver
 
@@ -406,7 +406,7 @@ scs==3.0.1 # LEVEL_03 # scs: splitting conic solver
 # GUI & Visualization
 #
 QtPy==2.0.0 # LEVEL_03 # Provides an abstraction layer on top of the various Qt bindings (PyQt5/6 and PySide2/6)
-PySimpleGUI==4.55.1 # LEVEL_01 # Python GUIs for Humans. Launched in 2018. It's 2021 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers
+PySimpleGUI==4.56.0 # LEVEL_01 # Python GUIs for Humans. Launched in 2018. It's 2022 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers
 PyQt5==5.15.6 # LEVEL_02 # Python bindings for the Qt cross platform application toolkit
 PyQt5-Qt5==5.15.2 # LEVEL_01 # The subset of a Qt installation needed by PyQt5
 PyQt5-sip==12.9.0 # LEVEL_01 # The sip module support for PyQt5
@@ -415,7 +415,7 @@ glib==1.0.0 # LEVEL_01 # A python graphics library that piggy-backs off of pyqt5
 #
 PyOpenGL==3.1.5 # LEVEL_01 # for PySpace # Standard OpenGL bindings for Python
 pygame==2.1.2 # LEVEL_01 # Python Game Development
-Pygments==2.11.1 # LEVEL_01 # Pygments is a syntax highlighting package written in Python
+Pygments==2.11.2 # LEVEL_01 # Pygments is a syntax highlighting package written in Python
 pydot==1.4.2 # LEVEL_02 # Python interface to Graphviz's Dot
 networkx==2.6.3 # LEVEL_01 # Python package for creating and manipulating graphs and networks
 # pysimpleguiqt>=0.35.0
@@ -483,12 +483,12 @@ azure-storage-blob==12.9.0 # LEVEL_05 # Microsoft Azure Blob Storage Client Libr
 azure-core==1.21.1 # LEVEL_03 # Microsoft Azure Core Library for Python
 azure-common==1.1.27 # LEVEL_01 # Microsoft Azure Client Library for Python (Common)
 smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)
-uamqp==1.4.3 # LEVEL_02 # AMQP 1.0 Client Library for Python
+uamqp==1.5.0 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.20.28  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.20.31  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.23.28 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.23.31 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -496,9 +496,9 @@ boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 #
 jupyter-bokeh==3.0.4 # LEVEL_09 # A Jupyter extension for rendering Bokeh content
 jupyter==1.0.0 # LEVEL_09 # Jupyter metapackage. Install all the Jupyter components in one go
-jupyterlab==3.2.5 # LEVEL_08 # JupyterLab computational environment
+jupyterlab==3.2.6 # LEVEL_08 # JupyterLab computational environment
 jupyter-server-proxy==3.2.0 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
-jupyterlab-server==2.10.2 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
+jupyterlab-server==2.10.3 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.0 # LEVEL_06 # Dash support for the Jupyter notebook interface
 jupyter-server==1.13.1 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-console==6.4.0 # LEVEL_05 # Jupyter terminal console
@@ -566,7 +566,7 @@ pydata-sphinx-theme==0.7.2 # LEVEL_04 # Bootstrap-based Sphinx theme from the Py
 sphinx-autobuild==2021.3.14 # LEVEL_04 # Rebuild Sphinx documentation on changes, with live-reload in the browser
 sphinx-rtd-theme==1.0.0 # LEVEL_04 # Read the Docs theme for Sphinx
 sphinx-panels==0.6.0 # LEVEL_04 # A sphinx extension for creating panels in a grid layout
-sphinx-autodoc-typehints==1.13.1 # LEVEL_04 # Type hints (PEP 484) support for the Sphinx autodoc extension
+sphinx-autodoc-typehints==1.14.1 # LEVEL_04 # Type hints (PEP 484) support for the Sphinx autodoc extension
 Sphinx==4.3.2 # LEVEL_03 # Python documentation generator
 sphinx-markdown-tables==0.0.15 # LEVEL_04 # A Sphinx extension for rendering tables written in markdown
 sphinxcontrib-applehelp==1.0.2 # LEVEL_01 # sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books
@@ -596,9 +596,9 @@ cssselect2==0.4.1 # LEVEL_03 # cssselect2
 pytest-asyncio==0.16.0 # LEVEL_04 # Pytest support for asyncio
 pytest==6.2.5 # LEVEL_03 # pytest: simple powerful testing with Python
 pyanalyze==0.5.0 # LEVEL_04 # A static analyzer for Python
-pytype==2021.12.15 # LEVEL_04 # Python type inferencer
+pytype==2022.1.7 # LEVEL_04 # Python type inferencer
 flake8==4.0.1 # LEVEL_02 # better linter than pyflakes # the modular source code checker: pep8 pyflakes and co
-mypy==0.930 # LEVEL_02 # Optional static typing for Python
+mypy==0.931 # LEVEL_02 # Optional static typing for Python
 mypy-extensions==0.4.3 # LEVEL_01 # Experimental type system extensions for programs checked with the mypy typechecker
 autopep8==1.6.0 # LEVEL_02 # using fix_file # A tool that automatically formats Python code to conform to the PEP 8 style guide
 memory-profiler==0.60.0 # LEVEL_02 # A module for monitoring memory usage of a python program
@@ -702,7 +702,7 @@ croniter==1.1.0 # LEVEL_03 # croniter provides iteration for datetime object wit
 cycler==0.11.0 # LEVEL_01 # Composable style cycles
 cymem==2.0.6 # LEVEL_01 # Manage calls to calloc/free through Cython
 debugpy==1.5.1 # LEVEL_01 # An implementation of the Debug Adapter Protocol for Python
-decorator==5.1.0 # LEVEL_01 # Decorators for Humans
+decorator==5.1.1 # LEVEL_01 # Decorators for Humans
 defusedxml==0.7.1 # LEVEL_01 # XML bomb protection for Python stdlib modules
 deprecation==2.1.0 # LEVEL_03 # A library to handle automated deprecations
 dill==0.3.4 # LEVEL_01 # serialize all of python
@@ -813,7 +813,7 @@ typer==0.4.0 # LEVEL_02 # Typer, build great CLIs. Easy to code. Based on Python
 typing-inspect==0.7.1 # LEVEL_02 # Runtime inspection utilities for typing module
 ua-parser==0.10.0 # LEVEL_01 # Python port of Browserscope's user agent parser
 Unidecode==1.3.2 # LEVEL_01 # ASCII transliterations of Unicode text
-urllib3==1.26.7 # LEVEL_01 # HTTP library with thread-safe connection pooling, file post, and more
+urllib3==1.26.8 # LEVEL_01 # HTTP library with thread-safe connection pooling, file post, and more
 url-normalize==1.4.3 # LEVEL_02 # URL normalization for Python
 wasabi==0.9.0 # LEVEL_01 # A lightweight console printing and formatting toolkit
 wcwidth==0.2.5 # LEVEL_01 # Measures the displayed width of unicode strings in a terminal
@@ -865,7 +865,7 @@ wsproto==1.0.0 # LEVEL_02 # WebSockets state-machine based protocol implementati
 validators==0.18.2 # LEVEL_02 # Python Data Validation for Humans™
 #
 PyGithub==1.55 # LEVEL_04 # Use the full Github API v3
-GitPython==3.1.24 # LEVEL_03 # GitPython is a python library used to interact with Git repositories
+GitPython==3.1.25 # LEVEL_03 # GitPython is a python library used to interact with Git repositories
 gitdb==4.0.9 # LEVEL_02 # Git Object Database
 #
 #
@@ -1027,7 +1027,7 @@ vine==5.0.0 # LEVEL_01 # Promises, promises, promises
 flower==1.0.0 # LEVEL_05 # Celery Flower
 gradio==2.7.0 # LEVEL_05 # Python library for easily interacting with trained machine learning models
 paramiko==2.9.1 # LEVEL_04 # SSH2 protocol library
-fastapi==0.70.1 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
+fastapi==0.70.0 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
 celery==5.2.3 # LEVEL_04 # Distributed Task Queue
 analytics-python==1.4.0 # LEVEL_03 # The hassle-free way to integrate analytics into any python application
 click-repl==0.2.0 # LEVEL_03 # REPL plugin for Click
