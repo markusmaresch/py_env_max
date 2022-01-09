@@ -119,7 +119,7 @@ pyparsing==3.0.6 # LEVEL_01 # Python parsing module
 #
 # Internal .. needed early by this system
 #
-pipdeptree==2.2.0 # LEVEL_02 # INTERNAL # Command line utility to show dependency tree of packages
+pipdeptree==2.2.1 # LEVEL_02 # INTERNAL # Command line utility to show dependency tree of packages
 importlib-metadata==4.10.0 # LEVEL_02 # INTERNAL # Read metadata from Python packages
 
 #
@@ -148,7 +148,7 @@ XlsxWriter==3.0.2 # LEVEL_01 # needed for pandas XLSX # A Python module for crea
 #
 # Super Collectors .. building on others
 #
-elegantrl==0.3.2 # LEVEL_04 # Lightweight, Efficient and Stable DRL Implementation Using PyTorch
+elegantrl==0.3.3 # LEVEL_04 # Lightweight, Efficient and Stable DRL Implementation Using PyTorch
 box2d-py==2.3.8 # LEVEL_01 # Python Box2D
 #
 #finrl==0.3.1 # LEVEL_05 # may cause all sorts of issues
@@ -380,7 +380,7 @@ bcrypt==3.2.0 # LEVEL_03 # Modern password hashing for your software and your se
 argon2-cffi-bindings==21.2.0 # LEVEL_03 # Low-level CFFI bindings for Argon2
 cryptography==36.0.1 # LEVEL_03 # cryptography is a package which provides cryptographic recipes and primitives to Python developers
 keyring==23.5.0 # LEVEL_03 # Store and access your passwords safely
-PyNaCl==1.4.0 # LEVEL_03 # Python binding to the Networking and Cryptography (NaCl) library
+PyNaCl==1.5.0 # LEVEL_03 # Python binding to the Networking and Cryptography (NaCl) library
 oscrypto==1.2.1 # LEVEL_02 # TLS (SSL) sockets, key generation, encryption, decryption, signing, verification and KDFs using the OS crypto libraries. Does not require a compiler, and relies on the OS for patching. Works on Windows, OS X and Linux/BSD
 pyotp==2.6.0 # LEVEL_01 # Python One Time Password Library
 pycryptodomex==3.12.0 # LEVEL_01 # Cryptographic library for Python
@@ -453,7 +453,7 @@ spectra==0.0.11 # LEVEL_03 # old # Color scales and color conversion made easy f
 colorcet==3.0.0 # LEVEL_03 # Collection of perceptually uniform colormaps
 colormath==3.0.0 # LEVEL_02 # not maintained # Color math and conversion library
 blessings==1.7 # LEVEL_02 # old # A thin, practical wrapper around terminal coloring, styling, and positioning
-rich==10.16.2 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+rich==11.0.0 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 colorama==0.4.4 # LEVEL_01 # Cross-platform colored terminal text
 termcolor==1.1.0 # LEVEL_01 # OLD !! # ANSII Color formatting for output in terminal
 colorful==0.5.4 # LEVEL_01 # old # Terminal string styling done right, in Python
@@ -626,7 +626,7 @@ pipx==1.0.0 # LEVEL_03 # Install and Run Python Applications in Isolated Environ
 docker==5.0.3 # LEVEL_03 # A Python library for the Docker Engine API
 docker-pycreds==0.4.0 # LEVEL_02 # Python bindings for the docker credentials store API
 pyinstaller==4.7 # LEVEL_03 # PyInstaller bundles a Python application and all its dependencies into a single package
-pyinstaller-hooks-contrib==2021.4 # LEVEL_01 # deployment # Community maintained hooks for PyInstaller
+pyinstaller-hooks-contrib==2021.5 # LEVEL_01 # deployment # Community maintained hooks for PyInstaller
 
 # Packages
 importlib-resources==5.4.0 # LEVEL_02 # Read resources from Python packages
@@ -651,7 +651,7 @@ cloudscraper==1.2.58 # LEVEL_04 # A Python module to bypass Cloudflare's anti-bo
 libclang==12.0.0 # LEVEL_01 # Clang Python Bindings, mirrored from the official LLVM repo: https://github.com/llvm/llvm-project/tree/main/clang/bindings/python, to make the installation process easier
 #
 pydeps==1.10.12 # LEVEL_02 # cd src/main; pydeps .; open main.svg # Display module dependencies
-importlab==0.6.1 # LEVEL_02 # A library to calculate python dependency graphs
+importlab==0.7 # LEVEL_02 # A library to calculate python dependency graphs
 libcst==0.3.23 # LEVEL_03 # A concrete syntax tree with AST-like properties for Python 3.5, 3.6, 3.7 and 3.8 programs
 ninja==1.10.2.3 # LEVEL_01 # Ninja is a small build system with a focus on speed
 #

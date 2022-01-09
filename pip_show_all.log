@@ -1549,7 +1549,7 @@ Requires: certifi urllib3
 Required-by: twint
 ---
 Name: elegantrl
-Version: 0.3.2
+Version: 0.3.3
 Summary: Lightweight, Efficient and Stable DRL Implementation Using PyTorch
 Home-page: https://github.com/AI4Finance-LLC/ElegantRL
 Author: Xiaoyang Liu, Steven Li, Hongyang Yang, Jiahao Zheng
@@ -2559,7 +2559,7 @@ Requires: joblib numpy scikit-learn scipy
 Required-by: pycaret
 ---
 Name: importlab
-Version: 0.6.1
+Version: 0.7
 Summary: A library to calculate python dependency graphs.
 Home-page: https://github.com/google/importlab
 Author: 
@@ -4249,7 +4249,7 @@ Requires:
 Required-by: fastai fastcore pipdeptree
 ---
 Name: pipdeptree
-Version: 2.2.0
+Version: 2.2.1
 Summary: Command line utility to show dependency tree of packages
 Home-page: https://github.com/naiquevin/pipdeptree
 Author: Vineet Naik
@@ -4809,7 +4809,7 @@ Requires: altgraph macholib pyinstaller-hooks-contrib setuptools
 Required-by: 
 ---
 Name: pyinstaller-hooks-contrib
-Version: 2021.4
+Version: 2021.5
 Summary: Community maintained hooks for PyInstaller
 Home-page: https://github.com/pyinstaller/pyinstaller-hooks-contrib
 Author: 
@@ -4869,13 +4869,13 @@ Requires:
 Required-by: jqdatasdk
 ---
 Name: PyNaCl
-Version: 1.4.0
+Version: 1.5.0
 Summary: Python binding to the Networking and Cryptography (NaCl) library
 Home-page: https://github.com/pyca/pynacl/
 Author: The PyNaCl developers
 Author-email: cryptography-dev@python.org
 License: Apache License 2.0
-Requires: cffi six
+Requires: cffi
 Required-by: PyGithub paramiko
 ---
 Name: pynndescent
@@ -5489,7 +5489,7 @@ Requires:
 Required-by: httpx
 ---
 Name: rich
-Version: 10.16.2
+Version: 11.0.0
 Summary: Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 Home-page: https://github.com/willmcgugan/rich
 Author: Will McGugan
@@ -5796,7 +5796,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py PyNaCl Theano absl-py agate analytics-python astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client onnx patsy plotly promise pyOpenSSL pyod python-dateutil querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb
+Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client onnx patsy plotly promise pyOpenSSL pyod python-dateutil querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb
 ---
 Name: smart-open
 Version: 5.2.1
