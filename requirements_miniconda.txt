@@ -156,7 +156,7 @@ box2d-py==2.3.8 # LEVEL_01 # Python Box2D
 #ccxt==1.58.26 # LEVEL_01
 #
 wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
-ray==1.9.1 # LEVEL_04 # Ray provides a simple, universal API for building distributed applications
+ray==1.9.2 # LEVEL_04 # Ray provides a simple, universal API for building distributed applications
 redis==4.1.0 # LEVEL_03 # Python client for Redis database and key-value store
 lz4==3.1.10 # LEVEL_01 # LZ4 Bindings for Python
 GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status from NVIDA GPUs using nvidia-smi
@@ -190,7 +190,7 @@ params-flow==0.8.2 # LEVEL_02 # Tensorflow Keras utilities for reducing boilerpl
 Keras-Preprocessing==1.1.2 # LEVEL_02 # Easy data preprocessing and data augmentation for deep learning models
 #
 datasets==1.17.0 # LEVEL_04 # HuggingFace community-driven open-source library of datasets
-huggingface-hub==0.2.1 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
+huggingface-hub==0.4.0 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
 #
 xgboost==1.5.1 # LEVEL_03 # check installation notes # XGBoost Python Package
 #
@@ -307,7 +307,7 @@ streamz==0.6.3 # LEVEL_03 # Streams
 #
 confluent-kafka==1.8.2 # LEVEL_01 # Confluent's Python client for Apache Kafka
 #
-imbalanced-learn==0.8.1 # LEVEL_04 # Toolbox for imbalanced dataset in machine learning
+imbalanced-learn==0.9.0 # LEVEL_04 # Toolbox for imbalanced dataset in machine learning
 kaggle==1.5.12 # LEVEL_03 # Kaggle API
 #
 agate==1.6.3 # LEVEL_03 # A data analysis library that is optimized for humans instead of machines
@@ -393,7 +393,7 @@ pycryptodome==3.12.0 # LEVEL_01 # Cryptographic library for Python
 Authlib==0.15.5 # LEVEL_04 # The ultimate Python library in building OAuth and OpenID Connect servers
 h11==0.12.0 # LEVEL_01 # A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
 python-dotenv==0.19.2 # LEVEL_01 # Read key-value pairs from a .env file and set them as environment variables
-rfc3986==1.5.0 # LEVEL_01 # Validating URI References per RFC 3986
+rfc3986==1.5.0 # LEVEL_01 # LOCKED # sphinx_autodoc_typehints-1.15.2 requires <2,>=1.3 # Validating URI References per RFC 3986
 selenium==4.1.0 # LEVEL_05 #
 #
 #
@@ -487,9 +487,9 @@ smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, A
 uamqp==1.5.0 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.20.31  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.20.32  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.23.31 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.23.32 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -511,7 +511,7 @@ jupyterlab-widgets==1.0.2 # LEVEL_01 # A JupyterLab extension
 #
 ipywidgets==7.6.5 # LEVEL_08 # IPython HTML widgets for Jupyter
 widgetsnbextension==3.5.2 # LEVEL_07 # IPython HTML widgets for Jupyter
-nbclassic==0.3.4 # LEVEL_07 # Jupyter Notebook as a Jupyter Server extension
+nbclassic==0.3.5 # LEVEL_07 # Jupyter Notebook as a Jupyter Server extension
 notebook==6.4.6 # LEVEL_06 # A web-based notebook environment for interactive computing
 nbsphinx==0.8.8 # LEVEL_06 # Jupyter Notebook Tools for Sphinx
 nbconvert==6.4.0 # LEVEL_05 # Converting Jupyter Notebooks
@@ -525,7 +525,7 @@ matplotlib-inline==0.1.3 # LEVEL_02 # Inline Matplotlib backend for Jupyter
 #
 # Django
 #
-django-cors-headers==3.10.1 # LEVEL_03 # django-cors-headers is a Django application for handling the server headers required for Cross-Origin Resource Sharing (CORS)
+django-cors-headers==3.11.0 # LEVEL_03 # django-cors-headers is a Django application for handling the server headers required for Cross-Origin Resource Sharing (CORS)
 django-extensions==3.1.5 # LEVEL_03 # Extensions for Django
 django-http-exceptions==1.4.0 # LEVEL_03 # django raisable http exceptions
 django-model-utils==4.2.0 # LEVEL_03 # Django model mixins and utilities
@@ -567,7 +567,7 @@ pydata-sphinx-theme==0.7.2 # LEVEL_04 # Bootstrap-based Sphinx theme from the Py
 sphinx-autobuild==2021.3.14 # LEVEL_04 # Rebuild Sphinx documentation on changes, with live-reload in the browser
 sphinx-rtd-theme==1.0.0 # LEVEL_04 # Read the Docs theme for Sphinx
 sphinx-panels==0.6.0 # LEVEL_04 # A sphinx extension for creating panels in a grid layout
-sphinx-autodoc-typehints==1.14.1 # LEVEL_04 # Type hints (PEP 484) support for the Sphinx autodoc extension
+sphinx-autodoc-typehints==1.15.2 # LEVEL_04 # Type hints (PEP 484) support for the Sphinx autodoc extension
 Sphinx==4.3.2 # LEVEL_03 # Python documentation generator
 sphinx-markdown-tables==0.0.15 # LEVEL_04 # A Sphinx extension for rendering tables written in markdown
 sphinxcontrib-applehelp==1.0.2 # LEVEL_01 # sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books
@@ -682,7 +682,7 @@ aiohttp==3.8.1 # LEVEL_03 # Async http client/server framework (asyncio)
 async-timeout==4.0.2 # LEVEL_01 # Timeout context manager for asyncio programs
 aioredis==2.0.1 # 1.3.1 # LEVEL_02 # asyncio (PEP 3156) Redis support
 altgraph==0.17.2 # LEVEL_01 # Python graph (network) package
-anyio==3.4.0 # LEVEL_02 # High level compatibility layer for multiple asynchronous event loop implementations
+anyio==3.5.0 # LEVEL_02 # High level compatibility layer for multiple asynchronous event loop implementations
 appdirs==1.4.4 # LEVEL_01 # A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir"
 appnope==0.1.2 # LEVEL_01 # Disable App Nap on macOS >= 10.9
 ast-decompiler==0.4.0 # LEVEL_01 # Python module to decompile AST to Python code
@@ -717,7 +717,7 @@ et-xmlfile==1.1.0 # LEVEL_01 # An implementation of lxml.xmlfile for the standar
 eventkit==0.8.9 # LEVEL_02 # Event-driven data pipelines
 fake-useragent==0.1.11 # LEVEL_01 # Up to date simple useragent faker with real world database
 freetype-py==2.2.0 # LEVEL_01 # Freetype python bindings
-fsspec==2021.11.1 # LEVEL_01 # File-system specification
+fsspec==2022.1.0 # LEVEL_01 # File-system specification
 future==0.18.2 # LEVEL_01 # Clean single-source support for Python 3 and 2
 geographiclib==1.52 # LEVEL_01 # The geodesic routines from GeographicLib
 geopy==2.2.0 # LEVEL_02 # Python Geocoding Toolbox
@@ -761,7 +761,7 @@ prometheus-client==0.12.0 # LEVEL_01 # Python client for the Prometheus monitori
 promise==2.3 # LEVEL_02 # Promises/A+ implementation for Python
 prompt-toolkit==3.0.24 # LEVEL_02 # Library for building powerful interactive command lines in Python
 proto-plus==1.19.8 # LEVEL_02 # Beautiful, Pythonic protocol buffers
-protobuf==3.19.1 # LEVEL_01 # Protocol Buffers
+protobuf==3.19.3 # LEVEL_01 # Protocol Buffers
 psutil==5.9.0 # LEVEL_01 # Cross-platform lib for process and system monitoring in Python
 ptyprocess==0.7.0 # LEVEL_01 # Run a subprocess in a pseudo terminal
 py-cpuinfo==8.0.0 # LEVEL_01 # Get CPU info with pure Python 2 & 3
@@ -875,7 +875,7 @@ wsproto==1.0.0 # LEVEL_02 # WebSockets state-machine based protocol implementati
 validators==0.18.2 # LEVEL_02 # Python Data Validation for Humans™
 #
 PyGithub==1.55 # LEVEL_04 # Use the full Github API v3
-GitPython==3.1.25 # LEVEL_03 # GitPython is a python library used to interact with Git repositories
+GitPython==3.1.26 # LEVEL_03 # GitPython is a python library used to interact with Git repositories
 gitdb==4.0.9 # LEVEL_02 # Git Object Database
 #
 #
@@ -918,7 +918,7 @@ datashape==0.5.2 # LEVEL_03 # A data description language
 #
 dlpack==0.1 # LEVEL_01 # Machine learning for systems
 #
-faiss-cpu==1.7.1.post3 # LEVEL_01 # A library for efficient similarity search and clustering of dense vectors
+faiss-cpu==1.7.2 # LEVEL_01 # A library for efficient similarity search and clustering of dense vectors
 #
 fastavro==1.4.9 # LEVEL_01 # Fast read/write of AVRO files
 #
@@ -1001,7 +1001,7 @@ local-attention==1.4.3 # LEVEL_03 # Local windowed attention, for language model
 netCDF4==1.5.8 # LEVEL_03 # Provides an object-oriented python interface to the netCDF version 4 library
 cftime==1.5.1.1 # LEVEL_02 # Time-handling functionality from netcdf4-python
 omegaconf==2.1.1 # LEVEL_02 # A flexible configuration library
-sentry-sdk==1.5.1 # LEVEL_02 # Python client for Sentry (https://sentry.io)
+sentry-sdk==1.5.2 # LEVEL_02 # Python client for Sentry (https://sentry.io)
 yaspin==2.1.0 # LEVEL_02 # Yet Another Terminal Spinner
 configparser==5.2.0 # LEVEL_01 # Updated configparser from Python 3.8 for Python 2.6+
 pathtools==0.1.2 # LEVEL_01 # File system general utilities
@@ -1055,5 +1055,5 @@ onnxconverter-common==1.9.0 # LEVEL_03 # ONNX Converter and Optimization Tools
 onnx==1.10.2 # LEVEL_02 # Open Neural Network Exchange
 tf2onnx==1.9.3 # LEVEL_03 # Tensorflow to ONNX converter
 keras2onnx==1.7.0 # LEVEL_04 # Converts Machine Learning models to ONNX for use in Windows ML
-keras-unet-collection==0.1.11 # LEVEL_01 # The Tensorflow, Keras implementation of U-net, V-net, U-net++, UNET 3+, Attention U-net, R2U-net, ResUnet-a, U^2-Net, TransUNET, and Swin-UNET with optional ImageNet-trained backbones
+keras-unet-collection==0.1.13 # LEVEL_01 # The Tensorflow, Keras implementation of U-net, V-net, U-net++, UNET 3+, Attention U-net, R2U-net, ResUnet-a, U^2-Net, TransUNET, and Swin-UNET with optional ImageNet-trained backbones
 
