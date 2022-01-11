@@ -697,7 +697,6 @@ cchardet==2.1.7 # LEVEL_01 # cChardet is high speed universal character encoding
 cffi==1.15.0 # LEVEL_02 # Foreign Function Interface for Python calling C code
 chardet==4.0.0 # LEVEL_01 # Universal encoding detector for Python 2 and 3
 charset-normalizer==2.0.10 # LEVEL_01 # The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet
-click==8.0.3 # LEVEL_01 # Composable command line interface toolkit
 cloudpickle==2.0.0 # LEVEL_01 # Extended pickling support for Python objects
 codemod==1.0.0 # LEVEL_01 # Codemod is a tool/library to assist you with large-scale codebase refactors that can be partially automated but still require human oversight and occasional intervention. Codemod was developed at Facebook and released as open source
 coverage==6.2 # LEVEL_01 # Code coverage measurement for Python
@@ -844,6 +843,15 @@ psycopg2-binary==2.9.3 # LEVEL_01 # psycopg2 - Python-PostgreSQL Database Adapte
 greenlet==1.1.2 # LEVEL_01 # required by SQLAlchemy # Lightweight in-process concurrent programming
 
 #
+# Click
+#
+click-repl==0.2.0 # LEVEL_03 # REPL plugin for Click
+click-didyoumean==0.3.0 # LEVEL_02 # Enables git-like *did-you-mean* feature in click
+click-plugins==1.1.1 # LEVEL_02 # An extension module for click to enable registering CLI commands via setuptools entry-points
+cligj==0.7.2 # LEVEL_02 # Click params for commmand line interfaces to GeoJSON
+click==8.0.3 # LEVEL_01 # Composable command line interface toolkit
+
+#
 #
 # Resolve below
 #
@@ -895,8 +903,6 @@ blurhash==1.1.4 # LEVEL_01 # Pure-Python implementation of the blurhash algorith
 python-magic==0.4.24 # LEVEL_01 # File type identification using libmagic
 #
 brotlipy==0.7.0 # LEVEL_03 # Python binding to the Brotli library
-click-plugins==1.1.1 # LEVEL_02 # An extension module for click to enable registering CLI commands via setuptools entry-points
-cligj==0.7.2 # LEVEL_02 # Click params for commmand line interfaces to GeoJSON
 #
 param==1.12.0 # LEVEL_01 # Make your Python code clearer and more reliable by declaring Parameters
 pyct==0.4.8 # LEVEL_02 # Python package common tasks for users (e.g. copy examples, fetch data, ...)
@@ -1030,10 +1036,8 @@ gradio==2.7.0 # LEVEL_05 # Python library for easily interacting with trained ma
 paramiko==2.9.2 # LEVEL_04 # SSH2 protocol library
 celery==5.2.3 # LEVEL_04 # Distributed Task Queue
 analytics-python==1.4.0 # LEVEL_03 # The hassle-free way to integrate analytics into any python application
-click-repl==0.2.0 # LEVEL_03 # REPL plugin for Click
 kombu==5.2.3 # LEVEL_03  # Messaging library for Python
 curtsies==0.3.10 # LEVEL_03 # Curses-like terminal wrapper, with colored strings!
-click-didyoumean==0.3.0 # LEVEL_02 # Enables git-like *did-you-mean* feature in click
 monotonic==1.6 # LEVEL_01 # An implementation of time.monotonic() for Python 2 & < 3.3
 billiard==3.6.4.0 # LEVEL_01 # Python multiprocessing fork with improvements and bugfixes
 cwcwidth==0.1.6 # LEVEL_01 # Python bindings for wc(s)width
@@ -1053,4 +1057,3 @@ tf2onnx==1.9.3 # LEVEL_03 # Tensorflow to ONNX converter
 keras2onnx==1.7.0 # LEVEL_04 # Converts Machine Learning models to ONNX for use in Windows ML
 keras-unet-collection==0.1.11 # LEVEL_01 # The Tensorflow, Keras implementation of U-net, V-net, U-net++, UNET 3+, Attention U-net, R2U-net, ResUnet-a, U^2-Net, TransUNET, and Swin-UNET with optional ImageNet-trained backbones
 
-#
