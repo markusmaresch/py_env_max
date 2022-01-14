@@ -402,7 +402,7 @@ cvxpy==1.1.18 # LEVEL_05 # A domain-specific language for modeling convex optimi
 ecos==2.0.10 # LEVEL_03 # This is the Python package for ECOS: Embedded Cone Solver. See Github page for more information
 osqp==0.6.2.post5 # LEVEL_04 # OSQP: The Operator Splitting QP Solver
 qdldl==0.1.5.post0 # LEVEL_03 # QDLDL, a free LDL factorization routine
-scs==3.0.1 # LEVEL_03 # scs: splitting conic solver
+scs==3.1.0 # LEVEL_03 # scs: splitting conic solver
 
 #
 # GUI & Visualization
@@ -502,10 +502,10 @@ jupyterlab==3.2.8 # LEVEL_08 # JupyterLab computational environment
 jupyter-server-proxy==3.2.0 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
 jupyterlab-server==2.10.3 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.0 # LEVEL_06 # Dash support for the Jupyter notebook interface
-jupyter-server==1.13.2 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
+jupyter-server==1.13.3 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-console==6.4.0 # LEVEL_06 # Jupyter terminal console
 jupyter-packaging==0.11.1 # LEVEL_04 # Jupyter Packaging Utilities
-jupyter-client==7.1.0 # LEVEL_03 # Jupyter protocol implementation and client libraries
+jupyter-client==7.1.1 # LEVEL_03 # Jupyter protocol implementation and client libraries
 jupyter-core==4.9.1 # LEVEL_02 # Jupyter core package. A base package on which Jupyter projects rely
 jupyterlab-pygments==0.1.2 # LEVEL_02 # Pygments theme using JupyterLab CSS variables
 jupyterlab-widgets==1.0.2 # LEVEL_01 # A JupyterLab extension
@@ -538,7 +538,7 @@ Django==4.0.1 # LEVEL_02 # A high-level Python web framework that encourages rap
 #
 asgiref==3.4.1 # LEVEL_01 # ASGI specs, helper code, and adapters
 starlette==0.17.1 # LEVEL_03 # The little ASGI library that shines
-uvicorn==0.16.0 # LEVEL_02 # The lightning-fast ASGI server
+uvicorn==0.17.0 # LEVEL_02 # The lightning-fast ASGI server
 #
 #
 # Flask
@@ -711,7 +711,7 @@ charset-normalizer==2.0.10 # LEVEL_01 # The Real First Universal Charset Detecto
 cloudpickle==2.0.0 # LEVEL_01 # Extended pickling support for Python objects
 codemod==1.0.0 # LEVEL_01 # Codemod is a tool/library to assist you with large-scale codebase refactors that can be partially automated but still require human oversight and occasional intervention. Codemod was developed at Facebook and released as open source
 coverage==6.2 # LEVEL_01 # Code coverage measurement for Python
-croniter==1.1.0 # LEVEL_03 # croniter provides iteration for datetime object with cron like format
+croniter==1.2.0 # LEVEL_03 # croniter provides iteration for datetime object with cron like format
 cycler==0.11.0 # LEVEL_01 # Composable style cycles
 cymem==2.0.6 # LEVEL_01 # Manage calls to calloc/free through Cython
 debugpy==1.5.1 # LEVEL_01 # An implementation of the Debug Adapter Protocol for Python
@@ -744,7 +744,7 @@ Jinja2==3.0.3 # LEVEL_02 # template engine # A very fast and expressive template
 korean-lunar-calendar==0.2.1 # LEVEL_01 # Korean Lunar Calendar
 llvmlite==0.38.0 # LEVEL_01 # lightweight wrapper around basic LLVM functionality
 lxml==4.7.1 # LEVEL_01 # Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API
-m3u8==0.10.0 # LEVEL_02 # play list parser, udemy-dl2 # Python m3u8 parser
+m3u8==1.0.0 # LEVEL_02 # play list parser, udemy-dl2 # Python m3u8 parser
 macholib==1.15.2 # LEVEL_02 # Mach-O header analysis and editing
 msgpack==1.0.3 # LEVEL_01 # MessagePack (de)serializer
 multidict==5.2.0 # LEVEL_01 # multidict implementation
@@ -784,7 +784,7 @@ pyasn1-modules==0.2.8 # LEVEL_02 # A collection of ASN.1-based protocols modules
 pycares==4.1.2 # LEVEL_03 # Python interface for c-ares
 pycparser==2.21 # LEVEL_01 # C parser in Python
 PyMeeus==0.5.11 # LEVEL_01 # Python implementation of Jean Meeus astronomical routines
-pyrsistent==0.18.0 # LEVEL_01 # Persistent/Functional/Immutable data structures
+pyrsistent==0.18.1 # LEVEL_01 # Persistent/Functional/Immutable data structures
 python-slugify==5.0.2 # LEVEL_02 # A Python Slugify application that handles Unicode
 PyWavelets==1.2.0 # LEVEL_02 # PyWavelets, wavelet transform module
 PyYAML==6.0 # LEVEL_01 # YAML parser and emitter for Python

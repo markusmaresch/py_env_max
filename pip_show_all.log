@@ -1049,7 +1049,7 @@ Requires:
 Required-by: 
 ---
 Name: croniter
-Version: 1.1.0
+Version: 1.2.0
 Summary: croniter provides iteration for datetime object with cron like format
 Home-page: http://github.com/kiorky/croniter
 Author: Matsumoto Taichi, kiorky
@@ -2829,7 +2829,7 @@ Requires: bokeh ipywidgets
 Required-by: 
 ---
 Name: jupyter-client
-Version: 7.1.0
+Version: 7.1.1
 Summary: Jupyter protocol implementation and client libraries
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -2879,7 +2879,7 @@ Requires: deprecation packaging setuptools tomlkit wheel
 Required-by: 
 ---
 Name: jupyter-server
-Version: 1.13.2
+Version: 1.13.3
 Summary: The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3249,7 +3249,7 @@ Requires:
 Required-by: 
 ---
 Name: m3u8
-Version: 0.10.0
+Version: 1.0.0
 Summary: Python m3u8 parser
 Home-page: https://github.com/globocom/m3u8
 Author: Globo.com
@@ -5099,7 +5099,7 @@ Requires: numpy opt-einsum pyro-api torch tqdm
 Required-by: 
 ---
 Name: pyrsistent
-Version: 0.18.0
+Version: 0.18.1
 Summary: Persistent/Functional/Immutable data structures
 Home-page: http://github.com/tobgu/pyrsistent/
 Author: Tobias Gustafsson
@@ -5679,7 +5679,7 @@ Requires: numpy
 Required-by: ImageHash Theano catboost cvxpy dask-glm dask-ml datashader ecos empyrical fastai gensim imbalanced-learn jax kmodes lightgbm missingno mlxtend nilearn osqp pandas-profiling phik pmdarima py-vollib pyLDAvis pyfolio pynndescent pyod pyportfolioopt qdldl scikit-image scikit-learn scikit-plot scs seaborn statsmodels stumpy tf-models-official umap-learn xgboost yellowbrick
 ---
 Name: scs
-Version: 3.0.1
+Version: 3.1.0
 Summary: scs: splitting conic solver
 Home-page: http://github.com/cvxgrp/scs
 Author: Brendan O'Donoghue
@@ -6919,7 +6919,7 @@ Requires: click
 Required-by: pipx
 ---
 Name: uvicorn
-Version: 0.16.0
+Version: 0.17.0
 Summary: The lightning-fast ASGI server.
 Home-page: https://www.uvicorn.org/
 Author: Tom Christie
