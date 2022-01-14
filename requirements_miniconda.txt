@@ -318,8 +318,8 @@ kaggle==1.5.12 # LEVEL_03 # Kaggle API
 agate==1.6.3 # LEVEL_03 # A data analysis library that is optimized for humans instead of machines
 #
 dask-glm==0.2.0 # LEVEL_04 # Generalized Linear Models with Dask
-distributed==2021.12.0 # LEVEL_04 # Distributed scheduler for Dask
-dask[complete]==2021.12.0 # LEVEL_03 # Parallel PyData with Task Scheduling
+distributed==2022.1.0 # LEVEL_04 # Distributed scheduler for Dask
+dask[complete]==2022.1.0 # LEVEL_03 # Parallel PyData with Task Scheduling
 #dask-xgboost==0.2.0 # LEVEL_02 # outdated !
 # dask-cuda==21.10.0 # LEVEL_05 # outdated requirements
 # pynvml==11.0.0 # LEVEL_01 # POTENTIALLY_UNUSED # Python Bindings for the NVIDIA Management Library
@@ -491,9 +491,9 @@ smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, A
 uamqp==1.5.1 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.20.35  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.20.36  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.23.35 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.23.36 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -996,7 +996,7 @@ zarr==2.10.3 # LEVEL_03 # An implementation of chunked, compressed, N-dimensiona
 asciitree==0.3.3 # LEVEL_01 # Draws ASCII trees
 #
 # dbt !! not compatible with many versions !!
-dbt-extractor==0.4.0 # LEVEL_01
+dbt-extractor==0.4.0 # LEVEL_01 # A tool to analyze and extract information from Jinja used in dbt projects
 leather==0.3.4 # LEVEL_02 # Python charting for 80% of humans
 Logbook==1.5.3 # LEVEL_01 # A logging replacement for Python
 mashumaro==2.11 # LEVEL_02 # Fast serialization framework on top of dataclasses
