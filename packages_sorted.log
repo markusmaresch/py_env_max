@@ -66,6 +66,7 @@ emoji
 entrypoints
 ephem
 et-xmlfile
+executing
 faiss-cpu
 fake-useragent
 fastavro
@@ -170,6 +171,7 @@ protobuf
 psutil
 psycopg2-binary
 ptyprocess
+pure-eval
 py
 py-cpuinfo
 py-params
@@ -295,12 +297,14 @@ aioredis
 aiosignal
 amqp
 anyio
+asttokens
 astunparse
 atari-py
 autopep8
 babel
 beautifulsoup4
 biopython
+black
 blessings
 blis
 cattrs
@@ -492,7 +496,6 @@ imagecodecs-lite
 imagehash
 int-date
 intrinio-sdk
-ipython
 jax
 jupyter-client
 kaggle
@@ -542,6 +545,7 @@ scs
 setuptools-scm
 spectra
 sphinx
+stack-data
 stanza
 starlette
 streamz
@@ -601,7 +605,7 @@ gym-unity
 httpx
 iexfinance
 imbalanced-learn
-ipykernel
+ipython
 jqdatasdk
 jupyter-packaging
 keras2onnx
@@ -676,7 +680,7 @@ google-api-python-client
 google-cloud-core
 gradio
 holoviews
-jupyter-console
+ipykernel
 missingno
 mlflow
 nbconvert
@@ -686,7 +690,6 @@ pandas-market-calendars
 pmdarima
 prophet
 pyod
-qtconsole
 rapidminer
 rapids
 selenium
@@ -700,6 +703,7 @@ dash-bootstrap-components
 dash-canvas
 dash-cytoscape
 google-cloud-bigquery
+jupyter-console
 jupyter-dash
 jupyter-server
 nbsphinx
@@ -708,6 +712,7 @@ pandas-profiling
 pyfolio
 pyportfolioopt
 pytorch-lightning
+qtconsole
 tda-api
 tensorflow
 jupyter-server-proxy

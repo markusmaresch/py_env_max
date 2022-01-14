@@ -37,6 +37,7 @@ TA-Lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # Still issue with upgrading !!! # Pyth
 #
 # not recognized by 'req.txt'
 #
+black==21.6b0 # LEVEL_02 # The uncompromising code formatter
 mplfinance==0.12.7a17 # LEVEL_04 # Utilities for the visualization, and visual analysis, of financial data
 graphviz==0.19 # LEVEL_01 # needed for dependecy graphing .. missing dependencies, but still needed # Simple Python interface for Graphviz
 
@@ -105,7 +106,6 @@ rfc3986==1.5.0 # LEVEL_01 # LOCKED # sphinx_autodoc_typehints-1.15.2 requires <2
 # Former LOCKED .. now freed ;-)
 #
 fastapi==0.71.0 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
-starlette==0.17.1 # LEVEL_03 # The little ASGI library that shines
 #
 Deprecated==1.2.13 # LEVEL_02 # Python @deprecated decorator to deprecate old python classes, functions or methods
 typing_extensions==4.0.1 # LEVEL_01 # Backported and Experimental Type Hints for Python 3.6+
@@ -133,7 +133,7 @@ httpx==0.21.3 # LEVEL_04 # The next generation HTTP client
 seaborn==0.11.2 # LEVEL_04 # seaborn: statistical data visualization
 matplotlib==3.5.1 # LEVEL_03 # Python plotting package
 scipy==1.7.3 # LEVEL_02 # SciPy: Scientific Library for Python
-numba==0.54.1 # LEVEL_02 # compiling Python code using LLVM
+numba==0.55.0 # LEVEL_02 # compiling Python code using LLVM
 numexpr==2.8.1 # LEVEL_03 # Fast numerical expression evaluator for NumPy
 openpyxl==3.0.9 # LEVEL_02 # A Python library to read/write Excel 2010 xlsx/xlsm files
 toolz==0.11.2 # LEVEL_01 # List processing tools and functional utilities
@@ -234,7 +234,7 @@ wandb==0.12.9 # LEVEL_04 # A CLI and library for interacting with the Weights an
 #
 mlflow==1.22.0 # LEVEL_05 # MLflow: A Platform for ML Development and Productionization
 mlxtend==0.19.0 # LEVEL_04 # Machine Learning Library Extensions
-catboost==1.0.3 # LEVEL_04 # Catboost Python Package
+catboost==1.0.4 # LEVEL_04 # Catboost Python Package
 phik==0.12.0 # LEVEL_04 # Phi_K correlation analyzer library
 umap-learn==0.5.2 # LEVEL_05 # Uniform Manifold Approximation and Projection
 yellowbrick==1.3.post1 # LEVEL_04 # A suite of visual analysis and diagnostic tools for machine learning
@@ -360,7 +360,7 @@ exchange-calendars==3.5 # LEVEL_04 # exchange_calendars is a Python library with
 alpha-vantage==2.3.1 # LEVEL_04 # Python module to get stock data from the Alpha Vantage Api
 iexfinance==0.5.0 # LEVEL_04 # Python module to get stock data from IEX Cloud and IEX API 1.0
 trading-calendars==2.1.1 # LEVEL_04 # trading_calendars is a Python library with securities exchange calendars used by Quantopian's Zipline
-yfinance==0.1.68 # LEVEL_04 # https://github.com/ranaroussi/yfinance # Download market data from Yahoo! Finance API
+yfinance==0.1.69 # LEVEL_04 # https://github.com/ranaroussi/yfinance # Download market data from Yahoo! Finance API
 yahoofinancials==1.6 # LEVEL_03 # https://github.com/JECSand/yahoofinancials # A powerful financial data module used for pulling both fundamental and technical data from Yahoo Finance
 coinpaprika==0.1.0 # LEVEL_03 # Coinpaprika API Python client
 ib-insync==0.9.70 # LEVEL_03 # InteractiveBrokers 3rd party trading api ip_insync; dataclasses # if necessary # Python sync/async framework for Interactive Brokers API
@@ -465,13 +465,13 @@ hsluv==5.0.2 # LEVEL_01 # Human-friendly HSL
 #
 # Google ..
 #
-google-cloud-bigquery==2.31.0 # LEVEL_06 # Google BigQuery API client library
+google-cloud-bigquery==2.32.0 # LEVEL_06 # Google BigQuery API client library
 google-cloud-core==2.2.1 # LEVEL_05 # Google Cloud API client core library
 google-resumable-media==2.1.0 # LEVEL_02 # Utilities for Google Media Downloads and Resumable Uploads
 google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC32C'
 #
-google-api-python-client==2.34.0 # LEVEL_05 # Google API Client Library for Python
-google-api-core==2.3.2 # LEVEL_04 # Google API client core library
+google-api-python-client==2.35.0 # LEVEL_05 # Google API Client Library for Python
+google-api-core==2.4.0 # LEVEL_04 # Google API client core library
 google-auth-httplib2==0.1.0 # LEVEL_04 # Google Authentication Library: httplib2 transport
 google-auth-oauthlib==0.4.6 # LEVEL_04 # Google Authentication Library
 google-pasta==0.2.0 # LEVEL_02 # pasta is an AST-based Python refactoring library
@@ -480,17 +480,17 @@ googletransx==2.4.2 # LEVEL_03 # Free Google Translate API for Python. Translate
 uritemplate==4.1.1 # LEVEL_01 # required by google-api-python-client # Implementation of RFC 6570 URI Templates
 
 # Azure
-azure-eventhub==5.6.1 # LEVEL_04 # Microsoft Azure Event Hubs Client Library for Python
+azure-eventhub==5.7.0 # LEVEL_04 # Microsoft Azure Event Hubs Client Library for Python
 azure-storage-blob==12.9.0 # LEVEL_05 # Microsoft Azure Blob Storage Client Library for Python
 azure-core==1.21.1 # LEVEL_03 # Microsoft Azure Core Library for Python
 azure-common==1.1.27 # LEVEL_01 # Microsoft Azure Client Library for Python (Common)
 smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)
-uamqp==1.5.0 # LEVEL_02 # AMQP 1.0 Client Library for Python
+uamqp==1.5.1 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.20.32  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.20.35  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.23.32 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.23.35 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -498,12 +498,12 @@ boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 #
 jupyter-bokeh==3.0.4 # LEVEL_09 # A Jupyter extension for rendering Bokeh content
 jupyter==1.0.0 # LEVEL_09 # Jupyter metapackage. Install all the Jupyter components in one go
-jupyterlab==3.2.6 # LEVEL_08 # JupyterLab computational environment
+jupyterlab==3.2.8 # LEVEL_08 # JupyterLab computational environment
 jupyter-server-proxy==3.2.0 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
 jupyterlab-server==2.10.3 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.0 # LEVEL_06 # Dash support for the Jupyter notebook interface
-jupyter-server==1.13.1 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
-jupyter-console==6.4.0 # LEVEL_05 # Jupyter terminal console
+jupyter-server==1.13.2 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
+jupyter-console==6.4.0 # LEVEL_06 # Jupyter terminal console
 jupyter-packaging==0.11.1 # LEVEL_04 # Jupyter Packaging Utilities
 jupyter-client==7.1.0 # LEVEL_03 # Jupyter protocol implementation and client libraries
 jupyter-core==4.9.1 # LEVEL_02 # Jupyter core package. A base package on which Jupyter projects rely
@@ -513,12 +513,12 @@ jupyterlab-widgets==1.0.2 # LEVEL_01 # A JupyterLab extension
 ipywidgets==7.6.5 # LEVEL_08 # IPython HTML widgets for Jupyter
 widgetsnbextension==3.5.2 # LEVEL_07 # IPython HTML widgets for Jupyter
 nbclassic==0.3.5 # LEVEL_07 # Jupyter Notebook as a Jupyter Server extension
-notebook==6.4.6 # LEVEL_06 # A web-based notebook environment for interactive computing
+notebook==6.4.7 # LEVEL_06 # A web-based notebook environment for interactive computing
 nbsphinx==0.8.8 # LEVEL_06 # Jupyter Notebook Tools for Sphinx
 nbconvert==6.4.0 # LEVEL_05 # Converting Jupyter Notebooks
-qtconsole==5.2.2 # LEVEL_05 # Jupyter Qt console
-ipykernel==6.6.1 # LEVEL_04 # IPython Kernel for Jupyter
-nbclient==0.5.9 # LEVEL_04 # A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor
+qtconsole==5.2.2 # LEVEL_06 # Jupyter Qt console
+ipykernel==6.7.0 # LEVEL_05 # IPython Kernel for Jupyter
+nbclient==0.5.10 # LEVEL_04 # A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor
 nbformat==5.1.3 # LEVEL_03 # The Jupyter Notebook format
 matplotlib-inline==0.1.3 # LEVEL_02 # Inline Matplotlib backend for Jupyter
 #
@@ -533,8 +533,13 @@ django-model-utils==4.2.0 # LEVEL_03 # Django model mixins and utilities
 django-request-logging==0.7.3 # LEVEL_03 # Django middleware that logs http request body
 djangorestframework==3.13.1 # LEVEL_03 # Web APIs for Django, made easy
 Django==4.0.1 # LEVEL_02 # A high-level Python web framework that encourages rapid development and clean, pragmatic design
+#
+# ASGI
+#
 asgiref==3.4.1 # LEVEL_01 # ASGI specs, helper code, and adapters
-
+starlette==0.17.1 # LEVEL_03 # The little ASGI library that shines
+uvicorn==0.16.0 # LEVEL_02 # The lightning-fast ASGI server
+#
 #
 # Flask
 #
@@ -548,7 +553,7 @@ Flask==2.0.2 # LEVEL_03 # A simple framework for building complex web applicatio
 #
 # Json
 #
-jsonschema==4.3.3 # LEVEL_02 # An implementation of JSON Schema validation for Python
+jsonschema==4.4.0 # LEVEL_02 # An implementation of JSON Schema validation for Python
 json5==0.9.6 # LEVEL_01 # A Python implementation of the JSON5 data format
 simplejson==3.17.6 # LEVEL_01 # Simple, fast, extensible JSON encoder/decoder for Python
 ujson==5.1.0 # LEVEL_01 # Ultra fast JSON encoder and decoder for Python
@@ -611,6 +616,7 @@ typeguard==2.13.3 # LEVEL_01 # Run-time type checker for Python
 pyflakes==2.4.0 # LEVEL_01 # required by flake8 # passive checker of Python programs
 pycodestyle==2.8.0 # LEVEL_01 # Python style guide checker
 py-spy==0.3.11 # LEVEL_01 # Sampling profiler for Python programs
+stack-data==0.1.3 # LEVEL_03 # Extract data from python stack frames and tracebacks for informative displays
 #
 
 # Markdown
@@ -629,7 +635,7 @@ htmlmin==0.1.12 # LEVEL_01 # An HTML Minifier
 pipx==1.0.0 # LEVEL_03 # Install and Run Python Applications in Isolated Environments
 docker==5.0.3 # LEVEL_03 # A Python library for the Docker Engine API
 docker-pycreds==0.4.0 # LEVEL_02 # Python bindings for the docker credentials store API
-pyinstaller==4.7 # LEVEL_03 # PyInstaller bundles a Python application and all its dependencies into a single package
+pyinstaller==4.8 # LEVEL_03 # PyInstaller bundles a Python application and all its dependencies into a single package
 pyinstaller-hooks-contrib==2021.5 # LEVEL_01 # deployment # Community maintained hooks for PyInstaller
 
 # Packages
@@ -654,9 +660,13 @@ persist-queue==0.7.0 # LEVEL_01 # A thread-safe disk based persistent queue in P
 cloudscraper==1.2.58 # LEVEL_04 # A Python module to bypass Cloudflare's anti-bot page
 libclang==12.0.0 # LEVEL_01 # Clang Python Bindings, mirrored from the official LLVM repo: https://github.com/llvm/llvm-project/tree/main/clang/bindings/python, to make the installation process easier
 #
+libcst==0.4.0 # LEVEL_03 # A concrete syntax tree with AST-like properties for Python 3.5, 3.6, 3.7 and 3.8 programs
+asttokens==2.0.5 # LEVEL_02 # # Annotate AST trees with source code positions
+executing==0.8.2 # LEVEL_01 # # Get the currently executing AST node of a frame, and other information
+pure-eval==0.2.1 # LEVEL_01 # # Safely evaluate AST nodes without side effects
+#
 pydeps==1.10.12 # LEVEL_02 # cd src/main; pydeps .; open main.svg # Display module dependencies
 importlab==0.7 # LEVEL_02 # A library to calculate python dependency graphs
-libcst==0.3.23 # LEVEL_03 # A concrete syntax tree with AST-like properties for Python 3.5, 3.6, 3.7 and 3.8 programs
 ninja==1.10.2.3 # LEVEL_01 # Ninja is a small build system with a focus on speed
 #
 userpath==1.7.0 # LEVEL_02 # Cross-platform tool for adding locations to the user PATH, no elevated privileges required!
@@ -711,7 +721,7 @@ deprecation==2.1.0 # LEVEL_03 # A library to handle automated deprecations
 dill==0.3.4 # LEVEL_01 # serialize all of python
 dm-tree==0.1.6 # LEVEL_02 # Tree is a library for working with nested data structures
 dnspython==2.1.0 # LEVEL_01 # DNS toolkit
-elasticsearch==7.16.2 # LEVEL_02 # Python client for Elasticsearch
+elasticsearch==7.16.3 # LEVEL_02 # Python client for Elasticsearch
 email-validator==1.1.3 # LEVEL_02 # A robust email syntax and deliverability validation library for Python 2.x/3.x
 ephem==4.1.3 # LEVEL_01 # Compute positions of the planets and stars
 et-xmlfile==1.1.0 # LEVEL_01 # An implementation of lxml.xmlfile for the standard library
@@ -726,15 +736,15 @@ gin-config==0.5.0 # LEVEL_01 # Gin-Config: A lightweight configuration library f
 HeapDict==1.0.1 # LEVEL_01 # a heap with decrease-key and increase-key operations
 httplib2==0.20.2 # LEVEL_02 # A comprehensive HTTP client library
 idna==3.3 # LEVEL_01 # Internationalized Domain Names in Applications (IDNA)
-ipython==7.31.0 # LEVEL_03 # IPython: Productive Interactive Computing
+ipython==8.0.0 # LEVEL_04 # IPython: Productive Interactive Computing
 ipython-genutils==0.2.0 # LEVEL_01 # Vestigial utilities from IPython
 itsdangerous==2.0.1 # LEVEL_01 # Safely pass data to untrusted environments and back
 jedi==0.18.1 # LEVEL_02 # An autocompletion tool for Python that can be used for text editors
 Jinja2==3.0.3 # LEVEL_02 # template engine # A very fast and expressive template engine
 korean-lunar-calendar==0.2.1 # LEVEL_01 # Korean Lunar Calendar
-llvmlite==0.37.0 # LEVEL_01 # lightweight wrapper around basic LLVM functionality
+llvmlite==0.38.0 # LEVEL_01 # lightweight wrapper around basic LLVM functionality
 lxml==4.7.1 # LEVEL_01 # Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API
-m3u8==0.9.0 # LEVEL_02 # play list parser, udemy-dl2 # Python m3u8 parser
+m3u8==0.10.0 # LEVEL_02 # play list parser, udemy-dl2 # Python m3u8 parser
 macholib==1.15.2 # LEVEL_02 # Mach-O header analysis and editing
 msgpack==1.0.3 # LEVEL_01 # MessagePack (de)serializer
 multidict==5.2.0 # LEVEL_01 # multidict implementation
@@ -831,7 +841,7 @@ zict==2.0.0 # LEVEL_02 # Mutable mapping tools
 zipp==3.7.0 # LEVEL_01 # Backport of pathlib-compatible object wrapper for zip files
 #
 PySocks==1.7.1 # LEVEL_01 # A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information
-python-socks==2.0.1 # LEVEL_01 # Core proxy (SOCKS4, SOCKS5, HTTP tunneling) functionality for Python
+python-socks==2.0.2 # LEVEL_01 # Core proxy (SOCKS4, SOCKS5, HTTP tunneling) functionality for Python
 #
 #
 # SQL
@@ -858,7 +868,7 @@ click==8.0.3 # LEVEL_01 # Composable command line interface toolkit
 #
 #streamlit # has some dependencies !!
 tbb==2021.5.0 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
-tiledb==0.11.5 # LEVEL_03 # Pythonic interface to the TileDB array storage manager
+tiledb==0.12.0 # LEVEL_03 # Pythonic interface to the TileDB array storage manager
 xarray==0.20.2 # LEVEL_04 # N-D labeled arrays and datasets in Python
 zstd==1.5.1.0 # LEVEL_01 # ZSTD Bindings for Python
 #
@@ -1050,7 +1060,6 @@ pydub==0.25.1 # LEVEL_01 # Manipulate audio with an simple and easy high level i
 more-itertools==8.12.0 # LEVEL_01 # More routines for operating on iterables, beyond itertools
 #
 mixpanel==4.9.0 # LEVEL_03 # Official Mixpanel library for Python
-uvicorn==0.16.0 # LEVEL_02 # The lightning-fast ASGI server
 #
 onnxconverter-common==1.9.0 # LEVEL_03 # ONNX Converter and Optimization Tools
 onnx==1.10.2 # LEVEL_02 # Open Neural Network Exchange
