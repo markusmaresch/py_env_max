@@ -5149,10 +5149,10 @@ Requires: attrs iniconfig packaging pluggy py toml
 Required-by: pytest-asyncio
 ---
 Name: pytest-asyncio
-Version: 0.16.0
-Summary: Pytest support for asyncio.
+Version: 0.17.0
+Summary: Pytest support for asyncio
 Home-page: https://github.com/pytest-dev/pytest-asyncio
-Author: Tin Tvrtković
+Author: Tin Tvrtković <tinchester@gmail.com>
 Author-email: tinchester@gmail.com
 License: Apache 2.0
 Requires: pytest
