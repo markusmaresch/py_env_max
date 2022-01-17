@@ -639,7 +639,7 @@ Requires:
 Required-by: 
 ---
 Name: boto3
-Version: 1.20.36
+Version: 1.20.37
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -649,7 +649,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.23.36
+Version: 1.23.37
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -1589,7 +1589,7 @@ Requires: dnspython idna
 Required-by: 
 ---
 Name: emoji
-Version: 1.6.1
+Version: 1.6.3
 Summary: Emoji for Python
 Home-page: https://github.com/carpedm20/emoji/
 Author: Taehoon Kim, Kevin Wurster and Tahir Jalilov
@@ -1649,7 +1649,7 @@ Requires: numpy
 Required-by: ib-insync
 ---
 Name: exchange-calendars
-Version: 3.5
+Version: 3.5.1
 Summary: exchange_calendars is a Python library with securities exchange calendars
 Home-page: https://github.com/gerrymanoim/exchange_calendars
 Author: Gerry Manoim
@@ -1739,13 +1739,13 @@ Requires: fastcore fastprogress
 Required-by: fastai
 ---
 Name: fasteners
-Version: 0.16.3
-Summary: A python package that provides useful locks.
+Version: 0.17.1
+Summary: A python package that provides useful locks
 Home-page: https://github.com/harlowja/fasteners
 Author: Joshua Harlow
-Author-email: harlowja@yahoo-inc.com
+Author-email: 
 License: ASL 2.0
-Requires: six
+Requires: 
 Required-by: zarr
 ---
 Name: fastprogress
@@ -2599,14 +2599,14 @@ Requires: networkx
 Required-by: pytype
 ---
 Name: importlib-metadata
-Version: 4.10.0
+Version: 4.10.1
 Summary: Read metadata from Python packages
 Home-page: https://github.com/python/importlib_metadata
 Author: Jason R. Coombs
 Author-email: jaraco@jaraco.com
 License: UNKNOWN
 Requires: zipp
-Required-by: Markdown keyring mlflow
+Required-by: Markdown Sphinx keyring mlflow
 ---
 Name: importlib-resources
 Version: 5.4.0
@@ -4719,12 +4719,12 @@ Requires: typing-extensions
 Required-by: fastapi pandas-profiling spacy thinc
 ---
 Name: pydata-sphinx-theme
-Version: 0.7.2
+Version: 0.8.0
 Summary: Bootstrap-based Sphinx theme from the PyData community
-Home-page: https://github.com/pydata/pydata-sphinx-theme
+Home-page: 
 Author: 
 Author-email: 
-License: BSD
+License: 
 Requires: beautifulsoup4 docutils sphinx
 Required-by: 
 ---
@@ -5149,13 +5149,13 @@ Requires: attrs iniconfig packaging pluggy py toml
 Required-by: pytest-asyncio
 ---
 Name: pytest-asyncio
-Version: 0.17.0
+Version: 0.17.1
 Summary: Pytest support for asyncio
 Home-page: https://github.com/pytest-dev/pytest-asyncio
 Author: Tin Tvrtković <tinchester@gmail.com>
 Author-email: tinchester@gmail.com
 License: Apache 2.0
-Requires: pytest
+Requires: pytest typing-extensions
 Required-by: 
 ---
 Name: python-daemon
@@ -5429,7 +5429,7 @@ Requires: commonmark docutils sphinx
 Required-by: 
 ---
 Name: redis
-Version: 4.1.0
+Version: 4.1.1
 Summary: Python client for Redis database and key-value store
 Home-page: https://github.com/redis/redis-py
 Author: Redis Inc.
@@ -5459,7 +5459,7 @@ Requires: certifi charset-normalizer idna urllib3
 Required-by: Kivy-Garden Mastodon.py PyGithub Sphinx alpha-vantage analytics-python azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth databricks-cli datasets docker fastai google-api-core google-cloud-bigquery googletransx gradio h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle keras2onnx minimal-snowplow-tracker mixpanel mlflow msrest nilearn openai pandas-datareader pandas-finance pandas-profiling panel rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy stanza tensorboard tensorflow-datasets tf2onnx tiingo transformers wandb yfinance zeep
 ---
 Name: requests-cache
-Version: 0.9.0
+Version: 0.9.1
 Summary: A transparent persistent cache for the requests library
 Home-page: https://github.com/reclosedev/requests-cache
 Author: Roman Haritonov
@@ -5756,7 +5756,7 @@ Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy Sphinx celery cufflinks distributed google-api-core google-auth gunicorn ipython jupyter-packaging mlxtend numba plaster pmdarima pyinstaller pyramid python-daemon rapids setuptools-scm spacy streamz tensorboard thinc zope.deprecation zope.interface
+Required-by: Fiona PasteDeploy celery cufflinks distributed google-api-core google-auth gunicorn ipython jupyter-packaging mlxtend numba plaster pmdarima pyinstaller pyramid python-daemon rapids setuptools-scm spacy streamz tensorboard thinc zope.deprecation zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -5836,7 +5836,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli dm-tree docker-pycreds fasteners fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client onnx patsy plotly promise pyOpenSSL pyod python-dateutil querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb
+Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli dm-tree docker-pycreds fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client onnx patsy plotly promise pyOpenSSL pyod python-dateutil querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb
 ---
 Name: smart-open
 Version: 5.2.1
@@ -5949,13 +5949,13 @@ Requires: colormath
 Required-by: 
 ---
 Name: Sphinx
-Version: 4.3.2
+Version: 4.4.0
 Summary: Python documentation generator
 Home-page: https://www.sphinx-doc.org/
 Author: Georg Brandl
 Author-email: georg@python.org
 License: BSD
-Requires: Jinja2 Pygments alabaster babel docutils imagesize packaging requests setuptools snowballstemmer sphinxcontrib-applehelp sphinxcontrib-devhelp sphinxcontrib-htmlhelp sphinxcontrib-jsmath sphinxcontrib-qthelp sphinxcontrib-serializinghtml
+Requires: Jinja2 Pygments alabaster babel docutils imagesize importlib-metadata packaging requests snowballstemmer sphinxcontrib-applehelp sphinxcontrib-devhelp sphinxcontrib-htmlhelp sphinxcontrib-jsmath sphinxcontrib-qthelp sphinxcontrib-serializinghtml
 Required-by: nbsphinx pydata-sphinx-theme recommonmark sphinx-autobuild sphinx-autodoc-typehints sphinx-panels sphinx-rtd-theme
 ---
 Name: sphinx-autobuild
@@ -6109,7 +6109,7 @@ Requires: cloudpickle gym matplotlib numpy pandas torch
 Required-by: 
 ---
 Name: stack-data
-Version: 0.1.3
+Version: 0.1.4
 Summary: Extract data from python stack frames and tracebacks for informative displays
 Home-page: http://github.com/alexmojaki/stack_data
 Author: Alex Hall
@@ -6796,7 +6796,7 @@ Author:
 Author-email: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 License: 
 Requires: 
-Required-by: aioredis bokeh huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pytorch-lightning tensorflow torch typing-inspect
+Required-by: aioredis bokeh huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pytest-asyncio pytorch-lightning tensorflow torch typing-inspect
 ---
 Name: typing-inspect
 Version: 0.7.1

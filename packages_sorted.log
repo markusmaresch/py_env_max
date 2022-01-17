@@ -70,6 +70,7 @@ executing
 faiss-cpu
 fake-useragent
 fastavro
+fasteners
 fastrlock
 ffmpy
 filelock
@@ -324,7 +325,6 @@ docker-pycreds
 elasticsearch
 email-validator
 eventkit
-fasteners
 fastprogress
 fire
 flake8

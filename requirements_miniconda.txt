@@ -126,7 +126,7 @@ pyparsing==3.0.6 # LEVEL_01 # Python parsing module
 # Internal .. needed early by this system
 #
 pipdeptree==2.2.1 # LEVEL_02 # INTERNAL # Command line utility to show dependency tree of packages
-importlib-metadata==4.10.0 # LEVEL_02 # INTERNAL # Read metadata from Python packages
+importlib-metadata==4.10.1 # LEVEL_02 # INTERNAL # Read metadata from Python packages
 
 #
 # Generic Low Level Tools
@@ -162,7 +162,7 @@ box2d-py==2.3.8 # LEVEL_01 # Python Box2D
 #
 wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
 ray==1.9.2 # LEVEL_04 # Ray provides a simple, universal API for building distributed applications
-redis==4.1.0 # LEVEL_03 # Python client for Redis database and key-value store
+redis==4.1.1 # LEVEL_03 # Python client for Redis database and key-value store
 lz4==3.1.10 # LEVEL_01 # LZ4 Bindings for Python
 GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status from NVIDA GPUs using nvidia-smi
 #
@@ -331,7 +331,6 @@ pyod==0.9.7 # LEVEL_05 # outlyer detection # A Python Toolbox for Scalable Outli
 jax==0.2.26 # LEVEL_03 # Differentiate, compile, and transform Numpy code
 #
 zeep==4.1.0 # LEVEL_04 # A modern/fast Python SOAP client based on lxml / requests
-requests-file==1.5.1 # LEVEL_03 # File transport adapter for Requests
 cached-property==1.5.2 # LEVEL_01 # A decorator for caching properties in classes
 platformdirs==2.4.1 # LEVEL_01 # A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir"
 
@@ -359,7 +358,7 @@ empyrical==0.5.5 # LEVEL_05 # empyrical is a Python library with performance and
 pandas-finance==0.1.2 # LEVEL_05 # High level API for access to and analysis of financial data
 pandas-market-calendars==3.2 # LEVEL_05 # Market and exchange trading calendars for pandas
 finta==1.3 # LEVEL_04 # Common financial technical indicators implemented in Pandas
-exchange-calendars==3.5 # LEVEL_04 # exchange_calendars is a Python library with securities exchange calendars
+exchange-calendars==3.5.1 # LEVEL_04 # exchange_calendars is a Python library with securities exchange calendars
 alpha-vantage==2.3.1 # LEVEL_04 # Python module to get stock data from the Alpha Vantage Api
 iexfinance==0.5.0 # LEVEL_04 # Python module to get stock data from IEX Cloud and IEX API 1.0
 trading-calendars==2.1.1 # LEVEL_04 # trading_calendars is a Python library with securities exchange calendars used by Quantopian's Zipline
@@ -491,9 +490,9 @@ smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, A
 uamqp==1.5.1 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.20.36  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.20.37  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.23.36 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.23.37 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -572,12 +571,12 @@ json-rpc==1.13.0 # LEVEL_01 # JSON-RPC transport implementation
 #
 # Sphinx
 #
-pydata-sphinx-theme==0.7.2 # LEVEL_04 # Bootstrap-based Sphinx theme from the PyData community
+pydata-sphinx-theme==0.8.0 # LEVEL_04 # Bootstrap-based Sphinx theme from the PyData community
 sphinx-autobuild==2021.3.14 # LEVEL_04 # Rebuild Sphinx documentation on changes, with live-reload in the browser
 sphinx-rtd-theme==1.0.0 # LEVEL_04 # Read the Docs theme for Sphinx
 sphinx-panels==0.6.0 # LEVEL_04 # A sphinx extension for creating panels in a grid layout
 sphinx-autodoc-typehints==1.15.2 # LEVEL_04 # Type hints (PEP 484) support for the Sphinx autodoc extension
-Sphinx==4.3.2 # LEVEL_03 # Python documentation generator
+Sphinx==4.4.0 # LEVEL_03 # Python documentation generator
 sphinx-markdown-tables==0.0.15 # LEVEL_04 # A Sphinx extension for rendering tables written in markdown
 sphinxcontrib-applehelp==1.0.2 # LEVEL_01 # sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books
 sphinxcontrib-devhelp==1.0.2 # LEVEL_01 # sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp document
@@ -605,7 +604,7 @@ cssselect2==0.4.1 # LEVEL_03 # cssselect2
 #
 # Checkers
 #
-pytest-asyncio==0.17.0 # LEVEL_04 # Pytest support for asyncio
+pytest-asyncio==0.17.1 # LEVEL_04 # Pytest support for asyncio
 pytest==6.2.5 # LEVEL_03 # pytest: simple powerful testing with Python
 flake8==4.0.1 # LEVEL_02 # better linter than pyflakes # the modular source code checker: pep8 pyflakes and co
 mypy==0.931 # LEVEL_02 # Optional static typing for Python
@@ -617,7 +616,7 @@ typeguard==2.13.3 # LEVEL_01 # Run-time type checker for Python
 pyflakes==2.4.0 # LEVEL_01 # required by flake8 # passive checker of Python programs
 pycodestyle==2.8.0 # LEVEL_01 # Python style guide checker
 py-spy==0.3.11 # LEVEL_01 # Sampling profiler for Python programs
-stack-data==0.1.3 # LEVEL_03 # Extract data from python stack frames and tracebacks for informative displays
+stack-data==0.1.4 # LEVEL_03 # Extract data from python stack frames and tracebacks for informative displays
 #
 
 # Markdown
@@ -645,12 +644,23 @@ packaging==21.3 # LEVEL_02 # Core utilities for Python packages
 entrypoints==0.3 # LEVEL_01 # Discover and load entry points from installed packages
 
 # Locking
-fasteners==0.16.3 # LEVEL_02 # A python package that provides useful locks
+fasteners==0.17.1 # LEVEL_01 # A python package that provides useful locks
 filelock==3.4.2 # LEVEL_01 # A platform independent file lock
 lockfile==0.12.2 # LEVEL_01 # Platform-independent file locking module
 locket==0.2.1 # LEVEL_01 # File-based locks for Python for Linux and Windows
 portalocker==2.3.2 # LEVEL_01 # Wraps the portalocker recipe for easy usage
 fastrlock==0.8 # LEVEL_01 # Fast, re-entrant optimistic lock implemented in Cython
+
+#
+# requests
+#
+requests-cache==0.9.1 # LEVEL_03 # A transparent persistent cache for the requests library
+requests-oauthlib==1.3.0 # LEVEL_03 # OAuthlib authentication support for Requests
+requests-toolbelt==0.9.1 # LEVEL_03 # A utility belt for advanced users of python-requests
+requests-unixsocket==0.3.0 # LEVEL_03 # Use requests to talk HTTP via a UNIX domain socket
+requests-file==1.5.1 # LEVEL_03 # File transport adapter for Requests
+requests==2.27.1 # LEVEL_02 # Python HTTP for Humans
+#
 
 # Queue
 persist-queue==0.7.0 # LEVEL_01 # A thread-safe disk based persistent queue in Python
@@ -792,11 +802,6 @@ PyYAML==6.0 # LEVEL_01 # YAML parser and emitter for Python
 pyzmq==22.3.0 # LEVEL_01 # Python bindings for 0MQ
 qcore==1.7.0 # LEVEL_02 # Quora's core utility library
 regex==2021.11.10 # LEVEL_01 # Alternative regular expression module, to replace re
-requests==2.27.1 # LEVEL_02 # Python HTTP for Humans
-requests-cache==0.9.0 # LEVEL_03 # A transparent persistent cache for the requests library
-requests-oauthlib==1.3.0 # LEVEL_03 # OAuthlib authentication support for Requests
-requests-toolbelt==0.9.1 # LEVEL_03 # A utility belt for advanced users of python-requests
-requests-unixsocket==0.3.0 # LEVEL_03 # Use requests to talk HTTP via a UNIX domain socket
 retrying==1.3.3 # LEVEL_02 # Retrying
 rsa==4.8 # LEVEL_02 # Pure-Python RSA implementation
 sacrebleu==2.0.0 # LEVEL_02 # Hassle-free computation of shareable, comparable, and reproducible BLEU, chrF, and TER scores
@@ -1025,7 +1030,7 @@ livereload==2.6.3 # LEVEL_02 # Python LiveReload is an awesome tool for web deve
 langcodes==3.3.0 # LEVEL_01 # Tools for labeling human languages with IETF language tags
 kiwisolver==1.3.2 # LEVEL_01 # A fast implementation of the Cassowary constraint solver
 #
-emoji==1.6.1 # LEVEL_01 # Emoji for Python
+emoji==1.6.3 # LEVEL_01 # Emoji for Python
 #
 shellingham==1.4.0 # LEVEL_01 # Tool to Detect Surrounding Shell
 #
