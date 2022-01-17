@@ -105,10 +105,12 @@ rfc3986==1.5.0 # LEVEL_01 # LOCKED # sphinx_autodoc_typehints-1.15.2 requires <2
 pyanalyze==0.5.0 # LEVEL_04 # LOCKED # A static analyzer for Python
 pytype==2022.1.7 # LEVEL_04 # LOCKED # Python type inferencer
 #
+gym==0.20.0 # LEVEL_02 # LOCKED # gym-unity 0.28.0 requires it # Gym: A universal API for reinforcement learning environments
+#
 #
 # Former LOCKED .. now freed ;-)
 #
-fastapi==0.71.0 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
+fastapi==0.72.0 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
 #
 Deprecated==1.2.13 # LEVEL_02 # Python @deprecated decorator to deprecate old python classes, functions or methods
 typing_extensions==4.0.1 # LEVEL_01 # Backported and Experimental Type Hints for Python 3.6+
@@ -223,9 +225,8 @@ fastprogress==1.0.0 # LEVEL_02 # A nested progress with plotting options for fas
 #
 h2o==3.34.0.7 # LEVEL_03 # H2O, Fast Scalable Machine Learning, for python
 #
-gym-unity==0.27.0 # LEVEL_04 # Unity Machine Learning Agents Gym Interface
-mlagents-envs==0.27.0 # LEVEL_03 # Unity Machine Learning Agents Interface
-gym==0.21.0 # LEVEL_02 # Gym: A universal API for reinforcement learning environments
+gym-unity==0.28.0 # LEVEL_04 # Unity Machine Learning Agents Gym Interface
+mlagents-envs==0.28.0 # LEVEL_03 # Unity Machine Learning Agents Interface
 #
 gensim==4.1.2 # LEVEL_03 # Python framework for fast Vector Space Modelling
 #
@@ -644,7 +645,7 @@ packaging==21.3 # LEVEL_02 # Core utilities for Python packages
 entrypoints==0.3 # LEVEL_01 # Discover and load entry points from installed packages
 
 # Locking
-fasteners==0.17.1 # LEVEL_01 # A python package that provides useful locks
+fasteners==0.17.2 # LEVEL_01 # A python package that provides useful locks
 filelock==3.4.2 # LEVEL_01 # A platform independent file lock
 lockfile==0.12.2 # LEVEL_01 # Platform-independent file locking module
 locket==0.2.1 # LEVEL_01 # File-based locks for Python for Linux and Windows

@@ -1699,7 +1699,7 @@ Requires: fastcore fastdownload fastprogress matplotlib packaging pandas pillow 
 Required-by: 
 ---
 Name: fastapi
-Version: 0.71.0
+Version: 0.72.0
 Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
 Home-page: https://github.com/tiangolo/fastapi
 Author: Sebastián Ramírez
@@ -1739,7 +1739,7 @@ Requires: fastcore fastprogress
 Required-by: fastai
 ---
 Name: fasteners
-Version: 0.17.1
+Version: 0.17.2
 Summary: A python package that provides useful locks
 Home-page: https://github.com/harlowja/fasteners
 Author: Joshua Harlow
@@ -2309,7 +2309,7 @@ Requires: setuptools
 Required-by: mlflow
 ---
 Name: gym
-Version: 0.21.0
+Version: 0.20.0
 Summary: Gym: A universal API for reinforcement learning environments.
 Home-page: https://github.com/openai/gym
 Author: OpenAI
@@ -2319,7 +2319,7 @@ Requires: cloudpickle numpy
 Required-by: elegantrl gym-unity stable-baselines3
 ---
 Name: gym-unity
-Version: 0.27.0
+Version: 0.28.0
 Summary: Unity Machine Learning Agents Gym Interface
 Home-page: https://github.com/Unity-Technologies/ml-agents
 Author: Unity Technologies
@@ -3409,7 +3409,7 @@ Requires: requests six urllib3
 Required-by: 
 ---
 Name: mlagents-envs
-Version: 0.27.0
+Version: 0.28.0
 Summary: Unity Machine Learning Agents Interface
 Home-page: https://github.com/Unity-Technologies/ml-agents
 Author: Unity Technologies
