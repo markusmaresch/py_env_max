@@ -3419,13 +3419,13 @@ Requires: Pillow cloudpickle grpcio numpy protobuf pyyaml
 Required-by: gym-unity
 ---
 Name: mlflow
-Version: 1.22.0
+Version: 1.23.0
 Summary: MLflow: A Platform for ML Development and Productionization
 Home-page: https://mlflow.org/
 Author: Databricks
 Author-email: 
 License: Apache License 2.0
-Requires: Flask alembic click cloudpickle databricks-cli docker entrypoints gitpython gunicorn importlib-metadata numpy packaging pandas prometheus-flask-exporter protobuf pytz pyyaml querystring-parser requests sqlalchemy sqlparse
+Requires: Flask alembic click cloudpickle databricks-cli docker entrypoints gitpython gunicorn importlib-metadata numpy packaging pandas prometheus-flask-exporter protobuf pytz pyyaml querystring-parser requests scipy sqlalchemy sqlparse
 Required-by: pycaret
 ---
 Name: mlxtend
@@ -5676,7 +5676,7 @@ Author:
 Author-email: 
 License: BSD
 Requires: numpy
-Required-by: ImageHash Theano catboost cvxpy dask-glm dask-ml datashader ecos empyrical fastai gensim imbalanced-learn jax kmodes lightgbm missingno mlxtend nilearn osqp pandas-profiling phik pmdarima py-vollib pyLDAvis pyfolio pynndescent pyod pyportfolioopt qdldl scikit-image scikit-learn scikit-plot scs seaborn statsmodels stumpy tf-models-official umap-learn xgboost yellowbrick
+Required-by: ImageHash Theano catboost cvxpy dask-glm dask-ml datashader ecos empyrical fastai gensim imbalanced-learn jax kmodes lightgbm missingno mlflow mlxtend nilearn osqp pandas-profiling phik pmdarima py-vollib pyLDAvis pyfolio pynndescent pyod pyportfolioopt qdldl scikit-image scikit-learn scikit-plot scs seaborn statsmodels stumpy tf-models-official umap-learn xgboost yellowbrick
 ---
 Name: scs
 Version: 3.1.0
