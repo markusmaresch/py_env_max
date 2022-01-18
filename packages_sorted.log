@@ -185,7 +185,6 @@ pycryptodome
 pycryptodomex
 pydeprecate
 pydub
-pyee
 pyflakes
 pygame
 pygments
@@ -396,6 +395,7 @@ pyct
 pydantic
 pydeps
 pydot
+pyee
 pyproj
 pyqt5
 pyqtgraph

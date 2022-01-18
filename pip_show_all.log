@@ -1499,9 +1499,9 @@ Requires: six
 Required-by: tensorflow-model-optimization
 ---
 Name: dnspython
-Version: 2.1.0
+Version: 2.2.0
 Summary: DNS toolkit
-Home-page: http://www.dnspython.org
+Home-page: 
 Author: Bob Halley
 Author-email: halley@dnspython.org
 License: ISC
@@ -4779,13 +4779,13 @@ Requires:
 Required-by: gradio
 ---
 Name: pyee
-Version: 8.2.2
+Version: 9.0.3
 Summary: A port of node.js's EventEmitter to python.
 Home-page: https://github.com/jfhbrook/pyee
 Author: Josh Holbrook
 Author-email: josh.holbrook@gmail.com
 License: MIT
-Requires: 
+Requires: typing-extensions
 Required-by: 
 ---
 Name: pyflakes
@@ -5149,13 +5149,13 @@ Requires: attrs iniconfig packaging pluggy py toml
 Required-by: pytest-asyncio
 ---
 Name: pytest-asyncio
-Version: 0.17.1
+Version: 0.17.2
 Summary: Pytest support for asyncio
 Home-page: https://github.com/pytest-dev/pytest-asyncio
 Author: Tin Tvrtković <tinchester@gmail.com>
 Author-email: tinchester@gmail.com
 License: Apache 2.0
-Requires: pytest typing-extensions
+Requires: pytest
 Required-by: 
 ---
 Name: python-daemon
@@ -5769,7 +5769,7 @@ Requires:
 Required-by: prophet
 ---
 Name: setuptools-scm
-Version: 6.3.2
+Version: 6.4.1
 Summary: the blessed package to manage your versions by scm tags
 Home-page: https://github.com/pypa/setuptools_scm/
 Author: Ronny Pfannschmidt
@@ -6796,7 +6796,7 @@ Author:
 Author-email: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 License: 
 Requires: 
-Required-by: aioredis bokeh huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pytest-asyncio pytorch-lightning tensorflow torch typing-inspect
+Required-by: aioredis bokeh huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pyee pytorch-lightning tensorflow torch typing-inspect
 ---
 Name: typing-inspect
 Version: 0.7.1
