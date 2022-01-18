@@ -1549,7 +1549,7 @@ Requires: numpy scipy
 Required-by: cvxpy
 ---
 Name: einops
-Version: 0.3.2
+Version: 0.4.0
 Summary: A new flavour of deep learning operations
 Home-page: https://github.com/arogozhnikov/einops
 Author: Alex Rogozhnikov
@@ -1939,11 +1939,11 @@ Requires:
 Required-by: vispy
 ---
 Name: frozenlist
-Version: 1.2.0
+Version: 1.3.0
 Summary: A list-like structure which implements collections.abc.MutableSequence
 Home-page: https://github.com/aio-libs/frozenlist
-Author: Nikolay Kim
-Author-email: fafhrd91@gmail.com
+Author: 
+Author-email: 
 License: Apache 2
 Requires: 
 Required-by: aiohttp aiosignal
@@ -2429,7 +2429,7 @@ Requires:
 Required-by: pandas-profiling
 ---
 Name: httpcore
-Version: 0.14.4
+Version: 0.14.5
 Summary: A minimal low-level HTTP client.
 Home-page: https://github.com/encode/httpcore
 Author: Tom Christie
@@ -4069,7 +4069,7 @@ Requires: PyYAML htmlmin jinja2 joblib markupsafe matplotlib missingno multimeth
 Required-by: pycaret
 ---
 Name: pandas-stubs
-Version: 1.2.0.40
+Version: 1.2.0.43
 Summary: Type annotations for Pandas
 Home-page: https://github.com/VirtusLab/pandas-stubs
 Author: Zbigniew Królikowski
@@ -4746,7 +4746,7 @@ Author: Jiri Borovec
 Author-email: jiri.borovec@fel.cvut.cz
 License: MIT
 Requires: 
-Required-by: pytorch-lightning
+Required-by: pytorch-lightning torchmetrics
 ---
 Name: pydeps
 Version: 1.10.12
@@ -6639,13 +6639,13 @@ Requires: torch
 Required-by: 
 ---
 Name: torchmetrics
-Version: 0.6.2
+Version: 0.7.0
 Summary: PyTorch native Metrics
 Home-page: https://github.com/PyTorchLightning/metrics
 Author: PyTorchLightning et al.
 Author-email: name@pytorchlightning.ai
 License: Apache-2.0
-Requires: numpy packaging torch
+Requires: numpy packaging pyDeprecate torch
 Required-by: pytorch-lightning
 ---
 Name: torchvision
@@ -7149,7 +7149,7 @@ Requires: numpy pandas
 Required-by: datashader
 ---
 Name: xgboost
-Version: 1.5.1
+Version: 1.5.2
 Summary: XGBoost Python Package
 Home-page: https://github.com/dmlc/xgboost
 Author: 
