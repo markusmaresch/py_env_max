@@ -206,7 +206,7 @@ xgboost==1.5.2 # LEVEL_03 # check installation notes # XGBoost Python Package
 pyro-ppl==1.8.0 # LEVEL_03 # A Python library for probabilistic modeling and inference
 pyro-api==0.1.2 # LEVEL_01 # Generic API for dispatch to Pyro backends
 #
-pytorch-lightning==1.5.8 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
+pytorch-lightning==1.5.9 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
 performer-pytorch==1.1.3 # LEVEL_04 # Performer - Pytorch
 torch-optimizer==0.3.0 # LEVEL_04 # pytorch-optimizer
 torchaudio==0.10.1 # LEVEL_03 # An audio package for PyTorch
@@ -344,7 +344,7 @@ imagecodecs-lite==2020.1.31 # LEVEL_03 # The imagecodecs-lite package is depreca
 imagecodecs==2021.11.20 # LEVEL_02 # Image transformation, compression, and decompression codecs
 opencv-python==4.5.5.62 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.5.62 # LEVEL_02 # Wrapper package for OpenCV python bindings
-imageio==2.13.5 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
+imageio==2.14.0 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
 Pillow==9.0.0 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
@@ -492,9 +492,9 @@ smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, A
 uamqp==1.5.1 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.20.39  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.20.40  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.23.39 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.23.40 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -854,7 +854,7 @@ python-socks==2.0.2 # LEVEL_01 # Core proxy (SOCKS4, SOCKS5, HTTP tunneling) fun
 #
 # SQL
 #
-SQLAlchemy== 1.4.29 # LEVEL_02 # Database Abstraction Library
+SQLAlchemy== 1.4.30 # LEVEL_02 # Database Abstraction Library
 PyMySQL==1.0.2 # LEVEL_01 # Pure Python MySQL Driver
 pyodbc==4.0.32 # LEVEL_01 # DB API Module for ODBC
 sqlparse==0.4.2 # LEVEL_01 # A non-validating SQL parser
@@ -1020,7 +1020,7 @@ local-attention==1.4.3 # LEVEL_03 # Local windowed attention, for language model
 netCDF4==1.5.8 # LEVEL_03 # Provides an object-oriented python interface to the netCDF version 4 library
 cftime==1.5.1.1 # LEVEL_02 # Time-handling functionality from netcdf4-python
 omegaconf==2.1.1 # LEVEL_02 # A flexible configuration library
-sentry-sdk==1.5.2 # LEVEL_02 # Python client for Sentry (https://sentry.io)
+sentry-sdk==1.5.3 # LEVEL_02 # Python client for Sentry (https://sentry.io)
 yaspin==2.1.0 # LEVEL_02 # Yet Another Terminal Spinner
 configparser==5.2.0 # LEVEL_01 # Updated configparser from Python 3.8 for Python 2.6+
 pathtools==0.1.2 # LEVEL_01 # File system general utilities

@@ -639,7 +639,7 @@ Requires:
 Required-by: 
 ---
 Name: boto3
-Version: 1.20.39
+Version: 1.20.40
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -649,7 +649,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.23.39
+Version: 1.23.40
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -2559,7 +2559,7 @@ Requires: PyWavelets numpy pillow scipy six
 Required-by: 
 ---
 Name: imageio
-Version: 2.13.5
+Version: 2.14.0
 Summary: Library for reading and writing a wide range of image, video, scientific, and volumetric data formats.
 Home-page: https://github.com/imageio/imageio
 Author: imageio contributors
@@ -5249,13 +5249,13 @@ Requires:
 Required-by: agate
 ---
 Name: pytorch-lightning
-Version: 1.5.8
+Version: 1.5.9
 Summary: PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate.
 Home-page: https://github.com/PyTorchLightning/pytorch-lightning
 Author: William Falcon et al.
 Author-email: waf2107@columbia.edu
 License: Apache-2.0
-Requires: PyYAML fsspec future numpy packaging pyDeprecate tensorboard torch torchmetrics tqdm typing-extensions
+Requires: PyYAML fsspec future numpy packaging pyDeprecate setuptools tensorboard torch torchmetrics tqdm typing-extensions
 Required-by: 
 ---
 Name: pytorch-ranger
@@ -5729,7 +5729,7 @@ Requires:
 Required-by: bertviz tf-models-official
 ---
 Name: sentry-sdk
-Version: 1.5.2
+Version: 1.5.3
 Summary: Python client for Sentry (https://sentry.io)
 Home-page: https://github.com/getsentry/sentry-python
 Author: Sentry Team and Contributors
@@ -5749,14 +5749,14 @@ Requires: numpy scikit-learn
 Required-by: tf-models-official
 ---
 Name: setuptools
-Version: 59.6.0
+Version: 59.5.0
 Summary: Easily download, build, install, upgrade, and uninstall Python packages
 Home-page: https://github.com/pypa/setuptools
 Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy celery cufflinks distributed google-api-core google-auth gunicorn ipython jupyter-packaging mlxtend numba plaster pmdarima pyinstaller pyramid python-daemon rapids setuptools-scm spacy streamz tensorboard thinc zope.deprecation zope.interface
+Required-by: Fiona PasteDeploy celery cufflinks distributed google-api-core google-auth gunicorn ipython jupyter-packaging mlxtend numba plaster pmdarima pyinstaller pyramid python-daemon pytorch-lightning rapids setuptools-scm spacy streamz tensorboard thinc zope.deprecation zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -6069,7 +6069,7 @@ Requires:
 Required-by: Sphinx
 ---
 Name: SQLAlchemy
-Version: 1.4.29
+Version: 1.4.30
 Summary: Database Abstraction Library
 Home-page: https://www.sqlalchemy.org
 Author: Mike Bayer
