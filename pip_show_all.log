@@ -789,7 +789,7 @@ Requires: pycparser
 Required-by: PyNaCl argon2-cffi-bindings bcrypt brotlipy cryptography pycares
 ---
 Name: cftime
-Version: 1.5.1.1
+Version: 1.5.2
 Summary: Time-handling functionality from netcdf4-python
 Home-page: UNKNOWN
 Author: Jeff Whitaker
@@ -1919,7 +1919,7 @@ Requires: celery humanize prometheus-client pytz tornado
 Required-by: 
 ---
 Name: fonttools
-Version: 4.28.5
+Version: 4.29.0
 Summary: Tools to manipulate font files
 Home-page: http://github.com/fonttools/fonttools
 Author: Just van Rossum
@@ -2259,7 +2259,7 @@ Requires: Flask Flask-Cors Flask-Login analytics-python ffmpy flask-cachebuster 
 Required-by: 
 ---
 Name: graphviz
-Version: 0.19
+Version: 0.19.1
 Summary: Simple Python interface for Graphviz
 Home-page: https://github.com/xflr6/graphviz
 Author: Sebastian Bank
@@ -5729,7 +5729,7 @@ Requires:
 Required-by: bertviz tf-models-official
 ---
 Name: sentry-sdk
-Version: 1.5.3
+Version: 1.5.4
 Summary: Python client for Sentry (https://sentry.io)
 Home-page: https://github.com/getsentry/sentry-python
 Author: Sentry Team and Contributors

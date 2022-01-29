@@ -39,7 +39,7 @@ TA-Lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # Still issue with upgrading !!! # Pyth
 #
 black==21.6b0 # LEVEL_02 # The uncompromising code formatter
 mplfinance==0.12.7a17 # LEVEL_04 # Utilities for the visualization, and visual analysis, of financial data
-graphviz==0.19 # LEVEL_01 # needed for dependecy graphing .. missing dependencies, but still needed # Simple Python interface for Graphviz
+graphviz==0.19.1 # LEVEL_01 # needed for dependecy graphing .. missing dependencies, but still needed # Simple Python interface for Graphviz
 
 #
 # Hard dependencies
@@ -1018,9 +1018,9 @@ frozenlist==1.3.0 # LEVEL_01 # A list-like structure which implements collection
 axial-positional-embedding==0.2.1 # LEVEL_03 # Axial Positional Embedding
 local-attention==1.4.3 # LEVEL_03 # Local windowed attention, for language modeling
 netCDF4==1.5.8 # LEVEL_03 # Provides an object-oriented python interface to the netCDF version 4 library
-cftime==1.5.1.1 # LEVEL_02 # Time-handling functionality from netcdf4-python
+cftime==1.5.2 # LEVEL_02 # Time-handling functionality from netcdf4-python
 omegaconf==2.1.1 # LEVEL_02 # A flexible configuration library
-sentry-sdk==1.5.3 # LEVEL_02 # Python client for Sentry (https://sentry.io)
+sentry-sdk==1.5.4 # LEVEL_02 # Python client for Sentry (https://sentry.io)
 yaspin==2.1.0 # LEVEL_02 # Yet Another Terminal Spinner
 configparser==5.2.0 # LEVEL_01 # Updated configparser from Python 3.8 for Python 2.6+
 pathtools==0.1.2 # LEVEL_01 # File system general utilities
@@ -1036,7 +1036,7 @@ emoji==1.6.3 # LEVEL_01 # Emoji for Python
 #
 shellingham==1.4.0 # LEVEL_01 # Tool to Detect Surrounding Shell
 #
-fonttools==4.28.5 # LEVEL_01 # Tools to manipulate font files
+fonttools==4.29.0 # LEVEL_01 # Tools to manipulate font files
 setuptools-scm==6.4.2 # LEVEL_03 # the blessed package to manage your versions by scm tags
 tomli==2.0.0 # LEVEL_01 # A lil' TOML parser
 #
