@@ -111,6 +111,10 @@ gym==0.20.0 # LEVEL_02 # LOCKED # gym-unity 0.28.0 requires it # Gym: A universa
 #
 h11==0.12.0 # LEVEL_01 # LOCKED # httpcore 0.14.5 depends on h11<0.13 and >=0.11 # A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
 #
+torchaudio==0.10.1 # LEVEL_03 # LOCKED # An audio package for PyTorch
+torchvision==0.11.2 # LEVEL_03 # LOCKED # image and video datasets and models for torch deep learning
+torch==1.10.1 # LEVEL_02 # LOCKED # Tensors and Dynamic neural networks in Python with strong GPU acceleration
+#
 #
 # Former LOCKED .. now freed ;-)
 #
@@ -211,12 +215,9 @@ pyro-api==0.1.2 # LEVEL_01 # Generic API for dispatch to Pyro backends
 pytorch-lightning==1.5.9 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
 performer-pytorch==1.1.3 # LEVEL_04 # Performer - Pytorch
 torch-optimizer==0.3.0 # LEVEL_04 # pytorch-optimizer
-torchaudio==0.10.1 # LEVEL_03 # An audio package for PyTorch
-torchvision==0.11.2 # LEVEL_03 # image and video datasets and models for torch deep learning
 pytorch-ranger==0.1.1 # LEVEL_03 # Ranger - a synergistic optimizer using RAdam (Rectified Adam) and LookAhead in one codebase
 torchmetrics==0.7.0 # LEVEL_03 # PyTorch native Metrics
 nystrom-attention==0.0.11 # LEVEL_03 # Nystrom Attention - Pytorch
-torch==1.10.1 # LEVEL_02 # LOCKED # Tensors and Dynamic neural networks in Python with strong GPU acceleration
 einops==0.4.0 # LEVEL_01 # A new flavour of deep learning operations
 #
 Theano==1.0.5 # LEVEL_03 # Optimizing compiler for evaluating mathematical expressions on CPUs and GPUs
@@ -395,7 +396,7 @@ oscrypto==1.2.1 # LEVEL_02 # TLS (SSL) sockets, key generation, encryption, decr
 pyotp==2.6.0 # LEVEL_01 # Python One Time Password Library
 pycryptodomex==3.14.0 # LEVEL_01 # Cryptographic library for Python
 asn1crypto==1.4.0 # LEVEL_01 # Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP
-pycryptodome==3.12.0 # LEVEL_01 # Cryptographic library for Python
+pycryptodome==3.14.0 # LEVEL_01 # Cryptographic library for Python
 #
 #
 #
@@ -770,7 +771,7 @@ murmurhash==1.0.6 # LEVEL_01 # Cython bindings for MurmurHash
 nest-asyncio==1.5.4 # LEVEL_01 # Patch asyncio to allow nested event loops
 netifaces==0.11.0 # LEVEL_01 # Portable network interface information
 oauth2client==4.1.3 # LEVEL_03 # OAuth 2.0 client library
-oauthlib==3.1.1 # LEVEL_01 # A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
+oauthlib==3.2.0 # LEVEL_01 # A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
 opt-einsum==3.3.0 # LEVEL_02 # Optimizing numpys einsum function
 pandocfilters==1.5.0 # LEVEL_01 # Utilities for writing pandoc filters in python
 parso==0.8.3 # LEVEL_01 # A Python Parser
@@ -782,12 +783,12 @@ pickleshare==0.7.5 # LEVEL_01 # Tiny 'shelve'-like database with concurrency sup
 preshed==3.0.6 # LEVEL_02 # Cython hash table that trusts the keys are pre-hashed
 #
 prometheus-flask-exporter==0.18.7 # LEVEL_04 # Prometheus metrics exporter for Flask
-prometheus-client==0.12.0 # LEVEL_01 # Python client for the Prometheus monitoring system
+prometheus-client==0.13.1 # LEVEL_01 # Python client for the Prometheus monitoring system
 #
 promise==2.3 # LEVEL_02 # Promises/A+ implementation for Python
-prompt-toolkit==3.0.24 # LEVEL_02 # Library for building powerful interactive command lines in Python
-proto-plus==1.19.8 # LEVEL_02 # Beautiful, Pythonic protocol buffers
-protobuf==3.19.3 # LEVEL_01 # Protocol Buffers
+prompt-toolkit==3.0.26 # LEVEL_02 # Library for building powerful interactive command lines in Python
+proto-plus==1.19.9 # LEVEL_02 # Beautiful, Pythonic protocol buffers
+protobuf==3.19.4 # LEVEL_01 # Protocol Buffers
 psutil==5.9.0 # LEVEL_01 # Cross-platform lib for process and system monitoring in Python
 ptyprocess==0.7.0 # LEVEL_01 # Run a subprocess in a pseudo terminal
 py-cpuinfo==8.0.0 # LEVEL_01 # Get CPU info with pure Python 2 & 3

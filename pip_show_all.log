@@ -3839,7 +3839,7 @@ Requires: httplib2 pyasn1 pyasn1-modules rsa six
 Required-by: tf-models-official
 ---
 Name: oauthlib
-Version: 3.1.1
+Version: 3.2.0
 Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
 Home-page: https://github.com/oauthlib/oauthlib
 Author: The OAuthlib Community
@@ -4409,7 +4409,7 @@ Requires: arrow click
 Required-by: 
 ---
 Name: prometheus-client
-Version: 0.12.0
+Version: 0.13.1
 Summary: Python client for the Prometheus monitoring system.
 Home-page: https://github.com/prometheus/client_python
 Author: Brian Brazil
@@ -4439,7 +4439,7 @@ Requires: six
 Required-by: tensorflow-datasets wandb
 ---
 Name: prompt-toolkit
-Version: 3.0.24
+Version: 3.0.26
 Summary: Library for building powerful interactive command lines in Python
 Home-page: https://github.com/prompt-toolkit/python-prompt-toolkit
 Author: Jonathan Slenders
@@ -4459,7 +4459,7 @@ Requires: Cython LunarCalendar cmdstanpy convertdate holidays matplotlib numpy p
 Required-by: 
 ---
 Name: proto-plus
-Version: 1.19.8
+Version: 1.19.9
 Summary: Beautiful, Pythonic protocol buffers.
 Home-page: https://github.com/googleapis/proto-plus-python.git
 Author: Google LLC
@@ -4469,7 +4469,7 @@ Requires: protobuf
 Required-by: google-cloud-bigquery
 ---
 Name: protobuf
-Version: 3.19.3
+Version: 3.19.4
 Summary: Protocol Buffers
 Home-page: https://developers.google.com/protocol-buffers/
 Author: 
@@ -4679,7 +4679,7 @@ Requires:
 Required-by: cffi
 ---
 Name: pycryptodome
-Version: 3.12.0
+Version: 3.14.0
 Summary: Cryptographic library for Python
 Home-page: https://www.pycryptodome.org
 Author: Helder Eijs
