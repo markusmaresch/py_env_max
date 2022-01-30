@@ -9,7 +9,7 @@ Requires: six
 Required-by: jax rouge-score tensorboard tensorflow tensorflow-datasets tensorflow-metadata tf-slim
 ---
 Name: aenum
-Version: 3.1.6
+Version: 3.1.8
 Summary: Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
 Home-page: https://github.com/ethanfurman/aenum
 Author: Ethan Furman
@@ -259,7 +259,7 @@ Requires:
 Required-by: zarr
 ---
 Name: asgiref
-Version: 3.4.1
+Version: 3.5.0
 Summary: ASGI specs, helper code, and adapters
 Home-page: https://github.com/django/asgiref/
 Author: Django Software Foundation
@@ -809,7 +809,7 @@ Requires:
 Required-by: 
 ---
 Name: charset-normalizer
-Version: 2.0.10
+Version: 2.0.11
 Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
 Home-page: https://github.com/ousret/charset_normalizer
 Author: Ahmed TAHRI @Ousret
@@ -1039,10 +1039,10 @@ Requires: pymeeus
 Required-by: holidays prophet
 ---
 Name: coverage
-Version: 6.2
+Version: 6.3
 Summary: Code coverage measurement for Python
 Home-page: https://github.com/nedbat/coveragepy
-Author: Ned Batchelder and 146 others
+Author: Ned Batchelder and 148 others
 Author-email: ned@nedbatchelder.com
 License: Apache 2.0
 Requires: 
@@ -1739,7 +1739,7 @@ Requires: fastcore fastprogress
 Required-by: fastai
 ---
 Name: fasteners
-Version: 0.17.2
+Version: 0.17.3
 Summary: A python package that provides useful locks
 Home-page: https://github.com/harlowja/fasteners
 Author: Joshua Harlow
@@ -2829,7 +2829,7 @@ Requires: bokeh ipywidgets
 Required-by: 
 ---
 Name: jupyter-client
-Version: 7.1.1
+Version: 7.1.2
 Summary: Jupyter protocol implementation and client libraries
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3509,7 +3509,7 @@ Requires: certifi isodate requests requests-oauthlib
 Required-by: azure-storage-blob
 ---
 Name: multidict
-Version: 5.2.0
+Version: 6.0.2
 Summary: multidict implementation
 Home-page: https://github.com/aio-libs/multidict
 Author: Andrew Svetlov
@@ -3519,7 +3519,7 @@ Requires:
 Required-by: aiohttp yarl
 ---
 Name: multimethod
-Version: 1.6
+Version: 1.7
 Summary: Multiple argument dispatching.
 Home-page: https://github.com/coady/multimethod
 Author: Aric Coady
@@ -4849,7 +4849,7 @@ Requires: altgraph macholib pyinstaller-hooks-contrib setuptools
 Required-by: 
 ---
 Name: pyinstaller-hooks-contrib
-Version: 2021.5
+Version: 2022.0
 Summary: Community maintained hooks for PyInstaller
 Home-page: https://github.com/pyinstaller/pyinstaller-hooks-contrib
 Author: 
@@ -5969,7 +5969,7 @@ Requires: colorama livereload sphinx
 Required-by: 
 ---
 Name: sphinx-autodoc-typehints
-Version: 1.15.3
+Version: 1.16.0
 Summary: Type hints (PEP 484) support for the Sphinx autodoc extension
 Home-page: https://github.com/tox-dev/sphinx-autodoc-typehints
 Author: Alex Grönholm
@@ -6409,7 +6409,7 @@ Requires:
 Required-by: fire tensorflow tensorflow-datasets yaspin
 ---
 Name: terminado
-Version: 0.12.1
+Version: 0.13.1
 Summary: Tornado websocket backend for the Xterm.js Javascript terminal emulator library.
 Home-page: https://github.com/jupyter/terminado
 Author: Jupyter Development Team
