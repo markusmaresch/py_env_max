@@ -3119,7 +3119,7 @@ Requires: six
 Required-by: agate
 ---
 Name: libclang
-Version: 12.0.0
+Version: 13.0.0
 Summary: Clang Python Bindings, mirrored from the official LLVM repo: https://github.com/llvm/llvm-project/tree/main/clang/bindings/python, to make the installation process easier.
 Home-page: https://github.com/sighingnow/libclang
 Author: Tao He
@@ -3129,7 +3129,7 @@ Requires:
 Required-by: tensorflow
 ---
 Name: libcst
-Version: 0.4.0
+Version: 0.4.1
 Summary: A concrete syntax tree with AST-like properties for Python 3.5, 3.6, 3.7 and 3.8 programs.
 Home-page: https://github.com/Instagram/LibCST
 Author: 
@@ -3699,7 +3699,7 @@ Requires: numpy packaging
 Required-by: nilearn
 ---
 Name: nilearn
-Version: 0.8.1
+Version: 0.9.0
 Summary: Statistical learning for neuroimaging in Python
 Home-page: http://nilearn.github.io
 Author: 
@@ -4509,7 +4509,7 @@ Requires:
 Required-by: pexpect terminado
 ---
 Name: pure-eval
-Version: 0.2.1
+Version: 0.2.2
 Summary: Safely evaluate AST nodes without side effects
 Home-page: http://github.com/alexmojaki/pure_eval
 Author: Alex Hall
@@ -4969,13 +4969,13 @@ Requires:
 Required-by: 
 ---
 Name: pyOpenSSL
-Version: 21.0.0
+Version: 22.0.0
 Summary: Python wrapper module around the OpenSSL library
 Home-page: https://pyopenssl.org/
 Author: The pyOpenSSL developers
 Author-email: cryptography-dev@python.org
 License: Apache License, Version 2.0
-Requires: cryptography six
+Requires: cryptography
 Required-by: 
 ---
 Name: pyotp
@@ -5229,7 +5229,7 @@ Requires: text-unidecode
 Required-by: agate kaggle
 ---
 Name: python-socks
-Version: 2.0.2
+Version: 2.0.3
 Summary: Core proxy (SOCKS4, SOCKS5, HTTP tunneling) functionality for Python
 Home-page: https://github.com/romis2012/python-socks
 Author: Roman Snegirev
@@ -5479,7 +5479,7 @@ Requires: requests six
 Required-by: zeep
 ---
 Name: requests-oauthlib
-Version: 1.3.0
+Version: 1.3.1
 Summary: OAuthlib authentication support for Requests.
 Home-page: https://github.com/requests/requests-oauthlib
 Author: Kenneth Reitz
@@ -5836,7 +5836,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli dm-tree docker-pycreds fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client onnx patsy plotly promise pyOpenSSL pyod python-dateutil querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb
+Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli dm-tree docker-pycreds fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client onnx patsy plotly promise pyod python-dateutil querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb
 ---
 Name: smart-open
 Version: 5.2.1
@@ -6069,7 +6069,7 @@ Requires:
 Required-by: Sphinx
 ---
 Name: SQLAlchemy
-Version: 1.4.30
+Version: 1.4.31
 Summary: Database Abstraction Library
 Home-page: https://www.sqlalchemy.org
 Author: Mike Bayer
@@ -6539,7 +6539,7 @@ Requires: requests
 Required-by: 
 ---
 Name: tiledb
-Version: 0.12.0
+Version: 0.12.1
 Summary: Pythonic interface to the TileDB array storage manager
 Home-page: https://github.com/TileDB-Inc/TileDB-Py
 Author: TileDB, Inc.
@@ -7139,7 +7139,7 @@ Requires: h11
 Required-by: trio-websocket
 ---
 Name: xarray
-Version: 0.20.2
+Version: 0.21.0
 Summary: N-D labeled arrays and datasets in Python
 Home-page: https://github.com/pydata/xarray
 Author: xarray Developers
