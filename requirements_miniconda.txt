@@ -367,11 +367,11 @@ exchange-calendars==3.5.1 # LEVEL_04 # exchange_calendars is a Python library wi
 alpha-vantage==2.3.1 # LEVEL_04 # Python module to get stock data from the Alpha Vantage Api
 iexfinance==0.5.0 # LEVEL_04 # Python module to get stock data from IEX Cloud and IEX API 1.0
 trading-calendars==2.1.1 # LEVEL_04 # trading_calendars is a Python library with securities exchange calendars used by Quantopian's Zipline
-yfinance==0.1.69 # LEVEL_04 # https://github.com/ranaroussi/yfinance # Download market data from Yahoo! Finance API
+yfinance==0.1.70 # LEVEL_04 # https://github.com/ranaroussi/yfinance # Download market data from Yahoo! Finance API
 yahoofinancials==1.6 # LEVEL_03 # https://github.com/JECSand/yahoofinancials # A powerful financial data module used for pulling both fundamental and technical data from Yahoo Finance
 coinpaprika==0.1.0 # LEVEL_03 # Coinpaprika API Python client
 ib-insync==0.9.70 # LEVEL_03 # InteractiveBrokers 3rd party trading api ip_insync; dataclasses # if necessary # Python sync/async framework for Interactive Brokers API
-intrinio-sdk==5.17.0 # LEVEL_03 # Intrinio API
+intrinio-sdk==5.19.0 # LEVEL_03 # Intrinio API
 tiingo==0.14.0 # LEVEL_03 # Python REST Client for interacting with the Tiingo Financial Data API https://pypi.org/project/tiingo # REST Client for Tiingo Data Platform API
 oandapyV20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console # Python wrapper for the OANDA REST-V20 API
 #alpaca-trade-api==1.3.0 # LEVEL_02 # old dependencies
@@ -393,7 +393,7 @@ keyring==23.5.0 # LEVEL_03 # Store and access your passwords safely
 PyNaCl==1.5.0 # LEVEL_03 # Python binding to the Networking and Cryptography (NaCl) library
 oscrypto==1.2.1 # LEVEL_02 # TLS (SSL) sockets, key generation, encryption, decryption, signing, verification and KDFs using the OS crypto libraries. Does not require a compiler, and relies on the OS for patching. Works on Windows, OS X and Linux/BSD
 pyotp==2.6.0 # LEVEL_01 # Python One Time Password Library
-pycryptodomex==3.12.0 # LEVEL_01 # Cryptographic library for Python
+pycryptodomex==3.14.0 # LEVEL_01 # Cryptographic library for Python
 asn1crypto==1.4.0 # LEVEL_01 # Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP
 pycryptodome==3.12.0 # LEVEL_01 # Cryptographic library for Python
 #
@@ -438,7 +438,7 @@ dash-auth==1.4.1 # LEVEL_06 # Dash Authorization Package
 dash-bootstrap-components==1.0.2 # LEVEL_06 # Bootstrap themed components for use in Plotly Dash
 dash-canvas==0.1.0 # LEVEL_06 # Sketching pad for dash based on react-sketch
 dash-cytoscape==0.3.0 # LEVEL_06 # A Component Library for Dash aimed at facilitating network visualization in Python, wrapped around Cytoscape.js
-dash==2.0.0 # LEVEL_05 # A Python framework for building reactive web-apps. Developed by Plotly
+dash==2.1.0 # LEVEL_05 # A Python framework for building reactive web-apps. Developed by Plotly
 dash-core-components==2.0.0 # LEVEL_01 # Core component suite for Dash
 dash-html-components==2.0.0 # LEVEL_01 # Vanilla HTML components for Dash
 dash-table==5.0.0 # LEVEL_01 # Dash table
@@ -461,7 +461,7 @@ spectra==0.0.11 # LEVEL_03 # old # Color scales and color conversion made easy f
 colorcet==3.0.0 # LEVEL_03 # Collection of perceptually uniform colormaps
 colormath==3.0.0 # LEVEL_02 # not maintained # Color math and conversion library
 blessings==1.7 # LEVEL_02 # old # A thin, practical wrapper around terminal coloring, styling, and positioning
-rich==11.0.0 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+rich==11.1.0 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 colorama==0.4.4 # LEVEL_01 # Cross-platform colored terminal text
 termcolor==1.1.0 # LEVEL_01 # OLD !! # ANSII Color formatting for output in terminal
 colorful==0.5.4 # LEVEL_01 # old # Terminal string styling done right, in Python
@@ -494,9 +494,9 @@ smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, A
 uamqp==1.5.1 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.20.40  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.20.46  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.23.40 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.23.46 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -508,7 +508,7 @@ jupyterlab==3.2.8 # LEVEL_08 # JupyterLab computational environment
 jupyter-server-proxy==3.2.0 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
 jupyterlab-server==2.10.3 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.0 # LEVEL_06 # Dash support for the Jupyter notebook interface
-jupyter-server==1.13.3 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
+jupyter-server==1.13.4 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-console==6.4.0 # LEVEL_06 # Jupyter terminal console
 jupyter-packaging==0.11.1 # LEVEL_04 # Jupyter Packaging Utilities
 jupyter-client==7.1.1 # LEVEL_03 # Jupyter protocol implementation and client libraries
@@ -521,7 +521,7 @@ widgetsnbextension==3.5.2 # LEVEL_07 # IPython HTML widgets for Jupyter
 nbclassic==0.3.5 # LEVEL_07 # Jupyter Notebook as a Jupyter Server extension
 notebook==6.4.7 # LEVEL_06 # A web-based notebook environment for interactive computing
 nbsphinx==0.8.8 # LEVEL_06 # Jupyter Notebook Tools for Sphinx
-nbconvert==6.4.0 # LEVEL_05 # Converting Jupyter Notebooks
+nbconvert==6.4. # LEVEL_05 # Converting Jupyter Notebooks
 qtconsole==5.2.2 # LEVEL_06 # Jupyter Qt console
 ipykernel==6.7.0 # LEVEL_05 # IPython Kernel for Jupyter
 nbclient==0.5.10 # LEVEL_04 # A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor
@@ -536,7 +536,7 @@ django-cors-headers==3.11.0 # LEVEL_03 # django-cors-headers is a Django applica
 django-extensions==3.1.5 # LEVEL_03 # Extensions for Django
 django-http-exceptions==1.4.0 # LEVEL_03 # django raisable http exceptions
 django-model-utils==4.2.0 # LEVEL_03 # Django model mixins and utilities
-django-request-logging==0.7.3 # LEVEL_03 # Django middleware that logs http request body
+django-request-logging==0.7.4 # LEVEL_03 # Django middleware that logs http request body
 djangorestframework==3.13.1 # LEVEL_03 # Web APIs for Django, made easy
 Django==4.0.1 # LEVEL_02 # A high-level Python web framework that encourages rapid development and clean, pragmatic design
 #
