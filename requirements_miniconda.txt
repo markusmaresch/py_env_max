@@ -41,6 +41,8 @@ black==21.6b0 # LEVEL_02 # The uncompromising code formatter
 mplfinance==0.12.7a17 # LEVEL_04 # Utilities for the visualization, and visual analysis, of financial data
 graphviz==0.19.1 # LEVEL_01 # needed for dependecy graphing .. missing dependencies, but still needed # Simple Python interface for Graphviz
 
+# former not recognized by req.txt
+
 #
 # Hard dependencies
 #
@@ -112,19 +114,19 @@ h11==0.12.0 # LEVEL_01 # LOCKED # httpcore 0.14.5 depends on h11<0.13 and >=0.11
 #
 # Former LOCKED .. now freed ;-)
 #
-fastapi==0.72.0 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
+fastapi==0.73.0 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
 #
 Deprecated==1.2.13 # LEVEL_02 # Python @deprecated decorator to deprecate old python classes, functions or methods
 typing_extensions==4.0.1 # LEVEL_01 # Backported and Experimental Type Hints for Python 3.6+
 six==1.16.0 # LEVEL_01 # Python 2 and 3 compatibility utilities
 clang==11.0 # LEVEL_01 # libclang python bindings
 h5py==3.6.0 # LEVEL_02 # Read and write HDF5 files from Python
-google-auth==2.3.3 # LEVEL_03 # Google Authentication Library
+google-auth==2.5.0 # LEVEL_03 # Google Authentication Library
 wrapt==1.13.3 # LEVEL_01 # Module for decorators, wrappers and monkey patching
 panel==0.12.6 # LEVEL_04 # A high level app and dashboarding solution for Python
 bokeh==2.4.2 # LEVEL_03 # Interactive plots and applications in the browser from Python
 smmap==5.0.0 # LEVEL_01 # A pure Python implementation of a sliding window memory map manager
-pyparsing==3.0.6 # LEVEL_01 # Python parsing module
+pyparsing==3.0.7 # LEVEL_01 # Python parsing module
 
 #
 # Internal .. needed early by this system
@@ -136,11 +138,11 @@ importlib-metadata==4.10.1 # LEVEL_02 # INTERNAL # Read metadata from Python pac
 # Generic Low Level Tools
 #
 httpcore==0.14.5 # LEVEL_03 # A minimal low-level HTTP client
-httpx==0.21.3 # LEVEL_04 # The next generation HTTP client
+httpx==0.22.0 # LEVEL_04 # The next generation HTTP client
 seaborn==0.11.2 # LEVEL_04 # seaborn: statistical data visualization
 matplotlib==3.5.1 # LEVEL_03 # Python plotting package
 scipy==1.7.3 # LEVEL_02 # SciPy: Scientific Library for Python
-numba==0.55.0 # LEVEL_02 # compiling Python code using LLVM
+numba==0.55.1 # LEVEL_02 # compiling Python code using LLVM
 numexpr==2.8.1 # LEVEL_03 # Fast numerical expression evaluator for NumPy
 openpyxl==3.0.9 # LEVEL_02 # A Python library to read/write Excel 2010 xlsx/xlsm files
 toolz==0.11.2 # LEVEL_01 # List processing tools and functional utilities
@@ -152,7 +154,7 @@ pandas-profiling==3.1.0 # LEVEL_06 # Generate profile report for pandas DataFram
 pandas-datareader==0.10.0 # LEVEL_04 # Data readers extracted from the pandas codebase,should be compatible with recent pandas versions
 geopandas==0.10.2 # LEVEL_04 # Geographic pandas extensions
 pandas==1.4.0 # LEVEL_03 # Powerful data structures for data analysis, time series, and statistics
-pandas-stubs==1.2.0.43 # LEVEL_01 # needed by openai # Type annotations for Pandas
+pandas-stubs==1.2.0.45 # LEVEL_01 # needed by openai # Type annotations for Pandas
 XlsxWriter==3.0.2 # LEVEL_01 # needed for pandas XLSX # A Python module for creating Excel XLSX files
 
 #
@@ -270,7 +272,7 @@ LunarCalendar==0.0.9 # LEVEL_03 # for prophet # A lunar calendar converter, incl
 tzlocal==4.1 # LEVEL_03 # tzinfo object for the local timezone
 pytz-deprecation-shim==0.1.0.post0 # LEVEL_02 # Shims to make deprecation of pytz easier
 python-dateutil==2.8.2 # LEVEL_02 # Extensions to the standard Python datetime module
-convertdate==2.4.0 # LEVEL_02 # for prophet (requires pytz, pymeeus) # Converts between Gregorian dates and other calendar systems.Calendars included: Baha'i, French Republican, Hebrew, Indian Civil, Islamic, ISO, Julian, Mayan and Persian
+convertdate==2.4.0 # LEVEL_02 # for prophet (requires pytz, pymeeus) # Converts between Gregorian dates and other calendar systems
 isodate==0.6.1 # LEVEL_02 # An ISO 8601 date/time/duration parser and formatter
 pyluach==1.3.0 # LEVEL_01 # Pyluach is a Python package for manipulating Hebrew dates,                     Gregorian-Hebrew calendar conversions, getting the weekly                     parsha, and other Jewish calendar related calculations
 iso8601==1.0.2 # LEVEL_01 # Simple module to parse ISO 8601 dates

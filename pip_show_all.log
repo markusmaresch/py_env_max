@@ -239,7 +239,7 @@ Requires: cffi
 Required-by: argon2-cffi
 ---
 Name: arrow
-Version: 1.2.1
+Version: 1.2.2
 Summary: Better dates & times for Python
 Home-page: https://arrow.readthedocs.io
 Author: Chris Smith
@@ -366,7 +366,7 @@ Author: Hynek Schlawack
 Author-email: hs@ox.cx
 License: MIT
 Requires: 
-Required-by: Fiona aiohttp aiohttp-socks cattrs jsonschema outcome pyanalyze pytest pytype ray requests-cache tensorflow-datasets trio visions zeep
+Required-by: Fiona aiohttp aiohttp-socks cattrs jsonschema outcome pyanalyze pytest pytype ray requests-cache trio visions zeep
 ---
 Name: Authlib
 Version: 0.15.5
@@ -1029,13 +1029,13 @@ Requires:
 Required-by: 
 ---
 Name: convertdate
-Version: 2.3.2
-Summary: Converts between Gregorian dates and other calendar systems.Calendars included: Baha'i, French Republican, Hebrew, Indian Civil, Islamic, ISO, Julian, Mayan and Persian.
+Version: 2.4.0
+Summary: Converts between Gregorian dates and other calendar systems
 Home-page: https://github.com/fitnr/convertdate
 Author: Neil Freeman
 Author-email: contact@fakeisthenewreal.org
 License: MIT
-Requires: pymeeus pytz
+Requires: pymeeus
 Required-by: holidays prophet
 ---
 Name: coverage
@@ -1149,7 +1149,7 @@ Requires: future six
 Required-by: 
 ---
 Name: Cython
-Version: 0.29.26
+Version: 0.29.27
 Summary: The Cython compiler for writing C extensions for the Python language.
 Home-page: http://cython.org/
 Author: Robert Bradshaw, Stefan Behnel, Dag Seljebotn, Greg Ewing, et al.
@@ -1259,7 +1259,7 @@ Requires:
 Required-by: dash
 ---
 Name: dask
-Version: 2022.1.0
+Version: 2022.1.1
 Summary: Parallel PyData with Task Scheduling
 Home-page: https://github.com/dask/dask/
 Author: 
@@ -1299,7 +1299,7 @@ Requires: click requests six tabulate
 Required-by: mlflow
 ---
 Name: datasets
-Version: 1.17.0
+Version: 1.18.2
 Summary: HuggingFace community-driven open-source library of datasets
 Home-page: https://github.com/huggingface/datasets
 Author: HuggingFace Inc.
@@ -1399,7 +1399,7 @@ Requires:
 Required-by: datasets multiprocess tensorflow-datasets
 ---
 Name: distributed
-Version: 2022.1.0
+Version: 2022.1.1
 Summary: Distributed scheduler for Dask
 Home-page: https://distributed.dask.org
 Author: 
@@ -1699,7 +1699,7 @@ Requires: fastcore fastdownload fastprogress matplotlib packaging pandas pillow 
 Required-by: 
 ---
 Name: fastapi
-Version: 0.72.0
+Version: 0.73.0
 Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
 Home-page: https://github.com/tiangolo/fastapi
 Author: Sebastián Ramírez
@@ -1976,7 +1976,7 @@ Author: Ed Schofield
 Author-email: ed@pythoncharmers.com
 License: MIT
 Requires: 
-Required-by: cypari h2o parsedatetime pyLDAvis pytorch-lightning tensorflow-datasets
+Required-by: cypari h2o parsedatetime pyLDAvis pytorch-lightning
 ---
 Name: FXrays
 Version: 1.3.5
@@ -2119,13 +2119,13 @@ Requires: google-api-core google-auth google-auth-httplib2 httplib2 uritemplate
 Required-by: tf-models-official
 ---
 Name: google-auth
-Version: 2.3.3
+Version: 2.5.0
 Summary: Google Authentication Library
 Home-page: https://github.com/googleapis/google-auth-library-python
 Author: Google Cloud Platform
 Author-email: googleapis-packages@google.com
 License: Apache 2.0
-Requires: cachetools pyasn1-modules rsa setuptools six
+Requires: cachetools pyasn1-modules rsa six
 Required-by: google-api-core google-api-python-client google-auth-httplib2 google-auth-oauthlib google-cloud-core tensorboard
 ---
 Name: google-auth-httplib2
@@ -2339,7 +2339,7 @@ Requires:
 Required-by: httpcore uvicorn wsproto
 ---
 Name: h2o
-Version: 3.34.0.7
+Version: 3.36.0.2
 Summary: H2O, Fast Scalable Machine Learning, for python 
 Home-page: https://github.com/h2oai/h2o-3.git
 Author: H2O.ai
@@ -2449,7 +2449,7 @@ Requires: pyparsing
 Required-by: google-api-python-client google-auth-httplib2 oauth2client
 ---
 Name: httpx
-Version: 0.21.3
+Version: 0.22.0
 Summary: The next generation HTTP client.
 Home-page: https://github.com/encode/httpx
 Author: Tom Christie
@@ -2559,7 +2559,7 @@ Requires: PyWavelets numpy pillow scipy six
 Required-by: 
 ---
 Name: imageio
-Version: 2.14.0
+Version: 2.14.1
 Summary: Library for reading and writing a wide range of image, video, scientific, and volumetric data formats.
 Home-page: https://github.com/imageio/imageio
 Author: imageio contributors
@@ -3419,7 +3419,7 @@ Requires: Pillow cloudpickle grpcio numpy protobuf pyyaml
 Required-by: gym-unity
 ---
 Name: mlflow
-Version: 1.23.0
+Version: 1.23.1
 Summary: MLflow: A Platform for ML Development and Productionization
 Home-page: https://mlflow.org/
 Author: Databricks
@@ -3759,7 +3759,7 @@ Requires: Send2Trash argon2-cffi ipykernel ipython-genutils jinja2 jupyter-clien
 Required-by: jupyter nbclassic widgetsnbextension
 ---
 Name: numba
-Version: 0.55.0
+Version: 0.55.1
 Summary: compiling Python code using LLVM
 Home-page: https://numba.pydata.org
 Author: 
@@ -3889,7 +3889,7 @@ Requires: numpy onnx protobuf
 Required-by: keras2onnx
 ---
 Name: openai
-Version: 0.11.5
+Version: 0.13.0
 Summary: Python client library for the OpenAI API
 Home-page: https://github.com/openai/openai-python
 Author: OpenAI
@@ -4019,7 +4019,7 @@ Requires: pyparsing
 Required-by: QtPy Sphinx bleach bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery huggingface-hub jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nibabel numexpr pipx pytest pytorch-lightning redis scikit-image setuptools-scm spacy tiledb torchmetrics transformers
 ---
 Name: pandas
-Version: 1.3.5
+Version: 1.4.0
 Summary: Powerful data structures for data analysis, time series, and statistics
 Home-page: https://pandas.pydata.org
 Author: The Pandas Development Team
@@ -4069,7 +4069,7 @@ Requires: PyYAML htmlmin jinja2 joblib markupsafe matplotlib missingno multimeth
 Required-by: pycaret
 ---
 Name: pandas-stubs
-Version: 1.2.0.43
+Version: 1.2.0.45
 Summary: Type annotations for Pandas
 Home-page: https://github.com/VirtusLab/pandas-stubs
 Author: Zbigniew Królikowski
@@ -4919,7 +4919,7 @@ Requires: cffi
 Required-by: PyGithub paramiko
 ---
 Name: pynndescent
-Version: 0.5.5
+Version: 0.5.6
 Summary: Nearest Neighbor Descent
 Home-page: http://github.com/lmcinnes/pynndescent
 Author: Leland McInnes
@@ -4989,7 +4989,7 @@ Requires:
 Required-by: robin-stocks
 ---
 Name: pyparsing
-Version: 3.0.6
+Version: 3.0.7
 Summary: Python parsing module
 Home-page: https://github.com/pyparsing/pyparsing/
 Author: Paul McGuire
@@ -5286,7 +5286,7 @@ Author: Stuart Bishop
 Author-email: stuart@stuartbishop.net
 License: MIT
 Requires: 
-Required-by: Babel LunarCalendar Mastodon.py celery convertdate djangorestframework exchange-calendars flower mlflow pandas pandas-market-calendars pyfolio trading-calendars yahoofinancials zeep
+Required-by: Babel LunarCalendar Mastodon.py celery djangorestframework exchange-calendars flower mlflow pandas pandas-market-calendars pyfolio trading-calendars yahoofinancials zeep
 ---
 Name: pytz-deprecation-shim
 Version: 0.1.0.post0
@@ -5429,7 +5429,7 @@ Requires: commonmark docutils sphinx
 Required-by: 
 ---
 Name: redis
-Version: 4.1.1
+Version: 4.1.2
 Summary: Python client for Redis database and key-value store
 Home-page: https://github.com/redis/redis-py
 Author: Redis Inc.
@@ -5756,7 +5756,7 @@ Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy celery cufflinks distributed google-api-core google-auth gunicorn ipython jupyter-packaging mlxtend numba plaster pmdarima pyinstaller pyramid python-daemon pytorch-lightning rapids setuptools-scm spacy streamz tensorboard thinc zope.deprecation zope.interface
+Required-by: Fiona PasteDeploy celery cufflinks distributed google-api-core gunicorn ipython jupyter-packaging mlxtend numba plaster pmdarima pyinstaller pyramid python-daemon pytorch-lightning rapids setuptools-scm spacy streamz tensorboard thinc zope.deprecation zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -6269,7 +6269,7 @@ Requires: six
 Required-by: luigi plotly
 ---
 Name: tensorboard
-Version: 2.7.0
+Version: 2.8.0
 Summary: TensorBoard lets you watch Tensors Flow
 Home-page: https://github.com/tensorflow/tensorboard
 Author: Google Inc.
@@ -6329,13 +6329,13 @@ Requires: typeguard
 Required-by: tf-models-official
 ---
 Name: tensorflow-datasets
-Version: 4.4.0
+Version: 4.5.0
 Summary: tensorflow/datasets is a library of datasets ready to use with TensorFlow.
 Home-page: https://github.com/tensorflow/datasets
 Author: Google Inc.
 Author-email: packages@tensorflow.org
 License: Apache 2.0
-Requires: absl-py attrs dill future numpy promise protobuf requests six tensorflow-metadata termcolor tqdm
+Requires: absl-py dill numpy promise protobuf requests six tensorflow-metadata termcolor tqdm
 Required-by: tf-models-official
 ---
 Name: tensorflow-estimator
@@ -6699,7 +6699,7 @@ Requires:
 Required-by: ipykernel ipython ipywidgets jupyter-client jupyter-core jupyter-server matplotlib-inline nbclient nbconvert nbformat nbsphinx notebook pydeck qtconsole
 ---
 Name: transformers
-Version: 4.15.0
+Version: 4.16.1
 Summary: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 Home-page: https://github.com/huggingface/transformers
 Author: Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Sam Shleifer, Patrick von Platen, Sylvain Gugger, Suraj Patil, Stas Bekman, Google AI Language Team Authors, Open AI team Authors, Facebook AI Authors, Carnegie Mellon University Authors
