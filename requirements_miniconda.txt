@@ -151,7 +151,7 @@ toolz==0.11.2 # LEVEL_01 # List processing tools and functional utilities
 pandas-profiling==3.1.0 # LEVEL_06 # Generate profile report for pandas DataFrame
 pandas-datareader==0.10.0 # LEVEL_04 # Data readers extracted from the pandas codebase,should be compatible with recent pandas versions
 geopandas==0.10.2 # LEVEL_04 # Geographic pandas extensions
-pandas==1.3.5 # LEVEL_03 # Powerful data structures for data analysis, time series, and statistics
+pandas==1.4.0 # LEVEL_03 # Powerful data structures for data analysis, time series, and statistics
 pandas-stubs==1.2.0.43 # LEVEL_01 # needed by openai # Type annotations for Pandas
 XlsxWriter==3.0.2 # LEVEL_01 # needed for pandas XLSX # A Python module for creating Excel XLSX files
 
@@ -166,7 +166,7 @@ box2d-py==2.3.8 # LEVEL_01 # Python Box2D
 #
 wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
 ray==1.9.2 # LEVEL_04 # Ray provides a simple, universal API for building distributed applications
-redis==4.1.1 # LEVEL_03 # Python client for Redis database and key-value store
+redis==4.1.2 # LEVEL_03 # Python client for Redis database and key-value store
 lz4==3.1.10 # LEVEL_01 # LZ4 Bindings for Python
 GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status from NVIDA GPUs using nvidia-smi
 #
@@ -175,14 +175,14 @@ GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status 
 #
 tensorflow-text==2.7.3 # LEVEL_07 # TF.Text is a TensorFlow library of text related ops, modules, and subgraphs
 tensorflow==2.7.0 # LEVEL_06 # TensorFlow is an open source machine learning framework for everyone
-tensorboard==2.7.0 # LEVEL_05 # TensorBoard lets you watch Tensors Flow
+tensorboard==2.8.0 # LEVEL_05 # TensorBoard lets you watch Tensors Flow
 tensorflow-estimator==2.7.0 # LEVEL_01 # TensorFlow Estimator
 keras==2.7.0 # LEVEL_01 # Deep learning for humans
 #
 tensorboard-data-server==0.6.1 # LEVEL_01 # Fast data loading for TensorBoard
 tensorboard-plugin-wit==1.8.1 # LEVEL_01 # What-If Tool TensorBoard plugin
 #
-tensorflow-datasets==4.4.0 # LEVEL_04 # tensorflow/datasets is a library of datasets ready to use with TensorFlow
+tensorflow-datasets==4.5.0 # LEVEL_04 # tensorflow/datasets is a library of datasets ready to use with TensorFlow
 tensorflow-metadata==1.6.0 # LEVEL_03 # Library and standards for schema and statistics
 tensorflow-model-optimization==0.7.0 # LEVEL_03 # A suite of tools that users, both novice and advanced can use to optimize machine learning models for deployment and execution
 tensorflow-addons==0.15.0 # LEVEL_02 # TensorFlow Addons
@@ -198,7 +198,7 @@ params-flow==0.8.2 # LEVEL_02 # Tensorflow Keras utilities for reducing boilerpl
 #
 Keras-Preprocessing==1.1.2 # LEVEL_02 # Easy data preprocessing and data augmentation for deep learning models
 #
-datasets==1.17.0 # LEVEL_04 # HuggingFace community-driven open-source library of datasets
+datasets==1.18.2 # LEVEL_04 # HuggingFace community-driven open-source library of datasets
 huggingface-hub==0.4.0 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
 #
 xgboost==1.5.2 # LEVEL_03 # check installation notes # XGBoost Python Package
@@ -214,7 +214,7 @@ torchvision==0.11.2 # LEVEL_03 # image and video datasets and models for torch d
 pytorch-ranger==0.1.1 # LEVEL_03 # Ranger - a synergistic optimizer using RAdam (Rectified Adam) and LookAhead in one codebase
 torchmetrics==0.7.0 # LEVEL_03 # PyTorch native Metrics
 nystrom-attention==0.0.11 # LEVEL_03 # Nystrom Attention - Pytorch
-torch==1.10.1 # LEVEL_02 # Tensors and Dynamic neural networks in Python with strong GPU acceleration
+torch==1.10.1 # LEVEL_02 # LOCKED # Tensors and Dynamic neural networks in Python with strong GPU acceleration
 einops==0.4.0 # LEVEL_01 # A new flavour of deep learning operations
 #
 Theano==1.0.5 # LEVEL_03 # Optimizing compiler for evaluating mathematical expressions on CPUs and GPUs
@@ -225,26 +225,26 @@ fastcore==1.3.27 # LEVEL_03 # Python supercharged for fastai development
 fastdownload==0.0.5 # LEVEL_04 # A general purpose data downloading library
 fastprogress==1.0.0 # LEVEL_02 # A nested progress with plotting options for fastai
 #
-h2o==3.34.0.7 # LEVEL_03 # H2O, Fast Scalable Machine Learning, for python
+h2o==3.36.0.2 # LEVEL_03 # H2O, Fast Scalable Machine Learning, for python
 #
 gym-unity==0.28.0 # LEVEL_04 # Unity Machine Learning Agents Gym Interface
 mlagents-envs==0.28.0 # LEVEL_03 # Unity Machine Learning Agents Interface
 #
 gensim==4.1.2 # LEVEL_03 # Python framework for fast Vector Space Modelling
 #
-openai==0.11.5 # LEVEL_04 # Python client library for the OpenAI API
+openai==0.13.0 # LEVEL_04 # Python client library for the OpenAI API
 #
 wandb==0.12.9 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
 #
 #ktrain>=0.27.2
 #
-mlflow==1.23.0 # LEVEL_05 # MLflow: A Platform for ML Development and Productionization
+mlflow==1.23.1 # LEVEL_05 # MLflow: A Platform for ML Development and Productionization
 mlxtend==0.19.0 # LEVEL_04 # Machine Learning Library Extensions
 catboost==1.0.4 # LEVEL_04 # Catboost Python Package
 phik==0.12.0 # LEVEL_04 # Phi_K correlation analyzer library
 umap-learn==0.5.2 # LEVEL_05 # Uniform Manifold Approximation and Projection
 yellowbrick==1.3.post1 # LEVEL_04 # A suite of visual analysis and diagnostic tools for machine learning
-pynndescent==0.5.5 # LEVEL_04 # Nearest Neighbor Descent
+pynndescent==0.5.6 # LEVEL_04 # Nearest Neighbor Descent
 kmodes==0.11.1 # LEVEL_04 # Python implementations of the k-modes and k-prototypes clustering algorithms for clustering categorical data
 lightgbm==3.3.2 # LEVEL_04 # LightGBM Python Package
 #
@@ -258,19 +258,19 @@ pmdarima==1.8.4 # LEVEL_05 # Python's forecast::auto.arima equivalent
 #tsai>=0.2.18  # time series and sequences, triggers huge number of dependencies !
 prophet==1.0.1 # LEVEL_05 # time series forecasts from Facebook # Automatic Forecasting Procedure
 stumpy==1.10.2 # LEVEL_03 # A powerful and scalable library that can be used for a variety of time series data mining tasks
-Cython==0.29.26 # LEVEL_01 # pystan: cython!=0.25.1,>=0.22 # The Cython compiler for writing C extensions for the Python language
+Cython==0.29.27 # LEVEL_01 # pystan: cython!=0.25.1,>=0.22 # The Cython compiler for writing C extensions for the Python language
 
 #
 # Date & Time conversions
 #
 int-date==0.2.0 # LEVEL_03 # Utility for int date like 20150312
-arrow==1.2.1 # LEVEL_03 # Better dates & times for Python
+arrow==1.2.2 # LEVEL_03 # Better dates & times for Python
 holidays==0.12 # LEVEL_03 # for prophet # Generate and work with holidays in Python
 LunarCalendar==0.0.9 # LEVEL_03 # for prophet # A lunar calendar converter, including a number of lunar and solar holidays, mainly from China
 tzlocal==4.1 # LEVEL_03 # tzinfo object for the local timezone
 pytz-deprecation-shim==0.1.0.post0 # LEVEL_02 # Shims to make deprecation of pytz easier
 python-dateutil==2.8.2 # LEVEL_02 # Extensions to the standard Python datetime module
-convertdate==2.3.2 # LEVEL_02 # for prophet (requires pytz, pymeeus) # Converts between Gregorian dates and other calendar systems.Calendars included: Baha'i, French Republican, Hebrew, Indian Civil, Islamic, ISO, Julian, Mayan and Persian
+convertdate==2.4.0 # LEVEL_02 # for prophet (requires pytz, pymeeus) # Converts between Gregorian dates and other calendar systems.Calendars included: Baha'i, French Republican, Hebrew, Indian Civil, Islamic, ISO, Julian, Mayan and Persian
 isodate==0.6.1 # LEVEL_02 # An ISO 8601 date/time/duration parser and formatter
 pyluach==1.3.0 # LEVEL_01 # Pyluach is a Python package for manipulating Hebrew dates,                     Gregorian-Hebrew calendar conversions, getting the weekly                     parsha, and other Jewish calendar related calculations
 iso8601==1.0.2 # LEVEL_01 # Simple module to parse ISO 8601 dates
@@ -300,7 +300,7 @@ spacy-legacy==3.0.8 # LEVEL_01 # Legacy registered functions for spaCy backwards
 # spacy-transformers  # downgrades transformers !!
 thinc==8.0.13 # LEVEL_03 # A refreshing functional take on deep learning, compatible with your favorite libraries
 #
-transformers==4.15.0 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
+transformers==4.16.1 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 #
 wordcloud==1.8.1 # LEVEL_04 # A little word cloud generator
 #
@@ -321,8 +321,8 @@ kaggle==1.5.12 # LEVEL_03 # Kaggle API
 agate==1.6.3 # LEVEL_03 # A data analysis library that is optimized for humans instead of machines
 #
 dask-glm==0.2.0 # LEVEL_04 # Generalized Linear Models with Dask
-distributed==2022.1.0 # LEVEL_04 # Distributed scheduler for Dask
-dask[complete]==2022.1.0 # LEVEL_03 # Parallel PyData with Task Scheduling
+distributed==2022.1.1 # LEVEL_04 # Distributed scheduler for Dask
+dask[complete]==2022.1.1 # LEVEL_03 # Parallel PyData with Task Scheduling
 #dask-xgboost==0.2.0 # LEVEL_02 # outdated !
 # dask-cuda==21.10.0 # LEVEL_05 # outdated requirements
 # pynvml==11.0.0 # LEVEL_01 # POTENTIALLY_UNUSED # Python Bindings for the NVIDIA Management Library
@@ -344,7 +344,7 @@ imagecodecs-lite==2020.1.31 # LEVEL_03 # The imagecodecs-lite package is depreca
 imagecodecs==2021.11.20 # LEVEL_02 # Image transformation, compression, and decompression codecs
 opencv-python==4.5.5.62 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.5.62 # LEVEL_02 # Wrapper package for OpenCV python bindings
-imageio==2.14.0 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
+imageio==2.14.1 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
 Pillow==9.0.0 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
