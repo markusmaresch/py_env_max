@@ -1054,7 +1054,7 @@ vine==5.0.0 # LEVEL_01 # Promises, promises, promises
 #
 
 flower==1.0.0 # LEVEL_05 # Celery Flower
-gradio==2.7.0 # LEVEL_05 # Python library for easily interacting with trained machine learning models
+gradio==2.7.5.2 # LEVEL_05 # Python library for easily interacting with trained machine learning models
 paramiko==2.9.2 # LEVEL_04 # SSH2 protocol library
 celery==5.2.3 # LEVEL_04 # Distributed Task Queue
 analytics-python==1.4.0 # LEVEL_03 # The hassle-free way to integrate analytics into any python application

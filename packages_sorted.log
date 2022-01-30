@@ -402,6 +402,7 @@ pyqtgraph
 pystan
 python-daemon
 python-dateutil
+python-multipart
 python-slugify
 pytz-deprecation-shim
 pyviz-comms
