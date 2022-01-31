@@ -4049,7 +4049,7 @@ Requires: beautifulsoup4 pandas pandas-datareader requests requests-cache
 Required-by: 
 ---
 Name: pandas-market-calendars
-Version: 3.2
+Version: 3.3
 Summary: Market and exchange trading calendars for pandas
 Home-page: https://github.com/rsheftel/pandas_market_calendars
 Author: Ryan Sheftel
@@ -6139,13 +6139,13 @@ Requires: emoji numpy protobuf requests six torch tqdm
 Required-by: 
 ---
 Name: starlette
-Version: 0.18.0
+Version: 0.17.1
 Summary: The little ASGI library that shines.
 Home-page: https://github.com/encode/starlette
 Author: Tom Christie
 Author-email: tom@tomchristie.com
 License: BSD
-Requires: anyio typing-extensions
+Requires: anyio
 Required-by: fastapi
 ---
 Name: statsmodels
@@ -6709,7 +6709,7 @@ Requires:
 Required-by: ipykernel ipython ipywidgets jupyter-client jupyter-core jupyter-server matplotlib-inline nbclient nbconvert nbformat nbsphinx notebook pydeck qtconsole
 ---
 Name: transformers
-Version: 4.16.1
+Version: 4.16.2
 Summary: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 Home-page: https://github.com/huggingface/transformers
 Author: Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Sam Shleifer, Patrick von Platen, Sylvain Gugger, Suraj Patil, Stas Bekman, Google AI Language Team Authors, Open AI team Authors, Facebook AI Authors, Carnegie Mellon University Authors
@@ -6806,7 +6806,7 @@ Author:
 Author-email: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 License: 
 Requires: 
-Required-by: aioredis bokeh huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pyee pytorch-lightning starlette tensorflow torch typing-inspect
+Required-by: aioredis bokeh huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pyee pytorch-lightning tensorflow torch typing-inspect
 ---
 Name: typing-inspect
 Version: 0.7.1

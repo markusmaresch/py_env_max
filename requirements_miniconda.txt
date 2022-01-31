@@ -544,7 +544,7 @@ Django==4.0.1 # LEVEL_02 # A high-level Python web framework that encourages rap
 # ASGI
 #
 asgiref==3.5.0 # LEVEL_01 # ASGI specs, helper code, and adapters
-starlette==0.18.0 # LEVEL_03 # The little ASGI library that shines
+starlette==0.17.1 # LEVEL_03 # LOCKED # fastapi 0.73.0 depends on starlette==0.17.1 # The little ASGI library that shines
 uvicorn==0.17.1 # LEVEL_02 # The lightning-fast ASGI server
 #
 #
