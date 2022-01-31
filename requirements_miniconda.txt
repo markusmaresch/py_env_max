@@ -303,7 +303,7 @@ spacy-legacy==3.0.8 # LEVEL_01 # Legacy registered functions for spaCy backwards
 # spacy-transformers  # downgrades transformers !!
 thinc==8.0.13 # LEVEL_03 # A refreshing functional take on deep learning, compatible with your favorite libraries
 #
-transformers==4.16.1 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
+transformers==4.16.2 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 #
 wordcloud==1.8.1 # LEVEL_04 # A little word cloud generator
 #
@@ -685,7 +685,7 @@ pydeps==1.10.12 # LEVEL_02 # cd src/main; pydeps .; open main.svg # Display modu
 importlab==0.7 # LEVEL_02 # A library to calculate python dependency graphs
 ninja==1.10.2.3 # LEVEL_01 # Ninja is a small build system with a focus on speed
 #
-userpath==1.8.0 # LEVEL_02 # Cross-platform tool for adding locations to the user PATH, no elevated privileges required!
+userpath==1.8.0 # LEVEL_02 # Cross-platform tool for adding locations to the user PATH
 argcomplete==2.0.0 # LEVEL_01 # Bash tab completion for argparse
 #
 luigi==3.0.3 # LEVEL_03 # Workflow mgmgt + task scheduling + dependency resolution
@@ -878,7 +878,7 @@ click==8.0.3 # LEVEL_01 # Composable command line interface toolkit
 # Resolve below
 #
 #streamlit # has some dependencies !!
-tbb==2021.5.1 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
+tbb==2021.5.0 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
 tiledb==0.12.1 # LEVEL_03 # Pythonic interface to the TileDB array storage manager
 xarray==0.21.0 # LEVEL_04 # N-D labeled arrays and datasets in Python
 zstd==1.5.1.0 # LEVEL_01 # ZSTD Bindings for Python

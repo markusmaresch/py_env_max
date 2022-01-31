@@ -159,7 +159,7 @@ Requires: backoff monotonic python-dateutil requests six
 Required-by: gradio
 ---
 Name: ansi2html
-Version: 1.6.0
+Version: 1.7.0
 Summary: UNKNOWN
 Home-page: https://github.com/pycontribs/ansi2html
 Author: Ralph Bean
@@ -2469,7 +2469,7 @@ Requires: filelock packaging pyyaml requests tqdm typing-extensions
 Required-by: datasets transformers
 ---
 Name: humanize
-Version: 3.13.1
+Version: 3.14.0
 Summary: Python humanize utilities
 Home-page: https://github.com/jmoiron/humanize
 Author: Jason Moiron
@@ -6139,13 +6139,13 @@ Requires: emoji numpy protobuf requests six torch tqdm
 Required-by: 
 ---
 Name: starlette
-Version: 0.17.1
+Version: 0.18.0
 Summary: The little ASGI library that shines.
 Home-page: https://github.com/encode/starlette
 Author: Tom Christie
 Author-email: tom@tomchristie.com
 License: BSD
-Requires: anyio
+Requires: anyio typing-extensions
 Required-by: fastapi
 ---
 Name: statsmodels
@@ -6759,7 +6759,7 @@ Requires: aiodns aiohttp aiohttp-socks beautifulsoup4 cchardet elasticsearch fak
 Required-by: 
 ---
 Name: typed-ast
-Version: 1.5.1
+Version: 1.5.2
 Summary: a fork of Python 2 and 3 ast modules with type comment support
 Home-page: https://github.com/python/typed_ast
 Author: David Fisher
@@ -6806,7 +6806,7 @@ Author:
 Author-email: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 License: 
 Requires: 
-Required-by: aioredis bokeh huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pyee pytorch-lightning tensorflow torch typing-inspect
+Required-by: aioredis bokeh huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pyee pytorch-lightning starlette tensorflow torch typing-inspect
 ---
 Name: typing-inspect
 Version: 0.7.1
@@ -6919,17 +6919,17 @@ Requires:
 Required-by: botocore elasticsearch intrinio-sdk kaggle mixpanel pmdarima requests requests-cache selenium sentry-sdk
 ---
 Name: userpath
-Version: 1.7.0
-Summary: Cross-platform tool for adding locations to the user PATH, no elevated privileges required!
-Home-page: https://github.com/ofek/userpath
-Author: Ofek Lev
-Author-email: ofekmeister@gmail.com
-License: MIT OR Apache-2.0
+Version: 1.8.0
+Summary: Cross-platform tool for adding locations to the user PATH
+Home-page: 
+Author: 
+Author-email: Ofek Lev <oss@ofek.dev>
+License: 
 Requires: click
 Required-by: pipx
 ---
 Name: uvicorn
-Version: 0.17.0
+Version: 0.17.1
 Summary: The lightning-fast ASGI server.
 Home-page: https://www.uvicorn.org/
 Author: Tom Christie
