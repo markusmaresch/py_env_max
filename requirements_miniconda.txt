@@ -1077,4 +1077,5 @@ onnx==1.10.2 # LEVEL_02 # Open Neural Network Exchange
 tf2onnx==1.9.3 # LEVEL_03 # Tensorflow to ONNX converter
 keras2onnx==1.7.0 # LEVEL_04 # Converts Machine Learning models to ONNX for use in Windows ML
 keras-unet-collection==0.1.13 # LEVEL_01 # The Tensorflow, Keras implementation of U-net, V-net, U-net++, UNET 3+, Attention U-net, R2U-net, ResUnet-a, U^2-Net, TransUNET, and Swin-UNET with optional ImageNet-trained backbones
-
+#
+python-multipart==0.0.5 # LEVEL_02 # A streaming multipart parser for Python
