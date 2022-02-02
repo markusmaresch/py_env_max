@@ -1006,7 +1006,7 @@ Author: Łukasz Langa
 Author-email: lukasz@langa.pl
 License: UNKNOWN
 Requires: 
-Required-by: wandb
+Required-by: 
 ---
 Name: confluent-kafka
 Version: 1.8.2
@@ -1299,7 +1299,7 @@ Requires: click requests six tabulate
 Required-by: mlflow
 ---
 Name: datasets
-Version: 1.18.2
+Version: 1.18.3
 Summary: HuggingFace community-driven open-source library of datasets
 Home-page: https://github.com/huggingface/datasets
 Author: HuggingFace Inc.
@@ -2119,7 +2119,7 @@ Requires: google-api-core google-auth google-auth-httplib2 httplib2 uritemplate
 Required-by: tf-models-official
 ---
 Name: google-auth
-Version: 2.5.0
+Version: 2.6.0
 Summary: Google Authentication Library
 Home-page: https://github.com/googleapis/google-auth-library-python
 Author: Google Cloud Platform
@@ -2429,7 +2429,7 @@ Requires:
 Required-by: pandas-profiling
 ---
 Name: httpcore
-Version: 0.14.5
+Version: 0.14.6
 Summary: A minimal low-level HTTP client.
 Home-page: https://github.com/encode/httpcore
 Author: Tom Christie
@@ -2719,7 +2719,7 @@ Requires:
 Required-by: Flask dash-auth
 ---
 Name: jax
-Version: 0.2.27
+Version: 0.2.28
 Summary: Differentiate, compile, and transform Numpy code.
 Home-page: https://github.com/google/jax
 Author: JAX team
@@ -4069,7 +4069,7 @@ Requires: PyYAML htmlmin jinja2 joblib markupsafe matplotlib missingno multimeth
 Required-by: pycaret
 ---
 Name: pandas-stubs
-Version: 1.2.0.45
+Version: 1.2.0.47
 Summary: Type annotations for Pandas
 Home-page: https://github.com/VirtusLab/pandas-stubs
 Author: Zbigniew Królikowski
@@ -6206,7 +6206,7 @@ Author:
 Author-email: 
 License: PSF license
 Requires: 
-Required-by: wandb
+Required-by: 
 ---
 Name: TA-Lib
 Version: 0.4.21
@@ -6999,13 +6999,13 @@ Requires:
 Required-by: 
 ---
 Name: wandb
-Version: 0.12.9
+Version: 0.12.10
 Summary: A CLI and library for interacting with the Weights and Biases API.
 Home-page: https://github.com/wandb/client
 Author: Weights & Biases
 Author-email: support@wandb.com
 License: MIT license
-Requires: Click GitPython PyYAML configparser docker-pycreds pathtools promise protobuf psutil python-dateutil requests sentry-sdk shortuuid six subprocess32 yaspin
+Requires: Click GitPython PyYAML docker-pycreds pathtools promise protobuf psutil python-dateutil requests sentry-sdk shortuuid six yaspin
 Required-by: 
 ---
 Name: wasabi
