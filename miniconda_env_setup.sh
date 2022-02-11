@@ -2,7 +2,7 @@
 #
 # creates/updates conda environment based on requirements
 #
-py_env_name="py_env_202111"  # change/count up
+py_env_name="py_env_202112"  # change/count up
 python_default_version="3.9"
 
 while [ "$1" != "" ]; do

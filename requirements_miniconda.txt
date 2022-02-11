@@ -115,6 +115,8 @@ torchaudio==0.10.1 # LEVEL_03 # LOCKED # An audio package for PyTorch
 torchvision==0.11.2 # LEVEL_03 # LOCKED # image and video datasets and models for torch deep learning
 torch==1.10.1 # LEVEL_02 # LOCKED # Tensors and Dynamic neural networks in Python with strong GPU acceleration
 #
+starlette==0.17.1 # LEVEL_03 # LOCKED # fastapi 0.73.0 depends on starlette==0.17.1 # The little ASGI library that shines
+#
 #
 # Former LOCKED .. now freed ;-)
 #
@@ -539,12 +541,11 @@ django-http-exceptions==1.4.0 # LEVEL_03 # django raisable http exceptions
 django-model-utils==4.2.0 # LEVEL_03 # Django model mixins and utilities
 django-request-logging==0.7.4 # LEVEL_03 # Django middleware that logs http request body
 djangorestframework==3.13.1 # LEVEL_03 # Web APIs for Django, made easy
-Django==4.0.2 # LEVEL_02 # A high-level Python web framework that encourages rapid development and clean, pragmatic design
+Django==4.0.1 # LEVEL_02 # A high-level Python web framework that encourages rapid development and clean, pragmatic design
 #
 # ASGI
 #
 asgiref==3.5.0 # LEVEL_01 # ASGI specs, helper code, and adapters
-starlette==0.18.0 # LEVEL_03 # LOCKED # fastapi 0.73.0 depends on starlette==0.17.1 # The little ASGI library that shines
 uvicorn==0.17.4 # LEVEL_02 # The lightning-fast ASGI server
 #
 #
@@ -878,7 +879,7 @@ click==8.0.3 # LEVEL_01 # Composable command line interface toolkit
 # Resolve below
 #
 #streamlit # has some dependencies !!
-tbb==2021.5.1 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
+tbb==2021.5.0 # LEVEL_01 # Intel® oneAPI Threading Building Blocks (oneTBB)
 tiledb==0.12.2 # LEVEL_03 # Pythonic interface to the TileDB array storage manager
 xarray==0.21.1 # LEVEL_04 # N-D labeled arrays and datasets in Python
 zstd==1.5.1.0 # LEVEL_01 # ZSTD Bindings for Python
@@ -1078,4 +1079,5 @@ tf2onnx==1.9.3 # LEVEL_03 # Tensorflow to ONNX converter
 keras2onnx==1.7.0 # LEVEL_04 # Converts Machine Learning models to ONNX for use in Windows ML
 keras-unet-collection==0.1.13 # LEVEL_01 # The Tensorflow, Keras implementation of U-net, V-net, U-net++, UNET 3+, Attention U-net, R2U-net, ResUnet-a, U^2-Net, TransUNET, and Swin-UNET with optional ImageNet-trained backbones
 #
-python-multipart==0.0.5 # LEVEL_02 # A streaming multipart parser for Python
+#python-multipart==0.0.5 # LEVEL_02 # A streaming multipart parser for Python
+#

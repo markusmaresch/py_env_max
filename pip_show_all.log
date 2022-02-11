@@ -1203,7 +1203,7 @@ Version: 0.1.0
 Summary: Sketching pad for dash based on react-sketch
 Home-page: https://github.com/plotly/dash-canvas
 Author: Emmanuelle Gouillart <emmanuelle.gouillart@nsup.org>
-Author-email: UNKNOWN
+Author-email: 
 License: MIT
 Requires: Pillow dash scikit-image scikit-learn
 Required-by: 
@@ -1289,7 +1289,7 @@ Requires: dask dask-glm distributed multipledispatch numba numpy packaging panda
 Required-by: 
 ---
 Name: databricks-cli
-Version: 0.16.2
+Version: 0.16.4
 Summary: A command line interface for Databricks
 Home-page: https://github.com/databricks/databricks-cli
 Author: Andrew Chen
@@ -1330,11 +1330,11 @@ Required-by: datashader
 ---
 Name: dbt-extractor
 Version: 0.4.0
-Summary: 
-Home-page: 
-Author: Nathaniel May <nathaniel.may@fishtownanalytics.com>
-Author-email: Nathaniel May <nathaniel.may@fishtownanalytics.com>
-License: 
+Summary: A tool to analyze and extract information from Jinja used in dbt projects.
+Home-page: https://github.com/dbt-labs/dbt-parser-generator/
+Author: dbt Labs, Nathaniel May
+Author-email: info@dbtlabs.com, nathaniel.may@dbtlabs.com
+License: Apache-2.0
 Requires: 
 Required-by: 
 ---
@@ -1799,7 +1799,7 @@ Requires: numpy pandas
 Required-by: 
 ---
 Name: Fiona
-Version: 1.8.20
+Version: 1.8.21
 Summary: Fiona reads and writes spatial data files
 Home-page: http://github.com/Toblerity/Fiona
 Author: Sean Gillies
@@ -1919,7 +1919,7 @@ Requires: celery humanize prometheus-client pytz tornado
 Required-by: 
 ---
 Name: fonttools
-Version: 4.29.0
+Version: 4.29.1
 Summary: Tools to manipulate font files
 Home-page: http://github.com/fonttools/fonttools
 Author: Just van Rossum
@@ -2429,7 +2429,7 @@ Requires:
 Required-by: pandas-profiling
 ---
 Name: httpcore
-Version: 0.14.6
+Version: 0.14.7
 Summary: A minimal low-level HTTP client.
 Home-page: https://github.com/encode/httpcore
 Author: Tom Christie
@@ -2599,7 +2599,7 @@ Requires: networkx
 Required-by: pytype
 ---
 Name: importlib-metadata
-Version: 4.10.1
+Version: 4.11.0
 Summary: Read metadata from Python packages
 Home-page: https://github.com/python/importlib_metadata
 Author: Jason R. Coombs
@@ -2649,7 +2649,7 @@ Requires: certifi python-dateutil retrying six urllib3
 Required-by: 
 ---
 Name: ipykernel
-Version: 6.7.0
+Version: 6.9.0
 Summary: IPython Kernel for Jupyter
 Home-page: https://ipython.org
 Author: IPython Development Team
@@ -2879,7 +2879,7 @@ Requires: deprecation packaging setuptools tomlkit wheel
 Required-by: 
 ---
 Name: jupyter-server
-Version: 1.13.4
+Version: 1.13.5
 Summary: The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -2899,7 +2899,7 @@ Requires: aiohttp jupyter-server simpervisor
 Required-by: 
 ---
 Name: jupyterlab
-Version: 3.2.8
+Version: 3.2.9
 Summary: JupyterLab computational environment
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3032,8 +3032,8 @@ Name: Kivy-Garden
 Version: 0.1.4
 Summary: UNKNOWN
 Home-page: UNKNOWN
-Author: UNKNOWN
-Author-email: UNKNOWN
+Author: 
+Author-email: 
 License: MIT
 Requires: requests
 Required-by: Kivy Kivy-examples
@@ -3309,13 +3309,13 @@ Requires:
 Required-by: Jinja2 Mako pandas-profiling
 ---
 Name: mashumaro
-Version: 2.11
+Version: 3.0
 Summary: Fast serialization framework on top of dataclasses
 Home-page: https://github.com/Fatal1ty/mashumaro
 Author: Alexander Tikhonov
 Author-email: random.gauss@gmail.com
 License: Apache License, Version 2.0
-Requires: msgpack pyyaml typing-extensions
+Requires: typing-extensions
 Required-by: 
 ---
 Name: Mastodon.py
@@ -3486,7 +3486,7 @@ Author: Inada Naoki
 Author-email: songofacandy@gmail.com
 License: Apache 2.0
 Requires: 
-Required-by: distributed jqdatasdk mashumaro ray
+Required-by: distributed jqdatasdk ray
 ---
 Name: msgpack-python
 Version: 0.5.6
@@ -3619,7 +3619,7 @@ Requires: jupyter-client nbformat nest-asyncio traitlets
 Required-by: nbconvert
 ---
 Name: nbconvert
-Version: 6.4.1
+Version: 6.4.2
 Summary: Converting Jupyter Notebooks
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3719,7 +3719,7 @@ Requires:
 Required-by: pytype
 ---
 Name: nltk
-Version: 3.6.7
+Version: 3.7
 Summary: Natural Language Toolkit
 Home-page: https://www.nltk.org/
 Author: NLTK Team
@@ -3889,7 +3889,7 @@ Requires: numpy onnx protobuf
 Required-by: keras2onnx
 ---
 Name: openai
-Version: 0.13.0
+Version: 0.14.0
 Summary: Python client library for the OpenAI API
 Home-page: https://github.com/openai/openai-python
 Author: OpenAI
@@ -5139,17 +5139,17 @@ Requires: Cython numpy
 Required-by: prophet
 ---
 Name: pytest
-Version: 6.2.5
+Version: 7.0.1
 Summary: pytest: simple powerful testing with Python
 Home-page: https://docs.pytest.org/en/latest/
 Author: Holger Krekel, Bruno Oliveira, Ronny Pfannschmidt, Floris Bruynooghe, Brianna Laugher, Florian Bruhin and others
 Author-email: 
 License: MIT
-Requires: attrs iniconfig packaging pluggy py toml
+Requires: attrs iniconfig packaging pluggy py tomli
 Required-by: pytest-asyncio
 ---
 Name: pytest-asyncio
-Version: 0.17.2
+Version: 0.18.1
 Summary: Pytest support for asyncio
 Home-page: https://github.com/pytest-dev/pytest-asyncio
 Author: Tin Tvrtković <tinchester@gmail.com>
@@ -5336,7 +5336,7 @@ Author: Kirill Simonov
 Author-email: xi@resolvent.net
 License: MIT
 Requires: 
-Required-by: bokeh dask distributed fastai huggingface-hub libcst mashumaro mlagents-envs mlflow omegaconf pandas-profiling pytorch-lightning rapids ray tf-models-official transformers wandb
+Required-by: bokeh dask distributed fastai huggingface-hub libcst mlagents-envs mlflow omegaconf pandas-profiling pytorch-lightning rapids ray tf-models-official transformers wandb
 ---
 Name: pyzmq
 Version: 22.3.0
@@ -5419,7 +5419,7 @@ Requires: PyYAML pyramid setuptools venusian zope.interface
 Required-by: 
 ---
 Name: ray
-Version: 1.9.2
+Version: 1.10.0
 Summary: Ray provides a simple, universal API for building distributed applications.
 Home-page: https://github.com/ray-project/ray
 Author: Ray Team
@@ -5439,7 +5439,7 @@ Requires: commonmark docutils sphinx
 Required-by: 
 ---
 Name: redis
-Version: 4.1.2
+Version: 4.1.3
 Summary: Python client for Redis database and key-value store
 Home-page: https://github.com/redis/redis-py
 Author: Redis Inc.
@@ -5523,7 +5523,7 @@ Version: 1.3.3
 Summary: Retrying
 Home-page: https://github.com/rholder/retrying
 Author: Ray Holder
-Author-email: UNKNOWN
+Author-email: 
 License: Apache 2.0
 Requires: six
 Required-by: chart-studio dash-auth intrinio-sdk jupyter-dash
@@ -5679,7 +5679,7 @@ Requires: joblib matplotlib scikit-learn scipy
 Required-by: pycaret
 ---
 Name: scipy
-Version: 1.7.3
+Version: 1.8.0
 Summary: SciPy: Scientific Library for Python
 Home-page: https://www.scipy.org
 Author: 
@@ -5739,7 +5739,7 @@ Requires:
 Required-by: bertviz tf-models-official
 ---
 Name: sentry-sdk
-Version: 1.5.4
+Version: 1.5.5
 Summary: Python client for Sentry (https://sentry.io)
 Home-page: https://github.com/getsentry/sentry-python
 Author: Sentry Team and Contributors
@@ -5979,7 +5979,7 @@ Requires: colorama livereload sphinx
 Required-by: 
 ---
 Name: sphinx-autodoc-typehints
-Version: 1.16.0
+Version: 1.17.0
 Summary: Type hints (PEP 484) support for the Sphinx autodoc extension
 Home-page: https://github.com/tox-dev/sphinx-autodoc-typehints
 Author: Alex Grönholm
@@ -6549,7 +6549,7 @@ Requires: requests
 Required-by: 
 ---
 Name: tiledb
-Version: 0.12.1
+Version: 0.12.2
 Summary: Pythonic interface to the TileDB array storage manager
 Home-page: https://github.com/TileDB-Inc/TileDB-Py
 Author: TileDB, Inc.
@@ -6586,17 +6586,17 @@ Author: William Pearson
 Author-email: uiri@xqz.ca
 License: MIT
 Requires: 
-Required-by: autopep8 black pytest pytype
+Required-by: autopep8 black pytype
 ---
 Name: tomli
-Version: 2.0.0
+Version: 2.0.1
 Summary: A lil' TOML parser
 Home-page: 
 Author: 
 Author-email: Taneli Hukkinen <hukkin@users.noreply.github.com>
 License: 
 Requires: 
-Required-by: mypy setuptools-scm
+Required-by: mypy pytest setuptools-scm
 ---
 Name: tomlkit
 Version: 0.8.0
@@ -6649,7 +6649,7 @@ Requires: torch
 Required-by: 
 ---
 Name: torchmetrics
-Version: 0.7.0
+Version: 0.7.2
 Summary: PyTorch native Metrics
 Home-page: https://github.com/PyTorchLightning/metrics
 Author: PyTorchLightning et al.
@@ -6929,7 +6929,7 @@ Requires: click
 Required-by: pipx
 ---
 Name: uvicorn
-Version: 0.17.1
+Version: 0.17.4
 Summary: The lightning-fast ASGI server.
 Home-page: https://www.uvicorn.org/
 Author: Tom Christie
@@ -7079,7 +7079,7 @@ Requires:
 Required-by: Flask tensorboard
 ---
 Name: wheel
-Version: 0.37.0
+Version: 0.37.1
 Summary: A built-package format for Python
 Home-page: https://github.com/pypa/wheel
 Author: Daniel Holth
@@ -7239,7 +7239,7 @@ Requires: lxml multitasking numpy pandas requests
 Required-by: 
 ---
 Name: zarr
-Version: 2.10.3
+Version: 2.11.0
 Summary: An implementation of chunked, compressed, N-dimensional arrays for Python.
 Home-page: https://github.com/zarr-developers/zarr-python
 Author: 
