@@ -3689,13 +3689,13 @@ Requires:
 Required-by: colormath importlab scikit-image visions
 ---
 Name: nibabel
-Version: 3.2.1
+Version: 3.2.2
 Summary: Access a multitude of neuroimaging data formats
 Home-page: https://nipy.org/nibabel
 Author: nibabel developers
 Author-email: neuroimaging@python.org
 License: MIT License
-Requires: numpy packaging
+Requires: numpy packaging setuptools
 Required-by: nilearn
 ---
 Name: nilearn
@@ -4016,7 +4016,7 @@ Author: Donald Stufft and individual contributors
 Author-email: donald@stufft.io
 License: BSD-2-Clause or Apache-2.0
 Requires: pyparsing
-Required-by: QtPy Sphinx bleach bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery huggingface-hub jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nibabel numexpr pipx pytest pytorch-lightning redis scikit-image setuptools-scm spacy tiledb torchmetrics transformers
+Required-by: QtPy Sphinx bleach bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery huggingface-hub jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nibabel numexpr pipx pytest pytorch-lightning redis scikit-image setuptools-scm spacy tiledb torchmetrics transformers xarray
 ---
 Name: pandas
 Version: 1.4.0
@@ -4589,7 +4589,7 @@ Requires: aenum ast-decompiler asynq attrs codemod mypy-extensions qcore typeshe
 Required-by: 
 ---
 Name: pyarrow
-Version: 6.0.1
+Version: 7.0.0
 Summary: Python library for Apache Arrow
 Home-page: https://arrow.apache.org/
 Author: 
@@ -4779,7 +4779,7 @@ Requires:
 Required-by: gradio
 ---
 Name: pyee
-Version: 9.0.3
+Version: 9.0.4
 Summary: A port of node.js's EventEmitter to python.
 Home-page: https://github.com/jfhbrook/pyee
 Author: Josh Holbrook
@@ -5209,7 +5209,7 @@ Requires:
 Required-by: glog
 ---
 Name: python-magic
-Version: 0.4.24
+Version: 0.4.25
 Summary: File type identification using libmagic
 Home-page: http://github.com/ahupp/python-magic
 Author: Adam Hupp
@@ -5766,7 +5766,7 @@ Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy celery cufflinks distributed google-api-core gunicorn ipython jupyter-packaging mlxtend numba plaster pmdarima pyinstaller pyramid python-daemon pytorch-lightning rapids setuptools-scm spacy streamz tensorboard thinc zope.deprecation zope.interface
+Required-by: Fiona PasteDeploy celery cufflinks distributed google-api-core gunicorn ipython jupyter-packaging mlxtend nibabel numba plaster pmdarima pyinstaller pyramid python-daemon pytorch-lightning rapids setuptools-scm spacy streamz tensorboard thinc zope.deprecation zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -6509,7 +6509,7 @@ Requires: blis catalogue cymem murmurhash numpy preshed pydantic setuptools srsl
 Required-by: spacy
 ---
 Name: threadpoolctl
-Version: 3.0.0
+Version: 3.1.0
 Summary: threadpoolctl
 Home-page: https://github.com/joblib/threadpoolctl
 Author: Thomas Moreau
@@ -7149,13 +7149,13 @@ Requires: h11
 Required-by: trio-websocket
 ---
 Name: xarray
-Version: 0.21.0
+Version: 0.21.1
 Summary: N-D labeled arrays and datasets in Python
 Home-page: https://github.com/pydata/xarray
 Author: xarray Developers
 Author-email: xarray@googlegroups.com
 License: Apache
-Requires: numpy pandas
+Requires: numpy packaging pandas
 Required-by: datashader
 ---
 Name: xgboost
