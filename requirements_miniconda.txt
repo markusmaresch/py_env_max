@@ -174,8 +174,8 @@ box2d-py==2.3.8 # LEVEL_01 # Python Box2D
 #
 wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
 ray==1.10.0 # LEVEL_04 # Ray provides a simple, universal API for building distributed applications
-redis==4.1.3 # LEVEL_03 # Python client for Redis database and key-value store
-lz4==3.1.10 # LEVEL_01 # LZ4 Bindings for Python
+redis==4.1.4 # LEVEL_03 # Python client for Redis database and key-value store
+lz4==4.0.0 # LEVEL_01 # LZ4 Bindings for Python
 GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status from NVIDA GPUs using nvidia-smi
 #
 #
@@ -214,8 +214,8 @@ xgboost==1.5.2 # LEVEL_03 # check installation notes # XGBoost Python Package
 pyro-ppl==1.8.0 # LEVEL_03 # A Python library for probabilistic modeling and inference
 pyro-api==0.1.2 # LEVEL_01 # Generic API for dispatch to Pyro backends
 #
-pytorch-lightning==1.5.9 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
-performer-pytorch==1.1.3 # LEVEL_04 # Performer - Pytorch
+pytorch-lightning==1.5.10 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
+performer-pytorch==1.1.4 # LEVEL_04 # Performer - Pytorch
 torch-optimizer==0.3.0 # LEVEL_04 # pytorch-optimizer
 pytorch-ranger==0.1.1 # LEVEL_03 # Ranger - a synergistic optimizer using RAdam (Rectified Adam) and LookAhead in one codebase
 torchmetrics==0.7.2 # LEVEL_03 # PyTorch native Metrics
@@ -226,29 +226,29 @@ Theano==1.0.5 # LEVEL_03 # Optimizing compiler for evaluating mathematical expre
 nose==1.3.7 # LEVEL_01 # nose extends unittest to make testing easier
 #
 fastai==2.5.3 # LEVEL_05 # fastai simplifies training fast and accurate neural nets using modern best practices
-fastcore==1.3.27 # LEVEL_03 # Python supercharged for fastai development
+fastcore==1.3.29 # LEVEL_03 # Python supercharged for fastai development
 fastdownload==0.0.5 # LEVEL_04 # A general purpose data downloading library
-fastprogress==1.0.0 # LEVEL_02 # A nested progress with plotting options for fastai
+fastprogress==1.0.2 # LEVEL_02 # A nested progress with plotting options for fastai
 #
-h2o==3.36.0.2 # LEVEL_03 # H2O, Fast Scalable Machine Learning, for python
+h2o==3.36.0.3 # LEVEL_03 # H2O, Fast Scalable Machine Learning, for python
 #
 gym-unity==0.28.0 # LEVEL_04 # Unity Machine Learning Agents Gym Interface
 mlagents-envs==0.28.0 # LEVEL_03 # Unity Machine Learning Agents Interface
 #
 gensim==4.1.2 # LEVEL_03 # Python framework for fast Vector Space Modelling
 #
-openai==0.14.0 # LEVEL_04 # Python client library for the OpenAI API
+openai==0.15.0 # LEVEL_04 # Python client library for the OpenAI API
 #
 wandb==0.12.10 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
 #
 #ktrain>=0.27.2
 #
-mlflow==1.23.1 # LEVEL_05 # MLflow: A Platform for ML Development and Productionization
+mlflow==1.24.0 # LEVEL_05 # MLflow: A Platform for ML Development and Productionization
 mlxtend==0.19.0 # LEVEL_04 # Machine Learning Library Extensions
 catboost==1.0.4 # LEVEL_04 # Catboost Python Package
 phik==0.12.0 # LEVEL_04 # Phi_K correlation analyzer library
 umap-learn==0.5.2 # LEVEL_05 # Uniform Manifold Approximation and Projection
-yellowbrick==1.3.post1 # LEVEL_04 # A suite of visual analysis and diagnostic tools for machine learning
+yellowbrick==1.4 # LEVEL_04 # A suite of visual analysis and diagnostic tools for machine learning
 pynndescent==0.5.6 # LEVEL_04 # Nearest Neighbor Descent
 kmodes==0.11.1 # LEVEL_04 # Python implementations of the k-modes and k-prototypes clustering algorithms for clustering categorical data
 lightgbm==3.3.2 # LEVEL_04 # LightGBM Python Package
@@ -258,12 +258,12 @@ rapidminer==9.10.0.0 # LEVEL_05 # Tools for running RapidMiner processes and man
 #
 # Time Series
 #
-pmdarima==1.8.4 # LEVEL_05 # Python's forecast::auto.arima equivalent
+pmdarima==1.8.5 # LEVEL_05 # Python's forecast::auto.arima equivalent
 #darts>=0.9.1  # time series predictions (behind on requirements)
 #tsai>=0.2.18  # time series and sequences, triggers huge number of dependencies !
 prophet==1.0.1 # LEVEL_05 # time series forecasts from Facebook # Automatic Forecasting Procedure
 stumpy==1.10.2 # LEVEL_03 # A powerful and scalable library that can be used for a variety of time series data mining tasks
-Cython==0.29.27 # LEVEL_01 # pystan: cython!=0.25.1,>=0.22 # The Cython compiler for writing C extensions for the Python language
+Cython==0.29.28 # LEVEL_01 # pystan: cython!=0.25.1,>=0.22 # The Cython compiler for writing C extensions for the Python language
 
 #
 # Date & Time conversions
