@@ -570,8 +570,8 @@ jmespath==0.10.0 # LEVEL_01 # JSON Matching Expressions
 #
 # RPC
 #
-grpcio-status==1.43.0 # LEVEL_03 # Status proto mapping for gRPC
-grpcio==1.43.0 # LEVEL_02 # HTTP/2-based RPC framework
+grpcio-status==1.44.0 # LEVEL_03 # Status proto mapping for gRPC
+grpcio==1.44.0 # LEVEL_02 # HTTP/2-based RPC framework
 json-rpc==1.13.0 # LEVEL_01 # JSON-RPC transport implementation
 
 #
@@ -605,7 +605,7 @@ twint==2.1.20 # LEVEL_05 # Twitter downloader # An advanced Twitter scraping & O
 #
 soupsieve==2.3.1 # LEVEL_01 # A modern CSS selector implementation for Beautiful Soup
 tinycss2==1.1.1 # LEVEL_02 # A tiny CSS parser
-cssselect2==0.4.1 # LEVEL_03 # cssselect2
+cssselect2==0.5.0 # LEVEL_03 # cssselect2
 
 #
 # Checkers
@@ -622,7 +622,7 @@ typeguard==2.13.3 # LEVEL_01 # Run-time type checker for Python
 pyflakes==2.4.0 # LEVEL_01 # required by flake8 # passive checker of Python programs
 pycodestyle==2.8.0 # LEVEL_01 # Python style guide checker
 py-spy==0.3.11 # LEVEL_01 # Sampling profiler for Python programs
-stack-data==0.1.4 # LEVEL_03 # Extract data from python stack frames and tracebacks for informative displays
+stack-data==0.2.0 # LEVEL_03 # Extract data from python stack frames and tracebacks for informative displays
 #
 
 # Markdown
@@ -641,26 +641,26 @@ htmlmin==0.1.12 # LEVEL_01 # An HTML Minifier
 pipx==1.0.0 # LEVEL_03 # Install and Run Python Applications in Isolated Environments
 docker==5.0.3 # LEVEL_03 # A Python library for the Docker Engine API
 docker-pycreds==0.4.0 # LEVEL_02 # Python bindings for the docker credentials store API
-pyinstaller==4.8 # LEVEL_03 # PyInstaller bundles a Python application and all its dependencies into a single package
-pyinstaller-hooks-contrib==2022.0 # LEVEL_01 # deployment # Community maintained hooks for PyInstaller
+pyinstaller==4.9 # LEVEL_03 # PyInstaller bundles a Python application and all its dependencies into a single package
+pyinstaller-hooks-contrib==2022.2 # LEVEL_01 # deployment # Community maintained hooks for PyInstaller
 
 # Packages
 importlib-resources==5.4.0 # LEVEL_02 # Read resources from Python packages
 packaging==21.3 # LEVEL_02 # Core utilities for Python packages
-entrypoints==0.3 # LEVEL_01 # Discover and load entry points from installed packages
+entrypoints==0.4 # LEVEL_01 # Discover and load entry points from installed packages
 
 # Locking
 fasteners==0.17.3 # LEVEL_01 # A python package that provides useful locks
-filelock==3.4.2 # LEVEL_01 # A platform independent file lock
+filelock==3.6.0 # LEVEL_01 # A platform independent file lock
 lockfile==0.12.2 # LEVEL_01 # Platform-independent file locking module
 locket==0.2.1 # LEVEL_01 # File-based locks for Python for Linux and Windows
-portalocker==2.3.2 # LEVEL_01 # Wraps the portalocker recipe for easy usage
+portalocker==2.4.0 # LEVEL_01 # Wraps the portalocker recipe for easy usage
 fastrlock==0.8 # LEVEL_01 # Fast, re-entrant optimistic lock implemented in Cython
 
 #
 # requests
 #
-requests-cache==0.9.1 # LEVEL_03 # A transparent persistent cache for the requests library
+requests-cache==0.9.3 # LEVEL_03 # A transparent persistent cache for the requests library
 requests-oauthlib==1.3.1 # LEVEL_03 # OAuthlib authentication support for Requests
 requests-toolbelt==0.9.1 # LEVEL_03 # A utility belt for advanced users of python-requests
 requests-unixsocket==0.3.0 # LEVEL_03 # Use requests to talk HTTP via a UNIX domain socket
@@ -679,7 +679,7 @@ libclang==13.0.0 # LEVEL_01 # Clang Python Bindings, mirrored from the official 
 #
 libcst==0.4.1 # LEVEL_03 # A concrete syntax tree with AST-like properties for Python 3.5, 3.6, 3.7 and 3.8 programs
 asttokens==2.0.5 # LEVEL_02 # # Annotate AST trees with source code positions
-executing==0.8.2 # LEVEL_01 # # Get the currently executing AST node of a frame, and other information
+executing==0.8.3 # LEVEL_01 # # Get the currently executing AST node of a frame, and other information
 pure-eval==0.2.2 # LEVEL_01 # # Safely evaluate AST nodes without side effects
 #
 pydeps==1.10.12 # LEVEL_02 # cd src/main; pydeps .; open main.svg # Display module dependencies
