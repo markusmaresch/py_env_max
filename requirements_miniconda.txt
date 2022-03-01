@@ -182,7 +182,7 @@ GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status 
 # Machine Learning
 #
 tensorflow-text==2.7.3 # LEVEL_07 # TF.Text is a TensorFlow library of text related ops, modules, and subgraphs
-tensorflow==2.7.0 # LEVEL_06 # TensorFlow is an open source machine learning framework for everyone
+tensorflow==2.7.1 # LEVEL_06 # TensorFlow is an open source machine learning framework for everyone
 tensorboard==2.8.0 # LEVEL_05 # TensorBoard lets you watch Tensors Flow
 tensorflow-estimator==2.7.0 # LEVEL_01 # TensorFlow Estimator
 keras==2.7.0 # LEVEL_01 # Deep learning for humans
@@ -298,10 +298,10 @@ bert-for-tf2==0.14.9 # LEVEL_03 # A TensorFlow 2.0 Keras implementation of BERT
 bertviz==1.3.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger # Attention visualization tool for NLP Transformer models
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
 #
-spacytextblob==3.0.1 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
-spacy==3.2.1 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
+spacytextblob==4.0.0 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
+spacy==3.2.3 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
 spacy-loggers==1.0.1 # LEVEL_02 # Logging utilities for SpaCy
-spacy-legacy==3.0.8 # LEVEL_01 # Legacy registered functions for spaCy backwards compatibility
+spacy-legacy==3.0.9 # LEVEL_01 # Legacy registered functions for spaCy backwards compatibility
 # spacy-transformers  # downgrades transformers !!
 thinc==8.0.13 # LEVEL_03 # A refreshing functional take on deep learning, compatible with your favorite libraries
 #
