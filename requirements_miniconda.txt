@@ -103,7 +103,7 @@ pydantic==1.8.2 # LEVEL_02 # LOCKED # thinc 8.0.13; spacy 3.2.1 require pydantic
 #
 rfc3986==1.5.0 # LEVEL_01 # LOCKED # sphinx_autodoc_typehints-1.15.2 requires <2,>=1.3 # Validating URI References per RFC 3986
 #
-pyanalyze==0.5.0 # LEVEL_04 # LOCKED # A static analyzer for Python
+pyanalyze==0.5.0 # LEVEL_04 # LOCKED # pyanalyze 0.6.0 depends on typeshed-client>=2.0.0 # A static analyzer for Python
 #
 gym==0.20.0 # LEVEL_02 # LOCKED # gym-unity 0.28.0 requires it # Gym: A universal API for reinforcement learning environments
 #
