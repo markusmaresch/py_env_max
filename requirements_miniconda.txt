@@ -111,14 +111,14 @@ gym==0.20.0 # LEVEL_02 # LOCKED # gym-unity 0.28.0 requires it # Gym: A universa
 #
 h11==0.12.0 # LEVEL_01 # LOCKED # httpcore 0.14.5 depends on h11<0.13 and >=0.11 # A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
 #
-torchaudio==0.10.1 # LEVEL_03 # LOCKED # An audio package for PyTorch
-torchvision==0.11.2 # LEVEL_03 # LOCKED # image and video datasets and models for torch deep learning
-torch==1.10.1 # LEVEL_02 # LOCKED # Tensors and Dynamic neural networks in Python with strong GPU acceleration
-#
 starlette==0.17.1 # LEVEL_03 # LOCKED # fastapi 0.73.0 depends on starlette==0.17.1 # The little ASGI library that shines
 #
 #
 # Former LOCKED .. now freed ;-)
+#
+torchaudio==0.10.2 # LEVEL_03 # An audio package for PyTorch
+torchvision==0.11.3 # LEVEL_03 # image and video datasets and models for torch deep learning
+torch==1.10.2 # LEVEL_02 # Tensors and Dynamic neural networks in Python with strong GPU acceleration
 #
 fastapi==0.74.1 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
 #
