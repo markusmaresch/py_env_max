@@ -72,7 +72,7 @@ pyDeprecate==0.3.1 # LEVEL_01 # pytorch-lightning 1.5.0 has requirement pyDeprec
 #
 antlr4-python3-runtime==4.8 # LEVEL_01 # omegaconf 2.1.1 requires antlr4-python3-runtime==4.8 # ANTLR 4.8 runtime for Python 3.7
 #
-dask-ml==2021.10.17 # LEVEL_05 # LOCKED # numpy conflict # A library for distributed and parallel machine learning
+dask-ml==2021.10.17 # LEVEL_05 # numpy conflict # A library for distributed and parallel machine learning
 #
 joblib==1.0.1 # LEVEL_01 # LOCKED # pycaret requires this # Lightweight pipelining with Python functions
 #
@@ -438,22 +438,22 @@ Kivy-examples==2.0.0 # LEVEL_04 # Kivy examples
 Kivy-Garden==0.1.4 # LEVEL_03
 #
 dash-auth==1.4.1 # LEVEL_06 # Dash Authorization Package
-dash-bootstrap-components==1.0.2 # LEVEL_06 # Bootstrap themed components for use in Plotly Dash
+dash-bootstrap-components==1.0.3 # LEVEL_06 # Bootstrap themed components for use in Plotly Dash
 dash-canvas==0.1.0 # LEVEL_06 # Sketching pad for dash based on react-sketch
 dash-cytoscape==0.3.0 # LEVEL_06 # A Component Library for Dash aimed at facilitating network visualization in Python, wrapped around Cytoscape.js
-dash==2.1.0 # LEVEL_05 # A Python framework for building reactive web-apps. Developed by Plotly
+dash==2.2.0 # LEVEL_05 # A Python framework for building reactive web-apps. Developed by Plotly
 dash-core-components==2.0.0 # LEVEL_01 # Core component suite for Dash
 dash-html-components==2.0.0 # LEVEL_01 # Vanilla HTML components for Dash
 dash-table==5.0.0 # LEVEL_01 # Dash table
 dash-renderer==1.9.1 # LEVEL_01 # Front-end component renderer for Dash
 #
-plotly==5.5.0 # LEVEL_03 # An open-source, interactive data visualization library for Python
+plotly==5.6.0 # LEVEL_03 # An open-source, interactive data visualization library for Python
 chart-studio==1.1.0 # LEVEL_04 # Utilities for interfacing with plotly's Chart Studio
 #
-vispy==0.9.4 # LEVEL_02 # Interactive visualization in Python
+vispy==0.9.6 # LEVEL_02 # Interactive visualization in Python
 #
 cufflinks==0.17.3 # LEVEL_09 # Productivity Tools for Plotly + Pandas
-missingno==0.5.0 # LEVEL_05 # Missing data visualization module for Python
+missingno==0.5.1 # LEVEL_05 # Missing data visualization module for Python
 altair==4.2.0 # LEVEL_04 # Altair: A declarative statistical visualization library for Python
 gprof2dot==2021.2.21 # LEVEL_01 # attempt to visualize cProfile # Generate a dot graph from the output of several profilers
 
@@ -464,7 +464,7 @@ spectra==0.0.11 # LEVEL_03 # old # Color scales and color conversion made easy f
 colorcet==3.0.0 # LEVEL_03 # Collection of perceptually uniform colormaps
 colormath==3.0.0 # LEVEL_02 # not maintained # Color math and conversion library
 blessings==1.7 # LEVEL_02 # old # A thin, practical wrapper around terminal coloring, styling, and positioning
-rich==11.1.0 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+rich==11.2.0 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 colorama==0.4.4 # LEVEL_01 # Cross-platform colored terminal text
 termcolor==1.1.0 # LEVEL_01 # OLD !! # ANSII Color formatting for output in terminal
 colorful==0.5.4 # LEVEL_01 # old # Terminal string styling done right, in Python
@@ -474,32 +474,32 @@ hsluv==5.0.2 # LEVEL_01 # Human-friendly HSL
 #
 # Google ..
 #
-google-cloud-bigquery==2.32.0 # LEVEL_06 # Google BigQuery API client library
+google-cloud-bigquery==2.34.0 # LEVEL_06 # Google BigQuery API client library
 google-cloud-core==2.2.2 # LEVEL_05 # Google Cloud API client core library
-google-resumable-media==2.1.0 # LEVEL_02 # Utilities for Google Media Downloads and Resumable Uploads
+google-resumable-media==2.3.0 # LEVEL_02 # Utilities for Google Media Downloads and Resumable Uploads
 google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC32C'
 #
-google-api-python-client==2.36.0 # LEVEL_05 # Google API Client Library for Python
-google-api-core==2.4.0 # LEVEL_04 # Google API client core library
+google-api-python-client==2.39.0 # LEVEL_05 # Google API Client Library for Python
+google-api-core==2.5.0 # LEVEL_04 # Google API client core library
 google-auth-httplib2==0.1.0 # LEVEL_04 # Google Authentication Library: httplib2 transport
 google-auth-oauthlib==0.4.6 # LEVEL_04 # Google Authentication Library
 google-pasta==0.2.0 # LEVEL_02 # pasta is an AST-based Python refactoring library
-googleapis-common-protos==1.54.0 # LEVEL_02 # Common protobufs used in Google APIs
+googleapis-common-protos==1.55.0 # LEVEL_02 # Common protobufs used in Google APIs
 googletransx==2.4.2 # LEVEL_03 # Free Google Translate API for Python. Translates totally free of charge
 uritemplate==4.1.1 # LEVEL_01 # required by google-api-python-client # Implementation of RFC 6570 URI Templates
 
 # Azure
 azure-eventhub==5.7.0 # LEVEL_04 # Microsoft Azure Event Hubs Client Library for Python
 azure-storage-blob==12.9.0 # LEVEL_05 # Microsoft Azure Blob Storage Client Library for Python
-azure-core==1.21.1 # LEVEL_03 # Microsoft Azure Core Library for Python
-azure-common==1.1.27 # LEVEL_01 # Microsoft Azure Client Library for Python (Common)
+azure-core==1.22.1 # LEVEL_03 # Microsoft Azure Core Library for Python
+azure-common==1.1.28 # LEVEL_01 # Microsoft Azure Client Library for Python (Common)
 smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)
 uamqp==1.5.1 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.20.46  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.21.9  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.23.46 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.24.9 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
