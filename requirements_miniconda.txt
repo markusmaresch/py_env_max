@@ -37,7 +37,7 @@ TA-Lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # Still issue with upgrading !!! # Pyth
 #
 # not recognized by 'req.txt'
 #
-black==21.6b0 # LEVEL_02 # The uncompromising code formatter
+black==22.1.0 # LEVEL_02 # The uncompromising code formatter
 mplfinance==0.12.7a17 # LEVEL_04 # Utilities for the visualization, and visual analysis, of financial data
 graphviz==0.19.1 # LEVEL_01 # needed for dependecy graphing .. missing dependencies, but still needed # Simple Python interface for Graphviz
 
@@ -190,17 +190,17 @@ keras==2.7.0 # LEVEL_01 # Deep learning for humans
 tensorboard-data-server==0.6.1 # LEVEL_01 # Fast data loading for TensorBoard
 tensorboard-plugin-wit==1.8.1 # LEVEL_01 # What-If Tool TensorBoard plugin
 #
-tensorflow-datasets==4.5.0 # LEVEL_04 # tensorflow/datasets is a library of datasets ready to use with TensorFlow
-tensorflow-metadata==1.6.0 # LEVEL_03 # Library and standards for schema and statistics
-tensorflow-model-optimization==0.7.0 # LEVEL_03 # A suite of tools that users, both novice and advanced can use to optimize machine learning models for deployment and execution
-tensorflow-addons==0.15.0 # LEVEL_02 # TensorFlow Addons
+tensorflow-datasets==4.5.2 # LEVEL_04 # tensorflow/datasets is a library of datasets ready to use with TensorFlow
+tensorflow-metadata==1.7.0 # LEVEL_03 # Library and standards for schema and statistics
+tensorflow-model-optimization==0.7.1 # LEVEL_03 # A suite of tools that users, both novice and advanced can use to optimize machine learning models for deployment and execution
+tensorflow-addons==0.16.1 # LEVEL_02 # TensorFlow Addons
 tensorflow-hub==0.12.0 # LEVEL_02 # TensorFlow Hub is a library to foster the publication, discovery, and consumption of reusable parts of machine learning models
-tensorflow-io-gcs-filesystem==0.23.1 # LEVEL_01 # TensorFlow IO
+tensorflow-io-gcs-filesystem==0.24.0 # LEVEL_01 # TensorFlow IO
 #
-tf-models-official==2.7.0 # LEVEL_08 # TensorFlow Official Models
+tf-models-official==2.7.1 # LEVEL_08 # TensorFlow Official Models
 tf-slim==1.1.0 # LEVEL_03 # TensorFlow-Slim: A lightweight library for defining, training and evaluating complex models in TensorFlow
 #
-tensorboardX==2.4.1 # LEVEL_02 # TensorBoardX lets you watch Tensors Flow without Tensorflow
+tensorboardX==2.5 # LEVEL_02 # TensorBoardX lets you watch Tensors Flow without Tensorflow
 params-flow==0.8.2 # LEVEL_02 # Tensorflow Keras utilities for reducing boilerplate code
 #
 #
