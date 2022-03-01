@@ -951,7 +951,7 @@ munch==2.5.0 # LEVEL_02 # A dot-accessible dictionary (a la JavaScript objects)
 fire==0.4.0 # LEVEL_02 # A library for automatically generating command line interfaces
 #
 pyproj==3.3.0 # LEVEL_02 # Python interface to PROJ (cartographic projections and coordinate transformations library)
-Shapely==1.8.0 # LEVEL_01 # Geometric objects, predicates, and operations
+Shapely==1.8.1.post1 # LEVEL_01 # Geometric objects, predicates, and operations
 #
 #geotiff==0.2.3 # LEVEL_04 # has old dependencies on tifffile
 geos==0.2.3 # LEVEL_04 # Map server to view, measure and print maps in a web browserand to display maps as an overlay in google earth
@@ -963,7 +963,7 @@ gunicorn==20.1.0 # LEVEL_02 # WSGI HTTP Server for UNIX
 #
 icu==0.0.1 # LEVEL_01 # Integrated Cognitive User Assistance
 #
-krb5==0.2.0 # LEVEL_01 # Kerberos API bindings for Python
+krb5==0.3.0 # LEVEL_01 # Kerberos API bindings for Python
 #
 msgpack-python==0.5.6 # LEVEL_01 # MessagePack (de)serializer
 #
@@ -1013,7 +1013,7 @@ Logbook==1.5.3 # LEVEL_01 # A logging replacement for Python
 mashumaro==3.0 # LEVEL_02 # Fast serialization framework on top of dataclasses
 minimal-snowplow-tracker==0.0.2 # LEVEL_03 # A minimal snowplow event tracker for Python. Add analytics to your Python and Django apps, webapps and games
 msrest==0.6.21 # LEVEL_04 # AutoRest swagger generator Python client runtime
-ruamel_yaml==0.17.20 # LEVEL_02 # ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
+ruamel_yaml==0.17.21 # LEVEL_02 # ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
 ruamel_yaml_clib==0.2.6 # LEVEL_01 # C version of reader, parser and emitter for ruamel.yaml derived from libyaml
 #
 aiosignal==1.2.0 # LEVEL_02 # aiosignal: a list of registered asynchronous callbacks
@@ -1024,7 +1024,7 @@ local-attention==1.4.3 # LEVEL_03 # Local windowed attention, for language model
 netCDF4==1.5.8 # LEVEL_03 # Provides an object-oriented python interface to the netCDF version 4 library
 cftime==1.5.2 # LEVEL_02 # Time-handling functionality from netcdf4-python
 omegaconf==2.1.1 # LEVEL_02 # A flexible configuration library
-sentry-sdk==1.5.5 # LEVEL_02 # Python client for Sentry (https://sentry.io)
+sentry-sdk==1.5.6 # LEVEL_02 # Python client for Sentry (https://sentry.io)
 yaspin==2.1.0 # LEVEL_02 # Yet Another Terminal Spinner
 configparser==5.2.0 # LEVEL_01 # Updated configparser from Python 3.8 for Python 2.6+
 pathtools==0.1.2 # LEVEL_01 # File system general utilities
@@ -1055,7 +1055,7 @@ vine==5.0.0 # LEVEL_01 # Promises, promises, promises
 #
 
 flower==1.0.0 # LEVEL_05 # Celery Flower
-gradio==2.7.5.2 # LEVEL_05 # Python library for easily interacting with trained machine learning models
+gradio==2.8.5 # LEVEL_05 # Python library for easily interacting with trained machine learning models
 paramiko==2.9.2 # LEVEL_04 # SSH2 protocol library
 celery==5.2.3 # LEVEL_04 # Distributed Task Queue
 analytics-python==1.4.0 # LEVEL_03 # The hassle-free way to integrate analytics into any python application
@@ -1067,14 +1067,14 @@ cwcwidth==0.1.6 # LEVEL_01 # Python bindings for wc(s)width
 waitress==2.0.0 # LEVEL_01 # Waitress WSGI server
 boltons==21.0.0 # LEVEL_01 # When they're not builtins, they're boltons
 ffmpy==0.3.0 # LEVEL_01 # A simple Python wrapper for ffmpeg
-humanize==3.14.0 # LEVEL_01 # Python humanize utilities
+humanize==4.0.0 # LEVEL_01 # Python humanize utilities
 pydub==0.25.1 # LEVEL_01 # Manipulate audio with an simple and easy high level interface
 more-itertools==8.12.0 # LEVEL_01 # More routines for operating on iterables, beyond itertools
 #
 mixpanel==4.9.0 # LEVEL_03 # Official Mixpanel library for Python
 #
 onnxconverter-common==1.9.0 # LEVEL_03 # ONNX Converter and Optimization Tools
-onnx==1.10.2 # LEVEL_02 # Open Neural Network Exchange
+onnx==1.11.0 # LEVEL_02 # Open Neural Network Exchange
 tf2onnx==1.9.3 # LEVEL_03 # Tensorflow to ONNX converter
 keras2onnx==1.7.0 # LEVEL_04 # Converts Machine Learning models to ONNX for use in Windows ML
 keras-unet-collection==0.1.13 # LEVEL_01 # The Tensorflow, Keras implementation of U-net, V-net, U-net++, UNET 3+, Attention U-net, R2U-net, ResUnet-a, U^2-Net, TransUNET, and Swin-UNET with optional ImageNet-trained backbones
