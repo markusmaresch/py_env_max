@@ -239,7 +239,7 @@ gensim==4.1.2 # LEVEL_03 # Python framework for fast Vector Space Modelling
 #
 openai==0.15.0 # LEVEL_04 # Python client library for the OpenAI API
 #
-wandb==0.12.10 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
+wandb==0.12.11 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
 #
 #ktrain>=0.27.2
 #
@@ -326,8 +326,8 @@ kaggle==1.5.12 # LEVEL_03 # Kaggle API
 agate==1.6.3 # LEVEL_03 # A data analysis library that is optimized for humans instead of machines
 #
 dask-glm==0.2.0 # LEVEL_04 # Generalized Linear Models with Dask
-distributed==2022.1.1 # LEVEL_04 # Distributed scheduler for Dask
-dask[complete]==2022.1.1 # LEVEL_03 # Parallel PyData with Task Scheduling
+distributed==2022.2.1 # LEVEL_04 # Distributed scheduler for Dask
+dask[complete]==2022.2.1 # LEVEL_03 # Parallel PyData with Task Scheduling
 #dask-xgboost==0.2.0 # LEVEL_02 # outdated !
 # dask-cuda==21.10.0 # LEVEL_05 # outdated requirements
 # pynvml==11.0.0 # LEVEL_01 # POTENTIALLY_UNUSED # Python Bindings for the NVIDIA Management Library
@@ -351,7 +351,7 @@ opencv-python==4.5.5.62 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.5.62 # LEVEL_02 # Wrapper package for OpenCV python bindings
 imageio==2.14.1 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
-Pillow==9.0.0 # LEVEL_01 # Python Imaging Library (Fork)
+Pillow==9.0.1 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
 ImageHash==4.2.1 # LEVEL_03 # Image Hashing library
 #
@@ -497,9 +497,9 @@ smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, A
 uamqp==1.5.1 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.21.9  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.21.10  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.0 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.24.9 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.24.10 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
