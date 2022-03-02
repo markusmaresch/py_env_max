@@ -77,6 +77,10 @@ joblib==1.0.1 # LEVEL_01 # LOCKED # pycaret requires this # Lightweight pipelini
 #
 tangled-up-in-unicode==0.1.0 # LEVEL_01 # LOCKED # pandas-profiling 3.1.0 requires 0.1.0 # Access to the Unicode Character Database (UCD)
 #
+visions==0.7.4 # LEVEL_04 # LOCKED # pandas-profiling 3.1.0 requires visions[type_image_path]==0.7.4 # Visions
+#
+MarkupSafe==2.0.1 # LEVEL_01 # LOCKED # pandas-profiling 3.1.0 depends on markupsafe~=2.0.1 # Safely add untrusted strings to HTML/XML markup
+#
 alembic==1.4.1 # LOCKED # mlflow 1.21.0 requires it # LEVEL_03 # A database migration tool for SQLAlchemy
 #
 pyLDAvis==3.2.2 # LEVEL_04 # LOCKED # pycaret ? # Interactive topic model visualization. Port of the R package
@@ -86,8 +90,6 @@ pycaret==2.2.2 # LEVEL_10 # LOCKED # old dependencies # PyCaret - An open source
 mistune==0.8.4 # LEVEL_01 # LOCKED # nbconvert 6.3.0 requires mistune<2,>=0.8.1 # The fastest markdown parser in pure Python
 #
 pybullet==3.2.0 # LEVEL_01 # LOCKED # can't update ? # Official Python Interface for the Bullet Physics SDK specialized for Robotics Simulation and Reinforcement Learning
-#
-visions==0.7.4 # LEVEL_04 # LOCKED # pandas-profiling 3.1.0 requires visions[type_image_path]==0.7.4 # Visions
 #
 backoff==1.10.0 # LEVEL_01 # LOCKED # analytics-python requires 1.10.0 # Function decoration for backoff and retry
 #
@@ -635,7 +637,6 @@ markdown2==2.4.2 # LEVEL_01 # A fast and complete Python implementation of Markd
 beautifulsoup4==4.10.0 # LEVEL_02 # Screen-scraping library
 bleach==4.1.0 # LEVEL_03 # An easy safelist-based HTML-sanitizing tool
 ansi2html==1.7.0 # LEVEL_01
-MarkupSafe==2.0.1 # LEVEL_01 # Safely add untrusted strings to HTML/XML markup
 htmlmin==0.1.12 # LEVEL_01 # An HTML Minifier
 
 # Install, Deploy
