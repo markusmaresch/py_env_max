@@ -351,7 +351,7 @@ imagecodecs==2021.11.20 # LEVEL_02 # Image transformation, compression, and deco
 opencv-python==4.5.5.62 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.5.62 # LEVEL_02 # Wrapper package for OpenCV python bindings
 imageio==2.14.1 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
-tifffile==2021.11.2 # LEVEL_02 # Read and write TIFF files
+tifffile==2022.2.9 # LEVEL_02 # Read and write TIFF files
 Pillow==9.0.1 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
 ImageHash==4.2.1 # LEVEL_03 # Image Hashing library
