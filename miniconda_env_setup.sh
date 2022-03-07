@@ -2,7 +2,7 @@
 #
 # creates/updates conda environment based on requirements
 #
-py_env_name="py_env_202112"  # change/count up
+py_env_name="py_env_202201"  # change/count up
 python_default_version="3.9"
 
 while [ "$1" != "" ]; do
@@ -135,5 +135,7 @@ if [ 1 -eq 1 ]; then
     echo
   done
 fi
+
+# conda env export --no-builds > ${py_env_name}.yml
 
 exit 0
