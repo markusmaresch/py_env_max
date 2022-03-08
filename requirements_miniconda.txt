@@ -231,7 +231,7 @@ nose==1.3.7 # LEVEL_01 # nose extends unittest to make testing easier
 fastai==2.5.3 # LEVEL_05 # fastai simplifies training fast and accurate neural nets using modern best practices
 fastcore==1.3.29 # LEVEL_03 # Python supercharged for fastai development
 fastdownload==0.0.5 # LEVEL_04 # A general purpose data downloading library
-fastprogress==1.0.2 # LEVEL_02 # A nested progress with plotting options for fastai
+fastprogress==1.0.2 # LEVEL_01 # A nested progress with plotting options for fastai
 #
 h2o==3.36.0.3 # LEVEL_03 # H2O, Fast Scalable Machine Learning, for python
 #
@@ -280,7 +280,7 @@ pytz-deprecation-shim==0.1.0.post0 # LEVEL_02 # Shims to make deprecation of pyt
 python-dateutil==2.8.2 # LEVEL_02 # Extensions to the standard Python datetime module
 convertdate==2.4.0 # LEVEL_02 # for prophet (requires pytz, pymeeus) # Converts between Gregorian dates and other calendar systems
 isodate==0.6.1 # LEVEL_02 # An ISO 8601 date/time/duration parser and formatter
-pyluach==1.4.0 # LEVEL_01 # Pyluach is a Python package for manipulating Hebrew dates,                     Gregorian-Hebrew calendar conversions, getting the weekly                     parsha, and other Jewish calendar related calculations
+pyluach==1.4.0 # LEVEL_01 # Pyluach is a Python package for manipulating Hebrew dates,
 iso8601==1.0.2 # LEVEL_01 # Simple module to parse ISO 8601 dates
 hijri-converter==2.2.3 # LEVEL_01 # Accurate Hijri-Gregorian dates converter based on the Umm al-Qura calendar
 pytz==2021.3 # LEVEL_01 # World timezone definitions, modern and historical
@@ -301,7 +301,7 @@ bert-for-tf2==0.14.9 # LEVEL_03 # A TensorFlow 2.0 Keras implementation of BERT
 bertviz==1.3.0 # LEVEL_06 # Bert Vizualizer, https://github.com/jessevig/bertviz, only visual debugger # Attention visualization tool for NLP Transformer models
 sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
 #
-spacytextblob==4.0.0 # LEVEL_05 # A TextBlob sentiment analysis pipeline compponent for spaCy
+spacytextblob==4.0.0 # LEVEL_05 # A TextBlob sentiment analysis pipeline component for spaCy
 spacy==3.2.3 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
 spacy-loggers==1.0.1 # LEVEL_02 # Logging utilities for SpaCy
 spacy-legacy==3.0.9 # LEVEL_01 # Legacy registered functions for spaCy backwards compatibility
@@ -530,7 +530,7 @@ nbsphinx==0.8.8 # LEVEL_06 # Jupyter Notebook Tools for Sphinx
 nbconvert==6.4.2 # LEVEL_05 # Converting Jupyter Notebooks
 qtconsole==5.2.2 # LEVEL_06 # Jupyter Qt console
 ipykernel==6.9.1 # LEVEL_05 # IPython Kernel for Jupyter
-nbclient==0.5.11 # LEVEL_04 # A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor
+nbclient==0.5.12 # LEVEL_04 # A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor
 nbformat==5.1.3 # LEVEL_03 # The Jupyter Notebook format
 matplotlib-inline==0.1.3 # LEVEL_02 # Inline Matplotlib backend for Jupyter
 #
@@ -608,12 +608,12 @@ twint==2.1.20 # LEVEL_05 # Twitter downloader # An advanced Twitter scraping & O
 #
 soupsieve==2.3.1 # LEVEL_01 # A modern CSS selector implementation for Beautiful Soup
 tinycss2==1.1.1 # LEVEL_02 # A tiny CSS parser
-cssselect2==0.5.0 # LEVEL_03 # cssselect2
+cssselect2==0.5.0 # LEVEL_03 # CSS selectors for Python ElementTree
 
 #
 # Checkers
 #
-pytest-asyncio==0.18.1 # LEVEL_04 # Pytest support for asyncio
+pytest-asyncio==0.18.2 # LEVEL_04 # Pytest support for asyncio
 pytest==7.0.1 # LEVEL_03 # pytest: simple powerful testing with Python
 flake8==4.0.1 # LEVEL_02 # better linter than pyflakes # the modular source code checker: pep8 pyflakes and co
 mccabe==0.6.1 # LEVEL_01 # LOCKED ? # McCabe checker, plugin for flake8
@@ -740,7 +740,7 @@ deprecation==2.1.0 # LEVEL_03 # A library to handle automated deprecations
 dill==0.3.4 # LEVEL_01 # serialize all of python
 dm-tree==0.1.6 # LEVEL_02 # Tree is a library for working with nested data structures
 dnspython==2.2.1 # LEVEL_01 # DNS toolkit
-elasticsearch==8.0.1 # LEVEL_02 # Python client for Elasticsearch
+elasticsearch==8.1.0 # LEVEL_03 # Python client for Elasticsearch
 email-validator==1.1.3 # LEVEL_02 # A robust email syntax and deliverability validation library for Python 2.x/3.x
 ephem==4.1.3 # LEVEL_01 # Compute positions of the planets and stars
 et-xmlfile==1.1.0 # LEVEL_01 # An implementation of lxml.xmlfile for the standard library
@@ -785,7 +785,7 @@ pexpect==4.8.0 # LEVEL_02 # Pexpect allows easy control of interactive console a
 pickleshare==0.7.5 # LEVEL_01 # Tiny 'shelve'-like database with concurrency support
 preshed==3.0.6 # LEVEL_02 # Cython hash table that trusts the keys are pre-hashed
 #
-prometheus-flask-exporter==0.18.7 # LEVEL_04 # Prometheus metrics exporter for Flask
+prometheus-flask-exporter==0.19.0 # LEVEL_04 # Prometheus metrics exporter for Flask
 prometheus-client==0.13.1 # LEVEL_01 # Python client for the Prometheus monitoring system
 #
 promise==2.3 # LEVEL_02 # Promises/A+ implementation for Python
@@ -804,7 +804,7 @@ pycares==4.1.2 # LEVEL_03 # Python interface for c-ares
 pycparser==2.21 # LEVEL_01 # C parser in Python
 PyMeeus==0.5.11 # LEVEL_01 # Python implementation of Jean Meeus astronomical routines
 pyrsistent==0.18.1 # LEVEL_01 # Persistent/Functional/Immutable data structures
-python-slugify==6.1.1 # LEVEL_02 # A Python Slugify application that handles Unicode
+python-slugify==6.1.1 # LEVEL_02 # A Python slugify application that also handles Unicode
 PyWavelets==1.2.0 # LEVEL_02 # PyWavelets, wavelet transform module
 PyYAML==6.0 # LEVEL_01 # YAML parser and emitter for Python
 pyzmq==22.3.0 # LEVEL_01 # Python bindings for 0MQ
@@ -882,7 +882,7 @@ click==8.0.4 # LEVEL_01 # Composable command line interface toolkit
 #
 #streamlit # has some dependencies !!
 tbb==2021.5.0 # LEVEL_01 # LOCKED # ONLY_OSX # Intel® oneAPI Threading Building Blocks (oneTBB)
-tiledb==0.13.0 # LEVEL_03 # Pythonic interface to the TileDB array storage manager
+tiledb==0.13.1 # LEVEL_03 # Pythonic interface to the TileDB array storage manager
 xarray==2022.3.0 # LEVEL_04 # N-D labeled arrays and datasets in Python
 zstd==1.5.1.0 # LEVEL_01 # ZSTD Bindings for Python
 #
@@ -1026,7 +1026,7 @@ local-attention==1.4.3 # LEVEL_03 # Local windowed attention, for language model
 netCDF4==1.5.8 # LEVEL_03 # Provides an object-oriented python interface to the netCDF version 4 library
 cftime==1.6.0 # LEVEL_02 # Time-handling functionality from netcdf4-python
 omegaconf==2.1.1 # LEVEL_02 # A flexible configuration library
-sentry-sdk==1.5.6 # LEVEL_02 # Python client for Sentry (https://sentry.io)
+sentry-sdk==1.5.7 # LEVEL_02 # Python client for Sentry (https://sentry.io)
 yaspin==2.1.0 # LEVEL_02 # Yet Another Terminal Spinner
 configparser==5.2.0 # LEVEL_01 # Updated configparser from Python 3.8 for Python 2.6+
 pathtools==0.1.2 # LEVEL_01 # File system general utilities
@@ -1038,7 +1038,7 @@ livereload==2.6.3 # LEVEL_02 # Python LiveReload is an awesome tool for web deve
 langcodes==3.3.0 # LEVEL_01 # Tools for labeling human languages with IETF language tags
 kiwisolver==1.3.2 # LEVEL_01 # A fast implementation of the Cassowary constraint solver
 #
-emoji==1.6.3 # LEVEL_01 # Emoji for Python
+emoji==1.7.0 # LEVEL_01 # Emoji for Python
 #
 shellingham==1.4.0 # LEVEL_01 # Tool to Detect Surrounding Shell
 #
@@ -1057,7 +1057,7 @@ vine==5.0.0 # LEVEL_01 # Promises, promises, promises
 #
 
 flower==1.0.0 # LEVEL_05 # Celery Flower
-gradio==2.8.7 # LEVEL_05 # Python library for easily interacting with trained machine learning models
+gradio==2.8.8 # LEVEL_05 # Python library for easily interacting with trained machine learning models
 paramiko==2.9.2 # LEVEL_04 # SSH2 protocol library
 celery==5.2.3 # LEVEL_04 # Distributed Task Queue
 analytics-python==1.4.0 # LEVEL_03 # The hassle-free way to integrate analytics into any python application
@@ -1082,4 +1082,17 @@ keras2onnx==1.7.0 # LEVEL_04 # Converts Machine Learning models to ONNX for use 
 keras-unet-collection==0.1.13 # LEVEL_01 # The Tensorflow, Keras implementation of U-net, V-net, U-net++, UNET 3+, Attention U-net, R2U-net, ResUnet-a, U^2-Net, TransUNET, and Swin-UNET with optional ImageNet-trained backbones
 #
 #python-multipart==0.0.5 # LEVEL_02 # A streaming multipart parser for Python
+#
+#
+mdit-py-plugins==0.3.0 # LEVEL_03 # Collection of plugins for markdown-it-py
+#
+python-multipart==0.0.5 # LEVEL_02 # A streaming multipart parser for Python
+elastic-transport==8.0.1 # LEVEL_02 # Transport classes and utilities shared among Python Elastic client libraries
+linkify-it-py==1.0.3 # LEVEL_02 # Links recognition library with FULL unicode support
+markdown-it-py==2.0.1 # LEVEL_02 # Python port of markdown-it. Markdown parsing, done right!
+#
+mdurl==0.1.0 # LEVEL_01 # Markdown URL utilities
+orjson==3.6.7 # LEVEL_01 # Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
+setproctitle==1.2.2 # LEVEL_01 # A Python module to customize the process title
+uc-micro-py==1.0.1 # LEVEL_01 # Micro subset of unicode data files for linkify-it-py projects
 #

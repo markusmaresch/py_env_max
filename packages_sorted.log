@@ -71,6 +71,7 @@ faiss-cpu
 fake-useragent
 fastavro
 fasteners
+fastprogress
 fastrlock
 ffmpy
 filelock
@@ -129,6 +130,7 @@ lz4
 markdown2
 markupsafe
 mccabe
+mdurl
 mistune
 mock
 monotonic
@@ -152,6 +154,7 @@ oauthlib
 olefile
 opencensus-context
 optional-django
+orjson
 pandas-stubs
 pandocfilters
 param
@@ -221,6 +224,7 @@ ruamel.yaml.clib
 schedule
 send2trash
 sentencepiece
+setproctitle
 setuptools
 setuptools-git
 shapely
@@ -271,6 +275,7 @@ typeguard
 typing-extensions
 tzdata
 ua-parser
+uc-micro-py
 ujson
 unidecode
 uritemplate
@@ -321,10 +326,9 @@ deprecated
 django
 dm-tree
 docker-pycreds
-elasticsearch
+elastic-transport
 email-validator
 eventkit
-fastprogress
 fire
 flake8
 geopy
@@ -351,10 +355,12 @@ jupyter-core
 jupyterlab-pygments
 keras-preprocessing
 leather
+linkify-it-py
 livereload
 m3u8
 macholib
 mako
+markdown-it-py
 mashumaro
 matplotlib-inline
 memory-profiler
@@ -479,6 +485,7 @@ django-request-logging
 djangorestframework
 docker
 ecos
+elasticsearch
 fastcore
 fiona
 flask
@@ -510,6 +517,7 @@ lunarcalendar
 markdown
 mastodon.py
 matplotlib
+mdit-py-plugins
 minimal-snowplow-tracker
 mixpanel
 mlagents-envs
