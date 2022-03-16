@@ -448,7 +448,7 @@ dash-auth==1.4.1 # LEVEL_06 # Dash Authorization Package
 dash-bootstrap-components==1.0.3 # LEVEL_06 # Bootstrap themed components for use in Plotly Dash
 dash-canvas==0.1.0 # LEVEL_06 # Sketching pad for dash based on react-sketch
 dash-cytoscape==0.3.0 # LEVEL_06 # A Component Library for Dash aimed at facilitating network visualization in Python, wrapped around Cytoscape.js
-dash==2.2.0 # LEVEL_05 # A Python framework for building reactive web-apps. Developed by Plotly
+dash==2.3.0 # LEVEL_05 # A Python framework for building reactive web-apps. Developed by Plotly
 dash-core-components==2.0.0 # LEVEL_01 # Core component suite for Dash
 dash-html-components==2.0.0 # LEVEL_01 # Vanilla HTML components for Dash
 dash-table==5.0.0 # LEVEL_01 # Dash table
@@ -471,7 +471,7 @@ spectra==0.0.11 # LEVEL_03 # old # Color scales and color conversion made easy f
 colorcet==3.0.0 # LEVEL_03 # Collection of perceptually uniform colormaps
 colormath==3.0.0 # LEVEL_02 # not maintained # Color math and conversion library
 blessings==1.7 # LEVEL_02 # old # A thin, practical wrapper around terminal coloring, styling, and positioning
-rich==11.2.0 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+rich==12.0.0 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 colorama==0.4.4 # LEVEL_01 # Cross-platform colored terminal text
 termcolor==1.1.0 # LEVEL_01 # OLD !! # ANSII Color formatting for output in terminal
 colorful==0.5.4 # LEVEL_01 # old # Terminal string styling done right, in Python
@@ -486,8 +486,8 @@ google-cloud-core==2.2.3 # LEVEL_05 # Google Cloud API client core library
 google-resumable-media==2.3.2 # LEVEL_02 # Utilities for Google Media Downloads and Resumable Uploads
 google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC32C'
 #
-google-api-python-client==2.39.0 # LEVEL_05 # Google API Client Library for Python
-google-api-core==2.7.0 # LEVEL_04 # Google API client core library
+google-api-python-client==2.41.0 # LEVEL_05 # Google API Client Library for Python
+google-api-core==2.7.1 # LEVEL_04 # Google API client core library
 google-auth-httplib2==0.1.0 # LEVEL_04 # Google Authentication Library: httplib2 transport
 google-auth-oauthlib==0.4.6 # LEVEL_04 # Google Authentication Library
 google-pasta==0.2.0 # LEVEL_02 # pasta is an AST-based Python refactoring library
@@ -497,7 +497,7 @@ uritemplate==4.1.1 # LEVEL_01 # required by google-api-python-client # Implement
 
 # Azure
 azure-eventhub==5.7.0 # LEVEL_04 # Microsoft Azure Event Hubs Client Library for Python
-azure-storage-blob==12.9.0 # LEVEL_05 # Microsoft Azure Blob Storage Client Library for Python
+azure-storage-blob==12.10.0 # LEVEL_05 # Microsoft Azure Blob Storage Client Library for Python
 azure-core==1.23.0 # LEVEL_03 # Microsoft Azure Core Library for Python
 azure-common==1.1.28 # LEVEL_01 # Microsoft Azure Client Library for Python (Common)
 smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)
@@ -533,7 +533,7 @@ notebook==6.4.10 # LEVEL_06 # A web-based notebook environment for interactive c
 nbsphinx==0.8.8 # LEVEL_06 # Jupyter Notebook Tools for Sphinx
 nbconvert==6.4.4 # LEVEL_05 # Converting Jupyter Notebooks
 qtconsole==5.2.2 # LEVEL_06 # Jupyter Qt console
-ipykernel==6.9.1 # LEVEL_05 # IPython Kernel for Jupyter
+ipykernel==6.9.2 # LEVEL_05 # IPython Kernel for Jupyter
 nbclient==0.5.13 # LEVEL_04 # A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor
 nbformat==5.2.0 # LEVEL_03 # The Jupyter Notebook format
 matplotlib-inline==0.1.3 # LEVEL_02 # Inline Matplotlib backend for Jupyter
@@ -619,7 +619,7 @@ cssselect2==0.5.0 # LEVEL_03 # CSS selectors for Python ElementTree
 pytest-asyncio==0.18.2 # LEVEL_04 # Pytest support for asyncio
 pytest==7.1.0 # LEVEL_03 # pytest: simple powerful testing with Python
 flake8==4.0.1 # LEVEL_02 # better linter than pyflakes # the modular source code checker: pep8 pyflakes and co
-mccabe==0.6.1 # LEVEL_01 # LOCKED ? # McCabe checker, plugin for flake8
+mccabe==0.6.1 # LEVEL_01 # LOCKED # flake8 requires it # McCabe checker, plugin for flake8
 mypy==0.941 # LEVEL_02 # Optional static typing for Python
 mypy-extensions==0.4.3 # LEVEL_01 # Experimental type system extensions for programs checked with the mypy typechecker
 autopep8==1.6.0 # LEVEL_02 # using fix_file # A tool that automatically formats Python code to conform to the PEP 8 style guide
@@ -760,7 +760,7 @@ httplib2==0.20.4 # LEVEL_02 # A comprehensive HTTP client library
 idna==3.3 # LEVEL_01 # Internationalized Domain Names in Applications (IDNA)
 ipython==8.1.1 # LEVEL_04 # IPython: Productive Interactive Computing
 ipython-genutils==0.2.0 # LEVEL_01 # Vestigial utilities from IPython
-itsdangerous==2.1.0 # LEVEL_01 # Safely pass data to untrusted environments and back
+itsdangerous==2.1.1 # LEVEL_01 # Safely pass data to untrusted environments and back
 jedi==0.18.1 # LEVEL_02 # An autocompletion tool for Python that can be used for text editors
 Jinja2==3.0.3 # LEVEL_02 # template engine # A very fast and expressive template engine
 korean-lunar-calendar==0.2.1 # LEVEL_01 # Korean Lunar Calendar
@@ -1038,7 +1038,7 @@ subprocess32==3.5.4 # LEVEL_01 # A backport of the subprocess module from Python
 livereload==2.6.3 # LEVEL_02 # Python LiveReload is an awesome tool for web developers
 #
 langcodes==3.3.0 # LEVEL_01 # Tools for labeling human languages with IETF language tags
-kiwisolver==1.3.2 # LEVEL_01 # A fast implementation of the Cassowary constraint solver
+kiwisolver==1.4.0 # LEVEL_01 # A fast implementation of the Cassowary constraint solver
 #
 emoji==1.7.0 # LEVEL_01 # Emoji for Python
 #
