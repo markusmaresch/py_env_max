@@ -345,7 +345,7 @@ scikit-plot==0.3.7 # LEVEL_04 # An intuitive library to add plotting functionali
 scikit-image==0.19.2 # LEVEL_03 # Image processing in Python
 scikit-learn==1.0.2 # LEVEL_03 # A set of python modules for machine learning and data mining
 pyod==0.9.8 # LEVEL_05 # outlyer detection # A Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
-jax==0.3.1 # LEVEL_03 # Differentiate, compile, and transform Numpy code
+jax==0.3.2 # LEVEL_03 # Differentiate, compile, and transform Numpy code
 #
 zeep==4.1.0 # LEVEL_04 # A modern/fast Python SOAP client based on lxml / requests
 cached-property==1.5.2 # LEVEL_01 # A decorator for caching properties in classes
@@ -355,7 +355,7 @@ platformdirs==2.5.1 # LEVEL_01 # A small Python module for determining appropria
 # Computer Vision
 #
 imagecodecs-lite==2020.1.31 # LEVEL_03 # The imagecodecs-lite package is deprecated. Use the imagecodecs package instead
-imagecodecs==2020.12.24 # LEVEL_02 # Image transformation, compression, and decompression codecs
+imagecodecs==2022.2.22 # LEVEL_02 # Image transformation, compression, and decompression codecs
 opencv-python==4.5.5.64 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.5.64 # LEVEL_02 # Wrapper package for OpenCV python bindings
 imageio==2.14.1 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
@@ -518,9 +518,9 @@ jupyter-bokeh==3.0.4 # LEVEL_09 # A Jupyter extension for rendering Bokeh conten
 jupyter==1.0.0 # LEVEL_09 # Jupyter metapackage. Install all the Jupyter components in one go
 jupyterlab==3.3.2 # LEVEL_09 # JupyterLab computational environment
 jupyter-server-proxy==3.2.1 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
-jupyterlab-server==2.11.0 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
+jupyterlab-server==2.11.1 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.1 # LEVEL_06 # Dash support for the Jupyter notebook interface
-jupyter-server==1.15.5 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
+jupyter-server==1.15.6 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-console==6.4.3 # LEVEL_06 # Jupyter terminal console
 jupyter-packaging==0.11.1 # LEVEL_04 # Jupyter Packaging Utilities
 jupyter-client==7.1.2 # LEVEL_03 # Jupyter protocol implementation and client libraries

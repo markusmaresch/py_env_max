@@ -2539,7 +2539,7 @@ Requires: pandas requests
 Required-by: 
 ---
 Name: imagecodecs
-Version: 2020.12.24
+Version: 2022.2.22
 Summary: Image transformation, compression, and decompression codecs
 Home-page: https://www.lfd.uci.edu/~gohlke/
 Author: Christoph Gohlke
@@ -2729,7 +2729,7 @@ Requires:
 Required-by: Flask dash-auth
 ---
 Name: jax
-Version: 0.3.1
+Version: 0.3.2
 Summary: Differentiate, compile, and transform Numpy code.
 Home-page: https://github.com/google/jax
 Author: JAX team
@@ -2889,7 +2889,7 @@ Requires: deprecation packaging setuptools tomlkit wheel
 Required-by: 
 ---
 Name: jupyter-server
-Version: 1.15.5
+Version: 1.15.6
 Summary: The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -2929,7 +2929,7 @@ Requires: pygments
 Required-by: nbconvert
 ---
 Name: jupyterlab-server
-Version: 2.11.0
+Version: 2.11.1
 Summary: A set of server components for JupyterLab and JupyterLab like applications .
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
