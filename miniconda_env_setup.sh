@@ -18,7 +18,7 @@ done
 pip_check_exit() {
   pip_check_tmp="/tmp/pip_check.$$.tmp"
   pip check | tee $pip_check_tmp
-  ret=$?
+  ret=${PIPESTATUS[0]}
   echo "pip check ret: $ret"
   if [ $ret != 0 ]; then
     other_errors=$(grep -v -e ", which is not installed.$" $pip_check_tmp | wc -l | xargs)
