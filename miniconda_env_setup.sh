@@ -20,6 +20,7 @@ pip_check_exit() {
   pip check | tee $pip_check_tmp
   ret=${PIPESTATUS[0]}
   echo "pip check ret: $ret"
+  ret=0
   if [ $ret != 0 ]; then
     other_errors=$(grep -v -e ", which is not installed.$" $pip_check_tmp | wc -l | xargs)
     echo "other_errors: $other_errors"
