@@ -726,14 +726,15 @@ tda-api
 tensorflow
 jupyter-server-proxy
 jupyterlab-server
-nbclassic
+notebook-shim
 tensorflow-text
 widgetsnbextension
 ipywidgets
-jupyterlab
+nbclassic
 tf-models-official
 cufflinks
 jupyter
 jupyter-bokeh
+jupyterlab
 pydeck
 pycaret

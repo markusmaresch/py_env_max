@@ -139,4 +139,6 @@ fi
 
 # conda env export --no-builds > ${py_env_name}.yml
 
+./check_all.sh
+
 exit 0

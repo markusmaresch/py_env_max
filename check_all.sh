@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#
+# needs
+# conda activate $py_env_name
+#
+
 conda --version > conda_version.txt
 
 if ! python inspect_all.py; then

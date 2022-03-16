@@ -139,7 +139,7 @@ Requires:
 Required-by: macholib pyinstaller
 ---
 Name: amqp
-Version: 5.0.9
+Version: 5.1.0
 Summary: Low-level AMQP client for Python (fork of amqplib).
 Home-page: http://github.com/celery/py-amqp
 Author: Barry Pederson
@@ -269,7 +269,7 @@ Requires:
 Required-by: Django uvicorn
 ---
 Name: asn1crypto
-Version: 1.4.0
+Version: 1.5.1
 Summary: Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP
 Home-page: https://github.com/wbond/asn1crypto
 Author: wbond
@@ -369,12 +369,12 @@ Requires:
 Required-by: Fiona aiohttp aiohttp-socks cattrs jsonschema markdown-it-py outcome pyanalyze pytest pytype ray requests-cache trio visions zeep
 ---
 Name: Authlib
-Version: 0.15.5
-Summary: The ultimate Python library in building OAuth and OpenID Connect servers.
+Version: 1.0.0
+Summary: The ultimate Python library in building OAuth and OpenID Connect servers and clients.
 Home-page: https://authlib.org/
 Author: Hsiaoming Yang
 Author-email: me@lepture.com
-License: BSD-3-Clause
+License: BSD 3-Clause License
 Requires: cryptography
 Required-by: tda-api
 ---
@@ -409,13 +409,13 @@ Requires:
 Required-by: 
 ---
 Name: azure-core
-Version: 1.22.1
+Version: 1.23.0
 Summary: Microsoft Azure Core Library for Python
 Home-page: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/core/azure-core
 Author: Microsoft Corporation
 Author-email: azpysdkhelp@microsoft.com
 License: MIT License
-Requires: requests six
+Requires: requests six typing-extensions
 Required-by: azure-eventhub azure-storage-blob
 ---
 Name: azure-eventhub
@@ -429,7 +429,7 @@ Requires: azure-core uamqp
 Required-by: 
 ---
 Name: azure-storage-blob
-Version: 12.9.0
+Version: 12.10.0
 Summary: Microsoft Azure Blob Storage Client Library for Python
 Home-page: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/storage/azure-storage-blob
 Author: Microsoft Corporation
@@ -496,7 +496,7 @@ Author: Leonard Richardson
 Author-email: leonardr@segfault.org
 License: MIT
 Requires: soupsieve
-Required-by: pandas-finance pydata-sphinx-theme twint yahoofinancials
+Required-by: nbconvert pandas-finance pydata-sphinx-theme twint yahoofinancials
 ---
 Name: bert-for-tf2
 Version: 0.14.9
@@ -639,7 +639,7 @@ Requires:
 Required-by: 
 ---
 Name: boto3
-Version: 1.21.10
+Version: 1.21.20
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -649,7 +649,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.24.10
+Version: 1.24.20
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -789,9 +789,9 @@ Requires: pycparser
 Required-by: PyNaCl argon2-cffi-bindings bcrypt brotlipy cryptography pycares
 ---
 Name: cftime
-Version: 1.5.2
+Version: 1.6.0
 Summary: Time-handling functionality from netcdf4-python
-Home-page: UNKNOWN
+Home-page: 
 Author: Jeff Whitaker
 Author-email: jeffrey.s.whitaker@noaa.gov
 License: License :: OSI Approved :: MIT License
@@ -899,7 +899,7 @@ Requires:
 Required-by: dask dask-glm distributed gym mlagents-envs mlflow stable-baselines3
 ---
 Name: cloudscraper
-Version: 1.2.58
+Version: 1.2.60
 Summary: A Python module to bypass Cloudflare's anti-bot page.
 Home-page: https://github.com/venomous/cloudscraper
 Author: VeNoMouS
@@ -946,7 +946,7 @@ Author: Jonathan Hartley
 Author-email: tartley@tartley.com
 License: BSD
 Requires: 
-Required-by: rich sacrebleu sphinx-autobuild
+Required-by: sacrebleu sphinx-autobuild
 ---
 Name: colorcet
 Version: 3.0.0
@@ -1059,7 +1059,7 @@ Requires: python-dateutil
 Required-by: 
 ---
 Name: cryptography
-Version: 36.0.1
+Version: 36.0.2
 Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
 Home-page: https://github.com/pyca/cryptography
 Author: The Python Cryptographic Authority and individual contributors
@@ -1099,7 +1099,7 @@ Requires: blessings cwcwidth
 Required-by: 
 ---
 Name: cvxpy
-Version: 1.1.18
+Version: 1.2.0
 Summary: A domain-specific language for modeling convex optimization problems in Python.
 Home-page: https://github.com/cvxpy/cvxpy
 Author: Steven Diamond, Eric Chu, Stephen Boyd
@@ -1169,7 +1169,7 @@ Requires: toolz
 Required-by: 
 ---
 Name: dash
-Version: 2.2.0
+Version: 2.3.0
 Summary: A Python framework for building reactive web-apps. Developed by Plotly.
 Home-page: https://plotly.com/dash
 Author: Chris Parmer
@@ -1499,9 +1499,9 @@ Requires: six
 Required-by: tensorflow-model-optimization
 ---
 Name: dnspython
-Version: 2.2.0
+Version: 2.2.1
 Summary: DNS toolkit
-Home-page: 
+Home-page: https://www.dnspython.org
 Author: Bob Halley
 Author-email: halley@dnspython.org
 License: ISC
@@ -1549,7 +1549,7 @@ Requires: numpy scipy
 Required-by: cvxpy
 ---
 Name: einops
-Version: 0.4.0
+Version: 0.4.1
 Summary: A new flavour of deep learning operations
 Home-page: https://github.com/arogozhnikov/einops
 Author: Alex Rogozhnikov
@@ -1559,7 +1559,7 @@ Requires:
 Required-by: nystrom-attention performer-pytorch
 ---
 Name: elastic-transport
-Version: 8.0.1
+Version: 8.1.0
 Summary: Transport classes and utilities shared among Python Elastic client libraries
 Home-page: https://github.com/elastic/elastic-transport-python
 Author: Elastic
@@ -1569,7 +1569,7 @@ Requires: certifi urllib3
 Required-by: elasticsearch
 ---
 Name: elasticsearch
-Version: 8.0.1
+Version: 8.1.0
 Summary: Python client for Elasticsearch
 Home-page: https://github.com/elastic/elasticsearch-py
 Author: Honza Král, Nick Lang
@@ -1599,7 +1599,7 @@ Requires: dnspython idna
 Required-by: 
 ---
 Name: emoji
-Version: 1.6.3
+Version: 1.7.0
 Summary: Emoji for Python
 Home-page: https://github.com/carpedm20/emoji/
 Author: Taehoon Kim, Kevin Wurster and Tahir Jalilov
@@ -1659,7 +1659,7 @@ Requires: numpy
 Required-by: ib-insync
 ---
 Name: exchange-calendars
-Version: 3.6
+Version: 3.6.1
 Summary: exchange_calendars is a Python library with securities exchange calendars
 Home-page: https://github.com/gerrymanoim/exchange_calendars
 Author: Gerry Manoim
@@ -1719,7 +1719,7 @@ Requires: pydantic starlette
 Required-by: gradio
 ---
 Name: fastavro
-Version: 1.4.9
+Version: 1.4.10
 Summary: Fast read/write of AVRO files
 Home-page: https://github.com/fastavro/fastavro
 Author: Miki Tebeka
@@ -1929,7 +1929,7 @@ Requires: celery humanize prometheus-client pytz tornado
 Required-by: 
 ---
 Name: fonttools
-Version: 4.29.1
+Version: 4.30.0
 Summary: Tools to manipulate font files
 Home-page: http://github.com/fonttools/fonttools
 Author: Just van Rossum
@@ -2109,7 +2109,7 @@ Requires: python-gflags six
 Required-by: 
 ---
 Name: google-api-core
-Version: 2.5.0
+Version: 2.7.1
 Summary: Google API client core library
 Home-page: https://github.com/googleapis/python-api-core
 Author: Google LLC
@@ -2119,7 +2119,7 @@ Requires: google-auth googleapis-common-protos protobuf requests
 Required-by: google-api-python-client google-cloud-bigquery google-cloud-core opencensus
 ---
 Name: google-api-python-client
-Version: 2.39.0
+Version: 2.41.0
 Summary: Google API Client Library for Python
 Home-page: https://github.com/googleapis/google-api-python-client/
 Author: Google LLC
@@ -2159,7 +2159,7 @@ Requires: google-auth requests-oauthlib
 Required-by: tensorboard
 ---
 Name: google-cloud-bigquery
-Version: 2.34.0
+Version: 2.34.2
 Summary: Google BigQuery API client library
 Home-page: https://github.com/googleapis/python-bigquery
 Author: Google LLC
@@ -2169,7 +2169,7 @@ Requires: google-api-core google-cloud-core google-resumable-media grpcio packag
 Required-by: 
 ---
 Name: google-cloud-core
-Version: 2.2.2
+Version: 2.2.3
 Summary: Google Cloud API client core library
 Home-page: https://github.com/googleapis/python-cloud-core
 Author: Google LLC
@@ -2199,7 +2199,7 @@ Requires: six
 Required-by: tensorflow
 ---
 Name: google-resumable-media
-Version: 2.3.0
+Version: 2.3.2
 Summary: Utilities for Google Media Downloads and Resumable Uploads
 Home-page: https://github.com/googleapis/google-resumable-media-python
 Author: Google Cloud Platform
@@ -2259,7 +2259,7 @@ Requires:
 Required-by: 
 ---
 Name: gradio
-Version: 2.8.5
+Version: 2.8.10
 Summary: Python library for easily interacting with trained machine learning models
 Home-page: https://github.com/gradio-app/gradio-UI
 Author: Abubakar Abid, Ali Abid, Ali Abdalla, Dawood Khan, Ahsen Khaliq
@@ -2609,7 +2609,7 @@ Requires: networkx
 Required-by: pytype
 ---
 Name: importlib-metadata
-Version: 4.11.2
+Version: 4.11.3
 Summary: Read metadata from Python packages
 Home-page: https://github.com/python/importlib_metadata
 Author: Jason R. Coombs
@@ -2659,17 +2659,17 @@ Requires: certifi python-dateutil retrying six urllib3
 Required-by: 
 ---
 Name: ipykernel
-Version: 6.9.1
+Version: 6.9.2
 Summary: IPython Kernel for Jupyter
 Home-page: https://ipython.org
 Author: IPython Development Team
 Author-email: ipython-dev@scipy.org
 License: BSD
-Requires: appnope debugpy ipython jupyter-client matplotlib-inline nest-asyncio tornado traitlets
+Requires: appnope debugpy ipython jupyter-client matplotlib-inline nest-asyncio psutil tornado traitlets
 Required-by: ipywidgets jupyter jupyter-console jupyter-dash notebook pydeck qtconsole
 ---
 Name: ipython
-Version: 8.1.0
+Version: 8.1.1
 Summary: IPython: Productive Interactive Computing
 Home-page: https://ipython.org
 Author: The IPython Development Team
@@ -2686,10 +2686,10 @@ Author: IPython Development Team
 Author-email: ipython-dev@scipy.org
 License: BSD
 Requires: 
-Required-by: ipywidgets jupyter-server nbformat notebook qtconsole
+Required-by: ipywidgets notebook qtconsole
 ---
 Name: ipywidgets
-Version: 7.6.5
+Version: 7.7.0
 Summary: IPython HTML widgets for Jupyter
 Home-page: http://ipython.org
 Author: IPython Development Team
@@ -2719,7 +2719,7 @@ Requires: six
 Required-by: agate msrest zeep
 ---
 Name: itsdangerous
-Version: 2.1.0
+Version: 2.1.1
 Summary: Safely pass data to untrusted environments and back.
 Home-page: https://palletsprojects.com/p/itsdangerous/
 Author: Armin Ronacher
@@ -2849,7 +2849,7 @@ Requires: entrypoints jupyter-core nest-asyncio python-dateutil pyzmq tornado tr
 Required-by: ipykernel jupyter-console jupyter-server nbclient notebook qtconsole
 ---
 Name: jupyter-console
-Version: 6.4.0
+Version: 6.4.3
 Summary: Jupyter terminal console
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -2889,14 +2889,14 @@ Requires: deprecation packaging setuptools tomlkit wheel
 Required-by: 
 ---
 Name: jupyter-server
-Version: 1.13.5
+Version: 1.15.5
 Summary: The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: UNKNOWN
-Requires: Send2Trash anyio argon2-cffi ipython-genutils jinja2 jupyter-client jupyter-core nbconvert nbformat packaging prometheus-client pyzmq terminado tornado traitlets websocket-client
-Required-by: jupyter-server-proxy jupyterlab jupyterlab-server nbclassic
+Requires: Send2Trash anyio argon2-cffi jinja2 jupyter-client jupyter-core nbconvert nbformat packaging prometheus-client pyzmq terminado tornado traitlets websocket-client
+Required-by: jupyter-server-proxy jupyterlab jupyterlab-server nbclassic notebook-shim
 ---
 Name: jupyter-server-proxy
 Version: 3.2.1
@@ -2909,7 +2909,7 @@ Requires: aiohttp jupyter-server simpervisor
 Required-by: 
 ---
 Name: jupyterlab
-Version: 3.3.0
+Version: 3.3.2
 Summary: JupyterLab computational environment
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -2929,7 +2929,7 @@ Requires: pygments
 Required-by: nbconvert
 ---
 Name: jupyterlab-server
-Version: 2.10.3
+Version: 2.11.0
 Summary: A set of server components for JupyterLab and JupyterLab like applications .
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -2939,7 +2939,7 @@ Requires: babel entrypoints jinja2 json5 jsonschema jupyter-server packaging req
 Required-by: jupyterlab
 ---
 Name: jupyterlab-widgets
-Version: 1.0.2
+Version: 1.1.0
 Summary: A JupyterLab extension.
 Home-page: https://github.com/jupyter-widgets/ipywidgets
 Author: Jupyter Development Team
@@ -3019,7 +3019,7 @@ Requires: importlib-metadata
 Required-by: 
 ---
 Name: Kivy
-Version: 2.0.0
+Version: 2.1.0
 Summary: A software library for rapid development of hardware-accelerated multitouch applications.
 Home-page: http://kivy.org
 Author: Kivy Team and other contributors
@@ -3029,7 +3029,7 @@ Requires: Kivy-Garden docutils pygments
 Required-by: 
 ---
 Name: Kivy-examples
-Version: 2.0.0
+Version: 2.1.0
 Summary: Kivy examples.
 Home-page: http://kivy.org
 Author: Kivy Team and other contributors
@@ -3049,7 +3049,7 @@ Requires: requests
 Required-by: Kivy Kivy-examples
 ---
 Name: kiwisolver
-Version: 1.3.2
+Version: 1.4.0
 Summary: A fast implementation of the Cassowary constraint solver
 Home-page: https://github.com/nucleic/kiwi
 Author: The Nucleic Development Team
@@ -3079,7 +3079,7 @@ Requires:
 Required-by: 
 ---
 Name: kombu
-Version: 5.2.3
+Version: 5.2.4
 Summary: Messaging library for Python.
 Home-page: https://kombu.readthedocs.io
 Author: Ask Solem
@@ -3289,8 +3289,8 @@ Requires: altgraph
 Required-by: pyinstaller
 ---
 Name: Mako
-Version: 1.1.6
-Summary: A super-fast templating language that borrows the  best ideas from the existing templating languages.
+Version: 1.2.0
+Summary: A super-fast templating language that borrows the best ideas from the existing templating languages.
 Home-page: https://www.makotemplates.org/
 Author: Mike Bayer
 Author-email: mike@zzzcomputing.com
@@ -3629,7 +3629,7 @@ Requires:
 Required-by: preshed spacy thinc
 ---
 Name: mypy
-Version: 0.931
+Version: 0.941
 Summary: Optional static typing for Python
 Home-page: http://www.mypy-lang.org/
 Author: Jukka Lehtosalo
@@ -3649,17 +3649,17 @@ Requires:
 Required-by: black mypy pyanalyze typing-inspect
 ---
 Name: nbclassic
-Version: 0.3.5
+Version: 0.3.7
 Summary: Jupyter Notebook as a Jupyter Server extension.
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: UNKNOWN
-Requires: jupyter-server notebook
+Requires: jupyter-server notebook notebook-shim
 Required-by: jupyterlab
 ---
 Name: nbclient
-Version: 0.5.11
+Version: 0.5.13
 Summary: A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor.
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3669,23 +3669,23 @@ Requires: jupyter-client nbformat nest-asyncio traitlets
 Required-by: nbconvert
 ---
 Name: nbconvert
-Version: 6.4.2
+Version: 6.4.4
 Summary: Converting Jupyter Notebooks
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD
-Requires: bleach defusedxml entrypoints jinja2 jupyter-core jupyterlab-pygments mistune nbclient nbformat pandocfilters pygments testpath traitlets
+Requires: beautifulsoup4 bleach defusedxml entrypoints jinja2 jupyter-core jupyterlab-pygments mistune nbclient nbformat pandocfilters pygments testpath traitlets
 Required-by: jupyter jupyter-server nbsphinx notebook
 ---
 Name: nbformat
-Version: 5.1.3
+Version: 5.2.0
 Summary: The Jupyter Notebook format
 Home-page: http://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD
-Requires: ipython-genutils jsonschema jupyter-core traitlets
+Requires: jsonschema jupyter-core traitlets
 Required-by: ipywidgets jupyter-server nbclient nbconvert nbsphinx notebook
 ---
 Name: nbsphinx
@@ -3729,7 +3729,7 @@ Requires:
 Required-by: 
 ---
 Name: networkx
-Version: 2.7
+Version: 2.7.1
 Summary: Python package for creating and manipulating graphs and networks
 Home-page: https://networkx.org/
 Author: Aric Hagberg
@@ -3799,7 +3799,7 @@ Requires:
 Required-by: 
 ---
 Name: notebook
-Version: 6.4.8
+Version: 6.4.10
 Summary: A web-based notebook environment for interactive computing
 Home-page: http://jupyter.org
 Author: Jupyter Development Team
@@ -3807,6 +3807,16 @@ Author-email: jupyter@googlegroups.com
 License: BSD
 Requires: Send2Trash argon2-cffi ipykernel ipython-genutils jinja2 jupyter-client jupyter-core nbconvert nbformat nest-asyncio prometheus-client pyzmq terminado tornado traitlets
 Required-by: jupyter nbclassic widgetsnbextension
+---
+Name: notebook-shim
+Version: 0.1.0
+Summary: A shim layer for notebook traits and config
+Home-page: https://github.com/jupyterlab/notebook_shim
+Author: Jupyter Development Team
+Author-email: jupyter@googlegroups.com
+License: UNKNOWN
+Requires: jupyter-server
+Required-by: nbclassic
 ---
 Name: numba
 Version: 0.55.1
@@ -3969,7 +3979,7 @@ Requires:
 Required-by: opencensus
 ---
 Name: opencv-python
-Version: 4.5.5.62
+Version: 4.5.5.64
 Summary: Wrapper package for OpenCV python bindings.
 Home-page: https://github.com/skvark/opencv-python
 Author: 
@@ -3979,7 +3989,7 @@ Requires: numpy numpy numpy
 Required-by: elegantrl
 ---
 Name: opencv-python-headless
-Version: 4.5.5.62
+Version: 4.5.5.64
 Summary: Wrapper package for OpenCV python bindings.
 Home-page: https://github.com/skvark/opencv-python
 Author: 
@@ -4109,7 +4119,7 @@ Requires: beautifulsoup4 pandas pandas-datareader requests requests-cache
 Required-by: 
 ---
 Name: pandas-market-calendars
-Version: 3.3
+Version: 3.4
 Summary: Market and exchange trading calendars for pandas
 Home-page: https://github.com/rsheftel/pandas_market_calendars
 Author: Ryan Sheftel
@@ -4129,7 +4139,7 @@ Requires: PyYAML htmlmin jinja2 joblib markupsafe matplotlib missingno multimeth
 Required-by: pycaret
 ---
 Name: pandas-stubs
-Version: 1.2.0.49
+Version: 1.2.0.50
 Summary: Type annotations for Pandas
 Home-page: https://github.com/VirtusLab/pandas-stubs
 Author: Zbigniew Królikowski
@@ -4169,13 +4179,13 @@ Requires:
 Required-by: colorcet datashader holoviews panel pyct pyviz-comms
 ---
 Name: paramiko
-Version: 2.9.2
+Version: 2.10.2
 Summary: SSH2 protocol library
 Home-page: https://paramiko.org
 Author: Jeff Forcier
 Author-email: jeff@bitprophet.org
 License: LGPL
-Requires: bcrypt cryptography pynacl
+Requires: bcrypt cryptography pynacl six
 Required-by: gradio
 ---
 Name: params-flow
@@ -4479,7 +4489,7 @@ Requires:
 Required-by: flower jupyter-server notebook prometheus-flask-exporter
 ---
 Name: prometheus-flask-exporter
-Version: 0.18.7
+Version: 0.19.0
 Summary: Prometheus metrics exporter for Flask
 Home-page: https://github.com/rycus86/prometheus_flask_exporter
 Author: Viktor Adam
@@ -4546,7 +4556,7 @@ Author: Giampaolo Rodola
 Author-email: g.rodola@gmail.com
 License: BSD
 Requires: 
-Required-by: distributed gpustat memory-profiler tf-models-official wandb
+Required-by: distributed gpustat ipykernel memory-profiler tf-models-official wandb
 ---
 Name: psycopg2-binary
 Version: 2.9.3
@@ -4899,7 +4909,7 @@ Requires:
 Required-by: Kivy Kivy-examples Sphinx asynq ipython jupyter-console jupyterlab-pygments nbconvert qtconsole rich
 ---
 Name: pyinstaller
-Version: 4.9
+Version: 4.10
 Summary: PyInstaller bundles a Python application and all its dependencies into a single package.
 Home-page: http://www.pyinstaller.org/
 Author: Hartmut Goebel, Giovanni Bajo, David Vierra, David Cortesi, Martin Zibricky
@@ -4999,7 +5009,7 @@ Requires:
 Required-by: 
 ---
 Name: pyod
-Version: 0.9.7
+Version: 0.9.8
 Summary: A Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
 Home-page: https://github.com/yzhao062/pyod
 Author: Yue Zhao
@@ -5119,7 +5129,7 @@ Requires:
 Required-by: PyQt5
 ---
 Name: pyqtgraph
-Version: 0.12.3
+Version: 0.12.4
 Summary: Scientific Graphics and GUI Library for Python
 Home-page: http://www.pyqtgraph.org
 Author: Luke Campagnola
@@ -5199,7 +5209,7 @@ Requires: Cython numpy
 Required-by: prophet
 ---
 Name: pytest
-Version: 7.0.1
+Version: 7.1.0
 Summary: pytest: simple powerful testing with Python
 Home-page: https://docs.pytest.org/en/latest/
 Author: Holger Krekel, Bruno Oliveira, Ronny Pfannschmidt, Floris Bruynooghe, Brianna Laugher, Florian Bruhin and others
@@ -5209,7 +5219,7 @@ Requires: attrs iniconfig packaging pluggy py tomli
 Required-by: pytest-asyncio
 ---
 Name: pytest-asyncio
-Version: 0.18.1
+Version: 0.18.2
 Summary: Pytest support for asyncio
 Home-page: https://github.com/pytest-dev/pytest-asyncio
 Author: Tin Tvrtković <tinchester@gmail.com>
@@ -5339,7 +5349,7 @@ Requires: torch
 Required-by: torch-optimizer
 ---
 Name: pytype
-Version: 2022.2.23
+Version: 2022.3.8
 Summary: Python type inferencer
 Home-page: https://google.github.io/pytype
 Author: 
@@ -5379,7 +5389,7 @@ Requires: param
 Required-by: holoviews panel
 ---
 Name: PyWavelets
-Version: 1.2.0
+Version: 1.3.0
 Summary: PyWavelets, wavelet transform module
 Home-page: https://github.com/PyWavelets/pywt
 Author: 
@@ -5509,7 +5519,7 @@ Requires: deprecated packaging
 Required-by: ray
 ---
 Name: regex
-Version: 2022.3.2
+Version: 2022.3.15
 Summary: Alternative regular expression module, to replace re.
 Home-page: https://github.com/mrabarnett/mrab-regex
 Author: Matthew Barnett
@@ -5599,13 +5609,13 @@ Requires:
 Required-by: httpx
 ---
 Name: rich
-Version: 11.2.0
+Version: 12.0.0
 Summary: Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 Home-page: https://github.com/willmcgugan/rich
 Author: Will McGugan
 Author-email: willmcgugan@gmail.com
 License: MIT
-Requires: colorama commonmark pygments
+Requires: commonmark pygments
 Required-by: 
 ---
 Name: robin-stocks
@@ -5689,11 +5699,11 @@ Requires: colorama numpy portalocker regex tabulate
 Required-by: tf-models-official
 ---
 Name: sacremoses
-Version: 0.0.47
+Version: 0.0.49
 Summary: SacreMoses
 Home-page: https://github.com/alvations/sacremoses
-Author: UNKNOWN
-Author-email: UNKNOWN
+Author: 
+Author-email: 
 License: UNKNOWN
 Requires: click joblib regex six tqdm
 Required-by: transformers
@@ -5769,7 +5779,7 @@ Requires: matplotlib numpy pandas scipy
 Required-by: missingno pandas-profiling pycaret pyfolio
 ---
 Name: selenium
-Version: 4.1.2
+Version: 4.1.3
 Summary: 
 Home-page: https://www.selenium.dev
 Author: 
@@ -5799,7 +5809,7 @@ Requires:
 Required-by: bertviz tf-models-official
 ---
 Name: sentry-sdk
-Version: 1.5.6
+Version: 1.5.7
 Summary: Python client for Sentry (https://sentry.io)
 Home-page: https://github.com/getsentry/sentry-python
 Author: Sentry Team and Contributors
@@ -5916,7 +5926,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli dm-tree docker-pycreds fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client patsy plotly promise pyod python-dateutil python-multipart querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorboardX tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb
+Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli dm-tree docker-pycreds fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client paramiko patsy plotly promise pyod python-dateutil python-multipart querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorboardX tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb
 ---
 Name: smart-open
 Version: 5.2.1
@@ -6149,7 +6159,7 @@ Requires:
 Required-by: Sphinx
 ---
 Name: SQLAlchemy
-Version: 1.4.31
+Version: 1.4.32
 Summary: Database Abstraction Library
 Home-page: https://www.sqlalchemy.org
 Author: Mike Bayer
@@ -6489,7 +6499,7 @@ Requires:
 Required-by: fire tensorflow tensorflow-datasets yaspin
 ---
 Name: terminado
-Version: 0.13.1
+Version: 0.13.3
 Summary: Tornado websocket backend for the Xterm.js Javascript terminal emulator library.
 Home-page: https://github.com/jupyter/terminado
 Author: Jupyter Development Team
@@ -6569,7 +6579,7 @@ Requires: numpy scipy six
 Required-by: 
 ---
 Name: thinc
-Version: 8.0.13
+Version: 8.0.15
 Summary: A refreshing functional take on deep learning, compatible with your favorite libraries
 Home-page: https://github.com/explosion/thinc
 Author: Explosion
@@ -6619,7 +6629,7 @@ Requires: requests
 Required-by: 
 ---
 Name: tiledb
-Version: 0.13.0
+Version: 0.13.1
 Summary: Pythonic interface to the TileDB array storage manager
 Home-page: https://github.com/TileDB-Inc/TileDB-Py
 Author: TileDB, Inc.
@@ -6876,7 +6886,7 @@ Author:
 Author-email: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 License: 
 Requires: 
-Required-by: aioredis black bokeh huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pyee pytorch-lightning tensorflow torch typing-inspect
+Required-by: aioredis azure-core black bokeh huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pyee pytorch-lightning tensorflow torch typing-inspect
 ---
 Name: typing-inspect
 Version: 0.7.1
@@ -6919,7 +6929,7 @@ Requires:
 Required-by: dash-auth
 ---
 Name: uamqp
-Version: 1.5.1
+Version: 1.5.2
 Summary: AMQP 1.0 Client Library for Python
 Home-page: https://github.com/Azure/azure-uamqp-python
 Author: Microsoft Corporation
@@ -6959,7 +6969,7 @@ Requires: numba numpy pynndescent scikit-learn scipy tqdm
 Required-by: pycaret
 ---
 Name: Unidecode
-Version: 1.3.3
+Version: 1.3.4
 Summary: ASCII transliterations of Unicode text
 Home-page: UNKNOWN
 Author: Tomaz Solc
@@ -6989,7 +6999,7 @@ Requires: six
 Required-by: requests-cache
 ---
 Name: urllib3
-Version: 1.26.8
+Version: 1.26.9
 Summary: HTTP library with thread-safe connection pooling, file post, and more.
 Home-page: https://urllib3.readthedocs.io/
 Author: Andrey Petrov
@@ -7009,7 +7019,7 @@ Requires: click
 Required-by: pipx
 ---
 Name: uvicorn
-Version: 0.17.5
+Version: 0.17.6
 Summary: The lightning-fast ASGI server.
 Home-page: https://www.uvicorn.org/
 Author: Tom Christie
@@ -7069,7 +7079,7 @@ Requires: freetype-py hsluv kiwisolver numpy
 Required-by: 
 ---
 Name: waitress
-Version: 2.0.0
+Version: 2.1.0
 Summary: Waitress WSGI server
 Home-page: https://github.com/Pylons/waitress
 Author: Zope Foundation and Contributors
@@ -7169,7 +7179,7 @@ Requires:
 Required-by: astunparse jupyter-packaging lightgbm pyLDAvis tensorboard tensorflow
 ---
 Name: widgetsnbextension
-Version: 3.5.2
+Version: 3.6.0
 Summary: IPython HTML widgets for Jupyter
 Home-page: http://ipython.org
 Author: IPython Development Team
@@ -7199,7 +7209,7 @@ Requires: matplotlib numpy pillow
 Required-by: pycaret
 ---
 Name: wrapt
-Version: 1.13.3
+Version: 1.14.0
 Summary: Module for decorators, wrappers and monkey patching.
 Home-page: https://github.com/GrahamDumpleton/wrapt
 Author: Graham Dumpleton
@@ -7319,7 +7329,7 @@ Requires: lxml multitasking numpy pandas requests
 Required-by: 
 ---
 Name: zarr
-Version: 2.11.0
+Version: 2.11.1
 Summary: An implementation of chunked, compressed, N-dimensional arrays for Python.
 Home-page: https://github.com/zarr-developers/zarr-python
 Author: 
