@@ -718,6 +718,16 @@ License: MIT
 Requires: 
 Required-by: google-auth
 ---
+Name: casadi
+Version: 3.5.5.post2
+Summary: CasADi -- framework for algorithmic differentiation and numeric optimization
+Home-page: http://casadi.org
+Author: Joel Andersson, Joris Gillis, Greg Horn
+Author-email: developer_first_name@casadi.org
+License: GNU Lesser General Public License v3 or later (LGPLv3+)
+Requires: 
+Required-by: do-mpc
+---
 Name: catalogue
 Version: 2.0.6
 Summary: Super lightweight function registries for your library
@@ -1508,6 +1518,16 @@ License: ISC
 Requires: 
 Required-by: email-validator
 ---
+Name: do-mpc
+Version: 4.3.3
+Summary: UNKNOWN
+Home-page: https://www.do-mpc.com
+Author: Sergio Lucia and Felix Fiedler
+Author-email: sergio.lucia@tu-berlin.de
+License: GNU Lesser General Public License version 3
+Requires: casadi matplotlib numpy
+Required-by: 
+---
 Name: docker
 Version: 5.0.3
 Summary: A Python library for the Docker Engine API.
@@ -1916,7 +1936,7 @@ Author: FlatBuffers Contributors
 Author-email: me@rwinslow.com
 License: Apache 2.0
 Requires: 
-Required-by: tensorflow tf2onnx
+Required-by: onnxruntime tensorflow tf2onnx
 ---
 Name: flower
 Version: 1.0.0
@@ -3366,7 +3386,7 @@ Author: John D. Hunter, Michael Droettboom
 Author-email: matplotlib-users@python.org
 License: PSF
 Requires: cycler fonttools kiwisolver numpy packaging pillow pyparsing python-dateutil
-Required-by: catboost elegantrl fastai gradio missingno mlxtend mplfinance pandas-profiling phik prophet pycaret pycocotools pyfolio pyod scikit-plot seaborn stable-baselines3 tf-models-official wordcloud yellowbrick
+Required-by: catboost do-mpc elegantrl fastai gradio missingno mlxtend mplfinance pandas-profiling phik prophet pycaret pycocotools pyfolio pyod scikit-plot seaborn stable-baselines3 tf-models-official wordcloud yellowbrick
 ---
 Name: matplotlib-inline
 Version: 0.1.3
@@ -3856,7 +3876,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: ImageHash Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost cftime cmdstanpy colormath cufflinks cvxpy dask-ml datasets datashader datashape ecos elegantrl empyrical eventkit exchange-calendars finta gensim gradio gym h5py holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: ImageHash Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost cftime cmdstanpy colormath cufflinks cvxpy dask-ml datasets datashader datashape do-mpc ecos elegantrl empyrical eventkit exchange-calendars finta gensim gradio gym h5py holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -3936,7 +3956,17 @@ Author: ONNX
 Author-email: onnx-technical-discuss@lists.lfai.foundation
 License: Apache License v2.0
 Requires: numpy protobuf typing-extensions
-Required-by: keras2onnx onnxconverter-common tf2onnx
+Required-by: keras2onnx onnx-simplifier onnxconverter-common onnxoptimizer tf2onnx
+---
+Name: onnx-simplifier
+Version: 0.3.7
+Summary: Simplify your ONNX model
+Home-page: https://github.com/daquexian/onnx-simplifier
+Author: daquexian
+Author-email: daquexian566@gmail.com
+License: Apache
+Requires: onnx onnxoptimizer onnxruntime protobuf
+Required-by: 
 ---
 Name: onnxconverter-common
 Version: 1.9.0
@@ -3947,6 +3977,26 @@ Author-email: onnx@microsoft.com
 License: MIT License
 Requires: numpy onnx protobuf
 Required-by: keras2onnx
+---
+Name: onnxoptimizer
+Version: 0.2.6
+Summary: Open Neural Network Exchange
+Home-page: https://github.com/onnx/optimizer
+Author: ONNX Optimizer Authors
+Author-email: onnx-technical-discuss@lists.lfai.foundation
+License: Apache License v2.0
+Requires: onnx
+Required-by: onnx-simplifier
+---
+Name: onnxruntime
+Version: 1.10.0
+Summary: ONNX Runtime is a runtime accelerator for Machine Learning models
+Home-page: https://onnxruntime.ai
+Author: Microsoft Corporation
+Author-email: onnxruntime@microsoft.com
+License: MIT License
+Requires: flatbuffers numpy protobuf
+Required-by: onnx-simplifier
 ---
 Name: openai
 Version: 0.15.0
@@ -4546,7 +4596,7 @@ Author:
 Author-email: 
 License: 3-Clause BSD License
 Requires: 
-Required-by: google-api-core google-cloud-bigquery googleapis-common-protos grpcio-status keras2onnx mlagents-envs mlflow onnx onnxconverter-common proto-plus ray stanza tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata wandb
+Required-by: google-api-core google-cloud-bigquery googleapis-common-protos grpcio-status keras2onnx mlagents-envs mlflow onnx onnx-simplifier onnxconverter-common onnxruntime proto-plus ray stanza tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata wandb
 ---
 Name: psutil
 Version: 5.9.0

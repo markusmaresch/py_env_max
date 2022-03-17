@@ -28,6 +28,7 @@ box2d-py
 brotli
 cached-property
 cachetools
+casadi
 catalogue
 cchardet
 certifi
@@ -374,6 +375,7 @@ numba
 numcodecs
 omegaconf
 onnx
+onnxruntime
 opencv-python
 opencv-python-headless
 openpyxl
@@ -528,6 +530,7 @@ numexpr
 nystrom-attention
 oauth2client
 onnxconverter-common
+onnxoptimizer
 pandas
 pathy
 pipx
@@ -594,6 +597,7 @@ cmdstanpy
 dask-glm
 datasets
 distributed
+do-mpc
 elegantrl
 exchange-calendars
 fastapi
@@ -627,6 +631,7 @@ mplfinance
 msrest
 nbclient
 nilearn
+onnx-simplifier
 openai
 osqp
 pandas-datareader

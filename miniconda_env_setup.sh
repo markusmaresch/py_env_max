@@ -76,6 +76,9 @@ conda_env_export() {
     #   prophet .. depends on numpy, could be temporary
     #   pyodbc .. sql.h ?
 
+    # wrong pypi version
+    #   tbb .. conflicting versions
+
     cat $yml | \
       grep -v \
         -e "- libcxx=" \
@@ -83,11 +86,16 @@ conda_env_export() {
         -e "- box2d-py=" \
         -e "- krb5=" \
         -e "- ta-lib=" \
+        -e "- python-graphviz=" \
         -e "- graphviz=" \
+        \
+        -e "- tbb==" \
         \
         > $yml2
 
     ls -al $yml $yml2
+    diff $yml $yml2
+    mv $yml2 $yml
   fi
 }
 
