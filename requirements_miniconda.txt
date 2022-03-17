@@ -1087,6 +1087,7 @@ tf2onnx==1.9.3 # LEVEL_03 # Tensorflow to ONNX converter
 keras-unet-collection==0.1.13 # LEVEL_01 # The Tensorflow, Keras implementation of U-net, V-net, U-net++, UNET 3+, Attention U-net, R2U-net, ResUnet-a, U^2-Net, TransUNET, and Swin-UNET with optional ImageNet-trained backbones
 # sclblonnx==0.1.9 # LEVEL_01 # have too old dependency
 sclblpy==0.1.7 # LEVEL_05 # Python package for uploading sklearn and onnx models to Scailable toolchain
+sklearn==0.0 # LEVEL_04 # A set of python modules for machine learning and data mining
 uuid==1.30 # LEVEL_01 # UUID object and generation functions
 #
 onnxruntime==1.10.0 # LEVEL_02 # ONNX Runtime is a runtime accelerator for Machine Learning models
