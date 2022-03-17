@@ -1070,7 +1070,7 @@ curtsies==0.3.10 # LEVEL_03 # Curses-like terminal wrapper, with colored strings
 monotonic==1.6 # LEVEL_01 # An implementation of time.monotonic() for Python 2 & < 3.3
 billiard==3.6.4.0 # LEVEL_01 # Python multiprocessing fork with improvements and bugfixes
 cwcwidth==0.1.6 # LEVEL_01 # Python bindings for wc(s)width
-waitress==2.1.0 # LEVEL_01 # Waitress WSGI server
+waitress==2.1.1 # LEVEL_01 # Waitress WSGI server
 boltons==21.0.0 # LEVEL_01 # When they're not builtins, they're boltons
 ffmpy==0.3.0 # LEVEL_01 # A simple Python wrapper for ffmpeg
 humanize==4.0.0 # LEVEL_01 # Python humanize utilities
@@ -1085,6 +1085,14 @@ onnxconverter-common==1.9.0 # LEVEL_03 # ONNX Converter and Optimization Tools
 onnx==1.11.0 # LEVEL_02 # Open Neural Network Exchange
 tf2onnx==1.9.3 # LEVEL_03 # Tensorflow to ONNX converter
 keras-unet-collection==0.1.13 # LEVEL_01 # The Tensorflow, Keras implementation of U-net, V-net, U-net++, UNET 3+, Attention U-net, R2U-net, ResUnet-a, U^2-Net, TransUNET, and Swin-UNET with optional ImageNet-trained backbones
+# sclblonnx==0.1.9 # LEVEL_01 # have too old dependency
+sclblpy==0.1.7 # LEVEL_05 # Python package for uploading sklearn and onnx models to Scailable toolchain
+uuid==1.30 # LEVEL_01 # UUID object and generation functions
+#
+onnxruntime==1.10.0 # LEVEL_02 # ONNX Runtime is a runtime accelerator for Machine Learning models
+onnxoptimizer==0.2.6 # LEVEL_03 # Open Neural Network Exchange
+onnx-simplifier==0.3.7 # LEVEL_04 # Simplify your ONNX model
+netron==5.6.4 # LEVEL_01 # Viewer for neural network, deep learning, and machine learning models
 #
 #python-multipart==0.0.5 # LEVEL_02 # A streaming multipart parser for Python
 #
@@ -1100,12 +1108,6 @@ mdurl==0.1.0 # LEVEL_01 # Markdown URL utilities
 orjson==3.6.7 # LEVEL_01 # Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
 setproctitle==1.2.2 # LEVEL_01 # A Python module to customize the process title
 uc-micro-py==1.0.1 # LEVEL_01 # Micro subset of unicode data files for linkify-it-py projects
-
-# sclblonnx==0.1.9 # LEVEL_01
-# sclblpy==0.1.7 # LEVEL_01
-onnxruntime==1.10.0 # LEVEL_02 # ONNX Runtime is a runtime accelerator for Machine Learning models
-onnxoptimizer==0.2.6 # LEVEL_03 # Open Neural Network Exchange
-onnx-simplifier==0.3.7 # LEVEL_04 # Simplify your ONNX model
 
 #
 # do-mpc

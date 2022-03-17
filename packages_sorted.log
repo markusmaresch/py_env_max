@@ -145,6 +145,7 @@ murmurhash
 mypy-extensions
 nest-asyncio
 netifaces
+netron
 networkx
 ninja
 nose
@@ -281,6 +282,7 @@ ujson
 unidecode
 uritemplate
 urllib3
+uuid
 venusian
 vine
 waitress
@@ -659,6 +661,7 @@ s3transfer
 scikit-plot
 seaborn
 seqeval
+sklearn
 spacy
 sphinx-autobuild
 sphinx-autodoc-typehints
@@ -706,6 +709,7 @@ prophet
 pyod
 rapidminer
 rapids
+sclblpy
 selenium
 spacytextblob
 tensorboard

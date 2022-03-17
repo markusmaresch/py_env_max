@@ -3748,6 +3748,16 @@ License: MIT License
 Requires: 
 Required-by: 
 ---
+Name: netron
+Version: 5.6.4
+Summary: Viewer for neural network, deep learning, and machine learning models
+Home-page: https://github.com/lutzroeder/netron
+Author: Lutz Roeder
+Author-email: lutzroeder@users.noreply.github.com
+License: MIT
+Requires: 
+Required-by: 
+---
 Name: networkx
 Version: 2.7.1
 Summary: Python package for creating and manipulating graphs and networks
@@ -3876,7 +3886,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: ImageHash Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost cftime cmdstanpy colormath cufflinks cvxpy dask-ml datasets datashader datashape do-mpc ecos elegantrl empyrical eventkit exchange-calendars finta gensim gradio gym h5py holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy scs seaborn seqeval spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: ImageHash Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost cftime cmdstanpy colormath cufflinks cvxpy dask-ml datasets datashader datashape do-mpc ecos elegantrl empyrical eventkit exchange-calendars finta gensim gradio gym h5py holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy sclblpy scs seaborn seqeval spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -5586,7 +5596,7 @@ Author: Kenneth Reitz
 Author-email: me@kennethreitz.org
 License: Apache 2.0
 Requires: certifi charset-normalizer idna urllib3
-Required-by: Kivy-Garden Mastodon.py PyGithub Sphinx alpha-vantage analytics-python azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth databricks-cli datasets docker fastai google-api-core google-cloud-bigquery googletransx gradio h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle keras2onnx minimal-snowplow-tracker mixpanel mlflow msrest nilearn openai pandas-datareader pandas-finance pandas-profiling panel rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks spacy stanza tensorboard tensorflow-datasets tf2onnx tiingo transformers wandb yfinance zeep
+Required-by: Kivy-Garden Mastodon.py PyGithub Sphinx alpha-vantage analytics-python azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth databricks-cli datasets docker fastai google-api-core google-cloud-bigquery googletransx gradio h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle keras2onnx minimal-snowplow-tracker mixpanel mlflow msrest nilearn openai pandas-datareader pandas-finance pandas-profiling panel rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket robin-stocks sclblpy spacy stanza tensorboard tensorflow-datasets tf2onnx tiingo transformers wandb yfinance zeep
 ---
 Name: requests-cache
 Version: 0.9.3
@@ -5786,7 +5796,7 @@ Author:
 Author-email: 
 License: new BSD
 Requires: joblib numpy scipy threadpoolctl
-Required-by: dash-canvas dask-glm dask-ml fastai imbalanced-learn kmodes lightgbm mlxtend nilearn pmdarima pycaret pyfolio pynndescent pyod scikit-plot seqeval umap-learn yellowbrick
+Required-by: dash-canvas dask-glm dask-ml fastai imbalanced-learn kmodes lightgbm mlxtend nilearn pmdarima pycaret pyfolio pynndescent pyod scikit-plot seqeval sklearn umap-learn yellowbrick
 ---
 Name: scikit-plot
 Version: 0.3.7
@@ -5807,6 +5817,16 @@ Author-email:
 License: BSD
 Requires: numpy
 Required-by: ImageHash Theano catboost cvxpy dask-glm dask-ml datashader ecos empyrical fastai gensim imbalanced-learn jax kmodes lightgbm missingno mlflow mlxtend nilearn osqp pandas-profiling phik pmdarima py-vollib pyLDAvis pyfolio pynndescent pyod pyportfolioopt qdldl scikit-image scikit-learn scikit-plot scs seaborn statsmodels stumpy tf-models-official umap-learn xgboost yellowbrick
+---
+Name: sclblpy
+Version: 0.1.7
+Summary: Python package for uploading sklearn and onnx models to Scailable toolchain.
+Home-page: https://github.com/scailable/sclblpy/
+Author: Maurits Kaptein
+Author-email: maurits.kaptein@scailable.net
+License: UNKNOWN
+Requires: numpy requests sklearn uuid
+Required-by: 
 ---
 Name: scs
 Version: 3.2.0
@@ -5977,6 +5997,16 @@ Author-email: benjamin@python.org
 License: MIT
 Requires: 
 Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli dm-tree docker-pycreds fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client paramiko patsy plotly promise pyod python-dateutil python-multipart querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorboardX tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb
+---
+Name: sklearn
+Version: 0.0
+Summary: A set of python modules for machine learning and data mining
+Home-page: https://pypi.python.org/pypi/scikit-learn/
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: 
+Requires: scikit-learn
+Required-by: sclblpy
 ---
 Name: smart-open
 Version: 5.2.1
@@ -7068,6 +7098,16 @@ License:
 Requires: click
 Required-by: pipx
 ---
+Name: uuid
+Version: 1.30
+Summary: UUID object and generation functions
+Home-page: http://zesty.ca/python/
+Author: Ka-Ping Yee
+Author-email: ping@zesty.ca
+License: UNKNOWN
+Requires: 
+Required-by: sclblpy
+---
 Name: uvicorn
 Version: 0.17.6
 Summary: The lightning-fast ASGI server.
@@ -7129,7 +7169,7 @@ Requires: freetype-py hsluv kiwisolver numpy
 Required-by: 
 ---
 Name: waitress
-Version: 2.1.0
+Version: 2.1.1
 Summary: Waitress WSGI server
 Home-page: https://github.com/Pylons/waitress
 Author: Zope Foundation and Contributors
