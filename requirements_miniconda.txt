@@ -32,13 +32,13 @@
 numpy==1.19.5 # LEVEL_01 # PRE_INSTALL_00 # LOCKED # openvino<1.20; # NumPy is the fundamental package for array computing with Python
 
 #
-TA-Lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # Still issue with upgrading !!! # Python wrapper for TA-Lib
+TA-Lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # ONLY_OSX # Still issue with upgrading !!! # Python wrapper for TA-Lib
 
 #
 # not recognized by 'req.txt'
 #
 mplfinance==0.12.7a17 # LEVEL_04 # Utilities for the visualization, and visual analysis, of financial data
-graphviz==0.19.1 # LEVEL_01 # needed for dependecy graphing .. missing dependencies, but still needed # Simple Python interface for Graphviz
+graphviz==0.19.1 # LEVEL_01 # ONLY_OSX # needed for dependecy graphing .. missing dependencies, but still needed # Simple Python interface for Graphviz
 
 # former not recognized by req.txt
 
@@ -51,7 +51,7 @@ absl-py==0.12.0 # LEVEL_02 # LOCKED # tensorflow-metadata 1.2.0 has requirement 
 pystan==2.19.1.1 # LEVEL_02 # LOCKED # POST_INSTALL_00 # prophet 1.0.1 has requirement pystan~=2.19.1.1 # Python interface to Stan, a package for Bayesian inference
 cmdstanpy==0.9.68 # LEVEL_04 # LOCKED # prophet==1.0.1 requires cmdstanpy==0.9.68 # Python interface to CmdStan
 #
-Box2D==2.3.2 # LEVEL_01 # LOCKED # more recent versions, like 2.3.10 do not work # Python Box2D
+Box2D==2.3.2 # LEVEL_01 # LOCKED # ONLY_OSX # more recent versions, like 2.3.10 do not work # Python Box2D
 #
 kaleido==0.2.1 # LEVEL_01 # LOCKED # .post1 does not work # Static image export for web-based visualization libraries with zero dependencies
 #
@@ -126,7 +126,7 @@ torchaudio==0.10.2 # LEVEL_03 # An audio package for PyTorch
 torchvision==0.11.3 # LEVEL_03 # image and video datasets and models for torch deep learning
 torch==1.10.2 # LEVEL_02 # Tensors and Dynamic neural networks in Python with strong GPU acceleration
 #
-fastapi==0.74.1 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
+fastapi==0.75 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
 #
 Deprecated==1.2.13 # LEVEL_02 # Python @deprecated decorator to deprecate old python classes, functions or methods
 typing_extensions==4.1.1 # LEVEL_01 # Backported and Experimental Type Hints for Python 3.6+
@@ -169,14 +169,14 @@ pandas-profiling==3.1.0 # LEVEL_06 # Generate profile report for pandas DataFram
 pandas-datareader==0.10.0 # LEVEL_04 # Data readers extracted from the pandas codebase,should be compatible with recent pandas versions
 geopandas==0.10.2 # LEVEL_04 # Geographic pandas extensions
 pandas==1.4.1 # LEVEL_03 # Powerful data structures for data analysis, time series, and statistics
-pandas-stubs==1.2.0.50 # LEVEL_01 # needed by openai # Type annotations for Pandas
+pandas-stubs==1.2.0.51 # LEVEL_01 # needed by openai # Type annotations for Pandas
 XlsxWriter==3.0.3 # LEVEL_01 # needed for pandas XLSX # A Python module for creating Excel XLSX files
 
 #
 # Super Collectors .. building on others
 #
 elegantrl==0.3.3 # LEVEL_04 # Lightweight, Efficient and Stable DRL Implementation Using PyTorch
-box2d-py==2.3.8 # LEVEL_01 # Python Box2D
+box2d-py==2.3.8 # LEVEL_01 # ONLY_OSX # Python Box2D
 #
 #finrl==0.3.1 # LEVEL_05 # may cause all sorts of issues
 #ccxt==1.58.26 # LEVEL_01
@@ -359,7 +359,7 @@ imagecodecs==2022.2.22 # LEVEL_02 # Image transformation, compression, and decom
 opencv-python==4.5.5.64 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.5.64 # LEVEL_02 # Wrapper package for OpenCV python bindings
 imageio==2.14.1 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
-tifffile==2022.2.9 # LEVEL_02 # Read and write TIFF files
+tifffile==2022.3.16 # LEVEL_02 # Read and write TIFF files
 Pillow==9.0.1 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
 ImageHash==4.2.1 # LEVEL_03 # Image Hashing library
@@ -531,6 +531,7 @@ jupyterlab-widgets==1.1.0 # LEVEL_01 # A JupyterLab extension
 ipywidgets==7.7.0 # LEVEL_08 # IPython HTML widgets for Jupyter
 widgetsnbextension==3.6.0 # LEVEL_07 # LOCKED # # IPython HTML widgets for Jupyter
 nbclassic==0.3.7 # LEVEL_08 # Jupyter Notebook as a Jupyter Server extension
+notebook-shim==0.1.0 # LEVEL_07 # A shim layer for notebook traits and config
 notebook==6.4.10 # LEVEL_06 # A web-based notebook environment for interactive computing
 nbsphinx==0.8.8 # LEVEL_06 # Jupyter Notebook Tools for Sphinx
 nbconvert==6.4.4 # LEVEL_05 # Converting Jupyter Notebooks
@@ -968,7 +969,7 @@ gunicorn==20.1.0 # LEVEL_02 # WSGI HTTP Server for UNIX
 #
 icu==0.0.1 # LEVEL_01 # Integrated Cognitive User Assistance
 #
-krb5==0.3.0 # LEVEL_01 # Kerberos API bindings for Python
+krb5==0.3.0 # LEVEL_01 # ONLY_OSX # Kerberos API bindings for Python
 #
 msgpack-python==0.5.6 # LEVEL_01 # MessagePack (de)serializer
 #

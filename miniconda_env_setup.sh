@@ -2,25 +2,43 @@
 #
 # creates/updates conda environment based on requirements
 #
-py_env_name="py_env_202201"  # change/count up
+py_env_name="py_env_202112"  # change/count up
 python_default_version="3.9"
 
-while [ "$1" != "" ]; do
-  if [ "$1" == "-tmp" ]; then
-    py_env_name="${py_env_name}.tmp"
-    shift
-    continue
+requirements_all="requirements_miniconda.txt"
+
+only_check=0
+only_export=0
+
+post_check_exit() {
+  conda --version > conda_version.txt
+  if ! python inspect_all.py; then
+    exit 1
   fi
-  echo "What is: ${1} ?"
-  exit 1
-done
+  if ! python pip_show_all.py; then
+    exit 1
+  fi
+  rm -f /tmp/pipdeptree.cache
+  if ! python levels_check.py; then
+    echo "Fix errors above, before continuing"
+    exit 1
+  fi
+  ./not_specified_packages.sh
+  if [ $? -ne 0 ]; then
+    echo "Fix not specified packages first"
+    #exit 1
+  fi
+  rm -f /tmp/pipdeptree.cache
+  git diff
+  git status
+}
 
 pip_check_exit() {
   pip_check_tmp="/tmp/pip_check.$$.tmp"
   pip check | tee $pip_check_tmp
   ret=${PIPESTATUS[0]}
   echo "pip check ret: $ret"
-  ret=0
+  ret=0 # hmm .. how to treat intermediate 'pip check' errors that get resolved with this run
   if [ $ret != 0 ]; then
     other_errors=$(grep -v -e ", which is not installed.$" $pip_check_tmp | wc -l | xargs)
     echo "other_errors: $other_errors"
@@ -35,6 +53,63 @@ pip_check_exit() {
   fi
   rm -f $pip_check_tmp
 }
+
+conda_env_export() {
+  yml=${py_env_name}.yml
+  yml2=${py_env_name}_linux.yml
+  echo "Exporting ${yml}"
+  conda env export --no-builds > ${yml}
+
+  if [ 1 -eq 1 ]; then
+    echo "Formatting for Linux"
+
+    # libcxx .. only osx, not in linux
+
+    # box2d .. depends on swig, # ta-lib .. fix with ONLY_OSX
+    # box2d-py .. depends on swig, # ta-lib .. fix with ONLY_OSX
+    # krb5 ... depends on krb5-config, fix with ONLY_OSX
+    # ta-lib .. depends on lower level C library, fix with ONLY_OSX
+
+    # graphviz .. issue with latest version on pypi.org, fix with ONLY_OSX
+
+    # Temporary ?
+    #   prophet .. depends on numpy, could be temporary
+    #   pyodbc .. sql.h ?
+
+    cat $yml | \
+      grep -v \
+        -e "- libcxx=" \
+        -e "- box2d=" \
+        -e "- box2d-py=" \
+        -e "- krb5=" \
+        -e "- ta-lib=" \
+        -e "- graphviz=" \
+        \
+        > $yml2
+
+    ls -al $yml $yml2
+  fi
+}
+
+while [ "$1" != "" ]; do
+  if [ "$1" == "-tmp" ]; then
+    py_env_name="${py_env_name}.tmp"
+    shift
+    continue
+  fi
+  if [ "$1" == "-only-check" ]; then
+    only_check=1
+    shift
+    continue
+  fi
+  if [ "$1" == "-only-export" ]; then
+    only_export=1
+    shift
+    continue
+  fi
+  echo "What is: ${1} ?"
+  exit 1
+done
 
 env_dir="$HOME/miniconda3/envs/${py_env_name}"
 if [ ! -d ${env_dir} ]; then
@@ -59,8 +134,16 @@ echo "Activate $py_env_name .."
 . $HOME/miniconda3/bin/activate $py_env_name
 conda env list
 
-requirements_all="requirements_miniconda.txt" # could be more, but this is not good to manage
-#requirements_all="requirements_tmp.txt" # !!!!!!!!!!!!
+if [ ${only_check} -ne 0 ]; then
+  post_check_exit
+  exit 0
+fi
+
+if [ ${only_export} -ne 0 ]; then
+  conda_env_export
+  exit 0
+fi
+
 
 lines_no_label=$(grep -v -e "^#" $requirements_all | grep -v -e '^$' | grep -v -e " LEVEL_[0-9][0-9]" | sort)
 if [ -n "$lines_no_label" ]; then
@@ -137,8 +220,11 @@ if [ 1 -eq 1 ]; then
   done
 fi
 
-# conda env export --no-builds > ${py_env_name}.yml
-
-./check_all.sh
+if [ 1 -eq 1 ]; then
+  conda_env_export
+fi
+if [ 1 -eq 1 ]; then
+  post_check_exit
+fi
 
 exit 0
