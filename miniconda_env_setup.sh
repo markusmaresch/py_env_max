@@ -2,7 +2,7 @@
 #
 # creates/updates conda environment based on requirements
 #
-py_env_name="py_env_202112"  # change/count up
+py_env_name="py_env_202201"  # change/count up
 python_default_version="3.9"
 
 requirements_all="requirements_miniconda.txt"
@@ -65,8 +65,9 @@ conda_env_export() {
 
     # libcxx .. only osx, not in linux
 
-    # box2d .. depends on swig, # ta-lib .. fix with ONLY_OSX
-    # box2d-py .. depends on swig, # ta-lib .. fix with ONLY_OSX
+    # elegantrl .. depeends on box2d*
+    # box2d .. depends on swig, # fix with ONLY_OSX
+    # box2d-py .. depends on swig, # fix with ONLY_OSX
     # krb5 ... depends on krb5-config, fix with ONLY_OSX
     # ta-lib .. depends on lower level C library, fix with ONLY_OSX
 
@@ -74,6 +75,8 @@ conda_env_export() {
 
     # Temporary ?
     #   prophet .. depends on numpy, could be temporary
+
+    # Dependency missing
     #   pyodbc .. sql.h ?
 
     # wrong pypi version
@@ -82,14 +85,18 @@ conda_env_export() {
     cat $yml | \
       grep -v \
         -e "- libcxx=" \
-        -e "- box2d=" \
-        -e "- box2d-py=" \
         -e "- krb5=" \
         -e "- ta-lib=" \
         -e "- python-graphviz=" \
         -e "- graphviz=" \
         \
         -e "- tbb==" \
+        \
+        -e "- pyodbc==" \
+        \
+        -e "- elegantrl==" \
+        -e "- box2d=" \
+        -e "- box2d-py=" \
         \
         > $yml2
 

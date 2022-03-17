@@ -175,7 +175,7 @@ XlsxWriter==3.0.3 # LEVEL_01 # needed for pandas XLSX # A Python module for crea
 #
 # Super Collectors .. building on others
 #
-elegantrl==0.3.3 # LEVEL_04 # Lightweight, Efficient and Stable DRL Implementation Using PyTorch
+elegantrl==0.3.3 # LEVEL_04 # ONLY_OSX # Lightweight, Efficient and Stable DRL Implementation Using PyTorch
 box2d-py==2.3.8 # LEVEL_01 # ONLY_OSX # Python Box2D
 #
 #finrl==0.3.1 # LEVEL_05 # may cause all sorts of issues
@@ -397,6 +397,7 @@ pyportfolioopt==1.5.1 # LEVEL_06 # Financial portfolio optimization in python
 #
 # Password & Cryptography
 #
+secretstorage==3.3.1 # LEVEL_04
 argon2-cffi==21.3.0 # LEVEL_04 # The secure Argon2 password hashing algorithm
 bcrypt==3.2.0 # LEVEL_03 # Modern password hashing for your software and your servers
 argon2-cffi-bindings==21.2.0 # LEVEL_03 # Low-level CFFI bindings for Argon2
@@ -408,6 +409,7 @@ pyotp==2.6.0 # LEVEL_01 # Python One Time Password Library
 asn1crypto==1.5.1 # LEVEL_01 # Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP
 pycryptodomex==3.14.1 # LEVEL_01 # Cryptographic library for Python
 pycryptodome==3.14.1 # LEVEL_01 # Cryptographic library for Python
+jeepney==0.7.1 # LEVEL_01 # Low-level, pure Python DBus protocol wrapper
 #
 #
 #
@@ -506,9 +508,9 @@ smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, A
 uamqp==1.5.2 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.21.20  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.21.21  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.2 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.24.20 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.24.21 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -518,7 +520,7 @@ jupyter-bokeh==3.0.4 # LEVEL_09 # A Jupyter extension for rendering Bokeh conten
 jupyter==1.0.0 # LEVEL_09 # Jupyter metapackage. Install all the Jupyter components in one go
 jupyterlab==3.3.2 # LEVEL_09 # JupyterLab computational environment
 jupyter-server-proxy==3.2.1 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
-jupyterlab-server==2.11.1 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
+jupyterlab-server==2.11.2 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.1 # LEVEL_06 # Dash support for the Jupyter notebook interface
 jupyter-server==1.15.6 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-console==6.4.3 # LEVEL_06 # Jupyter terminal console
@@ -769,7 +771,7 @@ korean-lunar-calendar==0.2.1 # LEVEL_01 # Korean Lunar Calendar
 llvmlite==0.38.0 # LEVEL_01 # lightweight wrapper around basic LLVM functionality
 lxml==4.8.0 # LEVEL_01 # Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API
 m3u8==1.0.0 # LEVEL_02 # play list parser, udemy-dl2 # Python m3u8 parser
-macholib==1.15.2 # LEVEL_02 # Mach-O header analysis and editing
+macholib==1.16 # LEVEL_02 # Mach-O header analysis and editing
 msgpack==1.0.3 # LEVEL_01 # MessagePack (de)serializer
 multidict==6.0.2 # LEVEL_01 # multidict implementation
 multipledispatch==0.6.0 # LEVEL_02 # Multiple dispatch
@@ -867,7 +869,7 @@ python-socks==2.0.3 # LEVEL_01 # Core proxy (SOCKS4, SOCKS5, HTTP tunneling) fun
 #
 SQLAlchemy== 1.4.32 # LEVEL_02 # Database Abstraction Library
 PyMySQL==1.0.2 # LEVEL_01 # Pure Python MySQL Driver
-pyodbc==4.0.32 # LEVEL_01 # DB API Module for ODBC
+pyodbc==4.0.32 # LEVEL_01 # ONLY_OSX # DB API Module for ODBC
 sqlparse==0.4.2 # LEVEL_01 # A non-validating SQL parser
 psycopg2-binary==2.9.3 # LEVEL_01 # psycopg2 - Python-PostgreSQL Database Adapter
 greenlet==1.1.2 # LEVEL_01 # required by SQLAlchemy # Lightweight in-process concurrent programming

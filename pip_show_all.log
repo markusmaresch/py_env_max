@@ -639,7 +639,7 @@ Requires:
 Required-by: 
 ---
 Name: boto3
-Version: 1.21.20
+Version: 1.21.21
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -649,7 +649,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.24.20
+Version: 1.24.21
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -1076,7 +1076,7 @@ Author: The Python Cryptographic Authority and individual contributors
 Author-email: cryptography-dev@python.org
 License: BSD or Apache License, Version 2.0
 Requires: cffi
-Required-by: Authlib azure-storage-blob paramiko pyOpenSSL rapidminer robin-stocks
+Required-by: Authlib SecretStorage azure-storage-blob paramiko pyOpenSSL rapidminer robin-stocks
 ---
 Name: cssselect2
 Version: 0.5.0
@@ -2768,6 +2768,16 @@ License: MIT
 Requires: parso
 Required-by: ipython
 ---
+Name: jeepney
+Version: 0.7.1
+Summary: Low-level, pure Python DBus protocol wrapper.
+Home-page: https://gitlab.com/takluyver/jeepney
+Author: Thomas Kluyver
+Author-email: thomas@kluyver.me.uk
+License: 
+Requires: 
+Required-by: SecretStorage
+---
 Name: Jinja2
 Version: 3.0.3
 Summary: A very fast and expressive template engine.
@@ -2949,7 +2959,7 @@ Requires: pygments
 Required-by: nbconvert
 ---
 Name: jupyterlab-server
-Version: 2.11.1
+Version: 2.11.2
 Summary: A set of server components for JupyterLab and JupyterLab like applications .
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3299,7 +3309,7 @@ Requires: iso8601
 Required-by: 
 ---
 Name: macholib
-Version: 1.15.2
+Version: 1.16
 Summary: Mach-O header analysis and editing
 Home-page: http://github.com/ronaldoussoren/macholib
 Author: Ronald Oussoren
@@ -5847,6 +5857,16 @@ Author-email: mwaskom@gmail.com
 License: BSD (3-clause)
 Requires: matplotlib numpy pandas scipy
 Required-by: missingno pandas-profiling pycaret pyfolio
+---
+Name: SecretStorage
+Version: 3.3.1
+Summary: Python bindings to FreeDesktop.org Secret Service API
+Home-page: https://github.com/mitya57/secretstorage
+Author: Dmitry Shachnev
+Author-email: mitya57@gmail.com
+License: BSD 3-Clause License
+Requires: cryptography jeepney
+Required-by: 
 ---
 Name: selenium
 Version: 4.1.3
