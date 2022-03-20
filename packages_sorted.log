@@ -93,6 +93,7 @@ gprof2dot
 gputil
 graphviz
 greenlet
+gym-notices
 h11
 heapdict
 hijri-converter

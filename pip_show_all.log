@@ -1,5 +1,5 @@
 Name: absl-py
-Version: 0.12.0
+Version: 1.0.0
 Summary: Abseil Python Common Libraries, see https://github.com/abseil/abseil-py.
 Home-page: https://github.com/abseil/abseil-py
 Author: The Abseil Authors
@@ -2347,6 +2347,16 @@ Author-email: jkterry@umd.edu
 License: UNKNOWN
 Requires: cloudpickle numpy
 Required-by: elegantrl gym-unity stable-baselines3
+---
+Name: gym-notices
+Version: 0.0.6
+Summary: Notices for gym
+Home-page: https://github.com/Farama-Foundation/gym-notices
+Author: Jordan Terry
+Author-email: jkterry@umd.edu
+License: UNKNOWN
+Requires: 
+Required-by: 
 ---
 Name: gym-unity
 Version: 0.28.0
@@ -6749,7 +6759,7 @@ Requires: webencodings
 Required-by: cssselect2
 ---
 Name: tokenizers
-Version: 0.10.3
+Version: 0.11.6
 Summary: Fast and Customizable Tokenizers
 Home-page: https://github.com/huggingface/tokenizers
 Author: Anthony MOI

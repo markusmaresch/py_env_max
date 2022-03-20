@@ -46,7 +46,6 @@ graphviz==0.19.1 # LEVEL_01 # ONLY_OSX # needed for dependecy graphing .. missin
 # Hard dependencies
 #
 gast==0.4.0 # LEVEL_01 # LOCKED # tensorflow 2.7.0 <0.5.0 # Python AST that abstracts the underlying Python version
-absl-py==0.12.0 # LEVEL_02 # LOCKED # tensorflow-metadata 1.2.0 has requirement absl-py<0.13,>=0.9 # Abseil Python Common Libraries, see https://github.com/abseil/abseil-py
 #
 pystan==2.19.1.1 # LEVEL_02 # LOCKED # POST_INSTALL_00 # prophet 1.0.1 has requirement pystan~=2.19.1.1 # Python interface to Stan, a package for Bayesian inference
 cmdstanpy==0.9.68 # LEVEL_04 # LOCKED # prophet==1.0.1 requires cmdstanpy==0.9.68 # Python interface to CmdStan
@@ -96,20 +95,17 @@ backoff==1.10.0 # LEVEL_01 # LOCKED # analytics-python requires 1.10.0 # Functio
 flatbuffers==1.12 # LEVEL_01 # LOCKED # The FlatBuffers serialization format for Python
 #
 typeshed-client==1.2.3 # LEVEL_03 # LOCKED # pyanalyze 0.5.0 requires typeshed-client<2,>=1.0.0 # A library for accessing stubs in typeshed
+pydantic==1.8.2 # LEVEL_02 # LOCKED # thinc 8.0.15; spacy 3.2.3 require pydantic!=1.8,!=1.8.1,<1.9.0,>=1.7.4 # Data validation and settings management using python 3.6 type hinting
 #
-tokenizers==0.10.3 # LEVEL_01 # LOCKED # transformers 4.15.0 has requirement tokenizers<0.11,>=0.10.1 # Fast and Customizable Tokenizers
-#
-pydantic==1.8.2 # LEVEL_02 # LOCKED # thinc 8.0.13; spacy 3.2.1 require pydantic!=1.8,!=1.8.1,<1.9.0,>=1.7.4 # Data validation and settings management using python 3.6 type hinting
-#
-rfc3986==1.5.0 # LEVEL_01 # LOCKED # sphinx_autodoc_typehints-1.15.2 requires <2,>=1.3 # Validating URI References per RFC 3986
+rfc3986==1.5.0 # LEVEL_01 # LOCKED # httpx 0.22.0 requires rfc3986[idna2008]<2,>=1.3 # Validating URI References per RFC 3986
 #
 pyanalyze==0.5.0 # LEVEL_04 # LOCKED # pyanalyze 0.6.0 depends on typeshed-client>=2.0.0 # A static analyzer for Python
 #
-gym==0.20.0 # LEVEL_02 # LOCKED # gym-unity 0.28.0 requires it # Gym: A universal API for reinforcement learning environments
+gym==0.20.0 # LEVEL_02 # LOCKED # gym-unity 0.28.0 requires gym==0.20.0 # Gym: A universal API for reinforcement learning environments
 #
-h11==0.12.0 # LEVEL_01 # LOCKED # httpcore 0.14.5 depends on h11<0.13 and >=0.11 # A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
+h11==0.12.0 # LEVEL_01 # LOCKED # httpcore 0.14.7 depends on h11<0.13 and >=0.11 # A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
 #
-starlette==0.17.1 # LEVEL_03 # LOCKED # fastapi 0.73.0 depends on starlette==0.17.1 # The little ASGI library that shines
+starlette==0.17.1 # LEVEL_03 # LOCKED # fastapi 0.75.0 requires starlette==0.17.1 # The little ASGI library that shines
 #
 tbb==2021.5.0 # LEVEL_01 # LOCKED # ONLY_OSX # Intel® oneAPI Threading Building Blocks (oneTBB)
 #
@@ -122,6 +118,8 @@ google-auth-oauthlib==0.4.6 # LEVEL_04 # LOCKED # tensorboard 2.8.0 depends on g
 #
 # Former LOCKED .. now freed ;-)
 #
+tokenizers==0.11.6 # LEVEL_01 # Fast and Customizable Tokenizers
+absl-py==1.0.0 # LEVEL_02 # Abseil Python Common Libraries, see https://github.com/abseil/abseil-py
 cachetools==5.0.0 # LEVEL_01 # Extensible memoizing collections and decorators
 torchaudio==0.10.2 # LEVEL_03 # An audio package for PyTorch
 torchvision==0.11.3 # LEVEL_03 # image and video datasets and models for torch deep learning
