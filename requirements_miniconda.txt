@@ -56,7 +56,7 @@ kaleido==0.2.1 # LEVEL_01 # LOCKED # .post1 does not work # Static image export 
 #
 stable-baselines3==1.2.0 # LEVEL_04 # LOCKED # version 1.3.0 depends on gym<0.20 :-( # Pytorch version of Stable Baselines, implementations of reinforcement learning algorithms
 #
-optional-django==0.1.0 # LEVEL_01 # LOCKED # nodejs needs it # Utils for apps to provide optional support for django applications
+optional-django==0.1.0 # LEVEL_01 # LOCKED # nodejs 0.1.1 requires optional-django==0.1.0 # Utils for apps to provide optional support for django applications
 #
 textblob==0.15.3 # LEVEL_03 # LOCKED # spacytextblob 3.0.1 requires textblob<0.16.0,>=0.15.3 # Simple, Pythonic text processing. Sentiment analysis, part-of-speech tagging, noun phrase parsing, and more
 #
@@ -64,19 +64,19 @@ docutils==0.17.1 # LEVEL_01 # LOCKED # sphinx 4.3.0 requires docutils<0.18,>=0.1
 #
 tenacity==6.3.1 # LEVEL_02 # LOCKED # luigi requires tenacity<7,>=6.3.0 # Retry code until it succeeds
 #
-parsedatetime==2.4 # LEVEL_02 # LOCKED # agate 1.6.3 requires 2.4 # Parse human-readable date/time text
+parsedatetime==2.4 # LEVEL_02 # LOCKED # agate 1.6.3 requires parsedatetime!=2.5,!=2.6,>=2.1 # Parse human-readable date/time text
 #
-pyDeprecate==0.3.1 # LEVEL_01 # pytorch-lightning 1.5.0 has requirement pyDeprecate==0.3.1 # Deprecation tooling
+pyDeprecate==0.3.1 # LEVEL_01 # LOCKED # pytorch-lightning 1.5.10 requires pyDeprecate==0.3.1 # Deprecation tooling
 #
-antlr4-python3-runtime==4.8 # LEVEL_01 # omegaconf 2.1.1 requires antlr4-python3-runtime==4.8 # ANTLR 4.8 runtime for Python 3.7
+antlr4-python3-runtime==4.8 # LEVEL_01 # LOCKED # omegaconf 2.1.1 requires antlr4-python3-runtime==4.8 # ANTLR 4.8 runtime for Python 3.7
 #
-dask-ml==2021.10.17 # LEVEL_05 # numpy conflict # A library for distributed and parallel machine learning
+dask-ml==2021.10.17 # LEVEL_05 # LOCKED # numpy conflict # A library for distributed and parallel machine learning
 #
 tangled-up-in-unicode==0.1.0 # LEVEL_01 # LOCKED # pandas-profiling 3.1.0 requires 0.1.0 # Access to the Unicode Character Database (UCD)
 visions==0.7.4 # LEVEL_04 # LOCKED # pandas-profiling 3.1.0 requires visions[type_image_path]==0.7.4 # Visions
 MarkupSafe==2.0.1 # LEVEL_01 # LOCKED # pandas-profiling 3.1.0 depends on markupsafe~=2.0.1 # Safely add untrusted strings to HTML/XML markup
+joblib==1.0.1 # LEVEL_01 # LOCKED # pandas-profiling 3.1.0 requires joblib~=1.0.1 # Lightweight pipelining with Python functions
 #
-joblib==1.0.1 # LEVEL_01 # LOCKED # pycaret requires this # Lightweight pipelining with Python functions
 pyLDAvis==3.2.2 # LEVEL_04 # LOCKED # pycaret ? # Interactive topic model visualization. Port of the R package
 pycaret==2.2.2 # LEVEL_10 # LOCKED # old dependencies # PyCaret - An open source, low-code machine learning library in Python
 #
@@ -524,7 +524,7 @@ jupyterlab-pygments==0.1.2 # LEVEL_02 # Pygments theme using JupyterLab CSS vari
 jupyterlab-widgets==1.1.0 # LEVEL_01 # A JupyterLab extension
 #
 ipywidgets==7.7.0 # LEVEL_08 # IPython HTML widgets for Jupyter
-widgetsnbextension==3.6.0 # LEVEL_07 # LOCKED # # IPython HTML widgets for Jupyter
+widgetsnbextension==3.6.0 # LEVEL_07 # IPython HTML widgets for Jupyter
 nbclassic==0.3.7 # LEVEL_08 # Jupyter Notebook as a Jupyter Server extension
 notebook-shim==0.1.0 # LEVEL_07 # A shim layer for notebook traits and config
 notebook==6.4.10 # LEVEL_06 # A web-based notebook environment for interactive computing

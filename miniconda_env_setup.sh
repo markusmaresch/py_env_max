@@ -261,6 +261,11 @@ if [ 1 -eq 1 ]; then
     else
       ncd=""
     fi
+    #
+    # issue with pip install below: need to fork off and parse for "This could take a while"
+    # if found, stop/kill pip and error out
+    # need to find correct implementation
+    #
     pip install $ncd -r $requirements_tmp | grep -v -e "^Requirement already satisfied: "
     ret=${PIPESTATUS[0]}
     if [ $ret != 0 ]; then
