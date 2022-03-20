@@ -99,13 +99,13 @@ Requires:
 Required-by: Sphinx
 ---
 Name: alembic
-Version: 1.4.1
+Version: 1.7.7
 Summary: A database migration tool for SQLAlchemy.
 Home-page: https://alembic.sqlalchemy.org
 Author: Mike Bayer
-Author-email: mike@zzzcomputing.com
+Author-email: mike_mp@zzzcomputing.com
 License: MIT
-Requires: Mako SQLAlchemy python-dateutil python-editor
+Requires: Mako SQLAlchemy
 Required-by: mlflow
 ---
 Name: alpha-vantage
@@ -5326,7 +5326,7 @@ Author: Gustavo Niemeyer
 Author-email: gustavo@niemeyer.net
 License: Dual License
 Requires: six
-Required-by: LunarCalendar Mastodon.py alembic analytics-python arrow botocore croniter datashape exchange-calendars google-cloud-bigquery holidays int-date intrinio-sdk jupyter-client kaggle luigi matplotlib pandas pandas-market-calendars prophet tda-api trading-calendars wandb
+Required-by: LunarCalendar Mastodon.py analytics-python arrow botocore croniter datashape exchange-calendars google-cloud-bigquery holidays int-date intrinio-sdk jupyter-client kaggle luigi matplotlib pandas pandas-market-calendars prophet tda-api trading-calendars wandb
 ---
 Name: python-dotenv
 Version: 0.19.2
@@ -5346,7 +5346,7 @@ Author: Peter Ruibal
 Author-email: ruibalp@gmail.com
 License: Apache
 Requires: 
-Required-by: alembic
+Required-by: 
 ---
 Name: python-gflags
 Version: 3.1.2
