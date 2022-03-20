@@ -4379,7 +4379,7 @@ Requires: ptyprocess
 Required-by: ipython
 ---
 Name: phik
-Version: 0.12.0
+Version: 0.12.1
 Summary: Phi_K correlation analyzer library
 Home-page: http://phik.rtfd.io
 Author: KPMG N.V. The Netherlands

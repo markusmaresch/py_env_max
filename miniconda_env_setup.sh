@@ -10,6 +10,39 @@ requirements_all="requirements_miniconda.txt"
 only_check=0
 only_export=0
 
+packages_check_specified() {
+  #
+  # list installed packages, that are NOT in requirements
+  #
+  cc_tmp="/tmp/conda_created.$$.tmp"
+
+  grep CONDA_CREATE $requirements_all | \
+    awk '{print $1}' | sed -e "s/^#//g" > $cc_tmp
+
+  (
+    echo "Package"
+    echo "-----------------------------"
+    echo "dask"
+    echo "sliderepl"
+  ) >> $cc_tmp
+
+  ret=0
+  for p in $(pip list | awk '{print $1}'); do
+    grep -q -i "^${p}==" $requirements_all
+    if [ $? -ne 0 ]; then
+      #echo "Possible: $p"
+      grep -q -i "^${p}$" $cc_tmp
+      if [ $? -ne 0 ]; then
+        version=$(pip show $p | grep -e "^Version: " | awk '{print $2}')
+        echo "Not specified: ${p}==${version}"
+        ret=1
+      fi
+    fi
+  done
+  rm -f $cc_tmp
+  return $ret
+}
+
 post_check_exit() {
   conda --version > conda_version.txt
   if ! python inspect_all.py; then
@@ -23,7 +56,7 @@ post_check_exit() {
     echo "Fix errors above, before continuing"
     exit 1
   fi
-  ./not_specified_packages.sh
+  packages_check_specified
   if [ $? -ne 0 ]; then
     echo "Fix not specified packages first"
     #exit 1
