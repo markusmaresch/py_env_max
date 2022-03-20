@@ -1269,7 +1269,7 @@ Requires:
 Required-by: dash
 ---
 Name: dask
-Version: 2022.2.1
+Version: 2022.3.0
 Summary: Parallel PyData with Task Scheduling
 Home-page: https://github.com/dask/dask/
 Author: 
@@ -1409,13 +1409,13 @@ Requires:
 Required-by: datasets multiprocess tensorflow-datasets
 ---
 Name: distributed
-Version: 2022.2.1
+Version: 2022.3.0
 Summary: Distributed scheduler for Dask
 Home-page: https://distributed.dask.org
 Author: 
 Author-email: 
 License: BSD
-Requires: click cloudpickle dask jinja2 msgpack packaging psutil pyyaml setuptools sortedcontainers tblib toolz tornado zict
+Requires: click cloudpickle dask jinja2 msgpack packaging psutil pyyaml sortedcontainers tblib toolz tornado zict
 Required-by: dask-ml
 ---
 Name: Django
@@ -2149,7 +2149,7 @@ Requires: google-api-core google-auth google-auth-httplib2 httplib2 uritemplate
 Required-by: tf-models-official
 ---
 Name: google-auth
-Version: 2.6.0
+Version: 2.6.2
 Summary: Google Authentication Library
 Home-page: https://github.com/googleapis/google-auth-library-python
 Author: Google Cloud Platform
@@ -2279,7 +2279,7 @@ Requires:
 Required-by: 
 ---
 Name: gradio
-Version: 2.8.10
+Version: 2.8.12
 Summary: Python library for easily interacting with trained machine learning models
 Home-page: https://github.com/gradio-app/gradio-UI
 Author: Abubakar Abid, Ali Abid, Ali Abdalla, Dawood Khan, Ahsen Khaliq
@@ -2749,7 +2749,7 @@ Requires:
 Required-by: Flask dash-auth
 ---
 Name: jax
-Version: 0.3.2
+Version: 0.3.4
 Summary: Differentiate, compile, and transform Numpy code.
 Home-page: https://github.com/google/jax
 Author: JAX team
@@ -4019,7 +4019,7 @@ Requires: flatbuffers numpy protobuf
 Required-by: onnx-simplifier
 ---
 Name: openai
-Version: 0.15.0
+Version: 0.16.0
 Summary: Python client library for the OpenAI API
 Home-page: https://github.com/openai/openai-python
 Author: OpenAI
@@ -4119,7 +4119,7 @@ Requires:
 Required-by: gradio
 ---
 Name: oscrypto
-Version: 1.2.1
+Version: 1.3.0
 Summary: TLS (SSL) sockets, key generation, encryption, decryption, signing, verification and KDFs using the OS crypto libraries. Does not require a compiler, and relies on the OS for patching. Works on Windows, OS X and Linux/BSD.
 Home-page: https://github.com/wbond/oscrypto
 Author: wbond
@@ -4209,7 +4209,7 @@ Requires: PyYAML htmlmin jinja2 joblib markupsafe matplotlib missingno multimeth
 Required-by: pycaret
 ---
 Name: pandas-stubs
-Version: 1.2.0.51
+Version: 1.2.0.53
 Summary: Type annotations for Pandas
 Home-page: https://github.com/VirtusLab/pandas-stubs
 Author: Zbigniew Królikowski
@@ -4249,7 +4249,7 @@ Requires:
 Required-by: colorcet datashader holoviews panel pyct pyviz-comms
 ---
 Name: paramiko
-Version: 2.10.2
+Version: 2.10.3
 Summary: SSH2 protocol library
 Home-page: https://paramiko.org
 Author: Jeff Forcier
@@ -5429,7 +5429,7 @@ Requires: attrs importlab libcst ninja tabulate toml
 Required-by: 
 ---
 Name: pytz
-Version: 2021.3
+Version: 2022.1
 Summary: World timezone definitions, modern and historical
 Home-page: http://pythonhosted.org/pytz
 Author: Stuart Bishop
@@ -5936,7 +5936,7 @@ Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy celery cufflinks distributed gunicorn ipython jupyter-packaging mlxtend nibabel numba plaster pmdarima pyinstaller pyramid python-daemon pytorch-lightning rapids setuptools-scm spacy streamz tensorboard thinc zope.deprecation zope.interface
+Required-by: Fiona PasteDeploy celery cufflinks gunicorn ipython jupyter-packaging mlxtend nibabel numba plaster pmdarima pyinstaller pyramid python-daemon pytorch-lightning rapids setuptools-scm spacy streamz tensorboard thinc zope.deprecation zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -6999,7 +6999,7 @@ Requires: mypy-extensions typing-extensions
 Required-by: libcst pyanalyze
 ---
 Name: tzdata
-Version: 2021.5
+Version: 2022.1
 Summary: Provider of IANA time zone data
 Home-page: https://github.com/python/tzdata
 Author: Python Software Foundation

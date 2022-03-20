@@ -119,6 +119,8 @@ jmespath==0.10.0 # LEVEL_01 # LOCKED # boto* requires it # JSON Matching Express
 #
 mccabe==0.6.1 # LEVEL_01 # LOCKED # flake8 requires it # McCabe checker, plugin for flake8
 #
+google-auth-oauthlib==0.4.6 # LEVEL_04 # LOCKED # tensorboard 2.8.0 depends on google-auth-oauthlib<0.5 and >=0.4.1 # Google Authentication Library
+#
 #
 # Former LOCKED .. now freed ;-)
 #
@@ -133,7 +135,7 @@ typing_extensions==4.1.1 # LEVEL_01 # Backported and Experimental Type Hints for
 six==1.16.0 # LEVEL_01 # Python 2 and 3 compatibility utilities
 clang==14.0 # LEVEL_01 # libclang python bindings
 h5py==3.6.0 # LEVEL_02 # Read and write HDF5 files from Python
-google-auth==2.6.0 # LEVEL_03 # Google Authentication Library
+google-auth==2.6.2 # LEVEL_03 # Google Authentication Library
 wrapt==1.14.0 # LEVEL_01 # Module for decorators, wrappers and monkey patching
 panel==0.12.6 # LEVEL_04 # A high level app and dashboarding solution for Python
 bokeh==2.4.2 # LEVEL_03 # Interactive plots and applications in the browser from Python
@@ -169,7 +171,7 @@ pandas-profiling==3.1.0 # LEVEL_06 # Generate profile report for pandas DataFram
 pandas-datareader==0.10.0 # LEVEL_04 # Data readers extracted from the pandas codebase,should be compatible with recent pandas versions
 geopandas==0.10.2 # LEVEL_04 # Geographic pandas extensions
 pandas==1.4.1 # LEVEL_03 # Powerful data structures for data analysis, time series, and statistics
-pandas-stubs==1.2.0.51 # LEVEL_01 # needed by openai # Type annotations for Pandas
+pandas-stubs==1.2.0.53 # LEVEL_01 # needed by openai # Type annotations for Pandas
 XlsxWriter==3.0.3 # LEVEL_01 # needed for pandas XLSX # A Python module for creating Excel XLSX files
 
 #
@@ -246,7 +248,7 @@ mlagents-envs==0.28.0 # LEVEL_03 # Unity Machine Learning Agents Interface
 #
 gensim==4.1.2 # LEVEL_03 # Python framework for fast Vector Space Modelling
 #
-openai==0.15.0 # LEVEL_04 # Python client library for the OpenAI API
+openai==0.16.0 # LEVEL_04 # Python client library for the OpenAI API
 #
 wandb==0.12.11 # LEVEL_04 # A CLI and library for interacting with the Weights and Biases API
 #
@@ -289,8 +291,8 @@ isodate==0.6.1 # LEVEL_02 # An ISO 8601 date/time/duration parser and formatter
 pyluach==1.4.0 # LEVEL_01 # Pyluach is a Python package for manipulating Hebrew dates,
 iso8601==1.0.2 # LEVEL_01 # Simple module to parse ISO 8601 dates
 hijri-converter==2.2.3 # LEVEL_01 # Accurate Hijri-Gregorian dates converter based on the Umm al-Qura calendar
-pytz==2021.3 # LEVEL_01 # World timezone definitions, modern and historical
-tzdata==2021.5 # LEVEL_01 # Provider of IANA time zone data
+pytz==2022.1 # LEVEL_01 # World timezone definitions, modern and historical
+tzdata==2022.1 # LEVEL_01 # Provider of IANA time zone data
 pytimeparse==1.1.8 # LEVEL_01 # Time expression parser
 
 #
@@ -335,8 +337,8 @@ kaggle==1.5.12 # LEVEL_03 # Kaggle API
 agate==1.6.3 # LEVEL_03 # A data analysis library that is optimized for humans instead of machines
 #
 dask-glm==0.2.0 # LEVEL_04 # Generalized Linear Models with Dask
-distributed==2022.2.1 # LEVEL_04 # Distributed scheduler for Dask
-dask[complete]==2022.2.1 # LEVEL_03 # Parallel PyData with Task Scheduling
+distributed==2022.3.0 # LEVEL_04 # Distributed scheduler for Dask
+dask[complete]==2022.3.0 # LEVEL_03 # Parallel PyData with Task Scheduling
 #dask-xgboost==0.2.0 # LEVEL_02 # outdated !
 # dask-cuda==21.10.0 # LEVEL_05 # outdated requirements
 # pynvml==11.0.0 # LEVEL_01 # POTENTIALLY_UNUSED # Python Bindings for the NVIDIA Management Library
@@ -345,7 +347,7 @@ scikit-plot==0.3.7 # LEVEL_04 # An intuitive library to add plotting functionali
 scikit-image==0.19.2 # LEVEL_03 # Image processing in Python
 scikit-learn==1.0.2 # LEVEL_03 # A set of python modules for machine learning and data mining
 pyod==0.9.8 # LEVEL_05 # outlyer detection # A Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
-jax==0.3.2 # LEVEL_03 # Differentiate, compile, and transform Numpy code
+jax==0.3.4 # LEVEL_03 # Differentiate, compile, and transform Numpy code
 #
 zeep==4.1.0 # LEVEL_04 # A modern/fast Python SOAP client based on lxml / requests
 cached-property==1.5.2 # LEVEL_01 # A decorator for caching properties in classes
@@ -397,14 +399,14 @@ pyportfolioopt==1.5.1 # LEVEL_06 # Financial portfolio optimization in python
 #
 # Password & Cryptography
 #
-secretstorage==3.3.1 # LEVEL_04
+SecretStorage==3.3.1 # LEVEL_04 # Python bindings to FreeDesktop.org Secret Service API
 argon2-cffi==21.3.0 # LEVEL_04 # The secure Argon2 password hashing algorithm
 bcrypt==3.2.0 # LEVEL_03 # Modern password hashing for your software and your servers
 argon2-cffi-bindings==21.2.0 # LEVEL_03 # Low-level CFFI bindings for Argon2
 cryptography==36.0.2 # LEVEL_03 # cryptography is a package which provides cryptographic recipes and primitives to Python developers
 keyring==23.5.0 # LEVEL_03 # Store and access your passwords safely
 PyNaCl==1.5.0 # LEVEL_03 # Python binding to the Networking and Cryptography (NaCl) library
-oscrypto==1.2.1 # LEVEL_02 # TLS (SSL) sockets, key generation, encryption, decryption, signing, verification and KDFs using the OS crypto libraries. Does not require a compiler, and relies on the OS for patching. Works on Windows, OS X and Linux/BSD
+oscrypto==1.3.0 # LEVEL_02 # TLS (SSL) sockets, key generation, encryption, decryption, signing, verification and KDFs using the OS crypto libraries. Does not require a compiler, and relies on the OS for patching. Works on Windows, OS X and Linux/BSD
 pyotp==2.6.0 # LEVEL_01 # Python One Time Password Library
 asn1crypto==1.5.1 # LEVEL_01 # Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP
 pycryptodomex==3.14.1 # LEVEL_01 # Cryptographic library for Python
@@ -493,7 +495,6 @@ google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC3
 google-api-python-client==2.41.0 # LEVEL_05 # Google API Client Library for Python
 google-api-core==2.7.1 # LEVEL_04 # Google API client core library
 google-auth-httplib2==0.1.0 # LEVEL_04 # Google Authentication Library: httplib2 transport
-google-auth-oauthlib==0.4.6 # LEVEL_04 # Google Authentication Library
 google-pasta==0.2.0 # LEVEL_02 # pasta is an AST-based Python refactoring library
 googleapis-common-protos==1.56.0 # LEVEL_02 # Common protobufs used in Google APIs
 googletransx==2.4.2 # LEVEL_03 # Free Google Translate API for Python. Translates totally free of charge
@@ -1063,8 +1064,8 @@ vine==5.0.0 # LEVEL_01 # Promises, promises, promises
 #
 
 flower==1.0.0 # LEVEL_05 # Celery Flower
-gradio==2.8.10 # LEVEL_05 # Python library for easily interacting with trained machine learning models
-paramiko==2.10.2 # LEVEL_04 # SSH2 protocol library
+gradio==2.8.12 # LEVEL_05 # Python library for easily interacting with trained machine learning models
+paramiko==2.10.3 # LEVEL_04 # SSH2 protocol library
 celery==5.2.3 # LEVEL_04 # Distributed Task Queue
 analytics-python==1.4.0 # LEVEL_03 # The hassle-free way to integrate analytics into any python application
 kombu==5.2.4 # LEVEL_03  # Messaging library for Python
