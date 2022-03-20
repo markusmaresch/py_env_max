@@ -639,7 +639,7 @@ Requires:
 Required-by: 
 ---
 Name: boto3
-Version: 1.21.21
+Version: 1.21.22
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -649,7 +649,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.24.21
+Version: 1.24.22
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -2229,7 +2229,7 @@ Requires: google-crc32c
 Required-by: google-cloud-bigquery
 ---
 Name: googleapis-common-protos
-Version: 1.55.0
+Version: 1.56.0
 Summary: Common protobufs used in Google APIs
 Home-page: https://github.com/googleapis/python-api-common-protos
 Author: Google LLC

@@ -495,7 +495,7 @@ google-api-core==2.7.1 # LEVEL_04 # Google API client core library
 google-auth-httplib2==0.1.0 # LEVEL_04 # Google Authentication Library: httplib2 transport
 google-auth-oauthlib==0.4.6 # LEVEL_04 # Google Authentication Library
 google-pasta==0.2.0 # LEVEL_02 # pasta is an AST-based Python refactoring library
-googleapis-common-protos==1.55.0 # LEVEL_02 # Common protobufs used in Google APIs
+googleapis-common-protos==1.56.0 # LEVEL_02 # Common protobufs used in Google APIs
 googletransx==2.4.2 # LEVEL_03 # Free Google Translate API for Python. Translates totally free of charge
 uritemplate==4.1.1 # LEVEL_01 # required by google-api-python-client # Implementation of RFC 6570 URI Templates
 
@@ -508,9 +508,9 @@ smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, A
 uamqp==1.5.2 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.21.21  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.21.22  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.2 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.24.21 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.24.22 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
