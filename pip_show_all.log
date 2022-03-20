@@ -709,7 +709,7 @@ Requires:
 Required-by: zeep
 ---
 Name: cachetools
-Version: 4.2.4
+Version: 5.0.0
 Summary: Extensible memoizing collections and decorators
 Home-page: https://github.com/tkem/cachetools/
 Author: Thomas Kemmer
@@ -1949,7 +1949,7 @@ Requires: celery humanize prometheus-client pytz tornado
 Required-by: 
 ---
 Name: fonttools
-Version: 4.30.0
+Version: 4.31.1
 Summary: Tools to manipulate font files
 Home-page: http://github.com/fonttools/fonttools
 Author: Just van Rossum
@@ -2589,7 +2589,7 @@ Requires: PyWavelets numpy pillow scipy six
 Required-by: 
 ---
 Name: imageio
-Version: 2.14.1
+Version: 2.15.0
 Summary: Library for reading and writing a wide range of image, video, scientific, and volumetric data formats.
 Home-page: https://github.com/imageio/imageio
 Author: imageio contributors

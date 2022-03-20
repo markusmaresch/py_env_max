@@ -95,8 +95,6 @@ backoff==1.10.0 # LEVEL_01 # LOCKED # analytics-python requires 1.10.0 # Functio
 #
 flatbuffers==1.12 # LEVEL_01 # LOCKED # The FlatBuffers serialization format for Python
 #
-cachetools==4.2.4 # LEVEL_01 # LOCKED # google-auth 2.3.3 requires it # Extensible memoizing collections and decorators
-#
 typeshed-client==1.2.3 # LEVEL_03 # LOCKED # pyanalyze 0.5.0 requires typeshed-client<2,>=1.0.0 # A library for accessing stubs in typeshed
 #
 tokenizers==0.10.3 # LEVEL_01 # LOCKED # transformers 4.15.0 has requirement tokenizers<0.11,>=0.10.1 # Fast and Customizable Tokenizers
@@ -124,6 +122,7 @@ google-auth-oauthlib==0.4.6 # LEVEL_04 # LOCKED # tensorboard 2.8.0 depends on g
 #
 # Former LOCKED .. now freed ;-)
 #
+cachetools==5.0.0 # LEVEL_01 # Extensible memoizing collections and decorators
 torchaudio==0.10.2 # LEVEL_03 # An audio package for PyTorch
 torchvision==0.11.3 # LEVEL_03 # image and video datasets and models for torch deep learning
 torch==1.10.2 # LEVEL_02 # Tensors and Dynamic neural networks in Python with strong GPU acceleration
@@ -360,7 +359,7 @@ imagecodecs-lite==2020.1.31 # LEVEL_03 # The imagecodecs-lite package is depreca
 imagecodecs==2022.2.22 # LEVEL_02 # Image transformation, compression, and decompression codecs
 opencv-python==4.5.5.64 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.5.64 # LEVEL_02 # Wrapper package for OpenCV python bindings
-imageio==2.14.1 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
+imageio==2.15.0 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2022.3.16 # LEVEL_02 # Read and write TIFF files
 Pillow==9.0.1 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
@@ -1049,7 +1048,7 @@ emoji==1.7.0 # LEVEL_01 # Emoji for Python
 #
 shellingham==1.4.0 # LEVEL_01 # Tool to Detect Surrounding Shell
 #
-fonttools==4.30.0 # LEVEL_01 # Tools to manipulate font files
+fonttools==4.31.1 # LEVEL_01 # Tools to manipulate font files
 setuptools-scm==6.4.2 # LEVEL_03 # the blessed package to manage your versions by scm tags
 tomli==2.0.1 # LEVEL_01 # A lil' TOML parser
 #

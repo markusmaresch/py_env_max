@@ -133,9 +133,9 @@ conda_env_export() {
         \
         > $yml2
 
-    ls -al $yml $yml2
-    diff $yml $yml2
-    mv $yml2 $yml
+    #ls -al $yml $yml2
+    #diff $yml $yml2
+    #mv $yml2 $yml
   fi
 }
 
