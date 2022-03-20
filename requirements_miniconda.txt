@@ -32,12 +32,12 @@
 numpy==1.19.5 # LEVEL_01 # PRE_INSTALL_00 # LOCKED # openvino<1.20; # NumPy is the fundamental package for array computing with Python
 
 #
-TA-Lib==0.4.21 # LEVEL_02 # NO_CACHE_DIR # ONLY_OSX # Still issue with upgrading !!! # Python wrapper for TA-Lib
+TA-Lib==0.4.24 # LEVEL_02 # NO_CACHE_DIR # ONLY_OSX # Still issue with upgrading !!! # Python wrapper for TA-Lib
 
 #
 # not recognized by 'req.txt'
 #
-mplfinance==0.12.7a17 # LEVEL_04 # Utilities for the visualization, and visual analysis, of financial data
+mplfinance==0.12.8b9 # LEVEL_04 # Utilities for the visualization, and visual analysis, of financial data
 graphviz==0.19.1 # LEVEL_01 # ONLY_OSX # needed for dependecy graphing .. missing dependencies, but still needed # Simple Python interface for Graphviz
 
 # former not recognized by req.txt
@@ -108,6 +108,8 @@ jmespath==0.10.0 # LEVEL_01 # LOCKED # boto* requires it # JSON Matching Express
 mccabe==0.6.1 # LEVEL_01 # LOCKED # flake8 requires it # McCabe checker, plugin for flake8
 #
 google-auth-oauthlib==0.4.6 # LEVEL_04 # LOCKED # tensorboard 2.8.0 depends on google-auth-oauthlib<0.5 and >=0.4.1 # Google Authentication Library
+#
+imageio==2.15.0 # LEVEL_02 # LOCKED # 2.16.1 does not work # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 #
 #
 # Former LOCKED .. now freed ;-)
@@ -205,6 +207,7 @@ tf-slim==1.1.0 # LEVEL_03 # TensorFlow-Slim: A lightweight library for defining,
 tensorboardX==2.5 # LEVEL_02 # TensorBoardX lets you watch Tensors Flow without Tensorflow
 params-flow==0.8.2 # LEVEL_02 # Tensorflow Keras utilities for reducing boilerplate code
 #
+transformers==4.16.2 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 #
 Keras-Preprocessing==1.1.2 # LEVEL_02 # Easy data preprocessing and data augmentation for deep learning models
 #
@@ -308,8 +311,6 @@ spacy-legacy==3.0.9 # LEVEL_01 # Legacy registered functions for spaCy backwards
 # spacy-transformers  # downgrades transformers !!
 thinc==8.0.15 # LEVEL_03 # A refreshing functional take on deep learning, compatible with your favorite libraries
 #
-transformers==4.16.2 # LEVEL_04 # State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
-#
 wordcloud==1.8.1 # LEVEL_04 # A little word cloud generator
 #
 snowballstemmer==2.2.0 # LEVEL_01 # This package provides 29 stemmers for 28 languages generated from Snowball algorithms
@@ -352,7 +353,6 @@ imagecodecs-lite==2020.1.31 # LEVEL_03 # The imagecodecs-lite package is depreca
 imagecodecs==2022.2.22 # LEVEL_02 # Image transformation, compression, and decompression codecs
 opencv-python==4.5.5.64 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.5.64 # LEVEL_02 # Wrapper package for OpenCV python bindings
-imageio==2.15.0 # LEVEL_02 # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 tifffile==2022.3.16 # LEVEL_02 # Read and write TIFF files
 Pillow==9.0.1 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file

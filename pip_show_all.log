@@ -3559,7 +3559,7 @@ Requires:
 Required-by: 
 ---
 Name: mplfinance
-Version: 0.12.7a17
+Version: 0.12.8b9
 Summary: Utilities for the visualization, and visual analysis, of financial data
 Home-page: http://github.com/matplotlib/mplfinance
 Author: MPL Developers
@@ -6399,7 +6399,7 @@ Requires:
 Required-by: 
 ---
 Name: TA-Lib
-Version: 0.4.21
+Version: 0.4.24
 Summary: Python wrapper for TA-Lib
 Home-page: http://github.com/mrjbq7/ta-lib
 Author: John Benediktsson
