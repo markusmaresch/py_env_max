@@ -622,7 +622,7 @@ cssselect2==0.5.0 # LEVEL_03 # CSS selectors for Python ElementTree
 # Checkers
 #
 pytest-asyncio==0.18.2 # LEVEL_04 # Pytest support for asyncio
-pytest==7.1.0 # LEVEL_03 # pytest: simple powerful testing with Python
+pytest==7.1.1 # LEVEL_03 # pytest: simple powerful testing with Python
 flake8==4.0.1 # LEVEL_02 # better linter than pyflakes # the modular source code checker: pep8 pyflakes and co
 mypy==0.941 # LEVEL_02 # Optional static typing for Python
 mypy-extensions==0.4.3 # LEVEL_01 # Experimental type system extensions for programs checked with the mypy typechecker
@@ -1015,7 +1015,7 @@ zarr==2.11.1 # LEVEL_03 # An implementation of chunked, compressed, N-dimensiona
 asciitree==0.3.3 # LEVEL_01 # Draws ASCII trees
 #
 # dbt !! not compatible with many versions !!
-dbt-extractor==0.4.0 # LEVEL_01 # A tool to analyze and extract information from Jinja used in dbt projects
+dbt-extractor==0.4.1 # LEVEL_01 # A tool to analyze and extract information from Jinja used in dbt projects
 leather==0.3.4 # LEVEL_02 # Python charting for 80% of humans
 Logbook==1.5.3 # LEVEL_01 # A logging replacement for Python
 mashumaro==3.0 # LEVEL_02 # Fast serialization framework on top of dataclasses
@@ -1032,7 +1032,7 @@ local-attention==1.4.3 # LEVEL_03 # Local windowed attention, for language model
 netCDF4==1.5.8 # LEVEL_03 # Provides an object-oriented python interface to the netCDF version 4 library
 cftime==1.6.0 # LEVEL_02 # Time-handling functionality from netcdf4-python
 omegaconf==2.1.1 # LEVEL_02 # A flexible configuration library
-sentry-sdk==1.5.7 # LEVEL_02 # Python client for Sentry (https://sentry.io)
+sentry-sdk==1.5.8 # LEVEL_02 # Python client for Sentry (https://sentry.io)
 yaspin==2.1.0 # LEVEL_02 # Yet Another Terminal Spinner
 configparser==5.2.0 # LEVEL_01 # Updated configparser from Python 3.8 for Python 2.6+
 pathtools==0.1.2 # LEVEL_01 # File system general utilities
@@ -1095,7 +1095,7 @@ uuid==1.30 # LEVEL_01 # UUID object and generation functions
 onnxruntime==1.10.0 # LEVEL_02 # ONNX Runtime is a runtime accelerator for Machine Learning models
 onnxoptimizer==0.2.6 # LEVEL_03 # Open Neural Network Exchange
 onnx-simplifier==0.3.7 # LEVEL_04 # Simplify your ONNX model
-netron==5.6.4 # LEVEL_01 # Viewer for neural network, deep learning, and machine learning models
+netron==5.6.5 # LEVEL_01 # Viewer for neural network, deep learning, and machine learning models
 #
 #python-multipart==0.0.5 # LEVEL_02 # A streaming multipart parser for Python
 #

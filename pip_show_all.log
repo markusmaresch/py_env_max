@@ -1339,7 +1339,7 @@ Requires: multipledispatch numpy python-dateutil
 Required-by: datashader
 ---
 Name: dbt-extractor
-Version: 0.4.0
+Version: 0.4.1
 Summary: A tool to analyze and extract information from Jinja used in dbt projects.
 Home-page: https://github.com/dbt-labs/dbt-parser-generator/
 Author: dbt Labs, Nathaniel May
@@ -3759,7 +3759,7 @@ Requires:
 Required-by: 
 ---
 Name: netron
-Version: 5.6.4
+Version: 5.6.5
 Summary: Viewer for neural network, deep learning, and machine learning models
 Home-page: https://github.com/lutzroeder/netron
 Author: Lutz Roeder
@@ -5279,7 +5279,7 @@ Requires: Cython numpy
 Required-by: prophet
 ---
 Name: pytest
-Version: 7.1.0
+Version: 7.1.1
 Summary: pytest: simple powerful testing with Python
 Home-page: https://docs.pytest.org/en/latest/
 Author: Holger Krekel, Bruno Oliveira, Ronny Pfannschmidt, Floris Bruynooghe, Brianna Laugher, Florian Bruhin and others
@@ -5899,7 +5899,7 @@ Requires:
 Required-by: bertviz tf-models-official
 ---
 Name: sentry-sdk
-Version: 1.5.7
+Version: 1.5.8
 Summary: Python client for Sentry (https://sentry.io)
 Home-page: https://github.com/getsentry/sentry-python
 Author: Sentry Team and Contributors

@@ -106,6 +106,12 @@ conda_env_export() {
   fi
 }
 
+requirements_export_bare_bone() {
+  req="requirements_miniconda.txt"
+  grep -v -e "^#" $req | sed -e 's/#.*$//' | sed 's/^$/#/'  > req_bare_bone.txt
+}
+
+
 while [ "$1" != "" ]; do
   if [ "$1" == "-tmp" ]; then
     py_env_name="${py_env_name}.tmp"
