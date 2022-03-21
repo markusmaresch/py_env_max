@@ -48,7 +48,7 @@ graphviz==0.19.1 # LEVEL_01 # ONLY_OSX # needed for dependecy graphing .. missin
 gast==0.4.0 # LEVEL_01 # LOCKED # tensorflow 2.7.0 <0.5.0 # Python AST that abstracts the underlying Python version
 #
 pystan==2.19.1.1 # LEVEL_02 # LOCKED # POST_INSTALL_00 # ONLY_OSX # prophet 1.0.1 has requirement pystan~=2.19.1.1 # Python interface to Stan, a package for Bayesian inference
-cmdstanpy==0.9.68 # LEVEL_04 # LOCKED # prophet==1.0.1 requires cmdstanpy==0.9.68 # Python interface to CmdStan
+cmdstanpy==0.9.68 # LEVEL_04 # ONLY_OSX # LOCKED # prophet==1.0.1 requires cmdstanpy==0.9.68 # Python interface to CmdStan
 #
 Box2D==2.3.2 # LEVEL_01 # LOCKED # ONLY_OSX # more recent versions, like 2.3.10 do not work # Python Box2D
 #
@@ -78,7 +78,7 @@ MarkupSafe==2.0.1 # LEVEL_01 # LOCKED # pandas-profiling 3.1.0 depends on markup
 joblib==1.0.1 # LEVEL_01 # LOCKED # pandas-profiling 3.1.0 requires joblib~=1.0.1 # Lightweight pipelining with Python functions
 #
 pyLDAvis==3.2.2 # LEVEL_04 # LOCKED # pycaret ? # Interactive topic model visualization. Port of the R package
-pycaret==2.2.2 # LEVEL_10 # LOCKED # old dependencies # PyCaret - An open source, low-code machine learning library in Python
+pycaret==2.2.2 # LEVEL_10 # ONLY_OSX # LOCKED # old dependencies # PyCaret - An open source, low-code machine learning library in Python
 #
 mistune==0.8.4 # LEVEL_01 # LOCKED # nbconvert 6.4.4 has requirement mistune<2,>=0.8.1 # The fastest markdown parser in pure Python
 #
@@ -134,7 +134,7 @@ smmap==5.0.0 # LEVEL_01 # A pure Python implementation of a sliding window memor
 pyparsing==3.0.7 # LEVEL_01 # Python parsing module
 #
 black==22.1.0 # LEVEL_02 # The uncompromising code formatter
-pytype==2022.3.8 # LEVEL_04 # Python type inferencer
+pytype==2022.3.8 # LEVEL_04 # ONLY_OSX # Python type inferencer
 
 #
 # Internal .. needed early by this system
@@ -200,7 +200,7 @@ tensorflow-addons==0.16.1 # LEVEL_02 # TensorFlow Addons
 tensorflow-hub==0.12.0 # LEVEL_02 # TensorFlow Hub is a library to foster the publication, discovery, and consumption of reusable parts of machine learning models
 tensorflow-io-gcs-filesystem==0.24.0 # LEVEL_01 # TensorFlow IO
 #
-tf-models-official==2.7.1 # LEVEL_08 # TensorFlow Official Models
+tf-models-official==2.7.1 # LEVEL_08 # ONLY_OSX # TensorFlow Official Models
 tf-slim==1.1.0 # LEVEL_03 # TensorFlow-Slim: A lightweight library for defining, training and evaluating complex models in TensorFlow
 #
 tensorboardX==2.5 # LEVEL_02 # TensorBoardX lets you watch Tensors Flow without Tensorflow
@@ -266,7 +266,7 @@ rapidminer==9.10.0.0 # LEVEL_05 # Tools for running RapidMiner processes and man
 pmdarima==1.8.5 # LEVEL_05 # Python's forecast::auto.arima equivalent
 #darts>=0.9.1  # time series predictions (behind on requirements)
 #tsai>=0.2.18  # time series and sequences, triggers huge number of dependencies !
-prophet==1.0.1 # LEVEL_05 # time series forecasts from Facebook # Automatic Forecasting Procedure
+prophet==1.0.1 # LEVEL_05 # ONLY_OSX # time series forecasts from Facebook # Automatic Forecasting Procedure
 stumpy==1.10.2 # LEVEL_03 # A powerful and scalable library that can be used for a variety of time series data mining tasks
 Cython==0.29.28 # LEVEL_01 # pystan: cython!=0.25.1,>=0.22 # The Cython compiler for writing C extensions for the Python language
 
@@ -310,7 +310,7 @@ spacy-legacy==3.0.9 # LEVEL_01 # Legacy registered functions for spaCy backwards
 # spacy-transformers  # downgrades transformers !!
 thinc==8.0.15 # LEVEL_03 # A refreshing functional take on deep learning, compatible with your favorite libraries
 #
-wordcloud==1.8.1 # LEVEL_04 # A little word cloud generator
+wordcloud==1.8.1 # LEVEL_04 # ONLY_OSX # A little word cloud generator
 #
 snowballstemmer==2.2.0 # LEVEL_01 # This package provides 29 stemmers for 28 languages generated from Snowball algorithms
 #
@@ -704,7 +704,7 @@ multimethod==1.7 # LEVEL_01 # Multiple argument dispatching
 
 aiodns==3.0.0 # LEVEL_04 # Simple DNS resolver for asyncio
 aiohttp-socks==0.7.1 # LEVEL_04 # Proxy connector for aiohttp
-pycocotools==2.0.4 # LEVEL_04 # Official APIs for the MS-COCO dataset
+pycocotools==2.0.4 # LEVEL_04 # ONLY_OSX # Official APIs for the MS-COCO dataset
 #
 aenum==3.1.8 # LEVEL_01 # Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
 aiohttp==3.8.1 # LEVEL_03 # Async http client/server framework (asyncio)

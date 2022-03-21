@@ -108,8 +108,11 @@ conda_env_export() {
         -e "- pybullet=" \
         -e "- netifaces=" \
         -e "- zstd=" \
-        -e "- pystan=" \
+        -e "- pystan=" -e "- cmdstanpy=" \
         -e "- cytools=" \
+        -e "- pytype=" \
+        -e "- wordcloud=" \
+        -e "- pycocotools=" \
         \
         -e "- libcxx=" \
         -e "- krb5=" \
