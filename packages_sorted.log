@@ -1,4 +1,5 @@
 aenum
+affinegap
 alabaster
 altgraph
 ansi2html
@@ -63,6 +64,7 @@ dill
 dlpack
 dnspython
 docutils
+doublemetaphone
 einops
 emoji
 entrypoints
@@ -96,6 +98,7 @@ graphviz
 greenlet
 gym-notices
 h11
+haversine
 heapdict
 hijri-converter
 hiredis
@@ -111,6 +114,7 @@ intel-openmp
 ipython-genutils
 iso8601
 itsdangerous
+jdcal
 jeepney
 jmespath
 joblib
@@ -125,6 +129,7 @@ knot-floer-homology
 korean-lunar-calendar
 krb5
 langcodes
+levenshtein-search
 libclang
 llvmlite
 locket
@@ -174,6 +179,7 @@ pip
 platformdirs
 plink
 pluggy
+plumbum
 ply
 portalocker
 prometheus-client
@@ -301,6 +307,7 @@ werkzeug
 wheel
 wireless
 wrapt
+xlrd
 xlsxwriter
 xxhash
 zipp
@@ -320,6 +327,7 @@ biopython
 black
 blessings
 blis
+categorical-distance
 cattrs
 cffi
 cftime
@@ -330,6 +338,7 @@ colormath
 convertdate
 cypari
 cytoolz
+dedupe-hcluster
 deprecated
 django
 dm-tree
@@ -337,6 +346,7 @@ docker-pycreds
 elastic-transport
 email-validator
 eventkit
+fastcluster
 fire
 flake8
 geopy
@@ -392,6 +402,7 @@ opt-einsum
 oscrypto
 outcome
 packaging
+pandoc
 params-flow
 parsedatetime
 partd
@@ -412,6 +423,7 @@ pydantic
 pydeps
 pydot
 pyee
+pylbfgs
 pyproj
 pyqt5
 pyqtgraph
@@ -434,6 +446,7 @@ sacrebleu
 sacremoses
 scipy
 sentry-sdk
+simplecosine
 slycot
 spacy-loggers
 sqlalchemy
@@ -488,6 +501,7 @@ dask
 databricks-cli
 datashape
 datetime
+datetime-distance
 deprecation
 django-cors-headers
 django-extensions
@@ -543,10 +557,12 @@ onnxconverter-common
 onnxoptimizer
 pandas
 pathy
+persistent
 pipx
 plaster-pastedeploy
 plotly
 pycares
+pyhacrf-datamade
 pyinstaller
 pynacl
 pyro-ppl
@@ -560,6 +576,7 @@ requests-file
 requests-oauthlib
 requests-toolbelt
 requests-unixsocket
+rlr
 rouge-score
 scikit-image
 scikit-learn
@@ -599,6 +616,7 @@ argon2-cffi
 authlib
 azure-eventhub
 boost
+btrees
 catboost
 celery
 chart-studio
@@ -628,6 +646,7 @@ google-api-core
 google-auth-httplib2
 google-auth-oauthlib
 gym-unity
+highered
 httpx
 iexfinance
 imbalanced-learn
@@ -727,6 +746,7 @@ spacytextblob
 tensorboard
 twint
 umap-learn
+zope.index
 bertviz
 dash-auth
 dash-bootstrap-components

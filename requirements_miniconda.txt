@@ -150,7 +150,6 @@ matplotlib==3.5.1 # LEVEL_03 # Python plotting package
 scipy==1.8.0 # LEVEL_02 # SciPy: Scientific Library for Python
 numba==0.55.1 # LEVEL_02 # compiling Python code using LLVM
 numexpr==2.8.1 # LEVEL_03 # Fast numerical expression evaluator for NumPy
-openpyxl==3.0.9 # LEVEL_02 # A Python library to read/write Excel 2010 xlsx/xlsm files
 toolz==0.11.2 # LEVEL_01 # List processing tools and functional utilities
 #
 #
@@ -161,8 +160,12 @@ pandas-datareader==0.10.0 # LEVEL_04 # Data readers extracted from the pandas co
 geopandas==0.10.2 # LEVEL_04 # ONLY_OSX # Geographic pandas extensions
 pandas==1.4.1 # LEVEL_03 # Powerful data structures for data analysis, time series, and statistics
 pandas-stubs==1.2.0.53 # LEVEL_01 # needed by openai # Type annotations for Pandas
+#
+# Excel
+#
+openpyxl==3.0.9 # LEVEL_02 # A Python library to read/write Excel 2010 xlsx/xlsm files
 XlsxWriter==3.0.3 # LEVEL_01 # needed for pandas XLSX # A Python module for creating Excel XLSX files
-
+xlrd==2.0.1 # LEVEL_01 # Library for developers to extract data from Microsoft Excel (tm) .xls spreadsheet files
 #
 # Super Collectors .. building on others
 #
@@ -771,7 +774,6 @@ netifaces==0.11.0 # LEVEL_01 # ONLY_OSX # Portable network interface information
 oauth2client==4.1.3 # LEVEL_03 # OAuth 2.0 client library
 oauthlib==3.2.0 # LEVEL_01 # A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
 opt-einsum==3.3.0 # LEVEL_02 # Optimizing numpys einsum function
-pandocfilters==1.5.0 # LEVEL_01 # Utilities for writing pandoc filters in python
 parso==0.8.3 # LEVEL_01 # A Python Parser
 partd==1.2.0 # LEVEL_02 # Appendable key-value storage
 pathy==0.6.1 # LEVEL_03 # pathlib.Path subclasses for local and cloud bucket storage
@@ -989,6 +991,8 @@ pyramid==2.0 # LEVEL_04 # The Pyramid Web Framework, a Pylons project
 translationstring==1.4 # LEVEL_01 # Utility library for i18n relied on by various Repoze and Pyramid packages
 venusian==3.0.0 # LEVEL_01 # A library for deferring decorator actions
 WebOb==1.8.7 # LEVEL_01 # WSGI request and response object
+#
+zope.index==5.1.0 # LEVEL_05 # Indices for using with catalog like text, field, etc
 zope_deprecation==4.4.0 # LEVEL_02 # Zope Deprecation Infrastructure
 zope_interface==5.4.0 # LEVEL_02 # Interfaces for Python
 #
@@ -1121,3 +1125,32 @@ DateTime==4.4 # LEVEL_03 # This package provides a DateTime data type, as known 
 fastparquet==0.8.0 # LEVEL_04 # Python support for Parquet file format
 filterpy==1.4.5 # LEVEL_04 # Kalman filtering and optimal estimation library
 PuLP==2.6.0 # LEVEL_01 # PuLP is an LP modeler written in python. PuLP can generate MPS or LP files and call GLPK, COIN CLP/CBC, CPLEX, and GUROBI to solve linear problems
+#
+#
+Levenshtein-search==1.4.5 # LEVEL_01 # Search through documents for approximately matching strings
+PyLBFGS==0.2.0.14 # LEVEL_02 # LBFGS and OWL-QN optimization algorithms
+affinegap==1.12 # LEVEL_01 # A Cython implementation of the affine gap string distance
+BTrees==4.10.0 # LEVEL_04 # Scalable persistent object containers
+categorical-distance==1.9 # LEVEL_02 # Compare two categorical variables
+datetime-distance==0.1.3 # LEVEL_03 # Compare string distances between dates, timestamps, or datetime objects
+dedupe-hcluster==0.3.9 # LEVEL_02 # Hierarchical Clustering Algorithms (Information Theory)
+DoubleMetaphone==1.1 # LEVEL_01 # Python wrapper for C++ Double Metaphone
+fastcluster==1.2.6 # LEVEL_02 # Fast hierarchical clustering routines for R and Python
+haversine==2.5.1 # LEVEL_01 # Calculate the distance between 2 points on Earth
+highered==0.2.1 # LEVEL_04 # Learnable Edit Distance Using PyHacrf
+persistent==4.9.0 # LEVEL_03 # Translucent persistent objects
+#
+pyhacrf-datamade==0.2.6 # LEVEL_03 # Hidden alignment conditional random field, a discriminative string edit distance
+#
+rlr==2.4.6 # LEVEL_03 # Case weighted L2 regularized logistic regression
+simplecosine==1.2 # LEVEL_02 # Simple cosine distance
+#
+#
+jdcal==1.4.1 # LEVEL_01 # Julian dates from proleptic Gregorian and Julian calendars
+#pandas-dedupe==1.5.0 # LEVEL_01
+#
+pandoc==2.1 # LEVEL_02 # Pandoc Documents for Python
+pandocfilters==1.5.0 # LEVEL_01 # Utilities for writing pandoc filters in python
+#
+plumbum==1.7.2 # LEVEL_01 # Plumbum: shell combinators library
+#

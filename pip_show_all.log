@@ -18,6 +18,16 @@ License: BSD License
 Requires: 
 Required-by: pyanalyze
 ---
+Name: affinegap
+Version: 1.12
+Summary: A Cython implementation of the affine gap string distance
+Home-page: https://github.com/datamade/affinegap
+Author: 
+Author-email: 
+License: The MIT License: http://www.opensource.org/licenses/mit-license.php
+Requires: 
+Required-by: dedupe
+---
 Name: agate
 Version: 1.6.3
 Summary: A data analysis library that is optimized for humans instead of machines.
@@ -698,6 +708,16 @@ License: MIT
 Requires: cffi
 Required-by: 
 ---
+Name: BTrees
+Version: 4.10.0
+Summary: Scalable persistent object containers
+Home-page: https://github.com/zopefoundation/BTrees
+Author: Zope Foundation
+Author-email: zodb-dev@zope.org
+License: ZPL 2.1
+Requires: persistent zope.interface
+Required-by: dedupe zope.index
+---
 Name: cached-property
 Version: 1.5.2
 Summary: A decorator for caching properties in classes.
@@ -748,6 +768,16 @@ License: Apache License, Version 2.0
 Requires: graphviz matplotlib numpy pandas plotly scipy six
 Required-by: pycaret
 ---
+Name: categorical-distance
+Version: 1.9
+Summary: Compare two categorical variables
+Home-page: https://github.com/datamade/categorical-distance
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: The MIT License: http://www.opensource.org/licenses/mit-license.php
+Requires: numpy
+Required-by: dedupe
+---
 Name: cattrs
 Version: 1.10.0
 Summary: Composable complex class support for attrs and dataclasses.
@@ -796,7 +826,7 @@ Author: Armin Rigo, Maciej Fijalkowski
 Author-email: python-cffi@googlegroups.com
 License: MIT
 Requires: pycparser
-Required-by: PyNaCl argon2-cffi-bindings bcrypt brotlipy cryptography pycares
+Required-by: PyNaCl argon2-cffi-bindings bcrypt brotlipy cryptography persistent pycares
 ---
 Name: cftime
 Version: 1.6.0
@@ -1368,6 +1398,16 @@ License: ZPL 2.1
 Requires: pytz zope.interface
 Required-by: 
 ---
+Name: datetime-distance
+Version: 0.1.3
+Summary: Compare string distances between dates, timestamps, or datetime objects.
+Home-page: https://github.com/dedupeio/datetime-distance
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: The MIT License: http://www.opensource.org/licenses/mit-license.php
+Requires: future python-dateutil
+Required-by: dedupe-variable-datetime
+---
 Name: dbt-extractor
 Version: 0.4.1
 Summary: A tool to analyze and extract information from Jinja used in dbt projects.
@@ -1397,6 +1437,36 @@ Author-email: michele.simionato@gmail.com
 License: new BSD License
 Requires: 
 Required-by: Mastodon.py ipython validators
+---
+Name: dedupe
+Version: 2.0.13
+Summary: A python library for accurate and scaleable data deduplication and entity-resolution
+Home-page: https://github.com/dedupeio/dedupe
+Author: Forest Gregg
+Author-email: fgregg@datamade.us
+License: UNKNOWN
+Requires: BTrees Levenshtein-search affinegap categorical-distance dedupe-hcluster dedupe-variable-datetime doublemetaphone fastcluster haversine highered numpy rlr simplecosine typing-extensions zope.index
+Required-by: dedupe-variable-datetime pandas-dedupe
+---
+Name: dedupe-hcluster
+Version: 0.3.9
+Summary: Hierarchical Clustering Algorithms (Information Theory)
+Home-page: https://github.com/datamade/hcluster
+Author: 
+Author-email: 
+License: SciPy License (BSD Style)
+Requires: numpy
+Required-by: dedupe
+---
+Name: dedupe-variable-datetime
+Version: 0.1.5
+Summary: DateTime variable type for dedupe
+Home-page: https://github.com/datamade/dedupe-variable-datetime
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: The MIT License: http://www.opensource.org/licenses/mit-license.php
+Requires: datetime-distance dedupe future
+Required-by: dedupe
 ---
 Name: defusedxml
 Version: 0.7.1
@@ -1588,6 +1658,16 @@ License: public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt)
 Requires: 
 Required-by: Kivy Kivy-examples Sphinx nbsphinx pydata-sphinx-theme python-daemon recommonmark sphinx-panels sphinx-rtd-theme
 ---
+Name: DoubleMetaphone
+Version: 1.1
+Summary: Python wrapper for C++ Double Metaphone
+Home-page: UNKNOWN
+Author: Forest Gregg
+Author-email: fgregg@gmail.com
+License: UNKNOWN
+Requires: 
+Required-by: dedupe
+---
 Name: ecos
 Version: 2.0.10
 Summary: This is the Python package for ECOS: Embedded Cone Solver. See Github page for more information.
@@ -1777,6 +1857,16 @@ Author-email: miki.tebeka@gmail.com
 License: MIT
 Requires: 
 Required-by: 
+---
+Name: fastcluster
+Version: 1.2.6
+Summary: Fast hierarchical clustering routines for R and Python.
+Home-page: http://danifold.net
+Author: Daniel Müllner
+Author-email: daniel@danifold.net
+License: BSD <http://opensource.org/licenses/BSD-2-Clause>
+Requires: numpy
+Required-by: dedupe
 ---
 Name: fastcore
 Version: 1.3.29
@@ -2056,7 +2146,7 @@ Author: Ed Schofield
 Author-email: ed@pythoncharmers.com
 License: MIT
 Requires: 
-Required-by: cypari h2o parsedatetime pyLDAvis pytorch-lightning
+Required-by: cypari datetime-distance dedupe-variable-datetime h2o parsedatetime pyLDAvis pytorch-lightning
 ---
 Name: FXrays
 Version: 1.3.5
@@ -2448,6 +2538,16 @@ License: BSD
 Requires: numpy
 Required-by: rapidminer tensorflow
 ---
+Name: haversine
+Version: 2.5.1
+Summary: Calculate the distance between 2 points on Earth.
+Home-page: https://github.com/mapado/haversine
+Author: Balthazar Rouberol
+Author-email: 
+License: MIT
+Requires: 
+Required-by: dedupe
+---
 Name: HeapDict
 Version: 1.0.1
 Summary: a heap with decrease-key and increase-key operations
@@ -2457,6 +2557,16 @@ Author-email: daniel@stutzbachenterprises.com
 License: BSD
 Requires: 
 Required-by: zict
+---
+Name: highered
+Version: 0.2.1
+Summary: Learnable Edit Distance Using PyHacrf
+Home-page: https://github.com/datamade/highered
+Author: Forest Gregg
+Author-email: fgregg@gmail.com
+License: The MIT License: http://www.opensource.org/licenses/mit-license.php
+Requires: numpy pyhacrf-datamade
+Required-by: dedupe
 ---
 Name: hijri-converter
 Version: 2.2.3
@@ -2826,6 +2936,16 @@ Author: JAX team
 Author-email: jax-dev@google.com
 License: Apache-2.0
 Requires: absl-py numpy opt-einsum scipy typing-extensions
+Required-by: 
+---
+Name: jdcal
+Version: 1.4.1
+Summary: Julian dates from proleptic Gregorian and Julian calendars.
+Home-page: https://github.com/phn/jdcal
+Author: Prasanth Nair
+Author-email: prasanthhn@gmail.com
+License: BSD
+Requires: 
 Required-by: 
 ---
 Name: jedi
@@ -3227,6 +3347,16 @@ Author-email: chrisgroskopf@gmail.com
 License: MIT
 Requires: six
 Required-by: agate
+---
+Name: Levenshtein-search
+Version: 1.4.5
+Summary: Search through documents for approximately matching strings
+Home-page: https://github.com/mattandahalfew/Levenshtein_search
+Author: Matt Anderson
+Author-email: manderson3606@gmail.com
+License: UNKNOWN
+Requires: 
+Required-by: dedupe
 ---
 Name: libclang
 Version: 13.0.0
@@ -3976,7 +4106,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: ImageHash Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost cftime cmdstanpy colormath control cufflinks cvxpy dask-ml datasets datashader datashape do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastparquet filterpy finta gensim gradio gym h5py holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy sclblpy scs seaborn seqeval slycot spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: ImageHash Keras-Preprocessing PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance cftime cmdstanpy colormath control cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet filterpy finta gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rlr rouge-score sacrebleu scikit-image scikit-learn scipy sclblpy scs seaborn seqeval simplecosine slycot spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -4246,7 +4376,7 @@ Author: The Pandas Development Team
 Author-email: pandas-dev@python.org
 License: BSD-3-Clause
 Requires: numpy python-dateutil pytz
-Required-by: altair catboost cmdstanpy cufflinks dask-ml datasets datashader empyrical exchange-calendars fastai fastparquet finta geopandas gradio holoviews iexfinance jqdatasdk mlflow mlxtend mplfinance nilearn openai pandas-datareader pandas-finance pandas-market-calendars pandas-profiling phik pmdarima prophet py-vollib pyLDAvis pycaret pyfolio pyportfolioopt rapidminer seaborn stable-baselines3 statsmodels stockstats tf-models-official trading-calendars twint visions wrds xarray yfinance
+Required-by: altair catboost cmdstanpy cufflinks dask-ml datasets datashader empyrical exchange-calendars fastai fastparquet finta geopandas gradio holoviews iexfinance jqdatasdk mlflow mlxtend mplfinance nilearn openai pandas-datareader pandas-dedupe pandas-finance pandas-market-calendars pandas-profiling phik pmdarima prophet py-vollib pyLDAvis pycaret pyfolio pyportfolioopt rapidminer seaborn stable-baselines3 statsmodels stockstats tf-models-official trading-calendars twint visions wrds xarray yfinance
 ---
 Name: pandas-datareader
 Version: 0.10.0
@@ -4257,6 +4387,16 @@ Author-email: pydata@googlegroups.com
 License: BSD License
 Requires: lxml pandas requests
 Required-by: empyrical pandas-finance
+---
+Name: pandas-dedupe
+Version: 1.5.0
+Summary: The Dedupe library made easy with Pandas.
+Home-page: https://github.com/Lyonk71/pandas-dedupe
+Author: Keith Lyons
+Author-email: lyonk71@gmail.com
+License: MIT
+Requires: dedupe pandas unidecode
+Required-by: 
 ---
 Name: pandas-finance
 Version: 0.1.2
@@ -4297,6 +4437,16 @@ Author-email: zkrolikowski@virtuslab.com
 License: MIT
 Requires: 
 Required-by: openai
+---
+Name: pandoc
+Version: 2.1
+Summary: Pandoc Documents for Python
+Home-page: UNKNOWN
+Author: Sébastien Boisgérault
+Author-email: Sebastien.Boisgerault@mines-paristech.fr
+License: MIT License
+Requires: plumbum ply
+Required-by: 
 ---
 Name: pandocfilters
 Version: 1.5.0
@@ -4448,6 +4598,16 @@ License: BSD
 Requires: 
 Required-by: 
 ---
+Name: persistent
+Version: 4.9.0
+Summary: Translucent persistent objects
+Home-page: https://github.com/zopefoundation/persistent/
+Author: Zope Foundation and Contributors
+Author-email: zodb-dev@zope.org
+License: ZPL 2.1
+Requires: cffi zope.interface
+Required-by: BTrees zope.index
+---
 Name: pexpect
 Version: 4.8.0
 Summary: Pexpect allows easy control of interactive console applications.
@@ -4578,6 +4738,16 @@ License: MIT
 Requires: 
 Required-by: pytest
 ---
+Name: plumbum
+Version: 1.7.2
+Summary: Plumbum: shell combinators library
+Home-page: https://plumbum.readthedocs.io
+Author: Tomer Filiba
+Author-email: tomerfiliba@gmail.com
+License: MIT
+Requires: 
+Required-by: pandoc
+---
 Name: ply
 Version: 3.11
 Summary: Python Lex & Yacc
@@ -4586,7 +4756,7 @@ Author: David Beazley
 Author-email: dave@dabeaz.com
 License: BSD
 Requires: 
-Required-by: thriftpy2
+Required-by: pandoc thriftpy2
 ---
 Name: pmdarima
 Version: 1.8.5
@@ -5068,6 +5238,16 @@ License: BSD License
 Requires: 
 Required-by: Kivy Kivy-examples Sphinx asynq ipython jupyter-console jupyterlab-pygments nbconvert qtconsole rich
 ---
+Name: pyhacrf-datamade
+Version: 0.2.6
+Summary: Hidden alignment conditional random field, a discriminative string edit distance
+Home-page: https://github.com/datamade/pyhacrf
+Author: Dirko Coetsee
+Author-email: dpcoetsee@gmail.com
+License: UNKNOWN
+Requires: PyLBFGS numpy
+Required-by: highered
+---
 Name: pyinstaller
 Version: 4.10
 Summary: PyInstaller bundles a Python application and all its dependencies into a single package.
@@ -5097,6 +5277,16 @@ Author-email: hello@jpadilla.com
 License: MIT
 Requires: 
 Required-by: PyGithub
+---
+Name: PyLBFGS
+Version: 0.2.0.14
+Summary: LBFGS and OWL-QN optimization algorithms
+Home-page: https://github.com/dedupeio/pylbfgs
+Author: Lars Buitinck, Forest Gregg
+Author-email: fgregg@gmail.com
+License: UNKNOWN
+Requires: numpy
+Required-by: pyhacrf-datamade rlr
 ---
 Name: pyLDAvis
 Version: 3.2.2
@@ -5406,7 +5596,7 @@ Author: Gustavo Niemeyer
 Author-email: gustavo@niemeyer.net
 License: Dual License
 Requires: six
-Required-by: LunarCalendar Mastodon.py analytics-python arrow botocore croniter datashape exchange-calendars google-cloud-bigquery holidays int-date intrinio-sdk jupyter-client kaggle luigi matplotlib pandas pandas-market-calendars prophet tda-api trading-calendars wandb
+Required-by: LunarCalendar Mastodon.py analytics-python arrow botocore croniter datashape datetime-distance exchange-calendars google-cloud-bigquery holidays int-date intrinio-sdk jupyter-client kaggle luigi matplotlib pandas pandas-market-calendars prophet tda-api trading-calendars wandb
 ---
 Name: python-dotenv
 Version: 0.19.2
@@ -5778,6 +5968,16 @@ License: MIT
 Requires: commonmark pygments
 Required-by: 
 ---
+Name: rlr
+Version: 2.4.6
+Summary: Case weighted L2 regularized logistic regression
+Home-page: https://github.com/dedupeio/rlr
+Author: 
+Author-email: 
+License: Apache 2.0 License: https://www.apache.org/licenses/LICENSE-2.0
+Requires: numpy pylbfgs
+Required-by: dedupe
+---
 Name: robin-stocks
 Version: 2.1.0
 Summary: A Python wrapper around the Robinhood API
@@ -6026,7 +6226,7 @@ Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy celery cufflinks gunicorn ipython jupyter-packaging mlxtend nibabel numba plaster pmdarima pyinstaller pyramid python-daemon pytorch-lightning rapids setuptools-scm spacy streamz tensorboard thinc zope.deprecation zope.interface
+Required-by: Fiona PasteDeploy celery cufflinks gunicorn ipython jupyter-packaging mlxtend nibabel numba plaster pmdarima pyinstaller pyramid python-daemon pytorch-lightning rapids setuptools-scm spacy streamz tensorboard thinc zope.deprecation zope.index zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -6088,6 +6288,16 @@ License: BSD 3-Clause
 Requires: 
 Required-by: jupyter-server-proxy
 ---
+Name: simplecosine
+Version: 1.2
+Summary: Simple cosine distance
+Home-page: https://github.com/datamade/simplecosine
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: The MIT License: http://www.opensource.org/licenses/mit-license.php
+Requires: numpy
+Required-by: dedupe
+---
 Name: simplejson
 Version: 3.17.6
 Summary: Simple, fast, extensible JSON encoder/decoder for Python
@@ -6106,7 +6316,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli dm-tree docker-pycreds fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client paramiko patsy plotly promise pyod python-dateutil python-multipart querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorboardX tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb
+Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli dm-tree docker-pycreds fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client paramiko patsy plotly promise pyod python-dateutil python-multipart querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorboardX tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb zope.index
 ---
 Name: sklearn
 Version: 0.0
@@ -7086,7 +7296,7 @@ Author:
 Author-email: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 License: 
 Requires: 
-Required-by: aioredis azure-core black bokeh huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pyee pytorch-lightning tensorflow torch typing-inspect
+Required-by: aioredis azure-core black bokeh dedupe huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pyee pytorch-lightning tensorflow torch typing-inspect
 ---
 Name: typing-inspect
 Version: 0.7.1
@@ -7176,7 +7386,7 @@ Author: Tomaz Solc
 Author-email: tomaz.solc@tablix.org
 License: GPL
 Requires: 
-Required-by: 
+Required-by: pandas-dedupe
 ---
 Name: uritemplate
 Version: 4.1.1
@@ -7468,6 +7678,16 @@ License: Apache-2.0
 Requires: numpy scipy
 Required-by: pycaret
 ---
+Name: xlrd
+Version: 2.0.1
+Summary: Library for developers to extract data from Microsoft Excel (tm) .xls spreadsheet files
+Home-page: http://www.python-excel.org/
+Author: Chris Withers
+Author-email: chris@withers.org
+License: BSD
+Requires: 
+Required-by: 
+---
 Name: XlsxWriter
 Version: 3.0.3
 Summary: A Python module for creating Excel XLSX files.
@@ -7588,6 +7808,16 @@ License: ZPL 2.1
 Requires: setuptools
 Required-by: pyramid
 ---
+Name: zope.index
+Version: 5.1.0
+Summary: Indices for using with catalog like text, field, etc.
+Home-page: https://github.com/zopefoundation/zope.index
+Author: Zope Foundation and Contributors
+Author-email: zope-dev@zope.org
+License: ZPL 2.1
+Requires: BTrees persistent setuptools six zope.interface
+Required-by: dedupe
+---
 Name: zope.interface
 Version: 5.4.0
 Summary: Interfaces for Python
@@ -7596,7 +7826,7 @@ Author: Zope Foundation and Contributors
 Author-email: zope-dev@zope.org
 License: ZPL 2.1
 Requires: setuptools
-Required-by: DateTime pyramid rapids
+Required-by: BTrees DateTime persistent pyramid rapids zope.index
 ---
 Name: zstd
 Version: 1.5.1.0
