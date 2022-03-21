@@ -1,0 +1,5 @@
+tensorflow-text==2.7.3 # LEVEL_07 # TF.Text is a TensorFlow library of text related ops, modules, and subgraphs
+jupyter-server-proxy==3.2.1 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
+jupyterlab-server==2.11.2 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
+widgetsnbextension==3.6.0 # LEVEL_07 # IPython HTML widgets for Jupyter
+notebook-shim==0.1.0 # LEVEL_07 # A shim layer for notebook traits and config
