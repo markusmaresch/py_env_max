@@ -47,7 +47,7 @@ graphviz==0.19.1 # LEVEL_01 # ONLY_OSX # needed for dependecy graphing .. missin
 #
 gast==0.4.0 # LEVEL_01 # LOCKED # tensorflow 2.7.0 <0.5.0 # Python AST that abstracts the underlying Python version
 #
-pystan==2.19.1.1 # LEVEL_02 # LOCKED # POST_INSTALL_00 # prophet 1.0.1 has requirement pystan~=2.19.1.1 # Python interface to Stan, a package for Bayesian inference
+pystan==2.19.1.1 # LEVEL_02 # LOCKED # POST_INSTALL_00 # ONLY_OSX # prophet 1.0.1 has requirement pystan~=2.19.1.1 # Python interface to Stan, a package for Bayesian inference
 cmdstanpy==0.9.68 # LEVEL_04 # LOCKED # prophet==1.0.1 requires cmdstanpy==0.9.68 # Python interface to CmdStan
 #
 Box2D==2.3.2 # LEVEL_01 # LOCKED # ONLY_OSX # more recent versions, like 2.3.10 do not work # Python Box2D
@@ -81,8 +81,6 @@ pyLDAvis==3.2.2 # LEVEL_04 # LOCKED # pycaret ? # Interactive topic model visual
 pycaret==2.2.2 # LEVEL_10 # LOCKED # old dependencies # PyCaret - An open source, low-code machine learning library in Python
 #
 mistune==0.8.4 # LEVEL_01 # LOCKED # nbconvert 6.4.4 has requirement mistune<2,>=0.8.1 # The fastest markdown parser in pure Python
-#
-pybullet==3.2.0 # LEVEL_01 # LOCKED # can't update ? # Official Python Interface for the Bullet Physics SDK specialized for Robotics Simulation and Reinforcement Learning
 #
 backoff==1.10.0 # LEVEL_01 # LOCKED # analytics-python 1.4.0 has requirement backoff==1.10.0 # Function decoration for backoff and retry
 #
@@ -162,7 +160,7 @@ toolz==0.11.2 # LEVEL_01 # List processing tools and functional utilities
 #
 pandas-profiling==3.1.0 # LEVEL_06 # Generate profile report for pandas DataFrame
 pandas-datareader==0.10.0 # LEVEL_04 # Data readers extracted from the pandas codebase,should be compatible with recent pandas versions
-geopandas==0.10.2 # LEVEL_04 # Geographic pandas extensions
+geopandas==0.10.2 # LEVEL_04 # ONLY_OSX # Geographic pandas extensions
 pandas==1.4.1 # LEVEL_03 # Powerful data structures for data analysis, time series, and statistics
 pandas-stubs==1.2.0.53 # LEVEL_01 # needed by openai # Type annotations for Pandas
 XlsxWriter==3.0.3 # LEVEL_01 # needed for pandas XLSX # A Python module for creating Excel XLSX files
@@ -172,6 +170,7 @@ XlsxWriter==3.0.3 # LEVEL_01 # needed for pandas XLSX # A Python module for crea
 #
 elegantrl==0.3.3 # LEVEL_04 # ONLY_OSX # Lightweight, Efficient and Stable DRL Implementation Using PyTorch
 box2d-py==2.3.8 # LEVEL_01 # ONLY_OSX # Python Box2D
+pybullet==3.2.0 # LEVEL_01 # LOCKED # ONLY_OSX # can't update ? # Official Python Interface for the Bullet Physics SDK specialized for Robotics Simulation and Reinforcement Learning
 #
 #finrl==0.3.1 # LEVEL_05 # may cause all sorts of issues
 #ccxt==1.58.26 # LEVEL_01
@@ -772,7 +771,7 @@ multiprocess==0.70.12.2 # LEVEL_02 # better multiprocessing and multithreading i
 multitasking==0.0.10 # LEVEL_01 # Non-blocking Python methods using decorators
 murmurhash==1.0.6 # LEVEL_01 # Cython bindings for MurmurHash
 nest-asyncio==1.5.4 # LEVEL_01 # Patch asyncio to allow nested event loops
-netifaces==0.11.0 # LEVEL_01 # Portable network interface information
+netifaces==0.11.0 # LEVEL_01 # ONLY_OSX # Portable network interface information
 oauth2client==4.1.3 # LEVEL_03 # OAuth 2.0 client library
 oauthlib==3.2.0 # LEVEL_01 # A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
 opt-einsum==3.3.0 # LEVEL_02 # Optimizing numpys einsum function
@@ -885,7 +884,7 @@ click==8.0.4 # LEVEL_01 # Composable command line interface toolkit
 #streamlit # has some dependencies !!
 tiledb==0.13.1 # LEVEL_03 # Pythonic interface to the TileDB array storage manager
 xarray==2022.3.0 # LEVEL_04 # N-D labeled arrays and datasets in Python
-zstd==1.5.1.0 # LEVEL_01 # ZSTD Bindings for Python
+zstd==1.5.1.0 # LEVEL_01 # ONLY_OSX # ZSTD Bindings for Python
 #
 async-generator==1.10 # LEVEL_01 # Async generators and context managers for Python 3.5+
 iniconfig==1.1.1 # LEVEL_01 # iniconfig: brain-dead simple config-ini parsing
@@ -935,7 +934,7 @@ pyct==0.4.8 # LEVEL_02 # Python package common tasks for users (e.g. copy exampl
 #
 conllu==4.4.1 # LEVEL_01 # CoNLL-U Parser parses a CoNLL-U formatted string into a nested python dictionary
 #
-cytoolz==0.11.2 # LEVEL_02 # Cython implementation of Toolz: High performance functional utilities
+cytoolz==0.11.2 # LEVEL_02 # ONLY_OSX # Cython implementation of Toolz: High performance functional utilities
 #
 pathspec==0.9.0 # LEVEL_01 # Utility library for gitignore style pattern matching of file paths
 #
@@ -948,7 +947,7 @@ faiss-cpu==1.7.2 # LEVEL_01 # A library for efficient similarity search and clus
 #
 fastavro==1.4.10 # LEVEL_01 # Fast read/write of AVRO files
 #
-Fiona==1.8.21 # LEVEL_03 # Fiona reads and writes spatial data files
+Fiona==1.8.21 # LEVEL_03 # ONLY_OSX # Fiona reads and writes spatial data files
 munch==2.5.0 # LEVEL_02 # A dot-accessible dictionary (a la JavaScript objects)
 #
 fire==0.4.0 # LEVEL_02 # A library for automatically generating command line interfaces
@@ -1109,5 +1108,5 @@ uc-micro-py==1.0.1 # LEVEL_01 # Micro subset of unicode data files for linkify-i
 #
 # do-mpc
 #
-casadi==3.5.5.post2 # LEVEL_01 # CasADi -- framework for algorithmic differentiation and numeric optimization
+casadi==3.5.5 # LEVEL_01 # CasADi -- framework for algorithmic differentiation and numeric optimization
 do-mpc==4.3.3 # LEVEL_04

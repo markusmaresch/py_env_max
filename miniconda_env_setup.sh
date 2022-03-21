@@ -90,8 +90,47 @@ pip_check_exit() {
 conda_env_export() {
   yml=${py_env_name}.yml
   yml2=${py_env_name}_linux.yml
+  yml_windows=${py_env_name}_windows.yml
   echo "Exporting ${yml}"
   conda env export --no-builds > ${yml}
+
+  if [ 1 -eq 1 ]; then
+    echo "Formatting for Windows"
+    cat $yml | \
+      grep -v \
+        -e "- libffi=" \
+        -e "- ncurses=" \
+        -e "- readline=" \
+        \
+        -e "- geopandas=" \
+        -e "- fiona=" \
+        -e "- gensim=" \
+        -e "- pybullet=" \
+        -e "- netifaces=" \
+        -e "- zstd=" \
+        -e "- pystan=" \
+        -e "- cytools=" \
+        \
+        -e "- libcxx=" \
+        -e "- krb5=" \
+        -e "- ta-lib=" \
+        -e "- python-graphviz=" \
+        -e "- graphviz=" \
+        \
+        -e "- tbb==" \
+        \
+        -e "- pyodbc==" \
+        \
+        -e "- elegantrl==" \
+        -e "- box2d=" \
+        -e "- box2d-py=" \
+        \
+        > $yml_windows
+
+    ls -al $yml $yml_windows
+    diff $yml $yml_windows
+
+  fi
 
   if [ 1 -eq 1 ]; then
     echo "Formatting for Linux"
