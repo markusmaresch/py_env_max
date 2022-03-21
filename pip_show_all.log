@@ -26,7 +26,7 @@ Author:
 Author-email: 
 License: The MIT License: http://www.opensource.org/licenses/mit-license.php
 Requires: 
-Required-by: 
+Required-by: dedupe
 ---
 Name: agate
 Version: 1.6.3
@@ -716,7 +716,7 @@ Author: Zope Foundation
 Author-email: zodb-dev@zope.org
 License: ZPL 2.1
 Requires: persistent zope.interface
-Required-by: zope.index
+Required-by: dedupe zope.index
 ---
 Name: cached-property
 Version: 1.5.2
@@ -776,7 +776,7 @@ Author: UNKNOWN
 Author-email: UNKNOWN
 License: The MIT License: http://www.opensource.org/licenses/mit-license.php
 Requires: numpy
-Required-by: 
+Required-by: dedupe
 ---
 Name: cattrs
 Version: 1.10.0
@@ -1406,7 +1406,7 @@ Author: UNKNOWN
 Author-email: UNKNOWN
 License: The MIT License: http://www.opensource.org/licenses/mit-license.php
 Requires: future python-dateutil
-Required-by: 
+Required-by: dedupe-variable-datetime
 ---
 Name: dbt-extractor
 Version: 0.4.1
@@ -1438,6 +1438,16 @@ License: new BSD License
 Requires: 
 Required-by: Mastodon.py ipython validators
 ---
+Name: dedupe
+Version: 2.0.13
+Summary: A python library for accurate and scaleable data deduplication and entity-resolution
+Home-page: https://github.com/dedupeio/dedupe
+Author: Forest Gregg
+Author-email: fgregg@datamade.us
+License: UNKNOWN
+Requires: BTrees Levenshtein-search affinegap categorical-distance dedupe-hcluster dedupe-variable-datetime doublemetaphone fastcluster haversine highered numpy rlr simplecosine typing-extensions zope.index
+Required-by: dedupe-variable-datetime pandas-dedupe
+---
 Name: dedupe-hcluster
 Version: 0.3.9
 Summary: Hierarchical Clustering Algorithms (Information Theory)
@@ -1446,7 +1456,17 @@ Author:
 Author-email: 
 License: SciPy License (BSD Style)
 Requires: numpy
-Required-by: 
+Required-by: dedupe
+---
+Name: dedupe-variable-datetime
+Version: 0.1.5
+Summary: DateTime variable type for dedupe
+Home-page: https://github.com/datamade/dedupe-variable-datetime
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: The MIT License: http://www.opensource.org/licenses/mit-license.php
+Requires: datetime-distance dedupe future
+Required-by: dedupe
 ---
 Name: defusedxml
 Version: 0.7.1
@@ -1646,7 +1666,7 @@ Author: Forest Gregg
 Author-email: fgregg@gmail.com
 License: UNKNOWN
 Requires: 
-Required-by: 
+Required-by: dedupe
 ---
 Name: ecos
 Version: 2.0.10
@@ -1846,7 +1866,7 @@ Author: Daniel Müllner
 Author-email: daniel@danifold.net
 License: BSD <http://opensource.org/licenses/BSD-2-Clause>
 Requires: numpy
-Required-by: 
+Required-by: dedupe
 ---
 Name: fastcore
 Version: 1.3.29
@@ -2126,7 +2146,7 @@ Author: Ed Schofield
 Author-email: ed@pythoncharmers.com
 License: MIT
 Requires: 
-Required-by: cypari datetime-distance h2o parsedatetime pyLDAvis pytorch-lightning
+Required-by: cypari datetime-distance dedupe-variable-datetime h2o parsedatetime pyLDAvis pytorch-lightning
 ---
 Name: FXrays
 Version: 1.3.5
@@ -2526,7 +2546,7 @@ Author: Balthazar Rouberol
 Author-email: 
 License: MIT
 Requires: 
-Required-by: 
+Required-by: dedupe
 ---
 Name: HeapDict
 Version: 1.0.1
@@ -2546,7 +2566,7 @@ Author: Forest Gregg
 Author-email: fgregg@gmail.com
 License: The MIT License: http://www.opensource.org/licenses/mit-license.php
 Requires: numpy pyhacrf-datamade
-Required-by: 
+Required-by: dedupe
 ---
 Name: hijri-converter
 Version: 2.2.3
@@ -3336,7 +3356,7 @@ Author: Matt Anderson
 Author-email: manderson3606@gmail.com
 License: UNKNOWN
 Requires: 
-Required-by: 
+Required-by: dedupe
 ---
 Name: libclang
 Version: 13.0.0
@@ -4086,7 +4106,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: ImageHash Keras-Preprocessing PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance cftime cmdstanpy colormath control cufflinks cvxpy dask-ml datasets datashader datashape dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet filterpy finta gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rlr rouge-score sacrebleu scikit-image scikit-learn scipy sclblpy scs seaborn seqeval simplecosine slycot spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: ImageHash Keras-Preprocessing PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance cftime cmdstanpy colormath control cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet filterpy finta gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rlr rouge-score sacrebleu scikit-image scikit-learn scipy sclblpy scs seaborn seqeval simplecosine slycot spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -4356,7 +4376,7 @@ Author: The Pandas Development Team
 Author-email: pandas-dev@python.org
 License: BSD-3-Clause
 Requires: numpy python-dateutil pytz
-Required-by: altair catboost cmdstanpy cufflinks dask-ml datasets datashader empyrical exchange-calendars fastai fastparquet finta geopandas gradio holoviews iexfinance jqdatasdk mlflow mlxtend mplfinance nilearn openai pandas-datareader pandas-finance pandas-market-calendars pandas-profiling phik pmdarima prophet py-vollib pyLDAvis pycaret pyfolio pyportfolioopt rapidminer seaborn stable-baselines3 statsmodels stockstats tf-models-official trading-calendars twint visions wrds xarray yfinance
+Required-by: altair catboost cmdstanpy cufflinks dask-ml datasets datashader empyrical exchange-calendars fastai fastparquet finta geopandas gradio holoviews iexfinance jqdatasdk mlflow mlxtend mplfinance nilearn openai pandas-datareader pandas-dedupe pandas-finance pandas-market-calendars pandas-profiling phik pmdarima prophet py-vollib pyLDAvis pycaret pyfolio pyportfolioopt rapidminer seaborn stable-baselines3 statsmodels stockstats tf-models-official trading-calendars twint visions wrds xarray yfinance
 ---
 Name: pandas-datareader
 Version: 0.10.0
@@ -4367,6 +4387,16 @@ Author-email: pydata@googlegroups.com
 License: BSD License
 Requires: lxml pandas requests
 Required-by: empyrical pandas-finance
+---
+Name: pandas-dedupe
+Version: 1.5.0
+Summary: The Dedupe library made easy with Pandas.
+Home-page: https://github.com/Lyonk71/pandas-dedupe
+Author: Keith Lyons
+Author-email: lyonk71@gmail.com
+License: MIT
+Requires: dedupe pandas unidecode
+Required-by: 
 ---
 Name: pandas-finance
 Version: 0.1.2
@@ -5946,7 +5976,7 @@ Author:
 Author-email: 
 License: Apache 2.0 License: https://www.apache.org/licenses/LICENSE-2.0
 Requires: numpy pylbfgs
-Required-by: 
+Required-by: dedupe
 ---
 Name: robin-stocks
 Version: 2.1.0
@@ -6266,7 +6296,7 @@ Author: UNKNOWN
 Author-email: UNKNOWN
 License: The MIT License: http://www.opensource.org/licenses/mit-license.php
 Requires: numpy
-Required-by: 
+Required-by: dedupe
 ---
 Name: simplejson
 Version: 3.17.6
@@ -7266,7 +7296,7 @@ Author:
 Author-email: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 License: 
 Requires: 
-Required-by: aioredis azure-core black bokeh huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pyee pytorch-lightning tensorflow torch typing-inspect
+Required-by: aioredis azure-core black bokeh dedupe huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pyee pytorch-lightning tensorflow torch typing-inspect
 ---
 Name: typing-inspect
 Version: 0.7.1
@@ -7356,7 +7386,7 @@ Author: Tomaz Solc
 Author-email: tomaz.solc@tablix.org
 License: GPL
 Requires: 
-Required-by: 
+Required-by: pandas-dedupe
 ---
 Name: uritemplate
 Version: 4.1.1
@@ -7786,7 +7816,7 @@ Author: Zope Foundation and Contributors
 Author-email: zope-dev@zope.org
 License: ZPL 2.1
 Requires: BTrees persistent setuptools six zope.interface
-Required-by: 
+Required-by: dedupe
 ---
 Name: zope.interface
 Version: 5.4.0
