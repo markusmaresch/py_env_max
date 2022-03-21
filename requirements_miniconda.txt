@@ -99,8 +99,6 @@ h11==0.12.0 # LEVEL_01 # LOCKED # httpcore 0.14.7 depends on h11<0.13 and >=0.11
 #
 starlette==0.17.1 # LEVEL_03 # LOCKED # fastapi 0.75.0 requires starlette==0.17.1 # The little ASGI library that shines
 #
-tbb==2021.5.0 # LEVEL_01 # LOCKED # ONLY_OSX # Intel® oneAPI Threading Building Blocks (oneTBB)
-#
 jmespath==0.10.0 # LEVEL_01 # LOCKED # boto* requires it # JSON Matching Expressions
 #
 mccabe==0.6.1 # LEVEL_01 # LOCKED # flake8 requires it # McCabe checker, plugin for flake8
@@ -357,8 +355,6 @@ Pillow==9.0.1 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
 ImageHash==4.2.1 # LEVEL_03 # Image Hashing library
 #
-openvino==2021.4.2 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org # Inference Engine Python* API
-#openvino-dev==2021.4.1 # LEVEL_99 # has issues !!! # Openvino Tools
 #
 # Finance
 #
@@ -1110,3 +1106,18 @@ uc-micro-py==1.0.1 # LEVEL_01 # Micro subset of unicode data files for linkify-i
 #
 casadi==3.5.5 # LEVEL_01 # CasADi -- framework for algorithmic differentiation and numeric optimization
 do-mpc==4.3.3 # LEVEL_04
+#
+
+mkl==2022.0.0 # LEVEL_02 # Intel® oneAPI Math Kernel Library
+openvino==2021.4.2 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org # Inference Engine Python* API
+#openvino-dev==2021.4.1 # LEVEL_99 # has issues !!! # Openvino Tools
+intel-openmp==2022.0.0 # LEVEL_01 # Intel® OpenMP* Runtime Library
+tbb==2021.5.0 # LEVEL_01 # LOCKED # ONLY_OSX # Intel® oneAPI Threading Building Blocks (oneTBB)
+#
+slycot==0.4.0.0 # LEVEL_02 # Slycot: a wrapper for the SLICOT control and systems library
+control==0.9.1 # LEVEL_04 # Python Control Systems Library
+cramjam==2.5.0 # LEVEL_01 # Thin Python bindings to de/compression algorithms in Rust
+DateTime==4.4 # LEVEL_03 # This package provides a DateTime data type, as known from Zope. Unless you need to communicate with Zope APIs, you're probably better off using Python's built-in datetime module
+fastparquet==0.8.0 # LEVEL_04 # Python support for Parquet file format
+filterpy==1.4.5 # LEVEL_04 # Kalman filtering and optimal estimation library
+PuLP==2.6.0 # LEVEL_01 # PuLP is an LP modeler written in python. PuLP can generate MPS or LP files and call GLPK, COIN CLP/CBC, CPLEX, and GUROBI to solve linear problems

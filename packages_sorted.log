@@ -46,6 +46,7 @@ configparser
 confluent-kafka
 conllu
 coverage
+cramjam
 cwcwidth
 cycler
 cymem
@@ -106,6 +107,7 @@ icu
 idna
 imagesize
 iniconfig
+intel-openmp
 ipython-genutils
 iso8601
 itsdangerous
@@ -179,6 +181,7 @@ protobuf
 psutil
 psycopg2-binary
 ptyprocess
+pulp
 pure-eval
 py
 py-cpuinfo
@@ -369,6 +372,7 @@ markdown-it-py
 mashumaro
 matplotlib-inline
 memory-profiler
+mkl
 multipledispatch
 multiprocess
 munch
@@ -430,6 +434,7 @@ sacrebleu
 sacremoses
 scipy
 sentry-sdk
+slycot
 spacy-loggers
 sqlalchemy
 srsly
@@ -482,6 +487,7 @@ curtsies
 dask
 databricks-cli
 datashape
+datetime
 deprecation
 django-cors-headers
 django-extensions
@@ -598,6 +604,7 @@ celery
 chart-studio
 cloudscraper
 cmdstanpy
+control
 dask-glm
 datasets
 distributed
@@ -606,6 +613,8 @@ elegantrl
 exchange-calendars
 fastapi
 fastdownload
+fastparquet
+filterpy
 finta
 flask-cachebuster
 flask-caching

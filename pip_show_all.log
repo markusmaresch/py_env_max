@@ -719,7 +719,7 @@ Requires:
 Required-by: google-auth
 ---
 Name: casadi
-Version: 3.5.5.post2
+Version: 3.5.5
 Summary: CasADi -- framework for algorithmic differentiation and numeric optimization
 Home-page: http://casadi.org
 Author: Joel Andersson, Joris Gillis, Greg Horn
@@ -1038,6 +1038,16 @@ License: UNKNOWN
 Requires: 
 Required-by: 
 ---
+Name: control
+Version: 0.9.1
+Summary: Python Control Systems Library
+Home-page: http://python-control.org
+Author: Python Control Developers
+Author-email: python-control-developers@lists.sourceforge.net
+License: UNKNOWN
+Requires: matplotlib numpy scipy
+Required-by: 
+---
 Name: convertdate
 Version: 2.4.0
 Summary: Converts between Gregorian dates and other calendar systems
@@ -1057,6 +1067,16 @@ Author-email: ned@nedbatchelder.com
 License: Apache 2.0
 Requires: 
 Required-by: 
+---
+Name: cramjam
+Version: 2.5.0
+Summary: Thin Python bindings to de/compression algorithms in Rust
+Home-page: 
+Author: Miles Granger <miles59923@gmail.com>
+Author-email: Miles Granger <miles59923@gmail.com>
+License: MIT
+Requires: 
+Required-by: fastparquet
 ---
 Name: croniter
 Version: 1.3.4
@@ -1337,6 +1357,16 @@ Author-email: blaze-dev@continuum.io
 License: BSD
 Requires: multipledispatch numpy python-dateutil
 Required-by: datashader
+---
+Name: DateTime
+Version: 4.4
+Summary: This package provides a DateTime data type, as known from Zope. Unless you need to communicate with Zope APIs, you're probably better off using Python's built-in datetime module.
+Home-page: https://github.com/zopefoundation/DateTime
+Author: Zope Foundation and Contributors
+Author-email: zope-dev@zope.org
+License: ZPL 2.1
+Requires: pytz zope.interface
+Required-by: 
 ---
 Name: dbt-extractor
 Version: 0.4.1
@@ -1778,6 +1808,16 @@ License: ASL 2.0
 Requires: 
 Required-by: zarr
 ---
+Name: fastparquet
+Version: 0.8.0
+Summary: Python support for Parquet file format
+Home-page: https://github.com/dask/fastparquet/
+Author: Martin Durant
+Author-email: mdurant@canaconda.com
+License: Apache License 2.0
+Requires: cramjam fsspec numpy pandas
+Required-by: 
+---
 Name: fastprogress
 Version: 1.0.2
 Summary: A nested progress with plotting options for fastai
@@ -1817,6 +1857,16 @@ Author-email: benedikt@benediktschmitt.de
 License: Unlicense
 Requires: 
 Required-by: huggingface-hub ray transformers
+---
+Name: filterpy
+Version: 1.4.5
+Summary: Kalman filtering and optimal estimation library
+Home-page: https://github.com/rlabbe/filterpy
+Author: Roger Labbe
+Author-email: rlabbejr@gmail.com
+License: MIT
+Requires: matplotlib numpy scipy
+Required-by: 
 ---
 Name: finta
 Version: 1.3
@@ -1986,7 +2036,7 @@ Author:
 Author-email: 
 License: BSD
 Requires: 
-Required-by: dask datasets pytorch-lightning
+Required-by: dask datasets fastparquet pytorch-lightning
 ---
 Name: funcy
 Version: 1.17
@@ -2677,6 +2727,16 @@ Author-email: cedric.zhuang@gmail.com
 License: BSD
 Requires: python-dateutil six
 Required-by: 
+---
+Name: intel-openmp
+Version: 2022.0.0
+Summary: Intel® OpenMP* Runtime Library
+Home-page: https://software.intel.com/content/www/us/en/develop/tools/compilers/c-compilers.htm
+Author: Intel Corporation
+Author-email: scripting@intel.com
+License: Intel End User License Agreement for Developer Tools
+Requires: 
+Required-by: mkl
 ---
 Name: intrinio-sdk
 Version: 5.19.0
@@ -3406,7 +3466,7 @@ Author: John D. Hunter, Michael Droettboom
 Author-email: matplotlib-users@python.org
 License: PSF
 Requires: cycler fonttools kiwisolver numpy packaging pillow pyparsing python-dateutil
-Required-by: catboost do-mpc elegantrl fastai gradio missingno mlxtend mplfinance pandas-profiling phik prophet pycaret pycocotools pyfolio pyod scikit-plot seaborn stable-baselines3 tf-models-official wordcloud yellowbrick
+Required-by: catboost control do-mpc elegantrl fastai filterpy gradio missingno mlxtend mplfinance pandas-profiling phik prophet pycaret pycocotools pyfolio pyod scikit-plot seaborn stable-baselines3 tf-models-official wordcloud yellowbrick
 ---
 Name: matplotlib-inline
 Version: 0.1.3
@@ -3496,6 +3556,16 @@ Author: Mixpanel, Inc.
 Author-email: dev@mixpanel.com
 License: Apache
 Requires: requests six urllib3
+Required-by: 
+---
+Name: mkl
+Version: 2022.0.0
+Summary: Intel® oneAPI Math Kernel Library
+Home-page: https://software.intel.com/en-us/oneapi/onemkl
+Author: Intel Corporation
+Author-email: scripting@intel.com
+License: Intel Simplified Software License
+Requires: intel-openmp tbb
 Required-by: 
 ---
 Name: mlagents-envs
@@ -3906,7 +3976,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: ImageHash Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost cftime cmdstanpy colormath cufflinks cvxpy dask-ml datasets datashader datashape do-mpc ecos elegantrl empyrical eventkit exchange-calendars finta gensim gradio gym h5py holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy sclblpy scs seaborn seqeval spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: ImageHash Keras-Preprocessing PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost cftime cmdstanpy colormath control cufflinks cvxpy dask-ml datasets datashader datashape do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastparquet filterpy finta gensim gradio gym h5py holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rouge-score sacrebleu scikit-image scikit-learn scipy sclblpy scs seaborn seqeval slycot spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -4176,7 +4246,7 @@ Author: The Pandas Development Team
 Author-email: pandas-dev@python.org
 License: BSD-3-Clause
 Requires: numpy python-dateutil pytz
-Required-by: altair catboost cmdstanpy cufflinks dask-ml datasets datashader empyrical exchange-calendars fastai finta geopandas gradio holoviews iexfinance jqdatasdk mlflow mlxtend mplfinance nilearn openai pandas-datareader pandas-finance pandas-market-calendars pandas-profiling phik pmdarima prophet py-vollib pyLDAvis pycaret pyfolio pyportfolioopt rapidminer seaborn stable-baselines3 statsmodels stockstats tf-models-official trading-calendars twint visions wrds xarray yfinance
+Required-by: altair catboost cmdstanpy cufflinks dask-ml datasets datashader empyrical exchange-calendars fastai fastparquet finta geopandas gradio holoviews iexfinance jqdatasdk mlflow mlxtend mplfinance nilearn openai pandas-datareader pandas-finance pandas-market-calendars pandas-profiling phik pmdarima prophet py-vollib pyLDAvis pycaret pyfolio pyportfolioopt rapidminer seaborn stable-baselines3 statsmodels stockstats tf-models-official trading-calendars twint visions wrds xarray yfinance
 ---
 Name: pandas-datareader
 Version: 0.10.0
@@ -4657,6 +4727,16 @@ Author-email: thomas@kluyver.me.uk
 License: UNKNOWN
 Requires: 
 Required-by: pexpect terminado
+---
+Name: PuLP
+Version: 2.6.0
+Summary: PuLP is an LP modeler written in python. PuLP can generate MPS or LP files and call GLPK, COIN CLP/CBC, CPLEX, and GUROBI to solve linear problems.
+Home-page: https://github.com/coin-or/pulp
+Author: J.S. Roy and S.A. Mitchell and F. Peschiera
+Author-email: pulp@stuartmitchell.com
+License: UNKNOWN
+Requires: 
+Required-by: 
 ---
 Name: pure-eval
 Version: 0.2.2
@@ -5446,7 +5526,7 @@ Author: Stuart Bishop
 Author-email: stuart@stuartbishop.net
 License: MIT
 Requires: 
-Required-by: Babel LunarCalendar Mastodon.py celery djangorestframework exchange-calendars flower mlflow pandas pandas-market-calendars pyfolio trading-calendars yahoofinancials zeep
+Required-by: Babel DateTime LunarCalendar Mastodon.py celery djangorestframework exchange-calendars flower mlflow pandas pandas-market-calendars pyfolio trading-calendars yahoofinancials zeep
 ---
 Name: pytz-deprecation-shim
 Version: 0.1.0.post0
@@ -5836,7 +5916,7 @@ Author:
 Author-email: 
 License: BSD
 Requires: numpy
-Required-by: ImageHash Theano catboost cvxpy dask-glm dask-ml datashader ecos empyrical fastai gensim imbalanced-learn jax kmodes lightgbm missingno mlflow mlxtend nilearn osqp pandas-profiling phik pmdarima py-vollib pyLDAvis pyfolio pynndescent pyod pyportfolioopt qdldl scikit-image scikit-learn scikit-plot scs seaborn statsmodels stumpy tf-models-official umap-learn xgboost yellowbrick
+Required-by: ImageHash Theano catboost control cvxpy dask-glm dask-ml datashader ecos empyrical fastai filterpy gensim imbalanced-learn jax kmodes lightgbm missingno mlflow mlxtend nilearn osqp pandas-profiling phik pmdarima py-vollib pyLDAvis pyfolio pynndescent pyod pyportfolioopt qdldl scikit-image scikit-learn scikit-plot scs seaborn statsmodels stumpy tf-models-official umap-learn xgboost yellowbrick
 ---
 Name: sclblpy
 Version: 0.1.7
@@ -6037,6 +6117,16 @@ Author-email: UNKNOWN
 License: 
 Requires: scikit-learn
 Required-by: sclblpy
+---
+Name: slycot
+Version: 0.4.0
+Summary: Slycot: a wrapper for the SLICOT control and systems library
+Home-page: https://github.com/python-control/Slycot
+Author: Enrico Avventi et al.
+Author-email: 
+License: GPL-2.0
+Requires: numpy
+Required-by: 
 ---
 Name: smart-open
 Version: 5.2.1
@@ -6436,7 +6526,7 @@ Author: Intel Corporation
 Author-email: scripting@intel.com
 License: Intel Simplified Software License
 Requires: 
-Required-by: 
+Required-by: mkl
 ---
 Name: tblib
 Version: 1.7.0
@@ -7506,7 +7596,7 @@ Author: Zope Foundation and Contributors
 Author-email: zope-dev@zope.org
 License: ZPL 2.1
 Requires: setuptools
-Required-by: pyramid rapids
+Required-by: DateTime pyramid rapids
 ---
 Name: zstd
 Version: 1.5.1.0
