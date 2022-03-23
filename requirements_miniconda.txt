@@ -254,7 +254,7 @@ wandb==0.12.11 # LEVEL_04 # A CLI and library for interacting with the Weights a
 mlflow==1.24.0 # LEVEL_05 # MLflow: A Platform for ML Development and Productionization
 mlxtend==0.19.0 # LEVEL_04 # Machine Learning Library Extensions
 catboost==1.0.4 # LEVEL_04 # Catboost Python Package
-phik==0.12.1 # LEVEL_04 # Phi_K correlation analyzer library
+phik==0.12.2 # LEVEL_04 # Phi_K correlation analyzer library
 umap-learn==0.5.2 # LEVEL_05 # Uniform Manifold Approximation and Projection
 yellowbrick==1.4 # LEVEL_04 # A suite of visual analysis and diagnostic tools for machine learning
 pynndescent==0.5.6 # LEVEL_04 # Nearest Neighbor Descent
@@ -271,7 +271,7 @@ pmdarima==1.8.5 # LEVEL_05 # Python's forecast::auto.arima equivalent
 #tsai>=0.2.18  # time series and sequences, triggers huge number of dependencies !
 #prophet==1.0.1 # LEVEL_05 # RETIRED # ONLY_OSX # Automatic Forecasting Procedure
 fbprophet==0.7.1 # LEVEL_05 # Automatic Forecasting Procedure
-stumpy==1.10.2 # LEVEL_03 # A powerful and scalable library that can be used for a variety of time series data mining tasks
+stumpy==1.11.0 # LEVEL_03 # A powerful and scalable library that can be used for a variety of time series data mining tasks
 Cython==0.29.28 # LEVEL_01 # The Cython compiler for writing C extensions for the Python language
 
 #
@@ -378,7 +378,7 @@ yfinance==0.1.70 # LEVEL_04 # https://github.com/ranaroussi/yfinance # Download 
 yahoofinancials==1.6 # LEVEL_03 # https://github.com/JECSand/yahoofinancials # A powerful financial data module used for pulling both fundamental and technical data from Yahoo Finance
 coinpaprika==0.1.0 # LEVEL_03 # Coinpaprika API Python client
 ib-insync==0.9.70 # LEVEL_03 # InteractiveBrokers 3rd party trading api ip_insync; dataclasses # if necessary # Python sync/async framework for Interactive Brokers API
-intrinio-sdk==5.19.0 # LEVEL_03 # Intrinio API
+intrinio-sdk==5.20.0 # LEVEL_03 # Intrinio API
 tiingo==0.14.0 # LEVEL_03 # Python REST Client for interacting with the Tiingo Financial Data API https://pypi.org/project/tiingo # REST Client for Tiingo Data Platform API
 oandapyV20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console # Python wrapper for the OANDA REST-V20 API
 #alpaca-trade-api==1.3.0 # LEVEL_02 # old dependencies
@@ -387,7 +387,7 @@ oandapyV20==0.7.2 # LEVEL_01 # urwid urwidtrees # for OANDA console # Python wra
 py-vollib==1.0.1 # LEVEL_04 # option pricing
 robin-stocks==2.1.0 # LEVEL_04 # A Python wrapper around the Robinhood API
 stockstats==0.4.1 # LEVEL_04 # DataFrame with inline stock statistics support
-pyportfolioopt==1.5.1 # LEVEL_06 # Financial portfolio optimization in python
+pyportfolioopt==1.5.2 # LEVEL_06 # Financial portfolio optimization in python
 #
 #
 # Password & Cryptography
@@ -470,7 +470,7 @@ spectra==0.0.11 # LEVEL_03 # old # Color scales and color conversion made easy f
 colorcet==3.0.0 # LEVEL_03 # Collection of perceptually uniform colormaps
 colormath==3.0.0 # LEVEL_02 # not maintained # Color math and conversion library
 blessings==1.7 # LEVEL_02 # old # A thin, practical wrapper around terminal coloring, styling, and positioning
-rich==12.0.0 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+rich==12.0.1 # LEVEL_02 # best !! # Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 colorama==0.4.4 # LEVEL_01 # Cross-platform colored terminal text
 termcolor==1.1.0 # LEVEL_01 # OLD !! # ANSII Color formatting for output in terminal
 colorful==0.5.4 # LEVEL_01 # old # Terminal string styling done right, in Python
@@ -485,7 +485,7 @@ google-cloud-core==2.2.3 # LEVEL_05 # Google Cloud API client core library
 google-resumable-media==2.3.2 # LEVEL_02 # Utilities for Google Media Downloads and Resumable Uploads
 google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC32C'
 #
-google-api-python-client==2.41.0 # LEVEL_05 # Google API Client Library for Python
+google-api-python-client==2.42.0 # LEVEL_05 # Google API Client Library for Python
 google-api-core==2.7.1 # LEVEL_04 # Google API client core library
 google-auth-httplib2==0.1.0 # LEVEL_04 # Google Authentication Library: httplib2 transport
 google-pasta==0.2.0 # LEVEL_02 # pasta is an AST-based Python refactoring library
@@ -502,9 +502,9 @@ smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, A
 uamqp==1.5.2 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.21.22  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.21.24  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.2 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.24.22 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.24.24 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -741,7 +741,7 @@ deprecation==2.1.0 # LEVEL_03 # A library to handle automated deprecations
 dill==0.3.4 # LEVEL_01 # serialize all of python
 dm-tree==0.1.6 # LEVEL_02 # Tree is a library for working with nested data structures
 dnspython==2.2.1 # LEVEL_01 # DNS toolkit
-elasticsearch==8.1.0 # LEVEL_03 # Python client for Elasticsearch
+elasticsearch==8.1.1 # LEVEL_03 # Python client for Elasticsearch
 email-validator==1.1.3 # LEVEL_02 # A robust email syntax and deliverability validation library for Python 2.x/3.x
 ephem==4.1.3 # LEVEL_01 # Compute positions of the planets and stars
 et-xmlfile==1.1.0 # LEVEL_01 # An implementation of lxml.xmlfile for the standard library

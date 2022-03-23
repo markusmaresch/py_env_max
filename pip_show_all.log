@@ -649,7 +649,7 @@ Requires:
 Required-by: 
 ---
 Name: boto3
-Version: 1.21.22
+Version: 1.21.24
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -659,7 +659,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.24.22
+Version: 1.24.24
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -1699,7 +1699,7 @@ Requires: certifi urllib3
 Required-by: elasticsearch
 ---
 Name: elasticsearch
-Version: 8.1.0
+Version: 8.1.1
 Summary: Python client for Elasticsearch
 Home-page: https://github.com/elastic/elasticsearch-py
 Author: Honza Král, Nick Lang
@@ -2289,7 +2289,7 @@ Requires: google-auth googleapis-common-protos protobuf requests
 Required-by: google-api-python-client google-cloud-bigquery google-cloud-core opencensus
 ---
 Name: google-api-python-client
-Version: 2.41.0
+Version: 2.42.0
 Summary: Google API Client Library for Python
 Home-page: https://github.com/googleapis/google-api-python-client/
 Author: Google LLC
@@ -2859,7 +2859,7 @@ Requires:
 Required-by: mkl
 ---
 Name: intrinio-sdk
-Version: 5.19.0
+Version: 5.20.0
 Summary: Intrinio API
 Home-page: https://github.com/intrinio/python-sdk
 Author: 
@@ -4629,7 +4629,7 @@ Requires: ptyprocess
 Required-by: ipython
 ---
 Name: phik
-Version: 0.12.1
+Version: 0.12.2
 Summary: Phi_K correlation analyzer library
 Home-page: http://phik.rtfd.io
 Author: KPMG N.V. The Netherlands
@@ -5429,7 +5429,7 @@ Requires:
 Required-by: 
 ---
 Name: pyportfolioopt
-Version: 1.5.1
+Version: 1.5.2
 Summary: Financial portfolio optimization in python
 Home-page: https://github.com/robertmartin8/PyPortfolioOpt
 Author: Robert Andrew Martin
@@ -5959,7 +5959,7 @@ Requires:
 Required-by: httpx
 ---
 Name: rich
-Version: 12.0.0
+Version: 12.0.1
 Summary: Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 Home-page: https://github.com/willmcgugan/rich
 Author: Will McGugan
@@ -6679,7 +6679,7 @@ Requires: setuptools six toolz tornado zict
 Required-by: 
 ---
 Name: stumpy
-Version: 1.10.2
+Version: 1.11.0
 Summary: A powerful and scalable library that can be used for a variety of time series data mining tasks
 Home-page: https://github.com/TDAmeritrade/stumpy
 Author: Sean M. Law
