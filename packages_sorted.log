@@ -723,6 +723,7 @@ dask-ml
 datashader
 empyrical
 fastai
+fbprophet
 flower
 google-api-python-client
 google-cloud-core
@@ -736,7 +737,6 @@ opencensus
 pandas-finance
 pandas-market-calendars
 pmdarima
-prophet
 pyod
 rapidminer
 rapids

@@ -48,7 +48,6 @@ graphviz==0.19.1 # LEVEL_01 # ONLY_OSX # needed for dependecy graphing .. missin
 gast==0.4.0 # LEVEL_01 # LOCKED # tensorflow 2.7.0 <0.5.0 # Python AST that abstracts the underlying Python version
 #
 pystan==2.19.1.1 # LEVEL_02 # LOCKED # POST_INSTALL_00 # ONLY_OSX # prophet 1.0.1 has requirement pystan~=2.19.1.1 # Python interface to Stan, a package for Bayesian inference
-cmdstanpy==0.9.68 # LEVEL_04 # ONLY_OSX # LOCKED # prophet==1.0.1 requires cmdstanpy==0.9.68 # Python interface to CmdStan
 #
 Box2D==2.3.2 # LEVEL_01 # LOCKED # ONLY_OSX # more recent versions, like 2.3.10 do not work # Python Box2D
 #
@@ -106,6 +105,10 @@ mccabe==0.6.1 # LEVEL_01 # LOCKED # flake8 requires it # McCabe checker, plugin 
 google-auth-oauthlib==0.4.6 # LEVEL_04 # LOCKED # tensorboard 2.8.0 depends on google-auth-oauthlib<0.5 and >=0.4.1 # Google Authentication Library
 #
 imageio==2.15.0 # LEVEL_02 # LOCKED # 2.16.1 does not work # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
+#
+cmdstanpy==0.9.5 # LEVEL_04 # ONLY_OSX # LOCKED # fbprophet==0.7.1 requires cmdstanpy==0.9.5 # Python interface to CmdStan
+#
+pybullet==3.2.0 # LEVEL_01 # LOCKED # ONLY_OSX # can't update ? # Official Python Interface for the Bullet Physics SDK specialized for Robotics Simulation and Reinforcement Learning
 #
 #
 # Former LOCKED .. now freed ;-)
@@ -171,7 +174,6 @@ xlrd==2.0.1 # LEVEL_01 # Library for developers to extract data from Microsoft E
 #
 elegantrl==0.3.3 # LEVEL_04 # ONLY_OSX # Lightweight, Efficient and Stable DRL Implementation Using PyTorch
 box2d-py==2.3.8 # LEVEL_01 # ONLY_OSX # Python Box2D
-pybullet==3.2.0 # LEVEL_01 # LOCKED # ONLY_OSX # can't update ? # Official Python Interface for the Bullet Physics SDK specialized for Robotics Simulation and Reinforcement Learning
 #
 #finrl==0.3.1 # LEVEL_05 # may cause all sorts of issues
 #ccxt==1.58.26 # LEVEL_01
@@ -267,9 +269,10 @@ rapidminer==9.10.0.0 # LEVEL_05 # Tools for running RapidMiner processes and man
 pmdarima==1.8.5 # LEVEL_05 # Python's forecast::auto.arima equivalent
 #darts>=0.9.1  # time series predictions (behind on requirements)
 #tsai>=0.2.18  # time series and sequences, triggers huge number of dependencies !
-prophet==1.0.1 # LEVEL_05 # ONLY_OSX # time series forecasts from Facebook # Automatic Forecasting Procedure
+#prophet==1.0.1 # LEVEL_05 # RETIRED # ONLY_OSX # Automatic Forecasting Procedure
+fbprophet==0.7.1 # LEVEL_05 # Automatic Forecasting Procedure
 stumpy==1.10.2 # LEVEL_03 # A powerful and scalable library that can be used for a variety of time series data mining tasks
-Cython==0.29.28 # LEVEL_01 # pystan: cython!=0.25.1,>=0.22 # The Cython compiler for writing C extensions for the Python language
+Cython==0.29.28 # LEVEL_01 # The Cython compiler for writing C extensions for the Python language
 
 #
 # Date & Time conversions

@@ -949,14 +949,14 @@ Requires: pyparsing requests requests-toolbelt
 Required-by: 
 ---
 Name: cmdstanpy
-Version: 0.9.68
+Version: 0.9.5
 Summary: Python interface to CmdStan
 Home-page: https://github.com/stan-dev/cmdstanpy
 Author: Stan Dev Team
 Author-email: 
 License: UNKNOWN
-Requires: numpy pandas ujson
-Required-by: prophet
+Requires: numpy pandas
+Required-by: fbprophet
 ---
 Name: codemod
 Version: 1.0.0
@@ -1086,7 +1086,7 @@ Author: Neil Freeman
 Author-email: contact@fakeisthenewreal.org
 License: MIT
 Requires: pymeeus
-Required-by: holidays prophet
+Required-by: fbprophet holidays
 ---
 Name: coverage
 Version: 6.3.2
@@ -1216,7 +1216,7 @@ Author: Robert Bradshaw, Stefan Behnel, Dag Seljebotn, Greg Ewing, et al.
 Author-email: cython-devel@python.org
 License: Apache
 Requires: 
-Required-by: asynq pmdarima prophet pystan qcore tf-models-official
+Required-by: asynq fbprophet pmdarima pystan qcore tf-models-official
 ---
 Name: cytoolz
 Version: 0.11.2
@@ -1928,6 +1928,16 @@ License: MIT style
 Requires: 
 Required-by: 
 ---
+Name: fbprophet
+Version: 0.7.1
+Summary: Automatic Forecasting Procedure
+Home-page: https://facebook.github.io/prophet/
+Author: Sean J. Taylor <sjtz@pm.me>, Ben Letham <bletham@fb.com>
+Author-email: sjtz@pm.me
+License: MIT
+Requires: Cython LunarCalendar cmdstanpy convertdate holidays matplotlib numpy pandas pystan python-dateutil setuptools-git tqdm
+Required-by: 
+---
 Name: ffmpy
 Version: 0.3.0
 Summary: A simple Python wrapper for ffmpeg
@@ -2596,7 +2606,7 @@ Author: dr-prodigy (formerly ryanss)
 Author-email: maurizio.montel@gmail.com
 License: MIT
 Requires: convertdate hijri-converter korean-lunar-calendar python-dateutil
-Required-by: prophet
+Required-by: fbprophet
 ---
 Name: holoviews
 Version: 1.14.8
@@ -3476,7 +3486,7 @@ Author: wolfhong
 Author-email: hongxucai1991@gmail.com
 License: MIT
 Requires: ephem python-dateutil pytz
-Required-by: prophet
+Required-by: fbprophet
 ---
 Name: lxml
 Version: 4.8.0
@@ -3596,7 +3606,7 @@ Author: John D. Hunter, Michael Droettboom
 Author-email: matplotlib-users@python.org
 License: PSF
 Requires: cycler fonttools kiwisolver numpy packaging pillow pyparsing python-dateutil
-Required-by: catboost control do-mpc elegantrl fastai filterpy gradio missingno mlxtend mplfinance pandas-profiling phik prophet pycaret pycocotools pyfolio pyod scikit-plot seaborn stable-baselines3 tf-models-official wordcloud yellowbrick
+Required-by: catboost control do-mpc elegantrl fastai fbprophet filterpy gradio missingno mlxtend mplfinance pandas-profiling phik pycaret pycocotools pyfolio pyod scikit-plot seaborn stable-baselines3 tf-models-official wordcloud yellowbrick
 ---
 Name: matplotlib-inline
 Version: 0.1.3
@@ -4106,7 +4116,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: ImageHash Keras-Preprocessing PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance cftime cmdstanpy colormath control cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet filterpy finta gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima prophet py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rlr rouge-score sacrebleu scikit-image scikit-learn scipy sclblpy scs seaborn seqeval simplecosine slycot spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: ImageHash Keras-Preprocessing PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance cftime cmdstanpy colormath control cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rlr rouge-score sacrebleu scikit-image scikit-learn scipy sclblpy scs seaborn seqeval simplecosine slycot spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -4376,7 +4386,7 @@ Author: The Pandas Development Team
 Author-email: pandas-dev@python.org
 License: BSD-3-Clause
 Requires: numpy python-dateutil pytz
-Required-by: altair catboost cmdstanpy cufflinks dask-ml datasets datashader empyrical exchange-calendars fastai fastparquet finta geopandas gradio holoviews iexfinance jqdatasdk mlflow mlxtend mplfinance nilearn openai pandas-datareader pandas-dedupe pandas-finance pandas-market-calendars pandas-profiling phik pmdarima prophet py-vollib pyLDAvis pycaret pyfolio pyportfolioopt rapidminer seaborn stable-baselines3 statsmodels stockstats tf-models-official trading-calendars twint visions wrds xarray yfinance
+Required-by: altair catboost cmdstanpy cufflinks dask-ml datasets datashader empyrical exchange-calendars fastai fastparquet fbprophet finta geopandas gradio holoviews iexfinance jqdatasdk mlflow mlxtend mplfinance nilearn openai pandas-datareader pandas-dedupe pandas-finance pandas-market-calendars pandas-profiling phik pmdarima py-vollib pyLDAvis pycaret pyfolio pyportfolioopt rapidminer seaborn stable-baselines3 statsmodels stockstats tf-models-official trading-calendars twint visions wrds xarray yfinance
 ---
 Name: pandas-datareader
 Version: 0.10.0
@@ -4837,16 +4847,6 @@ Author-email:
 License: UNKNOWN
 Requires: wcwidth
 Required-by: click-repl ipython jupyter-console tda-api
----
-Name: prophet
-Version: 1.0.1
-Summary: Automatic Forecasting Procedure
-Home-page: https://facebook.github.io/prophet/
-Author: Sean J. Taylor <sjtz@pm.me>, Ben Letham <bletham@fb.com>
-Author-email: sjtz@pm.me
-License: MIT
-Requires: Cython LunarCalendar cmdstanpy convertdate holidays matplotlib numpy pandas pystan python-dateutil setuptools-git tqdm
-Required-by: 
 ---
 Name: proto-plus
 Version: 1.20.3
@@ -5556,7 +5556,7 @@ Author:
 Author-email: 
 License: GPLv3
 Requires: Cython numpy
-Required-by: prophet
+Required-by: fbprophet
 ---
 Name: pytest
 Version: 7.1.1
@@ -5596,7 +5596,7 @@ Author: Gustavo Niemeyer
 Author-email: gustavo@niemeyer.net
 License: Dual License
 Requires: six
-Required-by: LunarCalendar Mastodon.py analytics-python arrow botocore croniter datashape datetime-distance exchange-calendars google-cloud-bigquery holidays int-date intrinio-sdk jupyter-client kaggle luigi matplotlib pandas pandas-market-calendars prophet tda-api trading-calendars wandb
+Required-by: LunarCalendar Mastodon.py analytics-python arrow botocore croniter datashape datetime-distance exchange-calendars fbprophet google-cloud-bigquery holidays int-date intrinio-sdk jupyter-client kaggle luigi matplotlib pandas pandas-market-calendars tda-api trading-calendars wandb
 ---
 Name: python-dotenv
 Version: 0.19.2
@@ -6236,7 +6236,7 @@ Author: Marc Abramowitz
 Author-email: msabramo@gmail.com
 License: BSD
 Requires: 
-Required-by: prophet
+Required-by: fbprophet
 ---
 Name: setuptools-scm
 Version: 6.4.2
@@ -7176,7 +7176,7 @@ Author:
 Author-email: 
 License: MPLv2.0, MIT Licences
 Requires: 
-Required-by: bertviz datasets huggingface-hub kaggle nltk openai pandas-profiling panel params-flow prophet pyro-ppl pytorch-lightning sacremoses spacy stanza tensorflow-datasets transformers umap-learn
+Required-by: bertviz datasets fbprophet huggingface-hub kaggle nltk openai pandas-profiling panel params-flow pyro-ppl pytorch-lightning sacremoses spacy stanza tensorflow-datasets transformers umap-learn
 ---
 Name: trading-calendars
 Version: 2.1.1
@@ -7366,7 +7366,7 @@ Author: Jonas Tarnstrom
 Author-email: 
 License: UNKNOWN
 Requires: 
-Required-by: cmdstanpy
+Required-by: 
 ---
 Name: umap-learn
 Version: 0.5.2

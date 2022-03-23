@@ -132,7 +132,7 @@ conda_env_export() {
         > $yml_windows
 
     ls -al $yml $yml_windows
-    diff $yml $yml_windows
+    #diff $yml $yml_windows
 
   fi
 
@@ -176,7 +176,7 @@ conda_env_export() {
         \
         > $yml2
 
-    #ls -al $yml $yml2
+    ls -al $yml $yml2
     #diff $yml $yml2
     #mv $yml2 $yml
   fi
