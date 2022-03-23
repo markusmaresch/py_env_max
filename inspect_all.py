@@ -4,6 +4,7 @@
 import sys
 import importlib_metadata
 
+
 class InspectAll:
     @staticmethod
     def run() -> bool:
@@ -20,7 +21,8 @@ class InspectAll:
                     dist = importlib_metadata.distribution(package)
                     md = dist.metadata
                     version = md.json['version']
-                    # print('{}=={}'.format(package, version))
+                    if version:
+                        print('{}=={}'.format(package, version))
                     good += 1
                     continue
                 except:
