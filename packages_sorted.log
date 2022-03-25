@@ -273,6 +273,7 @@ tensorflow-io-gcs-filesystem
 termcolor
 testpath
 text-unidecode
+tf-estimator-nightly
 threadpoolctl
 tokenizers
 toml
@@ -397,7 +398,6 @@ onnxruntime
 opencv-python
 opencv-python-headless
 openpyxl
-openvino
 opt-einsum
 oscrypto
 outcome

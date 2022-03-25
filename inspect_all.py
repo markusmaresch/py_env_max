@@ -21,7 +21,7 @@ class InspectAll:
                     dist = importlib_metadata.distribution(package)
                     md = dist.metadata
                     version = md.json['version']
-                    if version:
+                    if version is None:
                         print('{}=={}'.format(package, version))
                     good += 1
                     continue

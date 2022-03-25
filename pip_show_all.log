@@ -3199,7 +3199,7 @@ Requires:
 Required-by: 
 ---
 Name: keras
-Version: 2.7.0
+Version: 2.8.0
 Summary: Deep learning for humans.
 Home-page: https://keras.io/
 Author: Keras team
@@ -4109,14 +4109,14 @@ Requires: numpy packaging
 Required-by: pyLDAvis
 ---
 Name: numpy
-Version: 1.19.5
+Version: 1.20.0
 Summary: NumPy is the fundamental package for array computing with Python.
 Home-page: https://www.numpy.org
 Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: ImageHash Keras-Preprocessing PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance cftime cmdstanpy colormath control cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless openvino opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rlr rouge-score sacrebleu scikit-image scikit-learn scipy sclblpy scs seaborn seqeval simplecosine slycot spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: ImageHash Keras-Preprocessing PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance cftime cmdstanpy colormath control cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rlr rouge-score sacrebleu scikit-image scikit-learn scipy sclblpy scs seaborn seqeval simplecosine slycot spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -4297,16 +4297,6 @@ Author-email: charlie.clark@clark-consulting.eu
 License: MIT
 Requires: et-xmlfile
 Required-by: openai
----
-Name: openvino
-Version: 2021.4.2
-Summary: Inference Engine Python* API
-Home-page: https://docs.openvinotoolkit.org/latest/index.html
-Author: Intel Corporation
-Author-email: openvino_pushbot@intel.com
-License: Proprietary - Intel
-Requires: numpy
-Required-by: 
 ---
 Name: opt-einsum
 Version: 3.3.0
@@ -5749,7 +5739,7 @@ Requires: numpy
 Required-by: ImageHash scikit-image
 ---
 Name: PyYAML
-Version: 6.0
+Version: 5.4
 Summary: YAML parser and emitter for Python
 Home-page: https://pyyaml.org/
 Author: Kirill Simonov
@@ -6226,7 +6216,7 @@ Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy celery cufflinks gunicorn ipython jupyter-packaging mlxtend nibabel numba plaster pmdarima pyinstaller pyramid python-daemon pytorch-lightning rapids setuptools-scm spacy streamz tensorboard thinc zope.deprecation zope.index zope.interface
+Required-by: Fiona PasteDeploy celery cufflinks gunicorn ipython jupyter-packaging mlxtend nibabel numba plaster pmdarima pyinstaller pyramid python-daemon pytorch-lightning rapids setuptools-scm spacy streamz tensorboard tensorflow thinc zope.deprecation zope.index zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -6809,13 +6799,13 @@ Requires: numpy protobuf six
 Required-by: 
 ---
 Name: tensorflow
-Version: 2.7.1
+Version: 2.8.0
 Summary: TensorFlow is an open source machine learning framework for everyone.
 Home-page: https://www.tensorflow.org/
 Author: Google Inc.
 Author-email: packages@tensorflow.org
 License: Apache 2.0
-Requires: absl-py astunparse flatbuffers gast google-pasta grpcio h5py keras keras-preprocessing libclang numpy opt-einsum protobuf six tensorboard tensorflow-estimator tensorflow-io-gcs-filesystem termcolor typing-extensions wheel wrapt
+Requires: absl-py astunparse flatbuffers gast google-pasta grpcio h5py keras keras-preprocessing libclang numpy opt-einsum protobuf setuptools six tensorboard tensorflow-io-gcs-filesystem termcolor tf-estimator-nightly typing-extensions wrapt
 Required-by: tensorflow-text tf-models-official
 ---
 Name: tensorflow-addons
@@ -6839,14 +6829,14 @@ Requires: absl-py dill numpy promise protobuf requests six tensorflow-metadata t
 Required-by: tf-models-official
 ---
 Name: tensorflow-estimator
-Version: 2.7.0
+Version: 2.8.0
 Summary: TensorFlow Estimator.
 Home-page: https://www.tensorflow.org/
 Author: Google Inc.
 Author-email: 
 License: Apache 2.0
 Requires: 
-Required-by: tensorflow
+Required-by: 
 ---
 Name: tensorflow-hub
 Version: 0.12.0
@@ -6889,7 +6879,7 @@ Requires: dm-tree numpy six
 Required-by: tf-models-official
 ---
 Name: tensorflow-text
-Version: 2.7.3
+Version: 2.8.1
 Summary: TF.Text is a TensorFlow library of text related ops, modules, and subgraphs.
 Home-page: http://github.com/tensorflow/text
 Author: Google Inc.
@@ -6948,8 +6938,18 @@ License: MIT
 Requires: nltk
 Required-by: pycaret spacytextblob
 ---
+Name: tf-estimator-nightly
+Version: 2.8.0.dev2021122109
+Summary: TensorFlow Estimator.
+Home-page: https://www.tensorflow.org/
+Author: Google Inc.
+Author-email: 
+License: Apache 2.0
+Requires: 
+Required-by: tensorflow
+---
 Name: tf-models-official
-Version: 2.7.1
+Version: 2.8.0
 Summary: TensorFlow Official Models
 Home-page: https://github.com/tensorflow/models
 Author: Google Inc.
@@ -7596,7 +7596,7 @@ Author: Daniel Holth
 Author-email: dholth@fastmail.fm
 License: MIT
 Requires: 
-Required-by: astunparse jupyter-packaging lightgbm pyLDAvis tensorboard tensorflow
+Required-by: astunparse jupyter-packaging lightgbm pyLDAvis tensorboard
 ---
 Name: widgetsnbextension
 Version: 3.6.0

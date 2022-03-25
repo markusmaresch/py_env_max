@@ -29,7 +29,7 @@
 #
 # Pre-Installs .. separate install before anything else
 #
-numpy==1.19.5 # LEVEL_01 # PRE_INSTALL_00 # LOCKED # openvino<1.20; # NumPy is the fundamental package for array computing with Python
+numpy==1.20.0 # LEVEL_01 # PRE_INSTALL_00 # LOCKED # numba 0.55.1 has requirement numpy<1.22,>=1.18 # NumPy is the fundamental package for array computing with Python
 
 #
 TA-Lib==0.4.24 # LEVEL_02 # NO_CACHE_DIR # ONLY_OSX # Still issue with upgrading !!! # Python wrapper for TA-Lib
@@ -187,11 +187,11 @@ GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status 
 #
 # Machine Learning
 #
-tensorflow-text==2.7.3 # LEVEL_07 # TF.Text is a TensorFlow library of text related ops, modules, and subgraphs
-tensorflow==2.7.1 # LEVEL_06 # TensorFlow is an open source machine learning framework for everyone
+tensorflow-text==2.8.1 # LEVEL_07 # TF.Text is a TensorFlow library of text related ops, modules, and subgraphs
+tensorflow==2.8.0 # LEVEL_06 # TensorFlow is an open source machine learning framework for everyone
 tensorboard==2.8.0 # LEVEL_05 # TensorBoard lets you watch Tensors Flow
-tensorflow-estimator==2.7.0 # LEVEL_01 # TensorFlow Estimator
-keras==2.7.0 # LEVEL_01 # Deep learning for humans
+tensorflow-estimator==2.8.0 # LEVEL_01 # TensorFlow Estimator
+keras==2.8.0 # LEVEL_01 # Deep learning for humans
 #
 tensorboard-data-server==0.6.1 # LEVEL_01 # Fast data loading for TensorBoard
 tensorboard-plugin-wit==1.8.1 # LEVEL_01 # What-If Tool TensorBoard plugin
@@ -203,7 +203,8 @@ tensorflow-addons==0.16.1 # LEVEL_02 # TensorFlow Addons
 tensorflow-hub==0.12.0 # LEVEL_02 # TensorFlow Hub is a library to foster the publication, discovery, and consumption of reusable parts of machine learning models
 tensorflow-io-gcs-filesystem==0.24.0 # LEVEL_01 # TensorFlow IO
 #
-tf-models-official==2.7.1 # LEVEL_08 # ONLY_OSX # TensorFlow Official Models
+tf-models-official==2.8.0 # LEVEL_08 # ONLY_OSX # TensorFlow Official Models
+tf-estimator-nightly==2.8.0.dev2021122109 # LEVEL_01 # TensorFlow Estimator
 tf-slim==1.1.0 # LEVEL_03 # TensorFlow-Slim: A lightweight library for defining, training and evaluating complex models in TensorFlow
 #
 tensorboardX==2.5 # LEVEL_02 # TensorBoardX lets you watch Tensors Flow without Tensorflow
@@ -806,7 +807,7 @@ PyMeeus==0.5.11 # LEVEL_01 # Python implementation of Jean Meeus astronomical ro
 pyrsistent==0.18.1 # LEVEL_01 # Persistent/Functional/Immutable data structures
 python-slugify==6.1.1 # LEVEL_02 # A Python slugify application that also handles Unicode
 PyWavelets==1.3.0 # LEVEL_02 # PyWavelets, wavelet transform module
-PyYAML==6.0 # LEVEL_01 # YAML parser and emitter for Python
+PyYAML==5.4 # LEVEL_01 # LOCKED # tf-models-official 2.8.0 depends on pyyaml<6.0 and >=5.1 # YAML parser and emitter for Python
 pyzmq==22.3.0 # LEVEL_01 # Python bindings for 0MQ
 qcore==1.7.0 # LEVEL_02 # Quora's core utility library
 regex==2022.3.15 # LEVEL_01 # Alternative regular expression module, to replace re
@@ -1115,8 +1116,8 @@ casadi==3.5.5 # LEVEL_01 # CasADi -- framework for algorithmic differentiation a
 do-mpc==4.3.3 # LEVEL_04
 #
 
-mkl==2022.0.0 # LEVEL_02 # Intel® oneAPI Math Kernel Library
-openvino==2021.4.2 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org # Inference Engine Python* API
+#mkl==2022.0.0 # LEVEL_02 # Intel® oneAPI Math Kernel Library
+#openvino==2021.4.2 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org # Inference Engine Python* API
 #openvino-dev==2021.4.1 # LEVEL_99 # has issues !!! # Openvino Tools
 intel-openmp==2022.0.0 # LEVEL_01 # Intel® OpenMP* Runtime Library
 tbb==2021.5.0 # LEVEL_01 # LOCKED # ONLY_OSX # Intel® oneAPI Threading Building Blocks (oneTBB)
