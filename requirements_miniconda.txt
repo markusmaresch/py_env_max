@@ -45,8 +45,6 @@ graphviz==0.19.1 # LEVEL_01 # ONLY_OSX # needed for dependecy graphing .. missin
 #
 # Hard dependencies
 #
-gast==0.4.0 # LEVEL_01 # LOCKED # tensorflow 2.7.0 <0.5.0 # Python AST that abstracts the underlying Python version
-#
 pystan==2.19.1.1 # LEVEL_02 # LOCKED # POST_INSTALL_00 # ONLY_OSX # prophet 1.0.1 has requirement pystan~=2.19.1.1 # Python interface to Stan, a package for Bayesian inference
 #
 Box2D==2.3.2 # LEVEL_01 # LOCKED # ONLY_OSX # more recent versions, like 2.3.10 do not work # Python Box2D
@@ -68,8 +66,6 @@ parsedatetime==2.4 # LEVEL_02 # LOCKED # agate 1.6.3 requires parsedatetime!=2.5
 pyDeprecate==0.3.1 # LEVEL_01 # LOCKED # pytorch-lightning 1.5.10 requires pyDeprecate==0.3.1 # Deprecation tooling
 #
 antlr4-python3-runtime==4.8 # LEVEL_01 # LOCKED # omegaconf 2.1.1 requires antlr4-python3-runtime==4.8 # ANTLR 4.8 runtime for Python 3.7
-#
-dask-ml==2021.10.17 # LEVEL_05 # LOCKED # numpy conflict # A library for distributed and parallel machine learning
 #
 tangled-up-in-unicode==0.1.0 # LEVEL_01 # LOCKED # pandas-profiling 3.1.0 requires 0.1.0 # Access to the Unicode Character Database (UCD)
 visions==0.7.4 # LEVEL_04 # LOCKED # pandas-profiling 3.1.0 requires visions[type_image_path]==0.7.4 # Visions
@@ -115,6 +111,7 @@ PyYAML==5.4 # LEVEL_01 # LOCKED # tf-models-official 2.8.0 depends on pyyaml<6.0
 #
 # Former LOCKED .. now freed ;-)
 #
+gast==0.5.3 # LEVEL_01 # Python AST that abstracts the underlying Python version
 tokenizers==0.11.6 # LEVEL_01 # Fast and Customizable Tokenizers
 absl-py==1.0.0 # LEVEL_02 # Abseil Python Common Libraries, see https://github.com/abseil/abseil-py
 cachetools==5.0.0 # LEVEL_01 # Extensible memoizing collections and decorators
@@ -181,8 +178,8 @@ box2d-py==2.3.8 # LEVEL_01 # ONLY_OSX # Python Box2D
 #ccxt==1.58.26 # LEVEL_01
 #
 wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
-ray==1.10.0 # LEVEL_04 # Ray provides a simple, universal API for building distributed applications
-redis==4.1.4 # LEVEL_03 # Python client for Redis database and key-value store
+ray==1.10.0 # LEVEL_04 # LOCKED # Ray provides a simple, universal API for building distributed applications
+redis==4.2.0 # LEVEL_03 # Python client for Redis database and key-value store
 lz4==4.0.0 # LEVEL_01 # LZ4 Bindings for Python
 GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status from NVIDA GPUs using nvidia-smi
 #
@@ -206,7 +203,7 @@ tensorflow-hub==0.12.0 # LEVEL_02 # TensorFlow Hub is a library to foster the pu
 tensorflow-io-gcs-filesystem==0.24.0 # LEVEL_01 # TensorFlow IO
 #
 tf-models-official==2.8.0 # LEVEL_08 # ONLY_OSX # TensorFlow Official Models
-tf-estimator-nightly==2.8.0.dev2021122109 # LEVEL_01 # TensorFlow Estimator
+tf-estimator-nightly==2.8.0.dev2021122109 # LEVEL_01 # LOCKED # TensorFlow Estimator
 tf-slim==1.1.0 # LEVEL_03 # TensorFlow-Slim: A lightweight library for defining, training and evaluating complex models in TensorFlow
 #
 tensorboardX==2.5 # LEVEL_02 # TensorBoardX lets you watch Tensors Flow without Tensorflow
@@ -228,14 +225,14 @@ pytorch-lightning==1.5.10 # LEVEL_06 # PyTorch Lightning is the lightweight PyTo
 performer-pytorch==1.1.4 # LEVEL_04 # Performer - Pytorch
 torch-optimizer==0.3.0 # LEVEL_04 # pytorch-optimizer
 pytorch-ranger==0.1.1 # LEVEL_03 # Ranger - a synergistic optimizer using RAdam (Rectified Adam) and LookAhead in one codebase
-torchmetrics==0.7.2 # LEVEL_03 # PyTorch native Metrics
+torchmetrics==0.7.3 # LEVEL_03 # PyTorch native Metrics
 nystrom-attention==0.0.11 # LEVEL_03 # Nystrom Attention - Pytorch
 einops==0.4.1 # LEVEL_01 # A new flavour of deep learning operations
 #
 Theano==1.0.5 # LEVEL_03 # Optimizing compiler for evaluating mathematical expressions on CPUs and GPUs
 nose==1.3.7 # LEVEL_01 # nose extends unittest to make testing easier
 #
-fastai==2.5.3 # LEVEL_05 # fastai simplifies training fast and accurate neural nets using modern best practices
+fastai==2.5.5 # LEVEL_05 # fastai simplifies training fast and accurate neural nets using modern best practices
 fastcore==1.3.29 # LEVEL_03 # Python supercharged for fastai development
 fastdownload==0.0.5 # LEVEL_04 # A general purpose data downloading library
 fastprogress==1.0.2 # LEVEL_01 # A nested progress with plotting options for fastai
@@ -335,6 +332,7 @@ kaggle==1.5.12 # LEVEL_03 # Kaggle API
 #
 agate==1.6.3 # LEVEL_03 # A data analysis library that is optimized for humans instead of machines
 #
+dask-ml==2022.1.22 # LEVEL_05 # A library for distributed and parallel machine learning
 dask-glm==0.2.0 # LEVEL_04 # Generalized Linear Models with Dask
 distributed==2022.3.0 # LEVEL_04 # Distributed scheduler for Dask
 dask[complete]==2022.3.0 # LEVEL_03 # Parallel PyData with Task Scheduling
@@ -412,7 +410,7 @@ jeepney==0.7.1 # LEVEL_01 # Low-level, pure Python DBus protocol wrapper
 #
 #
 Authlib==1.0.0 # LEVEL_04 # The ultimate Python library in building OAuth and OpenID Connect servers and clients
-python-dotenv==0.19.2 # LEVEL_01 # Read key-value pairs from a .env file and set them as environment variables
+python-dotenv==0.20.0 # LEVEL_01 # Read key-value pairs from a .env file and set them as environment variables
 selenium==4.1.3 # LEVEL_05 #
 #
 #
@@ -444,7 +442,7 @@ holoviews==1.14.8 # LEVEL_05 # Stop plotting your data - annotate your data and 
 #
 Kivy==2.1.0 # LEVEL_04 # A software library for rapid development of hardware-accelerated multitouch applications
 Kivy-examples==2.1.0 # LEVEL_04 # Kivy examples
-Kivy-Garden==0.1.4 # LEVEL_03
+Kivy-Garden==0.1.5 # LEVEL_03
 #
 dash-auth==1.4.1 # LEVEL_06 # Dash Authorization Package
 dash-bootstrap-components==1.0.3 # LEVEL_06 # Bootstrap themed components for use in Plotly Dash
@@ -502,12 +500,12 @@ azure-storage-blob==12.10.0 # LEVEL_05 # Microsoft Azure Blob Storage Client Lib
 azure-core==1.23.0 # LEVEL_03 # Microsoft Azure Core Library for Python
 azure-common==1.1.28 # LEVEL_01 # Microsoft Azure Client Library for Python (Common)
 smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)
-uamqp==1.5.2 # LEVEL_02 # AMQP 1.0 Client Library for Python
+uamqp==1.5.3 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.21.24  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.21.27  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.2 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.24.24 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.24.27 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -521,7 +519,7 @@ jupyterlab-server==2.11.2 # LEVEL_07 # A set of server components for JupyterLab
 jupyter-dash==0.4.1 # LEVEL_06 # Dash support for the Jupyter notebook interface
 jupyter-server==1.15.6 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-console==6.4.3 # LEVEL_06 # Jupyter terminal console
-jupyter-packaging==0.11.1 # LEVEL_04 # Jupyter Packaging Utilities
+jupyter-packaging==0.11.1 # LEVEL_04 # LOCKED # Jupyter Packaging Utilities
 jupyter-client==7.1.2 # LEVEL_03 # Jupyter protocol implementation and client libraries
 jupyter-core==4.9.2 # LEVEL_02 # Jupyter core package. A base package on which Jupyter projects rely
 jupyterlab-pygments==0.1.2 # LEVEL_02 # Pygments theme using JupyterLab CSS variables

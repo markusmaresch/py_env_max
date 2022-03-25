@@ -346,7 +346,7 @@ Author: Andrew Svetlov <andrew.svetlov@gmail.com>
 Author-email: andrew.svetlov@gmail.com
 License: Apache 2
 Requires: 
-Required-by: aiohttp aioredis
+Required-by: aiohttp aioredis redis
 ---
 Name: asynq
 Version: 1.4.0
@@ -649,7 +649,7 @@ Requires:
 Required-by: 
 ---
 Name: boto3
-Version: 1.21.24
+Version: 1.21.27
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -659,7 +659,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.24.24
+Version: 1.24.27
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -1339,7 +1339,7 @@ Requires: cloudpickle dask multipledispatch scikit-learn scipy
 Required-by: dask-ml
 ---
 Name: dask-ml
-Version: 2021.10.17
+Version: 2022.1.22
 Summary: A library for distributed and parallel machine learning
 Home-page: https://github.com/dask/dask-ml
 Author: Tom Augspurger
@@ -1829,7 +1829,7 @@ Requires:
 Required-by: twint
 ---
 Name: fastai
-Version: 2.5.3
+Version: 2.5.5
 Summary: fastai simplifies training fast and accurate neural nets using modern best practices
 Home-page: https://github.com/fastai/fastai/tree/master/
 Author: Jeremy Howard, Sylvain Gugger, and contributors
@@ -2169,7 +2169,7 @@ Requires:
 Required-by: 
 ---
 Name: gast
-Version: 0.4.0
+Version: 0.5.3
 Summary: Python AST that abstracts the underlying Python version
 Home-page: https://github.com/serge-sans-paille/gast/
 Author: serge-sans-paille
@@ -3269,9 +3269,9 @@ Requires: Kivy-Garden docutils pygments
 Required-by: 
 ---
 Name: Kivy-Garden
-Version: 0.1.4
+Version: 0.1.5
 Summary: UNKNOWN
-Home-page: UNKNOWN
+Home-page: 
 Author: 
 Author-email: 
 License: MIT
@@ -5589,7 +5589,7 @@ Requires: six
 Required-by: LunarCalendar Mastodon.py analytics-python arrow botocore croniter datashape datetime-distance exchange-calendars fbprophet google-cloud-bigquery holidays int-date intrinio-sdk jupyter-client kaggle luigi matplotlib pandas pandas-market-calendars tda-api trading-calendars wandb
 ---
 Name: python-dotenv
-Version: 0.19.2
+Version: 0.20.0
 Summary: Read key-value pairs from a .env file and set them as environment variables
 Home-page: https://github.com/theskumar/python-dotenv
 Author: Saurabh Kumar
@@ -5849,13 +5849,13 @@ Requires: commonmark docutils sphinx
 Required-by: 
 ---
 Name: redis
-Version: 4.1.4
+Version: 4.2.0
 Summary: Python client for Redis database and key-value store
 Home-page: https://github.com/redis/redis-py
 Author: Redis Inc.
 Author-email: oss@redis.com
 License: MIT
-Requires: deprecated packaging
+Requires: async-timeout deprecated packaging typing-extensions
 Required-by: ray
 ---
 Name: regex
@@ -7149,7 +7149,7 @@ Requires: torch
 Required-by: 
 ---
 Name: torchmetrics
-Version: 0.7.2
+Version: 0.7.3
 Summary: PyTorch native Metrics
 Home-page: https://github.com/PyTorchLightning/metrics
 Author: PyTorchLightning et al.
@@ -7306,7 +7306,7 @@ Author:
 Author-email: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 License: 
 Requires: 
-Required-by: aioredis azure-core black bokeh dedupe huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pyee pytorch-lightning tensorflow torch typing-inspect
+Required-by: aioredis azure-core black bokeh dedupe huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pyee pytorch-lightning redis tensorflow torch typing-inspect
 ---
 Name: typing-inspect
 Version: 0.7.1
@@ -7349,7 +7349,7 @@ Requires:
 Required-by: dash-auth
 ---
 Name: uamqp
-Version: 1.5.2
+Version: 1.5.3
 Summary: AMQP 1.0 Client Library for Python
 Home-page: https://github.com/Azure/azure-uamqp-python
 Author: Microsoft Corporation
