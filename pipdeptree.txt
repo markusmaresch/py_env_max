@@ -648,7 +648,7 @@
             {
                 "key": "jinja2",
                 "package_name": "jinja2",
-                "installed_version": "3.0.3",
+                "installed_version": "3.1.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -1668,7 +1668,7 @@
                     {
                         "key": "tqdm",
                         "package_name": "tqdm",
-                        "installed_version": "4.63.0",
+                        "installed_version": "4.63.1",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -1854,7 +1854,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": "Any",
                 "dependencies": []
             },
@@ -1945,7 +1945,7 @@
                             {
                                 "key": "tqdm",
                                 "package_name": "tqdm",
-                                "installed_version": "4.63.0",
+                                "installed_version": "4.63.1",
                                 "required_version": "Any",
                                 "dependencies": []
                             },
@@ -2067,7 +2067,7 @@
                             {
                                 "key": "tqdm",
                                 "package_name": "tqdm",
-                                "installed_version": "4.63.0",
+                                "installed_version": "4.63.1",
                                 "required_version": "Any",
                                 "dependencies": []
                             }
@@ -2083,7 +2083,7 @@
                     {
                         "key": "tqdm",
                         "package_name": "tqdm",
-                        "installed_version": "4.63.0",
+                        "installed_version": "4.63.1",
                         "required_version": ">=4.27",
                         "dependencies": []
                     }
@@ -2225,8 +2225,8 @@
     {
         "key": "blis",
         "package_name": "blis",
-        "installed_version": "0.7.6",
-        "required_version": "0.7.6",
+        "installed_version": "0.7.7",
+        "required_version": "0.7.7",
         "dependencies": [
             {
                 "key": "numpy",
@@ -2253,7 +2253,7 @@
             {
                 "key": "jinja2",
                 "package_name": "Jinja2",
-                "installed_version": "3.0.3",
+                "installed_version": "3.1.0",
                 "required_version": ">=2.9",
                 "dependencies": [
                     {
@@ -2711,8 +2711,8 @@
     {
         "key": "catalogue",
         "package_name": "catalogue",
-        "installed_version": "2.0.6",
-        "required_version": "2.0.6",
+        "installed_version": "2.0.7",
+        "required_version": "2.0.7",
         "dependencies": []
     },
     {
@@ -2744,7 +2744,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -3654,7 +3654,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -4036,7 +4036,7 @@
                             {
                                 "key": "debugpy",
                                 "package_name": "debugpy",
-                                "installed_version": "1.5.1",
+                                "installed_version": "1.6.0",
                                 "required_version": ">=1.0.0,<2.0",
                                 "dependencies": []
                             },
@@ -4598,7 +4598,7 @@
                                             {
                                                 "key": "debugpy",
                                                 "package_name": "debugpy",
-                                                "installed_version": "1.5.1",
+                                                "installed_version": "1.6.0",
                                                 "required_version": ">=1.0.0,<2.0",
                                                 "dependencies": []
                                             },
@@ -4884,7 +4884,7 @@
                                     {
                                         "key": "jinja2",
                                         "package_name": "jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
@@ -5059,7 +5059,7 @@
                                             {
                                                 "key": "jinja2",
                                                 "package_name": "jinja2",
-                                                "installed_version": "3.0.3",
+                                                "installed_version": "3.1.0",
                                                 "required_version": ">=2.4",
                                                 "dependencies": [
                                                     {
@@ -5837,14 +5837,14 @@
                     {
                         "key": "itsdangerous",
                         "package_name": "itsdangerous",
-                        "installed_version": "2.1.1",
+                        "installed_version": "2.1.2",
                         "required_version": ">=2.0",
                         "dependencies": []
                     },
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=3.0",
                         "dependencies": [
                             {
@@ -5894,14 +5894,14 @@
                             {
                                 "key": "itsdangerous",
                                 "package_name": "itsdangerous",
-                                "installed_version": "2.1.1",
+                                "installed_version": "2.1.2",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             },
                             {
                                 "key": "jinja2",
                                 "package_name": "Jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=3.0",
                                 "dependencies": [
                                     {
@@ -6101,14 +6101,14 @@
                             {
                                 "key": "itsdangerous",
                                 "package_name": "itsdangerous",
-                                "installed_version": "2.1.1",
+                                "installed_version": "2.1.2",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             },
                             {
                                 "key": "jinja2",
                                 "package_name": "Jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=3.0",
                                 "dependencies": [
                                     {
@@ -6158,14 +6158,14 @@
                                     {
                                         "key": "itsdangerous",
                                         "package_name": "itsdangerous",
-                                        "installed_version": "2.1.1",
+                                        "installed_version": "2.1.2",
                                         "required_version": ">=2.0",
                                         "dependencies": []
                                     },
                                     {
                                         "key": "jinja2",
                                         "package_name": "Jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": ">=3.0",
                                         "dependencies": [
                                             {
@@ -6236,14 +6236,14 @@
                     {
                         "key": "itsdangerous",
                         "package_name": "itsdangerous",
-                        "installed_version": "2.1.1",
+                        "installed_version": "2.1.2",
                         "required_version": ">=2.0",
                         "dependencies": []
                     },
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=3.0",
                         "dependencies": [
                             {
@@ -6293,14 +6293,14 @@
                             {
                                 "key": "itsdangerous",
                                 "package_name": "itsdangerous",
-                                "installed_version": "2.1.1",
+                                "installed_version": "2.1.2",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             },
                             {
                                 "key": "jinja2",
                                 "package_name": "Jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=3.0",
                                 "dependencies": [
                                     {
@@ -6345,14 +6345,14 @@
                             {
                                 "key": "itsdangerous",
                                 "package_name": "itsdangerous",
-                                "installed_version": "2.1.1",
+                                "installed_version": "2.1.2",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             },
                             {
                                 "key": "jinja2",
                                 "package_name": "Jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=3.0",
                                 "dependencies": [
                                     {
@@ -6378,7 +6378,7 @@
             {
                 "key": "itsdangerous",
                 "package_name": "itsdangerous",
-                "installed_version": "2.1.1",
+                "installed_version": "2.1.2",
                 "required_version": ">=1.1.0",
                 "dependencies": []
             },
@@ -6491,14 +6491,14 @@
                             {
                                 "key": "itsdangerous",
                                 "package_name": "itsdangerous",
-                                "installed_version": "2.1.1",
+                                "installed_version": "2.1.2",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             },
                             {
                                 "key": "jinja2",
                                 "package_name": "Jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=3.0",
                                 "dependencies": [
                                     {
@@ -6548,14 +6548,14 @@
                                     {
                                         "key": "itsdangerous",
                                         "package_name": "itsdangerous",
-                                        "installed_version": "2.1.1",
+                                        "installed_version": "2.1.2",
                                         "required_version": ">=2.0",
                                         "dependencies": []
                                     },
                                     {
                                         "key": "jinja2",
                                         "package_name": "Jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": ">=3.0",
                                         "dependencies": [
                                             {
@@ -6661,14 +6661,14 @@
                             {
                                 "key": "itsdangerous",
                                 "package_name": "itsdangerous",
-                                "installed_version": "2.1.1",
+                                "installed_version": "2.1.2",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             },
                             {
                                 "key": "jinja2",
                                 "package_name": "Jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=3.0",
                                 "dependencies": [
                                     {
@@ -6718,14 +6718,14 @@
                                     {
                                         "key": "itsdangerous",
                                         "package_name": "itsdangerous",
-                                        "installed_version": "2.1.1",
+                                        "installed_version": "2.1.2",
                                         "required_version": ">=2.0",
                                         "dependencies": []
                                     },
                                     {
                                         "key": "jinja2",
                                         "package_name": "Jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": ">=3.0",
                                         "dependencies": [
                                             {
@@ -7000,14 +7000,14 @@
                             {
                                 "key": "itsdangerous",
                                 "package_name": "itsdangerous",
-                                "installed_version": "2.1.1",
+                                "installed_version": "2.1.2",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             },
                             {
                                 "key": "jinja2",
                                 "package_name": "Jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=3.0",
                                 "dependencies": [
                                     {
@@ -7057,14 +7057,14 @@
                                     {
                                         "key": "itsdangerous",
                                         "package_name": "itsdangerous",
-                                        "installed_version": "2.1.1",
+                                        "installed_version": "2.1.2",
                                         "required_version": ">=2.0",
                                         "dependencies": []
                                     },
                                     {
                                         "key": "jinja2",
                                         "package_name": "Jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": ">=3.0",
                                         "dependencies": [
                                             {
@@ -7714,7 +7714,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -8210,7 +8210,7 @@
                     {
                         "key": "tqdm",
                         "package_name": "tqdm",
-                        "installed_version": "4.63.0",
+                        "installed_version": "4.63.1",
                         "required_version": "Any",
                         "dependencies": []
                     },
@@ -8402,7 +8402,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": ">=4.62.1",
                 "dependencies": []
             },
@@ -8870,8 +8870,8 @@
     {
         "key": "debugpy",
         "package_name": "debugpy",
-        "installed_version": "1.5.1",
-        "required_version": "1.5.1",
+        "installed_version": "1.6.0",
+        "required_version": "1.6.0",
         "dependencies": []
     },
     {
@@ -9898,7 +9898,7 @@
             {
                 "key": "jinja2",
                 "package_name": "jinja2",
-                "installed_version": "3.0.3",
+                "installed_version": "3.1.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -10258,7 +10258,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -10551,7 +10551,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -10632,7 +10632,7 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.19.3",
+                        "required_version": ">=1.14.5",
                         "dependencies": []
                     },
                     {
@@ -10646,7 +10646,7 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
+                        "required_version": ">=1.19.3",
                         "dependencies": []
                     }
                 ]
@@ -10955,7 +10955,7 @@
             {
                 "key": "pyluach",
                 "package_name": "pyluach",
-                "installed_version": "1.4.0",
+                "installed_version": "1.4.1",
                 "required_version": "Any",
                 "dependencies": []
             },
@@ -11115,7 +11115,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -11356,7 +11356,7 @@
                     {
                         "key": "blis",
                         "package_name": "blis",
-                        "installed_version": "0.7.6",
+                        "installed_version": "0.7.7",
                         "required_version": ">=0.4.0,<0.8.0",
                         "dependencies": [
                             {
@@ -11371,7 +11371,7 @@
                     {
                         "key": "catalogue",
                         "package_name": "catalogue",
-                        "installed_version": "2.0.6",
+                        "installed_version": "2.0.7",
                         "required_version": ">=2.0.6,<2.1.0",
                         "dependencies": []
                     },
@@ -11385,7 +11385,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -11574,7 +11574,7 @@
                             {
                                 "key": "catalogue",
                                 "package_name": "catalogue",
-                                "installed_version": "2.0.6",
+                                "installed_version": "2.0.7",
                                 "required_version": ">=2.0.3,<2.1.0",
                                 "dependencies": []
                             }
@@ -11589,7 +11589,7 @@
                             {
                                 "key": "blis",
                                 "package_name": "blis",
-                                "installed_version": "0.7.6",
+                                "installed_version": "0.7.7",
                                 "required_version": ">=0.4.0,<0.8.0",
                                 "dependencies": [
                                     {
@@ -11604,7 +11604,7 @@
                             {
                                 "key": "catalogue",
                                 "package_name": "catalogue",
-                                "installed_version": "2.0.6",
+                                "installed_version": "2.0.7",
                                 "required_version": ">=2.0.4,<2.1.0",
                                 "dependencies": []
                             },
@@ -11682,7 +11682,7 @@
                                     {
                                         "key": "catalogue",
                                         "package_name": "catalogue",
-                                        "installed_version": "2.0.6",
+                                        "installed_version": "2.0.7",
                                         "required_version": ">=2.0.3,<2.1.0",
                                         "dependencies": []
                                     }
@@ -11700,7 +11700,7 @@
                     {
                         "key": "tqdm",
                         "package_name": "tqdm",
-                        "installed_version": "4.63.0",
+                        "installed_version": "4.63.1",
                         "required_version": ">=4.38.0,<5.0.0",
                         "dependencies": []
                     },
@@ -12204,7 +12204,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -12359,7 +12359,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": ">=4.36.1",
                 "dependencies": []
             }
@@ -12401,7 +12401,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -12696,14 +12696,14 @@
             {
                 "key": "itsdangerous",
                 "package_name": "itsdangerous",
-                "installed_version": "2.1.1",
+                "installed_version": "2.1.2",
                 "required_version": ">=2.0",
                 "dependencies": []
             },
             {
                 "key": "jinja2",
                 "package_name": "Jinja2",
-                "installed_version": "3.0.3",
+                "installed_version": "3.1.0",
                 "required_version": ">=3.0",
                 "dependencies": [
                     {
@@ -12746,14 +12746,14 @@
                     {
                         "key": "itsdangerous",
                         "package_name": "itsdangerous",
-                        "installed_version": "2.1.1",
+                        "installed_version": "2.1.2",
                         "required_version": ">=2.0",
                         "dependencies": []
                     },
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=3.0",
                         "dependencies": [
                             {
@@ -12798,14 +12798,14 @@
                     {
                         "key": "itsdangerous",
                         "package_name": "itsdangerous",
-                        "installed_version": "2.1.1",
+                        "installed_version": "2.1.2",
                         "required_version": ">=2.0",
                         "dependencies": []
                     },
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=3.0",
                         "dependencies": [
                             {
@@ -12857,14 +12857,14 @@
                     {
                         "key": "itsdangerous",
                         "package_name": "itsdangerous",
-                        "installed_version": "2.1.1",
+                        "installed_version": "2.1.2",
                         "required_version": ">=2.0",
                         "dependencies": []
                     },
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=3.0",
                         "dependencies": [
                             {
@@ -12909,14 +12909,14 @@
                     {
                         "key": "itsdangerous",
                         "package_name": "itsdangerous",
-                        "installed_version": "2.1.1",
+                        "installed_version": "2.1.2",
                         "required_version": ">=2.0",
                         "dependencies": []
                     },
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=3.0",
                         "dependencies": [
                             {
@@ -12968,14 +12968,14 @@
                     {
                         "key": "itsdangerous",
                         "package_name": "itsdangerous",
-                        "installed_version": "2.1.1",
+                        "installed_version": "2.1.2",
                         "required_version": ">=2.0",
                         "dependencies": []
                     },
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=3.0",
                         "dependencies": [
                             {
@@ -13020,14 +13020,14 @@
                     {
                         "key": "itsdangerous",
                         "package_name": "itsdangerous",
-                        "installed_version": "2.1.1",
+                        "installed_version": "2.1.2",
                         "required_version": ">=2.0",
                         "dependencies": []
                     },
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=3.0",
                         "dependencies": [
                             {
@@ -13236,8 +13236,8 @@
     {
         "key": "fonttools",
         "package_name": "fonttools",
-        "installed_version": "4.31.1",
-        "required_version": "4.31.1",
+        "installed_version": "4.31.2",
+        "required_version": "4.31.2",
         "dependencies": []
     },
     {
@@ -13525,14 +13525,14 @@
                     {
                         "key": "itsdangerous",
                         "package_name": "itsdangerous",
-                        "installed_version": "2.1.1",
+                        "installed_version": "2.1.2",
                         "required_version": ">=2.0",
                         "dependencies": []
                     },
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=3.0",
                         "dependencies": [
                             {
@@ -15045,8 +15045,8 @@
     {
         "key": "gradio",
         "package_name": "gradio",
-        "installed_version": "2.8.12",
-        "required_version": "2.8.12",
+        "installed_version": "2.8.14",
+        "required_version": "2.8.14",
         "dependencies": [
             {
                 "key": "aiohttp",
@@ -15306,7 +15306,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -16173,7 +16173,7 @@
                             {
                                 "key": "jinja2",
                                 "package_name": "Jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=2.9",
                                 "dependencies": [
                                     {
@@ -16336,7 +16336,7 @@
                     {
                         "key": "tqdm",
                         "package_name": "tqdm",
-                        "installed_version": "4.63.0",
+                        "installed_version": "4.63.1",
                         "required_version": ">=4.48.0",
                         "dependencies": []
                     }
@@ -16607,7 +16607,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": "Any",
                 "dependencies": []
             },
@@ -17137,7 +17137,7 @@
             {
                 "key": "debugpy",
                 "package_name": "debugpy",
-                "installed_version": "1.5.1",
+                "installed_version": "1.6.0",
                 "required_version": ">=1.0.0,<2.0",
                 "dependencies": []
             },
@@ -17596,7 +17596,7 @@
                     {
                         "key": "debugpy",
                         "package_name": "debugpy",
-                        "installed_version": "1.5.1",
+                        "installed_version": "1.6.0",
                         "required_version": ">=1.0.0,<2.0",
                         "dependencies": []
                     },
@@ -18158,7 +18158,7 @@
                                     {
                                         "key": "debugpy",
                                         "package_name": "debugpy",
-                                        "installed_version": "1.5.1",
+                                        "installed_version": "1.6.0",
                                         "required_version": ">=1.0.0,<2.0",
                                         "dependencies": []
                                     },
@@ -18444,7 +18444,7 @@
                             {
                                 "key": "jinja2",
                                 "package_name": "jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
@@ -18619,7 +18619,7 @@
                                     {
                                         "key": "jinja2",
                                         "package_name": "jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": ">=2.4",
                                         "dependencies": [
                                             {
@@ -19044,8 +19044,8 @@
     {
         "key": "itsdangerous",
         "package_name": "itsdangerous",
-        "installed_version": "2.1.1",
-        "required_version": "2.1.1",
+        "installed_version": "2.1.2",
+        "required_version": "2.1.2",
         "dependencies": []
     },
     {
@@ -19147,8 +19147,8 @@
     {
         "key": "jinja2",
         "package_name": "Jinja2",
-        "installed_version": "3.0.3",
-        "required_version": "3.0.3",
+        "installed_version": "3.1.0",
+        "required_version": "3.1.0",
         "dependencies": [
             {
                 "key": "markupsafe",
@@ -19370,7 +19370,7 @@
                     {
                         "key": "debugpy",
                         "package_name": "debugpy",
-                        "installed_version": "1.5.1",
+                        "installed_version": "1.6.0",
                         "required_version": ">=1.0.0,<2.0",
                         "dependencies": []
                     },
@@ -19668,7 +19668,7 @@
                             {
                                 "key": "debugpy",
                                 "package_name": "debugpy",
-                                "installed_version": "1.5.1",
+                                "installed_version": "1.6.0",
                                 "required_version": ">=1.0.0,<2.0",
                                 "dependencies": []
                             },
@@ -20230,7 +20230,7 @@
                                             {
                                                 "key": "debugpy",
                                                 "package_name": "debugpy",
-                                                "installed_version": "1.5.1",
+                                                "installed_version": "1.6.0",
                                                 "required_version": ">=1.0.0,<2.0",
                                                 "dependencies": []
                                             },
@@ -20516,7 +20516,7 @@
                                     {
                                         "key": "jinja2",
                                         "package_name": "jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
@@ -20691,7 +20691,7 @@
                                             {
                                                 "key": "jinja2",
                                                 "package_name": "jinja2",
-                                                "installed_version": "3.0.3",
+                                                "installed_version": "3.1.0",
                                                 "required_version": ">=2.4",
                                                 "dependencies": [
                                                     {
@@ -21113,7 +21113,7 @@
                             {
                                 "key": "debugpy",
                                 "package_name": "debugpy",
-                                "installed_version": "1.5.1",
+                                "installed_version": "1.6.0",
                                 "required_version": ">=1.0.0,<2.0",
                                 "dependencies": []
                             },
@@ -21715,7 +21715,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=2.4",
                         "dependencies": [
                             {
@@ -22046,7 +22046,7 @@
                             {
                                 "key": "debugpy",
                                 "package_name": "debugpy",
-                                "installed_version": "1.5.1",
+                                "installed_version": "1.6.0",
                                 "required_version": ">=1.0.0,<2.0",
                                 "dependencies": []
                             },
@@ -22332,7 +22332,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -22507,7 +22507,7 @@
                             {
                                 "key": "jinja2",
                                 "package_name": "jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=2.4",
                                 "dependencies": [
                                     {
@@ -22925,7 +22925,7 @@
                             {
                                 "key": "debugpy",
                                 "package_name": "debugpy",
-                                "installed_version": "1.5.1",
+                                "installed_version": "1.6.0",
                                 "required_version": ">=1.0.0,<2.0",
                                 "dependencies": []
                             },
@@ -23359,7 +23359,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=2.9",
                         "dependencies": [
                             {
@@ -23445,7 +23445,7 @@
                             {
                                 "key": "debugpy",
                                 "package_name": "debugpy",
-                                "installed_version": "1.5.1",
+                                "installed_version": "1.6.0",
                                 "required_version": ">=1.0.0,<2.0",
                                 "dependencies": []
                             },
@@ -24007,7 +24007,7 @@
                                             {
                                                 "key": "debugpy",
                                                 "package_name": "debugpy",
-                                                "installed_version": "1.5.1",
+                                                "installed_version": "1.6.0",
                                                 "required_version": ">=1.0.0,<2.0",
                                                 "dependencies": []
                                             },
@@ -24293,7 +24293,7 @@
                                     {
                                         "key": "jinja2",
                                         "package_name": "jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
@@ -24468,7 +24468,7 @@
                                             {
                                                 "key": "jinja2",
                                                 "package_name": "jinja2",
-                                                "installed_version": "3.0.3",
+                                                "installed_version": "3.1.0",
                                                 "required_version": ">=2.4",
                                                 "dependencies": [
                                                     {
@@ -24965,7 +24965,7 @@
                     {
                         "key": "debugpy",
                         "package_name": "debugpy",
-                        "installed_version": "1.5.1",
+                        "installed_version": "1.6.0",
                         "required_version": ">=1.0.0,<2.0",
                         "dependencies": []
                     },
@@ -25563,14 +25563,14 @@
                             {
                                 "key": "itsdangerous",
                                 "package_name": "itsdangerous",
-                                "installed_version": "2.1.1",
+                                "installed_version": "2.1.2",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             },
                             {
                                 "key": "jinja2",
                                 "package_name": "Jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=3.0",
                                 "dependencies": [
                                     {
@@ -25620,14 +25620,14 @@
                                     {
                                         "key": "itsdangerous",
                                         "package_name": "itsdangerous",
-                                        "installed_version": "2.1.1",
+                                        "installed_version": "2.1.2",
                                         "required_version": ">=2.0",
                                         "dependencies": []
                                     },
                                     {
                                         "key": "jinja2",
                                         "package_name": "Jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": ">=3.0",
                                         "dependencies": [
                                             {
@@ -25698,14 +25698,14 @@
                     {
                         "key": "itsdangerous",
                         "package_name": "itsdangerous",
-                        "installed_version": "2.1.1",
+                        "installed_version": "2.1.2",
                         "required_version": ">=2.0",
                         "dependencies": []
                     },
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=3.0",
                         "dependencies": [
                             {
@@ -25742,7 +25742,7 @@
                     {
                         "key": "debugpy",
                         "package_name": "debugpy",
-                        "installed_version": "1.5.1",
+                        "installed_version": "1.6.0",
                         "required_version": ">=1.0.0,<2.0",
                         "dependencies": []
                     },
@@ -26354,7 +26354,7 @@
             {
                 "key": "jinja2",
                 "package_name": "jinja2",
-                "installed_version": "3.0.3",
+                "installed_version": "3.1.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -26529,7 +26529,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=2.4",
                         "dependencies": [
                             {
@@ -27088,7 +27088,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -27263,7 +27263,7 @@
                             {
                                 "key": "jinja2",
                                 "package_name": "jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=2.4",
                                 "dependencies": [
                                     {
@@ -27846,7 +27846,7 @@
             {
                 "key": "jinja2",
                 "package_name": "jinja2",
-                "installed_version": "3.0.3",
+                "installed_version": "3.1.0",
                 "required_version": ">=2.1",
                 "dependencies": [
                     {
@@ -27935,7 +27935,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -28110,7 +28110,7 @@
                             {
                                 "key": "jinja2",
                                 "package_name": "jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=2.4",
                                 "dependencies": [
                                     {
@@ -28552,7 +28552,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=3.0.3",
                         "dependencies": [
                             {
@@ -28655,7 +28655,7 @@
                             {
                                 "key": "jinja2",
                                 "package_name": "jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
@@ -28830,7 +28830,7 @@
                                     {
                                         "key": "jinja2",
                                         "package_name": "jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": ">=2.4",
                                         "dependencies": [
                                             {
@@ -29362,7 +29362,7 @@
                             {
                                 "key": "jinja2",
                                 "package_name": "jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
@@ -29537,7 +29537,7 @@
                                     {
                                         "key": "jinja2",
                                         "package_name": "jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": ">=2.4",
                                         "dependencies": [
                                             {
@@ -30001,7 +30001,7 @@
                                     {
                                         "key": "debugpy",
                                         "package_name": "debugpy",
-                                        "installed_version": "1.5.1",
+                                        "installed_version": "1.6.0",
                                         "required_version": ">=1.0.0,<2.0",
                                         "dependencies": []
                                     },
@@ -30287,7 +30287,7 @@
                             {
                                 "key": "jinja2",
                                 "package_name": "jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
@@ -30462,7 +30462,7 @@
                                     {
                                         "key": "jinja2",
                                         "package_name": "jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": ">=2.4",
                                         "dependencies": [
                                             {
@@ -30926,7 +30926,7 @@
                                     {
                                         "key": "jinja2",
                                         "package_name": "jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
@@ -31101,7 +31101,7 @@
                                             {
                                                 "key": "jinja2",
                                                 "package_name": "jinja2",
-                                                "installed_version": "3.0.3",
+                                                "installed_version": "3.1.0",
                                                 "required_version": ">=2.4",
                                                 "dependencies": [
                                                     {
@@ -31586,7 +31586,7 @@
             {
                 "key": "jinja2",
                 "package_name": "jinja2",
-                "installed_version": "3.0.3",
+                "installed_version": "3.1.0",
                 "required_version": ">=3.0.3",
                 "dependencies": [
                     {
@@ -31689,7 +31689,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -31864,7 +31864,7 @@
                             {
                                 "key": "jinja2",
                                 "package_name": "jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=2.4",
                                 "dependencies": [
                                     {
@@ -32424,7 +32424,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": "Any",
                 "dependencies": []
             },
@@ -33581,7 +33581,7 @@
             {
                 "key": "fonttools",
                 "package_name": "fonttools",
-                "installed_version": "4.31.1",
+                "installed_version": "4.31.2",
                 "required_version": ">=4.22.0",
                 "dependencies": []
             },
@@ -33792,7 +33792,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -33900,7 +33900,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.1",
+                                "installed_version": "4.31.2",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -34369,14 +34369,14 @@
                     {
                         "key": "itsdangerous",
                         "package_name": "itsdangerous",
-                        "installed_version": "2.1.1",
+                        "installed_version": "2.1.2",
                         "required_version": ">=2.0",
                         "dependencies": []
                     },
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=3.0",
                         "dependencies": [
                             {
@@ -34531,14 +34531,14 @@
                             {
                                 "key": "itsdangerous",
                                 "package_name": "itsdangerous",
-                                "installed_version": "2.1.1",
+                                "installed_version": "2.1.2",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             },
                             {
                                 "key": "jinja2",
                                 "package_name": "Jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=3.0",
                                 "dependencies": [
                                     {
@@ -34708,7 +34708,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -34927,7 +34927,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -35237,8 +35237,8 @@
     {
         "key": "mypy",
         "package_name": "mypy",
-        "installed_version": "0.941",
-        "required_version": "0.941",
+        "installed_version": "0.942",
+        "required_version": "0.942",
         "dependencies": [
             {
                 "key": "mypy-extensions",
@@ -35338,7 +35338,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -35513,7 +35513,7 @@
                             {
                                 "key": "jinja2",
                                 "package_name": "jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=2.4",
                                 "dependencies": [
                                     {
@@ -35977,7 +35977,7 @@
                             {
                                 "key": "debugpy",
                                 "package_name": "debugpy",
-                                "installed_version": "1.5.1",
+                                "installed_version": "1.6.0",
                                 "required_version": ">=1.0.0,<2.0",
                                 "dependencies": []
                             },
@@ -36263,7 +36263,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -36438,7 +36438,7 @@
                             {
                                 "key": "jinja2",
                                 "package_name": "jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=2.4",
                                 "dependencies": [
                                     {
@@ -36902,7 +36902,7 @@
                             {
                                 "key": "jinja2",
                                 "package_name": "jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
@@ -37077,7 +37077,7 @@
                                     {
                                         "key": "jinja2",
                                         "package_name": "jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": ">=2.4",
                                         "dependencies": [
                                             {
@@ -37714,7 +37714,7 @@
             {
                 "key": "jinja2",
                 "package_name": "jinja2",
-                "installed_version": "3.0.3",
+                "installed_version": "3.1.0",
                 "required_version": ">=2.4",
                 "dependencies": [
                     {
@@ -38060,7 +38060,7 @@
             {
                 "key": "jinja2",
                 "package_name": "jinja2",
-                "installed_version": "3.0.3",
+                "installed_version": "3.1.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -38147,7 +38147,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=2.4",
                         "dependencies": [
                             {
@@ -38537,7 +38537,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=2.3",
                         "dependencies": [
                             {
@@ -38990,7 +38990,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": "Any",
                 "dependencies": []
             }
@@ -39071,7 +39071,7 @@
                     {
                         "key": "debugpy",
                         "package_name": "debugpy",
-                        "installed_version": "1.5.1",
+                        "installed_version": "1.6.0",
                         "required_version": ">=1.0.0,<2.0",
                         "dependencies": []
                     },
@@ -39357,7 +39357,7 @@
             {
                 "key": "jinja2",
                 "package_name": "jinja2",
-                "installed_version": "3.0.3",
+                "installed_version": "3.1.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -39532,7 +39532,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=2.4",
                         "dependencies": [
                             {
@@ -39996,7 +39996,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -40171,7 +40171,7 @@
                             {
                                 "key": "jinja2",
                                 "package_name": "jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=2.4",
                                 "dependencies": [
                                     {
@@ -41172,7 +41172,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": "Any",
                 "dependencies": []
             }
@@ -41328,7 +41328,7 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.19.3",
+                "required_version": ">=1.14.5",
                 "dependencies": []
             },
             {
@@ -41342,7 +41342,7 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
+                "required_version": ">=1.19.3",
                 "dependencies": []
             }
         ]
@@ -41357,7 +41357,7 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.19.3",
+                "required_version": ">=1.14.5",
                 "dependencies": []
             },
             {
@@ -41371,7 +41371,7 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
+                "required_version": ">=1.19.3",
                 "dependencies": []
             }
         ]
@@ -42474,7 +42474,7 @@
                     {
                         "key": "pyluach",
                         "package_name": "pyluach",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.1",
                         "required_version": "Any",
                         "dependencies": []
                     },
@@ -42586,7 +42586,7 @@
             {
                 "key": "jinja2",
                 "package_name": "jinja2",
-                "installed_version": "3.0.3",
+                "installed_version": "3.1.0",
                 "required_version": ">=2.11.1",
                 "dependencies": [
                     {
@@ -42628,7 +42628,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -42714,7 +42714,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.1",
+                                "installed_version": "4.31.2",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -42822,7 +42822,7 @@
                                     {
                                         "key": "fonttools",
                                         "package_name": "fonttools",
-                                        "installed_version": "4.31.1",
+                                        "installed_version": "4.31.2",
                                         "required_version": ">=4.22.0",
                                         "dependencies": []
                                     },
@@ -43029,7 +43029,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.1",
+                                "installed_version": "4.31.2",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -43249,7 +43249,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.1",
+                                "installed_version": "4.31.2",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -43384,7 +43384,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": ">=4.48.2",
                 "dependencies": []
             },
@@ -43558,7 +43558,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=2.9",
                         "dependencies": [
                             {
@@ -43721,7 +43721,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": ">=4.48.0",
                 "dependencies": []
             }
@@ -43848,7 +43848,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": "Any",
                 "dependencies": []
             }
@@ -44144,7 +44144,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -44807,14 +44807,14 @@
                     {
                         "key": "itsdangerous",
                         "package_name": "itsdangerous",
-                        "installed_version": "2.1.1",
+                        "installed_version": "2.1.2",
                         "required_version": ">=2.0",
                         "dependencies": []
                     },
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=3.0",
                         "dependencies": [
                             {
@@ -45319,7 +45319,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.1",
+                                "installed_version": "4.31.2",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -45670,7 +45670,7 @@
                                     {
                                         "key": "debugpy",
                                         "package_name": "debugpy",
-                                        "installed_version": "1.5.1",
+                                        "installed_version": "1.6.0",
                                         "required_version": ">=1.0.0,<2.0",
                                         "dependencies": []
                                     },
@@ -46232,7 +46232,7 @@
                                                     {
                                                         "key": "debugpy",
                                                         "package_name": "debugpy",
-                                                        "installed_version": "1.5.1",
+                                                        "installed_version": "1.6.0",
                                                         "required_version": ">=1.0.0,<2.0",
                                                         "dependencies": []
                                                     },
@@ -46518,7 +46518,7 @@
                                             {
                                                 "key": "jinja2",
                                                 "package_name": "jinja2",
-                                                "installed_version": "3.0.3",
+                                                "installed_version": "3.1.0",
                                                 "required_version": "Any",
                                                 "dependencies": [
                                                     {
@@ -46693,7 +46693,7 @@
                                                     {
                                                         "key": "jinja2",
                                                         "package_name": "jinja2",
-                                                        "installed_version": "3.0.3",
+                                                        "installed_version": "3.1.0",
                                                         "required_version": ">=2.4",
                                                         "dependencies": [
                                                             {
@@ -47484,7 +47484,7 @@
                             {
                                 "key": "debugpy",
                                 "package_name": "debugpy",
-                                "installed_version": "1.5.1",
+                                "installed_version": "1.6.0",
                                 "required_version": ">=1.0.0,<2.0",
                                 "dependencies": []
                             },
@@ -48046,7 +48046,7 @@
                                             {
                                                 "key": "debugpy",
                                                 "package_name": "debugpy",
-                                                "installed_version": "1.5.1",
+                                                "installed_version": "1.6.0",
                                                 "required_version": ">=1.0.0,<2.0",
                                                 "dependencies": []
                                             },
@@ -48332,7 +48332,7 @@
                                     {
                                         "key": "jinja2",
                                         "package_name": "jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
@@ -48507,7 +48507,7 @@
                                             {
                                                 "key": "jinja2",
                                                 "package_name": "jinja2",
-                                                "installed_version": "3.0.3",
+                                                "installed_version": "3.1.0",
                                                 "required_version": ">=2.4",
                                                 "dependencies": [
                                                     {
@@ -49092,7 +49092,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -49353,14 +49353,14 @@
                             {
                                 "key": "itsdangerous",
                                 "package_name": "itsdangerous",
-                                "installed_version": "2.1.1",
+                                "installed_version": "2.1.2",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             },
                             {
                                 "key": "jinja2",
                                 "package_name": "Jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=3.0",
                                 "dependencies": [
                                     {
@@ -49515,14 +49515,14 @@
                                     {
                                         "key": "itsdangerous",
                                         "package_name": "itsdangerous",
-                                        "installed_version": "2.1.1",
+                                        "installed_version": "2.1.2",
                                         "required_version": ">=2.0",
                                         "dependencies": []
                                     },
                                     {
                                         "key": "jinja2",
                                         "package_name": "Jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": ">=3.0",
                                         "dependencies": [
                                             {
@@ -49692,7 +49692,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.1",
+                                "installed_version": "4.31.2",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -49898,7 +49898,7 @@
                     {
                         "key": "tqdm",
                         "package_name": "tqdm",
-                        "installed_version": "4.63.0",
+                        "installed_version": "4.63.1",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -49964,7 +49964,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=2.11.1",
                         "dependencies": [
                             {
@@ -50006,7 +50006,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.1",
+                                "installed_version": "4.31.2",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -50092,7 +50092,7 @@
                                     {
                                         "key": "fonttools",
                                         "package_name": "fonttools",
-                                        "installed_version": "4.31.1",
+                                        "installed_version": "4.31.2",
                                         "required_version": ">=4.22.0",
                                         "dependencies": []
                                     },
@@ -50200,7 +50200,7 @@
                                             {
                                                 "key": "fonttools",
                                                 "package_name": "fonttools",
-                                                "installed_version": "4.31.1",
+                                                "installed_version": "4.31.2",
                                                 "required_version": ">=4.22.0",
                                                 "dependencies": []
                                             },
@@ -50407,7 +50407,7 @@
                                     {
                                         "key": "fonttools",
                                         "package_name": "fonttools",
-                                        "installed_version": "4.31.1",
+                                        "installed_version": "4.31.2",
                                         "required_version": ">=4.22.0",
                                         "dependencies": []
                                     },
@@ -50627,7 +50627,7 @@
                                     {
                                         "key": "fonttools",
                                         "package_name": "fonttools",
-                                        "installed_version": "4.31.1",
+                                        "installed_version": "4.31.2",
                                         "required_version": ">=4.22.0",
                                         "dependencies": []
                                     },
@@ -50762,7 +50762,7 @@
                     {
                         "key": "tqdm",
                         "package_name": "tqdm",
-                        "installed_version": "4.63.0",
+                        "installed_version": "4.63.1",
                         "required_version": ">=4.48.2",
                         "dependencies": []
                     },
@@ -50901,7 +50901,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=2.7.2",
                         "dependencies": [
                             {
@@ -51047,7 +51047,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.1",
+                                "installed_version": "4.31.2",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -51392,7 +51392,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.1",
+                                "installed_version": "4.31.2",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -51539,7 +51539,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.1",
+                                "installed_version": "4.31.2",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -51673,7 +51673,7 @@
                     {
                         "key": "blis",
                         "package_name": "blis",
-                        "installed_version": "0.7.6",
+                        "installed_version": "0.7.7",
                         "required_version": ">=0.4.0,<0.8.0",
                         "dependencies": [
                             {
@@ -51688,7 +51688,7 @@
                     {
                         "key": "catalogue",
                         "package_name": "catalogue",
-                        "installed_version": "2.0.6",
+                        "installed_version": "2.0.7",
                         "required_version": ">=2.0.6,<2.1.0",
                         "dependencies": []
                     },
@@ -51702,7 +51702,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -51891,7 +51891,7 @@
                             {
                                 "key": "catalogue",
                                 "package_name": "catalogue",
-                                "installed_version": "2.0.6",
+                                "installed_version": "2.0.7",
                                 "required_version": ">=2.0.3,<2.1.0",
                                 "dependencies": []
                             }
@@ -51906,7 +51906,7 @@
                             {
                                 "key": "blis",
                                 "package_name": "blis",
-                                "installed_version": "0.7.6",
+                                "installed_version": "0.7.7",
                                 "required_version": ">=0.4.0,<0.8.0",
                                 "dependencies": [
                                     {
@@ -51921,7 +51921,7 @@
                             {
                                 "key": "catalogue",
                                 "package_name": "catalogue",
-                                "installed_version": "2.0.6",
+                                "installed_version": "2.0.7",
                                 "required_version": ">=2.0.4,<2.1.0",
                                 "dependencies": []
                             },
@@ -51999,7 +51999,7 @@
                                     {
                                         "key": "catalogue",
                                         "package_name": "catalogue",
-                                        "installed_version": "2.0.6",
+                                        "installed_version": "2.0.7",
                                         "required_version": ">=2.0.3,<2.1.0",
                                         "dependencies": []
                                     }
@@ -52017,7 +52017,7 @@
                     {
                         "key": "tqdm",
                         "package_name": "tqdm",
-                        "installed_version": "4.63.0",
+                        "installed_version": "4.63.1",
                         "required_version": ">=4.38.0,<5.0.0",
                         "dependencies": []
                     },
@@ -52081,7 +52081,7 @@
                             {
                                 "key": "tqdm",
                                 "package_name": "tqdm",
-                                "installed_version": "4.63.0",
+                                "installed_version": "4.63.1",
                                 "required_version": "Any",
                                 "dependencies": []
                             }
@@ -52303,7 +52303,7 @@
                     {
                         "key": "tqdm",
                         "package_name": "tqdm",
-                        "installed_version": "4.63.0",
+                        "installed_version": "4.63.1",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -52331,7 +52331,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.1",
+                                "installed_version": "4.31.2",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -52470,7 +52470,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.1",
+                                "installed_version": "4.31.2",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -52626,7 +52626,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -52760,8 +52760,8 @@
     {
         "key": "pydata-sphinx-theme",
         "package_name": "pydata-sphinx-theme",
-        "installed_version": "0.8.0",
-        "required_version": "0.8.0",
+        "installed_version": "0.8.1",
+        "required_version": "0.8.1",
         "dependencies": [
             {
                 "key": "beautifulsoup4",
@@ -52786,10 +52786,25 @@
                 "dependencies": []
             },
             {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "21.3",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "pyparsing",
+                        "package_name": "pyparsing",
+                        "installed_version": "3.0.7",
+                        "required_version": ">=2.0.2,!=3.0.5",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
                 "key": "sphinx",
                 "package_name": "sphinx",
                 "installed_version": "4.4.0",
-                "required_version": "Any",
+                "required_version": ">=3.5.4,<5",
                 "dependencies": [
                     {
                         "key": "alabaster",
@@ -52845,7 +52860,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=2.3",
                         "dependencies": [
                             {
@@ -52990,7 +53005,7 @@
                     {
                         "key": "debugpy",
                         "package_name": "debugpy",
-                        "installed_version": "1.5.1",
+                        "installed_version": "1.6.0",
                         "required_version": ">=1.0.0,<2.0",
                         "dependencies": []
                     },
@@ -53288,7 +53303,7 @@
                             {
                                 "key": "debugpy",
                                 "package_name": "debugpy",
-                                "installed_version": "1.5.1",
+                                "installed_version": "1.6.0",
                                 "required_version": ">=1.0.0,<2.0",
                                 "dependencies": []
                             },
@@ -53850,7 +53865,7 @@
                                             {
                                                 "key": "debugpy",
                                                 "package_name": "debugpy",
-                                                "installed_version": "1.5.1",
+                                                "installed_version": "1.6.0",
                                                 "required_version": ">=1.0.0,<2.0",
                                                 "dependencies": []
                                             },
@@ -54136,7 +54151,7 @@
                                     {
                                         "key": "jinja2",
                                         "package_name": "jinja2",
-                                        "installed_version": "3.0.3",
+                                        "installed_version": "3.1.0",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
@@ -54311,7 +54326,7 @@
                                             {
                                                 "key": "jinja2",
                                                 "package_name": "jinja2",
-                                                "installed_version": "3.0.3",
+                                                "installed_version": "3.1.0",
                                                 "required_version": ">=2.4",
                                                 "dependencies": [
                                                     {
@@ -54714,7 +54729,7 @@
             {
                 "key": "jinja2",
                 "package_name": "jinja2",
-                "installed_version": "3.0.3",
+                "installed_version": "3.1.0",
                 "required_version": ">=2.10.1",
                 "dependencies": [
                     {
@@ -55139,7 +55154,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -55335,7 +55350,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.1",
+                                "installed_version": "4.31.2",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -55626,7 +55641,7 @@
             {
                 "key": "pyinstaller-hooks-contrib",
                 "package_name": "pyinstaller-hooks-contrib",
-                "installed_version": "2022.2",
+                "installed_version": "2022.3",
                 "required_version": ">=2020.6",
                 "dependencies": []
             },
@@ -55642,8 +55657,8 @@
     {
         "key": "pyinstaller-hooks-contrib",
         "package_name": "pyinstaller-hooks-contrib",
-        "installed_version": "2022.2",
-        "required_version": "2022.2",
+        "installed_version": "2022.3",
+        "required_version": "2022.3",
         "dependencies": []
     },
     {
@@ -55691,7 +55706,7 @@
             {
                 "key": "jinja2",
                 "package_name": "jinja2",
-                "installed_version": "3.0.3",
+                "installed_version": "3.1.0",
                 "required_version": ">=2.7.2",
                 "dependencies": [
                     {
@@ -55811,8 +55826,8 @@
     {
         "key": "pyluach",
         "package_name": "pyluach",
-        "installed_version": "1.4.0",
-        "required_version": "1.4.0",
+        "installed_version": "1.4.1",
+        "required_version": "1.4.1",
         "dependencies": []
     },
     {
@@ -55998,7 +56013,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -56805,7 +56820,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": ">=4.36",
                 "dependencies": []
             }
@@ -56915,8 +56930,8 @@
     {
         "key": "pytest-asyncio",
         "package_name": "pytest-asyncio",
-        "installed_version": "0.18.2",
-        "required_version": "0.18.2",
+        "installed_version": "0.18.3",
+        "required_version": "0.18.3",
         "dependencies": [
             {
                 "key": "pytest",
@@ -57536,7 +57551,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": ">=4.41.0",
                 "dependencies": []
             },
@@ -57800,7 +57815,7 @@
                     {
                         "key": "debugpy",
                         "package_name": "debugpy",
-                        "installed_version": "1.5.1",
+                        "installed_version": "1.6.0",
                         "required_version": ">=1.0.0,<2.0",
                         "dependencies": []
                     },
@@ -58952,7 +58967,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=2.3",
                         "dependencies": [
                             {
@@ -59698,7 +59713,7 @@
                     {
                         "key": "tqdm",
                         "package_name": "tqdm",
-                        "installed_version": "4.63.0",
+                        "installed_version": "4.63.1",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -59889,7 +59904,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": "Any",
                 "dependencies": []
             }
@@ -60086,7 +60101,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -60388,7 +60403,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -61040,7 +61055,7 @@
             {
                 "key": "blis",
                 "package_name": "blis",
-                "installed_version": "0.7.6",
+                "installed_version": "0.7.7",
                 "required_version": ">=0.4.0,<0.8.0",
                 "dependencies": [
                     {
@@ -61055,7 +61070,7 @@
             {
                 "key": "catalogue",
                 "package_name": "catalogue",
-                "installed_version": "2.0.6",
+                "installed_version": "2.0.7",
                 "required_version": ">=2.0.6,<2.1.0",
                 "dependencies": []
             },
@@ -61069,7 +61084,7 @@
             {
                 "key": "jinja2",
                 "package_name": "jinja2",
-                "installed_version": "3.0.3",
+                "installed_version": "3.1.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -61258,7 +61273,7 @@
                     {
                         "key": "catalogue",
                         "package_name": "catalogue",
-                        "installed_version": "2.0.6",
+                        "installed_version": "2.0.7",
                         "required_version": ">=2.0.3,<2.1.0",
                         "dependencies": []
                     }
@@ -61273,7 +61288,7 @@
                     {
                         "key": "blis",
                         "package_name": "blis",
-                        "installed_version": "0.7.6",
+                        "installed_version": "0.7.7",
                         "required_version": ">=0.4.0,<0.8.0",
                         "dependencies": [
                             {
@@ -61288,7 +61303,7 @@
                     {
                         "key": "catalogue",
                         "package_name": "catalogue",
-                        "installed_version": "2.0.6",
+                        "installed_version": "2.0.7",
                         "required_version": ">=2.0.4,<2.1.0",
                         "dependencies": []
                     },
@@ -61366,7 +61381,7 @@
                             {
                                 "key": "catalogue",
                                 "package_name": "catalogue",
-                                "installed_version": "2.0.6",
+                                "installed_version": "2.0.7",
                                 "required_version": ">=2.0.3,<2.1.0",
                                 "dependencies": []
                             }
@@ -61384,7 +61399,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": ">=4.38.0,<5.0.0",
                 "dependencies": []
             },
@@ -61449,7 +61464,7 @@
                     {
                         "key": "blis",
                         "package_name": "blis",
-                        "installed_version": "0.7.6",
+                        "installed_version": "0.7.7",
                         "required_version": ">=0.4.0,<0.8.0",
                         "dependencies": [
                             {
@@ -61464,7 +61479,7 @@
                     {
                         "key": "catalogue",
                         "package_name": "catalogue",
-                        "installed_version": "2.0.6",
+                        "installed_version": "2.0.7",
                         "required_version": ">=2.0.6,<2.1.0",
                         "dependencies": []
                     },
@@ -61478,7 +61493,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -61667,7 +61682,7 @@
                             {
                                 "key": "catalogue",
                                 "package_name": "catalogue",
-                                "installed_version": "2.0.6",
+                                "installed_version": "2.0.7",
                                 "required_version": ">=2.0.3,<2.1.0",
                                 "dependencies": []
                             }
@@ -61682,7 +61697,7 @@
                             {
                                 "key": "blis",
                                 "package_name": "blis",
-                                "installed_version": "0.7.6",
+                                "installed_version": "0.7.7",
                                 "required_version": ">=0.4.0,<0.8.0",
                                 "dependencies": [
                                     {
@@ -61697,7 +61712,7 @@
                             {
                                 "key": "catalogue",
                                 "package_name": "catalogue",
-                                "installed_version": "2.0.6",
+                                "installed_version": "2.0.7",
                                 "required_version": ">=2.0.4,<2.1.0",
                                 "dependencies": []
                             },
@@ -61775,7 +61790,7 @@
                                     {
                                         "key": "catalogue",
                                         "package_name": "catalogue",
-                                        "installed_version": "2.0.6",
+                                        "installed_version": "2.0.7",
                                         "required_version": ">=2.0.3,<2.1.0",
                                         "dependencies": []
                                     }
@@ -61793,7 +61808,7 @@
                     {
                         "key": "tqdm",
                         "package_name": "tqdm",
-                        "installed_version": "4.63.0",
+                        "installed_version": "4.63.1",
                         "required_version": ">=4.38.0,<5.0.0",
                         "dependencies": []
                     },
@@ -61857,7 +61872,7 @@
                             {
                                 "key": "tqdm",
                                 "package_name": "tqdm",
-                                "installed_version": "4.63.0",
+                                "installed_version": "4.63.1",
                                 "required_version": "Any",
                                 "dependencies": []
                             }
@@ -61957,7 +61972,7 @@
             {
                 "key": "jinja2",
                 "package_name": "Jinja2",
-                "installed_version": "3.0.3",
+                "installed_version": "3.1.0",
                 "required_version": ">=2.3",
                 "dependencies": [
                     {
@@ -62173,7 +62188,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=2.3",
                         "dependencies": [
                             {
@@ -62362,7 +62377,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=2.3",
                         "dependencies": [
                             {
@@ -62589,7 +62604,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=2.3",
                         "dependencies": [
                             {
@@ -62785,7 +62800,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "Jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": ">=2.3",
                         "dependencies": [
                             {
@@ -62981,7 +62996,7 @@
             {
                 "key": "catalogue",
                 "package_name": "catalogue",
-                "installed_version": "2.0.6",
+                "installed_version": "2.0.7",
                 "required_version": ">=2.0.3,<2.1.0",
                 "dependencies": []
             }
@@ -63038,7 +63053,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -63288,7 +63303,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": "Any",
                 "dependencies": []
             }
@@ -65050,7 +65065,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": "Any",
                 "dependencies": []
             }
@@ -65810,7 +65825,7 @@
                     {
                         "key": "tqdm",
                         "package_name": "tqdm",
-                        "installed_version": "4.63.0",
+                        "installed_version": "4.63.1",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -66216,7 +66231,7 @@
                     {
                         "key": "tqdm",
                         "package_name": "tqdm",
-                        "installed_version": "4.63.0",
+                        "installed_version": "4.63.1",
                         "required_version": "Any",
                         "dependencies": []
                     },
@@ -66245,7 +66260,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -66393,7 +66408,7 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.19.3",
+                        "required_version": ">=1.14.5",
                         "dependencies": []
                     },
                     {
@@ -66407,7 +66422,7 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
+                        "required_version": ">=1.19.3",
                         "dependencies": []
                     }
                 ]
@@ -66492,7 +66507,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.1",
+                                "installed_version": "4.31.2",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -67400,7 +67415,7 @@
                     {
                         "key": "tqdm",
                         "package_name": "tqdm",
-                        "installed_version": "4.63.0",
+                        "installed_version": "4.63.1",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -68210,7 +68225,7 @@
             {
                 "key": "blis",
                 "package_name": "blis",
-                "installed_version": "0.7.6",
+                "installed_version": "0.7.7",
                 "required_version": ">=0.4.0,<0.8.0",
                 "dependencies": [
                     {
@@ -68225,7 +68240,7 @@
             {
                 "key": "catalogue",
                 "package_name": "catalogue",
-                "installed_version": "2.0.6",
+                "installed_version": "2.0.7",
                 "required_version": ">=2.0.4,<2.1.0",
                 "dependencies": []
             },
@@ -68303,7 +68318,7 @@
                     {
                         "key": "catalogue",
                         "package_name": "catalogue",
-                        "installed_version": "2.0.6",
+                        "installed_version": "2.0.7",
                         "required_version": ">=2.0.3,<2.1.0",
                         "dependencies": []
                     }
@@ -68662,8 +68677,8 @@
     {
         "key": "tqdm",
         "package_name": "tqdm",
-        "installed_version": "4.63.0",
-        "required_version": "4.63.0",
+        "installed_version": "4.63.1",
+        "required_version": "4.63.1",
         "dependencies": []
     },
     {
@@ -68848,7 +68863,7 @@
                     {
                         "key": "tqdm",
                         "package_name": "tqdm",
-                        "installed_version": "4.63.0",
+                        "installed_version": "4.63.1",
                         "required_version": "Any",
                         "dependencies": []
                     },
@@ -68970,7 +68985,7 @@
                     {
                         "key": "tqdm",
                         "package_name": "tqdm",
-                        "installed_version": "4.63.0",
+                        "installed_version": "4.63.1",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -68986,7 +69001,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": ">=4.27",
                 "dependencies": []
             }
@@ -69910,7 +69925,7 @@
             {
                 "key": "tqdm",
                 "package_name": "tqdm",
-                "installed_version": "4.63.0",
+                "installed_version": "4.63.1",
                 "required_version": "Any",
                 "dependencies": []
             }
@@ -70482,7 +70497,7 @@
                             {
                                 "key": "debugpy",
                                 "package_name": "debugpy",
-                                "installed_version": "1.5.1",
+                                "installed_version": "1.6.0",
                                 "required_version": ">=1.0.0,<2.0",
                                 "dependencies": []
                             },
@@ -70768,7 +70783,7 @@
                     {
                         "key": "jinja2",
                         "package_name": "jinja2",
-                        "installed_version": "3.0.3",
+                        "installed_version": "3.1.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -70943,7 +70958,7 @@
                             {
                                 "key": "jinja2",
                                 "package_name": "jinja2",
-                                "installed_version": "3.0.3",
+                                "installed_version": "3.1.0",
                                 "required_version": ">=2.4",
                                 "dependencies": [
                                     {
@@ -71370,7 +71385,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -71767,7 +71782,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.1",
+                        "installed_version": "4.31.2",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },

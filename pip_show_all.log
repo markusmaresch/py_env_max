@@ -589,7 +589,7 @@ Requires:
 Required-by: 
 ---
 Name: blis
-Version: 0.7.6
+Version: 0.7.7
 Summary: The Blis BLAS-like linear algebra library, as a self-contained C-extension.
 Home-page: https://github.com/explosion/cython-blis
 Author: Matthew Honnibal
@@ -749,7 +749,7 @@ Requires:
 Required-by: do-mpc
 ---
 Name: catalogue
-Version: 2.0.6
+Version: 2.0.7
 Summary: Super lightweight function registries for your library
 Home-page: https://github.com/explosion/catalogue
 Author: Explosion
@@ -1419,7 +1419,7 @@ Requires:
 Required-by: 
 ---
 Name: debugpy
-Version: 1.5.1
+Version: 1.6.0
 Summary: An implementation of the Debug Adapter Protocol for Python
 Home-page: https://aka.ms/debugpy
 Author: Microsoft Corporation
@@ -2099,7 +2099,7 @@ Requires: celery humanize prometheus-client pytz tornado
 Required-by: 
 ---
 Name: fonttools
-Version: 4.31.1
+Version: 4.31.2
 Summary: Tools to manipulate font files
 Home-page: http://github.com/fonttools/fonttools
 Author: Just van Rossum
@@ -2429,7 +2429,7 @@ Requires:
 Required-by: 
 ---
 Name: gradio
-Version: 2.8.12
+Version: 2.8.14
 Summary: Python library for easily interacting with trained machine learning models
 Home-page: https://github.com/gradio-app/gradio-UI
 Author: Abubakar Abid, Ali Abid, Ali Abdalla, Dawood Khan, Ahsen Khaliq
@@ -2929,7 +2929,7 @@ Requires: six
 Required-by: agate msrest zeep
 ---
 Name: itsdangerous
-Version: 2.1.1
+Version: 2.1.2
 Summary: Safely pass data to untrusted environments and back.
 Home-page: https://palletsprojects.com/p/itsdangerous/
 Author: Armin Ronacher
@@ -2979,7 +2979,7 @@ Requires:
 Required-by: SecretStorage
 ---
 Name: Jinja2
-Version: 3.0.3
+Version: 3.1.0
 Summary: A very fast and expressive template engine.
 Home-page: https://palletsprojects.com/p/jinja/
 Author: Armin Ronacher
@@ -3879,7 +3879,7 @@ Requires:
 Required-by: preshed spacy thinc
 ---
 Name: mypy
-Version: 0.941
+Version: 0.942
 Summary: Optional static typing for Python
 Home-page: http://www.mypy-lang.org/
 Author: Jukka Lehtosalo
@@ -4366,7 +4366,7 @@ Author: Donald Stufft and individual contributors
 Author-email: donald@stufft.io
 License: BSD-2-Clause or Apache-2.0
 Requires: pyparsing
-Required-by: QtPy Sphinx bleach bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery holoviews huggingface-hub jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nibabel numexpr pipx pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
+Required-by: QtPy Sphinx bleach bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery holoviews huggingface-hub jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nibabel numexpr pipx pydata-sphinx-theme pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
 ---
 Name: pandas
 Version: 1.4.1
@@ -5109,13 +5109,13 @@ Requires: typing-extensions
 Required-by: fastapi pandas-profiling spacy thinc
 ---
 Name: pydata-sphinx-theme
-Version: 0.8.0
+Version: 0.8.1
 Summary: Bootstrap-based Sphinx theme from the PyData community
 Home-page: 
 Author: 
 Author-email: 
 License: 
-Requires: beautifulsoup4 docutils sphinx
+Requires: beautifulsoup4 docutils packaging sphinx
 Required-by: 
 ---
 Name: pydeck
@@ -5249,7 +5249,7 @@ Requires: altgraph macholib pyinstaller-hooks-contrib setuptools
 Required-by: 
 ---
 Name: pyinstaller-hooks-contrib
-Version: 2022.2
+Version: 2022.3
 Summary: Community maintained hooks for PyInstaller
 Home-page: https://github.com/pyinstaller/pyinstaller-hooks-contrib
 Author: 
@@ -5289,7 +5289,7 @@ Requires: funcy future jinja2 joblib numexpr numpy pandas scipy wheel
 Required-by: pycaret
 ---
 Name: pyluach
-Version: 1.4.0
+Version: 1.4.1
 Summary: Pyluach is a Python package for manipulating Hebrew dates,
 Home-page: https://github.com/simlist/pyluach
 Author: MS List
@@ -5559,7 +5559,7 @@ Requires: attrs iniconfig packaging pluggy py tomli
 Required-by: pytest-asyncio
 ---
 Name: pytest-asyncio
-Version: 0.18.2
+Version: 0.18.3
 Summary: Pytest support for asyncio
 Home-page: https://github.com/pytest-dev/pytest-asyncio
 Author: Tin Tvrtković <tinchester@gmail.com>
@@ -7179,7 +7179,7 @@ Requires:
 Required-by: bokeh distributed flower ipykernel jupyter-client jupyter-server jupyterlab livereload luigi notebook streamz terminado
 ---
 Name: tqdm
-Version: 4.63.0
+Version: 4.63.1
 Summary: Fast, Extensible Progress Meter
 Home-page: https://tqdm.github.io
 Author: 
