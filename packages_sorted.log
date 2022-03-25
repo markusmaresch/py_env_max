@@ -576,6 +576,7 @@ requests-file
 requests-oauthlib
 requests-toolbelt
 requests-unixsocket
+responses
 rlr
 rouge-score
 scikit-image
