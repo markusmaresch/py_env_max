@@ -218,7 +218,7 @@ huggingface-hub==0.4.0 # LEVEL_03 # Client library to download and publish model
 #
 xgboost==1.5.2 # LEVEL_03 # check installation notes # XGBoost Python Package
 #
-pyro-ppl==1.8.0 # LEVEL_03 # A Python library for probabilistic modeling and inference
+pyro-ppl==1.8.0 # LEVEL_03 # LOCKED # A Python library for probabilistic modeling and inference
 pyro-api==0.1.2 # LEVEL_01 # Generic API for dispatch to Pyro backends
 #
 pytorch-lightning==1.5.10 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
@@ -357,7 +357,7 @@ imagecodecs-lite==2020.1.31 # LEVEL_03 # The imagecodecs-lite package is depreca
 imagecodecs==2022.2.22 # LEVEL_02 # Image transformation, compression, and decompression codecs
 opencv-python==4.5.5.64 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.5.64 # LEVEL_02 # Wrapper package for OpenCV python bindings
-tifffile==2022.3.16 # LEVEL_02 # Read and write TIFF files
+tifffile==2022.3.25 # LEVEL_02 # Read and write TIFF files
 Pillow==9.0.1 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
 ImageHash==4.2.1 # LEVEL_03 # Image Hashing library
@@ -761,7 +761,7 @@ ipython==8.1.1 # LEVEL_04 # IPython: Productive Interactive Computing
 ipython-genutils==0.2.0 # LEVEL_01 # Vestigial utilities from IPython
 itsdangerous==2.1.2 # LEVEL_01 # Safely pass data to untrusted environments and back
 jedi==0.18.1 # LEVEL_02 # An autocompletion tool for Python that can be used for text editors
-Jinja2==3.1.0 # LEVEL_02 # template engine # A very fast and expressive template engine
+Jinja2==3.1.1 # LEVEL_02 # template engine # A very fast and expressive template engine
 korean-lunar-calendar==0.2.1 # LEVEL_01 # Korean Lunar Calendar
 llvmlite==0.38.0 # LEVEL_01 # lightweight wrapper around basic LLVM functionality
 lxml==4.8.0 # LEVEL_01 # Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API
