@@ -108,6 +108,18 @@ pybullet==3.2.0 # LEVEL_01 # LOCKED # ONLY_OSX # can't update ? # Official Pytho
 #
 PyYAML==5.4 # LEVEL_01 # LOCKED # tf-models-official 2.8.0 depends on pyyaml<6.0 and >=5.1 # YAML parser and emitter for Python
 #
+ray==1.10.0 # LEVEL_04 # LOCKED # Ray provides a simple, universal API for building distributed applications
+#
+pyro-ppl==1.8.0 # LEVEL_03 # LOCKED # A Python library for probabilistic modeling and inference
+#
+grpcio-status==1.44.0 # LEVEL_03 # LOCKED # Status proto mapping for gRPC
+#
+jupyter-packaging==0.11.1 # LEVEL_04 # LOCKED # Jupyter Packaging Utilities
+#
+tbb==2021.5.0 # LEVEL_01 # LOCKED # ONLY_OSX # Intel® oneAPI Threading Building Blocks (oneTBB)
+#
+intel-openmp==2022.0.0 # LEVEL_01 # LOCKED # Intel® OpenMP* Runtime Library
+#
 #
 # Former LOCKED .. now freed ;-)
 #
@@ -178,7 +190,6 @@ box2d-py==2.3.8 # LEVEL_01 # ONLY_OSX # Python Box2D
 #ccxt==1.58.26 # LEVEL_01
 #
 wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
-ray==1.10.0 # LEVEL_04 # LOCKED # Ray provides a simple, universal API for building distributed applications
 redis==4.2.0 # LEVEL_03 # Python client for Redis database and key-value store
 lz4==4.0.0 # LEVEL_01 # LZ4 Bindings for Python
 GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status from NVIDA GPUs using nvidia-smi
@@ -218,7 +229,6 @@ huggingface-hub==0.4.0 # LEVEL_03 # Client library to download and publish model
 #
 xgboost==1.5.2 # LEVEL_03 # check installation notes # XGBoost Python Package
 #
-pyro-ppl==1.8.0 # LEVEL_03 # LOCKED # A Python library for probabilistic modeling and inference
 pyro-api==0.1.2 # LEVEL_01 # Generic API for dispatch to Pyro backends
 #
 pytorch-lightning==1.5.10 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
@@ -519,7 +529,6 @@ jupyterlab-server==2.11.2 # LEVEL_07 # A set of server components for JupyterLab
 jupyter-dash==0.4.1 # LEVEL_06 # Dash support for the Jupyter notebook interface
 jupyter-server==1.15.6 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-console==6.4.3 # LEVEL_06 # Jupyter terminal console
-jupyter-packaging==0.11.1 # LEVEL_04 # LOCKED # Jupyter Packaging Utilities
 jupyter-client==7.1.2 # LEVEL_03 # Jupyter protocol implementation and client libraries
 jupyter-core==4.9.2 # LEVEL_02 # Jupyter core package. A base package on which Jupyter projects rely
 jupyterlab-pygments==0.1.2 # LEVEL_02 # Pygments theme using JupyterLab CSS variables
@@ -576,7 +585,6 @@ PyJWT==2.3.0 # LEVEL_01 # JSON Web Token implementation in Python
 #
 # RPC
 #
-grpcio-status==1.44.0 # LEVEL_03 # LOCKED # Status proto mapping for gRPC
 grpcio==1.44.0 # LEVEL_02 # HTTP/2-based RPC framework
 json-rpc==1.13.0 # LEVEL_01 # JSON-RPC transport implementation
 
@@ -1118,8 +1126,6 @@ do-mpc==4.3.3 # LEVEL_04
 #mkl==2022.0.0 # LEVEL_02 # Intel® oneAPI Math Kernel Library
 #openvino==2021.4.2 # LEVEL_02 # Intel's Toolkit # https://docs.openvinotoolkit.org # Inference Engine Python* API
 #openvino-dev==2021.4.1 # LEVEL_99 # has issues !!! # Openvino Tools
-intel-openmp==2022.0.0 # LEVEL_01 # Intel® OpenMP* Runtime Library
-tbb==2021.5.0 # LEVEL_01 # LOCKED # ONLY_OSX # Intel® oneAPI Threading Building Blocks (oneTBB)
 #
 slycot==0.4.0.0 # LEVEL_02 # Slycot: a wrapper for the SLICOT control and systems library
 control==0.9.1 # LEVEL_04 # Python Control Systems Library
