@@ -10632,14 +10632,14 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.19.3",
+                        "required_version": ">=1.17.3",
                         "dependencies": []
                     },
                     {
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.17.3",
+                        "required_version": ">=1.19.3",
                         "dependencies": []
                     },
                     {
@@ -17006,8 +17006,8 @@
     {
         "key": "importlib-resources",
         "package_name": "importlib-resources",
-        "installed_version": "5.4.0",
-        "required_version": "5.4.0",
+        "installed_version": "5.6.0",
+        "required_version": "5.6.0",
         "dependencies": [
             {
                 "key": "zipp",
@@ -38714,8 +38714,8 @@
     {
         "key": "netron",
         "package_name": "netron",
-        "installed_version": "5.6.5",
-        "required_version": "5.6.5",
+        "installed_version": "5.6.6",
+        "required_version": "5.6.6",
         "dependencies": []
     },
     {
@@ -41328,14 +41328,14 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.19.3",
+                "required_version": ">=1.17.3",
                 "dependencies": []
             },
             {
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.17.3",
+                "required_version": ">=1.19.3",
                 "dependencies": []
             },
             {
@@ -41357,14 +41357,14 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.19.3",
+                "required_version": ">=1.17.3",
                 "dependencies": []
             },
             {
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.17.3",
+                "required_version": ">=1.19.3",
                 "dependencies": []
             },
             {
@@ -45165,7 +45165,7 @@
                     {
                         "key": "importlib-resources",
                         "package_name": "importlib-resources",
-                        "installed_version": "5.4.0",
+                        "installed_version": "5.6.0",
                         "required_version": ">=1.4.0",
                         "dependencies": [
                             {
@@ -57590,8 +57590,8 @@
     {
         "key": "pytype",
         "package_name": "pytype",
-        "installed_version": "2022.3.8",
-        "required_version": "2022.3.8",
+        "installed_version": "2022.3.21",
+        "required_version": "2022.3.21",
         "dependencies": [
             {
                 "key": "attrs",
@@ -66436,14 +66436,14 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.19.3",
+                        "required_version": ">=1.17.3",
                         "dependencies": []
                     },
                     {
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.17.3",
+                        "required_version": ">=1.19.3",
                         "dependencies": []
                     },
                     {
@@ -68488,6 +68488,13 @@
         ]
     },
     {
+        "key": "tinydb",
+        "package_name": "tinydb",
+        "installed_version": "4.7.0",
+        "required_version": "4.7.0",
+        "dependencies": []
+    },
+    {
         "key": "tokenizers",
         "package_name": "tokenizers",
         "installed_version": "0.11.6",
@@ -69616,7 +69623,7 @@
             {
                 "key": "importlib-resources",
                 "package_name": "importlib-resources",
-                "installed_version": "5.4.0",
+                "installed_version": "5.6.0",
                 "required_version": ">=1.4.0",
                 "dependencies": [
                     {

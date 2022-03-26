@@ -275,6 +275,7 @@ testpath
 text-unidecode
 tf-estimator-nightly
 threadpoolctl
+tinydb
 tokenizers
 toml
 tomli

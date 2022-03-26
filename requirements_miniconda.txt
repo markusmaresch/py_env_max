@@ -120,6 +120,12 @@ tbb==2021.5.0 # LEVEL_01 # LOCKED # ONLY_OSX # Intel® oneAPI Threading Building
 #
 intel-openmp==2022.0.0 # LEVEL_01 # LOCKED # Intel® OpenMP* Runtime Library
 #
+tf-estimator-nightly==2.8.0.dev2021122109 # LEVEL_01 # LOCKED # TensorFlow Estimator
+#
+torchaudio==0.10.2 # LEVEL_03 # An audio package for PyTorch
+torchvision==0.11.3 # LEVEL_03 # image and video datasets and models for torch deep learning
+torch==1.10.2 # LEVEL_02 # Tensors and Dynamic neural networks in Python with strong GPU acceleration
+#
 #
 # Former LOCKED .. now freed ;-)
 #
@@ -127,9 +133,6 @@ gast==0.5.3 # LEVEL_01 # Python AST that abstracts the underlying Python version
 tokenizers==0.11.6 # LEVEL_01 # Fast and Customizable Tokenizers
 absl-py==1.0.0 # LEVEL_02 # Abseil Python Common Libraries, see https://github.com/abseil/abseil-py
 cachetools==5.0.0 # LEVEL_01 # Extensible memoizing collections and decorators
-torchaudio==0.10.2 # LEVEL_03 # An audio package for PyTorch
-torchvision==0.11.3 # LEVEL_03 # image and video datasets and models for torch deep learning
-torch==1.10.2 # LEVEL_02 # Tensors and Dynamic neural networks in Python with strong GPU acceleration
 #
 fastapi==0.75 # LEVEL_04 # FastAPI framework, high performance, easy to learn, fast to code, ready for production
 #
@@ -146,7 +149,7 @@ smmap==5.0.0 # LEVEL_01 # A pure Python implementation of a sliding window memor
 pyparsing==3.0.7 # LEVEL_01 # Python parsing module
 #
 black==22.1.0 # LEVEL_02 # The uncompromising code formatter
-pytype==2022.3.8 # LEVEL_04 # ONLY_OSX # Python type inferencer
+pytype==2022.3.21 # LEVEL_04 # ONLY_OSX # Python type inferencer
 
 #
 # Internal .. needed early by this system
@@ -214,7 +217,6 @@ tensorflow-hub==0.12.0 # LEVEL_02 # TensorFlow Hub is a library to foster the pu
 tensorflow-io-gcs-filesystem==0.24.0 # LEVEL_01 # TensorFlow IO
 #
 tf-models-official==2.8.0 # LEVEL_08 # ONLY_OSX # TensorFlow Official Models
-tf-estimator-nightly==2.8.0.dev2021122109 # LEVEL_01 # LOCKED # TensorFlow Estimator
 tf-slim==1.1.0 # LEVEL_03 # TensorFlow-Slim: A lightweight library for defining, training and evaluating complex models in TensorFlow
 #
 tensorboardX==2.5 # LEVEL_02 # TensorBoardX lets you watch Tensors Flow without Tensorflow
@@ -657,7 +659,7 @@ pyinstaller==4.10 # LEVEL_03 # PyInstaller bundles a Python application and all 
 pyinstaller-hooks-contrib==2022.3 # LEVEL_01 # deployment # Community maintained hooks for PyInstaller
 
 # Packages
-importlib-resources==5.4.0 # LEVEL_02 # Read resources from Python packages
+importlib-resources==5.6.0 # LEVEL_02 # Read resources from Python packages
 packaging==21.3 # LEVEL_02 # Core utilities for Python packages
 entrypoints==0.4 # LEVEL_01 # Discover and load entry points from installed packages
 
@@ -1099,7 +1101,7 @@ uuid==1.30 # LEVEL_01 # UUID object and generation functions
 onnxruntime==1.10.0 # LEVEL_02 # ONNX Runtime is a runtime accelerator for Machine Learning models
 onnxoptimizer==0.2.6 # LEVEL_03 # Open Neural Network Exchange
 onnx-simplifier==0.3.7 # LEVEL_04 # Simplify your ONNX model
-netron==5.6.5 # LEVEL_01 # Viewer for neural network, deep learning, and machine learning models
+netron==5.6.6 # LEVEL_01 # Viewer for neural network, deep learning, and machine learning models
 #
 #python-multipart==0.0.5 # LEVEL_02 # A streaming multipart parser for Python
 #
@@ -1163,3 +1165,4 @@ pandocfilters==1.5.0 # LEVEL_01 # Utilities for writing pandoc filters in python
 #
 plumbum==1.7.2 # LEVEL_01 # Plumbum: shell combinators library
 #
+tinydb==4.7.0 # LEVEL_01 # TinyDB is a tiny, document oriented database optimized for your happiness :)

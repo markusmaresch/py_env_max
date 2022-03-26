@@ -106,7 +106,7 @@ class PackageInfo:
 
 
 class LevelsCheck:
-    json_full = 'pipdeptree.txt'
+    json_full = 'pipdeptree.json'
     requirements_txt = 'requirements_miniconda.txt'  # make this configurable
 
     def __init__(self):
@@ -342,7 +342,8 @@ class LevelsCheck:
                 delta_seconds = (now - stamp)
                 if delta_seconds > max_seconds:
                     print('Ignoring cache: {} too old: {} > {}'
-                          .format(os.path.basename(self.json_full), delta_seconds, max_seconds))
+                          .format(os.path.basename(self.json_full),
+                                  delta_seconds, max_seconds))
                 else:
                     json_string = f.read()
                     full_list_of_dicts = json.loads(json_string)

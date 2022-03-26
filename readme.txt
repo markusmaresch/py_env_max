@@ -12,3 +12,6 @@ Plan:
     define DB aspect - XLSX, or other .. needs to be low level, or SQL (which is part of core)
     derive DB from installation
     install from DB
+
+Rework:
+    requirements.txt -> requirements.json
