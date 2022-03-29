@@ -233,7 +233,7 @@ xgboost==1.5.2 # LEVEL_03 # check installation notes # XGBoost Python Package
 #
 pyro-api==0.1.2 # LEVEL_01 # Generic API for dispatch to Pyro backends
 #
-pytorch-lightning==1.5.10 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
+pytorch-lightning==1.6.0 # LEVEL_06 # PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate
 performer-pytorch==1.1.4 # LEVEL_04 # Performer - Pytorch
 torch-optimizer==0.3.0 # LEVEL_04 # pytorch-optimizer
 pytorch-ranger==0.1.1 # LEVEL_03 # Ranger - a synergistic optimizer using RAdam (Rectified Adam) and LookAhead in one codebase
@@ -245,7 +245,7 @@ Theano==1.0.5 # LEVEL_03 # Optimizing compiler for evaluating mathematical expre
 nose==1.3.7 # LEVEL_01 # nose extends unittest to make testing easier
 #
 fastai==2.5.5 # LEVEL_05 # fastai simplifies training fast and accurate neural nets using modern best practices
-fastcore==1.3.29 # LEVEL_03 # Python supercharged for fastai development
+fastcore==1.4.0 # LEVEL_03 # Python supercharged for fastai development
 fastdownload==0.0.5 # LEVEL_04 # A general purpose data downloading library
 fastprogress==1.0.2 # LEVEL_01 # A nested progress with plotting options for fastai
 #
@@ -508,16 +508,16 @@ uritemplate==4.1.1 # LEVEL_01 # required by google-api-python-client # Implement
 
 # Azure
 azure-eventhub==5.7.0 # LEVEL_04 # Microsoft Azure Event Hubs Client Library for Python
-azure-storage-blob==12.10.0 # LEVEL_05 # Microsoft Azure Blob Storage Client Library for Python
+azure-storage-blob==12.11.0 # LEVEL_05 # Microsoft Azure Blob Storage Client Library for Python
 azure-core==1.23.0 # LEVEL_03 # Microsoft Azure Core Library for Python
 azure-common==1.1.28 # LEVEL_01 # Microsoft Azure Client Library for Python (Common)
 smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)
 uamqp==1.5.3 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.21.27  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.21.29  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.2 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.24.27 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.24.29 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -527,11 +527,11 @@ jupyter-bokeh==3.0.4 # LEVEL_09 # A Jupyter extension for rendering Bokeh conten
 jupyter==1.0.0 # LEVEL_09 # Jupyter metapackage. Install all the Jupyter components in one go
 jupyterlab==3.3.2 # LEVEL_09 # JupyterLab computational environment
 jupyter-server-proxy==3.2.1 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
-jupyterlab-server==2.11.2 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
+jupyterlab-server==2.12.0 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.1 # LEVEL_06 # Dash support for the Jupyter notebook interface
 jupyter-server==1.15.6 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-console==6.4.3 # LEVEL_06 # Jupyter terminal console
-jupyter-client==7.1.2 # LEVEL_03 # Jupyter protocol implementation and client libraries
+jupyter-client==7.2.0 # LEVEL_03 # Jupyter protocol implementation and client libraries
 jupyter-core==4.9.2 # LEVEL_02 # Jupyter core package. A base package on which Jupyter projects rely
 jupyterlab-pygments==0.1.2 # LEVEL_02 # Pygments theme using JupyterLab CSS variables
 jupyterlab-widgets==1.1.0 # LEVEL_01 # A JupyterLab extension
@@ -542,9 +542,9 @@ nbclassic==0.3.7 # LEVEL_08 # Jupyter Notebook as a Jupyter Server extension
 notebook-shim==0.1.0 # LEVEL_07 # A shim layer for notebook traits and config
 notebook==6.4.10 # LEVEL_06 # A web-based notebook environment for interactive computing
 nbsphinx==0.8.8 # LEVEL_06 # Jupyter Notebook Tools for Sphinx
-nbconvert==6.4.4 # LEVEL_05 # Converting Jupyter Notebooks
-qtconsole==5.2.2 # LEVEL_06 # Jupyter Qt console
-ipykernel==6.9.2 # LEVEL_05 # IPython Kernel for Jupyter
+nbconvert==6.4.5 # LEVEL_05 # Converting Jupyter Notebooks
+qtconsole==5.3.0 # LEVEL_06 # Jupyter Qt console
+ipykernel==6.10.0 # LEVEL_05 # IPython Kernel for Jupyter
 nbclient==0.5.13 # LEVEL_04 # A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor
 nbformat==5.2.0 # LEVEL_03 # The Jupyter Notebook format
 matplotlib-inline==0.1.3 # LEVEL_02 # Inline Matplotlib backend for Jupyter
@@ -575,7 +575,7 @@ Flask-Caching==1.10.1 # LEVEL_04 # Adds caching support to your Flask applicatio
 Flask-CacheBuster==1.0.0 # LEVEL_04 # Flask-CacheBuster is a lightweight Flask extension that adds a hash to the URL query parameters of each static file
 Flask-Cors==3.0.10 # LEVEL_04 # A Flask extension adding a decorator for CORS support
 Flask-Login==0.5.0 # LEVEL_04 # User session management for Flask
-Flask==2.0.3 # LEVEL_03 # A simple framework for building complex web applications
+Flask==2.1.0 # LEVEL_03 # A simple framework for building complex web applications
 #
 # Json
 #
@@ -598,7 +598,7 @@ sphinx-autobuild==2021.3.14 # LEVEL_04 # Rebuild Sphinx documentation on changes
 sphinx-rtd-theme==1.0.0 # LEVEL_04 # Read the Docs theme for Sphinx
 sphinx-panels==0.6.0 # LEVEL_04 # A sphinx extension for creating panels in a grid layout
 sphinx-autodoc-typehints==1.17.0 # LEVEL_04 # Type hints (PEP 484) support for the Sphinx autodoc extension
-Sphinx==4.4.0 # LEVEL_03 # Python documentation generator
+Sphinx==4.5.0 # LEVEL_03 # Python documentation generator
 sphinx-markdown-tables==0.0.15 # LEVEL_04 # A Sphinx extension for rendering tables written in markdown
 sphinxcontrib-applehelp==1.0.2 # LEVEL_01 # sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books
 sphinxcontrib-devhelp==1.0.2 # LEVEL_01 # sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp document
@@ -767,7 +767,7 @@ gin-config==0.5.0 # LEVEL_01 # Gin-Config: A lightweight configuration library f
 HeapDict==1.0.1 # LEVEL_01 # a heap with decrease-key and increase-key operations
 httplib2==0.20.4 # LEVEL_02 # A comprehensive HTTP client library
 idna==3.3 # LEVEL_01 # Internationalized Domain Names in Applications (IDNA)
-ipython==8.1.1 # LEVEL_04 # IPython: Productive Interactive Computing
+ipython==8.2.0 # LEVEL_04 # IPython: Productive Interactive Computing
 ipython-genutils==0.2.0 # LEVEL_01 # Vestigial utilities from IPython
 itsdangerous==2.1.2 # LEVEL_01 # Safely pass data to untrusted environments and back
 jedi==0.18.1 # LEVEL_02 # An autocompletion tool for Python that can be used for text editors

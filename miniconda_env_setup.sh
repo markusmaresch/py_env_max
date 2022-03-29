@@ -51,12 +51,10 @@ post_check_exit() {
   if ! python pip_show_all.py; then
     exit 1
   fi
-  #rm -f /tmp/pipdeptree.cache
   if ! python levels_check.py; then
     echo "Fix errors above, before continuing"
     exit 1
   fi
-  #rm -f /tmp/pipdeptree.cache
 
   packages_check_specified
   if [ $? -ne 0 ]; then
