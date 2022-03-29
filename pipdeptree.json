@@ -2116,8 +2116,8 @@
     {
         "key": "black",
         "package_name": "black",
-        "installed_version": "22.1.0",
-        "required_version": "22.1.0",
+        "installed_version": "22.3.0",
+        "required_version": "22.3.0",
         "dependencies": [
             {
                 "key": "click",
@@ -10632,6 +10632,13 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
+                        "required_version": ">=1.14.5",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "1.20.0",
                         "required_version": ">=1.17.3",
                         "dependencies": []
                     },
@@ -10640,13 +10647,6 @@
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
                         "required_version": ">=1.19.3",
-                        "dependencies": []
-                    },
-                    {
-                        "key": "numpy",
-                        "package_name": "numpy",
-                        "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
                         "dependencies": []
                     }
                 ]
@@ -11350,7 +11350,7 @@
             {
                 "key": "spacy",
                 "package_name": "spacy",
-                "installed_version": "3.2.3",
+                "installed_version": "3.2.4",
                 "required_version": "<4",
                 "dependencies": [
                     {
@@ -11373,6 +11373,13 @@
                         "package_name": "catalogue",
                         "installed_version": "2.0.7",
                         "required_version": ">=2.0.6,<2.1.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "click",
+                        "package_name": "click",
+                        "installed_version": "8.0.4",
+                        "required_version": "<8.1.0",
                         "dependencies": []
                     },
                     {
@@ -16124,7 +16131,7 @@
             {
                 "key": "panel",
                 "package_name": "panel",
-                "installed_version": "0.12.6",
+                "installed_version": "0.12.7",
                 "required_version": ">=0.8.0",
                 "dependencies": [
                     {
@@ -16332,6 +16339,13 @@
                                 "dependencies": []
                             }
                         ]
+                    },
+                    {
+                        "key": "setuptools",
+                        "package_name": "setuptools",
+                        "installed_version": "59.5.0",
+                        "required_version": ">=42,<61",
+                        "dependencies": []
                     },
                     {
                         "key": "tqdm",
@@ -41129,7 +41143,7 @@
             {
                 "key": "pandas-stubs",
                 "package_name": "pandas-stubs",
-                "installed_version": "1.2.0.53",
+                "installed_version": "1.2.0.54",
                 "required_version": ">=1.1.0.11",
                 "dependencies": []
             },
@@ -41328,6 +41342,13 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
+                "required_version": ">=1.14.5",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.20.0",
                 "required_version": ">=1.17.3",
                 "dependencies": []
             },
@@ -41336,13 +41357,6 @@
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
                 "required_version": ">=1.19.3",
-                "dependencies": []
-            },
-            {
-                "key": "numpy",
-                "package_name": "numpy",
-                "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
                 "dependencies": []
             }
         ]
@@ -41357,6 +41371,13 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
+                "required_version": ">=1.14.5",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.20.0",
                 "required_version": ">=1.17.3",
                 "dependencies": []
             },
@@ -41365,13 +41386,6 @@
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
                 "required_version": ">=1.19.3",
-                "dependencies": []
-            },
-            {
-                "key": "numpy",
-                "package_name": "numpy",
-                "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
                 "dependencies": []
             }
         ]
@@ -43473,8 +43487,8 @@
     {
         "key": "pandas-stubs",
         "package_name": "pandas-stubs",
-        "installed_version": "1.2.0.53",
-        "required_version": "1.2.0.53",
+        "installed_version": "1.2.0.54",
+        "required_version": "1.2.0.54",
         "dependencies": []
     },
     {
@@ -43509,8 +43523,8 @@
     {
         "key": "panel",
         "package_name": "panel",
-        "installed_version": "0.12.6",
-        "required_version": "0.12.6",
+        "installed_version": "0.12.7",
+        "required_version": "0.12.7",
         "dependencies": [
             {
                 "key": "bleach",
@@ -43717,6 +43731,13 @@
                         "dependencies": []
                     }
                 ]
+            },
+            {
+                "key": "setuptools",
+                "package_name": "setuptools",
+                "installed_version": "59.5.0",
+                "required_version": ">=42,<61",
+                "dependencies": []
             },
             {
                 "key": "tqdm",
@@ -51667,7 +51688,7 @@
             {
                 "key": "spacy",
                 "package_name": "spacy",
-                "installed_version": "3.2.3",
+                "installed_version": "3.2.4",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -51690,6 +51711,13 @@
                         "package_name": "catalogue",
                         "installed_version": "2.0.7",
                         "required_version": ">=2.0.6,<2.1.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "click",
+                        "package_name": "click",
+                        "installed_version": "8.0.4",
+                        "required_version": "<8.1.0",
                         "dependencies": []
                     },
                     {
@@ -61077,8 +61105,8 @@
     {
         "key": "spacy",
         "package_name": "spacy",
-        "installed_version": "3.2.3",
-        "required_version": "3.2.3",
+        "installed_version": "3.2.4",
+        "required_version": "3.2.4",
         "dependencies": [
             {
                 "key": "blis",
@@ -61100,6 +61128,13 @@
                 "package_name": "catalogue",
                 "installed_version": "2.0.7",
                 "required_version": ">=2.0.6,<2.1.0",
+                "dependencies": []
+            },
+            {
+                "key": "click",
+                "package_name": "click",
+                "installed_version": "8.0.4",
+                "required_version": "<8.1.0",
                 "dependencies": []
             },
             {
@@ -61486,7 +61521,7 @@
             {
                 "key": "spacy",
                 "package_name": "spacy",
-                "installed_version": "3.2.3",
+                "installed_version": "3.2.4",
                 "required_version": ">=3.0,<4.0",
                 "dependencies": [
                     {
@@ -61509,6 +61544,13 @@
                         "package_name": "catalogue",
                         "installed_version": "2.0.7",
                         "required_version": ">=2.0.6,<2.1.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "click",
+                        "package_name": "click",
+                        "installed_version": "8.0.4",
+                        "required_version": "<8.1.0",
                         "dependencies": []
                     },
                     {
@@ -66436,6 +66478,13 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
+                        "required_version": ">=1.14.5",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "1.20.0",
                         "required_version": ">=1.17.3",
                         "dependencies": []
                     },
@@ -66444,13 +66493,6 @@
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
                         "required_version": ">=1.19.3",
-                        "dependencies": []
-                    },
-                    {
-                        "key": "numpy",
-                        "package_name": "numpy",
-                        "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
                         "dependencies": []
                     }
                 ]

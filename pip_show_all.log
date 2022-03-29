@@ -549,7 +549,7 @@ Requires: numpy
 Required-by: 
 ---
 Name: black
-Version: 22.1.0
+Version: 22.3.0
 Summary: The uncompromising code formatter.
 Home-page: https://github.com/psf/black
 Author: Łukasz Langa
@@ -886,7 +886,7 @@ Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
 Requires: 
-Required-by: Fiona Flask black celery click-didyoumean click-plugins click-repl cligj databricks-cli distributed mlflow nltk proj ray sacremoses typer userpath uvicorn wandb
+Required-by: Fiona Flask black celery click-didyoumean click-plugins click-repl cligj databricks-cli distributed mlflow nltk proj ray sacremoses spacy typer userpath uvicorn wandb
 ---
 Name: click-didyoumean
 Version: 0.3.0
@@ -4429,7 +4429,7 @@ Requires: PyYAML htmlmin jinja2 joblib markupsafe matplotlib missingno multimeth
 Required-by: pycaret
 ---
 Name: pandas-stubs
-Version: 1.2.0.53
+Version: 1.2.0.54
 Summary: Type annotations for Pandas
 Home-page: https://github.com/VirtusLab/pandas-stubs
 Author: Zbigniew Królikowski
@@ -4459,13 +4459,13 @@ Requires:
 Required-by: nbconvert
 ---
 Name: panel
-Version: 0.12.6
+Version: 0.12.7
 Summary: A high level app and dashboarding solution for Python.
 Home-page: http://panel.holoviz.org
 Author: HoloViz
 Author-email: developers@holoviz.org
 License: BSD
-Requires: bleach bokeh markdown param pyct pyviz-comms requests tqdm
+Requires: bleach bokeh markdown param pyct pyviz-comms requests setuptools tqdm
 Required-by: holoviews
 ---
 Name: param
@@ -6226,7 +6226,7 @@ Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy celery cufflinks gunicorn ipython jupyter-packaging mlxtend nibabel numba plaster pmdarima pyinstaller pyramid python-daemon pytorch-lightning rapids setuptools-scm spacy streamz tensorboard tensorflow thinc zope.deprecation zope.index zope.interface
+Required-by: Fiona PasteDeploy celery cufflinks gunicorn ipython jupyter-packaging mlxtend nibabel numba panel plaster pmdarima pyinstaller pyramid python-daemon pytorch-lightning rapids setuptools-scm spacy streamz tensorboard tensorflow thinc zope.deprecation zope.index zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -6399,13 +6399,13 @@ Requires:
 Required-by: beautifulsoup4
 ---
 Name: spacy
-Version: 3.2.3
+Version: 3.2.4
 Summary: Industrial-strength Natural Language Processing (NLP) in Python
 Home-page: https://spacy.io
 Author: Explosion
 Author-email: contact@explosion.ai
 License: MIT
-Requires: blis catalogue cymem jinja2 langcodes murmurhash numpy packaging pathy preshed pydantic requests setuptools spacy-legacy spacy-loggers srsly thinc tqdm typer wasabi
+Requires: blis catalogue click cymem jinja2 langcodes murmurhash numpy packaging pathy preshed pydantic requests setuptools spacy-legacy spacy-loggers srsly thinc tqdm typer wasabi
 Required-by: fastai pycaret spacytextblob
 ---
 Name: spacy-legacy
