@@ -2751,7 +2751,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -3661,7 +3661,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -5881,7 +5881,7 @@
                     {
                         "key": "werkzeug",
                         "package_name": "Werkzeug",
-                        "installed_version": "2.0.3",
+                        "installed_version": "2.1.0",
                         "required_version": ">=2.0",
                         "dependencies": []
                     }
@@ -5953,7 +5953,7 @@
                             {
                                 "key": "werkzeug",
                                 "package_name": "Werkzeug",
-                                "installed_version": "2.0.3",
+                                "installed_version": "2.1.0",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             }
@@ -6175,7 +6175,7 @@
                             {
                                 "key": "werkzeug",
                                 "package_name": "Werkzeug",
-                                "installed_version": "2.0.3",
+                                "installed_version": "2.1.0",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             }
@@ -6247,7 +6247,7 @@
                                     {
                                         "key": "werkzeug",
                                         "package_name": "Werkzeug",
-                                        "installed_version": "2.0.3",
+                                        "installed_version": "2.1.0",
                                         "required_version": ">=2.0",
                                         "dependencies": []
                                     }
@@ -6340,7 +6340,7 @@
                     {
                         "key": "werkzeug",
                         "package_name": "Werkzeug",
-                        "installed_version": "2.0.3",
+                        "installed_version": "2.1.0",
                         "required_version": ">=2.0",
                         "dependencies": []
                     }
@@ -6412,7 +6412,7 @@
                             {
                                 "key": "werkzeug",
                                 "package_name": "Werkzeug",
-                                "installed_version": "2.0.3",
+                                "installed_version": "2.1.0",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             }
@@ -6479,7 +6479,7 @@
                             {
                                 "key": "werkzeug",
                                 "package_name": "Werkzeug",
-                                "installed_version": "2.0.3",
+                                "installed_version": "2.1.0",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             }
@@ -6640,7 +6640,7 @@
                             {
                                 "key": "werkzeug",
                                 "package_name": "Werkzeug",
-                                "installed_version": "2.0.3",
+                                "installed_version": "2.1.0",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             }
@@ -6712,7 +6712,7 @@
                                     {
                                         "key": "werkzeug",
                                         "package_name": "Werkzeug",
-                                        "installed_version": "2.0.3",
+                                        "installed_version": "2.1.0",
                                         "required_version": ">=2.0",
                                         "dependencies": []
                                     }
@@ -6840,7 +6840,7 @@
                             {
                                 "key": "werkzeug",
                                 "package_name": "Werkzeug",
-                                "installed_version": "2.0.3",
+                                "installed_version": "2.1.0",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             }
@@ -6912,7 +6912,7 @@
                                     {
                                         "key": "werkzeug",
                                         "package_name": "Werkzeug",
-                                        "installed_version": "2.0.3",
+                                        "installed_version": "2.1.0",
                                         "required_version": ">=2.0",
                                         "dependencies": []
                                     }
@@ -7209,7 +7209,7 @@
                             {
                                 "key": "werkzeug",
                                 "package_name": "Werkzeug",
-                                "installed_version": "2.0.3",
+                                "installed_version": "2.1.0",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             }
@@ -7281,7 +7281,7 @@
                                     {
                                         "key": "werkzeug",
                                         "package_name": "Werkzeug",
-                                        "installed_version": "2.0.3",
+                                        "installed_version": "2.1.0",
                                         "required_version": ">=2.0",
                                         "dependencies": []
                                     }
@@ -10467,7 +10467,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -10578,7 +10578,7 @@
             {
                 "key": "websocket-client",
                 "package_name": "websocket-client",
-                "installed_version": "1.3.1",
+                "installed_version": "1.3.2",
                 "required_version": ">=0.32.0",
                 "dependencies": []
             }
@@ -10760,7 +10760,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -11324,7 +11324,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -12420,7 +12420,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -12617,7 +12617,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -12942,7 +12942,7 @@
             {
                 "key": "werkzeug",
                 "package_name": "Werkzeug",
-                "installed_version": "2.0.3",
+                "installed_version": "2.1.0",
                 "required_version": ">=2.0",
                 "dependencies": []
             }
@@ -13007,7 +13007,7 @@
                     {
                         "key": "werkzeug",
                         "package_name": "Werkzeug",
-                        "installed_version": "2.0.3",
+                        "installed_version": "2.1.0",
                         "required_version": ">=2.0",
                         "dependencies": []
                     }
@@ -13074,7 +13074,7 @@
                     {
                         "key": "werkzeug",
                         "package_name": "Werkzeug",
-                        "installed_version": "2.0.3",
+                        "installed_version": "2.1.0",
                         "required_version": ">=2.0",
                         "dependencies": []
                     }
@@ -13148,7 +13148,7 @@
                     {
                         "key": "werkzeug",
                         "package_name": "Werkzeug",
-                        "installed_version": "2.0.3",
+                        "installed_version": "2.1.0",
                         "required_version": ">=2.0",
                         "dependencies": []
                     }
@@ -13215,7 +13215,7 @@
                     {
                         "key": "werkzeug",
                         "package_name": "Werkzeug",
-                        "installed_version": "2.0.3",
+                        "installed_version": "2.1.0",
                         "required_version": ">=2.0",
                         "dependencies": []
                     }
@@ -13289,7 +13289,7 @@
                     {
                         "key": "werkzeug",
                         "package_name": "Werkzeug",
-                        "installed_version": "2.0.3",
+                        "installed_version": "2.1.0",
                         "required_version": ">=2.0",
                         "dependencies": []
                     }
@@ -13356,7 +13356,7 @@
                     {
                         "key": "werkzeug",
                         "package_name": "Werkzeug",
-                        "installed_version": "2.0.3",
+                        "installed_version": "2.1.0",
                         "required_version": ">=2.0",
                         "dependencies": []
                     }
@@ -13876,7 +13876,7 @@
                     {
                         "key": "werkzeug",
                         "package_name": "Werkzeug",
-                        "installed_version": "2.0.3",
+                        "installed_version": "2.1.0",
                         "required_version": ">=2.0",
                         "dependencies": []
                     }
@@ -15642,7 +15642,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -16614,7 +16614,7 @@
                     {
                         "key": "pyviz-comms",
                         "package_name": "pyviz-comms",
-                        "installed_version": "2.1.0",
+                        "installed_version": "2.2.0",
                         "required_version": ">=0.7.4",
                         "dependencies": [
                             {
@@ -16688,7 +16688,7 @@
             {
                 "key": "pyviz-comms",
                 "package_name": "pyviz-comms",
-                "installed_version": "2.1.0",
+                "installed_version": "2.2.0",
                 "required_version": ">=0.7.4",
                 "dependencies": [
                     {
@@ -25971,7 +25971,7 @@
                             {
                                 "key": "werkzeug",
                                 "package_name": "Werkzeug",
-                                "installed_version": "2.0.3",
+                                "installed_version": "2.1.0",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             }
@@ -26043,7 +26043,7 @@
                                     {
                                         "key": "werkzeug",
                                         "package_name": "Werkzeug",
-                                        "installed_version": "2.0.3",
+                                        "installed_version": "2.1.0",
                                         "required_version": ">=2.0",
                                         "dependencies": []
                                     }
@@ -26136,7 +26136,7 @@
                     {
                         "key": "werkzeug",
                         "package_name": "Werkzeug",
-                        "installed_version": "2.0.3",
+                        "installed_version": "2.1.0",
                         "required_version": ">=2.0",
                         "dependencies": []
                     }
@@ -26695,7 +26695,7 @@
             {
                 "key": "tomlkit",
                 "package_name": "tomlkit",
-                "installed_version": "0.10.0",
+                "installed_version": "0.10.1",
                 "required_version": "Any",
                 "dependencies": []
             },
@@ -27357,7 +27357,7 @@
             {
                 "key": "websocket-client",
                 "package_name": "websocket-client",
-                "installed_version": "1.3.1",
+                "installed_version": "1.3.2",
                 "required_version": "Any",
                 "dependencies": []
             }
@@ -28098,7 +28098,7 @@
                     {
                         "key": "websocket-client",
                         "package_name": "websocket-client",
-                        "installed_version": "1.3.1",
+                        "installed_version": "1.3.2",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -28952,7 +28952,7 @@
                     {
                         "key": "websocket-client",
                         "package_name": "websocket-client",
-                        "installed_version": "1.3.1",
+                        "installed_version": "1.3.2",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -29679,7 +29679,7 @@
                             {
                                 "key": "websocket-client",
                                 "package_name": "websocket-client",
-                                "installed_version": "1.3.1",
+                                "installed_version": "1.3.2",
                                 "required_version": "Any",
                                 "dependencies": []
                             }
@@ -30393,7 +30393,7 @@
                             {
                                 "key": "websocket-client",
                                 "package_name": "websocket-client",
-                                "installed_version": "1.3.1",
+                                "installed_version": "1.3.2",
                                 "required_version": "Any",
                                 "dependencies": []
                             }
@@ -31971,7 +31971,7 @@
                                     {
                                         "key": "websocket-client",
                                         "package_name": "websocket-client",
-                                        "installed_version": "1.3.1",
+                                        "installed_version": "1.3.2",
                                         "required_version": "Any",
                                         "dependencies": []
                                     }
@@ -32741,7 +32741,7 @@
                     {
                         "key": "websocket-client",
                         "package_name": "websocket-client",
-                        "installed_version": "1.3.1",
+                        "installed_version": "1.3.2",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -33314,8 +33314,8 @@
     {
         "key": "kiwisolver",
         "package_name": "kiwisolver",
-        "installed_version": "1.4.0",
-        "required_version": "1.4.0",
+        "installed_version": "1.4.2",
+        "required_version": "1.4.2",
         "dependencies": []
     },
     {
@@ -34060,7 +34060,7 @@
             {
                 "key": "kiwisolver",
                 "package_name": "kiwisolver",
-                "installed_version": "1.4.0",
+                "installed_version": "1.4.2",
                 "required_version": ">=1.0.1",
                 "dependencies": []
             },
@@ -34271,7 +34271,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -34379,7 +34379,7 @@
                             {
                                 "key": "kiwisolver",
                                 "package_name": "kiwisolver",
-                                "installed_version": "1.4.0",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=1.0.1",
                                 "dependencies": []
                             },
@@ -34812,7 +34812,7 @@
                     {
                         "key": "websocket-client",
                         "package_name": "websocket-client",
-                        "installed_version": "1.3.1",
+                        "installed_version": "1.3.2",
                         "required_version": ">=0.32.0",
                         "dependencies": []
                     }
@@ -34878,7 +34878,7 @@
                     {
                         "key": "werkzeug",
                         "package_name": "Werkzeug",
-                        "installed_version": "2.0.3",
+                        "installed_version": "2.1.0",
                         "required_version": ">=2.0",
                         "dependencies": []
                     }
@@ -35055,7 +35055,7 @@
                             {
                                 "key": "werkzeug",
                                 "package_name": "Werkzeug",
-                                "installed_version": "2.0.3",
+                                "installed_version": "2.1.0",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             }
@@ -35217,7 +35217,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -35436,7 +35436,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -36427,7 +36427,7 @@
                     {
                         "key": "websocket-client",
                         "package_name": "websocket-client",
-                        "installed_version": "1.3.1",
+                        "installed_version": "1.3.2",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -38005,7 +38005,7 @@
                             {
                                 "key": "websocket-client",
                                 "package_name": "websocket-client",
-                                "installed_version": "1.3.1",
+                                "installed_version": "1.3.2",
                                 "required_version": "Any",
                                 "dependencies": []
                             }
@@ -41127,7 +41127,7 @@
                     {
                         "key": "websocket-client",
                         "package_name": "websocket-client",
-                        "installed_version": "1.3.1",
+                        "installed_version": "1.3.2",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -43186,7 +43186,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -43272,7 +43272,7 @@
                             {
                                 "key": "kiwisolver",
                                 "package_name": "kiwisolver",
-                                "installed_version": "1.4.0",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=1.0.1",
                                 "dependencies": []
                             },
@@ -43380,7 +43380,7 @@
                                     {
                                         "key": "kiwisolver",
                                         "package_name": "kiwisolver",
-                                        "installed_version": "1.4.0",
+                                        "installed_version": "1.4.2",
                                         "required_version": ">=1.0.1",
                                         "dependencies": []
                                     },
@@ -43587,7 +43587,7 @@
                             {
                                 "key": "kiwisolver",
                                 "package_name": "kiwisolver",
-                                "installed_version": "1.4.0",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=1.0.1",
                                 "dependencies": []
                             },
@@ -43807,7 +43807,7 @@
                             {
                                 "key": "kiwisolver",
                                 "package_name": "kiwisolver",
-                                "installed_version": "1.4.0",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=1.0.1",
                                 "dependencies": []
                             },
@@ -44221,7 +44221,7 @@
             {
                 "key": "pyviz-comms",
                 "package_name": "pyviz-comms",
-                "installed_version": "2.1.0",
+                "installed_version": "2.2.0",
                 "required_version": ">=0.7.4",
                 "dependencies": [
                     {
@@ -44709,7 +44709,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -45402,7 +45402,7 @@
                     {
                         "key": "werkzeug",
                         "package_name": "Werkzeug",
-                        "installed_version": "2.0.3",
+                        "installed_version": "2.1.0",
                         "required_version": ">=2.0",
                         "dependencies": []
                     }
@@ -45899,7 +45899,7 @@
                             {
                                 "key": "kiwisolver",
                                 "package_name": "kiwisolver",
-                                "installed_version": "1.4.0",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=1.0.1",
                                 "dependencies": []
                             },
@@ -49686,7 +49686,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -49911,7 +49911,7 @@
                             {
                                 "key": "websocket-client",
                                 "package_name": "websocket-client",
-                                "installed_version": "1.3.1",
+                                "installed_version": "1.3.2",
                                 "required_version": ">=0.32.0",
                                 "dependencies": []
                             }
@@ -49977,7 +49977,7 @@
                             {
                                 "key": "werkzeug",
                                 "package_name": "Werkzeug",
-                                "installed_version": "2.0.3",
+                                "installed_version": "2.1.0",
                                 "required_version": ">=2.0",
                                 "dependencies": []
                             }
@@ -50154,7 +50154,7 @@
                                     {
                                         "key": "werkzeug",
                                         "package_name": "Werkzeug",
-                                        "installed_version": "2.0.3",
+                                        "installed_version": "2.1.0",
                                         "required_version": ">=2.0",
                                         "dependencies": []
                                     }
@@ -50316,7 +50316,7 @@
                             {
                                 "key": "kiwisolver",
                                 "package_name": "kiwisolver",
-                                "installed_version": "1.4.0",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=1.0.1",
                                 "dependencies": []
                             },
@@ -50630,7 +50630,7 @@
                             {
                                 "key": "kiwisolver",
                                 "package_name": "kiwisolver",
-                                "installed_version": "1.4.0",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=1.0.1",
                                 "dependencies": []
                             },
@@ -50716,7 +50716,7 @@
                                     {
                                         "key": "kiwisolver",
                                         "package_name": "kiwisolver",
-                                        "installed_version": "1.4.0",
+                                        "installed_version": "1.4.2",
                                         "required_version": ">=1.0.1",
                                         "dependencies": []
                                     },
@@ -50824,7 +50824,7 @@
                                             {
                                                 "key": "kiwisolver",
                                                 "package_name": "kiwisolver",
-                                                "installed_version": "1.4.0",
+                                                "installed_version": "1.4.2",
                                                 "required_version": ">=1.0.1",
                                                 "dependencies": []
                                             },
@@ -51031,7 +51031,7 @@
                                     {
                                         "key": "kiwisolver",
                                         "package_name": "kiwisolver",
-                                        "installed_version": "1.4.0",
+                                        "installed_version": "1.4.2",
                                         "required_version": ">=1.0.1",
                                         "dependencies": []
                                     },
@@ -51251,7 +51251,7 @@
                                     {
                                         "key": "kiwisolver",
                                         "package_name": "kiwisolver",
-                                        "installed_version": "1.4.0",
+                                        "installed_version": "1.4.2",
                                         "required_version": ">=1.0.1",
                                         "dependencies": []
                                     },
@@ -51671,7 +51671,7 @@
                             {
                                 "key": "kiwisolver",
                                 "package_name": "kiwisolver",
-                                "installed_version": "1.4.0",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=1.0.1",
                                 "dependencies": []
                             },
@@ -52016,7 +52016,7 @@
                             {
                                 "key": "kiwisolver",
                                 "package_name": "kiwisolver",
-                                "installed_version": "1.4.0",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=1.0.1",
                                 "dependencies": []
                             },
@@ -52163,7 +52163,7 @@
                             {
                                 "key": "kiwisolver",
                                 "package_name": "kiwisolver",
-                                "installed_version": "1.4.0",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=1.0.1",
                                 "dependencies": []
                             },
@@ -52962,7 +52962,7 @@
                             {
                                 "key": "kiwisolver",
                                 "package_name": "kiwisolver",
-                                "installed_version": "1.4.0",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=1.0.1",
                                 "dependencies": []
                             },
@@ -53101,7 +53101,7 @@
                             {
                                 "key": "kiwisolver",
                                 "package_name": "kiwisolver",
-                                "installed_version": "1.4.0",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=1.0.1",
                                 "dependencies": []
                             },
@@ -53257,7 +53257,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -55792,7 +55792,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -55988,7 +55988,7 @@
                             {
                                 "key": "kiwisolver",
                                 "package_name": "kiwisolver",
-                                "installed_version": "1.4.0",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=1.0.1",
                                 "dependencies": []
                             },
@@ -56651,7 +56651,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -58085,7 +58085,7 @@
                     {
                         "key": "werkzeug",
                         "package_name": "werkzeug",
-                        "installed_version": "2.0.3",
+                        "installed_version": "2.1.0",
                         "required_version": ">=0.11.15",
                         "dependencies": []
                     },
@@ -58324,8 +58324,8 @@
     {
         "key": "pyviz-comms",
         "package_name": "pyviz-comms",
-        "installed_version": "2.1.0",
-        "required_version": "2.1.0",
+        "installed_version": "2.2.0",
+        "required_version": "2.2.0",
         "dependencies": [
             {
                 "key": "param",
@@ -60753,7 +60753,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -61055,7 +61055,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -63719,7 +63719,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -64971,7 +64971,7 @@
             {
                 "key": "werkzeug",
                 "package_name": "werkzeug",
-                "installed_version": "2.0.3",
+                "installed_version": "2.1.0",
                 "required_version": ">=0.11.15",
                 "dependencies": []
             },
@@ -65504,7 +65504,7 @@
                     {
                         "key": "werkzeug",
                         "package_name": "werkzeug",
-                        "installed_version": "2.0.3",
+                        "installed_version": "2.1.0",
                         "required_version": ">=0.11.15",
                         "dependencies": []
                     },
@@ -66331,7 +66331,7 @@
                             {
                                 "key": "werkzeug",
                                 "package_name": "werkzeug",
-                                "installed_version": "2.0.3",
+                                "installed_version": "2.1.0",
                                 "required_version": ">=0.11.15",
                                 "dependencies": []
                             },
@@ -66926,7 +66926,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -67173,7 +67173,7 @@
                             {
                                 "key": "kiwisolver",
                                 "package_name": "kiwisolver",
-                                "installed_version": "1.4.0",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=1.0.1",
                                 "dependencies": []
                             },
@@ -67854,7 +67854,7 @@
                             {
                                 "key": "werkzeug",
                                 "package_name": "werkzeug",
-                                "installed_version": "2.0.3",
+                                "installed_version": "2.1.0",
                                 "required_version": ">=0.11.15",
                                 "dependencies": []
                             },
@@ -68622,7 +68622,7 @@
                                     {
                                         "key": "werkzeug",
                                         "package_name": "werkzeug",
-                                        "installed_version": "2.0.3",
+                                        "installed_version": "2.1.0",
                                         "required_version": ">=0.11.15",
                                         "dependencies": []
                                     },
@@ -69149,8 +69149,8 @@
     {
         "key": "tomlkit",
         "package_name": "tomlkit",
-        "installed_version": "0.10.0",
-        "required_version": "0.10.0",
+        "installed_version": "0.10.1",
+        "required_version": "0.10.1",
         "dependencies": []
     },
     {
@@ -70823,7 +70823,7 @@
             {
                 "key": "kiwisolver",
                 "package_name": "kiwisolver",
-                "installed_version": "1.4.0",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": []
             },
@@ -71079,8 +71079,8 @@
     {
         "key": "websocket-client",
         "package_name": "websocket-client",
-        "installed_version": "1.3.1",
-        "required_version": "1.3.1",
+        "installed_version": "1.3.2",
+        "required_version": "1.3.2",
         "dependencies": []
     },
     {
@@ -71093,8 +71093,8 @@
     {
         "key": "werkzeug",
         "package_name": "Werkzeug",
-        "installed_version": "2.0.3",
-        "required_version": "2.0.3",
+        "installed_version": "2.1.0",
+        "required_version": "2.1.0",
         "dependencies": []
     },
     {
@@ -72065,7 +72065,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
@@ -72462,7 +72462,7 @@
                     {
                         "key": "kiwisolver",
                         "package_name": "kiwisolver",
-                        "installed_version": "1.4.0",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.0.1",
                         "dependencies": []
                     },
