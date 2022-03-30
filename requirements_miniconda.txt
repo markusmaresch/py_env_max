@@ -151,7 +151,7 @@ smmap==5.0.0 # LEVEL_01 # A pure Python implementation of a sliding window memor
 pyparsing==3.0.7 # LEVEL_01 # Python parsing module
 #
 black==22.3.0 # LEVEL_02 # The uncompromising code formatter
-pytype==2022.3.21 # LEVEL_04 # ONLY_OSX # Python type inferencer
+pytype==2022.3.29 # LEVEL_04 # ONLY_OSX # Python type inferencer
 
 #
 # Internal .. needed early by this system
@@ -251,7 +251,7 @@ fastcore==1.4.0 # LEVEL_03 # Python supercharged for fastai development
 fastdownload==0.0.5 # LEVEL_04 # A general purpose data downloading library
 fastprogress==1.0.2 # LEVEL_01 # A nested progress with plotting options for fastai
 #
-h2o==3.36.0.3 # LEVEL_03 # H2O, Fast Scalable Machine Learning, for python
+h2o==3.36.0.4 # LEVEL_03 # H2O, Fast Scalable Machine Learning, for python
 #
 gym-unity==0.28.0 # LEVEL_04 # Unity Machine Learning Agents Gym Interface
 gym-notices==0.0.6 # LEVEL_01 # Notices for gym
@@ -323,7 +323,7 @@ sentencepiece==0.1.96 # LEVEL_01 # for BERT # SentencePiece python wrapper
 #
 spacytextblob==4.0.0 # LEVEL_05 # A TextBlob sentiment analysis pipeline component for spaCy
 spacy==3.2.4 # LEVEL_04 # Industrial-strength Natural Language Processing (NLP) in Python
-spacy-loggers==1.0.1 # LEVEL_02 # Logging utilities for SpaCy
+spacy-loggers==1.0.2 # LEVEL_02 # Logging utilities for SpaCy
 spacy-legacy==3.0.9 # LEVEL_01 # Legacy registered functions for spaCy backwards compatibility
 # spacy-transformers  # downgrades transformers !!
 thinc==8.0.15 # LEVEL_03 # A refreshing functional take on deep learning, compatible with your favorite libraries
@@ -462,7 +462,7 @@ dash-auth==1.4.1 # LEVEL_06 # Dash Authorization Package
 dash-bootstrap-components==1.0.3 # LEVEL_06 # Bootstrap themed components for use in Plotly Dash
 dash-canvas==0.1.0 # LEVEL_06 # Sketching pad for dash based on react-sketch
 dash-cytoscape==0.3.0 # LEVEL_06 # A Component Library for Dash aimed at facilitating network visualization in Python, wrapped around Cytoscape.js
-dash==2.3.0 # LEVEL_05 # A Python framework for building reactive web-apps. Developed by Plotly
+dash==2.3.1 # LEVEL_05 # A Python framework for building reactive web-apps. Developed by Plotly
 dash-core-components==2.0.0 # LEVEL_01 # Core component suite for Dash
 dash-html-components==2.0.0 # LEVEL_01 # Vanilla HTML components for Dash
 dash-table==5.0.0 # LEVEL_01 # Dash table
@@ -517,9 +517,9 @@ smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, A
 uamqp==1.5.3 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.21.29  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.21.30  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.2 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.24.29 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.24.30 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -531,9 +531,9 @@ jupyterlab==3.3.2 # LEVEL_09 # JupyterLab computational environment
 jupyter-server-proxy==3.2.1 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
 jupyterlab-server==2.12.0 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.1 # LEVEL_06 # Dash support for the Jupyter notebook interface
-jupyter-server==1.15.6 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
+jupyter-server==1.16.0 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-console==6.4.3 # LEVEL_06 # Jupyter terminal console
-jupyter-client==7.2.0 # LEVEL_03 # Jupyter protocol implementation and client libraries
+jupyter-client==7.2.1 # LEVEL_03 # Jupyter protocol implementation and client libraries
 jupyter-core==4.9.2 # LEVEL_02 # Jupyter core package. A base package on which Jupyter projects rely
 jupyterlab-pygments==0.1.2 # LEVEL_02 # Pygments theme using JupyterLab CSS variables
 jupyterlab-widgets==1.1.0 # LEVEL_01 # A JupyterLab extension
@@ -576,7 +576,7 @@ Flask-SeaSurf==0.3.1 # LEVEL_04 # An updated CSRF extension for Flask
 Flask-Caching==1.10.1 # LEVEL_04 # Adds caching support to your Flask application
 Flask-CacheBuster==1.0.0 # LEVEL_04 # Flask-CacheBuster is a lightweight Flask extension that adds a hash to the URL query parameters of each static file
 Flask-Cors==3.0.10 # LEVEL_04 # A Flask extension adding a decorator for CORS support
-Flask-Login==0.5.0 # LEVEL_04 # User session management for Flask
+Flask-Login==0.6.0 # LEVEL_04 # User authentication and session management for Flask
 Flask==2.1.0 # LEVEL_03 # A simple framework for building complex web applications
 #
 # Json
@@ -854,7 +854,7 @@ ua-parser==0.10.0 # LEVEL_01 # Python port of Browserscope's user agent parser
 Unidecode==1.3.4 # LEVEL_01 # ASCII transliterations of Unicode text
 urllib3==1.26.9 # LEVEL_01 # HTTP library with thread-safe connection pooling, file post, and more
 url-normalize==1.4.3 # LEVEL_02 # URL normalization for Python
-wasabi==0.9.0 # LEVEL_01 # A lightweight console printing and formatting toolkit
+wasabi==0.9.1 # LEVEL_01 # A lightweight console printing and formatting toolkit
 wcwidth==0.2.5 # LEVEL_01 # Measures the displayed width of unicode strings in a terminal
 webencodings==0.5.1 # LEVEL_01 # Character encoding aliases for legacy web content
 websockets==10.2 # LEVEL_01 # An implementation of the WebSocket Protocol (RFC 6455 & 7692)

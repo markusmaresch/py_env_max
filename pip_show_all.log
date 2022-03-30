@@ -649,7 +649,7 @@ Requires:
 Required-by: 
 ---
 Name: boto3
-Version: 1.21.29
+Version: 1.21.30
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -659,7 +659,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.24.29
+Version: 1.24.30
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -1229,7 +1229,7 @@ Requires: toolz
 Required-by: 
 ---
 Name: dash
-Version: 2.3.0
+Version: 2.3.1
 Summary: A Python framework for building reactive web-apps. Developed by Plotly.
 Home-page: https://plotly.com/dash
 Author: Chris Parmer
@@ -2059,13 +2059,13 @@ Requires: Flask Six
 Required-by: 
 ---
 Name: Flask-Login
-Version: 0.5.0
-Summary: User session management for Flask
+Version: 0.6.0
+Summary: User authentication and session management for Flask.
 Home-page: https://github.com/maxcountryman/flask-login
 Author: Matthew Frazier
 Author-email: leafstormrush@gmail.com
 License: MIT
-Requires: Flask
+Requires: Flask Werkzeug
 Required-by: 
 ---
 Name: Flask-SeaSurf
@@ -2529,7 +2529,7 @@ Requires:
 Required-by: httpcore uvicorn wsproto
 ---
 Name: h2o
-Version: 3.36.0.3
+Version: 3.36.0.4
 Summary: H2O, Fast Scalable Machine Learning, for python 
 Home-page: https://github.com/h2oai/h2o-3.git
 Author: H2O.ai
@@ -3069,7 +3069,7 @@ Requires: bokeh ipywidgets
 Required-by: 
 ---
 Name: jupyter-client
-Version: 7.2.0
+Version: 7.2.1
 Summary: Jupyter protocol implementation and client libraries
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3119,7 +3119,7 @@ Requires: deprecation packaging setuptools tomlkit wheel
 Required-by: 
 ---
 Name: jupyter-server
-Version: 1.15.6
+Version: 1.16.0
 Summary: The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -5745,7 +5745,7 @@ Requires: torch
 Required-by: torch-optimizer
 ---
 Name: pytype
-Version: 2022.3.21
+Version: 2022.3.29
 Summary: Python type inferencer
 Home-page: https://google.github.io/pytype
 Author: 
@@ -6475,7 +6475,7 @@ Requires:
 Required-by: spacy
 ---
 Name: spacy-loggers
-Version: 1.0.1
+Version: 1.0.2
 Summary: Logging utilities for SpaCy
 Home-page: https://github.com/explosion/spacy-loggers
 Author: Explosion
@@ -7595,7 +7595,7 @@ Requires: Click GitPython PyYAML docker-pycreds pathtools promise protobuf psuti
 Required-by: 
 ---
 Name: wasabi
-Version: 0.9.0
+Version: 0.9.1
 Summary: A lightweight console printing and formatting toolkit
 Home-page: https://ines.io
 Author: Ines Montani
@@ -7662,7 +7662,7 @@ Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
 Requires: 
-Required-by: Flask tensorboard
+Required-by: Flask Flask-Login tensorboard
 ---
 Name: wheel
 Version: 0.37.1
