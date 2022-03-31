@@ -728,6 +728,7 @@ fastai
 fbprophet
 flower
 google-api-python-client
+google-cloud-bigquery-storage
 google-cloud-core
 gradio
 holoviews

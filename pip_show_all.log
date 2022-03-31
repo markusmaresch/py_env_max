@@ -1689,7 +1689,7 @@ Requires:
 Required-by: nystrom-attention performer-pytorch
 ---
 Name: elastic-transport
-Version: 8.1.0
+Version: 8.1.1
 Summary: Transport classes and utilities shared among Python Elastic client libraries
 Home-page: https://github.com/elastic/elastic-transport-python
 Author: Elastic
@@ -1869,7 +1869,7 @@ Requires: numpy
 Required-by: dedupe
 ---
 Name: fastcore
-Version: 1.4.0
+Version: 1.4.1
 Summary: Python supercharged for fastai development
 Home-page: https://github.com/fastai/fastcore/tree/master/
 Author: Jeremy Howard and Sylvain Gugger
@@ -2009,7 +2009,7 @@ Requires: mccabe pycodestyle pyflakes
 Required-by: 
 ---
 Name: Flask
-Version: 2.1.0
+Version: 2.1.1
 Summary: A simple framework for building complex web applications.
 Home-page: https://palletsprojects.com/p/flask
 Author: Armin Ronacher
@@ -2286,7 +2286,7 @@ Author: Google LLC
 Author-email: googleapis-packages@google.com
 License: Apache 2.0
 Requires: google-auth googleapis-common-protos protobuf requests
-Required-by: google-api-python-client google-cloud-bigquery google-cloud-core opencensus
+Required-by: google-api-python-client google-cloud-bigquery google-cloud-bigquery-storage google-cloud-core opencensus
 ---
 Name: google-api-python-client
 Version: 2.42.0
@@ -2329,14 +2329,24 @@ Requires: google-auth requests-oauthlib
 Required-by: tensorboard
 ---
 Name: google-cloud-bigquery
-Version: 2.34.2
+Version: 3.0.1
 Summary: Google BigQuery API client library
 Home-page: https://github.com/googleapis/python-bigquery
 Author: Google LLC
 Author-email: googleapis-packages@google.com
 License: Apache 2.0
-Requires: google-api-core google-cloud-core google-resumable-media grpcio packaging proto-plus protobuf python-dateutil requests
+Requires: google-api-core google-cloud-bigquery-storage google-cloud-core google-resumable-media grpcio packaging proto-plus protobuf pyarrow python-dateutil requests
 Required-by: 
+---
+Name: google-cloud-bigquery-storage
+Version: 2.13.0
+Summary: BigQuery Storage API API client library
+Home-page: https://github.com/googleapis/python-bigquery-storage
+Author: Google LLC
+Author-email: googleapis-packages@google.com
+License: Apache 2.0
+Requires: google-api-core proto-plus
+Required-by: google-cloud-bigquery
 ---
 Name: google-cloud-core
 Version: 2.2.3
@@ -4525,7 +4535,7 @@ Requires: bleach bokeh markdown param pyct pyviz-comms requests setuptools tqdm
 Required-by: holoviews
 ---
 Name: param
-Version: 1.12.0
+Version: 1.12.1
 Summary: Make your Python code clearer and more reliable by declaring Parameters.
 Home-page: http://param.holoviz.org/
 Author: HoloViz
@@ -4902,7 +4912,7 @@ Author: Google LLC
 Author-email: googleapis-packages@google.com
 License: Apache 2.0
 Requires: protobuf
-Required-by: google-cloud-bigquery
+Required-by: google-cloud-bigquery google-cloud-bigquery-storage
 ---
 Name: protobuf
 Version: 3.19.4
@@ -5042,7 +5052,7 @@ Author:
 Author-email: 
 License: Apache License, Version 2.0
 Requires: numpy
-Required-by: datasets
+Required-by: datasets google-cloud-bigquery
 ---
 Name: pyasn1
 Version: 0.4.8
@@ -5905,13 +5915,13 @@ Requires: commonmark docutils sphinx
 Required-by: 
 ---
 Name: redis
-Version: 4.2.0
+Version: 4.2.1
 Summary: Python client for Redis database and key-value store
 Home-page: https://github.com/redis/redis-py
 Author: Redis Inc.
 Author-email: oss@redis.com
 License: MIT
-Requires: async-timeout deprecated packaging typing-extensions
+Requires: async-timeout deprecated packaging
 Required-by: ray
 ---
 Name: regex
@@ -6625,7 +6635,7 @@ Requires:
 Required-by: Sphinx
 ---
 Name: SQLAlchemy
-Version: 1.4.32
+Version: 1.4.33
 Summary: Database Abstraction Library
 Home-page: https://www.sqlalchemy.org
 Author: Mike Bayer
@@ -7372,7 +7382,7 @@ Author:
 Author-email: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 License: 
 Requires: 
-Required-by: aioredis azure-core black bokeh dedupe huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pyee pytorch-lightning redis tensorflow torch typing-inspect
+Required-by: aioredis azure-core black bokeh dedupe huggingface-hub jax libcst mashumaro mypy onnx pyanalyze pydantic pyee pytorch-lightning tensorflow torch typing-inspect
 ---
 Name: typing-inspect
 Version: 0.7.1
