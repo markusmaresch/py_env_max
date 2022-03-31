@@ -7360,7 +7360,7 @@
             {
                 "key": "fsspec",
                 "package_name": "fsspec",
-                "installed_version": "2022.2.0",
+                "installed_version": "2022.3.0",
                 "required_version": ">=0.6.0",
                 "dependencies": []
             },
@@ -7446,7 +7446,7 @@
                     {
                         "key": "fsspec",
                         "package_name": "fsspec",
-                        "installed_version": "2022.2.0",
+                        "installed_version": "2022.3.0",
                         "required_version": ">=0.6.0",
                         "dependencies": []
                     },
@@ -7601,7 +7601,7 @@
                     {
                         "key": "fsspec",
                         "package_name": "fsspec",
-                        "installed_version": "2022.2.0",
+                        "installed_version": "2022.3.0",
                         "required_version": ">=0.6.0",
                         "dependencies": []
                     },
@@ -7687,7 +7687,7 @@
                             {
                                 "key": "fsspec",
                                 "package_name": "fsspec",
-                                "installed_version": "2022.2.0",
+                                "installed_version": "2022.3.0",
                                 "required_version": ">=0.6.0",
                                 "dependencies": []
                             },
@@ -7856,7 +7856,7 @@
                             {
                                 "key": "fsspec",
                                 "package_name": "fsspec",
-                                "installed_version": "2022.2.0",
+                                "installed_version": "2022.3.0",
                                 "required_version": ">=0.6.0",
                                 "dependencies": []
                             },
@@ -8334,7 +8334,7 @@
             {
                 "key": "fsspec",
                 "package_name": "fsspec",
-                "installed_version": "2022.2.0",
+                "installed_version": "2022.3.0",
                 "required_version": ">=2021.05.0",
                 "dependencies": []
             },
@@ -8669,7 +8669,7 @@
                     {
                         "key": "fsspec",
                         "package_name": "fsspec",
-                        "installed_version": "2022.2.0",
+                        "installed_version": "2022.3.0",
                         "required_version": ">=0.6.0",
                         "dependencies": []
                     },
@@ -10040,7 +10040,7 @@
                     {
                         "key": "fsspec",
                         "package_name": "fsspec",
-                        "installed_version": "2022.2.0",
+                        "installed_version": "2022.3.0",
                         "required_version": ">=0.6.0",
                         "dependencies": []
                     },
@@ -10675,8 +10675,8 @@
     {
         "key": "elasticsearch",
         "package_name": "elasticsearch",
-        "installed_version": "8.1.1",
-        "required_version": "8.1.1",
+        "installed_version": "8.1.2",
+        "required_version": "8.1.2",
         "dependencies": [
             {
                 "key": "elastic-transport",
@@ -10841,14 +10841,14 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.19.3",
+                        "required_version": ">=1.14.5",
                         "dependencies": []
                     },
                     {
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
+                        "required_version": ">=1.19.3",
                         "dependencies": []
                     }
                 ]
@@ -12164,7 +12164,7 @@
             {
                 "key": "fsspec",
                 "package_name": "fsspec",
-                "installed_version": "2022.2.0",
+                "installed_version": "2022.3.0",
                 "required_version": "Any",
                 "dependencies": []
             },
@@ -13578,8 +13578,8 @@
     {
         "key": "fsspec",
         "package_name": "fsspec",
-        "installed_version": "2022.2.0",
-        "required_version": "2022.2.0",
+        "installed_version": "2022.3.0",
+        "required_version": "2022.3.0",
         "dependencies": []
     },
     {
@@ -33625,8 +33625,8 @@
     {
         "key": "kmodes",
         "package_name": "kmodes",
-        "installed_version": "0.11.1",
-        "required_version": "0.11.1",
+        "installed_version": "0.12.0",
+        "required_version": "0.12.0",
         "dependencies": [
             {
                 "key": "joblib",
@@ -42190,14 +42190,14 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.19.3",
+                "required_version": ">=1.14.5",
                 "dependencies": []
             },
             {
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
+                "required_version": ">=1.19.3",
                 "dependencies": []
             }
         ]
@@ -42219,14 +42219,14 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.19.3",
+                "required_version": ">=1.14.5",
                 "dependencies": []
             },
             {
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
+                "required_version": ">=1.19.3",
                 "dependencies": []
             }
         ]
@@ -49808,7 +49808,7 @@
             {
                 "key": "kmodes",
                 "package_name": "kmodes",
-                "installed_version": "0.11.1",
+                "installed_version": "0.12.0",
                 "required_version": ">=0.10.1",
                 "dependencies": [
                     {
@@ -58053,7 +58053,7 @@
             {
                 "key": "fsspec",
                 "package_name": "fsspec",
-                "installed_version": "2022.2.0",
+                "installed_version": "2022.3.0",
                 "required_version": ">=2021.05.0,!=2021.06.0",
                 "dependencies": []
             },
@@ -67364,14 +67364,14 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.19.3",
+                        "required_version": ">=1.14.5",
                         "dependencies": []
                     },
                     {
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
+                        "required_version": ">=1.19.3",
                         "dependencies": []
                     }
                 ]
@@ -70360,7 +70360,7 @@
             {
                 "key": "elasticsearch",
                 "package_name": "elasticsearch",
-                "installed_version": "8.1.1",
+                "installed_version": "8.1.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
