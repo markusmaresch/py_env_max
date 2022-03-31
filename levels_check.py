@@ -211,6 +211,26 @@ class LevelsCheck:
             # print('=' * 72)
             # lc.show()
         # with
+        if len(lod) > 0:
+            # this should NOT happen. It points to an error in above logic.
+            # need to find reason for not finding packages above !
+            print('')
+            print('Did NOT resolve all packages below')
+            for p in lod:
+                print('{}=={}'.format(p['key'], p['required_version']))
+                for d in p['dependencies']:
+                    rv = d['required_version']
+                    comp = '==' if rv == 'Any' else ''
+                    print('  {}{}{}'.format(d['key'], comp, d['required_version']))
+
+                    #for d2 in d['dependencies']:
+                    #    rv2 = d2['required_version']
+                    #    comp2 = '==' if rv2 == 'Any' else ''
+                    #    print('    {}{}{}'.format(d2['key'], comp2, d2['required_version']))
+
+                print('')
+            print('Did NOT resolve all packages above')
+            print('')
         return True
 
     def modify_requirements(self) -> bool:

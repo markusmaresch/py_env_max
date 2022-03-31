@@ -1161,6 +1161,9 @@ simplecosine==1.2 # LEVEL_02 # Simple cosine distance
 #
 jdcal==1.4.1 # LEVEL_01 # Julian dates from proleptic Gregorian and Julian calendars
 #pandas-dedupe==1.5.0 # LEVEL_01
+datetime-distance==0.1.3 # LEVEL_03 # Compare string distances between dates, timestamps, or datetime objects
+dedupe-hcluster==0.3.9 # LEVEL_02 # Hierarchical Clustering Algorithms (Information Theory)
+#dedupe-variable-datetime==0.1.5 # LEVEL_01
 #
 pandoc==2.1 # LEVEL_02 # Pandoc Documents for Python
 pandocfilters==1.5.0 # LEVEL_01 # Utilities for writing pandoc filters in python
