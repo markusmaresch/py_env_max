@@ -1,2 +1,4 @@
 req_problem.txt
 py_env_2*.yml
+.DS_Store
+.ipynb_checkpoints
