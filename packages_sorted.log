@@ -75,6 +75,7 @@ faiss-cpu
 fake-useragent
 fastavro
 fasteners
+fastjsonschema
 fastprogress
 fastrlock
 ffmpy

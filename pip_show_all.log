@@ -209,7 +209,7 @@ Requires:
 Required-by: requests-cache
 ---
 Name: appnope
-Version: 0.1.2
+Version: 0.1.3
 Summary: Disable App Nap on macOS >= 10.9
 Home-page: http://github.com/minrk/appnope
 Author: Min Ragan-Kelley
@@ -419,7 +419,7 @@ Requires:
 Required-by: 
 ---
 Name: azure-core
-Version: 1.23.0
+Version: 1.23.1
 Summary: Microsoft Azure Core Library for Python
 Home-page: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/core/azure-core
 Author: Microsoft Corporation
@@ -519,7 +519,7 @@ Requires: params-flow py-params
 Required-by: 
 ---
 Name: bertviz
-Version: 1.3.0
+Version: 1.4.0
 Summary: Attention visualization tool for NLP Transformer models.
 Home-page: https://github.com/jessevig/bertviz
 Author: Jesse Vig
@@ -649,7 +649,7 @@ Requires:
 Required-by: 
 ---
 Name: boto3
-Version: 1.21.30
+Version: 1.21.33
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -659,7 +659,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.24.30
+Version: 1.24.33
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -819,13 +819,13 @@ Requires:
 Required-by: twint
 ---
 Name: celery
-Version: 5.2.3
+Version: 5.2.6
 Summary: Distributed Task Queue.
 Home-page: http://celeryproject.org
 Author: Ask Solem
 Author-email: auvipy@gmail.com
 License: BSD
-Requires: billiard click click-didyoumean click-plugins click-repl kombu pytz setuptools vine
+Requires: billiard click click-didyoumean click-plugins click-repl kombu pytz vine
 Required-by: flower
 ---
 Name: certifi
@@ -1349,7 +1349,7 @@ Requires:
 Required-by: dash
 ---
 Name: dask
-Version: 2022.3.0
+Version: 2022.4.0
 Summary: Parallel PyData with Task Scheduling
 Home-page: https://github.com/dask/dask/
 Author: 
@@ -1379,13 +1379,13 @@ Requires: dask dask-glm distributed multipledispatch numba numpy packaging panda
 Required-by: 
 ---
 Name: databricks-cli
-Version: 0.16.4
+Version: 0.16.6
 Summary: A command line interface for Databricks
 Home-page: https://github.com/databricks/databricks-cli
 Author: Andrew Chen
 Author-email: andrewchen@databricks.com
 License: Apache License 2.0
-Requires: click requests six tabulate
+Requires: click oauthlib pyjwt requests six tabulate
 Required-by: mlflow
 ---
 Name: datasets
@@ -1539,13 +1539,13 @@ Requires:
 Required-by: datasets multiprocess tensorflow-datasets
 ---
 Name: distributed
-Version: 2022.3.0
+Version: 2022.4.0
 Summary: Distributed scheduler for Dask
 Home-page: https://distributed.dask.org
 Author: 
 Author-email: 
 License: BSD
-Requires: click cloudpickle dask jinja2 msgpack packaging psutil pyyaml sortedcontainers tblib toolz tornado zict
+Requires: click cloudpickle dask jinja2 msgpack packaging psutil pyyaml sortedcontainers tblib toolz tornado urllib3 zict
 Required-by: dask-ml
 ---
 Name: Django
@@ -1928,8 +1928,18 @@ License: ASL 2.0
 Requires: 
 Required-by: zarr
 ---
+Name: fastjsonschema
+Version: 2.15.3
+Summary: Fastest Python implementation of JSON schema
+Home-page: https://github.com/seznam/python-fastjsonschema
+Author: Michal Horejsek
+Author-email: horejsekmichal@gmail.com
+License: BSD
+Requires: 
+Required-by: nbformat
+---
 Name: fastparquet
-Version: 0.8.0
+Version: 0.8.1
 Summary: Python support for Parquet file format
 Home-page: https://github.com/dask/fastparquet/
 Author: Martin Durant
@@ -2319,7 +2329,7 @@ Requires: google-auth googleapis-common-protos protobuf requests
 Required-by: google-api-python-client google-cloud-bigquery google-cloud-bigquery-storage google-cloud-core opencensus
 ---
 Name: google-api-python-client
-Version: 2.42.0
+Version: 2.43.0
 Summary: Google API Client Library for Python
 Home-page: https://github.com/googleapis/google-api-python-client/
 Author: Google LLC
@@ -2369,7 +2379,7 @@ Requires: google-api-core google-cloud-bigquery-storage google-cloud-core google
 Required-by: 
 ---
 Name: google-cloud-bigquery-storage
-Version: 2.13.0
+Version: 2.13.1
 Summary: BigQuery Storage API API client library
 Home-page: https://github.com/googleapis/python-bigquery-storage
 Author: Google LLC
@@ -3149,13 +3159,13 @@ Requires: traitlets
 Required-by: jupyter-client jupyter-server jupyterlab nbconvert nbformat notebook qtconsole
 ---
 Name: jupyter-dash
-Version: 0.4.1
+Version: 0.4.2
 Summary: Dash support for the Jupyter notebook interface
 Home-page: https://github.com/plotly/jupyter-dash
 Author: Plotly
 Author-email: 
 License: MIT
-Requires: ansi2html dash flask ipykernel ipython requests retrying
+Requires: ansi2html dash flask ipykernel ipython nest-asyncio requests retrying
 Required-by: 
 ---
 Name: jupyter-packaging
@@ -3695,7 +3705,7 @@ Requires:
 Required-by: Jinja2 Mako nbconvert pandas-profiling
 ---
 Name: mashumaro
-Version: 3.0
+Version: 3.0.1
 Summary: Fast serialization framework on top of dataclasses
 Home-page: https://github.com/Fatal1ty/mashumaro
 Author: Alexander Tikhonov
@@ -4055,13 +4065,13 @@ Requires: MarkupSafe beautifulsoup4 bleach defusedxml entrypoints jinja2 jupyter
 Required-by: jupyter jupyter-server nbsphinx notebook
 ---
 Name: nbformat
-Version: 5.2.0
+Version: 5.3.0
 Summary: The Jupyter Notebook format
 Home-page: http://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD
-Requires: jsonschema jupyter-core traitlets
+Requires: fastjsonschema jsonschema jupyter-core traitlets
 Required-by: ipywidgets jupyter-server nbclient nbconvert nbsphinx notebook
 ---
 Name: nbsphinx
@@ -4082,7 +4092,7 @@ Author: Ewald R. de Wit
 Author-email: ewald.de.wit@gmail.com
 License: BSD
 Requires: 
-Required-by: ib-insync ipykernel jupyter-client nbclient notebook
+Required-by: ib-insync ipykernel jupyter-client jupyter-dash nbclient notebook
 ---
 Name: netCDF4
 Version: 1.5.8
@@ -4105,7 +4115,7 @@ Requires:
 Required-by: 
 ---
 Name: netron
-Version: 5.6.6
+Version: 5.6.7
 Summary: Viewer for neural network, deep learning, and machine learning models
 Home-page: https://github.com/lutzroeder/netron
 Author: Lutz Roeder
@@ -4292,7 +4302,7 @@ Author: The OAuthlib Community
 Author-email: idan@gazit.me
 License: BSD
 Requires: 
-Required-by: requests-oauthlib
+Required-by: databricks-cli requests-oauthlib
 ---
 Name: olefile
 Version: 0.46
@@ -4855,7 +4865,7 @@ Requires:
 Required-by: 
 ---
 Name: plotly
-Version: 5.6.0
+Version: 5.7.0
 Summary: An open-source, interactive data visualization library for Python
 Home-page: https://plotly.com/python/
 Author: Chris P
@@ -5412,7 +5422,7 @@ Author: Jose Padilla
 Author-email: hello@jpadilla.com
 License: MIT
 Requires: 
-Required-by: PyGithub
+Required-by: PyGithub databricks-cli
 ---
 Name: PyLBFGS
 Version: 0.2.0.14
@@ -5495,8 +5505,8 @@ Requires:
 Required-by: 
 ---
 Name: pyod
-Version: 0.9.8
-Summary: A Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
+Version: 0.9.9
+Summary: A Comprehensive and Scalable Python Library for Outlier Detection (Anomaly Detection)
 Home-page: https://github.com/yzhao062/pyod
 Author: Yue Zhao
 Author-email: zhaoy@cmu.edu
@@ -5665,7 +5675,7 @@ Requires:
 Required-by: jsonschema
 ---
 Name: PySimpleGUI
-Version: 4.57.0
+Version: 4.58.0
 Summary: Python GUIs for Humans. Launched in 2018. It's 2022 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers.
 Home-page: https://github.com/PySimpleGUI/PySimpleGUI
 Author: PySimpleGUI
@@ -5915,7 +5925,7 @@ Requires: Cython
 Required-by: asynq pyanalyze
 ---
 Name: qdldl
-Version: 0.1.5.post0
+Version: 0.1.5.post2
 Summary: QDLDL, a free LDL factorization routine.
 Home-page: https://github.com/oxfordcontrol/qdldl-python/
 Author: Bartolomeo Stellato, Paul Goulart, Goran Banjac
@@ -6115,7 +6125,7 @@ Requires:
 Required-by: httpx
 ---
 Name: rich
-Version: 12.0.1
+Version: 12.2.0
 Summary: Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 Home-page: https://github.com/willmcgugan/rich
 Author: Will McGugan
@@ -6392,7 +6402,7 @@ Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy celery cufflinks gunicorn ipython jupyter-packaging mlxtend nibabel numba panel plaster pmdarima pyinstaller pyramid python-daemon rapids setuptools-scm spacy streamz tensorboard tensorflow thinc zope.deprecation zope.index zope.interface
+Required-by: Fiona PasteDeploy cufflinks gunicorn ipython jupyter-packaging mlxtend nibabel numba panel plaster pmdarima pyinstaller pyramid python-daemon rapids setuptools-scm spacy streamz tensorboard tensorflow thinc zope.deprecation zope.index zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -6735,7 +6745,7 @@ Requires:
 Required-by: Sphinx
 ---
 Name: SQLAlchemy
-Version: 1.4.33
+Version: 1.4.34
 Summary: Database Abstraction Library
 Home-page: https://www.sqlalchemy.org
 Author: Mike Bayer
@@ -7215,7 +7225,7 @@ Requires: requests
 Required-by: 
 ---
 Name: tiledb
-Version: 0.13.1
+Version: 0.13.3
 Summary: Pythonic interface to the TileDB array storage manager
 Home-page: https://github.com/TileDB-Inc/TileDB-Py
 Author: TileDB, Inc.
@@ -7355,7 +7365,7 @@ Requires:
 Required-by: bokeh distributed flower ipykernel jupyter-client jupyter-server jupyterlab livereload luigi notebook streamz terminado
 ---
 Name: tqdm
-Version: 4.63.1
+Version: 4.64.0
 Summary: Fast, Extensible Progress Meter
 Home-page: https://tqdm.github.io
 Author: 
@@ -7602,7 +7612,7 @@ Author: Andrey Petrov
 Author-email: andrey.petrov@shazow.net
 License: MIT
 Requires: 
-Required-by: botocore elastic-transport intrinio-sdk kaggle mixpanel pmdarima requests requests-cache responses selenium sentry-sdk
+Required-by: botocore distributed elastic-transport intrinio-sdk kaggle mixpanel pmdarima requests requests-cache responses selenium sentry-sdk
 ---
 Name: userpath
 Version: 1.8.0
@@ -7765,7 +7775,7 @@ Requires:
 Required-by: tda-api
 ---
 Name: Werkzeug
-Version: 2.1.0
+Version: 2.1.1
 Summary: The comprehensive WSGI web application library.
 Home-page: https://palletsprojects.com/p/werkzeug/
 Author: Armin Ronacher
@@ -7945,7 +7955,7 @@ Requires: lxml multitasking numpy pandas requests
 Required-by: 
 ---
 Name: zarr
-Version: 2.11.1
+Version: 2.11.2
 Summary: An implementation of chunked, compressed, N-dimensional arrays for Python.
 Home-page: https://github.com/zarr-developers/zarr-python
 Author: 
@@ -7975,7 +7985,7 @@ Requires: heapdict
 Required-by: distributed streamz
 ---
 Name: zipp
-Version: 3.7.0
+Version: 3.8.0
 Summary: Backport of pathlib-compatible object wrapper for zip files
 Home-page: https://github.com/jaraco/zipp
 Author: Jason R. Coombs
