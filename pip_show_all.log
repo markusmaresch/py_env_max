@@ -1279,7 +1279,7 @@ Requires: Flask chart-studio dash flask-compress flask-seasurf itsdangerous requ
 Required-by: 
 ---
 Name: dash-bootstrap-components
-Version: 1.0.3
+Version: 1.1.0
 Summary: Bootstrap themed components for use in Plotly Dash
 Home-page: https://dash-bootstrap-components.opensource.faculty.ai/
 Author: Faculty
@@ -1859,7 +1859,7 @@ Requires:
 Required-by: twint
 ---
 Name: fastai
-Version: 2.5.5
+Version: 2.5.6
 Summary: fastai simplifies training fast and accurate neural nets using modern best practices
 Home-page: https://github.com/fastai/fastai/tree/master/
 Author: Jeremy Howard, Sylvain Gugger, and contributors
@@ -2109,7 +2109,7 @@ Requires: Flask Werkzeug
 Required-by: 
 ---
 Name: Flask-SeaSurf
-Version: 0.3.1
+Version: 1.1.1
 Summary: An updated CSRF extension for Flask.
 Home-page: https://github.com/maxcountryman/flask-seasurf/
 Author: Max Countryman
@@ -2719,7 +2719,7 @@ Requires: certifi charset-normalizer httpcore rfc3986 sniffio
 Required-by: tda-api
 ---
 Name: huggingface-hub
-Version: 0.4.0
+Version: 0.5.0
 Summary: Client library to download and publish models on the huggingface.co hub
 Home-page: https://github.com/huggingface/huggingface_hub
 Author: Hugging Face, Inc.
@@ -4085,7 +4085,7 @@ Requires: docutils jinja2 nbconvert nbformat sphinx traitlets
 Required-by: 
 ---
 Name: nest-asyncio
-Version: 1.5.4
+Version: 1.5.5
 Summary: Patch asyncio to allow nested event loops
 Home-page: https://github.com/erdewit/nest_asyncio
 Author: Ewald R. de Wit
@@ -4565,7 +4565,7 @@ Requires: PyYAML htmlmin jinja2 joblib markupsafe matplotlib missingno multimeth
 Required-by: pycaret
 ---
 Name: pandas-stubs
-Version: 1.2.0.54
+Version: 1.2.0.56
 Summary: Type annotations for Pandas
 Home-page: https://github.com/VirtusLab/pandas-stubs
 Author: Zbigniew Królikowski
@@ -4785,7 +4785,7 @@ Requires:
 Required-by: ipython
 ---
 Name: Pillow
-Version: 9.0.1
+Version: 9.1.0
 Summary: Python Imaging Library (Fork)
 Home-page: https://python-pillow.org
 Author: Alex Clark (PIL Fork Author)
@@ -4985,7 +4985,7 @@ Requires: six
 Required-by: tensorflow-datasets wandb
 ---
 Name: prompt-toolkit
-Version: 3.0.28
+Version: 3.0.29
 Summary: Library for building powerful interactive command lines in Python
 Home-page: https://github.com/prompt-toolkit/python-prompt-toolkit
 Author: Jonathan Slenders
@@ -5005,12 +5005,12 @@ Requires: protobuf
 Required-by: google-cloud-bigquery google-cloud-bigquery-storage
 ---
 Name: protobuf
-Version: 3.19.4
+Version: 3.20.0
 Summary: Protocol Buffers
 Home-page: https://developers.google.com/protocol-buffers/
 Author: 
 Author-email: 
-License: 3-Clause BSD License
+License: BSD-3-Clause
 Requires: 
 Required-by: google-api-core google-cloud-bigquery googleapis-common-protos grpcio-status keras2onnx mlagents-envs mlflow onnx onnx-simplifier onnxconverter-common onnxruntime proto-plus ray stanza tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-metadata wandb
 ---
@@ -6015,7 +6015,7 @@ Requires: commonmark docutils sphinx
 Required-by: 
 ---
 Name: redis
-Version: 4.2.1
+Version: 4.2.2
 Summary: Python client for Redis database and key-value store
 Home-page: https://github.com/redis/redis-py
 Author: Redis Inc.

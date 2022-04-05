@@ -186,7 +186,7 @@ pandas-profiling==3.1.0 # LEVEL_06 # Generate profile report for pandas DataFram
 pandas-datareader==0.10.0 # LEVEL_04 # Data readers extracted from the pandas codebase,should be compatible with recent pandas versions
 geopandas==0.10.2 # LEVEL_04 # ONLY_OSX # Geographic pandas extensions
 pandas==1.4.1 # LEVEL_03 # Powerful data structures for data analysis, time series, and statistics
-pandas-stubs==1.2.0.54 # LEVEL_01 # needed by openai # Type annotations for Pandas
+pandas-stubs==1.2.0.56 # LEVEL_01 # needed by openai # Type annotations for Pandas
 #
 # Excel
 #
@@ -203,7 +203,7 @@ box2d-py==2.3.8 # LEVEL_01 # ONLY_OSX # Python Box2D
 #ccxt==1.58.26 # LEVEL_01
 #
 wrds==3.1.1 # LEVEL_04 # Python access to WRDS Data
-redis==4.2.1 # LEVEL_03 # Python client for Redis database and key-value store
+redis==4.2.2 # LEVEL_03 # Python client for Redis database and key-value store
 lz4==4.0.0 # LEVEL_01 # LZ4 Bindings for Python
 GPUtil==1.4.0 # LEVEL_01 # GPUtil is a Python module for getting the GPU status from NVIDA GPUs using nvidia-smi
 #
@@ -237,7 +237,7 @@ transformers==4.17.0 # LEVEL_04 # State-of-the-art Natural Language Processing f
 Keras-Preprocessing==1.1.2 # LEVEL_02 # Easy data preprocessing and data augmentation for deep learning models
 #
 datasets==2.0.0 # LEVEL_04 # HuggingFace community-driven open-source library of datasets
-huggingface-hub==0.4.0 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
+huggingface-hub==0.5.0 # LEVEL_03 # Client library to download and publish models on the huggingface.co hub
 #
 xgboost==1.5.2 # LEVEL_03 # check installation notes # XGBoost Python Package
 #
@@ -254,7 +254,7 @@ einops==0.4.1 # LEVEL_01 # A new flavour of deep learning operations
 Theano==1.0.5 # LEVEL_03 # Optimizing compiler for evaluating mathematical expressions on CPUs and GPUs
 nose==1.3.7 # LEVEL_01 # nose extends unittest to make testing easier
 #
-fastai==2.5.5 # LEVEL_05 # fastai simplifies training fast and accurate neural nets using modern best practices
+fastai==2.5.6 # LEVEL_05 # fastai simplifies training fast and accurate neural nets using modern best practices
 fastcore==1.4.1 # LEVEL_03 # Python supercharged for fastai development
 fastdownload==0.0.5 # LEVEL_04 # A general purpose data downloading library
 fastprogress==1.0.2 # LEVEL_01 # A nested progress with plotting options for fastai
@@ -382,7 +382,7 @@ imagecodecs==2022.2.22 # LEVEL_02 # Image transformation, compression, and decom
 opencv-python==4.5.5.64 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.5.64 # LEVEL_02 # Wrapper package for OpenCV python bindings
 tifffile==2022.3.25 # LEVEL_02 # Read and write TIFF files
-Pillow==9.0.1 # LEVEL_01 # Python Imaging Library (Fork)
+Pillow==9.1.0 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
 ImageHash==4.2.1 # LEVEL_03 # Image Hashing library
 #
@@ -469,7 +469,7 @@ Kivy-examples==2.1.0 # LEVEL_04 # Kivy examples
 Kivy-Garden==0.1.5 # LEVEL_03
 #
 dash-auth==1.4.1 # LEVEL_06 # Dash Authorization Package
-dash-bootstrap-components==1.0.3 # LEVEL_06 # Bootstrap themed components for use in Plotly Dash
+dash-bootstrap-components==1.1.0 # LEVEL_06 # Bootstrap themed components for use in Plotly Dash
 dash-canvas==0.1.0 # LEVEL_06 # Sketching pad for dash based on react-sketch
 dash-cytoscape==0.3.0 # LEVEL_06 # A Component Library for Dash aimed at facilitating network visualization in Python, wrapped around Cytoscape.js
 dash==2.3.1 # LEVEL_05 # A Python framework for building reactive web-apps. Developed by Plotly
@@ -582,7 +582,7 @@ uvicorn==0.17.6 # LEVEL_02 # The lightning-fast ASGI server
 # Flask
 #
 Flask-Compress==1.11 # LEVEL_04 # Compress responses in your Flask app with gzip, deflate or brotli
-Flask-SeaSurf==0.3.1 # LEVEL_04 # An updated CSRF extension for Flask
+Flask-SeaSurf==1.1.1 # LEVEL_04 # An updated CSRF extension for Flask
 Flask-Caching==1.10.1 # LEVEL_04 # Adds caching support to your Flask application
 Flask-CacheBuster==1.0.0 # LEVEL_04 # Flask-CacheBuster is a lightweight Flask extension that adds a hash to the URL query parameters of each static file
 Flask-Cors==3.0.10 # LEVEL_04 # A Flask extension adding a decorator for CORS support
@@ -794,7 +794,7 @@ multipledispatch==0.6.0 # LEVEL_02 # Multiple dispatch
 multiprocess==0.70.12.2 # LEVEL_02 # better multiprocessing and multithreading in python
 multitasking==0.0.10 # LEVEL_01 # Non-blocking Python methods using decorators
 murmurhash==1.0.6 # LEVEL_01 # Cython bindings for MurmurHash
-nest-asyncio==1.5.4 # LEVEL_01 # Patch asyncio to allow nested event loops
+nest-asyncio==1.5.5 # LEVEL_01 # Patch asyncio to allow nested event loops
 netifaces==0.11.0 # LEVEL_01 # ONLY_OSX # Portable network interface information
 oauth2client==4.1.3 # LEVEL_03 # OAuth 2.0 client library
 oauthlib==3.2.0 # LEVEL_01 # A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
@@ -811,9 +811,9 @@ prometheus-flask-exporter==0.19.0 # LEVEL_04 # Prometheus metrics exporter for F
 prometheus-client==0.13.1 # LEVEL_01 # Python client for the Prometheus monitoring system
 #
 promise==2.3 # LEVEL_02 # Promises/A+ implementation for Python
-prompt-toolkit==3.0.28 # LEVEL_02 # Library for building powerful interactive command lines in Python
+prompt-toolkit==3.0.29 # LEVEL_02 # Library for building powerful interactive command lines in Python
 proto-plus==1.20.3 # LEVEL_02 # Beautiful, Pythonic protocol buffers
-protobuf==3.19.4 # LEVEL_01 # Protocol Buffers
+protobuf==3.20.0 # LEVEL_01 # Protocol Buffers
 psutil==5.9.0 # LEVEL_01 # Cross-platform lib for process and system monitoring in Python
 ptyprocess==0.7.0 # LEVEL_01 # Run a subprocess in a pseudo terminal
 py-cpuinfo==8.0.0 # LEVEL_01 # Get CPU info with pure Python 2 & 3
