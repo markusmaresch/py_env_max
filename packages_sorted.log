@@ -563,6 +563,7 @@ onnxoptimizer
 pandas
 pathy
 persistent
+pettingzoo
 pipx
 plaster-pastedeploy
 plotly

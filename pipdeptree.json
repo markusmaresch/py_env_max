@@ -1692,14 +1692,14 @@
             {
                 "key": "boto3",
                 "package_name": "boto3",
-                "installed_version": "1.21.33",
+                "installed_version": "1.21.34",
                 "required_version": "Any",
                 "dependencies": [
                     {
                         "key": "botocore",
                         "package_name": "botocore",
-                        "installed_version": "1.24.33",
-                        "required_version": ">=1.24.33,<1.25.0",
+                        "installed_version": "1.24.34",
+                        "required_version": ">=1.24.34,<1.25.0",
                         "dependencies": [
                             {
                                 "key": "jmespath",
@@ -1748,7 +1748,7 @@
                             {
                                 "key": "botocore",
                                 "package_name": "botocore",
-                                "installed_version": "1.24.33",
+                                "installed_version": "1.24.34",
                                 "required_version": ">=1.12.36,<2.0a.0",
                                 "dependencies": [
                                     {
@@ -2451,14 +2451,14 @@
     {
         "key": "boto3",
         "package_name": "boto3",
-        "installed_version": "1.21.33",
-        "required_version": "1.21.33",
+        "installed_version": "1.21.34",
+        "required_version": "1.21.34",
         "dependencies": [
             {
                 "key": "botocore",
                 "package_name": "botocore",
-                "installed_version": "1.24.33",
-                "required_version": ">=1.24.33,<1.25.0",
+                "installed_version": "1.24.34",
+                "required_version": ">=1.24.34,<1.25.0",
                 "dependencies": [
                     {
                         "key": "jmespath",
@@ -2507,7 +2507,7 @@
                     {
                         "key": "botocore",
                         "package_name": "botocore",
-                        "installed_version": "1.24.33",
+                        "installed_version": "1.24.34",
                         "required_version": ">=1.12.36,<2.0a.0",
                         "dependencies": [
                             {
@@ -2548,8 +2548,8 @@
     {
         "key": "botocore",
         "package_name": "botocore",
-        "installed_version": "1.24.33",
-        "required_version": "1.24.33",
+        "installed_version": "1.24.34",
+        "required_version": "1.24.34",
         "dependencies": [
             {
                 "key": "jmespath",
@@ -11289,13 +11289,6 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.19.3",
-                        "dependencies": []
-                    },
-                    {
-                        "key": "numpy",
-                        "package_name": "numpy",
-                        "installed_version": "1.20.0",
                         "required_version": ">=1.17.3",
                         "dependencies": []
                     },
@@ -11304,6 +11297,13 @@
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
                         "required_version": ">=1.14.5",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "1.20.0",
+                        "required_version": ">=1.19.3",
                         "dependencies": []
                     }
                 ]
@@ -43239,13 +43239,6 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.19.3",
-                "dependencies": []
-            },
-            {
-                "key": "numpy",
-                "package_name": "numpy",
-                "installed_version": "1.20.0",
                 "required_version": ">=1.17.3",
                 "dependencies": []
             },
@@ -43254,6 +43247,13 @@
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
                 "required_version": ">=1.14.5",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.20.0",
+                "required_version": ">=1.19.3",
                 "dependencies": []
             }
         ]
@@ -43268,13 +43268,6 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.19.3",
-                "dependencies": []
-            },
-            {
-                "key": "numpy",
-                "package_name": "numpy",
-                "installed_version": "1.20.0",
                 "required_version": ">=1.17.3",
                 "dependencies": []
             },
@@ -43283,6 +43276,13 @@
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
                 "required_version": ">=1.14.5",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.20.0",
+                "required_version": ">=1.19.3",
                 "dependencies": []
             }
         ]
@@ -46141,6 +46141,43 @@
                         "dependencies": []
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "key": "pettingzoo",
+        "package_name": "PettingZoo",
+        "installed_version": "1.12.0",
+        "required_version": "1.12.0",
+        "dependencies": [
+            {
+                "key": "gym",
+                "package_name": "gym",
+                "installed_version": "0.20.0",
+                "required_version": ">=0.18.0",
+                "dependencies": [
+                    {
+                        "key": "cloudpickle",
+                        "package_name": "cloudpickle",
+                        "installed_version": "2.0.0",
+                        "required_version": ">=1.2.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "1.20.0",
+                        "required_version": ">=1.18.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.20.0",
+                "required_version": ">=1.18.0",
+                "dependencies": []
             }
         ]
     },
@@ -63616,7 +63653,7 @@
             {
                 "key": "botocore",
                 "package_name": "botocore",
-                "installed_version": "1.24.33",
+                "installed_version": "1.24.34",
                 "required_version": ">=1.12.36,<2.0a.0",
                 "dependencies": [
                     {
@@ -70294,13 +70331,6 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.19.3",
-                        "dependencies": []
-                    },
-                    {
-                        "key": "numpy",
-                        "package_name": "numpy",
-                        "installed_version": "1.20.0",
                         "required_version": ">=1.17.3",
                         "dependencies": []
                     },
@@ -70309,6 +70339,13 @@
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
                         "required_version": ">=1.14.5",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "1.20.0",
+                        "required_version": ">=1.19.3",
                         "dependencies": []
                     }
                 ]
