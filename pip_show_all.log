@@ -4505,7 +4505,7 @@ Requires: pyparsing
 Required-by: QtPy Sphinx bleach bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery holoviews huggingface-hub jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nibabel numexpr pandera pipx pydata-sphinx-theme pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
 ---
 Name: pandas
-Version: 1.4.1
+Version: 1.4.2
 Summary: Powerful data structures for data analysis, time series, and statistics
 Home-page: https://pandas.pydata.org
 Author: The Pandas Development Team
@@ -7515,7 +7515,7 @@ Requires:
 Required-by: pytz-deprecation-shim
 ---
 Name: tzlocal
-Version: 4.1
+Version: 4.2
 Summary: tzinfo object for the local timezone
 Home-page: UNKNOWN
 Author: Lennart Regebro
@@ -7705,13 +7705,13 @@ Requires:
 Required-by: 
 ---
 Name: wandb
-Version: 0.12.11
+Version: 0.12.12
 Summary: A CLI and library for interacting with the Weights and Biases API.
 Home-page: https://github.com/wandb/client
 Author: Weights & Biases
 Author-email: support@wandb.com
 License: MIT license
-Requires: Click GitPython PyYAML docker-pycreds pathtools promise protobuf psutil python-dateutil requests sentry-sdk setproctitle shortuuid six yaspin
+Requires: Click GitPython PyYAML docker-pycreds pathtools promise protobuf psutil python-dateutil requests sentry-sdk setproctitle shortuuid six
 Required-by: 
 ---
 Name: wasabi
@@ -7932,7 +7932,7 @@ Author: Pavlo Dmytrenko
 Author-email: mail@pavdmyt.com
 License: MIT
 Requires: termcolor
-Required-by: wandb
+Required-by: 
 ---
 Name: yellowbrick
 Version: 1.4

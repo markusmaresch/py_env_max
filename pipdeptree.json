@@ -692,7 +692,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.18",
                 "dependencies": [
                     {
@@ -2833,7 +2833,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.24.0",
                 "dependencies": [
                     {
@@ -2952,7 +2952,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.20.1",
                 "dependencies": [
                     {
@@ -3098,7 +3098,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.25",
                         "dependencies": [
                             {
@@ -3689,7 +3689,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -5903,7 +5903,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.19.2",
                 "dependencies": [
                     {
@@ -8512,7 +8512,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.24.2",
                 "dependencies": [
                     {
@@ -8913,7 +8913,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -9258,7 +9258,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.24.1",
                 "dependencies": [
                     {
@@ -9367,7 +9367,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.1",
                         "dependencies": [
                             {
@@ -11377,7 +11377,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.16.1",
                 "dependencies": [
                     {
@@ -11427,7 +11427,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.23",
                         "dependencies": [
                             {
@@ -11575,7 +11575,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=1.1",
                 "dependencies": [
                     {
@@ -11854,7 +11854,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -12640,7 +12640,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=1.1.0",
                 "dependencies": [
                     {
@@ -12712,7 +12712,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -12949,7 +12949,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=1.0.4",
                 "dependencies": [
                     {
@@ -13176,7 +13176,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -14206,7 +14206,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.25.0",
                 "dependencies": [
                     {
@@ -16475,7 +16475,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -17175,7 +17175,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.20.0",
                 "dependencies": [
                     {
@@ -17804,7 +17804,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -20348,7 +20348,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.16.2",
                 "dependencies": [
                     {
@@ -35631,7 +35631,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.23",
                         "dependencies": [
                             {
@@ -36161,7 +36161,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -36483,7 +36483,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.24.2",
                 "dependencies": [
                     {
@@ -36695,7 +36695,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -40677,7 +40677,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.24.0",
                 "dependencies": [
                     {
@@ -43003,7 +43003,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=1.2.3",
                 "dependencies": [
                     {
@@ -43439,8 +43439,8 @@
     {
         "key": "pandas",
         "package_name": "pandas",
-        "installed_version": "1.4.1",
-        "required_version": "1.4.1",
+        "installed_version": "1.4.2",
+        "required_version": "1.4.2",
         "dependencies": [
             {
                 "key": "numpy",
@@ -43489,7 +43489,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.23",
                 "dependencies": [
                     {
@@ -43997,7 +43997,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -44064,7 +44064,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -44114,7 +44114,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.23",
                         "dependencies": [
                             {
@@ -44348,7 +44348,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.1",
                         "dependencies": [
                             {
@@ -44423,7 +44423,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=1.1",
                 "dependencies": [
                     {
@@ -44807,7 +44807,7 @@
                             {
                                 "key": "pandas",
                                 "package_name": "pandas",
-                                "installed_version": "1.4.1",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=0.23",
                                 "dependencies": [
                                     {
@@ -44877,7 +44877,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.25.3,!=1.1.0,!=1.0.2,!=1.0.1,!=1.0.0",
                 "dependencies": [
                     {
@@ -45014,7 +45014,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.25.1",
                         "dependencies": [
                             {
@@ -45234,7 +45234,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.23",
                         "dependencies": [
                             {
@@ -45336,7 +45336,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.25.3",
                         "dependencies": [
                             {
@@ -45419,7 +45419,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=1.2.0",
                 "dependencies": [
                     {
@@ -46262,7 +46262,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.25.1",
                 "dependencies": [
                     {
@@ -46542,7 +46542,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.19",
                 "dependencies": [
                     {
@@ -46673,7 +46673,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.25",
                         "dependencies": [
                             {
@@ -47166,7 +47166,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -47569,7 +47569,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.24.0",
                         "dependencies": [
                             {
@@ -49314,7 +49314,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.19.2",
                         "dependencies": [
                             {
@@ -51734,7 +51734,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -52056,7 +52056,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.24.2",
                         "dependencies": [
                             {
@@ -52204,7 +52204,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -52564,7 +52564,7 @@
                                     {
                                         "key": "pandas",
                                         "package_name": "pandas",
-                                        "installed_version": "1.4.1",
+                                        "installed_version": "1.4.2",
                                         "required_version": ">=0.23",
                                         "dependencies": [
                                             {
@@ -52634,7 +52634,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.25.3,!=1.1.0,!=1.0.2,!=1.0.1,!=1.0.0",
                         "dependencies": [
                             {
@@ -52771,7 +52771,7 @@
                             {
                                 "key": "pandas",
                                 "package_name": "pandas",
-                                "installed_version": "1.4.1",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=0.25.1",
                                 "dependencies": [
                                     {
@@ -52991,7 +52991,7 @@
                             {
                                 "key": "pandas",
                                 "package_name": "pandas",
-                                "installed_version": "1.4.1",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=0.23",
                                 "dependencies": [
                                     {
@@ -53093,7 +53093,7 @@
                             {
                                 "key": "pandas",
                                 "package_name": "pandas",
-                                "installed_version": "1.4.1",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=0.25.3",
                                 "dependencies": [
                                     {
@@ -53250,7 +53250,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.17.0",
                         "dependencies": [
                             {
@@ -53534,7 +53534,7 @@
                             {
                                 "key": "pandas",
                                 "package_name": "pandas",
-                                "installed_version": "1.4.1",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=0.25",
                                 "dependencies": [
                                     {
@@ -53903,7 +53903,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.23",
                         "dependencies": [
                             {
@@ -57177,7 +57177,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.16.1",
                         "dependencies": [
                             {
@@ -57227,7 +57227,7 @@
                             {
                                 "key": "pandas",
                                 "package_name": "pandas",
-                                "installed_version": "1.4.1",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=0.23",
                                 "dependencies": [
                                     {
@@ -57560,7 +57560,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.18.1",
                 "dependencies": [
                     {
@@ -57756,7 +57756,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.23",
                         "dependencies": [
                             {
@@ -58097,7 +58097,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.17.0",
                 "dependencies": [
                     {
@@ -58542,7 +58542,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.25",
                         "dependencies": [
                             {
@@ -58849,7 +58849,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.19",
                 "dependencies": [
                     {
@@ -60642,7 +60642,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=1",
                 "dependencies": [
                     {
@@ -61249,7 +61249,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.20.1",
                         "dependencies": [
                             {
@@ -61395,7 +61395,7 @@
                             {
                                 "key": "pandas",
                                 "package_name": "pandas",
-                                "installed_version": "1.4.1",
+                                "installed_version": "1.4.2",
                                 "required_version": ">=0.25",
                                 "dependencies": [
                                     {
@@ -62000,7 +62000,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">1.0.3,<2",
                 "dependencies": [
                     {
@@ -62065,7 +62065,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.2.0",
                         "dependencies": [
                             {
@@ -62417,7 +62417,7 @@
                     {
                         "key": "pandas",
                         "package_name": "pandas",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=0.23",
                         "dependencies": [
                             {
@@ -64349,7 +64349,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.23",
                 "dependencies": [
                     {
@@ -67013,7 +67013,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -67256,7 +67256,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.25",
                 "dependencies": [
                     {
@@ -67345,7 +67345,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.24.2",
                 "dependencies": [
                     {
@@ -70316,7 +70316,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.22.0",
                 "dependencies": [
                     {
@@ -72590,7 +72590,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -73393,7 +73393,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -73541,8 +73541,8 @@
     {
         "key": "tzlocal",
         "package_name": "tzlocal",
-        "installed_version": "4.1",
-        "required_version": "4.1",
+        "installed_version": "4.2",
+        "required_version": "4.2",
         "dependencies": [
             {
                 "key": "pytz-deprecation-shim",
@@ -73984,7 +73984,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.25.3",
                 "dependencies": [
                     {
@@ -74073,8 +74073,8 @@
     {
         "key": "wandb",
         "package_name": "wandb",
-        "installed_version": "0.12.11",
-        "required_version": "0.12.11",
+        "installed_version": "0.12.12",
+        "required_version": "0.12.12",
         "dependencies": [
             {
                 "key": "click",
@@ -74257,21 +74257,6 @@
                 "installed_version": "1.16.0",
                 "required_version": ">=1.13.0",
                 "dependencies": []
-            },
-            {
-                "key": "yaspin",
-                "package_name": "yaspin",
-                "installed_version": "2.1.0",
-                "required_version": ">=1.0.0",
-                "dependencies": [
-                    {
-                        "key": "termcolor",
-                        "package_name": "termcolor",
-                        "installed_version": "1.1.0",
-                        "required_version": ">=1.1.0,<2.0.0",
-                        "dependencies": []
-                    }
-                ]
             }
         ]
     },
@@ -75416,7 +75401,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -75520,7 +75505,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=1.1",
                 "dependencies": [
                     {
@@ -75865,7 +75850,7 @@
             {
                 "key": "pandas",
                 "package_name": "pandas",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=0.24.0",
                 "dependencies": [
                     {
