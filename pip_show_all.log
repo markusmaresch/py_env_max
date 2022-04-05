@@ -1818,6 +1818,16 @@ License: BSD
 Requires: numpy
 Required-by: ib-insync
 ---
+Name: exceptiongroup
+Version: 1.0.0rc2
+Summary: Backport of PEP 654 (exception groups)
+Home-page: 
+Author: 
+Author-email: Alex Grönholm <alex.gronholm@nextday.fi>
+License: 
+Requires: 
+Required-by: 
+---
 Name: exchange-calendars
 Version: 3.6.1
 Summary: exchange_calendars is a Python library with securities exchange calendars
@@ -2479,7 +2489,7 @@ Requires:
 Required-by: 
 ---
 Name: gradio
-Version: 2.8.14
+Version: 2.9.1
 Summary: Python library for easily interacting with trained machine learning models
 Home-page: https://github.com/gradio-app/gradio-UI
 Author: Abubakar Abid, Ali Abid, Ali Abdalla, Dawood Khan, Ahsen Khaliq
@@ -6185,7 +6195,7 @@ Requires: pyasn1
 Required-by: google-auth oauth2client
 ---
 Name: Rtree
-Version: 0.9.7
+Version: 1.0.0
 Summary: R-Tree spatial index for Python GIS
 Home-page: https://github.com/Toblerity/rtree
 Author: Sean Gillies

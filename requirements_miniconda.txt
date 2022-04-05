@@ -993,7 +993,7 @@ msgpack-python==0.5.6 # LEVEL_01 # MessagePack (de)serializer
 nibabel==3.2.2 # LEVEL_03 # Access a multitude of neuroimaging data formats
 nilearn==0.9.0 # LEVEL_04 # Statistical learning for neuroimaging in Python
 #
-Rtree==0.9.7 # LEVEL_01 # R-Tree spatial index for Python GIS
+Rtree==1.0.0 # LEVEL_01 # R-Tree spatial index for Python GIS
 #
 #snappy==3.0.1 # LEVEL_04
 #snappy-manifolds==1.1.2 # LEVEL_01
@@ -1079,7 +1079,7 @@ vine==5.0.0 # LEVEL_01 # Promises, promises, promises
 #
 
 flower==1.0.0 # LEVEL_05 # Celery Flower
-gradio==2.8.14 # LEVEL_05 # Python library for easily interacting with trained machine learning models
+gradio==2.9.1 # LEVEL_05 # Python library for easily interacting with trained machine learning models
 paramiko==2.10.3 # LEVEL_04 # SSH2 protocol library
 celery==5.2.6 # LEVEL_04 # Distributed Task Queue
 analytics-python==1.4.0 # LEVEL_03 # The hassle-free way to integrate analytics into any python application
