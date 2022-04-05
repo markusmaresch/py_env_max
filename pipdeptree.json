@@ -11289,7 +11289,7 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
+                        "required_version": ">=1.19.3",
                         "dependencies": []
                     },
                     {
@@ -11303,7 +11303,7 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.19.3",
+                        "required_version": ">=1.14.5",
                         "dependencies": []
                     }
                 ]
@@ -43040,7 +43040,7 @@
             {
                 "key": "pandas-stubs",
                 "package_name": "pandas-stubs",
-                "installed_version": "1.2.0.56",
+                "installed_version": "1.2.0.57",
                 "required_version": ">=1.1.0.11",
                 "dependencies": []
             },
@@ -43239,7 +43239,7 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
+                "required_version": ">=1.19.3",
                 "dependencies": []
             },
             {
@@ -43253,7 +43253,7 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.19.3",
+                "required_version": ">=1.14.5",
                 "dependencies": []
             }
         ]
@@ -43268,7 +43268,7 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
+                "required_version": ">=1.19.3",
                 "dependencies": []
             },
             {
@@ -43282,7 +43282,7 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.19.3",
+                "required_version": ">=1.14.5",
                 "dependencies": []
             }
         ]
@@ -45384,8 +45384,8 @@
     {
         "key": "pandas-stubs",
         "package_name": "pandas-stubs",
-        "installed_version": "1.2.0.56",
-        "required_version": "1.2.0.56",
+        "installed_version": "1.2.0.57",
+        "required_version": "1.2.0.57",
         "dependencies": []
     },
     {
@@ -67435,8 +67435,8 @@
     {
         "key": "stumpy",
         "package_name": "stumpy",
-        "installed_version": "1.11.0",
-        "required_version": "1.11.0",
+        "installed_version": "1.11.1",
+        "required_version": "1.11.1",
         "dependencies": [
             {
                 "key": "numba",
@@ -70294,7 +70294,7 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
+                        "required_version": ">=1.19.3",
                         "dependencies": []
                     },
                     {
@@ -70308,7 +70308,7 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.19.3",
+                        "required_version": ">=1.14.5",
                         "dependencies": []
                     }
                 ]

@@ -186,7 +186,7 @@ pandas-profiling==3.1.0 # LEVEL_06 # Generate profile report for pandas DataFram
 pandas-datareader==0.10.0 # LEVEL_04 # Data readers extracted from the pandas codebase,should be compatible with recent pandas versions
 geopandas==0.10.2 # LEVEL_04 # ONLY_OSX # Geographic pandas extensions
 pandas==1.4.2 # LEVEL_03 # Powerful data structures for data analysis, time series, and statistics
-pandas-stubs==1.2.0.56 # LEVEL_01 # needed by openai # Type annotations for Pandas
+pandas-stubs==1.2.0.57 # LEVEL_01 # needed by openai # Type annotations for Pandas
 #
 # Excel
 #
@@ -295,7 +295,7 @@ pmdarima==1.8.5 # LEVEL_05 # Python's forecast::auto.arima equivalent
 #tsai>=0.2.18  # time series and sequences, triggers huge number of dependencies !
 #prophet==1.0.1 # LEVEL_05 # RETIRED # ONLY_OSX # Automatic Forecasting Procedure
 fbprophet==0.7.1 # LEVEL_05 # Automatic Forecasting Procedure
-stumpy==1.11.0 # LEVEL_03 # A powerful and scalable library that can be used for a variety of time series data mining tasks
+stumpy==1.11.1 # LEVEL_03 # A powerful and scalable library that can be used for a variety of time series data mining tasks
 Cython==0.29.28 # LEVEL_01 # The Cython compiler for writing C extensions for the Python language
 
 #

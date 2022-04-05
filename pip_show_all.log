@@ -4565,7 +4565,7 @@ Requires: PyYAML htmlmin jinja2 joblib markupsafe matplotlib missingno multimeth
 Required-by: pycaret
 ---
 Name: pandas-stubs
-Version: 1.2.0.56
+Version: 1.2.0.57
 Summary: Type annotations for Pandas
 Home-page: https://github.com/VirtusLab/pandas-stubs
 Author: Zbigniew Królikowski
@@ -6855,7 +6855,7 @@ Requires: setuptools six toolz tornado zict
 Required-by: 
 ---
 Name: stumpy
-Version: 1.11.0
+Version: 1.11.1
 Summary: A powerful and scalable library that can be used for a variety of time series data mining tasks
 Home-page: https://github.com/TDAmeritrade/stumpy
 Author: Sean M. Law
