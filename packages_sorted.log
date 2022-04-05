@@ -145,6 +145,7 @@ mistune
 mock
 monotonic
 more-itertools
+mpmath
 msgpack
 msgpack-python
 multidict
@@ -329,6 +330,7 @@ biopython
 black
 blessings
 blis
+bottleneck
 categorical-distance
 cattrs
 cffi
@@ -362,6 +364,7 @@ gunicorn
 gym
 h5py
 httplib2
+hypothesis
 imagecodecs
 imageio
 importlab
@@ -582,6 +585,7 @@ rlr
 rouge-score
 scikit-image
 scikit-learn
+scikit-surprise
 scs
 setuptools-scm
 spectra
@@ -659,6 +663,7 @@ keras2onnx
 kivy
 kivy-examples
 kmodes
+lightfm
 lightgbm
 mlxtend
 mplfinance
@@ -669,10 +674,12 @@ onnx-simplifier
 openai
 osqp
 pandas-datareader
+pandera
 panel
 paramiko
 performer-pytorch
 phik
+powerlaw
 proj
 prometheus-flask-exporter
 py-vollib
@@ -719,6 +726,8 @@ yfinance
 zeep
 azure-storage-blob
 boto3
+category-encoders
+cornac
 cvxpy
 dash
 dask-ml
@@ -766,6 +775,7 @@ pyfolio
 pyportfolioopt
 pytorch-lightning
 qtconsole
+recommenders
 tda-api
 tensorflow
 jupyter-server-proxy

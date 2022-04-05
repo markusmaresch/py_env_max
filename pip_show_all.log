@@ -376,7 +376,7 @@ Author: Hynek Schlawack
 Author-email: hs@ox.cx
 License: MIT
 Requires: 
-Required-by: Fiona aiohttp aiohttp-socks cattrs jsonschema markdown-it-py outcome pyanalyze pytest pytype ray requests-cache trio visions zeep
+Required-by: Fiona aiohttp aiohttp-socks cattrs hypothesis jsonschema markdown-it-py outcome pyanalyze pytest pytype ray requests-cache trio visions zeep
 ---
 Name: Authlib
 Version: 1.0.0
@@ -668,6 +668,16 @@ License: Apache License 2.0
 Requires: jmespath python-dateutil urllib3
 Required-by: boto3 s3transfer
 ---
+Name: Bottleneck
+Version: 1.3.4
+Summary: Fast NumPy array functions written in C
+Home-page: https://github.com/pydata/bottleneck
+Author: 
+Author-email: 
+License: Simplified BSD
+Requires: numpy
+Required-by: recommenders
+---
 Name: Box2D
 Version: 2.3.2
 Summary: Python Box2D
@@ -777,6 +787,16 @@ Author-email: UNKNOWN
 License: The MIT License: http://www.opensource.org/licenses/mit-license.php
 Requires: numpy
 Required-by: dedupe
+---
+Name: category-encoders
+Version: 1.3.0
+Summary: A collection sklearn transformers to encode categorical variables as numeric
+Home-page: https://github.com/wdm0006/categorical_encoding
+Author: Will McGinnis
+Author-email: will@pedalwrencher.com
+License: BSD
+Requires: numpy pandas patsy scikit-learn scipy statsmodels
+Required-by: recommenders
 ---
 Name: cattrs
 Version: 1.10.0
@@ -1087,6 +1107,16 @@ Author-email: contact@fakeisthenewreal.org
 License: MIT
 Requires: pymeeus
 Required-by: fbprophet holidays
+---
+Name: cornac
+Version: 1.14.2
+Summary: A Comparative Framework for Multimodal Recommender Systems
+Home-page: https://cornac.preferred.ai
+Author: 
+Author-email: 
+License: UNKNOWN
+Requires: numpy powerlaw scipy tqdm
+Required-by: recommenders
 ---
 Name: coverage
 Version: 6.3.2
@@ -2708,6 +2738,16 @@ License: MIT
 Requires: 
 Required-by: pyramid
 ---
+Name: hypothesis
+Version: 6.41.0
+Summary: A library for property-based testing
+Home-page: https://hypothesis.works
+Author: David R. MacIver and Zac Hatfield-Dodds
+Author-email: david@drmaciver.com
+License: MPL-2.0
+Requires: attrs sortedcontainers
+Required-by: 
+---
 Name: ib-insync
 Version: 0.9.70
 Summary: Python sync/async framework for Interactive Brokers API
@@ -2989,14 +3029,14 @@ Requires:
 Required-by: SecretStorage
 ---
 Name: Jinja2
-Version: 3.1.1
+Version: 3.0.3
 Summary: A very fast and expressive template engine.
 Home-page: https://palletsprojects.com/p/jinja/
 Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
 Requires: MarkupSafe
-Required-by: Flask Sphinx altair bokeh distributed jupyter-server jupyterlab jupyterlab-server nbconvert nbsphinx notebook pandas-profiling pyLDAvis pydeck spacy
+Required-by: Flask Sphinx altair bokeh distributed jupyter-server jupyterlab jupyterlab-server nbconvert nbsphinx notebook pandas-profiling pyLDAvis pydeck recommenders spacy
 ---
 Name: jmespath
 Version: 0.10.0
@@ -3016,7 +3056,7 @@ Author: Gael Varoquaux
 Author-email: gael.varoquaux@normalesup.org
 License: BSD
 Requires: 
-Required-by: imbalanced-learn kmodes mlxtend nilearn nltk pandas-profiling phik pmdarima pyLDAvis pycaret pynndescent pyod sacremoses scikit-learn scikit-plot
+Required-by: imbalanced-learn kmodes mlxtend nilearn nltk pandas-profiling phik pmdarima pyLDAvis pycaret pynndescent pyod sacremoses scikit-learn scikit-plot scikit-surprise
 ---
 Name: jqdatasdk
 Version: 1.8.10
@@ -3454,6 +3494,16 @@ License: MIT
 Requires: pyyaml typing-extensions typing-inspect
 Required-by: pytype
 ---
+Name: lightfm
+Version: 1.16
+Summary: LightFM recommendation model
+Home-page: https://github.com/lyst/lightfm
+Author: Lyst Ltd (Maciej Kula)
+Author-email: data@ly.st
+License: MIT
+Requires: numpy requests scikit-learn scipy
+Required-by: recommenders
+---
 Name: lightgbm
 Version: 3.3.2
 Summary: LightGBM Python Package
@@ -3462,7 +3512,7 @@ Author:
 Author-email: 
 License: The MIT License (Microsoft)
 Requires: numpy scikit-learn scipy wheel
-Required-by: pycaret
+Required-by: pycaret recommenders
 ---
 Name: linkify-it-py
 Version: 1.0.3
@@ -3672,7 +3722,7 @@ Author: John D. Hunter, Michael Droettboom
 Author-email: matplotlib-users@python.org
 License: PSF
 Requires: cycler fonttools kiwisolver numpy packaging pillow pyparsing python-dateutil
-Required-by: catboost control do-mpc elegantrl fastai fbprophet filterpy gradio missingno mlxtend mplfinance pandas-profiling phik pycaret pycocotools pyfolio pyod scikit-plot seaborn stable-baselines3 tf-models-official wordcloud yellowbrick
+Required-by: catboost control do-mpc elegantrl fastai fbprophet filterpy gradio missingno mlxtend mplfinance pandas-profiling phik powerlaw pycaret pycocotools pyfolio pyod recommenders scikit-plot seaborn stable-baselines3 tf-models-official wordcloud yellowbrick
 ---
 Name: matplotlib-inline
 Version: 0.1.3
@@ -3722,7 +3772,7 @@ Author: Fabian Pedregosa
 Author-email: f@bianp.net
 License: BSD
 Requires: psutil
-Required-by: 
+Required-by: recommenders
 ---
 Name: minimal-snowplow-tracker
 Version: 0.0.2
@@ -3843,6 +3893,16 @@ Author-email: matplotlib-users@python.org
 License: BSD-style
 Requires: matplotlib pandas
 Required-by: 
+---
+Name: mpmath
+Version: 1.2.1
+Summary: Python library for arbitrary-precision floating-point arithmetic
+Home-page: http://mpmath.org/
+Author: Fredrik Johansson
+Author-email: fredrik.johansson@gmail.com
+License: BSD
+Requires: 
+Required-by: powerlaw
 ---
 Name: msgpack
 Version: 1.0.3
@@ -4102,7 +4162,7 @@ Author: NLTK Team
 Author-email: nltk.team@gmail.com
 License: Apache License, Version 2.0
 Requires: click joblib regex tqdm
-Required-by: pycaret rouge-score textblob
+Required-by: pycaret recommenders rouge-score textblob
 ---
 Name: nodejs
 Version: 0.1.1
@@ -4152,7 +4212,7 @@ Author:
 Author-email: 
 License: BSD
 Requires: llvmlite numpy setuptools
-Required-by: dask-ml datashader pynndescent pyod stumpy umap-learn
+Required-by: dask-ml datashader pynndescent pyod recommenders stumpy umap-learn
 ---
 Name: numcodecs
 Version: 0.9.1
@@ -4182,7 +4242,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: ImageHash Keras-Preprocessing PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance cftime cmdstanpy colormath control cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless opt-einsum osqp pandas pandas-profiling params-flow patsy phik pmdarima py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray rlr rouge-score sacrebleu scikit-image scikit-learn scipy sclblpy scs seaborn seqeval simplecosine slycot spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: Bottleneck ImageHash Keras-Preprocessing PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance category-encoders cftime cmdstanpy colormath control cornac cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightfm lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless opt-einsum osqp pandas pandas-profiling pandera params-flow patsy phik pmdarima powerlaw py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray recommenders rlr rouge-score sacrebleu scikit-image scikit-learn scikit-surprise scipy sclblpy scs seaborn seqeval simplecosine slycot spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -4432,7 +4492,7 @@ Author: Donald Stufft and individual contributors
 Author-email: donald@stufft.io
 License: BSD-2-Clause or Apache-2.0
 Requires: pyparsing
-Required-by: QtPy Sphinx bleach bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery holoviews huggingface-hub jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nibabel numexpr pipx pydata-sphinx-theme pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
+Required-by: QtPy Sphinx bleach bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery holoviews huggingface-hub jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nibabel numexpr pandera pipx pydata-sphinx-theme pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
 ---
 Name: pandas
 Version: 1.4.1
@@ -4442,7 +4502,7 @@ Author: The Pandas Development Team
 Author-email: pandas-dev@python.org
 License: BSD-3-Clause
 Requires: numpy python-dateutil pytz
-Required-by: altair catboost cmdstanpy cufflinks dask-ml datasets datashader empyrical exchange-calendars fastai fastparquet fbprophet finta geopandas gradio holoviews iexfinance jqdatasdk mlflow mlxtend mplfinance nilearn openai pandas-datareader pandas-dedupe pandas-finance pandas-market-calendars pandas-profiling phik pmdarima py-vollib pyLDAvis pycaret pyfolio pyportfolioopt rapidminer seaborn stable-baselines3 statsmodels stockstats tf-models-official trading-calendars twint visions wrds xarray yfinance
+Required-by: altair catboost category-encoders cmdstanpy cufflinks dask-ml datasets datashader empyrical exchange-calendars fastai fastparquet fbprophet finta geopandas gradio holoviews iexfinance jqdatasdk mlflow mlxtend mplfinance nilearn openai pandas-datareader pandas-dedupe pandas-finance pandas-market-calendars pandas-profiling pandera phik pmdarima py-vollib pyLDAvis pycaret pyfolio pyportfolioopt rapidminer recommenders seaborn stable-baselines3 statsmodels stockstats tf-models-official trading-calendars twint visions wrds xarray yfinance
 ---
 Name: pandas-datareader
 Version: 0.10.0
@@ -4503,6 +4563,16 @@ Author-email: zkrolikowski@virtuslab.com
 License: MIT
 Requires: 
 Required-by: openai
+---
+Name: pandera
+Version: 0.10.1
+Summary: A light-weight and flexible data validation and testing tool for dataframes.
+Home-page: https://github.com/pandera-dev/pandera
+Author: Niels Bantilan
+Author-email: niels.bantilan@gmail.com
+License: MIT
+Requires: numpy packaging pandas pyarrow pydantic typing-inspect wrapt
+Required-by: recommenders
 ---
 Name: pandoc
 Version: 2.1
@@ -4642,7 +4712,7 @@ Author: Nathaniel J. Smith
 Author-email: njs@pobox.com
 License: 2-clause BSD
 Requires: numpy six
-Required-by: statsmodels
+Required-by: category-encoders statsmodels
 ---
 Name: performer-pytorch
 Version: 1.1.4
@@ -4843,6 +4913,16 @@ Author-email: wolph@wol.ph
 License: PSF
 Requires: 
 Required-by: sacrebleu
+---
+Name: powerlaw
+Version: 1.5
+Summary: Toolbox for testing if a probability distribution fits a power law
+Home-page: http://www.github.com/jeffalstott/powerlaw
+Author: Jeff Alstott
+Author-email: jeffalstott@gmail.com
+License: MIT
+Requires: matplotlib mpmath numpy scipy
+Required-by: cornac
 ---
 Name: preshed
 Version: 3.0.6
@@ -5052,7 +5132,7 @@ Author:
 Author-email: 
 License: Apache License, Version 2.0
 Requires: numpy
-Required-by: datasets google-cloud-bigquery
+Required-by: datasets google-cloud-bigquery pandera
 ---
 Name: pyasn1
 Version: 0.4.8
@@ -5172,7 +5252,7 @@ Author: Samuel Colvin
 Author-email: s@muelcolvin.com
 License: MIT
 Requires: typing-extensions
-Required-by: fastapi pandas-profiling spacy thinc
+Required-by: fastapi pandas-profiling pandera spacy thinc
 ---
 Name: pydata-sphinx-theme
 Version: 0.8.1
@@ -5805,14 +5885,14 @@ Requires: numpy
 Required-by: ImageHash scikit-image
 ---
 Name: PyYAML
-Version: 5.4
+Version: 5.4.1
 Summary: YAML parser and emitter for Python
 Home-page: https://pyyaml.org/
 Author: Kirill Simonov
 Author-email: xi@resolvent.net
 License: MIT
 Requires: 
-Required-by: bokeh dask distributed fastai huggingface-hub libcst mlagents-envs mlflow omegaconf pandas-profiling pytorch-lightning rapids ray tf-models-official transformers wandb
+Required-by: bokeh dask distributed fastai huggingface-hub libcst mlagents-envs mlflow omegaconf pandas-profiling pytorch-lightning rapids ray recommenders tf-models-official transformers wandb
 ---
 Name: pyzmq
 Version: 22.3.0
@@ -5904,6 +5984,16 @@ License: Apache 2.0
 Requires: attrs click filelock grpcio jsonschema msgpack numpy protobuf pyyaml redis
 Required-by: 
 ---
+Name: recommenders
+Version: 1.1.0
+Summary: Microsoft Recommenders - Python utilities for building recommender systems
+Home-page: https://github.com/microsoft/recommenders
+Author: RecoDev Team at Microsoft
+Author-email: RecoDevTeam@service.microsoft.com
+License: UNKNOWN
+Requires: bottleneck category-encoders cornac jinja2 lightfm lightgbm matplotlib memory-profiler nltk numba numpy pandas pandera pyyaml requests retrying scikit-learn scikit-surprise scipy seaborn tqdm transformers
+Required-by: 
+---
 Name: recommonmark
 Version: 0.7.1
 Summary: A docutils-compatibility bridge to CommonMark, enabling you to write CommonMark inside of Docutils & Sphinx projects.
@@ -5942,7 +6032,7 @@ Author: Kenneth Reitz
 Author-email: me@kennethreitz.org
 License: Apache 2.0
 Requires: certifi charset-normalizer idna urllib3
-Required-by: Kivy-Garden Mastodon.py PyGithub Sphinx alpha-vantage analytics-python azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth databricks-cli datasets docker fastai google-api-core google-cloud-bigquery googletransx gradio h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle keras2onnx minimal-snowplow-tracker mixpanel mlflow msrest nilearn openai pandas-datareader pandas-finance pandas-profiling panel rapidminer requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket responses robin-stocks sclblpy spacy stanza tensorboard tensorflow-datasets tf2onnx tiingo transformers wandb yfinance zeep
+Required-by: Kivy-Garden Mastodon.py PyGithub Sphinx alpha-vantage analytics-python azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth databricks-cli datasets docker fastai google-api-core google-cloud-bigquery googletransx gradio h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle keras2onnx lightfm minimal-snowplow-tracker mixpanel mlflow msrest nilearn openai pandas-datareader pandas-finance pandas-profiling panel rapidminer recommenders requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket responses robin-stocks sclblpy spacy stanza tensorboard tensorflow-datasets tf2onnx tiingo transformers wandb yfinance zeep
 ---
 Name: requests-cache
 Version: 0.9.3
@@ -6012,7 +6102,7 @@ Author: Ray Holder
 Author-email: 
 License: Apache 2.0
 Requires: six
-Required-by: chart-studio dash-auth intrinio-sdk jupyter-dash
+Required-by: chart-studio dash-auth intrinio-sdk jupyter-dash recommenders
 ---
 Name: rfc3986
 Version: 1.5.0
@@ -6162,7 +6252,7 @@ Author:
 Author-email: 
 License: new BSD
 Requires: joblib numpy scipy threadpoolctl
-Required-by: dash-canvas dask-glm dask-ml fastai imbalanced-learn kmodes lightgbm mlxtend nilearn pmdarima pycaret pyfolio pynndescent pyod scikit-plot seqeval sklearn umap-learn yellowbrick
+Required-by: category-encoders dash-canvas dask-glm dask-ml fastai imbalanced-learn kmodes lightfm lightgbm mlxtend nilearn pmdarima pycaret pyfolio pynndescent pyod recommenders scikit-plot seqeval sklearn umap-learn yellowbrick
 ---
 Name: scikit-plot
 Version: 0.3.7
@@ -6174,6 +6264,16 @@ License: MIT License
 Requires: joblib matplotlib scikit-learn scipy
 Required-by: pycaret
 ---
+Name: scikit-surprise
+Version: 1.1.1
+Summary: An easy-to-use library for recommender systems.
+Home-page: http://surpriselib.com
+Author: Nicolas Hug
+Author-email: contact@nicolas-hug.com
+License: GPLv3+
+Requires: joblib numpy scipy six
+Required-by: recommenders
+---
 Name: scipy
 Version: 1.8.0
 Summary: SciPy: Scientific Library for Python
@@ -6182,7 +6282,7 @@ Author:
 Author-email: 
 License: BSD
 Requires: numpy
-Required-by: ImageHash Theano catboost control cvxpy dask-glm dask-ml datashader ecos empyrical fastai filterpy gensim imbalanced-learn jax kmodes lightgbm missingno mlflow mlxtend nilearn osqp pandas-profiling phik pmdarima py-vollib pyLDAvis pyfolio pynndescent pyod pyportfolioopt qdldl scikit-image scikit-learn scikit-plot scs seaborn statsmodels stumpy tf-models-official umap-learn xgboost yellowbrick
+Required-by: ImageHash Theano catboost category-encoders control cornac cvxpy dask-glm dask-ml datashader ecos empyrical fastai filterpy gensim imbalanced-learn jax kmodes lightfm lightgbm missingno mlflow mlxtend nilearn osqp pandas-profiling phik pmdarima powerlaw py-vollib pyLDAvis pyfolio pynndescent pyod pyportfolioopt qdldl recommenders scikit-image scikit-learn scikit-plot scikit-surprise scs seaborn statsmodels stumpy tf-models-official umap-learn xgboost yellowbrick
 ---
 Name: sclblpy
 Version: 0.1.7
@@ -6212,7 +6312,7 @@ Author: Michael Waskom
 Author-email: mwaskom@gmail.com
 License: BSD (3-clause)
 Requires: matplotlib numpy pandas scipy
-Required-by: missingno pandas-profiling pycaret pyfolio
+Required-by: missingno pandas-profiling pycaret pyfolio recommenders
 ---
 Name: SecretStorage
 Version: 3.3.1
@@ -6382,7 +6482,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli dm-tree docker-pycreds fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client paramiko patsy plotly promise pyod python-dateutil python-multipart querystring-parser requests-file retrying rouge-score sacremoses stanza streamz tenacity tensorboardX tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb zope.index
+Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli dm-tree docker-pycreds fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client paramiko patsy plotly promise pyod python-dateutil python-multipart querystring-parser requests-file retrying rouge-score sacremoses scikit-surprise stanza streamz tenacity tensorboardX tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb zope.index
 ---
 Name: sklearn
 Version: 0.0
@@ -6452,7 +6552,7 @@ Author: Grant Jenks
 Author-email: contact@grantjenks.com
 License: Apache 2.0
 Requires: 
-Required-by: distributed trio
+Required-by: distributed hypothesis trio
 ---
 Name: soupsieve
 Version: 2.3.1
@@ -6712,7 +6812,7 @@ Author:
 Author-email: 
 License: BSD License
 Requires: numpy packaging pandas patsy scipy
-Required-by: pmdarima pyod
+Required-by: category-encoders pmdarima pyod
 ---
 Name: stdlib-list
 Version: 0.8.0
@@ -7262,7 +7362,7 @@ Author:
 Author-email: 
 License: MPLv2.0, MIT Licences
 Requires: 
-Required-by: bertviz datasets fbprophet huggingface-hub kaggle nltk openai pandas-profiling panel params-flow pyro-ppl pytorch-lightning sacremoses spacy stanza tensorflow-datasets transformers umap-learn
+Required-by: bertviz cornac datasets fbprophet huggingface-hub kaggle nltk openai pandas-profiling panel params-flow pyro-ppl pytorch-lightning recommenders sacremoses spacy stanza tensorflow-datasets transformers umap-learn
 ---
 Name: trading-calendars
 Version: 2.1.1
@@ -7292,7 +7392,7 @@ Author: Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Sam Shleifer,
 Author-email: thomas@huggingface.co
 License: Apache
 Requires: filelock huggingface-hub numpy packaging pyyaml regex requests sacremoses tokenizers tqdm
-Required-by: bertviz
+Required-by: bertviz recommenders
 ---
 Name: translationstring
 Version: 1.4
@@ -7392,7 +7492,7 @@ Author: Ivan Levkivskyi
 Author-email: levkivskyi@gmail.com
 License: MIT
 Requires: mypy-extensions typing-extensions
-Required-by: libcst pyanalyze
+Required-by: libcst pandera pyanalyze
 ---
 Name: tzdata
 Version: 2022.1
@@ -7722,7 +7822,7 @@ Author: Graham Dumpleton
 Author-email: Graham.Dumpleton@gmail.com
 License: BSD
 Requires: 
-Required-by: Deprecated tensorflow
+Required-by: Deprecated pandera tensorflow
 ---
 Name: wrds
 Version: 3.1.1
