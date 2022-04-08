@@ -494,7 +494,7 @@
             {
                 "key": "sqlalchemy",
                 "package_name": "SQLAlchemy",
-                "installed_version": "1.4.34",
+                "installed_version": "1.4.35",
                 "required_version": ">=1.3.0",
                 "dependencies": [
                     {
@@ -1627,13 +1627,13 @@
     {
         "key": "beautifulsoup4",
         "package_name": "beautifulsoup4",
-        "installed_version": "4.10.0",
-        "required_version": "4.10.0",
+        "installed_version": "4.11.0",
+        "required_version": "4.11.0",
         "dependencies": [
             {
                 "key": "soupsieve",
                 "package_name": "soupsieve",
-                "installed_version": "2.3.1",
+                "installed_version": "2.3.2",
                 "required_version": ">1.2",
                 "dependencies": []
             }
@@ -1692,14 +1692,14 @@
             {
                 "key": "boto3",
                 "package_name": "boto3",
-                "installed_version": "1.21.34",
+                "installed_version": "1.21.35",
                 "required_version": "Any",
                 "dependencies": [
                     {
                         "key": "botocore",
                         "package_name": "botocore",
-                        "installed_version": "1.24.34",
-                        "required_version": ">=1.24.34,<1.25.0",
+                        "installed_version": "1.24.35",
+                        "required_version": ">=1.24.35,<1.25.0",
                         "dependencies": [
                             {
                                 "key": "jmespath",
@@ -1748,7 +1748,7 @@
                             {
                                 "key": "botocore",
                                 "package_name": "botocore",
-                                "installed_version": "1.24.34",
+                                "installed_version": "1.24.35",
                                 "required_version": ">=1.12.36,<2.0a.0",
                                 "dependencies": [
                                     {
@@ -2427,7 +2427,7 @@
             {
                 "key": "sqlalchemy",
                 "package_name": "sqlalchemy",
-                "installed_version": "1.4.34",
+                "installed_version": "1.4.35",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -2451,14 +2451,14 @@
     {
         "key": "boto3",
         "package_name": "boto3",
-        "installed_version": "1.21.34",
-        "required_version": "1.21.34",
+        "installed_version": "1.21.35",
+        "required_version": "1.21.35",
         "dependencies": [
             {
                 "key": "botocore",
                 "package_name": "botocore",
-                "installed_version": "1.24.34",
-                "required_version": ">=1.24.34,<1.25.0",
+                "installed_version": "1.24.35",
+                "required_version": ">=1.24.35,<1.25.0",
                 "dependencies": [
                     {
                         "key": "jmespath",
@@ -2507,7 +2507,7 @@
                     {
                         "key": "botocore",
                         "package_name": "botocore",
-                        "installed_version": "1.24.34",
+                        "installed_version": "1.24.35",
                         "required_version": ">=1.12.36,<2.0a.0",
                         "dependencies": [
                             {
@@ -2548,8 +2548,8 @@
     {
         "key": "botocore",
         "package_name": "botocore",
-        "installed_version": "1.24.34",
-        "required_version": "1.24.34",
+        "installed_version": "1.24.35",
+        "required_version": "1.24.35",
         "dependencies": [
             {
                 "key": "jmespath",
@@ -2759,7 +2759,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -3899,7 +3899,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -4037,7 +4037,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.2",
+                                "installed_version": "4.32.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -4596,7 +4596,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": "<8.0",
                                 "dependencies": [
                                     {
@@ -5165,7 +5165,7 @@
                                             {
                                                 "key": "jupyter-client",
                                                 "package_name": "jupyter-client",
-                                                "installed_version": "7.2.1",
+                                                "installed_version": "7.2.2",
                                                 "required_version": "<8.0",
                                                 "dependencies": [
                                                     {
@@ -5305,7 +5305,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": ">=5.3.4",
                                         "dependencies": [
                                             {
@@ -5399,13 +5399,13 @@
                                             {
                                                 "key": "beautifulsoup4",
                                                 "package_name": "beautifulsoup4",
-                                                "installed_version": "4.10.0",
+                                                "installed_version": "4.11.0",
                                                 "required_version": "Any",
                                                 "dependencies": [
                                                     {
                                                         "key": "soupsieve",
                                                         "package_name": "soupsieve",
-                                                        "installed_version": "2.3.1",
+                                                        "installed_version": "2.3.2",
                                                         "required_version": ">1.2",
                                                         "dependencies": []
                                                     }
@@ -5495,17 +5495,9 @@
                                             {
                                                 "key": "jupyterlab-pygments",
                                                 "package_name": "jupyterlab-pygments",
-                                                "installed_version": "0.1.2",
+                                                "installed_version": "0.2.0",
                                                 "required_version": "Any",
-                                                "dependencies": [
-                                                    {
-                                                        "key": "pygments",
-                                                        "package_name": "pygments",
-                                                        "installed_version": "2.11.2",
-                                                        "required_version": ">=2.4.1,<3",
-                                                        "dependencies": []
-                                                    }
-                                                ]
+                                                "dependencies": []
                                             },
                                             {
                                                 "key": "markupsafe",
@@ -5530,7 +5522,7 @@
                                                     {
                                                         "key": "jupyter-client",
                                                         "package_name": "jupyter-client",
-                                                        "installed_version": "7.2.1",
+                                                        "installed_version": "7.2.2",
                                                         "required_version": ">=6.1.5",
                                                         "dependencies": [
                                                             {
@@ -5833,7 +5825,7 @@
                                     {
                                         "key": "prometheus-client",
                                         "package_name": "prometheus-client",
-                                        "installed_version": "0.13.1",
+                                        "installed_version": "0.14.1",
                                         "required_version": "Any",
                                         "dependencies": []
                                     },
@@ -9823,7 +9815,7 @@
             {
                 "key": "zope.index",
                 "package_name": "zope.index",
-                "installed_version": "5.1.0",
+                "installed_version": "5.2.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -10256,7 +10248,7 @@
                     {
                         "key": "zope.index",
                         "package_name": "zope.index",
-                        "installed_version": "5.1.0",
+                        "installed_version": "5.2.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -10915,7 +10907,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -11208,7 +11200,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -11289,13 +11281,6 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
-                        "dependencies": []
-                    },
-                    {
-                        "key": "numpy",
-                        "package_name": "numpy",
-                        "installed_version": "1.20.0",
                         "required_version": ">=1.19.3",
                         "dependencies": []
                     },
@@ -11304,6 +11289,13 @@
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
                         "required_version": ">=1.17.3",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "1.20.0",
+                        "required_version": ">=1.14.5",
                         "dependencies": []
                     }
                 ]
@@ -11779,7 +11771,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -12882,7 +12874,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -13079,7 +13071,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -13996,7 +13988,7 @@
             {
                 "key": "prometheus-client",
                 "package_name": "prometheus-client",
-                "installed_version": "0.13.1",
+                "installed_version": "0.14.1",
                 "required_version": ">=0.8.0",
                 "dependencies": []
             },
@@ -14019,8 +14011,8 @@
     {
         "key": "fonttools",
         "package_name": "fonttools",
-        "installed_version": "4.31.2",
-        "required_version": "4.31.2",
+        "installed_version": "4.32.0",
+        "required_version": "4.32.0",
         "dependencies": []
     },
     {
@@ -16401,7 +16393,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -18422,7 +18414,7 @@
             {
                 "key": "jupyter-client",
                 "package_name": "jupyter-client",
-                "installed_version": "7.2.1",
+                "installed_version": "7.2.2",
                 "required_version": "<8.0",
                 "dependencies": [
                     {
@@ -18881,7 +18873,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": "<8.0",
                         "dependencies": [
                             {
@@ -19450,7 +19442,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": "<8.0",
                                         "dependencies": [
                                             {
@@ -19590,7 +19582,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": ">=5.3.4",
                                 "dependencies": [
                                     {
@@ -19684,13 +19676,13 @@
                                     {
                                         "key": "beautifulsoup4",
                                         "package_name": "beautifulsoup4",
-                                        "installed_version": "4.10.0",
+                                        "installed_version": "4.11.0",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
                                                 "key": "soupsieve",
                                                 "package_name": "soupsieve",
-                                                "installed_version": "2.3.1",
+                                                "installed_version": "2.3.2",
                                                 "required_version": ">1.2",
                                                 "dependencies": []
                                             }
@@ -19780,17 +19772,9 @@
                                     {
                                         "key": "jupyterlab-pygments",
                                         "package_name": "jupyterlab-pygments",
-                                        "installed_version": "0.1.2",
+                                        "installed_version": "0.2.0",
                                         "required_version": "Any",
-                                        "dependencies": [
-                                            {
-                                                "key": "pygments",
-                                                "package_name": "pygments",
-                                                "installed_version": "2.11.2",
-                                                "required_version": ">=2.4.1,<3",
-                                                "dependencies": []
-                                            }
-                                        ]
+                                        "dependencies": []
                                     },
                                     {
                                         "key": "markupsafe",
@@ -19815,7 +19799,7 @@
                                             {
                                                 "key": "jupyter-client",
                                                 "package_name": "jupyter-client",
-                                                "installed_version": "7.2.1",
+                                                "installed_version": "7.2.2",
                                                 "required_version": ">=6.1.5",
                                                 "dependencies": [
                                                     {
@@ -20118,7 +20102,7 @@
                             {
                                 "key": "prometheus-client",
                                 "package_name": "prometheus-client",
-                                "installed_version": "0.13.1",
+                                "installed_version": "0.14.1",
                                 "required_version": "Any",
                                 "dependencies": []
                             },
@@ -20442,7 +20426,7 @@
             {
                 "key": "sqlalchemy",
                 "package_name": "SQLAlchemy",
-                "installed_version": "1.4.34",
+                "installed_version": "1.4.35",
                 "required_version": ">=1.2.8",
                 "dependencies": [
                     {
@@ -20690,7 +20674,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": "<8.0",
                         "dependencies": [
                             {
@@ -20988,7 +20972,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": "<8.0",
                                 "dependencies": [
                                     {
@@ -21557,7 +21541,7 @@
                                             {
                                                 "key": "jupyter-client",
                                                 "package_name": "jupyter-client",
-                                                "installed_version": "7.2.1",
+                                                "installed_version": "7.2.2",
                                                 "required_version": "<8.0",
                                                 "dependencies": [
                                                     {
@@ -21697,7 +21681,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": ">=5.3.4",
                                         "dependencies": [
                                             {
@@ -21791,13 +21775,13 @@
                                             {
                                                 "key": "beautifulsoup4",
                                                 "package_name": "beautifulsoup4",
-                                                "installed_version": "4.10.0",
+                                                "installed_version": "4.11.0",
                                                 "required_version": "Any",
                                                 "dependencies": [
                                                     {
                                                         "key": "soupsieve",
                                                         "package_name": "soupsieve",
-                                                        "installed_version": "2.3.1",
+                                                        "installed_version": "2.3.2",
                                                         "required_version": ">1.2",
                                                         "dependencies": []
                                                     }
@@ -21887,17 +21871,9 @@
                                             {
                                                 "key": "jupyterlab-pygments",
                                                 "package_name": "jupyterlab-pygments",
-                                                "installed_version": "0.1.2",
+                                                "installed_version": "0.2.0",
                                                 "required_version": "Any",
-                                                "dependencies": [
-                                                    {
-                                                        "key": "pygments",
-                                                        "package_name": "pygments",
-                                                        "installed_version": "2.11.2",
-                                                        "required_version": ">=2.4.1,<3",
-                                                        "dependencies": []
-                                                    }
-                                                ]
+                                                "dependencies": []
                                             },
                                             {
                                                 "key": "markupsafe",
@@ -21922,7 +21898,7 @@
                                                     {
                                                         "key": "jupyter-client",
                                                         "package_name": "jupyter-client",
-                                                        "installed_version": "7.2.1",
+                                                        "installed_version": "7.2.2",
                                                         "required_version": ">=6.1.5",
                                                         "dependencies": [
                                                             {
@@ -22225,7 +22201,7 @@
                                     {
                                         "key": "prometheus-client",
                                         "package_name": "prometheus-client",
-                                        "installed_version": "0.13.1",
+                                        "installed_version": "0.14.1",
                                         "required_version": "Any",
                                         "dependencies": []
                                     },
@@ -22468,7 +22444,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": "<8.0",
                                 "dependencies": [
                                     {
@@ -22740,7 +22716,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": ">=7.0.0",
                         "dependencies": [
                             {
@@ -22843,13 +22819,13 @@
                     {
                         "key": "beautifulsoup4",
                         "package_name": "beautifulsoup4",
-                        "installed_version": "4.10.0",
+                        "installed_version": "4.11.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
                                 "key": "soupsieve",
                                 "package_name": "soupsieve",
-                                "installed_version": "2.3.1",
+                                "installed_version": "2.3.2",
                                 "required_version": ">1.2",
                                 "dependencies": []
                             }
@@ -22939,17 +22915,9 @@
                     {
                         "key": "jupyterlab-pygments",
                         "package_name": "jupyterlab-pygments",
-                        "installed_version": "0.1.2",
+                        "installed_version": "0.2.0",
                         "required_version": "Any",
-                        "dependencies": [
-                            {
-                                "key": "pygments",
-                                "package_name": "pygments",
-                                "installed_version": "2.11.2",
-                                "required_version": ">=2.4.1,<3",
-                                "dependencies": []
-                            }
-                        ]
+                        "dependencies": []
                     },
                     {
                         "key": "markupsafe",
@@ -22974,7 +22942,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": ">=6.1.5",
                                 "dependencies": [
                                     {
@@ -23422,7 +23390,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": "<8.0",
                                 "dependencies": [
                                     {
@@ -23562,7 +23530,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": ">=5.3.4",
                         "dependencies": [
                             {
@@ -23656,13 +23624,13 @@
                             {
                                 "key": "beautifulsoup4",
                                 "package_name": "beautifulsoup4",
-                                "installed_version": "4.10.0",
+                                "installed_version": "4.11.0",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
                                         "key": "soupsieve",
                                         "package_name": "soupsieve",
-                                        "installed_version": "2.3.1",
+                                        "installed_version": "2.3.2",
                                         "required_version": ">1.2",
                                         "dependencies": []
                                     }
@@ -23752,17 +23720,9 @@
                             {
                                 "key": "jupyterlab-pygments",
                                 "package_name": "jupyterlab-pygments",
-                                "installed_version": "0.1.2",
+                                "installed_version": "0.2.0",
                                 "required_version": "Any",
-                                "dependencies": [
-                                    {
-                                        "key": "pygments",
-                                        "package_name": "pygments",
-                                        "installed_version": "2.11.2",
-                                        "required_version": ">=2.4.1,<3",
-                                        "dependencies": []
-                                    }
-                                ]
+                                "dependencies": []
                             },
                             {
                                 "key": "markupsafe",
@@ -23787,7 +23747,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": ">=6.1.5",
                                         "dependencies": [
                                             {
@@ -24090,7 +24050,7 @@
                     {
                         "key": "prometheus-client",
                         "package_name": "prometheus-client",
-                        "installed_version": "0.13.1",
+                        "installed_version": "0.14.1",
                         "required_version": "Any",
                         "dependencies": []
                     },
@@ -24329,7 +24289,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": "<8.0",
                                 "dependencies": [
                                     {
@@ -24454,7 +24414,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": ">=4.1",
                         "dependencies": [
                             {
@@ -24849,7 +24809,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": "<8.0",
                                 "dependencies": [
                                     {
@@ -25418,7 +25378,7 @@
                                             {
                                                 "key": "jupyter-client",
                                                 "package_name": "jupyter-client",
-                                                "installed_version": "7.2.1",
+                                                "installed_version": "7.2.2",
                                                 "required_version": "<8.0",
                                                 "dependencies": [
                                                     {
@@ -25558,7 +25518,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": ">=5.3.4",
                                         "dependencies": [
                                             {
@@ -25652,13 +25612,13 @@
                                             {
                                                 "key": "beautifulsoup4",
                                                 "package_name": "beautifulsoup4",
-                                                "installed_version": "4.10.0",
+                                                "installed_version": "4.11.0",
                                                 "required_version": "Any",
                                                 "dependencies": [
                                                     {
                                                         "key": "soupsieve",
                                                         "package_name": "soupsieve",
-                                                        "installed_version": "2.3.1",
+                                                        "installed_version": "2.3.2",
                                                         "required_version": ">1.2",
                                                         "dependencies": []
                                                     }
@@ -25748,17 +25708,9 @@
                                             {
                                                 "key": "jupyterlab-pygments",
                                                 "package_name": "jupyterlab-pygments",
-                                                "installed_version": "0.1.2",
+                                                "installed_version": "0.2.0",
                                                 "required_version": "Any",
-                                                "dependencies": [
-                                                    {
-                                                        "key": "pygments",
-                                                        "package_name": "pygments",
-                                                        "installed_version": "2.11.2",
-                                                        "required_version": ">=2.4.1,<3",
-                                                        "dependencies": []
-                                                    }
-                                                ]
+                                                "dependencies": []
                                             },
                                             {
                                                 "key": "markupsafe",
@@ -25783,7 +25735,7 @@
                                                     {
                                                         "key": "jupyter-client",
                                                         "package_name": "jupyter-client",
-                                                        "installed_version": "7.2.1",
+                                                        "installed_version": "7.2.2",
                                                         "required_version": ">=6.1.5",
                                                         "dependencies": [
                                                             {
@@ -26086,7 +26038,7 @@
                                     {
                                         "key": "prometheus-client",
                                         "package_name": "prometheus-client",
-                                        "installed_version": "0.13.1",
+                                        "installed_version": "0.14.1",
                                         "required_version": "Any",
                                         "dependencies": []
                                     },
@@ -26151,8 +26103,8 @@
     {
         "key": "jupyter-client",
         "package_name": "jupyter-client",
-        "installed_version": "7.2.1",
-        "required_version": "7.2.1",
+        "installed_version": "7.2.2",
+        "required_version": "7.2.2",
         "dependencies": [
             {
                 "key": "entrypoints",
@@ -26404,7 +26356,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": "<8.0",
                         "dependencies": [
                             {
@@ -26676,7 +26628,7 @@
             {
                 "key": "jupyter-client",
                 "package_name": "jupyter-client",
-                "installed_version": "7.2.1",
+                "installed_version": "7.2.2",
                 "required_version": ">=7.0.0",
                 "dependencies": [
                     {
@@ -27226,7 +27178,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": "<8.0",
                         "dependencies": [
                             {
@@ -27699,7 +27651,7 @@
             {
                 "key": "jupyter-client",
                 "package_name": "jupyter-client",
-                "installed_version": "7.2.1",
+                "installed_version": "7.2.2",
                 "required_version": ">=6.1.12",
                 "dependencies": [
                     {
@@ -27793,13 +27745,13 @@
                     {
                         "key": "beautifulsoup4",
                         "package_name": "beautifulsoup4",
-                        "installed_version": "4.10.0",
+                        "installed_version": "4.11.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
                                 "key": "soupsieve",
                                 "package_name": "soupsieve",
-                                "installed_version": "2.3.1",
+                                "installed_version": "2.3.2",
                                 "required_version": ">1.2",
                                 "dependencies": []
                             }
@@ -27889,17 +27841,9 @@
                     {
                         "key": "jupyterlab-pygments",
                         "package_name": "jupyterlab-pygments",
-                        "installed_version": "0.1.2",
+                        "installed_version": "0.2.0",
                         "required_version": "Any",
-                        "dependencies": [
-                            {
-                                "key": "pygments",
-                                "package_name": "pygments",
-                                "installed_version": "2.11.2",
-                                "required_version": ">=2.4.1,<3",
-                                "dependencies": []
-                            }
-                        ]
+                        "dependencies": []
                     },
                     {
                         "key": "markupsafe",
@@ -27924,7 +27868,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": ">=6.1.5",
                                 "dependencies": [
                                     {
@@ -28235,7 +28179,7 @@
             {
                 "key": "prometheus-client",
                 "package_name": "prometheus-client",
-                "installed_version": "0.13.1",
+                "installed_version": "0.14.1",
                 "required_version": "Any",
                 "dependencies": []
             },
@@ -28461,7 +28405,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": ">=6.1.12",
                         "dependencies": [
                             {
@@ -28555,13 +28499,13 @@
                             {
                                 "key": "beautifulsoup4",
                                 "package_name": "beautifulsoup4",
-                                "installed_version": "4.10.0",
+                                "installed_version": "4.11.0",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
                                         "key": "soupsieve",
                                         "package_name": "soupsieve",
-                                        "installed_version": "2.3.1",
+                                        "installed_version": "2.3.2",
                                         "required_version": ">1.2",
                                         "dependencies": []
                                     }
@@ -28651,17 +28595,9 @@
                             {
                                 "key": "jupyterlab-pygments",
                                 "package_name": "jupyterlab-pygments",
-                                "installed_version": "0.1.2",
+                                "installed_version": "0.2.0",
                                 "required_version": "Any",
-                                "dependencies": [
-                                    {
-                                        "key": "pygments",
-                                        "package_name": "pygments",
-                                        "installed_version": "2.11.2",
-                                        "required_version": ">=2.4.1,<3",
-                                        "dependencies": []
-                                    }
-                                ]
+                                "dependencies": []
                             },
                             {
                                 "key": "markupsafe",
@@ -28686,7 +28622,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": ">=6.1.5",
                                         "dependencies": [
                                             {
@@ -28997,7 +28933,7 @@
                     {
                         "key": "prometheus-client",
                         "package_name": "prometheus-client",
-                        "installed_version": "0.13.1",
+                        "installed_version": "0.14.1",
                         "required_version": "Any",
                         "dependencies": []
                     },
@@ -29072,8 +29008,8 @@
     {
         "key": "jupyterlab",
         "package_name": "jupyterlab",
-        "installed_version": "3.3.2",
-        "required_version": "3.3.2",
+        "installed_version": "3.3.3",
+        "required_version": "3.3.3",
         "dependencies": [
             {
                 "key": "ipython",
@@ -29336,7 +29272,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": ">=6.1.12",
                         "dependencies": [
                             {
@@ -29430,13 +29366,13 @@
                             {
                                 "key": "beautifulsoup4",
                                 "package_name": "beautifulsoup4",
-                                "installed_version": "4.10.0",
+                                "installed_version": "4.11.0",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
                                         "key": "soupsieve",
                                         "package_name": "soupsieve",
-                                        "installed_version": "2.3.1",
+                                        "installed_version": "2.3.2",
                                         "required_version": ">1.2",
                                         "dependencies": []
                                     }
@@ -29526,17 +29462,9 @@
                             {
                                 "key": "jupyterlab-pygments",
                                 "package_name": "jupyterlab-pygments",
-                                "installed_version": "0.1.2",
+                                "installed_version": "0.2.0",
                                 "required_version": "Any",
-                                "dependencies": [
-                                    {
-                                        "key": "pygments",
-                                        "package_name": "pygments",
-                                        "installed_version": "2.11.2",
-                                        "required_version": ">=2.4.1,<3",
-                                        "dependencies": []
-                                    }
-                                ]
+                                "dependencies": []
                             },
                             {
                                 "key": "markupsafe",
@@ -29561,7 +29489,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": ">=6.1.5",
                                         "dependencies": [
                                             {
@@ -29872,7 +29800,7 @@
                     {
                         "key": "prometheus-client",
                         "package_name": "prometheus-client",
-                        "installed_version": "0.13.1",
+                        "installed_version": "0.14.1",
                         "required_version": "Any",
                         "dependencies": []
                     },
@@ -30084,7 +30012,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": ">=6.1.12",
                                 "dependencies": [
                                     {
@@ -30178,13 +30106,13 @@
                                     {
                                         "key": "beautifulsoup4",
                                         "package_name": "beautifulsoup4",
-                                        "installed_version": "4.10.0",
+                                        "installed_version": "4.11.0",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
                                                 "key": "soupsieve",
                                                 "package_name": "soupsieve",
-                                                "installed_version": "2.3.1",
+                                                "installed_version": "2.3.2",
                                                 "required_version": ">1.2",
                                                 "dependencies": []
                                             }
@@ -30274,17 +30202,9 @@
                                     {
                                         "key": "jupyterlab-pygments",
                                         "package_name": "jupyterlab-pygments",
-                                        "installed_version": "0.1.2",
+                                        "installed_version": "0.2.0",
                                         "required_version": "Any",
-                                        "dependencies": [
-                                            {
-                                                "key": "pygments",
-                                                "package_name": "pygments",
-                                                "installed_version": "2.11.2",
-                                                "required_version": ">=2.4.1,<3",
-                                                "dependencies": []
-                                            }
-                                        ]
+                                        "dependencies": []
                                     },
                                     {
                                         "key": "markupsafe",
@@ -30309,7 +30229,7 @@
                                             {
                                                 "key": "jupyter-client",
                                                 "package_name": "jupyter-client",
-                                                "installed_version": "7.2.1",
+                                                "installed_version": "7.2.2",
                                                 "required_version": ">=6.1.5",
                                                 "dependencies": [
                                                     {
@@ -30620,7 +30540,7 @@
                             {
                                 "key": "prometheus-client",
                                 "package_name": "prometheus-client",
-                                "installed_version": "0.13.1",
+                                "installed_version": "0.14.1",
                                 "required_version": "Any",
                                 "dependencies": []
                             },
@@ -30819,7 +30739,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": ">=6.1.12",
                                 "dependencies": [
                                     {
@@ -30913,13 +30833,13 @@
                                     {
                                         "key": "beautifulsoup4",
                                         "package_name": "beautifulsoup4",
-                                        "installed_version": "4.10.0",
+                                        "installed_version": "4.11.0",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
                                                 "key": "soupsieve",
                                                 "package_name": "soupsieve",
-                                                "installed_version": "2.3.1",
+                                                "installed_version": "2.3.2",
                                                 "required_version": ">1.2",
                                                 "dependencies": []
                                             }
@@ -31009,17 +30929,9 @@
                                     {
                                         "key": "jupyterlab-pygments",
                                         "package_name": "jupyterlab-pygments",
-                                        "installed_version": "0.1.2",
+                                        "installed_version": "0.2.0",
                                         "required_version": "Any",
-                                        "dependencies": [
-                                            {
-                                                "key": "pygments",
-                                                "package_name": "pygments",
-                                                "installed_version": "2.11.2",
-                                                "required_version": ">=2.4.1,<3",
-                                                "dependencies": []
-                                            }
-                                        ]
+                                        "dependencies": []
                                     },
                                     {
                                         "key": "markupsafe",
@@ -31044,7 +30956,7 @@
                                             {
                                                 "key": "jupyter-client",
                                                 "package_name": "jupyter-client",
-                                                "installed_version": "7.2.1",
+                                                "installed_version": "7.2.2",
                                                 "required_version": ">=6.1.5",
                                                 "dependencies": [
                                                     {
@@ -31355,7 +31267,7 @@
                             {
                                 "key": "prometheus-client",
                                 "package_name": "prometheus-client",
-                                "installed_version": "0.13.1",
+                                "installed_version": "0.14.1",
                                 "required_version": "Any",
                                 "dependencies": []
                             },
@@ -31632,7 +31544,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": "<8.0",
                                         "dependencies": [
                                             {
@@ -31772,7 +31684,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": ">=5.3.4",
                                 "dependencies": [
                                     {
@@ -31866,13 +31778,13 @@
                                     {
                                         "key": "beautifulsoup4",
                                         "package_name": "beautifulsoup4",
-                                        "installed_version": "4.10.0",
+                                        "installed_version": "4.11.0",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
                                                 "key": "soupsieve",
                                                 "package_name": "soupsieve",
-                                                "installed_version": "2.3.1",
+                                                "installed_version": "2.3.2",
                                                 "required_version": ">1.2",
                                                 "dependencies": []
                                             }
@@ -31962,17 +31874,9 @@
                                     {
                                         "key": "jupyterlab-pygments",
                                         "package_name": "jupyterlab-pygments",
-                                        "installed_version": "0.1.2",
+                                        "installed_version": "0.2.0",
                                         "required_version": "Any",
-                                        "dependencies": [
-                                            {
-                                                "key": "pygments",
-                                                "package_name": "pygments",
-                                                "installed_version": "2.11.2",
-                                                "required_version": ">=2.4.1,<3",
-                                                "dependencies": []
-                                            }
-                                        ]
+                                        "dependencies": []
                                     },
                                     {
                                         "key": "markupsafe",
@@ -31997,7 +31901,7 @@
                                             {
                                                 "key": "jupyter-client",
                                                 "package_name": "jupyter-client",
-                                                "installed_version": "7.2.1",
+                                                "installed_version": "7.2.2",
                                                 "required_version": ">=6.1.5",
                                                 "dependencies": [
                                                     {
@@ -32300,7 +32204,7 @@
                             {
                                 "key": "prometheus-client",
                                 "package_name": "prometheus-client",
-                                "installed_version": "0.13.1",
+                                "installed_version": "0.14.1",
                                 "required_version": "Any",
                                 "dependencies": []
                             },
@@ -32439,7 +32343,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": ">=6.1.12",
                                         "dependencies": [
                                             {
@@ -32533,13 +32437,13 @@
                                             {
                                                 "key": "beautifulsoup4",
                                                 "package_name": "beautifulsoup4",
-                                                "installed_version": "4.10.0",
+                                                "installed_version": "4.11.0",
                                                 "required_version": "Any",
                                                 "dependencies": [
                                                     {
                                                         "key": "soupsieve",
                                                         "package_name": "soupsieve",
-                                                        "installed_version": "2.3.1",
+                                                        "installed_version": "2.3.2",
                                                         "required_version": ">1.2",
                                                         "dependencies": []
                                                     }
@@ -32629,17 +32533,9 @@
                                             {
                                                 "key": "jupyterlab-pygments",
                                                 "package_name": "jupyterlab-pygments",
-                                                "installed_version": "0.1.2",
+                                                "installed_version": "0.2.0",
                                                 "required_version": "Any",
-                                                "dependencies": [
-                                                    {
-                                                        "key": "pygments",
-                                                        "package_name": "pygments",
-                                                        "installed_version": "2.11.2",
-                                                        "required_version": ">=2.4.1,<3",
-                                                        "dependencies": []
-                                                    }
-                                                ]
+                                                "dependencies": []
                                             },
                                             {
                                                 "key": "markupsafe",
@@ -32664,7 +32560,7 @@
                                                     {
                                                         "key": "jupyter-client",
                                                         "package_name": "jupyter-client",
-                                                        "installed_version": "7.2.1",
+                                                        "installed_version": "7.2.2",
                                                         "required_version": ">=6.1.5",
                                                         "dependencies": [
                                                             {
@@ -32975,7 +32871,7 @@
                                     {
                                         "key": "prometheus-client",
                                         "package_name": "prometheus-client",
-                                        "installed_version": "0.13.1",
+                                        "installed_version": "0.14.1",
                                         "required_version": "Any",
                                         "dependencies": []
                                     },
@@ -33069,17 +32965,9 @@
     {
         "key": "jupyterlab-pygments",
         "package_name": "jupyterlab-pygments",
-        "installed_version": "0.1.2",
-        "required_version": "0.1.2",
-        "dependencies": [
-            {
-                "key": "pygments",
-                "package_name": "pygments",
-                "installed_version": "2.11.2",
-                "required_version": ">=2.4.1,<3",
-                "dependencies": []
-            }
-        ]
+        "installed_version": "0.2.0",
+        "required_version": "0.2.0",
+        "dependencies": []
     },
     {
         "key": "jupyterlab-server",
@@ -33230,7 +33118,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": ">=6.1.12",
                         "dependencies": [
                             {
@@ -33324,13 +33212,13 @@
                             {
                                 "key": "beautifulsoup4",
                                 "package_name": "beautifulsoup4",
-                                "installed_version": "4.10.0",
+                                "installed_version": "4.11.0",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
                                         "key": "soupsieve",
                                         "package_name": "soupsieve",
-                                        "installed_version": "2.3.1",
+                                        "installed_version": "2.3.2",
                                         "required_version": ">1.2",
                                         "dependencies": []
                                     }
@@ -33420,17 +33308,9 @@
                             {
                                 "key": "jupyterlab-pygments",
                                 "package_name": "jupyterlab-pygments",
-                                "installed_version": "0.1.2",
+                                "installed_version": "0.2.0",
                                 "required_version": "Any",
-                                "dependencies": [
-                                    {
-                                        "key": "pygments",
-                                        "package_name": "pygments",
-                                        "installed_version": "2.11.2",
-                                        "required_version": ">=2.4.1,<3",
-                                        "dependencies": []
-                                    }
-                                ]
+                                "dependencies": []
                             },
                             {
                                 "key": "markupsafe",
@@ -33455,7 +33335,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": ">=6.1.5",
                                         "dependencies": [
                                             {
@@ -33766,7 +33646,7 @@
                     {
                         "key": "prometheus-client",
                         "package_name": "prometheus-client",
-                        "installed_version": "0.13.1",
+                        "installed_version": "0.14.1",
                         "required_version": "Any",
                         "dependencies": []
                     },
@@ -35245,7 +35125,7 @@
             {
                 "key": "fonttools",
                 "package_name": "fonttools",
-                "installed_version": "4.31.2",
+                "installed_version": "4.32.0",
                 "required_version": ">=4.22.0",
                 "dependencies": []
             },
@@ -35456,7 +35336,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -35564,7 +35444,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.2",
+                                "installed_version": "4.32.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -35866,7 +35746,7 @@
                     {
                         "key": "sqlalchemy",
                         "package_name": "SQLAlchemy",
-                        "installed_version": "1.4.34",
+                        "installed_version": "1.4.35",
                         "required_version": ">=1.3.0",
                         "dependencies": [
                             {
@@ -36205,7 +36085,7 @@
             {
                 "key": "prometheus-flask-exporter",
                 "package_name": "prometheus-flask-exporter",
-                "installed_version": "0.19.0",
+                "installed_version": "0.20.1",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -36270,7 +36150,7 @@
                     {
                         "key": "prometheus-client",
                         "package_name": "prometheus-client",
-                        "installed_version": "0.13.1",
+                        "installed_version": "0.14.1",
                         "required_version": "Any",
                         "dependencies": []
                     }
@@ -36366,7 +36246,7 @@
             {
                 "key": "sqlalchemy",
                 "package_name": "sqlalchemy",
-                "installed_version": "1.4.34",
+                "installed_version": "1.4.35",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -36416,7 +36296,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -36635,7 +36515,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -36886,8 +36766,8 @@
     {
         "key": "multimethod",
         "package_name": "multimethod",
-        "installed_version": "1.7",
-        "required_version": "1.7",
+        "installed_version": "1.8",
+        "required_version": "1.8",
         "dependencies": []
     },
     {
@@ -37068,7 +36948,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": ">=6.1.12",
                         "dependencies": [
                             {
@@ -37162,13 +37042,13 @@
                             {
                                 "key": "beautifulsoup4",
                                 "package_name": "beautifulsoup4",
-                                "installed_version": "4.10.0",
+                                "installed_version": "4.11.0",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
                                         "key": "soupsieve",
                                         "package_name": "soupsieve",
-                                        "installed_version": "2.3.1",
+                                        "installed_version": "2.3.2",
                                         "required_version": ">1.2",
                                         "dependencies": []
                                     }
@@ -37258,17 +37138,9 @@
                             {
                                 "key": "jupyterlab-pygments",
                                 "package_name": "jupyterlab-pygments",
-                                "installed_version": "0.1.2",
+                                "installed_version": "0.2.0",
                                 "required_version": "Any",
-                                "dependencies": [
-                                    {
-                                        "key": "pygments",
-                                        "package_name": "pygments",
-                                        "installed_version": "2.11.2",
-                                        "required_version": ">=2.4.1,<3",
-                                        "dependencies": []
-                                    }
-                                ]
+                                "dependencies": []
                             },
                             {
                                 "key": "markupsafe",
@@ -37293,7 +37165,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": ">=6.1.5",
                                         "dependencies": [
                                             {
@@ -37604,7 +37476,7 @@
                     {
                         "key": "prometheus-client",
                         "package_name": "prometheus-client",
-                        "installed_version": "0.13.1",
+                        "installed_version": "0.14.1",
                         "required_version": "Any",
                         "dependencies": []
                     },
@@ -37881,7 +37753,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": "<8.0",
                                 "dependencies": [
                                     {
@@ -38021,7 +37893,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": ">=5.3.4",
                         "dependencies": [
                             {
@@ -38115,13 +37987,13 @@
                             {
                                 "key": "beautifulsoup4",
                                 "package_name": "beautifulsoup4",
-                                "installed_version": "4.10.0",
+                                "installed_version": "4.11.0",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
                                         "key": "soupsieve",
                                         "package_name": "soupsieve",
-                                        "installed_version": "2.3.1",
+                                        "installed_version": "2.3.2",
                                         "required_version": ">1.2",
                                         "dependencies": []
                                     }
@@ -38211,17 +38083,9 @@
                             {
                                 "key": "jupyterlab-pygments",
                                 "package_name": "jupyterlab-pygments",
-                                "installed_version": "0.1.2",
+                                "installed_version": "0.2.0",
                                 "required_version": "Any",
-                                "dependencies": [
-                                    {
-                                        "key": "pygments",
-                                        "package_name": "pygments",
-                                        "installed_version": "2.11.2",
-                                        "required_version": ">=2.4.1,<3",
-                                        "dependencies": []
-                                    }
-                                ]
+                                "dependencies": []
                             },
                             {
                                 "key": "markupsafe",
@@ -38246,7 +38110,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": ">=6.1.5",
                                         "dependencies": [
                                             {
@@ -38549,7 +38413,7 @@
                     {
                         "key": "prometheus-client",
                         "package_name": "prometheus-client",
-                        "installed_version": "0.13.1",
+                        "installed_version": "0.14.1",
                         "required_version": "Any",
                         "dependencies": []
                     },
@@ -38688,7 +38552,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": ">=6.1.12",
                                 "dependencies": [
                                     {
@@ -38782,13 +38646,13 @@
                                     {
                                         "key": "beautifulsoup4",
                                         "package_name": "beautifulsoup4",
-                                        "installed_version": "4.10.0",
+                                        "installed_version": "4.11.0",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
                                                 "key": "soupsieve",
                                                 "package_name": "soupsieve",
-                                                "installed_version": "2.3.1",
+                                                "installed_version": "2.3.2",
                                                 "required_version": ">1.2",
                                                 "dependencies": []
                                             }
@@ -38878,17 +38742,9 @@
                                     {
                                         "key": "jupyterlab-pygments",
                                         "package_name": "jupyterlab-pygments",
-                                        "installed_version": "0.1.2",
+                                        "installed_version": "0.2.0",
                                         "required_version": "Any",
-                                        "dependencies": [
-                                            {
-                                                "key": "pygments",
-                                                "package_name": "pygments",
-                                                "installed_version": "2.11.2",
-                                                "required_version": ">=2.4.1,<3",
-                                                "dependencies": []
-                                            }
-                                        ]
+                                        "dependencies": []
                                     },
                                     {
                                         "key": "markupsafe",
@@ -38913,7 +38769,7 @@
                                             {
                                                 "key": "jupyter-client",
                                                 "package_name": "jupyter-client",
-                                                "installed_version": "7.2.1",
+                                                "installed_version": "7.2.2",
                                                 "required_version": ">=6.1.5",
                                                 "dependencies": [
                                                     {
@@ -39224,7 +39080,7 @@
                             {
                                 "key": "prometheus-client",
                                 "package_name": "prometheus-client",
-                                "installed_version": "0.13.1",
+                                "installed_version": "0.14.1",
                                 "required_version": "Any",
                                 "dependencies": []
                             },
@@ -39300,7 +39156,7 @@
             {
                 "key": "jupyter-client",
                 "package_name": "jupyter-client",
-                "installed_version": "7.2.1",
+                "installed_version": "7.2.2",
                 "required_version": ">=6.1.5",
                 "dependencies": [
                     {
@@ -39454,13 +39310,13 @@
             {
                 "key": "beautifulsoup4",
                 "package_name": "beautifulsoup4",
-                "installed_version": "4.10.0",
+                "installed_version": "4.11.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
                         "key": "soupsieve",
                         "package_name": "soupsieve",
-                        "installed_version": "2.3.1",
+                        "installed_version": "2.3.2",
                         "required_version": ">1.2",
                         "dependencies": []
                     }
@@ -39550,17 +39406,9 @@
             {
                 "key": "jupyterlab-pygments",
                 "package_name": "jupyterlab-pygments",
-                "installed_version": "0.1.2",
+                "installed_version": "0.2.0",
                 "required_version": "Any",
-                "dependencies": [
-                    {
-                        "key": "pygments",
-                        "package_name": "pygments",
-                        "installed_version": "2.11.2",
-                        "required_version": ">=2.4.1,<3",
-                        "dependencies": []
-                    }
-                ]
+                "dependencies": []
             },
             {
                 "key": "markupsafe",
@@ -39585,7 +39433,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": ">=6.1.5",
                         "dependencies": [
                             {
@@ -39915,13 +39763,13 @@
                     {
                         "key": "beautifulsoup4",
                         "package_name": "beautifulsoup4",
-                        "installed_version": "4.10.0",
+                        "installed_version": "4.11.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
                                 "key": "soupsieve",
                                 "package_name": "soupsieve",
-                                "installed_version": "2.3.1",
+                                "installed_version": "2.3.2",
                                 "required_version": ">1.2",
                                 "dependencies": []
                             }
@@ -40011,17 +39859,9 @@
                     {
                         "key": "jupyterlab-pygments",
                         "package_name": "jupyterlab-pygments",
-                        "installed_version": "0.1.2",
+                        "installed_version": "0.2.0",
                         "required_version": "Any",
-                        "dependencies": [
-                            {
-                                "key": "pygments",
-                                "package_name": "pygments",
-                                "installed_version": "2.11.2",
-                                "required_version": ">=2.4.1,<3",
-                                "dependencies": []
-                            }
-                        ]
+                        "dependencies": []
                     },
                     {
                         "key": "markupsafe",
@@ -40046,7 +39886,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": ">=6.1.5",
                                 "dependencies": [
                                     {
@@ -41094,7 +40934,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": "<8.0",
                         "dependencies": [
                             {
@@ -41234,7 +41074,7 @@
             {
                 "key": "jupyter-client",
                 "package_name": "jupyter-client",
-                "installed_version": "7.2.1",
+                "installed_version": "7.2.2",
                 "required_version": ">=5.3.4",
                 "dependencies": [
                     {
@@ -41328,13 +41168,13 @@
                     {
                         "key": "beautifulsoup4",
                         "package_name": "beautifulsoup4",
-                        "installed_version": "4.10.0",
+                        "installed_version": "4.11.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
                                 "key": "soupsieve",
                                 "package_name": "soupsieve",
-                                "installed_version": "2.3.1",
+                                "installed_version": "2.3.2",
                                 "required_version": ">1.2",
                                 "dependencies": []
                             }
@@ -41424,17 +41264,9 @@
                     {
                         "key": "jupyterlab-pygments",
                         "package_name": "jupyterlab-pygments",
-                        "installed_version": "0.1.2",
+                        "installed_version": "0.2.0",
                         "required_version": "Any",
-                        "dependencies": [
-                            {
-                                "key": "pygments",
-                                "package_name": "pygments",
-                                "installed_version": "2.11.2",
-                                "required_version": ">=2.4.1,<3",
-                                "dependencies": []
-                            }
-                        ]
+                        "dependencies": []
                     },
                     {
                         "key": "markupsafe",
@@ -41459,7 +41291,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": ">=6.1.5",
                                 "dependencies": [
                                     {
@@ -41762,7 +41594,7 @@
             {
                 "key": "prometheus-client",
                 "package_name": "prometheus-client",
-                "installed_version": "0.13.1",
+                "installed_version": "0.14.1",
                 "required_version": "Any",
                 "dependencies": []
             },
@@ -41901,7 +41733,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": ">=6.1.12",
                         "dependencies": [
                             {
@@ -41995,13 +41827,13 @@
                             {
                                 "key": "beautifulsoup4",
                                 "package_name": "beautifulsoup4",
-                                "installed_version": "4.10.0",
+                                "installed_version": "4.11.0",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
                                         "key": "soupsieve",
                                         "package_name": "soupsieve",
-                                        "installed_version": "2.3.1",
+                                        "installed_version": "2.3.2",
                                         "required_version": ">1.2",
                                         "dependencies": []
                                     }
@@ -42091,17 +41923,9 @@
                             {
                                 "key": "jupyterlab-pygments",
                                 "package_name": "jupyterlab-pygments",
-                                "installed_version": "0.1.2",
+                                "installed_version": "0.2.0",
                                 "required_version": "Any",
-                                "dependencies": [
-                                    {
-                                        "key": "pygments",
-                                        "package_name": "pygments",
-                                        "installed_version": "2.11.2",
-                                        "required_version": ">=2.4.1,<3",
-                                        "dependencies": []
-                                    }
-                                ]
+                                "dependencies": []
                             },
                             {
                                 "key": "markupsafe",
@@ -42126,7 +41950,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": ">=6.1.5",
                                         "dependencies": [
                                             {
@@ -42437,7 +42261,7 @@
                     {
                         "key": "prometheus-client",
                         "package_name": "prometheus-client",
-                        "installed_version": "0.13.1",
+                        "installed_version": "0.14.1",
                         "required_version": "Any",
                         "dependencies": []
                     },
@@ -43246,13 +43070,6 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
-                "dependencies": []
-            },
-            {
-                "key": "numpy",
-                "package_name": "numpy",
-                "installed_version": "1.20.0",
                 "required_version": ">=1.19.3",
                 "dependencies": []
             },
@@ -43261,6 +43078,13 @@
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
                 "required_version": ">=1.17.3",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.20.0",
+                "required_version": ">=1.14.5",
                 "dependencies": []
             }
         ]
@@ -43275,13 +43099,6 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
-                "dependencies": []
-            },
-            {
-                "key": "numpy",
-                "package_name": "numpy",
-                "installed_version": "1.20.0",
                 "required_version": ">=1.19.3",
                 "dependencies": []
             },
@@ -43290,6 +43107,13 @@
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
                 "required_version": ">=1.17.3",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.20.0",
+                "required_version": ">=1.14.5",
                 "dependencies": []
             }
         ]
@@ -43866,7 +43690,7 @@
                     {
                         "key": "zope.index",
                         "package_name": "zope.index",
-                        "installed_version": "5.1.0",
+                        "installed_version": "5.2.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -44056,13 +43880,13 @@
             {
                 "key": "beautifulsoup4",
                 "package_name": "beautifulsoup4",
-                "installed_version": "4.10.0",
+                "installed_version": "4.11.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
                         "key": "soupsieve",
                         "package_name": "soupsieve",
-                        "installed_version": "2.3.1",
+                        "installed_version": "2.3.2",
                         "required_version": ">1.2",
                         "dependencies": []
                     }
@@ -44546,7 +44370,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -44632,7 +44456,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.2",
+                                "installed_version": "4.32.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -44740,7 +44564,7 @@
                                     {
                                         "key": "fonttools",
                                         "package_name": "fonttools",
-                                        "installed_version": "4.31.2",
+                                        "installed_version": "4.32.0",
                                         "required_version": ">=4.22.0",
                                         "dependencies": []
                                     },
@@ -44870,7 +44694,7 @@
             {
                 "key": "multimethod",
                 "package_name": "multimethod",
-                "installed_version": "1.7",
+                "installed_version": "1.8",
                 "required_version": ">=1.4",
                 "dependencies": []
             },
@@ -44947,7 +44771,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.2",
+                                "installed_version": "4.32.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -45167,7 +44991,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.2",
+                                "installed_version": "4.32.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -45322,7 +45146,7 @@
                     {
                         "key": "multimethod",
                         "package_name": "multimethod",
-                        "installed_version": "1.7",
+                        "installed_version": "1.8",
                         "required_version": ">=1.4",
                         "dependencies": []
                     },
@@ -46232,7 +46056,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -46828,7 +46652,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -46986,15 +46810,15 @@
     {
         "key": "prometheus-client",
         "package_name": "prometheus-client",
-        "installed_version": "0.13.1",
-        "required_version": "0.13.1",
+        "installed_version": "0.14.1",
+        "required_version": "0.14.1",
         "dependencies": []
     },
     {
         "key": "prometheus-flask-exporter",
         "package_name": "prometheus-flask-exporter",
-        "installed_version": "0.19.0",
-        "required_version": "0.19.0",
+        "installed_version": "0.20.1",
+        "required_version": "0.20.1",
         "dependencies": [
             {
                 "key": "flask",
@@ -47058,7 +46882,7 @@
             {
                 "key": "prometheus-client",
                 "package_name": "prometheus-client",
-                "installed_version": "0.13.1",
+                "installed_version": "0.14.1",
                 "required_version": "Any",
                 "dependencies": []
             }
@@ -47539,7 +47363,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.2",
+                                "installed_version": "4.32.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -48051,7 +47875,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": "<8.0",
                                         "dependencies": [
                                             {
@@ -48620,7 +48444,7 @@
                                                     {
                                                         "key": "jupyter-client",
                                                         "package_name": "jupyter-client",
-                                                        "installed_version": "7.2.1",
+                                                        "installed_version": "7.2.2",
                                                         "required_version": "<8.0",
                                                         "dependencies": [
                                                             {
@@ -48760,7 +48584,7 @@
                                             {
                                                 "key": "jupyter-client",
                                                 "package_name": "jupyter-client",
-                                                "installed_version": "7.2.1",
+                                                "installed_version": "7.2.2",
                                                 "required_version": ">=5.3.4",
                                                 "dependencies": [
                                                     {
@@ -48854,13 +48678,13 @@
                                                     {
                                                         "key": "beautifulsoup4",
                                                         "package_name": "beautifulsoup4",
-                                                        "installed_version": "4.10.0",
+                                                        "installed_version": "4.11.0",
                                                         "required_version": "Any",
                                                         "dependencies": [
                                                             {
                                                                 "key": "soupsieve",
                                                                 "package_name": "soupsieve",
-                                                                "installed_version": "2.3.1",
+                                                                "installed_version": "2.3.2",
                                                                 "required_version": ">1.2",
                                                                 "dependencies": []
                                                             }
@@ -48950,17 +48774,9 @@
                                                     {
                                                         "key": "jupyterlab-pygments",
                                                         "package_name": "jupyterlab-pygments",
-                                                        "installed_version": "0.1.2",
+                                                        "installed_version": "0.2.0",
                                                         "required_version": "Any",
-                                                        "dependencies": [
-                                                            {
-                                                                "key": "pygments",
-                                                                "package_name": "pygments",
-                                                                "installed_version": "2.11.2",
-                                                                "required_version": ">=2.4.1,<3",
-                                                                "dependencies": []
-                                                            }
-                                                        ]
+                                                        "dependencies": []
                                                     },
                                                     {
                                                         "key": "markupsafe",
@@ -48985,7 +48801,7 @@
                                                             {
                                                                 "key": "jupyter-client",
                                                                 "package_name": "jupyter-client",
-                                                                "installed_version": "7.2.1",
+                                                                "installed_version": "7.2.2",
                                                                 "required_version": ">=6.1.5",
                                                                 "dependencies": [
                                                                     {
@@ -49288,7 +49104,7 @@
                                             {
                                                 "key": "prometheus-client",
                                                 "package_name": "prometheus-client",
-                                                "installed_version": "0.13.1",
+                                                "installed_version": "0.14.1",
                                                 "required_version": "Any",
                                                 "dependencies": []
                                             },
@@ -49900,7 +49716,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": "<8.0",
                                 "dependencies": [
                                     {
@@ -50469,7 +50285,7 @@
                                             {
                                                 "key": "jupyter-client",
                                                 "package_name": "jupyter-client",
-                                                "installed_version": "7.2.1",
+                                                "installed_version": "7.2.2",
                                                 "required_version": "<8.0",
                                                 "dependencies": [
                                                     {
@@ -50609,7 +50425,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": ">=5.3.4",
                                         "dependencies": [
                                             {
@@ -50703,13 +50519,13 @@
                                             {
                                                 "key": "beautifulsoup4",
                                                 "package_name": "beautifulsoup4",
-                                                "installed_version": "4.10.0",
+                                                "installed_version": "4.11.0",
                                                 "required_version": "Any",
                                                 "dependencies": [
                                                     {
                                                         "key": "soupsieve",
                                                         "package_name": "soupsieve",
-                                                        "installed_version": "2.3.1",
+                                                        "installed_version": "2.3.2",
                                                         "required_version": ">1.2",
                                                         "dependencies": []
                                                     }
@@ -50799,17 +50615,9 @@
                                             {
                                                 "key": "jupyterlab-pygments",
                                                 "package_name": "jupyterlab-pygments",
-                                                "installed_version": "0.1.2",
+                                                "installed_version": "0.2.0",
                                                 "required_version": "Any",
-                                                "dependencies": [
-                                                    {
-                                                        "key": "pygments",
-                                                        "package_name": "pygments",
-                                                        "installed_version": "2.11.2",
-                                                        "required_version": ">=2.4.1,<3",
-                                                        "dependencies": []
-                                                    }
-                                                ]
+                                                "dependencies": []
                                             },
                                             {
                                                 "key": "markupsafe",
@@ -50834,7 +50642,7 @@
                                                     {
                                                         "key": "jupyter-client",
                                                         "package_name": "jupyter-client",
-                                                        "installed_version": "7.2.1",
+                                                        "installed_version": "7.2.2",
                                                         "required_version": ">=6.1.5",
                                                         "dependencies": [
                                                             {
@@ -51137,7 +50945,7 @@
                                     {
                                         "key": "prometheus-client",
                                         "package_name": "prometheus-client",
-                                        "installed_version": "0.13.1",
+                                        "installed_version": "0.14.1",
                                         "required_version": "Any",
                                         "dependencies": []
                                     },
@@ -51382,7 +51190,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -51476,7 +51284,7 @@
                             {
                                 "key": "sqlalchemy",
                                 "package_name": "SQLAlchemy",
-                                "installed_version": "1.4.34",
+                                "installed_version": "1.4.35",
                                 "required_version": ">=1.3.0",
                                 "dependencies": [
                                     {
@@ -51815,7 +51623,7 @@
                     {
                         "key": "prometheus-flask-exporter",
                         "package_name": "prometheus-flask-exporter",
-                        "installed_version": "0.19.0",
+                        "installed_version": "0.20.1",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -51880,7 +51688,7 @@
                             {
                                 "key": "prometheus-client",
                                 "package_name": "prometheus-client",
-                                "installed_version": "0.13.1",
+                                "installed_version": "0.14.1",
                                 "required_version": "Any",
                                 "dependencies": []
                             }
@@ -51976,7 +51784,7 @@
                     {
                         "key": "sqlalchemy",
                         "package_name": "sqlalchemy",
-                        "installed_version": "1.4.34",
+                        "installed_version": "1.4.35",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -52026,7 +51834,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.2",
+                                "installed_version": "4.32.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -52340,7 +52148,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.2",
+                                "installed_version": "4.32.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -52426,7 +52234,7 @@
                                     {
                                         "key": "fonttools",
                                         "package_name": "fonttools",
-                                        "installed_version": "4.31.2",
+                                        "installed_version": "4.32.0",
                                         "required_version": ">=4.22.0",
                                         "dependencies": []
                                     },
@@ -52534,7 +52342,7 @@
                                             {
                                                 "key": "fonttools",
                                                 "package_name": "fonttools",
-                                                "installed_version": "4.31.2",
+                                                "installed_version": "4.32.0",
                                                 "required_version": ">=4.22.0",
                                                 "dependencies": []
                                             },
@@ -52664,7 +52472,7 @@
                     {
                         "key": "multimethod",
                         "package_name": "multimethod",
-                        "installed_version": "1.7",
+                        "installed_version": "1.8",
                         "required_version": ">=1.4",
                         "dependencies": []
                     },
@@ -52741,7 +52549,7 @@
                                     {
                                         "key": "fonttools",
                                         "package_name": "fonttools",
-                                        "installed_version": "4.31.2",
+                                        "installed_version": "4.32.0",
                                         "required_version": ">=4.22.0",
                                         "dependencies": []
                                     },
@@ -52961,7 +52769,7 @@
                                     {
                                         "key": "fonttools",
                                         "package_name": "fonttools",
-                                        "installed_version": "4.31.2",
+                                        "installed_version": "4.32.0",
                                         "required_version": ">=4.22.0",
                                         "dependencies": []
                                     },
@@ -53116,7 +52924,7 @@
                             {
                                 "key": "multimethod",
                                 "package_name": "multimethod",
-                                "installed_version": "1.7",
+                                "installed_version": "1.8",
                                 "required_version": ">=1.4",
                                 "dependencies": []
                             },
@@ -53381,7 +53189,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.2",
+                                "installed_version": "4.32.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -53726,7 +53534,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.2",
+                                "installed_version": "4.32.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -53873,7 +53681,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.2",
+                                "installed_version": "4.32.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -54672,7 +54480,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.2",
+                                "installed_version": "4.32.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -54811,7 +54619,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.2",
+                                "installed_version": "4.32.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -54967,7 +54775,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -55107,13 +54915,13 @@
             {
                 "key": "beautifulsoup4",
                 "package_name": "beautifulsoup4",
-                "installed_version": "4.10.0",
+                "installed_version": "4.11.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
                         "key": "soupsieve",
                         "package_name": "soupsieve",
-                        "installed_version": "2.3.1",
+                        "installed_version": "2.3.2",
                         "required_version": ">1.2",
                         "dependencies": []
                     }
@@ -55507,7 +55315,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": "<8.0",
                         "dependencies": [
                             {
@@ -55805,7 +55613,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": "<8.0",
                                 "dependencies": [
                                     {
@@ -56374,7 +56182,7 @@
                                             {
                                                 "key": "jupyter-client",
                                                 "package_name": "jupyter-client",
-                                                "installed_version": "7.2.1",
+                                                "installed_version": "7.2.2",
                                                 "required_version": "<8.0",
                                                 "dependencies": [
                                                     {
@@ -56514,7 +56322,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": ">=5.3.4",
                                         "dependencies": [
                                             {
@@ -56608,13 +56416,13 @@
                                             {
                                                 "key": "beautifulsoup4",
                                                 "package_name": "beautifulsoup4",
-                                                "installed_version": "4.10.0",
+                                                "installed_version": "4.11.0",
                                                 "required_version": "Any",
                                                 "dependencies": [
                                                     {
                                                         "key": "soupsieve",
                                                         "package_name": "soupsieve",
-                                                        "installed_version": "2.3.1",
+                                                        "installed_version": "2.3.2",
                                                         "required_version": ">1.2",
                                                         "dependencies": []
                                                     }
@@ -56704,17 +56512,9 @@
                                             {
                                                 "key": "jupyterlab-pygments",
                                                 "package_name": "jupyterlab-pygments",
-                                                "installed_version": "0.1.2",
+                                                "installed_version": "0.2.0",
                                                 "required_version": "Any",
-                                                "dependencies": [
-                                                    {
-                                                        "key": "pygments",
-                                                        "package_name": "pygments",
-                                                        "installed_version": "2.11.2",
-                                                        "required_version": ">=2.4.1,<3",
-                                                        "dependencies": []
-                                                    }
-                                                ]
+                                                "dependencies": []
                                             },
                                             {
                                                 "key": "markupsafe",
@@ -56739,7 +56539,7 @@
                                                     {
                                                         "key": "jupyter-client",
                                                         "package_name": "jupyter-client",
-                                                        "installed_version": "7.2.1",
+                                                        "installed_version": "7.2.2",
                                                         "required_version": ">=6.1.5",
                                                         "dependencies": [
                                                             {
@@ -57042,7 +56842,7 @@
                                     {
                                         "key": "prometheus-client",
                                         "package_name": "prometheus-client",
-                                        "installed_version": "0.13.1",
+                                        "installed_version": "0.14.1",
                                         "required_version": "Any",
                                         "dependencies": []
                                     },
@@ -57530,7 +57330,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -57726,7 +57526,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.2",
+                                "installed_version": "4.32.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -58389,7 +58189,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -59212,8 +59012,8 @@
     {
         "key": "pysimplegui",
         "package_name": "PySimpleGUI",
-        "installed_version": "4.58.0",
-        "required_version": "4.58.0",
+        "installed_version": "4.59.0",
+        "required_version": "4.59.0",
         "dependencies": []
     },
     {
@@ -60338,7 +60138,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": "<8.0",
                         "dependencies": [
                             {
@@ -60463,7 +60263,7 @@
             {
                 "key": "jupyter-client",
                 "package_name": "jupyter-client",
-                "installed_version": "7.2.1",
+                "installed_version": "7.2.2",
                 "required_version": ">=4.1",
                 "dependencies": [
                     {
@@ -61549,7 +61349,7 @@
                                     {
                                         "key": "fonttools",
                                         "package_name": "fonttools",
-                                        "installed_version": "4.31.2",
+                                        "installed_version": "4.32.0",
                                         "required_version": ">=4.22.0",
                                         "dependencies": []
                                     },
@@ -61890,7 +61690,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -62387,7 +62187,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.2",
+                                "installed_version": "4.32.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -63660,7 +63460,7 @@
             {
                 "key": "botocore",
                 "package_name": "botocore",
-                "installed_version": "1.24.34",
+                "installed_version": "1.24.35",
                 "required_version": ">=1.12.36,<2.0a.0",
                 "dependencies": [
                     {
@@ -63973,7 +63773,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -64319,7 +64119,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -65032,8 +64832,8 @@
     {
         "key": "soupsieve",
         "package_name": "soupsieve",
-        "installed_version": "2.3.1",
-        "required_version": "2.3.1",
+        "installed_version": "2.3.2",
+        "required_version": "2.3.2",
         "dependencies": []
     },
     {
@@ -66972,8 +66772,8 @@
     {
         "key": "sqlalchemy",
         "package_name": "SQLAlchemy",
-        "installed_version": "1.4.34",
-        "required_version": "1.4.34",
+        "installed_version": "1.4.35",
+        "required_version": "1.4.35",
         "dependencies": [
             {
                 "key": "greenlet",
@@ -67057,7 +66857,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -70264,7 +70064,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -70412,13 +70212,6 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
-                        "dependencies": []
-                    },
-                    {
-                        "key": "numpy",
-                        "package_name": "numpy",
-                        "installed_version": "1.20.0",
                         "required_version": ">=1.19.3",
                         "dependencies": []
                     },
@@ -70427,6 +70220,13 @@
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
                         "required_version": ">=1.17.3",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "1.20.0",
+                        "required_version": ">=1.14.5",
                         "dependencies": []
                     }
                 ]
@@ -70511,7 +70311,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.31.2",
+                                "installed_version": "4.32.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -73393,13 +73193,13 @@
             {
                 "key": "beautifulsoup4",
                 "package_name": "beautifulsoup4",
-                "installed_version": "4.10.0",
+                "installed_version": "4.11.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
                         "key": "soupsieve",
                         "package_name": "soupsieve",
-                        "installed_version": "2.3.1",
+                        "installed_version": "2.3.2",
                         "required_version": ">1.2",
                         "dependencies": []
                     }
@@ -73718,8 +73518,8 @@
     {
         "key": "ujson",
         "package_name": "ujson",
-        "installed_version": "5.1.0",
-        "required_version": "5.1.0",
+        "installed_version": "5.2.0",
+        "required_version": "5.2.0",
         "dependencies": []
     },
     {
@@ -74081,7 +73881,7 @@
             {
                 "key": "multimethod",
                 "package_name": "multimethod",
-                "installed_version": "1.7",
+                "installed_version": "1.8",
                 "required_version": ">=1.4",
                 "dependencies": []
             },
@@ -74654,7 +74454,7 @@
                             {
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
-                                "installed_version": "7.2.1",
+                                "installed_version": "7.2.2",
                                 "required_version": "<8.0",
                                 "dependencies": [
                                     {
@@ -74794,7 +74594,7 @@
                     {
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
-                        "installed_version": "7.2.1",
+                        "installed_version": "7.2.2",
                         "required_version": ">=5.3.4",
                         "dependencies": [
                             {
@@ -74888,13 +74688,13 @@
                             {
                                 "key": "beautifulsoup4",
                                 "package_name": "beautifulsoup4",
-                                "installed_version": "4.10.0",
+                                "installed_version": "4.11.0",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
                                         "key": "soupsieve",
                                         "package_name": "soupsieve",
-                                        "installed_version": "2.3.1",
+                                        "installed_version": "2.3.2",
                                         "required_version": ">1.2",
                                         "dependencies": []
                                     }
@@ -74984,17 +74784,9 @@
                             {
                                 "key": "jupyterlab-pygments",
                                 "package_name": "jupyterlab-pygments",
-                                "installed_version": "0.1.2",
+                                "installed_version": "0.2.0",
                                 "required_version": "Any",
-                                "dependencies": [
-                                    {
-                                        "key": "pygments",
-                                        "package_name": "pygments",
-                                        "installed_version": "2.11.2",
-                                        "required_version": ">=2.4.1,<3",
-                                        "dependencies": []
-                                    }
-                                ]
+                                "dependencies": []
                             },
                             {
                                 "key": "markupsafe",
@@ -75019,7 +74811,7 @@
                                     {
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
-                                        "installed_version": "7.2.1",
+                                        "installed_version": "7.2.2",
                                         "required_version": ">=6.1.5",
                                         "dependencies": [
                                             {
@@ -75322,7 +75114,7 @@
                     {
                         "key": "prometheus-client",
                         "package_name": "prometheus-client",
-                        "installed_version": "0.13.1",
+                        "installed_version": "0.14.1",
                         "required_version": "Any",
                         "dependencies": []
                     },
@@ -75409,7 +75201,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -75563,7 +75355,7 @@
             {
                 "key": "sqlalchemy",
                 "package_name": "sqlalchemy",
-                "installed_version": "1.4.34",
+                "installed_version": "1.4.35",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -75719,13 +75511,13 @@
             {
                 "key": "beautifulsoup4",
                 "package_name": "beautifulsoup4",
-                "installed_version": "4.10.0",
+                "installed_version": "4.11.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
                         "key": "soupsieve",
                         "package_name": "soupsieve",
-                        "installed_version": "2.3.1",
+                        "installed_version": "2.3.2",
                         "required_version": ">1.2",
                         "dependencies": []
                     }
@@ -75806,7 +75598,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.31.2",
+                        "installed_version": "4.32.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -76043,8 +75835,8 @@
     {
         "key": "zarr",
         "package_name": "zarr",
-        "installed_version": "2.11.2",
-        "required_version": "2.11.2",
+        "installed_version": "2.11.3",
+        "required_version": "2.11.3",
         "dependencies": [
             {
                 "key": "asciitree",
@@ -76313,8 +76105,8 @@
     {
         "key": "zope.index",
         "package_name": "zope.index",
-        "installed_version": "5.1.0",
-        "required_version": "5.1.0",
+        "installed_version": "5.2.0",
+        "required_version": "5.2.0",
         "dependencies": [
             {
                 "key": "btrees",

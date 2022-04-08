@@ -449,7 +449,7 @@ scs==3.2.0 # LEVEL_03 # scs: splitting conic solver
 # GUI & Visualization
 #
 QtPy==2.0.1 # LEVEL_03 # Provides an abstraction layer on top of the various Qt bindings (PyQt5/6 and PySide2/6)
-PySimpleGUI==4.58.0 # LEVEL_01 # Python GUIs for Humans. Launched in 2018. It's 2022 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers
+PySimpleGUI==4.59.0 # LEVEL_01 # Python GUIs for Humans. Launched in 2018. It's 2022 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers
 PyQt5==5.15.6 # LEVEL_02 # Python bindings for the Qt cross platform application toolkit
 PyQt5-Qt5==5.15.2 # LEVEL_01 # The subset of a Qt installation needed by PyQt5
 PyQt5-sip==12.9.1 # LEVEL_01 # The sip module support for PyQt5
@@ -529,9 +529,9 @@ smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, A
 uamqp==1.5.3 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.21.34  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.21.35  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.2 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.24.34 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.24.35 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -539,15 +539,15 @@ boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 #
 jupyter-bokeh==3.0.4 # LEVEL_09 # A Jupyter extension for rendering Bokeh content
 jupyter==1.0.0 # LEVEL_09 # Jupyter metapackage. Install all the Jupyter components in one go
-jupyterlab==3.3.2 # LEVEL_09 # JupyterLab computational environment
+jupyterlab==3.3.3 # LEVEL_09 # JupyterLab computational environment
 jupyter-server-proxy==3.2.1 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
 jupyterlab-server==2.12.0 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.2 # LEVEL_06 # Dash support for the Jupyter notebook interface
 jupyter-server==1.16.0 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-console==6.4.3 # LEVEL_06 # Jupyter terminal console
-jupyter-client==7.2.1 # LEVEL_03 # Jupyter protocol implementation and client libraries
+jupyter-client==7.2.2 # LEVEL_03 # Jupyter protocol implementation and client libraries
 jupyter-core==4.9.2 # LEVEL_02 # Jupyter core package. A base package on which Jupyter projects rely
-jupyterlab-pygments==0.1.2 # LEVEL_02 # Pygments theme using JupyterLab CSS variables
+jupyterlab-pygments==0.2.0 # LEVEL_01 # Pygments theme using JupyterLab CSS variables
 jupyterlab-widgets==1.1.0 # LEVEL_01 # A JupyterLab extension
 #
 ipywidgets==7.7.0 # LEVEL_08 # IPython HTML widgets for Jupyter
@@ -595,7 +595,7 @@ Flask==2.1.1 # LEVEL_03 # A simple framework for building complex web applicatio
 jsonschema==4.4.0 # LEVEL_02 # An implementation of JSON Schema validation for Python
 json5==0.9.6 # LEVEL_01 # A Python implementation of the JSON5 data format
 simplejson==3.17.6 # LEVEL_01 # Simple, fast, extensible JSON encoder/decoder for Python
-ujson==5.1.0 # LEVEL_01 # Ultra fast JSON encoder and decoder for Python
+ujson==5.2.0 # LEVEL_01 # Ultra fast JSON encoder and decoder for Python
 PyJWT==2.3.0 # LEVEL_01 # JSON Web Token implementation in Python
 fastjsonschema==2.15.3 # LEVEL_01 # Fastest Python implementation of JSON schema
 #
@@ -633,7 +633,7 @@ twint==2.1.20 # LEVEL_05 # Twitter downloader # An advanced Twitter scraping & O
 #
 # CSS
 #
-soupsieve==2.3.1 # LEVEL_01 # A modern CSS selector implementation for Beautiful Soup
+soupsieve==2.3.2 # LEVEL_01 # A modern CSS selector implementation for Beautiful Soup
 tinycss2==1.1.1 # LEVEL_02 # A tiny CSS parser
 cssselect2==0.5.0 # LEVEL_03 # CSS selectors for Python ElementTree
 
@@ -660,7 +660,7 @@ commonmark==0.9.1 # LEVEL_01 # Python parser for the CommonMark Markdown spec
 markdown2==2.4.2 # LEVEL_01 # A fast and complete Python implementation of Markdown
 
 # HTML scraping, sanitizing, minimizing
-beautifulsoup4==4.10.0 # LEVEL_02 # Screen-scraping library
+beautifulsoup4==4.11.0 # LEVEL_02 # Screen-scraping library
 bleach==4.1.0 # LEVEL_03 # An easy safelist-based HTML-sanitizing tool
 ansi2html==1.7.0 # LEVEL_01
 htmlmin==0.1.12 # LEVEL_01 # An HTML Minifier
@@ -721,7 +721,7 @@ luigi==3.0.3 # LEVEL_03 # Workflow mgmgt + task scheduling + dependency resoluti
 python-daemon==2.3.0 # LEVEL_02 # Library to implement a well-behaved Unix daemon process
 #
 funcy==1.17 # LEVEL_01 # A fancy and practical functional tools
-multimethod==1.7 # LEVEL_01 # Multiple argument dispatching
+multimethod==1.8 # LEVEL_01 # Multiple argument dispatching
 
 
 #
@@ -809,8 +809,8 @@ pexpect==4.8.0 # LEVEL_02 # Pexpect allows easy control of interactive console a
 pickleshare==0.7.5 # LEVEL_01 # Tiny 'shelve'-like database with concurrency support
 preshed==3.0.6 # LEVEL_02 # Cython hash table that trusts the keys are pre-hashed
 #
-prometheus-flask-exporter==0.19.0 # LEVEL_04 # Prometheus metrics exporter for Flask
-prometheus-client==0.13.1 # LEVEL_01 # Python client for the Prometheus monitoring system
+prometheus-flask-exporter==0.20.1 # LEVEL_04 # Prometheus metrics exporter for Flask
+prometheus-client==0.14.1 # LEVEL_01 # Python client for the Prometheus monitoring system
 #
 promise==2.3 # LEVEL_02 # Promises/A+ implementation for Python
 prompt-toolkit==3.0.29 # LEVEL_02 # Library for building powerful interactive command lines in Python
@@ -884,7 +884,7 @@ python-socks==2.0.3 # LEVEL_01 # Core proxy (SOCKS4, SOCKS5, HTTP tunneling) fun
 # SQL
 #
 alembic==1.7.7 # LEVEL_03 # A database migration tool for SQLAlchemy
-SQLAlchemy== 1.4.34 # LEVEL_02 # Database Abstraction Library
+SQLAlchemy== 1.4.35 # LEVEL_02 # Database Abstraction Library
 Mako==1.2.0 # LEVEL_02 # A super-fast templating language that borrows the best ideas from the existing templating languages
 PyMySQL==1.0.2 # LEVEL_01 # Pure Python MySQL Driver
 pyodbc==4.0.32 # LEVEL_01 # ONLY_OSX # DB API Module for ODBC
@@ -1016,7 +1016,7 @@ translationstring==1.4 # LEVEL_01 # Utility library for i18n relied on by variou
 venusian==3.0.0 # LEVEL_01 # A library for deferring decorator actions
 WebOb==1.8.7 # LEVEL_01 # WSGI request and response object
 #
-zope.index==5.1.0 # LEVEL_05 # Indices for using with catalog like text, field, etc
+zope.index==5.2.0 # LEVEL_05 # Indices for using with catalog like text, field, etc
 zope_deprecation==4.4.0 # LEVEL_02 # Zope Deprecation Infrastructure
 zope_interface==5.4.0 # LEVEL_02 # Interfaces for Python
 #
@@ -1029,7 +1029,7 @@ rouge-score==0.0.4 # LEVEL_03 # Pure python implementation of ROUGE-1.5.5
 pynvml==11.4.1 # LEVEL_01 # Python Bindings for the NVIDIA Management Library
 #
 numcodecs==0.9.1 # LEVEL_02 # A Python package providing buffer compression and transformation codecs for use in data storage and communication applications
-zarr==2.11.2 # LEVEL_03 # An implementation of chunked, compressed, N-dimensional arrays for Python
+zarr==2.11.3 # LEVEL_03 # An implementation of chunked, compressed, N-dimensional arrays for Python
 asciitree==0.3.3 # LEVEL_01 # Draws ASCII trees
 #
 # dbt !! not compatible with many versions !!
@@ -1066,7 +1066,7 @@ emoji==1.7.0 # LEVEL_01 # Emoji for Python
 #
 shellingham==1.4.0 # LEVEL_01 # Tool to Detect Surrounding Shell
 #
-fonttools==4.31.2 # LEVEL_01 # Tools to manipulate font files
+fonttools==4.32.0 # LEVEL_01 # Tools to manipulate font files
 setuptools-scm==6.4.2 # LEVEL_03 # the blessed package to manage your versions by scm tags
 tomli==2.0.1 # LEVEL_01 # A lil' TOML parser
 #

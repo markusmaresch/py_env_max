@@ -499,9 +499,9 @@ Requires: cffi six
 Required-by: paramiko
 ---
 Name: beautifulsoup4
-Version: 4.10.0
+Version: 4.11.0
 Summary: Screen-scraping library
-Home-page: http://www.crummy.com/software/BeautifulSoup/bs4/
+Home-page: https://www.crummy.com/software/BeautifulSoup/bs4/
 Author: Leonard Richardson
 Author-email: leonardr@segfault.org
 License: MIT
@@ -649,7 +649,7 @@ Requires:
 Required-by: 
 ---
 Name: boto3
-Version: 1.21.34
+Version: 1.21.35
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -659,7 +659,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.24.34
+Version: 1.24.35
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -2149,7 +2149,7 @@ Requires: celery humanize prometheus-client pytz tornado
 Required-by: 
 ---
 Name: fonttools
-Version: 4.31.2
+Version: 4.32.0
 Summary: Tools to manipulate font files
 Home-page: http://github.com/fonttools/fonttools
 Author: Just van Rossum
@@ -3139,7 +3139,7 @@ Requires: bokeh ipywidgets
 Required-by: 
 ---
 Name: jupyter-client
-Version: 7.2.1
+Version: 7.2.2
 Summary: Jupyter protocol implementation and client libraries
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3209,7 +3209,7 @@ Requires: aiohttp jupyter-server simpervisor
 Required-by: 
 ---
 Name: jupyterlab
-Version: 3.3.2
+Version: 3.3.3
 Summary: JupyterLab computational environment
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3219,13 +3219,13 @@ Requires: ipython jinja2 jupyter-core jupyter-server jupyterlab-server nbclassic
 Required-by: 
 ---
 Name: jupyterlab-pygments
-Version: 0.1.2
+Version: 0.2.0
 Summary: Pygments theme using JupyterLab CSS variables
-Home-page: http://jupyter.org
+Home-page: https://github.com/jupyterlab/jupyterlab_pygments
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD
-Requires: pygments
+Requires: 
 Required-by: nbconvert
 ---
 Name: jupyterlab-server
@@ -3965,7 +3965,7 @@ Requires:
 Required-by: aiohttp yarl
 ---
 Name: multimethod
-Version: 1.7
+Version: 1.8
 Summary: Multiple argument dispatching.
 Home-page: https://github.com/coady/multimethod
 Author: Aric Coady
@@ -4975,7 +4975,7 @@ Requires: arrow click
 Required-by: 
 ---
 Name: prometheus-client
-Version: 0.13.1
+Version: 0.14.1
 Summary: Python client for the Prometheus monitoring system.
 Home-page: https://github.com/prometheus/client_python
 Author: Brian Brazil
@@ -4985,7 +4985,7 @@ Requires:
 Required-by: flower jupyter-server notebook prometheus-flask-exporter
 ---
 Name: prometheus-flask-exporter
-Version: 0.19.0
+Version: 0.20.1
 Summary: Prometheus metrics exporter for Flask
 Home-page: https://github.com/rycus86/prometheus_flask_exporter
 Author: Viktor Adam
@@ -5402,7 +5402,7 @@ Author: Georg Brandl
 Author-email: georg@python.org
 License: BSD License
 Requires: 
-Required-by: Kivy Kivy-examples Sphinx asynq ipython jupyter-console jupyterlab-pygments nbconvert qtconsole rich
+Required-by: Kivy Kivy-examples Sphinx asynq ipython jupyter-console nbconvert qtconsole rich
 ---
 Name: pyhacrf-datamade
 Version: 0.2.6
@@ -5695,7 +5695,7 @@ Requires:
 Required-by: jsonschema
 ---
 Name: PySimpleGUI
-Version: 4.58.0
+Version: 4.59.0
 Summary: Python GUIs for Humans. Launched in 2018. It's 2022 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers.
 Home-page: https://github.com/PySimpleGUI/PySimpleGUI
 Author: PySimpleGUI
@@ -6595,12 +6595,12 @@ Requires:
 Required-by: distributed hypothesis trio
 ---
 Name: soupsieve
-Version: 2.3.1
+Version: 2.3.2
 Summary: A modern CSS selector implementation for Beautiful Soup.
-Home-page: https://github.com/facelessuser/soupsieve
-Author: Isaac Muse
-Author-email: Isaac.Muse@gmail.com
-License: MIT License
+Home-page: 
+Author: 
+Author-email: Isaac Muse <Isaac.Muse@gmail.com>
+License: 
 Requires: 
 Required-by: beautifulsoup4
 ---
@@ -6775,7 +6775,7 @@ Requires:
 Required-by: Sphinx
 ---
 Name: SQLAlchemy
-Version: 1.4.34
+Version: 1.4.35
 Summary: Database Abstraction Library
 Home-page: https://www.sqlalchemy.org
 Author: Mike Bayer
@@ -7585,7 +7585,7 @@ Requires:
 Required-by: linkify-it-py
 ---
 Name: ujson
-Version: 5.1.0
+Version: 5.2.0
 Summary: Ultra fast JSON encoder and decoder for Python
 Home-page: https://github.com/ultrajson/ultrajson
 Author: Jonas Tarnstrom
@@ -7985,7 +7985,7 @@ Requires: lxml multitasking numpy pandas requests
 Required-by: 
 ---
 Name: zarr
-Version: 2.11.2
+Version: 2.11.3
 Summary: An implementation of chunked, compressed, N-dimensional arrays for Python.
 Home-page: https://github.com/zarr-developers/zarr-python
 Author: 
@@ -8035,7 +8035,7 @@ Requires: setuptools
 Required-by: pyramid
 ---
 Name: zope.index
-Version: 5.1.0
+Version: 5.2.0
 Summary: Indices for using with catalog like text, field, etc.
 Home-page: https://github.com/zopefoundation/zope.index
 Author: Zope Foundation and Contributors

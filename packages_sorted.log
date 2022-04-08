@@ -122,6 +122,7 @@ jmespath
 joblib
 json-rpc
 json5
+jupyterlab-pygments
 jupyterlab-widgets
 kaleido
 keras
@@ -377,7 +378,6 @@ jedi
 jinja2
 jsonschema
 jupyter-core
-jupyterlab-pygments
 keras-preprocessing
 leather
 linkify-it-py
