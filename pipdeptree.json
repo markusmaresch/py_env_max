@@ -64935,6 +64935,80 @@
         "dependencies": []
     },
     {
+        "key": "snapml",
+        "package_name": "snapml",
+        "installed_version": "1.9.0",
+        "required_version": "1.9.0",
+        "dependencies": [
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.20.0",
+                "required_version": ">=1.18.5",
+                "dependencies": []
+            },
+            {
+                "key": "scikit-learn",
+                "package_name": "scikit-learn",
+                "installed_version": "1.0.2",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "joblib",
+                        "package_name": "joblib",
+                        "installed_version": "1.0.1",
+                        "required_version": ">=0.11",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "1.20.0",
+                        "required_version": ">=1.14.6",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "scipy",
+                        "package_name": "scipy",
+                        "installed_version": "1.8.0",
+                        "required_version": ">=1.1.0",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "1.20.0",
+                                "required_version": ">=1.17.3,<1.25.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "threadpoolctl",
+                        "package_name": "threadpoolctl",
+                        "installed_version": "3.1.0",
+                        "required_version": ">=2.0.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "scipy",
+                "package_name": "scipy",
+                "installed_version": "1.8.0",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "1.20.0",
+                        "required_version": ">=1.17.3,<1.25.0",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "key": "sniffio",
         "package_name": "sniffio",
         "installed_version": "1.2.0",

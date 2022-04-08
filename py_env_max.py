@@ -3,11 +3,15 @@
 #
 import sys
 import argparse
+import os
 
 
 class OsPlatform:
     @staticmethod
     def get() -> str:
+        is_win: bool = (os.name == 'nt')
+        is_posix = (os.name == 'posix')
+        is_darwin = (os.name == 'darwin')
         platforms = {
             'linux1': 'linux',
             'linux2': 'linux',

@@ -4262,7 +4262,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: Bottleneck ImageHash Keras-Preprocessing PettingZoo PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance category-encoders cftime cmdstanpy colormath control cornac cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightfm lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless opt-einsum osqp pandas pandas-profiling pandera params-flow patsy phik pmdarima powerlaw py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray recommenders rlr rouge-score sacrebleu scikit-image scikit-learn scikit-surprise scipy sclblpy scs seaborn seqeval simplecosine slycot spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: Bottleneck ImageHash Keras-Preprocessing PettingZoo PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance category-encoders cftime cmdstanpy colormath control cornac cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightfm lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless opt-einsum osqp pandas pandas-profiling pandera params-flow patsy phik pmdarima powerlaw py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray recommenders rlr rouge-score sacrebleu scikit-image scikit-learn scikit-surprise scipy sclblpy scs seaborn seqeval simplecosine slycot snapml spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -6282,7 +6282,7 @@ Author:
 Author-email: 
 License: new BSD
 Requires: joblib numpy scipy threadpoolctl
-Required-by: category-encoders dash-canvas dask-glm dask-ml fastai imbalanced-learn kmodes lightfm lightgbm mlxtend nilearn pmdarima pycaret pyfolio pynndescent pyod recommenders scikit-plot seqeval sklearn umap-learn yellowbrick
+Required-by: category-encoders dash-canvas dask-glm dask-ml fastai imbalanced-learn kmodes lightfm lightgbm mlxtend nilearn pmdarima pycaret pyfolio pynndescent pyod recommenders scikit-plot seqeval sklearn snapml umap-learn yellowbrick
 ---
 Name: scikit-plot
 Version: 0.3.7
@@ -6312,7 +6312,7 @@ Author:
 Author-email: 
 License: BSD
 Requires: numpy
-Required-by: ImageHash Theano catboost category-encoders control cornac cvxpy dask-glm dask-ml datashader ecos empyrical fastai filterpy gensim imbalanced-learn jax kmodes lightfm lightgbm missingno mlflow mlxtend nilearn osqp pandas-profiling phik pmdarima powerlaw py-vollib pyLDAvis pyfolio pynndescent pyod pyportfolioopt qdldl recommenders scikit-image scikit-learn scikit-plot scikit-surprise scs seaborn statsmodels stumpy tf-models-official umap-learn xgboost yellowbrick
+Required-by: ImageHash Theano catboost category-encoders control cornac cvxpy dask-glm dask-ml datashader ecos empyrical fastai filterpy gensim imbalanced-learn jax kmodes lightfm lightgbm missingno mlflow mlxtend nilearn osqp pandas-profiling phik pmdarima powerlaw py-vollib pyLDAvis pyfolio pynndescent pyod pyportfolioopt qdldl recommenders scikit-image scikit-learn scikit-plot scikit-surprise scs seaborn snapml statsmodels stumpy tf-models-official umap-learn xgboost yellowbrick
 ---
 Name: sclblpy
 Version: 0.1.7
@@ -6553,6 +6553,16 @@ Author-email: byronimo@gmail.com
 License: BSD
 Requires: 
 Required-by: gitdb
+---
+Name: snapml
+Version: 1.9.0
+Summary: Snap Machine Learning
+Home-page: https://www.zurich.ibm.com/snapml/
+Author: IBM
+Author-email: tpa@zurich.ibm.com
+License: Proprietary
+Requires: numpy scikit-learn scipy
+Required-by: 
 ---
 Name: sniffio
 Version: 1.2.0

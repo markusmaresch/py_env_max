@@ -705,6 +705,7 @@ seaborn
 secretstorage
 seqeval
 sklearn
+snapml
 spacy
 sphinx-autobuild
 sphinx-autodoc-typehints
