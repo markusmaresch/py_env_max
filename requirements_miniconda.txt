@@ -675,6 +675,7 @@ pyinstaller-hooks-contrib==2022.3 # LEVEL_01 # deployment # Community maintained
 # Packages
 importlib-resources==5.6.0 # LEVEL_02 # Read resources from Python packages
 packaging==21.3 # LEVEL_02 # Core utilities for Python packages
+distlib==0.3.4 # LEVEL_01 # Distribution utilities
 entrypoints==0.4 # LEVEL_01 # Discover and load entry points from installed packages
 
 # Locking

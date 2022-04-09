@@ -10445,6 +10445,13 @@
         "dependencies": []
     },
     {
+        "key": "distlib",
+        "package_name": "distlib",
+        "installed_version": "0.3.4",
+        "required_version": "0.3.4",
+        "dependencies": []
+    },
+    {
         "key": "distributed",
         "package_name": "distributed",
         "installed_version": "2022.4.0",
@@ -11281,14 +11288,14 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.19.3",
+                        "required_version": ">=1.17.3",
                         "dependencies": []
                     },
                     {
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.17.3",
+                        "required_version": ">=1.19.3",
                         "dependencies": []
                     },
                     {
@@ -43070,14 +43077,14 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.19.3",
+                "required_version": ">=1.17.3",
                 "dependencies": []
             },
             {
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.17.3",
+                "required_version": ">=1.19.3",
                 "dependencies": []
             },
             {
@@ -43099,14 +43106,14 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.19.3",
+                "required_version": ">=1.17.3",
                 "dependencies": []
             },
             {
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.17.3",
+                "required_version": ">=1.19.3",
                 "dependencies": []
             },
             {
@@ -70212,14 +70219,14 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.19.3",
+                        "required_version": ">=1.17.3",
                         "dependencies": []
                     },
                     {
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.17.3",
+                        "required_version": ">=1.19.3",
                         "dependencies": []
                     },
                     {

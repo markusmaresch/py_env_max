@@ -263,6 +263,11 @@ class LevelsCheck:
                 level = lc.find_level(key=package)
                 if level > 0:
                     break
+                # https://blog.piwheels.org/canonicalise-all-the-things/
+                # We were aware of the idea of there being a “canonical” form of a package name, and what the
+                # algorithm for canonicalisation is (lowercase and replace any number of
+                # sequential -, _ or . with a single -)
+                #
                 # for packages, like Mastodon.py ..
                 if package.find(underline) < 0:
                     continue
