@@ -30,10 +30,22 @@ class LevelsCache:
 
     def find_below(self, level: int, package: dict) -> bool:
         key = package['key']
+        # key2 = package['package_name']
         for l in range(1, level):  # we should NOT search ALL levels
             d = self.level_dicts[l]
             if d.get(key):
                 return True
+
+        check_all = False
+        if check_all:
+            found = False
+            for l in range(1, self.levels_max):
+                d = self.level_dicts[l]
+                if d.get(key):
+                    found = True
+                    break
+            if not found:
+                print('Not found up to {}: {}'.format(level, key))
         return False
 
     def find_level(self, key: str) -> int:
@@ -98,9 +110,9 @@ class PackageInfo:
         summary = self.pi_dict.get(package2)
         if summary is not None:
             return summary
-        #package3 = package.replace('-', '_')  # typing-extensions -> typing_extensions
-        #summary = self.pi_dict.get(package3)
-        #if summary is None:
+        # package3 = package.replace('-', '_')  # typing-extensions -> typing_extensions
+        # summary = self.pi_dict.get(package3)
+        # if summary is None:
         print('get_summary({},{}) ?'.format(package, package2))
         return summary
 
@@ -177,6 +189,11 @@ class LevelsCheck:
                     package_name = d['key']
                     required_version = d['required_version']
                     dependencies = d['dependencies']
+
+                    debug = False
+                    if package_name == 'dedupe-xxxx':
+                        debug = True
+
                     if level == 1:
                         if len(dependencies) < 1:
                             lc.add(level, d)
@@ -186,14 +203,21 @@ class LevelsCheck:
                         else:
                             next_lod.append(d)
                     else:
-                        found_all_below = True
+                        found_below = 0
+                        needed_below = len(dependencies)
                         for dep in dependencies:
                             dependency_name = dep['key']
-                            if not lc.find_below(level, dep):
-                                found_all_below = False
-                            # print('P: {} {} -> D: {} .. {}'
-                            #      .format(package_name, required_version, dependency_name, found_all_below))
-                        if found_all_below:
+                            if lc.find_below(level, dep):
+                                found_below += 1
+                            elif debug:
+                                print('P: {} {} -> D: {}'
+                                      .format(package_name, required_version, dependency_name))
+                        if debug:
+                            print('Level:{}, Package: {}, {}*{}, {}'
+                                  .format(level, package_name, found_below, needed_below, dependencies))
+                            debug = False
+
+                        if found_below >= needed_below:
                             lc.add(level, d)
                             ps_file.write('{}\n'.format(package_name))
                             # print('P: {} {} -> Level {}  (found_all_below)'
@@ -222,14 +246,8 @@ class LevelsCheck:
                     rv = d['required_version']
                     comp = '==' if rv == 'Any' else ''
                     print('  {}{}{}'.format(d['key'], comp, d['required_version']))
-
-                    #for d2 in d['dependencies']:
-                    #    rv2 = d2['required_version']
-                    #    comp2 = '==' if rv2 == 'Any' else ''
-                    #    print('    {}{}{}'.format(d2['key'], comp2, d2['required_version']))
-
                 print('')
-            print('Did NOT resolve all packages above')
+            print('Did NOT resolve all packages above (could be cyclical behavior)')
             print('')
         return True
 
@@ -360,6 +378,20 @@ class LevelsCheck:
                     continue
                 del dep[key_dependencies]
                 dep[key_dependencies] = dict()
+            # for dependencies
+        # for
+        self_check = False
+        if self_check:
+            fatal = False
+            needed = ['dedupe-variable-datetime', 'dedupe', 'typing-extensions']
+            for n in needed:
+                d1 = [d for d in full_list_of_dicts if d.get('key') == n]
+                if len(d1) < 1:
+                    print('Needed: {} ... for internal bug hunt'.format(n))
+                    fatal = True
+            # for
+            if fatal:
+                return None
         return full_list_of_dicts
 
     def get_packages_installed(self) -> typing.Union[typing.List[dict], typing.Any]:
