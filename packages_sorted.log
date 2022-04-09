@@ -346,6 +346,7 @@ colormath
 convertdate
 cypari
 cytoolz
+dedupe-hcluster
 deprecated
 django
 dm-tree
@@ -768,6 +769,7 @@ dash-auth
 dash-bootstrap-components
 dash-canvas
 dash-cytoscape
+dedupe
 google-cloud-bigquery
 jupyter-console
 jupyter-dash
@@ -782,9 +784,11 @@ qtconsole
 recommenders
 tda-api
 tensorflow
+dedupe-variable-datetime
 jupyter-server-proxy
 jupyterlab-server
 notebook-shim
+pandas-dedupe
 tensorflow-text
 widgetsnbextension
 ipywidgets

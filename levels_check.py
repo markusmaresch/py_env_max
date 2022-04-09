@@ -217,8 +217,17 @@ class LevelsCheck:
                                   .format(level, package_name, found_below, needed_below, dependencies))
                             debug = False
 
-                        if found_below >= needed_below:
-                            lc.add(level, d)
+                        cyclical = False
+                        satisfied = (found_below >= needed_below)
+                        if not satisfied:
+                            if package_name == 'dedupe':
+                                if needed_below >= 14 and found_below == needed_below - 1:
+                                    # nasty hack for cyclical dependencies, which are otherwise hard to detect
+                                    cyclical = True
+
+                        if satisfied or cyclical:
+                            level2 = level  # if not cyclical else level + 1
+                            lc.add(level2, d)
                             ps_file.write('{}\n'.format(package_name))
                             # print('P: {} {} -> Level {}  (found_all_below)'
                             #      .format(package_name, required_version, level))
