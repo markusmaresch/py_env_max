@@ -62,7 +62,7 @@ class PackageInfo:
 
     def __init__(self):
         self.pi_dict = self.get_dictionary(log_name=self.package_info_name)
-        t = self.get_summary('numpy')
+        # t = self.get_summary('numpy')
         return
 
     def get_dictionary(self, log_name: str) -> dict:
@@ -94,14 +94,14 @@ class PackageInfo:
         summary = self.pi_dict.get(package)
         if summary is not None:
             return summary
-        # lower_package = package#.lower()
-        # summary = self.pi_dict.get(lower_package)
-        # if summary is not None:
-        #    return summary
-        package2 = package.replace('_', '.')  # Mastodon_py
+        package2 = package.replace('_', '.')  # Mastodon_py -> Mastodon.py
         summary = self.pi_dict.get(package2)
-        if summary is None:
-            print('get_summary({},{}) ?'.format(package, package2))
+        if summary is not None:
+            return summary
+        #package3 = package.replace('-', '_')  # typing-extensions -> typing_extensions
+        #summary = self.pi_dict.get(package3)
+        #if summary is None:
+        print('get_summary({},{}) ?'.format(package, package2))
         return summary
 
 
@@ -267,6 +267,10 @@ class LevelsCheck:
                 # We were aware of the idea of there being a “canonical” form of a package name, and what the
                 # algorithm for canonicalisation is (lowercase and replace any number of
                 # sequential -, _ or . with a single -)
+                #
+                # canonicalize_name():
+                #  _canonicalize_regex = re.compile(r"[-_.]+")
+                #  _canonicalize_regex.sub("-", name).lower()
                 #
                 # for packages, like Mastodon.py ..
                 if package.find(underline) < 0:

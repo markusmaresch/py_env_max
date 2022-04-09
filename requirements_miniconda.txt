@@ -1018,8 +1018,8 @@ venusian==3.0.0 # LEVEL_01 # A library for deferring decorator actions
 WebOb==1.8.7 # LEVEL_01 # WSGI request and response object
 #
 zope.index==5.2.0 # LEVEL_05 # Indices for using with catalog like text, field, etc
-zope_deprecation==4.4.0 # LEVEL_02 # Zope Deprecation Infrastructure
-zope_interface==5.4.0 # LEVEL_02 # Interfaces for Python
+zope.deprecation==4.4.0 # LEVEL_02 # Zope Deprecation Infrastructure
+zope.interface==5.4.0 # LEVEL_02 # Interfaces for Python
 #
 nodejs==0.1.1 # LEVEL_02 # Python bindings and utils for Node.js and io.js
 olefile==0.46 # LEVEL_01 # Python package to parse, read and write Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)
