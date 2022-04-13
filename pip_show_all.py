@@ -4,6 +4,7 @@
 import sys
 import os
 
+
 # from pip._internal.cli.main import main as pip_main
 
 
@@ -43,7 +44,7 @@ class PipShowAll:
                     if key == 'Location':
                         # we drop this intentionally
                         continue
-                    if key == 'Requires'  or key == 'Required-by':
+                    if key == 'Requires' or key == 'Required-by':
                         items.pop(0)
                         items_split = items[0].strip().split(',')
                         items_sorted = [str(e.strip()) for e in items_split]

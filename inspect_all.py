@@ -32,7 +32,7 @@ class InspectAll:
             print('all package inspections good: {}/{}'.format(good, count))
             return True
         print('some package inspections failed: {}/{}  .. fix in {}'
-              .format(count-good, count, packages_sorted))
+              .format((count - good), count, packages_sorted))
         return False
 
 

@@ -2,103 +2,10 @@
 # -*- coding: utf-8 -*-
 #
 import sys
-import argparse
-import os
+# import argparse
+# import os
 
-# PIP imports
-from pip._internal.commands.check import CheckCommand
-from pip._internal.cli.status_codes import SUCCESS
-
-# read before using pip
-# https://pypi.org/project/packaging/
-
-class Conda:
-    @staticmethod
-    def available() -> bool:
-        # check, if found in $PATH
-        return True
-
-    @staticmethod
-    def env_export() -> bool:
-        # call: conda env export --no-builds
-        return True
-
-    @staticmethod
-    def env_list() -> [str]:
-        # call: conda env list | awk '{print $1}' # more or less
-        return None
-
-    @staticmethod
-    def env_activated() -> str:
-        # conda env list | grep -e ' \* ' | awk '{print $1}'
-        return None
-
-    @staticmethod
-    def env_activate() -> bool:
-        # don't try, will not work, needs to be called by hand in shell
-        return False
-
-
-class Pip:
-    @staticmethod
-    def available() -> bool:
-        # check, if found in $PATH
-        return True
-
-    @staticmethod
-    def pip_check() -> bool:
-        #
-        # reconsider: https://pip.pypa.io/en/stable/user_guide/#using-pip-from-your-program
-        #
-        cc = CheckCommand(name='check', summary='summary')
-        result = cc.run(options=None, args=list())
-        return True if result == SUCCESS else False
-
-    @staticmethod
-    def pip_install(args: [str]) -> bool:
-        # build command line
-        # execute with popen(cmd, 'r') and kill upon first "taking longer than expected"
-        return False
-
-    @staticmethod
-    def pip_list() -> None:
-        # fairly quick
-        # skip first 2 entries
-        # get list of
-        #   package0 version0_installed
-        #   packageN versionN_installed
-        return None
-
-    @staticmethod
-    def pip_show(args: [str]) -> bool:
-        # pip show numpy pandas ...
-        #
-        # Name: numpy
-        # Version: 1.20.0
-        # Summary: NumPy is the fundamental package for array computing with Python.
-        # Requires: [ some, some2 ]
-        # Required-by: [ many, many2]
-
-        # see implementation in pip_show_all.py
-
-        return False
-
-
-class OsPlatform:
-    @staticmethod
-    def get() -> str:
-        is_win: bool = (os.name == 'nt')
-        is_posix = (os.name == 'posix')
-        is_darwin = (os.name == 'darwin')
-        platforms = {
-            'linux1': 'linux',
-            'linux2': 'linux',
-            'darwin': 'osx',
-            'win32': 'windows'
-        }
-        if sys.platform not in platforms:
-            return sys.platform
-        return platforms[sys.platform]
+from pip_cmd import PipCmd
 
 
 class PyEnvMax:
@@ -130,8 +37,8 @@ class PyEnvMax:
 
     @staticmethod
     def run() -> int:
-        Pip.check()
-        parser = argparse.ArgumentParser()
+        PipCmd.pip_selftest()
+        # parser = argparse.ArgumentParser()
         return 0
 
 

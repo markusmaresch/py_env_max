@@ -31,16 +31,16 @@ class LevelsCache:
     def find_below(self, level: int, package: dict) -> bool:
         key = package['key']
         # key2 = package['package_name']
-        for l in range(1, level):  # we should NOT search ALL levels
-            d = self.level_dicts[l]
+        for ll in range(1, level):  # we should NOT search ALL levels
+            d = self.level_dicts[ll]
             if d.get(key):
                 return True
 
         check_all = False
         if check_all:
             found = False
-            for l in range(1, self.levels_max):
-                d = self.level_dicts[l]
+            for ll in range(1, self.levels_max):
+                d = self.level_dicts[ll]
                 if d.get(key):
                     found = True
                     break
@@ -57,14 +57,14 @@ class LevelsCache:
         return -1
 
     def show(self) -> bool:
-        for l in range(1, self.levels_max):
-            level_dict = self.level_dicts[l]
+        for ll in range(1, self.levels_max):
+            level_dict = self.level_dicts[ll]
             if len(level_dict) < 1:
                 continue
             for package_name in level_dict:
                 package_full = level_dict[package_name]
                 required_version = package_full['installed_version']  # not sure, if this is correct
-                print('{}=={} # LEVEL_{:0=2d}'.format(package_name, required_version, l))
+                print('{}=={} # LEVEL_{:0=2d}'.format(package_name, required_version, ll))
             print('=' * 8)
         return True
 
