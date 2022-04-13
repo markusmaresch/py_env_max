@@ -78,11 +78,11 @@ class PipCmd:
         except:
             return None
         py_packages = list()
-        name = None
-        version = None
-        summary = None
-        requires = None
-        required_by = None
+        name = ''
+        version = ''
+        summary = ''
+        requires = ''
+        required_by = ''
         for line_b in output.splitlines():
             line = line_b.decode()
             # print(line)

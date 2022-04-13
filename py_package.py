@@ -1,23 +1,19 @@
 #
 # -*- coding: utf-8 -*-
 #
-from packaging.utils import canonicalize_name
 
 from os_platform import OsPlatform
 
 
-# import re
-# def normalize(name):
-#     return re.sub(r"[-_.]+", "-", name).lower()
-
 class PyPackage:
     def __init__(self, name: str, version_installed: str, summary: str,
                  requires: [str], required_by: [str]):
-        self.name = canonicalize_name(name)  # canonical name of package
+        level = 1 if requires is None or len(requires) < 1 else (-1)
+        self.name = name
         self.version_installed = [version_installed]
         self.version_latest = ''
         self.versions_recent = ['0.0']  # see: https://github.com/wimglenn/johnnydep/blob/master/johnnydep/pipper.py
-        self.level = (-1)
+        self.level = level
         self.locked = False
         self.summary = summary
         self.requires = requires
