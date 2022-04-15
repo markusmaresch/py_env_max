@@ -46,6 +46,9 @@ class PipCmd:
     @staticmethod
     def pip_list() -> [str]:  # only the canonical names of the installed packages; could also provide version_installed
         # fairly quick
+        #
+        # rework to: json = pip list --format json
+        #
         try:
             print('Executing: pip list')
             output = subprocess.check_output(['pip', 'list'])
@@ -134,7 +137,8 @@ class PipCmd:
                 for n in needed:
                     packages_needed.add(n)
             # for
-
+            print('Found {} depending packages'.format(len(packages_needed)))
+            missing = 0
             for p in packages_needed:
                 found = False
                 for cp in py_packages:
@@ -146,20 +150,20 @@ class PipCmd:
                 if found:
                     continue
 
-                print('Did not find {} ?'.format(p))
+                print('  Not found: {} ?'.format(p))
+                missing += 1
             # for
+            print('Missing depending packages: {}'.format(missing))
         # fi
+
+        # calculate level
 
         return py_packages
 
     @staticmethod
     def pip_outdated() -> (str, str, str, str):
-        # pip list --outdated
-        # fairly slow
-        # skip first 2 entries
-        # get list of
-        #   package0 version0_installed version0_latest type0
-        #   packageN versionN_installed versionN_latest typeN
+        # pip list --outdated --format json
+        # fairly slow .. up to one minute
         return None
 
     @staticmethod

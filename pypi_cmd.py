@@ -1,7 +1,11 @@
 #
 # -*- coding: utf-8 -*-
 #
+import sys
 import requests
+
+
+# from distutils.version import StrictVersion
 
 
 class PyPiCmd:
@@ -21,8 +25,29 @@ class PyPiCmd:
         return latest_version
 
     @staticmethod
-    def get_versions(name: str, latestN: int = 10) -> [str]:
+    def get_releases(name: str, latestN: int = 10) -> [str]:
         js = PyPiCmd.get_pypi_json(name)
-        releases = js['releases']
+        releases = js["releases"].keys()
+        # versions.sort(key=StrictVersion)
         rs = [r for r in releases]  # add checks against 'rc0' and similar
         return rs[-latestN:]
+        # releases = js['releases'].sort(key=StrictVersion)
+        # rs = [r for r in releases]  # add checks against 'rc0' and similar
+        # return rs[-latestN:]
+
+    @staticmethod
+    def pip_selftest() -> bool:
+        releases = PyPiCmd().get_releases('pandas')
+        if releases is None:
+            return False
+        return True
+
+
+def main():
+    if not PyPiCmd.pip_selftest():
+        return 1
+    return 0
+
+
+if __name__ == '__main__':
+    sys.exit(main())
