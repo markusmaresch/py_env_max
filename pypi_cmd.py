@@ -5,9 +5,6 @@ import sys
 import requests
 
 
-# from distutils.version import StrictVersion
-
-
 class PyPiCmd:
 
     @staticmethod

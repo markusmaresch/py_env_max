@@ -13,7 +13,7 @@ from pip._internal.commands.check import CheckCommand
 from pip._internal.cli.status_codes import SUCCESS
 
 from py_package import PyPackage
-
+from database import Database
 
 # read before using pip
 # https://pypi.org/project/packaging/
@@ -88,7 +88,6 @@ class PipCmd:
         required_by = ''
         for line_b in output.splitlines():
             line = line_b.decode()
-            # print(line)
             key, rest = (line.split(maxsplit=1) + [None])[:2]
             if key == 'Name:':
                 name_raw = rest.strip()
@@ -119,15 +118,15 @@ class PipCmd:
                     py_package = PyPackage(name=name, version_installed=version,
                                            summary=summary, requires=requires,
                                            required_by=required_by)
-                    del name
-                    del version
-                    del summary
-                    del requires
-                    del required_by
+                    name = ''
+                    version = ''
+                    summary = ''
+                    requires = ''
+                    required_by = ''
                     py_packages.append(py_package)
                 continue
             # fi
-        #
+        # for
         test_consistency = True
         if test_consistency:
             print('Testing consistency of {} packages'.format(len(py_packages)))
