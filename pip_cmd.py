@@ -13,7 +13,8 @@ from pip._internal.commands.check import CheckCommand
 from pip._internal.cli.status_codes import SUCCESS
 
 from py_package import PyPackage
-from database import Database
+# from database import Database
+
 
 # read before using pip
 # https://pypi.org/project/packaging/

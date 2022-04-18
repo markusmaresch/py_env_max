@@ -3,3 +3,4 @@ py_env_2*.yml
 .DS_Store
 .ipynb_checkpoints
 db.json
+__pycache__
