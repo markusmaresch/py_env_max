@@ -78,37 +78,6 @@ class PyEnvMax:
             parser.print_help()
         return 0
 
-    @staticmethod
-    def run_try1() -> int:
-        parser = argparse.ArgumentParser(prog='py_env_max',
-                                         description='Maintain and maximize a python environment',
-                                         epilog='Max you python env !')
-        subparsers = parser.add_subparsers(help='commands', dest='action')
-        env_parser = subparsers.add_parser('--env', help='manipulate python environment ...')
-        yml_parser = subparsers.add_parser('--yml', help='manipulate YML script ...')
-
-        env_parser.add_argument('--import', action='store',
-                                help='Import existing python environment into internal database')
-        env_parser.add_argument('--update', action='store',
-                                help='Attempt to carefully update an existing python environment')
-
-        yml_parser.add_argument('--export', action='store',
-                                help='Create YML script from existing python environment')
-
-        args = parser.parse_args()
-        print(args)
-        print(args.action)
-        return 0
-        if args.env:
-            EnvCmd.environment_import()
-            EnvCmd.environment_update()
-        elif args.yml:
-            print('yml')
-        else:
-            print('? internal switch ?')
-            parser.print_help()
-        return 0
-
 
 def main():
     #
