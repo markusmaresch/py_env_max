@@ -3,10 +3,12 @@
 #
 import sys
 import argparse
+from distlib.version import NormalizedVersion
 
 from env_cmd import EnvCmd
 from req_cmd import ReqCmd
 from yml_cmd import YmlCmd
+from conda_cmd import CondaCmd
 
 
 class PyEnvMax:
@@ -34,6 +36,13 @@ class PyEnvMax:
         # if not good: print command: conda create --name $py_env_name python=${python_default_version}
         # else: use and update
         #
+        version = CondaCmd.version()
+        if version is None or not version:
+            return False
+        nv = NormalizedVersion(version)
+        vo = NormalizedVersion('4.10.3')
+        if nv.__lt__(vo):
+            return False
         return True
 
     @staticmethod
@@ -42,21 +51,21 @@ class PyEnvMax:
                                          description='Maintain and maximize a python environment',
                                          epilog='Maximize you python environment !')
 
-        parser.add_argument('--force', action='store_true', help='force creation/overwriting of files')
-        parser.add_argument('--env', action='store', help='environment name')
+        parser.add_argument('-f', '--force', action='store_true', help='force creation/overwriting of files')
+        parser.add_argument('-e', '--env', action='store', help='environment name')
 
         group = parser.add_mutually_exclusive_group(required=True)
-        group.add_argument('--env_import', action='store_true',
+        group.add_argument('-ei', '--env_import', action='store_true',
                            help='Import existing python environment into internal database')
-        group.add_argument('--env_update', action='store_true',
+        group.add_argument('-eu', '--env_update', action='store_true',
                            help='Attempt to carefully update an existing python environment')
-        group.add_argument('--req_import', action='store_true',
+        group.add_argument('-ri', '--req_import', action='store_true',
                            help='Import \'requirements.txt\' into internal database')
-        group.add_argument('--req_export', action='store_true',
+        group.add_argument('-re', '--req_export', action='store_true',
                            help='Create \'requirements.txt\' from existing python environment')
-        group.add_argument('--yml_import', action='store_true',
+        group.add_argument('-yi', '--yml_import', action='store_true',
                            help='Import conda YML script into internal database')
-        group.add_argument('--yml_export', action='store_true',
+        group.add_argument('-ye', '--yml_export', action='store_true',
                            help='Create conda YML script from existing python environment')
         args = parser.parse_args()
         print(args)
@@ -90,7 +99,8 @@ def main():
     #   check_platform
     #   check_conda
     #
-    return PyEnvMax().run()
+    PyEnvMax.check_conda()
+    return PyEnvMax.run()
 
 
 if __name__ == '__main__':
