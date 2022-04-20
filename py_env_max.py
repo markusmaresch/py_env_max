@@ -12,6 +12,16 @@ from conda_cmd import CondaCmd
 
 
 class PyEnvMax:
+    def __init__(self):
+        self.environment_name = None
+        self.python_version_default = '3.9'
+        self.conda_version_minimum = '4.10.3'
+        return
+
+    def set_activated_environment(self, activated: str):
+        self.environment_name = activated
+        return
+
     @staticmethod
     def check_executables() -> bool:
         #
@@ -26,8 +36,7 @@ class PyEnvMax:
         #
         return True
 
-    @staticmethod
-    def check_conda() -> bool:
+    def check_conda(self) -> bool:
         #
         # check: conda env list
         #   if 'base' --> really, really check
@@ -38,11 +47,26 @@ class PyEnvMax:
         #
         version = CondaCmd.version()
         if version is None or not version:
+            print('Error: conda not working; is miniconda installed ?')
+            print('See: https://docs.conda.io/en/latest/miniconda.html')
             return False
-        nv = NormalizedVersion(version)
-        vo = NormalizedVersion('4.10.3')
-        if nv.__lt__(vo):
+
+        # depends on distlib
+        vh = NormalizedVersion(version)
+        vm = NormalizedVersion(self.conda_version_minimum)
+        if vh.__lt__(vm):
+            print('Warning: conda too old ({} < {}), consider updating conda itself or miniconda'.format(vh, vm))
+            # return False
+
+        activated = CondaCmd.env_activated()
+        if not activated:
+            print('Error: cannot determine activated conda environment')
+            print('Check: conda env list')
             return False
+        if activated == 'base':
+            print('Error: do not use \'base\' conda environment')
+            return False
+        self.set_activated_environment(activated)
         return True
 
     @staticmethod
@@ -91,15 +115,16 @@ class PyEnvMax:
 def main():
     #
     # create
-    #   py_env_name
-    #   python_default_version
+    #   py_env_name .. py_env_yyyymm
+    #   python_default_version .. 3.9
     #
     # check:
     #   check_executables
     #   check_platform
-    #   check_conda
     #
-    PyEnvMax.check_conda()
+    pem = PyEnvMax()
+    if not pem.check_conda():
+        return 1
     return PyEnvMax.run()
 
 
