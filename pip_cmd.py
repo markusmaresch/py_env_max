@@ -13,6 +13,8 @@ from pip._internal.commands.check import CheckCommand
 from pip._internal.cli.status_codes import SUCCESS
 
 from py_package import PyPackage
+
+
 # from database import Database
 
 
@@ -28,6 +30,24 @@ class PipCmd:
     def available() -> bool:
         # check, if found in $PATH
         return True
+
+    @staticmethod
+    def version() -> str:
+        version = ''
+        try:
+            output = subprocess.check_output(['pip', '-V'])
+            for line in output.splitlines():
+                v = line.decode().split()
+                if v[0] != 'pip':
+                    continue
+                version = v[1]
+                break
+            # for
+        except:
+            pass
+        if not version:
+            print('Failed: pip -V')
+        return version
 
     @staticmethod
     def pip_check() -> bool:
@@ -168,6 +188,9 @@ class PipCmd:
 
     @staticmethod
     def pip_selftest() -> bool:
+        version = PipCmd.version()
+        if not version:
+            return False
         packages = PipCmd().pip_show()
         if packages is None:
             return False

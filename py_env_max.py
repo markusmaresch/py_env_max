@@ -3,20 +3,31 @@
 #
 import sys
 import argparse
+import datetime
 from distlib.version import NormalizedVersion
 
 from env_cmd import EnvCmd
 from req_cmd import ReqCmd
 from yml_cmd import YmlCmd
 from conda_cmd import CondaCmd
+from pip_cmd import PipCmd
+from os_platform import OsPlatform
 
 
 class PyEnvMax:
     def __init__(self):
         self.environment_name = None
+        self.environment_default = self.get_environment_default()
         self.python_version_default = '3.9'
         self.conda_version_minimum = '4.10.3'
         return
+
+    def get_environment_default(self) -> str:
+        today = datetime.datetime.today()
+        year = today.year
+        month = today.month
+        py_env_name = 'py_env_{}{:0=2d}'.format(year, month)
+        return py_env_name
 
     def set_activated_environment(self, activated: str):
         self.environment_name = activated
@@ -24,32 +35,26 @@ class PyEnvMax:
 
     @staticmethod
     def check_executables() -> bool:
-        #
-        # check conda, pip in $PATH
-        #
+        version = PipCmd.version()
+        if not version:
+            return False
+        print('Using: pip=={}'.format(version))
         return True
 
-    @staticmethod
-    def check_platform() -> bool:
-        #
-        # check linux, osx, windows
-        #
+    def check_os_platform(self) -> bool:
+        op = OsPlatform.get()
+        if not OsPlatform.valid(op):
+            return False
+        print('Using: {}'.format(op.__repr__()))
         return True
 
     def check_conda(self) -> bool:
-        #
-        # check: conda env list
-        #   if 'base' --> really, really check
-        #   if not 'py_env_yyyymm -> check again
-        #
-        # if not good: print command: conda create --name $py_env_name python=${python_default_version}
-        # else: use and update
-        #
         version = CondaCmd.version()
         if version is None or not version:
             print('Error: conda not working; is miniconda installed ?')
             print('See: https://docs.conda.io/en/latest/miniconda.html')
             return False
+        print('Using: conda=={}'.format(version))
 
         # depends on distlib
         vh = NormalizedVersion(version)
@@ -65,12 +70,18 @@ class PyEnvMax:
             return False
         if activated == 'base':
             print('Error: do not use \'base\' conda environment')
+            print()
+            print('Consider creating a new environment:')
+            print('\tconda create --name {} python={}'
+                  .format(self.environment_default, self.python_version_default))
+            print('\tconda activate {}'.format(self.environment_default))
+            print()
             return False
         self.set_activated_environment(activated)
+        print('Using: {}'.format(activated))
         return True
 
-    @staticmethod
-    def run() -> int:
+    def run(self) -> int:
         parser = argparse.ArgumentParser(prog='py_env_max',
                                          description='Maintain and maximize a python environment',
                                          epilog='Maximize you python environment !')
@@ -123,9 +134,13 @@ def main():
     #   check_platform
     #
     pem = PyEnvMax()
+    if not pem.check_os_platform():
+        return 1
     if not pem.check_conda():
         return 1
-    return PyEnvMax.run()
+    if not pem.check_executables():
+        return 1
+    return pem.run()
 
 
 if __name__ == '__main__':

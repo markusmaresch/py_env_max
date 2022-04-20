@@ -16,6 +16,12 @@ class OsPlatform(enum.IntFlag):
     MAX = 4
 
     @staticmethod
+    def valid(op: int) -> bool:
+        if op >= OsPlatform.LINUX and op <= OsPlatform.WINDOWS:
+            return True
+        return False
+
+    @staticmethod
     def get() -> int:
         # is_win: bool = (os.name == 'nt')
         # is_posix = (os.name == 'posix')
@@ -29,3 +35,20 @@ class OsPlatform(enum.IntFlag):
         if sys.platform not in platforms:
             return OsPlatform.UNKNOWN
         return platforms[sys.platform]
+
+    @staticmethod
+    def selftest() -> bool:
+        op = OsPlatform.get()
+        if not OsPlatform.valid(op):
+            return False
+        return True
+
+
+def main():
+    if not OsPlatform.selftest():
+        return 1
+    return 0
+
+
+if __name__ == '__main__':
+    sys.exit(main())
