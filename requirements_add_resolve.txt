@@ -1,3 +1,13 @@
+Dependencies for Python Engine in Rapidminer:
+#https://docs.rapidminer.com/9.9/deployment/docker-compose/python-engine/index.html
+  - numpy
+  - pandas
+  - fs
+  - flask
+  - libiconv
+  - uwsgi
+
+
 #https://docs.perceptilabs.com/perceptilabs/advanced/included-packages#perceptilabs-0.13-and-above
 
 #Python Packages
