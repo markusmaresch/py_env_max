@@ -4407,7 +4407,7 @@
                     {
                         "key": "ipykernel",
                         "package_name": "ipykernel",
-                        "installed_version": "6.10.0",
+                        "installed_version": "6.13.0",
                         "required_version": ">=4.5.1",
                         "dependencies": [
                             {
@@ -4421,7 +4421,7 @@
                                 "key": "debugpy",
                                 "package_name": "debugpy",
                                 "installed_version": "1.6.0",
-                                "required_version": ">=1.0.0,<2.0",
+                                "required_version": ">=1.0",
                                 "dependencies": []
                             },
                             {
@@ -4582,7 +4582,7 @@
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
                                 "installed_version": "7.2.2",
-                                "required_version": "<8.0",
+                                "required_version": ">=6.1.12",
                                 "dependencies": [
                                     {
                                         "key": "entrypoints",
@@ -4655,7 +4655,7 @@
                                 "key": "matplotlib-inline",
                                 "package_name": "matplotlib-inline",
                                 "installed_version": "0.1.3",
-                                "required_version": ">=0.1.0,<0.2.0",
+                                "required_version": ">=0.1",
                                 "dependencies": [
                                     {
                                         "key": "traitlets",
@@ -4674,6 +4674,21 @@
                                 "dependencies": []
                             },
                             {
+                                "key": "packaging",
+                                "package_name": "packaging",
+                                "installed_version": "21.3",
+                                "required_version": "Any",
+                                "dependencies": [
+                                    {
+                                        "key": "pyparsing",
+                                        "package_name": "pyparsing",
+                                        "installed_version": "3.0.8",
+                                        "required_version": ">=2.0.2,!=3.0.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
                                 "key": "psutil",
                                 "package_name": "psutil",
                                 "installed_version": "5.9.0",
@@ -4684,14 +4699,14 @@
                                 "key": "tornado",
                                 "package_name": "tornado",
                                 "installed_version": "6.1",
-                                "required_version": ">=5.0,<7.0",
+                                "required_version": ">=6.1",
                                 "dependencies": []
                             },
                             {
                                 "key": "traitlets",
                                 "package_name": "traitlets",
                                 "installed_version": "5.1.1",
-                                "required_version": ">=5.1.0,<6.0",
+                                "required_version": ">=5.1.0",
                                 "dependencies": []
                             }
                         ]
@@ -4976,7 +4991,7 @@
                                     {
                                         "key": "ipykernel",
                                         "package_name": "ipykernel",
-                                        "installed_version": "6.10.0",
+                                        "installed_version": "6.13.0",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
@@ -4990,7 +5005,7 @@
                                                 "key": "debugpy",
                                                 "package_name": "debugpy",
                                                 "installed_version": "1.6.0",
-                                                "required_version": ">=1.0.0,<2.0",
+                                                "required_version": ">=1.0",
                                                 "dependencies": []
                                             },
                                             {
@@ -5151,7 +5166,7 @@
                                                 "key": "jupyter-client",
                                                 "package_name": "jupyter-client",
                                                 "installed_version": "7.2.2",
-                                                "required_version": "<8.0",
+                                                "required_version": ">=6.1.12",
                                                 "dependencies": [
                                                     {
                                                         "key": "entrypoints",
@@ -5224,7 +5239,7 @@
                                                 "key": "matplotlib-inline",
                                                 "package_name": "matplotlib-inline",
                                                 "installed_version": "0.1.3",
-                                                "required_version": ">=0.1.0,<0.2.0",
+                                                "required_version": ">=0.1",
                                                 "dependencies": [
                                                     {
                                                         "key": "traitlets",
@@ -5243,6 +5258,21 @@
                                                 "dependencies": []
                                             },
                                             {
+                                                "key": "packaging",
+                                                "package_name": "packaging",
+                                                "installed_version": "21.3",
+                                                "required_version": "Any",
+                                                "dependencies": [
+                                                    {
+                                                        "key": "pyparsing",
+                                                        "package_name": "pyparsing",
+                                                        "installed_version": "3.0.8",
+                                                        "required_version": ">=2.0.2,!=3.0.5",
+                                                        "dependencies": []
+                                                    }
+                                                ]
+                                            },
+                                            {
                                                 "key": "psutil",
                                                 "package_name": "psutil",
                                                 "installed_version": "5.9.0",
@@ -5253,14 +5283,14 @@
                                                 "key": "tornado",
                                                 "package_name": "tornado",
                                                 "installed_version": "6.1",
-                                                "required_version": ">=5.0,<7.0",
+                                                "required_version": ">=6.1",
                                                 "dependencies": []
                                             },
                                             {
                                                 "key": "traitlets",
                                                 "package_name": "traitlets",
                                                 "installed_version": "5.1.1",
-                                                "required_version": ">=5.1.0,<6.0",
+                                                "required_version": ">=5.1.0",
                                                 "dependencies": []
                                             }
                                         ]
@@ -18225,8 +18255,8 @@
     {
         "key": "ipykernel",
         "package_name": "ipykernel",
-        "installed_version": "6.10.0",
-        "required_version": "6.10.0",
+        "installed_version": "6.13.0",
+        "required_version": "6.13.0",
         "dependencies": [
             {
                 "key": "appnope",
@@ -18239,7 +18269,7 @@
                 "key": "debugpy",
                 "package_name": "debugpy",
                 "installed_version": "1.6.0",
-                "required_version": ">=1.0.0,<2.0",
+                "required_version": ">=1.0",
                 "dependencies": []
             },
             {
@@ -18400,7 +18430,7 @@
                 "key": "jupyter-client",
                 "package_name": "jupyter-client",
                 "installed_version": "7.2.2",
-                "required_version": "<8.0",
+                "required_version": ">=6.1.12",
                 "dependencies": [
                     {
                         "key": "entrypoints",
@@ -18473,7 +18503,7 @@
                 "key": "matplotlib-inline",
                 "package_name": "matplotlib-inline",
                 "installed_version": "0.1.3",
-                "required_version": ">=0.1.0,<0.2.0",
+                "required_version": ">=0.1",
                 "dependencies": [
                     {
                         "key": "traitlets",
@@ -18492,6 +18522,21 @@
                 "dependencies": []
             },
             {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "21.3",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "pyparsing",
+                        "package_name": "pyparsing",
+                        "installed_version": "3.0.8",
+                        "required_version": ">=2.0.2,!=3.0.5",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
                 "key": "psutil",
                 "package_name": "psutil",
                 "installed_version": "5.9.0",
@@ -18502,14 +18547,14 @@
                 "key": "tornado",
                 "package_name": "tornado",
                 "installed_version": "6.1",
-                "required_version": ">=5.0,<7.0",
+                "required_version": ">=6.1",
                 "dependencies": []
             },
             {
                 "key": "traitlets",
                 "package_name": "traitlets",
                 "installed_version": "5.1.1",
-                "required_version": ">=5.1.0,<6.0",
+                "required_version": ">=5.1.0",
                 "dependencies": []
             }
         ]
@@ -18684,7 +18729,7 @@
             {
                 "key": "ipykernel",
                 "package_name": "ipykernel",
-                "installed_version": "6.10.0",
+                "installed_version": "6.13.0",
                 "required_version": ">=4.5.1",
                 "dependencies": [
                     {
@@ -18698,7 +18743,7 @@
                         "key": "debugpy",
                         "package_name": "debugpy",
                         "installed_version": "1.6.0",
-                        "required_version": ">=1.0.0,<2.0",
+                        "required_version": ">=1.0",
                         "dependencies": []
                     },
                     {
@@ -18859,7 +18904,7 @@
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
                         "installed_version": "7.2.2",
-                        "required_version": "<8.0",
+                        "required_version": ">=6.1.12",
                         "dependencies": [
                             {
                                 "key": "entrypoints",
@@ -18932,7 +18977,7 @@
                         "key": "matplotlib-inline",
                         "package_name": "matplotlib-inline",
                         "installed_version": "0.1.3",
-                        "required_version": ">=0.1.0,<0.2.0",
+                        "required_version": ">=0.1",
                         "dependencies": [
                             {
                                 "key": "traitlets",
@@ -18951,6 +18996,21 @@
                         "dependencies": []
                     },
                     {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "21.3",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "pyparsing",
+                                "package_name": "pyparsing",
+                                "installed_version": "3.0.8",
+                                "required_version": ">=2.0.2,!=3.0.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
                         "key": "psutil",
                         "package_name": "psutil",
                         "installed_version": "5.9.0",
@@ -18961,14 +19021,14 @@
                         "key": "tornado",
                         "package_name": "tornado",
                         "installed_version": "6.1",
-                        "required_version": ">=5.0,<7.0",
+                        "required_version": ">=6.1",
                         "dependencies": []
                     },
                     {
                         "key": "traitlets",
                         "package_name": "traitlets",
                         "installed_version": "5.1.1",
-                        "required_version": ">=5.1.0,<6.0",
+                        "required_version": ">=5.1.0",
                         "dependencies": []
                     }
                 ]
@@ -19253,7 +19313,7 @@
                             {
                                 "key": "ipykernel",
                                 "package_name": "ipykernel",
-                                "installed_version": "6.10.0",
+                                "installed_version": "6.13.0",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
@@ -19267,7 +19327,7 @@
                                         "key": "debugpy",
                                         "package_name": "debugpy",
                                         "installed_version": "1.6.0",
-                                        "required_version": ">=1.0.0,<2.0",
+                                        "required_version": ">=1.0",
                                         "dependencies": []
                                     },
                                     {
@@ -19428,7 +19488,7 @@
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
                                         "installed_version": "7.2.2",
-                                        "required_version": "<8.0",
+                                        "required_version": ">=6.1.12",
                                         "dependencies": [
                                             {
                                                 "key": "entrypoints",
@@ -19501,7 +19561,7 @@
                                         "key": "matplotlib-inline",
                                         "package_name": "matplotlib-inline",
                                         "installed_version": "0.1.3",
-                                        "required_version": ">=0.1.0,<0.2.0",
+                                        "required_version": ">=0.1",
                                         "dependencies": [
                                             {
                                                 "key": "traitlets",
@@ -19520,6 +19580,21 @@
                                         "dependencies": []
                                     },
                                     {
+                                        "key": "packaging",
+                                        "package_name": "packaging",
+                                        "installed_version": "21.3",
+                                        "required_version": "Any",
+                                        "dependencies": [
+                                            {
+                                                "key": "pyparsing",
+                                                "package_name": "pyparsing",
+                                                "installed_version": "3.0.8",
+                                                "required_version": ">=2.0.2,!=3.0.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
                                         "key": "psutil",
                                         "package_name": "psutil",
                                         "installed_version": "5.9.0",
@@ -19530,14 +19605,14 @@
                                         "key": "tornado",
                                         "package_name": "tornado",
                                         "installed_version": "6.1",
-                                        "required_version": ">=5.0,<7.0",
+                                        "required_version": ">=6.1",
                                         "dependencies": []
                                     },
                                     {
                                         "key": "traitlets",
                                         "package_name": "traitlets",
                                         "installed_version": "5.1.1",
-                                        "required_version": ">=5.1.0,<6.0",
+                                        "required_version": ">=5.1.0",
                                         "dependencies": []
                                     }
                                 ]
@@ -20493,7 +20568,7 @@
             {
                 "key": "ipykernel",
                 "package_name": "ipykernel",
-                "installed_version": "6.10.0",
+                "installed_version": "6.13.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -20507,7 +20582,7 @@
                         "key": "debugpy",
                         "package_name": "debugpy",
                         "installed_version": "1.6.0",
-                        "required_version": ">=1.0.0,<2.0",
+                        "required_version": ">=1.0",
                         "dependencies": []
                     },
                     {
@@ -20668,7 +20743,7 @@
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
                         "installed_version": "7.2.2",
-                        "required_version": "<8.0",
+                        "required_version": ">=6.1.12",
                         "dependencies": [
                             {
                                 "key": "entrypoints",
@@ -20741,7 +20816,7 @@
                         "key": "matplotlib-inline",
                         "package_name": "matplotlib-inline",
                         "installed_version": "0.1.3",
-                        "required_version": ">=0.1.0,<0.2.0",
+                        "required_version": ">=0.1",
                         "dependencies": [
                             {
                                 "key": "traitlets",
@@ -20760,6 +20835,21 @@
                         "dependencies": []
                     },
                     {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "21.3",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "pyparsing",
+                                "package_name": "pyparsing",
+                                "installed_version": "3.0.8",
+                                "required_version": ">=2.0.2,!=3.0.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
                         "key": "psutil",
                         "package_name": "psutil",
                         "installed_version": "5.9.0",
@@ -20770,14 +20860,14 @@
                         "key": "tornado",
                         "package_name": "tornado",
                         "installed_version": "6.1",
-                        "required_version": ">=5.0,<7.0",
+                        "required_version": ">=6.1",
                         "dependencies": []
                     },
                     {
                         "key": "traitlets",
                         "package_name": "traitlets",
                         "installed_version": "5.1.1",
-                        "required_version": ">=5.1.0,<6.0",
+                        "required_version": ">=5.1.0",
                         "dependencies": []
                     }
                 ]
@@ -20791,7 +20881,7 @@
                     {
                         "key": "ipykernel",
                         "package_name": "ipykernel",
-                        "installed_version": "6.10.0",
+                        "installed_version": "6.13.0",
                         "required_version": ">=4.5.1",
                         "dependencies": [
                             {
@@ -20805,7 +20895,7 @@
                                 "key": "debugpy",
                                 "package_name": "debugpy",
                                 "installed_version": "1.6.0",
-                                "required_version": ">=1.0.0,<2.0",
+                                "required_version": ">=1.0",
                                 "dependencies": []
                             },
                             {
@@ -20966,7 +21056,7 @@
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
                                 "installed_version": "7.2.2",
-                                "required_version": "<8.0",
+                                "required_version": ">=6.1.12",
                                 "dependencies": [
                                     {
                                         "key": "entrypoints",
@@ -21039,7 +21129,7 @@
                                 "key": "matplotlib-inline",
                                 "package_name": "matplotlib-inline",
                                 "installed_version": "0.1.3",
-                                "required_version": ">=0.1.0,<0.2.0",
+                                "required_version": ">=0.1",
                                 "dependencies": [
                                     {
                                         "key": "traitlets",
@@ -21058,6 +21148,21 @@
                                 "dependencies": []
                             },
                             {
+                                "key": "packaging",
+                                "package_name": "packaging",
+                                "installed_version": "21.3",
+                                "required_version": "Any",
+                                "dependencies": [
+                                    {
+                                        "key": "pyparsing",
+                                        "package_name": "pyparsing",
+                                        "installed_version": "3.0.8",
+                                        "required_version": ">=2.0.2,!=3.0.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
                                 "key": "psutil",
                                 "package_name": "psutil",
                                 "installed_version": "5.9.0",
@@ -21068,14 +21173,14 @@
                                 "key": "tornado",
                                 "package_name": "tornado",
                                 "installed_version": "6.1",
-                                "required_version": ">=5.0,<7.0",
+                                "required_version": ">=6.1",
                                 "dependencies": []
                             },
                             {
                                 "key": "traitlets",
                                 "package_name": "traitlets",
                                 "installed_version": "5.1.1",
-                                "required_version": ">=5.1.0,<6.0",
+                                "required_version": ">=5.1.0",
                                 "dependencies": []
                             }
                         ]
@@ -21360,7 +21465,7 @@
                                     {
                                         "key": "ipykernel",
                                         "package_name": "ipykernel",
-                                        "installed_version": "6.10.0",
+                                        "installed_version": "6.13.0",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
@@ -21374,7 +21479,7 @@
                                                 "key": "debugpy",
                                                 "package_name": "debugpy",
                                                 "installed_version": "1.6.0",
-                                                "required_version": ">=1.0.0,<2.0",
+                                                "required_version": ">=1.0",
                                                 "dependencies": []
                                             },
                                             {
@@ -21535,7 +21640,7 @@
                                                 "key": "jupyter-client",
                                                 "package_name": "jupyter-client",
                                                 "installed_version": "7.2.2",
-                                                "required_version": "<8.0",
+                                                "required_version": ">=6.1.12",
                                                 "dependencies": [
                                                     {
                                                         "key": "entrypoints",
@@ -21608,7 +21713,7 @@
                                                 "key": "matplotlib-inline",
                                                 "package_name": "matplotlib-inline",
                                                 "installed_version": "0.1.3",
-                                                "required_version": ">=0.1.0,<0.2.0",
+                                                "required_version": ">=0.1",
                                                 "dependencies": [
                                                     {
                                                         "key": "traitlets",
@@ -21627,6 +21732,21 @@
                                                 "dependencies": []
                                             },
                                             {
+                                                "key": "packaging",
+                                                "package_name": "packaging",
+                                                "installed_version": "21.3",
+                                                "required_version": "Any",
+                                                "dependencies": [
+                                                    {
+                                                        "key": "pyparsing",
+                                                        "package_name": "pyparsing",
+                                                        "installed_version": "3.0.8",
+                                                        "required_version": ">=2.0.2,!=3.0.5",
+                                                        "dependencies": []
+                                                    }
+                                                ]
+                                            },
+                                            {
                                                 "key": "psutil",
                                                 "package_name": "psutil",
                                                 "installed_version": "5.9.0",
@@ -21637,14 +21757,14 @@
                                                 "key": "tornado",
                                                 "package_name": "tornado",
                                                 "installed_version": "6.1",
-                                                "required_version": ">=5.0,<7.0",
+                                                "required_version": ">=6.1",
                                                 "dependencies": []
                                             },
                                             {
                                                 "key": "traitlets",
                                                 "package_name": "traitlets",
                                                 "installed_version": "5.1.1",
-                                                "required_version": ">=5.1.0,<6.0",
+                                                "required_version": ">=5.1.0",
                                                 "dependencies": []
                                             }
                                         ]
@@ -22271,7 +22391,7 @@
                     {
                         "key": "ipykernel",
                         "package_name": "ipykernel",
-                        "installed_version": "6.10.0",
+                        "installed_version": "6.13.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -22285,7 +22405,7 @@
                                 "key": "debugpy",
                                 "package_name": "debugpy",
                                 "installed_version": "1.6.0",
-                                "required_version": ">=1.0.0,<2.0",
+                                "required_version": ">=1.0",
                                 "dependencies": []
                             },
                             {
@@ -22446,7 +22566,7 @@
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
                                 "installed_version": "7.2.2",
-                                "required_version": "<8.0",
+                                "required_version": ">=6.1.12",
                                 "dependencies": [
                                     {
                                         "key": "entrypoints",
@@ -22519,7 +22639,7 @@
                                 "key": "matplotlib-inline",
                                 "package_name": "matplotlib-inline",
                                 "installed_version": "0.1.3",
-                                "required_version": ">=0.1.0,<0.2.0",
+                                "required_version": ">=0.1",
                                 "dependencies": [
                                     {
                                         "key": "traitlets",
@@ -22538,6 +22658,21 @@
                                 "dependencies": []
                             },
                             {
+                                "key": "packaging",
+                                "package_name": "packaging",
+                                "installed_version": "21.3",
+                                "required_version": "Any",
+                                "dependencies": [
+                                    {
+                                        "key": "pyparsing",
+                                        "package_name": "pyparsing",
+                                        "installed_version": "3.0.8",
+                                        "required_version": ">=2.0.2,!=3.0.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
                                 "key": "psutil",
                                 "package_name": "psutil",
                                 "installed_version": "5.9.0",
@@ -22548,14 +22683,14 @@
                                 "key": "tornado",
                                 "package_name": "tornado",
                                 "installed_version": "6.1",
-                                "required_version": ">=5.0,<7.0",
+                                "required_version": ">=6.1",
                                 "dependencies": []
                             },
                             {
                                 "key": "traitlets",
                                 "package_name": "traitlets",
                                 "installed_version": "5.1.1",
-                                "required_version": ">=5.1.0,<6.0",
+                                "required_version": ">=5.1.0",
                                 "dependencies": []
                             }
                         ]
@@ -23225,7 +23360,7 @@
                     {
                         "key": "ipykernel",
                         "package_name": "ipykernel",
-                        "installed_version": "6.10.0",
+                        "installed_version": "6.13.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -23239,7 +23374,7 @@
                                 "key": "debugpy",
                                 "package_name": "debugpy",
                                 "installed_version": "1.6.0",
-                                "required_version": ">=1.0.0,<2.0",
+                                "required_version": ">=1.0",
                                 "dependencies": []
                             },
                             {
@@ -23400,7 +23535,7 @@
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
                                 "installed_version": "7.2.2",
-                                "required_version": "<8.0",
+                                "required_version": ">=6.1.12",
                                 "dependencies": [
                                     {
                                         "key": "entrypoints",
@@ -23473,7 +23608,7 @@
                                 "key": "matplotlib-inline",
                                 "package_name": "matplotlib-inline",
                                 "installed_version": "0.1.3",
-                                "required_version": ">=0.1.0,<0.2.0",
+                                "required_version": ">=0.1",
                                 "dependencies": [
                                     {
                                         "key": "traitlets",
@@ -23492,6 +23627,21 @@
                                 "dependencies": []
                             },
                             {
+                                "key": "packaging",
+                                "package_name": "packaging",
+                                "installed_version": "21.3",
+                                "required_version": "Any",
+                                "dependencies": [
+                                    {
+                                        "key": "pyparsing",
+                                        "package_name": "pyparsing",
+                                        "installed_version": "3.0.8",
+                                        "required_version": ">=2.0.2,!=3.0.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
                                 "key": "psutil",
                                 "package_name": "psutil",
                                 "installed_version": "5.9.0",
@@ -23502,14 +23652,14 @@
                                 "key": "tornado",
                                 "package_name": "tornado",
                                 "installed_version": "6.1",
-                                "required_version": ">=5.0,<7.0",
+                                "required_version": ">=6.1",
                                 "dependencies": []
                             },
                             {
                                 "key": "traitlets",
                                 "package_name": "traitlets",
                                 "installed_version": "5.1.1",
-                                "required_version": ">=5.1.0,<6.0",
+                                "required_version": ">=5.1.0",
                                 "dependencies": []
                             }
                         ]
@@ -24132,7 +24282,7 @@
                     {
                         "key": "ipykernel",
                         "package_name": "ipykernel",
-                        "installed_version": "6.10.0",
+                        "installed_version": "6.13.0",
                         "required_version": ">=4.1",
                         "dependencies": [
                             {
@@ -24146,7 +24296,7 @@
                                 "key": "debugpy",
                                 "package_name": "debugpy",
                                 "installed_version": "1.6.0",
-                                "required_version": ">=1.0.0,<2.0",
+                                "required_version": ">=1.0",
                                 "dependencies": []
                             },
                             {
@@ -24307,7 +24457,7 @@
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
                                 "installed_version": "7.2.2",
-                                "required_version": "<8.0",
+                                "required_version": ">=6.1.12",
                                 "dependencies": [
                                     {
                                         "key": "entrypoints",
@@ -24380,7 +24530,7 @@
                                 "key": "matplotlib-inline",
                                 "package_name": "matplotlib-inline",
                                 "installed_version": "0.1.3",
-                                "required_version": ">=0.1.0,<0.2.0",
+                                "required_version": ">=0.1",
                                 "dependencies": [
                                     {
                                         "key": "traitlets",
@@ -24399,6 +24549,21 @@
                                 "dependencies": []
                             },
                             {
+                                "key": "packaging",
+                                "package_name": "packaging",
+                                "installed_version": "21.3",
+                                "required_version": "Any",
+                                "dependencies": [
+                                    {
+                                        "key": "pyparsing",
+                                        "package_name": "pyparsing",
+                                        "installed_version": "3.0.8",
+                                        "required_version": ">=2.0.2,!=3.0.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
                                 "key": "psutil",
                                 "package_name": "psutil",
                                 "installed_version": "5.9.0",
@@ -24409,14 +24574,14 @@
                                 "key": "tornado",
                                 "package_name": "tornado",
                                 "installed_version": "6.1",
-                                "required_version": ">=5.0,<7.0",
+                                "required_version": ">=6.1",
                                 "dependencies": []
                             },
                             {
                                 "key": "traitlets",
                                 "package_name": "traitlets",
                                 "installed_version": "5.1.1",
-                                "required_version": ">=5.1.0,<6.0",
+                                "required_version": ">=5.1.0",
                                 "dependencies": []
                             }
                         ]
@@ -24652,7 +24817,7 @@
                     {
                         "key": "ipykernel",
                         "package_name": "ipykernel",
-                        "installed_version": "6.10.0",
+                        "installed_version": "6.13.0",
                         "required_version": ">=4.5.1",
                         "dependencies": [
                             {
@@ -24666,7 +24831,7 @@
                                 "key": "debugpy",
                                 "package_name": "debugpy",
                                 "installed_version": "1.6.0",
-                                "required_version": ">=1.0.0,<2.0",
+                                "required_version": ">=1.0",
                                 "dependencies": []
                             },
                             {
@@ -24827,7 +24992,7 @@
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
                                 "installed_version": "7.2.2",
-                                "required_version": "<8.0",
+                                "required_version": ">=6.1.12",
                                 "dependencies": [
                                     {
                                         "key": "entrypoints",
@@ -24900,7 +25065,7 @@
                                 "key": "matplotlib-inline",
                                 "package_name": "matplotlib-inline",
                                 "installed_version": "0.1.3",
-                                "required_version": ">=0.1.0,<0.2.0",
+                                "required_version": ">=0.1",
                                 "dependencies": [
                                     {
                                         "key": "traitlets",
@@ -24919,6 +25084,21 @@
                                 "dependencies": []
                             },
                             {
+                                "key": "packaging",
+                                "package_name": "packaging",
+                                "installed_version": "21.3",
+                                "required_version": "Any",
+                                "dependencies": [
+                                    {
+                                        "key": "pyparsing",
+                                        "package_name": "pyparsing",
+                                        "installed_version": "3.0.8",
+                                        "required_version": ">=2.0.2,!=3.0.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
                                 "key": "psutil",
                                 "package_name": "psutil",
                                 "installed_version": "5.9.0",
@@ -24929,14 +25109,14 @@
                                 "key": "tornado",
                                 "package_name": "tornado",
                                 "installed_version": "6.1",
-                                "required_version": ">=5.0,<7.0",
+                                "required_version": ">=6.1",
                                 "dependencies": []
                             },
                             {
                                 "key": "traitlets",
                                 "package_name": "traitlets",
                                 "installed_version": "5.1.1",
-                                "required_version": ">=5.1.0,<6.0",
+                                "required_version": ">=5.1.0",
                                 "dependencies": []
                             }
                         ]
@@ -25221,7 +25401,7 @@
                                     {
                                         "key": "ipykernel",
                                         "package_name": "ipykernel",
-                                        "installed_version": "6.10.0",
+                                        "installed_version": "6.13.0",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
@@ -25235,7 +25415,7 @@
                                                 "key": "debugpy",
                                                 "package_name": "debugpy",
                                                 "installed_version": "1.6.0",
-                                                "required_version": ">=1.0.0,<2.0",
+                                                "required_version": ">=1.0",
                                                 "dependencies": []
                                             },
                                             {
@@ -25396,7 +25576,7 @@
                                                 "key": "jupyter-client",
                                                 "package_name": "jupyter-client",
                                                 "installed_version": "7.2.2",
-                                                "required_version": "<8.0",
+                                                "required_version": ">=6.1.12",
                                                 "dependencies": [
                                                     {
                                                         "key": "entrypoints",
@@ -25469,7 +25649,7 @@
                                                 "key": "matplotlib-inline",
                                                 "package_name": "matplotlib-inline",
                                                 "installed_version": "0.1.3",
-                                                "required_version": ">=0.1.0,<0.2.0",
+                                                "required_version": ">=0.1",
                                                 "dependencies": [
                                                     {
                                                         "key": "traitlets",
@@ -25488,6 +25668,21 @@
                                                 "dependencies": []
                                             },
                                             {
+                                                "key": "packaging",
+                                                "package_name": "packaging",
+                                                "installed_version": "21.3",
+                                                "required_version": "Any",
+                                                "dependencies": [
+                                                    {
+                                                        "key": "pyparsing",
+                                                        "package_name": "pyparsing",
+                                                        "installed_version": "3.0.8",
+                                                        "required_version": ">=2.0.2,!=3.0.5",
+                                                        "dependencies": []
+                                                    }
+                                                ]
+                                            },
+                                            {
                                                 "key": "psutil",
                                                 "package_name": "psutil",
                                                 "installed_version": "5.9.0",
@@ -25498,14 +25693,14 @@
                                                 "key": "tornado",
                                                 "package_name": "tornado",
                                                 "installed_version": "6.1",
-                                                "required_version": ">=5.0,<7.0",
+                                                "required_version": ">=6.1",
                                                 "dependencies": []
                                             },
                                             {
                                                 "key": "traitlets",
                                                 "package_name": "traitlets",
                                                 "installed_version": "5.1.1",
-                                                "required_version": ">=5.1.0,<6.0",
+                                                "required_version": ">=5.1.0",
                                                 "dependencies": []
                                             }
                                         ]
@@ -26207,7 +26402,7 @@
             {
                 "key": "ipykernel",
                 "package_name": "ipykernel",
-                "installed_version": "6.10.0",
+                "installed_version": "6.13.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -26221,7 +26416,7 @@
                         "key": "debugpy",
                         "package_name": "debugpy",
                         "installed_version": "1.6.0",
-                        "required_version": ">=1.0.0,<2.0",
+                        "required_version": ">=1.0",
                         "dependencies": []
                     },
                     {
@@ -26382,7 +26577,7 @@
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
                         "installed_version": "7.2.2",
-                        "required_version": "<8.0",
+                        "required_version": ">=6.1.12",
                         "dependencies": [
                             {
                                 "key": "entrypoints",
@@ -26455,7 +26650,7 @@
                         "key": "matplotlib-inline",
                         "package_name": "matplotlib-inline",
                         "installed_version": "0.1.3",
-                        "required_version": ">=0.1.0,<0.2.0",
+                        "required_version": ">=0.1",
                         "dependencies": [
                             {
                                 "key": "traitlets",
@@ -26474,6 +26669,21 @@
                         "dependencies": []
                     },
                     {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "21.3",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "pyparsing",
+                                "package_name": "pyparsing",
+                                "installed_version": "3.0.8",
+                                "required_version": ">=2.0.2,!=3.0.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
                         "key": "psutil",
                         "package_name": "psutil",
                         "installed_version": "5.9.0",
@@ -26484,14 +26694,14 @@
                         "key": "tornado",
                         "package_name": "tornado",
                         "installed_version": "6.1",
-                        "required_version": ">=5.0,<7.0",
+                        "required_version": ">=6.1",
                         "dependencies": []
                     },
                     {
                         "key": "traitlets",
                         "package_name": "traitlets",
                         "installed_version": "5.1.1",
-                        "required_version": ">=5.1.0,<6.0",
+                        "required_version": ">=5.1.0",
                         "dependencies": []
                     }
                 ]
@@ -27029,7 +27239,7 @@
             {
                 "key": "ipykernel",
                 "package_name": "ipykernel",
-                "installed_version": "6.10.0",
+                "installed_version": "6.13.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -27043,7 +27253,7 @@
                         "key": "debugpy",
                         "package_name": "debugpy",
                         "installed_version": "1.6.0",
-                        "required_version": ">=1.0.0,<2.0",
+                        "required_version": ">=1.0",
                         "dependencies": []
                     },
                     {
@@ -27204,7 +27414,7 @@
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
                         "installed_version": "7.2.2",
-                        "required_version": "<8.0",
+                        "required_version": ">=6.1.12",
                         "dependencies": [
                             {
                                 "key": "entrypoints",
@@ -27277,7 +27487,7 @@
                         "key": "matplotlib-inline",
                         "package_name": "matplotlib-inline",
                         "installed_version": "0.1.3",
-                        "required_version": ">=0.1.0,<0.2.0",
+                        "required_version": ">=0.1",
                         "dependencies": [
                             {
                                 "key": "traitlets",
@@ -27296,6 +27506,21 @@
                         "dependencies": []
                     },
                     {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "21.3",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "pyparsing",
+                                "package_name": "pyparsing",
+                                "installed_version": "3.0.8",
+                                "required_version": ">=2.0.2,!=3.0.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
                         "key": "psutil",
                         "package_name": "psutil",
                         "installed_version": "5.9.0",
@@ -27306,14 +27531,14 @@
                         "key": "tornado",
                         "package_name": "tornado",
                         "installed_version": "6.1",
-                        "required_version": ">=5.0,<7.0",
+                        "required_version": ">=6.1",
                         "dependencies": []
                     },
                     {
                         "key": "traitlets",
                         "package_name": "traitlets",
                         "installed_version": "5.1.1",
-                        "required_version": ">=5.1.0,<6.0",
+                        "required_version": ">=5.1.0",
                         "dependencies": []
                     }
                 ]
@@ -31443,7 +31668,7 @@
                             {
                                 "key": "ipykernel",
                                 "package_name": "ipykernel",
-                                "installed_version": "6.10.0",
+                                "installed_version": "6.13.0",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
@@ -31457,7 +31682,7 @@
                                         "key": "debugpy",
                                         "package_name": "debugpy",
                                         "installed_version": "1.6.0",
-                                        "required_version": ">=1.0.0,<2.0",
+                                        "required_version": ">=1.0",
                                         "dependencies": []
                                     },
                                     {
@@ -31618,7 +31843,7 @@
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
                                         "installed_version": "7.2.2",
-                                        "required_version": "<8.0",
+                                        "required_version": ">=6.1.12",
                                         "dependencies": [
                                             {
                                                 "key": "entrypoints",
@@ -31691,7 +31916,7 @@
                                         "key": "matplotlib-inline",
                                         "package_name": "matplotlib-inline",
                                         "installed_version": "0.1.3",
-                                        "required_version": ">=0.1.0,<0.2.0",
+                                        "required_version": ">=0.1",
                                         "dependencies": [
                                             {
                                                 "key": "traitlets",
@@ -31710,6 +31935,21 @@
                                         "dependencies": []
                                     },
                                     {
+                                        "key": "packaging",
+                                        "package_name": "packaging",
+                                        "installed_version": "21.3",
+                                        "required_version": "Any",
+                                        "dependencies": [
+                                            {
+                                                "key": "pyparsing",
+                                                "package_name": "pyparsing",
+                                                "installed_version": "3.0.8",
+                                                "required_version": ">=2.0.2,!=3.0.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
                                         "key": "psutil",
                                         "package_name": "psutil",
                                         "installed_version": "5.9.0",
@@ -31720,14 +31960,14 @@
                                         "key": "tornado",
                                         "package_name": "tornado",
                                         "installed_version": "6.1",
-                                        "required_version": ">=5.0,<7.0",
+                                        "required_version": ">=6.1",
                                         "dependencies": []
                                     },
                                     {
                                         "key": "traitlets",
                                         "package_name": "traitlets",
                                         "installed_version": "5.1.1",
-                                        "required_version": ">=5.1.0,<6.0",
+                                        "required_version": ">=5.1.0",
                                         "dependencies": []
                                     }
                                 ]
@@ -37692,7 +37932,7 @@
                     {
                         "key": "ipykernel",
                         "package_name": "ipykernel",
-                        "installed_version": "6.10.0",
+                        "installed_version": "6.13.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -37706,7 +37946,7 @@
                                 "key": "debugpy",
                                 "package_name": "debugpy",
                                 "installed_version": "1.6.0",
-                                "required_version": ">=1.0.0,<2.0",
+                                "required_version": ">=1.0",
                                 "dependencies": []
                             },
                             {
@@ -37867,7 +38107,7 @@
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
                                 "installed_version": "7.2.2",
-                                "required_version": "<8.0",
+                                "required_version": ">=6.1.12",
                                 "dependencies": [
                                     {
                                         "key": "entrypoints",
@@ -37940,7 +38180,7 @@
                                 "key": "matplotlib-inline",
                                 "package_name": "matplotlib-inline",
                                 "installed_version": "0.1.3",
-                                "required_version": ">=0.1.0,<0.2.0",
+                                "required_version": ">=0.1",
                                 "dependencies": [
                                     {
                                         "key": "traitlets",
@@ -37959,6 +38199,21 @@
                                 "dependencies": []
                             },
                             {
+                                "key": "packaging",
+                                "package_name": "packaging",
+                                "installed_version": "21.3",
+                                "required_version": "Any",
+                                "dependencies": [
+                                    {
+                                        "key": "pyparsing",
+                                        "package_name": "pyparsing",
+                                        "installed_version": "3.0.8",
+                                        "required_version": ">=2.0.2,!=3.0.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
                                 "key": "psutil",
                                 "package_name": "psutil",
                                 "installed_version": "5.9.0",
@@ -37969,14 +38224,14 @@
                                 "key": "tornado",
                                 "package_name": "tornado",
                                 "installed_version": "6.1",
-                                "required_version": ">=5.0,<7.0",
+                                "required_version": ">=6.1",
                                 "dependencies": []
                             },
                             {
                                 "key": "traitlets",
                                 "package_name": "traitlets",
                                 "installed_version": "5.1.1",
-                                "required_version": ">=5.1.0,<6.0",
+                                "required_version": ">=5.1.0",
                                 "dependencies": []
                             }
                         ]
@@ -40912,7 +41167,7 @@
             {
                 "key": "ipykernel",
                 "package_name": "ipykernel",
-                "installed_version": "6.10.0",
+                "installed_version": "6.13.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -40926,7 +41181,7 @@
                         "key": "debugpy",
                         "package_name": "debugpy",
                         "installed_version": "1.6.0",
-                        "required_version": ">=1.0.0,<2.0",
+                        "required_version": ">=1.0",
                         "dependencies": []
                     },
                     {
@@ -41087,7 +41342,7 @@
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
                         "installed_version": "7.2.2",
-                        "required_version": "<8.0",
+                        "required_version": ">=6.1.12",
                         "dependencies": [
                             {
                                 "key": "entrypoints",
@@ -41160,7 +41415,7 @@
                         "key": "matplotlib-inline",
                         "package_name": "matplotlib-inline",
                         "installed_version": "0.1.3",
-                        "required_version": ">=0.1.0,<0.2.0",
+                        "required_version": ">=0.1",
                         "dependencies": [
                             {
                                 "key": "traitlets",
@@ -41179,6 +41434,21 @@
                         "dependencies": []
                     },
                     {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "21.3",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "pyparsing",
+                                "package_name": "pyparsing",
+                                "installed_version": "3.0.8",
+                                "required_version": ">=2.0.2,!=3.0.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
                         "key": "psutil",
                         "package_name": "psutil",
                         "installed_version": "5.9.0",
@@ -41189,14 +41459,14 @@
                         "key": "tornado",
                         "package_name": "tornado",
                         "installed_version": "6.1",
-                        "required_version": ">=5.0,<7.0",
+                        "required_version": ">=6.1",
                         "dependencies": []
                     },
                     {
                         "key": "traitlets",
                         "package_name": "traitlets",
                         "installed_version": "5.1.1",
-                        "required_version": ">=5.1.0,<6.0",
+                        "required_version": ">=5.1.0",
                         "dependencies": []
                     }
                 ]
@@ -47847,7 +48117,7 @@
                             {
                                 "key": "ipykernel",
                                 "package_name": "ipykernel",
-                                "installed_version": "6.10.0",
+                                "installed_version": "6.13.0",
                                 "required_version": ">=4.5.1",
                                 "dependencies": [
                                     {
@@ -47861,7 +48131,7 @@
                                         "key": "debugpy",
                                         "package_name": "debugpy",
                                         "installed_version": "1.6.0",
-                                        "required_version": ">=1.0.0,<2.0",
+                                        "required_version": ">=1.0",
                                         "dependencies": []
                                     },
                                     {
@@ -48022,7 +48292,7 @@
                                         "key": "jupyter-client",
                                         "package_name": "jupyter-client",
                                         "installed_version": "7.2.2",
-                                        "required_version": "<8.0",
+                                        "required_version": ">=6.1.12",
                                         "dependencies": [
                                             {
                                                 "key": "entrypoints",
@@ -48095,7 +48365,7 @@
                                         "key": "matplotlib-inline",
                                         "package_name": "matplotlib-inline",
                                         "installed_version": "0.1.3",
-                                        "required_version": ">=0.1.0,<0.2.0",
+                                        "required_version": ">=0.1",
                                         "dependencies": [
                                             {
                                                 "key": "traitlets",
@@ -48114,6 +48384,21 @@
                                         "dependencies": []
                                     },
                                     {
+                                        "key": "packaging",
+                                        "package_name": "packaging",
+                                        "installed_version": "21.3",
+                                        "required_version": "Any",
+                                        "dependencies": [
+                                            {
+                                                "key": "pyparsing",
+                                                "package_name": "pyparsing",
+                                                "installed_version": "3.0.8",
+                                                "required_version": ">=2.0.2,!=3.0.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
                                         "key": "psutil",
                                         "package_name": "psutil",
                                         "installed_version": "5.9.0",
@@ -48124,14 +48409,14 @@
                                         "key": "tornado",
                                         "package_name": "tornado",
                                         "installed_version": "6.1",
-                                        "required_version": ">=5.0,<7.0",
+                                        "required_version": ">=6.1",
                                         "dependencies": []
                                     },
                                     {
                                         "key": "traitlets",
                                         "package_name": "traitlets",
                                         "installed_version": "5.1.1",
-                                        "required_version": ">=5.1.0,<6.0",
+                                        "required_version": ">=5.1.0",
                                         "dependencies": []
                                     }
                                 ]
@@ -48416,7 +48701,7 @@
                                             {
                                                 "key": "ipykernel",
                                                 "package_name": "ipykernel",
-                                                "installed_version": "6.10.0",
+                                                "installed_version": "6.13.0",
                                                 "required_version": "Any",
                                                 "dependencies": [
                                                     {
@@ -48430,7 +48715,7 @@
                                                         "key": "debugpy",
                                                         "package_name": "debugpy",
                                                         "installed_version": "1.6.0",
-                                                        "required_version": ">=1.0.0,<2.0",
+                                                        "required_version": ">=1.0",
                                                         "dependencies": []
                                                     },
                                                     {
@@ -48591,7 +48876,7 @@
                                                         "key": "jupyter-client",
                                                         "package_name": "jupyter-client",
                                                         "installed_version": "7.2.2",
-                                                        "required_version": "<8.0",
+                                                        "required_version": ">=6.1.12",
                                                         "dependencies": [
                                                             {
                                                                 "key": "entrypoints",
@@ -48664,7 +48949,7 @@
                                                         "key": "matplotlib-inline",
                                                         "package_name": "matplotlib-inline",
                                                         "installed_version": "0.1.3",
-                                                        "required_version": ">=0.1.0,<0.2.0",
+                                                        "required_version": ">=0.1",
                                                         "dependencies": [
                                                             {
                                                                 "key": "traitlets",
@@ -48683,6 +48968,21 @@
                                                         "dependencies": []
                                                     },
                                                     {
+                                                        "key": "packaging",
+                                                        "package_name": "packaging",
+                                                        "installed_version": "21.3",
+                                                        "required_version": "Any",
+                                                        "dependencies": [
+                                                            {
+                                                                "key": "pyparsing",
+                                                                "package_name": "pyparsing",
+                                                                "installed_version": "3.0.8",
+                                                                "required_version": ">=2.0.2,!=3.0.5",
+                                                                "dependencies": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
                                                         "key": "psutil",
                                                         "package_name": "psutil",
                                                         "installed_version": "5.9.0",
@@ -48693,14 +48993,14 @@
                                                         "key": "tornado",
                                                         "package_name": "tornado",
                                                         "installed_version": "6.1",
-                                                        "required_version": ">=5.0,<7.0",
+                                                        "required_version": ">=6.1",
                                                         "dependencies": []
                                                     },
                                                     {
                                                         "key": "traitlets",
                                                         "package_name": "traitlets",
                                                         "installed_version": "5.1.1",
-                                                        "required_version": ">=5.1.0,<6.0",
+                                                        "required_version": ">=5.1.0",
                                                         "dependencies": []
                                                     }
                                                 ]
@@ -49696,7 +49996,7 @@
                     {
                         "key": "ipykernel",
                         "package_name": "ipykernel",
-                        "installed_version": "6.10.0",
+                        "installed_version": "6.13.0",
                         "required_version": ">=4.5.1",
                         "dependencies": [
                             {
@@ -49710,7 +50010,7 @@
                                 "key": "debugpy",
                                 "package_name": "debugpy",
                                 "installed_version": "1.6.0",
-                                "required_version": ">=1.0.0,<2.0",
+                                "required_version": ">=1.0",
                                 "dependencies": []
                             },
                             {
@@ -49871,7 +50171,7 @@
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
                                 "installed_version": "7.2.2",
-                                "required_version": "<8.0",
+                                "required_version": ">=6.1.12",
                                 "dependencies": [
                                     {
                                         "key": "entrypoints",
@@ -49944,7 +50244,7 @@
                                 "key": "matplotlib-inline",
                                 "package_name": "matplotlib-inline",
                                 "installed_version": "0.1.3",
-                                "required_version": ">=0.1.0,<0.2.0",
+                                "required_version": ">=0.1",
                                 "dependencies": [
                                     {
                                         "key": "traitlets",
@@ -49963,6 +50263,21 @@
                                 "dependencies": []
                             },
                             {
+                                "key": "packaging",
+                                "package_name": "packaging",
+                                "installed_version": "21.3",
+                                "required_version": "Any",
+                                "dependencies": [
+                                    {
+                                        "key": "pyparsing",
+                                        "package_name": "pyparsing",
+                                        "installed_version": "3.0.8",
+                                        "required_version": ">=2.0.2,!=3.0.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
                                 "key": "psutil",
                                 "package_name": "psutil",
                                 "installed_version": "5.9.0",
@@ -49973,14 +50288,14 @@
                                 "key": "tornado",
                                 "package_name": "tornado",
                                 "installed_version": "6.1",
-                                "required_version": ">=5.0,<7.0",
+                                "required_version": ">=6.1",
                                 "dependencies": []
                             },
                             {
                                 "key": "traitlets",
                                 "package_name": "traitlets",
                                 "installed_version": "5.1.1",
-                                "required_version": ">=5.1.0,<6.0",
+                                "required_version": ">=5.1.0",
                                 "dependencies": []
                             }
                         ]
@@ -50265,7 +50580,7 @@
                                     {
                                         "key": "ipykernel",
                                         "package_name": "ipykernel",
-                                        "installed_version": "6.10.0",
+                                        "installed_version": "6.13.0",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
@@ -50279,7 +50594,7 @@
                                                 "key": "debugpy",
                                                 "package_name": "debugpy",
                                                 "installed_version": "1.6.0",
-                                                "required_version": ">=1.0.0,<2.0",
+                                                "required_version": ">=1.0",
                                                 "dependencies": []
                                             },
                                             {
@@ -50440,7 +50755,7 @@
                                                 "key": "jupyter-client",
                                                 "package_name": "jupyter-client",
                                                 "installed_version": "7.2.2",
-                                                "required_version": "<8.0",
+                                                "required_version": ">=6.1.12",
                                                 "dependencies": [
                                                     {
                                                         "key": "entrypoints",
@@ -50513,7 +50828,7 @@
                                                 "key": "matplotlib-inline",
                                                 "package_name": "matplotlib-inline",
                                                 "installed_version": "0.1.3",
-                                                "required_version": ">=0.1.0,<0.2.0",
+                                                "required_version": ">=0.1",
                                                 "dependencies": [
                                                     {
                                                         "key": "traitlets",
@@ -50532,6 +50847,21 @@
                                                 "dependencies": []
                                             },
                                             {
+                                                "key": "packaging",
+                                                "package_name": "packaging",
+                                                "installed_version": "21.3",
+                                                "required_version": "Any",
+                                                "dependencies": [
+                                                    {
+                                                        "key": "pyparsing",
+                                                        "package_name": "pyparsing",
+                                                        "installed_version": "3.0.8",
+                                                        "required_version": ">=2.0.2,!=3.0.5",
+                                                        "dependencies": []
+                                                    }
+                                                ]
+                                            },
+                                            {
                                                 "key": "psutil",
                                                 "package_name": "psutil",
                                                 "installed_version": "5.9.0",
@@ -50542,14 +50872,14 @@
                                                 "key": "tornado",
                                                 "package_name": "tornado",
                                                 "installed_version": "6.1",
-                                                "required_version": ">=5.0,<7.0",
+                                                "required_version": ">=6.1",
                                                 "dependencies": []
                                             },
                                             {
                                                 "key": "traitlets",
                                                 "package_name": "traitlets",
                                                 "installed_version": "5.1.1",
-                                                "required_version": ">=5.1.0,<6.0",
+                                                "required_version": ">=5.1.0",
                                                 "dependencies": []
                                             }
                                         ]
@@ -55303,7 +55633,7 @@
             {
                 "key": "ipykernel",
                 "package_name": "ipykernel",
-                "installed_version": "6.10.0",
+                "installed_version": "6.13.0",
                 "required_version": ">=5.1.2",
                 "dependencies": [
                     {
@@ -55317,7 +55647,7 @@
                         "key": "debugpy",
                         "package_name": "debugpy",
                         "installed_version": "1.6.0",
-                        "required_version": ">=1.0.0,<2.0",
+                        "required_version": ">=1.0",
                         "dependencies": []
                     },
                     {
@@ -55478,7 +55808,7 @@
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
                         "installed_version": "7.2.2",
-                        "required_version": "<8.0",
+                        "required_version": ">=6.1.12",
                         "dependencies": [
                             {
                                 "key": "entrypoints",
@@ -55551,7 +55881,7 @@
                         "key": "matplotlib-inline",
                         "package_name": "matplotlib-inline",
                         "installed_version": "0.1.3",
-                        "required_version": ">=0.1.0,<0.2.0",
+                        "required_version": ">=0.1",
                         "dependencies": [
                             {
                                 "key": "traitlets",
@@ -55570,6 +55900,21 @@
                         "dependencies": []
                     },
                     {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "21.3",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "pyparsing",
+                                "package_name": "pyparsing",
+                                "installed_version": "3.0.8",
+                                "required_version": ">=2.0.2,!=3.0.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
                         "key": "psutil",
                         "package_name": "psutil",
                         "installed_version": "5.9.0",
@@ -55580,14 +55925,14 @@
                         "key": "tornado",
                         "package_name": "tornado",
                         "installed_version": "6.1",
-                        "required_version": ">=5.0,<7.0",
+                        "required_version": ">=6.1",
                         "dependencies": []
                     },
                     {
                         "key": "traitlets",
                         "package_name": "traitlets",
                         "installed_version": "5.1.1",
-                        "required_version": ">=5.1.0,<6.0",
+                        "required_version": ">=5.1.0",
                         "dependencies": []
                     }
                 ]
@@ -55601,7 +55946,7 @@
                     {
                         "key": "ipykernel",
                         "package_name": "ipykernel",
-                        "installed_version": "6.10.0",
+                        "installed_version": "6.13.0",
                         "required_version": ">=4.5.1",
                         "dependencies": [
                             {
@@ -55615,7 +55960,7 @@
                                 "key": "debugpy",
                                 "package_name": "debugpy",
                                 "installed_version": "1.6.0",
-                                "required_version": ">=1.0.0,<2.0",
+                                "required_version": ">=1.0",
                                 "dependencies": []
                             },
                             {
@@ -55776,7 +56121,7 @@
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
                                 "installed_version": "7.2.2",
-                                "required_version": "<8.0",
+                                "required_version": ">=6.1.12",
                                 "dependencies": [
                                     {
                                         "key": "entrypoints",
@@ -55849,7 +56194,7 @@
                                 "key": "matplotlib-inline",
                                 "package_name": "matplotlib-inline",
                                 "installed_version": "0.1.3",
-                                "required_version": ">=0.1.0,<0.2.0",
+                                "required_version": ">=0.1",
                                 "dependencies": [
                                     {
                                         "key": "traitlets",
@@ -55868,6 +56213,21 @@
                                 "dependencies": []
                             },
                             {
+                                "key": "packaging",
+                                "package_name": "packaging",
+                                "installed_version": "21.3",
+                                "required_version": "Any",
+                                "dependencies": [
+                                    {
+                                        "key": "pyparsing",
+                                        "package_name": "pyparsing",
+                                        "installed_version": "3.0.8",
+                                        "required_version": ">=2.0.2,!=3.0.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
                                 "key": "psutil",
                                 "package_name": "psutil",
                                 "installed_version": "5.9.0",
@@ -55878,14 +56238,14 @@
                                 "key": "tornado",
                                 "package_name": "tornado",
                                 "installed_version": "6.1",
-                                "required_version": ">=5.0,<7.0",
+                                "required_version": ">=6.1",
                                 "dependencies": []
                             },
                             {
                                 "key": "traitlets",
                                 "package_name": "traitlets",
                                 "installed_version": "5.1.1",
-                                "required_version": ">=5.1.0,<6.0",
+                                "required_version": ">=5.1.0",
                                 "dependencies": []
                             }
                         ]
@@ -56170,7 +56530,7 @@
                                     {
                                         "key": "ipykernel",
                                         "package_name": "ipykernel",
-                                        "installed_version": "6.10.0",
+                                        "installed_version": "6.13.0",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
@@ -56184,7 +56544,7 @@
                                                 "key": "debugpy",
                                                 "package_name": "debugpy",
                                                 "installed_version": "1.6.0",
-                                                "required_version": ">=1.0.0,<2.0",
+                                                "required_version": ">=1.0",
                                                 "dependencies": []
                                             },
                                             {
@@ -56345,7 +56705,7 @@
                                                 "key": "jupyter-client",
                                                 "package_name": "jupyter-client",
                                                 "installed_version": "7.2.2",
-                                                "required_version": "<8.0",
+                                                "required_version": ">=6.1.12",
                                                 "dependencies": [
                                                     {
                                                         "key": "entrypoints",
@@ -56418,7 +56778,7 @@
                                                 "key": "matplotlib-inline",
                                                 "package_name": "matplotlib-inline",
                                                 "installed_version": "0.1.3",
-                                                "required_version": ">=0.1.0,<0.2.0",
+                                                "required_version": ">=0.1",
                                                 "dependencies": [
                                                     {
                                                         "key": "traitlets",
@@ -56437,6 +56797,21 @@
                                                 "dependencies": []
                                             },
                                             {
+                                                "key": "packaging",
+                                                "package_name": "packaging",
+                                                "installed_version": "21.3",
+                                                "required_version": "Any",
+                                                "dependencies": [
+                                                    {
+                                                        "key": "pyparsing",
+                                                        "package_name": "pyparsing",
+                                                        "installed_version": "3.0.8",
+                                                        "required_version": ">=2.0.2,!=3.0.5",
+                                                        "dependencies": []
+                                                    }
+                                                ]
+                                            },
+                                            {
                                                 "key": "psutil",
                                                 "package_name": "psutil",
                                                 "installed_version": "5.9.0",
@@ -56447,14 +56822,14 @@
                                                 "key": "tornado",
                                                 "package_name": "tornado",
                                                 "installed_version": "6.1",
-                                                "required_version": ">=5.0,<7.0",
+                                                "required_version": ">=6.1",
                                                 "dependencies": []
                                             },
                                             {
                                                 "key": "traitlets",
                                                 "package_name": "traitlets",
                                                 "installed_version": "5.1.1",
-                                                "required_version": ">=5.1.0,<6.0",
+                                                "required_version": ">=5.1.0",
                                                 "dependencies": []
                                             }
                                         ]
@@ -60134,7 +60509,7 @@
             {
                 "key": "ipykernel",
                 "package_name": "ipykernel",
-                "installed_version": "6.10.0",
+                "installed_version": "6.13.0",
                 "required_version": ">=4.1",
                 "dependencies": [
                     {
@@ -60148,7 +60523,7 @@
                         "key": "debugpy",
                         "package_name": "debugpy",
                         "installed_version": "1.6.0",
-                        "required_version": ">=1.0.0,<2.0",
+                        "required_version": ">=1.0",
                         "dependencies": []
                     },
                     {
@@ -60309,7 +60684,7 @@
                         "key": "jupyter-client",
                         "package_name": "jupyter-client",
                         "installed_version": "7.2.2",
-                        "required_version": "<8.0",
+                        "required_version": ">=6.1.12",
                         "dependencies": [
                             {
                                 "key": "entrypoints",
@@ -60382,7 +60757,7 @@
                         "key": "matplotlib-inline",
                         "package_name": "matplotlib-inline",
                         "installed_version": "0.1.3",
-                        "required_version": ">=0.1.0,<0.2.0",
+                        "required_version": ">=0.1",
                         "dependencies": [
                             {
                                 "key": "traitlets",
@@ -60401,6 +60776,21 @@
                         "dependencies": []
                     },
                     {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "21.3",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "pyparsing",
+                                "package_name": "pyparsing",
+                                "installed_version": "3.0.8",
+                                "required_version": ">=2.0.2,!=3.0.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
                         "key": "psutil",
                         "package_name": "psutil",
                         "installed_version": "5.9.0",
@@ -60411,14 +60801,14 @@
                         "key": "tornado",
                         "package_name": "tornado",
                         "installed_version": "6.1",
-                        "required_version": ">=5.0,<7.0",
+                        "required_version": ">=6.1",
                         "dependencies": []
                     },
                     {
                         "key": "traitlets",
                         "package_name": "traitlets",
                         "installed_version": "5.1.1",
-                        "required_version": ">=5.1.0,<6.0",
+                        "required_version": ">=5.1.0",
                         "dependencies": []
                     }
                 ]
@@ -74434,7 +74824,7 @@
                     {
                         "key": "ipykernel",
                         "package_name": "ipykernel",
-                        "installed_version": "6.10.0",
+                        "installed_version": "6.13.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -74448,7 +74838,7 @@
                                 "key": "debugpy",
                                 "package_name": "debugpy",
                                 "installed_version": "1.6.0",
-                                "required_version": ">=1.0.0,<2.0",
+                                "required_version": ">=1.0",
                                 "dependencies": []
                             },
                             {
@@ -74609,7 +74999,7 @@
                                 "key": "jupyter-client",
                                 "package_name": "jupyter-client",
                                 "installed_version": "7.2.2",
-                                "required_version": "<8.0",
+                                "required_version": ">=6.1.12",
                                 "dependencies": [
                                     {
                                         "key": "entrypoints",
@@ -74682,7 +75072,7 @@
                                 "key": "matplotlib-inline",
                                 "package_name": "matplotlib-inline",
                                 "installed_version": "0.1.3",
-                                "required_version": ">=0.1.0,<0.2.0",
+                                "required_version": ">=0.1",
                                 "dependencies": [
                                     {
                                         "key": "traitlets",
@@ -74701,6 +75091,21 @@
                                 "dependencies": []
                             },
                             {
+                                "key": "packaging",
+                                "package_name": "packaging",
+                                "installed_version": "21.3",
+                                "required_version": "Any",
+                                "dependencies": [
+                                    {
+                                        "key": "pyparsing",
+                                        "package_name": "pyparsing",
+                                        "installed_version": "3.0.8",
+                                        "required_version": ">=2.0.2,!=3.0.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
                                 "key": "psutil",
                                 "package_name": "psutil",
                                 "installed_version": "5.9.0",
@@ -74711,14 +75116,14 @@
                                 "key": "tornado",
                                 "package_name": "tornado",
                                 "installed_version": "6.1",
-                                "required_version": ">=5.0,<7.0",
+                                "required_version": ">=6.1",
                                 "dependencies": []
                             },
                             {
                                 "key": "traitlets",
                                 "package_name": "traitlets",
                                 "installed_version": "5.1.1",
-                                "required_version": ">=5.1.0,<6.0",
+                                "required_version": ">=5.1.0",
                                 "dependencies": []
                             }
                         ]

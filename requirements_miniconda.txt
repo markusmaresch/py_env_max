@@ -112,8 +112,6 @@ ray==1.10.0 # LEVEL_04 # LOCKED # Ray provides a simple, universal API for build
 #
 pyro-ppl==1.8.0 # LEVEL_03 # LOCKED # A Python library for probabilistic modeling and inference
 #
-grpcio-status==1.44.0 # LEVEL_03 # LOCKED # Status proto mapping for gRPC
-#
 jupyter-packaging==0.11.1 # LEVEL_04 # LOCKED # Jupyter Packaging Utilities
 #
 tbb==2021.5.0 # LEVEL_01 # LOCKED # ONLY_OSX # Intel® oneAPI Threading Building Blocks (oneTBB)
@@ -126,9 +124,7 @@ torchaudio==0.10.2 # LEVEL_03 # An audio package for PyTorch
 torchvision==0.11.3 # LEVEL_03 # image and video datasets and models for torch deep learning
 torch==1.10.2 # LEVEL_02 # Tensors and Dynamic neural networks in Python with strong GPU acceleration
 #
-click==8.0.4 # LEVEL_01 # LOCKED # Composable command line interface toolkit
-#
-ipykernel==6.10.0 # LEVEL_05 # LOCKED # IPython Kernel for Jupyter
+click==8.0.4 # LEVEL_01 # LOCKED # spacy 3.2.4 requires click<8.1.0 # Composable command line interface toolkit
 #
 Jinja2==3.0.3 # LEVEL_02 # LOCKED # recommenders 1.1.0 requires jinja2<3.1,>=2 # template engine # A very fast and expressive template engine
 #
@@ -139,6 +135,8 @@ responses==0.18.0 # LEVEL_03 # LOCKED # datasets 2.0.0 requires responses<0.19 #
 #
 # Former LOCKED .. now freed ;-)
 #
+ipykernel==6.13.0 # LEVEL_05 # IPython Kernel for Jupyter
+grpcio-status==1.44.0 # LEVEL_03 # Status proto mapping for gRPC
 gast==0.5.3 # LEVEL_01 # Python AST that abstracts the underlying Python version
 tokenizers==0.12.1 # LEVEL_01 # Fast and Customizable Tokenizers
 absl-py==1.0.0 # LEVEL_02 # Abseil Python Common Libraries, see https://github.com/abseil/abseil-py

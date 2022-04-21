@@ -2949,13 +2949,13 @@ Requires: certifi python-dateutil retrying six urllib3
 Required-by: 
 ---
 Name: ipykernel
-Version: 6.10.0
+Version: 6.13.0
 Summary: IPython Kernel for Jupyter
 Home-page: https://ipython.org
 Author: IPython Development Team
 Author-email: ipython-dev@scipy.org
 License: BSD
-Requires: appnope debugpy ipython jupyter-client matplotlib-inline nest-asyncio psutil tornado traitlets
+Requires: appnope debugpy ipython jupyter-client matplotlib-inline nest-asyncio packaging psutil tornado traitlets
 Required-by: ipywidgets jupyter jupyter-console jupyter-dash notebook pydeck qtconsole
 ---
 Name: ipython
@@ -4522,7 +4522,7 @@ Author: Donald Stufft and individual contributors
 Author-email: donald@stufft.io
 License: BSD-2-Clause or Apache-2.0
 Requires: pyparsing
-Required-by: QtPy Sphinx bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery holoviews huggingface-hub jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nbconvert nibabel numexpr pandera pipx pydata-sphinx-theme pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
+Required-by: QtPy Sphinx bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery holoviews huggingface-hub ipykernel jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nbconvert nibabel numexpr pandera pipx pydata-sphinx-theme pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
 ---
 Name: pandas
 Version: 1.4.2
