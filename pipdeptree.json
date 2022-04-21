@@ -37,7 +37,7 @@
             {
                 "key": "babel",
                 "package_name": "Babel",
-                "installed_version": "2.9.1",
+                "installed_version": "2.10.1",
                 "required_version": ">=2.0",
                 "dependencies": [
                     {
@@ -1561,8 +1561,8 @@
     {
         "key": "babel",
         "package_name": "Babel",
-        "installed_version": "2.9.1",
-        "required_version": "2.9.1",
+        "installed_version": "2.10.1",
+        "required_version": "2.10.1",
         "dependencies": [
             {
                 "key": "pytz",
@@ -1861,7 +1861,7 @@
             {
                 "key": "transformers",
                 "package_name": "transformers",
-                "installed_version": "4.17.0",
+                "installed_version": "4.18.0",
                 "required_version": ">=2.0",
                 "dependencies": [
                     {
@@ -1874,7 +1874,7 @@
                     {
                         "key": "huggingface-hub",
                         "package_name": "huggingface-hub",
-                        "installed_version": "0.5.0",
+                        "installed_version": "0.5.1",
                         "required_version": ">=0.1.0,<1.0",
                         "dependencies": [
                             {
@@ -2077,7 +2077,7 @@
                         "key": "tokenizers",
                         "package_name": "tokenizers",
                         "installed_version": "0.11.6",
-                        "required_version": ">=0.11.1,!=0.11.3",
+                        "required_version": ">=0.11.1,<0.13,!=0.11.3",
                         "dependencies": []
                     },
                     {
@@ -2143,7 +2143,7 @@
             {
                 "key": "platformdirs",
                 "package_name": "platformdirs",
-                "installed_version": "2.5.1",
+                "installed_version": "2.5.2",
                 "required_version": ">=2",
                 "dependencies": []
             },
@@ -2718,8 +2718,8 @@
     {
         "key": "catboost",
         "package_name": "catboost",
-        "installed_version": "1.0.4",
-        "required_version": "1.0.4",
+        "installed_version": "1.0.5",
+        "required_version": "1.0.5",
         "dependencies": [
             {
                 "key": "graphviz",
@@ -7759,8 +7759,8 @@
     {
         "key": "dask",
         "package_name": "dask",
-        "installed_version": "2022.4.0",
-        "required_version": "2022.4.0",
+        "installed_version": "2022.4.1",
+        "required_version": "2022.4.1",
         "dependencies": [
             {
                 "key": "cloudpickle",
@@ -7845,7 +7845,7 @@
             {
                 "key": "dask",
                 "package_name": "dask",
-                "installed_version": "2022.4.0",
+                "installed_version": "2022.4.1",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -8000,7 +8000,7 @@
             {
                 "key": "dask",
                 "package_name": "dask",
-                "installed_version": "2022.4.0",
+                "installed_version": "2022.4.1",
                 "required_version": ">=2.4.0",
                 "dependencies": [
                     {
@@ -8086,7 +8086,7 @@
                     {
                         "key": "dask",
                         "package_name": "dask",
-                        "installed_version": "2022.4.0",
+                        "installed_version": "2022.4.1",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -8235,7 +8235,7 @@
             {
                 "key": "distributed",
                 "package_name": "distributed",
-                "installed_version": "2022.4.0",
+                "installed_version": "2022.4.1",
                 "required_version": ">=2.4.0",
                 "dependencies": [
                     {
@@ -8255,8 +8255,8 @@
                     {
                         "key": "dask",
                         "package_name": "dask",
-                        "installed_version": "2022.4.0",
-                        "required_version": "==2022.04.0",
+                        "installed_version": "2022.4.1",
+                        "required_version": "==2022.04.1",
                         "dependencies": [
                             {
                                 "key": "cloudpickle",
@@ -8674,8 +8674,8 @@
     {
         "key": "datasets",
         "package_name": "datasets",
-        "installed_version": "2.0.0",
-        "required_version": "2.0.0",
+        "installed_version": "2.1.0",
+        "required_version": "2.1.0",
         "dependencies": [
             {
                 "key": "aiohttp",
@@ -8774,7 +8774,7 @@
             {
                 "key": "huggingface-hub",
                 "package_name": "huggingface-hub",
-                "installed_version": "0.5.0",
+                "installed_version": "0.5.1",
                 "required_version": ">=0.1.0,<1.0.0",
                 "dependencies": [
                     {
@@ -9089,7 +9089,7 @@
             {
                 "key": "dask",
                 "package_name": "dask",
-                "installed_version": "2022.4.0",
+                "installed_version": "2022.4.1",
                 "required_version": ">=0.18.0",
                 "dependencies": [
                     {
@@ -10447,8 +10447,8 @@
     {
         "key": "distributed",
         "package_name": "distributed",
-        "installed_version": "2022.4.0",
-        "required_version": "2022.4.0",
+        "installed_version": "2022.4.1",
+        "required_version": "2022.4.1",
         "dependencies": [
             {
                 "key": "click",
@@ -10467,8 +10467,8 @@
             {
                 "key": "dask",
                 "package_name": "dask",
-                "installed_version": "2022.4.0",
-                "required_version": "==2022.04.0",
+                "installed_version": "2022.4.1",
+                "required_version": "==2022.04.1",
                 "dependencies": [
                     {
                         "key": "cloudpickle",
@@ -11273,6 +11273,13 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
+                        "required_version": ">=1.14.5",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "1.20.0",
                         "required_version": ">=1.17.3",
                         "dependencies": []
                     },
@@ -11281,13 +11288,6 @@
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
                         "required_version": ">=1.19.3",
-                        "dependencies": []
-                    },
-                    {
-                        "key": "numpy",
-                        "package_name": "numpy",
-                        "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
                         "dependencies": []
                     }
                 ]
@@ -11668,7 +11668,7 @@
             {
                 "key": "fastcore",
                 "package_name": "fastcore",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=1.3.27,<1.5",
                 "dependencies": [
                     {
@@ -11704,7 +11704,7 @@
                     {
                         "key": "fastcore",
                         "package_name": "fastcore",
-                        "installed_version": "1.4.1",
+                        "installed_version": "1.4.2",
                         "required_version": ">=1.3.26",
                         "dependencies": [
                             {
@@ -12515,8 +12515,8 @@
     {
         "key": "fastcore",
         "package_name": "fastcore",
-        "installed_version": "1.4.1",
-        "required_version": "1.4.1",
+        "installed_version": "1.4.2",
+        "required_version": "1.4.2",
         "dependencies": [
             {
                 "key": "packaging",
@@ -12551,7 +12551,7 @@
             {
                 "key": "fastcore",
                 "package_name": "fastcore",
-                "installed_version": "1.4.1",
+                "installed_version": "1.4.2",
                 "required_version": ">=1.3.26",
                 "dependencies": [
                     {
@@ -16925,8 +16925,8 @@
     {
         "key": "h2o",
         "package_name": "h2o",
-        "installed_version": "3.36.0.4",
-        "required_version": "3.36.0.4",
+        "installed_version": "3.36.1.1",
+        "required_version": "3.36.1.1",
         "dependencies": [
             {
                 "key": "future",
@@ -17622,8 +17622,8 @@
     {
         "key": "huggingface-hub",
         "package_name": "huggingface-hub",
-        "installed_version": "0.5.0",
-        "required_version": "0.5.0",
+        "installed_version": "0.5.1",
+        "required_version": "0.5.1",
         "dependencies": [
             {
                 "key": "filelock",
@@ -20194,8 +20194,8 @@
     {
         "key": "jax",
         "package_name": "jax",
-        "installed_version": "0.3.4",
-        "required_version": "0.3.4",
+        "installed_version": "0.3.7",
+        "required_version": "0.3.7",
         "dependencies": [
             {
                 "key": "absl-py",
@@ -29928,7 +29928,7 @@
                     {
                         "key": "babel",
                         "package_name": "babel",
-                        "installed_version": "2.9.1",
+                        "installed_version": "2.10.1",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -33074,7 +33074,7 @@
             {
                 "key": "babel",
                 "package_name": "babel",
-                "installed_version": "2.9.1",
+                "installed_version": "2.10.1",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -34395,8 +34395,8 @@
     {
         "key": "kmodes",
         "package_name": "kmodes",
-        "installed_version": "0.12.0",
-        "required_version": "0.12.0",
+        "installed_version": "0.12.1",
+        "required_version": "0.12.1",
         "dependencies": [
             {
                 "key": "joblib",
@@ -35831,8 +35831,8 @@
     {
         "key": "mlflow",
         "package_name": "mlflow",
-        "installed_version": "1.24.0",
-        "required_version": "1.24.0",
+        "installed_version": "1.25.1",
+        "required_version": "1.25.1",
         "dependencies": [
             {
                 "key": "alembic",
@@ -40347,7 +40347,7 @@
                     {
                         "key": "babel",
                         "package_name": "babel",
-                        "installed_version": "2.9.1",
+                        "installed_version": "2.10.1",
                         "required_version": ">=1.3",
                         "dependencies": [
                             {
@@ -42988,8 +42988,8 @@
     {
         "key": "openai",
         "package_name": "openai",
-        "installed_version": "0.16.0",
-        "required_version": "0.16.0",
+        "installed_version": "0.18.1",
+        "required_version": "0.18.1",
         "dependencies": [
             {
                 "key": "openpyxl",
@@ -43245,6 +43245,13 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
+                "required_version": ">=1.14.5",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.20.0",
                 "required_version": ">=1.17.3",
                 "dependencies": []
             },
@@ -43253,13 +43260,6 @@
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
                 "required_version": ">=1.19.3",
-                "dependencies": []
-            },
-            {
-                "key": "numpy",
-                "package_name": "numpy",
-                "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
                 "dependencies": []
             }
         ]
@@ -43274,6 +43274,13 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
+                "required_version": ">=1.14.5",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.20.0",
                 "required_version": ">=1.17.3",
                 "dependencies": []
             },
@@ -43282,13 +43289,6 @@
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
                 "required_version": ">=1.19.3",
-                "dependencies": []
-            },
-            {
-                "key": "numpy",
-                "package_name": "numpy",
-                "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
                 "dependencies": []
             }
         ]
@@ -46478,8 +46478,8 @@
     {
         "key": "platformdirs",
         "package_name": "platformdirs",
-        "installed_version": "2.5.1",
-        "required_version": "2.5.1",
+        "installed_version": "2.5.2",
+        "required_version": "2.5.2",
         "dependencies": []
     },
     {
@@ -47497,7 +47497,7 @@
             {
                 "key": "catboost",
                 "package_name": "catboost",
-                "installed_version": "1.0.4",
+                "installed_version": "1.0.5",
                 "required_version": ">=0.23.2",
                 "dependencies": [
                     {
@@ -51191,7 +51191,7 @@
             {
                 "key": "kmodes",
                 "package_name": "kmodes",
-                "installed_version": "0.12.0",
+                "installed_version": "0.12.1",
                 "required_version": ">=0.10.1",
                 "dependencies": [
                     {
@@ -51433,7 +51433,7 @@
             {
                 "key": "mlflow",
                 "package_name": "mlflow",
-                "installed_version": "1.24.0",
+                "installed_version": "1.25.1",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -54417,7 +54417,7 @@
             {
                 "key": "umap-learn",
                 "package_name": "umap-learn",
-                "installed_version": "0.5.2",
+                "installed_version": "0.5.3",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -54739,7 +54739,7 @@
             {
                 "key": "xgboost",
                 "package_name": "xgboost",
-                "installed_version": "1.5.2",
+                "installed_version": "1.6.0",
                 "required_version": ">=1.1.0",
                 "dependencies": [
                     {
@@ -55141,7 +55141,7 @@
                     {
                         "key": "babel",
                         "package_name": "babel",
-                        "installed_version": "2.9.1",
+                        "installed_version": "2.10.1",
                         "required_version": ">=1.3",
                         "dependencies": [
                             {
@@ -59472,8 +59472,8 @@
     {
         "key": "pytorch-lightning",
         "package_name": "pytorch-lightning",
-        "installed_version": "1.6.0",
-        "required_version": "1.6.0",
+        "installed_version": "1.6.1",
+        "required_version": "1.6.1",
         "dependencies": [
             {
                 "key": "fsspec",
@@ -59845,7 +59845,7 @@
             {
                 "key": "torchmetrics",
                 "package_name": "torchmetrics",
-                "installed_version": "0.7.3",
+                "installed_version": "0.8.0",
                 "required_version": ">=0.4.1",
                 "dependencies": [
                     {
@@ -60785,7 +60785,7 @@
                     {
                         "key": "platformdirs",
                         "package_name": "platformdirs",
-                        "installed_version": "2.5.1",
+                        "installed_version": "2.5.2",
                         "required_version": ">=1.4.0",
                         "dependencies": []
                     },
@@ -62506,7 +62506,7 @@
             {
                 "key": "transformers",
                 "package_name": "transformers",
-                "installed_version": "4.17.0",
+                "installed_version": "4.18.0",
                 "required_version": ">=2.5.0,<5",
                 "dependencies": [
                     {
@@ -62519,7 +62519,7 @@
                     {
                         "key": "huggingface-hub",
                         "package_name": "huggingface-hub",
-                        "installed_version": "0.5.0",
+                        "installed_version": "0.5.1",
                         "required_version": ">=0.1.0,<1.0",
                         "dependencies": [
                             {
@@ -62722,7 +62722,7 @@
                         "key": "tokenizers",
                         "package_name": "tokenizers",
                         "installed_version": "0.11.6",
-                        "required_version": ">=0.11.1,!=0.11.3",
+                        "required_version": ">=0.11.1,<0.13,!=0.11.3",
                         "dependencies": []
                     },
                     {
@@ -62772,7 +62772,7 @@
                     {
                         "key": "babel",
                         "package_name": "babel",
-                        "installed_version": "2.9.1",
+                        "installed_version": "2.10.1",
                         "required_version": ">=1.3",
                         "dependencies": [
                             {
@@ -65916,7 +65916,7 @@
             {
                 "key": "babel",
                 "package_name": "babel",
-                "installed_version": "2.9.1",
+                "installed_version": "2.10.1",
                 "required_version": ">=1.3",
                 "dependencies": [
                     {
@@ -66132,7 +66132,7 @@
                     {
                         "key": "babel",
                         "package_name": "babel",
-                        "installed_version": "2.9.1",
+                        "installed_version": "2.10.1",
                         "required_version": ">=1.3",
                         "dependencies": [
                             {
@@ -66321,7 +66321,7 @@
                     {
                         "key": "babel",
                         "package_name": "babel",
-                        "installed_version": "2.9.1",
+                        "installed_version": "2.10.1",
                         "required_version": ">=1.3",
                         "dependencies": [
                             {
@@ -66548,7 +66548,7 @@
                     {
                         "key": "babel",
                         "package_name": "babel",
-                        "installed_version": "2.9.1",
+                        "installed_version": "2.10.1",
                         "required_version": ">=1.3",
                         "dependencies": [
                             {
@@ -66744,7 +66744,7 @@
                     {
                         "key": "babel",
                         "package_name": "babel",
-                        "installed_version": "2.9.1",
+                        "installed_version": "2.10.1",
                         "required_version": ">=1.3",
                         "dependencies": [
                             {
@@ -68849,7 +68849,7 @@
             {
                 "key": "tensorflow-io-gcs-filesystem",
                 "package_name": "tensorflow-io-gcs-filesystem",
-                "installed_version": "0.24.0",
+                "installed_version": "0.25.0",
                 "required_version": ">=0.23.1",
                 "dependencies": []
             },
@@ -69091,8 +69091,8 @@
     {
         "key": "tensorflow-io-gcs-filesystem",
         "package_name": "tensorflow-io-gcs-filesystem",
-        "installed_version": "0.24.0",
-        "required_version": "0.24.0",
+        "installed_version": "0.25.0",
+        "required_version": "0.25.0",
         "dependencies": []
     },
     {
@@ -69172,8 +69172,8 @@
     {
         "key": "tensorflow-text",
         "package_name": "tensorflow-text",
-        "installed_version": "2.8.1",
-        "required_version": "2.8.1",
+        "installed_version": "2.8.2",
+        "required_version": "2.8.2",
         "dependencies": [
             {
                 "key": "tensorflow",
@@ -69668,7 +69668,7 @@
                     {
                         "key": "tensorflow-io-gcs-filesystem",
                         "package_name": "tensorflow-io-gcs-filesystem",
-                        "installed_version": "0.24.0",
+                        "installed_version": "0.25.0",
                         "required_version": ">=0.23.1",
                         "dependencies": []
                     },
@@ -70388,6 +70388,13 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
+                        "required_version": ">=1.14.5",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "1.20.0",
                         "required_version": ">=1.17.3",
                         "dependencies": []
                     },
@@ -70396,13 +70403,6 @@
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
                         "required_version": ">=1.19.3",
-                        "dependencies": []
-                    },
-                    {
-                        "key": "numpy",
-                        "package_name": "numpy",
-                        "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
                         "dependencies": []
                     }
                 ]
@@ -71191,7 +71191,7 @@
                     {
                         "key": "tensorflow-io-gcs-filesystem",
                         "package_name": "tensorflow-io-gcs-filesystem",
-                        "installed_version": "0.24.0",
+                        "installed_version": "0.25.0",
                         "required_version": ">=0.23.1",
                         "dependencies": []
                     },
@@ -71455,7 +71455,7 @@
             {
                 "key": "tensorflow-text",
                 "package_name": "tensorflow-text",
-                "installed_version": "2.8.1",
+                "installed_version": "2.8.2",
                 "required_version": "~=2.8.0",
                 "dependencies": [
                     {
@@ -71951,7 +71951,7 @@
                             {
                                 "key": "tensorflow-io-gcs-filesystem",
                                 "package_name": "tensorflow-io-gcs-filesystem",
-                                "installed_version": "0.24.0",
+                                "installed_version": "0.25.0",
                                 "required_version": ">=0.23.1",
                                 "dependencies": []
                             },
@@ -72560,8 +72560,8 @@
     {
         "key": "torchmetrics",
         "package_name": "torchmetrics",
-        "installed_version": "0.7.3",
-        "required_version": "0.7.3",
+        "installed_version": "0.8.0",
+        "required_version": "0.8.0",
         "dependencies": [
             {
                 "key": "numpy",
@@ -72758,8 +72758,8 @@
     {
         "key": "transformers",
         "package_name": "transformers",
-        "installed_version": "4.17.0",
-        "required_version": "4.17.0",
+        "installed_version": "4.18.0",
+        "required_version": "4.18.0",
         "dependencies": [
             {
                 "key": "filelock",
@@ -72771,7 +72771,7 @@
             {
                 "key": "huggingface-hub",
                 "package_name": "huggingface-hub",
-                "installed_version": "0.5.0",
+                "installed_version": "0.5.1",
                 "required_version": ">=0.1.0,<1.0",
                 "dependencies": [
                     {
@@ -72974,7 +72974,7 @@
                 "key": "tokenizers",
                 "package_name": "tokenizers",
                 "installed_version": "0.11.6",
-                "required_version": ">=0.11.1,!=0.11.3",
+                "required_version": ">=0.11.1,<0.13,!=0.11.3",
                 "dependencies": []
             },
             {
@@ -73693,8 +73693,8 @@
     {
         "key": "umap-learn",
         "package_name": "umap-learn",
-        "installed_version": "0.5.2",
-        "required_version": "0.5.2",
+        "installed_version": "0.5.3",
+        "required_version": "0.5.3",
         "dependencies": [
             {
                 "key": "numba",
@@ -74159,8 +74159,8 @@
     {
         "key": "wandb",
         "package_name": "wandb",
-        "installed_version": "0.12.12",
-        "required_version": "0.12.12",
+        "installed_version": "0.12.15",
+        "required_version": "0.12.15",
         "dependencies": [
             {
                 "key": "click",
@@ -75630,8 +75630,8 @@
     {
         "key": "xgboost",
         "package_name": "xgboost",
-        "installed_version": "1.5.2",
-        "required_version": "1.5.2",
+        "installed_version": "1.6.0",
+        "required_version": "1.6.0",
         "dependencies": [
             {
                 "key": "numpy",
@@ -76097,7 +76097,7 @@
             {
                 "key": "platformdirs",
                 "package_name": "platformdirs",
-                "installed_version": "2.5.1",
+                "installed_version": "2.5.2",
                 "required_version": ">=1.4.0",
                 "dependencies": []
             },
