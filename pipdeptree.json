@@ -745,8 +745,8 @@
     {
         "key": "amqp",
         "package_name": "amqp",
-        "installed_version": "5.1.0",
-        "required_version": "5.1.0",
+        "installed_version": "5.1.1",
+        "required_version": "5.1.1",
         "dependencies": [
             {
                 "key": "vine",
@@ -2759,7 +2759,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -3291,7 +3291,7 @@
                     {
                         "key": "amqp",
                         "package_name": "amqp",
-                        "installed_version": "5.1.0",
+                        "installed_version": "5.1.1",
                         "required_version": ">=5.0.9,<6.0.0",
                         "dependencies": [
                             {
@@ -3899,7 +3899,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -4037,7 +4037,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.32.0",
+                                "installed_version": "4.33.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -9526,8 +9526,8 @@
     {
         "key": "dedupe",
         "package_name": "dedupe",
-        "installed_version": "2.0.13",
-        "required_version": "2.0.13",
+        "installed_version": "2.0.14",
+        "required_version": "2.0.14",
         "dependencies": [
             {
                 "key": "affinegap",
@@ -10004,7 +10004,7 @@
             {
                 "key": "dedupe",
                 "package_name": "dedupe",
-                "installed_version": "2.0.13",
+                "installed_version": "2.0.14",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -10914,7 +10914,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -11107,8 +11107,8 @@
     {
         "key": "elastic-transport",
         "package_name": "elastic-transport",
-        "installed_version": "8.1.1",
-        "required_version": "8.1.1",
+        "installed_version": "8.1.2",
+        "required_version": "8.1.2",
         "dependencies": [
             {
                 "key": "certifi",
@@ -11135,7 +11135,7 @@
             {
                 "key": "elastic-transport",
                 "package_name": "elastic-transport",
-                "installed_version": "8.1.1",
+                "installed_version": "8.1.2",
                 "required_version": ">=8,<9",
                 "dependencies": [
                     {
@@ -11207,7 +11207,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -11288,7 +11288,7 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
+                        "required_version": ">=1.17.3",
                         "dependencies": []
                     },
                     {
@@ -11302,7 +11302,7 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.17.3",
+                        "required_version": ">=1.14.5",
                         "dependencies": []
                     }
                 ]
@@ -11778,7 +11778,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -12881,7 +12881,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -13078,7 +13078,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -13948,7 +13948,7 @@
                             {
                                 "key": "amqp",
                                 "package_name": "amqp",
-                                "installed_version": "5.1.0",
+                                "installed_version": "5.1.1",
                                 "required_version": ">=5.0.9,<6.0.0",
                                 "dependencies": [
                                     {
@@ -14018,8 +14018,8 @@
     {
         "key": "fonttools",
         "package_name": "fonttools",
-        "installed_version": "4.32.0",
-        "required_version": "4.32.0",
+        "installed_version": "4.33.0",
+        "required_version": "4.33.0",
         "dependencies": []
     },
     {
@@ -16139,8 +16139,8 @@
     {
         "key": "gradio",
         "package_name": "gradio",
-        "installed_version": "2.9.1",
-        "required_version": "2.9.1",
+        "installed_version": "2.9.4",
+        "required_version": "2.9.4",
         "dependencies": [
             {
                 "key": "aiohttp",
@@ -16363,6 +16363,21 @@
                 "dependencies": []
             },
             {
+                "key": "jinja2",
+                "package_name": "Jinja2",
+                "installed_version": "3.0.3",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "markupsafe",
+                        "package_name": "MarkupSafe",
+                        "installed_version": "2.0.1",
+                        "required_version": ">=2.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
                 "key": "markdown-it-py",
                 "package_name": "markdown-it-py",
                 "installed_version": "2.0.1",
@@ -16378,7 +16393,7 @@
                     {
                         "key": "mdurl",
                         "package_name": "mdurl",
-                        "installed_version": "0.1.0",
+                        "installed_version": "0.1.1",
                         "required_version": "~=0.1",
                         "dependencies": []
                     }
@@ -16400,7 +16415,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -17738,8 +17753,8 @@
     {
         "key": "hypothesis",
         "package_name": "hypothesis",
-        "installed_version": "6.41.0",
-        "required_version": "6.41.0",
+        "installed_version": "6.44.0",
+        "required_version": "6.44.0",
         "dependencies": [
             {
                 "key": "attrs",
@@ -34384,7 +34399,7 @@
             {
                 "key": "amqp",
                 "package_name": "amqp",
-                "installed_version": "5.1.0",
+                "installed_version": "5.1.1",
                 "required_version": ">=5.0.9,<6.0.0",
                 "dependencies": [
                     {
@@ -34987,7 +35002,7 @@
             {
                 "key": "mdurl",
                 "package_name": "mdurl",
-                "installed_version": "0.1.0",
+                "installed_version": "0.1.1",
                 "required_version": "~=0.1",
                 "dependencies": []
             }
@@ -35132,7 +35147,7 @@
             {
                 "key": "fonttools",
                 "package_name": "fonttools",
-                "installed_version": "4.32.0",
+                "installed_version": "4.33.0",
                 "required_version": ">=4.22.0",
                 "dependencies": []
             },
@@ -35240,7 +35255,7 @@
                     {
                         "key": "mdurl",
                         "package_name": "mdurl",
-                        "installed_version": "0.1.0",
+                        "installed_version": "0.1.1",
                         "required_version": "~=0.1",
                         "dependencies": []
                     }
@@ -35251,8 +35266,8 @@
     {
         "key": "mdurl",
         "package_name": "mdurl",
-        "installed_version": "0.1.0",
-        "required_version": "0.1.0",
+        "installed_version": "0.1.1",
+        "required_version": "0.1.1",
         "dependencies": []
     },
     {
@@ -35343,7 +35358,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -35451,7 +35466,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.32.0",
+                                "installed_version": "4.33.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -36303,7 +36318,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -36522,7 +36537,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -40423,8 +40438,8 @@
     {
         "key": "netron",
         "package_name": "netron",
-        "installed_version": "5.6.7",
-        "required_version": "5.6.7",
+        "installed_version": "5.7.1",
+        "required_version": "5.7.1",
         "dependencies": []
     },
     {
@@ -43077,7 +43092,7 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
+                "required_version": ">=1.17.3",
                 "dependencies": []
             },
             {
@@ -43091,7 +43106,7 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.17.3",
+                "required_version": ">=1.14.5",
                 "dependencies": []
             }
         ]
@@ -43106,7 +43121,7 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
+                "required_version": ">=1.17.3",
                 "dependencies": []
             },
             {
@@ -43120,7 +43135,7 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.17.3",
+                "required_version": ">=1.14.5",
                 "dependencies": []
             }
         ]
@@ -43408,7 +43423,7 @@
             {
                 "key": "dedupe",
                 "package_name": "dedupe",
-                "installed_version": "2.0.13",
+                "installed_version": "2.0.14",
                 "required_version": ">=2.0.0",
                 "dependencies": [
                     {
@@ -44377,7 +44392,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -44463,7 +44478,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.32.0",
+                                "installed_version": "4.33.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -44571,7 +44586,7 @@
                                     {
                                         "key": "fonttools",
                                         "package_name": "fonttools",
-                                        "installed_version": "4.32.0",
+                                        "installed_version": "4.33.0",
                                         "required_version": ">=4.22.0",
                                         "dependencies": []
                                     },
@@ -44778,7 +44793,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.32.0",
+                                "installed_version": "4.33.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -44998,7 +45013,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.32.0",
+                                "installed_version": "4.33.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -45355,8 +45370,8 @@
     {
         "key": "pandoc",
         "package_name": "pandoc",
-        "installed_version": "2.1",
-        "required_version": "2.1",
+        "installed_version": "2.2",
+        "required_version": "2.2",
         "dependencies": [
             {
                 "key": "plumbum",
@@ -46063,7 +46078,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -46659,7 +46674,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -47370,7 +47385,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.32.0",
+                                "installed_version": "4.33.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -51197,7 +51212,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -51841,7 +51856,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.32.0",
+                                "installed_version": "4.33.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -52155,7 +52170,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.32.0",
+                                "installed_version": "4.33.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -52241,7 +52256,7 @@
                                     {
                                         "key": "fonttools",
                                         "package_name": "fonttools",
-                                        "installed_version": "4.32.0",
+                                        "installed_version": "4.33.0",
                                         "required_version": ">=4.22.0",
                                         "dependencies": []
                                     },
@@ -52349,7 +52364,7 @@
                                             {
                                                 "key": "fonttools",
                                                 "package_name": "fonttools",
-                                                "installed_version": "4.32.0",
+                                                "installed_version": "4.33.0",
                                                 "required_version": ">=4.22.0",
                                                 "dependencies": []
                                             },
@@ -52556,7 +52571,7 @@
                                     {
                                         "key": "fonttools",
                                         "package_name": "fonttools",
-                                        "installed_version": "4.32.0",
+                                        "installed_version": "4.33.0",
                                         "required_version": ">=4.22.0",
                                         "dependencies": []
                                     },
@@ -52776,7 +52791,7 @@
                                     {
                                         "key": "fonttools",
                                         "package_name": "fonttools",
-                                        "installed_version": "4.32.0",
+                                        "installed_version": "4.33.0",
                                         "required_version": ">=4.22.0",
                                         "dependencies": []
                                     },
@@ -53196,7 +53211,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.32.0",
+                                "installed_version": "4.33.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -53541,7 +53556,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.32.0",
+                                "installed_version": "4.33.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -53688,7 +53703,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.32.0",
+                                "installed_version": "4.33.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -54487,7 +54502,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.32.0",
+                                "installed_version": "4.33.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -54626,7 +54641,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.32.0",
+                                "installed_version": "4.33.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -54782,7 +54797,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -57337,7 +57352,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -57533,7 +57548,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.32.0",
+                                "installed_version": "4.33.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -58196,7 +58211,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -61356,7 +61371,7 @@
                                     {
                                         "key": "fonttools",
                                         "package_name": "fonttools",
-                                        "installed_version": "4.32.0",
+                                        "installed_version": "4.33.0",
                                         "required_version": ">=4.22.0",
                                         "dependencies": []
                                     },
@@ -61697,7 +61712,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -62194,7 +62209,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.32.0",
+                                "installed_version": "4.33.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -63780,7 +63795,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -64126,7 +64141,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -64548,8 +64563,8 @@
     {
         "key": "setproctitle",
         "package_name": "setproctitle",
-        "installed_version": "1.2.2",
-        "required_version": "1.2.2",
+        "installed_version": "1.2.3",
+        "required_version": "1.2.3",
         "dependencies": []
     },
     {
@@ -66864,7 +66879,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -70071,7 +70086,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -70219,7 +70234,7 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
+                        "required_version": ">=1.17.3",
                         "dependencies": []
                     },
                     {
@@ -70233,7 +70248,7 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.17.3",
+                        "required_version": ">=1.14.5",
                         "dependencies": []
                     }
                 ]
@@ -70318,7 +70333,7 @@
                             {
                                 "key": "fonttools",
                                 "package_name": "fonttools",
-                                "installed_version": "4.32.0",
+                                "installed_version": "4.33.0",
                                 "required_version": ">=4.22.0",
                                 "dependencies": []
                             },
@@ -73228,7 +73243,7 @@
                     {
                         "key": "elastic-transport",
                         "package_name": "elastic-transport",
-                        "installed_version": "8.1.1",
+                        "installed_version": "8.1.2",
                         "required_version": ">=8,<9",
                         "dependencies": [
                             {
@@ -74165,7 +74180,7 @@
             {
                 "key": "setproctitle",
                 "package_name": "setproctitle",
-                "installed_version": "1.2.2",
+                "installed_version": "1.2.3",
                 "required_version": "Any",
                 "dependencies": []
             },
@@ -75208,7 +75223,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },
@@ -75605,7 +75620,7 @@
                     {
                         "key": "fonttools",
                         "package_name": "fonttools",
-                        "installed_version": "4.32.0",
+                        "installed_version": "4.33.0",
                         "required_version": ">=4.22.0",
                         "dependencies": []
                     },

@@ -100,8 +100,6 @@ jmespath==0.10.0 # LEVEL_01 # LOCKED # boto* requires it # JSON Matching Express
 #
 mccabe==0.6.1 # LEVEL_01 # LOCKED # flake8 requires it # McCabe checker, plugin for flake8
 #
-google-auth-oauthlib==0.4.6 # LEVEL_04 # LOCKED # tensorboard 2.8.0 depends on google-auth-oauthlib<0.5 and >=0.4.1 # Google Authentication Library
-#
 imageio==2.15.0 # LEVEL_02 # LOCKED # 2.16.1 does not work # Library for reading and writing a wide range of image, video, scientific, and volumetric data formats
 #
 cmdstanpy==0.9.5 # LEVEL_04 # ONLY_OSX # LOCKED # fbprophet==0.7.1 requires cmdstanpy==0.9.5 # Python interface to CmdStan
@@ -153,7 +151,6 @@ typing_extensions==4.1.1 # LEVEL_01 # Backported and Experimental Type Hints for
 six==1.16.0 # LEVEL_01 # Python 2 and 3 compatibility utilities
 clang==14.0 # LEVEL_01 # libclang python bindings
 h5py==3.6.0 # LEVEL_02 # Read and write HDF5 files from Python
-google-auth==2.6.2 # LEVEL_03 # Google Authentication Library
 wrapt==1.14.0 # LEVEL_01 # Module for decorators, wrappers and monkey patching
 panel==0.12.7 # LEVEL_04 # A high level app and dashboarding solution for Python
 bokeh==2.4.2 # LEVEL_03 # Interactive plots and applications in the browser from Python
@@ -509,15 +506,16 @@ hsluv==5.0.2 # LEVEL_01 # Human-friendly HSL
 google-cloud-bigquery==3.0.1 # LEVEL_06 # Google BigQuery API client library
 google-cloud-bigquery-storage==2.13.1 # LEVEL_05 # BigQuery Storage API API client library
 google-cloud-core==2.2.3 # LEVEL_05 # Google Cloud API client core library
-google-resumable-media==2.3.2 # LEVEL_02 # Utilities for Google Media Downloads and Resumable Uploads
-google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC32C'
-#
 google-api-python-client==2.43.0 # LEVEL_05 # Google API Client Library for Python
+google-auth-oauthlib==0.4.6 # LEVEL_04 # LOCKED # tensorboard 2.8.0 depends on google-auth-oauthlib<0.5 and >=0.4.1 # Google Authentication Library
 google-api-core==2.7.1 # LEVEL_04 # Google API client core library
 google-auth-httplib2==0.1.0 # LEVEL_04 # Google Authentication Library: httplib2 transport
-google-pasta==0.2.0 # LEVEL_02 # pasta is an AST-based Python refactoring library
-googleapis-common-protos==1.56.0 # LEVEL_02 # Common protobufs used in Google APIs
 googletransx==2.4.2 # LEVEL_03 # Free Google Translate API for Python. Translates totally free of charge
+google-auth==2.6.2 # LEVEL_03 # Google Authentication Library
+googleapis-common-protos==1.56.0 # LEVEL_02 # Common protobufs used in Google APIs
+google-pasta==0.2.0 # LEVEL_02 # pasta is an AST-based Python refactoring library
+google-resumable-media==2.3.2 # LEVEL_02 # Utilities for Google Media Downloads and Resumable Uploads
+google-crc32c==1.3.0 # LEVEL_01 # A python wrapper of the C library 'Google CRC32C'
 uritemplate==4.1.1 # LEVEL_01 # required by google-api-python-client # Implementation of RFC 6570 URI Templates
 
 # Azure
@@ -1067,7 +1065,7 @@ emoji==1.7.0 # LEVEL_01 # Emoji for Python
 #
 shellingham==1.4.0 # LEVEL_01 # Tool to Detect Surrounding Shell
 #
-fonttools==4.32.0 # LEVEL_01 # Tools to manipulate font files
+fonttools==4.33.0 # LEVEL_01 # Tools to manipulate font files
 setuptools-scm==6.4.2 # LEVEL_03 # the blessed package to manage your versions by scm tags
 tomli==2.0.1 # LEVEL_01 # A lil' TOML parser
 #
@@ -1076,12 +1074,12 @@ python-editor==1.0.4 # LEVEL_01 # Programmatically open an editor, capture the r
 querystring-parser==1.2.4 # LEVEL_02 # QueryString parser for Python/Django that correctly handles nested dictionaries
 #
 
-amqp==5.1.0 # LEVEL_02 # Low-level AMQP client for Python (fork of amqplib)
+amqp==5.1.1 # LEVEL_02 # Low-level AMQP client for Python (fork of amqplib)
 vine==5.0.0 # LEVEL_01 # Promises, promises, promises
 #
 
 flower==1.0.0 # LEVEL_05 # Celery Flower
-gradio==2.9.1 # LEVEL_05 # Python library for easily interacting with trained machine learning models
+gradio==2.9.4 # LEVEL_05 # Python library for easily interacting with trained machine learning models
 paramiko==2.10.3 # LEVEL_04 # SSH2 protocol library
 celery==5.2.6 # LEVEL_04 # Distributed Task Queue
 analytics-python==1.4.0 # LEVEL_03 # The hassle-free way to integrate analytics into any python application
@@ -1110,10 +1108,10 @@ sclblpy==0.1.7 # LEVEL_05 # Python package for uploading sklearn and onnx models
 sklearn==0.0 # LEVEL_04 # A set of python modules for machine learning and data mining
 uuid==1.30 # LEVEL_01 # UUID object and generation functions
 #
-onnxruntime==1.10.0 # LEVEL_02 # ONNX Runtime is a runtime accelerator for Machine Learning models
+onnxruntime==1.10.0 # LEVEL_02 # LOCKED # ONNX Runtime is a runtime accelerator for Machine Learning models
 onnxoptimizer==0.2.6 # LEVEL_03 # Open Neural Network Exchange
 onnx-simplifier==0.3.7 # LEVEL_04 # Simplify your ONNX model
-netron==5.6.7 # LEVEL_01 # Viewer for neural network, deep learning, and machine learning models
+netron==5.7.1 # LEVEL_01 # Viewer for neural network, deep learning, and machine learning models
 #
 #python-multipart==0.0.5 # LEVEL_02 # A streaming multipart parser for Python
 #
@@ -1121,13 +1119,13 @@ netron==5.6.7 # LEVEL_01 # Viewer for neural network, deep learning, and machine
 mdit-py-plugins==0.3.0 # LEVEL_03 # Collection of plugins for markdown-it-py
 #
 python-multipart==0.0.5 # LEVEL_02 # A streaming multipart parser for Python
-elastic-transport==8.1.1 # LEVEL_02 # Transport classes and utilities shared among Python Elastic client libraries
+elastic-transport==8.1.2 # LEVEL_02 # Transport classes and utilities shared among Python Elastic client libraries
 linkify-it-py==1.0.3 # LEVEL_02 # Links recognition library with FULL unicode support
 markdown-it-py==2.0.1 # LEVEL_02 # Python port of markdown-it. Markdown parsing, done right!
 #
-mdurl==0.1.0 # LEVEL_01 # Markdown URL utilities
+mdurl==0.1.1 # LEVEL_01 # Markdown URL utilities
 orjson==3.6.7 # LEVEL_01 # Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
-setproctitle==1.2.2 # LEVEL_01 # A Python module to customize the process title
+setproctitle==1.2.3 # LEVEL_01 # A Python module to customize the process title
 uc-micro-py==1.0.1 # LEVEL_01 # Micro subset of unicode data files for linkify-it-py projects
 
 #
@@ -1172,10 +1170,10 @@ jdcal==1.4.1 # LEVEL_01 # Julian dates from proleptic Gregorian and Julian calen
 #
 pandas-dedupe==1.5.0 # LEVEL_07 # The Dedupe library made easy with Pandas
 dedupe-variable-datetime==0.1.5 # LEVEL_07 # CYCLICAL # DateTime variable type for dedupe
-dedupe==2.0.13 # LEVEL_06 # CYCLICAL # A python library for accurate and scaleable data deduplication and entity-resolution
+dedupe==2.0.14 # LEVEL_06 # CYCLICAL # A python library for accurate and scaleable data deduplication and entity-resolution
 dedupe-hcluster==0.3.9 # LEVEL_02 # Hierarchical Clustering Algorithms (Information Theory)
 #
-pandoc==2.1 # LEVEL_02 # Pandoc Documents for Python
+pandoc==2.2 # LEVEL_02 # Pandoc Documents for Python
 pandocfilters==1.5.0 # LEVEL_01 # Utilities for writing pandoc filters in python
 #
 plumbum==1.7.2 # LEVEL_01 # Plumbum: shell combinators library
@@ -1190,7 +1188,7 @@ pandera==0.10.1 # LEVEL_04 # A light-weight and flexible data validation and tes
 powerlaw==1.5 # LEVEL_04 # Toolbox for testing if a probability distribution fits a power law
 scikit-surprise==1.1.1 # LEVEL_03 # An easy-to-use library for recommender systems
 Bottleneck==1.3.4 # LEVEL_02 # Fast NumPy array functions written in C
-hypothesis==6.41.0 # LEVEL_02 # A library for property-based testing
+hypothesis==6.44.0 # LEVEL_02 # A library for property-based testing
 mpmath==1.2.1 # LEVEL_01 # Python library for arbitrary-precision floating-point arithmetic
 #
 snapml==1.9.0 # LEVEL_04 # Snap Machine Learning

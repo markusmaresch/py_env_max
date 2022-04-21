@@ -320,7 +320,7 @@ if [ 1 -eq 1 ]; then
   done
 fi
 
-if [ 1 -eq 1 ]; then
+if [ 1 -eq 0 ]; then
   conda_env_export
 fi
 if [ 1 -eq 1 ]; then

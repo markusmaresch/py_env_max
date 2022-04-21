@@ -149,7 +149,7 @@ Requires:
 Required-by: macholib pyinstaller
 ---
 Name: amqp
-Version: 5.1.0
+Version: 5.1.1
 Summary: Low-level AMQP client for Python (fork of amqplib).
 Home-page: http://github.com/celery/py-amqp
 Author: Barry Pederson
@@ -1469,7 +1469,7 @@ Requires:
 Required-by: Mastodon.py ipython validators
 ---
 Name: dedupe
-Version: 2.0.13
+Version: 2.0.14
 Summary: A python library for accurate and scaleable data deduplication and entity-resolution
 Home-page: https://github.com/dedupeio/dedupe
 Author: Forest Gregg
@@ -1729,7 +1729,7 @@ Requires:
 Required-by: nystrom-attention performer-pytorch
 ---
 Name: elastic-transport
-Version: 8.1.1
+Version: 8.1.2
 Summary: Transport classes and utilities shared among Python Elastic client libraries
 Home-page: https://github.com/elastic/elastic-transport-python
 Author: Elastic
@@ -2159,7 +2159,7 @@ Requires: celery humanize prometheus-client pytz tornado
 Required-by: 
 ---
 Name: fonttools
-Version: 4.32.0
+Version: 4.33.0
 Summary: Tools to manipulate font files
 Home-page: http://github.com/fonttools/fonttools
 Author: Just van Rossum
@@ -2499,13 +2499,13 @@ Requires:
 Required-by: 
 ---
 Name: gradio
-Version: 2.9.1
+Version: 2.9.4
 Summary: Python library for easily interacting with trained machine learning models
 Home-page: https://github.com/gradio-app/gradio-UI
 Author: Abubakar Abid, Ali Abid, Ali Abdalla, Dawood Khan, Ahsen Khaliq
 Author-email: team@gradio.app
 License: Apache License 2.0
-Requires: aiohttp analytics-python fastapi ffmpy markdown-it-py matplotlib numpy orjson pandas paramiko pillow pycryptodome pydub python-multipart requests uvicorn
+Requires: Jinja2 aiohttp analytics-python fastapi ffmpy markdown-it-py matplotlib numpy orjson pandas paramiko pillow pycryptodome pydub python-multipart requests uvicorn
 Required-by: 
 ---
 Name: graphviz
@@ -2769,7 +2769,7 @@ Requires:
 Required-by: pyramid
 ---
 Name: hypothesis
-Version: 6.41.0
+Version: 6.44.0
 Summary: A library for property-based testing
 Home-page: https://hypothesis.works
 Author: David R. MacIver and Zac Hatfield-Dodds
@@ -3066,7 +3066,7 @@ Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
 Requires: MarkupSafe
-Required-by: Flask Sphinx altair bokeh distributed jupyter-server jupyterlab jupyterlab-server nbconvert nbsphinx notebook pandas-profiling pyLDAvis pydeck recommenders spacy
+Required-by: Flask Sphinx altair bokeh distributed gradio jupyter-server jupyterlab jupyterlab-server nbconvert nbsphinx notebook pandas-profiling pyLDAvis pydeck recommenders spacy
 ---
 Name: jmespath
 Version: 0.10.0
@@ -3785,7 +3785,7 @@ Requires: markdown-it-py
 Required-by: 
 ---
 Name: mdurl
-Version: 0.1.0
+Version: 0.1.1
 Summary: Markdown URL utilities
 Home-page: 
 Author: 
@@ -4135,7 +4135,7 @@ Requires:
 Required-by: 
 ---
 Name: netron
-Version: 5.6.7
+Version: 5.7.1
 Summary: Viewer for neural network, deep learning, and machine learning models
 Home-page: https://github.com/lutzroeder/netron
 Author: Lutz Roeder
@@ -4605,11 +4605,11 @@ Requires: numpy packaging pandas pyarrow pydantic typing-inspect wrapt
 Required-by: recommenders
 ---
 Name: pandoc
-Version: 2.1
+Version: 2.2
 Summary: Pandoc Documents for Python
 Home-page: UNKNOWN
 Author: Sébastien Boisgérault
-Author-email: Sebastien.Boisgerault@mines-paristech.fr
+Author-email: Sebastien.Boisgerault@minesparis.psl.eu
 License: MIT License
 Requires: plumbum ply
 Required-by: 
@@ -6415,7 +6415,7 @@ Requires: numpy scikit-learn
 Required-by: tf-models-official
 ---
 Name: setproctitle
-Version: 1.2.2
+Version: 1.2.3
 Summary: A Python module to customize the process title
 Home-page: https://github.com/dvarrazzo/py-setproctitle
 Author: Daniele Varrazzo
