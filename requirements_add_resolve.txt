@@ -1,9 +1,6 @@
 Dependencies for Python Engine in Rapidminer:
 #https://docs.rapidminer.com/9.9/deployment/docker-compose/python-engine/index.html
-  - numpy
-  - pandas
   - fs
-  - flask
   - libiconv
   - uwsgi
 

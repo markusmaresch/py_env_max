@@ -379,7 +379,7 @@ Requires:
 Required-by: Fiona aiohttp aiohttp-socks cattrs hypothesis jsonschema markdown-it-py outcome pyanalyze pytest pytype ray requests-cache trio visions zeep
 ---
 Name: Authlib
-Version: 1.0.0
+Version: 1.0.1
 Summary: The ultimate Python library in building OAuth and OpenID Connect servers and clients.
 Home-page: https://authlib.org/
 Author: Hsiaoming Yang
@@ -559,13 +559,13 @@ Requires: click mypy-extensions pathspec platformdirs tomli typing-extensions
 Required-by: 
 ---
 Name: bleach
-Version: 4.1.0
+Version: 5.0.0
 Summary: An easy safelist-based HTML-sanitizing tool.
 Home-page: https://github.com/mozilla/bleach
 Author: 
 Author-email: 
 License: Apache Software License
-Requires: packaging six webencodings
+Requires: six webencodings
 Required-by: nbconvert panel
 ---
 Name: blessings
@@ -649,7 +649,7 @@ Requires:
 Required-by: 
 ---
 Name: boto3
-Version: 1.21.35
+Version: 1.21.45
 Summary: The AWS SDK for Python
 Home-page: https://github.com/boto/boto3
 Author: Amazon Web Services
@@ -659,7 +659,7 @@ Requires: botocore jmespath s3transfer
 Required-by: bertviz
 ---
 Name: botocore
-Version: 1.24.35
+Version: 1.24.45
 Summary: Low-level, data-driven core of boto 3.
 Home-page: https://github.com/boto/botocore
 Author: Amazon Web Services
@@ -1796,7 +1796,7 @@ Author: Thomas Kluyver
 Author-email: thomas@kluyver.me.uk
 License: 
 Requires: 
-Required-by: altair jupyter-client jupyterlab-server mlflow nbconvert
+Required-by: altair jupyter-client mlflow nbconvert
 ---
 Name: ephem
 Version: 4.1.3
@@ -2339,7 +2339,7 @@ Requires: python-gflags six
 Required-by: 
 ---
 Name: google-api-core
-Version: 2.7.1
+Version: 2.7.2
 Summary: Google API client core library
 Home-page: https://github.com/googleapis/python-api-core
 Author: Google LLC
@@ -2349,7 +2349,7 @@ Requires: google-auth googleapis-common-protos protobuf requests
 Required-by: google-api-python-client google-cloud-bigquery google-cloud-bigquery-storage google-cloud-core opencensus
 ---
 Name: google-api-python-client
-Version: 2.43.0
+Version: 2.45.0
 Summary: Google API Client Library for Python
 Home-page: https://github.com/googleapis/google-api-python-client/
 Author: Google LLC
@@ -2359,7 +2359,7 @@ Requires: google-api-core google-auth google-auth-httplib2 httplib2 uritemplate
 Required-by: tf-models-official
 ---
 Name: google-auth
-Version: 2.6.2
+Version: 2.6.5
 Summary: Google Authentication Library
 Home-page: https://github.com/googleapis/google-auth-library-python
 Author: Google Cloud Platform
@@ -2409,7 +2409,7 @@ Requires: google-api-core proto-plus
 Required-by: google-cloud-bigquery
 ---
 Name: google-cloud-core
-Version: 2.2.3
+Version: 2.3.0
 Summary: Google Cloud API client core library
 Home-page: https://github.com/googleapis/python-cloud-core
 Author: Google LLC
@@ -2896,7 +2896,7 @@ Author: Jason R. Coombs
 Author-email: jaraco@jaraco.com
 License: UNKNOWN
 Requires: zipp
-Required-by: Flask Markdown Sphinx keyring mlflow
+Required-by: Flask Markdown Sphinx jupyterlab-server keyring mlflow
 ---
 Name: importlib-resources
 Version: 5.7.1
@@ -3169,7 +3169,7 @@ Requires: ipykernel ipython jupyter-client prompt-toolkit pygments
 Required-by: jupyter
 ---
 Name: jupyter-core
-Version: 4.9.2
+Version: 4.10.0
 Summary: Jupyter core package. A base package on which Jupyter projects rely.
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3219,7 +3219,7 @@ Requires: aiohttp jupyter-server simpervisor
 Required-by: 
 ---
 Name: jupyterlab
-Version: 3.3.3
+Version: 3.3.4
 Summary: JupyterLab computational environment
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -3229,7 +3229,7 @@ Requires: ipython jinja2 jupyter-core jupyter-server jupyterlab-server nbclassic
 Required-by: 
 ---
 Name: jupyterlab-pygments
-Version: 0.2.0
+Version: 0.2.2
 Summary: Pygments theme using JupyterLab CSS variables
 Home-page: https://github.com/jupyterlab/jupyterlab_pygments
 Author: Jupyter Development Team
@@ -3239,13 +3239,13 @@ Requires:
 Required-by: nbconvert
 ---
 Name: jupyterlab-server
-Version: 2.12.0
+Version: 2.13.0
 Summary: A set of server components for JupyterLab and JupyterLab like applications .
-Home-page: https://jupyter.org
+Home-page: https://jupyterlab-server.readthedocs.io
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: UNKNOWN
-Requires: babel entrypoints jinja2 json5 jsonschema jupyter-server packaging requests
+Requires: babel importlib-metadata jinja2 json5 jsonschema jupyter-server packaging requests
 Required-by: jupyterlab
 ---
 Name: jupyterlab-widgets
@@ -3585,8 +3585,8 @@ Requires: torch
 Required-by: performer-pytorch
 ---
 Name: locket
-Version: 0.2.1
-Summary: File-based locks for Python for Linux and Windows
+Version: 1.0.0
+Summary: File-based locks for Python on Linux and Windows
 Home-page: http://github.com/mwilliamson/locket.py
 Author: Michael Williamson
 Author-email: mike@zwobble.org
@@ -3642,7 +3642,7 @@ Author: lxml dev team
 Author-email: lxml-dev@lxml.de
 License: BSD
 Requires: 
-Required-by: geos pandas-datareader yfinance zeep
+Required-by: geos nilearn pandas-datareader yfinance zeep
 ---
 Name: lz4
 Version: 4.0.0
@@ -4065,7 +4065,7 @@ Requires: jupyter-server notebook notebook-shim
 Required-by: jupyterlab
 ---
 Name: nbclient
-Version: 0.5.13
+Version: 0.6.0
 Summary: A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor.
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
@@ -4075,13 +4075,13 @@ Requires: jupyter-client nbformat nest-asyncio traitlets
 Required-by: nbconvert
 ---
 Name: nbconvert
-Version: 6.4.5
+Version: 6.5.0
 Summary: Converting Jupyter Notebooks
 Home-page: https://jupyter.org
 Author: Jupyter Development Team
 Author-email: jupyter@googlegroups.com
 License: BSD
-Requires: MarkupSafe beautifulsoup4 bleach defusedxml entrypoints jinja2 jupyter-core jupyterlab-pygments mistune nbclient nbformat pandocfilters pygments testpath traitlets
+Requires: MarkupSafe beautifulsoup4 bleach defusedxml entrypoints jinja2 jupyter-core jupyterlab-pygments mistune nbclient nbformat packaging pandocfilters pygments tinycss2 traitlets
 Required-by: jupyter jupyter-server nbsphinx notebook
 ---
 Name: nbformat
@@ -4145,7 +4145,7 @@ Requires:
 Required-by: 
 ---
 Name: networkx
-Version: 2.7.1
+Version: 2.8
 Summary: Python package for creating and manipulating graphs and networks
 Home-page: https://networkx.org/
 Author: Aric Hagberg
@@ -4165,13 +4165,13 @@ Requires: numpy packaging setuptools
 Required-by: nilearn
 ---
 Name: nilearn
-Version: 0.9.0
+Version: 0.9.1
 Summary: Statistical learning for neuroimaging in Python
 Home-page: http://nilearn.github.io
 Author: 
 Author-email: 
 License: new BSD
-Requires: joblib nibabel numpy pandas requests scikit-learn scipy
+Requires: joblib lxml nibabel numpy pandas requests scikit-learn scipy
 Required-by: 
 ---
 Name: ninja
@@ -4215,7 +4215,7 @@ Requires:
 Required-by: 
 ---
 Name: notebook
-Version: 6.4.10
+Version: 6.4.11
 Summary: A web-based notebook environment for interactive computing
 Home-page: http://jupyter.org
 Author: Jupyter Development Team
@@ -4405,7 +4405,7 @@ Requires: openpyxl pandas pandas-stubs requests tqdm
 Required-by: 
 ---
 Name: opencensus
-Version: 0.8.0
+Version: 0.9.0
 Summary: A stats collection and distributed tracing framework
 Home-page: https://github.com/census-instrumentation/opencensus-python
 Author: OpenCensus Authors
@@ -4522,7 +4522,7 @@ Author: Donald Stufft and individual contributors
 Author-email: donald@stufft.io
 License: BSD-2-Clause or Apache-2.0
 Requires: pyparsing
-Required-by: QtPy Sphinx bleach bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery holoviews huggingface-hub jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nibabel numexpr pandera pipx pydata-sphinx-theme pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
+Required-by: QtPy Sphinx bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery holoviews huggingface-hub jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nbconvert nibabel numexpr pandera pipx pydata-sphinx-theme pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
 ---
 Name: pandas
 Version: 1.4.2
@@ -5425,9 +5425,9 @@ Requires: PyLBFGS numpy
 Required-by: highered
 ---
 Name: pyinstaller
-Version: 4.10
+Version: 5.0
 Summary: PyInstaller bundles a Python application and all its dependencies into a single package.
-Home-page: http://www.pyinstaller.org/
+Home-page: https://www.pyinstaller.org/
 Author: Hartmut Goebel, Giovanni Bajo, David Vierra, David Cortesi, Martin Zibricky
 Author-email: 
 License: GPLv2-or-later with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones)
@@ -5645,7 +5645,7 @@ Requires:
 Required-by: PyQt5
 ---
 Name: PyQt5-sip
-Version: 12.9.1
+Version: 12.10.1
 Summary: The sip module support for PyQt5
 Home-page: https://www.riverbankcomputing.com/software/sip/
 Author: Riverbank Computing Limited
@@ -6355,7 +6355,7 @@ Requires: matplotlib numpy pandas scipy
 Required-by: missingno pandas-profiling pycaret pyfolio recommenders
 ---
 Name: SecretStorage
-Version: 3.3.1
+Version: 3.3.2
 Summary: Python bindings to FreeDesktop.org Secret Service API
 Home-page: https://github.com/mitya57/secretstorage
 Author: Dmitry Shachnev
@@ -6965,7 +6965,7 @@ Requires:
 Required-by: distributed
 ---
 Name: tda-api
-Version: 1.5.2
+Version: 1.5.3
 Summary: An unofficial wrapper around the TD Ameritrade HTTP API.
 Home-page: https://github.com/alexgolec/tda-api
 Author: Alex Golec
@@ -7142,7 +7142,7 @@ Author:
 Author-email: Jupyter Development Team <jupyter@googlegroups.com>
 License: 
 Requires: 
-Required-by: nbconvert
+Required-by: 
 ---
 Name: text-unidecode
 Version: 1.3
@@ -7245,7 +7245,7 @@ Requires: ply
 Required-by: jqdatasdk
 ---
 Name: tifffile
-Version: 2022.3.25
+Version: 2022.4.8
 Summary: Read and write TIFF files
 Home-page: https://www.lfd.uci.edu/~gohlke/
 Author: Christoph Gohlke
@@ -7265,7 +7265,7 @@ Requires: requests
 Required-by: 
 ---
 Name: tiledb
-Version: 0.13.3
+Version: 0.14.1
 Summary: Pythonic interface to the TileDB array storage manager
 Home-page: https://github.com/TileDB-Inc/TileDB-Py
 Author: TileDB, Inc.
@@ -7282,7 +7282,7 @@ Author:
 Author-email: Simon Sapin <simon.sapin@exyr.org>
 License: 
 Requires: webencodings
-Required-by: cssselect2
+Required-by: cssselect2 nbconvert
 ---
 Name: tinydb
 Version: 4.7.0
@@ -7725,7 +7725,7 @@ Requires: attrs multimethod networkx numpy pandas tangled-up-in-unicode
 Required-by: pandas-profiling
 ---
 Name: vispy
-Version: 0.9.6
+Version: 0.10.0
 Summary: Interactive visualization in Python
 Home-page: http://vispy.org
 Author: Vispy contributors
@@ -8065,7 +8065,7 @@ Requires: setuptools
 Required-by: BTrees DateTime persistent pyramid rapids zope.index
 ---
 Name: zstd
-Version: 1.5.1.0
+Version: 1.5.2.4
 Summary: ZSTD Bindings for Python
 Home-page: https://github.com/sergey-dryabzhinsky/python-zstd
 Author: Sergey Dryabzhinsky, Anton Stuk

@@ -379,7 +379,7 @@ imagecodecs-lite==2020.1.31 # LEVEL_03 # The imagecodecs-lite package is depreca
 imagecodecs==2022.2.22 # LEVEL_02 # Image transformation, compression, and decompression codecs
 opencv-python==4.5.5.64 # LEVEL_02 # Wrapper package for OpenCV python bindings
 opencv-python-headless==4.5.5.64 # LEVEL_02 # Wrapper package for OpenCV python bindings
-tifffile==2022.3.25 # LEVEL_02 # Read and write TIFF files
+tifffile==2022.4.8 # LEVEL_02 # Read and write TIFF files
 Pillow==9.1.0 # LEVEL_01 # Python Imaging Library (Fork)
 imagesize==1.3.0 # LEVEL_01 # Getting image size from png/jpeg/jpeg2000/gif file
 ImageHash==4.2.1 # LEVEL_03 # Image Hashing library
@@ -387,7 +387,7 @@ ImageHash==4.2.1 # LEVEL_03 # Image Hashing library
 #
 # Finance
 #
-tda-api==1.5.2 # LEVEL_06 # An unofficial wrapper around the TD Ameritrade HTTP API
+tda-api==1.5.3 # LEVEL_06 # An unofficial wrapper around the TD Ameritrade HTTP API
 pyfolio==0.9.2 # LEVEL_06 # https://github.com/quantopian/pyfolio ; https://www.quantopian.com/docs/user-guide/tools/pyfolio # pyfolio is a Python library for performance and risk analysis of financial portfolios
 empyrical==0.5.5 # LEVEL_05 # empyrical is a Python library with performance and risk statistics commonly used in quantitative finance
 pandas-finance==0.1.2 # LEVEL_05 # High level API for access to and analysis of financial data
@@ -415,7 +415,7 @@ pyportfolioopt==1.5.2 # LEVEL_06 # Financial portfolio optimization in python
 #
 # Password & Cryptography
 #
-SecretStorage==3.3.1 # LEVEL_04 # Python bindings to FreeDesktop.org Secret Service API
+SecretStorage==3.3.2 # LEVEL_04 # Python bindings to FreeDesktop.org Secret Service API
 argon2-cffi==21.3.0 # LEVEL_04 # The secure Argon2 password hashing algorithm
 bcrypt==3.2.0 # LEVEL_03 # Modern password hashing for your software and your servers
 argon2-cffi-bindings==21.2.0 # LEVEL_03 # Low-level CFFI bindings for Argon2
@@ -431,7 +431,7 @@ jeepney==0.7.1 # LEVEL_01 # Low-level, pure Python DBus protocol wrapper
 #
 #
 #
-Authlib==1.0.0 # LEVEL_04 # The ultimate Python library in building OAuth and OpenID Connect servers and clients
+Authlib==1.0.1 # LEVEL_04 # The ultimate Python library in building OAuth and OpenID Connect servers and clients
 python-dotenv==0.20.0 # LEVEL_01 # Read key-value pairs from a .env file and set them as environment variables
 selenium==4.1.3 # LEVEL_05 #
 #
@@ -449,7 +449,7 @@ QtPy==2.0.1 # LEVEL_03 # Provides an abstraction layer on top of the various Qt 
 PySimpleGUI==4.59.0 # LEVEL_01 # Python GUIs for Humans. Launched in 2018. It's 2022 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers
 PyQt5==5.15.6 # LEVEL_02 # Python bindings for the Qt cross platform application toolkit
 PyQt5-Qt5==5.15.2 # LEVEL_01 # The subset of a Qt installation needed by PyQt5
-PyQt5-sip==12.9.1 # LEVEL_01 # The sip module support for PyQt5
+PyQt5-sip==12.10.1 # LEVEL_01 # The sip module support for PyQt5
 pyqtgraph==0.12.4 # LEVEL_02 # for Chaos # Scientific Graphics and GUI Library for Python
 glib==1.0.0 # LEVEL_01 # A python graphics library that piggy-backs off of pyqt5
 #
@@ -457,7 +457,7 @@ PyOpenGL==3.1.6 # LEVEL_01 # for PySpace # Standard OpenGL bindings for Python
 pygame==2.1.2 # LEVEL_01 # Python Game Development
 Pygments==2.11.2 # LEVEL_01 # Pygments is a syntax highlighting package written in Python
 pydot==1.4.2 # LEVEL_02 # Python interface to Graphviz's Dot
-networkx==2.7.1 # LEVEL_01 # Python package for creating and manipulating graphs and networks
+networkx==2.8 # LEVEL_01 # Python package for creating and manipulating graphs and networks
 # pysimpleguiqt>=0.35.0
 #
 holoviews==1.14.8 # LEVEL_05 # Stop plotting your data - annotate your data and let it visualize itself
@@ -479,7 +479,7 @@ dash-renderer==1.9.1 # LEVEL_01 # Front-end component renderer for Dash
 plotly==5.7.0 # LEVEL_03 # An open-source, interactive data visualization library for Python
 chart-studio==1.1.0 # LEVEL_04 # Utilities for interfacing with plotly's Chart Studio
 #
-vispy==0.9.6 # LEVEL_02 # Interactive visualization in Python
+vispy==0.10.0 # LEVEL_02 # Interactive visualization in Python
 #
 cufflinks==0.17.3 # LEVEL_09 # Productivity Tools for Plotly + Pandas
 missingno==0.5.1 # LEVEL_05 # Missing data visualization module for Python
@@ -505,13 +505,13 @@ hsluv==5.0.2 # LEVEL_01 # Human-friendly HSL
 #
 google-cloud-bigquery==3.0.1 # LEVEL_06 # Google BigQuery API client library
 google-cloud-bigquery-storage==2.13.1 # LEVEL_05 # BigQuery Storage API API client library
-google-cloud-core==2.2.3 # LEVEL_05 # Google Cloud API client core library
-google-api-python-client==2.43.0 # LEVEL_05 # Google API Client Library for Python
+google-cloud-core==2.3.0 # LEVEL_05 # Google Cloud API client core library
+google-api-python-client==2.45.0 # LEVEL_05 # Google API Client Library for Python
 google-auth-oauthlib==0.4.6 # LEVEL_04 # LOCKED # tensorboard 2.8.0 depends on google-auth-oauthlib<0.5 and >=0.4.1 # Google Authentication Library
-google-api-core==2.7.1 # LEVEL_04 # Google API client core library
+google-api-core==2.7.2 # LEVEL_04 # Google API client core library
 google-auth-httplib2==0.1.0 # LEVEL_04 # Google Authentication Library: httplib2 transport
 googletransx==2.4.2 # LEVEL_03 # Free Google Translate API for Python. Translates totally free of charge
-google-auth==2.6.2 # LEVEL_03 # Google Authentication Library
+google-auth==2.6.5 # LEVEL_03 # Google Authentication Library
 googleapis-common-protos==1.56.0 # LEVEL_02 # Common protobufs used in Google APIs
 google-pasta==0.2.0 # LEVEL_02 # pasta is an AST-based Python refactoring library
 google-resumable-media==2.3.2 # LEVEL_02 # Utilities for Google Media Downloads and Resumable Uploads
@@ -527,9 +527,9 @@ smart-open==5.2.1 # LEVEL_01 # Utils for streaming large files (S3, HDFS, GCS, A
 uamqp==1.5.3 # LEVEL_02 # AMQP 1.0 Client Library for Python
 
 # Amazon
-boto3==1.21.35  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
+boto3==1.21.45  # LEVEL_05 # The AWS SDK for Python # required by bertviz # The AWS SDK for Python
 s3transfer==0.5.2 # LEVEL_04 # An Amazon S3 Transfer Manager
-botocore==1.24.35 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
+botocore==1.24.45 # LEVEL_03 # required by boto3 # Low-level, data-driven core of boto 3
 boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 
 #
@@ -537,26 +537,26 @@ boto==2.49.0 # LEVEL_01 # Amazon Web Services Library
 #
 jupyter-bokeh==3.0.4 # LEVEL_09 # A Jupyter extension for rendering Bokeh content
 jupyter==1.0.0 # LEVEL_09 # Jupyter metapackage. Install all the Jupyter components in one go
-jupyterlab==3.3.3 # LEVEL_09 # JupyterLab computational environment
+jupyterlab==3.3.4 # LEVEL_09 # JupyterLab computational environment
 jupyter-server-proxy==3.2.1 # LEVEL_07 # Jupyter server extension to supervise and proxy web services
-jupyterlab-server==2.12.0 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
+jupyterlab-server==2.13.0 # LEVEL_07 # A set of server components for JupyterLab and JupyterLab like applications
 jupyter-dash==0.4.2 # LEVEL_06 # Dash support for the Jupyter notebook interface
 jupyter-server==1.16.0 # LEVEL_06 # The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications
 jupyter-console==6.4.3 # LEVEL_06 # Jupyter terminal console
 jupyter-client==7.2.2 # LEVEL_03 # Jupyter protocol implementation and client libraries
-jupyter-core==4.9.2 # LEVEL_02 # Jupyter core package. A base package on which Jupyter projects rely
-jupyterlab-pygments==0.2.0 # LEVEL_01 # Pygments theme using JupyterLab CSS variables
+jupyter-core==4.10.0 # LEVEL_02 # Jupyter core package. A base package on which Jupyter projects rely
+jupyterlab-pygments==0.2.2 # LEVEL_01 # Pygments theme using JupyterLab CSS variables
 jupyterlab-widgets==1.1.0 # LEVEL_01 # A JupyterLab extension
 #
 ipywidgets==7.7.0 # LEVEL_08 # IPython HTML widgets for Jupyter
 widgetsnbextension==3.6.0 # LEVEL_07 # IPython HTML widgets for Jupyter
 nbclassic==0.3.7 # LEVEL_08 # Jupyter Notebook as a Jupyter Server extension
 notebook-shim==0.1.0 # LEVEL_07 # A shim layer for notebook traits and config
-notebook==6.4.10 # LEVEL_06 # A web-based notebook environment for interactive computing
+notebook==6.4.11 # LEVEL_06 # A web-based notebook environment for interactive computing
 nbsphinx==0.8.8 # LEVEL_06 # Jupyter Notebook Tools for Sphinx
-nbconvert==6.4.5 # LEVEL_05 # Converting Jupyter Notebooks
+nbconvert==6.5.0 # LEVEL_05 # Converting Jupyter Notebooks
 qtconsole==5.3.0 # LEVEL_06 # Jupyter Qt console
-nbclient==0.5.13 # LEVEL_04 # A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor
+nbclient==0.6.0 # LEVEL_04 # A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor
 nbformat==5.3.0 # LEVEL_03 # The Jupyter Notebook format
 matplotlib-inline==0.1.3 # LEVEL_02 # Inline Matplotlib backend for Jupyter
 #
@@ -659,7 +659,7 @@ markdown2==2.4.2 # LEVEL_01 # A fast and complete Python implementation of Markd
 
 # HTML scraping, sanitizing, minimizing
 beautifulsoup4==4.11.1 # LEVEL_02 # Screen-scraping library
-bleach==4.1.0 # LEVEL_03 # An easy safelist-based HTML-sanitizing tool
+bleach==5.0.0 # LEVEL_02 # An easy safelist-based HTML-sanitizing tool
 ansi2html==1.7.0 # LEVEL_01
 htmlmin==0.1.12 # LEVEL_01 # An HTML Minifier
 
@@ -667,7 +667,7 @@ htmlmin==0.1.12 # LEVEL_01 # An HTML Minifier
 pipx==1.0.0 # LEVEL_03 # Install and Run Python Applications in Isolated Environments
 docker==5.0.3 # LEVEL_03 # A Python library for the Docker Engine API
 docker-pycreds==0.4.0 # LEVEL_02 # Python bindings for the docker credentials store API
-pyinstaller==4.10 # LEVEL_03 # PyInstaller bundles a Python application and all its dependencies into a single package
+pyinstaller==5.0 # LEVEL_03 # PyInstaller bundles a Python application and all its dependencies into a single package
 pyinstaller-hooks-contrib==2022.4 # LEVEL_01 # deployment # Community maintained hooks for PyInstaller
 
 # Packages
@@ -680,7 +680,7 @@ entrypoints==0.4 # LEVEL_01 # Discover and load entry points from installed pack
 fasteners==0.17.3 # LEVEL_01 # A python package that provides useful locks
 filelock==3.6.0 # LEVEL_01 # A platform independent file lock
 lockfile==0.12.2 # LEVEL_01 # Platform-independent file locking module
-locket==0.2.1 # LEVEL_01 # File-based locks for Python for Linux and Windows
+locket==1.0.0 # LEVEL_01 # File-based locks for Python on Linux and Windows
 portalocker==2.4.0 # LEVEL_01 # Wraps the portalocker recipe for easy usage
 fastrlock==0.8 # LEVEL_01 # Fast, re-entrant optimistic lock implemented in Cython
 
@@ -903,9 +903,9 @@ cligj==0.7.2 # LEVEL_02 # Click params for commmand line interfaces to GeoJSON
 # Resolve below
 #
 #streamlit # has some dependencies !!
-tiledb==0.13.3 # LEVEL_03 # Pythonic interface to the TileDB array storage manager
+tiledb==0.14.1 # LEVEL_03 # Pythonic interface to the TileDB array storage manager
 xarray==2022.3.0 # LEVEL_04 # N-D labeled arrays and datasets in Python
-zstd==1.5.1.0 # LEVEL_01 # ONLY_OSX # ZSTD Bindings for Python
+zstd==1.5.2.4 # LEVEL_01 # ONLY_OSX # ZSTD Bindings for Python
 #
 async-generator==1.10 # LEVEL_01 # Async generators and context managers for Python 3.5+
 iniconfig==1.1.1 # LEVEL_01 # iniconfig: brain-dead simple config-ini parsing
@@ -937,10 +937,10 @@ blinker==1.4 # LEVEL_01 # Fast, simple object-to-object and broadcast signaling
 gpustat==0.6.0 # LEVEL_03 # An utility to monitor NVIDIA GPU status and usage
 hiredis==2.0.0 # LEVEL_01 # Python wrapper for hiredis
 nvidia-ml-py3==7.352.0 # LEVEL_01 # Python Bindings for the NVIDIA Management Library
-opencensus==0.8.0 # LEVEL_05 # A stats collection and distributed tracing framework
+opencensus==0.9.0 # LEVEL_05 # A stats collection and distributed tracing framework
 opencensus-context==0.1.2 # LEVEL_01 # OpenCensus Runtime Context
 pydeck==0.7.1 # LEVEL_09 # Widget for deck.gl maps
-cattrs==1.10.0 # LEVEL_02 # Composable complex class support for attrs and dataclasses
+cattrs==1.10.0 # LEVEL_02 # LOCKED # requests-cache 0.9.3 requires cattrs<2.0,>=1.8 # Composable complex class support for attrs and dataclasses
 #
 biopython==1.79 # LEVEL_02 # Freely available tools for computational molecular biology
 boost==0.1 # LEVEL_04 # Boost automatically toots from Mastodon users
@@ -991,7 +991,7 @@ krb5==0.3.0 # LEVEL_01 # ONLY_OSX # Kerberos API bindings for Python
 msgpack-python==0.5.6 # LEVEL_01 # MessagePack (de)serializer
 #
 nibabel==3.2.2 # LEVEL_03 # Access a multitude of neuroimaging data formats
-nilearn==0.9.0 # LEVEL_04 # Statistical learning for neuroimaging in Python
+nilearn==0.9.1 # LEVEL_04 # Statistical learning for neuroimaging in Python
 #
 Rtree==1.0.0 # LEVEL_01 # R-Tree spatial index for Python GIS
 #

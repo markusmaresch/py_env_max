@@ -333,6 +333,7 @@ babel
 beautifulsoup4
 biopython
 black
+bleach
 blessings
 blis
 bottleneck
@@ -494,7 +495,6 @@ axial-positional-embedding
 azure-core
 bcrypt
 bert-for-tf2
-bleach
 bokeh
 botocore
 brotlipy
