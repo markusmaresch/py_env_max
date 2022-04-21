@@ -206,7 +206,7 @@ Author: Trent Mick
 Author-email: trentm@gmail.com
 License: MIT
 Requires: 
-Required-by: requests-cache
+Required-by: fs requests-cache
 ---
 Name: appnope
 Version: 0.1.3
@@ -2187,6 +2187,16 @@ Author-email:
 License: Apache 2
 Requires: 
 Required-by: aiohttp aiosignal
+---
+Name: fs
+Version: 2.4.15
+Summary: Python's filesystem abstraction layer
+Home-page: https://github.com/PyFilesystem/pyfilesystem2
+Author: Will McGugan
+Author-email: will@willmcgugan.com
+License: MIT
+Requires: appdirs pytz setuptools six
+Required-by: 
 ---
 Name: fsspec
 Version: 2022.3.0
@@ -5892,7 +5902,7 @@ Author: Stuart Bishop
 Author-email: stuart@stuartbishop.net
 License: MIT
 Requires: 
-Required-by: Babel DateTime LunarCalendar Mastodon.py celery djangorestframework exchange-calendars flower mlflow pandas pandas-market-calendars pyfolio trading-calendars yahoofinancials zeep
+Required-by: Babel DateTime LunarCalendar Mastodon.py celery djangorestframework exchange-calendars flower fs mlflow pandas pandas-market-calendars pyfolio trading-calendars yahoofinancials zeep
 ---
 Name: pytz-deprecation-shim
 Version: 0.1.0.post0
@@ -6432,7 +6442,7 @@ Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy cufflinks gunicorn ipython jupyter-packaging mlxtend nibabel numba plaster pmdarima pyinstaller pyramid python-daemon rapids setuptools-scm spacy streamz tensorboard tensorflow thinc zope.deprecation zope.index zope.interface
+Required-by: Fiona PasteDeploy cufflinks fs gunicorn ipython jupyter-packaging mlxtend nibabel numba plaster pmdarima pyinstaller pyramid python-daemon rapids setuptools-scm spacy streamz tensorboard tensorflow thinc zope.deprecation zope.index zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -6522,7 +6532,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli docker-pycreds fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client paramiko patsy plotly promise pyod python-dateutil python-multipart querystring-parser requests-file retrying rouge-score sacremoses scikit-surprise stanza streamz tenacity tensorboardX tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb zope.index
+Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli docker-pycreds fire fs glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client paramiko patsy plotly promise pyod python-dateutil python-multipart querystring-parser requests-file retrying rouge-score sacremoses scikit-surprise stanza streamz tenacity tensorboardX tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb zope.index
 ---
 Name: sklearn
 Version: 0.0

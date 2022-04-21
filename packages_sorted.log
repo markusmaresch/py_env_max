@@ -358,6 +358,7 @@ eventkit
 fastcluster
 fire
 flake8
+fs
 geopy
 gitdb
 glog
