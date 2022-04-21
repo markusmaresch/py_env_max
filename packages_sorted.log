@@ -63,6 +63,7 @@ defusedxml
 dill
 distlib
 dlpack
+dm-tree
 dnspython
 docutils
 doublemetaphone
@@ -349,7 +350,6 @@ cytoolz
 dedupe-hcluster
 deprecated
 django
-dm-tree
 docker-pycreds
 elastic-transport
 email-validator
@@ -463,6 +463,7 @@ tenacity
 tensorboardx
 tensorflow-addons
 tensorflow-hub
+tensorflow-model-optimization
 terminado
 thriftpy2
 tifffile
@@ -600,7 +601,6 @@ starlette
 streamz
 stumpy
 tensorflow-metadata
-tensorflow-model-optimization
 textblob
 tf-slim
 tf2onnx

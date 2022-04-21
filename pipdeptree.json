@@ -17,8 +17,8 @@
     {
         "key": "aenum",
         "package_name": "aenum",
-        "installed_version": "3.1.8",
-        "required_version": "3.1.8",
+        "installed_version": "3.1.11",
+        "required_version": "3.1.11",
         "dependencies": []
     },
     {
@@ -1080,7 +1080,7 @@
             {
                 "key": "qcore",
                 "package_name": "qcore",
-                "installed_version": "1.7.0",
+                "installed_version": "1.8.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -1627,8 +1627,8 @@
     {
         "key": "beautifulsoup4",
         "package_name": "beautifulsoup4",
-        "installed_version": "4.11.0",
-        "required_version": "4.11.0",
+        "installed_version": "4.11.1",
+        "required_version": "4.11.1",
         "dependencies": [
             {
                 "key": "soupsieve",
@@ -5399,7 +5399,7 @@
                                             {
                                                 "key": "beautifulsoup4",
                                                 "package_name": "beautifulsoup4",
-                                                "installed_version": "4.11.0",
+                                                "installed_version": "4.11.1",
                                                 "required_version": "Any",
                                                 "dependencies": [
                                                     {
@@ -10650,8 +10650,8 @@
     {
         "key": "django",
         "package_name": "Django",
-        "installed_version": "4.0.3",
-        "required_version": "4.0.3",
+        "installed_version": "4.0.4",
+        "required_version": "4.0.4",
         "dependencies": [
             {
                 "key": "asgiref",
@@ -10678,7 +10678,7 @@
             {
                 "key": "django",
                 "package_name": "Django",
-                "installed_version": "4.0.3",
+                "installed_version": "4.0.4",
                 "required_version": ">=2.2",
                 "dependencies": [
                     {
@@ -10708,7 +10708,7 @@
             {
                 "key": "django",
                 "package_name": "Django",
-                "installed_version": "4.0.3",
+                "installed_version": "4.0.4",
                 "required_version": ">=2.2",
                 "dependencies": [
                     {
@@ -10738,7 +10738,7 @@
             {
                 "key": "django",
                 "package_name": "django",
-                "installed_version": "4.0.3",
+                "installed_version": "4.0.4",
                 "required_version": ">=2.0",
                 "dependencies": [
                     {
@@ -10768,7 +10768,7 @@
             {
                 "key": "django",
                 "package_name": "Django",
-                "installed_version": "4.0.3",
+                "installed_version": "4.0.4",
                 "required_version": ">=2.0.1",
                 "dependencies": [
                     {
@@ -10798,7 +10798,7 @@
             {
                 "key": "django",
                 "package_name": "Django",
-                "installed_version": "4.0.3",
+                "installed_version": "4.0.4",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -10828,7 +10828,7 @@
             {
                 "key": "django",
                 "package_name": "django",
-                "installed_version": "4.0.3",
+                "installed_version": "4.0.4",
                 "required_version": ">=2.2",
                 "dependencies": [
                     {
@@ -10866,17 +10866,9 @@
     {
         "key": "dm-tree",
         "package_name": "dm-tree",
-        "installed_version": "0.1.6",
-        "required_version": "0.1.6",
-        "dependencies": [
-            {
-                "key": "six",
-                "package_name": "six",
-                "installed_version": "1.16.0",
-                "required_version": ">=1.12.0",
-                "dependencies": []
-            }
-        ]
+        "installed_version": "0.1.7",
+        "required_version": "0.1.7",
+        "dependencies": []
     },
     {
         "key": "dnspython",
@@ -11288,6 +11280,13 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
+                        "required_version": ">=1.14.5",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "1.20.0",
                         "required_version": ">=1.17.3",
                         "dependencies": []
                     },
@@ -11296,13 +11295,6 @@
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
                         "required_version": ">=1.19.3",
-                        "dependencies": []
-                    },
-                    {
-                        "key": "numpy",
-                        "package_name": "numpy",
-                        "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
                         "dependencies": []
                     }
                 ]
@@ -12238,7 +12230,7 @@
                     {
                         "key": "srsly",
                         "package_name": "srsly",
-                        "installed_version": "2.4.2",
+                        "installed_version": "2.4.3",
                         "required_version": ">=2.4.1,<3.0.0",
                         "dependencies": [
                             {
@@ -12346,7 +12338,7 @@
                             {
                                 "key": "srsly",
                                 "package_name": "srsly",
-                                "installed_version": "2.4.2",
+                                "installed_version": "2.4.3",
                                 "required_version": ">=2.4.0,<3.0.0",
                                 "dependencies": [
                                     {
@@ -18144,8 +18136,8 @@
     {
         "key": "importlib-resources",
         "package_name": "importlib-resources",
-        "installed_version": "5.6.0",
-        "required_version": "5.6.0",
+        "installed_version": "5.7.1",
+        "required_version": "5.7.1",
         "dependencies": [
             {
                 "key": "zipp",
@@ -19698,7 +19690,7 @@
                                     {
                                         "key": "beautifulsoup4",
                                         "package_name": "beautifulsoup4",
-                                        "installed_version": "4.11.0",
+                                        "installed_version": "4.11.1",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
@@ -21797,7 +21789,7 @@
                                             {
                                                 "key": "beautifulsoup4",
                                                 "package_name": "beautifulsoup4",
-                                                "installed_version": "4.11.0",
+                                                "installed_version": "4.11.1",
                                                 "required_version": "Any",
                                                 "dependencies": [
                                                     {
@@ -22841,7 +22833,7 @@
                     {
                         "key": "beautifulsoup4",
                         "package_name": "beautifulsoup4",
-                        "installed_version": "4.11.0",
+                        "installed_version": "4.11.1",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -23646,7 +23638,7 @@
                             {
                                 "key": "beautifulsoup4",
                                 "package_name": "beautifulsoup4",
-                                "installed_version": "4.11.0",
+                                "installed_version": "4.11.1",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
@@ -25634,7 +25626,7 @@
                                             {
                                                 "key": "beautifulsoup4",
                                                 "package_name": "beautifulsoup4",
-                                                "installed_version": "4.11.0",
+                                                "installed_version": "4.11.1",
                                                 "required_version": "Any",
                                                 "dependencies": [
                                                     {
@@ -27767,7 +27759,7 @@
                     {
                         "key": "beautifulsoup4",
                         "package_name": "beautifulsoup4",
-                        "installed_version": "4.11.0",
+                        "installed_version": "4.11.1",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -28521,7 +28513,7 @@
                             {
                                 "key": "beautifulsoup4",
                                 "package_name": "beautifulsoup4",
-                                "installed_version": "4.11.0",
+                                "installed_version": "4.11.1",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
@@ -29388,7 +29380,7 @@
                             {
                                 "key": "beautifulsoup4",
                                 "package_name": "beautifulsoup4",
-                                "installed_version": "4.11.0",
+                                "installed_version": "4.11.1",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
@@ -30128,7 +30120,7 @@
                                     {
                                         "key": "beautifulsoup4",
                                         "package_name": "beautifulsoup4",
-                                        "installed_version": "4.11.0",
+                                        "installed_version": "4.11.1",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
@@ -30855,7 +30847,7 @@
                                     {
                                         "key": "beautifulsoup4",
                                         "package_name": "beautifulsoup4",
-                                        "installed_version": "4.11.0",
+                                        "installed_version": "4.11.1",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
@@ -31800,7 +31792,7 @@
                                     {
                                         "key": "beautifulsoup4",
                                         "package_name": "beautifulsoup4",
-                                        "installed_version": "4.11.0",
+                                        "installed_version": "4.11.1",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
@@ -32459,7 +32451,7 @@
                                             {
                                                 "key": "beautifulsoup4",
                                                 "package_name": "beautifulsoup4",
-                                                "installed_version": "4.11.0",
+                                                "installed_version": "4.11.1",
                                                 "required_version": "Any",
                                                 "dependencies": [
                                                     {
@@ -33234,7 +33226,7 @@
                             {
                                 "key": "beautifulsoup4",
                                 "package_name": "beautifulsoup4",
-                                "installed_version": "4.11.0",
+                                "installed_version": "4.11.1",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
@@ -37064,7 +37056,7 @@
                             {
                                 "key": "beautifulsoup4",
                                 "package_name": "beautifulsoup4",
-                                "installed_version": "4.11.0",
+                                "installed_version": "4.11.1",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
@@ -38009,7 +38001,7 @@
                             {
                                 "key": "beautifulsoup4",
                                 "package_name": "beautifulsoup4",
-                                "installed_version": "4.11.0",
+                                "installed_version": "4.11.1",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
@@ -38668,7 +38660,7 @@
                                     {
                                         "key": "beautifulsoup4",
                                         "package_name": "beautifulsoup4",
-                                        "installed_version": "4.11.0",
+                                        "installed_version": "4.11.1",
                                         "required_version": "Any",
                                         "dependencies": [
                                             {
@@ -39332,7 +39324,7 @@
             {
                 "key": "beautifulsoup4",
                 "package_name": "beautifulsoup4",
-                "installed_version": "4.11.0",
+                "installed_version": "4.11.1",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -39785,7 +39777,7 @@
                     {
                         "key": "beautifulsoup4",
                         "package_name": "beautifulsoup4",
-                        "installed_version": "4.11.0",
+                        "installed_version": "4.11.1",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -41190,7 +41182,7 @@
                     {
                         "key": "beautifulsoup4",
                         "package_name": "beautifulsoup4",
-                        "installed_version": "4.11.0",
+                        "installed_version": "4.11.1",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -41849,7 +41841,7 @@
                             {
                                 "key": "beautifulsoup4",
                                 "package_name": "beautifulsoup4",
-                                "installed_version": "4.11.0",
+                                "installed_version": "4.11.1",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
@@ -42557,8 +42549,8 @@
     {
         "key": "omegaconf",
         "package_name": "omegaconf",
-        "installed_version": "2.1.1",
-        "required_version": "2.1.1",
+        "installed_version": "2.1.2",
+        "required_version": "2.1.2",
         "dependencies": [
             {
                 "key": "antlr4-python3-runtime",
@@ -43092,6 +43084,13 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
+                "required_version": ">=1.14.5",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.20.0",
                 "required_version": ">=1.17.3",
                 "dependencies": []
             },
@@ -43100,13 +43099,6 @@
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
                 "required_version": ">=1.19.3",
-                "dependencies": []
-            },
-            {
-                "key": "numpy",
-                "package_name": "numpy",
-                "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
                 "dependencies": []
             }
         ]
@@ -43121,6 +43113,13 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
+                "required_version": ">=1.14.5",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.20.0",
                 "required_version": ">=1.17.3",
                 "dependencies": []
             },
@@ -43129,13 +43128,6 @@
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
                 "required_version": ">=1.19.3",
-                "dependencies": []
-            },
-            {
-                "key": "numpy",
-                "package_name": "numpy",
-                "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
                 "dependencies": []
             }
         ]
@@ -43902,7 +43894,7 @@
             {
                 "key": "beautifulsoup4",
                 "package_name": "beautifulsoup4",
-                "installed_version": "4.11.0",
+                "installed_version": "4.11.1",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -47138,7 +47130,7 @@
             {
                 "key": "aenum",
                 "package_name": "aenum",
-                "installed_version": "3.1.8",
+                "installed_version": "3.1.11",
                 "required_version": ">=2.2.3",
                 "dependencies": []
             },
@@ -47172,7 +47164,7 @@
                     {
                         "key": "qcore",
                         "package_name": "qcore",
-                        "installed_version": "1.7.0",
+                        "installed_version": "1.8.0",
                         "required_version": "Any",
                         "dependencies": [
                             {
@@ -47210,7 +47202,7 @@
             {
                 "key": "qcore",
                 "package_name": "qcore",
-                "installed_version": "1.7.0",
+                "installed_version": "1.8.0",
                 "required_version": ">=0.5.1",
                 "dependencies": [
                     {
@@ -47231,7 +47223,7 @@
                     {
                         "key": "importlib-resources",
                         "package_name": "importlib-resources",
-                        "installed_version": "5.6.0",
+                        "installed_version": "5.7.1",
                         "required_version": ">=1.4.0",
                         "dependencies": [
                             {
@@ -47246,7 +47238,7 @@
                     {
                         "key": "typed-ast",
                         "package_name": "typed-ast",
-                        "installed_version": "1.5.2",
+                        "installed_version": "1.5.3",
                         "required_version": ">=1.0.3",
                         "dependencies": []
                     }
@@ -48700,7 +48692,7 @@
                                                     {
                                                         "key": "beautifulsoup4",
                                                         "package_name": "beautifulsoup4",
-                                                        "installed_version": "4.11.0",
+                                                        "installed_version": "4.11.1",
                                                         "required_version": "Any",
                                                         "dependencies": [
                                                             {
@@ -50541,7 +50533,7 @@
                                             {
                                                 "key": "beautifulsoup4",
                                                 "package_name": "beautifulsoup4",
-                                                "installed_version": "4.11.0",
+                                                "installed_version": "4.11.1",
                                                 "required_version": "Any",
                                                 "dependencies": [
                                                     {
@@ -54056,7 +54048,7 @@
                     {
                         "key": "srsly",
                         "package_name": "srsly",
-                        "installed_version": "2.4.2",
+                        "installed_version": "2.4.3",
                         "required_version": ">=2.4.1,<3.0.0",
                         "dependencies": [
                             {
@@ -54164,7 +54156,7 @@
                             {
                                 "key": "srsly",
                                 "package_name": "srsly",
-                                "installed_version": "2.4.2",
+                                "installed_version": "2.4.3",
                                 "required_version": ">=2.4.0,<3.0.0",
                                 "dependencies": [
                                     {
@@ -54937,7 +54929,7 @@
             {
                 "key": "beautifulsoup4",
                 "package_name": "beautifulsoup4",
-                "installed_version": "4.11.0",
+                "installed_version": "4.11.1",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -56438,7 +56430,7 @@
                                             {
                                                 "key": "beautifulsoup4",
                                                 "package_name": "beautifulsoup4",
-                                                "installed_version": "4.11.0",
+                                                "installed_version": "4.11.1",
                                                 "required_version": "Any",
                                                 "dependencies": [
                                                     {
@@ -56965,8 +56957,8 @@
     {
         "key": "pydeps",
         "package_name": "pydeps",
-        "installed_version": "1.10.12",
-        "required_version": "1.10.12",
+        "installed_version": "1.10.17",
+        "required_version": "1.10.17",
         "dependencies": [
             {
                 "key": "stdlib-list",
@@ -57839,7 +57831,7 @@
             {
                 "key": "pyinstaller-hooks-contrib",
                 "package_name": "pyinstaller-hooks-contrib",
-                "installed_version": "2022.3",
+                "installed_version": "2022.4",
                 "required_version": ">=2020.6",
                 "dependencies": []
             },
@@ -57855,8 +57847,8 @@
     {
         "key": "pyinstaller-hooks-contrib",
         "package_name": "pyinstaller-hooks-contrib",
-        "installed_version": "2022.3",
-        "required_version": "2022.3",
+        "installed_version": "2022.4",
+        "required_version": "2022.4",
         "dependencies": []
     },
     {
@@ -59935,8 +59927,8 @@
     {
         "key": "qcore",
         "package_name": "qcore",
-        "installed_version": "1.7.0",
-        "required_version": "1.7.0",
+        "installed_version": "1.8.0",
+        "required_version": "1.8.0",
         "dependencies": [
             {
                 "key": "cython",
@@ -64482,8 +64474,8 @@
     {
         "key": "sentry-sdk",
         "package_name": "sentry-sdk",
-        "installed_version": "1.5.8",
-        "required_version": "1.5.8",
+        "installed_version": "1.5.10",
+        "required_version": "1.5.10",
         "dependencies": [
             {
                 "key": "certifi",
@@ -65086,7 +65078,7 @@
             {
                 "key": "srsly",
                 "package_name": "srsly",
-                "installed_version": "2.4.2",
+                "installed_version": "2.4.3",
                 "required_version": ">=2.4.1,<3.0.0",
                 "dependencies": [
                     {
@@ -65194,7 +65186,7 @@
                     {
                         "key": "srsly",
                         "package_name": "srsly",
-                        "installed_version": "2.4.2",
+                        "installed_version": "2.4.3",
                         "required_version": ">=2.4.0,<3.0.0",
                         "dependencies": [
                             {
@@ -65502,7 +65494,7 @@
                     {
                         "key": "srsly",
                         "package_name": "srsly",
-                        "installed_version": "2.4.2",
+                        "installed_version": "2.4.3",
                         "required_version": ">=2.4.1,<3.0.0",
                         "dependencies": [
                             {
@@ -65610,7 +65602,7 @@
                             {
                                 "key": "srsly",
                                 "package_name": "srsly",
-                                "installed_version": "2.4.2",
+                                "installed_version": "2.4.3",
                                 "required_version": ">=2.4.0,<3.0.0",
                                 "dependencies": [
                                     {
@@ -66140,14 +66132,14 @@
     {
         "key": "sphinx-autodoc-typehints",
         "package_name": "sphinx-autodoc-typehints",
-        "installed_version": "1.17.0",
-        "required_version": "1.17.0",
+        "installed_version": "1.18.1",
+        "required_version": "1.18.1",
         "dependencies": [
             {
                 "key": "sphinx",
                 "package_name": "Sphinx",
                 "installed_version": "4.5.0",
-                "required_version": ">=4",
+                "required_version": ">=4.5",
                 "dependencies": [
                     {
                         "key": "alabaster",
@@ -66816,8 +66808,8 @@
     {
         "key": "srsly",
         "package_name": "srsly",
-        "installed_version": "2.4.2",
-        "required_version": "2.4.2",
+        "installed_version": "2.4.3",
+        "required_version": "2.4.3",
         "dependencies": [
             {
                 "key": "catalogue",
@@ -67821,7 +67813,7 @@
             {
                 "key": "websockets",
                 "package_name": "websockets",
-                "installed_version": "10.2",
+                "installed_version": "10.3",
                 "required_version": ">=9.0.0",
                 "dependencies": []
             }
@@ -68987,17 +68979,9 @@
             {
                 "key": "dm-tree",
                 "package_name": "dm-tree",
-                "installed_version": "0.1.6",
+                "installed_version": "0.1.7",
                 "required_version": "~=0.1.1",
-                "dependencies": [
-                    {
-                        "key": "six",
-                        "package_name": "six",
-                        "installed_version": "1.16.0",
-                        "required_version": ">=1.12.0",
-                        "dependencies": []
-                    }
-                ]
+                "dependencies": []
             },
             {
                 "key": "numpy",
@@ -70234,6 +70218,13 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
+                        "required_version": ">=1.14.5",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "1.20.0",
                         "required_version": ">=1.17.3",
                         "dependencies": []
                     },
@@ -70242,13 +70233,6 @@
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
                         "required_version": ">=1.19.3",
-                        "dependencies": []
-                    },
-                    {
-                        "key": "numpy",
-                        "package_name": "numpy",
-                        "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
                         "dependencies": []
                     }
                 ]
@@ -71278,17 +71262,9 @@
                     {
                         "key": "dm-tree",
                         "package_name": "dm-tree",
-                        "installed_version": "0.1.6",
+                        "installed_version": "0.1.7",
                         "required_version": "~=0.1.1",
-                        "dependencies": [
-                            {
-                                "key": "six",
-                                "package_name": "six",
-                                "installed_version": "1.16.0",
-                                "required_version": ">=1.12.0",
-                                "dependencies": []
-                            }
-                        ]
+                        "dependencies": []
                     },
                     {
                         "key": "numpy",
@@ -72138,7 +72114,7 @@
             {
                 "key": "srsly",
                 "package_name": "srsly",
-                "installed_version": "2.4.2",
+                "installed_version": "2.4.3",
                 "required_version": ">=2.4.0,<3.0.0",
                 "dependencies": [
                     {
@@ -73215,7 +73191,7 @@
             {
                 "key": "beautifulsoup4",
                 "package_name": "beautifulsoup4",
-                "installed_version": "4.11.0",
+                "installed_version": "4.11.1",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -73386,8 +73362,8 @@
     {
         "key": "typed-ast",
         "package_name": "typed-ast",
-        "installed_version": "1.5.2",
-        "required_version": "1.5.2",
+        "installed_version": "1.5.3",
+        "required_version": "1.5.3",
         "dependencies": []
     },
     {
@@ -73421,7 +73397,7 @@
             {
                 "key": "importlib-resources",
                 "package_name": "importlib-resources",
-                "installed_version": "5.6.0",
+                "installed_version": "5.7.1",
                 "required_version": ">=1.4.0",
                 "dependencies": [
                     {
@@ -73436,7 +73412,7 @@
             {
                 "key": "typed-ast",
                 "package_name": "typed-ast",
-                "installed_version": "1.5.2",
+                "installed_version": "1.5.3",
                 "required_version": ">=1.0.3",
                 "dependencies": []
             }
@@ -74158,7 +74134,7 @@
             {
                 "key": "sentry-sdk",
                 "package_name": "sentry-sdk",
-                "installed_version": "1.5.8",
+                "installed_version": "1.5.10",
                 "required_version": ">=1.0.0",
                 "dependencies": [
                     {
@@ -74238,8 +74214,8 @@
     {
         "key": "websockets",
         "package_name": "websockets",
-        "installed_version": "10.2",
-        "required_version": "10.2",
+        "installed_version": "10.3",
+        "required_version": "10.3",
         "dependencies": []
     },
     {
@@ -74710,7 +74686,7 @@
                             {
                                 "key": "beautifulsoup4",
                                 "package_name": "beautifulsoup4",
-                                "installed_version": "4.11.0",
+                                "installed_version": "4.11.1",
                                 "required_version": "Any",
                                 "dependencies": [
                                     {
@@ -75533,7 +75509,7 @@
             {
                 "key": "beautifulsoup4",
                 "package_name": "beautifulsoup4",
-                "installed_version": "4.11.0",
+                "installed_version": "4.11.1",
                 "required_version": "Any",
                 "dependencies": [
                     {

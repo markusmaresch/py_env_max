@@ -9,7 +9,7 @@ Requires: six
 Required-by: jax rouge-score tensorboard tensorflow tensorflow-datasets tensorflow-metadata tf-slim
 ---
 Name: aenum
-Version: 3.1.8
+Version: 3.1.11
 Summary: Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
 Home-page: https://github.com/ethanfurman/aenum
 Author: Ethan Furman
@@ -499,7 +499,7 @@ Requires: cffi six
 Required-by: paramiko
 ---
 Name: beautifulsoup4
-Version: 4.11.0
+Version: 4.11.1
 Summary: Screen-scraping library
 Home-page: https://www.crummy.com/software/BeautifulSoup/bs4/
 Author: Leonard Richardson
@@ -1559,7 +1559,7 @@ Requires: click cloudpickle dask jinja2 msgpack packaging psutil pyyaml sortedco
 Required-by: dask-ml
 ---
 Name: Django
-Version: 4.0.3
+Version: 4.0.4
 Summary: A high-level Python web framework that encourages rapid development and clean, pragmatic design.
 Home-page: https://www.djangoproject.com/
 Author: Django Software Foundation
@@ -1639,13 +1639,13 @@ Requires:
 Required-by: 
 ---
 Name: dm-tree
-Version: 0.1.6
+Version: 0.1.7
 Summary: Tree is a library for working with nested data structures.
 Home-page: https://github.com/deepmind/tree
 Author: DeepMind
 Author-email: tree-copybara@google.com
 License: Apache 2.0
-Requires: six
+Requires: 
 Required-by: tensorflow-model-optimization
 ---
 Name: dnspython
@@ -2899,7 +2899,7 @@ Requires: zipp
 Required-by: Flask Markdown Sphinx keyring mlflow
 ---
 Name: importlib-resources
-Version: 5.6.0
+Version: 5.7.1
 Summary: Read resources from Python packages
 Home-page: https://github.com/python/importlib_resources
 Author: Barry Warsaw
@@ -4335,7 +4335,7 @@ Requires:
 Required-by: 
 ---
 Name: omegaconf
-Version: 2.1.1
+Version: 2.1.2
 Summary: A flexible configuration library
 Home-page: https://github.com/omry/omegaconf
 Author: Omry Yadan
@@ -5325,7 +5325,7 @@ Requires:
 Required-by: pytorch-lightning torchmetrics
 ---
 Name: pydeps
-Version: 1.10.12
+Version: 1.10.17
 Summary: Display module dependencies
 Home-page: https://github.com/thebjorn/pydeps
 Author: bjorn
@@ -5435,7 +5435,7 @@ Requires: altgraph macholib pyinstaller-hooks-contrib setuptools
 Required-by: 
 ---
 Name: pyinstaller-hooks-contrib
-Version: 2022.3
+Version: 2022.4
 Summary: Community maintained hooks for PyInstaller
 Home-page: https://github.com/pyinstaller/pyinstaller-hooks-contrib
 Author: 
@@ -5945,7 +5945,7 @@ Requires:
 Required-by: jupyter-client jupyter-server notebook qtconsole
 ---
 Name: qcore
-Version: 1.7.0
+Version: 1.8.0
 Summary: Quora's core utility library
 Home-page: https://github.com/quora/qcore
 Author: Quora, Inc.
@@ -6395,7 +6395,7 @@ Requires:
 Required-by: bertviz tf-models-official
 ---
 Name: sentry-sdk
-Version: 1.5.8
+Version: 1.5.10
 Summary: Python client for Sentry (https://sentry.io)
 Home-page: https://github.com/getsentry/sentry-python
 Author: Sentry Team and Contributors
@@ -6522,7 +6522,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli dm-tree docker-pycreds fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client paramiko patsy plotly promise pyod python-dateutil python-multipart querystring-parser requests-file retrying rouge-score sacremoses scikit-surprise stanza streamz tenacity tensorboardX tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb zope.index
+Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli docker-pycreds fire glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client paramiko patsy plotly promise pyod python-dateutil python-multipart querystring-parser requests-file retrying rouge-score sacremoses scikit-surprise stanza streamz tenacity tensorboardX tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb zope.index
 ---
 Name: sklearn
 Version: 0.0
@@ -6685,7 +6685,7 @@ Requires: colorama livereload sphinx
 Required-by: 
 ---
 Name: sphinx-autodoc-typehints
-Version: 1.17.0
+Version: 1.18.1
 Summary: Type hints (PEP 484) support for the Sphinx autodoc extension
 Home-page: https://github.com/tox-dev/sphinx-autodoc-typehints
 Author: Alex Grönholm
@@ -6805,7 +6805,7 @@ Requires:
 Required-by: Django mlflow
 ---
 Name: srsly
-Version: 2.4.2
+Version: 2.4.3
 Summary: Modern high-performance serialization utilities for Python
 Home-page: https://github.com/explosion/srsly
 Author: Explosion
@@ -7485,7 +7485,7 @@ Requires: aiodns aiohttp aiohttp-socks beautifulsoup4 cchardet elasticsearch fak
 Required-by: 
 ---
 Name: typed-ast
-Version: 1.5.2
+Version: 1.5.3
 Summary: a fork of Python 2 and 3 ast modules with type comment support
 Home-page: https://github.com/python/typed_ast
 Author: David Fisher
@@ -7805,7 +7805,7 @@ Requires:
 Required-by: docker jupyter-server
 ---
 Name: websockets
-Version: 10.2
+Version: 10.3
 Summary: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
 Home-page: https://github.com/aaugustin/websockets
 Author: Aymeric Augustin
