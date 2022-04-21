@@ -4585,7 +4585,7 @@ Requires: PyYAML htmlmin jinja2 joblib markupsafe matplotlib missingno multimeth
 Required-by: pycaret
 ---
 Name: pandas-stubs
-Version: 1.2.0.57
+Version: 1.2.0.58
 Summary: Type annotations for Pandas
 Home-page: https://github.com/VirtusLab/pandas-stubs
 Author: Zbigniew Królikowski
@@ -4625,13 +4625,13 @@ Requires:
 Required-by: nbconvert
 ---
 Name: panel
-Version: 0.12.7
+Version: 0.13.0
 Summary: A high level app and dashboarding solution for Python.
 Home-page: http://panel.holoviz.org
 Author: HoloViz
 Author-email: developers@holoviz.org
 License: BSD
-Requires: bleach bokeh markdown param pyct pyviz-comms requests setuptools tqdm
+Requires: bleach bokeh markdown param pyct pyviz-comms requests tqdm
 Required-by: holoviews
 ---
 Name: param
@@ -5585,12 +5585,12 @@ Requires:
 Required-by: robin-stocks
 ---
 Name: pyparsing
-Version: 3.0.7
-Summary: Python parsing module
-Home-page: https://github.com/pyparsing/pyparsing/
-Author: Paul McGuire
-Author-email: ptmcg.gm+pyparsing@gmail.com
-License: MIT License
+Version: 3.0.8
+Summary: pyparsing module - Classes and methods to define and execute parsing grammars
+Home-page: 
+Author: 
+Author-email: Paul McGuire <ptmcg.gm+pyparsing@gmail.com>
+License: 
 Requires: 
 Required-by: cloudscraper httplib2 matplotlib packaging pydot
 ---
@@ -5875,7 +5875,7 @@ Requires: torch
 Required-by: torch-optimizer
 ---
 Name: pytype
-Version: 2022.3.29
+Version: 2022.4.15
 Summary: Python type inferencer
 Home-page: https://google.github.io/pytype
 Author: 
@@ -6432,7 +6432,7 @@ Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy cufflinks gunicorn ipython jupyter-packaging mlxtend nibabel numba panel plaster pmdarima pyinstaller pyramid python-daemon rapids setuptools-scm spacy streamz tensorboard tensorflow thinc zope.deprecation zope.index zope.interface
+Required-by: Fiona PasteDeploy cufflinks gunicorn ipython jupyter-packaging mlxtend nibabel numba plaster pmdarima pyinstaller pyramid python-daemon rapids setuptools-scm spacy streamz tensorboard tensorflow thinc zope.deprecation zope.index zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -7295,7 +7295,7 @@ Requires:
 Required-by: 
 ---
 Name: tokenizers
-Version: 0.11.6
+Version: 0.12.1
 Summary: Fast and Customizable Tokenizers
 Home-page: https://github.com/huggingface/tokenizers
 Author: Anthony MOI
@@ -7525,8 +7525,8 @@ Requires: importlib-resources typed-ast
 Required-by: pyanalyze
 ---
 Name: typing_extensions
-Version: 4.1.1
-Summary: Backported and Experimental Type Hints for Python 3.6+
+Version: 4.2.0
+Summary: Backported and Experimental Type Hints for Python 3.7+
 Home-page: 
 Author: 
 Author-email: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
