@@ -4,7 +4,8 @@
 import sys
 import argparse
 import datetime
-from distlib.version import NormalizedVersion
+
+from distlib.version import NormalizedVersion  # needs to be installed
 
 from env_cmd import EnvCmd
 from req_cmd import ReqCmd
@@ -32,6 +33,9 @@ class PyEnvMax:
     def set_activated_environment(self, activated: str):
         self.environment_name = activated
         return
+
+    def get_activated_environment(self) -> str:
+        return self.environment_name
 
     @staticmethod
     def check_executables() -> bool:
@@ -78,16 +82,18 @@ class PyEnvMax:
             print()
             return False
         self.set_activated_environment(activated)
-        print('Using: {}'.format(activated))
+        print('Using: {}  .. as activated environment'.format(activated))
         return True
 
     def run(self) -> int:
+        env_default = self.get_activated_environment()
         parser = argparse.ArgumentParser(prog='py_env_max',
                                          description='Maintain and maximize a python environment',
                                          epilog='Maximize you python environment !')
 
         parser.add_argument('-f', '--force', action='store_true', help='force creation/overwriting of files')
-        parser.add_argument('-e', '--env', action='store', help='environment name')
+        parser.add_argument('-e', '--env', action='store',
+                            help='environment name, overriding \'{}\''.format(env_default))
 
         group = parser.add_mutually_exclusive_group(required=True)
         group.add_argument('-ei', '--env_import', action='store_true',
@@ -105,18 +111,19 @@ class PyEnvMax:
         args = parser.parse_args()
         print(args)
 
+        env_name = self.get_activated_environment()
         if args.env_import:
-            EnvCmd.environment_import()
+            EnvCmd.env_import(env_name=env_name)
         elif args.env_update:
-            EnvCmd.environment_update()
+            EnvCmd.env_update(env_name=env_name)
         elif args.yml_import:
-            YmlCmd.yml_import()
+            YmlCmd.yml_import(env_name=env_name)
         elif args.yml_export:
-            YmlCmd.yml_export()
+            YmlCmd.yml_export(env_name=env_name)
         elif args.req_import:
-            ReqCmd.req_import()
+            ReqCmd.req_import(env_name=env_name)
         elif args.req_export:
-            ReqCmd.req_export()
+            ReqCmd.req_export(env_name=env_name)
         else:
             print('? internal switch ?')
             parser.print_help()

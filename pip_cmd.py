@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 #
 import sys
-# import argparse
-# import os
 import subprocess
 
 from packaging.utils import canonicalize_name
@@ -12,7 +10,7 @@ from packaging.utils import canonicalize_name
 from pip._internal.commands.check import CheckCommand
 from pip._internal.cli.status_codes import SUCCESS
 
-from py_package import PyPackage
+from database import Database
 
 
 # from database import Database
@@ -65,15 +63,17 @@ class PipCmd:
         return False
 
     @staticmethod
-    def pip_list() -> [str]:  # only the canonical names of the installed packages; could also provide version_installed
+    def pip_list() -> [str]:
+        # only the canonical names of the installed packages; could also provide version_installed
         # fairly quick
-        #
+        # pip list .. not very useful by itself !
         # rework to: json = pip list --format json
         #
         try:
             print('Executing: pip list')
             output = subprocess.check_output(['pip', 'list'])
         except:
+            print('Error: pip list')
             return None
         count = (-2)
         packages = list()
@@ -84,29 +84,25 @@ class PipCmd:
             package = (line.split()[0]).decode()
             packages.append(package)
         # for
-        packages_sorted = sorted(packages, key=str.casefold)
+        packages_set = set(packages)
+        packages_sorted = sorted(packages_set, key=str.casefold)
         return packages_sorted
 
     @staticmethod
-    def pip_show() -> [PyPackage]:
+    def pip_show(db: Database, packages: [str]) -> bool:
         # return list of all installed packages
-
-        packages_sorted = PipCmd.pip_list()
-        if packages_sorted is None:
-            return None
-
-        arguments = ['pip', 'show'] + [str(elem) for elem in packages_sorted]
+        arguments = ['pip', 'show'] + [str(elem) for elem in packages]
         try:
-            print('Executing: pip show: of {}'.format(len(packages_sorted)))
+            print('Executing: pip show: of {}'.format(len(packages)))
             output = subprocess.check_output(arguments)
         except:
-            return None
-        py_packages = list()
-        name = ''
-        version = ''
-        summary = ''
-        requires = ''
-        required_by = ''
+            print('Error: pip show: of {}'.format(len(packages)))
+            return False
+        name = None
+        version = None
+        summary = None
+        requires = None
+        required_by = None
         for line_b in output.splitlines():
             line = line_b.decode()
             key, rest = (line.split(maxsplit=1) + [None])[:2]
@@ -134,51 +130,32 @@ class PipCmd:
                     requires = items
                 else:
                     required_by = items
+                # fi
+            elif key == 'Home-page:' or key == 'Author:' \
+                    or key == 'Author-email:' or key == 'License:' \
+                    or key == 'Location:':
+                continue
             elif line.startswith('-'):
-                if name:
-                    py_package = PyPackage(name=name, version_installed=version,
-                                           summary=summary, requires=requires,
-                                           required_by=required_by)
-                    name = ''
-                    version = ''
-                    summary = ''
-                    requires = ''
-                    required_by = ''
-                    py_packages.append(py_package)
+                continue
+            # fi
+            if name is not None and version is not None and summary is not None\
+                    and requires is not None and required_by is not None:
+                if not db.package_add(name=name, version_installed=version,
+                                      summary=summary, requires=requires,
+                                      required_by=required_by):
+                    print('Error: db.package_add({})'.format(name))
+                    return False
+                name = None
+                version = None
+                summary = None
+                requires = None
+                required_by = None
+                continue
+            else:
                 continue
             # fi
         # for
-        test_consistency = True
-        if test_consistency:
-            print('Testing consistency of {} packages'.format(len(py_packages)))
-            packages_needed = set()
-            for pp in py_packages:
-                needed = pp.get_requires() + pp.get_required_by()
-                for n in needed:
-                    packages_needed.add(n)
-            # for
-            print('Found {} depending packages'.format(len(packages_needed)))
-            missing = 0
-            for p in packages_needed:
-                found = False
-                for cp in py_packages:
-                    if p == cp.get_name():
-                        found = True
-                        break
-                    # fi
-                # for
-                if found:
-                    continue
-
-                print('  Not found: {} ?'.format(p))
-                missing += 1
-            # for
-            print('Missing depending packages: {}'.format(missing))
-        # fi
-
-        # calculate level
-
-        return py_packages
+        return True
 
     @staticmethod
     def pip_outdated() -> (str, str, str, str):
@@ -190,9 +167,6 @@ class PipCmd:
     def pip_selftest() -> bool:
         version = PipCmd.version()
         if not version:
-            return False
-        packages = PipCmd().pip_show()
-        if packages is None:
             return False
         packages = PipCmd().pip_list()
         if packages is None:

@@ -8,17 +8,25 @@ import requests
 class PyPiCmd:
 
     @staticmethod
-    def get_pypi_json(name: str) -> str:
-        package = name
-        response = requests.get(f'https://pypi.org/pypi/{package}/json')
-        js = response.json()
-        return js
+    def get_pypi_json(package: str) -> dict:
+        try:
+            response = requests.get(f'https://pypi.org/pypi/{package}/json')
+            js = response.json()
+            return js
+        except:
+            return None
 
     @staticmethod
-    def get_release_latest(name: str) -> str:
-        js = PyPiCmd.get_pypi_json(name)
-        info = js['info']
-        latest_version = info['version']
+    def get_release_latest(package: str) -> str:
+        js = PyPiCmd.get_pypi_json(package=package)
+        if js is None:
+            return None
+        info = js.get('info')
+        if info is None:
+            return None
+        latest_version = info.get('version')
+        if latest_version is None:
+            return None
         return latest_version
 
     @staticmethod
