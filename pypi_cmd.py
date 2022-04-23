@@ -77,7 +77,7 @@ class PyPiCmd:
         return releases
 
     @staticmethod
-    def test_many() -> bool:
+    def test_releases_many() -> bool:
         # grep -e '"key"' pipdeptree.json | sed -e "s/ //g"  -e "s/\"/'/g" | sort -u | cut -c7-999
         packages = [
             'absl-py', 'aenum', 'affinegap', 'agate', 'aiodns', 'aiohttp',
@@ -102,10 +102,20 @@ class PyPiCmd:
         return True
 
     @staticmethod
-    def pip_selftest() -> bool:
-        PyPiCmd.test_many()
+    def test_releases_one() -> bool:
         releases = PyPiCmd().get_releases('altair')
         if releases is None:
+            return False
+        releases = PyPiCmd().get_releases('tensorflow')
+        if releases is None:
+            return False
+        return True
+
+    @staticmethod
+    def pip_selftest() -> bool:
+        if not PyPiCmd.test_releases_many():
+            return False
+        if not PyPiCmd.test_releases_one():
             return False
         return True
 
