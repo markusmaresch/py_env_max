@@ -1,11 +1,50 @@
 #
 # -*- coding: utf-8 -*-
 #
+import time
+import os
+
 from database import Database
 from pip_cmd import PipCmd
+from pypi_cmd import PyPiCmd
 
 
 class EnvCmd:
+
+    @staticmethod
+    def env_calc_levels(db: Database) -> bool:
+        keys = db.packages_get_names()
+        print('Check levels for {} packages'.format(len(keys)))
+        return True
+
+    @staticmethod
+    def env_get_releases(db: Database) -> bool:
+        keys = db.packages_get_names()
+        print('Check releases for {} packages'.format(len(keys)))
+        now = int(time.time())
+        packages_needed = set()
+        for package_name in keys:
+            t = db.package_get_releases_checked_time(package_name)
+            diff = (now - t) if t > 0 else 9999999
+            if diff > 60 * 60:
+                packages_needed.add(package_name)
+        # for
+        if len(packages_needed) < 1:
+            print('All good')
+            return True
+        print('Get releases for {} packages'.format(len(packages_needed)))
+        releases_all = PyPiCmd.get_release_many(packages_needed)
+        if releases_all is None:
+            return False
+        i = 0
+        for package_name in packages_needed:
+            releases = releases_all[i]
+            if releases is None:
+                continue
+            if not db.package_set_releases_recent(package_name, releases, now):
+                return False
+            i += 1
+        return True
 
     @staticmethod
     def env_check_consistency(db: Database) -> bool:
@@ -33,16 +72,24 @@ class EnvCmd:
         # read existing environment and store in internal database
         db_name = '{}.json'.format(env_name)
         print('env_import: {}'.format(env_name))
-        packages = PipCmd.pip_list()
-        if packages is None:
+        develop = True
+        if develop and os.path.exists(db_name):
+            db = Database()
+            db.load(db_name)
+        else:
+            packages = PipCmd.pip_list()
+            if packages is None:
+                return False
+            db = Database()
+            if not PipCmd.pip_show(db, packages=packages):
+                return False
+            if not EnvCmd.env_check_consistency(db):
+                return False
+        # fi
+        if not EnvCmd.env_calc_levels(db):
             return False
-        db = Database()
-        if not PipCmd.pip_show(db, packages=packages):
+        if not EnvCmd.env_get_releases(db):  # could be done in parallel to other work
             return False
-        if not EnvCmd.env_check_consistency(db):
-            return False
-        # calc levels
-        # get versions_recent via PypiCmd.get_releases (needs parallel execution)
         ok = True if db.dump(json_path=db_name) else False
         db.close()
         return ok

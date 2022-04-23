@@ -3,6 +3,7 @@
 #
 import sys
 import re
+import random
 import requests
 from threading import Thread
 
@@ -55,7 +56,7 @@ class PyPiCmd:
         # print('Start: {} {}'.format(name, index))
         rs = PyPiCmd.get_releases(name=name, latestN=10)
         result[index] = rs
-        print('End:   {} .. {}'.format(name, rs))
+        print('.', end='' if random.random() > 1.0/40.0 else '\n')
         return
 
     @staticmethod
@@ -73,6 +74,7 @@ class PyPiCmd:
         for i in range(N):
             threads[i].join()
         # for
+        print()
         del threads
         return releases
 
@@ -113,6 +115,7 @@ class PyPiCmd:
 
     @staticmethod
     def pip_selftest() -> bool:
+        r = random.random()
         if not PyPiCmd.test_releases_many():
             return False
         if not PyPiCmd.test_releases_one():

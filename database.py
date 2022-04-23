@@ -70,14 +70,23 @@ class Database:
         p[Database.REQUIRED_BY] = required_by
         return True
 
-    def package_add2(self, name: str, package_dict: dict) -> bool:
+    def package_set_releases_recent(self, name: str, releases: [str], checked_time: int) -> bool:
         table = self.table_packages()
         d = table.get(name)
-        if d is not None:
-            return d
-        table[name] = package_dict
-        d = table[name]
-        return d
+        if d is None:
+            # we assume update only
+            return False
+        d[Database.RELEASES_RECENT] = releases
+        d[Database.RELEASES_CHECKED_TIME] = checked_time
+        return True
+
+    def package_get_releases_checked_time(self, name: str) -> int:
+        table = self.table_packages()
+        d = table.get(name)
+        t = d.get(Database.RELEASES_CHECKED_TIME)
+        if t is None:
+            return -1
+        return t
 
     def package_get_requires(self, name: str) -> [str]:
         table = self.table_packages()
