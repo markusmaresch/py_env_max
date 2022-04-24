@@ -15,6 +15,7 @@ class EnvCmd:
     def env_calc_levels(db: Database) -> bool:
         keys = db.packages_get_names()
         print('Check levels for {} packages'.format(len(keys)))
+
         return True
 
     @staticmethod
@@ -30,7 +31,7 @@ class EnvCmd:
                 packages_needed.add(package_name)
         # for
         if len(packages_needed) < 1:
-            print('All good')
+            print('All packages uptodate for releases ...')
             return True
         print('Get releases for {} packages'.format(len(packages_needed)))
         releases_all = PyPiCmd.get_release_many(packages_needed)
