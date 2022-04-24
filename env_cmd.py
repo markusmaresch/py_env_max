@@ -15,7 +15,71 @@ class EnvCmd:
     def env_calc_levels(db: Database) -> bool:
         keys = db.packages_get_names()
         print('Check levels for {} packages'.format(len(keys)))
-
+        levels_max = 15
+        level = 0
+        old_len_lod = 99999
+        lod = keys
+        while True:
+            level += 1
+            if level >= levels_max:
+                break
+            if old_len_lod == len(lod) == 1:
+                break
+            if len(lod) < 1:
+                break
+            next_lod = list()
+            for d in lod:
+                dependencies = db.package_get_requires(name=d)
+                if level == 1:
+                    if len(dependencies) < 1:
+                        db.package_set_level(name=d, level=level)
+                        continue
+                    # fi
+                    next_lod.append(d)
+                    continue
+                # fi
+                # level > 1
+                found_below = 0
+                needed_below = len(dependencies)
+                for dep in dependencies:
+                    ll = db.package_get_level(dep)
+                    if ll < 0:
+                        continue
+                    if ll < level:
+                        found_below += 1
+                # for
+                #
+                # need for fix
+                #
+                cyclical = False
+                satisfied = (found_below >= needed_below)
+                if not satisfied:
+                    if d == 'dedupe':
+                        if needed_below >= 14 and found_below == needed_below - 1:
+                            # nasty hack for cyclical dependencies, which are otherwise hard to detect
+                            cyclical = True
+                #
+                # need for fix
+                #
+                if satisfied or cyclical:
+                    db.package_set_level(name=d, level=level)
+                else:
+                    next_lod.append(d)
+            # for
+            old_len_lod = len(lod)
+            del lod
+            lod = next_lod
+        # while
+        if len(lod) > 0:
+            print('')
+            print('Did NOT resolve all packages below')
+            for p in lod:
+                # not entirely correct !!
+                dependencies = db.package_get_requires(p)
+                print('  {} {}'.format(p, dependencies))
+            print('Did NOT resolve all packages above (could be cyclical behavior)')
+            print('')
+            return False
         return True
 
     @staticmethod

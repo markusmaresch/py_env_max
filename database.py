@@ -80,6 +80,25 @@ class Database:
         d[Database.RELEASES_CHECKED_TIME] = checked_time
         return True
 
+    def package_set_level(self, name: str, level: int) -> bool:
+        table = self.table_packages()
+        d = table.get(name)
+        if d is None:
+            # we assume update only
+            return False
+        d[Database.LEVEL] = int(level)
+        return True
+
+    def package_get_level(self, name: str) -> int:
+        table = self.table_packages()
+        d = table.get(name)
+        if d is None:
+            return -1
+        level = d.get(Database.LEVEL)
+        if level is None:
+            return -1
+        return int(level)
+
     def package_get_releases_checked_time(self, name: str) -> int:
         table = self.table_packages()
         d = table.get(name)
