@@ -56,7 +56,7 @@ class PyPiCmd:
         # print('Start: {} {}'.format(name, index))
         rs = PyPiCmd.get_releases(name=name, latestN=10)
         result[index] = rs
-        print('.', end='' if random.random() > 1.0/20.0 else '\n')
+        print('.', end='' if random.random() > 1.0/20.0 else '\n', flush=True)
         return
 
     @staticmethod

@@ -2318,6 +2318,16 @@ License: Apache 2.0
 Requires: 
 Required-by: tf-models-official
 ---
+Name: git-lfs
+Version: 1.6
+Summary: A lightweight Git Large File Storage fetcher
+Home-page: https://github.com/liberapay/git-lfs-fetch.py
+Author: Changaco
+Author-email: changaco@changaco.oy.lc
+License: CC0
+Requires: 
+Required-by: 
+---
 Name: gitdb
 Version: 4.0.9
 Summary: Git Object Database

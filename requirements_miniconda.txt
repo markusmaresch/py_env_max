@@ -1201,3 +1201,5 @@ plotnine==0.8.0 # LEVEL_05 # A grammar of graphics for python
 descartes==1.1.0 # LEVEL_04 # Use geometric objects as matplotlib paths and patches
 mizani==0.7.4 # LEVEL_04 # Scales for Python
 palettable==3.3.0 # LEVEL_01 # Color palettes for Python
+#
+git-lfs==1.6 # LEVEL_01 # A lightweight Git Large File Storage fetcher
