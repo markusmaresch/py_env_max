@@ -172,6 +172,7 @@ olefile
 opencensus-context
 optional-django
 orjson
+palettable
 pandas-stubs
 pandocfilters
 param
@@ -636,6 +637,7 @@ cmdstanpy
 control
 dask-glm
 datasets
+descartes
 distributed
 do-mpc
 elegantrl
@@ -670,6 +672,7 @@ kivy-examples
 kmodes
 lightfm
 lightgbm
+mizani
 mlxtend
 mplfinance
 msrest
@@ -754,6 +757,7 @@ nbconvert
 opencensus
 pandas-finance
 pandas-market-calendars
+plotnine
 pmdarima
 pyod
 rapidminer

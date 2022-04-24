@@ -1195,3 +1195,9 @@ exceptiongroup==1.0.0rc2 # LEVEL_01 # Backport of PEP 654 (exception groups)
 #
 #
 #fs==2.4.15 # LEVEL_02
+#
+# plot
+plotnine==0.8.0 # LEVEL_05 # A grammar of graphics for python
+descartes==1.1.0 # LEVEL_04 # Use geometric objects as matplotlib paths and patches
+mizani==0.7.4 # LEVEL_04 # Scales for Python
+palettable==3.3.0 # LEVEL_01 # Color palettes for Python
