@@ -3,6 +3,7 @@
 #
 import sys
 import json
+from packaging import version # needs to be installed before !! --> distutils.version import LooseVersion
 
 
 class Database:
@@ -69,6 +70,19 @@ class Database:
         p[Database.REQUIRES] = requires
         p[Database.REQUIRED_BY] = required_by
         return True
+
+    def package_get_releases_recent(self, name: str) -> [str]:
+        table = self.table_packages()
+        d = table.get(name)
+        if d is None:
+            # we assume update only
+            return None
+        releases = d.get(Database.RELEASES_RECENT)
+        if releases is None:
+            return None
+        # need to sort properly !!!!
+        s = sorted(releases, key=lambda x: version.Version(x), reverse=True)
+        return s
 
     def package_set_releases_recent(self, name: str, releases: [str], checked_time: int) -> bool:
         table = self.table_packages()

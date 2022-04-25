@@ -108,6 +108,11 @@ class EnvCmd:
                 continue
             if not db.package_set_releases_recent(package_name, releases, now):
                 return False
+            self_check = False
+            if self_check:
+                rr = db.package_get_releases_recent(package_name)
+                if rr is None:
+                    return False
             i += 1
         return True
 
