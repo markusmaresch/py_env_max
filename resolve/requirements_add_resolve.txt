@@ -1,27 +1,3 @@
-sweetviz
-    'pandas>=0.25.3,!=1.0.0,!=1.0.1,!=1.0.2',
-		'numpy>=1.16.0',
-		'matplotlib>=3.1.3',
-		'tqdm>=4.43.0',
-		'scipy>=1.3.2',
-		'jinja2>=2.11.1',
-		'importlib_resources>=1.2.0'
-
-https://github.com/dacker-team/bigquery/blob/master/setup.py
-https://github.com/dacker-team
-  "dbstream>=0.0.19",
-  "google-cloud-bigquery>=2.4.0",
-  "googleauthentication>=0.0.12",
-  "google-cloud-bigquery-storage>=2.1.0",
-  "pandas>=1.1.4",
-  "pyarrow>=2.0.0"
-
-Dependencies for Python Engine in Rapidminer:
-#https://docs.rapidminer.com/9.9/deployment/docker-compose/python-engine/index.html
-  - fs
-  # libiconv
-  # uwsgi
-
 
 #https://docs.perceptilabs.com/perceptilabs/advanced/included-packages#perceptilabs-0.13-and-above
 

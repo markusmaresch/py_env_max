@@ -1156,7 +1156,7 @@ Author: The Python Cryptographic Authority and individual contributors
 Author-email: cryptography-dev@python.org
 License: BSD or Apache License, Version 2.0
 Requires: cffi
-Required-by: Authlib SecretStorage azure-storage-blob paramiko pyOpenSSL rapidminer robin-stocks
+Required-by: Authlib SecretStorage azure-storage-blob googleauthentication paramiko pyOpenSSL rapidminer robin-stocks
 ---
 Name: cssselect2
 Version: 0.5.0
@@ -1257,6 +1257,16 @@ Author-email: erik.n.welch@gmail.com
 License: BSD
 Requires: toolz
 Required-by: 
+---
+Name: dacktool
+Version: 0.0.7
+Summary: Some python tools
+Home-page: https://github.com/dacker-team/dacktool
+Author: Dacker
+Author-email: hello@dacker.co
+License: UNKNOWN
+Requires: 
+Required-by: dbstream
 ---
 Name: dash
 Version: 2.3.1
@@ -1437,6 +1447,16 @@ Author-email: UNKNOWN
 License: The MIT License: http://www.opensource.org/licenses/mit-license.php
 Requires: future python-dateutil
 Required-by: dedupe-variable-datetime
+---
+Name: dbstream
+Version: 0.1.13
+Summary: A meta package to be connected to several databases
+Home-page: https://github.com/dacker-team/dbstream
+Author: Dacker
+Author-email: hello@dacker.co
+License: UNKNOWN
+Requires: dacktool google-api-core requests sshtunnel
+Required-by: googleauthentication
 ---
 Name: dbt-extractor
 Version: 0.4.1
@@ -2369,24 +2389,24 @@ Requires: python-gflags six
 Required-by: 
 ---
 Name: google-api-core
-Version: 2.7.2
+Version: 2.3.2
 Summary: Google API client core library
 Home-page: https://github.com/googleapis/python-api-core
 Author: Google LLC
 Author-email: googleapis-packages@google.com
 License: Apache 2.0
-Requires: google-auth googleapis-common-protos protobuf requests
-Required-by: google-api-python-client google-cloud-bigquery google-cloud-bigquery-storage google-cloud-core opencensus
+Requires: google-auth googleapis-common-protos protobuf requests setuptools
+Required-by: dbstream google-cloud-bigquery google-cloud-bigquery-storage google-cloud-core google-cloud-secret-manager opencensus
 ---
 Name: google-api-python-client
-Version: 2.45.0
+Version: 1.7.11
 Summary: Google API Client Library for Python
-Home-page: https://github.com/googleapis/google-api-python-client/
-Author: Google LLC
-Author-email: googleapis-packages@google.com
+Home-page: http://github.com/google/google-api-python-client/
+Author: Google Inc.
+Author-email: 
 License: Apache 2.0
-Requires: google-api-core google-auth google-auth-httplib2 httplib2 uritemplate
-Required-by: tf-models-official
+Requires: google-auth google-auth-httplib2 httplib2 six uritemplate
+Required-by: googleauthentication tf-models-official
 ---
 Name: google-auth
 Version: 2.6.5
@@ -2396,17 +2416,17 @@ Author: Google Cloud Platform
 Author-email: googleapis-packages@google.com
 License: Apache 2.0
 Requires: cachetools pyasn1-modules rsa six
-Required-by: google-api-core google-api-python-client google-auth-httplib2 google-auth-oauthlib google-cloud-core tensorboard
+Required-by: google-api-core google-api-python-client google-auth-httplib2 google-auth-oauthlib google-cloud-core googleauthentication tensorboard
 ---
 Name: google-auth-httplib2
-Version: 0.1.0
+Version: 0.0.3
 Summary: Google Authentication Library: httplib2 transport
 Home-page: https://github.com/GoogleCloudPlatform/google-auth-library-python-httplib2
 Author: Google Cloud Platform
-Author-email: googleapis-packages@google.com
+Author-email: jonwayne+google-auth@google.com
 License: Apache 2.0
-Requires: google-auth httplib2 six
-Required-by: google-api-python-client
+Requires: google-auth httplib2
+Required-by: google-api-python-client googleauthentication
 ---
 Name: google-auth-oauthlib
 Version: 0.4.6
@@ -2416,7 +2436,7 @@ Author: Google Cloud Platform
 Author-email: jonwayne+google-auth@google.com
 License: Apache 2.0
 Requires: google-auth requests-oauthlib
-Required-by: tensorboard
+Required-by: googleauthentication tensorboard
 ---
 Name: google-cloud-bigquery
 Version: 3.0.1
@@ -2447,6 +2467,16 @@ Author-email: googleapis-packages@google.com
 License: Apache 2.0
 Requires: google-api-core google-auth
 Required-by: google-cloud-bigquery
+---
+Name: google-cloud-secret-manager
+Version: 2.7.2
+Summary: Secret Manager API API client library
+Home-page: https://github.com/googleapis/python-secret-manager
+Author: Google LLC
+Author-email: googleapis-packages@google.com
+License: Apache 2.0
+Requires: google-api-core grpc-google-iam-v1 libcst packaging proto-plus
+Required-by: googleauthentication
 ---
 Name: google-crc32c
 Version: 1.3.0
@@ -2486,7 +2516,17 @@ Author: Google LLC
 Author-email: googleapis-packages@google.com
 License: Apache-2.0
 Requires: protobuf
-Required-by: google-api-core grpcio-status tensorflow-metadata
+Required-by: google-api-core grpc-google-iam-v1 grpcio-status tensorflow-metadata
+---
+Name: googleauthentication
+Version: 0.0.16
+Summary: A meta package to be connected to Google services
+Home-page: https://github.com/dacker-team/googleauthentication
+Author: Dacker
+Author-email: hello@dacker.co
+License: UNKNOWN
+Requires: cryptography dbstream google-api-python-client google-auth google-auth-httplib2 google-auth-oauthlib google-cloud-secret-manager
+Required-by: 
 ---
 Name: googletransx
 Version: 2.4.2
@@ -2558,6 +2598,16 @@ License: MIT License
 Requires: 
 Required-by: SQLAlchemy
 ---
+Name: grpc-google-iam-v1
+Version: 0.12.4
+Summary: IAM API client library
+Home-page: https://github.com/googleapis/python-grpc-google-iam-v1
+Author: Google LLC
+Author-email: googleapis-packages@google.com
+License: Apache 2.0
+Requires: googleapis-common-protos grpcio
+Required-by: google-cloud-secret-manager
+---
 Name: grpcio
 Version: 1.44.0
 Summary: HTTP/2-based RPC framework
@@ -2566,7 +2616,7 @@ Author: The gRPC Authors
 Author-email: grpc-io@googlegroups.com
 License: Apache License 2.0
 Requires: six
-Required-by: google-cloud-bigquery grpcio-status mlagents-envs ray tensorboard tensorflow
+Required-by: google-cloud-bigquery grpc-google-iam-v1 grpcio-status mlagents-envs ray tensorboard tensorflow
 ---
 Name: grpcio-status
 Version: 1.44.0
@@ -2936,7 +2986,7 @@ Author: Barry Warsaw
 Author-email: barry@python.org
 License: UNKNOWN
 Requires: zipp
-Required-by: typeshed-client
+Required-by: sweetviz typeshed-client
 ---
 Name: iniconfig
 Version: 1.1.1
@@ -3096,7 +3146,7 @@ Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
 Requires: MarkupSafe
-Required-by: Flask Sphinx altair bokeh distributed gradio jupyter-server jupyterlab jupyterlab-server nbconvert nbsphinx notebook pandas-profiling pyLDAvis pydeck recommenders spacy
+Required-by: Flask Sphinx altair bokeh distributed gradio jupyter-server jupyterlab jupyterlab-server nbconvert nbsphinx notebook pandas-profiling pyLDAvis pydeck recommenders spacy sweetviz
 ---
 Name: jmespath
 Version: 0.10.0
@@ -3552,7 +3602,7 @@ Author:
 Author-email: 
 License: MIT
 Requires: pyyaml typing-extensions typing-inspect
-Required-by: pytype
+Required-by: google-cloud-secret-manager pytype
 ---
 Name: lightfm
 Version: 1.16
@@ -3782,7 +3832,7 @@ Author: John D. Hunter, Michael Droettboom
 Author-email: matplotlib-users@python.org
 License: PSF
 Requires: cycler fonttools kiwisolver numpy packaging pillow pyparsing python-dateutil
-Required-by: catboost control descartes do-mpc elegantrl fastai fbprophet filterpy gradio missingno mizani mlxtend mplfinance pandas-profiling phik plotnine powerlaw pycaret pycocotools pyfolio pyod recommenders scikit-plot seaborn stable-baselines3 tf-models-official wordcloud yellowbrick
+Required-by: catboost control descartes do-mpc elegantrl fastai fbprophet filterpy gradio missingno mizani mlxtend mplfinance pandas-profiling phik plotnine powerlaw pycaret pycocotools pyfolio pyod recommenders scikit-plot seaborn stable-baselines3 sweetviz tf-models-official wordcloud yellowbrick
 ---
 Name: matplotlib-inline
 Version: 0.1.3
@@ -4312,7 +4362,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: Bottleneck ImageHash Keras-Preprocessing PettingZoo PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance category-encoders cftime cmdstanpy colormath control cornac cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightfm lightgbm matplotlib missingno mizani mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless opt-einsum osqp pandas pandas-profiling pandera params-flow patsy phik plotnine pmdarima powerlaw py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray recommenders rlr rouge-score sacrebleu scikit-image scikit-learn scikit-surprise scipy sclblpy scs seaborn seqeval simplecosine slycot snapml spacy stable-baselines3 stanza statsmodels stumpy tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: Bottleneck ImageHash Keras-Preprocessing PettingZoo PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance category-encoders cftime cmdstanpy colormath control cornac cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightfm lightgbm matplotlib missingno mizani mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless opt-einsum osqp pandas pandas-profiling pandera params-flow patsy phik plotnine pmdarima powerlaw py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray recommenders rlr rouge-score sacrebleu scikit-image scikit-learn scikit-surprise scipy sclblpy scs seaborn seqeval simplecosine slycot snapml spacy stable-baselines3 stanza statsmodels stumpy sweetviz tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -4562,7 +4612,7 @@ Author: Donald Stufft and individual contributors
 Author-email: donald@stufft.io
 License: BSD-2-Clause or Apache-2.0
 Requires: pyparsing
-Required-by: QtPy Sphinx bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery holoviews huggingface-hub ipykernel jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nbconvert nibabel numexpr pandera pipx pydata-sphinx-theme pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
+Required-by: QtPy Sphinx bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery google-cloud-secret-manager holoviews huggingface-hub ipykernel jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nbconvert nibabel numexpr pandera pipx pydata-sphinx-theme pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
 ---
 Name: palettable
 Version: 3.3.0
@@ -4582,7 +4632,7 @@ Author: The Pandas Development Team
 Author-email: pandas-dev@python.org
 License: BSD-3-Clause
 Requires: numpy python-dateutil pytz
-Required-by: altair catboost category-encoders cmdstanpy cufflinks dask-ml datasets datashader empyrical exchange-calendars fastai fastparquet fbprophet finta geopandas gradio holoviews iexfinance jqdatasdk mizani mlflow mlxtend mplfinance nilearn openai pandas-datareader pandas-dedupe pandas-finance pandas-market-calendars pandas-profiling pandera phik plotnine pmdarima py-vollib pyLDAvis pycaret pyfolio pyportfolioopt rapidminer recommenders seaborn stable-baselines3 statsmodels stockstats tf-models-official trading-calendars twint visions wrds xarray yfinance
+Required-by: altair catboost category-encoders cmdstanpy cufflinks dask-ml datasets datashader empyrical exchange-calendars fastai fastparquet fbprophet finta geopandas gradio holoviews iexfinance jqdatasdk mizani mlflow mlxtend mplfinance nilearn openai pandas-datareader pandas-dedupe pandas-finance pandas-market-calendars pandas-profiling pandera phik plotnine pmdarima py-vollib pyLDAvis pycaret pyfolio pyportfolioopt rapidminer recommenders seaborn stable-baselines3 statsmodels stockstats sweetviz tf-models-official trading-calendars twint visions wrds xarray yfinance
 ---
 Name: pandas-datareader
 Version: 0.10.0
@@ -4702,7 +4752,7 @@ Author: Jeff Forcier
 Author-email: jeff@bitprophet.org
 License: LGPL
 Requires: bcrypt cryptography pynacl six
-Required-by: gradio
+Required-by: gradio sshtunnel
 ---
 Name: params-flow
 Version: 0.8.2
@@ -5092,7 +5142,7 @@ Author: Google LLC
 Author-email: googleapis-packages@google.com
 License: Apache 2.0
 Requires: protobuf
-Required-by: google-cloud-bigquery google-cloud-bigquery-storage
+Required-by: google-cloud-bigquery google-cloud-bigquery-storage google-cloud-secret-manager
 ---
 Name: protobuf
 Version: 3.20.0
@@ -6132,7 +6182,7 @@ Author: Kenneth Reitz
 Author-email: me@kennethreitz.org
 License: Apache 2.0
 Requires: certifi charset-normalizer idna urllib3
-Required-by: Kivy-Garden Mastodon.py PyGithub Sphinx alpha-vantage analytics-python azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth databricks-cli datasets docker fastai google-api-core google-cloud-bigquery googletransx gradio h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle keras2onnx lightfm minimal-snowplow-tracker mixpanel mlflow msrest nilearn openai pandas-datareader pandas-finance pandas-profiling panel rapidminer recommenders requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket responses robin-stocks sclblpy spacy stanza tensorboard tensorflow-datasets tf2onnx tiingo transformers wandb yfinance zeep
+Required-by: Kivy-Garden Mastodon.py PyGithub Sphinx alpha-vantage analytics-python azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth databricks-cli datasets dbstream docker fastai google-api-core google-cloud-bigquery googletransx gradio h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle keras2onnx lightfm minimal-snowplow-tracker mixpanel mlflow msrest nilearn openai pandas-datareader pandas-finance pandas-profiling panel rapidminer recommenders requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket responses robin-stocks sclblpy spacy stanza tensorboard tensorflow-datasets tf2onnx tiingo transformers wandb yfinance zeep
 ---
 Name: requests-cache
 Version: 0.9.3
@@ -6382,7 +6432,7 @@ Author:
 Author-email: 
 License: BSD
 Requires: numpy
-Required-by: ImageHash Theano catboost category-encoders control cornac cvxpy dask-glm dask-ml datashader ecos empyrical fastai filterpy gensim imbalanced-learn jax kmodes lightfm lightgbm missingno mizani mlflow mlxtend nilearn osqp pandas-profiling phik plotnine pmdarima powerlaw py-vollib pyLDAvis pyfolio pynndescent pyod pyportfolioopt qdldl recommenders scikit-image scikit-learn scikit-plot scikit-surprise scs seaborn snapml statsmodels stumpy tf-models-official umap-learn xgboost yellowbrick
+Required-by: ImageHash Theano catboost category-encoders control cornac cvxpy dask-glm dask-ml datashader ecos empyrical fastai filterpy gensim imbalanced-learn jax kmodes lightfm lightgbm missingno mizani mlflow mlxtend nilearn osqp pandas-profiling phik plotnine pmdarima powerlaw py-vollib pyLDAvis pyfolio pynndescent pyod pyportfolioopt qdldl recommenders scikit-image scikit-learn scikit-plot scikit-surprise scs seaborn snapml statsmodels stumpy sweetviz tf-models-official umap-learn xgboost yellowbrick
 ---
 Name: sclblpy
 Version: 0.1.7
@@ -6492,7 +6542,7 @@ Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy cufflinks fs gunicorn ipython jupyter-packaging mlxtend nibabel numba plaster pmdarima pyinstaller pyramid python-daemon rapids setuptools-scm spacy streamz tensorboard tensorflow thinc zope.deprecation zope.index zope.interface
+Required-by: Fiona PasteDeploy cufflinks fs google-api-core gunicorn ipython jupyter-packaging mlxtend nibabel numba plaster pmdarima pyinstaller pyramid python-daemon rapids setuptools-scm spacy streamz tensorboard tensorflow thinc zope.deprecation zope.index zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -6582,7 +6632,7 @@ Author: Benjamin Peterson
 Author-email: benjamin@python.org
 License: MIT
 Requires: 
-Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli docker-pycreds fire fs glog google-auth google-auth-httplib2 google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client paramiko patsy plotly promise pyod python-dateutil python-multipart querystring-parser requests-file retrying rouge-score sacremoses scikit-surprise stanza streamz tenacity tensorboardX tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb zope.index
+Required-by: Fiona Flask-Cors ImageHash Keras-Preprocessing Mastodon.py Theano absl-py agate analytics-python asttokens astunparse atari-py azure-core bcrypt bleach blessings catboost chart-studio click-repl cufflinks cypari databricks-cli docker-pycreds fire fs glog google-api-python-client google-auth google-pasta gpustat grpcio int-date intrinio-sdk isodate jqdatasdk kaggle leather livereload minimal-snowplow-tracker mixpanel multipledispatch munch oauth2client paramiko patsy plotly promise pyod python-dateutil python-multipart querystring-parser requests-file retrying rouge-score sacremoses scikit-surprise stanza streamz tenacity tensorboardX tensorflow tensorflow-datasets tensorflow-model-optimization tf-models-official tf2onnx trading-calendars uamqp url-normalize validators wandb zope.index
 ---
 Name: sklearn
 Version: 0.0
@@ -6874,6 +6924,16 @@ License: MIT
 Requires: catalogue
 Required-by: spacy thinc
 ---
+Name: sshtunnel
+Version: 0.1.5
+Summary: Pure python SSH tunnels
+Home-page: https://github.com/pahaz/sshtunnel
+Author: Pahaz Blinov
+Author-email: pahaz.blinov@gmail.com
+License: MIT
+Requires: paramiko
+Required-by: dbstream
+---
 Name: stable-baselines3
 Version: 1.2.0
 Summary: Pytorch version of Stable Baselines, implementations of reinforcement learning algorithms.
@@ -6972,6 +7032,16 @@ Author:
 Author-email: 
 License: PSF license
 Requires: 
+Required-by: 
+---
+Name: sweetviz
+Version: 2.1.3
+Summary: A pandas-based library to visualize and compare datasets.
+Home-page: https://github.com/fbdesignpro/sweetviz
+Author: Francois Bertrand
+Author-email: fb@fbdesignpro.com
+License: MIT
+Requires: importlib-resources jinja2 matplotlib numpy pandas scipy tqdm
 Required-by: 
 ---
 Name: TA-Lib
@@ -7472,7 +7542,7 @@ Author:
 Author-email: 
 License: MPLv2.0, MIT Licences
 Requires: 
-Required-by: bertviz cornac datasets fbprophet huggingface-hub kaggle nltk openai pandas-profiling panel params-flow pyro-ppl pytorch-lightning recommenders sacremoses spacy stanza tensorflow-datasets transformers umap-learn
+Required-by: bertviz cornac datasets fbprophet huggingface-hub kaggle nltk openai pandas-profiling panel params-flow pyro-ppl pytorch-lightning recommenders sacremoses spacy stanza sweetviz tensorflow-datasets transformers umap-learn
 ---
 Name: trading-calendars
 Version: 2.1.1
@@ -7685,8 +7755,8 @@ Requires:
 Required-by: pandas-dedupe
 ---
 Name: uritemplate
-Version: 4.1.1
-Summary: Implementation of RFC 6570 URI Templates
+Version: 3.0.1
+Summary: URI templates
 Home-page: https://uritemplate.readthedocs.org
 Author: Ian Stapleton Cordasco
 Author-email: graffatcolmingov@gmail.com

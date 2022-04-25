@@ -52,6 +52,7 @@ cwcwidth
 cycler
 cymem
 cython
+dacktool
 dash-core-components
 dash-html-components
 dash-renderer
@@ -531,6 +532,7 @@ gitpython
 google-auth
 googletransx
 gpustat
+grpc-google-iam-v1
 grpcio-status
 h2o
 holidays
@@ -721,6 +723,7 @@ sphinx-rtd-theme
 stable-baselines3
 statsmodels
 stockstats
+sweetviz
 tensorflow-datasets
 torch-optimizer
 trading-calendars
@@ -749,6 +752,7 @@ flower
 google-api-python-client
 google-cloud-bigquery-storage
 google-cloud-core
+google-cloud-secret-manager
 gradio
 holoviews
 ipykernel
@@ -766,6 +770,7 @@ rapids
 sclblpy
 selenium
 spacytextblob
+sshtunnel
 tensorboard
 twint
 umap-learn
@@ -775,6 +780,7 @@ dash-auth
 dash-bootstrap-components
 dash-canvas
 dash-cytoscape
+dbstream
 dedupe
 google-cloud-bigquery
 jupyter-console
@@ -791,6 +797,7 @@ recommenders
 tda-api
 tensorflow
 dedupe-variable-datetime
+googleauthentication
 jupyter-server-proxy
 jupyterlab-server
 notebook-shim

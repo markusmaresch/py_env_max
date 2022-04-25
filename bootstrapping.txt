@@ -1,8 +1,0 @@
-#
-#
-
-# --> only use tinydb !!
-pip install tinydb # == Level 1
-# https://tinydb.readthedocs.io/en/latest/api.html
-
-continue: https://github.com/msiemens/tinydb/tree/master/tinydb
