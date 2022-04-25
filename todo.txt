@@ -5,3 +5,11 @@ Next steps:
     - resolve PRE_INSTALL NO_CACHE_DIR, levels ...
     - resolve LOCKED - all known in pipdeptree.json -> include this in database and use for updates
     - implement updates
+        get latest releases (with cached delay)
+        for all out of date:
+            search for limitation of new version via pipdeptree.json
+            try installation - can still fail due to new dependencies
+        # for
+        pip check
+            -> fail, try to roll back
+        read all back in, if sucessful

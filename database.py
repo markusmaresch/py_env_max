@@ -3,7 +3,7 @@
 #
 import sys
 import json
-from packaging import version # needs to be installed before !! --> distutils.version import LooseVersion
+from packaging import version  # needs to be installed before !! --> distutils.version import LooseVersion (distutils will go away after/with 3.12)
 
 
 class Database:
