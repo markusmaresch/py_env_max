@@ -1,17 +1,8 @@
 #
+# Many python packages may cause version conflicts
+# This is the reason for virtual environments
+# Yet sometimes, this does not help.
+# You may need both roots of conflicting trees
 #
+# --> Therefore maximize a set of packages without conflicts !
 #
-Primary goal:
-    recreate known environment
-        go by levels
-        allow special treatment
-        ensure consistency
-    consider different system: osx, linux, windows
-
-Plan:
-    define DB aspect - XLSX, or other .. needs to be low level, or SQL (which is part of core)
-    derive DB from installation
-    install from DB
-
-Rework:
-    requirements.txt -> requirements.json
