@@ -160,14 +160,14 @@ class EnvCmd:
         tree = PipCmd.get_tree_installed()
         conflicts = PipCmd.get_conflicts(tree, verbose=True)
         cycles = PipCmd.get_cycles(tree, verbose=True)
+        if conflicts is not None or cycles is not None:
+            pass
 
         json_string = PipCmd.render_json_tree(tree, indent=4)
         packages_installed_list_of_dicts = json.loads(json_string)
 
         if not db.trees_set(packages_installed_list_of_dicts):
             return False
-
-        packages_installed_dicts = db.trees_get()
 
         del tree
         return True
@@ -181,10 +181,6 @@ class EnvCmd:
         develop = True
         if develop and os.path.exists(db_name):
             db.load(db_name)
-        else:
-            if not EnvCmd.env_packages_flat(db):
-                return False
-        # fi
 
         if not EnvCmd.env_packages_tree(db):
             return False
@@ -192,6 +188,10 @@ class EnvCmd:
             return False
         if not EnvCmd.env_get_releases(db):  # could be done in parallel to other work
             return False
+
+        if not EnvCmd.env_packages_flat(db):  # phase OUT
+            return False
+
         ok = True if db.dump(json_path=db_name) else False
         db.close()
         return ok

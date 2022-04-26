@@ -14,7 +14,7 @@ from pip._internal.utils.misc import get_installed_distributions
 from pip._vendor.packaging.utils import canonicalize_name
 
 # installed packages
-from pipdeptree import PackageDAG, conflicting_deps, render_conflicts_text, \
+from _vendor.pipdeptree import PackageDAG, conflicting_deps, render_conflicts_text, \
     cyclic_deps  # needs to be installed (only depends on pip)
 
 # own imports
@@ -36,11 +36,13 @@ class PipCmd:
                 d['required_version'] = node.version_spec if node.version_spec else 'Any'
             else:
                 d['required_version'] = d['installed_version']
-            d['dependencies'] = [
+            deps = [
                 aux(c, parent=node, chain=chain + [c.project_name])
                 for c in tree.get_children(node.key)
                 if c.project_name not in chain
             ]
+            if len(deps) > 0:
+                d['requires'] = deps
             return d
 
         # def aux()
@@ -57,7 +59,8 @@ class PipCmd:
             # plus: complete at outer level
             nodes = [p for p in tree.keys()]
         # fi
-        return json.dumps([aux(p) for p in nodes], indent=indent)
+        out_nodes = [aux(p) for p in nodes]
+        return json.dumps(out_nodes, indent=indent)
 
     @staticmethod
     def get_tree_installed() -> typing.Union[PackageDAG, typing.Any]:
@@ -122,24 +125,6 @@ class PipCmd:
                 print('  {} => {}'.format(a.project_name, b.project_name))
         # for
         return cycles_strings
-
-    @staticmethod
-    def get_packages_installed(json_full: typing.Union[str, None] = None) -> \
-            typing.Union[typing.List[dict], typing.Any]:
-
-        tree = PipCmd.get_tree_installed()
-        conflicts = PipCmd.get_conflicts(tree, verbose=True)
-        cycles = PipCmd.get_cycles(tree, verbose=True)
-
-        print('Rendering tree into list of nested dictionaries ..')
-        json_string = PipCmd.render_json_tree(tree, indent=4)
-        packages_installed_list_of_dicts = json.loads(json_string)
-
-        if json_full is not None and json_full:
-            with open(json_full, 'w') as f:
-                f.write(json_string)
-
-        return packages_installed_list_of_dicts
 
     @staticmethod
     def c_name(name_raw: str) -> str:
@@ -214,6 +199,7 @@ class PipCmd:
         except:
             print('Error: pip show: of {}'.format(len(packages)))
             return False
+        db.packages_clear()
         name = None
         version = None
         summary = None

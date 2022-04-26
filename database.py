@@ -7,6 +7,7 @@ import typing
 
 from pip._vendor.packaging import version
 
+
 class Database:
     CONFIG = 'config'
     PACKAGES = 'packages'
@@ -26,7 +27,7 @@ class Database:
 
     def truncate(self) -> dict:
         self.tables = dict()
-        self.tables[self.CONFIG] = dict()
+        self.tables[self.CONFIG] = dict(note='JSON style nested database for packages')
         self.tables[self.PACKAGES] = dict()
         self.tables[self.TREES] = dict()
         return self.tables
@@ -41,7 +42,7 @@ class Database:
     def dump(self, json_path: str) -> bool:
         try:
             with open(json_path, 'w', encoding='utf-8') as f:
-                json.dump(self.tables, f, ensure_ascii=True, indent=1, sort_keys=True)
+                json.dump(self.tables, f, ensure_ascii=True, indent=4, sort_keys=True)
                 print('Info: written: {}'.format(json_path))
                 return True
         except:
@@ -59,34 +60,47 @@ class Database:
             print('Error: load: {}'.format(json_path))
             return False
 
-    def table_trees(self) -> typing.List:
+    #
+    # trees .. rename to package_tree
+    #
+
+    def table_trees(self) -> dict:
         return self.tables[self.TREES]
 
-    def trees_get(self) -> typing.List[dict]:
+    def trees_get(self) -> dict:
         table = self.table_trees()
         return table
 
     def trees_set(self, packages_installed_list_of_dicts: typing.List[dict]) -> bool:
         table = self.table_trees()
+        table.clear()
+        check_package_key = True
         key_name = 'key'  # could be wrong - could be 'package_name'
-        dependencies_name = 'dependencies'
         for p in packages_installed_list_of_dicts:
             key = p.get(key_name)
             if key is None:
                 return False
-            #del p[key_name]
-            #dependencies = p.get(dependencies_name)
-            #if dependencies is not None and len(dependencies) == 0:
-            #    del p[dependencies_name]
+            if check_package_key:
+                package_name = p.get('package_name')
+                if package_name is None:
+                    return False
+                if key != package_name:
+                    return False  # only self check; if it never triggers -> both are the same (could remove one)
+            # fi
             table[key] = p
         return True
 
     #
-    # packages
+    # packages .. phase OUT
     #
 
     def table_packages(self) -> dict:
         return self.tables[self.PACKAGES]
+
+    def packages_clear(self) -> bool:
+        table = self.table_packages()
+        table.clear()
+        return True
 
     def package_add(self, name: str, version_installed: str, summary: str,
                     requires: [str], required_by: [str]) -> bool:

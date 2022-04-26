@@ -1,0 +1,4 @@
+#
+# copies from vendors
+#
+pipdeptree==2.2.1 # removed graphviz, main
