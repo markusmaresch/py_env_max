@@ -14,7 +14,7 @@ class EnvCmd:
 
     @staticmethod
     def env_calc_levels(db: Database) -> bool:
-        keys = db.packages_get_names()
+        keys = db.trees_get_names()
         print('Check levels for {} packages'.format(len(keys)))
         levels_max = 15
         level = 0
@@ -30,10 +30,10 @@ class EnvCmd:
                 break
             next_lod = list()
             for d in lod:
-                dependencies = db.package_get_requires(name=d)
+                dependencies = db.tree_get_requires(name=d)
                 if level == 1:
                     if len(dependencies) < 1:
-                        db.package_set_level(name=d, level=level)
+                        db.tree_set_level(name=d, level=level)
                         continue
                     # fi
                     next_lod.append(d)
@@ -43,7 +43,7 @@ class EnvCmd:
                 found_below = 0
                 needed_below = len(dependencies)
                 for dep in dependencies:
-                    ll = db.package_get_level(dep)
+                    ll = db.tree_get_level(dep)
                     if ll < 0:
                         continue
                     if ll < level:
@@ -63,7 +63,7 @@ class EnvCmd:
                 # need for fix
                 #
                 if satisfied or cyclical:
-                    db.package_set_level(name=d, level=level)
+                    db.tree_set_level(name=d, level=level)
                 else:
                     next_lod.append(d)
             # for
@@ -76,7 +76,7 @@ class EnvCmd:
             print('Did NOT resolve all packages below')
             for p in lod:
                 # not entirely correct !!
-                dependencies = db.package_get_requires(p)
+                dependencies = db.tree_get_requires(p)
                 print('  {} {}'.format(p, dependencies))
             print('Did NOT resolve all packages above (could be cyclical behavior)')
             print('')
@@ -85,14 +85,14 @@ class EnvCmd:
 
     @staticmethod
     def env_get_releases(db: Database) -> bool:
-        keys = db.packages_get_names()
+        keys = db.trees_get_names()
         print('Check releases for {} packages'.format(len(keys)))
         now = int(time.time())
         packages_needed = set()
         for package_name in keys:
-            t = db.package_get_releases_checked_time(package_name)
+            t = db.tree_get_releases_checked_time(package_name)
             diff = (now - t) if t > 0 else 9999999
-            if diff > 60 * 60:
+            if True or diff > 60 * 60:
                 packages_needed.add(package_name)
         # for
         if len(packages_needed) < 1:
@@ -107,7 +107,7 @@ class EnvCmd:
             releases = releases_all[i]
             if releases is None:
                 continue
-            if not db.package_set_releases_recent(package_name, releases, now):
+            if not db.tree_set_releases_recent(package_name, releases, now):
                 return False
             self_check = False
             if self_check:
@@ -119,11 +119,13 @@ class EnvCmd:
 
     @staticmethod
     def env_check_consistency(db: Database) -> bool:
-        keys = db.packages_get_names()
+        keys = db.trees_get_names()
         print('Testing consistency of {} packages'.format(len(keys)))
         packages_needed = set()
         for name in keys:
-            needed = db.package_get_requires(name) + db.package_get_required_by(name)
+            needed = db.tree_get_requires(name) + db.tree_get_required_by(name)
+            if needed is None:
+                continue
             for n in needed:
                 packages_needed.add(n)
         # for
@@ -178,18 +180,17 @@ class EnvCmd:
         db_name = '{}.json'.format(env_name)
         print('env_import: {}'.format(env_name))
         db = Database()
-        develop = True
+        develop = False
         if develop and os.path.exists(db_name):
             db.load(db_name)
 
         if not EnvCmd.env_packages_tree(db):
             return False
+        if not EnvCmd.env_packages_flat(db):  # phase OUT
+            return False
         if not EnvCmd.env_calc_levels(db):
             return False
         if not EnvCmd.env_get_releases(db):  # could be done in parallel to other work
-            return False
-
-        if not EnvCmd.env_packages_flat(db):  # phase OUT
             return False
 
         ok = True if db.dump(json_path=db_name) else False

@@ -14,8 +14,8 @@ from pip._internal.utils.misc import get_installed_distributions
 from pip._vendor.packaging.utils import canonicalize_name
 
 # installed packages
-from _vendor.pipdeptree import PackageDAG, conflicting_deps, render_conflicts_text, \
-    cyclic_deps  # needs to be installed (only depends on pip)
+from _vendor.pipdeptree import PackageDAG, conflicting_deps, \
+    render_conflicts_text, cyclic_deps
 
 # own imports
 from database import Database
@@ -43,6 +43,9 @@ class PipCmd:
             ]
             if len(deps) > 0:
                 d['requires'] = deps
+            # fi
+            d['version_installed'] = d.pop('installed_version')  # rename
+            d['version_required'] = d.pop('required_version')  # rename
             return d
 
         # def aux()
@@ -60,6 +63,13 @@ class PipCmd:
             nodes = [p for p in tree.keys()]
         # fi
         out_nodes = [aux(p) for p in nodes]
+
+        for d in out_nodes:  # does not seem to trigger !!
+            if d.get('installed_version') is not None:
+                d['version_installed'] = d.pop('installed_version')  # rename
+            if d.get('required_version') is not None:
+                d['version_required'] = d.pop('required_version')  # rename
+
         return json.dumps(out_nodes, indent=indent)
 
     @staticmethod
@@ -199,7 +209,7 @@ class PipCmd:
         except:
             print('Error: pip show: of {}'.format(len(packages)))
             return False
-        db.packages_clear()
+        # db.packages_clear()
         name = None
         version = None
         summary = None
@@ -242,11 +252,22 @@ class PipCmd:
             # fi
             if name is not None and version is not None and summary is not None \
                     and requires is not None and required_by is not None:
-                if not db.package_add(name=name, version_installed=version,
-                                      summary=summary, requires=requires,
+                dot = name.find('.')
+                if dot >= 0:
+                    name = name.replace('.', '-')
+                    # not fixed:
+                    # Mastodon.py                   1.5.1
+                    # ruamel.yaml                   0.17.21
+                    # ruamel.yaml.clib              0.2.6
+                    # zope.deprecation              4.4.0
+                    # zope.index                    5.2.0
+                    # zope.interface                5.4.0
+
+                if not db.tree_update(name=name, summary=summary,
                                       required_by=required_by):
-                    print('Error: db.package_add({})'.format(name))
+                    print('Error: db.tree_update({})'.format(name))
                     return False
+
                 name = None
                 version = None
                 summary = None
@@ -267,9 +288,6 @@ class PipCmd:
 
     @staticmethod
     def pip_selftest() -> bool:
-        packages_installed_list_of_dicts = PipCmd.get_packages_installed()
-        if packages_installed_list_of_dicts is None:
-            return False
         version = PipCmd.version()
         if not version:
             return False

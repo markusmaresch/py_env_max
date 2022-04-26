@@ -10,7 +10,6 @@ from pip._vendor.packaging import version
 
 class Database:
     CONFIG = 'config'
-    PACKAGES = 'packages'
     TREES = 'trees'
     #
     VERSION_INSTALLED = 'version_installed'
@@ -21,14 +20,10 @@ class Database:
     LEVEL = 'level'
     RELEASES_RECENT = 'releases_recent'  # ['1.0', '1.1', '1.3' ...]
     RELEASES_CHECKED_TIME = 'releases_checked_time'
-    #
-    LOCKED_CONSTRAINTS = 'locked_constraints'  # [ ('tensorflow', '<1.19'), (), ...]
-    LOCKED_CHECKED_TIME = 'locked_checked_time'
 
     def truncate(self) -> dict:
         self.tables = dict()
         self.tables[self.CONFIG] = dict(note='JSON style nested database for packages')
-        self.tables[self.PACKAGES] = dict()
         self.tables[self.TREES] = dict()
         return self.tables
 
@@ -60,10 +55,6 @@ class Database:
             print('Error: load: {}'.format(json_path))
             return False
 
-    #
-    # trees .. rename to package_tree
-    #
-
     def table_trees(self) -> dict:
         return self.tables[self.TREES]
 
@@ -74,49 +65,27 @@ class Database:
     def trees_set(self, packages_installed_list_of_dicts: typing.List[dict]) -> bool:
         table = self.table_trees()
         table.clear()
-        check_package_key = True
-        key_name = 'key'  # could be wrong - could be 'package_name'
+        key_name = 'key'
         for p in packages_installed_list_of_dicts:
             key = p.get(key_name)
             if key is None:
                 return False
-            if check_package_key:
-                package_name = p.get('package_name')
-                if package_name is None:
-                    return False
-                if key != package_name:
-                    return False  # only self check; if it never triggers -> both are the same (could remove one)
-            # fi
             table[key] = p
         return True
 
-    #
-    # packages .. phase OUT
-    #
-
-    def table_packages(self) -> dict:
-        return self.tables[self.PACKAGES]
-
-    def packages_clear(self) -> bool:
-        table = self.table_packages()
-        table.clear()
-        return True
-
-    def package_add(self, name: str, version_installed: str, summary: str,
-                    requires: [str], required_by: [str]) -> bool:
-        table = self.table_packages()
+    def tree_update(self, name: str, summary: str, required_by: [str]) -> bool:
+        table = self.table_trees()
         p = table.get(name)
         if p is None:
-            table[name] = dict()
-            p = table.get(name)
-        p[Database.VERSION_INSTALLED] = version_installed
-        p[Database.SUMMARY] = summary
-        p[Database.REQUIRES] = requires
-        p[Database.REQUIRED_BY] = required_by
+            return False
+        if summary:
+            p[Database.SUMMARY] = summary
+        if len(required_by) > 0:
+            p[Database.REQUIRED_BY] = required_by
         return True
 
-    def package_get_releases_recent(self, name: str) -> [str]:
-        table = self.table_packages()
+    def tree_get_releases_recent(self, name: str) -> [str]:
+        table = self.table_trees()
         d = table.get(name)
         if d is None:
             # we assume update only
@@ -128,8 +97,8 @@ class Database:
         s = sorted(releases, key=lambda x: version.Version(x), reverse=True)
         return s
 
-    def package_set_releases_recent(self, name: str, releases: [str], checked_time: int) -> bool:
-        table = self.table_packages()
+    def tree_set_releases_recent(self, name: str, releases: [str], checked_time: int) -> bool:
+        table = self.table_trees()
         d = table.get(name)
         if d is None:
             # we assume update only
@@ -138,8 +107,8 @@ class Database:
         d[Database.RELEASES_CHECKED_TIME] = checked_time
         return True
 
-    def package_set_level(self, name: str, level: int) -> bool:
-        table = self.table_packages()
+    def tree_set_level(self, name: str, level: int) -> bool:
+        table = self.table_trees()
         d = table.get(name)
         if d is None:
             # we assume update only
@@ -147,8 +116,8 @@ class Database:
         d[Database.LEVEL] = int(level)
         return True
 
-    def package_get_level(self, name: str) -> int:
-        table = self.table_packages()
+    def tree_get_level(self, name: str) -> int:
+        table = self.table_trees()
         d = table.get(name)
         if d is None:
             return -1
@@ -157,26 +126,32 @@ class Database:
             return -1
         return int(level)
 
-    def package_get_releases_checked_time(self, name: str) -> int:
-        table = self.table_packages()
+    def tree_get_releases_checked_time(self, name: str) -> int:
+        table = self.table_trees()
         d = table.get(name)
         t = d.get(Database.RELEASES_CHECKED_TIME)
         if t is None:
             return -1
         return t
 
-    def package_get_requires(self, name: str) -> [str]:
-        table = self.table_packages()
+    def tree_get_requires(self, name: str) -> [str]:
+        table = self.table_trees()
         d = table.get(name)
-        return d.get(Database.REQUIRES)
+        requires = d.get(Database.REQUIRES)
+        if requires is None:
+            return []
+        return [r['package_name'] for r in requires]
 
-    def package_get_required_by(self, name: str) -> [str]:
-        table = self.table_packages()
+    def tree_get_required_by(self, name: str) -> [str]:
+        table = self.table_trees()
         d = table.get(name)
-        return d.get(Database.REQUIRED_BY)
+        required_by = d.get(Database.REQUIRED_BY)
+        if required_by is None:
+            return []
+        return required_by
 
-    def packages_get_names(self) -> [str]:
-        table = self.table_packages()
+    def trees_get_names(self) -> [str]:
+        table = self.table_trees()
         keys = table.keys()
         return keys
 
@@ -184,11 +159,11 @@ class Database:
     def self_test() -> bool:
         json_path = 'database_selftest.json'
         database = Database()
-        database.package_add(name='numpy', version_installed='1.19.3',
-                             summary='Numerical library', requires=[],
+        database.tree_update(name='numpy',
+                             summary='Numerical library',
                              required_by=['pandas', 'many', 'others'])
-        database.package_add(name='pandas', version_installed='1.4.3',
-                             summary='Data science library', requires=['numpy'],
+        database.tree_update(name='pandas',
+                             summary='Data science library',
                              required_by=['many', 'others'])
         database.dump(json_path)
         database.truncate()

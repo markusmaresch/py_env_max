@@ -2,9 +2,8 @@
 #
 #
 Next Steps:
-    - delete empty dependencies at all tree levels
-    - resolve/merge 'packages' with tree
-    - resolve LOCKED - all known in pipdeptree.json -> include this in database and use for updates
+    - resolve strange names with '.' in package name ...
+    - test with larger environment
     - implement updates
         get latest releases (with cached delay)
         for all out of date:
