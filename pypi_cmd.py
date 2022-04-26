@@ -4,11 +4,10 @@
 import sys
 import re
 import random
+import threading
 
 # from pip
 from pip._vendor import requests  # get pip's request, so we do not have to install it
-
-from threading import Thread
 
 
 class PyPiCmd:
@@ -69,8 +68,8 @@ class PyPiCmd:
         releases = [None] * N
         i = 0
         for package_name in packages:
-            threads[i] = Thread(target=PyPiCmd.get_release_one,
-                                args=(package_name, i, releases))
+            threads[i] = threading.Thread(target=PyPiCmd.get_release_one,
+                                          args=(package_name, i, releases))
             threads[i].start()
             i += 1
         # for
