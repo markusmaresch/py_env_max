@@ -3,13 +3,14 @@
 #
 import sys
 import json
-from packaging import version  # needs to be installed before !! --> distutils.version import LooseVersion (distutils will go away after/with 3.12)
+import typing
 
+from pip._vendor.packaging import version
 
 class Database:
     CONFIG = 'config'
-    #
     PACKAGES = 'packages'
+    TREES = 'trees'
     #
     VERSION_INSTALLED = 'version_installed'
     SUMMARY = 'summary'
@@ -27,6 +28,7 @@ class Database:
         self.tables = dict()
         self.tables[self.CONFIG] = dict()
         self.tables[self.PACKAGES] = dict()
+        self.tables[self.TREES] = dict()
         return self.tables
 
     def __init__(self):
@@ -50,10 +52,38 @@ class Database:
         try:
             with open(json_path) as f:
                 self.tables = json.load(f)
+                if self.tables.get(self.TREES) is None:
+                    self.tables[self.TREES] = dict()
                 return True
         except:
             print('Error: load: {}'.format(json_path))
             return False
+
+    def table_trees(self) -> typing.List:
+        return self.tables[self.TREES]
+
+    def trees_get(self) -> typing.List[dict]:
+        table = self.table_trees()
+        return table
+
+    def trees_set(self, packages_installed_list_of_dicts: typing.List[dict]) -> bool:
+        table = self.table_trees()
+        key_name = 'key'  # could be wrong - could be 'package_name'
+        dependencies_name = 'dependencies'
+        for p in packages_installed_list_of_dicts:
+            key = p.get(key_name)
+            if key is None:
+                return False
+            #del p[key_name]
+            #dependencies = p.get(dependencies_name)
+            #if dependencies is not None and len(dependencies) == 0:
+            #    del p[dependencies_name]
+            table[key] = p
+        return True
+
+    #
+    # packages
+    #
 
     def table_packages(self) -> dict:
         return self.tables[self.PACKAGES]

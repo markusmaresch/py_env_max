@@ -3,6 +3,7 @@
 #
 import time
 import os
+import json
 
 from database import Database
 from pip_cmd import PipCmd
@@ -138,24 +139,55 @@ class EnvCmd:
         return True
 
     @staticmethod
+    def env_packages_flat(db: Database) -> bool:
+        """
+        get list of packages in flat form, retrieve additional information, and minimally check consistency
+        :param db:
+        :return:
+        """
+        packages = PipCmd.pip_list()
+        if packages is None:
+            return False
+        if not PipCmd.pip_show(db, packages=packages):
+            return False
+        if not EnvCmd.env_check_consistency(db):
+            return False
+        return True
+
+    @staticmethod
+    def env_packages_tree(db: Database) -> bool:
+
+        tree = PipCmd.get_tree_installed()
+        conflicts = PipCmd.get_conflicts(tree, verbose=True)
+        cycles = PipCmd.get_cycles(tree, verbose=True)
+
+        json_string = PipCmd.render_json_tree(tree, indent=4)
+        packages_installed_list_of_dicts = json.loads(json_string)
+
+        if not db.trees_set(packages_installed_list_of_dicts):
+            return False
+
+        packages_installed_dicts = db.trees_get()
+
+        del tree
+        return True
+
+    @staticmethod
     def env_import(env_name: str) -> bool:
         # read existing environment and store in internal database
         db_name = '{}.json'.format(env_name)
         print('env_import: {}'.format(env_name))
+        db = Database()
         develop = True
         if develop and os.path.exists(db_name):
-            db = Database()
             db.load(db_name)
         else:
-            packages = PipCmd.pip_list()
-            if packages is None:
-                return False
-            db = Database()
-            if not PipCmd.pip_show(db, packages=packages):
-                return False
-            if not EnvCmd.env_check_consistency(db):
+            if not EnvCmd.env_packages_flat(db):
                 return False
         # fi
+
+        if not EnvCmd.env_packages_tree(db):
+            return False
         if not EnvCmd.env_calc_levels(db):
             return False
         if not EnvCmd.env_get_releases(db):  # could be done in parallel to other work

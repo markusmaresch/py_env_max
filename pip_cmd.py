@@ -3,31 +3,147 @@
 #
 import sys
 import subprocess
-
-from packaging.utils import canonicalize_name
+import typing
+import json
+import itertools
 
 # PIP imports
 from pip._internal.commands.check import CheckCommand
 from pip._internal.cli.status_codes import SUCCESS
+from pip._internal.utils.misc import get_installed_distributions
+from pip._vendor.packaging.utils import canonicalize_name
 
+# installed packages
+from pipdeptree import PackageDAG, conflicting_deps, render_conflicts_text, \
+    cyclic_deps  # needs to be installed (only depends on pip)
+
+# own imports
 from database import Database
 
 
-# from database import Database
-
-
-# read before using pip
-# https://pypi.org/project/packaging/
-
 class PipCmd:
+
+    @staticmethod
+    def render_json_tree(tree: PackageDAG, indent: int, truncate: bool = False):
+        """Converts the tree into a nested json representation.
+        """
+
+        def aux(node, parent=None, chain=None):
+            if chain is None:
+                chain = [node.project_name]
+            d = node.as_dict()
+            if parent:
+                d['required_version'] = node.version_spec if node.version_spec else 'Any'
+            else:
+                d['required_version'] = d['installed_version']
+            d['dependencies'] = [
+                aux(c, parent=node, chain=chain + [c.project_name])
+                for c in tree.get_children(node.key)
+                if c.project_name not in chain
+            ]
+            return d
+
+        # def aux()
+
+        tree = tree.sort()
+        if truncate:
+            # at outer level, discard node, if it is included as sub tree somewhere
+            # plus: shorter
+            # minus: not all at outer level
+            branch_keys = set(r.key for r in itertools.chain.from_iterable(tree.values()))
+            nodes = [p for p in tree.keys() if p.key not in branch_keys]
+        else:
+            # all trees at outer level, even if those are sub trees somewhere
+            # plus: complete at outer level
+            nodes = [p for p in tree.keys()]
+        # fi
+        return json.dumps([aux(p) for p in nodes], indent=indent)
+
+    @staticmethod
+    def get_tree_installed() -> typing.Union[PackageDAG, typing.Any]:
+        local_only = False
+        user_only = False
+        print('Getting installed distributions ..')
+        pkgs = get_installed_distributions(local_only=local_only, user_only=user_only)
+        try:
+            print('Converting installed distributions to tree ..')
+            tree = PackageDAG.from_pkgs(pkgs)
+        except:
+            return None
+        print('Done with tree ..')
+        return tree
+
+    @staticmethod
+    def get_conflicts(tree: PackageDAG, verbose: bool = False) -> [str]:
+        if verbose:
+            print('Checking conflicts ..')
+        conflicts = conflicting_deps(tree)
+        if len(conflicts) < 1:
+            if verbose:
+                print('No conflicts')
+            return []
+        # this did not happen, but we should not continue here
+        if verbose:
+            print('Conflicts:')
+            render_conflicts_text(conflicts)
+
+        # prepare return list
+        lines = list()
+        pkgs = sorted(conflicts.keys())
+        #
+        # not tested below - we had no use case so far !!
+        #
+        for p in pkgs:
+            pkg = p.render_as_root(False)
+            line0 = '* {}'.format(pkg)
+            lines.append(line0)
+            for req in conflicts[p]:
+                req_str = req.render_as_branch(False)
+                line1 = ' - {}'.format(req_str)
+                lines.append(line1)
+        return lines
+
+    @staticmethod
+    def get_cycles(tree: PackageDAG, verbose: bool = False) -> [str]:
+        if verbose:
+            print('Checking cycles ..')
+        cycles_packages = cyclic_deps(tree)
+        if len(cycles_packages) < 1:
+            if verbose:
+                print('No cycles')
+            return []
+        cycles_strings = list()
+        cycles_tuples = sorted(cycles_packages, key=lambda xs: xs[1].key)
+        if verbose:
+            print('Cycles:')
+        for a, b, c in cycles_tuples:
+            cycles_strings.append(a.project_name)
+            if verbose:
+                print('  {} => {}'.format(a.project_name, b.project_name))
+        # for
+        return cycles_strings
+
+    @staticmethod
+    def get_packages_installed(json_full: typing.Union[str, None] = None) -> \
+            typing.Union[typing.List[dict], typing.Any]:
+
+        tree = PipCmd.get_tree_installed()
+        conflicts = PipCmd.get_conflicts(tree, verbose=True)
+        cycles = PipCmd.get_cycles(tree, verbose=True)
+
+        print('Rendering tree into list of nested dictionaries ..')
+        json_string = PipCmd.render_json_tree(tree, indent=4)
+        packages_installed_list_of_dicts = json.loads(json_string)
+
+        if json_full is not None and json_full:
+            with open(json_full, 'w') as f:
+                f.write(json_string)
+
+        return packages_installed_list_of_dicts
+
     @staticmethod
     def c_name(name_raw: str) -> str:
         return canonicalize_name(name_raw)
-
-    @staticmethod
-    def available() -> bool:
-        # check, if found in $PATH
-        return True
 
     @staticmethod
     def version() -> str:
@@ -138,7 +254,7 @@ class PipCmd:
             elif line.startswith('-'):
                 continue
             # fi
-            if name is not None and version is not None and summary is not None\
+            if name is not None and version is not None and summary is not None \
                     and requires is not None and required_by is not None:
                 if not db.package_add(name=name, version_installed=version,
                                       summary=summary, requires=requires,
@@ -165,8 +281,14 @@ class PipCmd:
 
     @staticmethod
     def pip_selftest() -> bool:
+        packages_installed_list_of_dicts = PipCmd.get_packages_installed()
+        if packages_installed_list_of_dicts is None:
+            return False
         version = PipCmd.version()
         if not version:
+            return False
+        checked = PipCmd.pip_check()
+        if not checked:
             return False
         packages = PipCmd().pip_list()
         if packages is None:

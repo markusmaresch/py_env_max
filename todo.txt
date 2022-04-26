@@ -1,8 +1,9 @@
 #
 #
 #
-Next steps:
-    - resolve PRE_INSTALL NO_CACHE_DIR, levels ...
+Next Steps:
+    - delete empty dependencies at all tree levels
+    - resolve/merge 'packages' with tree
     - resolve LOCKED - all known in pipdeptree.json -> include this in database and use for updates
     - implement updates
         get latest releases (with cached delay)
@@ -13,3 +14,6 @@ Next steps:
         pip check
             -> fail, try to roll back
         read all back in, if sucessful
+
+Later:
+    - resolve PRE_INSTALL NO_CACHE_DIR, levels ... maybe it does not matter

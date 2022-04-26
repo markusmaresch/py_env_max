@@ -4,7 +4,10 @@
 import sys
 import re
 import random
-import requests
+
+# from pip
+from pip._vendor import requests  # get pip's request, so we do not have to install it
+
 from threading import Thread
 
 

@@ -5,7 +5,7 @@ import sys
 import argparse
 import datetime
 
-from distlib.version import NormalizedVersion  # needs to be installed (level_01)
+from pip._vendor.distlib.version import NormalizedVersion
 
 from env_cmd import EnvCmd
 from req_cmd import ReqCmd
@@ -60,7 +60,6 @@ class PyEnvMax:
             return False
         print('Using: conda=={}'.format(version))
 
-        # depends on distlib
         vh = NormalizedVersion(version)
         vm = NormalizedVersion(self.conda_version_minimum)
         if vh.__lt__(vm):
@@ -79,6 +78,8 @@ class PyEnvMax:
             print('\tconda create --name {} python={}'
                   .format(self.environment_default, self.python_version_default))
             print('\tconda activate {}'.format(self.environment_default))
+            # here go boot strapping packages .. UNLESS those can be found in pip._vendor !!
+            print('\tpip install pipdeptree')
             print()
             return False
         self.set_activated_environment(activated)
