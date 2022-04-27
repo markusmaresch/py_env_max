@@ -18,4 +18,3 @@ dependencies:
   - wheel=0.37.1
   - xz=5.2.5
   - zlib=1.2.12
-prefix: /Users/markusmaresch/miniconda3/envs/py_env_mini
