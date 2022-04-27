@@ -4,8 +4,19 @@
 import sys
 import json
 import typing
+import datetime
 
 from pip._vendor.packaging import version
+
+
+class DateTimeEncoder(json.JSONEncoder):  # is not used for unknown reasons
+    def __init__(self):
+        super().__init__()
+
+    def default(self, obj):
+        if isinstance(obj, datetime.datetime):
+            return obj.strftime('%Y-%m-%d %H:%M:%S')
+        return json.JSONEncoder.default(self, obj)
 
 
 class Database:
@@ -38,10 +49,13 @@ class Database:
         try:
             with open(json_path, 'w', encoding='utf-8') as f:
                 json.dump(self.tables, f, ensure_ascii=True, indent=4, sort_keys=True)
+                # s = json.dumps(self.tables, cls=DateTimeEncoder)
+                # json.dump(s, f, ensure_ascii=True, indent=4, sort_keys=True)
+                # f.write(s)
                 print('Info: written: {}'.format(json_path))
                 return True
-        except:
-            print('Error: dump: {}'.format(json_path))
+        except Exception as e:
+            print('Error: dump: {} .. {}'.format(json_path, e))
             return False
 
     def load(self, json_path: str) -> bool:

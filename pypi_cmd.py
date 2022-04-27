@@ -6,6 +6,8 @@ import re
 import random
 import threading
 
+from pip._vendor.packaging import version
+
 # from pip
 from pip._vendor import requests  # get pip's request, so we do not have to install it
 
@@ -36,7 +38,7 @@ class PyPiCmd:
 
     @staticmethod
     def get_releases(name: str, latestN: int = 20) -> [str]:
-        invalid = re.compile(r".+rc[0-9]+$|.+a[0-9]+$|.+b[0-9]+$|.+dev[0-9]+$|.+post[0-9]+$")
+        invalid = re.compile(r".+rc[0-9]+$|.+a[0-9]+$|.+b[0-9]+$|.+dev[0-9]+$|.+post[0-9]+$|.+[0-9][a-z]$")
 
         def valid(release: str) -> bool:
             if invalid.match(release):
@@ -51,7 +53,8 @@ class PyPiCmd:
             return None
         keys = releases.keys()
         rs = [r for r in keys if valid(r)]
-        return rs[-latestN:]
+        s = sorted(rs, key=lambda x: version.Version(x), reverse=True)
+        return s[:latestN]
 
     @staticmethod
     def get_release_one(name: str, index: int, result: [str]):
@@ -107,7 +110,7 @@ class PyPiCmd:
 
     @staticmethod
     def test_releases_one() -> bool:
-        releases = PyPiCmd().get_releases('altair')
+        releases = PyPiCmd().get_releases('boto')
         if releases is None:
             return False
         releases = PyPiCmd().get_releases('tensorflow')
@@ -117,9 +120,9 @@ class PyPiCmd:
 
     @staticmethod
     def pip_selftest() -> bool:
-        if not PyPiCmd.test_releases_many():
-            return False
         if not PyPiCmd.test_releases_one():
+            return False
+        if not PyPiCmd.test_releases_many():
             return False
         return True
 

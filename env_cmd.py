@@ -111,7 +111,7 @@ class EnvCmd:
                 return False
             self_check = False
             if self_check:
-                rr = db.package_get_releases_recent(package_name)
+                rr = db.tree_get_releases_recent(package_name)
                 if rr is None:
                     return False
             i += 1
