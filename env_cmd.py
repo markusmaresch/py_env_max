@@ -14,7 +14,7 @@ class EnvCmd:
 
     @staticmethod
     def env_calc_levels(db: Database) -> bool:
-        keys = db.trees_get_names()
+        keys = db.packages_get_names()
         print('Check levels for {} packages'.format(len(keys)))
         levels_max = 15
         level = 0
@@ -30,10 +30,10 @@ class EnvCmd:
                 break
             next_lod = list()
             for d in lod:
-                dependencies = db.tree_get_requires(name=d)
+                dependencies = db.package_get_requires(name=d)
                 if level == 1:
                     if len(dependencies) < 1:
-                        db.tree_set_level(name=d, level=level)
+                        db.package_set_level(name=d, level=level)
                         continue
                     # fi
                     next_lod.append(d)
@@ -43,7 +43,7 @@ class EnvCmd:
                 found_below = 0
                 needed_below = len(dependencies)
                 for dep in dependencies:
-                    ll = db.tree_get_level(dep)
+                    ll = db.package_get_level(dep)
                     if ll < 0:
                         continue
                     if ll < level:
@@ -63,7 +63,7 @@ class EnvCmd:
                 # need for fix
                 #
                 if satisfied or cyclical:
-                    db.tree_set_level(name=d, level=level)
+                    db.package_set_level(name=d, level=level)
                 else:
                     next_lod.append(d)
             # for
@@ -76,7 +76,7 @@ class EnvCmd:
             print('Did NOT resolve all packages below')
             for p in lod:
                 # not entirely correct !!
-                dependencies = db.tree_get_requires(p)
+                dependencies = db.package_get_requires(p)
                 print('  {} {}'.format(p, dependencies))
             print('Did NOT resolve all packages above (could be cyclical behavior)')
             print('')
@@ -85,12 +85,12 @@ class EnvCmd:
 
     @staticmethod
     def env_get_releases(db: Database) -> bool:
-        keys = db.trees_get_names()
+        keys = db.packages_get_names()
         print('Check releases for {} packages'.format(len(keys)))
         now = int(time.time())
         packages_needed = set()
         for package_name in keys:
-            t = db.tree_get_releases_checked_time(package_name)
+            t = db.package_get_releases_checked_time(package_name)
             diff = (now - t) if t > 0 else 9999999
             if True or diff > 60 * 60:
                 packages_needed.add(package_name)
@@ -107,11 +107,11 @@ class EnvCmd:
             releases = releases_all[i]
             if releases is None:
                 continue
-            if not db.tree_set_releases_recent(package_name, releases, now):
+            if not db.package_set_releases_recent(package_name, releases, now):
                 return False
             self_check = False
             if self_check:
-                rr = db.tree_get_releases_recent(package_name)
+                rr = db.package_get_releases_recent(package_name)
                 if rr is None:
                     return False
             i += 1
@@ -119,11 +119,11 @@ class EnvCmd:
 
     @staticmethod
     def env_check_consistency(db: Database) -> bool:
-        keys = db.trees_get_names()
+        keys = db.packages_get_names()
         print('Testing consistency of {} packages'.format(len(keys)))
         packages_needed = set()
         for name in keys:
-            needed = db.tree_get_requires(name) + db.tree_get_required_by(name)
+            needed = db.package_get_requires(name) + db.package_get_required_by(name)
             if needed is None:
                 continue
             for n in needed:
@@ -168,7 +168,7 @@ class EnvCmd:
         json_string = PipCmd.render_json_tree(tree, indent=4)
         packages_installed_list_of_dicts = json.loads(json_string)
 
-        if not db.trees_set(packages_installed_list_of_dicts):
+        if not db.packages_set(packages_installed_list_of_dicts):
             return False
 
         del tree

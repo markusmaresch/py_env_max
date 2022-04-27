@@ -263,8 +263,8 @@ class PipCmd:
                     # zope.index                    5.2.0
                     # zope.interface                5.4.0
 
-                if not db.tree_update(name=name, summary=summary,
-                                      required_by=required_by):
+                if not db.package_update(name=name, summary=summary,
+                                         required_by=required_by):
                     print('Error: db.tree_update({})'.format(name))
                     return False
 

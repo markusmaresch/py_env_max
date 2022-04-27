@@ -21,7 +21,7 @@ class DateTimeEncoder(json.JSONEncoder):  # is not used for unknown reasons
 
 class Database:
     CONFIG = 'config'
-    TREES = 'trees'
+    PACKAGES = 'packages'
     #
     VERSION_INSTALLED = 'version_installed'
     SUMMARY = 'summary'
@@ -35,7 +35,7 @@ class Database:
     def truncate(self) -> dict:
         self.tables = dict()
         self.tables[self.CONFIG] = dict(note='JSON style nested database for packages')
-        self.tables[self.TREES] = dict()
+        self.tables[self.PACKAGES] = dict()
         return self.tables
 
     def __init__(self):
@@ -62,24 +62,20 @@ class Database:
         try:
             with open(json_path) as f:
                 self.tables = json.load(f)
-                if self.tables.get(self.TREES) is None:
-                    self.tables[self.TREES] = dict()
+                # if self.tables.get(self.PACKAGES) is None:
+                #    self.tables[self.PACKAGES] = dict()
                 return True
         except:
             print('Error: load: {}'.format(json_path))
             return False
 
-    def table_trees(self) -> dict:
-        return self.tables[self.TREES]
+    def table_packages(self) -> dict:
+        return self.tables[self.PACKAGES]
 
-    def trees_get(self) -> dict:
-        table = self.table_trees()
-        return table
-
-    def trees_set(self, packages_installed_list_of_dicts: typing.List[dict]) -> bool:
-        table = self.table_trees()
+    def packages_set(self, packages_installed_list_of_dicts: typing.List[dict]) -> bool:
+        table = self.table_packages()
         table.clear()
-        key_name = 'key'
+        key_name = 'package_name'
         for p in packages_installed_list_of_dicts:
             key = p.get(key_name)
             if key is None:
@@ -87,8 +83,8 @@ class Database:
             table[key] = p
         return True
 
-    def tree_update(self, name: str, summary: str, required_by: [str]) -> bool:
-        table = self.table_trees()
+    def package_update(self, name: str, summary: str, required_by: [str]) -> bool:
+        table = self.table_packages()
         p = table.get(name)
         if p is None:
             return False
@@ -98,8 +94,8 @@ class Database:
             p[Database.REQUIRED_BY] = required_by
         return True
 
-    def tree_get_releases_recent(self, name: str) -> [str]:
-        table = self.table_trees()
+    def package_get_releases_recent(self, name: str) -> [str]:
+        table = self.table_packages()
         d = table.get(name)
         if d is None:
             # we assume update only
@@ -111,8 +107,8 @@ class Database:
         s = sorted(releases, key=lambda x: version.Version(x), reverse=True)
         return s
 
-    def tree_set_releases_recent(self, name: str, releases: [str], checked_time: int) -> bool:
-        table = self.table_trees()
+    def package_set_releases_recent(self, name: str, releases: [str], checked_time: int) -> bool:
+        table = self.table_packages()
         d = table.get(name)
         if d is None:
             # we assume update only
@@ -121,8 +117,8 @@ class Database:
         d[Database.RELEASES_CHECKED_TIME] = checked_time
         return True
 
-    def tree_set_level(self, name: str, level: int) -> bool:
-        table = self.table_trees()
+    def package_set_level(self, name: str, level: int) -> bool:
+        table = self.table_packages()
         d = table.get(name)
         if d is None:
             # we assume update only
@@ -130,8 +126,8 @@ class Database:
         d[Database.LEVEL] = int(level)
         return True
 
-    def tree_get_level(self, name: str) -> int:
-        table = self.table_trees()
+    def package_get_level(self, name: str) -> int:
+        table = self.table_packages()
         d = table.get(name)
         if d is None:
             return -1
@@ -140,32 +136,32 @@ class Database:
             return -1
         return int(level)
 
-    def tree_get_releases_checked_time(self, name: str) -> int:
-        table = self.table_trees()
+    def package_get_releases_checked_time(self, name: str) -> int:
+        table = self.table_packages()
         d = table.get(name)
         t = d.get(Database.RELEASES_CHECKED_TIME)
         if t is None:
             return -1
         return t
 
-    def tree_get_requires(self, name: str) -> [str]:
-        table = self.table_trees()
+    def package_get_requires(self, name: str) -> [str]:
+        table = self.table_packages()
         d = table.get(name)
         requires = d.get(Database.REQUIRES)
         if requires is None:
             return []
         return [r['package_name'] for r in requires]
 
-    def tree_get_required_by(self, name: str) -> [str]:
-        table = self.table_trees()
+    def package_get_required_by(self, name: str) -> [str]:
+        table = self.table_packages()
         d = table.get(name)
         required_by = d.get(Database.REQUIRED_BY)
         if required_by is None:
             return []
         return required_by
 
-    def trees_get_names(self) -> [str]:
-        table = self.table_trees()
+    def packages_get_names(self) -> [str]:
+        table = self.table_packages()
         keys = table.keys()
         return keys
 
@@ -173,12 +169,12 @@ class Database:
     def self_test() -> bool:
         json_path = 'database_selftest.json'
         database = Database()
-        database.tree_update(name='numpy',
-                             summary='Numerical library',
-                             required_by=['pandas', 'many', 'others'])
-        database.tree_update(name='pandas',
-                             summary='Data science library',
-                             required_by=['many', 'others'])
+        database.package_update(name='numpy',
+                                summary='Numerical library',
+                                required_by=['pandas', 'many', 'others'])
+        database.package_update(name='pandas',
+                                summary='Data science library',
+                                required_by=['many', 'others'])
         database.dump(json_path)
         database.truncate()
         database.load(json_path)
