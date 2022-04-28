@@ -7,6 +7,7 @@ import typing
 import datetime
 
 from pip._vendor.packaging import version
+from pip._vendor.packaging.utils import canonicalize_name
 
 
 class DateTimeEncoder(json.JSONEncoder):  # is not used for unknown reasons
@@ -62,12 +63,13 @@ class Database:
         try:
             with open(json_path) as f:
                 self.tables = json.load(f)
-                # if self.tables.get(self.PACKAGES) is None:
-                #    self.tables[self.PACKAGES] = dict()
                 return True
         except:
             print('Error: load: {}'.format(json_path))
             return False
+
+    def c_name(self, name_raw: str) -> str:
+        return canonicalize_name(name_raw)
 
     def table_packages(self) -> dict:
         return self.tables[self.PACKAGES]
@@ -77,9 +79,10 @@ class Database:
         table.clear()
         key_name = 'package_name'
         for p in packages_installed_list_of_dicts:
-            key = p.get(key_name)
-            if key is None:
+            key_raw = p.get(key_name)
+            if key_raw is None:
                 return False
+            key = self.c_name(key_raw)
             table[key] = p
         return True
 
@@ -150,7 +153,7 @@ class Database:
         requires = d.get(Database.REQUIRES)
         if requires is None:
             return []
-        return [r['package_name'] for r in requires]
+        return [self.c_name(r['package_name']) for r in requires]
 
     def package_get_required_by(self, name: str) -> [str]:
         table = self.table_packages()
@@ -158,12 +161,12 @@ class Database:
         required_by = d.get(Database.REQUIRED_BY)
         if required_by is None:
             return []
-        return required_by
+        return [self.c_name(r) for r in required_by]
 
     def packages_get_names(self) -> [str]:
         table = self.table_packages()
         keys = table.keys()
-        return keys
+        return [self.c_name(k) for k in keys]
 
     @staticmethod
     def self_test() -> bool:

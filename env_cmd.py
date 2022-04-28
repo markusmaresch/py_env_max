@@ -9,6 +9,8 @@ from database import Database
 from pip_cmd import PipCmd
 from pypi_cmd import PyPiCmd
 
+from pip._vendor.packaging.utils import canonicalize_name
+
 
 class EnvCmd:
 
@@ -88,12 +90,12 @@ class EnvCmd:
         keys = db.packages_get_names()
         print('Check releases for {} packages'.format(len(keys)))
         now = int(time.time())
-        packages_needed = set()
+        packages_needed = list()
         for package_name in keys:
             t = db.package_get_releases_checked_time(package_name)
             diff = (now - t) if t > 0 else 9999999
             if True or diff > 60 * 60:
-                packages_needed.add(package_name)
+                packages_needed.append(package_name)
         # for
         if len(packages_needed) < 1:
             print('All packages uptodate for releases ...')
@@ -106,6 +108,8 @@ class EnvCmd:
         for package_name in packages_needed:
             releases = releases_all[i]
             if releases is None:
+                # this is a problem upstreams
+                print('No releases for {}'.format(package_name))
                 continue
             if not db.package_set_releases_recent(package_name, releases, now):
                 return False
@@ -120,14 +124,24 @@ class EnvCmd:
     @staticmethod
     def env_check_consistency(db: Database) -> bool:
         keys = db.packages_get_names()
+        for k_raw in keys:
+            k = canonicalize_name(k_raw)
+            if k != k_raw:
+                print('Canonicalize1 before: {}'.format(k_raw))
+                return False
+
         print('Testing consistency of {} packages'.format(len(keys)))
         packages_needed = set()
         for name in keys:
             needed = db.package_get_requires(name) + db.package_get_required_by(name)
             if needed is None:
                 continue
-            for n in needed:
-                packages_needed.add(n)
+            for package_raw in needed:
+                package = canonicalize_name(package_raw)
+                if package != package_raw:
+                    print('Canonicalize2 before: {}'.format(package_raw))
+                    return False
+                packages_needed.add(package)
         # for
         print('Found {} depending packages'.format(len(packages_needed)))
         missing = 0
@@ -183,6 +197,9 @@ class EnvCmd:
         develop = False
         if develop and os.path.exists(db_name):
             db.load(db_name)
+            if not EnvCmd.env_get_releases(db):  # could be done in parallel to other work
+                return False
+            return True
 
         if not EnvCmd.env_packages_tree(db):
             return False
