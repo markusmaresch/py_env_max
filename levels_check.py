@@ -273,7 +273,6 @@ class LevelsCheck:
         changes2 = 0
         fatal = False
         seps = ['=', '>', '<', '~', '[']
-        underline = '_'
         dot = '.'
         dash = '-'
         lc = self.levels_cache
