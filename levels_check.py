@@ -13,7 +13,8 @@ import difflib
 # installed package trees
 #
 from pip._internal.utils.misc import get_installed_distributions
-from pipdeptree import PackageDAG
+from pip._vendor.packaging.utils import canonicalize_name
+from _vendor.pipdeptree import PackageDAG
 
 
 class LevelsCache:
@@ -86,7 +87,8 @@ class PackageInfo:
                 key = items[0]
                 if key == 'Name':
                     items.pop(0)
-                    package = items[0].strip()
+                    package_raw = items[0].strip()
+                    package = canonicalize_name(package_raw)
                     continue
                 if key == 'Summary':
                     items.pop(0)
@@ -110,9 +112,6 @@ class PackageInfo:
         summary = self.pi_dict.get(package2)
         if summary is not None:
             return summary
-        # package3 = package.replace('-', '_')  # typing-extensions -> typing_extensions
-        # summary = self.pi_dict.get(package3)
-        # if summary is None:
         print('get_summary({},{}) ?'.format(package, package2))
         return summary
 
@@ -275,6 +274,8 @@ class LevelsCheck:
         fatal = False
         seps = ['=', '>', '<', '~', '[']
         underline = '_'
+        dot = '.'
+        dash = '-'
         lc = self.levels_cache
         lines_new = []
         for line_org in lines_org:
@@ -286,31 +287,20 @@ class LevelsCheck:
             package = None
             for sep in seps:
                 parts = line_org.split(sep)
-                package = parts[0]
+                package_raw = parts[0]
+                package = canonicalize_name(package_raw)  # now lowercase and _ only
                 level = lc.find_level(key=package)
                 if level > 0:
                     break
-                # https://blog.piwheels.org/canonicalise-all-the-things/
-                # We were aware of the idea of there being a “canonical” form of a package name, and what the
-                # algorithm for canonicalisation is (lowercase and replace any number of
-                # sequential -, _ or . with a single -)
-                #
-                # canonicalize_name():
-                #  _canonicalize_regex = re.compile(r"[-_.]+")
-                #  _canonicalize_regex.sub("-", name).lower()
-                #
-                # for packages, like Mastodon.py ..
-                if package.find(underline) < 0:
+                if package.find(dash) < 0:
                     continue
-                package2 = package.replace(underline, '.')
+                # rare: Mastodon.py needs to be found
+                package2 = package.replace(dash, dot)
                 level = lc.find_level(key=package2)
                 if level > 0:
                     break
-                package3 = package.replace('_', '-')  # typing_extensions ..
-                level = lc.find_level(key=package3)
-                if level > 0:
-                    break
-                # print('package: {} {}'.format(package, sep))
+                # fi
+            # for sep
             if level <= 0:  # might have to remove the cache file !! (or typos in packages !)
                 lines_new.append(line_org)
                 print('No package found in: {}'.format(line_org), end='')
