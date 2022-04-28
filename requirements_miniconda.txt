@@ -946,7 +946,7 @@ cattrs==1.10.0 # LEVEL_02 # LOCKED # requests-cache 0.9.3 requires cattrs<2.0,>=
 #
 biopython==1.79 # LEVEL_02 # Freely available tools for computational molecular biology
 boost==0.1 # LEVEL_04 # Boost automatically toots from Mastodon users
-Mastodon_py==1.5.1 # LEVEL_03 # Python wrapper for the Mastodon API
+Mastodon.py==1.5.1 # LEVEL_03 # Python wrapper for the Mastodon API
 blurhash==1.1.4 # LEVEL_01 # Pure-Python implementation of the blurhash algorithm
 python-magic==0.4.25 # LEVEL_01 # File type identification using libmagic
 #
