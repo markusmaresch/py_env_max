@@ -33,7 +33,10 @@ class PipCmd:
                 chain = [node.project_name]
             d = node.as_dict()
             if parent:
-                d['required_version'] = node.version_spec if node.version_spec else 'Any'
+                if node.version_spec:
+                    d['required_version'] = node.version_spec
+                else:
+                    d.pop('required_version')  # do not need 'Any'
             else:
                 d['required_version'] = d['installed_version']
             deps = [
@@ -45,7 +48,8 @@ class PipCmd:
                 d['requires'] = deps
             # fi
             d['version_installed'] = d.pop('installed_version')  # rename
-            d['version_required'] = d.pop('required_version')  # rename
+            if d.get('required_version') is not None:
+                d['version_required'] = d.pop('required_version')  # rename
             return d
 
         # def aux()
