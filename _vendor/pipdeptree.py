@@ -10,10 +10,7 @@ import json
 from importlib import import_module
 import tempfile
 
-try:
-    from collections import OrderedDict
-except ImportError:
-    from ordereddict import OrderedDict
+from collections import OrderedDict
 
 try:
     from collections.abc import Mapping
@@ -25,9 +22,6 @@ try:
     from pip._internal.operations.freeze import FrozenRequirement
 except ImportError:
     from pip import FrozenRequirement
-# inline:
-# from graphviz import Digraph
-# from graphviz import parameters
 
 
 __version__ = '2.2.1'

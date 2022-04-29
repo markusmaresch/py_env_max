@@ -52,7 +52,8 @@ class Database:
             old_path = json_path + '.old'
             if os.path.exists(old_path):
                 os.remove(old_path)
-            os.rename(json_path, old_path)
+            if os.path.exists(json_path):
+                os.rename(json_path, old_path)
             with open(json_path, 'w', encoding='utf-8') as f:
                 json.dump(self.tables, f, ensure_ascii=True, indent=4, sort_keys=True)
                 # s = json.dumps(self.tables, cls=DateTimeEncoder)

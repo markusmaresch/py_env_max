@@ -103,13 +103,15 @@ class EnvCmd:
         releases_all = PyPiCmd.get_release_many(packages_needed)
         if releases_all is None:
             return False
+        ok = True
         i = 0
         for package_name in packages_needed:
             releases = releases_all[i]
             if releases is None:
                 # this is a problem upstreams
                 print('Error: No releases for {}'.format(package_name))
-                return False
+                ok = False
+                continue
             if not db.package_set_releases_recent(package_name, releases, now):
                 return False
             self_check = True
@@ -118,7 +120,7 @@ class EnvCmd:
                 if rr is None:
                     return False
             i += 1
-        return True
+        return ok
 
     @staticmethod
     def env_check_consistency(db: Database) -> bool:
@@ -154,13 +156,6 @@ class EnvCmd:
         return True
 
     @staticmethod
-    def env_packages_flat(db: Database) -> bool:
-        packages = db.packages_get_names()
-        if not PipCmd.package_update_pip_show(db, packages=packages):
-            return False
-        return True
-
-    @staticmethod
     def env_packages_tree(db: Database) -> bool:
 
         tree = PipCmd.get_tree_installed()
@@ -180,6 +175,12 @@ class EnvCmd:
 
         if not EnvCmd.env_check_consistency(db):
             return False
+
+        # this should be done FIRST
+        packages = db.packages_get_names()
+        if not PipCmd.package_update_pip_show(db, packages=packages):
+            return False
+
         return True
 
     @staticmethod
@@ -188,16 +189,11 @@ class EnvCmd:
         db_name = '{}.json'.format(env_name)
         print('env_import: {}'.format(env_name))
         db = Database()
-        develop = False
+        develop = True
         if develop and os.path.exists(db_name):
             db.load(db_name)
-            if not EnvCmd.env_get_releases(db):  # could be done in parallel to other work
-                return False
-            return True
 
         if not EnvCmd.env_packages_tree(db):
-            return False
-        if not EnvCmd.env_packages_flat(db):  # phase OUT
             return False
         if not EnvCmd.env_calc_levels(db):
             return False
