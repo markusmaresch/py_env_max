@@ -39,13 +39,13 @@ class PipCmd:
                     d.pop('required_version')  # do not need 'Any'
             else:
                 d['required_version'] = d['installed_version']
-            deps = [
+            requires = [
                 aux(c, parent=node, chain=chain + [c.project_name])
                 for c in tree.get_children(node.key)
                 if c.project_name not in chain
             ]
-            if len(deps) > 0:
-                d['requires'] = deps
+            if len(requires) > 0:
+                d['requires'] = requires
             # fi
             d['version_installed'] = d.pop('installed_version')  # rename
             if d.get('required_version') is not None:

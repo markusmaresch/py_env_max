@@ -15,6 +15,7 @@ Next Steps:
 
 Later:
     - resolve PRE_INSTALL NO_CACHE_DIR, levels ... maybe it does not matter
+    - fix version, Version, NormalizedVersion
 
 Optimization:
     - tree: often, key and package_name are identical, remove one if same

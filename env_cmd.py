@@ -8,8 +8,7 @@ import json
 from database import Database
 from pip_cmd import PipCmd
 from pypi_cmd import PyPiCmd
-
-from pip._vendor.packaging.utils import canonicalize_name
+from utils import Utils
 
 
 class EnvCmd:
@@ -125,12 +124,6 @@ class EnvCmd:
     @staticmethod
     def env_check_consistency(db: Database) -> bool:
         keys = db.packages_get_names()
-        for k_raw in keys:
-            k = canonicalize_name(k_raw)
-            if k != k_raw:
-                print('Canonicalize1 before: {}'.format(k_raw))
-                return False
-
         print('Testing consistency of {} packages'.format(len(keys)))
         packages_needed = set()
         for name in keys:
@@ -138,7 +131,7 @@ class EnvCmd:
             if needed is None:
                 continue
             for package_raw in needed:
-                package = canonicalize_name(package_raw)
+                package = Utils.canonicalize_name(package_raw)
                 if package != package_raw:
                     print('Canonicalize2 before: {}'.format(package_raw))
                     return False
@@ -156,21 +149,24 @@ class EnvCmd:
         return True
 
     @staticmethod
-    def env_packages_tree(db: Database) -> bool:
+    def env_packages_tree(db: Database, force: bool = False) -> bool:
 
         tree = PipCmd.get_tree_installed()
         conflicts = PipCmd.get_conflicts(tree, verbose=True)
         cycles = PipCmd.get_cycles(tree, verbose=True)
         if len(conflicts) > 0:
-            return False
+            if not force:
+                return False
+            # continue despite conflicts !!!
         if len(cycles) > 0:
+            # have a list of known cycles, and ignore them
             pass
 
         json_string = PipCmd.render_json_tree(tree, indent=4)
         del tree
         packages_installed_list_of_dicts = json.loads(json_string)
         del json_string
-        if not db.packages_set(packages_installed_list_of_dicts):
+        if not db.packages_set(packages_installed_list_of_dicts):  # this is nasty
             return False
 
         if not EnvCmd.env_check_consistency(db):

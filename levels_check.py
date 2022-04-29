@@ -13,9 +13,9 @@ import difflib
 # installed package trees
 #
 from pip._internal.utils.misc import get_installed_distributions
-from pip._vendor.packaging.utils import canonicalize_name
 from _vendor.pipdeptree import PackageDAG
 
+from utils import Utils
 
 class LevelsCache:
     def __init__(self, levels_max: int):
@@ -88,7 +88,7 @@ class PackageInfo:
                 if key == 'Name':
                     items.pop(0)
                     package_raw = items[0].strip()
-                    package = canonicalize_name(package_raw)
+                    package = Utils.canonicalize_name(package_raw)
                     continue
                 if key == 'Summary':
                     items.pop(0)
@@ -287,7 +287,7 @@ class LevelsCheck:
             for sep in seps:
                 parts = line_org.split(sep)
                 package_raw = parts[0]
-                package = canonicalize_name(package_raw)  # now lowercase and _ only
+                package = Utils.canonicalize_name(package_raw)  # now lowercase and _ only
                 level = lc.find_level(key=package)
                 if level > 0:
                     break
