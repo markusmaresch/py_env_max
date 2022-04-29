@@ -20,13 +20,10 @@ class EnvCmd:
         print('Check levels for {} packages'.format(len(keys)))
         levels_max = 15
         level = 0
-        old_len_lod = 99999
         lod = keys
         while True:
             level += 1
             if level >= levels_max:
-                break
-            if old_len_lod == len(lod) == 1:
                 break
             if len(lod) < 1:
                 break
@@ -52,7 +49,7 @@ class EnvCmd:
                         found_below += 1
                 # for
                 #
-                # need for fix
+                # need for fix .. have cyclicals already
                 #
                 cyclical = False
                 satisfied = (found_below >= needed_below)
@@ -69,7 +66,6 @@ class EnvCmd:
                 else:
                     next_lod.append(d)
             # for
-            old_len_lod = len(lod)
             del lod
             lod = next_lod
         # while
@@ -87,18 +83,21 @@ class EnvCmd:
 
     @staticmethod
     def env_get_releases(db: Database) -> bool:
+        force = False
+        uptodate_seconds = 60 * 60
         keys = db.packages_get_names()
-        print('Check releases for {} packages'.format(len(keys)))
+        print('Check releases for {} packages (force={})'.format(len(keys), force))
         now = int(time.time())
         packages_needed = list()
         for package_name in keys:
             t = db.package_get_releases_checked_time(package_name)
             diff = (now - t) if t > 0 else 9999999
-            if True or diff > 60 * 60:
+            if force or diff > uptodate_seconds:
                 packages_needed.append(package_name)
         # for
         if len(packages_needed) < 1:
-            print('All packages uptodate for releases ...')
+            print('All packages uptodate (within {} seconds) for releases ...'
+                  .format(uptodate_seconds))
             return True
         print('Get releases for {} packages'.format(len(packages_needed)))
         releases_all = PyPiCmd.get_release_many(packages_needed)
@@ -109,11 +108,11 @@ class EnvCmd:
             releases = releases_all[i]
             if releases is None:
                 # this is a problem upstreams
-                print('No releases for {}'.format(package_name))
-                continue
+                print('Error: No releases for {}'.format(package_name))
+                return False
             if not db.package_set_releases_recent(package_name, releases, now):
                 return False
-            self_check = False
+            self_check = True
             if self_check:
                 rr = db.package_get_releases_recent(package_name)
                 if rr is None:
@@ -156,17 +155,8 @@ class EnvCmd:
 
     @staticmethod
     def env_packages_flat(db: Database) -> bool:
-        """
-        get list of packages in flat form, retrieve additional information, and minimally check consistency
-        :param db:
-        :return:
-        """
-        packages = PipCmd.pip_list()
-        if packages is None:
-            return False
-        if not PipCmd.pip_show(db, packages=packages):
-            return False
-        if not EnvCmd.env_check_consistency(db):
+        packages = db.packages_get_names()
+        if not PipCmd.package_update_pip_show(db, packages=packages):
             return False
         return True
 
@@ -176,16 +166,20 @@ class EnvCmd:
         tree = PipCmd.get_tree_installed()
         conflicts = PipCmd.get_conflicts(tree, verbose=True)
         cycles = PipCmd.get_cycles(tree, verbose=True)
-        if conflicts is not None or cycles is not None:
+        if len(conflicts) > 0:
+            return False
+        if len(cycles) > 0:
             pass
 
         json_string = PipCmd.render_json_tree(tree, indent=4)
+        del tree
         packages_installed_list_of_dicts = json.loads(json_string)
-
+        del json_string
         if not db.packages_set(packages_installed_list_of_dicts):
             return False
 
-        del tree
+        if not EnvCmd.env_check_consistency(db):
+            return False
         return True
 
     @staticmethod

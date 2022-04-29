@@ -2,8 +2,7 @@
 #
 #
 Next Steps:
-    - resolve strange names with '.' in package name ...
-    - test with larger environment
+    - resolve 'flat'
     - implement updates
         get latest releases (with cached delay)
         for all out of date:
@@ -16,3 +15,6 @@ Next Steps:
 
 Later:
     - resolve PRE_INSTALL NO_CACHE_DIR, levels ... maybe it does not matter
+
+Optimization:
+    - tree: often, key and package_name are identical, remove one if same

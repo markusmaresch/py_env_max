@@ -11,7 +11,6 @@ import itertools
 from pip._internal.commands.check import CheckCommand
 from pip._internal.cli.status_codes import SUCCESS
 from pip._internal.utils.misc import get_installed_distributions
-from pip._vendor.packaging.utils import canonicalize_name
 
 # installed packages
 from _vendor.pipdeptree import PackageDAG, conflicting_deps, \
@@ -19,6 +18,7 @@ from _vendor.pipdeptree import PackageDAG, conflicting_deps, \
 
 # own imports
 from database import Database
+from utils import Utils
 
 
 class PipCmd:
@@ -141,10 +141,6 @@ class PipCmd:
         return cycles_strings
 
     @staticmethod
-    def c_name(name_raw: str) -> str:
-        return canonicalize_name(name_raw)
-
-    @staticmethod
     def version() -> str:
         version = ''
         try:
@@ -178,34 +174,9 @@ class PipCmd:
         return False
 
     @staticmethod
-    def pip_list() -> [str]:
-        # only the canonical names of the installed packages; could also provide version_installed
-        # fairly quick
-        # pip list .. not very useful by itself !
-        # rework to: json = pip list --format json
-        #
-        try:
-            print('Executing: pip list')
-            output = subprocess.check_output(['pip', 'list'])
-        except:
-            print('Error: pip list')
-            return None
-        count = (-2)
-        packages = list()
-        for line in output.splitlines():
-            count += 1
-            if count <= 0:
-                continue
-            package = (line.split()[0]).decode()
-            packages.append(package)
-        # for
-        packages_set = set(packages)
-        packages_sorted = sorted(packages_set, key=str.casefold)
-        return packages_sorted
-
-    @staticmethod
-    def pip_show(db: Database, packages: [str]) -> bool:
+    def package_update_pip_show(db: Database, packages: [str]) -> bool:
         # return list of all installed packages
+        # only use summary and required_by
         arguments = ['pip', 'show'] + [str(elem) for elem in packages]
         try:
             print('Executing: pip show: of {}'.format(len(packages)))
@@ -213,20 +184,15 @@ class PipCmd:
         except:
             print('Error: pip show: of {}'.format(len(packages)))
             return False
-        # db.packages_clear()
         name = None
-        version = None
         summary = None
-        requires = None
         required_by = None
         for line_b in output.splitlines():
             line = line_b.decode()
             key, rest = (line.split(maxsplit=1) + [None])[:2]
             if key == 'Name:':
                 name_raw = rest.strip()
-                name = PipCmd.c_name(name_raw)
-            elif key == 'Version:':
-                version = rest.strip()
+                name = Utils.canonicalize_name(name_raw)
             elif key == 'Summary:':
                 if rest is None:
                     summary = ''
@@ -234,48 +200,32 @@ class PipCmd:
                     summary = rest.strip()
                     if summary != 'UNKNOWN' and summary[-1] == '.':
                         summary = summary[:-1]
-            elif key == 'Requires:' or key == 'Required-by:':
+            elif key == 'Required-by:':
                 if rest is None:
                     items = []
                 else:
                     items_split = rest.strip().split(',')
-                    items_sorted = [PipCmd.c_name(str(e.strip())) for e in items_split]
+                    items_sorted = [Utils.canonicalize_name(str(e.strip()))
+                                    for e in items_split]
                     items_sorted.sort()
                     items = [e for e in items_sorted]
-                if key == 'Requires:':
-                    requires = items
-                else:
-                    required_by = items
+                required_by = items
                 # fi
-            elif key == 'Home-page:' or key == 'Author:' \
-                    or key == 'Author-email:' or key == 'License:' \
-                    or key == 'Location:':
+            elif key == 'Home-page:' or key == 'Author:' or key == 'Author-email:' \
+                    or key == 'License:' or key == 'Location:' \
+                    or key == 'Requires:' or key == 'Version:':
                 continue
             elif line.startswith('-'):
                 continue
             # fi
-            if name is not None and version is not None and summary is not None \
-                    and requires is not None and required_by is not None:
-                dot = name.find('.')
-                if dot >= 0:
-                    name = name.replace('.', '-')
-                    # not fixed:
-                    # Mastodon.py                   1.5.1
-                    # ruamel.yaml                   0.17.21
-                    # ruamel.yaml.clib              0.2.6
-                    # zope.deprecation              4.4.0
-                    # zope.index                    5.2.0
-                    # zope.interface                5.4.0
-
+            if name is not None and summary is not None \
+                    and required_by is not None:
                 if not db.package_update(name=name, summary=summary,
                                          required_by=required_by):
                     print('Error: db.tree_update({})'.format(name))
                     return False
-
                 name = None
-                version = None
                 summary = None
-                requires = None
                 required_by = None
                 continue
             else:
@@ -285,12 +235,6 @@ class PipCmd:
         return True
 
     @staticmethod
-    def pip_outdated() -> (str, str, str, str):
-        # pip list --outdated --format json
-        # fairly slow .. up to one minute
-        return None
-
-    @staticmethod
     def pip_selftest() -> bool:
         version = PipCmd.version()
         if not version:
@@ -298,10 +242,6 @@ class PipCmd:
         checked = PipCmd.pip_check()
         if not checked:
             return False
-        packages = PipCmd().pip_list()
-        if packages is None:
-            return False
-
         return True
 
 

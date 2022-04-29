@@ -1,6 +1,7 @@
 #
 # -*- coding: utf-8 -*-
 #
+import os.path
 import sys
 import json
 import typing
@@ -48,6 +49,10 @@ class Database:
 
     def dump(self, json_path: str) -> bool:
         try:
+            old_path = json_path + '.old'
+            if os.path.exists(old_path):
+                os.remove(old_path)
+            os.rename(json_path, old_path)
             with open(json_path, 'w', encoding='utf-8') as f:
                 json.dump(self.tables, f, ensure_ascii=True, indent=4, sort_keys=True)
                 # s = json.dumps(self.tables, cls=DateTimeEncoder)
@@ -74,6 +79,14 @@ class Database:
     def table_packages(self) -> dict:
         return self.tables[self.PACKAGES]
 
+    def package_set(self, table: dict, key: str, p: dict) -> bool:
+        # map from pip's name to our own ones
+        # here: key, package_name, version_installed, version_required
+        # also merge updates
+        # Problem: p could be deep tree dictionary
+        table[key] = p
+        return True
+
     def packages_set(self, packages_installed_list_of_dicts: typing.List[dict]) -> bool:
         table = self.table_packages()
         table.clear()
@@ -83,10 +96,12 @@ class Database:
             if key_raw is None:
                 return False
             key = self.c_name(key_raw)
-            table[key] = p
+            if not self.package_set(table, key, p):
+                return False
         return True
 
-    def package_update(self, name: str, summary: str, required_by: [str]) -> bool:
+    def package_update(self, name: str, summary: str,
+                       required_by: [str]) -> bool:
         table = self.table_packages()
         p = table.get(name)
         if p is None:
@@ -110,7 +125,8 @@ class Database:
         s = sorted(releases, key=lambda x: version.Version(x), reverse=True)
         return s
 
-    def package_set_releases_recent(self, name: str, releases: [str], checked_time: int) -> bool:
+    def package_set_releases_recent(self, name: str,
+                                    releases: [str], checked_time: int) -> bool:
         table = self.table_packages()
         d = table.get(name)
         if d is None:
