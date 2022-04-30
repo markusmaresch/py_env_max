@@ -50,6 +50,7 @@ class PipCmd:
             d['version_installed'] = d.pop('installed_version')  # rename
             if d.get('required_version') is not None:
                 d['version_required'] = d.pop('required_version')  # rename
+            d.pop('key')
             return d
 
         # def aux()
