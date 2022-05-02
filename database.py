@@ -47,14 +47,29 @@ class Database:
         return self.tables
 
     def __init__(self):
+        self.dirty = False  # is this correct ?
         self.tables = self.truncate()
 
     def close(self):
         # cleanup memory ...
         return
 
+    def set_dirty(self, flag: bool, reason: str = None):
+        if self.dirty == flag:
+            return
+        if flag and reason is not None:
+            print('set_dirty: {}'.format(reason))
+        self.dirty = flag
+
+    def get_dirty(self) -> bool:
+        return self.dirty
+
     def dump(self, json_path: str) -> bool:
         try:
+            if not self.get_dirty():
+                print('Info: NOT written: {} .. dirty was {}'
+                      .format(json_path, self.get_dirty()))
+                return True
             old_path = json_path + '.old'
             if os.path.exists(old_path):
                 os.remove(old_path)
@@ -65,7 +80,9 @@ class Database:
                 # s = json.dumps(self.tables, cls=DateTimeEncoder)
                 # json.dump(s, f, ensure_ascii=True, indent=4, sort_keys=True)
                 # f.write(s)
-                print('Info: written: {}'.format(json_path))
+                print('Info: written: {} .. dirty was {}'
+                      .format(json_path, self.get_dirty()))
+                self.set_dirty(False)
                 return True
         except Exception as e:
             print('Error: dump: {} .. {}'.format(json_path, e))
@@ -75,6 +92,7 @@ class Database:
         try:
             with open(json_path) as f:
                 self.tables = json.load(f)
+                self.set_dirty(False)
                 return True
         except:
             print('Error: load: {}'.format(json_path))
@@ -88,12 +106,23 @@ class Database:
         # here: key, package_name, version_installed, version_required
         # also merge updates
         # Problem: p could be deep tree dictionary
-        table[key] = p
+        if table.get(key) is None:
+            table[key] = p
+            return True
+        # fi
+        # need to update
+        keys = p.keys()
+        for k in keys:
+            if table[key][k] == p[k]:
+                # no need to update
+                continue
+            table[key][k] = p[k]
+            self.set_dirty(True, reason='{}/{}'.format(key, k))
         return True
 
     def packages_set(self, packages_installed_list_of_dicts: typing.List[dict]) -> bool:
         table = self.table_packages()
-        table.clear()
+        # table.clear()
         for p in packages_installed_list_of_dicts:
             key_raw = p.get(PyPi.PACKAGE_NAME)
             if key_raw is None:
@@ -110,9 +139,20 @@ class Database:
         if p is None:
             return False
         if summary:
-            p[Database.SUMMARY] = summary
+            old_summary = p.get(Database.SUMMARY)
+            if old_summary is None or old_summary != summary:
+                p[Database.SUMMARY] = summary
+                self.set_dirty(True, reason='summary: {}/{}'.format(name, summary))
+            else:
+                pass  # print('Summary: same or empty before')
         if len(required_by) > 0:
-            p[Database.REQUIRED_BY] = required_by
+            old_required_by = p.get(Database.REQUIRED_BY)
+            if old_required_by != required_by:
+                p[Database.REQUIRED_BY] = required_by
+                self.set_dirty(True, reason='required_by: {}/{}'
+                               .format(name, required_by))
+            else:
+                pass  # print('RequiredBy: same or empty before')
         return True
 
     def package_get_releases_recent(self, name: str) -> [str]:
@@ -135,8 +175,26 @@ class Database:
         if d is None:
             # we assume update only
             return False
-        d[Database.RELEASES_RECENT] = releases
-        d[Database.RELEASES_CHECKED_TIME] = checked_time
+        old_releases = d.get(Database.RELEASES_RECENT)
+        if old_releases is not None:
+            releases += old_releases
+            releases = list(sorted(set(releases)))
+            # now merged - could still be the same
+
+        if old_releases is None or old_releases != releases:
+            d[Database.RELEASES_RECENT] = releases
+            self.set_dirty(True, reason='releases: {}/{}'.format(name, releases))
+        else:
+            pass  # print('Releases: same or empty before')
+
+        old_checked_time = d.get(Database.RELEASES_CHECKED_TIME)
+        if old_checked_time is None or old_checked_time != checked_time:
+            d[Database.RELEASES_CHECKED_TIME] = checked_time
+            self.set_dirty(True, reason='checked_time: {}: {}'
+                           .format(name, checked_time - old_checked_time))
+        else:
+            print('Release check time: same or empty before')
+
         return True
 
     def package_set_level(self, name: str, level: int) -> bool:

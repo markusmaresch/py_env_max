@@ -83,7 +83,7 @@ class EnvCmd:
     @staticmethod
     def env_get_releases(db: Database) -> bool:
         force = False
-        uptodate_seconds = 60 * 60
+        uptodate_seconds = 5 * 60
         keys = db.packages_get_names_all()
         print('Check releases for {} packages (force={})'.format(len(keys), force))
         now = int(time.time())
