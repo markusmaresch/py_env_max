@@ -13,8 +13,7 @@ from pip._internal.cli.status_codes import SUCCESS
 from pip._internal.utils.misc import get_installed_distributions
 
 # installed packages
-from _vendor.pipdeptree import PackageDAG, conflicting_deps, \
-    render_conflicts_text, cyclic_deps
+from _vendor.pipdeptree import PackageDAG, conflicting_deps, render_conflicts_text, cyclic_deps
 
 # own imports
 from database import Database

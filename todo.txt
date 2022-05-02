@@ -2,7 +2,8 @@
 #
 #
 Next Steps:
-    - resolve 'flat'
+    - yml_export (for server update)
+    - cmd_export (bat/sh)
     - implement updates
         get latest releases (with cached delay)
         for all out of date:

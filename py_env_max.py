@@ -79,7 +79,6 @@ class PyEnvMax:
                   .format(self.environment_default, self.python_version_default))
             print('\tconda activate {}'.format(self.environment_default))
             # here go boot strapping packages .. UNLESS those can be found in pip._vendor !!
-            print('\tpip install pipdeptree')
             print()
             return False
         self.set_activated_environment(activated)
@@ -89,7 +88,7 @@ class PyEnvMax:
     def run(self) -> int:
         env_default = self.get_activated_environment()
         parser = argparse.ArgumentParser(prog='py_env_max',
-                                         description='Maintain and maximize a python environment',
+                                         description='Maintain and maximize one python environment',
                                          epilog='Maximize you python environment !')
 
         parser.add_argument('-f', '--force', action='store_true', help='force creation/overwriting of files')
@@ -97,10 +96,19 @@ class PyEnvMax:
                             help='environment name, overriding \'{}\''.format(env_default))
 
         group = parser.add_mutually_exclusive_group(required=True)
+        group.add_argument('-st', '--statistics', action='store_true',
+                            help='Show statistics of existing python environment')
+
+        group.add_argument('-ebs', '--env_boot_strap', action='store_true',
+                           help='Provide help initializing a new python environment')
         group.add_argument('-ei', '--env_import', action='store_true',
                            help='Import existing python environment into internal database')
-        group.add_argument('-eu', '--env_update', action='store_true',
-                           help='Attempt to carefully update an existing python environment')
+
+        group.add_argument('-ua', '--upd_all', action='store_true',
+                            help='Attempt to update all of existing python environment')
+        group.add_argument('-uc', '--upd_scripts', action='store_true',
+                            help='Generate scripts for updating existing python environment')
+
         group.add_argument('-ri', '--req_import', action='store_true',
                            help='Import \'requirements.txt\' into internal database')
         group.add_argument('-re', '--req_export', action='store_true',
@@ -111,20 +119,22 @@ class PyEnvMax:
                            help='Create conda YML script from existing python environment')
         args = parser.parse_args()
         print(args)
+        force = args.force
+        env_name = args.env
 
-        env_name = self.get_activated_environment()
+        env_name = self.get_activated_environment() if env_name is None else env_name
         if args.env_import:
-            EnvCmd.env_import(env_name=env_name)
+            EnvCmd.env_import(env_name=env_name, force=force)
         elif args.env_update:
-            EnvCmd.env_update(env_name=env_name)
+            EnvCmd.env_update(env_name=env_name, force=force)
         elif args.yml_import:
-            YmlCmd.yml_import(env_name=env_name)
+            YmlCmd.yml_import(env_name=env_name, force=force)
         elif args.yml_export:
-            YmlCmd.yml_export(env_name=env_name)
+            YmlCmd.yml_export(env_name=env_name, force=force)
         elif args.req_import:
-            ReqCmd.req_import(env_name=env_name)
+            ReqCmd.req_import(env_name=env_name, force=force)
         elif args.req_export:
-            ReqCmd.req_export(env_name=env_name)
+            ReqCmd.req_export(env_name=env_name, force=force)
         else:
             print('? internal switch ?')
             parser.print_help()

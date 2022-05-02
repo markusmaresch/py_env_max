@@ -102,24 +102,24 @@ class EnvCmd:
         releases_all = PyPiCmd.get_release_many(packages_needed)
         if releases_all is None:
             return False
-        ok = True
+        # ok = True
         i = 0
         for package_name in packages_needed:
             releases = releases_all[i]
             if releases is None:
                 # this is a problem upstreams
                 print('Error: No releases for {}'.format(package_name))
-                ok = False
+                # ok = False
                 continue
             if not db.package_set_releases_recent(package_name, releases, now):
                 return False
-            self_check = True
+            self_check = False
             if self_check:
                 rr = db.package_get_releases_recent(package_name)
                 if rr is None:
                     return False
             i += 1
-        return ok
+        return True  # should be: ok
 
     @staticmethod
     def env_check_consistency(db: Database) -> bool:
@@ -180,10 +180,10 @@ class EnvCmd:
         return True
 
     @staticmethod
-    def env_import(env_name: str) -> bool:
+    def env_import(env_name: str, force: bool = False) -> bool:
         # read existing environment and store in internal database
         db_name = '{}.json'.format(env_name)
-        print('env_import: {}'.format(env_name))
+        print('env_import: {} (force={})'.format(env_name, force))
         db = Database()
         develop = True
         if develop and os.path.exists(db_name):
@@ -201,7 +201,19 @@ class EnvCmd:
         return ok
 
     @staticmethod
-    def env_update(env_name: str) -> bool:
+    def env_update(env_name: str, force: bool = False) -> bool:
         # Attempt to update existing python environment
-        print('env_update: {}'.format(env_name))
+        print('env_update: {} (force={})'.format(env_name, force))
+        db_name = '{}.json'.format(env_name)
+        db = Database()
+        if not db.load(db_name):
+            # alternatively could call env_import and continue
+            return False
+        #
+        # loop through packages
+        # take releases, and check all conditions, sub-conditions on them, then take newest
+        # attempt to pi install, pip check
+        # read back and update database
+        #
+        db.close()
         return True

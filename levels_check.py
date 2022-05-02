@@ -17,6 +17,7 @@ from _vendor.pipdeptree import PackageDAG
 
 from utils import Utils
 
+
 class LevelsCache:
     def __init__(self, levels_max: int):
         self.levels_max = levels_max

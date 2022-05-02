@@ -22,6 +22,10 @@ class DateTimeEncoder(json.JSONEncoder):  # is not used for unknown reasons
         return json.JSONEncoder.default(self, obj)
 
 
+class PyPi:
+    PACKAGE_NAME = 'package_name'
+
+
 class Database:
     CONFIG = 'config'
     PACKAGES = 'packages'
@@ -89,9 +93,8 @@ class Database:
     def packages_set(self, packages_installed_list_of_dicts: typing.List[dict]) -> bool:
         table = self.table_packages()
         table.clear()
-        key_name = 'package_name'
         for p in packages_installed_list_of_dicts:
-            key_raw = p.get(key_name)
+            key_raw = p.get(PyPi.PACKAGE_NAME)
             if key_raw is None:
                 return False
             key = Utils.canonicalize_name(key_raw)
