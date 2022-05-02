@@ -31,6 +31,7 @@ class Database:
     PACKAGES = 'packages'
     #
     VERSION_INSTALLED = 'version_installed'
+    VERSION_REQUIRED = 'version_required'
     SUMMARY = 'summary'
     REQUIRES = 'requires'
     REQUIRED_BY = 'required_by'
@@ -181,10 +182,35 @@ class Database:
             return []
         return [Utils.canonicalize_name(r) for r in required_by]
 
-    def packages_get_names(self) -> [str]:
+    def package_get_version_required(self, name: str) -> typing.Union[str, object]:
+        table = self.table_packages()
+        d = table.get(name)
+        if d is None:
+            return None
+        vr = d.get(Database.VERSION_REQUIRED)
+        if vr is None:
+            return '0.0.1'
+        return vr
+
+    def packages_get_names_all(self) -> [str]:
         table = self.table_packages()
         keys = table.keys()
         return [Utils.canonicalize_name(k) for k in keys]
+
+    def packages_get_names_by_level(self, level: int, less_then: bool = False) -> [str]:
+        table = self.table_packages()
+        keys_all = table.keys()
+        keys_level = list()
+        for k in keys_all:
+            lev = self.package_get_level(k)
+            if less_then:
+                if lev > level:
+                    continue
+            else:
+                if lev != level:
+                    continue
+            keys_level.append(k)
+        return [Utils.canonicalize_name(k) for k in keys_level]
 
     @staticmethod
     def self_test() -> bool:

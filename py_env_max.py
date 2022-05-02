@@ -4,6 +4,7 @@
 import sys
 import argparse
 import datetime
+import typing
 
 from pip._vendor.distlib.version import NormalizedVersion
 
@@ -13,6 +14,7 @@ from yml_cmd import YmlCmd
 from conda_cmd import CondaCmd
 from pip_cmd import PipCmd
 from os_platform import OsPlatform
+from statistics import Statistics
 
 
 class PyEnvMax:
@@ -52,7 +54,7 @@ class PyEnvMax:
         print('Using: {}'.format(op.__repr__()))
         return True
 
-    def check_conda(self) -> bool:
+    def check_conda_basic(self) -> bool:
         version = CondaCmd.version()
         if version is None or not version:
             print('Error: conda not working; is miniconda installed ?')
@@ -65,28 +67,31 @@ class PyEnvMax:
         if vh.__lt__(vm):
             print('Warning: conda too old ({} < {}), consider updating conda itself or miniconda'.format(vh, vm))
             # return False
+        return True
 
-        activated = CondaCmd.env_activated()
+    def check_conda_environment(self, env_override: str, force: bool) -> typing.Union[str, object]:
+        activated = CondaCmd.env_activated() if env_override is None else env_override
         if not activated:
             print('Error: cannot determine activated conda environment')
             print('Check: conda env list')
-            return False
+            return None
         if activated == 'base':
+            default = self.get_environment_default()
             print('Error: do not use \'base\' conda environment')
             print()
             print('Consider creating a new environment:')
             print('\tconda create --name {} python={}'
-                  .format(self.environment_default, self.python_version_default))
-            print('\tconda activate {}'.format(self.environment_default))
+                  .format(default, self.python_version_default))
+            print('\tconda activate {}'.format(default))
             # here go boot strapping packages .. UNLESS those can be found in pip._vendor !!
             print()
-            return False
+            return None
         self.set_activated_environment(activated)
         print('Using: {}  .. as activated environment'.format(activated))
-        return True
+        return activated
 
     def run(self) -> int:
-        env_default = self.get_activated_environment()
+        env_default = self.get_environment_default()
         parser = argparse.ArgumentParser(prog='py_env_max',
                                          description='Maintain and maximize one python environment',
                                          epilog='Maximize you python environment !')
@@ -120,13 +125,15 @@ class PyEnvMax:
         args = parser.parse_args()
         print(args)
         force = args.force
-        env_name = args.env
+        env_name = self.check_conda_environment(args.env, force)
+        if env_name is None:
+            return False
 
         env_name = self.get_activated_environment() if env_name is None else env_name
-        if args.env_import:
+        if args.statistics:
+            Statistics.statistics(env_name=env_name, force=force)
+        elif args.env_import:
             EnvCmd.env_import(env_name=env_name, force=force)
-        elif args.env_update:
-            EnvCmd.env_update(env_name=env_name, force=force)
         elif args.yml_import:
             YmlCmd.yml_import(env_name=env_name, force=force)
         elif args.yml_export:
@@ -135,6 +142,8 @@ class PyEnvMax:
             ReqCmd.req_import(env_name=env_name, force=force)
         elif args.req_export:
             ReqCmd.req_export(env_name=env_name, force=force)
+        elif args.env_update:
+            EnvCmd.env_update(env_name=env_name, force=force)
         else:
             print('? internal switch ?')
             parser.print_help()
@@ -154,9 +163,9 @@ def main():
     pem = PyEnvMax()
     if not pem.check_os_platform():
         return 1
-    if not pem.check_conda():
-        return 1
     if not pem.check_executables():
+        return 1
+    if not pem.check_conda_basic():
         return 1
     return pem.run()
 

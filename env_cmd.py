@@ -15,7 +15,7 @@ class EnvCmd:
 
     @staticmethod
     def env_calc_levels(db: Database) -> bool:
-        keys = db.packages_get_names()
+        keys = db.packages_get_names_all()
         print('Check levels for {} packages'.format(len(keys)))
         levels_max = 15
         level = 0
@@ -84,7 +84,7 @@ class EnvCmd:
     def env_get_releases(db: Database) -> bool:
         force = False
         uptodate_seconds = 60 * 60
-        keys = db.packages_get_names()
+        keys = db.packages_get_names_all()
         print('Check releases for {} packages (force={})'.format(len(keys), force))
         now = int(time.time())
         packages_needed = list()
@@ -123,7 +123,7 @@ class EnvCmd:
 
     @staticmethod
     def env_check_consistency(db: Database) -> bool:
-        keys = db.packages_get_names()
+        keys = db.packages_get_names_all()
         print('Testing consistency of {} packages'.format(len(keys)))
         packages_needed = set()
         for name in keys:
@@ -173,7 +173,7 @@ class EnvCmd:
             return False
 
         # this should be done FIRST
-        packages = db.packages_get_names()
+        packages = db.packages_get_names_all()
         if not PipCmd.package_update_pip_show(db, packages=packages):
             return False
 
