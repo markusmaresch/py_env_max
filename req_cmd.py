@@ -45,12 +45,12 @@ class ReqCmd:
                     if len(pack_level) < 1:
                         break
                     # print('\treq2: {} {}'.format(ll, pack_level))
+                    r.write('#\n# level {} below\n#\n'.format(ll))
                     for p in pack_level:
                         version_required = db.package_get_version_required(p)
                         # print('\t\t{}=={}'.format(p, version_required))
                         r.write('{}=={}\n'.format(p, version_required))
                     # for
-                    r.write('#\n')
                 # while
                 r.write('#\n')
             # with
