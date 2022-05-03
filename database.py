@@ -190,8 +190,10 @@ class Database:
         old_checked_time = d.get(Database.RELEASES_CHECKED_TIME)
         if old_checked_time is None or old_checked_time != checked_time:
             d[Database.RELEASES_CHECKED_TIME] = checked_time
+            diff = checked_time - old_checked_time \
+                if old_checked_time is not None else 99999
             self.set_dirty(True, reason='checked_time: {}: {}'
-                           .format(name, checked_time - old_checked_time))
+                           .format(name, diff))
         else:
             print('Release check time: same or empty before')
 

@@ -18,11 +18,11 @@ class PyPiCmd:
 
     @staticmethod
     def get_pypi_json(package: str) -> typing.Union[dict, object]:
-        t_max = 5
-        s = 0.01
+        t_max = 3
+        s = 0.1
         for t in range(t_max):
             try:
-                response = requests.get(f'https://pypi.org/pypi/{package}/json', timeout=3.0)
+                response = requests.get(f'https://pypi.org/pypi/{package}/json', timeout=s)
                 js = response.json()
                 return js
             except:
