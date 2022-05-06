@@ -58,7 +58,7 @@ class Database:
         if self.dirty == flag:
             return
         if flag and reason is not None:
-            print('set_dirty: {}'.format(reason))
+            print('set_dirty: {} (only first one !)'.format(reason))
         self.dirty = flag
 
     def get_dirty(self) -> bool:
