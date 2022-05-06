@@ -1213,3 +1213,5 @@ dacktool==0.0.7 # LEVEL_01 # Some python tools
 dbstream==0.1.13 # LEVEL_06 # A meta package to be connected to several databases
 sshtunnel==0.1.5 # LEVEL_05 # Pure python SSH tunnels
 #
+branca==0.5.0 # LEVEL_03 # Generate complex HTML+JS pages with Python
+folium==0.12.1 # LEVEL_04 # Make beautiful maps with Leaflet.js & Python

@@ -501,6 +501,7 @@ bcrypt
 bert-for-tf2
 bokeh
 botocore
+branca
 brotlipy
 click-repl
 coinpaprika
@@ -656,6 +657,7 @@ flask-compress
 flask-cors
 flask-login
 flask-seasurf
+folium
 geopandas
 geos
 google-api-core

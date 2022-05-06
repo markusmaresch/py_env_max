@@ -2597,6 +2597,29 @@
         "dependencies": []
     },
     {
+        "key": "branca",
+        "package_name": "branca",
+        "installed_version": "0.5.0",
+        "required_version": "0.5.0",
+        "dependencies": [
+            {
+                "key": "jinja2",
+                "package_name": "jinja2",
+                "installed_version": "3.0.3",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "markupsafe",
+                        "package_name": "MarkupSafe",
+                        "installed_version": "2.0.1",
+                        "required_version": ">=2.0",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "key": "brotli",
         "package_name": "Brotli",
         "installed_version": "1.0.9",
@@ -11673,14 +11696,14 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.19.3",
+                        "required_version": ">=1.14.5",
                         "dependencies": []
                     },
                     {
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
+                        "required_version": ">=1.19.3",
                         "dependencies": []
                     },
                     {
@@ -14397,6 +14420,95 @@
                 "installed_version": "6.1",
                 "required_version": ">=5.0.0,<7.0.0",
                 "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "folium",
+        "package_name": "folium",
+        "installed_version": "0.12.1",
+        "required_version": "0.12.1",
+        "dependencies": [
+            {
+                "key": "branca",
+                "package_name": "branca",
+                "installed_version": "0.5.0",
+                "required_version": ">=0.3.0",
+                "dependencies": [
+                    {
+                        "key": "jinja2",
+                        "package_name": "jinja2",
+                        "installed_version": "3.0.3",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "markupsafe",
+                                "package_name": "MarkupSafe",
+                                "installed_version": "2.0.1",
+                                "required_version": ">=2.0",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "jinja2",
+                "package_name": "jinja2",
+                "installed_version": "3.0.3",
+                "required_version": ">=2.9",
+                "dependencies": [
+                    {
+                        "key": "markupsafe",
+                        "package_name": "MarkupSafe",
+                        "installed_version": "2.0.1",
+                        "required_version": ">=2.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.20.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "requests",
+                "package_name": "requests",
+                "installed_version": "2.27.1",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2021.10.8",
+                        "required_version": ">=2017.4.17",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "charset-normalizer",
+                        "package_name": "charset-normalizer",
+                        "installed_version": "2.0.12",
+                        "required_version": "~=2.0.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.3",
+                        "required_version": ">=2.5,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "1.26.9",
+                        "required_version": ">=1.21.1,<1.27",
+                        "dependencies": []
+                    }
+                ]
             }
         ]
     },
@@ -45235,14 +45347,14 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.19.3",
+                "required_version": ">=1.14.5",
                 "dependencies": []
             },
             {
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
+                "required_version": ">=1.19.3",
                 "dependencies": []
             },
             {
@@ -45264,14 +45376,14 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.19.3",
+                "required_version": ">=1.14.5",
                 "dependencies": []
             },
             {
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
+                "required_version": ">=1.19.3",
                 "dependencies": []
             },
             {
@@ -73178,14 +73290,14 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.19.3",
+                        "required_version": ">=1.14.5",
                         "dependencies": []
                     },
                     {
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
+                        "required_version": ">=1.19.3",
                         "dependencies": []
                     },
                     {

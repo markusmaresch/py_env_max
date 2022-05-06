@@ -698,6 +698,16 @@ License: zlib
 Requires: 
 Required-by: elegantrl
 ---
+Name: branca
+Version: 0.5.0
+Summary: Generate complex HTML+JS pages with Python
+Home-page: https://github.com/python-visualization/branca
+Author: Martin Journois
+Author-email: 
+License: MIT
+Requires: jinja2
+Required-by: folium
+---
 Name: Brotli
 Version: 1.0.9
 Summary: Python bindings for the Brotli compression library
@@ -2188,6 +2198,16 @@ License: BSD
 Requires: celery humanize prometheus-client pytz tornado
 Required-by: 
 ---
+Name: folium
+Version: 0.12.1
+Summary: Make beautiful maps with Leaflet.js & Python
+Home-page: https://github.com/python-visualization/folium
+Author: Rob Story
+Author-email: wrobstory@gmail.com
+License: MIT
+Requires: branca jinja2 numpy requests
+Required-by: 
+---
 Name: fonttools
 Version: 4.33.0
 Summary: Tools to manipulate font files
@@ -3146,7 +3166,7 @@ Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
 Requires: MarkupSafe
-Required-by: Flask Sphinx altair bokeh distributed gradio jupyter-server jupyterlab jupyterlab-server nbconvert nbsphinx notebook pandas-profiling pyLDAvis pydeck recommenders spacy sweetviz
+Required-by: Flask Sphinx altair bokeh branca distributed folium gradio jupyter-server jupyterlab jupyterlab-server nbconvert nbsphinx notebook pandas-profiling pyLDAvis pydeck recommenders spacy sweetviz
 ---
 Name: jmespath
 Version: 0.10.0
@@ -4362,7 +4382,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: Bottleneck ImageHash Keras-Preprocessing PettingZoo PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance category-encoders cftime cmdstanpy colormath control cornac cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightfm lightgbm matplotlib missingno mizani mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless opt-einsum osqp pandas pandas-profiling pandera params-flow patsy phik plotnine pmdarima powerlaw py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray recommenders rlr rouge-score sacrebleu scikit-image scikit-learn scikit-surprise scipy sclblpy scs seaborn seqeval simplecosine slycot snapml spacy stable-baselines3 stanza statsmodels stumpy sweetviz tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: Bottleneck ImageHash Keras-Preprocessing PettingZoo PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance category-encoders cftime cmdstanpy colormath control cornac cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta folium gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightfm lightgbm matplotlib missingno mizani mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless opt-einsum osqp pandas pandas-profiling pandera params-flow patsy phik plotnine pmdarima powerlaw py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray recommenders rlr rouge-score sacrebleu scikit-image scikit-learn scikit-surprise scipy sclblpy scs seaborn seqeval simplecosine slycot snapml spacy stable-baselines3 stanza statsmodels stumpy sweetviz tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -6182,7 +6202,7 @@ Author: Kenneth Reitz
 Author-email: me@kennethreitz.org
 License: Apache 2.0
 Requires: certifi charset-normalizer idna urllib3
-Required-by: Kivy-Garden Mastodon.py PyGithub Sphinx alpha-vantage analytics-python azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth databricks-cli datasets dbstream docker fastai google-api-core google-cloud-bigquery googletransx gradio h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle keras2onnx lightfm minimal-snowplow-tracker mixpanel mlflow msrest nilearn openai pandas-datareader pandas-finance pandas-profiling panel rapidminer recommenders requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket responses robin-stocks sclblpy spacy stanza tensorboard tensorflow-datasets tf2onnx tiingo transformers wandb yfinance zeep
+Required-by: Kivy-Garden Mastodon.py PyGithub Sphinx alpha-vantage analytics-python azure-core bertviz chart-studio cloudscraper coinpaprika dash-auth databricks-cli datasets dbstream docker fastai folium google-api-core google-cloud-bigquery googletransx gradio h2o huggingface-hub iexfinance jqdatasdk jupyter-dash jupyterlab-server kaggle keras2onnx lightfm minimal-snowplow-tracker mixpanel mlflow msrest nilearn openai pandas-datareader pandas-finance pandas-profiling panel rapidminer recommenders requests-cache requests-file requests-oauthlib requests-toolbelt requests-unixsocket responses robin-stocks sclblpy spacy stanza tensorboard tensorflow-datasets tf2onnx tiingo transformers wandb yfinance zeep
 ---
 Name: requests-cache
 Version: 0.9.3
