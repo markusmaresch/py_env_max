@@ -3584,6 +3584,16 @@ License: MIT
 Requires: 
 Required-by: 
 ---
+Name: labelImg
+Version: 1.8.6
+Summary: LabelImg is a graphical image annotation tool and label object bounding boxes in images
+Home-page: https://github.com/tzutalin/labelImg
+Author: TzuTa Lin
+Author-email: tzu.ta.lin@gmail.com
+License: MIT license
+Requires: lxml pyqt5
+Required-by: 
+---
 Name: labelme
 Version: 5.0.1
 Summary: Image Polygonal Annotation with Python
@@ -3762,7 +3772,7 @@ Author: lxml dev team
 Author-email: lxml-dev@lxml.de
 License: BSD
 Requires: 
-Required-by: geos nilearn pandas-datareader yfinance zeep
+Required-by: geos labelImg nilearn pandas-datareader yfinance zeep
 ---
 Name: lz4
 Version: 4.0.0
@@ -5772,7 +5782,7 @@ Author: Riverbank Computing Limited
 Author-email: info@riverbankcomputing.com
 License: GPL v3
 Requires: PyQt5-Qt5 PyQt5-sip
-Required-by: 
+Required-by: labelImg
 ---
 Name: PyQt5-Qt5
 Version: 5.15.2

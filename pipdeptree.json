@@ -36226,6 +36226,43 @@
         "dependencies": []
     },
     {
+        "key": "labelimg",
+        "package_name": "labelImg",
+        "installed_version": "1.8.6",
+        "required_version": "1.8.6",
+        "dependencies": [
+            {
+                "key": "lxml",
+                "package_name": "lxml",
+                "installed_version": "4.8.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "pyqt5",
+                "package_name": "pyqt5",
+                "installed_version": "5.15.6",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "pyqt5-qt5",
+                        "package_name": "PyQt5-Qt5",
+                        "installed_version": "5.15.2",
+                        "required_version": ">=5.15.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pyqt5-sip",
+                        "package_name": "PyQt5-sip",
+                        "installed_version": "12.10.1",
+                        "required_version": ">=12.8,<13",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "key": "labelme",
         "package_name": "labelme",
         "installed_version": "5.0.1",
