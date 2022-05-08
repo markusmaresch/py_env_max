@@ -2,6 +2,7 @@
 #
 #
 Next Steps:
+    - yml_empty_templates: yml_templates/<os>/conda_3.9.yml
     - yml_export (for server update)
     - cmd_export (bat/sh)
     - implement updates
@@ -15,7 +16,6 @@ Next Steps:
         read all back in, if sucessful
 
 Later:
-    - resolve PRE_INSTALL NO_CACHE_DIR, levels ... maybe it does not matter
     - fix version, Version, NormalizedVersion
 
 Optimization:

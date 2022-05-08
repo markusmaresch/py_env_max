@@ -255,13 +255,11 @@ echo "Ready for: $cmd ... (Y/CTRL-C) ??"
 read ans
 
 if [ 1 -eq 1 ]; then
-  # PRE_INSTALL_00 .. like numpy
-  # NO_CACHE_DIR # needs to be rebuilt, like: ta-lib
   # LEVEL_01 .. like: pipdeptree
   # LEVEL_02 .. like: convertdate
   # LEVEL_03 .. like: pandas
   # ...
-  tags="PRE_INSTALL_00 NO_CACHE_DIR"
+  tags=""
   sequence=$(seq 1 1 19)
   #sequence=$(seq 1 1 4; seq 5 5 15)
   for i in $sequence; do
@@ -297,11 +295,8 @@ if [ 1 -eq 1 ]; then
       break
     fi
     echo "Installing $requirements_tmp .. $num_lines packages"
-    if [ "$tag" == "NO_CACHE_DIR" ]; then
-      ncd="--no-cache-dir --no-binary :all:"
-    else
-      ncd=""
-    fi
+    ncd="--no-cache-dir --no-binary :all:"
+    ncd=""
     #
     # issue with pip install below: need to fork off and parse for "This could take a while"
     # if found, stop/kill pip and error out

@@ -29,10 +29,10 @@
 #
 # Pre-Installs .. separate install before anything else
 #
-numpy==1.20.0 # LEVEL_01 # PRE_INSTALL_00 # LOCKED # numba 0.55.1 has requirement numpy<1.22,>=1.18 # NumPy is the fundamental package for array computing with Python
+numpy==1.20.0 # LEVEL_01 # LOCKED # numba 0.55.1 has requirement numpy<1.22,>=1.18 # NumPy is the fundamental package for array computing with Python
 
 #
-TA-Lib==0.4.24 # LEVEL_02 # NO_CACHE_DIR # ONLY_OSX # Still issue with upgrading !!! # Python wrapper for TA-Lib
+TA-Lib==0.4.24 # LEVEL_02 # ONLY_OSX # Still issue with upgrading !!! # Python wrapper for TA-Lib
 
 #
 # not recognized by 'req.txt'
