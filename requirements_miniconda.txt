@@ -1201,10 +1201,10 @@ exceptiongroup==1.0.0rc2 # LEVEL_01 # Backport of PEP 654 (exception groups)
 fs==2.4.15 # LEVEL_02 # Python's filesystem abstraction layer
 #
 # plot
-plotnine==0.8.0 # LEVEL_05 # A grammar of graphics for python
+#plotnine==0.8.0 # LEVEL_05 # A grammar of graphics for python
 sweetviz==2.1.3 # LEVEL_04 # A pandas-based library to visualize and compare datasets
 descartes==1.1.0 # LEVEL_04 # Use geometric objects as matplotlib paths and patches
-mizani==0.7.4 # LEVEL_04 # Scales for Python
+#mizani==0.7.4 # LEVEL_04 # Scales for Python
 palettable==3.3.0 # LEVEL_01 # Color palettes for Python
 #
 git-lfs==1.6 # LEVEL_01 # A lightweight Git Large File Storage fetcher
@@ -1215,3 +1215,9 @@ sshtunnel==0.1.5 # LEVEL_05 # Pure python SSH tunnels
 #
 branca==0.5.0 # LEVEL_03 # Generate complex HTML+JS pages with Python
 folium==0.12.1 # LEVEL_04 # Make beautiful maps with Leaflet.js & Python
+#
+#
+# LABELME
+labelme==5.0.1 # LEVEL_05 # Image Polygonal Annotation with Python
+imgviz==1.5.0 # LEVEL_04 # Image Visualization Tools
+natsort==8.1.0 # LEVEL_01 # Simple yet flexible natural sorting in Python

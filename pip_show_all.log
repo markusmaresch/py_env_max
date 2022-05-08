@@ -1566,7 +1566,7 @@ Author: Sean Gillies
 Author-email: sean.gillies@gmail.com
 License: BSD
 Requires: matplotlib
-Required-by: plotnine
+Required-by: 
 ---
 Name: dill
 Version: 0.3.4
@@ -2216,7 +2216,7 @@ Author: Just van Rossum
 Author-email: just@letterror.com
 License: MIT
 Requires: 
-Required-by: matplotlib
+Required-by: 
 ---
 Name: freetype-py
 Version: 2.2.0
@@ -2978,6 +2978,16 @@ License: MIT
 Requires: joblib numpy scikit-learn scipy threadpoolctl
 Required-by: pycaret
 ---
+Name: imgviz
+Version: 1.5.0
+Summary: Image Visualization Tools
+Home-page: http://github.com/wkentaro/imgviz
+Author: Kentaro Wada
+Author-email: www.kentaro.wada@gmail.com
+License: MIT
+Requires: Pillow PyYAML matplotlib numpy
+Required-by: labelme
+---
 Name: importlab
 Version: 0.7
 Summary: A library to calculate python dependency graphs.
@@ -3574,6 +3584,16 @@ License: MIT
 Requires: 
 Required-by: 
 ---
+Name: labelme
+Version: 5.0.1
+Summary: Image Polygonal Annotation with Python
+Home-page: https://github.com/wkentaro/labelme
+Author: Kentaro Wada
+Author-email: www.kentaro.wada@gmail.com
+License: GPLv3
+Requires: Pillow PyYAML imgviz matplotlib natsort numpy qtpy termcolor
+Required-by: 
+---
 Name: langcodes
 Version: 3.3.0
 Summary: Tools for labeling human languages with IETF language tags
@@ -3845,14 +3865,14 @@ Requires: blurhash decorator python-dateutil python-magic pytz requests six
 Required-by: boost
 ---
 Name: matplotlib
-Version: 3.5.1
+Version: 3.2.2
 Summary: Python plotting package
 Home-page: https://matplotlib.org
 Author: John D. Hunter, Michael Droettboom
 Author-email: matplotlib-users@python.org
 License: PSF
-Requires: cycler fonttools kiwisolver numpy packaging pillow pyparsing python-dateutil
-Required-by: catboost control descartes do-mpc elegantrl fastai fbprophet filterpy gradio missingno mizani mlxtend mplfinance pandas-profiling phik plotnine powerlaw pycaret pycocotools pyfolio pyod recommenders scikit-plot seaborn stable-baselines3 sweetviz tf-models-official wordcloud yellowbrick
+Requires: cycler kiwisolver numpy pyparsing python-dateutil
+Required-by: catboost control descartes do-mpc elegantrl fastai fbprophet filterpy gradio imgviz labelme missingno mlxtend mplfinance pandas-profiling phik powerlaw pycaret pycocotools pyfolio pyod recommenders scikit-plot seaborn stable-baselines3 sweetviz tf-models-official wordcloud yellowbrick
 ---
 Name: matplotlib-inline
 Version: 0.1.3
@@ -3943,16 +3963,6 @@ Author-email: dev@mixpanel.com
 License: Apache
 Requires: requests six urllib3
 Required-by: 
----
-Name: mizani
-Version: 0.7.4
-Summary: Scales for Python
-Home-page: https://github.com/has2k1/mizani
-Author: Hassan Kibirige
-Author-email: has2k1@gmail.com
-License: BSD (3-clause)
-Requires: matplotlib numpy palettable pandas scipy
-Required-by: plotnine
 ---
 Name: mkl
 Version: 2022.0.0
@@ -4163,6 +4173,16 @@ Author-email: jukka.lehtosalo@iki.fi
 License: MIT License
 Requires: 
 Required-by: black mypy pyanalyze typing-inspect
+---
+Name: natsort
+Version: 8.1.0
+Summary: Simple yet flexible natural sorting in Python.
+Home-page: https://github.com/SethMMorton/natsort
+Author: Seth M. Morton
+Author-email: drtuba78@gmail.com
+License: MIT
+Requires: 
+Required-by: labelme
 ---
 Name: nbclassic
 Version: 0.3.7
@@ -4382,7 +4402,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: Bottleneck ImageHash Keras-Preprocessing PettingZoo PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance category-encoders cftime cmdstanpy colormath control cornac cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta folium gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn jax jqdatasdk keras2onnx kmodes lightfm lightgbm matplotlib missingno mizani mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless opt-einsum osqp pandas pandas-profiling pandera params-flow patsy phik plotnine pmdarima powerlaw py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray recommenders rlr rouge-score sacrebleu scikit-image scikit-learn scikit-surprise scipy sclblpy scs seaborn seqeval simplecosine slycot snapml spacy stable-baselines3 stanza statsmodels stumpy sweetviz tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: Bottleneck ImageHash Keras-Preprocessing PettingZoo PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance category-encoders cftime cmdstanpy colormath control cornac cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta folium gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn imgviz jax jqdatasdk keras2onnx kmodes labelme lightfm lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless opt-einsum osqp pandas pandas-profiling pandera params-flow patsy phik pmdarima powerlaw py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray recommenders rlr rouge-score sacrebleu scikit-image scikit-learn scikit-surprise scipy sclblpy scs seaborn seqeval simplecosine slycot snapml spacy stable-baselines3 stanza statsmodels stumpy sweetviz tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -4632,7 +4652,7 @@ Author: Donald Stufft and individual contributors
 Author-email: donald@stufft.io
 License: BSD-2-Clause or Apache-2.0
 Requires: pyparsing
-Required-by: QtPy Sphinx bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery google-cloud-secret-manager holoviews huggingface-hub ipykernel jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nbconvert nibabel numexpr pandera pipx pydata-sphinx-theme pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
+Required-by: QtPy Sphinx bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery google-cloud-secret-manager holoviews huggingface-hub ipykernel jupyter-packaging jupyter-server jupyterlab jupyterlab-server mlflow nbconvert nibabel numexpr pandera pipx pydata-sphinx-theme pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
 ---
 Name: palettable
 Version: 3.3.0
@@ -4642,7 +4662,7 @@ Author: Matt Davis
 Author-email: jiffyclub@gmail.com
 License: UNKNOWN
 Requires: 
-Required-by: mizani
+Required-by: 
 ---
 Name: pandas
 Version: 1.4.2
@@ -4652,7 +4672,7 @@ Author: The Pandas Development Team
 Author-email: pandas-dev@python.org
 License: BSD-3-Clause
 Requires: numpy python-dateutil pytz
-Required-by: altair catboost category-encoders cmdstanpy cufflinks dask-ml datasets datashader empyrical exchange-calendars fastai fastparquet fbprophet finta geopandas gradio holoviews iexfinance jqdatasdk mizani mlflow mlxtend mplfinance nilearn openai pandas-datareader pandas-dedupe pandas-finance pandas-market-calendars pandas-profiling pandera phik plotnine pmdarima py-vollib pyLDAvis pycaret pyfolio pyportfolioopt rapidminer recommenders seaborn stable-baselines3 statsmodels stockstats sweetviz tf-models-official trading-calendars twint visions wrds xarray yfinance
+Required-by: altair catboost category-encoders cmdstanpy cufflinks dask-ml datasets datashader empyrical exchange-calendars fastai fastparquet fbprophet finta geopandas gradio holoviews iexfinance jqdatasdk mlflow mlxtend mplfinance nilearn openai pandas-datareader pandas-dedupe pandas-finance pandas-market-calendars pandas-profiling pandera phik pmdarima py-vollib pyLDAvis pycaret pyfolio pyportfolioopt rapidminer recommenders seaborn stable-baselines3 statsmodels stockstats sweetviz tf-models-official trading-calendars twint visions wrds xarray yfinance
 ---
 Name: pandas-datareader
 Version: 0.10.0
@@ -4862,7 +4882,7 @@ Author: Nathaniel J. Smith
 Author-email: njs@pobox.com
 License: 2-clause BSD
 Requires: numpy six
-Required-by: category-encoders plotnine statsmodels
+Required-by: category-encoders statsmodels
 ---
 Name: performer-pytorch
 Version: 1.1.4
@@ -4942,7 +4962,7 @@ Author: Alex Clark (PIL Fork Author)
 Author-email: aclark@python-pillow.org
 License: HPND
 Requires: 
-Required-by: ImageHash bokeh dash-canvas datashader fastai geos gradio imageio matplotlib mlagents-envs scikit-image tf-models-official torchvision wordcloud
+Required-by: ImageHash bokeh dash-canvas datashader fastai geos gradio imageio imgviz labelme mlagents-envs scikit-image tf-models-official torchvision wordcloud
 ---
 Name: pip
 Version: 21.2.4
@@ -5023,16 +5043,6 @@ Author-email: chris@plot.ly
 License: MIT
 Requires: six tenacity
 Required-by: catboost chart-studio cufflinks dash pycaret
----
-Name: plotnine
-Version: 0.8.0
-Summary: A grammar of graphics for python
-Home-page: https://github.com/has2k1/plotnine
-Author: 
-Author-email: 
-License: GPL-2
-Requires: descartes matplotlib mizani numpy pandas patsy scipy statsmodels
-Required-by: 
 ---
 Name: pluggy
 Version: 1.0.0
@@ -6062,7 +6072,7 @@ Author: Kirill Simonov
 Author-email: xi@resolvent.net
 License: MIT
 Requires: 
-Required-by: bokeh dask distributed fastai huggingface-hub libcst mlagents-envs mlflow omegaconf pandas-profiling pytorch-lightning rapids ray recommenders tf-models-official transformers wandb
+Required-by: bokeh dask distributed fastai huggingface-hub imgviz labelme libcst mlagents-envs mlflow omegaconf pandas-profiling pytorch-lightning rapids ray recommenders tf-models-official transformers wandb
 ---
 Name: pyzmq
 Version: 22.3.0
@@ -6112,7 +6122,7 @@ Author: Colin Duquesnoy and the Spyder Development Team
 Author-email: spyder.python@gmail.com
 License: MIT
 Requires: packaging
-Required-by: qtconsole
+Required-by: labelme qtconsole
 ---
 Name: querystring-parser
 Version: 1.2.4
@@ -6452,7 +6462,7 @@ Author:
 Author-email: 
 License: BSD
 Requires: numpy
-Required-by: ImageHash Theano catboost category-encoders control cornac cvxpy dask-glm dask-ml datashader ecos empyrical fastai filterpy gensim imbalanced-learn jax kmodes lightfm lightgbm missingno mizani mlflow mlxtend nilearn osqp pandas-profiling phik plotnine pmdarima powerlaw py-vollib pyLDAvis pyfolio pynndescent pyod pyportfolioopt qdldl recommenders scikit-image scikit-learn scikit-plot scikit-surprise scs seaborn snapml statsmodels stumpy sweetviz tf-models-official umap-learn xgboost yellowbrick
+Required-by: ImageHash Theano catboost category-encoders control cornac cvxpy dask-glm dask-ml datashader ecos empyrical fastai filterpy gensim imbalanced-learn jax kmodes lightfm lightgbm missingno mlflow mlxtend nilearn osqp pandas-profiling phik pmdarima powerlaw py-vollib pyLDAvis pyfolio pynndescent pyod pyportfolioopt qdldl recommenders scikit-image scikit-learn scikit-plot scikit-surprise scs seaborn snapml statsmodels stumpy sweetviz tf-models-official umap-learn xgboost yellowbrick
 ---
 Name: sclblpy
 Version: 0.1.7
@@ -7002,7 +7012,7 @@ Author:
 Author-email: 
 License: BSD License
 Requires: numpy packaging pandas patsy scipy
-Required-by: category-encoders plotnine pmdarima pyod
+Required-by: category-encoders pmdarima pyod
 ---
 Name: stdlib-list
 Version: 0.8.0
@@ -7272,7 +7282,7 @@ Author: Konstantin Lepa
 Author-email: konstantin.lepa@gmail.com
 License: MIT
 Requires: 
-Required-by: fire tensorflow tensorflow-datasets yaspin
+Required-by: fire labelme tensorflow tensorflow-datasets yaspin
 ---
 Name: terminado
 Version: 0.13.3

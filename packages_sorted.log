@@ -160,6 +160,7 @@ multimethod
 multitasking
 murmurhash
 mypy-extensions
+natsort
 nest-asyncio
 netifaces
 netron
@@ -668,6 +669,7 @@ highered
 httpx
 iexfinance
 imbalanced-learn
+imgviz
 ipython
 jqdatasdk
 jupyter-packaging
@@ -677,7 +679,6 @@ kivy-examples
 kmodes
 lightfm
 lightgbm
-mizani
 mlxtend
 mplfinance
 msrest
@@ -758,13 +759,13 @@ google-cloud-secret-manager
 gradio
 holoviews
 ipykernel
+labelme
 missingno
 mlflow
 nbconvert
 opencensus
 pandas-finance
 pandas-market-calendars
-plotnine
 pmdarima
 pyod
 rapidminer
