@@ -1351,7 +1351,7 @@ Required-by: dash
 Name: dash-renderer
 Version: 1.9.1
 Summary: Front-end component renderer for Dash
-Home-page: UNKNOWN
+Home-page: 
 Author: Chris Parmer
 Author-email: chris@plotly.com
 License: MIT
@@ -2216,7 +2216,7 @@ Author: Just van Rossum
 Author-email: just@letterror.com
 License: MIT
 Requires: 
-Required-by: 
+Required-by: matplotlib
 ---
 Name: freetype-py
 Version: 2.2.0
@@ -2391,7 +2391,7 @@ Required-by: mlflow wandb
 Name: glib
 Version: 1.0.0
 Summary: A python graphics library that piggy-backs off of pyqt5
-Home-page: UNKNOWN
+Home-page: 
 Author: its_me
 Author-email: rycepie3909@gmail.com
 License: MIT
@@ -2986,7 +2986,7 @@ Author: Kentaro Wada
 Author-email: www.kentaro.wada@gmail.com
 License: MIT
 Requires: Pillow PyYAML matplotlib numpy
-Required-by: labelme
+Required-by: 
 ---
 Name: importlab
 Version: 0.7
@@ -3594,16 +3594,6 @@ License: MIT license
 Requires: lxml pyqt5
 Required-by: 
 ---
-Name: labelme
-Version: 5.0.1
-Summary: Image Polygonal Annotation with Python
-Home-page: https://github.com/wkentaro/labelme
-Author: Kentaro Wada
-Author-email: www.kentaro.wada@gmail.com
-License: GPLv3
-Requires: Pillow PyYAML imgviz matplotlib natsort numpy qtpy termcolor
-Required-by: 
----
 Name: langcodes
 Version: 3.3.0
 Summary: Tools for labeling human languages with IETF language tags
@@ -3875,14 +3865,14 @@ Requires: blurhash decorator python-dateutil python-magic pytz requests six
 Required-by: boost
 ---
 Name: matplotlib
-Version: 3.2.2
+Version: 3.5.1
 Summary: Python plotting package
 Home-page: https://matplotlib.org
 Author: John D. Hunter, Michael Droettboom
 Author-email: matplotlib-users@python.org
 License: PSF
-Requires: cycler kiwisolver numpy pyparsing python-dateutil
-Required-by: catboost control descartes do-mpc elegantrl fastai fbprophet filterpy gradio imgviz labelme missingno mlxtend mplfinance pandas-profiling phik powerlaw pycaret pycocotools pyfolio pyod recommenders scikit-plot seaborn stable-baselines3 sweetviz tf-models-official wordcloud yellowbrick
+Requires: cycler fonttools kiwisolver numpy packaging pillow pyparsing python-dateutil
+Required-by: catboost control descartes do-mpc elegantrl fastai fbprophet filterpy gradio imgviz missingno mlxtend mplfinance pandas-profiling phik powerlaw pycaret pycocotools pyfolio pyod recommenders scikit-plot seaborn stable-baselines3 sweetviz tf-models-official wordcloud yellowbrick
 ---
 Name: matplotlib-inline
 Version: 0.1.3
@@ -4192,7 +4182,7 @@ Author: Seth M. Morton
 Author-email: drtuba78@gmail.com
 License: MIT
 Requires: 
-Required-by: labelme
+Required-by: 
 ---
 Name: nbclassic
 Version: 0.3.7
@@ -4275,7 +4265,7 @@ Requires:
 Required-by: 
 ---
 Name: netron
-Version: 5.7.1
+Version: 5.7.8
 Summary: Viewer for neural network, deep learning, and machine learning models
 Home-page: https://github.com/lutzroeder/netron
 Author: Lutz Roeder
@@ -4412,7 +4402,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: Bottleneck ImageHash Keras-Preprocessing PettingZoo PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance category-encoders cftime cmdstanpy colormath control cornac cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta folium gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn imgviz jax jqdatasdk keras2onnx kmodes labelme lightfm lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless opt-einsum osqp pandas pandas-profiling pandera params-flow patsy phik pmdarima powerlaw py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray recommenders rlr rouge-score sacrebleu scikit-image scikit-learn scikit-surprise scipy sclblpy scs seaborn seqeval simplecosine slycot snapml spacy stable-baselines3 stanza statsmodels stumpy sweetviz tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: Bottleneck ImageHash Keras-Preprocessing PettingZoo PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance category-encoders cftime cmdstanpy colormath control cornac cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta folium gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn imgviz jax jqdatasdk keras2onnx kmodes lightfm lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless opt-einsum osqp pandas pandas-profiling pandera params-flow patsy phik pmdarima powerlaw py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray recommenders rlr rouge-score sacrebleu scikit-image scikit-learn scikit-surprise scipy sclblpy scs seaborn seqeval simplecosine slycot snapml spacy stable-baselines3 stanza statsmodels stumpy sweetviz tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -4662,7 +4652,7 @@ Author: Donald Stufft and individual contributors
 Author-email: donald@stufft.io
 License: BSD-2-Clause or Apache-2.0
 Requires: pyparsing
-Required-by: QtPy Sphinx bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery google-cloud-secret-manager holoviews huggingface-hub ipykernel jupyter-packaging jupyter-server jupyterlab jupyterlab-server mlflow nbconvert nibabel numexpr pandera pipx pydata-sphinx-theme pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
+Required-by: QtPy Sphinx bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery google-cloud-secret-manager holoviews huggingface-hub ipykernel jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nbconvert nibabel numexpr pandera pipx pydata-sphinx-theme pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
 ---
 Name: palettable
 Version: 3.3.0
@@ -4972,7 +4962,7 @@ Author: Alex Clark (PIL Fork Author)
 Author-email: aclark@python-pillow.org
 License: HPND
 Requires: 
-Required-by: ImageHash bokeh dash-canvas datashader fastai geos gradio imageio imgviz labelme mlagents-envs scikit-image tf-models-official torchvision wordcloud
+Required-by: ImageHash bokeh dash-canvas datashader fastai geos gradio imageio imgviz matplotlib mlagents-envs scikit-image tf-models-official torchvision wordcloud
 ---
 Name: pip
 Version: 21.2.4
@@ -6082,7 +6072,7 @@ Author: Kirill Simonov
 Author-email: xi@resolvent.net
 License: MIT
 Requires: 
-Required-by: bokeh dask distributed fastai huggingface-hub imgviz labelme libcst mlagents-envs mlflow omegaconf pandas-profiling pytorch-lightning rapids ray recommenders tf-models-official transformers wandb
+Required-by: bokeh dask distributed fastai huggingface-hub imgviz libcst mlagents-envs mlflow omegaconf pandas-profiling pytorch-lightning rapids ray recommenders tf-models-official transformers wandb
 ---
 Name: pyzmq
 Version: 22.3.0
@@ -6132,7 +6122,7 @@ Author: Colin Duquesnoy and the Spyder Development Team
 Author-email: spyder.python@gmail.com
 License: MIT
 Requires: packaging
-Required-by: labelme qtconsole
+Required-by: qtconsole
 ---
 Name: querystring-parser
 Version: 1.2.4
@@ -6575,7 +6565,7 @@ Requires:
 Required-by: wandb
 ---
 Name: setuptools
-Version: 59.5.0
+Version: 61.2.0
 Summary: Easily download, build, install, upgrade, and uninstall Python packages
 Home-page: https://github.com/pypa/setuptools
 Author: Python Packaging Authority
@@ -7292,7 +7282,7 @@ Author: Konstantin Lepa
 Author-email: konstantin.lepa@gmail.com
 License: MIT
 Requires: 
-Required-by: fire labelme tensorflow tensorflow-datasets yaspin
+Required-by: fire tensorflow tensorflow-datasets yaspin
 ---
 Name: terminado
 Version: 0.13.3

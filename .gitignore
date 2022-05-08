@@ -5,3 +5,4 @@ py_env_2*.yml
 .ipynb_checkpoints
 db.json
 __pycache__
+old

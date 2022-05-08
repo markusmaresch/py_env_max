@@ -760,7 +760,6 @@ google-cloud-secret-manager
 gradio
 holoviews
 ipykernel
-labelme
 missingno
 mlflow
 nbconvert

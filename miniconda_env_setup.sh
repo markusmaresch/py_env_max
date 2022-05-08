@@ -2,7 +2,7 @@
 #
 # creates/updates conda environment based on requirements
 #
-py_env_name="py_env_202201"  # change/count up
+py_env_name="py_env_202202"  # change/count up
 python_default_version="3.9"
 
 requirements_all="requirements_miniconda.txt"

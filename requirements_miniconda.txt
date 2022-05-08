@@ -1113,7 +1113,7 @@ uuid==1.30 # LEVEL_01 # UUID object and generation functions
 onnxruntime==1.10.0 # LEVEL_02 # LOCKED # ONNX Runtime is a runtime accelerator for Machine Learning models
 onnxoptimizer==0.2.6 # LEVEL_03 # Open Neural Network Exchange
 onnx-simplifier==0.3.7 # LEVEL_04 # Simplify your ONNX model
-netron==5.7.1 # LEVEL_01 # Viewer for neural network, deep learning, and machine learning models
+netron==5.7.8 # LEVEL_01 # Viewer for neural network, deep learning, and machine learning models
 #
 #python-multipart==0.0.5 # LEVEL_02 # A streaming multipart parser for Python
 #
@@ -1221,6 +1221,7 @@ folium==0.12.1 # LEVEL_04 # Make beautiful maps with Leaflet.js & Python
 #
 labelImg==1.8.6 # LEVEL_03 # LabelImg is a graphical image annotation tool and label object bounding boxes in images
 #
-labelme==5.0.1 # LEVEL_05 # Image Polygonal Annotation with Python
+#labelme==5.0.1 # LEVEL_05 # Image Polygonal Annotation with Python
 imgviz==1.5.0 # LEVEL_04 # Image Visualization Tools
 natsort==8.1.0 # LEVEL_01 # Simple yet flexible natural sorting in Python
+#
