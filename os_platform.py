@@ -17,7 +17,7 @@ class OsPlatform(enum.IntFlag):
 
     @staticmethod
     def valid(op: int) -> bool:
-        if op >= OsPlatform.LINUX and op <= OsPlatform.WINDOWS:
+        if OsPlatform.LINUX <= op <= OsPlatform.WINDOWS:
             return True
         return False
 
@@ -35,6 +35,13 @@ class OsPlatform(enum.IntFlag):
         if sys.platform not in platforms:
             return OsPlatform.UNKNOWN
         return platforms[sys.platform]
+
+    @staticmethod
+    def script_extension() -> str:
+        os = OsPlatform.get()
+        if os == OsPlatform.WINDOWS:
+            return "bat"  # or "cmd"
+        return "sh"
 
     @staticmethod
     def selftest() -> bool:

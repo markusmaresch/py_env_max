@@ -4,7 +4,6 @@
 Next Steps:
     - yml/templates: yml/templates/<os>/conda_3.9.yml
     - yml_export (for server update)
-    - cmd_export (bat/sh)
     - implement updates
         get latest releases (with cached delay)
         for all out of date:

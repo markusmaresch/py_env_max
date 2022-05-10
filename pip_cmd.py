@@ -68,11 +68,11 @@ class PipCmd:
         # fi
         out_nodes = [aux(p) for p in nodes]
 
-        for d in out_nodes:  # does not seem to trigger !!
-            if d.get('installed_version') is not None:
-                d['version_installed'] = d.pop('installed_version')  # rename
-            if d.get('required_version') is not None:
-                d['version_required'] = d.pop('required_version')  # rename
+        # for d in out_nodes:  # does not seem to trigger !!
+        #    if d.get('installed_version') is not None:
+        #        d['version_installed'] = d.pop('installed_version')  # rename
+        #    if d.get('required_version') is not None:
+        #        d['version_required'] = d.pop('required_version')  # rename
 
         return json.dumps(out_nodes, indent=indent)
 

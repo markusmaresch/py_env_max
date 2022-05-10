@@ -201,9 +201,9 @@ class EnvCmd:
         return ok
 
     @staticmethod
-    def env_update(env_name: str, force: bool = False) -> bool:
+    def upd_all(env_name: str, force: bool = False) -> bool:
         # Attempt to update existing python environment
-        print('env_update: {} (force={})'.format(env_name, force))
+        print('upd_all: {} (force={})'.format(env_name, force))
         db_name = '{}.json'.format(env_name)
         db = Database()
         if not db.load(db_name):

@@ -13,6 +13,7 @@ from req_cmd import ReqCmd
 from yml_cmd import YmlCmd
 from conda_cmd import CondaCmd
 from pip_cmd import PipCmd
+from scripts_cmd import ScriptsCmd
 from os_platform import OsPlatform
 from statistics import Statistics
 
@@ -122,6 +123,8 @@ class PyEnvMax:
                            help='Import conda YML script into internal database')
         group.add_argument('-ye', '--yml_export', action='store_true',
                            help='Create conda YML script from existing python environment')
+        group.add_argument('-se', '--scripts_export', action='store_true',
+                           help='Create scripts for recreating existing python environment')
         args = parser.parse_args()
         print(args)
         force = args.force
@@ -142,8 +145,10 @@ class PyEnvMax:
             ReqCmd.req_import(env_name=env_name, force=force)
         elif args.req_export:
             ReqCmd.req_export(env_name=env_name, force=force)
-        elif args.env_update:
-            EnvCmd.env_update(env_name=env_name, force=force)
+        elif args.upd_all:
+            EnvCmd.upd_all(env_name=env_name, force=force)
+        elif args.scripts_export:
+            ScriptsCmd.scripts_export(env_name=env_name, force=force)
         else:
             print('? internal switch ?')
             parser.print_help()
