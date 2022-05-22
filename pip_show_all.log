@@ -839,9 +839,9 @@ Requires: billiard click click-didyoumean click-plugins click-repl kombu pytz vi
 Required-by: flower
 ---
 Name: certifi
-Version: 2021.10.8
+Version: 2022.5.18.1
 Summary: Python package for providing Mozilla's CA Bundle.
-Home-page: https://certifiio.readthedocs.io/en/latest/
+Home-page: https://github.com/certifi/python-certifi
 Author: Kenneth Reitz
 Author-email: me@kennethreitz.com
 License: MPL-2.0
@@ -4530,7 +4530,7 @@ Summary: Python client library for the OpenAI API
 Home-page: https://github.com/openai/openai-python
 Author: OpenAI
 Author-email: support@openai.com
-License: UNKNOWN
+License: 
 Requires: openpyxl pandas pandas-stubs requests tqdm
 Required-by: 
 ---
@@ -4747,7 +4747,7 @@ Required-by: recommenders
 Name: pandoc
 Version: 2.2
 Summary: Pandoc Documents for Python
-Home-page: UNKNOWN
+Home-page: 
 Author: Sébastien Boisgérault
 Author-email: Sebastien.Boisgerault@minesparis.psl.eu
 License: MIT License
@@ -6170,7 +6170,7 @@ Summary: Microsoft Recommenders - Python utilities for building recommender syst
 Home-page: https://github.com/microsoft/recommenders
 Author: RecoDev Team at Microsoft
 Author-email: RecoDevTeam@service.microsoft.com
-License: UNKNOWN
+License: 
 Requires: bottleneck category-encoders cornac jinja2 lightfm lightgbm matplotlib memory-profiler nltk numba numpy pandas pandera pyyaml requests retrying scikit-learn scikit-surprise scipy seaborn tqdm transformers
 Required-by: 
 ---

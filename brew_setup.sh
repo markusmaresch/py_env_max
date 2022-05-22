@@ -20,3 +20,7 @@ brew install ffmpeg
 
 # for box2d-py
 brew install swig
+
+# for rasterio
+# https://pypi.org/project/rasterio/
+brew install gdal
