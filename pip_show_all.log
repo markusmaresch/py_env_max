@@ -18,6 +18,16 @@ License: BSD License
 Requires: 
 Required-by: pyanalyze
 ---
+Name: affine
+Version: 2.3.1
+Summary: Matrices describing affine transformation of the plane.
+Home-page: https://github.com/sgillies/affine
+Author: Sean Gillies
+Author-email: sean@mapbox.com
+License: BSD
+Requires: 
+Required-by: rasterio
+---
 Name: affinegap
 Version: 1.12
 Summary: A Cython implementation of the affine gap string distance
@@ -376,7 +386,7 @@ Author: Hynek Schlawack
 Author-email: hs@ox.cx
 License: MIT
 Requires: 
-Required-by: Fiona aiohttp aiohttp-socks cattrs hypothesis jsonschema markdown-it-py outcome pyanalyze pytest pytype ray requests-cache trio visions zeep
+Required-by: Fiona aiohttp aiohttp-socks cattrs hypothesis jsonschema markdown-it-py outcome pyanalyze pytest pytype rasterio ray requests-cache trio visions zeep
 ---
 Name: Authlib
 Version: 1.0.1
@@ -846,7 +856,7 @@ Author: Kenneth Reitz
 Author-email: me@kennethreitz.com
 License: MPL-2.0
 Requires: 
-Required-by: Fiona elastic-transport httpcore httpx intrinio-sdk kaggle msrest pyproj requests sentry-sdk uamqp
+Required-by: Fiona elastic-transport httpcore httpx intrinio-sdk kaggle msrest pyproj rasterio requests sentry-sdk uamqp
 ---
 Name: cffi
 Version: 1.15.0
@@ -916,7 +926,7 @@ Author: Armin Ronacher
 Author-email: armin.ronacher@active-4.com
 License: BSD-3-Clause
 Requires: 
-Required-by: Fiona Flask black celery click-didyoumean click-plugins click-repl cligj databricks-cli distributed mlflow nltk proj ray sacremoses spacy typer userpath uvicorn wandb
+Required-by: Fiona Flask black celery click-didyoumean click-plugins click-repl cligj databricks-cli distributed mlflow nltk proj rasterio ray sacremoses spacy typer userpath uvicorn wandb
 ---
 Name: click-didyoumean
 Version: 0.3.0
@@ -936,7 +946,7 @@ Author: Kevin Wurster, Sean Gillies
 Author-email: wursterk@gmail.com, sean.gillies@gmail.com
 License: New BSD
 Requires: click
-Required-by: Fiona celery
+Required-by: Fiona celery rasterio
 ---
 Name: click-repl
 Version: 0.2.0
@@ -956,7 +966,7 @@ Author: Sean Gillies
 Author-email: sean@mapbox.com
 License: BSD
 Requires: click
-Required-by: Fiona
+Required-by: Fiona rasterio
 ---
 Name: cloudpickle
 Version: 2.0.0
@@ -4402,7 +4412,7 @@ Author: Travis E. Oliphant et al.
 Author-email: 
 License: BSD
 Requires: 
-Required-by: Bottleneck ImageHash Keras-Preprocessing PettingZoo PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance category-encoders cftime cmdstanpy colormath control cornac cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta folium gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn imgviz jax jqdatasdk keras2onnx kmodes lightfm lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless opt-einsum osqp pandas pandas-profiling pandera params-flow patsy phik pmdarima powerlaw py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer ray recommenders rlr rouge-score sacrebleu scikit-image scikit-learn scikit-surprise scipy sclblpy scs seaborn seqeval simplecosine slycot snapml spacy stable-baselines3 stanza statsmodels stumpy sweetviz tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
+Required-by: Bottleneck ImageHash Keras-Preprocessing PettingZoo PyLBFGS PyWavelets TA-Lib Theano altair atari-py biopython blis bokeh catboost categorical-distance category-encoders cftime cmdstanpy colormath control cornac cufflinks cvxpy dask-ml datasets datashader datashape dedupe dedupe-hcluster do-mpc ecos elegantrl empyrical eventkit exchange-calendars fastcluster fastparquet fbprophet filterpy finta folium gensim gradio gym h5py highered holoviews imagecodecs imageio imbalanced-learn imgviz jax jqdatasdk keras2onnx kmodes lightfm lightgbm matplotlib missingno mlagents-envs mlflow mlxtend netCDF4 nibabel nilearn numba numcodecs numexpr onnx onnxconverter-common onnxruntime opencv-python opencv-python-headless opt-einsum osqp pandas pandas-profiling pandera params-flow patsy phik pmdarima powerlaw py-lets-be-rational py-vollib pyLDAvis pyarrow pycaret pycocotools pydeck pyfolio pyhacrf-datamade pyod pyportfolioopt pyqtgraph pyro-ppl pystan pytorch-lightning qdldl rapidminer rasterio ray recommenders rlr rouge-score sacrebleu scikit-image scikit-learn scikit-surprise scipy sclblpy scs seaborn seqeval simplecosine slycot snapml snuggs spacy stable-baselines3 stanza statsmodels stumpy sweetviz tensorboard tensorboardX tensorflow tensorflow-datasets tensorflow-hub tensorflow-model-optimization tf-models-official tf2onnx thinc tifffile tiledb torchmetrics torchvision trading-calendars transformers umap-learn visions vispy wordcloud wrds xarray xgboost yellowbrick yfinance zarr
 ---
 Name: nvidia-ml-py3
 Version: 7.352.0
@@ -5732,7 +5742,7 @@ Author:
 Author-email: Paul McGuire <ptmcg.gm+pyparsing@gmail.com>
 License: 
 Requires: 
-Required-by: cloudscraper httplib2 matplotlib packaging pydot
+Required-by: cloudscraper httplib2 matplotlib packaging pydot snuggs
 ---
 Name: pypng
 Version: 0.0.21
@@ -6154,6 +6164,16 @@ License: Apache-2.0
 Requires: PyYAML pyramid setuptools venusian zope.interface
 Required-by: 
 ---
+Name: rasterio
+Version: 1.2.10
+Summary: Fast and direct raster I/O for use with Numpy and SciPy
+Home-page: https://github.com/mapbox/rasterio
+Author: Sean Gillies
+Author-email: sean@mapbox.com
+License: BSD
+Requires: affine attrs certifi click click-plugins cligj numpy setuptools snuggs
+Required-by: 
+---
 Name: ray
 Version: 1.10.0
 Summary: Ray provides a simple, universal API for building distributed applications.
@@ -6572,7 +6592,7 @@ Author: Python Packaging Authority
 Author-email: distutils-sig@python.org
 License: UNKNOWN
 Requires: 
-Required-by: Fiona PasteDeploy cufflinks fs google-api-core gunicorn ipython jupyter-packaging mlxtend nibabel numba plaster pmdarima pyinstaller pyramid python-daemon rapids setuptools-scm spacy streamz tensorboard tensorflow thinc zope.deprecation zope.index zope.interface
+Required-by: Fiona PasteDeploy cufflinks fs google-api-core gunicorn ipython jupyter-packaging mlxtend nibabel numba plaster pmdarima pyinstaller pyramid python-daemon rapids rasterio setuptools-scm spacy streamz tensorboard tensorflow thinc zope.deprecation zope.index zope.interface
 ---
 Name: setuptools-git
 Version: 1.2
@@ -6733,6 +6753,16 @@ Author-email: snowball-discuss@lists.tartarus.org
 License: BSD-3-Clause
 Requires: 
 Required-by: Sphinx
+---
+Name: snuggs
+Version: 1.4.7
+Summary: Snuggs are s-expressions for Numpy
+Home-page: https://github.com/mapbox/snuggs
+Author: Sean Gillies
+Author-email: sean@mapbox.com
+License: MIT
+Requires: numpy pyparsing
+Required-by: rasterio
 ---
 Name: sortedcontainers
 Version: 2.4.0

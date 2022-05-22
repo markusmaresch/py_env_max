@@ -1,4 +1,5 @@
 aenum
+affine
 affinegap
 alabaster
 altgraph
@@ -461,6 +462,7 @@ scipy
 sentry-sdk
 simplecosine
 slycot
+snuggs
 spacy-loggers
 sqlalchemy
 srsly
@@ -587,6 +589,7 @@ pytest
 pytorch-ranger
 qdldl
 qtpy
+rasterio
 redis
 requests-cache
 requests-file

@@ -1225,3 +1225,9 @@ labelImg==1.8.6 # LEVEL_03 # LabelImg is a graphical image annotation tool and l
 imgviz==1.5.0 # LEVEL_04 # Image Visualization Tools
 natsort==8.1.0 # LEVEL_01 # Simple yet flexible natural sorting in Python
 #
+#
+# rasterio
+rasterio==1.2.10 # LEVEL_03 # Fast and direct raster I/O for use with Numpy and SciPy
+snuggs==1.4.7 # LEVEL_02 # Snuggs are s-expressions for Numpy
+affine==2.3.1 # LEVEL_01 # Matrices describing affine transformation of the plane
+#

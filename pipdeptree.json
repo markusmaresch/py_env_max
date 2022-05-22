@@ -22,6 +22,13 @@
         "dependencies": []
     },
     {
+        "key": "affine",
+        "package_name": "affine",
+        "installed_version": "2.3.1",
+        "required_version": "2.3.1",
+        "dependencies": []
+    },
+    {
         "key": "affinegap",
         "package_name": "affinegap",
         "installed_version": "1.12",
@@ -11696,14 +11703,14 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.19.3",
+                        "required_version": ">=1.14.5",
                         "dependencies": []
                     },
                     {
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
+                        "required_version": ">=1.19.3",
                         "dependencies": []
                     },
                     {
@@ -45346,14 +45353,14 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.19.3",
+                "required_version": ">=1.14.5",
                 "dependencies": []
             },
             {
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
+                "required_version": ">=1.19.3",
                 "dependencies": []
             },
             {
@@ -45375,14 +45382,14 @@
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.19.3",
+                "required_version": ">=1.14.5",
                 "dependencies": []
             },
             {
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.20.0",
-                "required_version": ">=1.14.5",
+                "required_version": ">=1.19.3",
                 "dependencies": []
             },
             {
@@ -63323,6 +63330,108 @@
         ]
     },
     {
+        "key": "rasterio",
+        "package_name": "rasterio",
+        "installed_version": "1.2.10",
+        "required_version": "1.2.10",
+        "dependencies": [
+            {
+                "key": "affine",
+                "package_name": "affine",
+                "installed_version": "2.3.1",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "attrs",
+                "package_name": "attrs",
+                "installed_version": "21.4.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "certifi",
+                "package_name": "certifi",
+                "installed_version": "2022.5.18.1",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "click",
+                "package_name": "click",
+                "installed_version": "8.0.4",
+                "required_version": ">=4.0",
+                "dependencies": []
+            },
+            {
+                "key": "click-plugins",
+                "package_name": "click-plugins",
+                "installed_version": "1.1.1",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "click",
+                        "package_name": "click",
+                        "installed_version": "8.0.4",
+                        "required_version": ">=4.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "cligj",
+                "package_name": "cligj",
+                "installed_version": "0.7.2",
+                "required_version": ">=0.5",
+                "dependencies": [
+                    {
+                        "key": "click",
+                        "package_name": "click",
+                        "installed_version": "8.0.4",
+                        "required_version": ">=4.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.20.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "setuptools",
+                "package_name": "setuptools",
+                "installed_version": "61.2.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "snuggs",
+                "package_name": "snuggs",
+                "installed_version": "1.4.7",
+                "required_version": ">=1.4.1",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "1.20.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pyparsing",
+                        "package_name": "pyparsing",
+                        "installed_version": "3.0.8",
+                        "required_version": ">=2.1.6",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "key": "ray",
         "package_name": "ray",
         "installed_version": "1.10.0",
@@ -67226,6 +67335,28 @@
         "installed_version": "2.2.0",
         "required_version": "2.2.0",
         "dependencies": []
+    },
+    {
+        "key": "snuggs",
+        "package_name": "snuggs",
+        "installed_version": "1.4.7",
+        "required_version": "1.4.7",
+        "dependencies": [
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.20.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "pyparsing",
+                "package_name": "pyparsing",
+                "installed_version": "3.0.8",
+                "required_version": ">=2.1.6",
+                "dependencies": []
+            }
+        ]
     },
     {
         "key": "sortedcontainers",
@@ -72774,14 +72905,14 @@
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.19.3",
+                        "required_version": ">=1.14.5",
                         "dependencies": []
                     },
                     {
                         "key": "numpy",
                         "package_name": "numpy",
                         "installed_version": "1.20.0",
-                        "required_version": ">=1.14.5",
+                        "required_version": ">=1.19.3",
                         "dependencies": []
                     },
                     {
