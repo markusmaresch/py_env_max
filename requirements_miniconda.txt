@@ -1231,3 +1231,5 @@ rasterio==1.2.10 # LEVEL_03 # Fast and direct raster I/O for use with Numpy and 
 snuggs==1.4.7 # LEVEL_02 # Snuggs are s-expressions for Numpy
 affine==2.3.1 # LEVEL_01 # Matrices describing affine transformation of the plane
 #
+pyperformance==1.0.5 # LEVEL_03 # Python benchmark suite
+pyperf==2.3.1 # LEVEL_01 # Python module to run and analyze benchmarks

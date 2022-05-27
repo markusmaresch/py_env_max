@@ -4662,7 +4662,7 @@ Author: Donald Stufft and individual contributors
 Author-email: donald@stufft.io
 License: BSD-2-Clause or Apache-2.0
 Requires: pyparsing
-Required-by: QtPy Sphinx bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery google-cloud-secret-manager holoviews huggingface-hub ipykernel jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nbconvert nibabel numexpr pandera pipx pydata-sphinx-theme pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
+Required-by: QtPy Sphinx bokeh dask dask-ml datasets deprecation distributed fastai fastcore google-cloud-bigquery google-cloud-secret-manager holoviews huggingface-hub ipykernel jupyter-packaging jupyter-server jupyterlab jupyterlab-server matplotlib mlflow nbconvert nibabel numexpr pandera pipx pydata-sphinx-theme pyperformance pytest pytorch-lightning redis scikit-image setuptools-scm spacy statsmodels tiledb torchmetrics transformers xarray
 ---
 Name: palettable
 Version: 3.3.0
@@ -5743,6 +5743,26 @@ Author-email: Paul McGuire <ptmcg.gm+pyparsing@gmail.com>
 License: 
 Requires: 
 Required-by: cloudscraper httplib2 matplotlib packaging pydot snuggs
+---
+Name: pyperf
+Version: 2.3.1
+Summary: Python module to run and analyze benchmarks
+Home-page: https://github.com/psf/pyperf
+Author: Victor Stinner
+Author-email: vstinner@redhat.com
+License: MIT license
+Requires: 
+Required-by: pyperformance
+---
+Name: pyperformance
+Version: 1.0.5
+Summary: Python benchmark suite
+Home-page: https://github.com/python/benchmarks
+Author: Collin Winter and Jeffrey Yasskin
+Author-email: UNKNOWN
+License: MIT license
+Requires: packaging pyperf toml
+Required-by: 
 ---
 Name: pypng
 Version: 0.0.21
@@ -7502,7 +7522,7 @@ Author: William Pearson
 Author-email: uiri@xqz.ca
 License: MIT
 Requires: 
-Required-by: autopep8 pytype
+Required-by: autopep8 pyperformance pytype
 ---
 Name: tomli
 Version: 2.0.1

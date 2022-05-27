@@ -60918,6 +60918,50 @@
         "dependencies": []
     },
     {
+        "key": "pyperf",
+        "package_name": "pyperf",
+        "installed_version": "2.3.1",
+        "required_version": "2.3.1",
+        "dependencies": []
+    },
+    {
+        "key": "pyperformance",
+        "package_name": "pyperformance",
+        "installed_version": "1.0.5",
+        "required_version": "1.0.5",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "21.3",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "pyparsing",
+                        "package_name": "pyparsing",
+                        "installed_version": "3.0.8",
+                        "required_version": ">=2.0.2,!=3.0.5",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "pyperf",
+                "package_name": "pyperf",
+                "installed_version": "2.3.1",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "toml",
+                "package_name": "toml",
+                "installed_version": "0.10.2",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
         "key": "pypng",
         "package_name": "pypng",
         "installed_version": "0.0.21",

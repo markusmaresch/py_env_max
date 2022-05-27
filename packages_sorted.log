@@ -225,6 +225,7 @@ pyodbc
 pyopengl
 pyotp
 pyparsing
+pyperf
 pypng
 pyqt5-qt5
 pyqt5-sip
@@ -584,6 +585,7 @@ pycares
 pyhacrf-datamade
 pyinstaller
 pynacl
+pyperformance
 pyro-ppl
 pytest
 pytorch-ranger
