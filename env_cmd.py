@@ -10,6 +10,8 @@ from pip_cmd import PipCmd
 from pypi_cmd import PyPiCmd
 from utils import Utils
 
+from pip._vendor.packaging import version
+
 
 class EnvCmd:
 
@@ -203,17 +205,48 @@ class EnvCmd:
     @staticmethod
     def upd_all(env_name: str, force: bool = False) -> bool:
         # Attempt to update existing python environment
-        print('upd_all: {} (force={})'.format(env_name, force))
+        max_iterations = 1
+        print('upd_all: {} (force={}, max_iterations={})'.format(env_name, force, max_iterations))
         db_name = '{}.json'.format(env_name)
         db = Database()
         if not db.load(db_name):
             # alternatively could call env_import and continue
             return False
-        #
-        # loop through packages
-        # take releases, and check all conditions, sub-conditions on them, then take newest
-        # attempt to pi install, pip check
-        # read back and update database
-        #
+
+        for it in range(1, max_iterations + 1):
+            print('upd_all: {} .. {}/{}: start'.format(env_name, it, max_iterations))
+            for level in range(1, 100):
+                packages = db.packages_get_names_by_level(level=level, less_then=False)
+                if packages is None or len(packages) < 1:
+                    break
+                for package in packages:
+                    version_required = db.package_get_version_required(package)
+                    releases_recent = db.package_get_releases_recent(package)
+                    release_recent = releases_recent[0]
+
+                    v_required = version.Version(version_required)
+                    v_recent = version.Version(release_recent)
+
+                    if v_required >= v_recent:
+                        # should compare '>=' with version compare !!
+                        # if package already uptodate, ignore it
+                        # print('upd_all: {} .. {}/{}: {}: {}: {} already latest'
+                        #      .format(env_name, it, max_iterations, level, package, version_required))
+                        continue
+                    # fi
+                    releases_newer = [r for r in releases_recent if version.Version(r) > v_required]
+                    print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidate for: {}'
+                          .format(env_name, it, max_iterations, level, package,
+                                  version_required, releases_newer))
+
+                    # for package, collect all the constraints in tree, try to improve to most recent
+
+                    # take releases, and check all conditions, sub-conditions on them, then take newest
+                    # attempt to pi install, pip check
+                    # read back and update database
+                # for package
+            # for level
+            print('upd_all: {} .. {}/{}: end'.format(env_name, it, max_iterations))
+        # for iteration
         db.close()
         return True
