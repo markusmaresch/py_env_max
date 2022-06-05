@@ -84,6 +84,7 @@ class PipCmd:
         pkgs = get_installed_distributions(local_only=local_only, user_only=user_only)
         try:
             print('Converting installed distributions to tree ..')
+            # this takes quite a while !!
             tree = PackageDAG.from_pkgs(pkgs)
         except:
             return None
@@ -180,6 +181,7 @@ class PipCmd:
         arguments = ['pip', 'show'] + [str(elem) for elem in packages]
         try:
             print('Executing: pip show: of {}'.format(len(packages)))
+            # this takes quite a while !!
             output = subprocess.check_output(arguments)
         except:
             print('Error: pip show: of {}'.format(len(packages)))

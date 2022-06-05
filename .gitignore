@@ -7,3 +7,5 @@ py_env_*.sh
 db.json
 __pycache__
 old
+*.cprof
+*.png
