@@ -187,6 +187,8 @@ class Database:
 
     def package_set_releases_recent(self, name: str,
                                     releases: [str], checked_time: int) -> bool:
+        if releases is None:
+            return False
         table = self.table_packages()
         d = table.get(name)
         if d is None:

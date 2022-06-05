@@ -232,6 +232,7 @@ class EnvCmd:
                     if releases_recent is None or len(releases_recent) < 1:
                         print('upd_all: {} .. {}/{}: {}: {}: {} no recent releases ??'
                               .format(env_name, it, max_iterations, level, package, version_required))
+                        # this really is an error condition
                         continue
                     release_recent = releases_recent[0]
 
