@@ -85,7 +85,7 @@ class EnvCmd:
     @staticmethod
     def env_get_releases(db: Database) -> bool:
         force = False
-        uptodate_minutes = 60  # was 5 minutes, can be an hour at least, or a day
+        uptodate_minutes = 24 * 60  # was 5 minutes, can be an hour at least, or a day
         uptodate_seconds = uptodate_minutes * 60
         keys = db.packages_get_names_all()
         print('Check releases for {} packages (force={})'.format(len(keys), force))
@@ -214,6 +214,8 @@ class EnvCmd:
             # alternatively could call env_import and continue
             return False
 
+        releases_max = 8  # could be too tight
+
         for it in range(1, max_iterations + 1):
             print('upd_all: {} .. {}/{}: start'.format(env_name, it, max_iterations))
             for level in range(1, 100):
@@ -222,7 +224,15 @@ class EnvCmd:
                     break
                 for package in packages:
                     version_required = db.package_get_version_required(package)
+
                     releases_recent = db.package_get_releases_recent(package)
+                    if releases_recent is None or len(releases_recent) < 1:
+                        releases_recent = db.package_get_releases_recent(package, filtered=False)
+
+                    if releases_recent is None or len(releases_recent) < 1:
+                        print('upd_all: {} .. {}/{}: {}: {}: {} no recent releases ??'
+                              .format(env_name, it, max_iterations, level, package, version_required))
+                        continue
                     release_recent = releases_recent[0]
 
                     v_required = version.Version(version_required)
@@ -235,7 +245,8 @@ class EnvCmd:
                         #      .format(env_name, it, max_iterations, level, package, version_required))
                         continue
                     # fi
-                    releases_newer = [r for r in releases_recent if version.Version(r) > v_required]
+                    releases_more = [r for r in releases_recent if version.Version(r) > v_required]
+                    releases_newer = releases_more[:releases_max]
                     print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidate for: {}'
                           .format(env_name, it, max_iterations, level, package,
                                   version_required, releases_newer))

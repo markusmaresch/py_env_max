@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 #
 import sys
-import re
 import random
 import threading
 import typing
@@ -33,13 +32,6 @@ class PyPiCmd:
 
     @staticmethod
     def get_releases(name: str, latestN: int = 20) -> [str]:
-        invalid = re.compile(r".+rc[0-9]+$|.+a[0-9]+$|.+b[0-9]+$|.+dev[0-9]+$|.+post[0-9]+$|.+[0-9][a-z]$")
-
-        def valid(release: str) -> bool:
-            if invalid.match(release):
-                return False
-            return True
-
         js = PyPiCmd.get_pypi_json(name)
         if js is None:
             return None
@@ -48,7 +40,7 @@ class PyPiCmd:
             print('e1: {}'.format(name))
             return None
         keys = releases.keys()
-        rs = [r for r in keys if valid(r)]
+        rs = [r for r in keys]
         try:
             s = sorted(rs, key=lambda x: version.Version(x), reverse=True)
         except:

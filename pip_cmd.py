@@ -178,6 +178,12 @@ class PipCmd:
     def package_update_pip_show(db: Database, packages: [str]) -> bool:
         # return list of all installed packages
         # only use summary and required_by
+        #
+        # needed optimization: should keep a cache for <package> + <version>
+        # as this rarely changes. Have key only <packages>, check <version>
+        #
+        # possible helper: pip list -> is much faster for pre-checking
+        #
         arguments = ['pip', 'show'] + [str(elem) for elem in packages]
         try:
             print('Executing: pip show: of {}'.format(len(packages)))

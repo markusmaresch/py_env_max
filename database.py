@@ -6,6 +6,7 @@ import sys
 import json
 import typing
 import datetime
+import re
 
 from pip._vendor.packaging import version
 
@@ -46,8 +47,15 @@ class Database:
         self.tables[self.PACKAGES] = dict()
         return self.tables
 
+    def get_release_invalid(self) -> re.Pattern:
+        release_invalid = re.compile(r".+a[0-9]+$|.+b[0-9]+$|.+post[0-9]+$|.+[0-9][a-z]$")
+        # dev: ".+dev[0-9]+$"
+        # rc: ".+rc[0-9]+$"
+        return release_invalid
+
     def __init__(self):
         self.dirty = False  # is this correct ?
+        self.release_invalid = self.get_release_invalid()
         self.tables = self.truncate()
 
     def close(self):
@@ -155,7 +163,12 @@ class Database:
                 pass  # print('RequiredBy: same or empty before')
         return True
 
-    def package_get_releases_recent(self, name: str) -> [str]:
+    def valid(self, release: str) -> bool:
+        if self.release_invalid.match(release):
+            return False
+        return True
+
+    def package_get_releases_recent(self, name: str, filtered: bool = True) -> [str]:
         table = self.table_packages()
         d = table.get(name)
         if d is None:
@@ -164,6 +177,10 @@ class Database:
         releases = d.get(Database.RELEASES_RECENT)
         if releases is None:
             return None
+        if filtered:
+            rs = [r for r in releases if self.valid(r)]
+            releases = rs
+
         # need to sort properly !!!!
         s = sorted(releases, key=lambda x: version.Version(x), reverse=True)
         return s
