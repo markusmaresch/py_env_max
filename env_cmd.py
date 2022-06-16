@@ -5,7 +5,7 @@ import time
 import os
 import json
 
-from database import Database
+from database import Database, Filter
 from pip_cmd import PipCmd
 from pypi_cmd import PyPiCmd
 from utils import Utils
@@ -215,6 +215,7 @@ class EnvCmd:
             return False
 
         releases_max = 8  # could be too tight
+        debug = False
 
         for it in range(1, max_iterations + 1):
             print('upd_all: {} .. {}/{}: start'.format(env_name, it, max_iterations))
@@ -223,14 +224,18 @@ class EnvCmd:
                 if packages is None or len(packages) < 1:
                     break
                 for package in packages:
+                    if debug and package != 'aenum':  # only debug catch
+                        continue
                     version_required = db.package_get_version_required(package)
+                    releases_recent = None
+                    for f in Filter:
+                        releases_recent = db.package_get_releases_recent(package, filt=f)
+                        if releases_recent and len(releases_recent) > 0:
+                            break
+                    # for
 
-                    releases_recent = db.package_get_releases_recent(package)
                     if releases_recent is None or len(releases_recent) < 1:
-                        releases_recent = db.package_get_releases_recent(package, filtered=False)
-
-                    if releases_recent is None or len(releases_recent) < 1:
-                        print('upd_all: {} .. {}/{}: {}: {}: {} no recent releases ??'
+                        print('upd_all: {} .. {}/{}: {}: {}: {} no recent releases ?? (error !!)'
                               .format(env_name, it, max_iterations, level, package, version_required))
                         # this really is an error condition
                         continue

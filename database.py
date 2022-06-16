@@ -7,6 +7,7 @@ import json
 import typing
 import datetime
 import re
+import enum
 
 from pip._vendor.packaging import version
 
@@ -25,6 +26,50 @@ class DateTimeEncoder(json.JSONEncoder):  # is not used for unknown reasons
 
 class PyPi:
     PACKAGE_NAME = 'package_name'
+
+
+@enum.unique
+class Filter(enum.IntFlag):
+    # sequence of acceptable releases
+    REGULAR = 1
+    A = 2
+    B = 4
+    DEV = 8
+    RC = 16
+    POST = 32
+    PRE = 64
+
+    @staticmethod
+    def get_re_invalid_pattern(filt: int) -> re.Pattern:
+        def app(r2: str, a: str) -> str:
+            if r2:
+                return r2 + '|' + a
+            return a
+
+        r = r""
+        if not (filt & Filter.A):
+            r = app(r, r".+a[0-9]+$")
+        if not (filt & Filter.B):
+            r = app(r, r".+b[0-9]+$")
+        if not (filt & Filter.POST):
+            r = app(r, r".+post[0-9]+$")
+        if not (filt & Filter.PRE):
+            r = app(r, r".+pre[0-9]+$")
+        if not (filt & Filter.RC):
+            r = app(r, r".+rc[0-9]+$")
+        if not (filt & Filter.DEV):
+            r = app(r, r".+dev[0-9]+$")
+        if not (filt & Filter.REGULAR):
+            r = app(r, r".+[0-9][a-z]$")
+
+        re_pattern = re.compile(r)
+        return re_pattern
+
+    @staticmethod
+    def valid(release: str, re_invalid_pattern: re.Pattern) -> bool:
+        if not re_invalid_pattern.match(release):
+            return True
+        return False
 
 
 class Database:
@@ -47,15 +92,8 @@ class Database:
         self.tables[self.PACKAGES] = dict()
         return self.tables
 
-    def get_release_invalid(self) -> re.Pattern:
-        release_invalid = re.compile(r".+a[0-9]+$|.+b[0-9]+$|.+post[0-9]+$|.+[0-9][a-z]$")
-        # dev: ".+dev[0-9]+$"
-        # rc: ".+rc[0-9]+$"
-        return release_invalid
-
     def __init__(self):
         self.dirty = False  # is this correct ?
-        self.release_invalid = self.get_release_invalid()
         self.tables = self.truncate()
 
     def close(self):
@@ -163,12 +201,7 @@ class Database:
                 pass  # print('RequiredBy: same or empty before')
         return True
 
-    def valid(self, release: str) -> bool:
-        if self.release_invalid.match(release):
-            return False
-        return True
-
-    def package_get_releases_recent(self, name: str, filtered: bool = True) -> [str]:
+    def package_get_releases_recent(self, name: str, filt: Filter) -> [str]:
         table = self.table_packages()
         d = table.get(name)
         if d is None:
@@ -177,9 +210,12 @@ class Database:
         releases = d.get(Database.RELEASES_RECENT)
         if releases is None:
             return None
-        if filtered:
-            rs = [r for r in releases if self.valid(r)]
-            releases = rs
+        if len(releases) < 1:
+            return None  # should not happen - indicates a too strict filter on environment import
+
+        re_invalid_pattern = Filter.get_re_invalid_pattern(filt=filt)
+        rs = [r for r in releases if Filter.valid(r, re_invalid_pattern=re_invalid_pattern)]
+        releases = rs
 
         # need to sort properly !!!!
         s = sorted(releases, key=lambda x: version.Version(x), reverse=True)
