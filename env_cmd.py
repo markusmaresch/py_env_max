@@ -5,7 +5,8 @@ import time
 import os
 import json
 
-from database import Database, Filter
+from database import Database
+from release_filter import ReleaseFilter
 from pip_cmd import PipCmd
 from pypi_cmd import PyPiCmd
 from utils import Utils
@@ -228,8 +229,8 @@ class EnvCmd:
                         continue
                     version_required = db.package_get_version_required(package)
                     releases_recent = None
-                    for f in Filter:
-                        releases_recent = db.package_get_releases_recent(package, filt=f)
+                    for rf in ReleaseFilter:
+                        releases_recent = db.package_get_releases_recent(package, release_filter=rf)
                         if releases_recent and len(releases_recent) > 0:
                             break
                     # for
