@@ -282,6 +282,43 @@ class Database:
             keys_level.append(k)
         return [Utils.canonicalize_name(k) for k in keys_level]
 
+    def packages_get_contraints(self, package: str) -> [str]:
+        #
+        # rework constraints to class with lists: equal, gt, ge, lt, le, approx
+        #
+        def walk_dict(d, constraints: [str]) -> [str]:
+            for k, v in d.items():
+                if isinstance(v, dict):
+                    constraints = walk_dict(v, constraints)
+                else:
+                    if k != 'requires':
+                        continue
+                    # print(k, ":", v)
+                    for r in v:
+                        pn = r.get('package_name')
+                        if pn != package:
+                            # could be dangerous, need to make sure we are comparing in the same names-spaces
+                            continue
+                        vr = r.get('version_required')
+                        if vr is None:
+                            # print(vr) # no constraint given at all
+                            continue
+                        if vr.find(',') > 0:
+                            vrs = vr.split(',')
+                            for vs in vrs:
+                                # print(vs)
+                                constraints.append(vs)
+                            # for
+                        else:
+                            # print(vr)
+                            constraints.append(vr)
+                    # for
+            return constraints
+
+        table = self.table_packages()
+        constraints = walk_dict(table, constraints=[])
+        return constraints
+
     @staticmethod
     def self_test() -> bool:
         json_path = 'database_selftest.json'

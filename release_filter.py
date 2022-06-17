@@ -7,7 +7,7 @@ import enum
 
 @enum.unique
 class ReleaseFilter(enum.IntFlag):
-    # sequence of acceptable releases
+    # sequence of acceptable releases - order matters - top to down of acceptance
     REGULAR = 1
     A = 2
     B = 4

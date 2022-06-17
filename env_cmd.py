@@ -215,8 +215,9 @@ class EnvCmd:
             # alternatively could call env_import and continue
             return False
 
-        releases_max = 8  # could be too tight
-        debug = False
+        releases_max = 3  # could be too tight
+        debug_helper = False
+        debug_already_latest = False
 
         for it in range(1, max_iterations + 1):
             print('upd_all: {} .. {}/{}: start'.format(env_name, it, max_iterations))
@@ -225,7 +226,7 @@ class EnvCmd:
                 if packages is None or len(packages) < 1:
                     break
                 for package in packages:
-                    if debug and package != 'aenum':  # only debug catch
+                    if debug_helper and package != 'numpy':  # only debug catch
                         continue
                     version_required = db.package_get_version_required(package)
                     releases_recent = None
@@ -248,19 +249,26 @@ class EnvCmd:
                     if v_required >= v_recent:
                         # should compare '>=' with version compare !!
                         # if package already uptodate, ignore it
-                        # print('upd_all: {} .. {}/{}: {}: {}: {} already latest'
-                        #      .format(env_name, it, max_iterations, level, package, version_required))
+                        if debug_already_latest:
+                            print('upd_all: {} .. {}/{}: {}: {}: {} already latest'
+                                  .format(env_name, it, max_iterations, level, package, version_required))
                         continue
                     # fi
                     releases_more = [r for r in releases_recent if version.Version(r) > v_required]
                     releases_newer = releases_more[:releases_max]
-                    print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidate for: {}'
-                          .format(env_name, it, max_iterations, level, package,
-                                  version_required, releases_newer))
+                    # print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {}'
+                    #      .format(env_name, it, max_iterations, level, package, version_required, releases_newer))
+
+                    constraints = db.packages_get_contraints(package=package)
+                    print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {} .. constraints: {}'
+                          .format(env_name, it, max_iterations, level, package, version_required, releases_newer,
+                                  constraints))
+
+                    # take releases, and check all conditions, sub-conditions on them, then take newest
+                    # ----> find_best(releases_newer, constraints)
 
                     # for package, collect all the constraints in tree, try to improve to most recent
 
-                    # take releases, and check all conditions, sub-conditions on them, then take newest
                     # attempt to pi install, pip check
                     # read back and update database
                 # for package
