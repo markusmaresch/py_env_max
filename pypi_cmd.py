@@ -7,7 +7,7 @@ import threading
 import typing
 import time
 
-from pip._vendor.packaging import version
+from version import Version
 
 # from pip
 from pip._vendor import requests  # get pip's request, so we do not have to install it
@@ -41,14 +41,8 @@ class PyPiCmd:
             return None
         keys = releases.keys()
         rs = [r for r in keys]
-        try:
-            s = sorted(rs, key=lambda x: version.Version(x), reverse=True)
-        except:
-            # there are all sorts of invalid versions, which cause an exeption above
-            # therefore use regular reverse sort and hope for minimal damage
-            # need to post-clean
-            s = sorted(rs, reverse=True)
-            # print('Has invald: {}'.format(rs))
+        reverse = True
+        s = Version.sort(releases=rs, reverse=reverse)
         return s[:latestN]
 
     @staticmethod
@@ -85,7 +79,7 @@ class PyPiCmd:
                     continue
                 for r in ra:
                     try:
-                        v = version.Version(r)
+                        v = Version.convert(r)
                         del v
                     except:
                         delete.add(r)

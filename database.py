@@ -11,6 +11,7 @@ from pip._vendor.packaging import version
 
 from utils import Utils
 from release_filter import ReleaseFilter
+from constraints import Constraints
 
 
 class DateTimeEncoder(json.JSONEncoder):  # is not used for unknown reasons
@@ -282,41 +283,32 @@ class Database:
             keys_level.append(k)
         return [Utils.canonicalize_name(k) for k in keys_level]
 
-    def packages_get_contraints(self, package: str) -> [str]:
-        #
-        # rework constraints to class with lists: equal, gt, ge, lt, le, approx
-        #
-        def walk_dict(d, constraints: [str]) -> [str]:
+    def packages_get_contraints(self, package: str) -> Constraints:
+        constraints = Constraints(package=package)
+
+        def recurse_dict(d):
             for k, v in d.items():
                 if isinstance(v, dict):
-                    constraints = walk_dict(v, constraints)
+                    recurse_dict(v)
                 else:
-                    if k != 'requires':
+                    if k != Database.REQUIRES:
                         continue
-                    # print(k, ":", v)
                     for r in v:
-                        pn = r.get('package_name')
+                        pn = r.get(PyPi.PACKAGE_NAME)
                         if pn != package:
                             # could be dangerous, need to make sure we are comparing in the same names-spaces
                             continue
-                        vr = r.get('version_required')
+                        vr = r.get(Database.VERSION_REQUIRED)
                         if vr is None:
-                            # print(vr) # no constraint given at all
+                            # no constraint given at all
                             continue
-                        if vr.find(',') > 0:
-                            vrs = vr.split(',')
-                            for vs in vrs:
-                                # print(vs)
-                                constraints.append(vs)
-                            # for
-                        else:
-                            # print(vr)
-                            constraints.append(vr)
+                        constraints.append(vr)  # can be comma separated
                     # for
-            return constraints
+            return
 
         table = self.table_packages()
-        constraints = walk_dict(table, constraints=[])
+        recurse_dict(table)
+        constraints.optimize()
         return constraints
 
     @staticmethod

@@ -6,8 +6,6 @@ import argparse
 import datetime
 import typing
 
-from pip._vendor.distlib.version import NormalizedVersion
-
 from env_cmd import EnvCmd
 from req_cmd import ReqCmd
 from yml_cmd import YmlCmd
@@ -16,6 +14,7 @@ from pip_cmd import PipCmd
 from scripts_cmd import ScriptsCmd
 from os_platform import OsPlatform
 from statistics import Statistics
+from version import Version
 
 
 class PyEnvMax:
@@ -63,8 +62,8 @@ class PyEnvMax:
             return False
         print('Using: conda=={}'.format(version))
 
-        vh = NormalizedVersion(version)
-        vm = NormalizedVersion(self.conda_version_minimum)
+        vh = Version.normalized(version)
+        vm = Version.normalized(self.conda_version_minimum)
         if vh.__lt__(vm):
             print('Warning: conda too old ({} < {}), consider updating conda itself or miniconda'.format(vh, vm))
             # return False

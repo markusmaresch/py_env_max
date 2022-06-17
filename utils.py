@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 #
 
-# from pip._vendor.distlib.version import NormalizedVersion
 from pip._vendor.packaging.utils import canonicalize_name
 
 

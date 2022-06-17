@@ -215,7 +215,7 @@ class EnvCmd:
             # alternatively could call env_import and continue
             return False
 
-        releases_max = 3  # could be too tight
+        releases_max = 50 # no limit
         debug_helper = False
         debug_already_latest = False
 
@@ -260,7 +260,7 @@ class EnvCmd:
                     #      .format(env_name, it, max_iterations, level, package, version_required, releases_newer))
 
                     constraints = db.packages_get_contraints(package=package)
-                    print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {} .. constraints: {}'
+                    print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {} .. {}'
                           .format(env_name, it, max_iterations, level, package, version_required, releases_newer,
                                   constraints))
 
