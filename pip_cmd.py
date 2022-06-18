@@ -6,11 +6,11 @@ import subprocess
 import typing
 import json
 import itertools
+import pkg_resources
 
 # PIP imports
 from pip._internal.commands.check import CheckCommand
 from pip._internal.cli.status_codes import SUCCESS
-from pip._internal.utils.misc import get_installed_distributions
 
 # installed packages
 from _vendor.pipdeptree import PackageDAG, conflicting_deps, render_conflicts_text, cyclic_deps
@@ -78,15 +78,14 @@ class PipCmd:
 
     @staticmethod
     def get_tree_installed() -> typing.Union[PackageDAG, typing.Any]:
-        local_only = False
-        user_only = False
         print('Getting installed distributions ..')
-        pkgs = get_installed_distributions(local_only=local_only, user_only=user_only)
+        pkgs = [d for d in pkg_resources.working_set]
         try:
             print('Converting installed distributions to tree ..')
             # this takes quite a while !!
             tree = PackageDAG.from_pkgs(pkgs)
         except:
+            print('Failed with tree !')
             return None
         print('Done with tree ..')
         return tree
