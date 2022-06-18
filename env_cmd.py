@@ -83,8 +83,7 @@ class EnvCmd:
         return True
 
     @staticmethod
-    def env_get_releases(db: Database) -> bool:
-        force = False
+    def env_get_releases(db: Database, force: bool = False) -> bool:
         uptodate_minutes = 10 * 60  # was 5 minutes, can be an hour at least, or a day
         uptodate_seconds = uptodate_minutes * 60
         keys = db.packages_get_names_all()
@@ -196,7 +195,7 @@ class EnvCmd:
             return False
         if not EnvCmd.env_calc_levels(db):
             return False
-        if not EnvCmd.env_get_releases(db):  # could be done in parallel to other work
+        if not EnvCmd.env_get_releases(db, force):  # could be done in parallel to other work
             return False
 
         ok = True if db.dump(json_path=db_name) else False
@@ -255,16 +254,22 @@ class EnvCmd:
                     # fi
                     releases_more = [r for r in releases_recent if Version.convert(r) > v_required]
                     releases_newer = releases_more[:releases_max]
-                    # print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {}'
-                    #      .format(env_name, it, max_iterations, level, package, version_required, releases_newer))
 
                     constraints = db.packages_get_contraints(package=package)
                     print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {} .. {}'
-                          .format(env_name, it, max_iterations, level, package, version_required, releases_newer,
-                                  constraints))
+                          .format(env_name, it, max_iterations, level, package, version_required,
+                                  releases_newer[:3], constraints))
 
                     # take releases, and check all conditions, sub-conditions on them, then take newest
-                    # ----> find_best(releases_newer, constraints)
+                    releases_update = constraints.match_possible_releases(package, releases_newer)
+                    if releases_update is None:
+                        continue  # error
+                    if len(releases_update) < 1:
+                        # constraints prohibit update of package
+                        continue
+                    release_best = releases_update[0]  # take the first (best) of list possible
+
+                    print('pip install {}=={}'.format(package, release_best))
 
                     # for package, collect all the constraints in tree, try to improve to most recent
 

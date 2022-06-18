@@ -3,7 +3,7 @@
 #
 import enum
 
-from version import Version
+from version import Version, NormalizedVersion
 
 
 @enum.unique
@@ -39,6 +39,15 @@ class Constraints:
         if not s:
             return s0 + ' None'
         return s0 + s
+
+    def no_constraints(self) -> bool:
+        for comp in Comparator:
+            comparator = self.comparator[comp]
+            if len(comparator) < 1:
+                continue
+            return False
+        # for
+        return True
 
     def optimize(self) -> bool:
         debug = False
@@ -111,3 +120,56 @@ class Constraints:
         else:
             self.append2(version_required)
         return True
+
+    def accept(self, comp: int, release: NormalizedVersion, version: NormalizedVersion):
+        if comp == Comparator.GE:
+            if release >= version:
+                return True
+        elif comp == Comparator.GT:
+            if release > version:
+                return True
+        elif comp == Comparator.LE:
+            if release <= version:
+                return True
+        elif comp == Comparator.LT:
+            if release < version:
+                return True
+        elif comp == Comparator.EQ:
+            if release == version:
+                return True
+        elif comp == Comparator.NEQ:
+            if release != version:
+                return True
+        else:
+            return False
+
+        return False
+
+    def match_possible_releases(self, package: str, releases: [str]) -> [str]:
+        # reduce the list of release, according to constraints
+        if self.no_constraints():
+            return [releases[0]]
+        m = []
+        for r in releases:
+            # print('Testing: {} {}'.format(package, r))
+            release = Version.normalized(r)
+            good = True
+            for comp in Comparator:
+                comparator = self.comparator[comp]
+                if len(comparator) < 1:
+                    continue
+                # print('  Compare: {} .. {}'.format(comp.name, comparator))
+                for v in comparator:
+                    version = Version.normalized(str(v))
+                    if not self.accept(comp, release, version):
+                        good = False
+                        break
+                    # fi
+                # for
+                if not good:
+                    break
+            # for comp
+            if good:
+                m.append(r)
+        # for releases
+        return m

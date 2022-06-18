@@ -64,7 +64,7 @@ class PyEnvMax:
 
         vh = Version.normalized(version)
         vm = Version.normalized(self.conda_version_minimum)
-        if vh.__lt__(vm):
+        if vh < vm:
             print('Warning: conda too old ({} < {}), consider updating conda itself or miniconda'.format(vh, vm))
             # return False
         return True
