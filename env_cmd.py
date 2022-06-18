@@ -256,7 +256,7 @@ class EnvCmd:
                     releases_newer = releases_more[:releases_max]
 
                     constraints = db.packages_get_contraints(package=package)
-                    #print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {} .. {}'
+                    # print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {} .. {}'
                     #      .format(env_name, it, max_iterations, level, package, version_required,
                     #              releases_newer[:3], constraints))
 
@@ -269,7 +269,7 @@ class EnvCmd:
                         print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {} .. {} no possible update'
                               .format(env_name, it, max_iterations, level, package, version_required,
                                       releases_newer[:3], constraints))
-                        #print('upd_all: {} .. {}/{}: {}: {}: {} .. no update possible'
+                        # print('upd_all: {} .. {}/{}: {}: {}: {} .. no update possible'
                         #      .format(env_name, it, max_iterations, level, package, version_required))
                         continue
 
