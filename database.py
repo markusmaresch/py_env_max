@@ -7,11 +7,10 @@ import json
 import typing
 import datetime
 
-from pip._vendor.packaging import version
-
 from utils import Utils
 from release_filter import ReleaseFilter
 from constraints import Constraints
+from version import Version
 
 
 class DateTimeEncoder(json.JSONEncoder):  # is not used for unknown reasons
@@ -171,10 +170,7 @@ class Database:
 
         re_invalid_pattern = ReleaseFilter.get_re_invalid_pattern(release_filter=release_filter)
         rs = [r for r in releases if ReleaseFilter.valid(r, re_invalid_pattern=re_invalid_pattern)]
-        releases = rs
-
-        # need to sort properly !!!!
-        s = sorted(releases, key=lambda x: version.Version(x), reverse=True)
+        s = Version.sort(releases=rs, reverse=True)
         return s
 
     def package_set_releases_recent(self, name: str,

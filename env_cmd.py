@@ -10,8 +10,7 @@ from release_filter import ReleaseFilter
 from pip_cmd import PipCmd
 from pypi_cmd import PyPiCmd
 from utils import Utils
-
-from pip._vendor.packaging import version
+from version import Version
 
 
 class EnvCmd:
@@ -86,7 +85,7 @@ class EnvCmd:
     @staticmethod
     def env_get_releases(db: Database) -> bool:
         force = False
-        uptodate_minutes = 24 * 60  # was 5 minutes, can be an hour at least, or a day
+        uptodate_minutes = 10 * 60  # was 5 minutes, can be an hour at least, or a day
         uptodate_seconds = uptodate_minutes * 60
         keys = db.packages_get_names_all()
         print('Check releases for {} packages (force={})'.format(len(keys), force))
@@ -117,11 +116,11 @@ class EnvCmd:
                 continue
             if not db.package_set_releases_recent(package_name, releases, now):
                 return False
-            self_check = False
+            self_check = True
             if self_check:
-                rr = db.package_get_releases_recent(package_name)
+                rr = db.package_get_releases_recent(package_name, release_filter=ReleaseFilter.REGULAR)
                 if rr is None:
-                    return False
+                    return False  # not sure, if this really should be fatal ...
             i += 1
         return True  # should be: ok
 
@@ -215,7 +214,7 @@ class EnvCmd:
             # alternatively could call env_import and continue
             return False
 
-        releases_max = 50 # no limit
+        releases_max = 50  # no limit
         debug_helper = False
         debug_already_latest = False
 
@@ -243,8 +242,8 @@ class EnvCmd:
                         continue
                     release_recent = releases_recent[0]
 
-                    v_required = version.Version(version_required)
-                    v_recent = version.Version(release_recent)
+                    v_required = Version.convert(version_required)
+                    v_recent = Version.convert(release_recent)
 
                     if v_required >= v_recent:
                         # should compare '>=' with version compare !!
@@ -254,7 +253,7 @@ class EnvCmd:
                                   .format(env_name, it, max_iterations, level, package, version_required))
                         continue
                     # fi
-                    releases_more = [r for r in releases_recent if version.Version(r) > v_required]
+                    releases_more = [r for r in releases_recent if Version.convert(r) > v_required]
                     releases_newer = releases_more[:releases_max]
                     # print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {}'
                     #      .format(env_name, it, max_iterations, level, package, version_required, releases_newer))

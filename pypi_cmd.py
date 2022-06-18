@@ -56,7 +56,6 @@ class PyPiCmd:
 
     @staticmethod
     def get_release_one(name: str, index: int, result: [str]):
-        # print('Start: {} {}'.format(name, index))
         rs = PyPiCmd.get_releases(name=name, latestN=10)
         c = 'x' if rs is None else '.'
         result[index] = rs
@@ -68,7 +67,7 @@ class PyPiCmd:
 
         def fix_releases(rf: typing.List) -> typing.Union[typing.List[typing.List], object]:
             """
-            The version.Version(x) above may have crashed, therefore we may have to clean up invalid versions
+            The above may have crashed, therefore we may have to clean up invalid versions
             """
             if rf is None:
                 return None
