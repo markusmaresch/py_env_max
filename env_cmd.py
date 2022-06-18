@@ -256,9 +256,9 @@ class EnvCmd:
                     releases_newer = releases_more[:releases_max]
 
                     constraints = db.packages_get_contraints(package=package)
-                    print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {} .. {}'
-                          .format(env_name, it, max_iterations, level, package, version_required,
-                                  releases_newer[:3], constraints))
+                    #print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {} .. {}'
+                    #      .format(env_name, it, max_iterations, level, package, version_required,
+                    #              releases_newer[:3], constraints))
 
                     # take releases, and check all conditions, sub-conditions on them, then take newest
                     releases_update = constraints.match_possible_releases(package, releases_newer)
@@ -266,7 +266,13 @@ class EnvCmd:
                         continue  # error
                     if len(releases_update) < 1:
                         # constraints prohibit update of package
+                        print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {} .. {} no possible update'
+                              .format(env_name, it, max_iterations, level, package, version_required,
+                                      releases_newer[:3], constraints))
+                        #print('upd_all: {} .. {}/{}: {}: {}: {} .. no update possible'
+                        #      .format(env_name, it, max_iterations, level, package, version_required))
                         continue
+
                     release_best = releases_update[0]  # take the first (best) of list possible
 
                     print('pip install {}=={}'.format(package, release_best))

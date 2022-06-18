@@ -140,6 +140,9 @@ class Constraints:
         elif comp == Comparator.NEQ:
             if release != version:
                 return True
+        elif comp == Comparator.APE:
+            # what to do - this is not a hard constraint
+            return True
         else:
             return False
 
@@ -161,6 +164,9 @@ class Constraints:
                 # print('  Compare: {} .. {}'.format(comp.name, comparator))
                 for v in comparator:
                     version = Version.normalized(str(v))
+                    if version is None:
+                        good = False
+                        break
                     if not self.accept(comp, release, version):
                         good = False
                         break

@@ -1,6 +1,8 @@
 #
 # -*- coding: utf-8 -*-
 #
+import typing
+
 from pip._vendor.packaging import version
 from pip._vendor.distlib.version import NormalizedVersion
 
@@ -24,5 +26,10 @@ class Version:
         return version.Version(release)
 
     @staticmethod
-    def normalized(release: str) -> NormalizedVersion:
-        return NormalizedVersion(release)
+    def normalized(release: str) -> typing.Union[NormalizedVersion, object]:
+        try:
+            return NormalizedVersion(release)
+        except:
+            # like "2022.*" .. what to do ?
+            # not a valid PEP440 version !
+            return None
