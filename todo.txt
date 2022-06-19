@@ -2,6 +2,15 @@
 #
 #
 Next Steps:
+    - update all
+      create list of updates per level
+      restore point
+      check valid version of list with pip list
+      update with pip install (possibly in batches)
+      verify with pip check
+      roll back or commit
+      unwind restore point
+
     - yml/templates: yml/templates/<os>/conda_3.9.yml
     - yml_export (for server update)
     - implement updates
