@@ -163,6 +163,7 @@ class PipCmd:
         #
         # reconsider: https://pip.pypa.io/en/stable/user_guide/#using-pip-from-your-program
         #
+        # change to subprocess scheme, reading back output for processing
         cc = CheckCommand(name='check', summary='summary')
         result = cc.run(options=None, args=list())
         return True if result == SUCCESS else False
@@ -195,7 +196,10 @@ class PipCmd:
         summary = None
         required_by = None
         for line_b in output.splitlines():
-            line = line_b.decode()
+            line = line_b.decode().strip()
+            if not line:
+                continue
+            # print('Line: "{}"'.format(line))
             key, rest = (line.split(maxsplit=1) + [None])[:2]
             if key == 'Name:':
                 name_raw = rest.strip()

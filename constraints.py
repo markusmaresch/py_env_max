@@ -142,7 +142,16 @@ class Constraints:
                 return True
         elif comp == Comparator.APE:
             # what to do - this is not a hard constraint
-            return True
+            # needs to implement:
+            # https://peps.python.org/pep-0440/#compatible-release
+            # essentially, all but the last
+            # 1.2.3 --> V=1, N=2.3
+            # peek at function _match_prefix !!
+            rp = release._parts[1]
+            vp = version._parts[1]
+            print('APR: {} .. {}'.format(rp, vp))
+            if rp[0] == vp[0] and rp[1] >= vp[1]:
+                return True
         else:
             return False
 

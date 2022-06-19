@@ -215,6 +215,9 @@ class EnvCmd:
         # Attempt to update existing python environment
         max_iterations = 1
         print('upd_all: {} (force={}, max_iterations={})'.format(env_name, force, max_iterations))
+
+        # if not pip check: return False
+
         db_name = '{}.json'.format(env_name)
         db = Database()
         if not db.load(db_name):
@@ -229,10 +232,14 @@ class EnvCmd:
 
         for it in range(1, max_iterations + 1):
             print('upd_all: {} .. {}/{}: start'.format(env_name, it, max_iterations))
-            for level in range(1, 100):
+            level = 0
+            stop = False
+            while level < 100:
+                level += 1
                 packages = db.packages_get_names_by_level(level=level, less_then=False)
                 if packages is None or len(packages) < 1:
                     break
+                update_command = False
                 for package in packages:
                     # for package, collect all the constraints in tree, try to improve to most recent
                     if debug_helper and package != 'numpy':  # only debug catch
@@ -266,9 +273,6 @@ class EnvCmd:
                     releases_newer = releases_more[:releases_max]
 
                     constraints = db.packages_get_contraints(package=package)
-                    # print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {} .. {}'
-                    #      .format(env_name, it, max_iterations, level, package, version_required,
-                    #              releases_newer[:3], constraints))
 
                     # take releases, and check all conditions, sub-conditions on them, then take newest
                     releases_update = constraints.match_possible_releases(package, releases_newer)
@@ -285,13 +289,31 @@ class EnvCmd:
 
                     release_best = releases_update[0]  # take the first (best) of list possible
 
-                    print('pip install {}=={}'.format(package, release_best))
+                    print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {} .. {}, -> {}'
+                          .format(env_name, it, max_iterations, level, package, version_required,
+                                  releases_newer[:3], constraints, release_best))
 
+                    print('pip install {}=={}'.format(package, release_best))
+                    print('pip check')
+                    if False:
+                        print('pip install {}=={}'.format(package, version_required))
+                        stop = True
+                        break
+
+                    update_command = True
                 # for packages
 
                 # now have all updates for this level, if at all
-                # attempt to pi install, pip check
+                if not update_command:
+                    print('upd_all: {} .. {}/{}: {}: done with possible updates'
+                          .format(env_name, it, max_iterations, level))
+                    if not stop:
+                        continue
+
                 # read back and update database
+
+                if stop:
+                    break
 
             # for level
             print('upd_all: {} .. {}/{}: end'.format(env_name, it, max_iterations))
