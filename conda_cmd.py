@@ -1,8 +1,12 @@
 #
 # -*- coding: utf-8 -*-
 #
+import os.path
 import sys
 import subprocess
+import datetime
+
+from functools import lru_cache
 
 
 class CondaCmd:
@@ -37,9 +41,9 @@ class CondaCmd:
         return None
 
     @staticmethod
-    def env_activated() -> str:
-        # conda env list | grep -e ' \* ' | awk '{print $1}'
-        activated = ''
+    @lru_cache(maxsize=1)  # it does not change during runtime
+    def _env_activated() -> (str, str):
+        # conda env list | grep -e ' \* ' | awk '{print $1 $3}'
         try:
             output = subprocess.check_output(['conda', 'env', 'list'])
             for line in output.splitlines():
@@ -50,13 +54,44 @@ class CondaCmd:
                     continue
                 if v[1] != '*':
                     continue
-                activated = v[0]
-                break
+                return v[0], v[2]
             # for
         except:
             pass
+        print('Failed: conda env list')
+        return '', ''
+
+    @staticmethod
+    def env_most_recent_change() -> int:
+        # get directory of activated environment
+        # find most recent file in it (excluding __pycache__ ..)
+
+        def newest_file_in_tree() -> str:
+            return max(
+                (os.path.join(dirname, filename)
+                 for dirname, dirnames, filenames in os.walk(env_root)
+                 for filename in filenames
+                 # if filename.endswith(extension)
+                 ),
+                key=lambda fn: os.stat(fn).st_mtime)
+
+        env_name, env_root = CondaCmd._env_activated()
+        if not env_root:
+            print('Failed: env_most_recent_change')
+            return -1
+        if not os.path.exists(env_root):
+            return -1
+        file_name_newest = newest_file_in_tree()
+        t = os.stat(file_name_newest).st_mtime
+        modified = datetime.datetime.fromtimestamp(t)  # , tz=datetime.timezone.utc)
+        print('most recent in {}: {} .. {}'.format(env_name, modified, file_name_newest))
+        return int(t)
+
+    @staticmethod
+    def env_activated() -> str:
+        activated, _ = CondaCmd._env_activated()
         if not activated:
-            print('Failed: conda env list')
+            print('Failed: env_activated')
         return activated
 
     @staticmethod
@@ -72,6 +107,9 @@ class CondaCmd:
         if not CondaCmd.env_activated():
             return False
         if CondaCmd.env_activate('any_env_name'):
+            return False
+        t = CondaCmd.env_most_recent_change()
+        if t < 0:
             return False
         return True
 
