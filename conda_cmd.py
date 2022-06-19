@@ -82,10 +82,10 @@ class CondaCmd:
         if not os.path.exists(env_root):
             return -1
         file_name_newest = newest_file_in_tree()
-        t = os.stat(file_name_newest).st_mtime
+        t = int(os.stat(file_name_newest).st_mtime)
         modified = datetime.datetime.fromtimestamp(t)  # , tz=datetime.timezone.utc)
         print('most recent in {}: {} .. {}'.format(env_name, modified, file_name_newest))
-        return int(t)
+        return t
 
     @staticmethod
     def env_activated() -> str:

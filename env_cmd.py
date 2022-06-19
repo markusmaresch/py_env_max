@@ -90,15 +90,20 @@ class EnvCmd:
         print('Check releases for {} packages (force={})'.format(len(keys), force))
         now = int(time.time())
         packages_needed = list()
+        oldest = 0
+        p_oldest = None
         for package_name in keys:
             t = db.package_get_releases_checked_time(package_name)
             diff = (now - t) if t > 0 else 9999999
+            if oldest < diff:
+                p_oldest = package_name
+                oldest = diff
             if force or diff > uptodate_seconds:
                 packages_needed.append(package_name)
         # for
         if len(packages_needed) < 1:
-            print('All packages uptodate (within {} seconds) for releases ...'
-                  .format(uptodate_seconds))
+            print('All packages uptodate ({} within {} of {} seconds) for releases ...'
+                  .format(p_oldest, oldest, uptodate_seconds))
             return True
         print('Get releases for {} packages'.format(len(packages_needed)))
         releases_all = PyPiCmd.get_release_many(packages_needed)
@@ -191,10 +196,13 @@ class EnvCmd:
         if develop and os.path.exists(db_name):
             db.load(db_name)
 
+        # the following is needed upon package updates
         if not EnvCmd.env_packages_tree(db):
             return False
         if not EnvCmd.env_calc_levels(db):
             return False
+
+        # this only affects the releases on PYPI - is needed, but could lag hours or a day
         if not EnvCmd.env_get_releases(db, force):  # could be done in parallel to other work
             return False
 
@@ -213,6 +221,8 @@ class EnvCmd:
             # alternatively could call env_import and continue
             return False
 
+        # need to make sure, the internal representation is up to date !!
+
         releases_max = 50  # no limit
         debug_helper = False
         debug_already_latest = False
@@ -224,6 +234,7 @@ class EnvCmd:
                 if packages is None or len(packages) < 1:
                     break
                 for package in packages:
+                    # for package, collect all the constraints in tree, try to improve to most recent
                     if debug_helper and package != 'numpy':  # only debug catch
                         continue
                     version_required = db.package_get_version_required(package)
@@ -245,7 +256,6 @@ class EnvCmd:
                     v_recent = Version.convert(release_recent)
 
                     if v_required >= v_recent:
-                        # should compare '>=' with version compare !!
                         # if package already uptodate, ignore it
                         if debug_already_latest:
                             print('upd_all: {} .. {}/{}: {}: {}: {} already latest'
@@ -277,11 +287,12 @@ class EnvCmd:
 
                     print('pip install {}=={}'.format(package, release_best))
 
-                    # for package, collect all the constraints in tree, try to improve to most recent
+                # for packages
 
-                    # attempt to pi install, pip check
-                    # read back and update database
-                # for package
+                # now have all updates for this level, if at all
+                # attempt to pi install, pip check
+                # read back and update database
+
             # for level
             print('upd_all: {} .. {}/{}: end'.format(env_name, it, max_iterations))
         # for iteration

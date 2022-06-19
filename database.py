@@ -96,7 +96,7 @@ class Database:
                 self.set_dirty(False)
                 return True
         except:
-            print('Error: load: {}'.format(json_path))
+            print('Error: load: {} ... (did you import the environment ?)'.format(json_path))
             return False
 
     def table_packages(self) -> dict:
