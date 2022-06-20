@@ -146,12 +146,26 @@ class Constraints:
             # https://peps.python.org/pep-0440/#compatible-release
             # essentially, all but the last
             # 1.2.3 --> V=1, N=2.3
-            # peek at function _match_prefix !!
-            rp = release._parts[1]
+            #
+            # maybe try the LegacyMatcher !!
+            #
             vp = version._parts[1]
-            print('APR: {} .. {}'.format(rp, vp))
-            if rp[0] == vp[0] and rp[1] >= vp[1]:
-                return True
+            rp = release._parts[1]
+            if rp[0] != vp[0]:
+                print('APR: {} .. {} .. V mismatch / False'.format(rp, vp))
+                return False
+            ll = max(len(vp), len(rp))
+            for i in range(1, ll):
+                # print('APR: {} .. {} .. i={}/{}'.format(rp, vp, i, ll))
+                nv = vp[i] if i < len(vp) else 0
+                np = rp[i] if i < len(rp) else 0
+                if nv < np:
+                    print('APR: {} .. {} .. i={}/{} .. {} < {} -> False'.format(rp, vp, i, ll, nv, np))
+                    return False
+                print('APR: {} .. {} .. i={}/{} .. {} >= {} pass'.format(rp, vp, i, ll, nv, np))
+            # for
+            print('APR: {} .. {}  -> True'.format(rp, vp))
+            return True
         else:
             return False
 
