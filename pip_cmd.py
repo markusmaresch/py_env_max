@@ -8,10 +8,6 @@ import json
 import itertools
 import pkg_resources
 
-# PIP imports
-from pip._internal.commands.check import CheckCommand
-from pip._internal.cli.status_codes import SUCCESS
-
 # installed packages
 from _vendor.pipdeptree import PackageDAG, conflicting_deps, render_conflicts_text, cyclic_deps
 
@@ -84,8 +80,8 @@ class PipCmd:
             print('Converting installed distributions to tree ..')
             # this takes quite a while !!
             tree = PackageDAG.from_pkgs(pkgs)
-        except:
-            print('Failed with tree !')
+        except Exception as e:
+            print('Failed with tree: {}'.format(e))
             return None
         print('Done with tree ..')
         return tree
@@ -161,17 +157,62 @@ class PipCmd:
     @staticmethod
     def pip_check() -> bool:
         #
-        # reconsider: https://pip.pypa.io/en/stable/user_guide/#using-pip-from-your-program
-        #
-        # change to subprocess scheme, reading back output for processing
-        cc = CheckCommand(name='check', summary='summary')
-        result = cc.run(options=None, args=list())
-        return True if result == SUCCESS else False
+        # test case for this, toggle:
+        #     pip install charset-normalizer==1.4.1
+        #     pip install charset-normalizer~=2.0.0
+        try:
+            cp = subprocess.run([sys.executable, '-m', 'pip', 'check'], shell=False, capture_output=True)
+            for line in cp.stdout.decode().split('\n'):
+                if not line:
+                    continue
+                v = line.split()
+                if cp.returncode == 0:
+                    # first and only line typically
+                    if v[0] == 'No' and v[1] == 'broken':
+                        return True
+                else:
+                    # could be multiple lines, need to investigate further, like
+                    # 'requests 2.28.0 has requirement charset-normalizer~=2.0.0, but you have charset-normalizer 1.4.1.'
+                    print('pip_check: {}'.format(line))
+            # for
+            if cp.returncode != 0:
+                return False
+
+        except Exception as e:
+            print('Failed: pip check: {}'.format(e))
+        return False
 
     @staticmethod
-    def pip_install(args: [str]) -> bool:
-        # build command line
-        # execute with popen(cmd, 'r') and kill upon first "taking longer than expected"
+    def pip_install(package: str, version: str, eq: str = '==') -> bool:
+        arg_str = '{}{}{}'.format(package, eq, version)
+        try:
+            error = False
+            cp = subprocess.run([sys.executable, '-m', 'pip', 'install', arg_str],
+                                shell=False, capture_output=True)
+            for line in cp.stdout.decode().split('\n'):
+                if not line:
+                    continue
+                v = line.split()
+                if v[0] != 'Successfully':
+                    continue
+                print('pip_install_stdout: {}'.format(line.lstrip()))
+            # for stdout
+            for line in cp.stderr.decode().split('\n'):
+                if not line:
+                    continue
+                v = line.split()
+                if v[0] == 'ERROR:' or v[2] == 'requires':
+                    error = True
+                print('pip_install_stderr: {}'.format(line))
+            # for stderr
+            if cp.returncode != 0:
+                return False
+            if error:
+                return False
+            return True
+
+        except Exception as e:
+            print('Failed: pip install {}: {}'.format(arg_str, e))
         return False
 
     @staticmethod
@@ -246,13 +287,40 @@ class PipCmd:
         return True
 
     @staticmethod
+    def pip_test_install() -> bool:
+        #
+        # hand crafted example, which WILL CHANGE over time - use with care !!
+        #
+        # bad command first
+        ok = PipCmd.pip_install(package='charset-normalizer', version='1.4.1')
+        if ok:
+            return False
+        if PipCmd.pip_check():
+            return False
+        # good command next
+        ok = PipCmd.pip_install(package='charset-normalizer', eq='~=', version='2.0.0')
+        if not ok:
+            return False
+        if not PipCmd.pip_check():
+            return False
+        return True
+
+    @staticmethod
     def pip_selftest() -> bool:
         version = PipCmd.version()
         if not version:
             return False
-        checked = PipCmd.pip_check()
-        if not checked:
-            return False
+
+        check = True  # should be True
+        if check:
+            checked = PipCmd.pip_check()
+            if not checked:
+                return False
+        else:
+            # use with care !!
+            if not PipCmd.pip_test_install():
+                return False
+
         return True
 
 
