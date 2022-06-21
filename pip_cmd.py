@@ -75,6 +75,7 @@ class PipCmd:
     @staticmethod
     def get_tree_installed() -> typing.Union[PackageDAG, typing.Any]:
         print('Getting installed distributions ..')
+        pkg_resources.working_set.__init__()
         pkgs = [d for d in pkg_resources.working_set]
         try:
             print('Converting installed distributions to tree ..')

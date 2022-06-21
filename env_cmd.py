@@ -300,9 +300,16 @@ class EnvCmd:
                             break
                         pip_checked = True
 
+                    print('upd_all: {} .. {}/{}: {}: {}: {} .. attempt to install'
+                          .format(env_name, it, max_iterations, level, package, release_best))
                     if not PipCmd.pip_install(package=package, version=release_best):
                         # try to revert
-                        PipCmd.pip_install(package=package, version=version_required)
+                        if PipCmd.pip_install(package=package, version=version_required):
+                            print('upd_all: {} .. {}/{}: {}: {}: {} .. revert succeeded'
+                                  .format(env_name, it, max_iterations, level, package, version_required))
+                        else:
+                            print('upd_all: {} .. {}/{}: {}: {}: {} .. revert FAILED'
+                                  .format(env_name, it, max_iterations, level, package, version_required))
                         stop = True
                         break
 
