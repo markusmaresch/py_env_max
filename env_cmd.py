@@ -276,25 +276,27 @@ class EnvCmd:
                     releases_newer = releases_more[:releases_max]
 
                     constraints = db.packages_get_contraints(package=package)
-
                     # take releases, and check all conditions, sub-conditions on them, then take newest
                     releases_update = constraints.match_possible_releases(package, releases_newer)
+                    del releases_newer
                     if releases_update is None:
                         continue  # error
                     if len(releases_update) < 1:
                         # constraints prohibit update of package
                         print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {} .. {} no possible update'
                               .format(env_name, it, max_iterations, level, package, version_required,
-                                      releases_newer[:3], constraints))
+                                      releases_update[:3], constraints))
                         # print('upd_all: {} .. {}/{}: {}: {}: {} .. no update possible'
                         #      .format(env_name, it, max_iterations, level, package, version_required))
                         continue
 
                     release_best = releases_update[0]  # take the first (best) of list possible
 
-                    print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {} .. {}, -> {}'  # TODO: split into 2
+                    print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {}'
+                          .format(env_name, it, max_iterations, level, package, version_required, releases_update))
+                    print('upd_all: {} .. {}/{}: {}: {}: {} .. {} -> {}'
                           .format(env_name, it, max_iterations, level, package, version_required,
-                                  releases_newer[:3], constraints, release_best))
+                                  constraints, release_best))
 
                     if not pip_checked:
                         # do this on demand, only if needed
@@ -321,7 +323,7 @@ class EnvCmd:
                             stop = True
                             break
 
-                    if not PipCmd.pip_check():
+                    if False and not PipCmd.pip_check():  # this is expensive, and 'pip install' bitches - maybe call it only after level
                         stop = True
                         break
 
