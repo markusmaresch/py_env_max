@@ -216,8 +216,6 @@ class EnvCmd:
         max_iterations = 1
         print('upd_all: {} (force={}, max_iterations={})'.format(env_name, force, max_iterations))
 
-        # if not pip check: return False
-
         db_name = '{}.json'.format(env_name)
         db = Database()
         if not db.load(db_name):
@@ -225,6 +223,7 @@ class EnvCmd:
             return False
 
         # need to make sure, the internal representation is up to date !!
+        pip_checked = False
 
         releases_max = 50  # no limit
         debug_helper = False
@@ -236,6 +235,7 @@ class EnvCmd:
             stop = False
             while level < 100:
                 level += 1
+                print('upd_all: {} .. {}/{}: {}: start'.format(env_name, it, max_iterations, level))
                 packages = db.packages_get_names_by_level(level=level, less_then=False)
                 if packages is None or len(packages) < 1:
                     break
@@ -293,10 +293,20 @@ class EnvCmd:
                           .format(env_name, it, max_iterations, level, package, version_required,
                                   releases_newer[:3], constraints, release_best))
 
-                    print('pip install {}=={}'.format(package, release_best))
-                    print('pip check')
-                    if False:
-                        print('pip install {}=={}'.format(package, version_required))
+                    if not pip_checked:
+                        # do this on demand, only if needed
+                        ok = PipCmd.pip_check()
+                        if not ok:
+                            break
+                        pip_checked = True
+
+                    if not PipCmd.pip_install(package=package, version=release_best):
+                        # try to revert
+                        PipCmd.pip_install(package=package, version=version_required)
+                        stop = True
+                        break
+
+                    if not PipCmd.pip_check():
                         stop = True
                         break
 
@@ -310,12 +320,15 @@ class EnvCmd:
                     if not stop:
                         continue
 
+                EnvCmd.env_packages_tree(db=db, force=True)  # this is not optimal !! (only update packages changed !)
                 # read back and update database
 
                 if stop:
                     break
 
+                print('upd_all: {} .. {}/{}: {}: end'.format(env_name, it, max_iterations, level))
             # for level
+
             print('upd_all: {} .. {}/{}: end'.format(env_name, it, max_iterations))
         # for iteration
         db.close()
