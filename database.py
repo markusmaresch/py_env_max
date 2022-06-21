@@ -114,10 +114,13 @@ class Database:
         # need to update
         keys = p.keys()
         for k in keys:
-            if table[key][k] == p[k]:
-                # no need to update
-                continue
-            table[key][k] = p[k]
+            table_key = table.get(key)
+            if table_key is not None:
+                table_key_sub_k = table_key.get(k)
+                if table_key_sub_k == p[k]:
+                    # no need to update
+                    continue
+            table_key[k] = p[k]
             self.set_dirty(True, reason='{}/{}'.format(key, k))
         return True
 
