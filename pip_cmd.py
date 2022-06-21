@@ -204,6 +204,10 @@ class PipCmd:
                 v = line.split()
                 if v[0] == 'ERROR:' or v[2] == 'requires':
                     error = True
+                # also trace:
+                # ERROR: Could not find a version that satisfies the requirement box2d==2.3.10 (from versions: 2.0.2b1, 2.3b0, 2.3.2)
+                # ERROR: No matching distribution found for box2d==2.3.10
+                # and FIX it !!
                 print('pip_install_stderr: {}'.format(line))
             # for stderr
             if cp.returncode != 0:
