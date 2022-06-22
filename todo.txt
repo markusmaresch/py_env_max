@@ -2,14 +2,22 @@
 #
 #
 Next Steps:
-    - update all
-      create list of updates per level
-      restore point
-      check valid version of list with pip list
-      update with pip install (possibly in batches)
-      verify with pip check
-      roll back or commit
-      unwind restore point
+    - update all:
+    -   issue installing some NEW version, which requires NEW dependencies, that are not checked
+        -> even reverting fails
+        example:
+            upd_all: py_env_202202.tmp .. 1/1: 4: imbalanced-learn: 0.9.1 .. attempt to update (from 0.8.0)
+            upd_all: Successfully uninstalled scikit-learn-1.0.2
+            upd_all: Successfully uninstalled imbalanced-learn-0.8.0
+            upd_all: Successfully installed imbalanced-learn-0.9.1 scikit-learn-1.1.1
+            upd_all: ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+            upd_all: recommenders 1.1.0 requires scikit-learn<1.0.3,>=0.22.1, but you have scikit-learn 1.1.1 which is incompatible.
+            upd_all: Successfully uninstalled imbalanced-learn-0.9.1
+            upd_all: Successfully installed imbalanced-learn-0.8.0
+            upd_all: py_env_202202.tmp .. 1/1: 4: imbalanced-learn: 0.8.0 .. revert succeeded: WRONG
+
+    - releases_recent: some are not updated with respect to python 3.9, only 3.8 - this can be checked in the URLs
+        example: box2d, 2.3.10
 
     - yml/templates: yml/templates/<os>/conda_3.9.yml
     - yml_export (for server update)

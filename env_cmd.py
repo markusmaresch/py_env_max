@@ -226,8 +226,6 @@ class EnvCmd:
         if not db.dump(json_path=db_name):
             return False
 
-        pip_checked = False
-
         releases_max = 50  # no limit
         debug_helper = False
         debug_already_latest = False
@@ -238,6 +236,7 @@ class EnvCmd:
             stop = False
             while level < 100:
                 level += 1
+                pip_checked = False
                 print('upd_all: {} .. {}/{}: {}: start'.format(env_name, it, max_iterations, level))
                 packages = db.packages_get_names_by_level(level=level, less_then=False)
                 if packages is None or len(packages) < 1:
@@ -278,16 +277,13 @@ class EnvCmd:
                     constraints = db.packages_get_contraints(package=package)
                     # take releases, and check all conditions, sub-conditions on them, then take newest
                     releases_update = constraints.match_possible_releases(package, releases_newer)
-                    del releases_newer
                     if releases_update is None:
                         continue  # error
                     if len(releases_update) < 1:
                         # constraints prohibit update of package
-                        print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {} .. {} no possible update'
+                        print('upd_all: {} .. {}/{}: {}: {}: {} .. {} not for: {}'
                               .format(env_name, it, max_iterations, level, package, version_required,
-                                      releases_update[:3], constraints))
-                        # print('upd_all: {} .. {}/{}: {}: {}: {} .. no update possible'
-                        #      .format(env_name, it, max_iterations, level, package, version_required))
+                                      constraints, releases_newer[:8]))
                         continue
 
                     release_best = releases_update[0]  # take the first (best) of list possible
@@ -310,22 +306,22 @@ class EnvCmd:
                     print('upd_all: {} .. {}/{}: {}: {}: {} .. attempt to update (from {})'
                           .format(env_name, it, max_iterations, level, package, release_best, version_required))
                     if not PipCmd.pip_install(package=package, version=release_best):
-                        # try to revert
+                        #
+                        # try to revert; TODO this can trigger an installation of OTHER packages -> pip check fail
+                        # would need full revert - parse and understand pip install's: Sucessfully installed/uninstalled
+                        #
                         if PipCmd.pip_install(package=package, version=version_required):
                             print('upd_all: {} .. {}/{}: {}: {}: {} .. revert succeeded'
                                   .format(env_name, it, max_iterations, level, package, version_required))
                             #
                             # TODO: delete entry from database.table.package.releases_recent
+                            # or add a flag "releases_excluded" .. until next update :-|
                             #
                         else:
                             print('upd_all: {} .. {}/{}: {}: {}: {} .. revert FAILED'
                                   .format(env_name, it, max_iterations, level, package, version_required))
                             stop = True
                             break
-
-                    if False and not PipCmd.pip_check():  # this is expensive, and 'pip install' bitches - maybe call it only after level
-                        stop = True
-                        break
 
                     update_command = True
                 # for packages
@@ -336,6 +332,10 @@ class EnvCmd:
                           .format(env_name, it, max_iterations, level))
                     if not stop:
                         continue
+
+                if not stop and not PipCmd.pip_check():
+                    stop = True  # what to do here, really ??
+                    break
 
                 EnvCmd.env_packages_tree(db=db, force=True)  # this is not optimal !! (only update packages changed !)
                 if not db.dump(json_path=db_name):

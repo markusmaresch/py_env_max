@@ -164,7 +164,7 @@ class PyPiCmd:
 
     @staticmethod
     def test_releases_one() -> bool:
-        releases = PyPiCmd().get_releases('boto')
+        releases = PyPiCmd().get_releases('box2d')
         if releases is None:
             return False
         releases = PyPiCmd().get_releases('tensorflow')
@@ -174,9 +174,9 @@ class PyPiCmd:
 
     @staticmethod
     def pip_selftest() -> bool:
-        if not PyPiCmd.test_releases_many():
-            return False
         if not PyPiCmd.test_releases_one():
+            return False
+        if not PyPiCmd.test_releases_many():
             return False
         return True
 
