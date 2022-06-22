@@ -215,6 +215,14 @@ class Database:
         if d is None:
             # we assume update only
             return False
+        old_level = d.get(Database.LEVEL)
+        if old_level is None:
+            pass
+        elif old_level == level:
+            return True
+        else:
+            self.set_dirty(True, reason='set_level: {}: {} -> {}'
+                           .format(name, old_level, level))
         d[Database.LEVEL] = int(level)
         return True
 
