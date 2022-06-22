@@ -194,6 +194,8 @@ class PipCmd:
                 if not line:
                     continue
                 v = line.split()
+                if v is None or len(v) < 1:
+                    continue
                 if v[0] != 'Successfully':
                     continue
                 print('pip_install_stdout: {}'.format(line.lstrip()))
@@ -202,7 +204,11 @@ class PipCmd:
                 if not line:
                     continue
                 v = line.split()
-                if v[0] == 'ERROR:' or v[2] == 'requires':
+                if v is None or len(v) < 1:
+                    continue
+                if v[0] == 'ERROR:':
+                    error = True
+                if len(v) > 2 and v[2] == 'requires':
                     error = True
                 # also trace:
                 # ERROR: Could not find a version that satisfies the requirement box2d==2.3.10 (from versions: 2.0.2b1, 2.3b0, 2.3.2)
