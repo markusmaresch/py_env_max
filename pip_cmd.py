@@ -16,6 +16,55 @@ from database import Database
 from utils import Utils
 
 
+class PipReturn:
+    OK = 0
+    ERROR = 1
+
+    def __init__(self, package: str, installs: typing.List):
+        self.package = package
+        self.installs = installs
+        self.return_code = PipReturn.OK
+        self.installed = dict()
+        self.uninstalled = dict()
+        self.no_matching_distribution = dict()
+        self.stdout_lines = list()
+        self.stderr_lines = list()
+        return
+
+    def get_return_code(self) -> int:
+        return self.return_code
+
+    def set_return_code(self, return_code: int) -> 'PipReturn':
+        self.return_code = return_code
+        return self
+
+    def add_no_matching_distribution(self, package, version) -> bool:
+        self.no_matching_distribution[package] = version
+        return True
+
+    def get_installed(self) -> dict:
+        return self.installed
+
+    def add_installed(self, package, version) -> bool:
+        self.installed[package] = version
+        return True
+
+    def get_uninstalled(self) -> dict:
+        return self.uninstalled
+
+    def add_uninstalled(self, package, version) -> bool:
+        self.uninstalled[package] = version
+        return True
+
+    def add_stdout_line(self, line: str) -> bool:
+        self.stdout_lines.append(line)
+        return True
+
+    def add_stderr_line(self, line: str) -> bool:
+        self.stderr_lines.append(line)
+        return True
+
+
 class PipCmd:
 
     @staticmethod
@@ -184,30 +233,61 @@ class PipCmd:
         return False
 
     @staticmethod
-    def pip_install(package: str, version: str, eq: str = '==') -> bool:
-        arg_str = '{}{}{}'.format(package, eq, version)
+    def pip_install_commands(package: str, args: typing.List) -> PipReturn:
+        def has_digit(s: str):
+            return any(i.isdigit() for i in s)
+
+        pr = PipReturn(package=package, installs=args)
         try:
             error = False
-            cp = subprocess.run([sys.executable, '-m', 'pip', 'install', arg_str],
-                                shell=False, capture_output=True)
+            pip_args = [sys.executable, '-m', 'pip', 'install'] + args
+            cp = subprocess.run(pip_args, shell=False, capture_output=True)
             for line in cp.stdout.decode().split('\n'):
                 if not line:
                     continue
+                pr.add_stdout_line(line)
                 v = line.split()
                 if v is None or len(v) < 1:
                     continue
                 if v[0] != 'Successfully':
                     continue
+                for i in range(2, len(v)):
+                    mingled = v[i]
+                    s = mingled.rsplit('-', maxsplit=1)
+                    if s is None or len(s) < 2:
+                        continue
+                    pack = s[0]
+                    vers = s[1]
+                    if not has_digit(vers):
+                        print('pip_install_error: {}'.format(mingled))  # fatal internal error !!
+                    pack2 = Utils.canonicalize_name(pack)
+                    if v[1] == 'installed':
+                        pr.add_installed(pack2, vers)
+                    elif v[1] == 'uninstalled':
+                        pr.add_uninstalled(pack2, vers)
+                    # fi
+                # for
                 print('pip_install_stdout: {}'.format(line.lstrip()))
             # for stdout
             for line in cp.stderr.decode().split('\n'):
                 if not line:
                     continue
+                pr.add_stderr_line(line)
                 v = line.split()
                 if v is None or len(v) < 1:
                     continue
                 if v[0] == 'ERROR:':
                     error = True
+                    # TODO: Handle: 'ERROR: No matching distribution found for box2d==2.3.10'
+                    if len(v) >= 7 and v[1] == 'No' and v[2] == 'matching':
+                        mingled = v[6]
+                        s = mingled.split('==')
+                        pack = s[0]
+                        vers = s[1]
+                        pack2 = Utils.canonicalize_name(pack)
+                        pr.add_no_matching_distribution(pack2, vers)
+                    # fi
+                # fi
                 if len(v) > 2 and v[2] == 'requires':
                     error = True
                 # also trace:
@@ -216,15 +296,19 @@ class PipCmd:
                 # and FIX it !!
                 print('pip_install_stderr: {}'.format(line))
             # for stderr
-            if cp.returncode != 0:
-                return False
-            if error:
-                return False
-            return True
+            if cp.returncode != 0 or error:
+                return pr.set_return_code(PipReturn.ERROR)
+            return pr.set_return_code(PipReturn.OK)
 
         except Exception as e:
-            print('Failed: pip install {}: {}'.format(arg_str, e))
-        return False
+            # typically a coding error above
+            print('Failed: pip install {}: {}'.format(args, e))
+        return pr.set_return_code(PipReturn.ERROR)
+
+    @staticmethod
+    def pip_install(package: str, version: str, eq: str = '==') -> PipReturn:
+        arg = '{}{}{}'.format(package, eq, version)
+        return PipCmd.pip_install_commands(package, [arg])
 
     @staticmethod
     def package_update_pip_show(db: Database, packages: [str]) -> bool:
@@ -303,6 +387,7 @@ class PipCmd:
         # hand crafted example, which WILL CHANGE over time - use with care !!
         #
         # bad command first
+        return False  # needs to be reworked below
         ok = PipCmd.pip_install(package='charset-normalizer', version='1.4.1')
         if ok:
             return False

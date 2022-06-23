@@ -7,7 +7,7 @@ import json
 
 from database import Database
 from release_filter import ReleaseFilter
-from pip_cmd import PipCmd
+from pip_cmd import PipCmd, PipReturn
 from pypi_cmd import PyPiCmd
 from utils import Utils
 from version import Version
@@ -213,7 +213,7 @@ class EnvCmd:
     @staticmethod
     def upd_all(env_name: str, force: bool = False) -> bool:
         # Attempt to update existing python environment
-        max_iterations = 1
+        max_iterations = 2
         print('upd_all: {} (force={}, max_iterations={})'.format(env_name, force, max_iterations))
 
         db_name = '{}.json'.format(env_name)
@@ -273,7 +273,6 @@ class EnvCmd:
                     # fi
                     releases_more = [r for r in releases_recent if Version.convert(r) > v_required]
                     releases_newer = releases_more[:releases_max]
-
                     constraints = db.packages_get_contraints(package=package)
                     # take releases, and check all conditions, sub-conditions on them, then take newest
                     releases_update = constraints.match_possible_releases(package, releases_newer)
@@ -285,14 +284,7 @@ class EnvCmd:
                               .format(env_name, it, max_iterations, level, package, version_required,
                                       constraints, releases_newer[:8]))
                         continue
-
-                    release_best = releases_update[0]  # take the first (best) of list possible
-
-                    print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {}'
-                          .format(env_name, it, max_iterations, level, package, version_required, releases_update))
-                    print('upd_all: {} .. {}/{}: {}: {}: {} .. {} -> {}'
-                          .format(env_name, it, max_iterations, level, package, version_required,
-                                  constraints, release_best))
+                    # fi
 
                     if not pip_checked:
                         # do this on demand, only if needed
@@ -302,27 +294,53 @@ class EnvCmd:
                         if not ok:
                             break
                         pip_checked = True
+                    # fi
 
-                    print('upd_all: {} .. {}/{}: {}: {}: {} .. attempt to update (from {})'
-                          .format(env_name, it, max_iterations, level, package, release_best, version_required))
-                    if not PipCmd.pip_install(package=package, version=release_best):
-                        #
-                        # try to revert; TODO this can trigger an installation of OTHER packages -> pip check fail
-                        # would need full revert - parse and understand pip install's: Sucessfully installed/uninstalled
-                        #
-                        if PipCmd.pip_install(package=package, version=version_required):
-                            print('upd_all: {} .. {}/{}: {}: {}: {} .. revert succeeded'
-                                  .format(env_name, it, max_iterations, level, package, version_required))
-                            #
-                            # TODO: delete entry from database.table.package.releases_recent
-                            # or add a flag "releases_excluded" .. until next update :-|
-                            #
-                        else:
-                            print('upd_all: {} .. {}/{}: {}: {}: {} .. revert FAILED'
-                                  .format(env_name, it, max_iterations, level, package, version_required))
-                            stop = True
+                    print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {}'
+                          .format(env_name, it, max_iterations, level, package, version_required, releases_update))
+                    for release_best in releases_update:
+                        print('upd_all: {} .. {}/{}: {}: {}: {} .. {} -> {}'
+                              .format(env_name, it, max_iterations, level, package, version_required,
+                                      constraints, release_best))
+                        print('upd_all: {} .. {}/{}: {}: {}: {} .. attempt to update (from {})'
+                              .format(env_name, it, max_iterations, level, package, release_best, version_required))
+                        pr = PipCmd.pip_install(package=package, version=release_best)
+                        if pr.get_return_code() == PipReturn.OK:
+                            # first try succeeded !   if more than current package was installed, update db !!
                             break
-
+                        installed = pr.get_installed()
+                        uninstalled = pr.get_uninstalled()
+                        if len(installed) < 1 and len(uninstalled) < 1:
+                            # nothing happened - we could not install - TODO: lock it or take note
+                            print('nothing installed, nothing uninstalled ..')
+                            continue
+                        # failure case
+                        for pack in installed.keys():
+                            vers = installed[pack]
+                            print('Installed: {}=={}'.format(pack, vers))
+                        # for
+                        pip_cmds = list()
+                        for pack in uninstalled.keys():
+                            vers = uninstalled[pack]
+                            cmd = '{}=={}'.format(pack, vers)
+                            print('Uninstalled: {}'.format(cmd))
+                            pip_cmds.append(cmd)
+                        # for
+                        print('upd_all: {} .. {}/{}: {}: {}: attempt to revert to: {}'
+                              .format(env_name, it, max_iterations, level, package, pip_cmds))
+                        pr2 = PipCmd.pip_install_commands(package, pip_cmds)
+                        if pr2.get_return_code() == PipReturn.OK:
+                            # repair succeeded, try next release_update, if any
+                            print('upd_all: {} .. {}/{}: {}: {}: revert succeeded: {}'
+                                  .format(env_name, it, max_iterations, level, package, pip_cmds))
+                            continue
+                        # fi
+                        # now what, we tried candidate and the repair failed
+                        print('upd_all: {} .. {}/{}: {}: {}: revert FAILED: {}'
+                              .format(env_name, it, max_iterations, level, package, pip_cmds))
+                        stop = True
+                        break
+                    # for best
                     update_command = True
                 # for packages
 
