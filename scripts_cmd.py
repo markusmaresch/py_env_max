@@ -15,9 +15,9 @@ class ScriptsCmd:
         if not db.load(db_name):
             return False
         script_extension = OsPlatform.script_extension()
-        for level in range(1, 100):
+        for level in range(1, 20):
             packs = db.packages_get_names_by_level(level=level)
-            if packs is None:
+            if packs is None or len(packs) < 1:
                 break
             script_name = '{}_{:02d}.{}'.format(env_name, level, script_extension)
             max_per_line = 8
