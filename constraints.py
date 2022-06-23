@@ -152,7 +152,7 @@ class Constraints:
             vp = version._parts[1]
             rp = release._parts[1]
             if rp[0] != vp[0]:
-                print('APR: {} .. {} .. V mismatch / False'.format(rp, vp))
+                # print('APR: {} .. {} .. V mismatch / False'.format(rp, vp))
                 return False
             ll = max(len(vp), len(rp))
             for i in range(1, ll):
@@ -160,11 +160,11 @@ class Constraints:
                 nv = vp[i] if i < len(vp) else 0
                 np = rp[i] if i < len(rp) else 0
                 if nv < np:
-                    print('APR: {} .. {} .. i={}/{} .. {} < {} -> False'.format(rp, vp, i, ll, nv, np))
+                    # print('APR: {} .. {} .. i={}/{} .. {} < {} -> False'.format(rp, vp, i, ll, nv, np))
                     return False
-                print('APR: {} .. {} .. i={}/{} .. {} >= {} pass'.format(rp, vp, i, ll, nv, np))
+                # print('APR: {} .. {} .. i={}/{} .. {} >= {} pass'.format(rp, vp, i, ll, nv, np))
             # for
-            print('APR: {} .. {}  -> True'.format(rp, vp))
+            # print('APR: {} .. {}  -> True'.format(rp, vp))
             return True
         else:
             return False
@@ -174,7 +174,7 @@ class Constraints:
     def match_possible_releases(self, package: str, releases: [str]) -> [str]:
         # reduce the list of release, according to constraints
         if self.no_constraints():
-            return [releases[0]]
+            return releases
         m = []
         for r in releases:
             # print('Testing: {} {}'.format(package, r))
