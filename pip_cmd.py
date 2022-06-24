@@ -325,8 +325,8 @@ class PipCmd:
             print('Executing: pip show: of {}'.format(len(packages)))
             # this takes quite a while !!
             output = subprocess.check_output(arguments)
-        except:
-            print('Error: pip show: of {}'.format(len(packages)))
+        except Exception as e:
+            print('Error: pip show of {}: {}'.format(len(packages), e))
             return False
         name = None
         summary = None
