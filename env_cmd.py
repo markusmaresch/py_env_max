@@ -16,7 +16,7 @@ from version import Version
 class EnvCmd:
 
     @staticmethod
-    def env_calc_levels(db: Database) -> bool:
+    def env_calc_levels(db: Database, cycles: [str]) -> bool:
         keys = db.packages_get_names_all()
         print('Check levels for {} packages'.format(len(keys)))
         levels_max = 15
@@ -55,10 +55,12 @@ class EnvCmd:
                 cyclical = False
                 satisfied = (found_below >= needed_below)
                 if not satisfied:
-                    if d == 'dedupe':
-                        if needed_below >= 14 and found_below == needed_below - 1:
-                            # nasty hack for cyclical dependencies, which are otherwise hard to detect
-                            cyclical = True
+                    if cycles is not None and d in cycles:
+                        cyclical = True
+                    # if d == 'dedupe':
+                    #    if needed_below >= 14 and found_below == needed_below - 1:
+                    #        # nasty hack for cyclical dependencies, which are otherwise hard to detect
+                    #        cyclical = True
                 #
                 # need for fix
                 #
@@ -156,7 +158,7 @@ class EnvCmd:
         return True
 
     @staticmethod
-    def env_packages_tree(db: Database, force: bool = False) -> bool:
+    def env_packages_tree(db: Database, force: bool = False, packages: [str] = None) -> bool:
 
         tree = PipCmd.get_tree_installed()
         conflicts = PipCmd.get_conflicts(tree, verbose=True)
@@ -180,10 +182,24 @@ class EnvCmd:
             return False
 
         # this should be done FIRST
-        packages = db.packages_get_names_all()
+        packages = db.packages_get_names_all() if packages is None else packages
         if not PipCmd.package_update_pip_show(db, packages=packages):
             return False
 
+        if not EnvCmd.env_calc_levels(db, cycles=cycles):
+            return False
+
+        # need to check for orphaned packages: no recent_releases, no level
+        packages = db.packages_get_names_all()
+        for p in packages:
+            level = db.package_get_level(p)
+            if level >= 0:
+                continue
+            rr = db.package_get_releases_recent(p, release_filter=ReleaseFilter.REGULAR)
+            if rr is not None:
+                continue
+            db.package_remove(p)
+        # for
         return True
 
     @staticmethod
@@ -197,9 +213,7 @@ class EnvCmd:
             db.load(db_name)
 
         # the following is needed upon package updates
-        if not EnvCmd.env_packages_tree(db):
-            return False
-        if not EnvCmd.env_calc_levels(db):
+        if not EnvCmd.env_packages_tree(db=db):
             return False
 
         # this only affects the releases on PYPI - is needed, but could lag hours or a day
@@ -222,7 +236,8 @@ class EnvCmd:
             # alternatively could call env_import and continue
             return False
 
-        EnvCmd.env_packages_tree(db=db, force=True)  # this is not optimal !! (only update packages changed !)
+        if not EnvCmd.env_packages_tree(db=db, force=True):  # this is necessary
+            return False
         if not db.dump(json_path=db_name):
             return False
 
@@ -241,6 +256,7 @@ class EnvCmd:
                 packages = db.packages_get_names_by_level(level=level, less_then=False)
                 if packages is None or len(packages) < 1:
                     break
+                affected_set = set()
                 update_command = False
                 for package in packages:
                     # for package, collect all the constraints in tree, try to improve to most recent
@@ -295,6 +311,11 @@ class EnvCmd:
                             break
                         pip_checked = True
                     # fi
+                    affected_set.add(package)
+
+                    ruN = len(releases_update)
+                    if ruN >= 5:
+                        releases_update = [releases_update[0], releases_update[int(ruN / 2)], releases_update[ruN - 1]]
 
                     print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {}'
                           .format(env_name, it, max_iterations, level, package, version_required, releases_update))
@@ -316,6 +337,7 @@ class EnvCmd:
                             continue
                         # failure case
                         for pack in installed.keys():
+                            affected_set.add(pack)
                             vers = installed[pack]
                             print('Installed: {}=={}'.format(pack, vers))
                         # for
@@ -355,7 +377,12 @@ class EnvCmd:
                     stop = True  # what to do here, really ??
                     break
 
-                EnvCmd.env_packages_tree(db=db, force=True)  # this is not optimal !! (only update packages changed !)
+                affected_packages = list(affected_set)
+                del affected_set
+                if not EnvCmd.env_packages_tree(db=db, force=True, packages=affected_packages):
+                    stop = True
+                    break
+                del affected_packages
                 if not db.dump(json_path=db_name):
                     stop = True
 

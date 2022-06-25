@@ -136,6 +136,15 @@ class Database:
                 return False
         return True
 
+    def package_remove(self, name: str) -> bool:
+        table = self.table_packages()
+        p = table.get(name)
+        if p is None:
+            return False
+        del table[name]
+        self.set_dirty(True, reason='delete: {}'.format(name))
+        return True
+
     def package_update(self, name: str, summary: str,
                        required_by: [str]) -> bool:
         table = self.table_packages()

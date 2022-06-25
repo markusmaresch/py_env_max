@@ -326,6 +326,7 @@ class PipCmd:
             # this takes quite a while !!
             output = subprocess.check_output(arguments)
         except Exception as e:
+            # this is an indication of wrong package names - interpretated as options
             print('Error: pip show of {}: {}'.format(len(packages), e))
             return False
         name = None
