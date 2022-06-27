@@ -164,7 +164,7 @@ class PyPiCmd:
 
     @staticmethod
     def test_releases_one() -> bool:
-        releases = PyPiCmd().get_releases('box2d')
+        releases = PyPiCmd().get_releases('box2d-py')
         if releases is None:
             return False
         releases = PyPiCmd().get_releases('tensorflow')

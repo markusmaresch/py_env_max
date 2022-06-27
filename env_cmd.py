@@ -229,16 +229,13 @@ class EnvCmd:
         # Attempt to update existing python environment
         max_iterations = 2
         print('upd_all: {} (force={}, max_iterations={})'.format(env_name, force, max_iterations))
+        if not EnvCmd.env_import(env_name=env_name, force=True):  # this is necessary
+            return False
 
         db_name = '{}.json'.format(env_name)
         db = Database()
         if not db.load(db_name):
             # alternatively could call env_import and continue
-            return False
-
-        if not EnvCmd.env_packages_tree(db=db, force=True):  # this is necessary
-            return False
-        if not db.dump(json_path=db_name):
             return False
 
         releases_max = 50  # no limit
@@ -314,7 +311,7 @@ class EnvCmd:
                     affected_set.add(package)
 
                     ruN = len(releases_update)
-                    if ruN >= 5:
+                    if ruN >= 5:  # simulate a binary search .. if sucessfull, cut the list in half; avoid long retries
                         releases_update = [releases_update[0], releases_update[int(ruN / 2)], releases_update[ruN - 1]]
 
                     print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {}'
