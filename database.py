@@ -66,12 +66,12 @@ class Database:
         return self.dirty
 
     def dump(self, json_path: str) -> bool:
+        if not self.get_dirty():
+            print('Info: NOT written: {} .. dirty was {}'
+                  .format(json_path, self.get_dirty()))
+            return True
+        old_path = json_path + '.old'
         try:
-            if not self.get_dirty():
-                print('Info: NOT written: {} .. dirty was {}'
-                      .format(json_path, self.get_dirty()))
-                return True
-            old_path = json_path + '.old'
             if os.path.exists(old_path):
                 os.remove(old_path)
             if os.path.exists(json_path):

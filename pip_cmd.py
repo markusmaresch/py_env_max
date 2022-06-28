@@ -4,7 +4,6 @@
 import sys
 import subprocess
 import typing
-import json
 import itertools
 import pkg_resources
 
@@ -68,8 +67,8 @@ class PipReturn:
 class PipCmd:
 
     @staticmethod
-    def render_json_tree(tree: PackageDAG, indent: int, truncate: bool = False):
-        """Converts the tree into a nested json representation.
+    def process_tree(tree: PackageDAG, truncate: bool = False) -> typing.List:
+        """Converts the tree into a nested representation.
         """
 
         def aux(node, parent=None, chain=None):
@@ -112,14 +111,7 @@ class PipCmd:
             nodes = [p for p in tree.keys()]
         # fi
         out_nodes = [aux(p) for p in nodes]
-
-        # for d in out_nodes:  # does not seem to trigger !!
-        #    if d.get('installed_version') is not None:
-        #        d['version_installed'] = d.pop('installed_version')  # rename
-        #    if d.get('required_version') is not None:
-        #        d['version_required'] = d.pop('required_version')  # rename
-
-        return json.dumps(out_nodes, indent=indent)
+        return out_nodes
 
     @staticmethod
     def get_tree_installed() -> typing.Union[PackageDAG, typing.Any]:

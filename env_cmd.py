@@ -3,7 +3,6 @@
 #
 import time
 import os
-import json
 
 from database import Database
 from release_filter import ReleaseFilter
@@ -159,7 +158,6 @@ class EnvCmd:
 
     @staticmethod
     def env_packages_tree(db: Database, force: bool = False, packages: [str] = None) -> bool:
-
         tree = PipCmd.get_tree_installed()
         conflicts = PipCmd.get_conflicts(tree, verbose=True)
         cycles = PipCmd.get_cycles(tree, verbose=True)
@@ -171,10 +169,8 @@ class EnvCmd:
             # have a list of known cycles, and ignore them
             pass
 
-        json_string = PipCmd.render_json_tree(tree, indent=4)
+        packages_installed_list_of_dicts = PipCmd.process_tree(tree)
         del tree
-        packages_installed_list_of_dicts = json.loads(json_string)
-        del json_string
         if not db.packages_set(packages_installed_list_of_dicts):  # this is nasty
             return False
 
