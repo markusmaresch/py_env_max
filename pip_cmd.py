@@ -303,7 +303,7 @@ class PipCmd:
         return PipCmd.pip_install_commands(package, [arg])
 
     @staticmethod
-    def package_update_pip_show(db: Database, packages: [str]) -> bool:
+    def package_update_only_required_by(db: Database, packages: [str]) -> bool:  # resolve/remove
         # return list of all installed packages
         # only use summary and required_by
         #
@@ -322,7 +322,6 @@ class PipCmd:
             print('Error: pip show of {}: {}'.format(len(packages), e))
             return False
         name = None
-        summary = None
         required_by = None
         for line_b in output.splitlines():
             line = line_b.decode().strip()
@@ -333,13 +332,6 @@ class PipCmd:
             if key == 'Name:':
                 name_raw = rest.strip()
                 name = Utils.canonicalize_name(name_raw)
-            elif key == 'Summary:':
-                if rest is None:
-                    summary = ''
-                else:
-                    summary = rest.strip()
-                    if summary != 'UNKNOWN' and summary[-1] == '.':
-                        summary = summary[:-1]
             elif key == 'Required-by:':
                 if rest is None:
                     items = []
@@ -352,20 +344,17 @@ class PipCmd:
                 required_by = items
                 # fi
             elif key == 'Home-page:' or key == 'Author:' or key == 'Author-email:' \
-                    or key == 'License:' or key == 'Location:' \
+                    or key == 'License:' or key == 'Location:' or key == 'Summary:' \
                     or key == 'Requires:' or key == 'Version:':
                 continue
             elif line.startswith('-'):
                 continue
             # fi
-            if name is not None and summary is not None \
-                    and required_by is not None:
-                if not db.package_update(name=name, summary=summary,
-                                         required_by=required_by):
-                    print('Error: db.tree_update({})'.format(name))
+            if name is not None and required_by is not None:
+                if not db.package_set_required_by(name=name, required_by=required_by):
+                    print('Error: db.package_set_required_by({})'.format(name))
                     return False
                 name = None
-                summary = None
                 required_by = None
                 continue
             else:

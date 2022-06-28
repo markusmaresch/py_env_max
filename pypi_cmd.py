@@ -8,6 +8,7 @@ import typing
 import time
 
 from version import Version
+from database import Database
 
 # from pip
 from pip._vendor import requests  # get pip's request, so we do not have to install it
@@ -31,39 +32,38 @@ class PyPiCmd:
         return None
 
     @staticmethod
-    def get_releases(name: str, latestN: int = 20) -> [str]:
+    def get_releases(name: str, keep: int = 20) -> typing.Union[typing.Dict, object]:
         js = PyPiCmd.get_pypi_json(name)
         if js is None:
             return None
         releases = js.get('releases')
         if releases is None:
-            print('e1: {}'.format(name))
             return None
         keys = releases.keys()
-        rs = [r for r in keys]
-        reverse = True
-        s = Version.sort(releases=rs, reverse=reverse)
-        return s[:latestN]
+        releases = [r for r in keys]
+        sorted_releases = Version.sort(releases=releases, reverse=True)
+        latest_releases = sorted_releases[:keep]
+        d = {Database.RELEASES_RECENT: latest_releases}
+        info = js.get('info')
+        if info is not None:
+            summary = info.get('summary')
+            if summary is not None and summary:
+                summary = summary.strip()
+                if summary != 'UNKNOWN' and summary[-1] == '.':
+                    summary = summary[:-1]
+                d[Database.SUMMARY] = summary
+        return d
 
     @staticmethod
-    def get_release_latest(name: str) -> typing.Union[str, object]:
-        s = PyPiCmd.get_releases(name=name)
-        if s is None:
-            print('e5: {}'.format(name))
-            return None
-        latest_version = s[0]
-        return latest_version
-
-    @staticmethod
-    def get_release_one(name: str, index: int, result: [str]):
-        rs = PyPiCmd.get_releases(name=name, latestN=10)
-        c = 'x' if rs is None else '.'
-        result[index] = rs
+    def get_release_one(name: str, index: int, result: [typing.Dict]):
+        rd = PyPiCmd.get_releases(name=name, keep=10)
+        c = 'x' if rd is None else '.'
+        result[index] = rd
         print(c, end='' if random.random() > 1.0 / 20.0 else '\n', flush=True)
         return
 
     @staticmethod
-    def get_release_many(packages: [str]) -> [str]:
+    def get_release_many(packages: [str]) -> [typing.Dict]:
 
         def fix_releases(rf: typing.List) -> typing.Union[typing.List[typing.List], object]:
             """
@@ -76,7 +76,10 @@ class PyPiCmd:
                 ra = rf[ii]
                 if ra is None:
                     continue
-                for r in ra:
+                rr = ra.get(Database.RELEASES_RECENT)
+                if rr is None:
+                    continue
+                for r in rr:
                     try:
                         v = Version.convert(r)
                         del v
@@ -84,7 +87,9 @@ class PyPiCmd:
                         delete.add(r)
                 # for
                 if len(delete) > 0:
-                    rf[ii] = [r for r in ra if r not in delete]
+
+                    rn = [r for r in rr if r not in delete]
+                    rf[ii][Database.RELEASES_RECENT] = rn
                     delete.clear()
             # for
             return rf
@@ -132,8 +137,8 @@ class PyPiCmd:
         if still_open > 0:
             print('Error: releases {}/{} still open'.format(still_open, N))
         del threads
-        releases = fix_releases(releases)
-        return releases
+        releases_dict = fix_releases(releases)
+        return releases_dict
 
     @staticmethod
     def test_releases_many() -> bool:
@@ -157,18 +162,15 @@ class PyPiCmd:
             'boltons', 'boost', 'boto', 'boto3', 'botocore',
             'bottleneck', 'box2d', 'box2d-py', 'brotli', 'brotlipy', 'btrees'
         ]
-        releases = PyPiCmd.get_release_many(packages)
-        if releases is None or len(releases) != len(packages):
+        releases_dict = PyPiCmd.get_release_many(packages)
+        if releases_dict is None or len(releases_dict) != len(packages):
             return False
         return True
 
     @staticmethod
     def test_releases_one() -> bool:
-        releases = PyPiCmd().get_releases('box2d-py')
-        if releases is None:
-            return False
-        releases = PyPiCmd().get_releases('tensorflow')
-        if releases is None:
+        releases_dict = PyPiCmd().get_releases('tensorflow')
+        if releases_dict is None:
             return False
         return True
 

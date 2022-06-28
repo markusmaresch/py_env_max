@@ -107,20 +107,27 @@ class EnvCmd:
                   .format(p_oldest, oldest, uptodate_seconds))
             return True
         print('Get releases for {} packages'.format(len(packages_needed)))
-        releases_all = PyPiCmd.get_release_many(packages_needed)
-        if releases_all is None:
+        releases_dict = PyPiCmd.get_release_many(packages_needed)
+        if releases_dict is None:
             return False
         # ok = True
         i = 0
         for package_name in packages_needed:
-            releases = releases_all[i]
+            release_dict = releases_dict[i]
+            if release_dict is None:
+                print('Error: No release_dict for {}'.format(package_name))
+                continue
+            releases = release_dict.get(Database.RELEASES_RECENT)
             if releases is None:
-                # this is a problem upstreams
                 print('Error: No releases for {}'.format(package_name))
-                # ok = False
                 continue
             if not db.package_set_releases_recent(package_name, releases, now):
                 return False
+            summary = release_dict.get(Database.SUMMARY)
+            if summary is not None:
+                if not db.package_set_summary(package_name, summary):
+                    return False
+
             self_check = True
             if self_check:
                 rr = db.package_get_releases_recent(package_name, release_filter=ReleaseFilter.REGULAR)
@@ -171,15 +178,15 @@ class EnvCmd:
 
         packages_installed_list_of_dicts = PipCmd.process_tree(tree)
         del tree
-        if not db.packages_set(packages_installed_list_of_dicts):  # this is nasty
+        if not db.packages_set(packages_installed_list_of_dicts):
             return False
 
         if not EnvCmd.env_check_consistency(db):
             return False
 
-        # this should be done FIRST
+        # change to reverse calculation
         packages = db.packages_get_names_all() if packages is None else packages
-        if not PipCmd.package_update_pip_show(db, packages=packages):
+        if not PipCmd.package_update_only_required_by(db, packages=packages):  # try to remove this
             return False
 
         if not EnvCmd.env_calc_levels(db, cycles=cycles):

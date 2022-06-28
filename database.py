@@ -145,19 +145,11 @@ class Database:
         self.set_dirty(True, reason='delete: {}'.format(name))
         return True
 
-    def package_update(self, name: str, summary: str,
-                       required_by: [str]) -> bool:
+    def package_set_required_by(self, name: str, required_by: [str]) -> bool:
         table = self.table_packages()
         p = table.get(name)
         if p is None:
             return False
-        if summary:
-            old_summary = p.get(Database.SUMMARY)
-            if old_summary is None or old_summary != summary:
-                p[Database.SUMMARY] = summary
-                self.set_dirty(True, reason='summary: {}/{}'.format(name, summary))
-            else:
-                pass  # print('Summary: same or empty before')
         if len(required_by) > 0:
             old_required_by = p.get(Database.REQUIRED_BY)
             if old_required_by != required_by:
@@ -165,7 +157,24 @@ class Database:
                 self.set_dirty(True, reason='required_by: {}/{}'
                                .format(name, required_by))
             else:
-                pass  # print('RequiredBy: same or empty before')
+                print('RequiredBy: same or empty before')
+        return True
+
+    def package_set_summary(self, name: str, summary: str) -> bool:
+        table = self.table_packages()
+        p = table.get(name)
+        if p is None or summary is None:
+            return False
+        if summary:
+            summary = summary.strip()
+            if summary != 'UNKNOWN' and summary[-1] == '.':
+                summary = summary[:-1]
+            old_summary = p.get(Database.SUMMARY)
+            if old_summary is None or old_summary != summary:
+                p[Database.SUMMARY] = summary
+                self.set_dirty(True, reason='summary: {}/{}'.format(name, summary))
+            else:
+                pass  # print('Summary: same or empty before')
         return True
 
     def package_get_releases_recent(self, name: str, release_filter: ReleaseFilter) -> [str]:
