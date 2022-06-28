@@ -11,7 +11,6 @@ import pkg_resources
 from _vendor.pipdeptree import PackageDAG, conflicting_deps, render_conflicts_text, cyclic_deps
 
 # own imports
-from database import Database
 from utils import Utils
 
 
@@ -301,67 +300,6 @@ class PipCmd:
     def pip_install(package: str, version: str, eq: str = '==') -> PipReturn:
         arg = '{}{}{}'.format(package, eq, version)
         return PipCmd.pip_install_commands(package, [arg])
-
-    @staticmethod
-    def package_update_only_required_by(db: Database, packages: [str]) -> bool:  # resolve/remove
-        # return list of all installed packages
-        # only use summary and required_by
-        #
-        # needed optimization: should keep a cache for <package> + <version>
-        # as this rarely changes. Have key only <packages>, check <version>
-        #
-        # possible helper: pip list -> is much faster for pre-checking
-        #
-        arguments = ['pip', 'show'] + [str(elem) for elem in packages]
-        try:
-            print('Executing: pip show: of {}'.format(len(packages)))
-            # this takes quite a while !!
-            output = subprocess.check_output(arguments)
-        except Exception as e:
-            # this is an indication of wrong package names - interpretated as options
-            print('Error: pip show of {}: {}'.format(len(packages), e))
-            return False
-        name = None
-        required_by = None
-        for line_b in output.splitlines():
-            line = line_b.decode().strip()
-            if not line:
-                continue
-            # print('Line: "{}"'.format(line))
-            key, rest = (line.split(maxsplit=1) + [None])[:2]
-            if key == 'Name:':
-                name_raw = rest.strip()
-                name = Utils.canonicalize_name(name_raw)
-            elif key == 'Required-by:':
-                if rest is None:
-                    items = []
-                else:
-                    items_split = rest.strip().split(',')
-                    items_sorted = [Utils.canonicalize_name(str(e.strip()))
-                                    for e in items_split]
-                    items_sorted.sort()
-                    items = [e for e in items_sorted]
-                required_by = items
-                # fi
-            elif key == 'Home-page:' or key == 'Author:' or key == 'Author-email:' \
-                    or key == 'License:' or key == 'Location:' or key == 'Summary:' \
-                    or key == 'Requires:' or key == 'Version:':
-                continue
-            elif line.startswith('-'):
-                continue
-            # fi
-            if name is not None and required_by is not None:
-                if not db.package_set_required_by(name=name, required_by=required_by):
-                    print('Error: db.package_set_required_by({})'.format(name))
-                    return False
-                name = None
-                required_by = None
-                continue
-            else:
-                continue
-            # fi
-        # for
-        return True
 
     @staticmethod
     def pip_test_install() -> bool:

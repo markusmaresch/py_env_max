@@ -4,7 +4,7 @@
 import time
 import os
 
-from database import Database
+from database import Database, PyPi
 from release_filter import ReleaseFilter
 from pip_cmd import PipCmd, PipReturn
 from pypi_cmd import PyPiCmd
@@ -164,6 +164,41 @@ class EnvCmd:
         return True
 
     @staticmethod
+    def calc_required_by(db: Database, packages_installed_list_of_dicts) -> bool:
+        #
+        # from requires, reverse the pointer logic and calculate required_by efficiently
+        #
+        print('Calculating required_by ..')
+        required_by = dict()
+        for package in packages_installed_list_of_dicts:
+            requires = package.get(Database.REQUIRES)
+            if requires is None:
+                continue
+            package_name = package.get(PyPi.PACKAGE_NAME)
+            key_name = Utils.canonicalize_name(package_name)
+            for req in requires:
+                required = req.get(PyPi.PACKAGE_NAME)
+                # print(key_name, ' -> ', required)
+                s = required_by.get(required)
+                if s is None:
+                    s = required_by[required] = set()
+                s.add(key_name)
+            # for
+        # for
+        # print(required_by)
+        for package in packages_installed_list_of_dicts:
+            package_name = package.get('package_name')
+            key_name = Utils.canonicalize_name(package_name)
+            rb_set = required_by.get(key_name)
+            if rb_set is None:
+                continue
+            rb_sorted_list = list(sorted(rb_set))
+            if not db.package_set_required_by(key_name, rb_sorted_list):
+                return False
+        # for
+        return True
+
+    @staticmethod
     def env_packages_tree(db: Database, force: bool = False, packages: [str] = None) -> bool:
         tree = PipCmd.get_tree_installed()
         conflicts = PipCmd.get_conflicts(tree, verbose=True)
@@ -181,28 +216,35 @@ class EnvCmd:
         if not db.packages_set(packages_installed_list_of_dicts):
             return False
 
-        if not EnvCmd.env_check_consistency(db):
-            return False
-
-        # change to reverse calculation
-        packages = db.packages_get_names_all() if packages is None else packages
-        if not PipCmd.package_update_only_required_by(db, packages=packages):  # try to remove this
-            return False
-
-        if not EnvCmd.env_calc_levels(db, cycles=cycles):
-            return False
-
         # need to check for orphaned packages: no recent_releases, no level
         packages = db.packages_get_names_all()
+        if len(packages_installed_list_of_dicts) < len(packages):
+            installed_packages = [Utils.canonicalize_name(p.get('package_name')) for p in
+                                  packages_installed_list_of_dicts]
+            for p in packages:
+                if p not in installed_packages:
+                    print('Deleting orphan: {}'.format(p))
+                    if not db.package_remove(p):
+                        return False
+
         for p in packages:
+            # probably not needed any more !!
             level = db.package_get_level(p)
             if level >= 0:
                 continue
             rr = db.package_get_releases_recent(p, release_filter=ReleaseFilter.REGULAR)
             if rr is not None:
                 continue
-            db.package_remove(p)
+            if not db.package_remove(p):
+                return False
         # for
+
+        if not EnvCmd.calc_required_by(db, packages_installed_list_of_dicts):
+            return False
+        if not EnvCmd.env_check_consistency(db):
+            return False
+        if not EnvCmd.env_calc_levels(db, cycles=cycles):
+            return False
         return True
 
     @staticmethod

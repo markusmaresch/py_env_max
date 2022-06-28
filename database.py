@@ -149,7 +149,7 @@ class Database:
         table = self.table_packages()
         p = table.get(name)
         if p is None:
-            return False
+            p = table[name] = dict()
         if len(required_by) > 0:
             old_required_by = p.get(Database.REQUIRED_BY)
             if old_required_by != required_by:
@@ -157,7 +157,7 @@ class Database:
                 self.set_dirty(True, reason='required_by: {}/{}'
                                .format(name, required_by))
             else:
-                print('RequiredBy: same or empty before')
+                pass  # print('RequiredBy: same or empty before')
         return True
 
     def package_set_summary(self, name: str, summary: str) -> bool:
