@@ -147,7 +147,7 @@ class PyEnvMax:
         elif args.upd_all:
             EnvCmd.upd_all(env_name=env_name, force=force)
         elif args.scripts_export:
-            ScriptsCmd.scripts_export(env_name=env_name, force=force)
+            ScriptsCmd.scripts_export(env_name=env_name, python_version=self.python_version_default, force=force)
         else:
             print('? internal switch ?')
             parser.print_help()

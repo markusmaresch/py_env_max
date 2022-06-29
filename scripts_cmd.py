@@ -7,7 +7,7 @@ from os_platform import OsPlatform
 
 class ScriptsCmd:
     @staticmethod
-    def scripts_export(env_name: str, force: bool = False) -> bool:
+    def scripts_export(env_name: str, python_version: str, force: bool = False) -> bool:
         # create scripts for recreating existing python environment
         print('scripts_export: {} (force={})'.format(env_name, force))
         db_name = '{}.json'.format(env_name)
@@ -15,6 +15,15 @@ class ScriptsCmd:
         if not db.load(db_name):
             return False
         script_extension = OsPlatform.script_extension()
+        try:
+            level = 0
+            script_name = '{}_{:02d}.{}'.format(env_name, level, script_extension)
+            with open(script_name, 'w') as s:
+                s.write('# Level {} .. fix below !\n'.format(level))
+                s.write('# conda create --name {}_XXX python={}\n'.format(env_name, python_version))
+        except Exception as e:
+            print('Error: {}'.format(e))
+
         for level in range(1, 20):
             packs = db.packages_get_names_by_level(level=level)
             if packs is None or len(packs) < 1:
