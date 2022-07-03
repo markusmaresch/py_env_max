@@ -199,7 +199,7 @@ class EnvCmd:
         return True
 
     @staticmethod
-    def env_packages_tree(db: Database, force: bool = False, packages: [str] = None) -> bool:
+    def env_packages_tree(db: Database, force: bool = False) -> bool:
         tree = PipCmd.get_tree_installed()
         conflicts = PipCmd.get_conflicts(tree, verbose=True)
         cycles = PipCmd.get_cycles(tree, verbose=True)
@@ -421,7 +421,7 @@ class EnvCmd:
 
                 affected_packages = list(affected_set)
                 del affected_set
-                if not EnvCmd.env_packages_tree(db=db, force=True, packages=affected_packages):
+                if not EnvCmd.env_packages_tree(db=db, force=True):
                     stop = True
                     break
                 del affected_packages

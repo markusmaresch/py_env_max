@@ -120,7 +120,7 @@ class Database:
                 if table_key_sub_k == p[k]:
                     # no need to update
                     continue
-            table_key[k] = p[k]
+            table_key[k] = p[k]  # if k == 'requires', the dict needs to be merged, or the latest to be taken
             self.set_dirty(True, reason='{}/{}'.format(key, k))
         return True
 
@@ -268,6 +268,11 @@ class Database:
         requires = d.get(Database.REQUIRES)
         if requires is None:
             return []
+        seen = set()
+        a = [r['package_name'] for r in requires]
+        dupes = [x for x in a if x in seen or seen.add(x)]
+        if len(dupes) > 0:  # we could salvage the situation here, but the problem is at inserting
+            print('error multiple packages as requirements: {} {}: {}'.format(name, dupes[0], requires))
         return [Utils.canonicalize_name(r['package_name']) for r in requires]
 
     def package_get_required_by(self, name: str) -> [str]:
