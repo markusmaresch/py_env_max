@@ -274,7 +274,7 @@ class EnvCmd:
         # Attempt to update existing python environment
         max_iterations = 2
         print('upd_all: {} (force={}, max_iterations={})'.format(env_name, force, max_iterations))
-        if not EnvCmd.env_import(env_name=env_name, force=True):  # this is necessary
+        if not EnvCmd.env_import(env_name=env_name, force=True):
             return False
 
         db_name = '{}.json'.format(env_name)
@@ -286,6 +286,7 @@ class EnvCmd:
         releases_max = 50  # no limit
         debug_helper = False
         debug_already_latest = False
+        updated = dict()
 
         for it in range(1, max_iterations + 1):
             print('upd_all: {} .. {}/{}: start'.format(env_name, it, max_iterations))
@@ -298,7 +299,6 @@ class EnvCmd:
                 packages = db.packages_get_names_by_level(level=level, less_then=False)
                 if packages is None or len(packages) < 1:
                     break
-                affected_set = set()
                 update_command = False
                 for package in packages:
                     # for package, collect all the constraints in tree, try to improve to most recent
@@ -353,11 +353,10 @@ class EnvCmd:
                             break
                         pip_checked = True
                     # fi
-                    affected_set.add(package)
 
                     ruN = len(releases_update)
-                    if ruN >= 5:  # simulate a binary search .. if sucessfull, cut the list in half; avoid long retries
-                        releases_update = [releases_update[0], releases_update[int(ruN / 2)], releases_update[ruN - 1]]
+                    if ruN > 2:  # simulate divide and conquer
+                        releases_update = [releases_update[int(ruN / 2)]]
 
                     print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {}'
                           .format(env_name, it, max_iterations, level, package, version_required, releases_update))
@@ -368,10 +367,16 @@ class EnvCmd:
                         print('upd_all: {} .. {}/{}: {}: {}: {} .. attempt to update (from {})'
                               .format(env_name, it, max_iterations, level, package, release_best, version_required))
                         pr = PipCmd.pip_install(package=package, version=release_best)
+                        installed = pr.get_installed()
                         if pr.get_return_code() == PipReturn.OK:
                             # first try succeeded !   if more than current package was installed, update db !!
+                            for pack in installed.keys():
+                                # affected_set.add(pack)
+                                vers = installed[pack]
+                                updated[pack] = vers
+                                print('Installed: {}=={}'.format(pack, vers))
+                            # for
                             break
-                        installed = pr.get_installed()
                         uninstalled = pr.get_uninstalled()
                         if len(installed) < 1 and len(uninstalled) < 1:
                             # nothing happened - we could not install - TODO: lock it or take note
@@ -379,7 +384,7 @@ class EnvCmd:
                             continue
                         # failure case
                         for pack in installed.keys():
-                            affected_set.add(pack)
+                            # affected_set.add(pack)
                             vers = installed[pack]
                             print('Installed: {}=={}'.format(pack, vers))
                         # for
@@ -419,12 +424,9 @@ class EnvCmd:
                     stop = True  # what to do here, really ??
                     break
 
-                affected_packages = list(affected_set)
-                del affected_set
                 if not EnvCmd.env_packages_tree(db=db, force=True):
                     stop = True
                     break
-                del affected_packages
                 if not db.dump(json_path=db_name):
                     stop = True
 
@@ -441,6 +443,12 @@ class EnvCmd:
                 break
             # fi
         # for iteration
+        items = updated.items()
+        if len(items) > 0:
+            for pack, vers in items:
+                print('Updated: {}=={}'.format(pack, vers))
+        else:
+            print('No updates')
         ok = True if db.dump(json_path=db_name) else False
         db.close()
         return ok

@@ -87,7 +87,6 @@ class PyPiCmd:
                         delete.add(r)
                 # for
                 if len(delete) > 0:
-
                     rn = [r for r in rr if r not in delete]
                     rf[ii][Database.RELEASES_RECENT] = rn
                     delete.clear()

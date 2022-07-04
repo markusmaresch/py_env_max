@@ -103,6 +103,17 @@ class Database:
         return self.tables[self.PACKAGES]
 
     def package_set(self, table: dict, key: str, p: dict) -> bool:
+        def reduce_requires_list(pk1: list) -> list:
+            seen2 = set()
+            a = set([r['package_name'] for r in pk1])
+            dupes2 = set([x2 for x2 in a if x2 in a or seen2.add(x2)])
+            if len(dupes2) < 1:
+                return pk1
+            # very weak check, and wrong - only works for ONE set of multiples
+            pk_last = pk1[-1]
+            pk2 = [pk_last]
+            return pk2
+
         # map from pip's name to our own ones
         # here: key, package_name, version_installed, version_required
         # also merge updates
@@ -120,7 +131,12 @@ class Database:
                 if table_key_sub_k == p[k]:
                     # no need to update
                     continue
-            table_key[k] = p[k]  # if k == 'requires', the dict needs to be merged, or the latest to be taken
+            if k == Database.REQUIRES or type(p[k]) is list and len(p[k] > 1):
+                # reduce all dicts in p[k] with same package_name and version_installed
+                p_k = reduce_requires_list(p[k])
+                table_key[k] = p_k
+            else:
+                table_key[k] = p[k]
             self.set_dirty(True, reason='{}/{}'.format(key, k))
         return True
 
@@ -269,8 +285,8 @@ class Database:
         if requires is None:
             return []
         seen = set()
-        a = [r['package_name'] for r in requires]
-        dupes = [x for x in a if x in seen or seen.add(x)]
+        a = set([r['package_name'] for r in requires])
+        dupes = [x for x in a if seen.add(x)]
         if len(dupes) > 0:  # we could salvage the situation here, but the problem is at inserting
             print('error multiple packages as requirements: {} {}: {}'.format(name, dupes[0], requires))
         return [Utils.canonicalize_name(r['package_name']) for r in requires]
