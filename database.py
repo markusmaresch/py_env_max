@@ -112,7 +112,7 @@ class Database:
             pk = []
             for dup in duplicate_names:
                 a3 = [r for r in pk1 if r['package_name'] == dup]
-                take = a3[-1] # take the last entry, could be improved
+                take = a3[-1]  # take the last entry, could be improved
                 pk.append(take)
             # for
             return pk

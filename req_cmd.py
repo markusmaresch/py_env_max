@@ -34,7 +34,7 @@ class ReqCmd:
             with open(req_name, 'w') as r:
                 r.write('#\n# requirements for {} .. levels {} -> {}\n#\n'
                         .format(env_name, 1, level))
-                print('req: {} {} .. {}'.format(level, new_len, req_name))
+                print('req: {:02d} {} .. {}'.format(level, new_len, req_name))
                 old_len = new_len
                 ll = 0
                 while ll < level:
