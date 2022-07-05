@@ -104,15 +104,18 @@ class Database:
 
     def package_set(self, table: dict, key: str, p: dict) -> bool:
         def reduce_requires_list(pk1: list) -> list:
-            seen2 = set()
-            a = set([r['package_name'] for r in pk1])
-            dupes2 = set([x2 for x2 in a if x2 in a or seen2.add(x2)])
-            if len(dupes2) < 1:
+            seen = set()
+            a2 = [r['package_name'] for r in pk1]
+            duplicate_names = set([x2 for x2 in a2 if x2 in seen or seen.add(x2)])
+            if len(duplicate_names) < 1:
                 return pk1
-            # very weak check, and wrong - only works for ONE set of multiples
-            pk_last = pk1[-1]
-            pk2 = [pk_last]
-            return pk2
+            pk = []
+            for dup in duplicate_names:
+                a3 = [r for r in pk1 if r['package_name'] == dup]
+                take = a3[-1] # take the last entry, could be improved
+                pk.append(take)
+            # for
+            return pk
 
         # map from pip's name to our own ones
         # here: key, package_name, version_installed, version_required
