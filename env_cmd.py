@@ -221,11 +221,17 @@ class EnvCmd:
         if len(packages_installed_list_of_dicts) < len(packages):
             installed_packages = [Utils.canonicalize_name(p.get('package_name')) for p in
                                   packages_installed_list_of_dicts]
+            kills=set()
             for p in packages:
-                if p not in installed_packages:
-                    print('Deleting orphan: {}'.format(p))
-                    if not db.package_remove(p):
-                        return False
+                if p in installed_packages:
+                    continue
+                print('Deleting orphan: {}'.format(p))
+                if not db.package_remove(p):
+                    return False
+                kills.add(p)
+            # for
+            if len(kills) > 0:
+                packages = [p for p in packages if p not in kills]
 
         for p in packages:
             # probably not needed any more !!
@@ -259,10 +265,12 @@ class EnvCmd:
 
         # the following is needed upon package updates
         if not EnvCmd.env_packages_tree(db=db):
+            print('env_import: {} (force={}) .. env_packages_tree failed'.format(env_name, force))
             return False
 
         # this only affects the releases on PYPI - is needed, but could lag hours or a day
         if not EnvCmd.env_get_releases(db, force):  # could be done in parallel to other work
+            print('env_import: {} (force={}) .. env_get_releases failed'.format(env_name, force))
             return False
 
         ok = True if db.dump(json_path=db_name) else False
