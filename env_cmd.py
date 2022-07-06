@@ -56,13 +56,7 @@ class EnvCmd:
                 if not satisfied:
                     if cycles is not None and d in cycles:
                         cyclical = True
-                    # if d == 'dedupe':
-                    #    if needed_below >= 14 and found_below == needed_below - 1:
-                    #        # nasty hack for cyclical dependencies, which are otherwise hard to detect
-                    #        cyclical = True
-                #
-                # need for fix
-                #
+
                 if satisfied or cyclical:
                     db.package_set_level(name=d, level=level)
                 else:
@@ -181,7 +175,8 @@ class EnvCmd:
                 # print(key_name, ' -> ', required)
                 s = required_by.get(required)
                 if s is None:
-                    s = required_by[required] = set()
+                    required_by[required] = set()
+                    s = required_by[required]
                 s.add(key_name)
             # for
         # for

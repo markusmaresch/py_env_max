@@ -104,6 +104,8 @@ class Database:
 
     def package_set(self, table: dict, key: str, p: dict) -> bool:
         def reduce_requires_list(pk1: list) -> list:
+            return pk1
+            # may cause problems below
             seen = set()
             a2 = [r['package_name'] for r in pk1]
             duplicate_names = set([x2 for x2 in a2 if x2 in seen or seen.add(x2)])
@@ -123,6 +125,7 @@ class Database:
         # Problem: p could be deep tree dictionary
         if table.get(key) is None:
             table[key] = p
+            self.set_dirty(True, reason='new {}'.format(key))
             return True
         # fi
         # need to update
@@ -140,7 +143,7 @@ class Database:
                 table_key[k] = p_k
             else:
                 table_key[k] = p[k]
-            self.set_dirty(True, reason='{}/{}'.format(key, k))
+            self.set_dirty(True, reason='update {}/{}'.format(key, k))
         return True
 
     def packages_set(self, packages_installed_list_of_dicts: typing.List[dict]) -> bool:
