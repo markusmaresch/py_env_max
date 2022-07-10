@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 #
 import time
-import os
 
 from database import Database, PyPi
 from release_filter import ReleaseFilter
@@ -153,7 +152,7 @@ class EnvCmd:
         print('Testing consistency of {} packages'.format(len(keys)))
         packages_needed = set()
         for name in keys:
-            needed = db.package_get_requires(name) + db.package_get_required_by(name)
+            needed = db.package_get_requires(name)  # + db.package_get_required_by(name)
             if needed is None:
                 continue
             for package_raw in needed:
@@ -256,9 +255,10 @@ class EnvCmd:
         db_name = '{}.json'.format(env_name)
         print('env_import: {} (force={})'.format(env_name, force))
         db = Database()
+
         load_db = True  # set to False only for init db bug hunting
-        if load_db and os.path.exists(db_name):
-            db.load(db_name)
+        if load_db:
+            db.load(db_name, verbose=False)  # could fail
 
         # the following is needed upon package updates
         if not EnvCmd.env_packages_tree(db=db):

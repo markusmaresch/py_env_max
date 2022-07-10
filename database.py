@@ -1,7 +1,8 @@
 #
 # -*- coding: utf-8 -*-
 #
-import os.path
+import difflib
+import os
 import sys
 import json
 import typing
@@ -72,10 +73,12 @@ class Database:
             return True
         old_path = json_path + '.old'
         try:
+            have_old = False
             if os.path.exists(old_path):
                 os.remove(old_path)
             if os.path.exists(json_path):
                 os.rename(json_path, old_path)
+                have_old = True
             with open(json_path, 'w', encoding='utf-8') as f:
                 json.dump(self.tables, f, ensure_ascii=True, indent=4, sort_keys=True)
                 # s = json.dumps(self.tables, cls=DateTimeEncoder)
@@ -84,19 +87,32 @@ class Database:
                 print('Info: written: {} .. dirty was {}'
                       .format(json_path, self.get_dirty()))
                 self.set_dirty(False)
-                return True
+            # with
+            if have_old:
+                file1 = open(old_path, 'r')
+                file2 = open(json_path, 'r')
+                diffs = difflib.ndiff(file1.readlines(), file2.readlines())
+                pattern = '"{}":'.format(Database.RELEASES_CHECKED_TIME)
+                for d in diffs:
+                    if not d.startswith('+ ') and not d.startswith('- '):
+                        continue
+                    if d.find(pattern) >= 0:
+                        continue
+                    print(d, end='')
+            return True
         except Exception as e:
             print('Error: dump: {} .. {}'.format(json_path, e))
             return False
 
-    def load(self, json_path: str) -> bool:
+    def load(self, json_path: str, verbose: bool = True) -> bool:
         try:
             with open(json_path) as f:
                 self.tables = json.load(f)
                 self.set_dirty(False)
                 return True
         except:
-            print('Error: load: {} ... (did you import the environment ?)'.format(json_path))
+            if verbose:
+                print('Error: load: {}'.format(json_path))
             return False
 
     def table_packages(self) -> dict:
@@ -228,12 +244,18 @@ class Database:
         old_releases = d.get(Database.RELEASES_RECENT)
         if old_releases is not None:
             releases += old_releases
-            releases = list(sorted(set(releases)))
+            releases = list(sorted(set(releases), reverse=False))
+            # releases = Version.sort(releases=releases, reverse=True)
             # now merged - could still be the same
-
-        if old_releases is None or old_releases != releases:
+        if old_releases is None:
             d[Database.RELEASES_RECENT] = releases
-            self.set_dirty(True, reason='releases: {}/{}'.format(name, releases))
+            self.set_dirty(True, reason='releases: {}/{} no old'.format(name, releases))
+        elif len(old_releases) != len(releases):
+            d[Database.RELEASES_RECENT] = releases
+            self.set_dirty(True, reason='releases: {}/{} diff len'.format(name, releases))
+        elif sorted(old_releases) != sorted(releases):
+            d[Database.RELEASES_RECENT] = releases
+            self.set_dirty(True, reason='releases: {}/{} diff2'.format(name, releases))
         else:
             pass  # print('Releases: same or empty before')
 
