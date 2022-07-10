@@ -18,7 +18,7 @@ class EnvCmd:
     def env_calc_levels(db: Database, cycles: [str]) -> bool:
         keys = db.packages_get_names_all()
         print('Check levels for {} packages'.format(len(keys)))
-        levels_max = 15
+        levels_max = 20
         level = 0
         lod = keys
         while True:
@@ -100,35 +100,52 @@ class EnvCmd:
             print('All packages uptodate ({} within {} of {} seconds) for releases ...'
                   .format(p_oldest, oldest, uptodate_seconds))
             return True
-        print('Get releases for {} packages'.format(len(packages_needed)))
-        releases_dict = PyPiCmd.get_release_many(packages_needed)
-        if releases_dict is None:
-            return False
-        # ok = True
-        i = 0
-        for package_name in packages_needed:
-            release_dict = releases_dict[i]
-            if release_dict is None:
-                print('Error: No release_dict for {}'.format(package_name))
-                continue
-            releases = release_dict.get(Database.RELEASES_RECENT)
-            if releases is None:
-                print('Error: No releases for {}'.format(package_name))
-                continue
-            if not db.package_set_releases_recent(package_name, releases, now):
+        ok = True
+        packages_resolved = set()
+        t_max = 5
+        for t in range(t_max):
+            print('Get releases for {} packages'.format(len(packages_needed)))
+            releases_dict = PyPiCmd.get_release_many(packages_needed)
+            if releases_dict is None:
                 return False
-            summary = release_dict.get(Database.SUMMARY)
-            if summary is not None:
-                if not db.package_set_summary(package_name, summary):
+            # could have still open releases
+            ok = True
+            i = 0
+            for package_name in packages_needed:
+                release_dict = releases_dict[i]
+                if release_dict is None:
+                    print('Error: No release_dict for {}'.format(package_name))
+                    ok = False
+                    continue
+                releases = release_dict.get(Database.RELEASES_RECENT)
+                if releases is None:
+                    print('Error: No releases for {}'.format(package_name))
+                    continue
+                if not db.package_set_releases_recent(package_name, releases, now):
                     return False
+                summary = release_dict.get(Database.SUMMARY)
+                if summary is not None:
+                    if not db.package_set_summary(package_name, summary):
+                        return False
 
-            self_check = True
-            if self_check:
-                rr = db.package_get_releases_recent(package_name, release_filter=ReleaseFilter.REGULAR)
-                if rr is None:
-                    return False  # not sure, if this really should be fatal ...
-            i += 1
-        return True  # should be: ok
+                self_check = True
+                if self_check:
+                    rr = db.package_get_releases_recent(package_name, release_filter=ReleaseFilter.REGULAR)
+                    if rr is None:
+                        return False  # not sure, if this really should be fatal ...
+                packages_resolved.add(package_name)
+                i += 1
+            # for
+            if ok:
+                if t > 0:
+                    print('Finally worked ..')
+                break
+            packages_needed = [p for p in packages_needed if p not in packages_resolved]
+            print('Packages resolved: {}'.format(len(packages_resolved)))
+            print('Packages needed:   {}'.format(len(packages_needed)))
+            print('Need to try again ..')
+        # for t
+        return ok
 
     @staticmethod
     def env_check_consistency(db: Database) -> bool:
@@ -433,8 +450,10 @@ class EnvCmd:
         # for iteration
         items = updated.items()
         if len(items) > 0:
+            print()
             for pack, vers in items:
                 print('Updated: {}=={}'.format(pack, vers))
+            print()
         else:
             print('No updates')
         ok = True if db.dump(json_path=db_name) else False
