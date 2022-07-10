@@ -222,22 +222,13 @@ class EnvCmd:
             installed_packages = [Utils.canonicalize_name(p.get('package_name')) for p in
                                   packages_installed_list_of_dicts]
             for p in packages:
-                if p not in installed_packages:
-                    print('Deleting orphan: {}'.format(p))
-                    if not db.package_remove(p):
-                        return False
-
-        for p in packages:
-            # probably not needed any more !!
-            level = db.package_get_level(p)
-            if level >= 0:
-                continue
-            rr = db.package_get_releases_recent(p, release_filter=ReleaseFilter.REGULAR)
-            if rr is not None:
-                continue
-            if not db.package_remove(p):
-                return False
-        # for
+                if p in installed_packages:
+                    continue
+                print('Deleting orphan: {}'.format(p))
+                if not db.package_remove(p):
+                    return False
+            # for
+        # fi
 
         if not EnvCmd.calc_required_by(db, packages_installed_list_of_dicts):
             return False
@@ -253,8 +244,8 @@ class EnvCmd:
         db_name = '{}.json'.format(env_name)
         print('env_import: {} (force={})'.format(env_name, force))
         db = Database()
-        develop = True
-        if develop and os.path.exists(db_name):
+        load_db = False  # set to False only for init db bug hunting
+        if load_db and os.path.exists(db_name):
             db.load(db_name)
 
         # the following is needed upon package updates
