@@ -216,18 +216,13 @@ class EnvCmd:
         if len(packages_installed_list_of_dicts) < len(packages):
             installed_packages = [Utils.canonicalize_name(p.get('package_name')) for p in
                                   packages_installed_list_of_dicts]
-            kills=set()
             for p in packages:
                 if p in installed_packages:
                     continue
                 print('Deleting orphan: {}'.format(p))
                 if not db.package_remove(p):
                     return False
-                kills.add(p)
             # for
-            if len(kills) > 0:
-                # really should manipulate packages_installed_list_of_dicts, if at all
-                packages = [p for p in packages if p not in kills]
         # fi
 
         if not EnvCmd.calc_required_by(db, packages_installed_list_of_dicts):
@@ -244,7 +239,7 @@ class EnvCmd:
         db_name = '{}.json'.format(env_name)
         print('env_import: {} (force={})'.format(env_name, force))
         db = Database()
-        load_db = False  # set to False only for init db bug hunting
+        load_db = True  # set to False only for init db bug hunting
         if load_db and os.path.exists(db_name):
             db.load(db_name)
 
