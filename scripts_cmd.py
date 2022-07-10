@@ -15,12 +15,14 @@ class ScriptsCmd:
         if not db.load(db_name):
             return False
         script_extension = OsPlatform.script_extension()
+        script_comment = OsPlatform.script_comment()
         try:
             level = 0
             script_name = '{}_{:02d}.{}'.format(env_name, level, script_extension)
             with open(script_name, 'w') as s:
-                s.write('# Level {} .. fix below !\n'.format(level))
-                s.write('# conda create --name {}_XXX python={}\n'.format(env_name, python_version))
+                s.write('{} Level {} .. fix below !\n'.format(script_comment, level))
+                s.write('{} conda create --name {}_XXX python={}\n'
+                        .format(script_comment, env_name, python_version))
         except Exception as e:
             print('Error: {}'.format(e))
 
@@ -29,9 +31,10 @@ class ScriptsCmd:
             if packs is None or len(packs) < 1:
                 break
             script_name = '{}_{:02d}.{}'.format(env_name, level, script_extension)
+            print('script: {:02d} {} .. {}'.format(level, len(packs), script_name))
             max_per_line = 8
             with open(script_name, 'w') as s:
-                s.write('# Level {}\n'.format(level))
+                s.write('{} Level {}\n'.format(script_comment, level))
                 ii = 0
                 for package in packs:
                     if ii == 0:
@@ -45,7 +48,7 @@ class ScriptsCmd:
                 # for
                 if ii != 0:
                     s.write('\npip check\n')
-                s.write('# Level {}\n'.format(level))
+                s.write('{} Level {}\n'.format(script_comment, level))
             # with
         # for
         db.close()

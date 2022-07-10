@@ -44,6 +44,13 @@ class OsPlatform(enum.IntFlag):
         return "sh"
 
     @staticmethod
+    def script_comment() -> str:
+        os = OsPlatform.get()
+        if os == OsPlatform.WINDOWS:
+            return "rem"  # or "cmd"
+        return "#"
+
+    @staticmethod
     def selftest() -> bool:
         op = OsPlatform.get()
         if not OsPlatform.valid(op):

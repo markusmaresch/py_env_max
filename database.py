@@ -103,12 +103,29 @@ class Database:
         return self.tables[self.PACKAGES]
 
     def package_set(self, table: dict, key: str, p: dict) -> bool:
+        def reduce_requires_list(pk1: list) -> list:
+            return pk1
+            # may cause problems below
+            seen = set()
+            a2 = [r['package_name'] for r in pk1]
+            duplicate_names = set([x2 for x2 in a2 if x2 in seen or seen.add(x2)])
+            if len(duplicate_names) < 1:
+                return pk1
+            pk = []
+            for dup in duplicate_names:
+                a3 = [r for r in pk1 if r['package_name'] == dup]
+                take = a3[-1]  # take the last entry, could be improved
+                pk.append(take)
+            # for
+            return pk
+
         # map from pip's name to our own ones
         # here: key, package_name, version_installed, version_required
         # also merge updates
         # Problem: p could be deep tree dictionary
         if table.get(key) is None:
             table[key] = p
+            self.set_dirty(True, reason='new {}'.format(key))
             return True
         # fi
         # need to update
@@ -120,8 +137,13 @@ class Database:
                 if table_key_sub_k == p[k]:
                     # no need to update
                     continue
-            table_key[k] = p[k]
-            self.set_dirty(True, reason='{}/{}'.format(key, k))
+            if k == Database.REQUIRES or type(p[k]) is list and len(p[k] > 1):
+                # reduce all dicts in p[k] with same package_name and version_installed
+                p_k = reduce_requires_list(p[k])
+                table_key[k] = p_k
+            else:
+                table_key[k] = p[k]
+            self.set_dirty(True, reason='update {}/{}'.format(key, k))
         return True
 
     def packages_set(self, packages_installed_list_of_dicts: typing.List[dict]) -> bool:
@@ -268,6 +290,11 @@ class Database:
         requires = d.get(Database.REQUIRES)
         if requires is None:
             return []
+        seen = set()
+        a = set([r['package_name'] for r in requires])
+        dupes = [x for x in a if seen.add(x)]
+        if len(dupes) > 0:  # we could salvage the situation here, but the problem is at inserting
+            print('error multiple packages as requirements: {} {}: {}'.format(name, dupes[0], requires))
         return [Utils.canonicalize_name(r['package_name']) for r in requires]
 
     def package_get_required_by(self, name: str) -> [str]:
