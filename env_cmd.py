@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 import time
+import typing
 
 from database import Database, PyPi
 from release_filter import ReleaseFilter
@@ -14,7 +15,7 @@ from version import Version
 class EnvCmd:
 
     @staticmethod
-    def env_calc_levels(db: Database, cycles: [str]) -> bool:
+    def env_calc_levels(db: Database, cycles: typing.List[str]) -> bool:
         keys = db.packages_get_names_all()
         print('Check levels for {} packages'.format(len(keys)))
         levels_max = 20
