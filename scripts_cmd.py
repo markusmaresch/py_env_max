@@ -26,30 +26,46 @@ class ScriptsCmd:
         except Exception as e:
             print('Error: {}'.format(e))
 
-        for level in range(1, 20):
-            packs = db.packages_get_names_by_level(level=level)
-            if packs is None or len(packs) < 1:
-                break
-            script_name = '{}_{:02d}.{}'.format(env_name, level, script_extension)
-            print('script: {:02d} {} .. {}'.format(level, len(packs), script_name))
-            max_per_line = 8
-            with open(script_name, 'w') as s:
-                s.write('{} Level {}\n'.format(script_comment, level))
-                ii = 0
-                for package in packs:
-                    if ii == 0:
-                        s.write('pip install')
-                    version = db.package_get_version_required(package)
-                    s.write(' {}=={}'.format(package, version))
-                    ii += 1
-                    if ii >= max_per_line:
-                        s.write('\npip check\n')
-                        ii = 0
-                # for
-                if ii != 0:
-                    s.write('\npip check\n')
-                s.write('{} Level {}\n'.format(script_comment, level))
-            # with
-        # for
+        script_all_name = '{}_all.{}'.format(env_name, script_extension)
+        print('script: {}'.format(script_all_name))
+        with open(script_all_name, 'w') as a:
+            for level in range(1, 20):
+                packs = db.packages_get_names_by_level(level=level)
+                if packs is None or len(packs) < 1:
+                    break
+                script_name = '{}_{:02d}.{}'.format(env_name, level, script_extension)
+                print('script: {:02d} {} .. {}'.format(level, len(packs), script_name))
+                max_per_line = 8
+                with open(script_name, 'w') as s:
+                    out = '{} Level {}\n'.format(script_comment, level)
+                    s.write(out)
+                    a.write(out)
+                    ii = 0
+                    for package in packs:
+                        if ii == 0:
+                            out = 'pip install'
+                            s.write(out)
+                            a.write(out)
+                        version = db.package_get_version_required(package)
+                        out =' {}=={}'.format(package, version)
+                        s.write(out)
+                        a.write(out)
+                        ii += 1
+                        if ii >= max_per_line:
+                            out = '\npip check\n'
+                            s.write(out)
+                            a.write(out)
+                            ii = 0
+                    # for
+                    if ii != 0:
+                        out = '\npip check\n'
+                        s.write(out)
+                        a.write(out)
+                    out = '{} Level {}\n'.format(script_comment, level)
+                    s.write(out)
+                    a.write(out)
+                # with
+            # for
+        # with
         db.close()
         return True
