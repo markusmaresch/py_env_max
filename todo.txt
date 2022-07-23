@@ -2,6 +2,7 @@
 #
 #
 Next Steps:
+    - need to split JSONs by OS, then add transfer, merge and so on ...
     - update all:
     -   issue installing some NEW version, which requires NEW dependencies, that are not checked
     - yml/templates: yml/templates/<os>/conda_3.9.yml
