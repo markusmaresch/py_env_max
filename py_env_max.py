@@ -44,14 +44,14 @@ class PyEnvMax:
         version = PipCmd.version()
         if not version:
             return False
-        print('Using: pip=={}'.format(version))
+        # print('Using: pip=={}'.format(version))
         return True
 
     def check_os_platform(self) -> bool:
         op = OsPlatform.get()
         if not OsPlatform.valid(op):
             return False
-        print('Using: {}'.format(op.__repr__()))
+        # print('Using: {}'.format(op.__repr__()))
         return True
 
     def check_conda_basic(self) -> bool:

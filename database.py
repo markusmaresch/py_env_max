@@ -39,7 +39,7 @@ class Database:
     REQUIRED_BY = 'required_by'
     #
     LEVEL = 'level'
-    RELEASES_RECENT = 'releases_recent'  # ['1.0', '1.1', '1.3' ...]
+    RELEASES_RECENT = 'releases_recent'
     RELEASES_CHECKED_TIME = 'releases_checked_time'
 
     def truncate(self) -> dict:
@@ -71,8 +71,9 @@ class Database:
             print('Info: NOT written: {} .. dirty was {}'
                   .format(json_path, self.get_dirty()))
             return True
-        old_path = json_path + '.old'
+        # fi
         try:
+            old_path = json_path + '.old'
             have_old = False
             if os.path.exists(old_path):
                 os.remove(old_path)
