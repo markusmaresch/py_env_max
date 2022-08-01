@@ -1,6 +1,13 @@
 #
 #
 #
+replace with call, add os:
+    env_cmd.py:256:        db_name = '{}.json'.format(env_name)
+    env_cmd.py:286:        db_name = '{}.json'.format(env_name)
+    req_cmd.py:19:        db_name = '{}.json'.format(env_name)
+    scripts_cmd.py:13:        db_name = '{}.json'.format(env_name)
+    statistics.py:13:        db_name = '{}.json'.format(env_name)
+
 Next Steps:
     - need to split JSONs by OS, then add transfer, merge and so on ...
     - update all:
