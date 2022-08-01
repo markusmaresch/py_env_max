@@ -27,8 +27,7 @@ class OsPlatform(enum.IntFlag):
         # is_posix = (os.name == 'posix')
         # is_darwin = (os.name == 'darwin')
         platforms = {
-            'linux1': OsPlatform.LINUX,
-            'linux2': OsPlatform.LINUX,
+            'linux': OsPlatform.LINUX,
             'darwin': OsPlatform.OSX,
             'win32': OsPlatform.WINDOWS
         }
@@ -60,6 +59,7 @@ class OsPlatform(enum.IntFlag):
 
 def main():
     if not OsPlatform.selftest():
+        print('selftest failed')
         return 1
     return 0
 
