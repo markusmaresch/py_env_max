@@ -20,3 +20,11 @@ Next Steps:
     -   issue installing some NEW version, which requires NEW dependencies, that are not checked
     - yml/templates: yml/templates/<os>/conda_3.9.yml
     - yml_export (for server update)
+
+Find secondary orphans / PRUNE
+    reproduce: install tensorflow, then uninstall
+    look at: tensorflow-estimator, tensorflow-io-gcs-filesystem
+    have: required_by: tensorflow, which does not exist any more
+
+Add -package -uninstall X, Y, Z
+    also remove all, that are only required_by X, Y, Z
