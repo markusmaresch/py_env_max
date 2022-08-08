@@ -90,16 +90,17 @@ class Database:
                 self.set_dirty(False)
             # with
             if have_old:
-                file1 = open(old_path, 'r')
-                file2 = open(json_path, 'r')
-                diffs = difflib.ndiff(file1.readlines(), file2.readlines())
-                pattern = '"{}":'.format(Database.RELEASES_CHECKED_TIME)
-                for d in diffs:
-                    if not d.startswith('+ ') and not d.startswith('- '):
-                        continue
-                    if d.find(pattern) >= 0:
-                        continue
-                    print(d, end='')
+                with open(old_path, 'r') as f_old, open(json_path, 'r') as f_new:
+                    diffs = difflib.ndiff(f_old.readlines(), f_new.readlines())
+                    pattern = '"{}":'.format(Database.RELEASES_CHECKED_TIME)
+                    for d in diffs:
+                        if not d.startswith('+ ') and not d.startswith('- '):
+                            continue
+                        if d.find(pattern) >= 0:
+                            continue
+                        print(d, end='')
+                    # for
+                # with
             return True
         except Exception as e:
             print('Error: dump: {} .. {}'.format(json_path, e))
