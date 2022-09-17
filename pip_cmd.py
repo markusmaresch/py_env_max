@@ -238,9 +238,9 @@ class PipCmd:
                     continue
                 pr.add_stdout_line(line)
                 v = line.split()
-                if v is None or len(v) < 1:
+                if v is None or len(v) < 2:
                     continue
-                if v[0] != 'Successfully':
+                if v[0] != 'Successfully' or (v[1] != 'installed' and v[1] != 'uninstalled'):
                     continue
                 for i in range(2, len(v)):
                     mingled = v[i]
