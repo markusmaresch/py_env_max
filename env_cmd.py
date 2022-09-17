@@ -74,7 +74,7 @@ class EnvCmd:
                 print('  {} {}'.format(p, dependencies))
             print('Did NOT resolve all packages above (could be cyclical behavior)')
             print('')
-            return False
+            # return False # this can happen for os/system crossing attempts, should not be fatal
         return True
 
     @staticmethod
