@@ -157,8 +157,8 @@ class Database:
                     continue
             if k == Database.REQUIRES or type(p[k]) is list and len(p[k] > 1):
                 # reduce all dicts in p[k] with same package_name and version_installed
-                p_k = reduce_requires_list(p[k])
-                table_key[k] = p_k
+                # p_k = reduce_requires_list(p[k])
+                table_key[k] = p[k]
             else:
                 table_key[k] = p[k]
             self.set_dirty(True, reason='update {}/{}'.format(key, k))
