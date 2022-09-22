@@ -910,8 +910,8 @@
                 }
             ],
             "summary": "Async http client/server framework (asyncio)",
-            "version_installed": "3.8.1",
-            "version_required": "3.8.1"
+            "version_installed": "3.8.3",
+            "version_required": "3.8.3"
         },
         "aiohttp-cors": {
             "level": 4,
@@ -988,7 +988,7 @@
                             "version_required": ">=1.0,<2.0"
                         }
                     ],
-                    "version_installed": "3.8.1",
+                    "version_installed": "3.8.3",
                     "version_required": ">=1.1"
                 }
             ],
@@ -1074,7 +1074,7 @@
                             "version_required": ">=1.0,<2.0"
                         }
                     ],
-                    "version_installed": "3.8.1",
+                    "version_installed": "3.8.3",
                     "version_required": ">=2.3.2"
                 },
                 {
@@ -1338,7 +1338,7 @@
                                     "version_required": ">=8.3.2"
                                 }
                             ],
-                            "version_installed": "2.21.3",
+                            "version_installed": "2.22.0",
                             "version_required": ">=2.4.1"
                         },
                         {
@@ -1548,7 +1548,7 @@
                             "version_required": ">=1.0,<2.0"
                         }
                     ],
-                    "version_installed": "3.8.1"
+                    "version_installed": "3.8.3"
                 },
                 {
                     "package_name": "requests",
@@ -2164,7 +2164,7 @@
                                     "version_required": ">1.13.3"
                                 }
                             ],
-                            "version_installed": "1.6.1"
+                            "version_installed": "1.6.2"
                         },
                         {
                             "package_name": "numpy",
@@ -3617,8 +3617,8 @@
                                     "version_required": ">=1.25.4,<1.27"
                                 }
                             ],
-                            "version_installed": "1.27.72",
-                            "version_required": ">=1.27.72,<1.28.0"
+                            "version_installed": "1.27.75",
+                            "version_required": ">=1.27.75,<1.28.0"
                         },
                         {
                             "package_name": "jmespath",
@@ -3654,7 +3654,7 @@
                                             "version_required": ">=1.25.4,<1.27"
                                         }
                                     ],
-                                    "version_installed": "1.27.72",
+                                    "version_installed": "1.27.75",
                                     "version_required": ">=1.12.36,<2.0a.0"
                                 }
                             ],
@@ -3662,7 +3662,7 @@
                             "version_required": ">=0.6.0,<0.7.0"
                         }
                     ],
-                    "version_installed": "1.24.72"
+                    "version_installed": "1.24.75"
                 },
                 {
                     "package_name": "regex",
@@ -3847,7 +3847,7 @@
                             "version_required": ">=4.27"
                         }
                     ],
-                    "version_installed": "4.22.0",
+                    "version_installed": "4.22.1",
                     "version_required": ">=2.0"
                 }
             ],
@@ -4402,8 +4402,8 @@
                             "version_required": ">=1.25.4,<1.27"
                         }
                     ],
-                    "version_installed": "1.27.72",
-                    "version_required": ">=1.27.72,<1.28.0"
+                    "version_installed": "1.27.75",
+                    "version_required": ">=1.27.75,<1.28.0"
                 },
                 {
                     "package_name": "jmespath",
@@ -4439,7 +4439,7 @@
                                     "version_required": ">=1.25.4,<1.27"
                                 }
                             ],
-                            "version_installed": "1.27.72",
+                            "version_installed": "1.27.75",
                             "version_required": ">=1.12.36,<2.0a.0"
                         }
                     ],
@@ -4448,8 +4448,8 @@
                 }
             ],
             "summary": "The AWS SDK for Python",
-            "version_installed": "1.24.72",
-            "version_required": "1.24.72"
+            "version_installed": "1.24.75",
+            "version_required": "1.24.75"
         },
         "botocore": {
             "level": 3,
@@ -4512,8 +4512,8 @@
                 }
             ],
             "summary": "Low-level, data-driven core of boto 3",
-            "version_installed": "1.27.72",
-            "version_required": "1.27.72"
+            "version_installed": "1.27.75",
+            "version_required": "1.27.75"
         },
         "bottleneck": {
             "level": 2,
@@ -4845,8 +4845,8 @@
                 }
             ],
             "summary": "httplib2 caching for requests",
-            "version_installed": "0.12.11",
-            "version_required": "0.12.11"
+            "version_installed": "0.12.12",
+            "version_required": "0.12.12"
         },
         "cached-property": {
             "level": 1,
@@ -5625,8 +5625,8 @@
                 }
             ],
             "summary": "Time-handling functionality from netcdf4-python",
-            "version_installed": "1.6.1",
-            "version_required": "1.6.1"
+            "version_installed": "1.6.2",
+            "version_required": "1.6.2"
         },
         "chardet": {
             "level": 1,
@@ -6657,10 +6657,10 @@
                                 }
                             ],
                             "version_installed": "2.2.2",
-                            "version_required": ">=2.2.0"
+                            "version_required": ">=2.2.2"
                         }
                     ],
-                    "version_installed": "2.2.0"
+                    "version_installed": "2.2.2"
                 },
                 {
                     "package_name": "requests",
@@ -6713,7 +6713,7 @@
                             "version_required": ">=3.7.4.3"
                         }
                     ],
-                    "version_installed": "1.9.1",
+                    "version_installed": "1.9.2",
                     "version_required": ">=1.7.4,<1.10.0,!=1.8.1,!=1.8"
                 },
                 {
@@ -7405,8 +7405,8 @@
                 }
             ],
             "summary": "CSS selectors for Python ElementTree",
-            "version_installed": "0.6.0",
-            "version_required": "0.6.0"
+            "version_installed": "0.7.0",
+            "version_required": "0.7.0"
         },
         "cufflinks": {
             "level": 9,
@@ -8469,10 +8469,10 @@
                                 }
                             ],
                             "version_installed": "2.2.2",
-                            "version_required": ">=2.2.0"
+                            "version_required": ">=2.2.2"
                         }
                     ],
-                    "version_installed": "2.2.0",
+                    "version_installed": "2.2.2",
                     "version_required": ">=1.0.4"
                 },
                 {
@@ -8529,13 +8529,13 @@
                                         }
                                     ],
                                     "version_installed": "2.2.2",
-                                    "version_required": ">=2.2.0"
+                                    "version_required": ">=2.2.2"
                                 }
                             ],
-                            "version_installed": "2.2.0"
+                            "version_installed": "2.2.2"
                         }
                     ],
-                    "version_installed": "1.12"
+                    "version_installed": "1.13"
                 },
                 {
                     "package_name": "plotly",
@@ -8696,10 +8696,10 @@
                                         }
                                     ],
                                     "version_installed": "2.2.2",
-                                    "version_required": ">=2.2.0"
+                                    "version_required": ">=2.2.2"
                                 }
                             ],
-                            "version_installed": "2.2.0",
+                            "version_installed": "2.2.2",
                             "version_required": ">=1.0.4"
                         },
                         {
@@ -8756,13 +8756,13 @@
                                                 }
                                             ],
                                             "version_installed": "2.2.2",
-                                            "version_required": ">=2.2.0"
+                                            "version_required": ">=2.2.2"
                                         }
                                     ],
-                                    "version_installed": "2.2.0"
+                                    "version_installed": "2.2.2"
                                 }
                             ],
-                            "version_installed": "1.12"
+                            "version_installed": "1.13"
                         },
                         {
                             "package_name": "plotly",
@@ -8827,10 +8827,10 @@
                                 }
                             ],
                             "version_installed": "2.2.2",
-                            "version_required": ">=2.2.0"
+                            "version_required": ">=2.2.2"
                         }
                     ],
-                    "version_installed": "2.2.0",
+                    "version_installed": "2.2.2",
                     "version_required": ">=1.0.2"
                 },
                 {
@@ -8887,13 +8887,13 @@
                                         }
                                     ],
                                     "version_installed": "2.2.2",
-                                    "version_required": ">=2.2.0"
+                                    "version_required": ">=2.2.2"
                                 }
                             ],
-                            "version_installed": "2.2.0"
+                            "version_installed": "2.2.2"
                         }
                     ],
-                    "version_installed": "1.12"
+                    "version_installed": "1.13"
                 },
                 {
                     "package_name": "flask-seasurf",
@@ -8945,10 +8945,10 @@
                                         }
                                     ],
                                     "version_installed": "2.2.2",
-                                    "version_required": ">=2.2.0"
+                                    "version_required": ">=2.2.2"
                                 }
                             ],
-                            "version_installed": "2.2.0"
+                            "version_installed": "2.2.2"
                         }
                     ],
                     "version_installed": "1.1.1"
@@ -9088,10 +9088,10 @@
                                         }
                                     ],
                                     "version_installed": "2.2.2",
-                                    "version_required": ">=2.2.0"
+                                    "version_required": ">=2.2.2"
                                 }
                             ],
-                            "version_installed": "2.2.0",
+                            "version_installed": "2.2.2",
                             "version_required": ">=1.0.4"
                         },
                         {
@@ -9148,13 +9148,13 @@
                                                 }
                                             ],
                                             "version_installed": "2.2.2",
-                                            "version_required": ">=2.2.0"
+                                            "version_required": ">=2.2.2"
                                         }
                                     ],
-                                    "version_installed": "2.2.0"
+                                    "version_installed": "2.2.2"
                                 }
                             ],
-                            "version_installed": "1.12"
+                            "version_installed": "1.13"
                         },
                         {
                             "package_name": "plotly",
@@ -9259,10 +9259,10 @@
                                         }
                                     ],
                                     "version_installed": "2.2.2",
-                                    "version_required": ">=2.2.0"
+                                    "version_required": ">=2.2.2"
                                 }
                             ],
-                            "version_installed": "2.2.0",
+                            "version_installed": "2.2.2",
                             "version_required": ">=1.0.4"
                         },
                         {
@@ -9319,13 +9319,13 @@
                                                 }
                                             ],
                                             "version_installed": "2.2.2",
-                                            "version_required": ">=2.2.0"
+                                            "version_required": ">=2.2.2"
                                         }
                                     ],
-                                    "version_installed": "2.2.0"
+                                    "version_installed": "2.2.2"
                                 }
                             ],
-                            "version_installed": "1.12"
+                            "version_installed": "1.13"
                         },
                         {
                             "package_name": "plotly",
@@ -9363,7 +9363,7 @@
                                     "version_required": ">=8.3.2"
                                 }
                             ],
-                            "version_installed": "2.21.3",
+                            "version_installed": "2.22.0",
                             "version_required": ">=2.4.1"
                         },
                         {
@@ -9574,10 +9574,10 @@
                                         }
                                     ],
                                     "version_installed": "2.2.2",
-                                    "version_required": ">=2.2.0"
+                                    "version_required": ">=2.2.2"
                                 }
                             ],
-                            "version_installed": "2.2.0",
+                            "version_installed": "2.2.2",
                             "version_required": ">=1.0.4"
                         },
                         {
@@ -9634,13 +9634,13 @@
                                                 }
                                             ],
                                             "version_installed": "2.2.2",
-                                            "version_required": ">=2.2.0"
+                                            "version_required": ">=2.2.2"
                                         }
                                     ],
-                                    "version_installed": "2.2.0"
+                                    "version_installed": "2.2.2"
                                 }
                             ],
-                            "version_installed": "1.12"
+                            "version_installed": "1.13"
                         },
                         {
                             "package_name": "plotly",
@@ -10893,7 +10893,7 @@
                             "version_required": ">=1.0,<2.0"
                         }
                     ],
-                    "version_installed": "3.8.1"
+                    "version_installed": "3.8.3"
                 },
                 {
                     "package_name": "dill",
@@ -11112,8 +11112,8 @@
                 }
             ],
             "summary": "HuggingFace community-driven open-source library of datasets",
-            "version_installed": "2.4.0",
-            "version_required": "2.4.0"
+            "version_installed": "2.5.1",
+            "version_required": "2.5.1"
         },
         "datashader": {
             "level": 5,
@@ -13151,7 +13151,7 @@
                         }
                     ],
                     "version_installed": "4.1.1",
-                    "version_required": ">=2.2"
+                    "version_required": ">=3.0"
                 },
                 {
                     "package_name": "pytz",
@@ -13159,8 +13159,8 @@
                 }
             ],
             "summary": "Web APIs for Django, made easy",
-            "version_installed": "3.13.1",
-            "version_required": "3.13.1"
+            "version_installed": "3.14.0",
+            "version_required": "3.14.0"
         },
         "dlib": {
             "level": 1,
@@ -14685,10 +14685,14 @@
                                         }
                                     ],
                                     "version_installed": "0.20.4",
-                                    "version_required": ">=0.9.1"
+                                    "version_required": ">=0.15.0"
+                                },
+                                {
+                                    "package_name": "six",
+                                    "version_installed": "1.16.0"
                                 }
                             ],
-                            "version_installed": "0.0.3",
+                            "version_installed": "0.1.0",
                             "version_required": ">=0.0.3"
                         },
                         {
@@ -14811,10 +14815,14 @@
                                 }
                             ],
                             "version_installed": "0.20.4",
-                            "version_required": ">=0.9.1"
+                            "version_required": ">=0.15.0"
+                        },
+                        {
+                            "package_name": "six",
+                            "version_installed": "1.16.0"
                         }
                     ],
-                    "version_installed": "0.0.3",
+                    "version_installed": "0.1.0",
                     "version_required": ">=0.0.3"
                 },
                 {
@@ -15374,8 +15382,8 @@
                 }
             ],
             "summary": "Python client for Elasticsearch",
-            "version_installed": "8.4.1",
-            "version_required": "8.4.1"
+            "version_installed": "8.4.2",
+            "version_required": "8.4.2"
         },
         "elegantrl": {
             "level": 4,
@@ -15542,8 +15550,8 @@
                 }
             ],
             "summary": "A robust email address syntax and deliverability validation library",
-            "version_installed": "1.2.1",
-            "version_required": "1.2.1"
+            "version_installed": "1.3.0",
+            "version_required": "1.3.0"
         },
         "emoji": {
             "level": 1,
@@ -15724,6 +15732,7 @@
             "required_by": [
                 "altair",
                 "jupyter-client",
+                "jupyter-lsp",
                 "mlflow",
                 "numcodecs"
             ],
@@ -15997,8 +16006,8 @@
                 }
             ],
             "summary": "Calendars for securities exchanges",
-            "version_installed": "4.2",
-            "version_required": "4.2"
+            "version_installed": "4.2.3",
+            "version_required": "4.2.3"
         },
         "executing": {
             "level": 1,
@@ -16128,7 +16137,7 @@
                             "version_installed": "22.2.2"
                         }
                     ],
-                    "version_installed": "1.5.20",
+                    "version_installed": "1.5.24",
                     "version_required": ">=1.4.5,<1.6"
                 },
                 {
@@ -16153,7 +16162,7 @@
                                     "version_installed": "22.2.2"
                                 }
                             ],
-                            "version_installed": "1.5.20",
+                            "version_installed": "1.5.24",
                             "version_required": ">=1.3.26"
                         },
                         {
@@ -16452,7 +16461,7 @@
                                     "version_required": ">=3.7.4.3"
                                 }
                             ],
-                            "version_installed": "1.9.1",
+                            "version_installed": "1.9.2",
                             "version_required": ">=1.7.4,<1.10.0,!=1.8.1,!=1.8"
                         },
                         {
@@ -16547,7 +16556,7 @@
                                                     "version_required": ">=3.7.4.3"
                                                 }
                                             ],
-                                            "version_installed": "1.9.1",
+                                            "version_installed": "1.9.2",
                                             "version_required": ">=1.7.4,<1.10.0,!=1.8.1,!=1.8"
                                         },
                                         {
@@ -16607,7 +16616,7 @@
                                             "version_required": ">=3.7.4.3"
                                         }
                                     ],
-                                    "version_installed": "1.9.1",
+                                    "version_installed": "1.9.2",
                                     "version_required": ">=1.7.4,<1.10.0,!=1.8.1,!=1.8"
                                 },
                                 {
@@ -16771,7 +16780,7 @@
                             "version_required": ">=3.7.4.3"
                         }
                     ],
-                    "version_installed": "1.9.1",
+                    "version_installed": "1.9.2",
                     "version_required": ">=1.6.2,<2.0.0,!=1.8.1,!=1.8,!=1.7.3,!=1.7.2,!=1.7.1,!=1.7"
                 },
                 {
@@ -16800,13 +16809,13 @@
                             "version_required": ">=3.10.0"
                         }
                     ],
-                    "version_installed": "0.19.1",
-                    "version_required": "==0.19.1"
+                    "version_installed": "0.20.4",
+                    "version_required": "==0.20.4"
                 }
             ],
             "summary": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
-            "version_installed": "0.83.0",
-            "version_required": "0.83.0"
+            "version_installed": "0.85.0",
+            "version_required": "0.85.0"
         },
         "fastavro": {
             "level": 1,
@@ -16911,8 +16920,8 @@
                 }
             ],
             "summary": "Python supercharged for fastai development",
-            "version_installed": "1.5.20",
-            "version_required": "1.5.20"
+            "version_installed": "1.5.24",
+            "version_required": "1.5.24"
         },
         "fastdownload": {
             "level": 4,
@@ -16950,7 +16959,7 @@
                             "version_installed": "22.2.2"
                         }
                     ],
-                    "version_installed": "1.5.20",
+                    "version_installed": "1.5.24",
                     "version_required": ">=1.3.26"
                 },
                 {
@@ -17557,7 +17566,7 @@
                             "version_installed": "2.27.1"
                         }
                     ],
-                    "version_installed": "0.12.11",
+                    "version_installed": "0.12.12",
                     "version_required": ">=0.12.6"
                 },
                 {
@@ -17851,10 +17860,14 @@
                                         }
                                     ],
                                     "version_installed": "0.20.4",
-                                    "version_required": ">=0.9.1"
+                                    "version_required": ">=0.15.0"
+                                },
+                                {
+                                    "package_name": "six",
+                                    "version_installed": "1.16.0"
                                 }
                             ],
-                            "version_installed": "0.0.3",
+                            "version_installed": "0.1.0",
                             "version_required": ">=0.0.3"
                         },
                         {
@@ -18695,12 +18708,12 @@
                         }
                     ],
                     "version_installed": "2.2.2",
-                    "version_required": ">=2.2.0"
+                    "version_required": ">=2.2.2"
                 }
             ],
             "summary": "A simple framework for building complex web applications",
-            "version_installed": "2.2.0",
-            "version_required": "2.2.0"
+            "version_installed": "2.2.2",
+            "version_required": "2.2.2"
         },
         "flask-cachebuster": {
             "level": 4,
@@ -18757,10 +18770,10 @@
                                 }
                             ],
                             "version_installed": "2.2.2",
-                            "version_required": ">=2.2.0"
+                            "version_required": ">=2.2.2"
                         }
                     ],
-                    "version_installed": "2.2.0"
+                    "version_installed": "2.2.2"
                 }
             ],
             "summary": "Flask-CacheBuster is a lightweight Flask extension that adds a hash to the URL query parameters of each static file",
@@ -18837,10 +18850,10 @@
                                 }
                             ],
                             "version_installed": "2.2.2",
-                            "version_required": ">=2.2.0"
+                            "version_required": ">=2.2.2"
                         }
                     ],
-                    "version_installed": "2.2.0",
+                    "version_installed": "2.2.2",
                     "version_required": "<3"
                 }
             ],
@@ -18921,15 +18934,15 @@
                                 }
                             ],
                             "version_installed": "2.2.2",
-                            "version_required": ">=2.2.0"
+                            "version_required": ">=2.2.2"
                         }
                     ],
-                    "version_installed": "2.2.0"
+                    "version_installed": "2.2.2"
                 }
             ],
             "summary": "Compress responses in your Flask app with gzip, deflate or brotli",
-            "version_installed": "1.12",
-            "version_required": "1.12"
+            "version_installed": "1.13",
+            "version_required": "1.13"
         },
         "flask-cors": {
             "level": 4,
@@ -18995,10 +19008,10 @@
                                 }
                             ],
                             "version_installed": "2.2.2",
-                            "version_required": ">=2.2.0"
+                            "version_required": ">=2.2.2"
                         }
                     ],
-                    "version_installed": "2.2.0",
+                    "version_installed": "2.2.2",
                     "version_required": ">=0.9"
                 },
                 {
@@ -19075,10 +19088,10 @@
                                 }
                             ],
                             "version_installed": "2.2.2",
-                            "version_required": ">=2.2.0"
+                            "version_required": ">=2.2.2"
                         }
                     ],
-                    "version_installed": "2.2.0",
+                    "version_installed": "2.2.2",
                     "version_required": ">=1.0.4"
                 },
                 {
@@ -19165,10 +19178,10 @@
                                 }
                             ],
                             "version_installed": "2.2.2",
-                            "version_required": ">=2.2.0"
+                            "version_required": ">=2.2.2"
                         }
                     ],
-                    "version_installed": "2.2.0"
+                    "version_installed": "2.2.2"
                 }
             ],
             "summary": "An updated CSRF extension for Flask",
@@ -20419,10 +20432,10 @@
                                 }
                             ],
                             "version_installed": "2.2.2",
-                            "version_required": ">=2.2.0"
+                            "version_required": ">=2.2.2"
                         }
                     ],
-                    "version_installed": "2.2.0"
+                    "version_installed": "2.2.2"
                 },
                 {
                     "package_name": "lxml",
@@ -20978,10 +20991,14 @@
                                 }
                             ],
                             "version_installed": "0.20.4",
-                            "version_required": ">=0.9.1"
+                            "version_required": ">=0.15.0"
+                        },
+                        {
+                            "package_name": "six",
+                            "version_installed": "1.16.0"
                         }
                     ],
-                    "version_installed": "0.0.3",
+                    "version_installed": "0.1.0",
                     "version_required": ">=0.0.3"
                 },
                 {
@@ -21150,12 +21167,16 @@
                         }
                     ],
                     "version_installed": "0.20.4",
-                    "version_required": ">=0.9.1"
+                    "version_required": ">=0.15.0"
+                },
+                {
+                    "package_name": "six",
+                    "version_installed": "1.16.0"
                 }
             ],
             "summary": "Google Authentication Library: httplib2 transport",
-            "version_installed": "0.0.3",
-            "version_required": "0.0.3"
+            "version_installed": "0.1.0",
+            "version_required": "0.1.0"
         },
         "google-auth-oauthlib": {
             "level": 4,
@@ -22753,7 +22774,7 @@
                         }
                     ],
                     "version_installed": "2.3.2",
-                    "version_required": ">=1.26.0,<3.0.0dev"
+                    "version_required": ">=1.31.5,<3.0.0dev,!=2.3.0,!=2.2.*,!=2.1.*,!=2.0.*"
                 },
                 {
                     "package_name": "grpc-google-iam-v1",
@@ -22784,53 +22805,7 @@
                         }
                     ],
                     "version_installed": "0.12.4",
-                    "version_required": ">=0.12.3,<0.13dev"
-                },
-                {
-                    "package_name": "libcst",
-                    "requires": [
-                        {
-                            "package_name": "pyyaml",
-                            "version_installed": "5.4.1",
-                            "version_required": ">=5.2"
-                        },
-                        {
-                            "package_name": "typing-extensions",
-                            "version_installed": "4.3.0",
-                            "version_required": ">=3.7.4.2"
-                        },
-                        {
-                            "package_name": "typing-inspect",
-                            "requires": [
-                                {
-                                    "package_name": "mypy-extensions",
-                                    "version_installed": "0.4.3",
-                                    "version_required": ">=0.3.0"
-                                },
-                                {
-                                    "package_name": "typing-extensions",
-                                    "version_installed": "4.3.0",
-                                    "version_required": ">=3.7.4"
-                                }
-                            ],
-                            "version_installed": "0.8.0",
-                            "version_required": ">=0.4.0"
-                        }
-                    ],
-                    "version_installed": "0.4.7",
-                    "version_required": ">=0.2.5"
-                },
-                {
-                    "package_name": "packaging",
-                    "requires": [
-                        {
-                            "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
-                            "version_required": ">=2.0.2,!=3.0.5"
-                        }
-                    ],
-                    "version_installed": "21.3",
-                    "version_required": ">=14.3"
+                    "version_required": ">=0.12.4,<1.0.0dev"
                 },
                 {
                     "package_name": "proto-plus",
@@ -22842,12 +22817,17 @@
                         }
                     ],
                     "version_installed": "1.22.1",
-                    "version_required": ">=1.4.0"
+                    "version_required": ">=1.15.0,<2.0.0dev"
+                },
+                {
+                    "package_name": "protobuf",
+                    "version_installed": "3.19.4",
+                    "version_required": ">=3.19.0,<4.0.0dev"
                 }
             ],
             "summary": "Secret Manager API API client library",
-            "version_installed": "2.7.2",
-            "version_required": "2.7.2"
+            "version_installed": "2.11.1",
+            "version_required": "2.11.1"
         },
         "google-cloud-storage": {
             "level": 6,
@@ -23550,7 +23530,7 @@
                             "version_required": ">=1.0,<2.0"
                         }
                     ],
-                    "version_installed": "3.8.1"
+                    "version_installed": "3.8.3"
                 },
                 {
                     "package_name": "analytics-python",
@@ -23624,7 +23604,7 @@
                                     "version_required": ">=3.7.4.3"
                                 }
                             ],
-                            "version_installed": "1.9.1",
+                            "version_installed": "1.9.2",
                             "version_required": ">=1.6.2,<2.0.0,!=1.8.1,!=1.8,!=1.7.3,!=1.7.2,!=1.7.1,!=1.7"
                         },
                         {
@@ -23653,11 +23633,11 @@
                                     "version_required": ">=3.10.0"
                                 }
                             ],
-                            "version_installed": "0.19.1",
-                            "version_required": "==0.19.1"
+                            "version_installed": "0.20.4",
+                            "version_required": "==0.20.4"
                         }
                     ],
-                    "version_installed": "0.83.0"
+                    "version_installed": "0.85.0"
                 },
                 {
                     "package_name": "ffmpy",
@@ -23915,7 +23895,7 @@
                             "version_required": ">=3.7.4.3"
                         }
                     ],
-                    "version_installed": "1.9.1"
+                    "version_installed": "1.9.2"
                 },
                 {
                     "package_name": "pydub",
@@ -24787,8 +24767,8 @@
                 }
             ],
             "summary": "H2O, Fast Scalable Machine Learning, for python",
-            "version_installed": "3.36.1.5",
-            "version_required": "3.36.1.5"
+            "version_installed": "3.38.0.1",
+            "version_required": "3.38.0.1"
         },
         "h5py": {
             "level": 2,
@@ -25586,7 +25566,7 @@
                             "version_required": ">=1.0,<2.0"
                         }
                     ],
-                    "version_installed": "3.8.1",
+                    "version_installed": "3.8.3",
                     "version_required": ">=3.7,<4.0"
                 },
                 {
@@ -25998,8 +25978,8 @@
                 }
             ],
             "summary": "A library for property-based testing",
-            "version_installed": "6.54.5",
-            "version_required": "6.54.5"
+            "version_installed": "6.54.6",
+            "version_required": "6.54.6"
         },
         "ib-insync": {
             "level": 3,
@@ -26307,8 +26287,8 @@
                 }
             ],
             "summary": "Library for reading and writing a wide range of image, video, scientific, and volumetric data formats",
-            "version_installed": "2.21.3",
-            "version_required": "2.21.3"
+            "version_installed": "2.22.0",
+            "version_required": "2.22.0"
         },
         "imageio-ffmpeg": {
             "level": 1,
@@ -26472,7 +26452,7 @@
                             "version_required": ">=8.3.2"
                         }
                     ],
-                    "version_installed": "2.21.3"
+                    "version_installed": "2.22.0"
                 },
                 {
                     "package_name": "matplotlib",
@@ -26580,7 +26560,7 @@
                                     "version_required": ">=8.3.2"
                                 }
                             ],
-                            "version_installed": "2.21.3",
+                            "version_installed": "2.22.0",
                             "version_required": ">=2.4.1"
                         },
                         {
@@ -26769,6 +26749,12 @@
             "version_installed": "1.5.1",
             "version_required": "1.5.1"
         },
+        "immutabledict": {
+            "level": 1,
+            "package_name": "immutabledict",
+            "version_installed": "2.2.1",
+            "version_required": "2.2.1"
+        },
         "importlab": {
             "level": 2,
             "package_name": "importlab",
@@ -26915,7 +26901,7 @@
                             "version_required": ">=3.7.4.3"
                         }
                     ],
-                    "version_installed": "1.9.1"
+                    "version_installed": "1.9.2"
                 }
             ],
             "summary": "Correctly generate plurals, singular nouns, ordinals, indefinite articles; convert numbers to words",
@@ -27092,8 +27078,8 @@
                 }
             ],
             "summary": "Intrinio API",
-            "version_installed": "6.21.2",
-            "version_required": "6.21.2"
+            "version_installed": "6.22.2",
+            "version_required": "6.22.2"
         },
         "ipykernel": {
             "level": 5,
@@ -29846,7 +29832,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "5.5.0",
+                                    "version_installed": "5.6.0",
                                     "version_required": ">=5.0"
                                 },
                                 {
@@ -29902,7 +29888,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "5.5.0",
+                            "version_installed": "5.6.0",
                             "version_required": ">=5.1"
                         },
                         {
@@ -30447,7 +30433,7 @@
                                                     "version_required": ">=5.1"
                                                 }
                                             ],
-                                            "version_installed": "5.5.0",
+                                            "version_installed": "5.6.0",
                                             "version_required": ">=5.0"
                                         },
                                         {
@@ -30503,7 +30489,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "5.5.0",
+                                    "version_installed": "5.6.0",
                                     "version_required": ">=5.1"
                                 },
                                 {
@@ -30587,7 +30573,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "5.5.0"
+                            "version_installed": "5.6.0"
                         },
                         {
                             "package_name": "nest-asyncio",
@@ -31375,12 +31361,12 @@
                         }
                     ],
                     "version_installed": "8.0.2",
-                    "version_required": ">=7.6.0"
+                    "version_required": ">=8.0.0"
                 }
             ],
             "summary": "A Jupyter extension for rendering Bokeh content",
-            "version_installed": "3.0.4",
-            "version_required": "3.0.4"
+            "version_installed": "3.0.5",
+            "version_required": "3.0.5"
         },
         "jupyter-client": {
             "level": 3,
@@ -31993,10 +31979,10 @@
                                         }
                                     ],
                                     "version_installed": "2.2.2",
-                                    "version_required": ">=2.2.0"
+                                    "version_required": ">=2.2.2"
                                 }
                             ],
-                            "version_installed": "2.2.0",
+                            "version_installed": "2.2.2",
                             "version_required": ">=1.0.4"
                         },
                         {
@@ -32053,13 +32039,13 @@
                                                 }
                                             ],
                                             "version_installed": "2.2.2",
-                                            "version_required": ">=2.2.0"
+                                            "version_required": ">=2.2.2"
                                         }
                                     ],
-                                    "version_installed": "2.2.0"
+                                    "version_installed": "2.2.2"
                                 }
                             ],
-                            "version_installed": "1.12"
+                            "version_installed": "1.13"
                         },
                         {
                             "package_name": "plotly",
@@ -32123,10 +32109,10 @@
                                 }
                             ],
                             "version_installed": "2.2.2",
-                            "version_required": ">=2.2.0"
+                            "version_required": ">=2.2.2"
                         }
                     ],
-                    "version_installed": "2.2.0"
+                    "version_installed": "2.2.2"
                 },
                 {
                     "package_name": "ipykernel",
@@ -32490,6 +32476,522 @@
             "version_installed": "0.4.2",
             "version_required": "0.4.2"
         },
+        "jupyter-lsp": {
+            "level": 7,
+            "package_name": "jupyter-lsp",
+            "required_by": [
+                "jupyterlab"
+            ],
+            "requires": [
+                {
+                    "package_name": "entrypoints",
+                    "version_installed": "0.4"
+                },
+                {
+                    "package_name": "jupyter-server",
+                    "requires": [
+                        {
+                            "package_name": "anyio",
+                            "requires": [
+                                {
+                                    "package_name": "idna",
+                                    "version_installed": "3.4",
+                                    "version_required": ">=2.8"
+                                },
+                                {
+                                    "package_name": "sniffio",
+                                    "version_installed": "1.2.0",
+                                    "version_required": ">=1.1"
+                                }
+                            ],
+                            "version_installed": "3.5.0",
+                            "version_required": ">=3.1.0"
+                        },
+                        {
+                            "package_name": "argon2-cffi",
+                            "requires": [
+                                {
+                                    "package_name": "argon2-cffi-bindings",
+                                    "requires": [
+                                        {
+                                            "package_name": "cffi",
+                                            "requires": [
+                                                {
+                                                    "package_name": "pycparser",
+                                                    "version_installed": "2.21"
+                                                }
+                                            ],
+                                            "version_installed": "1.15.1",
+                                            "version_required": ">=1.0.1"
+                                        }
+                                    ],
+                                    "version_installed": "21.2.0"
+                                }
+                            ],
+                            "version_installed": "21.3.0"
+                        },
+                        {
+                            "package_name": "jinja2",
+                            "requires": [
+                                {
+                                    "package_name": "MarkupSafe",
+                                    "version_installed": "2.1.1",
+                                    "version_required": ">=2.0"
+                                }
+                            ],
+                            "version_installed": "3.0.3"
+                        },
+                        {
+                            "package_name": "jupyter-client",
+                            "requires": [
+                                {
+                                    "package_name": "entrypoints",
+                                    "version_installed": "0.4"
+                                },
+                                {
+                                    "package_name": "jupyter-core",
+                                    "requires": [
+                                        {
+                                            "package_name": "traitlets",
+                                            "version_installed": "5.4.0"
+                                        }
+                                    ],
+                                    "version_installed": "4.11.1",
+                                    "version_required": ">=4.9.2"
+                                },
+                                {
+                                    "package_name": "nest-asyncio",
+                                    "version_installed": "1.5.5",
+                                    "version_required": ">=1.5.4"
+                                },
+                                {
+                                    "package_name": "python-dateutil",
+                                    "requires": [
+                                        {
+                                            "package_name": "six",
+                                            "version_installed": "1.16.0",
+                                            "version_required": ">=1.5"
+                                        }
+                                    ],
+                                    "version_installed": "2.8.2",
+                                    "version_required": ">=2.8.2"
+                                },
+                                {
+                                    "package_name": "pyzmq",
+                                    "version_installed": "24.0.1",
+                                    "version_required": ">=23.0"
+                                },
+                                {
+                                    "package_name": "tornado",
+                                    "version_installed": "6.2",
+                                    "version_required": ">=6.2"
+                                },
+                                {
+                                    "package_name": "traitlets",
+                                    "version_installed": "5.4.0"
+                                }
+                            ],
+                            "version_installed": "7.3.5",
+                            "version_required": ">=6.1.12"
+                        },
+                        {
+                            "package_name": "jupyter-core",
+                            "requires": [
+                                {
+                                    "package_name": "traitlets",
+                                    "version_installed": "5.4.0"
+                                }
+                            ],
+                            "version_installed": "4.11.1",
+                            "version_required": ">=4.7.0"
+                        },
+                        {
+                            "package_name": "nbconvert",
+                            "requires": [
+                                {
+                                    "package_name": "beautifulsoup4",
+                                    "requires": [
+                                        {
+                                            "package_name": "soupsieve",
+                                            "version_installed": "2.3.2",
+                                            "version_required": ">1.2"
+                                        }
+                                    ],
+                                    "version_installed": "4.11.1"
+                                },
+                                {
+                                    "package_name": "bleach",
+                                    "requires": [
+                                        {
+                                            "package_name": "six",
+                                            "version_installed": "1.16.0",
+                                            "version_required": ">=1.9.0"
+                                        },
+                                        {
+                                            "package_name": "webencodings",
+                                            "version_installed": "0.5.1"
+                                        }
+                                    ],
+                                    "version_installed": "5.0.1"
+                                },
+                                {
+                                    "package_name": "defusedxml",
+                                    "version_installed": "0.7.1"
+                                },
+                                {
+                                    "package_name": "importlib-metadata",
+                                    "requires": [
+                                        {
+                                            "package_name": "zipp",
+                                            "version_installed": "3.8.1",
+                                            "version_required": ">=0.5"
+                                        }
+                                    ],
+                                    "version_installed": "4.12.0",
+                                    "version_required": ">=3.6"
+                                },
+                                {
+                                    "package_name": "jinja2",
+                                    "requires": [
+                                        {
+                                            "package_name": "MarkupSafe",
+                                            "version_installed": "2.1.1",
+                                            "version_required": ">=2.0"
+                                        }
+                                    ],
+                                    "version_installed": "3.0.3",
+                                    "version_required": ">=3.0"
+                                },
+                                {
+                                    "package_name": "jupyter-core",
+                                    "requires": [
+                                        {
+                                            "package_name": "traitlets",
+                                            "version_installed": "5.4.0"
+                                        }
+                                    ],
+                                    "version_installed": "4.11.1",
+                                    "version_required": ">=4.7"
+                                },
+                                {
+                                    "package_name": "jupyterlab-pygments",
+                                    "version_installed": "0.2.2"
+                                },
+                                {
+                                    "package_name": "lxml",
+                                    "version_installed": "4.9.1"
+                                },
+                                {
+                                    "package_name": "markupsafe",
+                                    "version_installed": "2.1.1",
+                                    "version_required": ">=2.0"
+                                },
+                                {
+                                    "package_name": "mistune",
+                                    "version_installed": "2.0.4",
+                                    "version_required": ">=2.0.3,<3"
+                                },
+                                {
+                                    "package_name": "nbclient",
+                                    "requires": [
+                                        {
+                                            "package_name": "jupyter-client",
+                                            "requires": [
+                                                {
+                                                    "package_name": "entrypoints",
+                                                    "version_installed": "0.4"
+                                                },
+                                                {
+                                                    "package_name": "jupyter-core",
+                                                    "requires": [
+                                                        {
+                                                            "package_name": "traitlets",
+                                                            "version_installed": "5.4.0"
+                                                        }
+                                                    ],
+                                                    "version_installed": "4.11.1",
+                                                    "version_required": ">=4.9.2"
+                                                },
+                                                {
+                                                    "package_name": "nest-asyncio",
+                                                    "version_installed": "1.5.5",
+                                                    "version_required": ">=1.5.4"
+                                                },
+                                                {
+                                                    "package_name": "python-dateutil",
+                                                    "requires": [
+                                                        {
+                                                            "package_name": "six",
+                                                            "version_installed": "1.16.0",
+                                                            "version_required": ">=1.5"
+                                                        }
+                                                    ],
+                                                    "version_installed": "2.8.2",
+                                                    "version_required": ">=2.8.2"
+                                                },
+                                                {
+                                                    "package_name": "pyzmq",
+                                                    "version_installed": "24.0.1",
+                                                    "version_required": ">=23.0"
+                                                },
+                                                {
+                                                    "package_name": "tornado",
+                                                    "version_installed": "6.2",
+                                                    "version_required": ">=6.2"
+                                                },
+                                                {
+                                                    "package_name": "traitlets",
+                                                    "version_installed": "5.4.0"
+                                                }
+                                            ],
+                                            "version_installed": "7.3.5",
+                                            "version_required": ">=6.1.5"
+                                        },
+                                        {
+                                            "package_name": "nbformat",
+                                            "requires": [
+                                                {
+                                                    "package_name": "fastjsonschema",
+                                                    "version_installed": "2.16.2"
+                                                },
+                                                {
+                                                    "package_name": "jsonschema",
+                                                    "requires": [
+                                                        {
+                                                            "package_name": "attrs",
+                                                            "version_installed": "22.1.0",
+                                                            "version_required": ">=17.4.0"
+                                                        },
+                                                        {
+                                                            "package_name": "pyrsistent",
+                                                            "version_installed": "0.18.1",
+                                                            "version_required": ">=0.14.0,!=0.17.2,!=0.17.1,!=0.17.0"
+                                                        }
+                                                    ],
+                                                    "version_installed": "4.16.0",
+                                                    "version_required": ">=2.6"
+                                                },
+                                                {
+                                                    "package_name": "jupyter-core",
+                                                    "requires": [
+                                                        {
+                                                            "package_name": "traitlets",
+                                                            "version_installed": "5.4.0"
+                                                        }
+                                                    ],
+                                                    "version_installed": "4.11.1"
+                                                },
+                                                {
+                                                    "package_name": "traitlets",
+                                                    "version_installed": "5.4.0",
+                                                    "version_required": ">=5.1"
+                                                }
+                                            ],
+                                            "version_installed": "5.6.0",
+                                            "version_required": ">=5.0"
+                                        },
+                                        {
+                                            "package_name": "nest-asyncio",
+                                            "version_installed": "1.5.5"
+                                        },
+                                        {
+                                            "package_name": "traitlets",
+                                            "version_installed": "5.4.0",
+                                            "version_required": ">=5.2.2"
+                                        }
+                                    ],
+                                    "version_installed": "0.6.8",
+                                    "version_required": ">=0.5.0"
+                                },
+                                {
+                                    "package_name": "nbformat",
+                                    "requires": [
+                                        {
+                                            "package_name": "fastjsonschema",
+                                            "version_installed": "2.16.2"
+                                        },
+                                        {
+                                            "package_name": "jsonschema",
+                                            "requires": [
+                                                {
+                                                    "package_name": "attrs",
+                                                    "version_installed": "22.1.0",
+                                                    "version_required": ">=17.4.0"
+                                                },
+                                                {
+                                                    "package_name": "pyrsistent",
+                                                    "version_installed": "0.18.1",
+                                                    "version_required": ">=0.14.0,!=0.17.2,!=0.17.1,!=0.17.0"
+                                                }
+                                            ],
+                                            "version_installed": "4.16.0",
+                                            "version_required": ">=2.6"
+                                        },
+                                        {
+                                            "package_name": "jupyter-core",
+                                            "requires": [
+                                                {
+                                                    "package_name": "traitlets",
+                                                    "version_installed": "5.4.0"
+                                                }
+                                            ],
+                                            "version_installed": "4.11.1"
+                                        },
+                                        {
+                                            "package_name": "traitlets",
+                                            "version_installed": "5.4.0",
+                                            "version_required": ">=5.1"
+                                        }
+                                    ],
+                                    "version_installed": "5.6.0",
+                                    "version_required": ">=5.1"
+                                },
+                                {
+                                    "package_name": "packaging",
+                                    "requires": [
+                                        {
+                                            "package_name": "pyparsing",
+                                            "version_installed": "3.0.9",
+                                            "version_required": ">=2.0.2,!=3.0.5"
+                                        }
+                                    ],
+                                    "version_installed": "21.3"
+                                },
+                                {
+                                    "package_name": "pandocfilters",
+                                    "version_installed": "1.5.0",
+                                    "version_required": ">=1.4.1"
+                                },
+                                {
+                                    "package_name": "pygments",
+                                    "version_installed": "2.13.0",
+                                    "version_required": ">=2.4.1"
+                                },
+                                {
+                                    "package_name": "tinycss2",
+                                    "requires": [
+                                        {
+                                            "package_name": "webencodings",
+                                            "version_installed": "0.5.1",
+                                            "version_required": ">=0.4"
+                                        }
+                                    ],
+                                    "version_installed": "1.1.1"
+                                },
+                                {
+                                    "package_name": "traitlets",
+                                    "version_installed": "5.4.0",
+                                    "version_required": ">=5.0"
+                                }
+                            ],
+                            "version_installed": "7.0.0",
+                            "version_required": ">=6.4.4"
+                        },
+                        {
+                            "package_name": "nbformat",
+                            "requires": [
+                                {
+                                    "package_name": "fastjsonschema",
+                                    "version_installed": "2.16.2"
+                                },
+                                {
+                                    "package_name": "jsonschema",
+                                    "requires": [
+                                        {
+                                            "package_name": "attrs",
+                                            "version_installed": "22.1.0",
+                                            "version_required": ">=17.4.0"
+                                        },
+                                        {
+                                            "package_name": "pyrsistent",
+                                            "version_installed": "0.18.1",
+                                            "version_required": ">=0.14.0,!=0.17.2,!=0.17.1,!=0.17.0"
+                                        }
+                                    ],
+                                    "version_installed": "4.16.0",
+                                    "version_required": ">=2.6"
+                                },
+                                {
+                                    "package_name": "jupyter-core",
+                                    "requires": [
+                                        {
+                                            "package_name": "traitlets",
+                                            "version_installed": "5.4.0"
+                                        }
+                                    ],
+                                    "version_installed": "4.11.1"
+                                },
+                                {
+                                    "package_name": "traitlets",
+                                    "version_installed": "5.4.0",
+                                    "version_required": ">=5.1"
+                                }
+                            ],
+                            "version_installed": "5.6.0",
+                            "version_required": ">=5.2.0"
+                        },
+                        {
+                            "package_name": "packaging",
+                            "requires": [
+                                {
+                                    "package_name": "pyparsing",
+                                    "version_installed": "3.0.9",
+                                    "version_required": ">=2.0.2,!=3.0.5"
+                                }
+                            ],
+                            "version_installed": "21.3"
+                        },
+                        {
+                            "package_name": "prometheus-client",
+                            "version_installed": "0.14.1"
+                        },
+                        {
+                            "package_name": "pyzmq",
+                            "version_installed": "24.0.1",
+                            "version_required": ">=17"
+                        },
+                        {
+                            "package_name": "Send2Trash",
+                            "version_installed": "1.8.0"
+                        },
+                        {
+                            "package_name": "terminado",
+                            "requires": [
+                                {
+                                    "package_name": "ptyprocess",
+                                    "version_installed": "0.7.0"
+                                },
+                                {
+                                    "package_name": "tornado",
+                                    "version_installed": "6.2",
+                                    "version_required": ">=6.1.0"
+                                }
+                            ],
+                            "version_installed": "0.15.0",
+                            "version_required": ">=0.8.3"
+                        },
+                        {
+                            "package_name": "tornado",
+                            "version_installed": "6.2",
+                            "version_required": ">=6.1.0"
+                        },
+                        {
+                            "package_name": "traitlets",
+                            "version_installed": "5.4.0",
+                            "version_required": ">=5.1.0"
+                        },
+                        {
+                            "package_name": "websocket-client",
+                            "version_installed": "1.4.1"
+                        }
+                    ],
+                    "version_installed": "1.16.0",
+                    "version_required": ">=1.1.2"
+                }
+            ],
+            "version_installed": "1.5.1",
+            "version_required": "1.5.1"
+        },
         "jupyter-packaging": {
             "level": 4,
             "package_name": "jupyter-packaging",
@@ -32574,6 +33076,7 @@
                 "2.0.0rc0"
             ],
             "required_by": [
+                "jupyter-lsp",
                 "jupyter-server-proxy",
                 "jupyterlab",
                 "jupyterlab-server",
@@ -32878,7 +33381,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "5.5.0",
+                                    "version_installed": "5.6.0",
                                     "version_required": ">=5.0"
                                 },
                                 {
@@ -32934,7 +33437,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "5.5.0",
+                            "version_installed": "5.6.0",
                             "version_required": ">=5.1"
                         },
                         {
@@ -33018,7 +33521,7 @@
                             "version_required": ">=5.1"
                         }
                     ],
-                    "version_installed": "5.5.0",
+                    "version_installed": "5.6.0",
                     "version_required": ">=5.2.0"
                 },
                 {
@@ -33156,7 +33659,7 @@
                             "version_required": ">=1.0,<2.0"
                         }
                     ],
-                    "version_installed": "3.8.1"
+                    "version_installed": "3.8.3"
                 },
                 {
                     "package_name": "jupyter-server",
@@ -33458,7 +33961,7 @@
                                                     "version_required": ">=5.1"
                                                 }
                                             ],
-                                            "version_installed": "5.5.0",
+                                            "version_installed": "5.6.0",
                                             "version_required": ">=5.0"
                                         },
                                         {
@@ -33514,7 +34017,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "5.5.0",
+                                    "version_installed": "5.6.0",
                                     "version_required": ">=5.1"
                                 },
                                 {
@@ -33598,7 +34101,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "5.5.0",
+                            "version_installed": "5.6.0",
                             "version_required": ">=5.2.0"
                         },
                         {
@@ -33669,6 +34172,62 @@
             "version_installed": "3.2.2",
             "version_required": "3.2.2"
         },
+        "jupyter-server-ydoc": {
+            "level": 4,
+            "package_name": "jupyter-server-ydoc",
+            "required_by": [
+                "jupyterlab"
+            ],
+            "requires": [
+                {
+                    "package_name": "jupyter-ydoc",
+                    "requires": [
+                        {
+                            "package_name": "setuptools",
+                            "version_installed": "65.3.0"
+                        },
+                        {
+                            "package_name": "y-py",
+                            "version_installed": "0.5.4",
+                            "version_required": ">=0.5.3,<0.6.0"
+                        }
+                    ],
+                    "version_installed": "0.1.17",
+                    "version_required": ">=0.1.16,<0.2.0"
+                },
+                {
+                    "package_name": "ypy-websocket",
+                    "requires": [
+                        {
+                            "package_name": "aiofiles",
+                            "version_installed": "0.8.0",
+                            "version_required": ">=0.8.0,<1"
+                        },
+                        {
+                            "package_name": "aiosqlite",
+                            "requires": [
+                                {
+                                    "package_name": "typing-extensions",
+                                    "version_installed": "4.3.0",
+                                    "version_required": ">=3.7.2"
+                                }
+                            ],
+                            "version_installed": "0.17.0",
+                            "version_required": ">=0.17.0,<1"
+                        },
+                        {
+                            "package_name": "y-py",
+                            "version_installed": "0.5.4",
+                            "version_required": ">=0.5.3,<0.6.0"
+                        }
+                    ],
+                    "version_installed": "0.3.2",
+                    "version_required": ">=0.3.2,<0.4.0"
+                }
+            ],
+            "version_installed": "0.1.11",
+            "version_required": "0.1.11"
+        },
         "jupyter-ydoc": {
             "level": 2,
             "package_name": "jupyter-ydoc",
@@ -33686,7 +34245,7 @@
                 "0.1.8"
             ],
             "required_by": [
-                "jupyterlab"
+                "jupyter-server-ydoc"
             ],
             "requires": [
                 {
@@ -33972,6 +34531,518 @@
                     "version_installed": "4.11.1"
                 },
                 {
+                    "package_name": "jupyter-lsp",
+                    "requires": [
+                        {
+                            "package_name": "entrypoints",
+                            "version_installed": "0.4"
+                        },
+                        {
+                            "package_name": "jupyter-server",
+                            "requires": [
+                                {
+                                    "package_name": "anyio",
+                                    "requires": [
+                                        {
+                                            "package_name": "idna",
+                                            "version_installed": "3.4",
+                                            "version_required": ">=2.8"
+                                        },
+                                        {
+                                            "package_name": "sniffio",
+                                            "version_installed": "1.2.0",
+                                            "version_required": ">=1.1"
+                                        }
+                                    ],
+                                    "version_installed": "3.5.0",
+                                    "version_required": ">=3.1.0"
+                                },
+                                {
+                                    "package_name": "argon2-cffi",
+                                    "requires": [
+                                        {
+                                            "package_name": "argon2-cffi-bindings",
+                                            "requires": [
+                                                {
+                                                    "package_name": "cffi",
+                                                    "requires": [
+                                                        {
+                                                            "package_name": "pycparser",
+                                                            "version_installed": "2.21"
+                                                        }
+                                                    ],
+                                                    "version_installed": "1.15.1",
+                                                    "version_required": ">=1.0.1"
+                                                }
+                                            ],
+                                            "version_installed": "21.2.0"
+                                        }
+                                    ],
+                                    "version_installed": "21.3.0"
+                                },
+                                {
+                                    "package_name": "jinja2",
+                                    "requires": [
+                                        {
+                                            "package_name": "MarkupSafe",
+                                            "version_installed": "2.1.1",
+                                            "version_required": ">=2.0"
+                                        }
+                                    ],
+                                    "version_installed": "3.0.3"
+                                },
+                                {
+                                    "package_name": "jupyter-client",
+                                    "requires": [
+                                        {
+                                            "package_name": "entrypoints",
+                                            "version_installed": "0.4"
+                                        },
+                                        {
+                                            "package_name": "jupyter-core",
+                                            "requires": [
+                                                {
+                                                    "package_name": "traitlets",
+                                                    "version_installed": "5.4.0"
+                                                }
+                                            ],
+                                            "version_installed": "4.11.1",
+                                            "version_required": ">=4.9.2"
+                                        },
+                                        {
+                                            "package_name": "nest-asyncio",
+                                            "version_installed": "1.5.5",
+                                            "version_required": ">=1.5.4"
+                                        },
+                                        {
+                                            "package_name": "python-dateutil",
+                                            "requires": [
+                                                {
+                                                    "package_name": "six",
+                                                    "version_installed": "1.16.0",
+                                                    "version_required": ">=1.5"
+                                                }
+                                            ],
+                                            "version_installed": "2.8.2",
+                                            "version_required": ">=2.8.2"
+                                        },
+                                        {
+                                            "package_name": "pyzmq",
+                                            "version_installed": "24.0.1",
+                                            "version_required": ">=23.0"
+                                        },
+                                        {
+                                            "package_name": "tornado",
+                                            "version_installed": "6.2",
+                                            "version_required": ">=6.2"
+                                        },
+                                        {
+                                            "package_name": "traitlets",
+                                            "version_installed": "5.4.0"
+                                        }
+                                    ],
+                                    "version_installed": "7.3.5",
+                                    "version_required": ">=6.1.12"
+                                },
+                                {
+                                    "package_name": "jupyter-core",
+                                    "requires": [
+                                        {
+                                            "package_name": "traitlets",
+                                            "version_installed": "5.4.0"
+                                        }
+                                    ],
+                                    "version_installed": "4.11.1",
+                                    "version_required": ">=4.7.0"
+                                },
+                                {
+                                    "package_name": "nbconvert",
+                                    "requires": [
+                                        {
+                                            "package_name": "beautifulsoup4",
+                                            "requires": [
+                                                {
+                                                    "package_name": "soupsieve",
+                                                    "version_installed": "2.3.2",
+                                                    "version_required": ">1.2"
+                                                }
+                                            ],
+                                            "version_installed": "4.11.1"
+                                        },
+                                        {
+                                            "package_name": "bleach",
+                                            "requires": [
+                                                {
+                                                    "package_name": "six",
+                                                    "version_installed": "1.16.0",
+                                                    "version_required": ">=1.9.0"
+                                                },
+                                                {
+                                                    "package_name": "webencodings",
+                                                    "version_installed": "0.5.1"
+                                                }
+                                            ],
+                                            "version_installed": "5.0.1"
+                                        },
+                                        {
+                                            "package_name": "defusedxml",
+                                            "version_installed": "0.7.1"
+                                        },
+                                        {
+                                            "package_name": "importlib-metadata",
+                                            "requires": [
+                                                {
+                                                    "package_name": "zipp",
+                                                    "version_installed": "3.8.1",
+                                                    "version_required": ">=0.5"
+                                                }
+                                            ],
+                                            "version_installed": "4.12.0",
+                                            "version_required": ">=3.6"
+                                        },
+                                        {
+                                            "package_name": "jinja2",
+                                            "requires": [
+                                                {
+                                                    "package_name": "MarkupSafe",
+                                                    "version_installed": "2.1.1",
+                                                    "version_required": ">=2.0"
+                                                }
+                                            ],
+                                            "version_installed": "3.0.3",
+                                            "version_required": ">=3.0"
+                                        },
+                                        {
+                                            "package_name": "jupyter-core",
+                                            "requires": [
+                                                {
+                                                    "package_name": "traitlets",
+                                                    "version_installed": "5.4.0"
+                                                }
+                                            ],
+                                            "version_installed": "4.11.1",
+                                            "version_required": ">=4.7"
+                                        },
+                                        {
+                                            "package_name": "jupyterlab-pygments",
+                                            "version_installed": "0.2.2"
+                                        },
+                                        {
+                                            "package_name": "lxml",
+                                            "version_installed": "4.9.1"
+                                        },
+                                        {
+                                            "package_name": "markupsafe",
+                                            "version_installed": "2.1.1",
+                                            "version_required": ">=2.0"
+                                        },
+                                        {
+                                            "package_name": "mistune",
+                                            "version_installed": "2.0.4",
+                                            "version_required": ">=2.0.3,<3"
+                                        },
+                                        {
+                                            "package_name": "nbclient",
+                                            "requires": [
+                                                {
+                                                    "package_name": "jupyter-client",
+                                                    "requires": [
+                                                        {
+                                                            "package_name": "entrypoints",
+                                                            "version_installed": "0.4"
+                                                        },
+                                                        {
+                                                            "package_name": "jupyter-core",
+                                                            "requires": [
+                                                                {
+                                                                    "package_name": "traitlets",
+                                                                    "version_installed": "5.4.0"
+                                                                }
+                                                            ],
+                                                            "version_installed": "4.11.1",
+                                                            "version_required": ">=4.9.2"
+                                                        },
+                                                        {
+                                                            "package_name": "nest-asyncio",
+                                                            "version_installed": "1.5.5",
+                                                            "version_required": ">=1.5.4"
+                                                        },
+                                                        {
+                                                            "package_name": "python-dateutil",
+                                                            "requires": [
+                                                                {
+                                                                    "package_name": "six",
+                                                                    "version_installed": "1.16.0",
+                                                                    "version_required": ">=1.5"
+                                                                }
+                                                            ],
+                                                            "version_installed": "2.8.2",
+                                                            "version_required": ">=2.8.2"
+                                                        },
+                                                        {
+                                                            "package_name": "pyzmq",
+                                                            "version_installed": "24.0.1",
+                                                            "version_required": ">=23.0"
+                                                        },
+                                                        {
+                                                            "package_name": "tornado",
+                                                            "version_installed": "6.2",
+                                                            "version_required": ">=6.2"
+                                                        },
+                                                        {
+                                                            "package_name": "traitlets",
+                                                            "version_installed": "5.4.0"
+                                                        }
+                                                    ],
+                                                    "version_installed": "7.3.5",
+                                                    "version_required": ">=6.1.5"
+                                                },
+                                                {
+                                                    "package_name": "nbformat",
+                                                    "requires": [
+                                                        {
+                                                            "package_name": "fastjsonschema",
+                                                            "version_installed": "2.16.2"
+                                                        },
+                                                        {
+                                                            "package_name": "jsonschema",
+                                                            "requires": [
+                                                                {
+                                                                    "package_name": "attrs",
+                                                                    "version_installed": "22.1.0",
+                                                                    "version_required": ">=17.4.0"
+                                                                },
+                                                                {
+                                                                    "package_name": "pyrsistent",
+                                                                    "version_installed": "0.18.1",
+                                                                    "version_required": ">=0.14.0,!=0.17.2,!=0.17.1,!=0.17.0"
+                                                                }
+                                                            ],
+                                                            "version_installed": "4.16.0",
+                                                            "version_required": ">=2.6"
+                                                        },
+                                                        {
+                                                            "package_name": "jupyter-core",
+                                                            "requires": [
+                                                                {
+                                                                    "package_name": "traitlets",
+                                                                    "version_installed": "5.4.0"
+                                                                }
+                                                            ],
+                                                            "version_installed": "4.11.1"
+                                                        },
+                                                        {
+                                                            "package_name": "traitlets",
+                                                            "version_installed": "5.4.0",
+                                                            "version_required": ">=5.1"
+                                                        }
+                                                    ],
+                                                    "version_installed": "5.6.0",
+                                                    "version_required": ">=5.0"
+                                                },
+                                                {
+                                                    "package_name": "nest-asyncio",
+                                                    "version_installed": "1.5.5"
+                                                },
+                                                {
+                                                    "package_name": "traitlets",
+                                                    "version_installed": "5.4.0",
+                                                    "version_required": ">=5.2.2"
+                                                }
+                                            ],
+                                            "version_installed": "0.6.8",
+                                            "version_required": ">=0.5.0"
+                                        },
+                                        {
+                                            "package_name": "nbformat",
+                                            "requires": [
+                                                {
+                                                    "package_name": "fastjsonschema",
+                                                    "version_installed": "2.16.2"
+                                                },
+                                                {
+                                                    "package_name": "jsonschema",
+                                                    "requires": [
+                                                        {
+                                                            "package_name": "attrs",
+                                                            "version_installed": "22.1.0",
+                                                            "version_required": ">=17.4.0"
+                                                        },
+                                                        {
+                                                            "package_name": "pyrsistent",
+                                                            "version_installed": "0.18.1",
+                                                            "version_required": ">=0.14.0,!=0.17.2,!=0.17.1,!=0.17.0"
+                                                        }
+                                                    ],
+                                                    "version_installed": "4.16.0",
+                                                    "version_required": ">=2.6"
+                                                },
+                                                {
+                                                    "package_name": "jupyter-core",
+                                                    "requires": [
+                                                        {
+                                                            "package_name": "traitlets",
+                                                            "version_installed": "5.4.0"
+                                                        }
+                                                    ],
+                                                    "version_installed": "4.11.1"
+                                                },
+                                                {
+                                                    "package_name": "traitlets",
+                                                    "version_installed": "5.4.0",
+                                                    "version_required": ">=5.1"
+                                                }
+                                            ],
+                                            "version_installed": "5.6.0",
+                                            "version_required": ">=5.1"
+                                        },
+                                        {
+                                            "package_name": "packaging",
+                                            "requires": [
+                                                {
+                                                    "package_name": "pyparsing",
+                                                    "version_installed": "3.0.9",
+                                                    "version_required": ">=2.0.2,!=3.0.5"
+                                                }
+                                            ],
+                                            "version_installed": "21.3"
+                                        },
+                                        {
+                                            "package_name": "pandocfilters",
+                                            "version_installed": "1.5.0",
+                                            "version_required": ">=1.4.1"
+                                        },
+                                        {
+                                            "package_name": "pygments",
+                                            "version_installed": "2.13.0",
+                                            "version_required": ">=2.4.1"
+                                        },
+                                        {
+                                            "package_name": "tinycss2",
+                                            "requires": [
+                                                {
+                                                    "package_name": "webencodings",
+                                                    "version_installed": "0.5.1",
+                                                    "version_required": ">=0.4"
+                                                }
+                                            ],
+                                            "version_installed": "1.1.1"
+                                        },
+                                        {
+                                            "package_name": "traitlets",
+                                            "version_installed": "5.4.0",
+                                            "version_required": ">=5.0"
+                                        }
+                                    ],
+                                    "version_installed": "7.0.0",
+                                    "version_required": ">=6.4.4"
+                                },
+                                {
+                                    "package_name": "nbformat",
+                                    "requires": [
+                                        {
+                                            "package_name": "fastjsonschema",
+                                            "version_installed": "2.16.2"
+                                        },
+                                        {
+                                            "package_name": "jsonschema",
+                                            "requires": [
+                                                {
+                                                    "package_name": "attrs",
+                                                    "version_installed": "22.1.0",
+                                                    "version_required": ">=17.4.0"
+                                                },
+                                                {
+                                                    "package_name": "pyrsistent",
+                                                    "version_installed": "0.18.1",
+                                                    "version_required": ">=0.14.0,!=0.17.2,!=0.17.1,!=0.17.0"
+                                                }
+                                            ],
+                                            "version_installed": "4.16.0",
+                                            "version_required": ">=2.6"
+                                        },
+                                        {
+                                            "package_name": "jupyter-core",
+                                            "requires": [
+                                                {
+                                                    "package_name": "traitlets",
+                                                    "version_installed": "5.4.0"
+                                                }
+                                            ],
+                                            "version_installed": "4.11.1"
+                                        },
+                                        {
+                                            "package_name": "traitlets",
+                                            "version_installed": "5.4.0",
+                                            "version_required": ">=5.1"
+                                        }
+                                    ],
+                                    "version_installed": "5.6.0",
+                                    "version_required": ">=5.2.0"
+                                },
+                                {
+                                    "package_name": "packaging",
+                                    "requires": [
+                                        {
+                                            "package_name": "pyparsing",
+                                            "version_installed": "3.0.9",
+                                            "version_required": ">=2.0.2,!=3.0.5"
+                                        }
+                                    ],
+                                    "version_installed": "21.3"
+                                },
+                                {
+                                    "package_name": "prometheus-client",
+                                    "version_installed": "0.14.1"
+                                },
+                                {
+                                    "package_name": "pyzmq",
+                                    "version_installed": "24.0.1",
+                                    "version_required": ">=17"
+                                },
+                                {
+                                    "package_name": "Send2Trash",
+                                    "version_installed": "1.8.0"
+                                },
+                                {
+                                    "package_name": "terminado",
+                                    "requires": [
+                                        {
+                                            "package_name": "ptyprocess",
+                                            "version_installed": "0.7.0"
+                                        },
+                                        {
+                                            "package_name": "tornado",
+                                            "version_installed": "6.2",
+                                            "version_required": ">=6.1.0"
+                                        }
+                                    ],
+                                    "version_installed": "0.15.0",
+                                    "version_required": ">=0.8.3"
+                                },
+                                {
+                                    "package_name": "tornado",
+                                    "version_installed": "6.2",
+                                    "version_required": ">=6.1.0"
+                                },
+                                {
+                                    "package_name": "traitlets",
+                                    "version_installed": "5.4.0",
+                                    "version_required": ">=5.1.0"
+                                },
+                                {
+                                    "package_name": "websocket-client",
+                                    "version_installed": "1.4.1"
+                                }
+                            ],
+                            "version_installed": "1.16.0",
+                            "version_required": ">=1.1.2"
+                        }
+                    ],
+                    "version_installed": "1.5.1",
+                    "version_required": ">=1.5.1"
+                },
+                {
                     "package_name": "jupyter-server",
                     "requires": [
                         {
@@ -34271,7 +35342,7 @@
                                                     "version_required": ">=5.1"
                                                 }
                                             ],
-                                            "version_installed": "5.5.0",
+                                            "version_installed": "5.6.0",
                                             "version_required": ">=5.0"
                                         },
                                         {
@@ -34327,7 +35398,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "5.5.0",
+                                    "version_installed": "5.6.0",
                                     "version_required": ">=5.1"
                                 },
                                 {
@@ -34411,7 +35482,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "5.5.0",
+                            "version_installed": "5.6.0",
                             "version_required": ">=5.2.0"
                         },
                         {
@@ -34473,20 +35544,56 @@
                     "version_required": ">=1.16.0,<2"
                 },
                 {
-                    "package_name": "jupyter-ydoc",
+                    "package_name": "jupyter-server-ydoc",
                     "requires": [
                         {
-                            "package_name": "setuptools",
-                            "version_installed": "65.3.0"
+                            "package_name": "jupyter-ydoc",
+                            "requires": [
+                                {
+                                    "package_name": "setuptools",
+                                    "version_installed": "65.3.0"
+                                },
+                                {
+                                    "package_name": "y-py",
+                                    "version_installed": "0.5.4",
+                                    "version_required": ">=0.5.3,<0.6.0"
+                                }
+                            ],
+                            "version_installed": "0.1.17",
+                            "version_required": ">=0.1.16,<0.2.0"
                         },
                         {
-                            "package_name": "y-py",
-                            "version_installed": "0.5.4",
-                            "version_required": ">=0.5.3,<0.6.0"
+                            "package_name": "ypy-websocket",
+                            "requires": [
+                                {
+                                    "package_name": "aiofiles",
+                                    "version_installed": "0.8.0",
+                                    "version_required": ">=0.8.0,<1"
+                                },
+                                {
+                                    "package_name": "aiosqlite",
+                                    "requires": [
+                                        {
+                                            "package_name": "typing-extensions",
+                                            "version_installed": "4.3.0",
+                                            "version_required": ">=3.7.2"
+                                        }
+                                    ],
+                                    "version_installed": "0.17.0",
+                                    "version_required": ">=0.17.0,<1"
+                                },
+                                {
+                                    "package_name": "y-py",
+                                    "version_installed": "0.5.4",
+                                    "version_required": ">=0.5.3,<0.6.0"
+                                }
+                            ],
+                            "version_installed": "0.3.2",
+                            "version_required": ">=0.3.2,<0.4.0"
                         }
                     ],
-                    "version_installed": "0.1.17",
-                    "version_required": ">=0.1.8"
+                    "version_installed": "0.1.11",
+                    "version_required": ">=0.1.9,<0.2.0"
                 },
                 {
                     "package_name": "jupyterlab-server",
@@ -34847,7 +35954,7 @@
                                                             "version_required": ">=5.1"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.0",
+                                                    "version_installed": "5.6.0",
                                                     "version_required": ">=5.0"
                                                 },
                                                 {
@@ -34903,7 +36010,7 @@
                                                     "version_required": ">=5.1"
                                                 }
                                             ],
-                                            "version_installed": "5.5.0",
+                                            "version_installed": "5.6.0",
                                             "version_required": ">=5.1"
                                         },
                                         {
@@ -34987,7 +36094,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "5.5.0",
+                                    "version_installed": "5.6.0",
                                     "version_required": ">=5.2.0"
                                 },
                                 {
@@ -35086,7 +36193,7 @@
                             "version_installed": "2.27.1"
                         }
                     ],
-                    "version_installed": "2.14.0",
+                    "version_installed": "2.15.1",
                     "version_required": ">=2.11.1,<3"
                 },
                 {
@@ -35392,7 +36499,7 @@
                                                             "version_required": ">=5.1"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.0",
+                                                    "version_installed": "5.6.0",
                                                     "version_required": ">=5.0"
                                                 },
                                                 {
@@ -35448,7 +36555,7 @@
                                                     "version_required": ">=5.1"
                                                 }
                                             ],
-                                            "version_installed": "5.5.0",
+                                            "version_installed": "5.6.0",
                                             "version_required": ">=5.1"
                                         },
                                         {
@@ -35532,7 +36639,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "5.5.0",
+                                    "version_installed": "5.6.0",
                                     "version_required": ">=5.2.0"
                                 },
                                 {
@@ -35609,6 +36716,10 @@
                     "version_installed": "21.3"
                 },
                 {
+                    "package_name": "tomli",
+                    "version_installed": "2.0.1"
+                },
+                {
                     "package_name": "tornado",
                     "version_installed": "6.2",
                     "version_required": ">=6.1.0"
@@ -35639,13 +36750,12 @@
                             "version_required": ">=0.5.3,<0.6.0"
                         }
                     ],
-                    "version_installed": "0.3.2",
-                    "version_required": ">=0.1.6"
+                    "version_installed": "0.3.2"
                 }
             ],
             "summary": "JupyterLab computational environment",
-            "version_installed": "4.0.0a25",
-            "version_required": "4.0.0a25"
+            "version_installed": "4.0.0a27",
+            "version_required": "4.0.0a27"
         },
         "jupyterlab-pygments": {
             "level": 1,
@@ -36044,7 +37154,7 @@
                                                     "version_required": ">=5.1"
                                                 }
                                             ],
-                                            "version_installed": "5.5.0",
+                                            "version_installed": "5.6.0",
                                             "version_required": ">=5.0"
                                         },
                                         {
@@ -36100,7 +37210,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "5.5.0",
+                                    "version_installed": "5.6.0",
                                     "version_required": ">=5.1"
                                 },
                                 {
@@ -36184,7 +37294,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "5.5.0",
+                            "version_installed": "5.6.0",
                             "version_required": ">=5.2.0"
                         },
                         {
@@ -36284,8 +37394,8 @@
                 }
             ],
             "summary": "A set of server components for JupyterLab and JupyterLab like applications",
-            "version_installed": "2.14.0",
-            "version_required": "2.14.0"
+            "version_installed": "2.15.1",
+            "version_required": "2.15.1"
         },
         "jupyterlab-widgets": {
             "level": 1,
@@ -37259,7 +38369,7 @@
                                     "version_required": ">=8.3.2"
                                 }
                             ],
-                            "version_installed": "2.21.3",
+                            "version_installed": "2.22.0",
                             "version_required": ">=2.4.1"
                         },
                         {
@@ -37512,8 +38622,8 @@
                 }
             ],
             "summary": "Store and access your passwords safely",
-            "version_installed": "23.9.0",
-            "version_required": "23.9.0"
+            "version_installed": "23.9.2",
+            "version_required": "23.9.2"
         },
         "kivy": {
             "level": 4,
@@ -38029,7 +39139,6 @@
                 "0.4.7"
             ],
             "required_by": [
-                "google-cloud-secret-manager",
                 "pytype"
             ],
             "requires": [
@@ -38489,8 +39598,8 @@
                 }
             ],
             "summary": "Links recognition library with FULL unicode support",
-            "version_installed": "1.0.3",
-            "version_required": "1.0.3"
+            "version_installed": "2.0.0",
+            "version_required": "2.0.0"
         },
         "livereload": {
             "level": 2,
@@ -40191,8 +41300,8 @@
                 }
             ],
             "summary": "Intel\u00ae oneAPI Math Kernel Library",
-            "version_installed": "2022.1.0",
-            "version_required": "2022.1.0"
+            "version_installed": "2022.2.0",
+            "version_required": "2022.2.0"
         },
         "mlagents-envs": {
             "level": 3,
@@ -40413,7 +41522,7 @@
                         }
                     ],
                     "version_installed": "5.0.3",
-                    "version_required": ">=4.0.0,<6"
+                    "version_required": ">=4.0.0,<7"
                 },
                 {
                     "package_name": "entrypoints",
@@ -40467,10 +41576,10 @@
                                 }
                             ],
                             "version_installed": "2.2.2",
-                            "version_required": ">=2.2.0"
+                            "version_required": ">=2.2.2"
                         }
                     ],
-                    "version_installed": "2.2.0",
+                    "version_installed": "2.2.2",
                     "version_required": "<3"
                 },
                 {
@@ -40612,10 +41721,10 @@
                                         }
                                     ],
                                     "version_installed": "2.2.2",
-                                    "version_required": ">=2.2.0"
+                                    "version_required": ">=2.2.2"
                                 }
                             ],
-                            "version_installed": "2.2.0"
+                            "version_installed": "2.2.2"
                         },
                         {
                             "package_name": "prometheus-client",
@@ -40709,8 +41818,8 @@
                 }
             ],
             "summary": "MLflow: A Platform for ML Development and Productionization",
-            "version_installed": "1.28.0",
-            "version_required": "1.28.0"
+            "version_installed": "1.29.0",
+            "version_required": "1.29.0"
         },
         "mlxtend": {
             "level": 4,
@@ -40994,7 +42103,7 @@
                             "version_required": ">=8.3.2"
                         }
                     ],
-                    "version_installed": "2.21.3",
+                    "version_installed": "2.22.0",
                     "version_required": ">=2.5,<3.0"
                 },
                 {
@@ -42434,7 +43543,7 @@
                                                     "version_required": ">=5.1"
                                                 }
                                             ],
-                                            "version_installed": "5.5.0",
+                                            "version_installed": "5.6.0",
                                             "version_required": ">=5.0"
                                         },
                                         {
@@ -42490,7 +43599,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "5.5.0",
+                                    "version_installed": "5.6.0",
                                     "version_required": ">=5.1"
                                 },
                                 {
@@ -42574,7 +43683,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "5.5.0",
+                            "version_installed": "5.6.0",
                             "version_required": ">=5.2.0"
                         },
                         {
@@ -42817,7 +43926,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "5.5.0",
+                                    "version_installed": "5.6.0",
                                     "version_required": ">=5.0"
                                 },
                                 {
@@ -42873,7 +43982,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "5.5.0",
+                            "version_installed": "5.6.0",
                             "version_required": ">=5.1"
                         },
                         {
@@ -42957,7 +44066,7 @@
                             "version_required": ">=5.1"
                         }
                     ],
-                    "version_installed": "5.5.0"
+                    "version_installed": "5.6.0"
                 },
                 {
                     "package_name": "nest-asyncio",
@@ -43267,7 +44376,7 @@
                                                             "version_required": ">=5.1"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.0",
+                                                    "version_installed": "5.6.0",
                                                     "version_required": ">=5.0"
                                                 },
                                                 {
@@ -43323,7 +44432,7 @@
                                                     "version_required": ">=5.1"
                                                 }
                                             ],
-                                            "version_installed": "5.5.0",
+                                            "version_installed": "5.6.0",
                                             "version_required": ">=5.1"
                                         },
                                         {
@@ -43407,7 +44516,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "5.5.0",
+                                    "version_installed": "5.6.0",
                                     "version_required": ">=5.2.0"
                                 },
                                 {
@@ -43514,8 +44623,8 @@
                 }
             ],
             "summary": "A web-based notebook environment for interactive computing",
-            "version_installed": "0.4.2",
-            "version_required": "0.4.2"
+            "version_installed": "0.4.3",
+            "version_required": "0.4.3"
         },
         "nbclient": {
             "level": 4,
@@ -43632,7 +44741,7 @@
                             "version_required": ">=5.1"
                         }
                     ],
-                    "version_installed": "5.5.0",
+                    "version_installed": "5.6.0",
                     "version_required": ">=5.0"
                 },
                 {
@@ -43857,7 +44966,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "5.5.0",
+                            "version_installed": "5.6.0",
                             "version_required": ">=5.0"
                         },
                         {
@@ -43913,7 +45022,7 @@
                             "version_required": ">=5.1"
                         }
                     ],
-                    "version_installed": "5.5.0",
+                    "version_installed": "5.6.0",
                     "version_required": ">=5.1"
                 },
                 {
@@ -44024,8 +45133,8 @@
                 }
             ],
             "summary": "The Jupyter Notebook format",
-            "version_installed": "5.5.0",
-            "version_required": "5.5.0"
+            "version_installed": "5.6.0",
+            "version_required": "5.6.0"
         },
         "nbsphinx": {
             "level": 6,
@@ -44241,7 +45350,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "5.5.0",
+                                    "version_installed": "5.6.0",
                                     "version_required": ">=5.0"
                                 },
                                 {
@@ -44297,7 +45406,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "5.5.0",
+                            "version_installed": "5.6.0",
                             "version_required": ">=5.1"
                         },
                         {
@@ -44381,7 +45490,7 @@
                             "version_required": ">=5.1"
                         }
                     ],
-                    "version_installed": "5.5.0"
+                    "version_installed": "5.6.0"
                 },
                 {
                     "package_name": "sphinx",
@@ -44583,7 +45692,7 @@
                             "version_required": ">1.13.3"
                         }
                     ],
-                    "version_installed": "1.6.1"
+                    "version_installed": "1.6.2"
                 },
                 {
                     "package_name": "numpy",
@@ -45516,7 +46625,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "5.5.0",
+                                    "version_installed": "5.6.0",
                                     "version_required": ">=5.0"
                                 },
                                 {
@@ -45572,7 +46681,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "5.5.0",
+                            "version_installed": "5.6.0",
                             "version_required": ">=5.1"
                         },
                         {
@@ -45656,7 +46765,7 @@
                             "version_required": ">=5.1"
                         }
                     ],
-                    "version_installed": "5.5.0"
+                    "version_installed": "5.6.0"
                 },
                 {
                     "package_name": "nest-asyncio",
@@ -46025,7 +47134,7 @@
                                                     "version_required": ">=5.1"
                                                 }
                                             ],
-                                            "version_installed": "5.5.0",
+                                            "version_installed": "5.6.0",
                                             "version_required": ">=5.0"
                                         },
                                         {
@@ -46081,7 +47190,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "5.5.0",
+                                    "version_installed": "5.6.0",
                                     "version_required": ">=5.1"
                                 },
                                 {
@@ -46165,7 +47274,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "5.5.0",
+                            "version_installed": "5.6.0",
                             "version_required": ">=5.2.0"
                         },
                         {
@@ -46955,8 +48064,8 @@
                 }
             ],
             "summary": "Simplify your ONNX model",
-            "version_installed": "0.4.6",
-            "version_required": "0.4.6"
+            "version_installed": "0.4.8",
+            "version_required": "0.4.8"
         },
         "onnxconverter-common": {
             "level": 3,
@@ -47202,7 +48311,7 @@
                             "version_required": ">=2022.1.1"
                         }
                     ],
-                    "version_installed": "1.4.3.220829",
+                    "version_installed": "1.4.4.220912",
                     "version_required": ">=1.1.0.11"
                 },
                 {
@@ -48048,7 +49157,6 @@
                 "fastcore",
                 "fastparquet",
                 "google-cloud-bigquery",
-                "google-cloud-secret-manager",
                 "holoviews",
                 "huggingface-hub",
                 "ipykernel",
@@ -50065,7 +51173,7 @@
                             "version_installed": "0.12.0"
                         }
                     ],
-                    "version_installed": "4.2",
+                    "version_installed": "4.2.3",
                     "version_required": ">=3.3"
                 },
                 {
@@ -50583,7 +51691,7 @@
                             "version_required": ">=3.7.4.3"
                         }
                     ],
-                    "version_installed": "1.9.1",
+                    "version_installed": "1.9.2",
                     "version_required": ">=1.8.1,<1.10"
                 },
                 {
@@ -50938,8 +52046,8 @@
                 }
             ],
             "summary": "Type annotations for pandas",
-            "version_installed": "1.4.3.220829",
-            "version_required": "1.4.3.220829"
+            "version_installed": "1.4.4.220912",
+            "version_required": "1.4.4.220912"
         },
         "pandera": {
             "level": 4,
@@ -51027,7 +52135,7 @@
                             "version_required": ">=3.7.4.3"
                         }
                     ],
-                    "version_installed": "1.9.1"
+                    "version_installed": "1.9.2"
                 },
                 {
                     "package_name": "typing-inspect",
@@ -53636,10 +54744,10 @@
                                 }
                             ],
                             "version_installed": "2.2.2",
-                            "version_required": ">=2.2.0"
+                            "version_required": ">=2.2.2"
                         }
                     ],
-                    "version_installed": "2.2.0"
+                    "version_installed": "2.2.2"
                 },
                 {
                     "package_name": "prometheus-client",
@@ -54046,6 +55154,7 @@
                 "google-cloud-bigquery-storage",
                 "google-cloud-datastore",
                 "google-cloud-firestore",
+                "google-cloud-secret-manager",
                 "googleapis-common-protos",
                 "grpcio-status",
                 "keras2onnx",
@@ -56207,7 +57316,7 @@
                                 }
                             ],
                             "version_installed": "5.0.3",
-                            "version_required": ">=4.0.0,<6"
+                            "version_required": ">=4.0.0,<7"
                         },
                         {
                             "package_name": "entrypoints",
@@ -56261,10 +57370,10 @@
                                         }
                                     ],
                                     "version_installed": "2.2.2",
-                                    "version_required": ">=2.2.0"
+                                    "version_required": ">=2.2.2"
                                 }
                             ],
-                            "version_installed": "2.2.0",
+                            "version_installed": "2.2.2",
                             "version_required": "<3"
                         },
                         {
@@ -56406,10 +57515,10 @@
                                                 }
                                             ],
                                             "version_installed": "2.2.2",
-                                            "version_required": ">=2.2.0"
+                                            "version_required": ">=2.2.2"
                                         }
                                     ],
-                                    "version_installed": "2.2.0"
+                                    "version_installed": "2.2.2"
                                 },
                                 {
                                     "package_name": "prometheus-client",
@@ -56502,7 +57611,7 @@
                             "version_required": ">=0.4.0,<1"
                         }
                     ],
-                    "version_installed": "1.28.0"
+                    "version_installed": "1.29.0"
                 },
                 {
                     "package_name": "mlxtend",
@@ -57164,7 +58273,7 @@
                                     "version_required": ">=3.7.4.3"
                                 }
                             ],
-                            "version_installed": "1.9.1",
+                            "version_installed": "1.9.2",
                             "version_required": ">=1.8.1,<1.10"
                         },
                         {
@@ -58284,7 +59393,7 @@
                                     "version_required": ">=3.7.4.3"
                                 }
                             ],
-                            "version_installed": "1.9.1",
+                            "version_installed": "1.9.2",
                             "version_required": ">=1.7.4,<1.10.0,!=1.8.1,!=1.8"
                         },
                         {
@@ -58379,7 +59488,7 @@
                                                     "version_required": ">=3.7.4.3"
                                                 }
                                             ],
-                                            "version_installed": "1.9.1",
+                                            "version_installed": "1.9.2",
                                             "version_required": ">=1.7.4,<1.10.0,!=1.8.1,!=1.8"
                                         },
                                         {
@@ -58439,7 +59548,7 @@
                                             "version_required": ">=3.7.4.3"
                                         }
                                     ],
-                                    "version_installed": "1.9.1",
+                                    "version_installed": "1.9.2",
                                     "version_required": ">=1.7.4,<1.10.0,!=1.8.1,!=1.8"
                                 },
                                 {
@@ -59018,8 +60127,8 @@
                 }
             ],
             "summary": "Official APIs for the MS-COCO dataset",
-            "version_installed": "2.0.4",
-            "version_required": "2.0.4"
+            "version_installed": "2.0.5",
+            "version_required": "2.0.5"
         },
         "pycodestyle": {
             "level": 1,
@@ -59186,8 +60295,8 @@
                 }
             ],
             "summary": "Data validation and settings management using python type hints",
-            "version_installed": "1.9.1",
-            "version_required": "1.9.1"
+            "version_installed": "1.9.2",
+            "version_required": "1.9.2"
         },
         "pydata-google-auth": {
             "level": 5,
@@ -60180,8 +61289,8 @@
                 }
             ],
             "summary": "Display module dependencies",
-            "version_installed": "1.10.22",
-            "version_required": "1.10.22"
+            "version_installed": "1.10.24",
+            "version_required": "1.10.24"
         },
         "pydicom": {
             "level": 1,
@@ -60478,10 +61587,14 @@
                                         }
                                     ],
                                     "version_installed": "0.20.4",
-                                    "version_required": ">=0.9.1"
+                                    "version_required": ">=0.15.0"
+                                },
+                                {
+                                    "package_name": "six",
+                                    "version_installed": "1.16.0"
                                 }
                             ],
-                            "version_installed": "0.0.3",
+                            "version_installed": "0.1.0",
                             "version_required": ">=0.0.3"
                         },
                         {
@@ -62396,7 +63509,7 @@
                                             "version_required": ">1.13.3"
                                         }
                                     ],
-                                    "version_installed": "1.6.1"
+                                    "version_installed": "1.6.2"
                                 },
                                 {
                                     "package_name": "numpy",
@@ -64105,7 +65218,7 @@
                             "version_required": ">=1.0,<2.0"
                         }
                     ],
-                    "version_installed": "3.8.1",
+                    "version_installed": "3.8.3",
                     "version_required": ">=3.6,<4.0"
                 },
                 {
@@ -64191,7 +65304,7 @@
                                     "version_required": ">=1.0,<2.0"
                                 }
                             ],
-                            "version_installed": "3.8.1",
+                            "version_installed": "3.8.3",
                             "version_required": ">=3.7,<4.0"
                         },
                         {
@@ -65132,8 +66245,8 @@
                 }
             ],
             "summary": "PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate",
-            "version_installed": "1.7.4",
-            "version_required": "1.7.4"
+            "version_installed": "1.7.6",
+            "version_required": "1.7.6"
         },
         "pytorch-ranger": {
             "level": 3,
@@ -65271,8 +66384,8 @@
                 }
             ],
             "summary": "Python type inferencer",
-            "version_installed": "2022.8.30",
-            "version_required": "2022.8.30"
+            "version_installed": "2022.9.19",
+            "version_required": "2022.9.19"
         },
         "pytz": {
             "level": 1,
@@ -67316,7 +68429,7 @@
                                     "version_required": ">=3.7.4.3"
                                 }
                             ],
-                            "version_installed": "1.9.1"
+                            "version_installed": "1.9.2"
                         },
                         {
                             "package_name": "typing-inspect",
@@ -67715,7 +68828,7 @@
                             "version_required": ">=4.27"
                         }
                     ],
-                    "version_installed": "4.22.0",
+                    "version_installed": "4.22.1",
                     "version_required": ">=2.5.0,<5"
                 }
             ],
@@ -68985,7 +70098,7 @@
                             "version_required": ">=1.25.4,<1.27"
                         }
                     ],
-                    "version_installed": "1.27.72",
+                    "version_installed": "1.27.75",
                     "version_required": ">=1.12.36,<2.0a.0"
                 }
             ],
@@ -69147,7 +70260,7 @@
                             "version_required": ">=8.3.2"
                         }
                     ],
-                    "version_installed": "2.21.3",
+                    "version_installed": "2.22.0",
                     "version_required": ">=2.4.1"
                 },
                 {
@@ -70501,6 +71614,7 @@
                 "glog",
                 "google-api-python-client",
                 "google-auth",
+                "google-auth-httplib2",
                 "google-pasta",
                 "gpustat",
                 "grpcio",
@@ -71131,7 +72245,7 @@
                             "version_required": ">=3.7.4.3"
                         }
                     ],
-                    "version_installed": "1.9.1",
+                    "version_installed": "1.9.2",
                     "version_required": ">=1.7.4,<1.10.0,!=1.8.1,!=1.8"
                 },
                 {
@@ -71226,7 +72340,7 @@
                                             "version_required": ">=3.7.4.3"
                                         }
                                     ],
-                                    "version_installed": "1.9.1",
+                                    "version_installed": "1.9.2",
                                     "version_required": ">=1.7.4,<1.10.0,!=1.8.1,!=1.8"
                                 },
                                 {
@@ -71286,7 +72400,7 @@
                                     "version_required": ">=3.7.4.3"
                                 }
                             ],
-                            "version_installed": "1.9.1",
+                            "version_installed": "1.9.2",
                             "version_required": ">=1.7.4,<1.10.0,!=1.8.1,!=1.8"
                         },
                         {
@@ -71507,7 +72621,7 @@
                                     "version_required": ">=3.7.4.3"
                                 }
                             ],
-                            "version_installed": "1.9.1",
+                            "version_installed": "1.9.2",
                             "version_required": ">=1.7.4,<1.10.0,!=1.8.1,!=1.8"
                         },
                         {
@@ -71602,7 +72716,7 @@
                                                     "version_required": ">=3.7.4.3"
                                                 }
                                             ],
-                                            "version_installed": "1.9.1",
+                                            "version_installed": "1.9.2",
                                             "version_required": ">=1.7.4,<1.10.0,!=1.8.1,!=1.8"
                                         },
                                         {
@@ -71662,7 +72776,7 @@
                                             "version_required": ">=3.7.4.3"
                                         }
                                     ],
-                                    "version_installed": "1.9.1",
+                                    "version_installed": "1.9.2",
                                     "version_required": ">=1.7.4,<1.10.0,!=1.8.1,!=1.8"
                                 },
                                 {
@@ -72925,8 +74039,8 @@
                 }
             ],
             "summary": "Pure python SSH tunnels",
-            "version_installed": "0.3.0",
-            "version_required": "0.3.0"
+            "version_installed": "0.3.2",
+            "version_required": "0.3.2"
         },
         "stable-baselines3": {
             "level": 4,
@@ -73246,8 +74360,8 @@
                 }
             ],
             "summary": "The little ASGI library that shines",
-            "version_installed": "0.19.1",
-            "version_required": "0.19.1"
+            "version_installed": "0.20.4",
+            "version_required": "0.20.4"
         },
         "statsmodels": {
             "level": 4,
@@ -75019,8 +76133,8 @@
                 }
             ],
             "summary": "TensorFlow Addons",
-            "version_installed": "0.17.1",
-            "version_required": "0.17.1"
+            "version_installed": "0.18.0",
+            "version_required": "0.18.0"
         },
         "tensorflow-datasets": {
             "level": 4,
@@ -76280,10 +77394,14 @@
                                         }
                                     ],
                                     "version_installed": "0.20.4",
-                                    "version_required": ">=0.9.1"
+                                    "version_required": ">=0.15.0"
+                                },
+                                {
+                                    "package_name": "six",
+                                    "version_installed": "1.16.0"
                                 }
                             ],
-                            "version_installed": "0.0.3",
+                            "version_installed": "0.1.0",
                             "version_required": ">=0.0.3"
                         },
                         {
@@ -76634,7 +77752,7 @@
                             "version_installed": "1.21.6"
                         }
                     ],
-                    "version_installed": "2.0.4"
+                    "version_installed": "2.0.5"
                 },
                 {
                     "package_name": "pyyaml",
@@ -77166,7 +78284,7 @@
                             "version_required": ">=2.7"
                         }
                     ],
-                    "version_installed": "0.17.1"
+                    "version_installed": "0.18.0"
                 },
                 {
                     "package_name": "tensorflow-datasets",
@@ -77870,8 +78988,8 @@
                 }
             ],
             "summary": "Tensorflow to ONNX converter",
-            "version_installed": "1.12.0",
-            "version_required": "1.12.0"
+            "version_installed": "1.12.1",
+            "version_required": "1.12.1"
         },
         "theano": {
             "level": 3,
@@ -77968,7 +79086,7 @@
                                     "version_required": ">=3.7.4.3"
                                 }
                             ],
-                            "version_installed": "1.9.1",
+                            "version_installed": "1.9.2",
                             "version_required": ">=1.7.4,<1.10.0,!=1.8.1,!=1.8"
                         },
                         {
@@ -78028,7 +79146,7 @@
                             "version_required": ">=3.7.4.3"
                         }
                     ],
-                    "version_installed": "1.9.1",
+                    "version_installed": "1.9.2",
                     "version_required": ">=1.7.4,<1.10.0,!=1.8.1,!=1.8"
                 },
                 {
@@ -78233,8 +79351,8 @@
                 }
             ],
             "summary": "Pythonic interface to the TileDB array storage manager",
-            "version_installed": "0.17.1",
-            "version_required": "0.17.1"
+            "version_installed": "0.17.3",
+            "version_required": "0.17.3"
         },
         "tinycss2": {
             "level": 2,
@@ -78356,6 +79474,7 @@
             "required_by": [
                 "black",
                 "build",
+                "jupyterlab",
                 "mypy",
                 "pep517",
                 "pyanalyze",
@@ -79067,8 +80186,8 @@
                 }
             ],
             "summary": "State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow",
-            "version_installed": "4.22.0",
-            "version_required": "4.22.0"
+            "version_installed": "4.22.1",
+            "version_required": "4.22.1"
         },
         "translationstring": {
             "level": 1,
@@ -79425,7 +80544,7 @@
                             "version_required": ">=1.0,<2.0"
                         }
                     ],
-                    "version_installed": "3.8.1"
+                    "version_installed": "3.8.3"
                 },
                 {
                     "package_name": "aiohttp-socks",
@@ -79488,7 +80607,7 @@
                                     "version_required": ">=1.0,<2.0"
                                 }
                             ],
-                            "version_installed": "3.8.1",
+                            "version_installed": "3.8.3",
                             "version_required": ">=2.3.2"
                         },
                         {
@@ -79539,7 +80658,7 @@
                             "version_required": ">=8,<9"
                         }
                     ],
-                    "version_installed": "8.4.1"
+                    "version_installed": "8.4.2"
                 },
                 {
                     "package_name": "fake-useragent",
@@ -80560,8 +81679,8 @@
                 }
             ],
             "summary": "Virtual Python Environment builder",
-            "version_installed": "20.16.4",
-            "version_required": "20.16.4"
+            "version_installed": "20.16.5",
+            "version_required": "20.16.5"
         },
         "visions": {
             "level": 4,
@@ -82771,6 +83890,7 @@
                 "0.1.8"
             ],
             "required_by": [
+                "jupyter-server-ydoc",
                 "jupyterlab"
             ],
             "requires": [
@@ -82848,7 +83968,7 @@
                         }
                     ],
                     "version_installed": "0.10.2",
-                    "version_required": ">=0.6.4"
+                    "version_required": ">=0.10.0"
                 },
                 {
                     "package_name": "numpy",
@@ -82857,8 +83977,8 @@
                 }
             ],
             "summary": "An implementation of chunked, compressed, N-dimensional arrays for Python",
-            "version_installed": "2.12.0",
-            "version_required": "2.12.0"
+            "version_installed": "2.13.0",
+            "version_required": "2.13.0"
         },
         "zeep": {
             "level": 4,
