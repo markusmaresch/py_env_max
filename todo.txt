@@ -10,9 +10,13 @@ replace with call, add os:
     scripts_cmd.py:13:        db_name = '{}.json'.format(env_name)
     statistics.py:13:        db_name = '{}.json'.format(env_name)
 
+Install:
+    opencv-contrib-python ??
+
 Also:
     consider flag in requirements
         a==1.2.3 ; sys_platform == "win32"  # flag those internally
+        b==4.5.6 ; sys_platform != 'darwin'
 
 Next Steps:
     - need to split JSONs by OS, then add transfer, merge and so on ...
