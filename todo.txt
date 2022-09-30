@@ -1,6 +1,15 @@
 #
 #
 #
+Bugs
+    * when collecting releases_recent, it seems to keep 10.
+        Of those all could be 'a' or 'b' releases, so we need to keep more or back until we get a good release
+    * remove yanked releases from releases_recent list
+
+Features:
+    Install new packages: a=1.0 b=2.0 c=3.0 .. or form of requirements
+        Use --dry-run, attempt and roll back if not sucessfull
+
 Address topic of moving environment from Windows -> Linux, ...
 
 replace with call, add os:
