@@ -10298,6 +10298,9 @@
                 "19.19.0",
                 "19.18.0"
             ],
+            "required_by": [
+                "face-recognition"
+            ],
             "summary": "A toolkit for making real world machine learning and data analysis applications",
             "version_installed": "19.24.0",
             "version_required": "19.24.0"
@@ -11276,6 +11279,67 @@
             "summary": "Get the currently executing AST node of a frame, and other information",
             "version_installed": "1.1.0",
             "version_required": "1.1.0"
+        },
+        "face-recognition": {
+            "level": 3,
+            "package_name": "face-recognition",
+            "releases_checked_time": 1664649516,
+            "releases_recent": [
+                "1.3.0",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.1.0",
+                "1.0.0",
+                "0.2.2",
+                "0.2.1",
+                "0.2.0",
+                "0.1.14"
+            ],
+            "requires": [
+                {
+                    "package_name": "Click",
+                    "version_installed": "8.1.3",
+                    "version_required": ">=6.0"
+                },
+                {
+                    "package_name": "dlib",
+                    "version_installed": "19.24.0",
+                    "version_required": ">=19.7"
+                },
+                {
+                    "package_name": "face-recognition-models",
+                    "version_installed": "0.3.0",
+                    "version_required": ">=0.3.0"
+                },
+                {
+                    "package_name": "numpy",
+                    "version_installed": "1.21.6"
+                },
+                {
+                    "package_name": "Pillow",
+                    "version_installed": "9.2.0"
+                }
+            ],
+            "summary": "Recognize faces from Python or from the command line",
+            "version_installed": "1.3.0",
+            "version_required": "1.3.0"
+        },
+        "face-recognition-models": {
+            "level": 1,
+            "package_name": "face-recognition-models",
+            "releases_checked_time": 1664649516,
+            "releases_recent": [
+                "0.3.0",
+                "0.2.0",
+                "0.1.3"
+            ],
+            "required_by": [
+                "face-recognition"
+            ],
+            "summary": "Models used by the face_recognition package",
+            "version_installed": "0.3.0",
+            "version_required": "0.3.0"
         },
         "faiss-cpu": {
             "level": 1,
@@ -35985,6 +36049,7 @@
                 "ecos",
                 "eventkit",
                 "exchange-calendars",
+                "face-recognition",
                 "fastcluster",
                 "fastdtw",
                 "folium",
