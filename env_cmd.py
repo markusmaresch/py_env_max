@@ -292,12 +292,13 @@ class EnvCmd:
         releases_max = 50  # no limit
         debug_helper = False
         debug_already_latest = False
-        updated = dict()
+        updated_all = dict()
 
         for it in range(1, max_iterations + 1):
             print('upd_all: {} .. {}/{}: start'.format(env_name, it, max_iterations))
             level = 0
             stop = False
+            updated_iter = dict()
             while level < 100:
                 level += 1
                 pip_checked = False
@@ -382,7 +383,8 @@ class EnvCmd:
                             for pack in installed.keys():
                                 # affected_set.add(pack)
                                 vers = installed[pack]
-                                updated[pack] = vers
+                                updated_all[pack] = vers
+                                updated_iter[pack] = vers
                                 print('Installed: {}=={}'.format(pack, vers))
                             # for
                             break
@@ -446,13 +448,21 @@ class EnvCmd:
                 # fi
             # for level
 
+            iter_updated = len(updated_iter.items())
+            if iter_updated < 1:
+                print('upd_all: {} .. {}/{}: no updates ..'.format(env_name, it, max_iterations))
+                stop = True
+            else:
+                print('upd_all: {} .. {}/{}: {} updates'.format(env_name, it, max_iterations, iter_updated))
+
             print('upd_all: {} .. {}/{}: end'.format(env_name, it, max_iterations))
             if stop:
                 print('upd_all: {} .. {}/{}: stop !'.format(env_name, it, max_iterations))
                 break
             # fi
+
         # for iteration
-        items = updated.items()
+        items = updated_all.items()
         if len(items) > 0:
             print()
             for pack, vers in items:
