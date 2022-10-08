@@ -32,7 +32,7 @@ class PyPiCmd:
         return None
 
     @staticmethod
-    def get_releases(name: str, keep: int = 20) -> typing.Union[typing.Dict, object]:
+    def get_releases(name: str, keep: int = 40) -> typing.Union[typing.Dict, object]:
         js = PyPiCmd.get_pypi_json(name)
         if js is None:
             return None
@@ -56,7 +56,7 @@ class PyPiCmd:
 
     @staticmethod
     def get_release_one(name: str, index: int, result: [typing.Dict]):
-        rd = PyPiCmd.get_releases(name=name, keep=10)
+        rd = PyPiCmd.get_releases(name=name)
         c = 'x' if rd is None else '.'
         result[index] = rd
         print(c, end='' if random.random() > 1.0 / 20.0 else '\n', flush=True)
@@ -113,6 +113,8 @@ class PyPiCmd:
                 if threading.active_count() > 15:
                     time.sleep(0.5)
                 if threading.active_count() > 20:
+                    time.sleep(0.5)
+                if threading.active_count() > 25:
                     time.sleep(0.5)
                 # print('ac: {}: {}'.format(i, threading.active_count()))
             # for

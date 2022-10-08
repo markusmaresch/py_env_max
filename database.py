@@ -121,22 +121,6 @@ class Database:
         return self.tables[self.PACKAGES]
 
     def package_set(self, table: dict, key: str, p: dict) -> bool:
-        def reduce_requires_list(pk1: list) -> list:
-            return pk1
-            # may cause problems below
-            seen = set()
-            a2 = [r['package_name'] for r in pk1]
-            duplicate_names = set([x2 for x2 in a2 if x2 in seen or seen.add(x2)])
-            if len(duplicate_names) < 1:
-                return pk1
-            pk = []
-            for dup in duplicate_names:
-                a3 = [r for r in pk1 if r['package_name'] == dup]
-                take = a3[-1]  # take the last entry, could be improved
-                pk.append(take)
-            # for
-            return pk
-
         # map from pip's name to our own ones
         # here: key, package_name, version_installed, version_required
         # also merge updates
@@ -155,12 +139,7 @@ class Database:
                 if table_key_sub_k == p[k]:
                     # no need to update
                     continue
-            if k == Database.REQUIRES or type(p[k]) is list and len(p[k] > 1):
-                # reduce all dicts in p[k] with same package_name and version_installed
-                # p_k = reduce_requires_list(p[k])
-                table_key[k] = p[k]
-            else:
-                table_key[k] = p[k]
+            table_key[k] = p[k]
             self.set_dirty(True, reason='update {}/{}'.format(key, k))
         return True
 
