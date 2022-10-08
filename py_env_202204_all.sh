@@ -219,13 +219,13 @@ pip check
 # Level 5
 pip install albumentations==1.3.0 azure-storage-blob==12.13.1 boto3==1.24.79 category-encoders==1.3.0 cornac==1.14.2 cvxpy==1.2.1 dash==2.6.2 dask-ml==2022.5.27
 pip check
-pip install etuples==0.3.8 google-api-python-client==2.63.0 google-cloud-bigquery-storage==2.13.2 google-cloud-core==2.3.2 gspread==5.5.0 ipykernel==6.16.0 missingno==0.5.1 mlflow==1.29.0
+pip install etuples==0.3.8 google-api-python-client==2.63.0 google-cloud-bigquery-storage==2.13.2 google-cloud-core==2.3.2 gspread==5.5.0 invisible-watermark==0.1.5 ipykernel==6.16.0 missingno==0.5.1
 pip check
-pip install nbconvert==7.0.0 pandas-market-calendars==4.0 plotnine==0.9.0 pmdarima==2.0.1 prophet==1.1.1 pydata-google-auth==1.4.0 pyldavis==3.3.1 pyod==1.0.5
+pip install mlflow==1.29.0 nbconvert==7.0.0 pandas-market-calendars==4.0 plotnine==0.9.0 pmdarima==2.0.1 prophet==1.1.1 pydata-google-auth==1.4.0 pyldavis==3.3.1
 pip check
-pip install rapidminer==9.10.0.0 rapids==0.0.1 selenium==4.5.0 spacy==3.4.1 sshtunnel==0.4.0 tensorboard==2.9.1 twint==2.1.20 umap-learn==0.5.3
+pip install pyod==1.0.5 rapidminer==9.10.0.0 rapids==0.0.1 selenium==4.5.0 spacy==3.4.1 sshtunnel==0.4.0 tensorboard==2.9.1 twint==2.1.20
 pip check
-pip install xarray-einstats==0.3.0 zope-index==5.2.1
+pip install umap-learn==0.5.3 xarray-einstats==0.3.0 zope-index==5.2.1
 pip check
 # Level 5
 # Level 6
