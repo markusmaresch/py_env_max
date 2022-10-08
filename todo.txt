@@ -8,7 +8,9 @@ Bugs
 
 Features:
     Install new packages: a=1.0 b=2.0 c=3.0 .. or form of requirements
-        Use --dry-run, attempt and roll back if not sucessfull
+        Use --dry-run, attempt and roll back if not sucessful
+        Parse: Would install x1==2.6.0 x2==4.21.7
+            If more than one -> danger
 
 Address topic of moving environment from Windows -> Linux, ...
 
@@ -18,9 +20,6 @@ replace with call, add os:
     req_cmd.py:19:        db_name = '{}.json'.format(env_name)
     scripts_cmd.py:13:        db_name = '{}.json'.format(env_name)
     statistics.py:13:        db_name = '{}.json'.format(env_name)
-
-Install:
-    opencv-contrib-python ??
 
 Also:
     consider flag in requirements
