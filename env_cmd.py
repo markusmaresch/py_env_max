@@ -316,6 +316,9 @@ class EnvCmd:
                         releases_recent = db.package_get_releases_recent(package, release_filter=rf)
                         if releases_recent and len(releases_recent) > 0:
                             break
+                        print('upd_all: {} .. {}/{}: {}: {}: {} need to open release filter after {}'
+                              .format(env_name, it, max_iterations, level, package, version_required, rf.name))
+                        continue
                     # for
 
                     if releases_recent is None or len(releases_recent) < 1:

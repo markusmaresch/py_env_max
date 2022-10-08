@@ -79,19 +79,19 @@ pip install sphinxcontrib-jsmath==1.0.1 sphinxcontrib-qthelp==1.0.3 sphinxcontri
 pip check
 pip install tbb==2021.5.0 tblib==1.7.0 tenacity==8.1.0 tensorboard-data-server==0.6.1 tensorboard-plugin-wit==1.8.1 tensorflow-estimator==2.9.0 tensorflow-gcs-config==2.9.1 tensorflow-io-gcs-filesystem==0.27.0
 pip check
-pip install termcolor==2.0.1 termcolor-whl==1.1.2 testpath==0.6.0 text-unidecode==1.3 texttable==1.6.4 tf-estimator-nightly==2.11.0.dev2022092508 threadpoolctl==3.1.0 tinydb==4.7.0
+pip install termcolor==2.0.1 termcolor-whl==1.1.2 testpath==0.6.0 text-unidecode==1.3 texttable==1.6.4 threadpoolctl==3.1.0 tinydb==4.7.0 tokenizers==0.12.1
 pip check
-pip install tokenizers==0.12.1 toml==0.10.2 tomli==2.0.1 tomlkit==0.11.5 toolz==0.12.0 torchsummary==1.5.1 tornado==6.2 traitlets==5.4.0
+pip install toml==0.10.2 tomli==2.0.1 tomlkit==0.11.5 toolz==0.12.0 torchsummary==1.5.1 tornado==6.2 traitlets==5.4.0 translationstring==1.4
 pip check
-pip install translationstring==1.4 typed-ast==1.5.4 typeguard==2.13.3 types-pytz==2022.2.1.0 typing-extensions==4.3.0 tzdata==2022.4 ua-parser==0.16.1 uc-micro-py==1.0.1
+pip install typed-ast==1.5.4 typeguard==2.13.3 types-pytz==2022.2.1.0 typing-extensions==4.3.0 tzdata==2022.4 ua-parser==0.16.1 uc-micro-py==1.0.1 ujson==5.5.0
 pip check
-pip install ujson==5.5.0 unidecode==1.3.5 uritemplate==4.1.0 urllib3==1.26.12 uuid==1.30 venusian==3.0.0 vine==5.0.0 waitress==2.1.2
+pip install unidecode==1.3.5 uritemplate==4.1.0 urllib3==1.26.12 uuid==1.30 venusian==3.0.0 vine==5.0.0 waitress==2.1.2 wasabi==0.10.1
 pip check
-pip install wasabi==0.10.1 wcwidth==0.2.5 webcolors==1.12 webencodings==0.5.1 webob==1.8.7 websocket-client==1.4.1 websockets==10.3 wheel==0.37.1
+pip install wcwidth==0.2.5 webcolors==1.12 webencodings==0.5.1 webob==1.8.7 websocket-client==1.4.1 websockets==10.3 wheel==0.37.1 widgetsnbextension==4.0.3
 pip check
-pip install widgetsnbextension==4.0.3 wincertstore==0.2 wireless==0.3.3 wrapt==1.14.1 xlrd==2.0.1 xlsxwriter==3.0.3 xlwt==1.3.0 xxhash==3.0.0
+pip install wincertstore==0.2 wireless==0.3.3 wrapt==1.14.1 xlrd==2.0.1 xlsxwriter==3.0.3 xlwt==1.3.0 xxhash==3.0.0 y-py==0.5.4
 pip check
-pip install y-py==0.5.4 zipp==3.8.1 zstd==1.5.2.6
+pip install zipp==3.8.1 zstd==1.5.2.6
 pip check
 # Level 1
 # Level 2
