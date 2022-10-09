@@ -19,79 +19,79 @@ pip install cython==0.29.32 dacktool==0.0.7 dash-core-components==2.0.0 dash-htm
 pip check
 pip install decorator==4.4.2 defusedxml==0.7.1 dill==0.3.5.1 distlib==0.3.6 dlib==19.24.0 dlpack==0.1 dm-tree==0.1.7 dnspython==2.2.1
 pip check
-pip install docutils==0.17.1 doublemetaphone==1.1 easydict==1.10 editdistance==0.6.0 einops==0.5.0 emoji==2.1.0 entrypoints==0.4 ephem==4.1.3
+pip install docutils==0.17.1 doublemetaphone==1.1 easydict==1.10 easyprocess==1.1 editdistance==0.6.0 einops==0.5.0 emoji==2.1.0 entrypoint2==1.1
 pip check
-pip install et-xmlfile==1.1.0 etils==0.8.0 exceptiongroup==1.0.0rc8 executing==1.1.1 face-recognition-models==0.3.0 faiss-cpu==1.7.2 fake-useragent==0.1.11 fast-ctc-decode==0.3.2
+pip install entrypoints==0.4 ephem==4.1.3 et-xmlfile==1.1.0 etils==0.8.0 exceptiongroup==1.0.0rc8 executing==1.1.1 face-recognition-models==0.3.0 faiss-cpu==1.7.2
 pip check
-pip install fastavro==1.6.1 fasteners==0.18 fastjsonschema==2.16.2 fastprogress==1.0.3 fastrlock==0.8 ffmpy==0.3.0 filelock==3.8.0 flatbuffers==1.12
+pip install fake-useragent==0.1.11 fast-ctc-decode==0.3.2 fastavro==1.6.1 fasteners==0.18 fastjsonschema==2.16.2 fastprogress==1.0.3 fastrlock==0.8 ffmpy==0.3.0
 pip check
-pip install fonttools==4.37.4 freetype-py==2.3.0 frozenlist==1.3.1 fsspec==2022.8.2 funcy==1.17 future==0.18.2 gast==0.4.0 geographiclib==1.52
+pip install filelock==3.8.0 flatbuffers==1.12 fonttools==4.37.4 freetype-py==2.3.0 frozenlist==1.3.1 fsspec==2022.8.2 funcy==1.17 future==0.18.2
 pip check
-pip install gin-config==0.5.0 git-lfs==1.6 glib==1.0.0 glob2==0.7 google-crc32c==1.3.0 googledrivedownloader==0.4 gprof2dot==2022.7.29 gputil==1.4.0
+pip install gast==0.4.0 geographiclib==1.52 gin-config==0.5.0 git-lfs==1.6 glib==1.0.0 glob2==0.7 google-crc32c==1.3.0 googledrivedownloader==0.4
 pip check
-pip install graphviz==0.20.1 greenlet==1.1.3 gym-notices==0.0.8 h11==0.12.0 haversine==2.7.0 heapdict==1.0.1 hijri-converter==2.2.4 hiredis==2.0.0
+pip install gprof2dot==2022.7.29 gputil==1.4.0 graphviz==0.20.1 greenlet==1.1.3 gym-notices==0.0.8 h11==0.12.0 haversine==2.7.0 heapdict==1.0.1
 pip check
-pip install hsluv==5.0.3 htmlmin==0.1.12 httpimport==0.7.2 humanize==4.4.0 hupper==1.10.3 icu==0.0.1 idna==3.4 imageio-ffmpeg==0.4.7
+pip install hijri-converter==2.2.4 hiredis==2.0.0 hsluv==5.0.3 htmlmin==0.1.12 httpimport==0.7.2 humanize==4.4.0 hupper==1.10.3 icu==0.0.1
 pip check
-pip install imagesize==1.4.1 immutabledict==2.2.1 imutils==0.5.4 iniconfig==1.1.1 intel-openmp==2022.0.0 ipython-genutils==0.2.0 iso8601==1.1.0 itsdangerous==2.1.2
+pip install idna==3.4 imageio-ffmpeg==0.4.7 imagesize==1.4.1 immutabledict==2.2.1 imutils==0.5.4 iniconfig==1.1.1 intel-openmp==2022.0.0 ipython-genutils==0.2.0
 pip check
-pip install jdcal==1.4.1 jeepney==0.8.0 jieba==0.42.1 jmespath==1.0.1 joblib==1.1.0 json-rpc==1.13.0 json5==0.9.10 jsonpickle==2.2.0
+pip install iso8601==1.1.0 itsdangerous==2.1.2 jdcal==1.4.1 jeepney==0.8.0 jieba==0.42.1 jmespath==1.0.1 joblib==1.1.0 json-rpc==1.13.0
 pip check
-pip install jstyleson==0.0.2 jupyterlab-pygments==0.2.2 jupyterlab-widgets==3.0.3 keras==2.9.0 kiwisolver==1.4.4 korean-lunar-calendar==0.3.1 langcodes==3.3.0 levenshtein-search==1.4.5
+pip install json5==0.9.10 jsonpickle==2.2.0 jstyleson==0.0.2 jupyterlab-pygments==0.2.2 jupyterlab-widgets==3.0.3 keras==2.9.0 kiwisolver==1.4.4 korean-lunar-calendar==0.3.1
 pip check
-pip install libclang==14.0.6 llvmlite==0.39.1 locket==1.0.0 lockfile==0.12.2 logbook==1.5.3 lxml==4.9.1 lz4==4.0.2 markdown2==2.4.5
+pip install langcodes==3.3.0 levenshtein-search==1.4.5 libclang==14.0.6 llvmlite==0.39.1 locket==1.0.0 lockfile==0.12.2 logbook==1.5.3 lxml==4.9.1
 pip check
-pip install markupsafe==2.1.1 mccabe==0.7.0 mdurl==0.1.1 mistune==2.0.4 mock==4.0.3 monotonic==1.6 more-itertools==8.14.0 mpmath==1.2.1
+pip install lz4==4.0.2 markdown2==2.4.5 markupsafe==2.1.1 mccabe==0.7.0 mdurl==0.1.1 mistune==2.0.4 mock==4.0.3 monotonic==1.6
 pip check
-pip install msgpack==1.0.4 msgpack-python==0.5.6 multidict==6.0.2 multimethod==1.8 multitasking==0.0.11 murmurhash==1.0.8 mypy-extensions==0.4.3 natsort==8.2.0
+pip install more-itertools==8.14.0 mpmath==1.2.1 msgpack==1.0.4 msgpack-python==0.5.6 mss==6.1.0 multidict==6.0.2 multimethod==1.8 multitasking==0.0.11
 pip check
-pip install nest-asyncio==1.5.6 netifaces==0.11.0 netron==6.0.9 networkx==2.8.7 ninja==1.10.2.4 nose==1.3.7 numpy==1.21.6 nvidia-ml-py==11.495.46
+pip install murmurhash==1.0.8 mypy-extensions==0.4.3 natsort==8.2.0 nest-asyncio==1.5.6 netifaces==0.11.0 netron==6.0.9 networkx==2.8.7 ninja==1.10.2.4
 pip check
-pip install nvidia-ml-py3==7.352.0 oandapyv20==0.7.2 oauthlib==3.2.1 okgrade==0.4.3 olefile==0.46 opencensus-context==0.1.3 optional-django==0.1.0 orjson==3.8.0
+pip install nose==1.3.7 numpy==1.21.6 nvidia-ml-py==11.495.46 nvidia-ml-py3==7.352.0 oandapyv20==0.7.2 oauthlib==3.2.1 okgrade==0.4.3 olefile==0.46
 pip check
-pip install palettable==3.3.0 pandocfilters==1.5.0 param==1.12.2 parso==0.8.3 pastel==0.2.1 pathlib==1.0.1 pathspec==0.10.1 pathtools==0.1.2
+pip install opencensus-context==0.1.3 optional-django==0.1.0 orjson==3.8.0 pafy==0.5.5 palettable==3.3.0 pandocfilters==1.5.0 param==1.12.2 parso==0.8.3
 pip check
-pip install persist-queue==0.8.0 pickleshare==0.7.5 pillow==9.2.0 pip==22.2.2 pipdeptree==2.3.1 platformdirs==2.5.2 pluggy==1.0.0 ply==3.11
+pip install pastel==0.2.1 pathlib==1.0.1 pathspec==0.10.1 pathtools==0.1.2 persist-queue==0.8.0 pickleshare==0.7.5 pillow==9.2.0 pip==22.2.2
 pip check
-pip install progress==1.6 prometheus-client==0.14.1 protobuf==3.19.6 psutil==5.9.2 psycopg2-binary==2.9.4 ptyprocess==0.7.0 pulp==2.6.0 pure-eval==0.2.2
+pip install pipdeptree==2.3.1 platformdirs==2.5.2 pluggy==1.0.0 ply==3.11 progress==1.6 prometheus-client==0.14.1 protobuf==3.19.6 psutil==5.9.2
 pip check
-pip install py==1.11.0 py-cpuinfo==8.0.0 py-params==0.10.2 py-spy==0.3.14 py4j==0.10.9.7 pyasn1==0.4.8 pybullet==3.2.5 pycairo==1.21.0
+pip install psycopg2-binary==2.9.4 ptyprocess==0.7.0 pulp==2.6.0 pure-eval==0.2.2 py==1.11.0 py-cpuinfo==8.0.0 py-params==0.10.2 py-spy==0.3.14
 pip check
-pip install pyclipper==1.3.0.post3 pycodestyle==2.9.1 pycparser==2.21 pycryptodome==3.15.0 pycryptodomex==3.15.0 pydeprecate==0.3.2 pydicom==2.3.0 pydub==0.25.1
+pip install py4j==0.10.9.7 pyasn1==0.4.8 pybullet==3.2.5 pycairo==1.21.0 pyclipper==1.3.0.post3 pycodestyle==2.9.1 pycparser==2.21 pycryptodome==3.15.0
 pip check
-pip install pyflakes==2.5.0 pygame==2.1.2 pygments==2.13.0 pyinstaller-hooks-contrib==2022.10 pyjwt==2.5.0 pylev==1.4.0 pyluach==2.0.1 pymeeus==0.5.11
+pip install pycryptodomex==3.15.0 pydeprecate==0.3.2 pydicom==2.3.0 pydub==0.25.1 pyflakes==2.5.0 pygame==2.1.2 pygments==2.13.0 pyinstaller-hooks-contrib==2022.10
 pip check
-pip install pymongo==4.2.0 pymysql==1.0.2 pynvml==11.4.1 pyodbc==4.0.34 pyopengl==3.1.6 pyotp==2.7.0 pyparsing==3.0.9 pyperf==2.4.1
+pip install pyjwt==2.5.0 pylev==1.4.0 pyluach==2.0.1 pymeeus==0.5.11 pymongo==4.2.0 pymysql==1.0.2 pynvml==11.4.1 pyodbc==4.0.34
 pip check
-pip install pypng==0.20220715.0 pyqt5-qt5==5.15.2 pyqt5-sip==12.11.0 pyreadline3==3.4.1 pyro-api==0.1.2 pyrsistent==0.18.1 pysimdjson==5.0.2 pysimplegui==4.60.3
+pip install pyopengl==3.1.6 pyotp==2.7.0 pyparsing==3.0.9 pyperf==2.4.1 pypng==0.20220715.0 pyqt5-qt5==5.15.2 pyqt5-sip==12.11.0 pyreadline3==3.4.1
 pip check
-pip install pysocks==1.7.1 python-barcode==0.14.0 python-dotenv==0.21.0 python-editor==1.0.4 python-gflags==3.1.2 python-magic==0.4.27 python-socks==2.0.3 python-utils==3.3.3
+pip install pyro-api==0.1.2 pyrsistent==0.18.1 pysimdjson==5.0.2 pysimplegui==4.60.3 pysocks==1.7.1 python-barcode==0.14.0 python-dotenv==0.21.0 python-editor==1.0.4
 pip check
-pip install pytimeparse==1.1.8 pytz==2022.4 pyyaml==5.4.1 pyzbar==0.1.9 pyzmq==24.0.1 qrcode==7.3.1 regex==2022.9.13 rfc3986==1.5.0
+pip install python-gflags==3.1.2 python-magic==0.4.27 python-socks==2.0.3 python-utils==3.3.3 pytimeparse==1.1.8 pytz==2022.4 pyyaml==5.4.1 pyzbar==0.1.9
 pip check
-pip install rtree==1.0.0 ruamel-yaml-clib==0.2.6 schedule==1.1.0 send2trash==1.8.0 sentencepiece==0.1.97 setproctitle==1.3.2 setuptools==65.4.1 setuptools-git==1.2
+pip install pyzmq==24.0.1 qrcode==7.3.1 regex==2022.9.13 rfc3986==1.5.0 rtree==1.0.0 ruamel-yaml-clib==0.2.6 schedule==1.1.0 send2trash==1.8.0
 pip check
-pip install shapely==1.8.4 shellingham==1.5.0 shortuuid==1.0.9 simpervisor==0.4 simplejson==3.17.6 six==1.16.0 smart-open==5.2.1 smmap==5.0.0
+pip install sentencepiece==0.1.97 setproctitle==1.3.2 setuptools==65.4.1 setuptools-git==1.2 shapely==1.8.4 shellingham==1.5.0 shortuuid==1.0.9 simpervisor==0.4
 pip check
-pip install sniffio==1.2.0 snowballstemmer==2.2.0 sortedcontainers==2.4.0 soupsieve==2.3.2 spacy-legacy==3.0.10 sphinxcontrib-applehelp==1.0.2 sphinxcontrib-devhelp==1.0.2 sphinxcontrib-htmlhelp==2.0.0
+pip install simplejson==3.17.6 six==1.16.0 smart-open==5.2.1 smmap==5.0.0 sniffio==1.2.0 snowballstemmer==2.2.0 sortedcontainers==2.4.0 soupsieve==2.3.2
 pip check
-pip install sphinxcontrib-jsmath==1.0.1 sphinxcontrib-qthelp==1.0.3 sphinxcontrib-serializinghtml==1.1.5 sqlparse==0.4.3 stdlib-list==0.8.0 subprocess32==3.5.4 tabulate==0.9.0 tangled-up-in-unicode==0.2.0
+pip install spacy-legacy==3.0.10 sphinxcontrib-applehelp==1.0.2 sphinxcontrib-devhelp==1.0.2 sphinxcontrib-htmlhelp==2.0.0 sphinxcontrib-jsmath==1.0.1 sphinxcontrib-qthelp==1.0.3 sphinxcontrib-serializinghtml==1.1.5 sqlparse==0.4.3
 pip check
-pip install tbb==2021.5.0 tblib==1.7.0 tenacity==8.1.0 tensorboard-data-server==0.6.1 tensorboard-plugin-wit==1.8.1 tensorflow-estimator==2.9.0 tensorflow-gcs-config==2.9.1 tensorflow-io-gcs-filesystem==0.27.0
+pip install stdlib-list==0.8.0 subprocess32==3.5.4 tabulate==0.9.0 tangled-up-in-unicode==0.2.0 tbb==2021.5.0 tblib==1.7.0 tenacity==8.1.0 tensorboard-data-server==0.6.1
 pip check
-pip install termcolor==2.0.1 termcolor-whl==1.1.2 testpath==0.6.0 text-unidecode==1.3 texttable==1.6.4 threadpoolctl==3.1.0 tinydb==4.7.0 tokenizers==0.12.1
+pip install tensorboard-plugin-wit==1.8.1 tensorflow-estimator==2.9.0 tensorflow-gcs-config==2.9.1 tensorflow-io-gcs-filesystem==0.27.0 termcolor==2.0.1 termcolor-whl==1.1.2 testpath==0.6.0 text-unidecode==1.3
 pip check
-pip install toml==0.10.2 tomli==2.0.1 tomlkit==0.11.5 toolz==0.12.0 torchsummary==1.5.1 tornado==6.2 traitlets==5.4.0 translationstring==1.4
+pip install texttable==1.6.4 threadpoolctl==3.1.0 tinydb==4.7.0 tokenizers==0.12.1 toml==0.10.2 tomli==2.0.1 tomlkit==0.11.5 toolz==0.12.0
 pip check
-pip install typed-ast==1.5.4 typeguard==2.13.3 types-pytz==2022.4.0.0 typing-extensions==4.4.0 tzdata==2022.4 ua-parser==0.16.1 uc-micro-py==1.0.1 ujson==5.5.0
+pip install torchsummary==1.5.1 tornado==6.2 traitlets==5.4.0 translationstring==1.4 typed-ast==1.5.4 typeguard==2.13.3 types-pytz==2022.4.0.0 typing-extensions==4.4.0
 pip check
-pip install unidecode==1.3.6 uritemplate==4.1.1 urllib3==1.26.12 uuid==1.30 venusian==3.0.0 vine==5.0.0 waitress==2.1.2 wasabi==0.10.1
+pip install tzdata==2022.4 ua-parser==0.16.1 uc-micro-py==1.0.1 ujson==5.5.0 unidecode==1.3.6 uritemplate==4.1.1 urllib3==1.26.12 uuid==1.30
 pip check
-pip install wcwidth==0.2.5 webcolors==1.12 webencodings==0.5.1 webob==1.8.7 websocket-client==1.4.1 websockets==10.3 wheel==0.37.1 widgetsnbextension==4.0.3
+pip install venusian==3.0.0 vine==5.0.0 waitress==2.1.2 wasabi==0.10.1 wcwidth==0.2.5 webcolors==1.12 webencodings==0.5.1 webob==1.8.7
 pip check
-pip install wincertstore==0.2 wireless==0.3.3 wrapt==1.14.1 xlrd==2.0.1 xlsxwriter==3.0.3 xlwt==1.3.0 xxhash==3.0.0 y-py==0.5.4
+pip install websocket-client==1.4.1 websockets==10.3 wheel==0.37.1 widgetsnbextension==4.0.3 wincertstore==0.2 wireless==0.3.3 wrapt==1.14.1 xlrd==2.0.1
 pip check
-pip install zipp==3.8.1 zstd==1.5.2.6
+pip install xlsxwriter==3.0.3 xlwt==1.3.0 xxhash==3.0.0 y-py==0.5.4 youtube-dl==2021.12.17 zipp==3.8.1 zstd==1.5.2.6
 pip check
 # Level 1
 # Level 2
@@ -109,35 +109,37 @@ pip install fastdtw==0.3.4 fire==0.4.0 flake8==5.0.4 fs==2.4.16 ftfy==6.1.1 geop
 pip check
 pip install google-pasta==0.2.0 google-resumable-media==2.3.3 googleapis-common-protos==1.56.4 grpcio==1.49.0 gunicorn==20.1.0 gym==0.20.0 h5py==3.7.0 html5lib==1.1
 pip check
-pip install httplib2==0.20.4 humanfriendly==10.0 hypothesis==6.56.1 imagecodecs==2022.9.26 imageio==2.22.1 importlab==0.8 importlib-metadata==4.13.0 importlib-resources==5.10.0
+pip install httplib2==0.20.4 humanfriendly==10.0 hypothesis==6.56.1 imagecodecs==2022.9.26 imageio==2.22.1 imagezmq==1.1.1 importlab==0.8 importlib-metadata==4.13.0
 pip check
-pip install intervaltree==3.1.0 isodate==0.6.1 jaraco-classes==3.2.3 jedi==0.18.1 jinja2==3.0.3 jinxed==1.2.0 jsonschema==4.16.0 jupyter-core==4.11.1
+pip install importlib-resources==5.10.0 intervaltree==3.1.0 isodate==0.6.1 jaraco-classes==3.2.3 jedi==0.18.1 jinja2==3.0.3 jinxed==1.2.0 jsonschema==4.16.0
 pip check
-pip install keras-preprocessing==1.1.2 leather==0.3.4 linkify-it-py==2.0.0 livereload==2.6.3 m3u8==3.3.0 macholib==1.16.2 mako==1.2.3 markdown-it-py==2.1.0
+pip install jupyter-core==4.11.1 keras-preprocessing==1.1.2 leather==0.3.4 linkify-it-py==2.0.0 livereload==2.6.3 m3u8==3.3.0 macholib==1.16.2 mako==1.2.3
 pip check
-pip install mashumaro==3.0.4 matplotlib-inline==0.1.6 memory-profiler==0.60.0 mkl==2022.2.0 multipledispatch==0.6.0 multiprocess==0.70.13 munch==2.5.0 mypy==0.982
+pip install markdown-it-py==2.1.0 mashumaro==3.0.4 matplotlib-inline==0.1.6 memory-profiler==0.60.0 mkl==2022.2.0 multipledispatch==0.6.0 multiprocess==0.70.13 munch==2.5.0
 pip check
-pip install nodejs==0.1.1 numba==0.56.0 numcodecs==0.10.2 omegaconf==2.2.3 onnx==1.12.0 opencv-contrib-python==4.6.0.66 opencv-python==4.6.0.66 opencv-python-headless==4.5.4.60
+pip install mypy==0.982 nodejs==0.1.1 numba==0.56.0 numcodecs==0.10.2 omegaconf==2.2.3 onnx==1.12.0 opencv-contrib-python==4.6.0.66 opencv-python==4.6.0.66
 pip check
-pip install openpyxl==3.0.10 openvino==2022.2.0 opt-einsum==3.3.0 oscrypto==1.3.0 outcome==1.2.0 packaging==21.3 pandas-stubs==1.5.0.221003 parasail==1.3.3
+pip install opencv-python-headless==4.5.4.60 openpyxl==3.0.10 openvino==2022.2.0 opt-einsum==3.3.0 oscrypto==1.3.0 outcome==1.2.0 packaging==21.3 pandas-stubs==1.5.0.221003
 pip check
-pip install parsedatetime==2.4 partd==1.3.0 pastedeploy==2.1.1 patsy==0.5.2 pefile==2022.5.30 pep517==0.13.0 pexpect==4.8.0 plaster==1.0
+pip install parasail==1.3.3 parsedatetime==2.4 partd==1.3.0 pastedeploy==2.1.1 patsy==0.5.2 pefile==2022.5.30 pep517==0.13.0 pexpect==4.8.0
 pip check
-pip install plotly==5.10.0 plumbum==1.8.0 portalocker==2.5.1 portpicker==1.5.2 preshed==3.0.7 prettytable==3.4.1 progressbar2==4.0.0 promise==2.3
+pip install plaster==1.0 plotly==5.10.0 plumbum==1.8.0 portalocker==2.5.1 portpicker==1.5.2 preshed==3.0.7 prettytable==3.4.1 progressbar2==4.0.0
 pip check
-pip install prompt-toolkit==3.0.31 proto-plus==1.22.1 py-lets-be-rational==1.0.1 pyarrow==8.0.0 pyasn1-modules==0.2.8 pyct==0.4.8 pydantic==1.9.2 pydeps==1.10.24
+pip install promise==2.3 prompt-toolkit==3.0.31 proto-plus==1.22.1 py-lets-be-rational==1.0.1 pyarrow==8.0.0 pyasn1-modules==0.2.8 pyct==0.4.8 pydantic==1.9.2
 pip check
-pip install pydot==1.4.2 pyerfa==2.0.0.1 pylbfgs==0.2.0.14 python-bidi==0.4.2 python-daemon==2.3.1 python-dateutil==2.8.2 python-slugify==6.1.2 pytz-deprecation-shim==0.1.0.post0
+pip install pydeps==1.10.24 pydot==1.4.2 pyerfa==2.0.0.1 pylbfgs==0.2.0.14 pyscreenshot==3.0 python-bidi==0.4.2 python-daemon==2.3.1 python-dateutil==2.8.2
 pip check
-pip install pyviz-comms==2.2.1 pywavelets==1.4.1 qcore==1.8.0 querystring-parser==1.2.4 rawpy==0.17.2 requests==2.27.1 retrying==1.3.3 rich==12.6.0
+pip install python-slugify==6.1.2 pytz-deprecation-shim==0.1.0.post0 pyviz-comms==2.2.1 pywavelets==1.4.1 qcore==1.8.0 querystring-parser==1.2.4 rawpy==0.17.2 requests==2.27.1
 pip check
-pip install rsa==4.9 scipy==1.9.1 sentry-sdk==1.9.10 simplecosine==1.2 spacy-loggers==1.0.3 sqlalchemy==1.4.41 srsly==2.4.4 sympy==1.11.1
+pip install retrying==1.3.3 rich==12.6.0 rsa==4.9 scipy==1.9.1 sentry-sdk==1.9.10 simplecosine==1.2 spacy-loggers==1.0.3 sqlalchemy==1.4.41
 pip check
-pip install tensorflow-hub==0.12.0 tensorflow-model-optimization==0.7.3 tensorflow-probability==0.18.0 terminado==0.16.0 tf-slim==1.1.0 thriftpy2==0.4.14 tifffile==2022.8.12 tinycss2==1.1.1
+pip install srsly==2.4.4 sympy==1.11.1 tensorflow-hub==0.12.0 tensorflow-model-optimization==0.7.3 tensorflow-probability==0.18.0 terminado==0.16.0 tf-slim==1.1.0 thriftpy2==0.4.14
 pip check
-pip install torch==1.11.0 tqdm==4.64.1 typing-inspect==0.8.0 uamqp==1.6.0 url-normalize==1.4.3 validators==0.20.0 virtualenv==20.16.5 vispy==0.11.0
+pip install tifffile==2022.8.12 tinycss2==1.1.1 torch==1.11.0 tqdm==4.64.1 typing-inspect==0.8.0 uamqp==1.6.0 url-normalize==1.4.3 validators==0.20.0
 pip check
-pip install werkzeug==2.2.2 wsproto==1.2.0 yarl==1.8.1 yaspin==2.2.0 zict==2.2.0 zope-deprecation==4.4.0 zope-interface==5.4.0
+pip install virtualenv==20.16.5 vispy==0.11.0 werkzeug==2.2.2 wsproto==1.2.0 yarl==1.8.1 yaspin==2.2.0 zict==2.2.0 zope-deprecation==4.4.0
+pip check
+pip install zope-interface==5.4.0
 pip check
 # Level 2
 # Level 3
