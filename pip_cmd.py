@@ -17,6 +17,8 @@ from utils import Utils
 class PipReturn:
     OK = 0
     ERROR = 1
+    ROLLED_BACK = 2
+    NO_ACTION = 3
 
     def __init__(self, package: str, installs: typing.List):
         self.package = package
@@ -242,6 +244,7 @@ class PipCmd:
                     continue
                 if v[0] != 'Successfully' or (v[1] != 'installed' and v[1] != 'uninstalled'):
                     continue
+                show_stdout = True
                 for i in range(2, len(v)):
                     mingled = v[i]
                     s = mingled.rsplit('-', maxsplit=1)
@@ -254,11 +257,14 @@ class PipCmd:
                     pack2 = Utils.canonicalize_name(pack)
                     if v[1] == 'installed':
                         pr.add_installed(pack2, vers)
+                        show_stdout = False
                     elif v[1] == 'uninstalled':
                         pr.add_uninstalled(pack2, vers)
+                        show_stdout = False
                     # fi
                 # for
-                print('pip_install_stdout: {}'.format(line.lstrip()))
+                if show_stdout:
+                    print('pip_install_stdout: {}'.format(line.lstrip()))
             # for stdout
             for line in cp.stderr.decode().split('\n'):
                 if not line:
@@ -300,6 +306,49 @@ class PipCmd:
     def pip_install(package: str, version: str, eq: str = '==') -> PipReturn:
         arg = '{}{}{}'.format(package, eq, version)
         return PipCmd.pip_install_commands(package, [arg])
+
+    @staticmethod
+    def pip_install_roll_back(package: str, version: str) -> PipReturn:
+        pr = PipCmd.pip_install(package=package, version=version)
+        # installed = pr.get_installed()
+        if pr.get_return_code() == PipReturn.OK:
+            return pr
+        installed = pr.get_installed()
+        uninstalled = pr.get_uninstalled()
+        if len(installed) < 1 and len(uninstalled) < 1:
+            pr.set_return_code(PipReturn.NO_ACTION)
+            return pr
+        #
+        # immediate failure case
+        for pack in installed.keys():
+            # affected_set.add(pack)
+            vers = installed[pack]
+            print('Installed: {}=={}'.format(pack, vers))
+        # for
+        pip_cmds = list()
+        for pack in uninstalled.keys():
+            vers = uninstalled[pack]
+            cmd = '{}=={}'.format(pack, vers)
+            print('Uninstalled: {}'.format(cmd))
+            pip_cmds.append(cmd)
+        # for
+        print('pip_install_roll_back: attempt to revert: {} to: {}'
+              .format(package, pip_cmds))
+        pr2 = PipCmd.pip_install_commands(package, pip_cmds)
+        if pr2.get_return_code() == PipReturn.OK:
+            # repair succeeded, try next release_update, if any
+            print('pip_install_roll_back: revert {}: succeeded: {}'
+                  .format(package, pip_cmds))
+            # rolled back
+            pr2.set_return_code(PipReturn.ROLLED_BACK)
+            return pr2
+        # fi
+        # now what, we tried candidate and the repair failed
+        print('pip_install_roll_back: revert {}: FAILED: {}'
+              .format(package, pip_cmds))
+        pr2.set_return_code(PipReturn.ERROR)
+        # failed roll back
+        return pr2
 
     @staticmethod
     def pip_test_install() -> bool:

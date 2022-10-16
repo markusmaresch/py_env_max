@@ -376,49 +376,34 @@ class EnvCmd:
                                       constraints, release_best))
                         print('upd_all: {} .. {}/{}: {}: {}: {} .. attempt to update (from {})'
                               .format(env_name, it, max_iterations, level, package, release_best, version_required))
-                        pr = PipCmd.pip_install(package=package, version=release_best)
-                        installed = pr.get_installed()
+                        pr = PipCmd.pip_install_roll_back(package=package, version=release_best)
+                        if pr.get_return_code() == PipReturn.NO_ACTION:
+                            # nothing happened - we could not install - TODO: lock it or take note
+                            print('upd_all: {} .. {}/{}: {}: {}: {} .. nothing installed, nothing uninstalled'
+                                  .format(env_name, it, max_iterations, level, package, release_best))
+                            continue
                         if pr.get_return_code() == PipReturn.OK:
+                            installed = pr.get_installed()
                             # first try succeeded !   if more than current package was installed, update db !!
                             for pack in installed.keys():
-                                # affected_set.add(pack)
                                 vers = installed[pack]
                                 updated_all[pack] = vers
                                 updated_iter[pack] = vers
-                                print('Installed: {}=={}'.format(pack, vers))
+                                print('upd_all: {} .. {}/{}: {}: {}: {} .. installed: {}=={}'
+                                      .format(env_name, it, max_iterations, level, package, release_best, pack, vers))
                             # for
+                            #
+                            # this also stops upon the first success, could be more aggressive and try to get the latest
+                            #
                             break
-                        uninstalled = pr.get_uninstalled()
-                        if len(installed) < 1 and len(uninstalled) < 1:
-                            # nothing happened - we could not install - TODO: lock it or take note
-                            print('nothing installed, nothing uninstalled ..')
-                            continue
-                        # failure case
-                        for pack in installed.keys():
-                            # affected_set.add(pack)
-                            vers = installed[pack]
-                            print('Installed: {}=={}'.format(pack, vers))
-                        # for
-                        pip_cmds = list()
-                        for pack in uninstalled.keys():
-                            vers = uninstalled[pack]
-                            cmd = '{}=={}'.format(pack, vers)
-                            print('Uninstalled: {}'.format(cmd))
-                            pip_cmds.append(cmd)
-                        # for
-                        print('upd_all: {} .. {}/{}: {}: {}: attempt to revert to: {}'
-                              .format(env_name, it, max_iterations, level, package, pip_cmds))
-                        pr2 = PipCmd.pip_install_commands(package, pip_cmds)
-                        if pr2.get_return_code() == PipReturn.OK:
-                            # repair succeeded, try next release_update, if any
-                            print('upd_all: {} .. {}/{}: {}: {}: revert succeeded: {}'
-                                  .format(env_name, it, max_iterations, level, package, pip_cmds))
-                            continue
+                        #
+                        if pr.get_return_code() == PipReturn.ERROR:
+                            stop = True
+                            break
                         # fi
-                        # now what, we tried candidate and the repair failed
-                        print('upd_all: {} .. {}/{}: {}: {}: revert FAILED: {}'
-                              .format(env_name, it, max_iterations, level, package, pip_cmds))
-                        stop = True
+                        #
+                        # could be ROLLED_BACK, that succeeded - could keep trying, but stop now
+                        #
                         break
                     # for best
                     update_command = True
