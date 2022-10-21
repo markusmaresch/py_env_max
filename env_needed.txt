@@ -2,4 +2,3 @@ google-cloud-language
 google-cloud-translate
 openvino-dev
 tensorflowjs
-torchtext

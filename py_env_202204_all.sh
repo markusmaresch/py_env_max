@@ -181,9 +181,9 @@ pip install scikit-surprise==1.1.3 sclblpy==0.1.8 scs==3.2.0 setuptools-scm==7.0
 pip check
 pip install stanza==1.4.2 starlette==0.21.0 streamz==0.6.4 stumpy==1.11.1 tensorflow-addons==0.18.0 tensorflow-metadata==1.10.0 tf2onnx==1.12.1 theano==1.0.5
 pip check
-pip install tiingo==0.14.0 tiledb==0.17.5 torchaudio==0.11.0 torchmetrics==0.10.0 torchvision==0.12.0 trio==0.20.0 typer==0.4.2 typeshed-client==2.0.5
+pip install tiingo==0.14.0 tiledb==0.17.5 torchaudio==0.11.0 torchmetrics==0.10.0 torchtext==0.12.0 torchvision==0.12.0 trio==0.20.0 typer==0.4.2
 pip check
-pip install tzlocal==4.2 userpath==1.8.0 uvicorn==0.19.0 xgboost==1.6.2 yahoofinancials==1.6 ypy-websocket==0.3.2 zarr==2.13.3
+pip install typeshed-client==2.0.5 tzlocal==4.2 userpath==1.8.0 uvicorn==0.19.0 xgboost==1.6.2 yahoofinancials==1.6 ypy-websocket==0.3.2 zarr==2.13.3
 pip check
 # Level 3
 # Level 4

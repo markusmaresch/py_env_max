@@ -351,26 +351,6 @@ class PipCmd:
         return pr2
 
     @staticmethod
-    def pip_test_install() -> bool:
-        #
-        # hand crafted example, which WILL CHANGE over time - use with care !!
-        #
-        # bad command first
-        return False  # needs to be reworked below
-        ok = PipCmd.pip_install(package='charset-normalizer', version='1.4.1')
-        if ok:
-            return False
-        if PipCmd.pip_check():
-            return False
-        # good command next
-        ok = PipCmd.pip_install(package='charset-normalizer', eq='~=', version='2.0.0')
-        if not ok:
-            return False
-        if not PipCmd.pip_check():
-            return False
-        return True
-
-    @staticmethod
     def pip_selftest() -> bool:
         version = PipCmd.version()
         if not version:
@@ -382,10 +362,7 @@ class PipCmd:
             if not checked:
                 return False
         else:
-            # use with care !!
-            if not PipCmd.pip_test_install():
-                return False
-
+            pass
         return True
 
 
