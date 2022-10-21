@@ -17100,7 +17100,9 @@
                 "google-cloud-core",
                 "google-cloud-datastore",
                 "google-cloud-firestore",
+                "google-cloud-language",
                 "google-cloud-storage",
+                "google-cloud-translate",
                 "pandas-gbq"
             ],
             "requires": [
@@ -18476,7 +18478,8 @@
                 "google-cloud-bigquery",
                 "google-cloud-datastore",
                 "google-cloud-firestore",
-                "google-cloud-storage"
+                "google-cloud-storage",
+                "google-cloud-translate"
             ],
             "requires": [
                 {
@@ -19222,6 +19225,167 @@
             "version_installed": "2.7.2",
             "version_required": "2.7.2"
         },
+        "google-cloud-language": {
+            "level": 5,
+            "package_name": "google-cloud-language",
+            "releases_checked_time": 1666382724,
+            "releases_recent": [
+                "2.6.1",
+                "2.6.0",
+                "2.5.2",
+                "2.5.1",
+                "2.5.0",
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "2.4.0",
+                "2.3.2",
+                "2.3.1",
+                "2.3.0",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.0",
+                "2.0.0",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.0",
+                "1.1.1",
+                "1.1.0",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "0.31.0",
+                "0.30.0",
+                "0.29.0",
+                "0.28.0",
+                "0.27.0",
+                "0.26.1",
+                "0.26.0",
+                "0.25.0",
+                "0.24.1",
+                "0.24.0",
+                "0.23.1",
+                "0.23.0",
+                "0.22.2",
+                "0.22.1"
+            ],
+            "requires": [
+                {
+                    "package_name": "google-api-core",
+                    "requires": [
+                        {
+                            "package_name": "google-auth",
+                            "requires": [
+                                {
+                                    "package_name": "cachetools",
+                                    "version_installed": "5.2.0",
+                                    "version_required": ">=2.0.0,<6.0"
+                                },
+                                {
+                                    "package_name": "pyasn1-modules",
+                                    "requires": [
+                                        {
+                                            "package_name": "pyasn1",
+                                            "version_installed": "0.4.8",
+                                            "version_required": ">=0.4.6,<0.5.0"
+                                        }
+                                    ],
+                                    "version_installed": "0.2.8",
+                                    "version_required": ">=0.2.1"
+                                },
+                                {
+                                    "package_name": "rsa",
+                                    "requires": [
+                                        {
+                                            "package_name": "pyasn1",
+                                            "version_installed": "0.4.8",
+                                            "version_required": ">=0.1.3"
+                                        }
+                                    ],
+                                    "version_installed": "4.9",
+                                    "version_required": ">=3.1.4,<5"
+                                },
+                                {
+                                    "package_name": "six",
+                                    "version_installed": "1.16.0",
+                                    "version_required": ">=1.9.0"
+                                }
+                            ],
+                            "version_installed": "2.6.5",
+                            "version_required": ">=1.25.0,<3.0dev"
+                        },
+                        {
+                            "package_name": "googleapis-common-protos",
+                            "requires": [
+                                {
+                                    "package_name": "protobuf",
+                                    "version_installed": "3.19.6",
+                                    "version_required": ">=3.15.0,<5.0.0dev"
+                                }
+                            ],
+                            "version_installed": "1.56.4",
+                            "version_required": ">=1.56.2,<2.0dev"
+                        },
+                        {
+                            "package_name": "protobuf",
+                            "version_installed": "3.19.6",
+                            "version_required": ">=3.19.5,<5.0.0dev,!=4.21.5,!=4.21.4,!=4.21.3,!=4.21.2,!=4.21.1,!=4.21.0,!=3.20.1,!=3.20.0"
+                        },
+                        {
+                            "package_name": "requests",
+                            "requires": [
+                                {
+                                    "package_name": "certifi",
+                                    "version_installed": "2022.9.24",
+                                    "version_required": ">=2017.4.17"
+                                },
+                                {
+                                    "package_name": "charset-normalizer",
+                                    "version_installed": "2.0.12",
+                                    "version_required": "~=2.0.0"
+                                },
+                                {
+                                    "package_name": "idna",
+                                    "version_installed": "3.4",
+                                    "version_required": ">=2.5,<4"
+                                },
+                                {
+                                    "package_name": "urllib3",
+                                    "version_installed": "1.26.12",
+                                    "version_required": ">=1.21.1,<1.27"
+                                }
+                            ],
+                            "version_installed": "2.27.1",
+                            "version_required": ">=2.18.0,<3.0.0dev"
+                        }
+                    ],
+                    "version_installed": "2.10.2",
+                    "version_required": ">=1.32.0,<3.0.0dev,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.1.*,!=2.0.*"
+                },
+                {
+                    "package_name": "proto-plus",
+                    "requires": [
+                        {
+                            "package_name": "protobuf",
+                            "version_installed": "3.19.6",
+                            "version_required": ">=3.19.0,<5.0.0dev"
+                        }
+                    ],
+                    "version_installed": "1.22.1",
+                    "version_required": ">=1.22.0,<2.0.0dev"
+                },
+                {
+                    "package_name": "protobuf",
+                    "version_installed": "3.19.6",
+                    "version_required": ">=3.19.5,<5.0.0dev,!=4.21.5,!=4.21.4,!=4.21.3,!=4.21.2,!=4.21.1,!=4.21.0,!=3.20.1,!=3.20.0"
+                }
+            ],
+            "summary": "Google Cloud Natural Language API client library",
+            "version_installed": "2.6.1",
+            "version_required": "2.6.1"
+        },
         "google-cloud-storage": {
             "level": 6,
             "package_name": "google-cloud-storage",
@@ -19585,6 +19749,307 @@
             "summary": "Google Cloud Storage API client library",
             "version_installed": "2.5.0",
             "version_required": "2.5.0"
+        },
+        "google-cloud-translate": {
+            "level": 6,
+            "package_name": "google-cloud-translate",
+            "releases_checked_time": 1666382724,
+            "releases_recent": [
+                "3.8.4",
+                "3.8.3",
+                "3.8.2",
+                "3.8.1",
+                "3.8.0",
+                "3.7.4",
+                "3.7.3",
+                "3.7.2",
+                "3.7.1",
+                "3.7.0",
+                "3.6.1",
+                "3.6.0",
+                "3.5.0",
+                "3.4.1",
+                "3.4.0",
+                "3.3.2",
+                "3.3.1",
+                "3.2.1",
+                "3.2.0",
+                "3.1.0",
+                "3.0.2",
+                "3.0.1",
+                "3.0.0",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.7.2",
+                "1.7.1",
+                "1.7.0",
+                "1.6.0",
+                "1.5.0",
+                "1.4.1",
+                "1.4.0",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.0"
+            ],
+            "requires": [
+                {
+                    "package_name": "google-api-core",
+                    "requires": [
+                        {
+                            "package_name": "google-auth",
+                            "requires": [
+                                {
+                                    "package_name": "cachetools",
+                                    "version_installed": "5.2.0",
+                                    "version_required": ">=2.0.0,<6.0"
+                                },
+                                {
+                                    "package_name": "pyasn1-modules",
+                                    "requires": [
+                                        {
+                                            "package_name": "pyasn1",
+                                            "version_installed": "0.4.8",
+                                            "version_required": ">=0.4.6,<0.5.0"
+                                        }
+                                    ],
+                                    "version_installed": "0.2.8",
+                                    "version_required": ">=0.2.1"
+                                },
+                                {
+                                    "package_name": "rsa",
+                                    "requires": [
+                                        {
+                                            "package_name": "pyasn1",
+                                            "version_installed": "0.4.8",
+                                            "version_required": ">=0.1.3"
+                                        }
+                                    ],
+                                    "version_installed": "4.9",
+                                    "version_required": ">=3.1.4,<5"
+                                },
+                                {
+                                    "package_name": "six",
+                                    "version_installed": "1.16.0",
+                                    "version_required": ">=1.9.0"
+                                }
+                            ],
+                            "version_installed": "2.6.5",
+                            "version_required": ">=1.25.0,<3.0dev"
+                        },
+                        {
+                            "package_name": "googleapis-common-protos",
+                            "requires": [
+                                {
+                                    "package_name": "protobuf",
+                                    "version_installed": "3.19.6",
+                                    "version_required": ">=3.15.0,<5.0.0dev"
+                                }
+                            ],
+                            "version_installed": "1.56.4",
+                            "version_required": ">=1.56.2,<2.0dev"
+                        },
+                        {
+                            "package_name": "protobuf",
+                            "version_installed": "3.19.6",
+                            "version_required": ">=3.19.5,<5.0.0dev,!=4.21.5,!=4.21.4,!=4.21.3,!=4.21.2,!=4.21.1,!=4.21.0,!=3.20.1,!=3.20.0"
+                        },
+                        {
+                            "package_name": "requests",
+                            "requires": [
+                                {
+                                    "package_name": "certifi",
+                                    "version_installed": "2022.9.24",
+                                    "version_required": ">=2017.4.17"
+                                },
+                                {
+                                    "package_name": "charset-normalizer",
+                                    "version_installed": "2.0.12",
+                                    "version_required": "~=2.0.0"
+                                },
+                                {
+                                    "package_name": "idna",
+                                    "version_installed": "3.4",
+                                    "version_required": ">=2.5,<4"
+                                },
+                                {
+                                    "package_name": "urllib3",
+                                    "version_installed": "1.26.12",
+                                    "version_required": ">=1.21.1,<1.27"
+                                }
+                            ],
+                            "version_installed": "2.27.1",
+                            "version_required": ">=2.18.0,<3.0.0dev"
+                        }
+                    ],
+                    "version_installed": "2.10.2",
+                    "version_required": ">=1.32.0,<3.0.0dev,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.1.*,!=2.0.*"
+                },
+                {
+                    "package_name": "google-cloud-core",
+                    "requires": [
+                        {
+                            "package_name": "google-api-core",
+                            "requires": [
+                                {
+                                    "package_name": "google-auth",
+                                    "requires": [
+                                        {
+                                            "package_name": "cachetools",
+                                            "version_installed": "5.2.0",
+                                            "version_required": ">=2.0.0,<6.0"
+                                        },
+                                        {
+                                            "package_name": "pyasn1-modules",
+                                            "requires": [
+                                                {
+                                                    "package_name": "pyasn1",
+                                                    "version_installed": "0.4.8",
+                                                    "version_required": ">=0.4.6,<0.5.0"
+                                                }
+                                            ],
+                                            "version_installed": "0.2.8",
+                                            "version_required": ">=0.2.1"
+                                        },
+                                        {
+                                            "package_name": "rsa",
+                                            "requires": [
+                                                {
+                                                    "package_name": "pyasn1",
+                                                    "version_installed": "0.4.8",
+                                                    "version_required": ">=0.1.3"
+                                                }
+                                            ],
+                                            "version_installed": "4.9",
+                                            "version_required": ">=3.1.4,<5"
+                                        },
+                                        {
+                                            "package_name": "six",
+                                            "version_installed": "1.16.0",
+                                            "version_required": ">=1.9.0"
+                                        }
+                                    ],
+                                    "version_installed": "2.6.5",
+                                    "version_required": ">=1.25.0,<3.0dev"
+                                },
+                                {
+                                    "package_name": "googleapis-common-protos",
+                                    "requires": [
+                                        {
+                                            "package_name": "protobuf",
+                                            "version_installed": "3.19.6",
+                                            "version_required": ">=3.15.0,<5.0.0dev"
+                                        }
+                                    ],
+                                    "version_installed": "1.56.4",
+                                    "version_required": ">=1.56.2,<2.0dev"
+                                },
+                                {
+                                    "package_name": "protobuf",
+                                    "version_installed": "3.19.6",
+                                    "version_required": ">=3.19.5,<5.0.0dev,!=4.21.5,!=4.21.4,!=4.21.3,!=4.21.2,!=4.21.1,!=4.21.0,!=3.20.1,!=3.20.0"
+                                },
+                                {
+                                    "package_name": "requests",
+                                    "requires": [
+                                        {
+                                            "package_name": "certifi",
+                                            "version_installed": "2022.9.24",
+                                            "version_required": ">=2017.4.17"
+                                        },
+                                        {
+                                            "package_name": "charset-normalizer",
+                                            "version_installed": "2.0.12",
+                                            "version_required": "~=2.0.0"
+                                        },
+                                        {
+                                            "package_name": "idna",
+                                            "version_installed": "3.4",
+                                            "version_required": ">=2.5,<4"
+                                        },
+                                        {
+                                            "package_name": "urllib3",
+                                            "version_installed": "1.26.12",
+                                            "version_required": ">=1.21.1,<1.27"
+                                        }
+                                    ],
+                                    "version_installed": "2.27.1",
+                                    "version_required": ">=2.18.0,<3.0.0dev"
+                                }
+                            ],
+                            "version_installed": "2.10.2",
+                            "version_required": ">=1.31.6,<3.0.0dev,!=2.3.0,!=2.2.*,!=2.1.*,!=2.0.*"
+                        },
+                        {
+                            "package_name": "google-auth",
+                            "requires": [
+                                {
+                                    "package_name": "cachetools",
+                                    "version_installed": "5.2.0",
+                                    "version_required": ">=2.0.0,<6.0"
+                                },
+                                {
+                                    "package_name": "pyasn1-modules",
+                                    "requires": [
+                                        {
+                                            "package_name": "pyasn1",
+                                            "version_installed": "0.4.8",
+                                            "version_required": ">=0.4.6,<0.5.0"
+                                        }
+                                    ],
+                                    "version_installed": "0.2.8",
+                                    "version_required": ">=0.2.1"
+                                },
+                                {
+                                    "package_name": "rsa",
+                                    "requires": [
+                                        {
+                                            "package_name": "pyasn1",
+                                            "version_installed": "0.4.8",
+                                            "version_required": ">=0.1.3"
+                                        }
+                                    ],
+                                    "version_installed": "4.9",
+                                    "version_required": ">=3.1.4,<5"
+                                },
+                                {
+                                    "package_name": "six",
+                                    "version_installed": "1.16.0",
+                                    "version_required": ">=1.9.0"
+                                }
+                            ],
+                            "version_installed": "2.6.5",
+                            "version_required": ">=1.25.0,<3.0dev"
+                        }
+                    ],
+                    "version_installed": "2.3.2",
+                    "version_required": ">=1.3.0,<3.0.0dev"
+                },
+                {
+                    "package_name": "proto-plus",
+                    "requires": [
+                        {
+                            "package_name": "protobuf",
+                            "version_installed": "3.19.6",
+                            "version_required": ">=3.19.0,<5.0.0dev"
+                        }
+                    ],
+                    "version_installed": "1.22.1",
+                    "version_required": ">=1.22.0,<2.0.0dev"
+                },
+                {
+                    "package_name": "protobuf",
+                    "version_installed": "3.19.6",
+                    "version_required": ">=3.19.5,<5.0.0dev,!=4.21.5,!=4.21.4,!=4.21.3,!=4.21.2,!=4.21.1,!=4.21.0,!=3.20.1,!=3.20.0"
+                }
+            ],
+            "summary": "Google Cloud Translation API client library",
+            "version_installed": "3.8.4",
+            "version_required": "3.8.4"
         },
         "google-crc32c": {
             "level": 1,
@@ -56339,7 +56804,9 @@
                 "google-cloud-bigquery",
                 "google-cloud-bigquery-storage",
                 "google-cloud-datastore",
-                "google-cloud-firestore"
+                "google-cloud-firestore",
+                "google-cloud-language",
+                "google-cloud-translate"
             ],
             "requires": [
                 {
@@ -56406,6 +56873,8 @@
                 "google-cloud-bigquery-storage",
                 "google-cloud-datastore",
                 "google-cloud-firestore",
+                "google-cloud-language",
+                "google-cloud-translate",
                 "googleapis-common-protos",
                 "grpcio-status",
                 "keras2onnx",

@@ -221,21 +221,21 @@ pip check
 # Level 5
 pip install albumentations==1.3.0 azure-storage-blob==12.14.1 boto3==1.24.93 category-encoders==1.3.0 cornac==1.14.2 cvxpy==1.2.1 dash==2.6.2 dask-ml==2022.5.27
 pip check
-pip install etuples==0.3.8 google-api-python-client==2.65.0 google-cloud-bigquery-storage==2.13.2 google-cloud-core==2.3.2 gspread==5.6.0 invisible-watermark==0.1.5 ipykernel==6.16.0 missingno==0.5.1
+pip install etuples==0.3.8 google-api-python-client==2.65.0 google-cloud-bigquery-storage==2.13.2 google-cloud-core==2.3.2 google-cloud-language==2.6.1 gspread==5.6.0 invisible-watermark==0.1.5 ipykernel==6.16.0
 pip check
-pip install mlflow==1.29.0 nbconvert==7.2.2 pandas-market-calendars==4.1.0 plotnine==0.10.1 pmdarima==2.0.1 prophet==1.1.1 pydata-google-auth==1.4.0 pyldavis==3.3.1
+pip install missingno==0.5.1 mlflow==1.29.0 nbconvert==7.2.2 pandas-market-calendars==4.1.0 plotnine==0.10.1 pmdarima==2.0.1 prophet==1.1.1 pydata-google-auth==1.4.0
 pip check
-pip install pyod==1.0.5 rapidminer==9.10.0.0 rapids==0.0.1 selenium==4.5.0 spacy==3.4.1 sshtunnel==0.4.0 tensorboard==2.9.1 twint==2.1.20
+pip install pyldavis==3.3.1 pyod==1.0.5 rapidminer==9.10.0.0 rapids==0.0.1 selenium==4.5.0 spacy==3.4.1 sshtunnel==0.4.0 tensorboard==2.9.1
 pip check
-pip install umap-learn==0.5.3 xarray-einstats==0.3.0 zope-index==5.2.1
+pip install twint==2.1.20 umap-learn==0.5.3 xarray-einstats==0.3.0 zope-index==5.2.1
 pip check
 # Level 5
 # Level 6
-pip install arviz==0.12.1 google-cloud-bigquery==3.3.2 google-cloud-datastore==2.9.0 google-cloud-firestore==2.7.2 google-cloud-storage==2.5.0 gspread-dataframe==3.3.0 ipywidgets==8.0.2 jupyter-console==6.4.4
+pip install arviz==0.12.1 google-cloud-bigquery==3.3.2 google-cloud-datastore==2.9.0 google-cloud-firestore==2.7.2 google-cloud-storage==2.5.0 google-cloud-translate==3.8.4 gspread-dataframe==3.3.0 ipywidgets==8.0.2
 pip check
-pip install jupyter-dash==0.4.2 jupyter-server==1.16.0 minikanren==1.0.3 open3d==0.16.0 pandas-profiling==3.3.0 pytorch-lightning==1.7.7 qtconsole==5.3.2 recommenders==1.1.1
+pip install jupyter-console==6.4.4 jupyter-dash==0.4.2 jupyter-server==1.16.0 minikanren==1.0.3 open3d==0.16.0 pandas-profiling==3.3.0 pytorch-lightning==1.7.7 qtconsole==5.3.2
 pip check
-pip install spacytextblob==4.0.0 tda-api==1.6.0 tensorflow==2.9.1
+pip install recommenders==1.1.1 spacytextblob==4.0.0 tda-api==1.6.0 tensorflow==2.9.1
 pip check
 # Level 6
 # Level 7
