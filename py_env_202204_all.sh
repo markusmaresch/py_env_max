@@ -61,37 +61,37 @@ pip install py-spy==0.3.14 py4j==0.10.9.7 pyasn1==0.4.8 pybullet==3.2.5 pycairo=
 pip check
 pip install pycryptodome==3.15.0 pycryptodomex==3.15.0 pydeprecate==0.3.2 pydicom==2.3.0 pydub==0.25.1 pyflakes==2.5.0 pygame==2.1.2 pygments==2.13.0
 pip check
-pip install pyinstaller-hooks-contrib==2022.10 pyjwt==2.5.0 pylev==1.4.0 pyluach==2.0.1 pymeeus==0.5.11 pymysql==1.0.2 pynvml==11.4.1 pyodbc==4.0.34
+pip install pyinstaller-hooks-contrib==2022.10 pyjwt==2.5.0 pylev==1.4.0 pyluach==2.0.1 pymeeus==0.5.11 pymysql==1.0.2 pynvml==11.4.1 pyobjc-core==8.5.1
 pip check
-pip install pyopengl==3.1.6 pyotp==2.7.0 pyparsing==3.0.9 pyperf==2.4.1 pypng==0.20220715.0 pyqt5-qt5==5.15.2 pyqt5-sip==12.11.0 pyreadline3==3.4.1
+pip install pyodbc==4.0.34 pyopengl==3.1.6 pyotp==2.7.0 pyparsing==3.0.9 pyperf==2.4.1 pypng==0.20220715.0 pyqt5-qt5==5.15.2 pyqt5-sip==12.11.0
 pip check
-pip install pyro-api==0.1.2 pyrsistent==0.18.1 pysimdjson==5.0.2 pysimplegui==4.60.4 pysocks==1.7.1 python-barcode==0.14.0 python-dotenv==0.21.0 python-editor==1.0.4
+pip install pyreadline3==3.4.1 pyro-api==0.1.2 pyrsistent==0.18.1 pysimdjson==5.0.2 pysimplegui==4.60.4 pysocks==1.7.1 python-barcode==0.14.0 python-dotenv==0.21.0
 pip check
-pip install python-gflags==3.1.2 python-magic==0.4.27 python-socks==2.0.3 python-utils==3.3.3 pytimeparse==1.1.8 pytz==2022.5 pyyaml==5.4.1 pyzbar==0.1.9
+pip install python-editor==1.0.4 python-gflags==3.1.2 python-magic==0.4.27 python-socks==2.0.3 python-utils==3.3.3 pytimeparse==1.1.8 pytz==2022.5 pyyaml==5.4.1
 pip check
-pip install pyzmq==24.0.1 qrcode==7.3.1 regex==2022.9.13 rfc3986==1.5.0 rtree==1.0.1 ruamel-yaml-clib==0.2.6 schedule==1.1.0 send2trash==1.8.0
+pip install pyzbar==0.1.9 pyzmq==24.0.1 qrcode==7.3.1 regex==2022.9.13 rfc3986==1.5.0 rtree==1.0.1 ruamel-yaml-clib==0.2.6 schedule==1.1.0
 pip check
-pip install sentencepiece==0.1.97 setproctitle==1.3.2 setuptools==65.5.0 setuptools-git==1.2 shapely==1.8.5 shellingham==1.5.0 shortuuid==1.0.9 simpervisor==0.4
+pip install send2trash==1.8.0 sentencepiece==0.1.97 setproctitle==1.3.2 setuptools==65.5.0 setuptools-git==1.2 shapely==1.8.5 shellingham==1.5.0 shortuuid==1.0.9
 pip check
-pip install simplejson==3.17.6 six==1.16.0 smart-open==5.2.1 smmap==5.0.0 sniffio==1.2.0 snowballstemmer==2.2.0 sortedcontainers==2.4.0 soupsieve==2.3.2
+pip install simpervisor==0.4 simplejson==3.17.6 six==1.16.0 smart-open==5.2.1 smmap==5.0.0 sniffio==1.2.0 snowballstemmer==2.2.0 sortedcontainers==2.4.0
 pip check
-pip install spacy-legacy==3.0.10 sphinxcontrib-applehelp==1.0.2 sphinxcontrib-devhelp==1.0.2 sphinxcontrib-htmlhelp==2.0.0 sphinxcontrib-jsmath==1.0.1 sphinxcontrib-qthelp==1.0.3 sphinxcontrib-serializinghtml==1.1.5 sqlparse==0.4.3
+pip install soupsieve==2.3.2 spacy-legacy==3.0.10 sphinxcontrib-applehelp==1.0.2 sphinxcontrib-devhelp==1.0.2 sphinxcontrib-htmlhelp==2.0.0 sphinxcontrib-jsmath==1.0.1 sphinxcontrib-qthelp==1.0.3 sphinxcontrib-serializinghtml==1.1.5
 pip check
-pip install stdlib-list==0.8.0 subprocess32==3.5.4 tabulate==0.9.0 tangled-up-in-unicode==0.2.0 tbb==2021.5.0 tblib==1.7.0 tenacity==8.1.0 tensorboard-data-server==0.6.1
+pip install sqlparse==0.4.3 stdlib-list==0.8.0 subprocess32==3.5.4 tabulate==0.9.0 tangled-up-in-unicode==0.2.0 tbb==2021.5.0 tblib==1.7.0 tenacity==8.1.0
 pip check
-pip install tensorboard-plugin-wit==1.8.1 tensorflow-estimator==2.9.0 tensorflow-gcs-config==2.9.1 tensorflow-io-gcs-filesystem==0.27.0 termcolor==2.0.1 termcolor-whl==1.1.2 testpath==0.6.0 text-unidecode==1.3
+pip install tensorboard-data-server==0.6.1 tensorboard-plugin-wit==1.8.1 tensorflow-estimator==2.9.0 tensorflow-gcs-config==2.9.1 tensorflow-io-gcs-filesystem==0.27.0 termcolor==2.0.1 termcolor-whl==1.1.2 testpath==0.6.0
 pip check
-pip install texttable==1.6.4 threadpoolctl==3.1.0 tinydb==4.7.0 tokenizers==0.13.1 toml==0.10.2 tomli==2.0.1 tomlkit==0.11.5 toolz==0.12.0
+pip install text-unidecode==1.3 texttable==1.6.4 threadpoolctl==3.1.0 tinydb==4.7.0 tokenizers==0.13.1 toml==0.10.2 tomli==2.0.1 tomlkit==0.11.5
 pip check
-pip install torchsummary==1.5.1 tornado==6.2 traitlets==5.5.0 translationstring==1.4 typed-ast==1.5.4 typeguard==2.13.3 types-pytz==2022.5.0.0 typing-extensions==4.4.0
+pip install toolz==0.12.0 torchsummary==1.5.1 tornado==6.2 traitlets==5.5.0 translationstring==1.4 typed-ast==1.5.4 typeguard==2.13.3 types-pytz==2022.5.0.0
 pip check
-pip install tzdata==2022.5 ua-parser==0.16.1 uc-micro-py==1.0.1 ujson==5.5.0 unidecode==1.3.6 uritemplate==4.1.1 urllib3==1.26.12 uuid==1.30
+pip install typing-extensions==4.4.0 tzdata==2022.5 ua-parser==0.16.1 uc-micro-py==1.0.1 ujson==5.5.0 unidecode==1.3.6 uritemplate==4.1.1 urllib3==1.26.12
 pip check
-pip install venusian==3.0.0 vine==5.0.0 waitress==2.1.2 wasabi==0.10.1 wcwidth==0.2.5 webcolors==1.12 webencodings==0.5.1 webob==1.8.7
+pip install uuid==1.30 venusian==3.0.0 vine==5.0.0 waitress==2.1.2 wasabi==0.10.1 wcwidth==0.2.5 webcolors==1.12 webencodings==0.5.1
 pip check
-pip install websocket-client==1.4.1 websockets==10.3 wheel==0.37.1 widgetsnbextension==4.0.3 wincertstore==0.2 wireless==0.3.3 wrapt==1.14.1 xlrd==2.0.1
+pip install webob==1.8.7 websocket-client==1.4.1 websockets==10.3 wheel==0.37.1 widgetsnbextension==4.0.3 wincertstore==0.2 wireless==0.3.3 wrapt==1.14.1
 pip check
-pip install xlsxwriter==3.0.3 xlwt==1.3.0 xxhash==3.1.0 y-py==0.5.4 youtube-dl==2021.12.17 zipp==3.9.0 zstd==1.5.2.6
+pip install xlrd==2.0.1 xlsxwriter==3.0.3 xlwt==1.3.0 xxhash==3.1.0 y-py==0.5.4 youtube-dl==2021.12.17 zipp==3.9.0 zstd==1.5.2.6
 pip check
 # Level 1
 # Level 2
@@ -127,19 +127,19 @@ pip install plaster==1.0 plotly==5.10.0 plumbum==1.8.0 portalocker==2.6.0 portpi
 pip check
 pip install promise==2.3 prompt-toolkit==3.0.31 proto-plus==1.22.1 py-lets-be-rational==1.0.1 pyarrow==8.0.0 pyasn1-modules==0.2.8 pyct==0.4.8 pydantic==1.9.2
 pip check
-pip install pydeps==1.10.24 pydot==1.4.2 pyerfa==2.0.0.1 pylbfgs==0.2.0.14 pymongo==4.3.2 pyquaternion==0.9.9 pyscreenshot==3.0 python-bidi==0.4.2
+pip install pydeps==1.10.24 pydot==1.4.2 pyerfa==2.0.0.1 pylbfgs==0.2.0.14 pymongo==4.3.2 pyobjc-framework-cocoa==8.5.1 pyobjc-framework-libdispatch==8.5.1 pyquaternion==0.9.9
 pip check
-pip install python-daemon==2.3.1 python-dateutil==2.8.2 python-slugify==6.1.2 pytz-deprecation-shim==0.1.0.post0 pyviz-comms==2.2.1 pywavelets==1.4.1 qcore==1.8.0 querystring-parser==1.2.4
+pip install pyscreenshot==3.0 python-bidi==0.4.2 python-daemon==2.3.1 python-dateutil==2.8.2 python-slugify==6.1.2 pytz-deprecation-shim==0.1.0.post0 pyviz-comms==2.2.1 pywavelets==1.4.1
 pip check
-pip install rawpy==0.17.2 requests==2.27.1 retrying==1.3.3 rich==12.6.0 rsa==4.9 scipy==1.9.2 sentry-sdk==1.9.10 simplecosine==1.2
+pip install qcore==1.8.0 querystring-parser==1.2.4 rawpy==0.17.2 requests==2.27.1 retrying==1.3.3 rich==12.6.0 rsa==4.9 scipy==1.9.2
 pip check
-pip install spacy-loggers==1.0.3 sqlalchemy==1.4.42 srsly==2.4.5 sympy==1.11.1 tensorflow-hub==0.12.0 tensorflow-model-optimization==0.7.3 tensorflow-probability==0.18.0 terminado==0.16.0
+pip install sentry-sdk==1.9.10 simplecosine==1.2 spacy-loggers==1.0.3 sqlalchemy==1.4.42 srsly==2.4.5 sympy==1.11.1 tensorflow-hub==0.12.0 tensorflow-model-optimization==0.7.3
 pip check
-pip install tf-slim==1.1.0 thriftpy2==0.4.14 tifffile==2022.10.10 tinycss2==1.2.1 torch==1.11.0 tqdm==4.64.1 typing-inspect==0.8.0 uamqp==1.6.1
+pip install tensorflow-probability==0.18.0 terminado==0.16.0 tf-slim==1.1.0 thriftpy2==0.4.14 tifffile==2022.10.10 tinycss2==1.2.1 torch==1.11.0 tqdm==4.64.1
 pip check
-pip install url-normalize==1.4.3 validators==0.20.0 virtualenv==20.16.5 vispy==0.11.0 werkzeug==2.2.2 wsproto==1.2.0 yarl==1.8.1 yaspin==2.2.0
+pip install typing-inspect==0.8.0 uamqp==1.6.1 url-normalize==1.4.3 validators==0.20.0 virtualenv==20.16.5 vispy==0.11.0 werkzeug==2.2.2 wsproto==1.2.0
 pip check
-pip install zict==2.2.0 zope-deprecation==4.4.0 zope-interface==5.5.0
+pip install yarl==1.8.1 yaspin==2.2.0 zict==2.2.0 zope-deprecation==4.4.0 zope-interface==5.5.0
 pip check
 # Level 2
 # Level 3
@@ -171,19 +171,43 @@ pip install numexpr==2.8.3 nystrom-attention==0.0.11 oauth2client==4.1.3 onnx-si
 pip check
 pip install pandoc==2.2 params-flow==0.8.2 persistent==4.9.1 pettingzoo==1.12.0 plaster-pastedeploy==0.7 pooch==1.6.0 proglog==0.1.10 pycares==4.2.2
 pip check
-pip install pyhacrf-datamade==0.2.6 pyinstaller==5.5 pymystem3==0.2.0 pynacl==1.5.0 pyperformance==1.0.5 pyro-ppl==1.8.2 pytesseract==0.3.10 pytest==7.1.3
+pip install pyhacrf-datamade==0.2.6 pyinstaller==5.5 pymystem3==0.2.0 pynacl==1.5.0 pyobjc-framework-accounts==8.5.1 pyobjc-framework-addressbook==8.5.1 pyobjc-framework-adservices==8.5.1 pyobjc-framework-adsupport==8.5.1
 pip check
-pip install pytorch-ranger==0.1.1 qdldl==0.1.5.post2 qtpy==2.2.1 redis==4.3.4 requests-cache==0.9.6 requests-file==1.5.1 requests-oauthlib==1.3.1 requests-toolbelt==0.10.0
+pip install pyobjc-framework-applescriptkit==8.5.1 pyobjc-framework-applescriptobjc==8.5.1 pyobjc-framework-apptrackingtransparency==8.5.1 pyobjc-framework-audiovideobridging==8.5.1 pyobjc-framework-authenticationservices==8.5.1 pyobjc-framework-automaticassessmentconfiguration==8.5.1 pyobjc-framework-automator==8.5.1 pyobjc-framework-businesschat==8.5.1
 pip check
-pip install requests-unixsocket==0.3.0 resampy==0.4.2 responses==0.18.0 rlr==2.4.6 sacrebleu==2.3.1 sacremoses==0.0.53 scikit-image==0.19.3 scikit-learn==1.0.2
+pip install pyobjc-framework-calendarstore==8.5.1 pyobjc-framework-callkit==8.5.1 pyobjc-framework-cfnetwork==8.5.1 pyobjc-framework-classkit==8.5.1 pyobjc-framework-collaboration==8.5.1 pyobjc-framework-colorsync==8.5.1 pyobjc-framework-contacts==8.5.1 pyobjc-framework-coreaudio==8.5.1
 pip check
-pip install scikit-surprise==1.1.3 sclblpy==0.1.8 scs==3.2.0 setuptools-scm==7.0.5 soundfile==0.11.0 spectra==0.0.11 sphinx==4.5.0 stack-data==0.5.1
+pip install pyobjc-framework-corebluetooth==8.5.1 pyobjc-framework-coredata==8.5.1 pyobjc-framework-corehaptics==8.5.1 pyobjc-framework-corelocation==8.5.1 pyobjc-framework-coremedia==8.5.1 pyobjc-framework-coremediaio==8.5.1 pyobjc-framework-coremidi==8.5.1 pyobjc-framework-coreml==8.5.1
 pip check
-pip install stanza==1.4.2 starlette==0.21.0 streamz==0.6.4 stumpy==1.11.1 tensorflow-addons==0.18.0 tensorflow-metadata==1.10.0 tf2onnx==1.12.1 theano==1.0.5
+pip install pyobjc-framework-coremotion==8.5.1 pyobjc-framework-corespotlight==8.5.1 pyobjc-framework-corewlan==8.5.1 pyobjc-framework-cryptotokenkit==8.5.1 pyobjc-framework-datadetection==8.5.1 pyobjc-framework-devicecheck==8.5.1 pyobjc-framework-discrecording==8.5.1 pyobjc-framework-diskarbitration==8.5.1
 pip check
-pip install tiingo==0.14.0 tiledb==0.17.5 torchaudio==0.11.0 torchmetrics==0.10.0 torchtext==0.12.0 torchvision==0.12.0 trio==0.20.0 typer==0.4.2
+pip install pyobjc-framework-dvdplayback==8.5.1 pyobjc-framework-eventkit==8.5.1 pyobjc-framework-exceptionhandling==8.5.1 pyobjc-framework-executionpolicy==8.5.1 pyobjc-framework-externalaccessory==8.5.1 pyobjc-framework-fileprovider==8.5.1 pyobjc-framework-findersync==8.5.1 pyobjc-framework-fsevents==8.5.1
 pip check
-pip install typeshed-client==2.0.5 tzlocal==4.2 userpath==1.8.0 uvicorn==0.19.0 xgboost==1.6.2 yahoofinancials==1.6 ypy-websocket==0.3.2 zarr==2.13.3
+pip install pyobjc-framework-gamecenter==8.5.1 pyobjc-framework-gamecontroller==8.5.1 pyobjc-framework-imagecapturecore==8.5.1 pyobjc-framework-imserviceplugin==8.5.1 pyobjc-framework-inputmethodkit==8.5.1 pyobjc-framework-installerplugins==8.5.1 pyobjc-framework-intents==8.5.1 pyobjc-framework-iosurface==8.5.1
+pip check
+pip install pyobjc-framework-ituneslibrary==8.5.1 pyobjc-framework-kernelmanagement==8.5.1 pyobjc-framework-latentsemanticmapping==8.5.1 pyobjc-framework-mailkit==8.5.1 pyobjc-framework-mediaaccessibility==8.5.1 pyobjc-framework-mediatoolbox==8.5.1 pyobjc-framework-metal==8.5.1 pyobjc-framework-metrickit==8.5.1
+pip check
+pip install pyobjc-framework-mlcompute==8.5.1 pyobjc-framework-multipeerconnectivity==8.5.1 pyobjc-framework-naturallanguage==8.5.1 pyobjc-framework-netfs==8.5.1 pyobjc-framework-network==8.5.1 pyobjc-framework-networkextension==8.5.1 pyobjc-framework-notificationcenter==8.5.1 pyobjc-framework-opendirectory==8.5.1
+pip check
+pip install pyobjc-framework-osakit==8.5.1 pyobjc-framework-passkit==8.5.1 pyobjc-framework-pencilkit==8.5.1 pyobjc-framework-photos==8.5.1 pyobjc-framework-photosui==8.5.1 pyobjc-framework-preferencepanes==8.5.1 pyobjc-framework-pushkit==8.5.1 pyobjc-framework-quartz==8.5.1
+pip check
+pip install pyobjc-framework-replaykit==8.5.1 pyobjc-framework-safariservices==8.5.1 pyobjc-framework-screensaver==8.5.1 pyobjc-framework-screentime==8.5.1 pyobjc-framework-scriptingbridge==8.5.1 pyobjc-framework-security==8.5.1 pyobjc-framework-servicemanagement==8.5.1 pyobjc-framework-shazamkit==8.5.1
+pip check
+pip install pyobjc-framework-social==8.5.1 pyobjc-framework-soundanalysis==8.5.1 pyobjc-framework-speech==8.5.1 pyobjc-framework-storekit==8.5.1 pyobjc-framework-systemconfiguration==8.5.1 pyobjc-framework-systemextensions==8.5.1 pyobjc-framework-uniformtypeidentifiers==8.5.1 pyobjc-framework-usernotifications==8.5.1
+pip check
+pip install pyobjc-framework-videosubscriberaccount==8.5.1 pyobjc-framework-virtualization==8.5.1 pyobjc-framework-webkit==8.5.1 pyperformance==1.0.5 pyro-ppl==1.8.2 pytesseract==0.3.10 pytest==7.1.3 pytorch-ranger==0.1.1
+pip check
+pip install qdldl==0.1.5.post2 qtpy==2.2.1 redis==4.3.4 requests-cache==0.9.6 requests-file==1.5.1 requests-oauthlib==1.3.1 requests-toolbelt==0.10.0 requests-unixsocket==0.3.0
+pip check
+pip install resampy==0.4.2 responses==0.18.0 rlr==2.4.6 sacrebleu==2.3.1 sacremoses==0.0.53 scikit-image==0.19.3 scikit-learn==1.0.2 scikit-surprise==1.1.3
+pip check
+pip install sclblpy==0.1.8 scs==3.2.0 setuptools-scm==7.0.5 soundfile==0.11.0 spectra==0.0.11 sphinx==4.5.0 stack-data==0.5.1 stanza==1.4.2
+pip check
+pip install starlette==0.21.0 streamz==0.6.4 stumpy==1.11.1 tensorflow-addons==0.18.0 tensorflow-metadata==1.10.0 tf2onnx==1.12.1 theano==1.0.5 tiingo==0.14.0
+pip check
+pip install tiledb==0.17.5 torchaudio==0.11.0 torchmetrics==0.10.0 torchtext==0.12.0 torchvision==0.12.0 trio==0.20.0 typer==0.4.2 typeshed-client==2.0.5
+pip check
+pip install tzlocal==4.2 userpath==1.8.0 uvicorn==0.19.0 xgboost==1.6.2 yahoofinancials==1.6 ypy-websocket==0.3.2 zarr==2.13.3
 pip check
 # Level 3
 # Level 4
@@ -207,6 +231,14 @@ pip install panel==0.14.0 paramiko==2.11.0 pathy==0.6.2 performer-pytorch==1.1.4
 pip check
 pip install proj==0.2.0 prometheus-flask-exporter==0.20.3 py-vollib==1.0.1 pyanalyze==0.7.0 pycocotools==2.0.5 pydata-sphinx-theme==0.11.0 pygithub==1.56 pynndescent==0.5.7
 pip check
+pip install pyobjc-framework-accessibility==8.5.1 pyobjc-framework-applicationservices==8.5.1 pyobjc-framework-avfoundation==8.5.1 pyobjc-framework-avkit==8.5.1 pyobjc-framework-cloudkit==8.5.1 pyobjc-framework-contactsui==8.5.1 pyobjc-framework-coreaudiokit==8.5.1 pyobjc-framework-coreservices==8.5.1
+pip check
+pip install pyobjc-framework-coretext==8.5.1 pyobjc-framework-discrecordingui==8.5.1 pyobjc-framework-fileproviderui==8.5.1 pyobjc-framework-gamekit==8.5.1 pyobjc-framework-instantmessage==8.5.1 pyobjc-framework-intentsui==8.5.1 pyobjc-framework-linkpresentation==8.5.1 pyobjc-framework-localauthentication==8.5.1
+pip check
+pip install pyobjc-framework-mapkit==8.5.1 pyobjc-framework-medialibrary==8.5.1 pyobjc-framework-metalkit==8.5.1 pyobjc-framework-metalperformanceshaders==8.5.1 pyobjc-framework-modelio==8.5.1 pyobjc-framework-oslog==8.5.1 pyobjc-framework-quicklookthumbnailing==8.5.1 pyobjc-framework-scenekit==8.5.1
+pip check
+pip install pyobjc-framework-screencapturekit==8.5.1 pyobjc-framework-securityfoundation==8.5.1 pyobjc-framework-securityinterface==8.5.1 pyobjc-framework-spritekit==8.5.1 pyobjc-framework-syncservices==8.5.1 pyobjc-framework-usernotificationsui==8.5.1 pyobjc-framework-videotoolbox==8.5.1 pyobjc-framework-vision==8.5.1
+pip check
 pip install pyopenssl==22.1.0 pyramid==2.0 qudida==0.0.4 rpy2==3.5.5 s3transfer==0.6.0 scikit-plot==0.3.7 seaborn==0.11.2 secretstorage==3.3.3
 pip check
 pip install seqeval==1.2.2 sklearn==0.0 sklearn-pandas==2.2.0 snapml==1.9.5 sphinx-autobuild==2021.3.14 sphinx-autodoc-typehints==1.19.1 sphinx-markdown-tables==0.0.17 sphinx-panels==0.6.0
@@ -225,17 +257,19 @@ pip install etuples==0.3.8 google-api-python-client==2.65.0 google-cloud-bigquer
 pip check
 pip install missingno==0.5.1 mlflow==1.29.0 nbconvert==7.2.2 pandas-market-calendars==4.1.0 plotnine==0.10.1 pmdarima==2.0.1 prophet==1.1.1 pydata-google-auth==1.4.0
 pip check
-pip install pyldavis==3.3.1 pyod==1.0.5 rapidminer==9.10.0.0 rapids==0.0.1 selenium==4.5.0 spacy==3.4.1 sshtunnel==0.4.0 tensorboard==2.9.1
+pip install pyldavis==3.3.1 pyobjc-framework-dictionaryservices==8.5.1 pyobjc-framework-gameplaykit==8.5.1 pyobjc-framework-launchservices==8.5.1 pyobjc-framework-localauthenticationembeddedui==8.5.1 pyobjc-framework-mediaplayer==8.5.1 pyobjc-framework-metalperformanceshadersgraph==8.5.1 pyobjc-framework-searchkit==8.5.1
 pip check
-pip install twint==2.1.20 umap-learn==0.5.3 xarray-einstats==0.3.0 zope-index==5.2.1
+pip install pyod==1.0.5 rapidminer==9.10.0.0 rapids==0.0.1 selenium==4.5.0 spacy==3.4.1 sshtunnel==0.4.0 tensorboard==2.9.1 twint==2.1.20
+pip check
+pip install umap-learn==0.5.3 xarray-einstats==0.3.0 zope-index==5.2.1
 pip check
 # Level 5
 # Level 6
 pip install arviz==0.12.1 google-cloud-bigquery==3.3.2 google-cloud-datastore==2.9.0 google-cloud-firestore==2.7.2 google-cloud-storage==2.5.0 google-cloud-translate==3.8.4 gspread-dataframe==3.3.0 ipywidgets==8.0.2
 pip check
-pip install jupyter-console==6.4.4 jupyter-dash==0.4.2 jupyter-server==1.16.0 minikanren==1.0.3 open3d==0.16.0 pandas-profiling==3.3.0 pytorch-lightning==1.7.7 qtconsole==5.3.2
+pip install jupyter-console==6.4.4 jupyter-dash==0.4.2 jupyter-server==1.16.0 minikanren==1.0.3 open3d==0.16.0 pandas-profiling==3.3.0 pyobjc==8.5.1 pytorch-lightning==1.7.7
 pip check
-pip install recommenders==1.1.1 spacytextblob==4.0.0 tda-api==1.6.0 tensorflow==2.9.1
+pip install qtconsole==5.3.2 recommenders==1.1.1 spacytextblob==4.0.0 tda-api==1.6.0 tensorflow==2.9.1
 pip check
 # Level 6
 # Level 7

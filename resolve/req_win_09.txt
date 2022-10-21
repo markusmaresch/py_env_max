@@ -1,5 +1,0 @@
-cufflinks==0.17.3 # LEVEL_09 # Productivity Tools for Plotly + Pandas
-jupyter-bokeh==3.0.4 # LEVEL_09 # A Jupyter extension for rendering Bokeh content
-jupyter==1.0.0 # LEVEL_09 # Jupyter metapackage. Install all the Jupyter components in one go
-jupyterlab==3.3.2 # LEVEL_09 # JupyterLab computational environment
-pydeck==0.7.1 # LEVEL_09 # Widget for deck.gl maps

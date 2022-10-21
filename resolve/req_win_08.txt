@@ -1,4 +1,0 @@
-#tf-models-official==2.7.1 # LEVEL_08 # TensorFlow Official Models
-# ecco # LEVEL_08 # old dependencies
-ipywidgets==7.7.0 # LEVEL_08 # IPython HTML widgets for Jupyter
-nbclassic==0.3.7 # LEVEL_08 # Jupyter Notebook as a Jupyter Server extension
