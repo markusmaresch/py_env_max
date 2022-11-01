@@ -117,31 +117,31 @@ pip install intervaltree==3.1.0 isodate==0.6.1 jaraco-classes==3.2.3 jedi==0.18.
 pip check
 pip install keras-preprocessing==1.1.2 leather==0.3.4 linkify-it-py==2.0.0 livereload==2.6.3 m3u8==3.3.0 macholib==1.16.2 mako==1.2.3 markdown-it-py==2.1.0
 pip check
-pip install mashumaro==3.1 matplotlib-inline==0.1.6 memory-profiler==0.60.0 mkl==2022.2.0 multipledispatch==0.6.0 multiprocess==0.70.13 munch==2.5.0 mypy==0.982
+pip install mashumaro==3.1 matplotlib-inline==0.1.6 memory-profiler==0.60.0 mkl==2022.2.0 mouseinfo==0.1.3 multipledispatch==0.6.0 multiprocess==0.70.13 munch==2.5.0
 pip check
-pip install nodejs==0.1.1 numba==0.56.3 numcodecs==0.10.2 omegaconf==2.2.3 onnx==1.12.0 opencv-contrib-python==4.6.0.66 opencv-python==4.6.0.66 opencv-python-headless==4.5.4.60
+pip install mypy==0.982 nodejs==0.1.1 numba==0.56.3 numcodecs==0.10.2 omegaconf==2.2.3 onnx==1.12.0 opencv-contrib-python==4.6.0.66 opencv-python==4.6.0.66
 pip check
-pip install openpyxl==3.0.10 openvino==2022.2.0 opt-einsum==3.3.0 oscrypto==1.3.0 outcome==1.2.0 packaging==21.3 pandas-stubs==1.5.0.221012 parasail==1.3.3
+pip install opencv-python-headless==4.5.4.60 openpyxl==3.0.10 openvino==2022.2.0 opt-einsum==3.3.0 oscrypto==1.3.0 outcome==1.2.0 packaging==21.3 pandas-stubs==1.5.0.221012
 pip check
-pip install parsedatetime==2.4 partd==1.3.0 pastedeploy==3.0.1 patsy==0.5.3 pefile==2022.5.30 pep517==0.13.0 pexpect==4.8.0 plaster==1.0
+pip install parasail==1.3.3 parsedatetime==2.4 partd==1.3.0 pastedeploy==3.0.1 patsy==0.5.3 pefile==2022.5.30 pep517==0.13.0 pexpect==4.8.0
 pip check
-pip install plotly==5.10.0 plumbum==1.8.0 portalocker==2.6.0 portpicker==1.5.2 preshed==3.0.8 prettytable==3.4.1 progressbar2==4.1.1 promise==2.3
+pip install plaster==1.0 plotly==5.10.0 plumbum==1.8.0 portalocker==2.6.0 portpicker==1.5.2 preshed==3.0.8 prettytable==3.4.1 progressbar2==4.1.1
 pip check
-pip install prompt-toolkit==3.0.31 proto-plus==1.22.1 py-lets-be-rational==1.0.1 pyarrow==8.0.0 pyasn1-modules==0.2.8 pyct==0.4.8 pydantic==1.9.2 pydeps==1.10.24
+pip install promise==2.3 prompt-toolkit==3.0.31 proto-plus==1.22.1 py-lets-be-rational==1.0.1 pyarrow==8.0.0 pyasn1-modules==0.2.8 pyct==0.4.8 pydantic==1.9.2
 pip check
-pip install pydot==1.4.2 pyerfa==2.0.0.1 pylbfgs==0.2.0.14 pymongo==4.3.2 pyobjc-framework-cocoa==8.5.1 pyobjc-framework-libdispatch==8.5.1 pyquaternion==0.9.9 pyscreenshot==3.0
+pip install pydeps==1.10.24 pydot==1.4.2 pyerfa==2.0.0.1 pygetwindow==0.0.9 pylbfgs==0.2.0.14 pymongo==4.3.2 pyobjc-framework-cocoa==8.5.1 pyobjc-framework-libdispatch==8.5.1
 pip check
-pip install python-bidi==0.4.2 python-daemon==2.3.1 python-dateutil==2.8.2 python-slugify==6.1.2 pytz-deprecation-shim==0.1.0.post0 pyviz-comms==2.2.1 pywavelets==1.4.1 qcore==1.8.0
+pip install pyquaternion==0.9.9 pyscreenshot==3.0 python-bidi==0.4.2 python-daemon==2.3.1 python-dateutil==2.8.2 python-slugify==6.1.2 pytz-deprecation-shim==0.1.0.post0 pyviz-comms==2.2.1
 pip check
-pip install querystring-parser==1.2.4 rawpy==0.17.2 requests==2.27.1 retrying==1.3.3 rich==12.6.0 rsa==4.9 scipy==1.9.3 sentry-sdk==1.10.1
+pip install pywavelets==1.4.1 qcore==1.8.0 querystring-parser==1.2.4 rawpy==0.17.2 requests==2.27.1 retrying==1.3.3 rich==12.6.0 rsa==4.9
 pip check
-pip install simplecosine==1.2 spacy-loggers==1.0.3 sqlalchemy==1.4.42 srsly==2.4.5 sympy==1.11.1 tensorflow-hub==0.12.0 tensorflow-model-optimization==0.7.3 tensorflow-probability==0.18.0
+pip install scipy==1.9.3 sentry-sdk==1.10.1 simplecosine==1.2 spacy-loggers==1.0.3 sqlalchemy==1.4.42 srsly==2.4.5 sympy==1.11.1 tensorflow-hub==0.12.0
 pip check
-pip install terminado==0.16.0 tf-slim==1.1.0 thriftpy2==0.4.14 tifffile==2022.10.10 tinycss2==1.2.1 torch==1.11.0 tqdm==4.64.1 typing-inspect==0.8.0
+pip install tensorflow-model-optimization==0.7.3 tensorflow-probability==0.18.0 terminado==0.16.0 tf-slim==1.1.0 thriftpy2==0.4.14 tifffile==2022.10.10 tinycss2==1.2.1 torch==1.11.0
 pip check
-pip install uamqp==1.6.1 url-normalize==1.4.3 validators==0.20.0 virtualenv==20.16.5 vispy==0.11.0 werkzeug==2.2.2 wheel==0.38.0 wsproto==1.2.0
+pip install tqdm==4.64.1 typing-inspect==0.8.0 uamqp==1.6.1 url-normalize==1.4.3 validators==0.20.0 virtualenv==20.16.5 vispy==0.11.0 werkzeug==2.2.2
 pip check
-pip install yarl==1.8.1 yaspin==2.2.0 zict==2.2.0 zope-deprecation==4.4.0 zope-interface==5.5.0
+pip install wheel==0.38.0 wsproto==1.2.0 yarl==1.8.1 yaspin==2.2.0 zict==2.2.0 zope-deprecation==4.4.0 zope-interface==5.5.0
 pip check
 # Level 2
 # Level 3
@@ -277,13 +277,13 @@ pip install qtconsole==5.3.2 recommenders==1.1.1 spacytextblob==4.0.0 tda-api==1
 pip check
 # Level 6
 # Level 7
-pip install aesara==2.8.7 cufflinks==0.17.3 jupyter-bokeh==3.0.5 jupyter-lsp==1.5.1 jupyterlab-server==2.16.1 notebook-shim==0.2.0 pandas-gbq==0.17.9 pydeck==0.7.1
+pip install aesara==2.8.7 cufflinks==0.17.3 jupyter-bokeh==3.0.5 jupyter-lsp==1.5.1 jupyterlab-server==2.16.1 notebook-shim==0.2.0 pandas-gbq==0.17.9 pyautogui==0.9.53
 pip check
-pip install tensorflow-text==2.9.0
+pip install pydeck==0.7.1 tensorflow-text==2.9.0
 pip check
 # Level 7
 # Level 8
-pip install aeppl==0.0.38 jupyterlab==4.0.0a29 nbclassic==0.4.5 pycaret==2.2.2 tf-models-official==2.9.2
+pip install aeppl==0.0.38 jupyterlab==4.0.0a29 nbclassic==0.4.5 pycaret==2.2.2 pywhatkit==5.4 tf-models-official==2.9.2
 pip check
 # Level 8
 # Level 9
