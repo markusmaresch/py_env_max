@@ -61,37 +61,39 @@ pip install py-spy==0.3.14 py4j==0.10.9.7 pyasn1==0.4.8 pybullet==3.2.5 pycairo=
 pip check
 pip install pycryptodome==3.15.0 pycryptodomex==3.15.0 pydeprecate==0.3.2 pydicom==2.3.0 pydub==0.25.1 pyflakes==2.5.0 pygame==2.1.2 pygments==2.13.0
 pip check
-pip install pyinstaller-hooks-contrib==2022.10 pyjwt==2.6.0 pylev==1.4.0 pyluach==2.0.1 pymeeus==0.5.11 pymysql==1.0.2 pynvml==11.4.1 pyobjc-core==8.5.1
+pip install pyinstaller-hooks-contrib==2022.10 pyjwt==2.6.0 pylev==1.4.0 pyluach==2.0.1 pymeeus==0.5.11 pymsgbox==1.0.9 pymysql==1.0.2 pynvml==11.4.1
 pip check
-pip install pyodbc==4.0.34 pyopengl==3.1.6 pyotp==2.7.0 pyparsing==3.0.9 pyperf==2.4.1 pypng==0.20220715.0 pyqt5-qt5==5.15.2 pyqt5-sip==12.11.0
+pip install pyobjc-core==8.5.1 pyodbc==4.0.34 pyopengl==3.1.6 pyotp==2.7.0 pyparsing==3.0.9 pyperclip==1.8.2 pyperf==2.4.1 pypng==0.20220715.0
 pip check
-pip install pyreadline3==3.4.1 pyro-api==0.1.2 pyrsistent==0.18.1 pysimdjson==5.0.2 pysimplegui==4.60.4 pysocks==1.7.1 python-barcode==0.14.0 python-dotenv==0.21.0
+pip install pyqt5-qt5==5.15.2 pyqt5-sip==12.11.0 pyreadline3==3.4.1 pyrect==0.2.0 pyro-api==0.1.2 pyrsistent==0.18.1 pyscreeze==0.1.28 pysimdjson==5.0.2
 pip check
-pip install python-editor==1.0.4 python-gflags==3.1.2 python-magic==0.4.27 python-socks==2.0.3 python-utils==3.3.3 pytimeparse==1.1.8 pytz==2022.5 pyyaml==5.4.1
+pip install pysimplegui==4.60.4 pysocks==1.7.1 python-barcode==0.14.0 python-dotenv==0.21.0 python-editor==1.0.4 python-gflags==3.1.2 python-magic==0.4.27 python-socks==2.0.3
 pip check
-pip install pyzbar==0.1.9 pyzmq==24.0.1 qrcode==7.3.1 regex==2022.9.13 rfc3986==1.5.0 rtree==1.0.1 ruamel-yaml-clib==0.2.7 schedule==1.1.0
+pip install python-utils==3.3.3 pytimeparse==1.1.8 pytweening==1.0.4 pytz==2022.5 pyyaml==5.4.1 pyzbar==0.1.9 pyzmq==24.0.1 qrcode==7.3.1
 pip check
-pip install send2trash==1.8.0 sentencepiece==0.1.97 setproctitle==1.3.2 setuptools==65.5.0 setuptools-git==1.2 shapely==1.8.5 shellingham==1.5.0 shortuuid==1.0.9
+pip install regex==2022.9.13 rfc3986==1.5.0 rtree==1.0.1 ruamel-yaml-clib==0.2.7 rubicon-objc==0.4.2 schedule==1.1.0 send2trash==1.8.0 sentencepiece==0.1.97
 pip check
-pip install simpervisor==0.4 simplejson==3.17.6 six==1.16.0 smart-open==5.2.1 smmap==5.0.0 sniffio==1.2.0 snowballstemmer==2.2.0 sortedcontainers==2.4.0
+pip install setproctitle==1.3.2 setuptools==65.5.0 setuptools-git==1.2 shapely==1.8.5 shellingham==1.5.0 shortuuid==1.0.9 simpervisor==0.4 simplejson==3.17.6
 pip check
-pip install soupsieve==2.3.2 spacy-legacy==3.0.10 sphinxcontrib-applehelp==1.0.2 sphinxcontrib-devhelp==1.0.2 sphinxcontrib-htmlhelp==2.0.0 sphinxcontrib-jsmath==1.0.1 sphinxcontrib-qthelp==1.0.3 sphinxcontrib-serializinghtml==1.1.5
+pip install six==1.16.0 smart-open==5.2.1 smmap==5.0.0 sniffio==1.2.0 snowballstemmer==2.2.0 sortedcontainers==2.4.0 soupsieve==2.3.2 spacy-legacy==3.0.10
 pip check
-pip install sqlparse==0.4.3 stdlib-list==0.8.0 subprocess32==3.5.4 tabulate==0.9.0 tangled-up-in-unicode==0.2.0 tbb==2021.5.0 tblib==1.7.0 tenacity==8.1.0
+pip install sphinxcontrib-applehelp==1.0.2 sphinxcontrib-devhelp==1.0.2 sphinxcontrib-htmlhelp==2.0.0 sphinxcontrib-jsmath==1.0.1 sphinxcontrib-qthelp==1.0.3 sphinxcontrib-serializinghtml==1.1.5 sqlparse==0.4.3 stdlib-list==0.8.0
 pip check
-pip install tensorboard-data-server==0.6.1 tensorboard-plugin-wit==1.8.1 tensorflow-estimator==2.9.0 tensorflow-gcs-config==2.9.1 tensorflow-io-gcs-filesystem==0.27.0 termcolor==2.0.1 termcolor-whl==1.1.2 testpath==0.6.0
+pip install subprocess32==3.5.4 tabulate==0.9.0 tangled-up-in-unicode==0.2.0 tbb==2021.5.0 tblib==1.7.0 tenacity==8.1.0 tensorboard-data-server==0.6.1 tensorboard-plugin-wit==1.8.1
 pip check
-pip install text-unidecode==1.3 texttable==1.6.4 threadpoolctl==3.1.0 tinydb==4.7.0 tokenizers==0.13.1 toml==0.10.2 tomli==2.0.1 tomlkit==0.11.5
+pip install tensorflow-estimator==2.9.0 tensorflow-gcs-config==2.9.1 tensorflow-io-gcs-filesystem==0.27.0 termcolor==2.0.1 termcolor-whl==1.1.2 testpath==0.6.0 text-unidecode==1.3 texttable==1.6.4
 pip check
-pip install toolz==0.12.0 torchsummary==1.5.1 tornado==6.2 traitlets==5.5.0 translationstring==1.4 typed-ast==1.5.4 typeguard==2.13.3 types-pytz==2022.5.0.0
+pip install threadpoolctl==3.1.0 tinydb==4.7.0 tokenizers==0.13.1 toml==0.10.2 tomli==2.0.1 tomlkit==0.11.5 toolz==0.12.0 torchsummary==1.5.1
 pip check
-pip install typing-extensions==4.4.0 tzdata==2022.5 ua-parser==0.16.1 uc-micro-py==1.0.1 ujson==5.5.0 unidecode==1.3.6 uritemplate==4.1.1 urllib3==1.26.12
+pip install tornado==6.2 traitlets==5.5.0 translationstring==1.4 typed-ast==1.5.4 typeguard==2.13.3 types-pytz==2022.5.0.0 typing-extensions==4.4.0 tzdata==2022.5
 pip check
-pip install uuid==1.30 venusian==3.0.0 vine==5.0.0 waitress==2.1.2 wasabi==0.10.1 wcwidth==0.2.5 webcolors==1.12 webencodings==0.5.1
+pip install ua-parser==0.16.1 uc-micro-py==1.0.1 ujson==5.5.0 unidecode==1.3.6 uritemplate==4.1.1 urllib3==1.26.12 uuid==1.30 venusian==3.0.0
 pip check
-pip install webob==1.8.7 websocket-client==1.4.1 websockets==10.3 widgetsnbextension==4.0.3 wincertstore==0.2 wireless==0.3.3 wrapt==1.14.1 xlrd==2.0.1
+pip install vine==5.0.0 waitress==2.1.2 wasabi==0.10.1 wcwidth==0.2.5 webcolors==1.12 webencodings==0.5.1 webob==1.8.7 websocket-client==1.4.1
 pip check
-pip install xlsxwriter==3.0.3 xlwt==1.3.0 xxhash==3.1.0 y-py==0.5.4 youtube-dl==2021.12.17 zipp==3.9.0 zstd==1.5.2.6
+pip install websockets==10.3 widgetsnbextension==4.0.3 wincertstore==0.2 wireless==0.3.3 wrapt==1.14.1 xlrd==2.0.1 xlsxwriter==3.0.3 xlwt==1.3.0
+pip check
+pip install xxhash==3.1.0 y-py==0.5.4 youtube-dl==2021.12.17 zipp==3.9.0 zstd==1.5.2.6
 pip check
 # Level 1
 # Level 2
@@ -207,9 +209,9 @@ pip install stanza==1.4.2 starlette==0.21.0 streamz==0.6.4 stumpy==1.11.1 tensor
 pip check
 pip install theano==1.0.5 tiingo==0.14.0 tiledb==0.17.5 torchaudio==0.11.0 torchmetrics==0.10.0 torchtext==0.12.0 torchvision==0.12.0 trio==0.20.0
 pip check
-pip install typer==0.4.2 typeshed-client==2.0.5 tzlocal==4.2 userpath==1.8.0 uvicorn==0.19.0 xgboost==1.6.2 yahoofinancials==1.6 ypy-websocket==0.3.2
+pip install typer==0.4.2 typeshed-client==2.0.5 tzlocal==4.2 userpath==1.8.0 uvicorn==0.19.0 wikipedia==1.4.0 xgboost==1.6.2 yahoofinancials==1.6
 pip check
-pip install zarr==2.13.3
+pip install ypy-websocket==0.3.2 zarr==2.13.3
 pip check
 # Level 3
 # Level 4
