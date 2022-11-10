@@ -97,6 +97,7 @@ class PyEnvMax:
                                          epilog='Maximize you python environment !')
 
         parser.add_argument('-f', '--force', action='store_true', help='force creation/overwriting of files')
+        parser.add_argument('-p', '--packages', action='store_true', help='packages to install')
         parser.add_argument('-e', '--env', action='store',
                             help='environment name, overriding \'{}\''.format(env_default))
 
@@ -108,6 +109,9 @@ class PyEnvMax:
                            help='Provide help initializing a new python environment')
         group.add_argument('-ei', '--env_import', action='store_true',
                            help='Import existing python environment into internal database')
+
+        group.add_argument('-ip', '--install_packages', action='store_true',
+                            help='Attempt to install packages to existing python environment')
 
         group.add_argument('-ua', '--upd_all', action='store_true',
                             help='Attempt to update all of existing python environment')
@@ -146,6 +150,9 @@ class PyEnvMax:
             ReqCmd.req_export(env_name=env_name, force=force)
         elif args.upd_all:
             EnvCmd.upd_all(env_name=env_name, force=force)
+        elif args.install_packages:
+            packages = args.install_packages
+            EnvCmd.install_packages(env_name=env_name, packages=packages, force=force)
         elif args.scripts_export:
             ScriptsCmd.scripts_export(env_name=env_name, python_version=self.python_version_default, force=force)
         else:

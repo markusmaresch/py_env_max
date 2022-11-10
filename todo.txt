@@ -1,6 +1,9 @@
 #
 #
 #
+Update All
+    use: --dry-run before trying and react to that, instead if try/rollback (reason objc..)
+
 Features:
     Install new packages: a=1.0 b=2.0 c=3.0 .. or form of requirements
         Use --dry-run, attempt and roll back if not sucessful

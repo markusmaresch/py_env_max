@@ -275,6 +275,11 @@ class EnvCmd:
         db.close()
         return ok
 
+
+    @staticmethod
+    def install_packages(env_name: str, packages: [str], force: bool = False) -> bool:
+        return True
+
     @staticmethod
     def upd_all(env_name: str, force: bool = False) -> bool:
         # Attempt to update existing python environment
