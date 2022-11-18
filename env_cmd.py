@@ -110,8 +110,9 @@ class EnvCmd:
                 return False
             # could have still open releases
             ok = True
-            i = 0
+            i = (-1)
             for package_name in packages_needed:
+                i += 1
                 release_dict = releases_dict[i]
                 if release_dict is None:
                     print('Error: No release_dict for {}'.format(package_name))
@@ -134,7 +135,6 @@ class EnvCmd:
                     if rr is None:
                         return False  # not sure, if this really should be fatal ...
                 packages_resolved.add(package_name)
-                i += 1
             # for
             if ok:
                 if t > 0:
