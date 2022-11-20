@@ -129,7 +129,7 @@ class PyEnvMax:
         group.add_argument('-se', '--scripts_export', action='store_true',
                            help='Create scripts for recreating existing python environment')
         args = parser.parse_args()
-        print(args)
+        # print(args)
         force = args.force
         env_name = self.check_conda_environment(args.env, force)
         if env_name is None:
