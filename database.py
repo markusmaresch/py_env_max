@@ -89,7 +89,7 @@ class Database:
                       .format(json_path, self.get_dirty()))
                 self.set_dirty(False)
             # with
-            if have_old:
+            if have_old and False:
                 with open(old_path, 'r') as f_old, open(json_path, 'r') as f_new:
                     diffs = difflib.ndiff(f_old.readlines(), f_new.readlines())
                     pattern = '"{}":'.format(Database.RELEASES_CHECKED_TIME)
