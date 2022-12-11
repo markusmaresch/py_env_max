@@ -13,7 +13,7 @@ from conda_cmd import CondaCmd
 from pip_cmd import PipCmd
 from scripts_cmd import ScriptsCmd
 from os_platform import OsPlatform
-from statistics import Statistics
+from stat import Statistics
 from version import Version
 
 
