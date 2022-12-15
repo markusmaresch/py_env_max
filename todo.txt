@@ -29,6 +29,9 @@ Features:
         scan log for 'Uninstalling'
         put them into a list, and try one by one
 
+    Example2:
+        pip install --dry-run manim
+
 Bugs
     * when collecting releases_recent, it seems to keep 10.
         Of those all could be 'a' or 'b' releases, so we need to keep more or back until we get a good release
