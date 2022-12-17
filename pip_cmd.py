@@ -20,9 +20,8 @@ class PipReturn:
     ROLLED_BACK = 2
     NO_ACTION = 3
 
-    def __init__(self, package: str, installs: typing.List):
-        self.package = package
-        self.installs = installs
+    def __init__(self):  # , packages_with_versions: typing.List):
+        # self.packages_with_versions = packages_with_versions
         self.return_code = PipReturn.OK
         self.installed = dict()
         self.uninstalled = dict()
@@ -226,14 +225,17 @@ class PipCmd:
         return False
 
     @staticmethod
-    def pip_install_commands(package: str, args: typing.List) -> PipReturn:
+    def pip_install_commands(packages_with_versions: typing.List, dry_run: bool = False) -> PipReturn:
         def has_digit(s: str):
             return any(i.isdigit() for i in s)
 
-        pr = PipReturn(package=package, installs=args)
+        pr = PipReturn()  # installs=packages_with_versions)
         try:
             error = False
-            pip_args = [sys.executable, '-m', 'pip', 'install'] + args
+            pip_args = [sys.executable, '-m', 'pip', 'install']
+            if dry_run:
+                pip_args += '--dry-run'
+            pip_args += packages_with_versions
             cp = subprocess.run(pip_args, shell=False, capture_output=True)
             for line in cp.stdout.decode().split('\n'):
                 if not line:
@@ -299,18 +301,17 @@ class PipCmd:
 
         except Exception as e:
             # typically a coding error above
-            print('Failed: pip install {}: {}'.format(args, e))
+            print('Failed: pip install {}: {}'.format(packages_with_versions, e))
         return pr.set_return_code(PipReturn.ERROR)
 
     @staticmethod
-    def pip_install(package: str, version: str, eq: str = '==') -> PipReturn:
-        arg = '{}{}{}'.format(package, eq, version)
-        return PipCmd.pip_install_commands(package, [arg])
+    def pip_install_single(package_name: str, version: str, eq: str = '==') -> PipReturn:
+        package_with_version = '{}{}{}'.format(package_name, eq, version)
+        return PipCmd.pip_install_commands(packages_with_versions=[package_with_version])
 
     @staticmethod
-    def pip_install_roll_back(package: str, version: str) -> PipReturn:
-        pr = PipCmd.pip_install(package=package, version=version)
-        # installed = pr.get_installed()
+    def pip_install_roll_back_single(package_name: str, version: str) -> PipReturn:
+        pr = PipCmd.pip_install_single(package_name=package_name, version=version)
         if pr.get_return_code() == PipReturn.OK:
             return pr
         installed = pr.get_installed()
@@ -325,27 +326,27 @@ class PipCmd:
             vers = installed[pack]
             print('Installed: {}=={}'.format(pack, vers))
         # for
-        pip_cmds = list()
+        packages_with_versions = list()
         for pack in uninstalled.keys():
             vers = uninstalled[pack]
             cmd = '{}=={}'.format(pack, vers)
             print('Uninstalled: {}'.format(cmd))
-            pip_cmds.append(cmd)
+            packages_with_versions.append(cmd)
         # for
         print('pip_install_roll_back: attempt to revert: {} to: {}'
-              .format(package, pip_cmds))
-        pr2 = PipCmd.pip_install_commands(package, pip_cmds)
+              .format(package_name, packages_with_versions))
+        pr2 = PipCmd.pip_install_commands(packages_with_versions=packages_with_versions)
         if pr2.get_return_code() == PipReturn.OK:
             # repair succeeded, try next release_update, if any
             print('pip_install_roll_back: revert {}: succeeded: {}'
-                  .format(package, pip_cmds))
+                  .format(package_name, packages_with_versions))
             # rolled back
             pr2.set_return_code(PipReturn.ROLLED_BACK)
             return pr2
         # fi
         # now what, we tried candidate and the repair failed
         print('pip_install_roll_back: revert {}: FAILED: {}'
-              .format(package, pip_cmds))
+              .format(package_name, packages_with_versions))
         pr2.set_return_code(PipReturn.ERROR)
         # failed roll back
         return pr2

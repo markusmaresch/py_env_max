@@ -147,8 +147,8 @@ class PyEnvMax:
         elif args.upd_all:
             EnvCmd.upd_all(env_name=env_name, force=force)
         elif args.install_packages:
-            packages = args.install_packages
-            EnvCmd.install_packages(env_name=env_name, packages=packages, force=force)
+            packages_with_versions = args.install_packages
+            EnvCmd.install_packages(env_name=env_name, packages_with_versions=packages_with_versions, force=force)
         elif args.scripts_export:
             ScriptsCmd.scripts_export(env_name=env_name, python_version=self.python_version_default, force=force)
         else:

@@ -275,9 +275,8 @@ class EnvCmd:
         db.close()
         return ok
 
-
     @staticmethod
-    def install_packages(env_name: str, packages: [str], force: bool = False) -> bool:
+    def install_packages(env_name: str, packages_with_versions: [str], force: bool = False) -> bool:
         print('install_packages: {} (force={})'.format(env_name, force))
         if force:
             # really, this should always be done
@@ -289,8 +288,14 @@ class EnvCmd:
             # alternatively could call env_import and continue
             return False
         stack = list()
-        stack.append(packages)
-        print('Stack: '.format(stack))
+        stack.extend(packages_with_versions)
+        while True:
+            print('Stack: ', stack)
+            pr = PipCmd.pip_install_commands(packages_with_versions=packages_with_versions, dry_run=True)
+
+            if pr.get_return_code() == PipReturn.OK:
+                pass
+            break
 
         ok = True if db.dump(json_path=db_name) else False
         db.close()
@@ -328,24 +333,24 @@ class EnvCmd:
                 if packages is None or len(packages) < 1:
                     break
                 update_command = False
-                for package in packages:
+                for package_name in packages:
                     # for package, collect all the constraints in tree, try to improve to most recent
-                    if debug_helper and package != 'numpy':  # only debug catch
+                    if debug_helper and package_name != 'numpy':  # only debug catch
                         continue
-                    version_required = db.package_get_version_required(package)
+                    version_required = db.package_get_version_required(package_name)
                     releases_recent = None
                     for rf in ReleaseFilter:
-                        releases_recent = db.package_get_releases_recent(package, release_filter=rf)
+                        releases_recent = db.package_get_releases_recent(package_name, release_filter=rf)
                         if releases_recent and len(releases_recent) > 0:
                             break
                         print('upd_all: {} .. {}/{}: {}: {}: {} need to open release filter after {}'
-                              .format(env_name, it, max_iterations, level, package, version_required, rf.name))
+                              .format(env_name, it, max_iterations, level, package_name, version_required, rf.name))
                         continue
                     # for
 
                     if releases_recent is None or len(releases_recent) < 1:
                         print('upd_all: {} .. {}/{}: {}: {}: {} no recent releases ?? (error !!)'
-                              .format(env_name, it, max_iterations, level, package, version_required))
+                              .format(env_name, it, max_iterations, level, package_name, version_required))
                         # this really is an error condition
                         continue
                     release_recent = releases_recent[0]
@@ -357,20 +362,21 @@ class EnvCmd:
                         # if package already uptodate, ignore it
                         if debug_already_latest:
                             print('upd_all: {} .. {}/{}: {}: {}: {} already latest'
-                                  .format(env_name, it, max_iterations, level, package, version_required))
+                                  .format(env_name, it, max_iterations, level, package_name, version_required))
                         continue
                     # fi
                     releases_more = [r for r in releases_recent if Version.convert(r) > v_required]
                     releases_newer = releases_more[:releases_max]
-                    constraints = db.packages_get_contraints(package=package)
+                    constraints = db.packages_get_contraints(package_name=package_name)
                     # take releases, and check all conditions, sub-conditions on them, then take newest
-                    releases_update = constraints.match_possible_releases(package, releases_newer)
+                    releases_update = constraints.match_possible_releases(package_name, releases_newer)
                     if releases_update is None:
                         continue  # error
                     if len(releases_update) < 1:
                         # constraints prohibit update of package
                         print('upd_all: {} .. {}/{}: {}: {}: {} .. {} not for: {}'
-                              .format(env_name, it, max_iterations, level, package, version_required,
+                              .format(env_name, it, max_iterations, level,
+                                      package_name, version_required,
                                       constraints, releases_newer[:8]))
                         continue
                     # fi
@@ -390,18 +396,19 @@ class EnvCmd:
                         releases_update = [releases_update[int(ruN / 2)]]
 
                     print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {}'
-                          .format(env_name, it, max_iterations, level, package, version_required, releases_update))
+                          .format(env_name, it, max_iterations, level, package_name, version_required, releases_update))
                     for release_best in releases_update:
                         print('upd_all: {} .. {}/{}: {}: {}: {} .. {} -> {}'
-                              .format(env_name, it, max_iterations, level, package, version_required,
+                              .format(env_name, it, max_iterations, level, package_name, version_required,
                                       constraints, release_best))
                         print('upd_all: {} .. {}/{}: {}: {}: {} .. attempt to update (from {})'
-                              .format(env_name, it, max_iterations, level, package, release_best, version_required))
-                        pr = PipCmd.pip_install_roll_back(package=package, version=release_best)
+                              .format(env_name, it, max_iterations, level, package_name, release_best,
+                                      version_required))
+                        pr = PipCmd.pip_install_roll_back_single(package_name=package_name, version=release_best)
                         if pr.get_return_code() == PipReturn.NO_ACTION:
                             # nothing happened - we could not install - TODO: lock it or take note
                             print('upd_all: {} .. {}/{}: {}: {}: {} .. nothing installed, nothing uninstalled'
-                                  .format(env_name, it, max_iterations, level, package, release_best))
+                                  .format(env_name, it, max_iterations, level, package_name, release_best))
                             continue
                         if pr.get_return_code() == PipReturn.OK:
                             installed = pr.get_installed()
@@ -411,7 +418,8 @@ class EnvCmd:
                                 updated_all[pack] = vers
                                 updated_iter[pack] = vers
                                 print('upd_all: {} .. {}/{}: {}: {}: {} .. installed: {}=={}'
-                                      .format(env_name, it, max_iterations, level, package, release_best, pack, vers))
+                                      .format(env_name, it, max_iterations, level,
+                                              package_name, release_best, pack, vers))
                             # for
                             #
                             # this also stops upon the first success, could be more aggressive and try to get the latest

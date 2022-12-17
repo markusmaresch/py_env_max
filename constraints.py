@@ -19,13 +19,13 @@ class Comparator(enum.IntFlag):
 
 
 class Constraints:
-    def __init__(self, package: str):
-        self.package = package
+    def __init__(self, package_name: str):
+        self.package_name = package_name
         self.comparator = [list() for c in Comparator if c >= 0]
         return
 
     def __str__(self):
-        s0 = 'constraints: {} :'.format(self.package)
+        s0 = 'constraints: {} :'.format(self.package_name)
         s = ''
         for comp in Comparator:
             comparator = self.comparator[comp]
@@ -60,14 +60,14 @@ class Constraints:
             elif comp in (Comparator.LE, Comparator.LT):
                 reverse = False
             elif comp == Comparator.EQ:
-                print('optimize: {} {}: {} !!!'.format(self.package, comp.name, comparator))
+                print('optimize: {} {}: {} !!!'.format(self.package_name, comp.name, comparator))
                 continue
             else:
                 continue
             comparator2 = Version.sort(comparator, reverse)
             compacted = [comparator2[0]]
             if debug:
-                print('optimize: {} {}: {} -> {}'.format(self.package, comp.name, comparator, compacted))
+                print('optimize: {} {}: {} -> {}'.format(self.package_name, comp.name, comparator, compacted))
             self.comparator[comp] = compacted
         # for
         return True
@@ -171,13 +171,15 @@ class Constraints:
 
         return False
 
-    def match_possible_releases(self, package: str, releases: [str]) -> [str]:
+    def match_possible_releases(self, package_name: str, releases: [str]) -> [str]:
         # reduce the list of release, according to constraints
         if self.no_constraints():
             return releases
         m = []
+        debug = False
         for r in releases:
-            # print('Testing: {} {}'.format(package, r))
+            if debug:
+                print('Testing: {} {}'.format(package_name, r))
             release = Version.normalized(r)
             good = True
             for comp in Comparator:

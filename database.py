@@ -3,7 +3,6 @@
 #
 import difflib
 import os
-import sys
 import json
 import typing
 import datetime
@@ -338,8 +337,8 @@ class Database:
             keys_level.append(k)
         return [Utils.canonicalize_name(k) for k in keys_level]
 
-    def packages_get_contraints(self, package: str) -> Constraints:
-        constraints = Constraints(package=package)
+    def packages_get_contraints(self, package_name: str) -> Constraints:
+        constraints = Constraints(package_name=package_name)
 
         def recurse_dict(d):
             for k, v in d.items():
@@ -350,7 +349,7 @@ class Database:
                         continue
                     for r in v:
                         pn = r.get(PyPi.PACKAGE_NAME)
-                        if pn != package:
+                        if pn != package_name:
                             # could be dangerous, need to make sure we are comparing in the same names-spaces
                             continue
                         vr = r.get(Database.VERSION_REQUIRED)
@@ -365,28 +364,3 @@ class Database:
         recurse_dict(table)
         constraints.optimize()
         return constraints
-
-    @staticmethod
-    def self_test() -> bool:
-        json_path = 'database_selftest.json'
-        database = Database()
-        database.package_update(name='numpy',
-                                summary='Numerical library',
-                                required_by=['pandas', 'many', 'others'])
-        database.package_update(name='pandas',
-                                summary='Data science library',
-                                required_by=['many', 'others'])
-        database.dump(json_path)
-        database.truncate()
-        database.load(json_path)
-        return True
-
-
-def main():
-    if not Database.self_test():
-        return 1
-    return 0
-
-
-if __name__ == '__main__':
-    sys.exit(main())

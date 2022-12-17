@@ -17167,8 +17167,8 @@
                 }
             ],
             "summary": "A Comprehensive and Scalable Python Library for Outlier Detection (Anomaly Detection)",
-            "version_installed": "1.0.6",
-            "version_required": "1.0.6"
+            "version_installed": "1.0.7",
+            "version_required": "1.0.7"
         },
         "pyparsing": {
             "level": 1,

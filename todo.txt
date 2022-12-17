@@ -1,6 +1,9 @@
 #
 #
 #
+Work
+    -ip manim pywhatkit
+
 Update All
     use: --dry-run before trying and react to that, instead if try/rollback (reason objc..)
 
