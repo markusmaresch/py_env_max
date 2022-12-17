@@ -278,7 +278,23 @@ class EnvCmd:
 
     @staticmethod
     def install_packages(env_name: str, packages: [str], force: bool = False) -> bool:
-        return True
+        print('install_packages: {} (force={})'.format(env_name, force))
+        if force:
+            # really, this should always be done
+            if not EnvCmd.env_import(env_name=env_name, force=False):
+                return False
+        db_name = '{}.json'.format(env_name)
+        db = Database()
+        if not db.load(db_name):
+            # alternatively could call env_import and continue
+            return False
+        stack = list()
+        stack.append(packages)
+        print('Stack: '.format(stack))
+
+        ok = True if db.dump(json_path=db_name) else False
+        db.close()
+        return ok
 
     @staticmethod
     def upd_all(env_name: str, force: bool = False) -> bool:

@@ -4,7 +4,7 @@
 from database import Database
 
 
-class Statistics:
+class StatCmd:
 
     @staticmethod
     def statistics(env_name: str, force: bool = False) -> bool:
@@ -19,7 +19,7 @@ class Statistics:
         packages = db.packages_get_names_all()
         num_packages = len(packages)
 
-        print('Statistics: {}'.format(env_name))
+        print('StatCmd: {}'.format(env_name))
         print('\tPackages: total: {}'.format(num_packages))
         for level in range(1, 100):
             pack_level = db.packages_get_names_by_level(level=level)

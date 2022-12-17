@@ -6,7 +6,7 @@
         "absl-py": {
             "level": 1,
             "package_name": "absl-py",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.0",
                 "0.1.0",
@@ -60,7 +60,7 @@
         "astunparse": {
             "level": 3,
             "package_name": "astunparse",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "1.1.0",
                 "1.2.0",
@@ -96,7 +96,7 @@
         "babel": {
             "level": 2,
             "package_name": "Babel",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.8",
                 "0.8.1",
@@ -150,7 +150,7 @@
         "box2d-py": {
             "level": 1,
             "package_name": "box2d-py",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "2.3.1",
                 "2.3.4",
@@ -166,7 +166,7 @@
         "cachetools": {
             "level": 1,
             "package_name": "cachetools",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.2.0",
                 "0.3.0",
@@ -219,7 +219,7 @@
         "certifi": {
             "level": 1,
             "package_name": "certifi",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "2015.11.20",
                 "2015.11.20.1",
@@ -273,7 +273,7 @@
         "charset-normalizer": {
             "level": 1,
             "package_name": "charset-normalizer",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.1.7",
                 "0.1.8",
@@ -329,7 +329,7 @@
         "contourpy": {
             "level": 2,
             "package_name": "contourpy",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.0.1",
                 "0.0.2",
@@ -361,7 +361,7 @@
         "cycler": {
             "level": 1,
             "package_name": "cycler",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.10.0",
                 "0.11.0",
@@ -377,7 +377,7 @@
         "flake8": {
             "level": 2,
             "package_name": "flake8",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "3.0.2",
                 "3.0.3",
@@ -445,7 +445,7 @@
         "flatbuffers": {
             "level": 1,
             "package_name": "flatbuffers",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "1.10",
                 "1.11",
@@ -468,7 +468,7 @@
         "fonttools": {
             "level": 1,
             "package_name": "fonttools",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "4.24.2",
                 "4.24.3",
@@ -522,7 +522,7 @@
         "gast": {
             "level": 1,
             "package_name": "gast",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.1",
                 "0.1.1",
@@ -555,7 +555,7 @@
         "google-auth": {
             "level": 3,
             "package_name": "google-auth",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "1.29.0",
                 "1.30.0",
@@ -649,7 +649,7 @@
         "google-auth-oauthlib": {
             "level": 4,
             "package_name": "google-auth-oauthlib",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.0.1",
                 "0.1.0",
@@ -669,7 +669,8 @@
                 "0.5.3",
                 "0.6.0",
                 "0.7.0",
-                "0.7.1"
+                "0.7.1",
+                "0.8.0"
             ],
             "required_by": [
                 "tensorboard"
@@ -763,7 +764,7 @@
         "google-pasta": {
             "level": 2,
             "package_name": "google-pasta",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.1",
                 "0.1.1",
@@ -792,7 +793,7 @@
         "grpcio": {
             "level": 2,
             "package_name": "grpcio",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "1.37.0",
                 "1.37.0rc1",
@@ -857,7 +858,7 @@
         "h5py": {
             "level": 2,
             "package_name": "h5py",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "1.0.0",
                 "1.1.0",
@@ -911,7 +912,7 @@
         "idna": {
             "level": 1,
             "package_name": "idna",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.1",
                 "0.2",
@@ -951,7 +952,7 @@
         "importlib-metadata": {
             "level": 2,
             "package_name": "importlib-metadata",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "3.10.0",
                 "3.10.1",
@@ -1012,7 +1013,7 @@
         "joblib": {
             "level": 1,
             "package_name": "joblib",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.5.7a",
                 "0.5.7a.dev",
@@ -1065,7 +1066,7 @@
         "keras": {
             "level": 1,
             "package_name": "keras",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "2.0.9",
                 "2.1.0",
@@ -1122,7 +1123,7 @@
         "keras-preprocessing": {
             "level": 2,
             "package_name": "Keras-Preprocessing",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "1.0.0",
                 "1.0.1",
@@ -1159,7 +1160,7 @@
         "kiwisolver": {
             "level": 1,
             "package_name": "kiwisolver",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.1.0",
                 "0.1.1",
@@ -1188,7 +1189,7 @@
         "libclang": {
             "level": 1,
             "package_name": "libclang",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "10.0.1.0",
                 "11.0.0",
@@ -1210,7 +1211,7 @@
         "llvmlite": {
             "level": 1,
             "package_name": "llvmlite",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.10.0",
                 "0.11.0",
@@ -1263,7 +1264,7 @@
         "markdown": {
             "level": 3,
             "package_name": "Markdown",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "2.1.0",
                 "2.1.1",
@@ -1330,7 +1331,7 @@
         "markupsafe": {
             "level": 1,
             "package_name": "MarkupSafe",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "2.1.1",
                 "2.1.0",
@@ -1367,7 +1368,7 @@
         "matplotlib": {
             "level": 3,
             "package_name": "matplotlib",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "2.2.5",
                 "3.0.0",
@@ -1482,7 +1483,7 @@
         "mccabe": {
             "level": 1,
             "package_name": "mccabe",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.0.0",
                 "0.2",
@@ -1508,7 +1509,7 @@
         "multidict": {
             "level": 1,
             "package_name": "multidict",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "4.4.0",
                 "4.4.0a33",
@@ -1559,7 +1560,7 @@
         "numba": {
             "level": 2,
             "package_name": "numba",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.43.0",
                 "0.43.1",
@@ -1629,7 +1630,7 @@
         "numpy": {
             "level": 1,
             "package_name": "numpy",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "1.18.5",
                 "1.19.0",
@@ -1698,7 +1699,7 @@
         "oauthlib": {
             "level": 1,
             "package_name": "oauthlib",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.3.4",
                 "0.3.5",
@@ -1752,7 +1753,7 @@
         "opt-einsum": {
             "level": 2,
             "package_name": "opt-einsum",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.2.0",
                 "1.0.1",
@@ -1786,7 +1787,7 @@
         "packaging": {
             "level": 2,
             "package_name": "packaging",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "14.0",
                 "14.1",
@@ -1850,7 +1851,7 @@
         "pandas": {
             "level": 3,
             "package_name": "pandas",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.23.4",
                 "0.24.0",
@@ -1929,7 +1930,7 @@
         "patsy": {
             "level": 2,
             "package_name": "patsy",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.1.0",
                 "0.2.0",
@@ -1963,7 +1964,7 @@
         "pillow": {
             "level": 1,
             "package_name": "Pillow",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "3.4.1",
                 "3.4.2",
@@ -2017,7 +2018,7 @@
         "pip": {
             "level": 1,
             "package_name": "pip",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "20.1",
                 "20.1.1",
@@ -2071,7 +2072,7 @@
         "pipdeptree": {
             "level": 2,
             "package_name": "pipdeptree",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.1",
                 "0.10.0",
@@ -2118,7 +2119,7 @@
         "protobuf": {
             "level": 1,
             "package_name": "protobuf",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "3.16.0",
                 "3.17.0",
@@ -2156,6 +2157,7 @@
                 "4.21.1",
                 "4.21.10",
                 "4.21.11",
+                "4.21.12",
                 "4.21.2",
                 "4.21.3",
                 "4.21.4",
@@ -2175,7 +2177,7 @@
         "pyasn1": {
             "level": 1,
             "package_name": "pyasn1",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.0.10a",
                 "0.0.11a",
@@ -2226,7 +2228,7 @@
         "pyasn1-modules": {
             "level": 2,
             "package_name": "pyasn1-modules",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.0.10",
                 "0.0.11",
@@ -2270,7 +2272,7 @@
         "pycodestyle": {
             "level": 1,
             "package_name": "pycodestyle",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.0.0",
                 "1.8.0.dev0",
@@ -2300,7 +2302,7 @@
         "pyflakes": {
             "level": 1,
             "package_name": "pyflakes",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.2.0",
                 "0.2.1",
@@ -2349,7 +2351,7 @@
         "pyobjc": {
             "level": 6,
             "package_name": "pyobjc",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -7086,7 +7088,7 @@
         "pyobjc-core": {
             "level": 1,
             "package_name": "pyobjc-core",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -7284,7 +7286,7 @@
         "pyobjc-framework-accessibility": {
             "level": 4,
             "package_name": "pyobjc-framework-Accessibility",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -7352,7 +7354,7 @@
         "pyobjc-framework-accounts": {
             "level": 3,
             "package_name": "pyobjc-framework-Accounts",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -7421,7 +7423,7 @@
         "pyobjc-framework-addressbook": {
             "level": 3,
             "package_name": "pyobjc-framework-AddressBook",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -7490,7 +7492,7 @@
         "pyobjc-framework-adservices": {
             "level": 3,
             "package_name": "pyobjc-framework-AdServices",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -7532,7 +7534,7 @@
         "pyobjc-framework-adsupport": {
             "level": 3,
             "package_name": "pyobjc-framework-AdSupport",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -7590,7 +7592,7 @@
         "pyobjc-framework-applescriptkit": {
             "level": 3,
             "package_name": "pyobjc-framework-AppleScriptKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -7659,7 +7661,7 @@
         "pyobjc-framework-applescriptobjc": {
             "level": 3,
             "package_name": "pyobjc-framework-AppleScriptObjC",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -7728,7 +7730,7 @@
         "pyobjc-framework-applicationservices": {
             "level": 4,
             "package_name": "pyobjc-framework-ApplicationServices",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -7821,7 +7823,7 @@
         "pyobjc-framework-apptrackingtransparency": {
             "level": 3,
             "package_name": "pyobjc-framework-AppTrackingTransparency",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -7865,7 +7867,7 @@
         "pyobjc-framework-audiovideobridging": {
             "level": 3,
             "package_name": "pyobjc-framework-AudioVideoBridging",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -7904,7 +7906,7 @@
         "pyobjc-framework-authenticationservices": {
             "level": 3,
             "package_name": "pyobjc-framework-AuthenticationServices",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -7954,7 +7956,7 @@
         "pyobjc-framework-automaticassessmentconfiguration": {
             "level": 3,
             "package_name": "pyobjc-framework-AutomaticAssessmentConfiguration",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -8001,7 +8003,7 @@
         "pyobjc-framework-automator": {
             "level": 3,
             "package_name": "pyobjc-framework-Automator",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -8070,7 +8072,7 @@
         "pyobjc-framework-avfoundation": {
             "level": 4,
             "package_name": "pyobjc-framework-AVFoundation",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -8211,7 +8213,7 @@
         "pyobjc-framework-avkit": {
             "level": 4,
             "package_name": "pyobjc-framework-AVKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -8304,7 +8306,7 @@
         "pyobjc-framework-avrouting": {
             "level": 3,
             "package_name": "pyobjc-framework-AVRouting",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0"
             ],
@@ -8334,7 +8336,7 @@
         "pyobjc-framework-backgroundassets": {
             "level": 3,
             "package_name": "pyobjc-framework-BackgroundAssets",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0"
             ],
@@ -8364,7 +8366,7 @@
         "pyobjc-framework-businesschat": {
             "level": 3,
             "package_name": "pyobjc-framework-BusinessChat",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -8425,7 +8427,7 @@
         "pyobjc-framework-calendarstore": {
             "level": 3,
             "package_name": "pyobjc-framework-CalendarStore",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -8494,7 +8496,7 @@
         "pyobjc-framework-callkit": {
             "level": 3,
             "package_name": "pyobjc-framework-CallKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -8538,7 +8540,7 @@
         "pyobjc-framework-cfnetwork": {
             "level": 3,
             "package_name": "pyobjc-framework-CFNetwork",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -8607,7 +8609,7 @@
         "pyobjc-framework-classkit": {
             "level": 3,
             "package_name": "pyobjc-framework-ClassKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -8651,7 +8653,7 @@
         "pyobjc-framework-cloudkit": {
             "level": 4,
             "package_name": "pyobjc-framework-CloudKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -8792,7 +8794,7 @@
         "pyobjc-framework-cocoa": {
             "level": 2,
             "package_name": "pyobjc-framework-Cocoa",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -8849,7 +8851,7 @@
         "pyobjc-framework-collaboration": {
             "level": 3,
             "package_name": "pyobjc-framework-Collaboration",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -8918,7 +8920,7 @@
         "pyobjc-framework-colorsync": {
             "level": 3,
             "package_name": "pyobjc-framework-ColorSync",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -8983,7 +8985,7 @@
         "pyobjc-framework-contacts": {
             "level": 3,
             "package_name": "pyobjc-framework-Contacts",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -9052,7 +9054,7 @@
         "pyobjc-framework-contactsui": {
             "level": 4,
             "package_name": "pyobjc-framework-ContactsUI",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -9145,7 +9147,7 @@
         "pyobjc-framework-coreaudio": {
             "level": 3,
             "package_name": "pyobjc-framework-CoreAudio",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -9203,7 +9205,7 @@
         "pyobjc-framework-coreaudiokit": {
             "level": 4,
             "package_name": "pyobjc-framework-CoreAudioKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -9285,7 +9287,7 @@
         "pyobjc-framework-corebluetooth": {
             "level": 3,
             "package_name": "pyobjc-framework-CoreBluetooth",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -9354,7 +9356,7 @@
         "pyobjc-framework-coredata": {
             "level": 3,
             "package_name": "pyobjc-framework-CoreData",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -9423,7 +9425,7 @@
         "pyobjc-framework-corehaptics": {
             "level": 3,
             "package_name": "pyobjc-framework-CoreHaptics",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -9473,7 +9475,7 @@
         "pyobjc-framework-corelocation": {
             "level": 3,
             "package_name": "pyobjc-framework-CoreLocation",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -9542,7 +9544,7 @@
         "pyobjc-framework-coremedia": {
             "level": 3,
             "package_name": "pyobjc-framework-CoreMedia",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -9600,7 +9602,7 @@
         "pyobjc-framework-coremediaio": {
             "level": 3,
             "package_name": "pyobjc-framework-CoreMediaIO",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -9658,7 +9660,7 @@
         "pyobjc-framework-coremidi": {
             "level": 3,
             "package_name": "pyobjc-framework-CoreMIDI",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -9702,7 +9704,7 @@
         "pyobjc-framework-coreml": {
             "level": 3,
             "package_name": "pyobjc-framework-CoreML",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -9767,7 +9769,7 @@
         "pyobjc-framework-coremotion": {
             "level": 3,
             "package_name": "pyobjc-framework-CoreMotion",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -9817,7 +9819,7 @@
         "pyobjc-framework-coreservices": {
             "level": 4,
             "package_name": "pyobjc-framework-CoreServices",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -9894,7 +9896,7 @@
         "pyobjc-framework-corespotlight": {
             "level": 3,
             "package_name": "pyobjc-framework-CoreSpotlight",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -9959,7 +9961,7 @@
         "pyobjc-framework-coretext": {
             "level": 4,
             "package_name": "pyobjc-framework-CoreText",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -10052,7 +10054,7 @@
         "pyobjc-framework-corewlan": {
             "level": 3,
             "package_name": "pyobjc-framework-CoreWLAN",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -10121,7 +10123,7 @@
         "pyobjc-framework-cryptotokenkit": {
             "level": 3,
             "package_name": "pyobjc-framework-CryptoTokenKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -10190,7 +10192,7 @@
         "pyobjc-framework-datadetection": {
             "level": 3,
             "package_name": "pyobjc-framework-DataDetection",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -10229,7 +10231,7 @@
         "pyobjc-framework-devicecheck": {
             "level": 3,
             "package_name": "pyobjc-framework-DeviceCheck",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -10279,7 +10281,7 @@
         "pyobjc-framework-dictionaryservices": {
             "level": 5,
             "package_name": "pyobjc-framework-DictionaryServices",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -10372,7 +10374,7 @@
         "pyobjc-framework-discrecording": {
             "level": 3,
             "package_name": "pyobjc-framework-DiscRecording",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -10430,7 +10432,7 @@
         "pyobjc-framework-discrecordingui": {
             "level": 4,
             "package_name": "pyobjc-framework-DiscRecordingUI",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -10512,7 +10514,7 @@
         "pyobjc-framework-diskarbitration": {
             "level": 3,
             "package_name": "pyobjc-framework-DiskArbitration",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -10581,7 +10583,7 @@
         "pyobjc-framework-dvdplayback": {
             "level": 3,
             "package_name": "pyobjc-framework-DVDPlayback",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -10639,7 +10641,7 @@
         "pyobjc-framework-eventkit": {
             "level": 3,
             "package_name": "pyobjc-framework-EventKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -10708,7 +10710,7 @@
         "pyobjc-framework-exceptionhandling": {
             "level": 3,
             "package_name": "pyobjc-framework-ExceptionHandling",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -10777,7 +10779,7 @@
         "pyobjc-framework-executionpolicy": {
             "level": 3,
             "package_name": "pyobjc-framework-ExecutionPolicy",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -10827,7 +10829,7 @@
         "pyobjc-framework-extensionkit": {
             "level": 3,
             "package_name": "pyobjc-framework-ExtensionKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0"
             ],
@@ -10857,7 +10859,7 @@
         "pyobjc-framework-externalaccessory": {
             "level": 3,
             "package_name": "pyobjc-framework-ExternalAccessory",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -10922,7 +10924,7 @@
         "pyobjc-framework-fileprovider": {
             "level": 3,
             "package_name": "pyobjc-framework-FileProvider",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -10972,7 +10974,7 @@
         "pyobjc-framework-fileproviderui": {
             "level": 4,
             "package_name": "pyobjc-framework-FileProviderUI",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -11034,7 +11036,7 @@
         "pyobjc-framework-findersync": {
             "level": 3,
             "package_name": "pyobjc-framework-FinderSync",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -11103,7 +11105,7 @@
         "pyobjc-framework-fsevents": {
             "level": 3,
             "package_name": "pyobjc-framework-FSEvents",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -11172,7 +11174,7 @@
         "pyobjc-framework-gamecenter": {
             "level": 3,
             "package_name": "pyobjc-framework-GameCenter",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -11241,7 +11243,7 @@
         "pyobjc-framework-gamecontroller": {
             "level": 3,
             "package_name": "pyobjc-framework-GameController",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -11310,7 +11312,7 @@
         "pyobjc-framework-gamekit": {
             "level": 4,
             "package_name": "pyobjc-framework-GameKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -11398,7 +11400,7 @@
         "pyobjc-framework-gameplaykit": {
             "level": 5,
             "package_name": "pyobjc-framework-GameplayKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -11510,7 +11512,7 @@
         "pyobjc-framework-healthkit": {
             "level": 3,
             "package_name": "pyobjc-framework-HealthKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0"
             ],
@@ -11540,7 +11542,7 @@
         "pyobjc-framework-imagecapturecore": {
             "level": 3,
             "package_name": "pyobjc-framework-ImageCaptureCore",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -11609,7 +11611,7 @@
         "pyobjc-framework-imserviceplugin": {
             "level": 3,
             "package_name": "pyobjc-framework-IMServicePlugIn",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -11678,7 +11680,7 @@
         "pyobjc-framework-inputmethodkit": {
             "level": 3,
             "package_name": "pyobjc-framework-InputMethodKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -11747,7 +11749,7 @@
         "pyobjc-framework-installerplugins": {
             "level": 3,
             "package_name": "pyobjc-framework-InstallerPlugins",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -11816,7 +11818,7 @@
         "pyobjc-framework-instantmessage": {
             "level": 4,
             "package_name": "pyobjc-framework-InstantMessage",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -11909,7 +11911,7 @@
         "pyobjc-framework-intents": {
             "level": 3,
             "package_name": "pyobjc-framework-Intents",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -11977,7 +11979,7 @@
         "pyobjc-framework-intentsui": {
             "level": 4,
             "package_name": "pyobjc-framework-IntentsUI",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -12028,7 +12030,7 @@
         "pyobjc-framework-iosurface": {
             "level": 3,
             "package_name": "pyobjc-framework-IOSurface",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -12096,7 +12098,7 @@
         "pyobjc-framework-ituneslibrary": {
             "level": 3,
             "package_name": "pyobjc-framework-iTunesLibrary",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -12161,7 +12163,7 @@
         "pyobjc-framework-kernelmanagement": {
             "level": 3,
             "package_name": "pyobjc-framework-KernelManagement",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -12205,7 +12207,7 @@
         "pyobjc-framework-latentsemanticmapping": {
             "level": 3,
             "package_name": "pyobjc-framework-LatentSemanticMapping",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -12274,7 +12276,7 @@
         "pyobjc-framework-launchservices": {
             "level": 5,
             "package_name": "pyobjc-framework-LaunchServices",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -12367,7 +12369,7 @@
         "pyobjc-framework-libdispatch": {
             "level": 2,
             "package_name": "pyobjc-framework-libdispatch",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -12420,7 +12422,7 @@
         "pyobjc-framework-linkpresentation": {
             "level": 4,
             "package_name": "pyobjc-framework-LinkPresentation",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -12494,7 +12496,7 @@
         "pyobjc-framework-localauthentication": {
             "level": 4,
             "package_name": "pyobjc-framework-LocalAuthentication",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -12587,7 +12589,7 @@
         "pyobjc-framework-localauthenticationembeddedui": {
             "level": 5,
             "package_name": "pyobjc-framework-LocalAuthenticationEmbeddedUI",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -12674,7 +12676,7 @@
         "pyobjc-framework-mailkit": {
             "level": 3,
             "package_name": "pyobjc-framework-MailKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -12713,7 +12715,7 @@
         "pyobjc-framework-mapkit": {
             "level": 4,
             "package_name": "pyobjc-framework-MapKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -12830,7 +12832,7 @@
         "pyobjc-framework-mediaaccessibility": {
             "level": 3,
             "package_name": "pyobjc-framework-MediaAccessibility",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -12899,7 +12901,7 @@
         "pyobjc-framework-medialibrary": {
             "level": 4,
             "package_name": "pyobjc-framework-MediaLibrary",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -12992,7 +12994,7 @@
         "pyobjc-framework-mediaplayer": {
             "level": 5,
             "package_name": "pyobjc-framework-MediaPlayer",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -13144,7 +13146,7 @@
         "pyobjc-framework-mediatoolbox": {
             "level": 3,
             "package_name": "pyobjc-framework-MediaToolbox",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -13202,7 +13204,7 @@
         "pyobjc-framework-metal": {
             "level": 3,
             "package_name": "pyobjc-framework-Metal",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -13249,7 +13251,7 @@
         "pyobjc-framework-metalfx": {
             "level": 4,
             "package_name": "pyobjc-framework-MetalFX",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0"
             ],
@@ -13291,7 +13293,7 @@
         "pyobjc-framework-metalkit": {
             "level": 4,
             "package_name": "pyobjc-framework-MetalKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -13365,7 +13367,7 @@
         "pyobjc-framework-metalperformanceshaders": {
             "level": 4,
             "package_name": "pyobjc-framework-MetalPerformanceShaders",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -13421,7 +13423,7 @@
         "pyobjc-framework-metalperformanceshadersgraph": {
             "level": 5,
             "package_name": "pyobjc-framework-MetalPerformanceShadersGraph",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -13489,7 +13491,7 @@
         "pyobjc-framework-metrickit": {
             "level": 3,
             "package_name": "pyobjc-framework-MetricKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -13528,7 +13530,7 @@
         "pyobjc-framework-mlcompute": {
             "level": 3,
             "package_name": "pyobjc-framework-MLCompute",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -13572,7 +13574,7 @@
         "pyobjc-framework-modelio": {
             "level": 4,
             "package_name": "pyobjc-framework-ModelIO",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -13664,7 +13666,7 @@
         "pyobjc-framework-multipeerconnectivity": {
             "level": 3,
             "package_name": "pyobjc-framework-MultipeerConnectivity",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -13733,7 +13735,7 @@
         "pyobjc-framework-naturallanguage": {
             "level": 3,
             "package_name": "pyobjc-framework-NaturalLanguage",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -13791,7 +13793,7 @@
         "pyobjc-framework-netfs": {
             "level": 3,
             "package_name": "pyobjc-framework-NetFS",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -13860,7 +13862,7 @@
         "pyobjc-framework-network": {
             "level": 3,
             "package_name": "pyobjc-framework-Network",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -13918,7 +13920,7 @@
         "pyobjc-framework-networkextension": {
             "level": 3,
             "package_name": "pyobjc-framework-NetworkExtension",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -13986,7 +13988,7 @@
         "pyobjc-framework-notificationcenter": {
             "level": 3,
             "package_name": "pyobjc-framework-NotificationCenter",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -14055,7 +14057,7 @@
         "pyobjc-framework-opendirectory": {
             "level": 3,
             "package_name": "pyobjc-framework-OpenDirectory",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -14124,7 +14126,7 @@
         "pyobjc-framework-osakit": {
             "level": 3,
             "package_name": "pyobjc-framework-OSAKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -14182,7 +14184,7 @@
         "pyobjc-framework-oslog": {
             "level": 4,
             "package_name": "pyobjc-framework-OSLog",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -14280,7 +14282,7 @@
         "pyobjc-framework-passkit": {
             "level": 3,
             "package_name": "pyobjc-framework-PassKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -14324,7 +14326,7 @@
         "pyobjc-framework-pencilkit": {
             "level": 3,
             "package_name": "pyobjc-framework-PencilKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -14374,7 +14376,7 @@
         "pyobjc-framework-photos": {
             "level": 3,
             "package_name": "pyobjc-framework-Photos",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -14443,7 +14445,7 @@
         "pyobjc-framework-photosui": {
             "level": 3,
             "package_name": "pyobjc-framework-PhotosUI",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -14512,7 +14514,7 @@
         "pyobjc-framework-preferencepanes": {
             "level": 3,
             "package_name": "pyobjc-framework-PreferencePanes",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -14581,7 +14583,7 @@
         "pyobjc-framework-pushkit": {
             "level": 3,
             "package_name": "pyobjc-framework-PushKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -14631,7 +14633,7 @@
         "pyobjc-framework-quartz": {
             "level": 3,
             "package_name": "pyobjc-framework-Quartz",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -14700,7 +14702,7 @@
         "pyobjc-framework-quicklookthumbnailing": {
             "level": 4,
             "package_name": "pyobjc-framework-QuickLookThumbnailing",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -14774,7 +14776,7 @@
         "pyobjc-framework-replaykit": {
             "level": 3,
             "package_name": "pyobjc-framework-ReplayKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -14818,7 +14820,7 @@
         "pyobjc-framework-safariservices": {
             "level": 3,
             "package_name": "pyobjc-framework-SafariServices",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -14886,7 +14888,7 @@
         "pyobjc-framework-safetykit": {
             "level": 4,
             "package_name": "pyobjc-framework-SafetyKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0"
             ],
@@ -14940,7 +14942,7 @@
         "pyobjc-framework-scenekit": {
             "level": 4,
             "package_name": "pyobjc-framework-SceneKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -15033,7 +15035,7 @@
         "pyobjc-framework-screencapturekit": {
             "level": 4,
             "package_name": "pyobjc-framework-ScreenCaptureKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -15079,7 +15081,7 @@
         "pyobjc-framework-screensaver": {
             "level": 3,
             "package_name": "pyobjc-framework-ScreenSaver",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -15148,7 +15150,7 @@
         "pyobjc-framework-screentime": {
             "level": 3,
             "package_name": "pyobjc-framework-ScreenTime",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -15192,7 +15194,7 @@
         "pyobjc-framework-scriptingbridge": {
             "level": 3,
             "package_name": "pyobjc-framework-ScriptingBridge",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -15261,7 +15263,7 @@
         "pyobjc-framework-searchkit": {
             "level": 5,
             "package_name": "pyobjc-framework-SearchKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -15354,7 +15356,7 @@
         "pyobjc-framework-security": {
             "level": 3,
             "package_name": "pyobjc-framework-Security",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -15416,7 +15418,7 @@
         "pyobjc-framework-securityfoundation": {
             "level": 4,
             "package_name": "pyobjc-framework-SecurityFoundation",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -15502,7 +15504,7 @@
         "pyobjc-framework-securityinterface": {
             "level": 4,
             "package_name": "pyobjc-framework-SecurityInterface",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -15588,7 +15590,7 @@
         "pyobjc-framework-servicemanagement": {
             "level": 3,
             "package_name": "pyobjc-framework-ServiceManagement",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -15657,7 +15659,7 @@
         "pyobjc-framework-sharedwithyou": {
             "level": 4,
             "package_name": "pyobjc-framework-SharedWithYou",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0"
             ],
@@ -15699,7 +15701,7 @@
         "pyobjc-framework-sharedwithyoucore": {
             "level": 3,
             "package_name": "pyobjc-framework-SharedWithYouCore",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0"
             ],
@@ -15729,7 +15731,7 @@
         "pyobjc-framework-shazamkit": {
             "level": 3,
             "package_name": "pyobjc-framework-ShazamKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -15768,7 +15770,7 @@
         "pyobjc-framework-social": {
             "level": 3,
             "package_name": "pyobjc-framework-Social",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -15837,7 +15839,7 @@
         "pyobjc-framework-soundanalysis": {
             "level": 3,
             "package_name": "pyobjc-framework-SoundAnalysis",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -15887,7 +15889,7 @@
         "pyobjc-framework-speech": {
             "level": 3,
             "package_name": "pyobjc-framework-Speech",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -15937,7 +15939,7 @@
         "pyobjc-framework-spritekit": {
             "level": 4,
             "package_name": "pyobjc-framework-SpriteKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -16030,7 +16032,7 @@
         "pyobjc-framework-storekit": {
             "level": 3,
             "package_name": "pyobjc-framework-StoreKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -16099,7 +16101,7 @@
         "pyobjc-framework-syncservices": {
             "level": 4,
             "package_name": "pyobjc-framework-SyncServices",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -16192,7 +16194,7 @@
         "pyobjc-framework-systemconfiguration": {
             "level": 3,
             "package_name": "pyobjc-framework-SystemConfiguration",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -16261,7 +16263,7 @@
         "pyobjc-framework-systemextensions": {
             "level": 3,
             "package_name": "pyobjc-framework-SystemExtensions",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -16311,7 +16313,7 @@
         "pyobjc-framework-threadnetwork": {
             "level": 3,
             "package_name": "pyobjc-framework-ThreadNetwork",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0"
             ],
@@ -16341,7 +16343,7 @@
         "pyobjc-framework-uniformtypeidentifiers": {
             "level": 3,
             "package_name": "pyobjc-framework-UniformTypeIdentifiers",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -16385,7 +16387,7 @@
         "pyobjc-framework-usernotifications": {
             "level": 3,
             "package_name": "pyobjc-framework-UserNotifications",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -16443,7 +16445,7 @@
         "pyobjc-framework-usernotificationsui": {
             "level": 4,
             "package_name": "pyobjc-framework-UserNotificationsUI",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -16511,7 +16513,7 @@
         "pyobjc-framework-videosubscriberaccount": {
             "level": 3,
             "package_name": "pyobjc-framework-VideoSubscriberAccount",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -16569,7 +16571,7 @@
         "pyobjc-framework-videotoolbox": {
             "level": 4,
             "package_name": "pyobjc-framework-VideoToolbox",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -16673,7 +16675,7 @@
         "pyobjc-framework-virtualization": {
             "level": 3,
             "package_name": "pyobjc-framework-Virtualization",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -16717,7 +16719,7 @@
         "pyobjc-framework-vision": {
             "level": 4,
             "package_name": "pyobjc-framework-Vision",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -16830,7 +16832,7 @@
         "pyobjc-framework-webkit": {
             "level": 3,
             "package_name": "pyobjc-framework-WebKit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "9.0",
                 "8.5.1",
@@ -16899,7 +16901,7 @@
         "pyod": {
             "level": 5,
             "package_name": "pyod",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.7.0",
                 "0.7.1",
@@ -16941,7 +16943,8 @@
                 "1.0.3",
                 "1.0.4",
                 "1.0.5",
-                "1.0.6"
+                "1.0.6",
+                "1.0.7"
             ],
             "requires": [
                 {
@@ -17170,7 +17173,7 @@
         "pyparsing": {
             "level": 1,
             "package_name": "pyparsing",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "2.1.10",
                 "2.1.2",
@@ -17223,7 +17226,7 @@
         "pyperf": {
             "level": 1,
             "package_name": "pyperf",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "1.6.1",
                 "1.7.0",
@@ -17247,7 +17250,7 @@
         "pyperformance": {
             "level": 3,
             "package_name": "pyperformance",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.9.0",
                 "0.9.1",
@@ -17280,7 +17283,7 @@
         "pyqt5-sip": {
             "level": 1,
             "package_name": "PyQt5-sip",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "12.10.1",
                 "12.11.0",
@@ -17307,7 +17310,7 @@
         "pytesseract": {
             "level": 3,
             "package_name": "pytesseract",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.3.10",
                 "0.3.9",
@@ -17356,7 +17359,7 @@
         "python-dateutil": {
             "level": 2,
             "package_name": "python-dateutil",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.1",
                 "0.3",
@@ -17409,7 +17412,7 @@
         "pytz": {
             "level": 1,
             "package_name": "pytz",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "2014.1",
                 "2014.1.1",
@@ -17465,7 +17468,7 @@
         "requests": {
             "level": 2,
             "package_name": "requests",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "2.12.2",
                 "2.12.3",
@@ -17541,7 +17544,7 @@
         "requests-oauthlib": {
             "level": 3,
             "package_name": "requests-oauthlib",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.2.0",
                 "0.3.0",
@@ -17607,7 +17610,7 @@
         "rsa": {
             "level": 2,
             "package_name": "rsa",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "1.1",
                 "1.2",
@@ -17663,7 +17666,7 @@
         "scikit-learn": {
             "level": 3,
             "package_name": "scikit-learn",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.15.1",
                 "0.15.2",
@@ -17756,8 +17759,9 @@
         "scipy": {
             "level": 2,
             "package_name": "scipy",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
+                "1.10.0rc1",
                 "1.3.0",
                 "1.3.0rc2",
                 "1.3.1",
@@ -17819,7 +17823,7 @@
         "setuptools": {
             "level": 1,
             "package_name": "setuptools",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "61.0.0",
                 "61.1.0",
@@ -17879,7 +17883,7 @@
         "six": {
             "level": 1,
             "package_name": "six",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.9.0",
                 "0.9.1",
@@ -17927,7 +17931,7 @@
         "statsmodels": {
             "level": 4,
             "package_name": "statsmodels",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.10.0",
                 "0.10.0rc2",
@@ -18042,7 +18046,7 @@
         "tensorboard": {
             "level": 5,
             "package_name": "tensorboard",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "1.0.0a0",
                 "1.0.0a1",
@@ -18324,7 +18328,7 @@
         "tensorboard-data-server": {
             "level": 1,
             "package_name": "tensorboard-data-server",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.1.0",
                 "0.2.0",
@@ -18344,7 +18348,7 @@
         "tensorboard-plugin-wit": {
             "level": 1,
             "package_name": "tensorboard-plugin-wit",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "1.6.0.post2",
                 "1.6.0.post3",
@@ -18362,7 +18366,7 @@
         "tensorflow": {
             "level": 6,
             "package_name": "tensorflow",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "2.10.0",
                 "2.10.0rc0",
@@ -18784,7 +18788,7 @@
         "tensorflow-estimator": {
             "level": 1,
             "package_name": "tensorflow-estimator",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "1.10.10",
                 "1.10.11",
@@ -18836,7 +18840,7 @@
         "tensorflow-io-gcs-filesystem": {
             "level": 1,
             "package_name": "tensorflow-io-gcs-filesystem",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.18.0",
                 "0.19.0",
@@ -18862,7 +18866,7 @@
         "termcolor": {
             "level": 1,
             "package_name": "termcolor",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.1",
                 "0.1.1",
@@ -18886,7 +18890,7 @@
         "threadpoolctl": {
             "level": 1,
             "package_name": "threadpoolctl",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "1.0.0",
                 "1.1.0",
@@ -18906,7 +18910,7 @@
         "toml": {
             "level": 1,
             "package_name": "toml",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.10.0",
                 "0.10.1",
@@ -18935,7 +18939,7 @@
         "typing-extensions": {
             "level": 1,
             "package_name": "typing-extensions",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "3.10.0.0",
                 "3.10.0.1",
@@ -18967,7 +18971,7 @@
         "urllib3": {
             "level": 1,
             "package_name": "urllib3",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "1.16",
                 "1.17",
@@ -19023,7 +19027,7 @@
         "werkzeug": {
             "level": 2,
             "package_name": "Werkzeug",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.11.10",
                 "0.11.11",
@@ -19083,7 +19087,7 @@
         "wheel": {
             "level": 2,
             "package_name": "wheel",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.12.0",
                 "0.13.0",
@@ -19149,7 +19153,7 @@
         "wrapt": {
             "level": 1,
             "package_name": "wrapt",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "1.10.0",
                 "1.10.1",
@@ -19202,7 +19206,7 @@
         "zipp": {
             "level": 1,
             "package_name": "zipp",
-            "releases_checked_time": 1670701215,
+            "releases_checked_time": 1671300079,
             "releases_recent": [
                 "0.1.0",
                 "0.2.0",

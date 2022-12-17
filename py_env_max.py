@@ -13,7 +13,7 @@ from conda_cmd import CondaCmd
 from pip_cmd import PipCmd
 from scripts_cmd import ScriptsCmd
 from os_platform import OsPlatform
-from stat import Statistics
+from stat_cmd import StatCmd
 from version import Version
 
 
@@ -102,21 +102,17 @@ class PyEnvMax:
                             help='environment name, overriding \'{}\''.format(env_default))
 
         group = parser.add_mutually_exclusive_group(required=True)
-        group.add_argument('-st', '--statistics', action='store_true',
+        group.add_argument('--stat', action='store_true',
                             help='Show statistics of existing python environment')
 
-        group.add_argument('-ebs', '--env_boot_strap', action='store_true',
-                           help='Provide help initializing a new python environment')
-        group.add_argument('-ei', '--env_import', action='store_true',
+        group.add_argument('--env_import', action='store_true',
                            help='Import existing python environment into internal database')
 
-        group.add_argument('-ip', '--install_packages', action='store_true',
+        group.add_argument('-ip', '--install_packages', action='extend', nargs='+', type=str,
                             help='Attempt to install packages to existing python environment')
 
         group.add_argument('-ua', '--upd_all', action='store_true',
                             help='Attempt to update all of existing python environment')
-        group.add_argument('-uc', '--upd_scripts', action='store_true',
-                            help='Generate scripts for updating existing python environment')
 
         group.add_argument('-ri', '--req_import', action='store_true',
                            help='Import \'requirements.txt\' into internal database')
@@ -136,8 +132,8 @@ class PyEnvMax:
             return False
 
         env_name = self.get_activated_environment() if env_name is None else env_name
-        if args.statistics:
-            Statistics.statistics(env_name=env_name, force=force)
+        if args.stat:
+            StatCmd.statistics(env_name=env_name, force=force)
         elif args.env_import:
             EnvCmd.env_import(env_name=env_name, force=force)
         elif args.yml_import:
@@ -156,7 +152,7 @@ class PyEnvMax:
         elif args.scripts_export:
             ScriptsCmd.scripts_export(env_name=env_name, python_version=self.python_version_default, force=force)
         else:
-            print('? internal switch ?')
+            print('? internal switch missing ?')
             parser.print_help()
         return 0
 
