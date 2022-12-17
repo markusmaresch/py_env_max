@@ -12,6 +12,90 @@ from utils import Utils
 from version import Version
 
 
+class PackageStack:
+    def __init__(self):
+        self.stack = list()
+        return
+
+    def len(self) -> int:
+        return len(self.stack)
+
+    def format_full(self, tup: typing.Tuple) -> str:
+        if not tup[1]:
+            return tup[0]
+        return '{}=={}'.format(tup[0], tup[1])
+
+    def __repr__(self) -> str:
+        if self.len() < 1:
+            return 'empty'
+        s = ''
+        for tup in self.stack:
+            add = self.format_full(tup)
+            if not s:
+                s = add
+            else:
+                s += (' ' + add)
+        return s
+
+    def append(self, package_name: str, version: str) -> bool:
+        if self.len() > 0:
+            i = (-1)
+            for opn, ov in self.stack:
+                i += 1
+                if opn != package_name:
+                    continue
+                if ov == version:
+                    print('stack: ignore identical: ', package_name, version)
+                    return True
+                if not ov and version:
+                    print('stack: version update: ', package_name, version)
+                    self.stack[i] = (package_name, version)
+                    return True
+                print('stack: ', package_name, ov, version)
+                break
+            # for
+        # fi
+        tup = (package_name, version)
+        self.stack.append(tup)
+        return True
+
+    def has_package(self, package_name: str) -> bool:
+        for pn, v in self.stack:
+            if pn == package_name:
+                return True
+        return False
+
+    @staticmethod
+    def get_components(pwv: str) -> (str, str):
+        s = pwv.split('==')
+        if s is None:
+            return '', ''
+        package_name = s[0]
+        version = s[1] if len(s) > 1 else ''
+        return package_name, version
+
+    @staticmethod
+    def get_package_name(pwv: str) -> str:
+        package_name, _ = PackageStack.get_components(pwv)
+        return package_name
+
+    def extend_full(self, packages_with_versions: typing.List[str]) -> bool:
+        for pwv in packages_with_versions:
+            package_name, version = PackageStack.get_components(pwv)
+            if not self.append(package_name, version):
+                return False
+            print('extend_full', package_name, self.len())
+        # for
+        return True
+
+    def pop_full(self) -> str:
+        tup = self.stack.pop()
+        return self.format_full(tup)
+
+    def pop_discard(self):
+        self.stack.pop()
+
+
 class EnvCmd:
 
     @staticmethod
@@ -278,7 +362,7 @@ class EnvCmd:
     @staticmethod
     def install_packages(env_name: str, packages_with_versions: [str], force: bool = False) -> bool:
         print('install_packages: {} (force={})'.format(env_name, force))
-        if force:
+        if force or True:
             # really, this should always be done
             if not EnvCmd.env_import(env_name=env_name, force=False):
                 return False
@@ -287,17 +371,101 @@ class EnvCmd:
         if not db.load(db_name):
             # alternatively could call env_import and continue
             return False
-        stack = list()
-        stack.extend(packages_with_versions)
+        updated_all = dict()
+        stack = PackageStack()
+        stack.extend_full(packages_with_versions)
+        pip_checked = True  # set to False !!!!
+        first = True
+        ok = True
         while True:
-            print('Stack: ', stack)
-            pr = PipCmd.pip_install_commands(packages_with_versions=packages_with_versions, dry_run=True)
+            print('Stack: {}'.format(stack))
+            if stack.len() < 1:
+                break
+            if first:
+                pwvs = packages_with_versions
+            else:
+                pwvs = [stack.pop_full()]
+            print('attempt dry-run: ', pwvs)
+            pr = PipCmd.pip_install_commands(packages_with_versions=pwvs, dry_run=True)
+            pip_error = pr.get_return_code()
+            if pip_error == PipReturn.ERROR:
+                print('pip error')
+            would_install = pr.get_would_install()
+            # print('Would install: ', len(would_install), would_install)
+            if len(would_install) == 0:
+                print('Nothing to do...')
+                break
+            elif len(would_install) == 1:
+                print('pip install should work: ', would_install)
+                # keys = would_install.keys()
+                package_name = next(iter(would_install))
+                version = would_install[package_name]
+                if not pip_checked:
+                    # do this on demand, only if needed
+                    print('pip check: {}'.format(env_name))
+                    ok = PipCmd.pip_check()
+                    if not ok:
+                        break
+                    pip_checked = True
+                # fi
+                pr = PipCmd.pip_install_roll_back_single(package_name=package_name, version=version)
+                if pr.get_return_code() == PipReturn.NO_ACTION:
+                    # nothing happened - we could not install - TODO: lock it or take note
+                    print('install: {}: {} {} .. nothing installed, nothing uninstalled'
+                          .format(env_name, package_name, version))
+                else:
+                    if pr.get_return_code() == PipReturn.OK:
+                        installed = pr.get_installed()
+                        # first try succeeded !   if more than current package was installed, update db !!
+                        for pack in installed.keys():
+                            vers = installed[pack]
+                            updated_all[pack] = vers
+                            print('install: {}: installed: {}=={}'
+                                  .format(env_name, pack, vers))
+                        # for
+                    #
+                #
+                if pr.get_return_code() == PipReturn.ERROR:
+                    ok = False
+                    break
+                # fi
 
-            if pr.get_return_code() == PipReturn.OK:
-                pass
-            break
+                if first:
+                    stack.pop_discard()
+            else:
+                # > 1
+                # need to split into: self_package_name, self_version, and REST
+                print('stack extend', would_install)
+                for t in range(2):
+                    for k in would_install.keys():
+                        if t == 0:
+                            if not stack.has_package(k):
+                                continue
+                        else:
+                            if stack.has_package(k):
+                                continue
+                        # fi
+                        stack.append(k, would_install[k])
+                # for
+                print('extended: {}'.format(stack))
+            # fi
+            first = False
+        # while
 
-        ok = True if db.dump(json_path=db_name) else False
+        items = updated_all.items()
+        if len(items) > 0:
+            print()
+            for pack, vers in items:
+                print('Updated: {}=={}'.format(pack, vers))
+            print()
+            if not db.dump(json_path=db_name):
+                ok = False
+            if not EnvCmd.env_import(env_name=env_name, force=False):
+                ok = False
+        else:
+            print('No updates')
+
+        ok = ok if db.dump(json_path=db_name) else False
         db.close()
         return ok
 

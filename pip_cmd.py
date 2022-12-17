@@ -20,11 +20,11 @@ class PipReturn:
     ROLLED_BACK = 2
     NO_ACTION = 3
 
-    def __init__(self):  # , packages_with_versions: typing.List):
-        # self.packages_with_versions = packages_with_versions
+    def __init__(self):
         self.return_code = PipReturn.OK
         self.installed = dict()
         self.uninstalled = dict()
+        self.would_install = dict()
         self.no_matching_distribution = dict()
         self.stdout_lines = list()
         self.stderr_lines = list()
@@ -53,6 +53,13 @@ class PipReturn:
 
     def add_uninstalled(self, package, version) -> bool:
         self.uninstalled[package] = version
+        return True
+
+    def get_would_install(self) -> dict:
+        return self.would_install
+
+    def add_would_install(self, package, version) -> bool:
+        self.would_install[package] = version
         return True
 
     def add_stdout_line(self, line: str) -> bool:
@@ -229,12 +236,23 @@ class PipCmd:
         def has_digit(s: str):
             return any(i.isdigit() for i in s)
 
+        def split_package_version(package_with_version: str) -> (str, str):
+            s = package_with_version.rsplit('-', maxsplit=1)
+            if s is None or len(s) < 2:
+                return '', ''
+            pack = s[0]
+            vers = s[1]
+            if not has_digit(vers):
+                print('pip_install_error: {}'.format(mingled))  # fatal internal error !!
+            pack2 = Utils.canonicalize_name(pack)
+            return pack2, vers
+
         pr = PipReturn()  # installs=packages_with_versions)
         try:
             error = False
             pip_args = [sys.executable, '-m', 'pip', 'install']
             if dry_run:
-                pip_args += '--dry-run'
+                pip_args += ['--dry-run']
             pip_args += packages_with_versions
             cp = subprocess.run(pip_args, shell=False, capture_output=True)
             for line in cp.stdout.decode().split('\n'):
@@ -244,27 +262,25 @@ class PipCmd:
                 v = line.split()
                 if v is None or len(v) < 2:
                     continue
-                if v[0] != 'Successfully' or (v[1] != 'installed' and v[1] != 'uninstalled'):
-                    continue
-                show_stdout = True
-                for i in range(2, len(v)):
-                    mingled = v[i]
-                    s = mingled.rsplit('-', maxsplit=1)
-                    if s is None or len(s) < 2:
-                        continue
-                    pack = s[0]
-                    vers = s[1]
-                    if not has_digit(vers):
-                        print('pip_install_error: {}'.format(mingled))  # fatal internal error !!
-                    pack2 = Utils.canonicalize_name(pack)
-                    if v[1] == 'installed':
-                        pr.add_installed(pack2, vers)
-                        show_stdout = False
-                    elif v[1] == 'uninstalled':
-                        pr.add_uninstalled(pack2, vers)
-                        show_stdout = False
-                    # fi
-                # for
+                show_stdout = False
+                if v[0] == 'Successfully' and (v[1] == 'installed' or v[1] == 'uninstalled'):
+                    show_stdout = True
+                    for i in range(2, len(v)):
+                        pack2, vers = split_package_version(v[i])
+                        if v[1] == 'installed':
+                            pr.add_installed(pack2, vers)
+                            show_stdout = False
+                        elif v[1] == 'uninstalled':
+                            pr.add_uninstalled(pack2, vers)
+                            show_stdout = False
+                        # fi
+                    # for
+                elif v[0] == 'Would' and v[1] == 'install':
+                    for i in range(2, len(v)):
+                        pack2, vers = split_package_version(v[i])
+                        pr.add_would_install(pack2, vers)
+                    # for
+                # fi
                 if show_stdout:
                     print('pip_install_stdout: {}'.format(line.lstrip()))
             # for stdout
@@ -282,7 +298,7 @@ class PipCmd:
                         mingled = v[6]
                         s = mingled.split('==')
                         pack = s[0]
-                        vers = s[1]
+                        vers = s[1] if len(s) > 1 else ''
                         pack2 = Utils.canonicalize_name(pack)
                         pr.add_no_matching_distribution(pack2, vers)
                     # fi

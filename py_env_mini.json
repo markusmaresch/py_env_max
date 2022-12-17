@@ -374,6 +374,56 @@
             "version_installed": "0.11.0",
             "version_required": "0.11.0"
         },
+        "cython": {
+            "level": 1,
+            "package_name": "Cython",
+            "releases_checked_time": 1671317253,
+            "releases_recent": [
+                "3.0.0a11",
+                "3.0.0a10",
+                "3.0.0a9",
+                "3.0.0a8",
+                "3.0a7",
+                "3.0a6",
+                "3.0a5",
+                "3.0a4",
+                "3.0a3",
+                "3.0a2",
+                "3.0a1",
+                "0.29.32",
+                "0.29.31",
+                "0.29.30",
+                "0.29.29",
+                "0.29.28",
+                "0.29.27",
+                "0.29.26",
+                "0.29.25",
+                "0.29.24",
+                "0.29.23",
+                "0.29.22",
+                "0.29.21",
+                "0.29.20",
+                "0.29.19",
+                "0.29.18",
+                "0.29.17",
+                "0.29.16",
+                "0.29.15",
+                "0.29.14",
+                "0.29.13",
+                "0.29.12",
+                "0.29.11",
+                "0.29.10",
+                "0.29.9",
+                "0.29.8",
+                "0.29.7",
+                "0.29.6",
+                "0.29.5",
+                "0.29.4"
+            ],
+            "summary": "The Cython compiler for writing C extensions for the Python language",
+            "version_installed": "0.29.32",
+            "version_required": "0.29.32"
+        },
         "flake8": {
             "level": 2,
             "package_name": "flake8",
@@ -1690,7 +1740,8 @@
                 "scipy",
                 "statsmodels",
                 "tensorboard",
-                "tensorflow"
+                "tensorflow",
+                "trading-calendars"
             ],
             "summary": "NumPy is the fundamental package for array computing with Python",
             "version_installed": "1.23.5",
@@ -1897,7 +1948,8 @@
                 "1.5.2"
             ],
             "required_by": [
-                "statsmodels"
+                "statsmodels",
+                "trading-calendars"
             ],
             "requires": [
                 {
@@ -17396,7 +17448,8 @@
             ],
             "required_by": [
                 "matplotlib",
-                "pandas"
+                "pandas",
+                "trading-calendars"
             ],
             "requires": [
                 {
@@ -17459,7 +17512,8 @@
             ],
             "required_by": [
                 "babel",
-                "pandas"
+                "pandas",
+                "trading-calendars"
             ],
             "summary": "World timezone definitions, modern and historical",
             "version_installed": "2022.6",
@@ -17820,6 +17874,54 @@
             "version_installed": "1.9.3",
             "version_required": "1.9.3"
         },
+        "screeninfo": {
+            "level": 3,
+            "package_name": "screeninfo",
+            "releases_checked_time": 1671317253,
+            "releases_recent": [
+                "0.8.1",
+                "0.8",
+                "0.7",
+                "0.6.7",
+                "0.6.6",
+                "0.6.5",
+                "0.6.4",
+                "0.6.3",
+                "0.6.2",
+                "0.6.1",
+                "0.6",
+                "0.5",
+                "0.4.2",
+                "0.4.1",
+                "0.4",
+                "0.3.1",
+                "0.3",
+                "0.2.2",
+                "0.2.1",
+                "0.2",
+                "0.1"
+            ],
+            "requires": [
+                {
+                    "package_name": "Cython",
+                    "version_installed": "0.29.32"
+                },
+                {
+                    "package_name": "pyobjc-framework-Cocoa",
+                    "requires": [
+                        {
+                            "package_name": "pyobjc-core",
+                            "version_installed": "9.0",
+                            "version_required": ">=9.0"
+                        }
+                    ],
+                    "version_installed": "9.0"
+                }
+            ],
+            "summary": "Fetch location and size of physical screens",
+            "version_installed": "0.8.1",
+            "version_required": "0.8.1"
+        },
         "setuptools": {
             "level": 1,
             "package_name": "setuptools",
@@ -17922,11 +18024,90 @@
                 "patsy",
                 "pyod",
                 "python-dateutil",
-                "tensorflow"
+                "tensorflow",
+                "trading-calendars"
             ],
             "summary": "Python 2 and 3 compatibility utilities",
             "version_installed": "1.16.0",
             "version_required": "1.16.0"
+        },
+        "skia-pathops": {
+            "level": 1,
+            "package_name": "skia-pathops",
+            "releases_checked_time": 1671316245,
+            "releases_recent": [
+                "0.7.4",
+                "0.7.3",
+                "0.7.2",
+                "0.7.1",
+                "0.7.0",
+                "0.6.0.post3",
+                "0.6.0.post2",
+                "0.6.0.post1",
+                "0.6.0",
+                "0.5.2b2",
+                "0.5.2b1",
+                "0.5.1.post1",
+                "0.5.1",
+                "0.5.0",
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.3.0",
+                "0.2.1",
+                "0.2.0.post2",
+                "0.2.0.post1",
+                "0.1.5",
+                "0.1.4",
+                "0.1.3",
+                "0.1.2",
+                "0.1.1",
+                "0.1.0",
+                "0.1.0.dev1",
+                "0.1.0.dev0"
+            ],
+            "summary": "Python access to operations on paths using the Skia library",
+            "version_installed": "0.7.4",
+            "version_required": "0.7.4"
+        },
+        "srt": {
+            "level": 1,
+            "package_name": "srt",
+            "releases_checked_time": 1671316245,
+            "releases_recent": [
+                "3.5.2",
+                "3.5.1",
+                "3.5.0",
+                "3.4.1",
+                "3.4.0",
+                "3.3.0",
+                "3.2.1",
+                "3.0.0",
+                "2.1.0",
+                "2.0.0",
+                "1.11.0",
+                "1.10.0",
+                "1.9.0",
+                "1.8.0",
+                "1.7.0",
+                "1.6.0",
+                "1.5.0",
+                "1.4.0",
+                "1.3.0",
+                "1.2.0",
+                "1.1.0",
+                "1.0.0",
+                "0.0.8",
+                "0.0.7",
+                "0.0.6",
+                "0.0.5",
+                "0.0.4",
+                "0.0.3",
+                "0.0.2"
+            ],
+            "summary": "A tiny library for parsing, modifying, and composing SRT files",
+            "version_installed": "3.5.2",
+            "version_required": "3.5.2"
         },
         "statsmodels": {
             "level": 4,
@@ -18042,6 +18223,56 @@
             "summary": "Statistical computations and models for Python",
             "version_installed": "0.13.5",
             "version_required": "0.13.5"
+        },
+        "svgelements": {
+            "level": 1,
+            "package_name": "svgelements",
+            "releases_checked_time": 1671316245,
+            "releases_recent": [
+                "1.9.0",
+                "1.8.4",
+                "1.8.3",
+                "1.8.2",
+                "1.8.1",
+                "1.8.0",
+                "1.7.5",
+                "1.7.4",
+                "1.7.2",
+                "1.7.1",
+                "1.7.0",
+                "1.6.17",
+                "1.6.16",
+                "1.6.15",
+                "1.6.14",
+                "1.6.13",
+                "1.6.12",
+                "1.6.11",
+                "1.6.10",
+                "1.6.9",
+                "1.6.8",
+                "1.6.7",
+                "1.6.6",
+                "1.6.5",
+                "1.6.4",
+                "1.6.3",
+                "1.6.1",
+                "1.6.0",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.12",
+                "1.4.11",
+                "1.4.10",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7"
+            ],
+            "summary": "Svg Elements Parsing",
+            "version_installed": "1.9.0",
+            "version_required": "1.9.0"
         },
         "tensorboard": {
             "level": 5,
@@ -18936,6 +19167,195 @@
             "version_installed": "0.10.2",
             "version_required": "0.10.2"
         },
+        "toolz": {
+            "level": 1,
+            "package_name": "toolz",
+            "releases_checked_time": 1671315511,
+            "releases_recent": [
+                "0.12.0",
+                "0.11.2",
+                "0.11.1",
+                "0.11.0",
+                "0.10.0",
+                "0.9.0",
+                "0.8.2",
+                "0.8.1",
+                "0.8.0",
+                "0.7.4",
+                "0.7.3",
+                "0.7.2",
+                "0.7.1",
+                "0.7.0",
+                "0.6.0",
+                "0.5.3",
+                "0.5.2",
+                "0.5.1",
+                "0.5.0",
+                "0.4.1",
+                "0.4.0",
+                "0.3.0",
+                "0.2.2",
+                "0.2.1",
+                "0.2",
+                "0.1"
+            ],
+            "required_by": [
+                "trading-calendars"
+            ],
+            "summary": "List processing tools and functional utilities",
+            "version_installed": "0.12.0",
+            "version_required": "0.12.0"
+        },
+        "tqdm": {
+            "level": 1,
+            "package_name": "tqdm",
+            "releases_checked_time": 1671316245,
+            "releases_recent": [
+                "4.64.1",
+                "4.64.0",
+                "4.63.2",
+                "4.63.1",
+                "4.63.0",
+                "4.62.3",
+                "4.62.2",
+                "4.62.1",
+                "4.62.0",
+                "4.61.2",
+                "4.61.1",
+                "4.61.0",
+                "4.60.0",
+                "4.59.0",
+                "4.58.0",
+                "4.57.0",
+                "4.56.2",
+                "4.56.1",
+                "4.56.0",
+                "4.55.2",
+                "4.55.1",
+                "4.55.0",
+                "4.54.1",
+                "4.54.0",
+                "4.53.0",
+                "4.52.0",
+                "4.51.0",
+                "4.50.2",
+                "4.50.1",
+                "4.50.0",
+                "4.49.0",
+                "4.48.2",
+                "4.48.1",
+                "4.48.0",
+                "4.47.0",
+                "4.46.1",
+                "4.46.0",
+                "4.45.0",
+                "4.44.1",
+                "4.44.0"
+            ],
+            "summary": "Fast, Extensible Progress Meter",
+            "version_installed": "4.64.1",
+            "version_required": "4.64.1"
+        },
+        "trading-calendars": {
+            "level": 4,
+            "package_name": "trading-calendars",
+            "releases_checked_time": 1671315511,
+            "releases_recent": [
+                "2.1.1",
+                "2.1.0",
+                "2.0.0",
+                "1.11.11",
+                "1.11.10",
+                "1.11.9",
+                "1.11.8",
+                "1.11.7",
+                "1.11.5",
+                "1.11.2",
+                "1.11.1",
+                "1.11.0",
+                "1.10.0",
+                "1.9.1",
+                "1.9.0",
+                "1.8.1",
+                "1.8.0",
+                "1.7.0",
+                "1.6.1",
+                "1.6.0",
+                "1.5.1",
+                "1.5.0",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.1",
+                "1.3.0",
+                "1.2.0",
+                "1.1.0",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "0.0.1"
+            ],
+            "requires": [
+                {
+                    "package_name": "numpy",
+                    "version_installed": "1.23.5"
+                },
+                {
+                    "package_name": "pandas",
+                    "requires": [
+                        {
+                            "package_name": "numpy",
+                            "version_installed": "1.23.5",
+                            "version_required": ">=1.20.3"
+                        },
+                        {
+                            "package_name": "python-dateutil",
+                            "requires": [
+                                {
+                                    "package_name": "six",
+                                    "version_installed": "1.16.0",
+                                    "version_required": ">=1.5"
+                                }
+                            ],
+                            "version_installed": "2.8.2",
+                            "version_required": ">=2.8.1"
+                        },
+                        {
+                            "package_name": "pytz",
+                            "version_installed": "2022.6",
+                            "version_required": ">=2020.1"
+                        }
+                    ],
+                    "version_installed": "1.5.2"
+                },
+                {
+                    "package_name": "python-dateutil",
+                    "requires": [
+                        {
+                            "package_name": "six",
+                            "version_installed": "1.16.0",
+                            "version_required": ">=1.5"
+                        }
+                    ],
+                    "version_installed": "2.8.2"
+                },
+                {
+                    "package_name": "pytz",
+                    "version_installed": "2022.6"
+                },
+                {
+                    "package_name": "six",
+                    "version_installed": "1.16.0"
+                },
+                {
+                    "package_name": "toolz",
+                    "version_installed": "0.12.0"
+                }
+            ],
+            "summary": "trading_calendars is a Python library with securities exchange calendars used by Quantopian's Zipline",
+            "version_installed": "2.1.1",
+            "version_required": "2.1.1"
+        },
         "typing-extensions": {
             "level": 1,
             "package_name": "typing-extensions",
@@ -19023,6 +19443,56 @@
             "summary": "HTTP library with thread-safe connection pooling, file post, and more",
             "version_installed": "1.26.13",
             "version_required": "1.26.13"
+        },
+        "watchdog": {
+            "level": 1,
+            "package_name": "watchdog",
+            "releases_checked_time": 1671316245,
+            "releases_recent": [
+                "2.2.0",
+                "2.1.9",
+                "2.1.8",
+                "2.1.7",
+                "2.1.6",
+                "2.1.5",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "0.10.7",
+                "0.10.6",
+                "0.10.5",
+                "0.10.4",
+                "0.10.3",
+                "0.10.2",
+                "0.10.1",
+                "0.10.0",
+                "0.9.0",
+                "0.8.3",
+                "0.8.2",
+                "0.8.1",
+                "0.8.0",
+                "0.7.1",
+                "0.7.0",
+                "0.6.1",
+                "0.6.0",
+                "0.5.4",
+                "0.5.3",
+                "0.5.2",
+                "0.5.1",
+                "0.5.0"
+            ],
+            "summary": "Filesystem events monitoring",
+            "version_installed": "2.2.0",
+            "version_required": "2.2.0"
         },
         "werkzeug": {
             "level": 2,
