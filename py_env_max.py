@@ -80,7 +80,7 @@ class PyEnvMax:
             print('Error: do not use \'base\' conda environment')
             print()
             print('Consider creating a new environment:')
-            print('\tconda create --name {} python={}'
+            print('\tconda create --name {} python={} -y'
                   .format(default, self.python_version_default))
             print('\tconda activate {}'.format(default))
             # here go boot strapping packages .. UNLESS those can be found in pip._vendor !!

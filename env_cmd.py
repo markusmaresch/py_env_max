@@ -398,12 +398,20 @@ class EnvCmd:
                 pwvs = [popped_full]
                 current_package_name = PackageStack.get_package_name(popped_full)
             print('{}: pip install dry-run: {}'.format(env_name, pwvs))
-            pr = PipCmd.pip_install_commands(packages_with_versions=pwvs, dry_run=True)
-            pip_error = pr.get_return_code()
+            pip_error = PipReturn.OK
+            pr = None
+            for t in range(2):
+                pr = PipCmd.pip_install_commands(packages_with_versions=pwvs, dry_run=True)
+                pip_error = pr.get_return_code()
+                if pip_error == PipReturn.OK:
+                    break
+            # for
             if pip_error == PipReturn.ERROR:
                 print('pip error')
-                ok = False
+                # ok = False
                 break
+            # fi
+
             would_install = pr.get_would_install()
             if len(would_install) == 0:
                 print('{}: nothing to do...'.format(env_name))
