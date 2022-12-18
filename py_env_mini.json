@@ -57,6 +57,281 @@
             "version_installed": "1.3.0",
             "version_required": "1.3.0"
         },
+        "anyio": {
+            "level": 2,
+            "package_name": "anyio",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "3.6.2",
+                "3.6.1",
+                "3.6.0",
+                "3.5.0",
+                "3.4.0",
+                "3.3.4",
+                "3.3.3",
+                "3.3.2",
+                "3.3.1",
+                "3.3.0",
+                "3.2.1",
+                "3.2.0",
+                "3.1.0",
+                "3.0.1",
+                "3.0.0",
+                "3.0.0rc4",
+                "3.0.0rc3",
+                "3.0.0rc2",
+                "3.0.0rc1",
+                "2.2.0",
+                "2.1.0",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "2.0.0rc2",
+                "2.0.0rc1",
+                "2.0.0b2",
+                "2.0.0b1",
+                "1.4.0",
+                "1.3.1",
+                "1.3.0",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.0",
+                "1.0.0",
+                "1.0.0rc2",
+                "1.0.0rc1",
+                "1.0.0b2"
+            ],
+            "requires": [
+                {
+                    "package_name": "idna",
+                    "version_installed": "3.4",
+                    "version_required": ">=2.8"
+                },
+                {
+                    "package_name": "sniffio",
+                    "version_installed": "1.3.0",
+                    "version_required": ">=1.1"
+                }
+            ],
+            "summary": "High level compatibility layer for multiple asynchronous event loop implementations",
+            "version_installed": "3.6.2",
+            "version_required": "3.6.2"
+        },
+        "appnope": {
+            "level": 1,
+            "package_name": "appnope",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "0.1.3",
+                "0.1.2",
+                "0.1.1",
+                "0.1.0",
+                "0.0.7",
+                "0.0.6",
+                "0.0.5",
+                "0.0.4",
+                "0.0.3",
+                "0.0.2",
+                "0.0.1"
+            ],
+            "required_by": [
+                "ipython"
+            ],
+            "summary": "Disable App Nap on macOS >= 10.9",
+            "version_installed": "0.1.3",
+            "version_required": "0.1.3"
+        },
+        "argon2-cffi": {
+            "level": 4,
+            "package_name": "argon2-cffi",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "21.3.0",
+                "21.2.0",
+                "21.1.0",
+                "20.1.0",
+                "19.2.0",
+                "19.1.0",
+                "18.3.0",
+                "18.2.0",
+                "18.1.0",
+                "16.3.0",
+                "16.2.0",
+                "16.1.0",
+                "16.0.0",
+                "15.0.1",
+                "15.0.0",
+                "15.0.0b5"
+            ],
+            "requires": [
+                {
+                    "package_name": "argon2-cffi-bindings",
+                    "requires": [
+                        {
+                            "package_name": "cffi",
+                            "requires": [
+                                {
+                                    "package_name": "pycparser",
+                                    "version_installed": "2.21"
+                                }
+                            ],
+                            "version_installed": "1.15.1",
+                            "version_required": ">=1.0.1"
+                        }
+                    ],
+                    "version_installed": "21.2.0"
+                }
+            ],
+            "summary": "The secure Argon2 password hashing algorithm",
+            "version_installed": "21.3.0",
+            "version_required": "21.3.0"
+        },
+        "argon2-cffi-bindings": {
+            "level": 3,
+            "package_name": "argon2-cffi-bindings",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "21.2.0",
+                "21.1.0"
+            ],
+            "required_by": [
+                "argon2-cffi"
+            ],
+            "requires": [
+                {
+                    "package_name": "cffi",
+                    "requires": [
+                        {
+                            "package_name": "pycparser",
+                            "version_installed": "2.21"
+                        }
+                    ],
+                    "version_installed": "1.15.1",
+                    "version_required": ">=1.0.1"
+                }
+            ],
+            "summary": "Low-level CFFI bindings for Argon2",
+            "version_installed": "21.2.0",
+            "version_required": "21.2.0"
+        },
+        "arrow": {
+            "level": 3,
+            "package_name": "arrow",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.1",
+                "1.1.0",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "0.17.0",
+                "0.16.0",
+                "0.15.8",
+                "0.15.7",
+                "0.15.6",
+                "0.15.5",
+                "0.15.4",
+                "0.15.3",
+                "0.15.2",
+                "0.15.1",
+                "0.15.0",
+                "0.14.7",
+                "0.14.6",
+                "0.14.5",
+                "0.14.4",
+                "0.14.3",
+                "0.14.2",
+                "0.14.1",
+                "0.14.0",
+                "0.13.2",
+                "0.13.1",
+                "0.13.0",
+                "0.12.1",
+                "0.12.0",
+                "0.11.0",
+                "0.10.0",
+                "0.9.0",
+                "0.8.0",
+                "0.7.0",
+                "0.6.0"
+            ],
+            "required_by": [
+                "isoduration"
+            ],
+            "requires": [
+                {
+                    "package_name": "python-dateutil",
+                    "requires": [
+                        {
+                            "package_name": "six",
+                            "version_installed": "1.16.0",
+                            "version_required": ">=1.5"
+                        }
+                    ],
+                    "version_installed": "2.8.2",
+                    "version_required": ">=2.7.0"
+                }
+            ],
+            "summary": "Better dates & times for Python",
+            "version_installed": "1.2.3",
+            "version_required": "1.2.3"
+        },
+        "asttokens": {
+            "level": 2,
+            "package_name": "asttokens",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "2.2.1",
+                "2.2.0",
+                "2.1.0",
+                "2.0.8",
+                "2.0.7",
+                "2.0.6",
+                "2.0.5",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.1.15",
+                "1.1.14",
+                "1.1.13",
+                "1.1.12",
+                "1.1.11",
+                "1.1.10",
+                "1.1.9",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.1",
+                "1.0.0"
+            ],
+            "required_by": [
+                "stack-data"
+            ],
+            "requires": [
+                {
+                    "package_name": "six",
+                    "version_installed": "1.16.0"
+                }
+            ],
+            "summary": "Annotate AST trees with source code positions",
+            "version_installed": "2.2.1",
+            "version_required": "2.2.1"
+        },
         "astunparse": {
             "level": 3,
             "package_name": "astunparse",
@@ -92,6 +367,44 @@
             "summary": "An AST unparser for Python",
             "version_installed": "1.6.3",
             "version_required": "1.6.3"
+        },
+        "attrs": {
+            "level": 1,
+            "package_name": "attrs",
+            "releases_checked_time": 1671320477,
+            "releases_recent": [
+                "22.1.0",
+                "21.4.0",
+                "21.3.0",
+                "21.2.0",
+                "21.1.0",
+                "20.3.0",
+                "20.2.0",
+                "20.1.0",
+                "19.3.0",
+                "19.2.0",
+                "19.1.0",
+                "18.2.0",
+                "18.1.0",
+                "17.4.0",
+                "17.3.0",
+                "17.2.0",
+                "17.1.0",
+                "16.3.0",
+                "16.2.0",
+                "16.1.0",
+                "16.0.0",
+                "15.2.0",
+                "15.1.0",
+                "15.0.0",
+                "15.0.0a1"
+            ],
+            "required_by": [
+                "jsonschema"
+            ],
+            "summary": "Classes Without Boilerplate",
+            "version_installed": "22.1.0",
+            "version_required": "22.1.0"
         },
         "babel": {
             "level": 2,
@@ -146,6 +459,141 @@
             "summary": "Internationalization utilities",
             "version_installed": "2.11.0",
             "version_required": "2.11.0"
+        },
+        "backcall": {
+            "level": 1,
+            "package_name": "backcall",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "0.2.0",
+                "0.1.0"
+            ],
+            "required_by": [
+                "ipython"
+            ],
+            "summary": "Specifications for callback functions passed in to an API",
+            "version_installed": "0.2.0",
+            "version_required": "0.2.0"
+        },
+        "beautifulsoup4": {
+            "level": 2,
+            "package_name": "beautifulsoup4",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "4.11.1",
+                "4.11.0",
+                "4.10.0",
+                "4.9.3",
+                "4.9.2",
+                "4.9.1",
+                "4.9.0",
+                "4.8.2",
+                "4.8.1",
+                "4.8.0",
+                "4.7.1",
+                "4.7.0",
+                "4.6.3",
+                "4.6.2",
+                "4.6.1",
+                "4.6.0",
+                "4.5.3",
+                "4.5.2",
+                "4.5.1",
+                "4.5.0",
+                "4.4.1",
+                "4.4.0",
+                "4.3.2",
+                "4.3.1",
+                "4.3.0",
+                "4.2.1",
+                "4.2.0",
+                "4.1.3",
+                "4.1.2",
+                "4.1.1",
+                "4.1.0",
+                "4.0.5",
+                "4.0.4",
+                "4.0.3",
+                "4.0.2",
+                "4.0.1"
+            ],
+            "required_by": [
+                "nbconvert"
+            ],
+            "requires": [
+                {
+                    "package_name": "soupsieve",
+                    "version_installed": "2.3.2.post1",
+                    "version_required": ">1.2"
+                }
+            ],
+            "summary": "Screen-scraping library",
+            "version_installed": "4.11.1",
+            "version_required": "4.11.1"
+        },
+        "bleach": {
+            "level": 2,
+            "package_name": "bleach",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "5.0.1",
+                "5.0.0",
+                "4.1.0",
+                "4.0.0",
+                "3.3.1",
+                "3.3.0",
+                "3.2.3",
+                "3.2.2",
+                "3.2.1",
+                "3.2.0",
+                "3.1.5",
+                "3.1.4",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1.0",
+                "3.0.2",
+                "3.0.1",
+                "3.0.0",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1",
+                "2.0.0",
+                "1.5.0",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.4"
+            ],
+            "required_by": [
+                "nbconvert"
+            ],
+            "requires": [
+                {
+                    "package_name": "six",
+                    "version_installed": "1.16.0",
+                    "version_required": ">=1.9.0"
+                },
+                {
+                    "package_name": "webencodings",
+                    "version_installed": "0.5.1"
+                }
+            ],
+            "summary": "An easy safelist-based HTML-sanitizing tool",
+            "version_installed": "5.0.1",
+            "version_required": "5.0.1"
         },
         "box2d-py": {
             "level": 1,
@@ -264,11 +712,71 @@
                 "2022.9.24"
             ],
             "required_by": [
+                "kaggle",
                 "requests"
             ],
             "summary": "Python package for providing Mozilla's CA Bundle",
             "version_installed": "2022.12.7",
             "version_required": "2022.12.7"
+        },
+        "cffi": {
+            "level": 2,
+            "package_name": "cffi",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "1.15.1",
+                "1.15.0",
+                "1.15.0rc2",
+                "1.15.0rc1",
+                "1.14.6",
+                "1.14.5",
+                "1.14.4",
+                "1.14.3",
+                "1.14.2",
+                "1.14.1",
+                "1.14.0",
+                "1.13.2",
+                "1.13.1",
+                "1.13.0",
+                "1.12.3",
+                "1.12.2",
+                "1.12.1",
+                "1.12.0",
+                "1.11.5",
+                "1.11.4",
+                "1.11.3",
+                "1.11.2",
+                "1.11.1",
+                "1.11.0",
+                "1.10.0",
+                "1.9.1",
+                "1.9.0",
+                "1.8.3",
+                "1.8.2",
+                "1.7.0",
+                "1.6.0",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.1",
+                "1.3.0",
+                "1.2.1"
+            ],
+            "required_by": [
+                "argon2-cffi-bindings"
+            ],
+            "requires": [
+                {
+                    "package_name": "pycparser",
+                    "version_installed": "2.21"
+                }
+            ],
+            "summary": "Foreign Function Interface for Python calling C code",
+            "version_installed": "1.15.1",
+            "version_required": "1.15.1"
         },
         "charset-normalizer": {
             "level": 1,
@@ -326,6 +834,207 @@
             "version_installed": "2.1.1",
             "version_required": "2.1.1"
         },
+        "click": {
+            "level": 1,
+            "package_name": "click",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "8.1.3",
+                "8.1.2",
+                "8.1.1",
+                "8.1.0",
+                "8.0.4",
+                "8.0.3",
+                "8.0.2",
+                "8.0.1",
+                "8.0.0",
+                "8.0.0rc1",
+                "8.0.0a1",
+                "7.1.2",
+                "7.1.1",
+                "7.1",
+                "7.0",
+                "6.7",
+                "6.7.dev0",
+                "6.6",
+                "6.5",
+                "6.4",
+                "6.3",
+                "6.2",
+                "6.1",
+                "6.0",
+                "5.1",
+                "5.0",
+                "4.1",
+                "4.0",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.1"
+            ],
+            "required_by": [
+                "click-default-group",
+                "cloup",
+                "nltk"
+            ],
+            "summary": "Composable command line interface toolkit",
+            "version_installed": "8.1.3",
+            "version_required": "8.1.3"
+        },
+        "click-default-group": {
+            "level": 2,
+            "package_name": "click-default-group",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1",
+                "1.0"
+            ],
+            "requires": [
+                {
+                    "package_name": "click",
+                    "version_installed": "8.1.3"
+                }
+            ],
+            "summary": "Extends click.Group to invoke a command without explicit subcommand name",
+            "version_installed": "1.2.2",
+            "version_required": "1.2.2"
+        },
+        "cloup": {
+            "level": 2,
+            "package_name": "cloup",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "2.0.0.post1",
+                "2.0.0",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "0.15.1",
+                "0.15.0",
+                "0.14.0",
+                "0.13.1",
+                "0.13.0",
+                "0.12.1",
+                "0.12.0",
+                "0.11.0",
+                "0.10.0",
+                "0.9.1",
+                "0.9.0",
+                "0.8.2",
+                "0.8.1",
+                "0.8.0",
+                "0.7.1",
+                "0.7.0",
+                "0.6.1",
+                "0.6.0",
+                "0.5.0",
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.3.0",
+                "0.2.0",
+                "0.1.2",
+                "0.1.1",
+                "0.1.0"
+            ],
+            "requires": [
+                {
+                    "package_name": "click",
+                    "version_installed": "8.1.3",
+                    "version_required": ">=7.1,<9.0"
+                }
+            ],
+            "summary": "Adds features to Click: option groups, constraints, subcommand sections and help themes",
+            "version_installed": "0.13.1",
+            "version_required": "0.13.1"
+        },
+        "colour": {
+            "level": 1,
+            "package_name": "colour",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "0.1.5",
+                "0.1.4",
+                "0.1.3",
+                "0.1.2",
+                "0.1.1",
+                "0.0.6",
+                "0.0.5",
+                "0.0.4",
+                "0.0.3",
+                "0.0.2",
+                "0.0.1"
+            ],
+            "summary": "converts and manipulates various color representation (HSL, RVB, web, X11, ...)",
+            "version_installed": "0.1.5",
+            "version_required": "0.1.5"
+        },
+        "comm": {
+            "level": 2,
+            "package_name": "comm",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "0.1.2",
+                "0.1.1",
+                "0.1.0",
+                "0.0.1"
+            ],
+            "requires": [
+                {
+                    "package_name": "traitlets",
+                    "version_installed": "5.7.1",
+                    "version_required": ">=5.3"
+                }
+            ],
+            "summary": "Jupyter Python Comm implementation, for usage in ipykernel, xeus-python etc",
+            "version_installed": "0.1.2",
+            "version_required": "0.1.2"
+        },
+        "commonmark": {
+            "level": 1,
+            "package_name": "commonmark",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "0.9.1",
+                "0.9.0",
+                "0.8.1",
+                "0.8.0",
+                "0.7.5",
+                "0.7.4",
+                "0.7.3",
+                "0.7.2",
+                "0.7.1",
+                "0.7.0",
+                "0.6.4",
+                "0.6.3",
+                "0.6.2",
+                "0.6.1",
+                "0.6.0",
+                "0.5.5",
+                "0.5.4",
+                "0.5.3",
+                "0.5.2",
+                "0.5.1",
+                "0.5.0"
+            ],
+            "required_by": [
+                "rich"
+            ],
+            "summary": "Python parser for the CommonMark Markdown spec",
+            "version_installed": "0.9.1",
+            "version_required": "0.9.1"
+        },
         "contourpy": {
             "level": 2,
             "package_name": "contourpy",
@@ -377,7 +1086,7 @@
         "cython": {
             "level": 1,
             "package_name": "Cython",
-            "releases_checked_time": 1671317253,
+            "releases_checked_time": 1671318285,
             "releases_recent": [
                 "3.0.0a11",
                 "3.0.0a10",
@@ -423,6 +1132,229 @@
             "summary": "The Cython compiler for writing C extensions for the Python language",
             "version_installed": "0.29.32",
             "version_required": "0.29.32"
+        },
+        "debugpy": {
+            "level": 1,
+            "package_name": "debugpy",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.5.1",
+                "1.5.0",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.0",
+                "1.2.1",
+                "1.2.0",
+                "1.1.0",
+                "1.0.0",
+                "1.0.0rc2",
+                "1.0.0rc1",
+                "1.0.0b12",
+                "1.0.0b11",
+                "1.0.0b10",
+                "1.0.0b9",
+                "1.0.0b8",
+                "1.0.0b7",
+                "1.0.0b6",
+                "1.0.0b5",
+                "1.0.0b4",
+                "1.0.0b3",
+                "1.0.0b2",
+                "1.0.0b1"
+            ],
+            "summary": "An implementation of the Debug Adapter Protocol for Python",
+            "version_installed": "1.6.4",
+            "version_required": "1.6.4"
+        },
+        "decorator": {
+            "level": 1,
+            "package_name": "decorator",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "5.1.1",
+                "5.1.0",
+                "5.0.9",
+                "5.0.8",
+                "5.0.7",
+                "5.0.6",
+                "5.0.5",
+                "5.0.4",
+                "5.0.3",
+                "4.4.2",
+                "4.4.1",
+                "4.4.0",
+                "4.3.2",
+                "4.3.1",
+                "4.3.0",
+                "4.2.1",
+                "4.1.2",
+                "4.1.1",
+                "4.1.0",
+                "4.0.11",
+                "4.0.10",
+                "4.0.9",
+                "4.0.7",
+                "4.0.6",
+                "4.0.4",
+                "4.0.3",
+                "4.0.2",
+                "4.0.1",
+                "4.0.0",
+                "3.4.2",
+                "3.4.1",
+                "3.4.0",
+                "3.3.3",
+                "3.3.2",
+                "3.3.1"
+            ],
+            "required_by": [
+                "ipython"
+            ],
+            "summary": "Decorators for Humans",
+            "version_installed": "5.1.1",
+            "version_required": "5.1.1"
+        },
+        "defusedxml": {
+            "level": 1,
+            "package_name": "defusedxml",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "0.7.1",
+                "0.7.0",
+                "0.7.0rc2",
+                "0.7.0rc1",
+                "0.6.0",
+                "0.6.0rc1",
+                "0.5.0",
+                "0.5.0rc1",
+                "0.4.1",
+                "0.4",
+                "0.3"
+            ],
+            "required_by": [
+                "nbconvert"
+            ],
+            "summary": "XML bomb protection for Python stdlib modules",
+            "version_installed": "0.7.1",
+            "version_required": "0.7.1"
+        },
+        "entrypoints": {
+            "level": 1,
+            "package_name": "entrypoints",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "0.4",
+                "0.3",
+                "0.2.3",
+                "0.2.2",
+                "0.2.1",
+                "0.2",
+                "0.1"
+            ],
+            "required_by": [
+                "jupyter-client"
+            ],
+            "summary": "Discover and load entry points from installed packages",
+            "version_installed": "0.4",
+            "version_required": "0.4"
+        },
+        "executing": {
+            "level": 1,
+            "package_name": "executing",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "1.2.0",
+                "1.1.1",
+                "1.1.0",
+                "1.0.0",
+                "0.10.0",
+                "0.9.1",
+                "0.9.0",
+                "0.8.3",
+                "0.8.2",
+                "0.8.1",
+                "0.8.0",
+                "0.7.0",
+                "0.6.0",
+                "0.5.4",
+                "0.5.3",
+                "0.5.2",
+                "0.5.0",
+                "0.4.4",
+                "0.4.3",
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.3.3",
+                "0.3.2",
+                "0.3.1",
+                "0.3.0",
+                "0.2.0",
+                "0.1.3",
+                "0.1.2",
+                "0.1.1",
+                "0.1.0"
+            ],
+            "required_by": [
+                "stack-data"
+            ],
+            "summary": "Get the currently executing AST node of a frame, and other information",
+            "version_installed": "1.2.0",
+            "version_required": "1.2.0"
+        },
+        "fastjsonschema": {
+            "level": 1,
+            "package_name": "fastjsonschema",
+            "releases_checked_time": 1671320477,
+            "releases_recent": [
+                "2.16.2",
+                "2.16.1",
+                "2.16.0",
+                "2.15.3",
+                "2.15.2",
+                "2.15.1",
+                "2.15.0",
+                "2.14.5",
+                "2.14.4",
+                "2.14.3",
+                "2.14.2",
+                "2.14.1",
+                "2.14.0",
+                "2.13",
+                "2.12",
+                "2.11",
+                "2.10",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ],
+            "required_by": [
+                "nbformat"
+            ],
+            "summary": "Fastest Python implementation of JSON schema",
+            "version_installed": "2.16.2",
+            "version_required": "2.16.2"
         },
         "flake8": {
             "level": 2,
@@ -569,6 +1501,27 @@
             "version_installed": "4.38.0",
             "version_required": "4.38.0"
         },
+        "fqdn": {
+            "level": 1,
+            "package_name": "fqdn",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "1.5.1",
+                "1.5.0",
+                "1.4.0",
+                "1.3.1",
+                "1.3.0",
+                "1.2.0",
+                "1.1.0",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "0.0.1"
+            ],
+            "summary": "Validates fully-qualified domain names against RFC 1123, so that they are acceptable to modern bowsers",
+            "version_installed": "1.5.1",
+            "version_required": "1.5.1"
+        },
         "gast": {
             "level": 1,
             "package_name": "gast",
@@ -601,6 +1554,37 @@
             "summary": "Python AST that abstracts the underlying Python version",
             "version_installed": "0.4.0",
             "version_required": "0.4.0"
+        },
+        "glcontext": {
+            "level": 1,
+            "package_name": "glcontext",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "2.3.7",
+                "2.3.6",
+                "2.3.5",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3",
+                "2.3.dev0",
+                "2.2.0",
+                "2.1.0",
+                "2.0.0",
+                "1.0.1",
+                "1.0.0",
+                "0.2.2",
+                "0.2.1",
+                "0.2.0",
+                "0.1.0"
+            ],
+            "required_by": [
+                "moderngl"
+            ],
+            "summary": "Portable OpenGL Context",
+            "version_installed": "2.3.7",
+            "version_required": "2.3.7"
         },
         "google-auth": {
             "level": 3,
@@ -993,6 +1977,7 @@
                 "3.4"
             ],
             "required_by": [
+                "anyio",
                 "requests"
             ],
             "summary": "Internationalized Domain Names in Applications (IDNA)",
@@ -1047,7 +2032,8 @@
                 "5.1.0"
             ],
             "required_by": [
-                "markdown"
+                "markdown",
+                "nbconvert"
             ],
             "requires": [
                 {
@@ -1059,6 +2045,314 @@
             "summary": "Read metadata from Python packages",
             "version_installed": "5.1.0",
             "version_required": "5.1.0"
+        },
+        "ipython": {
+            "level": 4,
+            "package_name": "ipython",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "8.7.0",
+                "8.6.0",
+                "8.5.0",
+                "8.4.0",
+                "8.3.0",
+                "8.2.0",
+                "8.1.1",
+                "8.1.0",
+                "8.0.1",
+                "8.0.0rc1",
+                "8.0.0b1",
+                "8.0.0a1",
+                "8.0.0",
+                "7.9.0",
+                "7.8.0",
+                "7.7.0",
+                "7.6.1",
+                "7.6.0",
+                "7.5.0",
+                "7.4.0",
+                "7.34.0",
+                "7.33.0",
+                "7.32.0",
+                "7.31.1",
+                "7.31.0",
+                "7.30.1",
+                "7.30.0",
+                "7.3.0",
+                "7.29.0",
+                "7.28.0",
+                "7.27.0",
+                "7.26.0",
+                "7.25.0",
+                "7.24.1",
+                "7.24.0",
+                "7.23.1",
+                "7.23.0",
+                "7.22.0",
+                "7.21.0",
+                "7.20.0"
+            ],
+            "requires": [
+                {
+                    "package_name": "appnope",
+                    "version_installed": "0.1.3"
+                },
+                {
+                    "package_name": "backcall",
+                    "version_installed": "0.2.0"
+                },
+                {
+                    "package_name": "decorator",
+                    "version_installed": "5.1.1"
+                },
+                {
+                    "package_name": "jedi",
+                    "requires": [
+                        {
+                            "package_name": "parso",
+                            "version_installed": "0.8.3",
+                            "version_required": ">=0.8.0,<0.9.0"
+                        }
+                    ],
+                    "version_installed": "0.18.2",
+                    "version_required": ">=0.16"
+                },
+                {
+                    "package_name": "matplotlib-inline",
+                    "requires": [
+                        {
+                            "package_name": "traitlets",
+                            "version_installed": "5.7.1"
+                        }
+                    ],
+                    "version_installed": "0.1.6"
+                },
+                {
+                    "package_name": "pexpect",
+                    "requires": [
+                        {
+                            "package_name": "ptyprocess",
+                            "version_installed": "0.7.0",
+                            "version_required": ">=0.5"
+                        }
+                    ],
+                    "version_installed": "4.8.0",
+                    "version_required": ">4.3"
+                },
+                {
+                    "package_name": "pickleshare",
+                    "version_installed": "0.7.5"
+                },
+                {
+                    "package_name": "prompt-toolkit",
+                    "requires": [
+                        {
+                            "package_name": "wcwidth",
+                            "version_installed": "0.2.5"
+                        }
+                    ],
+                    "version_installed": "3.0.36",
+                    "version_required": ">=3.0.11,<3.1.0"
+                },
+                {
+                    "package_name": "pygments",
+                    "version_installed": "2.13.0",
+                    "version_required": ">=2.4.0"
+                },
+                {
+                    "package_name": "stack-data",
+                    "requires": [
+                        {
+                            "package_name": "asttokens",
+                            "requires": [
+                                {
+                                    "package_name": "six",
+                                    "version_installed": "1.16.0"
+                                }
+                            ],
+                            "version_installed": "2.2.1",
+                            "version_required": ">=2.1.0"
+                        },
+                        {
+                            "package_name": "executing",
+                            "version_installed": "1.2.0",
+                            "version_required": ">=1.2.0"
+                        },
+                        {
+                            "package_name": "pure-eval",
+                            "version_installed": "0.2.2"
+                        }
+                    ],
+                    "version_installed": "0.6.2"
+                },
+                {
+                    "package_name": "traitlets",
+                    "version_installed": "5.7.1",
+                    "version_required": ">=5"
+                }
+            ],
+            "summary": "IPython: Productive Interactive Computing",
+            "version_installed": "8.7.0",
+            "version_required": "8.7.0"
+        },
+        "isoduration": {
+            "level": 4,
+            "package_name": "isoduration",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "20.11.0"
+            ],
+            "requires": [
+                {
+                    "package_name": "arrow",
+                    "requires": [
+                        {
+                            "package_name": "python-dateutil",
+                            "requires": [
+                                {
+                                    "package_name": "six",
+                                    "version_installed": "1.16.0",
+                                    "version_required": ">=1.5"
+                                }
+                            ],
+                            "version_installed": "2.8.2",
+                            "version_required": ">=2.7.0"
+                        }
+                    ],
+                    "version_installed": "1.2.3",
+                    "version_required": ">=0.15.0"
+                }
+            ],
+            "summary": "Operations with ISO 8601 durations",
+            "version_installed": "20.11.0",
+            "version_required": "20.11.0"
+        },
+        "isosurfaces": {
+            "level": 2,
+            "package_name": "isosurfaces",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "0.1.0"
+            ],
+            "requires": [
+                {
+                    "package_name": "numpy",
+                    "version_installed": "1.23.5"
+                }
+            ],
+            "summary": "Construct isolines/isosurfaces over a 2D/3D scalar field defined by a function (not a uniform grid)",
+            "version_installed": "0.1.0",
+            "version_required": "0.1.0"
+        },
+        "jedi": {
+            "level": 2,
+            "package_name": "jedi",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "0.9.0",
+                "0.8.1",
+                "0.7.0",
+                "0.6.0",
+                "0.5b5",
+                "0.5b4",
+                "0.5b3",
+                "0.18.2",
+                "0.18.1",
+                "0.18.0",
+                "0.17.2",
+                "0.17.1",
+                "0.17.0",
+                "0.16.0",
+                "0.15.2",
+                "0.15.1",
+                "0.15.0",
+                "0.14.1",
+                "0.14.0",
+                "0.13.3",
+                "0.13.2",
+                "0.13.1",
+                "0.13.0",
+                "0.12.1",
+                "0.12.0",
+                "0.11.1",
+                "0.11.0",
+                "0.10.2",
+                "0.10.1",
+                "0.10.0"
+            ],
+            "required_by": [
+                "ipython"
+            ],
+            "requires": [
+                {
+                    "package_name": "parso",
+                    "version_installed": "0.8.3",
+                    "version_required": ">=0.8.0,<0.9.0"
+                }
+            ],
+            "summary": "An autocompletion tool for Python that can be used for text editors",
+            "version_installed": "0.18.2",
+            "version_required": "0.18.2"
+        },
+        "jinja2": {
+            "level": 2,
+            "package_name": "Jinja2",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "3.1.2",
+                "3.1.1",
+                "3.1.0",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0.0",
+                "3.0.0rc2",
+                "3.0.0rc1",
+                "3.0.0a1",
+                "2.11.3",
+                "2.11.2",
+                "2.11.1",
+                "2.11.0",
+                "2.10.3",
+                "2.10.2",
+                "2.10.1",
+                "2.10",
+                "2.9.6",
+                "2.9.5",
+                "2.9.4",
+                "2.9.3",
+                "2.9.2",
+                "2.9.1",
+                "2.9",
+                "2.8.1",
+                "2.8",
+                "2.7.3",
+                "2.7.2",
+                "2.7.1",
+                "2.7",
+                "2.6",
+                "2.5.5",
+                "2.5.4",
+                "2.5.3",
+                "2.5.2",
+                "2.5.1",
+                "2.5",
+                "2.4.1",
+                "2.4"
+            ],
+            "required_by": [
+                "nbconvert"
+            ],
+            "requires": [
+                {
+                    "package_name": "MarkupSafe",
+                    "version_installed": "2.1.1",
+                    "version_required": ">=2.0"
+                }
+            ],
+            "summary": "A very fast and expressive template engine",
+            "version_installed": "3.1.2",
+            "version_required": "3.1.2"
         },
         "joblib": {
             "level": 1,
@@ -1106,12 +2400,504 @@
                 "1.2.0"
             ],
             "required_by": [
+                "nltk",
                 "pyod",
                 "scikit-learn"
             ],
             "summary": "Lightweight pipelining with Python functions",
             "version_installed": "1.2.0",
             "version_required": "1.2.0"
+        },
+        "json5": {
+            "level": 1,
+            "package_name": "json5",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "0.9.10",
+                "0.9.9",
+                "0.9.8",
+                "0.9.7",
+                "0.9.6",
+                "0.9.5",
+                "0.9.4",
+                "0.9.3",
+                "0.9.2",
+                "0.9.1",
+                "0.9.0",
+                "0.8.5",
+                "0.8.4",
+                "0.8.2",
+                "0.7.0",
+                "0.6.2",
+                "0.6.1",
+                "0.6.0",
+                "0.5.1",
+                "0.5.1rc0",
+                "0.5.0",
+                "0.4.0",
+                "0.2.4",
+                "0.2.3",
+                "0.2.2",
+                "0.2.1",
+                "0.2.0",
+                "0.1.5",
+                "0.1.4",
+                "0.1.3",
+                "0.1.1",
+                "0.1.0"
+            ],
+            "summary": "A Python implementation of the JSON5 data format",
+            "version_installed": "0.9.10",
+            "version_required": "0.9.10"
+        },
+        "jsonpointer": {
+            "level": 1,
+            "package_name": "jsonpointer",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.14",
+                "1.13",
+                "1.12",
+                "1.11",
+                "1.10",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0",
+                "0.7",
+                "0.6",
+                "0.5",
+                "0.4",
+                "0.3",
+                "0.2",
+                "0.1"
+            ],
+            "summary": "Identify specific nodes in a JSON document (RFC 6901)",
+            "version_installed": "2.3",
+            "version_required": "2.3"
+        },
+        "jsonschema": {
+            "level": 2,
+            "package_name": "jsonschema",
+            "releases_checked_time": 1671320477,
+            "releases_recent": [
+                "4.17.3",
+                "4.17.1",
+                "4.17.0",
+                "4.16.0",
+                "4.15.0",
+                "4.14.0",
+                "4.13.0",
+                "4.12.1",
+                "4.12.0",
+                "4.11.0",
+                "4.10.3",
+                "4.10.2",
+                "4.10.1",
+                "4.10.0",
+                "4.9.1",
+                "4.9.0",
+                "4.8.0",
+                "4.7.2",
+                "4.7.1",
+                "4.7.0",
+                "4.6.2",
+                "4.6.1",
+                "4.6.0",
+                "4.5.1",
+                "4.5.0",
+                "4.4.0",
+                "4.3.3",
+                "4.3.2",
+                "4.3.1",
+                "4.3.0",
+                "4.2.1",
+                "4.2.0",
+                "4.1.2",
+                "4.1.1",
+                "4.1.0",
+                "4.1.0a1",
+                "4.0.1",
+                "4.0.0",
+                "4.0.0a6",
+                "4.0.0a5"
+            ],
+            "required_by": [
+                "nbformat"
+            ],
+            "requires": [
+                {
+                    "package_name": "attrs",
+                    "version_installed": "22.1.0",
+                    "version_required": ">=17.4.0"
+                },
+                {
+                    "package_name": "pyrsistent",
+                    "version_installed": "0.19.2",
+                    "version_required": ">=0.14.0,!=0.17.2,!=0.17.1,!=0.17.0"
+                }
+            ],
+            "summary": "An implementation of JSON Schema validation for Python",
+            "version_installed": "4.17.3",
+            "version_required": "4.17.3"
+        },
+        "jupyter-client": {
+            "level": 3,
+            "package_name": "jupyter-client",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "8.0.0b3",
+                "8.0.0b2",
+                "8.0.0b1",
+                "8.0.0b0",
+                "8.0.0a4",
+                "8.0.0a3",
+                "8.0.0a2",
+                "8.0.0a1",
+                "8.0.0a0",
+                "7.4.8",
+                "7.4.7",
+                "7.4.6",
+                "7.4.5",
+                "7.4.4",
+                "7.4.3",
+                "7.4.2",
+                "7.4.1",
+                "7.4.0",
+                "7.3.5",
+                "7.3.4",
+                "7.3.3",
+                "7.3.2",
+                "7.3.1",
+                "7.3.0",
+                "7.2.2",
+                "7.2.1",
+                "7.2.0",
+                "7.1.2",
+                "7.1.1",
+                "7.1.0",
+                "7.0.6",
+                "7.0.5",
+                "7.0.4",
+                "7.0.3",
+                "7.0.2",
+                "7.0.1",
+                "7.0.0",
+                "7.0.0rc1",
+                "7.0.0rc0",
+                "7.0.0a1"
+            ],
+            "required_by": [
+                "nbclient"
+            ],
+            "requires": [
+                {
+                    "package_name": "entrypoints",
+                    "version_installed": "0.4"
+                },
+                {
+                    "package_name": "jupyter-core",
+                    "requires": [
+                        {
+                            "package_name": "platformdirs",
+                            "version_installed": "2.6.0",
+                            "version_required": ">=2.5"
+                        },
+                        {
+                            "package_name": "traitlets",
+                            "version_installed": "5.7.1",
+                            "version_required": ">=5.3"
+                        }
+                    ],
+                    "version_installed": "5.1.0",
+                    "version_required": ">=4.9.2"
+                },
+                {
+                    "package_name": "nest-asyncio",
+                    "version_installed": "1.5.6",
+                    "version_required": ">=1.5.4"
+                },
+                {
+                    "package_name": "python-dateutil",
+                    "requires": [
+                        {
+                            "package_name": "six",
+                            "version_installed": "1.16.0",
+                            "version_required": ">=1.5"
+                        }
+                    ],
+                    "version_installed": "2.8.2",
+                    "version_required": ">=2.8.2"
+                },
+                {
+                    "package_name": "pyzmq",
+                    "version_installed": "24.0.1",
+                    "version_required": ">=23.0"
+                },
+                {
+                    "package_name": "tornado",
+                    "version_installed": "6.2",
+                    "version_required": ">=6.2"
+                },
+                {
+                    "package_name": "traitlets",
+                    "version_installed": "5.7.1"
+                }
+            ],
+            "summary": "Jupyter protocol implementation and client libraries",
+            "version_installed": "7.4.8",
+            "version_required": "7.4.8"
+        },
+        "jupyter-core": {
+            "level": 2,
+            "package_name": "jupyter-core",
+            "releases_checked_time": 1671320477,
+            "releases_recent": [
+                "5.1.0",
+                "5.0.0",
+                "5.0.0rc2",
+                "5.0.0rc1",
+                "5.0.0rc0",
+                "4.12.0",
+                "4.11.2",
+                "4.11.1",
+                "4.11.0",
+                "4.10.0",
+                "4.9.2",
+                "4.9.1",
+                "4.9.1rc0",
+                "4.9.0",
+                "4.9.0rc0",
+                "4.8.2",
+                "4.8.1",
+                "4.8.0",
+                "4.8.0rc1",
+                "4.8.0rc0",
+                "4.8.0b0",
+                "4.7.1",
+                "4.7.0",
+                "4.7.0rc0",
+                "4.6.3",
+                "4.6.2",
+                "4.6.1",
+                "4.6.0",
+                "4.5.0",
+                "4.4.0",
+                "4.3.0",
+                "4.2.1",
+                "4.2.0",
+                "4.1.1",
+                "4.1.0",
+                "4.0.6",
+                "4.0.5",
+                "4.0.4",
+                "4.0.3",
+                "4.0.2"
+            ],
+            "required_by": [
+                "jupyter-client",
+                "nbclient",
+                "nbconvert",
+                "nbformat"
+            ],
+            "requires": [
+                {
+                    "package_name": "platformdirs",
+                    "version_installed": "2.6.0",
+                    "version_required": ">=2.5"
+                },
+                {
+                    "package_name": "traitlets",
+                    "version_installed": "5.7.1",
+                    "version_required": ">=5.3"
+                }
+            ],
+            "summary": "Jupyter core package. A base package on which Jupyter projects rely",
+            "version_installed": "5.1.0",
+            "version_required": "5.1.0"
+        },
+        "jupyter-server-terminals": {
+            "level": 3,
+            "package_name": "jupyter-server-terminals",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.3.2",
+                "0.3.1",
+                "0.3.0",
+                "0.2.1",
+                "0.2.0",
+                "0.1.0"
+            ],
+            "requires": [
+                {
+                    "package_name": "terminado",
+                    "requires": [
+                        {
+                            "package_name": "ptyprocess",
+                            "version_installed": "0.7.0"
+                        },
+                        {
+                            "package_name": "tornado",
+                            "version_installed": "6.2",
+                            "version_required": ">=6.1.0"
+                        }
+                    ],
+                    "version_installed": "0.17.1",
+                    "version_required": ">=0.8.3"
+                }
+            ],
+            "summary": "A Jupyter Server Extension Providing Terminals",
+            "version_installed": "0.4.2",
+            "version_required": "0.4.2"
+        },
+        "jupyterlab-pygments": {
+            "level": 1,
+            "package_name": "jupyterlab-pygments",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "0.2.2",
+                "0.2.1",
+                "0.2.0",
+                "0.1.2",
+                "0.1.1",
+                "0.1.0"
+            ],
+            "required_by": [
+                "nbconvert"
+            ],
+            "summary": "Pygments theme using JupyterLab CSS variables",
+            "version_installed": "0.2.2",
+            "version_required": "0.2.2"
+        },
+        "kaggle": {
+            "level": 3,
+            "package_name": "kaggle",
+            "releases_checked_time": 1671320772,
+            "releases_recent": [
+                "1.5.12",
+                "1.5.10",
+                "1.5.9",
+                "1.5.8",
+                "1.5.7",
+                "1.5.6",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1.1",
+                "1.5.1",
+                "1.5.0",
+                "1.4.7.1",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.12",
+                "1.3.11.1",
+                "1.3.11",
+                "1.3.10",
+                "1.3.9.1",
+                "1.3.9",
+                "1.3.8",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2.1",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.1",
+                "1.1.0"
+            ],
+            "requires": [
+                {
+                    "package_name": "certifi",
+                    "version_installed": "2022.12.7"
+                },
+                {
+                    "package_name": "python-dateutil",
+                    "requires": [
+                        {
+                            "package_name": "six",
+                            "version_installed": "1.16.0",
+                            "version_required": ">=1.5"
+                        }
+                    ],
+                    "version_installed": "2.8.2"
+                },
+                {
+                    "package_name": "python-slugify",
+                    "requires": [
+                        {
+                            "package_name": "text-unidecode",
+                            "version_installed": "1.3",
+                            "version_required": ">=1.3"
+                        }
+                    ],
+                    "version_installed": "7.0.0"
+                },
+                {
+                    "package_name": "requests",
+                    "requires": [
+                        {
+                            "package_name": "certifi",
+                            "version_installed": "2022.12.7",
+                            "version_required": ">=2017.4.17"
+                        },
+                        {
+                            "package_name": "charset-normalizer",
+                            "version_installed": "2.1.1",
+                            "version_required": ">=2,<3"
+                        },
+                        {
+                            "package_name": "idna",
+                            "version_installed": "3.4",
+                            "version_required": ">=2.5,<4"
+                        },
+                        {
+                            "package_name": "urllib3",
+                            "version_installed": "1.26.13",
+                            "version_required": ">=1.21.1,<1.27"
+                        }
+                    ],
+                    "version_installed": "2.28.1"
+                },
+                {
+                    "package_name": "six",
+                    "version_installed": "1.16.0",
+                    "version_required": ">=1.10"
+                },
+                {
+                    "package_name": "tqdm",
+                    "version_installed": "4.64.1"
+                },
+                {
+                    "package_name": "urllib3",
+                    "version_installed": "1.26.13"
+                }
+            ],
+            "summary": "Kaggle API",
+            "version_installed": "1.5.12",
+            "version_required": "1.5.12"
         },
         "keras": {
             "level": 1,
@@ -1311,6 +3097,67 @@
             "version_installed": "0.39.1",
             "version_required": "0.39.1"
         },
+        "manimpango": {
+            "level": 1,
+            "package_name": "ManimPango",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "0.4.3",
+                "0.4.2",
+                "0.4.1",
+                "0.4.0.post2",
+                "0.4.0.post1",
+                "0.4.0.post0",
+                "0.4.0",
+                "0.3.1",
+                "0.3.0",
+                "0.2.6",
+                "0.2.5.post0",
+                "0.2.5",
+                "0.2.4",
+                "0.2.3",
+                "0.2.2",
+                "0.2.1",
+                "0.2.0",
+                "0.1.7",
+                "0.1.6",
+                "0.1.5",
+                "0.1.4",
+                "0.1.3",
+                "0.1.2",
+                "0.1.1",
+                "0.1.0",
+                "0.0.1"
+            ],
+            "summary": "Bindings for Pango for using with Manim",
+            "version_installed": "0.4.3",
+            "version_required": "0.4.3"
+        },
+        "mapbox-earcut": {
+            "level": 2,
+            "package_name": "mapbox-earcut",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "1.0.1",
+                "1.0.0",
+                "0.12.11",
+                "0.12.10",
+                "0.12.7",
+                "0.12.6",
+                "0.12.5.1",
+                "0.12.5",
+                "0.12.4"
+            ],
+            "requires": [
+                {
+                    "package_name": "numpy",
+                    "version_installed": "1.23.5"
+                }
+            ],
+            "summary": "Python bindings for the mapbox earcut C++ polygon triangulation library",
+            "version_installed": "1.0.1",
+            "version_required": "1.0.1"
+        },
         "markdown": {
             "level": 3,
             "package_name": "Markdown",
@@ -1410,6 +3257,9 @@
                 "0.9.2",
                 "0.9.1",
                 "0.9"
+            ],
+            "required_by": [
+                "nbconvert"
             ],
             "summary": "Safely add untrusted strings to HTML/XML markup",
             "version_installed": "2.1.1",
@@ -1530,6 +3380,32 @@
             "version_installed": "3.6.2",
             "version_required": "3.6.2"
         },
+        "matplotlib-inline": {
+            "level": 2,
+            "package_name": "matplotlib-inline",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "0.1.6",
+                "0.1.5",
+                "0.1.4",
+                "0.1.3",
+                "0.1.2",
+                "0.1.1",
+                "0.1.0"
+            ],
+            "required_by": [
+                "ipython"
+            ],
+            "requires": [
+                {
+                    "package_name": "traitlets",
+                    "version_installed": "5.7.1"
+                }
+            ],
+            "summary": "Inline Matplotlib backend for Jupyter",
+            "version_installed": "0.1.6",
+            "version_required": "0.1.6"
+        },
         "mccabe": {
             "level": 1,
             "package_name": "mccabe",
@@ -1555,6 +3431,114 @@
             "summary": "McCabe checker, plugin for flake8",
             "version_installed": "0.7.0",
             "version_required": "0.7.0"
+        },
+        "mistune": {
+            "level": 1,
+            "package_name": "mistune",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "3.0.0rc4",
+                "3.0.0rc3",
+                "3.0.0rc2",
+                "3.0.0rc1",
+                "3.0.0a3",
+                "3.0.0a2",
+                "3.0.0a1",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "2.0.0rc1",
+                "2.0.0a6",
+                "2.0.0a5",
+                "2.0.0a4",
+                "2.0.0a3",
+                "2.0.0a2",
+                "2.0.0a1",
+                "0.8.4",
+                "0.8.3",
+                "0.8.2",
+                "0.8.1",
+                "0.8",
+                "0.7.4",
+                "0.7.3",
+                "0.7.2",
+                "0.7.1",
+                "0.7",
+                "0.6",
+                "0.5.1",
+                "0.5",
+                "0.4.1",
+                "0.4",
+                "0.3.1",
+                "0.3.0",
+                "0.2.0",
+                "0.1.0"
+            ],
+            "required_by": [
+                "nbconvert"
+            ],
+            "summary": "A sane Markdown parser with useful plugins and renderers",
+            "version_installed": "2.0.4",
+            "version_required": "2.0.4"
+        },
+        "moderngl": {
+            "level": 2,
+            "package_name": "moderngl",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "6.0.dev0",
+                "5.7.4",
+                "5.7.3",
+                "5.7.2",
+                "5.7.1",
+                "5.7.0",
+                "5.6.4",
+                "5.6.3",
+                "5.6.2",
+                "5.6.1",
+                "5.6.0",
+                "5.5.4",
+                "5.5.3",
+                "5.5.2",
+                "5.5.1",
+                "5.5.0",
+                "5.4.2",
+                "5.4.1",
+                "5.4.0",
+                "5.3.0",
+                "5.2.1",
+                "5.2.0",
+                "5.1.0",
+                "5.0.7",
+                "5.0.6",
+                "5.0.5",
+                "5.0.4",
+                "5.0.3",
+                "5.0.2",
+                "5.0.1",
+                "5.0.0",
+                "4.2.2",
+                "4.2.1",
+                "4.2.0",
+                "4.1.12",
+                "4.1.11",
+                "4.1.10",
+                "4.1.9",
+                "4.1.8",
+                "4.1.7"
+            ],
+            "requires": [
+                {
+                    "package_name": "glcontext",
+                    "version_installed": "2.3.7",
+                    "version_required": ">=2.3.6,<3"
+                }
+            ],
+            "summary": "ModernGL: High performance rendering for Python 3",
+            "version_installed": "5.7.4",
+            "version_required": "5.7.4"
         },
         "multidict": {
             "level": 1,
@@ -1606,6 +3590,824 @@
             "summary": "multidict implementation",
             "version_installed": "6.0.3",
             "version_required": "6.0.3"
+        },
+        "multipledispatch": {
+            "level": 2,
+            "package_name": "multipledispatch",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "0.6.0",
+                "0.5.0",
+                "0.4.9",
+                "0.4.8",
+                "0.4.7",
+                "0.4.6",
+                "0.4.5",
+                "0.4.4",
+                "0.4.3",
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.3.0",
+                "0.2.0",
+                "0.1.0"
+            ],
+            "required_by": [
+                "pyrr"
+            ],
+            "requires": [
+                {
+                    "package_name": "six",
+                    "version_installed": "1.16.0"
+                }
+            ],
+            "summary": "Multiple dispatch",
+            "version_installed": "0.6.0",
+            "version_required": "0.6.0"
+        },
+        "nbclient": {
+            "level": 4,
+            "package_name": "nbclient",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "0.7.2",
+                "0.7.1",
+                "0.7.0",
+                "0.6.8",
+                "0.6.7",
+                "0.6.6",
+                "0.6.5",
+                "0.6.4",
+                "0.6.3",
+                "0.6.2",
+                "0.6.1",
+                "0.6.0",
+                "0.5.13",
+                "0.5.12",
+                "0.5.11",
+                "0.5.10",
+                "0.5.9",
+                "0.5.8",
+                "0.5.6",
+                "0.5.5",
+                "0.5.4",
+                "0.5.3",
+                "0.5.2",
+                "0.5.1",
+                "0.5.0",
+                "0.4.3",
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.4.0a1",
+                "0.4.0a0",
+                "0.3.1",
+                "0.3.0",
+                "0.2.0",
+                "0.1.0"
+            ],
+            "required_by": [
+                "nbconvert"
+            ],
+            "requires": [
+                {
+                    "package_name": "jupyter-client",
+                    "requires": [
+                        {
+                            "package_name": "entrypoints",
+                            "version_installed": "0.4"
+                        },
+                        {
+                            "package_name": "jupyter-core",
+                            "requires": [
+                                {
+                                    "package_name": "platformdirs",
+                                    "version_installed": "2.6.0",
+                                    "version_required": ">=2.5"
+                                },
+                                {
+                                    "package_name": "traitlets",
+                                    "version_installed": "5.7.1",
+                                    "version_required": ">=5.3"
+                                }
+                            ],
+                            "version_installed": "5.1.0",
+                            "version_required": ">=4.9.2"
+                        },
+                        {
+                            "package_name": "nest-asyncio",
+                            "version_installed": "1.5.6",
+                            "version_required": ">=1.5.4"
+                        },
+                        {
+                            "package_name": "python-dateutil",
+                            "requires": [
+                                {
+                                    "package_name": "six",
+                                    "version_installed": "1.16.0",
+                                    "version_required": ">=1.5"
+                                }
+                            ],
+                            "version_installed": "2.8.2",
+                            "version_required": ">=2.8.2"
+                        },
+                        {
+                            "package_name": "pyzmq",
+                            "version_installed": "24.0.1",
+                            "version_required": ">=23.0"
+                        },
+                        {
+                            "package_name": "tornado",
+                            "version_installed": "6.2",
+                            "version_required": ">=6.2"
+                        },
+                        {
+                            "package_name": "traitlets",
+                            "version_installed": "5.7.1"
+                        }
+                    ],
+                    "version_installed": "7.4.8",
+                    "version_required": ">=6.1.12"
+                },
+                {
+                    "package_name": "jupyter-core",
+                    "requires": [
+                        {
+                            "package_name": "platformdirs",
+                            "version_installed": "2.6.0",
+                            "version_required": ">=2.5"
+                        },
+                        {
+                            "package_name": "traitlets",
+                            "version_installed": "5.7.1",
+                            "version_required": ">=5.3"
+                        }
+                    ],
+                    "version_installed": "5.1.0",
+                    "version_required": ">=4.12,!=5.0.*"
+                },
+                {
+                    "package_name": "nbformat",
+                    "requires": [
+                        {
+                            "package_name": "fastjsonschema",
+                            "version_installed": "2.16.2"
+                        },
+                        {
+                            "package_name": "jsonschema",
+                            "requires": [
+                                {
+                                    "package_name": "attrs",
+                                    "version_installed": "22.1.0",
+                                    "version_required": ">=17.4.0"
+                                },
+                                {
+                                    "package_name": "pyrsistent",
+                                    "version_installed": "0.19.2",
+                                    "version_required": ">=0.14.0,!=0.17.2,!=0.17.1,!=0.17.0"
+                                }
+                            ],
+                            "version_installed": "4.17.3",
+                            "version_required": ">=2.6"
+                        },
+                        {
+                            "package_name": "jupyter-core",
+                            "requires": [
+                                {
+                                    "package_name": "platformdirs",
+                                    "version_installed": "2.6.0",
+                                    "version_required": ">=2.5"
+                                },
+                                {
+                                    "package_name": "traitlets",
+                                    "version_installed": "5.7.1",
+                                    "version_required": ">=5.3"
+                                }
+                            ],
+                            "version_installed": "5.1.0"
+                        },
+                        {
+                            "package_name": "traitlets",
+                            "version_installed": "5.7.1",
+                            "version_required": ">=5.1"
+                        }
+                    ],
+                    "version_installed": "5.7.0",
+                    "version_required": ">=5.1"
+                },
+                {
+                    "package_name": "traitlets",
+                    "version_installed": "5.7.1",
+                    "version_required": ">=5.3"
+                }
+            ],
+            "summary": "A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor",
+            "version_installed": "0.7.2",
+            "version_required": "0.7.2"
+        },
+        "nbconvert": {
+            "level": 5,
+            "package_name": "nbconvert",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "7.2.6",
+                "7.2.5",
+                "7.2.4",
+                "7.2.3",
+                "7.2.2",
+                "7.2.1",
+                "7.2.0",
+                "7.1.0",
+                "7.0.0",
+                "7.0.0rc3",
+                "7.0.0rc2",
+                "7.0.0rc1",
+                "7.0.0rc0",
+                "6.5.4",
+                "6.5.3",
+                "6.5.2",
+                "6.5.1",
+                "6.5.0",
+                "6.4.5",
+                "6.4.4",
+                "6.4.3",
+                "6.4.2",
+                "6.4.1",
+                "6.4.0",
+                "6.3.0",
+                "6.3.0b0",
+                "6.2.0",
+                "6.2.0rc2",
+                "6.2.0rc1",
+                "6.2.0rc0",
+                "6.1.1b0",
+                "6.1.0",
+                "6.1.0rc0",
+                "6.0.7",
+                "6.0.6",
+                "6.0.5",
+                "6.0.4",
+                "6.0.3",
+                "6.0.2",
+                "6.0.1"
+            ],
+            "requires": [
+                {
+                    "package_name": "beautifulsoup4",
+                    "requires": [
+                        {
+                            "package_name": "soupsieve",
+                            "version_installed": "2.3.2.post1",
+                            "version_required": ">1.2"
+                        }
+                    ],
+                    "version_installed": "4.11.1"
+                },
+                {
+                    "package_name": "bleach",
+                    "requires": [
+                        {
+                            "package_name": "six",
+                            "version_installed": "1.16.0",
+                            "version_required": ">=1.9.0"
+                        },
+                        {
+                            "package_name": "webencodings",
+                            "version_installed": "0.5.1"
+                        }
+                    ],
+                    "version_installed": "5.0.1"
+                },
+                {
+                    "package_name": "defusedxml",
+                    "version_installed": "0.7.1"
+                },
+                {
+                    "package_name": "importlib-metadata",
+                    "requires": [
+                        {
+                            "package_name": "zipp",
+                            "version_installed": "3.11.0",
+                            "version_required": ">=0.5"
+                        }
+                    ],
+                    "version_installed": "5.1.0",
+                    "version_required": ">=3.6"
+                },
+                {
+                    "package_name": "jinja2",
+                    "requires": [
+                        {
+                            "package_name": "MarkupSafe",
+                            "version_installed": "2.1.1",
+                            "version_required": ">=2.0"
+                        }
+                    ],
+                    "version_installed": "3.1.2",
+                    "version_required": ">=3.0"
+                },
+                {
+                    "package_name": "jupyter-core",
+                    "requires": [
+                        {
+                            "package_name": "platformdirs",
+                            "version_installed": "2.6.0",
+                            "version_required": ">=2.5"
+                        },
+                        {
+                            "package_name": "traitlets",
+                            "version_installed": "5.7.1",
+                            "version_required": ">=5.3"
+                        }
+                    ],
+                    "version_installed": "5.1.0",
+                    "version_required": ">=4.7"
+                },
+                {
+                    "package_name": "jupyterlab-pygments",
+                    "version_installed": "0.2.2"
+                },
+                {
+                    "package_name": "markupsafe",
+                    "version_installed": "2.1.1",
+                    "version_required": ">=2.0"
+                },
+                {
+                    "package_name": "mistune",
+                    "version_installed": "2.0.4",
+                    "version_required": ">=2.0.3,<3"
+                },
+                {
+                    "package_name": "nbclient",
+                    "requires": [
+                        {
+                            "package_name": "jupyter-client",
+                            "requires": [
+                                {
+                                    "package_name": "entrypoints",
+                                    "version_installed": "0.4"
+                                },
+                                {
+                                    "package_name": "jupyter-core",
+                                    "requires": [
+                                        {
+                                            "package_name": "platformdirs",
+                                            "version_installed": "2.6.0",
+                                            "version_required": ">=2.5"
+                                        },
+                                        {
+                                            "package_name": "traitlets",
+                                            "version_installed": "5.7.1",
+                                            "version_required": ">=5.3"
+                                        }
+                                    ],
+                                    "version_installed": "5.1.0",
+                                    "version_required": ">=4.9.2"
+                                },
+                                {
+                                    "package_name": "nest-asyncio",
+                                    "version_installed": "1.5.6",
+                                    "version_required": ">=1.5.4"
+                                },
+                                {
+                                    "package_name": "python-dateutil",
+                                    "requires": [
+                                        {
+                                            "package_name": "six",
+                                            "version_installed": "1.16.0",
+                                            "version_required": ">=1.5"
+                                        }
+                                    ],
+                                    "version_installed": "2.8.2",
+                                    "version_required": ">=2.8.2"
+                                },
+                                {
+                                    "package_name": "pyzmq",
+                                    "version_installed": "24.0.1",
+                                    "version_required": ">=23.0"
+                                },
+                                {
+                                    "package_name": "tornado",
+                                    "version_installed": "6.2",
+                                    "version_required": ">=6.2"
+                                },
+                                {
+                                    "package_name": "traitlets",
+                                    "version_installed": "5.7.1"
+                                }
+                            ],
+                            "version_installed": "7.4.8",
+                            "version_required": ">=6.1.12"
+                        },
+                        {
+                            "package_name": "jupyter-core",
+                            "requires": [
+                                {
+                                    "package_name": "platformdirs",
+                                    "version_installed": "2.6.0",
+                                    "version_required": ">=2.5"
+                                },
+                                {
+                                    "package_name": "traitlets",
+                                    "version_installed": "5.7.1",
+                                    "version_required": ">=5.3"
+                                }
+                            ],
+                            "version_installed": "5.1.0",
+                            "version_required": ">=4.12,!=5.0.*"
+                        },
+                        {
+                            "package_name": "nbformat",
+                            "requires": [
+                                {
+                                    "package_name": "fastjsonschema",
+                                    "version_installed": "2.16.2"
+                                },
+                                {
+                                    "package_name": "jsonschema",
+                                    "requires": [
+                                        {
+                                            "package_name": "attrs",
+                                            "version_installed": "22.1.0",
+                                            "version_required": ">=17.4.0"
+                                        },
+                                        {
+                                            "package_name": "pyrsistent",
+                                            "version_installed": "0.19.2",
+                                            "version_required": ">=0.14.0,!=0.17.2,!=0.17.1,!=0.17.0"
+                                        }
+                                    ],
+                                    "version_installed": "4.17.3",
+                                    "version_required": ">=2.6"
+                                },
+                                {
+                                    "package_name": "jupyter-core",
+                                    "requires": [
+                                        {
+                                            "package_name": "platformdirs",
+                                            "version_installed": "2.6.0",
+                                            "version_required": ">=2.5"
+                                        },
+                                        {
+                                            "package_name": "traitlets",
+                                            "version_installed": "5.7.1",
+                                            "version_required": ">=5.3"
+                                        }
+                                    ],
+                                    "version_installed": "5.1.0"
+                                },
+                                {
+                                    "package_name": "traitlets",
+                                    "version_installed": "5.7.1",
+                                    "version_required": ">=5.1"
+                                }
+                            ],
+                            "version_installed": "5.7.0",
+                            "version_required": ">=5.1"
+                        },
+                        {
+                            "package_name": "traitlets",
+                            "version_installed": "5.7.1",
+                            "version_required": ">=5.3"
+                        }
+                    ],
+                    "version_installed": "0.7.2",
+                    "version_required": ">=0.5.0"
+                },
+                {
+                    "package_name": "nbformat",
+                    "requires": [
+                        {
+                            "package_name": "fastjsonschema",
+                            "version_installed": "2.16.2"
+                        },
+                        {
+                            "package_name": "jsonschema",
+                            "requires": [
+                                {
+                                    "package_name": "attrs",
+                                    "version_installed": "22.1.0",
+                                    "version_required": ">=17.4.0"
+                                },
+                                {
+                                    "package_name": "pyrsistent",
+                                    "version_installed": "0.19.2",
+                                    "version_required": ">=0.14.0,!=0.17.2,!=0.17.1,!=0.17.0"
+                                }
+                            ],
+                            "version_installed": "4.17.3",
+                            "version_required": ">=2.6"
+                        },
+                        {
+                            "package_name": "jupyter-core",
+                            "requires": [
+                                {
+                                    "package_name": "platformdirs",
+                                    "version_installed": "2.6.0",
+                                    "version_required": ">=2.5"
+                                },
+                                {
+                                    "package_name": "traitlets",
+                                    "version_installed": "5.7.1",
+                                    "version_required": ">=5.3"
+                                }
+                            ],
+                            "version_installed": "5.1.0"
+                        },
+                        {
+                            "package_name": "traitlets",
+                            "version_installed": "5.7.1",
+                            "version_required": ">=5.1"
+                        }
+                    ],
+                    "version_installed": "5.7.0",
+                    "version_required": ">=5.1"
+                },
+                {
+                    "package_name": "packaging",
+                    "version_installed": "22.0"
+                },
+                {
+                    "package_name": "pandocfilters",
+                    "version_installed": "1.5.0",
+                    "version_required": ">=1.4.1"
+                },
+                {
+                    "package_name": "pygments",
+                    "version_installed": "2.13.0",
+                    "version_required": ">=2.4.1"
+                },
+                {
+                    "package_name": "tinycss2",
+                    "requires": [
+                        {
+                            "package_name": "webencodings",
+                            "version_installed": "0.5.1",
+                            "version_required": ">=0.4"
+                        }
+                    ],
+                    "version_installed": "1.2.1"
+                },
+                {
+                    "package_name": "traitlets",
+                    "version_installed": "5.7.1",
+                    "version_required": ">=5.0"
+                }
+            ],
+            "summary": "Converting Jupyter Notebooks",
+            "version_installed": "7.2.6",
+            "version_required": "7.2.6"
+        },
+        "nbformat": {
+            "level": 3,
+            "package_name": "nbformat",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "5.7.0",
+                "5.6.1",
+                "5.6.0",
+                "5.5.0",
+                "5.5.0b1",
+                "5.4.0",
+                "5.3.0",
+                "5.3.0b0",
+                "5.2.0",
+                "5.1.3",
+                "5.1.2",
+                "5.1.1",
+                "5.1.0",
+                "5.0.9b1",
+                "5.0.9b0",
+                "5.0.8",
+                "5.0.7",
+                "5.0.6",
+                "5.0.5",
+                "5.0.4",
+                "5.0.3",
+                "5.0.2",
+                "4.4.0",
+                "4.3.0",
+                "4.2.0",
+                "4.1.0",
+                "4.0.1",
+                "4.0.0",
+                "0.0.0"
+            ],
+            "required_by": [
+                "nbclient",
+                "nbconvert"
+            ],
+            "requires": [
+                {
+                    "package_name": "fastjsonschema",
+                    "version_installed": "2.16.2"
+                },
+                {
+                    "package_name": "jsonschema",
+                    "requires": [
+                        {
+                            "package_name": "attrs",
+                            "version_installed": "22.1.0",
+                            "version_required": ">=17.4.0"
+                        },
+                        {
+                            "package_name": "pyrsistent",
+                            "version_installed": "0.19.2",
+                            "version_required": ">=0.14.0,!=0.17.2,!=0.17.1,!=0.17.0"
+                        }
+                    ],
+                    "version_installed": "4.17.3",
+                    "version_required": ">=2.6"
+                },
+                {
+                    "package_name": "jupyter-core",
+                    "requires": [
+                        {
+                            "package_name": "platformdirs",
+                            "version_installed": "2.6.0",
+                            "version_required": ">=2.5"
+                        },
+                        {
+                            "package_name": "traitlets",
+                            "version_installed": "5.7.1",
+                            "version_required": ">=5.3"
+                        }
+                    ],
+                    "version_installed": "5.1.0"
+                },
+                {
+                    "package_name": "traitlets",
+                    "version_installed": "5.7.1",
+                    "version_required": ">=5.1"
+                }
+            ],
+            "summary": "The Jupyter Notebook format",
+            "version_installed": "5.7.0",
+            "version_required": "5.7.0"
+        },
+        "nest-asyncio": {
+            "level": 1,
+            "package_name": "nest-asyncio",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "1.5.6",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.0",
+                "1.0.0",
+                "0.9.10",
+                "0.9.9",
+                "0.9.8",
+                "0.9.7",
+                "0.9.6",
+                "0.9.5",
+                "0.9.4",
+                "0.9.3",
+                "0.9.2",
+                "0.9.1",
+                "0.9.0"
+            ],
+            "required_by": [
+                "jupyter-client"
+            ],
+            "summary": "Patch asyncio to allow nested event loops",
+            "version_installed": "1.5.6",
+            "version_required": "1.5.6"
+        },
+        "networkx": {
+            "level": 1,
+            "package_name": "networkx",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "3.0rc1",
+                "3.0b1",
+                "2.8.8",
+                "2.8.7",
+                "2.8.6",
+                "2.8.5",
+                "2.8.4",
+                "2.8.3",
+                "2.8.2",
+                "2.8.1",
+                "2.8.1rc1",
+                "2.8",
+                "2.8rc1",
+                "2.7.1",
+                "2.7",
+                "2.7rc1",
+                "2.6.3",
+                "2.6.2",
+                "2.6.1",
+                "2.6",
+                "2.6rc2",
+                "2.6rc1",
+                "2.5.1",
+                "2.5",
+                "2.5rc1",
+                "2.4",
+                "2.4rc2",
+                "2.4rc1",
+                "2.3",
+                "2.3rc4",
+                "2.3rc3",
+                "2.2",
+                "2.2rc1",
+                "2.1",
+                "2.0",
+                "1.11",
+                "1.11rc2",
+                "1.11rc1",
+                "1.10",
+                "1.10rc2"
+            ],
+            "summary": "Python package for creating and manipulating graphs and networks",
+            "version_installed": "2.8.8",
+            "version_required": "2.8.8"
+        },
+        "nltk": {
+            "level": 2,
+            "package_name": "nltk",
+            "releases_checked_time": 1671320366,
+            "releases_recent": [
+                "3.8",
+                "3.7",
+                "3.6.7",
+                "3.6.6",
+                "3.6.5",
+                "3.6.4",
+                "3.6.3",
+                "3.6.2",
+                "3.6.1",
+                "3.6",
+                "3.5b1",
+                "3.5",
+                "3.4.5",
+                "3.4.4",
+                "3.4.3",
+                "3.4.2",
+                "3.4.1",
+                "3.4",
+                "3.3",
+                "3.2.5",
+                "3.2.4",
+                "3.2.3",
+                "3.2.2",
+                "3.2.1",
+                "3.2",
+                "3.1",
+                "3.0.5",
+                "3.0.4",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0.0b2",
+                "3.0.0b1",
+                "3.0.0",
+                "2.0b9",
+                "2.0b8",
+                "2.0b7",
+                "2.0b6",
+                "2.0b5",
+                "2.0b4"
+            ],
+            "requires": [
+                {
+                    "package_name": "click",
+                    "version_installed": "8.1.3"
+                },
+                {
+                    "package_name": "joblib",
+                    "version_installed": "1.2.0"
+                },
+                {
+                    "package_name": "regex",
+                    "version_installed": "2022.10.31",
+                    "version_required": ">=2021.8.3"
+                },
+                {
+                    "package_name": "tqdm",
+                    "version_installed": "4.64.1"
+                }
+            ],
+            "summary": "Natural Language Toolkit",
+            "version_installed": "3.8",
+            "version_required": "3.8"
         },
         "numba": {
             "level": 2,
@@ -1729,13 +4531,16 @@
             "required_by": [
                 "contourpy",
                 "h5py",
+                "isosurfaces",
                 "keras-preprocessing",
+                "mapbox-earcut",
                 "matplotlib",
                 "numba",
                 "opt-einsum",
                 "pandas",
                 "patsy",
                 "pyod",
+                "pyrr",
                 "scikit-learn",
                 "scipy",
                 "statsmodels",
@@ -1883,6 +4688,7 @@
             ],
             "required_by": [
                 "matplotlib",
+                "nbconvert",
                 "pyperformance",
                 "pytesseract",
                 "statsmodels",
@@ -1979,6 +4785,73 @@
             "version_installed": "1.5.2",
             "version_required": "1.5.2"
         },
+        "pandocfilters": {
+            "level": 1,
+            "package_name": "pandocfilters",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "1.5.0",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.0",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.1",
+                "1.0"
+            ],
+            "required_by": [
+                "nbconvert"
+            ],
+            "summary": "Utilities for writing pandoc filters in python",
+            "version_installed": "1.5.0",
+            "version_required": "1.5.0"
+        },
+        "parso": {
+            "level": 1,
+            "package_name": "parso",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "0.8.3",
+                "0.8.2",
+                "0.8.1",
+                "0.8.0",
+                "0.7.1",
+                "0.7.0",
+                "0.6.2",
+                "0.6.1",
+                "0.6.0",
+                "0.5.2",
+                "0.5.1",
+                "0.5.0",
+                "0.4.0",
+                "0.3.4",
+                "0.3.3",
+                "0.3.2",
+                "0.3.1",
+                "0.3.0",
+                "0.2.1",
+                "0.2.0",
+                "0.1.1",
+                "0.1.0",
+                "0.0.4",
+                "0.0.3",
+                "0.0.2",
+                "0.0.1"
+            ],
+            "required_by": [
+                "jedi"
+            ],
+            "summary": "A Python Parser",
+            "version_installed": "0.8.3",
+            "version_required": "0.8.3"
+        },
         "patsy": {
             "level": 2,
             "package_name": "patsy",
@@ -2012,6 +4885,70 @@
             "summary": "A Python package for describing statistical models and for building design matrices",
             "version_installed": "0.5.3",
             "version_required": "0.5.3"
+        },
+        "pexpect": {
+            "level": 2,
+            "package_name": "pexpect",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "4.8.0",
+                "4.7.0",
+                "4.6.0",
+                "4.5.0",
+                "4.4.0",
+                "4.3.1",
+                "4.3.0",
+                "4.2.1",
+                "4.2.0",
+                "4.1.0",
+                "4.0.1",
+                "4.0",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.4",
+                "2.01",
+                "0.97"
+            ],
+            "required_by": [
+                "ipython"
+            ],
+            "requires": [
+                {
+                    "package_name": "ptyprocess",
+                    "version_installed": "0.7.0",
+                    "version_required": ">=0.5"
+                }
+            ],
+            "summary": "Pexpect allows easy control of interactive console applications",
+            "version_installed": "4.8.0",
+            "version_required": "4.8.0"
+        },
+        "pickleshare": {
+            "level": 1,
+            "package_name": "pickleshare",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "0.7.5",
+                "0.7.4",
+                "0.7.3",
+                "0.7.2",
+                "0.7.1",
+                "0.7",
+                "0.6",
+                "0.5",
+                "0.4",
+                "0.3",
+                "0.2",
+                "0.1"
+            ],
+            "required_by": [
+                "ipython"
+            ],
+            "summary": "Tiny 'shelve'-like database with concurrency support",
+            "version_installed": "0.7.5",
+            "version_required": "0.7.5"
         },
         "pillow": {
             "level": 1,
@@ -2168,6 +5105,144 @@
             "version_installed": "2.3.3",
             "version_required": "2.3.3"
         },
+        "platformdirs": {
+            "level": 1,
+            "package_name": "platformdirs",
+            "releases_checked_time": 1671320477,
+            "releases_recent": [
+                "2.6.0",
+                "2.5.4",
+                "2.5.3",
+                "2.5.2",
+                "2.5.1",
+                "2.5.0",
+                "2.4.1",
+                "2.4.0",
+                "2.3.0",
+                "2.2.0",
+                "2.1.0",
+                "2.0.2",
+                "2.0.0",
+                "2.0.0a3",
+                "2.0.0a2",
+                "2.0.0a1"
+            ],
+            "required_by": [
+                "jupyter-core"
+            ],
+            "summary": "A small Python package for determining appropriate platform-specific dirs, e.g. a \"user data dir\"",
+            "version_installed": "2.6.0",
+            "version_required": "2.6.0"
+        },
+        "prometheus-client": {
+            "level": 1,
+            "package_name": "prometheus-client",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "0.15.0",
+                "0.14.1",
+                "0.14.0",
+                "0.13.1",
+                "0.13.0",
+                "0.12.0",
+                "0.11.0",
+                "0.10.1",
+                "0.10.0",
+                "0.9.0",
+                "0.8.0",
+                "0.7.1",
+                "0.7.0",
+                "0.6.0",
+                "0.5.0",
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.3.1",
+                "0.3.0",
+                "0.2.0",
+                "0.1.1",
+                "0.1.0",
+                "0.0.21",
+                "0.0.20",
+                "0.0.19",
+                "0.0.18",
+                "0.0.17",
+                "0.0.16",
+                "0.0.15",
+                "0.0.14",
+                "0.0.13",
+                "0.0.12",
+                "0.0.11",
+                "0.0.10",
+                "0.0.9",
+                "0.0.8",
+                "0.0.7",
+                "0.0.6",
+                "0.0.5"
+            ],
+            "summary": "Python client for the Prometheus monitoring system",
+            "version_installed": "0.15.0",
+            "version_required": "0.15.0"
+        },
+        "prompt-toolkit": {
+            "level": 2,
+            "package_name": "prompt-toolkit",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "3.0.36",
+                "3.0.35",
+                "3.0.34",
+                "3.0.33",
+                "3.0.32",
+                "3.0.31",
+                "3.0.30",
+                "3.0.29",
+                "3.0.28",
+                "3.0.27",
+                "3.0.26",
+                "3.0.25",
+                "3.0.24",
+                "3.0.23",
+                "3.0.22",
+                "3.0.21",
+                "3.0.20",
+                "3.0.19",
+                "3.0.18",
+                "3.0.17",
+                "3.0.16",
+                "3.0.15",
+                "3.0.14",
+                "3.0.13",
+                "3.0.12",
+                "3.0.11",
+                "3.0.10",
+                "3.0.9",
+                "3.0.8",
+                "3.0.7",
+                "3.0.6",
+                "3.0.5",
+                "3.0.4",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0.0",
+                "2.0.10",
+                "2.0.9",
+                "2.0.8"
+            ],
+            "required_by": [
+                "ipython"
+            ],
+            "requires": [
+                {
+                    "package_name": "wcwidth",
+                    "version_installed": "0.2.5"
+                }
+            ],
+            "summary": "Library for building powerful interactive command lines in Python",
+            "version_installed": "3.0.36",
+            "version_required": "3.0.36"
+        },
         "protobuf": {
             "level": 1,
             "package_name": "protobuf",
@@ -2225,6 +5300,101 @@
             ],
             "version_installed": "3.19.6",
             "version_required": "3.19.6"
+        },
+        "psutil": {
+            "level": 1,
+            "package_name": "psutil",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "5.9.4",
+                "5.9.3",
+                "5.9.2",
+                "5.9.1",
+                "5.9.0",
+                "5.8.0",
+                "5.7.3",
+                "5.7.2",
+                "5.7.1",
+                "5.7.0",
+                "5.6.7",
+                "5.6.6",
+                "5.6.5",
+                "5.6.4",
+                "5.6.3",
+                "5.6.2",
+                "5.6.1",
+                "5.6.0",
+                "5.5.1",
+                "5.5.0",
+                "5.4.8",
+                "5.4.7",
+                "5.4.6",
+                "5.4.5",
+                "5.4.4",
+                "5.4.3",
+                "5.4.2",
+                "5.4.1",
+                "5.4.0",
+                "5.3.1",
+                "5.3.0",
+                "5.2.2",
+                "5.2.1",
+                "5.2.0",
+                "5.1.3",
+                "5.1.2",
+                "5.1.1",
+                "5.1.0",
+                "5.0.1",
+                "5.0.0"
+            ],
+            "summary": "Cross-platform lib for process and system monitoring in Python",
+            "version_installed": "5.9.4",
+            "version_required": "5.9.4"
+        },
+        "ptyprocess": {
+            "level": 1,
+            "package_name": "ptyprocess",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "0.7.0",
+                "0.6.0",
+                "0.5.2",
+                "0.5.1",
+                "0.5",
+                "0.4",
+                "0.3.1",
+                "0.3",
+                "0.2",
+                "0.1"
+            ],
+            "required_by": [
+                "pexpect",
+                "terminado"
+            ],
+            "summary": "Run a subprocess in a pseudo terminal",
+            "version_installed": "0.7.0",
+            "version_required": "0.7.0"
+        },
+        "pure-eval": {
+            "level": 1,
+            "package_name": "pure-eval",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "0.2.2",
+                "0.2.1",
+                "0.2.0",
+                "0.1.1",
+                "0.1.0",
+                "0.0.3",
+                "0.0.2",
+                "0.0.1"
+            ],
+            "required_by": [
+                "stack-data"
+            ],
+            "summary": "Safely evaluate AST nodes without side effects",
+            "version_installed": "0.2.2",
+            "version_required": "0.2.2"
         },
         "pyasn1": {
             "level": 1,
@@ -2321,6 +5491,52 @@
             "version_installed": "0.2.8",
             "version_required": "0.2.8"
         },
+        "pycairo": {
+            "level": 1,
+            "package_name": "pycairo",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "1.23.0",
+                "1.22.0",
+                "1.21.0",
+                "1.20.1",
+                "1.20.0",
+                "1.19.1",
+                "1.19.0",
+                "1.18.2",
+                "1.18.1",
+                "1.18.0",
+                "1.17.1",
+                "1.17.0",
+                "1.16.3",
+                "1.16.2",
+                "1.16.1",
+                "1.16.0",
+                "1.15.6",
+                "1.15.5",
+                "1.15.4",
+                "1.15.3",
+                "1.15.2",
+                "1.15.1",
+                "1.15.0",
+                "1.14.1",
+                "1.14.0",
+                "1.13.4",
+                "1.13.3",
+                "1.13.2",
+                "1.13.1",
+                "1.13.0",
+                "1.12.0",
+                "1.11.1",
+                "1.11.0",
+                "1.10.0",
+                "1.8.10",
+                "1.8.8"
+            ],
+            "summary": "Python interface for cairo",
+            "version_installed": "1.23.0",
+            "version_required": "1.23.0"
+        },
         "pycodestyle": {
             "level": 1,
             "package_name": "pycodestyle",
@@ -2350,6 +5566,90 @@
             "summary": "Python style guide checker",
             "version_installed": "2.10.0",
             "version_required": "2.10.0"
+        },
+        "pycparser": {
+            "level": 1,
+            "package_name": "pycparser",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "2.21",
+                "2.20",
+                "2.19",
+                "2.18",
+                "2.17",
+                "2.16",
+                "2.15",
+                "2.14",
+                "2.13",
+                "2.12",
+                "2.11",
+                "2.10",
+                "2.09.1",
+                "2.09",
+                "2.08",
+                "2.07",
+                "2.06",
+                "2.05",
+                "2.04",
+                "2.03",
+                "2.02"
+            ],
+            "required_by": [
+                "cffi"
+            ],
+            "summary": "C parser in Python",
+            "version_installed": "2.21",
+            "version_required": "2.21"
+        },
+        "pydub": {
+            "level": 1,
+            "package_name": "pydub",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "0.25.1",
+                "0.25.0",
+                "0.24.1",
+                "0.24.0",
+                "0.23.1",
+                "0.23.0",
+                "0.22.1",
+                "0.22.0",
+                "0.21.0",
+                "0.20.0",
+                "0.19.0",
+                "0.18.0",
+                "0.17.0",
+                "0.16.7",
+                "0.16.6",
+                "0.16.5",
+                "0.16.4",
+                "0.16.3",
+                "0.16.2",
+                "0.16.1",
+                "0.16.0",
+                "0.15.0",
+                "0.14.2",
+                "0.14.1",
+                "0.14.0",
+                "0.12.0",
+                "0.11.0",
+                "0.10.0",
+                "0.9.5",
+                "0.9.4",
+                "0.9.3",
+                "0.9.2",
+                "0.9.1",
+                "0.9.0",
+                "0.8.3",
+                "0.8.2",
+                "0.8.1",
+                "0.8.0",
+                "0.7.1",
+                "0.7.0"
+            ],
+            "summary": "Manipulate audio with an simple and easy high level interface",
+            "version_installed": "0.25.1",
+            "version_required": "0.25.1"
         },
         "pyflakes": {
             "level": 1,
@@ -2399,6 +5699,111 @@
             "summary": "passive checker of Python programs",
             "version_installed": "3.0.1",
             "version_required": "3.0.1"
+        },
+        "pyglet": {
+            "level": 1,
+            "package_name": "pyglet",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "2.0.1",
+                "2.0.0",
+                "2.0b3",
+                "2.0b2",
+                "2.0b1",
+                "2.0a4",
+                "2.0a3",
+                "2.0a2",
+                "2.0a1",
+                "2.0.dev23",
+                "2.0.dev22",
+                "2.0.dev21",
+                "2.0.dev20",
+                "2.0.dev19",
+                "2.0.dev18",
+                "2.0.dev17",
+                "2.0.dev16",
+                "2.0.dev15",
+                "2.0.dev14",
+                "2.0.dev13",
+                "2.0.dev12",
+                "2.0.dev11",
+                "2.0.dev10",
+                "2.0.dev9",
+                "2.0.dev8",
+                "2.0.dev7",
+                "2.0.dev6",
+                "2.0.dev5",
+                "2.0.dev4",
+                "2.0.dev3",
+                "2.0.dev2",
+                "2.0.dev1",
+                "2.0.dev0",
+                "1.5.27",
+                "1.5.26",
+                "1.5.24",
+                "1.5.23",
+                "1.5.22",
+                "1.5.21",
+                "1.5.20"
+            ],
+            "summary": "Cross-platform windowing and multimedia library",
+            "version_installed": "2.0.1",
+            "version_required": "2.0.1"
+        },
+        "pygments": {
+            "level": 1,
+            "package_name": "Pygments",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "2.13.0",
+                "2.12.0",
+                "2.11.2",
+                "2.11.1",
+                "2.11.0",
+                "2.10.0",
+                "2.9.0",
+                "2.8.1",
+                "2.8.0",
+                "2.7.4",
+                "2.7.3",
+                "2.7.2",
+                "2.7.1",
+                "2.7.0",
+                "2.6.1",
+                "2.6.0",
+                "2.5.2",
+                "2.5.1",
+                "2.4.2",
+                "2.4.1",
+                "2.4.0",
+                "2.3.1",
+                "2.3.0",
+                "2.2.0",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "2.0rc1",
+                "1.6",
+                "1.6rc1",
+                "1.5",
+                "1.4",
+                "1.3.1",
+                "1.3",
+                "1.2.2",
+                "1.2.1"
+            ],
+            "required_by": [
+                "ipython",
+                "nbconvert",
+                "rich"
+            ],
+            "summary": "Pygments is a syntax highlighting package written in Python",
+            "version_installed": "2.13.0",
+            "version_required": "2.13.0"
         },
         "pyobjc": {
             "level": 6,
@@ -17359,6 +20764,117 @@
             "version_installed": "12.11.0",
             "version_required": "12.11.0"
         },
+        "pyrr": {
+            "level": 3,
+            "package_name": "pyrr",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "0.10.3",
+                "0.10.2",
+                "0.10.0",
+                "0.9.2",
+                "0.9.1",
+                "0.9.0",
+                "0.8.4",
+                "0.8.3",
+                "0.8.2",
+                "0.8.1",
+                "0.8.0",
+                "0.7.2",
+                "0.7.1",
+                "0.7.0",
+                "0.6.7",
+                "0.6.6",
+                "0.6.5",
+                "0.6.4",
+                "0.6.3",
+                "0.6.2",
+                "0.6.1",
+                "0.6.0",
+                "0.5.1",
+                "0.5.0",
+                "0.4.0",
+                "0.3.0",
+                "0.2.3",
+                "0.2.2",
+                "0.2.1",
+                "0.2.0",
+                "0.1.2",
+                "0.1.0"
+            ],
+            "requires": [
+                {
+                    "package_name": "multipledispatch",
+                    "requires": [
+                        {
+                            "package_name": "six",
+                            "version_installed": "1.16.0"
+                        }
+                    ],
+                    "version_installed": "0.6.0"
+                },
+                {
+                    "package_name": "numpy",
+                    "version_installed": "1.23.5"
+                }
+            ],
+            "summary": "3D mathematical functions using NumPy",
+            "version_installed": "0.10.3",
+            "version_required": "0.10.3"
+        },
+        "pyrsistent": {
+            "level": 1,
+            "package_name": "pyrsistent",
+            "releases_checked_time": 1671320477,
+            "releases_recent": [
+                "0.19.2",
+                "0.19.1",
+                "0.18.1",
+                "0.18.0",
+                "0.17.4rc1",
+                "0.17.3",
+                "0.17.2",
+                "0.17.1",
+                "0.17.0",
+                "0.16.1",
+                "0.16.0",
+                "0.15.7",
+                "0.15.6",
+                "0.15.5",
+                "0.15.4",
+                "0.15.3",
+                "0.15.2",
+                "0.15.1",
+                "0.15.0",
+                "0.14.11",
+                "0.14.10",
+                "0.14.9",
+                "0.14.8",
+                "0.14.7",
+                "0.14.6",
+                "0.14.5",
+                "0.14.4",
+                "0.14.3",
+                "0.14.2",
+                "0.14.1",
+                "0.14.0",
+                "0.13.0",
+                "0.12.3",
+                "0.12.2",
+                "0.12.1",
+                "0.12.0",
+                "0.11.13",
+                "0.11.12",
+                "0.11.11",
+                "0.11.10"
+            ],
+            "required_by": [
+                "jsonschema"
+            ],
+            "summary": "Persistent/Functional/Immutable data structures",
+            "version_installed": "0.19.2",
+            "version_required": "0.19.2"
+        },
         "pytesseract": {
             "level": 3,
             "package_name": "pytesseract",
@@ -17447,6 +20963,9 @@
                 "2.8.2"
             ],
             "required_by": [
+                "arrow",
+                "jupyter-client",
+                "kaggle",
                 "matplotlib",
                 "pandas",
                 "trading-calendars"
@@ -17461,6 +20980,100 @@
             "summary": "Extensions to the standard Python datetime module",
             "version_installed": "2.8.2",
             "version_required": "2.8.2"
+        },
+        "python-json-logger": {
+            "level": 1,
+            "package_name": "python-json-logger",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "0.1.11",
+                "0.1.10",
+                "0.1.9",
+                "0.1.8",
+                "0.1.7",
+                "0.1.6",
+                "0.1.5",
+                "0.1.4",
+                "0.1.3",
+                "0.1.2",
+                "0.1.1",
+                "0.1.0",
+                "0.0.7",
+                "0.0.6",
+                "0.0.5",
+                "0.0.4",
+                "0.0.3",
+                "0.0.2",
+                "0.0.1"
+            ],
+            "summary": "A python library adding a json log formatter",
+            "version_installed": "2.0.4",
+            "version_required": "2.0.4"
+        },
+        "python-slugify": {
+            "level": 2,
+            "package_name": "python-slugify",
+            "releases_checked_time": 1671320772,
+            "releases_recent": [
+                "7.0.0",
+                "6.1.2",
+                "6.1.1",
+                "6.1.0",
+                "6.0.1",
+                "6.0.0",
+                "5.0.2",
+                "5.0.1",
+                "5.0.0",
+                "4.0.1",
+                "4.0.0",
+                "3.0.6",
+                "3.0.5",
+                "3.0.4",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0.0",
+                "2.0.1",
+                "2.0.0",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.0.2",
+                "0.1.1",
+                "0.1.0",
+                "0.0.9",
+                "0.0.8",
+                "0.0.7",
+                "0.0.6",
+                "0.0.5",
+                "0.0.4",
+                "0.0.3"
+            ],
+            "required_by": [
+                "kaggle"
+            ],
+            "requires": [
+                {
+                    "package_name": "text-unidecode",
+                    "version_installed": "1.3",
+                    "version_required": ">=1.3"
+                }
+            ],
+            "summary": "A Python slugify application that also handles Unicode",
+            "version_installed": "7.0.0",
+            "version_required": "7.0.0"
         },
         "pytz": {
             "level": 1,
@@ -17519,6 +21132,158 @@
             "version_installed": "2022.6",
             "version_required": "2022.6"
         },
+        "pyyaml": {
+            "level": 1,
+            "package_name": "PyYAML",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "6.0",
+                "6.0b1",
+                "5.4.1",
+                "5.4",
+                "5.4b2",
+                "5.4b1",
+                "5.3.1",
+                "5.3",
+                "5.3b1",
+                "5.2",
+                "5.2b1",
+                "5.1.2",
+                "5.1.1",
+                "5.1",
+                "5.1b7",
+                "5.1b5",
+                "5.1b3",
+                "5.1b1",
+                "4.2b4",
+                "4.2b2",
+                "4.2b1",
+                "3.13",
+                "3.13rc1",
+                "3.13b1",
+                "3.12",
+                "3.11",
+                "3.10",
+                "3.09",
+                "3.08",
+                "3.07",
+                "3.06",
+                "3.05",
+                "3.04",
+                "3.03",
+                "3.02",
+                "3.01"
+            ],
+            "summary": "YAML parser and emitter for Python",
+            "version_installed": "6.0",
+            "version_required": "6.0"
+        },
+        "pyzmq": {
+            "level": 1,
+            "package_name": "pyzmq",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "25.0.0b1",
+                "24.0.1",
+                "24.0.0",
+                "23.2.1",
+                "23.2.0",
+                "23.1.0",
+                "23.0.0",
+                "23.0.0b2",
+                "23.0.0b1",
+                "22.3.0",
+                "22.2.1",
+                "22.2.0",
+                "22.1.0",
+                "22.0.3",
+                "22.0.2",
+                "22.0.1",
+                "22.0.0",
+                "21.0.2",
+                "21.0.1",
+                "21.0.0",
+                "20.0.0",
+                "19.0.2",
+                "19.0.1",
+                "19.0.0",
+                "18.1.1",
+                "18.1.0",
+                "18.0.2",
+                "18.0.1",
+                "18.0.0",
+                "17.1.3",
+                "17.1.2",
+                "17.1.1",
+                "17.1.0",
+                "17.0.0",
+                "17.0.0b4",
+                "17.0.0b3",
+                "17.0.0b2",
+                "17.0.0b1",
+                "16.0.4",
+                "16.0.3"
+            ],
+            "required_by": [
+                "jupyter-client"
+            ],
+            "summary": "Python bindings for 0MQ",
+            "version_installed": "24.0.1",
+            "version_required": "24.0.1"
+        },
+        "regex": {
+            "level": 1,
+            "package_name": "regex",
+            "releases_checked_time": 1671320355,
+            "releases_recent": [
+                "2022.9.13",
+                "2022.9.11",
+                "2022.8.17",
+                "2022.7.9",
+                "2022.7.25",
+                "2022.7.24",
+                "2022.6.2",
+                "2022.4.24",
+                "2022.3.2",
+                "2022.3.15",
+                "2022.10.31",
+                "2022.1.18",
+                "2021.9.30",
+                "2021.9.24",
+                "2021.8.3",
+                "2021.8.28",
+                "2021.8.27",
+                "2021.8.21",
+                "2021.7.6",
+                "2021.7.5",
+                "2021.7.1",
+                "2021.4.4",
+                "2021.3.17",
+                "2021.11.9",
+                "2021.11.2",
+                "2021.11.10",
+                "2021.11.1",
+                "2021.10.8",
+                "2021.10.23",
+                "2021.10.21",
+                "2020.9.27",
+                "2020.7.14",
+                "2020.6.8",
+                "2020.6.7",
+                "2020.5.7",
+                "2020.5.14",
+                "2020.5.13",
+                "2020.4.4",
+                "2020.2.20",
+                "2020.2.18"
+            ],
+            "required_by": [
+                "nltk"
+            ],
+            "summary": "Alternative regular expression module, to replace re",
+            "version_installed": "2022.10.31",
+            "version_required": "2022.10.31"
+        },
         "requests": {
             "level": 2,
             "package_name": "requests",
@@ -17566,6 +21331,7 @@
                 "2.28.1"
             ],
             "required_by": [
+                "kaggle",
                 "requests-oauthlib",
                 "tensorboard"
             ],
@@ -17660,6 +21426,101 @@
             "summary": "OAuthlib authentication support for Requests",
             "version_installed": "1.3.1",
             "version_required": "1.3.1"
+        },
+        "rfc3339-validator": {
+            "level": 2,
+            "package_name": "rfc3339-validator",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "0.1.4",
+                "0.1.3",
+                "0.1.2",
+                "0.1.1",
+                "0.1.0"
+            ],
+            "requires": [
+                {
+                    "package_name": "six",
+                    "version_installed": "1.16.0"
+                }
+            ],
+            "summary": "A pure python RFC3339 validator",
+            "version_installed": "0.1.4",
+            "version_required": "0.1.4"
+        },
+        "rfc3986-validator": {
+            "level": 1,
+            "package_name": "rfc3986-validator",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "0.1.1",
+                "0.1.0"
+            ],
+            "summary": "Pure python rfc3986 validator",
+            "version_installed": "0.1.1",
+            "version_required": "0.1.1"
+        },
+        "rich": {
+            "level": 2,
+            "package_name": "rich",
+            "releases_checked_time": 1671319617,
+            "releases_recent": [
+                "12.6.0",
+                "12.6.0a2",
+                "12.6.0a1",
+                "12.5.1",
+                "12.5.0",
+                "12.4.4",
+                "12.4.3",
+                "12.4.2",
+                "12.4.1",
+                "12.4.0",
+                "12.3.0",
+                "12.2.0",
+                "12.1.0",
+                "12.0.1",
+                "12.0.0",
+                "12.0.0a2",
+                "12.0.0a1",
+                "11.2.0",
+                "11.1.0",
+                "11.0.0",
+                "10.16.2",
+                "10.16.1",
+                "10.16.1a1",
+                "10.16.0",
+                "10.15.3a2",
+                "10.15.3a1",
+                "10.15.2",
+                "10.15.1",
+                "10.15.0",
+                "10.15.0a3",
+                "10.15.0a2",
+                "10.15.0a0",
+                "10.14.0",
+                "10.13.0",
+                "10.12.0",
+                "10.11.0",
+                "10.10.0",
+                "10.9.0",
+                "10.8.0",
+                "10.7.0"
+            ],
+            "requires": [
+                {
+                    "package_name": "commonmark",
+                    "version_installed": "0.9.1",
+                    "version_required": ">=0.9.0,<0.10.0"
+                },
+                {
+                    "package_name": "pygments",
+                    "version_installed": "2.13.0",
+                    "version_required": ">=2.6.0,<3.0.0"
+                }
+            ],
+            "summary": "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal",
+            "version_installed": "12.6.0",
+            "version_required": "12.6.0"
         },
         "rsa": {
             "level": 2,
@@ -17877,7 +21738,7 @@
         "screeninfo": {
             "level": 3,
             "package_name": "screeninfo",
-            "releases_checked_time": 1671317253,
+            "releases_checked_time": 1671318285,
             "releases_recent": [
                 "0.8.1",
                 "0.8",
@@ -17921,6 +21782,33 @@
             "summary": "Fetch location and size of physical screens",
             "version_installed": "0.8.1",
             "version_required": "0.8.1"
+        },
+        "send2trash": {
+            "level": 1,
+            "package_name": "Send2Trash",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "1.8.1b0",
+                "1.8.0",
+                "1.7.1",
+                "1.7.0a1",
+                "1.7.0a0",
+                "1.6.0b1",
+                "1.5.0",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.1",
+                "1.3.0",
+                "1.2.0",
+                "1.1.0",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ],
+            "summary": "Send file to trash natively under Mac OS X, Windows and Linux",
+            "version_installed": "1.8.0",
+            "version_required": "1.8.0"
         },
         "setuptools": {
             "level": 1,
@@ -18017,13 +21905,18 @@
                 "1.9.0"
             ],
             "required_by": [
+                "asttokens",
                 "astunparse",
+                "bleach",
                 "google-auth",
                 "google-pasta",
+                "kaggle",
                 "keras-preprocessing",
+                "multipledispatch",
                 "patsy",
                 "pyod",
                 "python-dateutil",
+                "rfc3339-validator",
                 "tensorflow",
                 "trading-calendars"
             ],
@@ -18070,6 +21963,77 @@
             "version_installed": "0.7.4",
             "version_required": "0.7.4"
         },
+        "sniffio": {
+            "level": 1,
+            "package_name": "sniffio",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "1.3.0",
+                "1.2.0",
+                "1.1.0",
+                "1.0.0",
+                "0.0.0"
+            ],
+            "required_by": [
+                "anyio"
+            ],
+            "summary": "Sniff out which async library your code is running under",
+            "version_installed": "1.3.0",
+            "version_required": "1.3.0"
+        },
+        "soupsieve": {
+            "level": 1,
+            "package_name": "soupsieve",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "2.3.2.post1",
+                "2.3.2",
+                "2.3.1",
+                "2.3",
+                "2.2.1",
+                "2.2",
+                "2.1",
+                "2.0.1",
+                "2.0",
+                "1.9.6",
+                "1.9.5",
+                "1.9.4",
+                "1.9.3",
+                "1.9.2",
+                "1.9.1",
+                "1.9",
+                "1.8",
+                "1.7.3",
+                "1.7.2",
+                "1.7.1",
+                "1.7",
+                "1.6.2",
+                "1.6.1",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3.1",
+                "1.3",
+                "1.2.1",
+                "1.2",
+                "1.1",
+                "1.0.2",
+                "1.0.1",
+                "1.0",
+                "1.0b2",
+                "1.0b1",
+                "0.6",
+                "0.5.3",
+                "0.5.2",
+                "0.5.1"
+            ],
+            "required_by": [
+                "beautifulsoup4"
+            ],
+            "summary": "A modern CSS selector implementation for Beautiful Soup",
+            "version_installed": "2.3.2.post1",
+            "version_required": "2.3.2.post1"
+        },
         "srt": {
             "level": 1,
             "package_name": "srt",
@@ -18108,6 +22072,61 @@
             "summary": "A tiny library for parsing, modifying, and composing SRT files",
             "version_installed": "3.5.2",
             "version_required": "3.5.2"
+        },
+        "stack-data": {
+            "level": 3,
+            "package_name": "stack-data",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "0.6.2",
+                "0.6.1",
+                "0.6.0",
+                "0.5.1",
+                "0.5.0",
+                "0.4.0",
+                "0.3.0",
+                "0.2.0",
+                "0.1.4",
+                "0.1.3",
+                "0.1.2",
+                "0.1.1",
+                "0.1.0",
+                "0.0.7",
+                "0.0.6",
+                "0.0.5",
+                "0.0.4",
+                "0.0.3",
+                "0.0.2",
+                "0.0.1"
+            ],
+            "required_by": [
+                "ipython"
+            ],
+            "requires": [
+                {
+                    "package_name": "asttokens",
+                    "requires": [
+                        {
+                            "package_name": "six",
+                            "version_installed": "1.16.0"
+                        }
+                    ],
+                    "version_installed": "2.2.1",
+                    "version_required": ">=2.1.0"
+                },
+                {
+                    "package_name": "executing",
+                    "version_installed": "1.2.0",
+                    "version_required": ">=1.2.0"
+                },
+                {
+                    "package_name": "pure-eval",
+                    "version_installed": "0.2.2"
+                }
+            ],
+            "summary": "Extract data from python stack frames and tracebacks for informative displays",
+            "version_installed": "0.6.2",
+            "version_required": "0.6.2"
         },
         "statsmodels": {
             "level": 4,
@@ -19118,6 +23137,82 @@
             "version_installed": "2.1.1",
             "version_required": "2.1.1"
         },
+        "terminado": {
+            "level": 2,
+            "package_name": "terminado",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "0.17.1",
+                "0.17.0",
+                "0.16.0",
+                "0.15.0",
+                "0.13.3",
+                "0.13.2",
+                "0.13.1",
+                "0.13.0",
+                "0.12.1",
+                "0.12.0",
+                "0.11.1",
+                "0.11.0",
+                "0.10.1",
+                "0.10.0",
+                "0.9.5",
+                "0.9.4",
+                "0.9.3",
+                "0.9.2",
+                "0.9.1",
+                "0.9.0",
+                "0.8.3",
+                "0.8.2",
+                "0.8.1",
+                "0.8",
+                "0.7",
+                "0.6",
+                "0.5",
+                "0.4",
+                "0.3.3",
+                "0.3.2",
+                "0.3.1",
+                "0.3",
+                "0.2",
+                "0.1"
+            ],
+            "required_by": [
+                "jupyter-server-terminals"
+            ],
+            "requires": [
+                {
+                    "package_name": "ptyprocess",
+                    "version_installed": "0.7.0"
+                },
+                {
+                    "package_name": "tornado",
+                    "version_installed": "6.2",
+                    "version_required": ">=6.1.0"
+                }
+            ],
+            "summary": "Tornado websocket backend for the Xterm.js Javascript terminal emulator library",
+            "version_installed": "0.17.1",
+            "version_required": "0.17.1"
+        },
+        "text-unidecode": {
+            "level": 1,
+            "package_name": "text-unidecode",
+            "releases_checked_time": 1671320772,
+            "releases_recent": [
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0",
+                "0.1"
+            ],
+            "required_by": [
+                "python-slugify"
+            ],
+            "summary": "The most basic Text::Unidecode port",
+            "version_installed": "1.3",
+            "version_required": "1.3"
+        },
         "threadpoolctl": {
             "level": 1,
             "package_name": "threadpoolctl",
@@ -19137,6 +23232,40 @@
             "summary": "threadpoolctl",
             "version_installed": "3.1.0",
             "version_required": "3.1.0"
+        },
+        "tinycss2": {
+            "level": 2,
+            "package_name": "tinycss2",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "1.2.1",
+                "1.2.0",
+                "1.1.1",
+                "1.1.0",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "0.6.1",
+                "0.6.0",
+                "0.5",
+                "0.4",
+                "0.3",
+                "0.2",
+                "0.1"
+            ],
+            "required_by": [
+                "nbconvert"
+            ],
+            "requires": [
+                {
+                    "package_name": "webencodings",
+                    "version_installed": "0.5.1",
+                    "version_required": ">=0.4"
+                }
+            ],
+            "summary": "A tiny CSS parser",
+            "version_installed": "1.2.1",
+            "version_required": "1.2.1"
         },
         "toml": {
             "level": 1,
@@ -19206,6 +23335,60 @@
             "version_installed": "0.12.0",
             "version_required": "0.12.0"
         },
+        "tornado": {
+            "level": 1,
+            "package_name": "tornado",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "6.2",
+                "6.2b2",
+                "6.2b1",
+                "6.1",
+                "6.1b2",
+                "6.1b1",
+                "6.0.4",
+                "6.0.3",
+                "6.0.2",
+                "6.0.1",
+                "6.0",
+                "6.0b1",
+                "6.0a1",
+                "5.1.1",
+                "5.1",
+                "5.1b1",
+                "5.0.2",
+                "5.0.1",
+                "5.0",
+                "5.0b1",
+                "5.0a1",
+                "4.5.3",
+                "4.5.2",
+                "4.5.1",
+                "4.5",
+                "4.5b2",
+                "4.5b1",
+                "4.4.3",
+                "4.4.2",
+                "4.4.1",
+                "4.4",
+                "4.4b1",
+                "4.3",
+                "4.3b2",
+                "4.3b1",
+                "4.2.1",
+                "4.2",
+                "4.2b1",
+                "4.1",
+                "4.1b2"
+            ],
+            "required_by": [
+                "jupyter-client",
+                "terminado"
+            ],
+            "summary": "Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed",
+            "version_installed": "6.2",
+            "version_required": "6.2"
+        },
         "tqdm": {
             "level": 1,
             "package_name": "tqdm",
@@ -19251,6 +23434,10 @@
                 "4.45.0",
                 "4.44.1",
                 "4.44.0"
+            ],
+            "required_by": [
+                "kaggle",
+                "nltk"
             ],
             "summary": "Fast, Extensible Progress Meter",
             "version_installed": "4.64.1",
@@ -19356,6 +23543,65 @@
             "version_installed": "2.1.1",
             "version_required": "2.1.1"
         },
+        "traitlets": {
+            "level": 1,
+            "package_name": "traitlets",
+            "releases_checked_time": 1671320477,
+            "releases_recent": [
+                "5.7.1",
+                "5.7.0",
+                "5.6.0",
+                "5.5.0",
+                "5.4.0",
+                "5.3.0",
+                "5.3.0.dev0",
+                "5.2.2.post1",
+                "5.2.2",
+                "5.2.1.post0",
+                "5.2.1",
+                "5.2.0",
+                "5.1.1",
+                "5.1.0",
+                "5.0.5",
+                "5.0.4",
+                "5.0.3",
+                "5.0.2",
+                "5.0.1",
+                "5.0.0",
+                "5.0.0rc2",
+                "5.0.0b1",
+                "4.3.3",
+                "4.3.3.dev0",
+                "4.3.2",
+                "4.3.1",
+                "4.3.0",
+                "4.3.0b1",
+                "4.2.2",
+                "4.2.1",
+                "4.2.0",
+                "4.1.0",
+                "4.1.0.b1",
+                "4.1.0b1",
+                "4.0.0",
+                "4.0.0.dev",
+                "4.0.0.dev0",
+                "0.0.2",
+                "0.0.1"
+            ],
+            "required_by": [
+                "comm",
+                "ipython",
+                "jupyter-client",
+                "jupyter-core",
+                "matplotlib-inline",
+                "nbclient",
+                "nbconvert",
+                "nbformat"
+            ],
+            "summary": "Traitlets Python configuration system",
+            "version_installed": "5.7.1",
+            "version_required": "5.7.1"
+        },
         "typing-extensions": {
             "level": 1,
             "package_name": "typing-extensions",
@@ -19387,6 +23633,20 @@
             "summary": "Backported and Experimental Type Hints for Python 3.7+",
             "version_installed": "4.4.0",
             "version_required": "4.4.0"
+        },
+        "uri-template": {
+            "level": 1,
+            "package_name": "uri-template",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "1.2.0",
+                "1.1.0",
+                "1.0.1",
+                "1.0.0"
+            ],
+            "summary": "RFC 6570 URI Template Processor",
+            "version_installed": "1.2.0",
+            "version_required": "1.2.0"
         },
         "urllib3": {
             "level": 1,
@@ -19438,6 +23698,7 @@
                 "2.0.0a2"
             ],
             "required_by": [
+                "kaggle",
                 "requests"
             ],
             "summary": "HTTP library with thread-safe connection pooling, file post, and more",
@@ -19493,6 +23754,133 @@
             "summary": "Filesystem events monitoring",
             "version_installed": "2.2.0",
             "version_required": "2.2.0"
+        },
+        "wcwidth": {
+            "level": 1,
+            "package_name": "wcwidth",
+            "releases_checked_time": 1671321055,
+            "releases_recent": [
+                "0.2.5",
+                "0.2.4",
+                "0.2.3",
+                "0.2.2",
+                "0.2.1",
+                "0.2.0",
+                "0.1.9",
+                "0.1.8",
+                "0.1.7",
+                "0.1.6",
+                "0.1.5",
+                "0.1.4",
+                "0.1.3",
+                "0.1.2",
+                "0.1.1",
+                "0.1.0",
+                "0.0.1"
+            ],
+            "required_by": [
+                "prompt-toolkit"
+            ],
+            "summary": "Measures the displayed width of unicode strings in a terminal",
+            "version_installed": "0.2.5",
+            "version_required": "0.2.5"
+        },
+        "webcolors": {
+            "level": 1,
+            "package_name": "webcolors",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "1.12",
+                "1.11.1",
+                "1.11",
+                "1.10",
+                "1.9.1",
+                "1.9",
+                "1.8.1",
+                "1.8",
+                "1.7",
+                "1.5",
+                "1.4",
+                "1.3.1",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0",
+                "0.1"
+            ],
+            "summary": "A library for working with color names and color values formats defined by HTML and CSS",
+            "version_installed": "1.12",
+            "version_required": "1.12"
+        },
+        "webencodings": {
+            "level": 1,
+            "package_name": "webencodings",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "0.5.1",
+                "0.5",
+                "0.4",
+                "0.3",
+                "0.2",
+                "0.1"
+            ],
+            "required_by": [
+                "bleach",
+                "tinycss2"
+            ],
+            "summary": "Character encoding aliases for legacy web content",
+            "version_installed": "0.5.1",
+            "version_required": "0.5.1"
+        },
+        "websocket-client": {
+            "level": 1,
+            "package_name": "websocket-client",
+            "releases_checked_time": 1671321405,
+            "releases_recent": [
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.1",
+                "1.1.0",
+                "1.0.1",
+                "1.0.0",
+                "0.59.0",
+                "0.58.0",
+                "0.57.0",
+                "0.56.0",
+                "0.55.0",
+                "0.54.0",
+                "0.53.0",
+                "0.52.0",
+                "0.51.0",
+                "0.50.0",
+                "0.49.0",
+                "0.48.0",
+                "0.47.0",
+                "0.46.0",
+                "0.45.0",
+                "0.44.0",
+                "0.43.0",
+                "0.42.1",
+                "0.42.0",
+                "0.40.0",
+                "0.39.0",
+                "0.37.0",
+                "0.36.0",
+                "0.35.0",
+                "0.34.0"
+            ],
+            "summary": "WebSocket client for Python with low level API options",
+            "version_installed": "1.4.2",
+            "version_required": "1.4.2"
         },
         "werkzeug": {
             "level": 2,

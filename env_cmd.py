@@ -26,13 +26,14 @@ class PackageStack:
         return '{}=={}'.format(tup[0], tup[1])
 
     def __repr__(self) -> str:
-        if self.len() < 1:
+        ll = self.len()
+        if ll < 1:
             return 'empty'
         s = ''
         for tup in self.stack:
             add = self.format_full(tup)
             if not s:
-                s = add
+                s = (str(ll) + ' ' + add)
             else:
                 s += (' ' + add)
         return s
@@ -45,12 +46,14 @@ class PackageStack:
                 if opn != package_name:
                     continue
                 if ov == version:
-                    print('stack: ignore identical: ', package_name, version)
+                    # print('stack: ignore identical: ', package_name, version)
                     return True
                 if not ov and version:
-                    print('stack: version update: ', package_name, version)
+                    # print('stack: version update: ', package_name, version)
                     self.stack[i] = (package_name, version)
                     return True
+                # fi
+                # what to do ??
                 print('stack: ', package_name, ov, version)
                 break
             # for
@@ -300,6 +303,12 @@ class EnvCmd:
         conflicts = PipCmd.get_conflicts(tree, verbose=True)
         cycles = PipCmd.get_cycles(tree, verbose=True)
         if len(conflicts) > 0:
+            # could also indicate a broken environment
+            print('pip check, because we had cycles')
+            ok = PipCmd.pip_check()
+            if not ok:
+                print('Fix issues first !!')
+                return False
             if not force:
                 return False
             # continue despite conflicts !!!
@@ -378,40 +387,41 @@ class EnvCmd:
         first = True
         ok = True
         while True:
-            print('Stack: {}'.format(stack))
+            print('{}: stack: {}'.format(env_name, stack))
             if stack.len() < 1:
                 break
             if first:
                 pwvs = packages_with_versions
+                current_package_name = ''
             else:
-                pwvs = [stack.pop_full()]
-            print('attempt dry-run: ', pwvs)
+                popped_full = stack.pop_full()
+                pwvs = [popped_full]
+                current_package_name = PackageStack.get_package_name(popped_full)
+            print('{}: pip install dry-run: {}'.format(env_name, pwvs))
             pr = PipCmd.pip_install_commands(packages_with_versions=pwvs, dry_run=True)
             pip_error = pr.get_return_code()
             if pip_error == PipReturn.ERROR:
                 print('pip error')
+                ok = False
+                break
             would_install = pr.get_would_install()
-            # print('Would install: ', len(would_install), would_install)
             if len(would_install) == 0:
-                print('Nothing to do...')
+                print('{}: nothing to do...'.format(env_name))
                 break
             elif len(would_install) == 1:
-                print('pip install should work: ', would_install)
-                # keys = would_install.keys()
                 package_name = next(iter(would_install))
                 version = would_install[package_name]
                 if not pip_checked:
-                    # do this on demand, only if needed
-                    print('pip check: {}'.format(env_name))
+                    print('{}: pip check'.format(env_name))
                     ok = PipCmd.pip_check()
                     if not ok:
                         break
                     pip_checked = True
                 # fi
+                print('{}: pip install should work: {} {}'.format(env_name, package_name, version))
                 pr = PipCmd.pip_install_roll_back_single(package_name=package_name, version=version)
                 if pr.get_return_code() == PipReturn.NO_ACTION:
-                    # nothing happened - we could not install - TODO: lock it or take note
-                    print('install: {}: {} {} .. nothing installed, nothing uninstalled'
+                    print('{}: {} {} .. nothing installed, nothing uninstalled'
                           .format(env_name, package_name, version))
                 else:
                     if pr.get_return_code() == PipReturn.OK:
@@ -420,8 +430,7 @@ class EnvCmd:
                         for pack in installed.keys():
                             vers = installed[pack]
                             updated_all[pack] = vers
-                            print('install: {}: installed: {}=={}'
-                                  .format(env_name, pack, vers))
+                            print('{}: installed: {}=={}'.format(env_name, pack, vers))
                         # for
                     #
                 #
@@ -434,20 +443,13 @@ class EnvCmd:
                     stack.pop_discard()
             else:
                 # > 1
-                # need to split into: self_package_name, self_version, and REST
-                print('stack extend', would_install)
-                for t in range(2):
-                    for k in would_install.keys():
-                        if t == 0:
-                            if not stack.has_package(k):
-                                continue
-                        else:
-                            if stack.has_package(k):
-                                continue
-                        # fi
-                        stack.append(k, would_install[k])
+                print('{}: stack extend raw: {}'.format(env_name, would_install))
+                for k in would_install.keys():
+                    if k == current_package_name:
+                        continue
+                    print('{}: stack append: {} {}'.format(env_name, k, would_install[k]))
+                    stack.append(k, would_install[k])
                 # for
-                print('extended: {}'.format(stack))
             # fi
             first = False
         # while
@@ -456,15 +458,15 @@ class EnvCmd:
         if len(items) > 0:
             print()
             for pack, vers in items:
-                print('Updated: {}=={}'.format(pack, vers))
+                print('{}: updated: {}=={}'.format(env_name, pack, vers))
             print()
             if not db.dump(json_path=db_name):
                 ok = False
             if not EnvCmd.env_import(env_name=env_name, force=False):
                 ok = False
         else:
-            print('No updates')
-
+            print('{}: NO updates'.format(env_name))
+        # fi
         ok = ok if db.dump(json_path=db_name) else False
         db.close()
         return ok
