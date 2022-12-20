@@ -1513,6 +1513,97 @@
             "version_installed": "1.2.1",
             "version_required": "1.2.1"
         },
+        "pyqt5": {
+            "level": 2,
+            "package_name": "PyQt5",
+            "releases_checked_time": 1671560082,
+            "releases_recent": [
+                "5.15.7",
+                "5.15.6",
+                "5.15.5",
+                "5.15.4",
+                "5.15.3",
+                "5.15.2",
+                "5.15.1",
+                "5.15.0",
+                "5.14.2",
+                "5.14.1",
+                "5.14.0",
+                "5.13.2",
+                "5.13.1",
+                "5.13.0",
+                "5.12.3",
+                "5.12.2",
+                "5.12.1",
+                "5.12",
+                "5.11.3",
+                "5.11.2",
+                "5.10.1",
+                "5.10",
+                "5.9.2",
+                "5.9.1",
+                "5.9",
+                "5.8.2",
+                "5.8.1",
+                "5.8",
+                "5.7.1",
+                "5.7",
+                "5.6"
+            ],
+            "requires": [
+                {
+                    "package_name": "PyQt5-Qt5",
+                    "version_installed": "5.15.2",
+                    "version_required": ">=5.15.0"
+                },
+                {
+                    "package_name": "PyQt5-sip",
+                    "version_installed": "12.11.0",
+                    "version_required": ">=12.11,<13"
+                }
+            ],
+            "summary": "Python bindings for the Qt cross platform application toolkit",
+            "version_installed": "5.15.7",
+            "version_required": "5.15.7"
+        },
+        "pyqt5-qt5": {
+            "level": 1,
+            "package_name": "PyQt5-Qt5",
+            "releases_checked_time": 1671560082,
+            "releases_recent": [
+                "5.15.2"
+            ],
+            "summary": "The subset of a Qt installation needed by PyQt5",
+            "version_installed": "5.15.2",
+            "version_required": "5.15.2"
+        },
+        "pyqt5-sip": {
+            "level": 1,
+            "package_name": "PyQt5-sip",
+            "releases_checked_time": 1671560082,
+            "releases_recent": [
+                "12.11.0",
+                "12.10.1",
+                "12.9.1",
+                "12.9.0",
+                "12.8.1",
+                "12.8.0",
+                "12.7.2",
+                "12.7.1",
+                "12.7.0",
+                "4.19.19",
+                "4.19.18",
+                "4.19.17",
+                "4.19.15",
+                "4.19.14",
+                "4.19.13",
+                "4.19.12",
+                "4.19.11"
+            ],
+            "summary": "The sip module support for PyQt5",
+            "version_installed": "12.11.0",
+            "version_required": "12.11.0"
+        },
         "python-barcode": {
             "level": 1,
             "package_name": "python-barcode",
