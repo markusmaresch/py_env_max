@@ -6,7 +6,7 @@
         "certifi": {
             "level": 1,
             "package_name": "certifi",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "2022.12.7",
                 "2022.9.24",
@@ -59,7 +59,7 @@
         "charset-normalizer": {
             "level": 1,
             "package_name": "charset-normalizer",
-            "releases_checked_time": 1671559064,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "3.0.1",
                 "3.0.0",
@@ -109,10 +109,65 @@
             "version_installed": "2.1.1",
             "version_required": "2.1.1"
         },
+        "click": {
+            "level": 1,
+            "package_name": "click",
+            "releases_checked_time": 1673045313,
+            "releases_recent": [
+                "8.1.3",
+                "8.1.2",
+                "8.1.1",
+                "8.1.0",
+                "8.0.4",
+                "8.0.3",
+                "8.0.2",
+                "8.0.1",
+                "8.0.0",
+                "8.0.0rc1",
+                "8.0.0a1",
+                "7.1.2",
+                "7.1.1",
+                "7.1",
+                "7.0",
+                "6.7",
+                "6.7.dev0",
+                "6.6",
+                "6.5",
+                "6.4",
+                "6.3",
+                "6.2",
+                "6.1",
+                "6.0",
+                "5.1",
+                "5.0",
+                "4.1",
+                "4.0",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.1"
+            ],
+            "required_by": [
+                "pyqt5-plugins",
+                "pyqt5-tools",
+                "qt5-tools"
+            ],
+            "summary": "Composable command line interface toolkit",
+            "version_installed": "7.1.2",
+            "version_required": "7.1.2"
+        },
         "colorama": {
             "level": 1,
             "package_name": "colorama",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "0.4.6",
                 "0.4.6rc1",
@@ -165,7 +220,7 @@
         "contourpy": {
             "level": 2,
             "package_name": "contourpy",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "1.0.6",
                 "1.0.5",
@@ -197,7 +252,7 @@
         "cycler": {
             "level": 1,
             "package_name": "cycler",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "0.11.0",
                 "0.10.0",
@@ -213,7 +268,7 @@
         "docopt": {
             "level": 1,
             "package_name": "docopt",
-            "releases_checked_time": 1671559064,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "0.6.2",
                 "0.6.1",
@@ -237,7 +292,7 @@
         "flake8": {
             "level": 2,
             "package_name": "flake8",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "6.0.0",
                 "5.0.4",
@@ -304,7 +359,7 @@
         "fonttools": {
             "level": 1,
             "package_name": "fonttools",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "4.38.0",
                 "4.37.4",
@@ -357,7 +412,7 @@
         "idna": {
             "level": 1,
             "package_name": "idna",
-            "releases_checked_time": 1671559064,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "3.4",
                 "3.3",
@@ -397,7 +452,7 @@
         "imutils": {
             "level": 1,
             "package_name": "imutils",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "0.5.4",
                 "0.5.3",
@@ -436,7 +491,7 @@
         "joblib": {
             "level": 1,
             "package_name": "joblib",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "1.2.0",
                 "1.1.1",
@@ -488,7 +543,7 @@
         "kiwisolver": {
             "level": 1,
             "package_name": "kiwisolver",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "1.4.4",
                 "1.4.3",
@@ -517,7 +572,7 @@
         "llvmlite": {
             "level": 1,
             "package_name": "llvmlite",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "0.39.1",
                 "0.39.0",
@@ -570,7 +625,7 @@
         "matplotlib": {
             "level": 3,
             "package_name": "matplotlib",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "3.6.2",
                 "3.6.1",
@@ -681,7 +736,7 @@
         "mccabe": {
             "level": 1,
             "package_name": "mccabe",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "0.7.0",
                 "0.6.1",
@@ -707,7 +762,7 @@
         "numba": {
             "level": 2,
             "package_name": "numba",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "0.56.4",
                 "0.56.3",
@@ -773,7 +828,7 @@
         "numpy": {
             "level": 1,
             "package_name": "numpy",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "1.18.0",
                 "1.18.1",
@@ -821,7 +876,8 @@
                 "1.23.5",
                 "1.24.0",
                 "1.24.0rc1",
-                "1.24.0rc2"
+                "1.24.0rc2",
+                "1.24.1"
             ],
             "required_by": [
                 "contourpy",
@@ -841,48 +897,49 @@
         "opencv-contrib-python": {
             "level": 2,
             "package_name": "opencv-contrib-python",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
-                "4.6.0.66",
-                "4.5.5.64",
-                "4.5.5.62",
-                "4.5.4.60",
-                "4.5.4.58",
-                "4.5.3.56",
-                "4.5.2.54",
-                "4.5.2.52",
-                "4.5.1.48",
-                "4.4.0.46",
-                "4.4.0.44",
-                "4.4.0.42",
-                "4.4.0.40",
-                "4.3.0.38",
-                "4.3.0.36",
-                "4.2.0.34",
-                "4.2.0.32",
-                "4.1.2.30",
-                "4.1.1.26",
-                "4.1.0.25",
-                "4.0.1.24",
-                "4.0.1.23",
-                "4.0.0.21",
-                "3.4.18.65",
-                "3.4.17.63",
-                "3.4.17.61",
-                "3.4.16.59",
-                "3.4.16.57",
-                "3.4.15.55",
-                "3.4.14.53",
-                "3.4.14.51",
-                "3.4.13.47",
-                "3.4.11.45",
-                "3.4.11.43",
-                "3.4.11.41",
-                "3.4.11.39",
-                "3.4.10.37",
                 "3.4.10.35",
+                "3.4.10.37",
+                "3.4.11.39",
+                "3.4.11.41",
+                "3.4.11.43",
+                "3.4.11.45",
+                "3.4.13.47",
+                "3.4.14.51",
+                "3.4.14.53",
+                "3.4.15.55",
+                "3.4.16.57",
+                "3.4.16.59",
+                "3.4.17.61",
+                "3.4.17.63",
+                "3.4.18.65",
+                "3.4.9.31",
                 "3.4.9.33",
-                "3.4.9.31"
+                "4.0.0.21",
+                "4.0.1.23",
+                "4.0.1.24",
+                "4.1.0.25",
+                "4.1.1.26",
+                "4.1.2.30",
+                "4.2.0.32",
+                "4.2.0.34",
+                "4.3.0.36",
+                "4.3.0.38",
+                "4.4.0.40",
+                "4.4.0.42",
+                "4.4.0.44",
+                "4.4.0.46",
+                "4.5.1.48",
+                "4.5.2.52",
+                "4.5.2.54",
+                "4.5.3.56",
+                "4.5.4.58",
+                "4.5.4.60",
+                "4.5.5.62",
+                "4.5.5.64",
+                "4.6.0.66",
+                "4.7.0.68"
             ],
             "requires": [
                 {
@@ -908,48 +965,49 @@
         "opencv-python": {
             "level": 2,
             "package_name": "opencv-python",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
-                "4.6.0.66",
-                "4.5.5.64",
-                "4.5.5.62",
-                "4.5.4.60",
-                "4.5.4.58",
-                "4.5.3.56",
-                "4.5.2.54",
-                "4.5.2.52",
-                "4.5.1.48",
-                "4.4.0.46",
-                "4.4.0.44",
-                "4.4.0.42",
-                "4.4.0.40",
-                "4.3.0.38",
-                "4.3.0.36",
-                "4.2.0.34",
-                "4.2.0.32",
-                "4.1.2.30",
-                "4.1.1.26",
-                "4.1.0.25",
-                "4.0.1.24",
-                "4.0.1.23",
-                "4.0.0.21",
-                "3.4.18.65",
-                "3.4.17.63",
-                "3.4.17.61",
-                "3.4.16.59",
-                "3.4.16.57",
-                "3.4.15.55",
-                "3.4.14.53",
-                "3.4.14.51",
-                "3.4.13.47",
-                "3.4.11.45",
-                "3.4.11.43",
-                "3.4.11.41",
-                "3.4.11.39",
-                "3.4.10.37",
                 "3.4.10.35",
+                "3.4.10.37",
+                "3.4.11.39",
+                "3.4.11.41",
+                "3.4.11.43",
+                "3.4.11.45",
+                "3.4.13.47",
+                "3.4.14.51",
+                "3.4.14.53",
+                "3.4.15.55",
+                "3.4.16.57",
+                "3.4.16.59",
+                "3.4.17.61",
+                "3.4.17.63",
+                "3.4.18.65",
+                "3.4.9.31",
                 "3.4.9.33",
-                "3.4.9.31"
+                "4.0.0.21",
+                "4.0.1.23",
+                "4.0.1.24",
+                "4.1.0.25",
+                "4.1.1.26",
+                "4.1.2.30",
+                "4.2.0.32",
+                "4.2.0.34",
+                "4.3.0.36",
+                "4.3.0.38",
+                "4.4.0.40",
+                "4.4.0.42",
+                "4.4.0.44",
+                "4.4.0.46",
+                "4.5.1.48",
+                "4.5.2.52",
+                "4.5.2.54",
+                "4.5.3.56",
+                "4.5.4.58",
+                "4.5.4.60",
+                "4.5.5.62",
+                "4.5.5.64",
+                "4.6.0.66",
+                "4.7.0.68"
             ],
             "requires": [
                 {
@@ -975,48 +1033,49 @@
         "opencv-python-headless": {
             "level": 2,
             "package_name": "opencv-python-headless",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
-                "4.6.0.66",
-                "4.5.5.64",
-                "4.5.5.62",
-                "4.5.4.60",
-                "4.5.4.58",
-                "4.5.3.56",
-                "4.5.2.54",
-                "4.5.2.52",
-                "4.5.1.48",
-                "4.4.0.46",
-                "4.4.0.44",
-                "4.4.0.42",
-                "4.4.0.40",
-                "4.3.0.38",
-                "4.3.0.36",
-                "4.2.0.34",
-                "4.2.0.32",
-                "4.1.2.30",
-                "4.1.1.26",
-                "4.1.0.25",
-                "4.0.1.24",
-                "4.0.1.23",
-                "4.0.0.21",
-                "3.4.18.65",
-                "3.4.17.63",
-                "3.4.17.61",
-                "3.4.16.59",
-                "3.4.16.57",
-                "3.4.15.55",
-                "3.4.14.53",
-                "3.4.14.51",
-                "3.4.13.47",
-                "3.4.11.45",
-                "3.4.11.43",
-                "3.4.11.41",
-                "3.4.11.39",
-                "3.4.10.37",
                 "3.4.10.35",
+                "3.4.10.37",
+                "3.4.11.39",
+                "3.4.11.41",
+                "3.4.11.43",
+                "3.4.11.45",
+                "3.4.13.47",
+                "3.4.14.51",
+                "3.4.14.53",
+                "3.4.15.55",
+                "3.4.16.57",
+                "3.4.16.59",
+                "3.4.17.61",
+                "3.4.17.63",
+                "3.4.18.65",
+                "3.4.9.31",
                 "3.4.9.33",
-                "3.4.9.31"
+                "4.0.0.21",
+                "4.0.1.23",
+                "4.0.1.24",
+                "4.1.0.25",
+                "4.1.1.26",
+                "4.1.2.30",
+                "4.2.0.32",
+                "4.2.0.34",
+                "4.3.0.36",
+                "4.3.0.38",
+                "4.4.0.40",
+                "4.4.0.42",
+                "4.4.0.44",
+                "4.4.0.46",
+                "4.5.1.48",
+                "4.5.2.52",
+                "4.5.2.54",
+                "4.5.3.56",
+                "4.5.4.58",
+                "4.5.4.60",
+                "4.5.5.62",
+                "4.5.5.64",
+                "4.6.0.66",
+                "4.7.0.68"
             ],
             "requires": [
                 {
@@ -1042,7 +1101,7 @@
         "packaging": {
             "level": 2,
             "package_name": "packaging",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "22.0",
                 "21.3",
@@ -1102,7 +1161,7 @@
         "pandas": {
             "level": 3,
             "package_name": "pandas",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "1.5.2",
                 "1.5.1",
@@ -1176,48 +1235,49 @@
         "pillow": {
             "level": 1,
             "package_name": "Pillow",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
-                "9.3.0",
-                "9.2.0",
-                "9.1.1",
-                "9.1.0",
-                "9.0.1",
-                "9.0.0",
-                "8.4.0",
-                "8.3.2",
-                "8.3.1",
-                "8.3.0",
-                "8.2.0",
-                "8.1.2",
-                "8.1.1",
-                "8.1.0",
-                "8.0.1",
-                "8.0.0",
-                "7.2.0",
-                "7.1.2",
-                "7.1.1",
-                "7.1.0",
-                "7.0.0",
-                "6.2.2",
-                "6.2.1",
-                "6.2.0",
-                "6.1.0",
-                "6.0.0",
-                "5.4.1",
+                "3.4.2",
+                "4.0.0",
+                "4.1.0",
+                "4.1.1",
+                "4.2.0",
+                "4.2.1",
+                "4.3.0",
+                "5.0.0",
+                "5.1.0",
+                "5.2.0",
+                "5.3.0",
                 "5.4.0",
                 "5.4.0.dev0",
-                "5.3.0",
-                "5.2.0",
-                "5.1.0",
-                "5.0.0",
-                "4.3.0",
-                "4.2.1",
-                "4.2.0",
-                "4.1.1",
-                "4.1.0",
-                "4.0.0",
-                "3.4.2"
+                "5.4.1",
+                "6.0.0",
+                "6.1.0",
+                "6.2.0",
+                "6.2.1",
+                "6.2.2",
+                "7.0.0",
+                "7.1.0",
+                "7.1.1",
+                "7.1.2",
+                "7.2.0",
+                "8.0.0",
+                "8.0.1",
+                "8.1.0",
+                "8.1.1",
+                "8.1.2",
+                "8.2.0",
+                "8.3.0",
+                "8.3.1",
+                "8.3.2",
+                "8.4.0",
+                "9.0.0",
+                "9.0.1",
+                "9.1.0",
+                "9.1.1",
+                "9.2.0",
+                "9.3.0",
+                "9.4.0"
             ],
             "required_by": [
                 "matplotlib"
@@ -1229,7 +1289,7 @@
         "pip": {
             "level": 1,
             "package_name": "pip",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "22.3.1",
                 "22.3",
@@ -1279,7 +1339,7 @@
         "pipreqs": {
             "level": 4,
             "package_name": "pipreqs",
-            "releases_checked_time": 1671559081,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "0.4.11",
                 "0.4.10",
@@ -1366,7 +1426,7 @@
         "pycodestyle": {
             "level": 1,
             "package_name": "pycodestyle",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "2.10.0",
                 "2.9.1",
@@ -1396,7 +1456,7 @@
         "pyflakes": {
             "level": 1,
             "package_name": "pyflakes",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "3.0.1",
                 "3.0.0",
@@ -1445,7 +1505,7 @@
         "pyparsing": {
             "level": 1,
             "package_name": "pyparsing",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "3.0.9",
                 "3.0.8",
@@ -1498,7 +1558,7 @@
         "pyqrcode": {
             "level": 1,
             "package_name": "PyQRCode",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "1.2.1",
                 "1.2",
@@ -1516,7 +1576,7 @@
         "pyqt5": {
             "level": 2,
             "package_name": "PyQt5",
-            "releases_checked_time": 1671560082,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "5.15.7",
                 "5.15.6",
@@ -1550,26 +1610,117 @@
                 "5.7",
                 "5.6"
             ],
+            "required_by": [
+                "pyqt5-plugins",
+                "pyqt5-tools"
+            ],
             "requires": [
                 {
                     "package_name": "PyQt5-Qt5",
                     "version_installed": "5.15.2",
-                    "version_required": ">=5.15.0"
+                    "version_required": ">=5.15"
                 },
                 {
                     "package_name": "PyQt5-sip",
                     "version_installed": "12.11.0",
-                    "version_required": ">=12.11,<13"
+                    "version_required": ">=12.8,<13"
                 }
             ],
             "summary": "Python bindings for the Qt cross platform application toolkit",
-            "version_installed": "5.15.7",
-            "version_required": "5.15.7"
+            "version_installed": "5.15.4",
+            "version_required": "5.15.4"
+        },
+        "pyqt5-plugins": {
+            "level": 3,
+            "package_name": "pyqt5-plugins",
+            "releases_checked_time": 1673045313,
+            "releases_recent": [
+                "5.15.4.2.2",
+                "5.15.4.2.1.0",
+                "5.15.3.2.2",
+                "5.15.3.2.1.0",
+                "5.15.2.2.2",
+                "5.15.2.2.1.0",
+                "5.15.2.2.0.1",
+                "5.15.1.2.2",
+                "5.15.1.2.1.0",
+                "5.15.1.2.0.1",
+                "5.15.1.2",
+                "5.15.1.1",
+                "5.15.1.1b1",
+                "5.15.0.2.2",
+                "5.15.0.2.1.0",
+                "5.15.0.2.0.1",
+                "5.15.0.2",
+                "5.15.0.1",
+                "5.14.2.2.2",
+                "5.14.2.2.1.0",
+                "5.14.2.2.0.1",
+                "5.14.2.2",
+                "5.14.2.1",
+                "5.14.2.1b1",
+                "5.14.1.2.2",
+                "5.14.1.2.1.0",
+                "5.14.1.2.0.1",
+                "5.14.1.2",
+                "5.14.1.1",
+                "5.14.0.2.2",
+                "5.14.0.2.1.0",
+                "5.14.0.2.0.1",
+                "5.14.0.2",
+                "5.14.0.1"
+            ],
+            "required_by": [
+                "pyqt5-tools"
+            ],
+            "requires": [
+                {
+                    "package_name": "click",
+                    "version_installed": "7.1.2"
+                },
+                {
+                    "package_name": "pyqt5",
+                    "requires": [
+                        {
+                            "package_name": "PyQt5-Qt5",
+                            "version_installed": "5.15.2",
+                            "version_required": ">=5.15"
+                        },
+                        {
+                            "package_name": "PyQt5-sip",
+                            "version_installed": "12.11.0",
+                            "version_required": ">=12.8,<13"
+                        }
+                    ],
+                    "version_installed": "5.15.4",
+                    "version_required": "==5.15.4"
+                },
+                {
+                    "package_name": "qt5-tools",
+                    "requires": [
+                        {
+                            "package_name": "click",
+                            "version_installed": "7.1.2",
+                            "version_required": "~=7.0"
+                        },
+                        {
+                            "package_name": "qt5-applications",
+                            "version_installed": "5.15.2.2.2",
+                            "version_required": ">=5.15.2.2.2,<5.15.2.3"
+                        }
+                    ],
+                    "version_installed": "5.15.2.1.2",
+                    "version_required": ">=5.15.2.1.2,<5.15.2.2"
+                }
+            ],
+            "summary": "PyQt Designer and QML plugins",
+            "version_installed": "5.15.4.2.2",
+            "version_required": "5.15.4.2.2"
         },
         "pyqt5-qt5": {
             "level": 1,
             "package_name": "PyQt5-Qt5",
-            "releases_checked_time": 1671560082,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "5.15.2"
             ],
@@ -1580,7 +1731,7 @@
         "pyqt5-sip": {
             "level": 1,
             "package_name": "PyQt5-sip",
-            "releases_checked_time": 1671560082,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "12.11.0",
                 "12.10.1",
@@ -1604,10 +1755,132 @@
             "version_installed": "12.11.0",
             "version_required": "12.11.0"
         },
+        "pyqt5-tools": {
+            "level": 4,
+            "package_name": "pyqt5-tools",
+            "releases_checked_time": 1673045323,
+            "releases_recent": [
+                "5.15.4.3.2",
+                "5.15.4.3.1",
+                "5.15.4.3.0.3",
+                "5.15.3.3.2",
+                "5.15.3.3.1",
+                "5.15.3.3.0.3",
+                "5.15.2.3.2",
+                "5.15.2.3.1",
+                "5.15.2.3.0.3",
+                "5.15.2.3.0.2",
+                "5.15.2.3.0.1",
+                "5.15.2.3",
+                "5.15.1.3.2",
+                "5.15.1.3.1",
+                "5.15.1.3.0.3",
+                "5.15.1.3.0.2",
+                "5.15.1.3.0.1",
+                "5.15.1.3",
+                "5.15.1.2",
+                "5.15.1.2b1",
+                "5.15.1.1.7.5",
+                "5.15.1.1.7.4",
+                "5.15.1.1.7.3",
+                "5.15.1.1.7.2",
+                "5.15.0.3.2",
+                "5.15.0.3.1",
+                "5.15.0.3.0.3",
+                "5.15.0.3.0.2",
+                "5.15.0.3.0.1",
+                "5.15.0.3",
+                "5.15.0.2",
+                "5.15.0.1.7.5",
+                "5.15.0.1.7.4",
+                "5.15.0.1.7.3",
+                "5.15.0.1.7.2",
+                "5.15.0.1.7.1",
+                "5.15.0.1.7",
+                "5.14.2.3.2",
+                "5.14.2.3.1",
+                "5.14.2.3.0.3"
+            ],
+            "requires": [
+                {
+                    "package_name": "click",
+                    "version_installed": "7.1.2"
+                },
+                {
+                    "package_name": "pyqt5",
+                    "requires": [
+                        {
+                            "package_name": "PyQt5-Qt5",
+                            "version_installed": "5.15.2",
+                            "version_required": ">=5.15"
+                        },
+                        {
+                            "package_name": "PyQt5-sip",
+                            "version_installed": "12.11.0",
+                            "version_required": ">=12.8,<13"
+                        }
+                    ],
+                    "version_installed": "5.15.4",
+                    "version_required": "==5.15.4"
+                },
+                {
+                    "package_name": "pyqt5-plugins",
+                    "requires": [
+                        {
+                            "package_name": "click",
+                            "version_installed": "7.1.2"
+                        },
+                        {
+                            "package_name": "pyqt5",
+                            "requires": [
+                                {
+                                    "package_name": "PyQt5-Qt5",
+                                    "version_installed": "5.15.2",
+                                    "version_required": ">=5.15"
+                                },
+                                {
+                                    "package_name": "PyQt5-sip",
+                                    "version_installed": "12.11.0",
+                                    "version_required": ">=12.8,<13"
+                                }
+                            ],
+                            "version_installed": "5.15.4",
+                            "version_required": "==5.15.4"
+                        },
+                        {
+                            "package_name": "qt5-tools",
+                            "requires": [
+                                {
+                                    "package_name": "click",
+                                    "version_installed": "7.1.2",
+                                    "version_required": "~=7.0"
+                                },
+                                {
+                                    "package_name": "qt5-applications",
+                                    "version_installed": "5.15.2.2.2",
+                                    "version_required": ">=5.15.2.2.2,<5.15.2.3"
+                                }
+                            ],
+                            "version_installed": "5.15.2.1.2",
+                            "version_required": ">=5.15.2.1.2,<5.15.2.2"
+                        }
+                    ],
+                    "version_installed": "5.15.4.2.2",
+                    "version_required": ">=5.15.4.2.2,<5.15.4.3"
+                },
+                {
+                    "package_name": "python-dotenv",
+                    "version_installed": "0.21.0"
+                }
+            ],
+            "summary": "PyQt Designer and QML plugins",
+            "version_installed": "5.15.4.3.2",
+            "version_required": "5.15.4.3.2"
+        },
         "python-barcode": {
             "level": 1,
             "package_name": "python-barcode",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "0.14.0",
                 "0.13.1",
@@ -1628,7 +1901,7 @@
         "python-dateutil": {
             "level": 2,
             "package_name": "python-dateutil",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "2.8.2",
                 "2.8.1",
@@ -1678,10 +1951,63 @@
             "version_installed": "2.8.2",
             "version_required": "2.8.2"
         },
+        "python-dotenv": {
+            "level": 1,
+            "package_name": "python-dotenv",
+            "releases_checked_time": 1673045313,
+            "releases_recent": [
+                "0.21.0",
+                "0.20.0",
+                "0.19.2",
+                "0.19.1",
+                "0.19.0",
+                "0.18.0",
+                "0.17.1",
+                "0.17.0",
+                "0.16.0",
+                "0.15.0",
+                "0.14.0",
+                "0.13.0",
+                "0.12.0",
+                "0.11.0",
+                "0.10.5",
+                "0.10.4",
+                "0.10.3",
+                "0.10.2",
+                "0.10.1",
+                "0.10.0",
+                "0.9.1",
+                "0.9.0",
+                "0.8.2",
+                "0.8.1",
+                "0.8.0",
+                "0.7.1",
+                "0.7.0",
+                "0.6.5",
+                "0.6.4",
+                "0.6.3",
+                "0.6.2",
+                "0.6.1",
+                "0.6.0",
+                "0.5.1",
+                "0.5.0",
+                "0.4.0",
+                "0.3.0",
+                "0.2.0",
+                "0.1.5",
+                "0.1.3"
+            ],
+            "required_by": [
+                "pyqt5-tools"
+            ],
+            "summary": "Read key-value pairs from a .env file and set them as environment variables",
+            "version_installed": "0.21.0",
+            "version_required": "0.21.0"
+        },
         "pytz": {
             "level": 1,
             "package_name": "pytz",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "2014.10",
                 "2014.2",
@@ -1735,7 +2061,7 @@
         "pyzbar": {
             "level": 1,
             "package_name": "pyzbar",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "0.1.9",
                 "0.1.8",
@@ -1754,7 +2080,7 @@
         "qrcode": {
             "level": 2,
             "package_name": "qrcode",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "7.3.1",
                 "7.3",
@@ -1800,10 +2126,95 @@
             "version_installed": "7.3.1",
             "version_required": "7.3.1"
         },
+        "qt5-applications": {
+            "level": 1,
+            "package_name": "qt5-applications",
+            "releases_checked_time": 1673045313,
+            "releases_recent": [
+                "5.15.2.2.2",
+                "5.15.2.2.1",
+                "5.15.1.2.2",
+                "5.15.1.2.1",
+                "5.15.1.2",
+                "5.15.1.1",
+                "5.15.1.1b2",
+                "5.15.0.2.2",
+                "5.15.0.2.1",
+                "5.15.0.2",
+                "5.15.0.1",
+                "5.14.2.2.2",
+                "5.14.2.2.1",
+                "5.14.2.2",
+                "5.14.2.1",
+                "5.14.2.1b2",
+                "5.14.1.2.2",
+                "5.14.1.2.1",
+                "5.14.1.2",
+                "5.14.1.1",
+                "5.14.0.2.2",
+                "5.14.0.2.1",
+                "5.14.0.2",
+                "5.14.0.1"
+            ],
+            "required_by": [
+                "qt5-tools"
+            ],
+            "summary": "The collection of Qt tools easily installable in Python",
+            "version_installed": "5.15.2.2.2",
+            "version_required": "5.15.2.2.2"
+        },
+        "qt5-tools": {
+            "level": 2,
+            "package_name": "qt5-tools",
+            "releases_checked_time": 1673045313,
+            "releases_recent": [
+                "5.15.2.1.2",
+                "5.15.2.1.1",
+                "5.15.2.1.0.1",
+                "5.15.1.1.2",
+                "5.15.1.1.1",
+                "5.15.1.1.0.1",
+                "5.15.1.1",
+                "5.15.0.1.2",
+                "5.15.0.1.1",
+                "5.15.0.1.0.1",
+                "5.15.0.1",
+                "5.14.2.1.2",
+                "5.14.2.1.1",
+                "5.14.2.1.0.1",
+                "5.14.2.1",
+                "5.14.1.1.2",
+                "5.14.1.1.1",
+                "5.14.1.1.0.1",
+                "5.14.1.1",
+                "5.14.0.1.2",
+                "5.14.0.1.1",
+                "5.14.0.1.0.1",
+                "5.14.0.1"
+            ],
+            "required_by": [
+                "pyqt5-plugins"
+            ],
+            "requires": [
+                {
+                    "package_name": "click",
+                    "version_installed": "7.1.2",
+                    "version_required": "~=7.0"
+                },
+                {
+                    "package_name": "qt5-applications",
+                    "version_installed": "5.15.2.2.2",
+                    "version_required": ">=5.15.2.2.2,<5.15.2.3"
+                }
+            ],
+            "summary": "Wrappers for the raw Qt programs from qt5-applications",
+            "version_installed": "5.15.2.1.2",
+            "version_required": "5.15.2.1.2"
+        },
         "requests": {
             "level": 2,
             "package_name": "requests",
-            "releases_checked_time": 1671559064,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "2.28.1",
                 "2.28.0",
@@ -1878,7 +2289,7 @@
         "scikit-learn": {
             "level": 3,
             "package_name": "scikit-learn",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "1.2.0",
                 "1.2.0rc1",
@@ -1957,10 +2368,12 @@
         "scipy": {
             "level": 2,
             "package_name": "scipy",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "1.1.0",
+                "1.10.0",
                 "1.10.0rc1",
+                "1.10.0rc2",
                 "1.2.0",
                 "1.2.1",
                 "1.2.2",
@@ -2023,7 +2436,7 @@
         "setuptools": {
             "level": 1,
             "package_name": "setuptools",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "65.6.3",
                 "65.6.2",
@@ -2076,7 +2489,7 @@
         "six": {
             "level": 1,
             "package_name": "six",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "1.16.0",
                 "1.15.0",
@@ -2117,7 +2530,7 @@
         "threadpoolctl": {
             "level": 1,
             "package_name": "threadpoolctl",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "3.1.0",
                 "3.0.0",
@@ -2137,7 +2550,7 @@
         "urllib3": {
             "level": 1,
             "package_name": "urllib3",
-            "releases_checked_time": 1671559064,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "2.0.0a2",
                 "2.0.0a1",
@@ -2190,7 +2603,7 @@
         "wheel": {
             "level": 1,
             "package_name": "wheel",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "0.38.4",
                 "0.38.3",
@@ -2240,7 +2653,7 @@
         "wincertstore": {
             "level": 1,
             "package_name": "wincertstore",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "0.2.1",
                 "0.2",
@@ -2253,48 +2666,51 @@
         "xlsxwriter": {
             "level": 1,
             "package_name": "XlsxWriter",
-            "releases_checked_time": 1671540679,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
-                "3.0.3",
-                "3.0.2",
-                "3.0.1",
-                "2.0.0",
-                "1.4.5",
-                "1.4.4",
-                "1.4.3",
-                "1.4.2",
-                "1.4.1",
-                "1.4.0",
-                "1.3.9",
-                "1.3.8",
-                "1.3.7",
-                "1.3.6",
-                "1.3.5",
-                "1.3.4",
-                "1.3.3",
-                "1.3.2",
-                "1.3.1",
-                "1.3.0",
-                "1.2.9",
-                "1.2.8",
-                "1.2.7",
-                "1.2.6",
-                "1.2.5",
-                "1.2.4",
-                "1.2.3",
-                "1.2.2",
-                "1.2.1",
-                "1.2.0",
-                "1.1.9",
-                "1.1.8",
-                "1.1.7",
-                "1.1.6",
-                "1.1.5",
-                "1.1.4",
-                "1.1.3",
-                "1.1.2",
+                "1.1.0",
                 "1.1.1",
-                "1.1.0"
+                "1.1.2",
+                "1.1.3",
+                "1.1.4",
+                "1.1.5",
+                "1.1.6",
+                "1.1.7",
+                "1.1.8",
+                "1.1.9",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2",
+                "1.2.3",
+                "1.2.4",
+                "1.2.5",
+                "1.2.6",
+                "1.2.7",
+                "1.2.8",
+                "1.2.9",
+                "1.3.0",
+                "1.3.1",
+                "1.3.2",
+                "1.3.3",
+                "1.3.4",
+                "1.3.5",
+                "1.3.6",
+                "1.3.7",
+                "1.3.8",
+                "1.3.9",
+                "1.4.0",
+                "1.4.1",
+                "1.4.2",
+                "1.4.3",
+                "1.4.4",
+                "1.4.5",
+                "2.0.0",
+                "3.0.1",
+                "3.0.2",
+                "3.0.3",
+                "3.0.4",
+                "3.0.5",
+                "3.0.6"
             ],
             "summary": "A Python module for creating Excel XLSX files",
             "version_installed": "3.0.3",
@@ -2303,7 +2719,7 @@
         "yarg": {
             "level": 3,
             "package_name": "yarg",
-            "releases_checked_time": 1671559081,
+            "releases_checked_time": 1673045287,
             "releases_recent": [
                 "0.1.9",
                 "0.1.8",
