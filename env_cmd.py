@@ -202,6 +202,10 @@ class EnvCmd:
                 i += 1
                 release_dict = releases_dict[i]
                 if release_dict is None:
+                    #
+                    # conceptual bug for wheel installed packages, that are not on pypi.org
+                    # TODO: need to fix release resolution otherwise - right now band aid it with 'force'
+                    #
                     print('Error: No release_dict for {}'.format(package_name))
                     ok = False
                     continue
@@ -362,7 +366,8 @@ class EnvCmd:
         # this only affects the releases on PYPI - is needed, but could lag hours or a day
         if not EnvCmd.env_get_releases(db, force):  # could be done in parallel to other work
             print('env_import: {} (force={}) .. env_get_releases failed'.format(env_name, force))
-            return False
+            if not force:
+                return False
 
         ok = True if db.dump(json_path=db_name) else False
         db.close()
