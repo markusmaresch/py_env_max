@@ -66,7 +66,8 @@ class PyEnvMax:
         vm = Version.normalized(self.conda_version_minimum)
         if vh < vm:
             print('Warning: conda too old ({} < {}), consider updating conda itself or miniconda'.format(vh, vm))
-            # return False
+            print('Use: conda update -n base -c defaults conda')
+            return False
         return True
 
     def check_conda_environment(self, env_override: str, force: bool) -> typing.Union[str, object]:
