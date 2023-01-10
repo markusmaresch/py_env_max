@@ -333,6 +333,10 @@ class EnvCmd:
             for p in packages:
                 if p in installed_packages:
                     continue
+                #
+                # this could indicate, that the json is ahead and the current env
+                # does not contain all the packages
+                #
                 print('Deleting orphan: {}'.format(p))
                 if not db.package_remove(p):
                     return False
