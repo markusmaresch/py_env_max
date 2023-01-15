@@ -1,6 +1,12 @@
 #
 #
 #
+Bugs
+    install packages:
+        * infinite loop, if failures in between - need to limit tries, or split the problem
+
+    possibly fixed: Conceptual package name bug: "Levenshtein-search" for dedupe ... not normalized
+
 Update All
     use: --dry-run before trying and react to that, instead if try/rollback (reason objc..)
 
