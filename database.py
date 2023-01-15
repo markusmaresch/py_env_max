@@ -293,11 +293,11 @@ class Database:
         if requires is None:
             return []
         seen = set()
-        a = set([r['package_name'] for r in requires])
+        a = set([r[PyPi.PACKAGE_NAME] for r in requires])
         dupes = [x for x in a if seen.add(x)]
         if len(dupes) > 0:  # we could salvage the situation here, but the problem is at inserting
             print('error multiple packages as requirements: {} {}: {}'.format(name, dupes[0], requires))
-        return [Utils.canonicalize_name(r['package_name']) for r in requires]
+        return [Utils.canonicalize_name(r[PyPi.PACKAGE_NAME]) for r in requires]
 
     def package_get_required_by(self, name: str) -> [str]:
         table = self.table_packages()
@@ -348,9 +348,12 @@ class Database:
                     if k != Database.REQUIRES:
                         continue
                     for r in v:
-                        pn = r.get(PyPi.PACKAGE_NAME)
-                        if pn != package_name:
-                            # could be dangerous, need to make sure we are comparing in the same names-spaces
+                        pn_raw = r.get(PyPi.PACKAGE_NAME)
+                        if pn_raw is None:
+                            continue
+                        pn_normalized = Utils.canonicalize_name(pn_raw)
+                        if pn_normalized != package_name:
+                            # no match
                             continue
                         vr = r.get(Database.VERSION_REQUIRED)
                         if vr is None:
