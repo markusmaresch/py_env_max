@@ -6,7 +6,7 @@
         "certifi": {
             "level": 1,
             "package_name": "certifi",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "2022.12.7",
                 "2022.9.24",
@@ -59,7 +59,7 @@
         "charset-normalizer": {
             "level": 1,
             "package_name": "charset-normalizer",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "3.0.1",
                 "3.0.0",
@@ -106,13 +106,13 @@
                 "requests"
             ],
             "summary": "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet",
-            "version_installed": "2.1.1",
-            "version_required": "2.1.1"
+            "version_installed": "3.0.1",
+            "version_required": "3.0.1"
         },
         "click": {
             "level": 1,
             "package_name": "click",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "8.1.3",
                 "8.1.2",
@@ -167,7 +167,7 @@
         "colorama": {
             "level": 1,
             "package_name": "colorama",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "0.4.6",
                 "0.4.6rc1",
@@ -220,20 +220,21 @@
         "contourpy": {
             "level": 2,
             "package_name": "contourpy",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
-                "1.0.6",
-                "1.0.5",
-                "1.0.4",
-                "1.0.3",
-                "1.0.2",
-                "1.0.1",
-                "1.0.0",
-                "0.0.5",
-                "0.0.4",
-                "0.0.3",
+                "0.0.1",
                 "0.0.2",
-                "0.0.1"
+                "0.0.3",
+                "0.0.4",
+                "0.0.5",
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "1.0.6",
+                "1.0.7"
             ],
             "required_by": [
                 "matplotlib"
@@ -246,13 +247,13 @@
                 }
             ],
             "summary": "Python library for calculating contours of 2D quadrilateral grids",
-            "version_installed": "1.0.6",
-            "version_required": "1.0.6"
+            "version_installed": "1.0.7",
+            "version_required": "1.0.7"
         },
         "cycler": {
             "level": 1,
             "package_name": "cycler",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "0.11.0",
                 "0.10.0",
@@ -268,7 +269,7 @@
         "docopt": {
             "level": 1,
             "package_name": "docopt",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "0.6.2",
                 "0.6.1",
@@ -292,7 +293,7 @@
         "flake8": {
             "level": 2,
             "package_name": "flake8",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "6.0.0",
                 "5.0.4",
@@ -359,7 +360,7 @@
         "fonttools": {
             "level": 1,
             "package_name": "fonttools",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "4.38.0",
                 "4.37.4",
@@ -412,7 +413,7 @@
         "idna": {
             "level": 1,
             "package_name": "idna",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "3.4",
                 "3.3",
@@ -452,7 +453,7 @@
         "imageio": {
             "level": 2,
             "package_name": "imageio",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "2.24.0",
                 "2.23.0",
@@ -516,7 +517,7 @@
         "imutils": {
             "level": 1,
             "package_name": "imutils",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "0.5.4",
                 "0.5.3",
@@ -555,7 +556,7 @@
         "joblib": {
             "level": 1,
             "package_name": "joblib",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "1.2.0",
                 "1.1.1",
@@ -607,7 +608,7 @@
         "kiwisolver": {
             "level": 1,
             "package_name": "kiwisolver",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "1.4.4",
                 "1.4.3",
@@ -636,7 +637,7 @@
         "llvmlite": {
             "level": 1,
             "package_name": "llvmlite",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "0.39.1",
                 "0.39.0",
@@ -689,7 +690,7 @@
         "lmdb": {
             "level": 1,
             "package_name": "lmdb",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "1.4.0",
                 "1.3.0",
@@ -739,48 +740,49 @@
         "matplotlib": {
             "level": 3,
             "package_name": "matplotlib",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
-                "3.6.2",
-                "3.6.1",
-                "3.6.0",
-                "3.6.0rc2",
-                "3.6.0rc1",
-                "3.5.3",
-                "3.5.2",
-                "3.5.1",
-                "3.5.0",
-                "3.5.0rc1",
-                "3.5.0b1",
-                "3.4.3",
-                "3.4.2",
-                "3.4.1",
-                "3.4.0",
-                "3.4.0rc3",
-                "3.4.0rc2",
-                "3.4.0rc1",
-                "3.3.4",
-                "3.3.3",
-                "3.3.2",
-                "3.3.1",
+                "3.0.0",
+                "3.0.0rc2",
+                "3.0.1",
+                "3.0.2",
+                "3.0.3",
+                "3.1.0",
+                "3.1.0rc1",
+                "3.1.0rc2",
+                "3.1.1",
+                "3.1.2",
+                "3.1.3",
+                "3.2.0",
+                "3.2.0rc1",
+                "3.2.0rc3",
+                "3.2.1",
+                "3.2.2",
                 "3.3.0",
                 "3.3.0rc1",
-                "3.2.2",
-                "3.2.1",
-                "3.2.0",
-                "3.2.0rc3",
-                "3.2.0rc1",
-                "3.1.3",
-                "3.1.2",
-                "3.1.1",
-                "3.1.0",
-                "3.1.0rc2",
-                "3.1.0rc1",
-                "3.0.3",
-                "3.0.2",
-                "3.0.1",
-                "3.0.0",
-                "3.0.0rc2"
+                "3.3.1",
+                "3.3.2",
+                "3.3.3",
+                "3.3.4",
+                "3.4.0",
+                "3.4.0rc1",
+                "3.4.0rc2",
+                "3.4.0rc3",
+                "3.4.1",
+                "3.4.2",
+                "3.4.3",
+                "3.5.0",
+                "3.5.0b1",
+                "3.5.0rc1",
+                "3.5.1",
+                "3.5.2",
+                "3.5.3",
+                "3.6.0",
+                "3.6.0rc1",
+                "3.6.0rc2",
+                "3.6.1",
+                "3.6.2",
+                "3.6.3"
             ],
             "requires": [
                 {
@@ -792,7 +794,7 @@
                             "version_required": ">=1.16"
                         }
                     ],
-                    "version_installed": "1.0.6",
+                    "version_installed": "1.0.7",
                     "version_required": ">=1.0.1"
                 },
                 {
@@ -844,13 +846,13 @@
                 }
             ],
             "summary": "Python plotting package",
-            "version_installed": "3.6.2",
-            "version_required": "3.6.2"
+            "version_installed": "3.6.3",
+            "version_required": "3.6.3"
         },
         "mccabe": {
             "level": 1,
             "package_name": "mccabe",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "0.7.0",
                 "0.6.1",
@@ -876,7 +878,7 @@
         "networkx": {
             "level": 1,
             "package_name": "networkx",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "3.0",
                 "3.0rc1",
@@ -929,7 +931,7 @@
         "numba": {
             "level": 2,
             "package_name": "numba",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "0.56.4",
                 "0.56.3",
@@ -985,7 +987,7 @@
                 },
                 {
                     "package_name": "setuptools",
-                    "version_installed": "65.6.3"
+                    "version_installed": "65.7.0"
                 }
             ],
             "summary": "compiling Python code using LLVM",
@@ -995,7 +997,7 @@
         "numpy": {
             "level": 1,
             "package_name": "numpy",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "1.18.0",
                 "1.18.1",
@@ -1069,7 +1071,7 @@
         "opencv-contrib-python": {
             "level": 2,
             "package_name": "opencv-contrib-python",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "3.4.10.35",
                 "3.4.10.37",
@@ -1137,7 +1139,7 @@
         "opencv-python": {
             "level": 2,
             "package_name": "opencv-python",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "3.4.10.35",
                 "3.4.10.37",
@@ -1205,7 +1207,7 @@
         "opencv-python-headless": {
             "level": 2,
             "package_name": "opencv-python-headless",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "3.4.10.35",
                 "3.4.10.37",
@@ -1273,7 +1275,7 @@
         "packaging": {
             "level": 2,
             "package_name": "packaging",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "14.0",
                 "14.1",
@@ -1335,7 +1337,7 @@
         "pandas": {
             "level": 3,
             "package_name": "pandas",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "1.5.2",
                 "1.5.1",
@@ -1398,7 +1400,7 @@
                 },
                 {
                     "package_name": "pytz",
-                    "version_installed": "2022.7",
+                    "version_installed": "2022.7.1",
                     "version_required": ">=2020.1"
                 }
             ],
@@ -1409,7 +1411,7 @@
         "pillow": {
             "level": 1,
             "package_name": "Pillow",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "3.4.2",
                 "4.0.0",
@@ -1465,7 +1467,7 @@
         "pip": {
             "level": 1,
             "package_name": "pip",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "22.3.1",
                 "22.3",
@@ -1515,7 +1517,7 @@
         "pipreqs": {
             "level": 4,
             "package_name": "pipreqs",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "0.4.11",
                 "0.4.10",
@@ -1575,8 +1577,8 @@
                                 },
                                 {
                                     "package_name": "charset-normalizer",
-                                    "version_installed": "2.1.1",
-                                    "version_required": ">=2,<3"
+                                    "version_installed": "3.0.1",
+                                    "version_required": ">=2,<4"
                                 },
                                 {
                                     "package_name": "idna",
@@ -1585,11 +1587,11 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.13",
+                                    "version_installed": "1.26.14",
                                     "version_required": ">=1.21.1,<1.27"
                                 }
                             ],
-                            "version_installed": "2.28.1"
+                            "version_installed": "2.28.2"
                         }
                     ],
                     "version_installed": "0.1.9"
@@ -1602,7 +1604,7 @@
         "pycodestyle": {
             "level": 1,
             "package_name": "pycodestyle",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "2.10.0",
                 "2.9.1",
@@ -1632,7 +1634,7 @@
         "pyflakes": {
             "level": 1,
             "package_name": "pyflakes",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "3.0.1",
                 "3.0.0",
@@ -1681,7 +1683,7 @@
         "pyparsing": {
             "level": 1,
             "package_name": "pyparsing",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "3.0.9",
                 "3.0.8",
@@ -1734,7 +1736,7 @@
         "pyqrcode": {
             "level": 1,
             "package_name": "PyQRCode",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "1.2.1",
                 "1.2",
@@ -1752,7 +1754,7 @@
         "pyqt5": {
             "level": 2,
             "package_name": "PyQt5",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "5.15.7",
                 "5.15.6",
@@ -1809,7 +1811,7 @@
         "pyqt5-plugins": {
             "level": 3,
             "package_name": "pyqt5-plugins",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "5.15.4.2.2",
                 "5.15.4.2.1.0",
@@ -1896,7 +1898,7 @@
         "pyqt5-qt5": {
             "level": 1,
             "package_name": "PyQt5-Qt5",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "5.15.2"
             ],
@@ -1907,7 +1909,7 @@
         "pyqt5-sip": {
             "level": 1,
             "package_name": "PyQt5-sip",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "12.11.0",
                 "12.10.1",
@@ -1934,7 +1936,7 @@
         "pyqt5-tools": {
             "level": 4,
             "package_name": "pyqt5-tools",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "5.15.4.3.2",
                 "5.15.4.3.1",
@@ -2056,7 +2058,7 @@
         "python-barcode": {
             "level": 1,
             "package_name": "python-barcode",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "0.14.0",
                 "0.13.1",
@@ -2077,7 +2079,7 @@
         "python-dateutil": {
             "level": 2,
             "package_name": "python-dateutil",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "2.8.2",
                 "2.8.1",
@@ -2130,7 +2132,7 @@
         "python-dotenv": {
             "level": 1,
             "package_name": "python-dotenv",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "0.21.0",
                 "0.20.0",
@@ -2183,7 +2185,7 @@
         "pytz": {
             "level": 1,
             "package_name": "pytz",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "2014.10",
                 "2014.2",
@@ -2225,19 +2227,20 @@
                 "2022.4",
                 "2022.5",
                 "2022.6",
-                "2022.7"
+                "2022.7",
+                "2022.7.1"
             ],
             "required_by": [
                 "pandas"
             ],
             "summary": "World timezone definitions, modern and historical",
-            "version_installed": "2022.7",
-            "version_required": "2022.7"
+            "version_installed": "2022.7.1",
+            "version_required": "2022.7.1"
         },
         "pywavelets": {
             "level": 2,
             "package_name": "PyWavelets",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "1.4.1",
                 "1.4.0",
@@ -2275,7 +2278,7 @@
         "pyzbar": {
             "level": 1,
             "package_name": "pyzbar",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "0.1.9",
                 "0.1.8",
@@ -2294,7 +2297,7 @@
         "qrcode": {
             "level": 2,
             "package_name": "qrcode",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "7.3.1",
                 "7.3",
@@ -2343,7 +2346,7 @@
         "qt5-applications": {
             "level": 1,
             "package_name": "qt5-applications",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "5.15.2.2.2",
                 "5.15.2.2.1",
@@ -2380,7 +2383,7 @@
         "qt5-tools": {
             "level": 2,
             "package_name": "qt5-tools",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "5.15.2.1.2",
                 "5.15.2.1.1",
@@ -2428,48 +2431,49 @@
         "requests": {
             "level": 2,
             "package_name": "requests",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
-                "2.28.1",
-                "2.28.0",
-                "2.27.1",
-                "2.27.0",
-                "2.26.0",
-                "2.25.1",
-                "2.25.0",
-                "2.24.0",
-                "2.23.0",
-                "2.22.0",
-                "2.21.0",
-                "2.20.1",
-                "2.20.0",
-                "2.19.1",
-                "2.19.0",
-                "2.18.4",
-                "2.18.3",
-                "2.18.2",
-                "2.18.1",
-                "2.18.0",
-                "2.17.3",
-                "2.17.2",
-                "2.17.1",
-                "2.17.0",
-                "2.16.5",
-                "2.16.4",
-                "2.16.3",
-                "2.16.2",
-                "2.16.1",
-                "2.16.0",
-                "2.15.1",
-                "2.15.0",
-                "2.14.2",
-                "2.14.1",
-                "2.14.0",
-                "2.13.0",
-                "2.12.5",
-                "2.12.4",
+                "2.12.2",
                 "2.12.3",
-                "2.12.2"
+                "2.12.4",
+                "2.12.5",
+                "2.13.0",
+                "2.14.0",
+                "2.14.1",
+                "2.14.2",
+                "2.15.0",
+                "2.15.1",
+                "2.16.0",
+                "2.16.1",
+                "2.16.2",
+                "2.16.3",
+                "2.16.4",
+                "2.16.5",
+                "2.17.0",
+                "2.17.1",
+                "2.17.2",
+                "2.17.3",
+                "2.18.0",
+                "2.18.1",
+                "2.18.2",
+                "2.18.3",
+                "2.18.4",
+                "2.19.0",
+                "2.19.1",
+                "2.20.0",
+                "2.20.1",
+                "2.21.0",
+                "2.22.0",
+                "2.23.0",
+                "2.24.0",
+                "2.25.0",
+                "2.25.1",
+                "2.26.0",
+                "2.27.0",
+                "2.27.1",
+                "2.28.0",
+                "2.28.1",
+                "2.28.2"
             ],
             "required_by": [
                 "yarg"
@@ -2482,8 +2486,8 @@
                 },
                 {
                     "package_name": "charset-normalizer",
-                    "version_installed": "2.1.1",
-                    "version_required": ">=2,<3"
+                    "version_installed": "3.0.1",
+                    "version_required": ">=2,<4"
                 },
                 {
                     "package_name": "idna",
@@ -2492,18 +2496,18 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.13",
+                    "version_installed": "1.26.14",
                     "version_required": ">=1.21.1,<1.27"
                 }
             ],
             "summary": "Python HTTP for Humans",
-            "version_installed": "2.28.1",
-            "version_required": "2.28.1"
+            "version_installed": "2.28.2",
+            "version_required": "2.28.2"
         },
         "scikit-image": {
             "level": 3,
             "package_name": "scikit-image",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "0.19.3",
                 "0.19.2",
@@ -2625,7 +2629,7 @@
         "scikit-learn": {
             "level": 3,
             "package_name": "scikit-learn",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "1.2.0",
                 "1.2.0rc1",
@@ -2704,7 +2708,7 @@
         "scipy": {
             "level": 2,
             "package_name": "scipy",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "1.1.0",
                 "1.10.0",
@@ -2773,60 +2777,61 @@
         "setuptools": {
             "level": 1,
             "package_name": "setuptools",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
-                "65.6.3",
-                "65.6.2",
-                "65.6.1",
-                "65.6.0",
-                "65.5.1",
-                "65.5.0",
-                "65.4.1",
-                "65.4.0",
-                "65.3.0",
-                "65.2.0",
-                "65.1.1",
-                "65.1.0",
-                "65.0.2",
-                "65.0.1",
-                "65.0.0",
-                "64.0.3",
-                "64.0.2",
-                "64.0.1",
-                "64.0.0",
-                "63.4.3",
-                "63.4.2",
-                "63.4.1",
-                "63.4.0",
-                "63.3.0",
-                "63.2.0",
-                "63.1.0",
+                "61.3.1",
+                "62.0.0",
+                "62.1.0",
+                "62.2.0",
+                "62.3.0",
+                "62.3.1",
+                "62.3.2",
+                "62.3.3",
+                "62.3.4",
+                "62.4.0",
+                "62.5.0",
+                "62.6.0",
                 "63.0.0",
                 "63.0.0b1",
-                "62.6.0",
-                "62.5.0",
-                "62.4.0",
-                "62.3.4",
-                "62.3.3",
-                "62.3.2",
-                "62.3.1",
-                "62.3.0",
-                "62.2.0",
-                "62.1.0",
-                "62.0.0",
-                "61.3.1"
+                "63.1.0",
+                "63.2.0",
+                "63.3.0",
+                "63.4.0",
+                "63.4.1",
+                "63.4.2",
+                "63.4.3",
+                "64.0.0",
+                "64.0.1",
+                "64.0.2",
+                "64.0.3",
+                "65.0.0",
+                "65.0.1",
+                "65.0.2",
+                "65.1.0",
+                "65.1.1",
+                "65.2.0",
+                "65.3.0",
+                "65.4.0",
+                "65.4.1",
+                "65.5.0",
+                "65.5.1",
+                "65.6.0",
+                "65.6.1",
+                "65.6.2",
+                "65.6.3",
+                "65.7.0"
             ],
             "required_by": [
                 "numba"
             ],
             "summary": "Easily download, build, install, upgrade, and uninstall Python packages",
-            "version_installed": "65.6.3",
-            "version_required": "65.6.3"
+            "version_installed": "65.7.0",
+            "version_required": "65.7.0"
         },
         "shapely": {
             "level": 2,
             "package_name": "shapely",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "2.0.0",
                 "2.0rc3",
@@ -2883,7 +2888,7 @@
         "six": {
             "level": 1,
             "package_name": "six",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "1.16.0",
                 "1.15.0",
@@ -2924,7 +2929,7 @@
         "threadpoolctl": {
             "level": 1,
             "package_name": "threadpoolctl",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "3.1.0",
                 "3.0.0",
@@ -2944,7 +2949,7 @@
         "tifffile": {
             "level": 2,
             "package_name": "tifffile",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "2022.10.10",
                 "2022.8.12",
@@ -3004,60 +3009,62 @@
         "urllib3": {
             "level": 1,
             "package_name": "urllib3",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
-                "2.0.0a2",
-                "2.0.0a1",
-                "1.26.13",
-                "1.26.12",
-                "1.26.11",
-                "1.26.10",
-                "1.26.9",
-                "1.26.8",
-                "1.26.7",
-                "1.26.6",
-                "1.26.5",
-                "1.26.4",
-                "1.26.3",
-                "1.26.2",
-                "1.26.1",
-                "1.26.0",
-                "1.25.11",
-                "1.25.10",
-                "1.25.9",
-                "1.25.8",
-                "1.25.7",
-                "1.25.6",
-                "1.25.5",
-                "1.25.4",
-                "1.25.3",
-                "1.25.2",
-                "1.25.1",
-                "1.25",
-                "1.24.3",
-                "1.24.2",
-                "1.24.1",
-                "1.24",
-                "1.23",
-                "1.22",
-                "1.21.1",
-                "1.21",
-                "1.20",
-                "1.19.1",
+                "1.18.1",
                 "1.19",
-                "1.18.1"
+                "1.19.1",
+                "1.20",
+                "1.21",
+                "1.21.1",
+                "1.22",
+                "1.23",
+                "1.24",
+                "1.24.1",
+                "1.24.2",
+                "1.24.3",
+                "1.25",
+                "1.25.1",
+                "1.25.10",
+                "1.25.11",
+                "1.25.2",
+                "1.25.3",
+                "1.25.4",
+                "1.25.5",
+                "1.25.6",
+                "1.25.7",
+                "1.25.8",
+                "1.25.9",
+                "1.26.0",
+                "1.26.1",
+                "1.26.10",
+                "1.26.11",
+                "1.26.12",
+                "1.26.13",
+                "1.26.14",
+                "1.26.2",
+                "1.26.3",
+                "1.26.4",
+                "1.26.5",
+                "1.26.6",
+                "1.26.7",
+                "1.26.8",
+                "1.26.9",
+                "2.0.0a1",
+                "2.0.0a2",
+                "2.0.0a3"
             ],
             "required_by": [
                 "requests"
             ],
             "summary": "HTTP library with thread-safe connection pooling, file post, and more",
-            "version_installed": "1.26.13",
-            "version_required": "1.26.13"
+            "version_installed": "1.26.14",
+            "version_required": "1.26.14"
         },
         "wheel": {
             "level": 1,
             "package_name": "wheel",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "0.38.4",
                 "0.38.3",
@@ -3107,7 +3114,7 @@
         "wincertstore": {
             "level": 1,
             "package_name": "wincertstore",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "0.2.1",
                 "0.2",
@@ -3120,7 +3127,7 @@
         "xlsxwriter": {
             "level": 1,
             "package_name": "XlsxWriter",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "1.1.0",
                 "1.1.1",
@@ -3164,16 +3171,17 @@
                 "3.0.3",
                 "3.0.4",
                 "3.0.5",
-                "3.0.6"
+                "3.0.6",
+                "3.0.7"
             ],
             "summary": "A Python module for creating Excel XLSX files",
-            "version_installed": "3.0.6",
-            "version_required": "3.0.6"
+            "version_installed": "3.0.7",
+            "version_required": "3.0.7"
         },
         "yarg": {
             "level": 3,
             "package_name": "yarg",
-            "releases_checked_time": 1673383864,
+            "releases_checked_time": 1673811748,
             "releases_recent": [
                 "0.1.9",
                 "0.1.8",
@@ -3199,8 +3207,8 @@
                         },
                         {
                             "package_name": "charset-normalizer",
-                            "version_installed": "2.1.1",
-                            "version_required": ">=2,<3"
+                            "version_installed": "3.0.1",
+                            "version_required": ">=2,<4"
                         },
                         {
                             "package_name": "idna",
@@ -3209,11 +3217,11 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.13",
+                            "version_installed": "1.26.14",
                             "version_required": ">=1.21.1,<1.27"
                         }
                     ],
-                    "version_installed": "2.28.1"
+                    "version_installed": "2.28.2"
                 }
             ],
             "summary": "A semi hard Cornish cheese, also queries PyPI (PyPI client)",
