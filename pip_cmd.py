@@ -351,18 +351,25 @@ class PipCmd:
         # for
         print('pip_install_roll_back: attempt to revert: {} to: {}'
               .format(package_name, packages_with_versions))
-        pr2 = PipCmd.pip_install_commands(packages_with_versions=packages_with_versions)
-        if pr2.get_return_code() == PipReturn.OK:
-            # repair succeeded, try next release_update, if any
-            print('pip_install_roll_back: revert {}: succeeded: {}'
-                  .format(package_name, packages_with_versions))
-            # rolled back
-            pr2.set_return_code(PipReturn.ROLLED_BACK)
-            return pr2
-        # fi
-        # now what, we tried candidate and the repair failed
-        print('pip_install_roll_back: revert {}: FAILED: {}'
-              .format(package_name, packages_with_versions))
+        #
+        # for the rollback, there could be time out situations in pip, therefore try a few times
+        #
+        pr2 = None  # silence warning
+        t_max = 3
+        for t in range(1, t_max+1):
+            pr2 = PipCmd.pip_install_commands(packages_with_versions=packages_with_versions)
+            if pr2.get_return_code() == PipReturn.OK:
+                # repair succeeded, try next release_update, if any
+                print('pip_install_roll_back: revert {}: succeeded: {}'
+                      .format(package_name, packages_with_versions))
+                # rolled back
+                pr2.set_return_code(PipReturn.ROLLED_BACK)
+                return pr2
+            # fi
+            # now what, we tried candidate and the repair failed
+            print('pip_install_roll_back: revert {}: FAILED: {} .. {}/{}'
+                  .format(package_name, packages_with_versions, t, t_max))
+        # for
         pr2.set_return_code(PipReturn.ERROR)
         # failed roll back
         return pr2

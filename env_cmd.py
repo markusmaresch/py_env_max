@@ -517,6 +517,8 @@ class EnvCmd:
             # stop = False
             updated_iter = dict()
             while level < 100:
+                if stop:
+                    break
                 level += 1
                 pip_checked = False
                 print('upd_all: {} .. {}/{}: {}: start'.format(env_name, it, max_iterations, level))
@@ -525,6 +527,8 @@ class EnvCmd:
                     break
                 update_command = False
                 for package_name in packages:
+                    if stop:
+                        break
                     # for package, collect all the constraints in tree, try to improve to most recent
                     if debug_helper and package_name != 'numpy':  # only debug catch
                         continue

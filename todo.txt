@@ -4,8 +4,12 @@
 Bugs
     install packages:
         * infinite loop, if failures in between - need to limit tries, or split the problem
+        * -ip dedupe: does not work
 
     possibly fixed: Conceptual package name bug: "Levenshtein-search" for dedupe ... not normalized
+
+    remove yanked versions
+    remove versions too old, not just add
 
 Update All
     use: --dry-run before trying and react to that, instead if try/rollback (reason objc..)

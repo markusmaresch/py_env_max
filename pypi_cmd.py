@@ -108,13 +108,13 @@ class PyPiCmd:
                                               args=(package_name, i, releases))
                 threads[i].start()
                 time.sleep(0.1)
+                if threading.active_count() > 3:
+                    time.sleep(0.1)
                 if threading.active_count() > 5:
-                    time.sleep(0.5)
+                    time.sleep(0.1)
                 if threading.active_count() > 7:
-                    time.sleep(0.5)
+                    time.sleep(0.2)
                 if threading.active_count() > 10:
-                    time.sleep(0.5)
-                if threading.active_count() > 12:
                     time.sleep(0.5)
                 # print('ac: {}: {}'.format(i, threading.active_count()))
             # for
