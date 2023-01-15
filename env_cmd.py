@@ -305,17 +305,20 @@ class EnvCmd:
     def env_packages_tree(db: Database, force: bool = False) -> bool:
         tree = PipCmd.get_tree_installed()
         conflicts = PipCmd.get_conflicts(tree, verbose=True)
-        cycles = PipCmd.get_cycles(tree, verbose=True)
         if len(conflicts) > 0:
             # could also indicate a broken environment
             print('pip check, because we had cycles')
             ok = PipCmd.pip_check()
             if not ok:
-                print('Fix issues first !!')
-                return False
-            if not force:
-                return False
-            # continue despite conflicts !!!
+                if not force:
+                    print('Fix issues first !!')
+                    return False
+                print('continue despite conflicts !!!')
+            else:
+                print('pip check: ok')
+            # fi
+        # fi
+        cycles = PipCmd.get_cycles(tree, verbose=True)
         if len(cycles) > 0:
             # have a list of known cycles, and ignore them
             pass
@@ -363,7 +366,7 @@ class EnvCmd:
             db.load(db_name, verbose=False)  # could fail
 
         # the following is needed upon package updates
-        if not EnvCmd.env_packages_tree(db=db):
+        if not EnvCmd.env_packages_tree(db=db, force=force):
             print('env_import: {} (force={}) .. env_packages_tree failed'.format(env_name, force))
             return False
 
@@ -506,11 +509,12 @@ class EnvCmd:
         debug_helper = False
         debug_already_latest = False
         updated_all = dict()
+        stop = False
 
         for it in range(1, max_iterations + 1):
             print('upd_all: {} .. {}/{}: start'.format(env_name, it, max_iterations))
             level = 0
-            stop = False
+            # stop = False
             updated_iter = dict()
             while level < 100:
                 level += 1
@@ -614,6 +618,10 @@ class EnvCmd:
                             break
                         #
                         if pr.get_return_code() == PipReturn.ERROR:
+                            print('upd_all: {} .. {}/{}: {}: {}: {} .. roll back failed !'
+                                  .format(env_name, it, max_iterations, level,
+                                          package_name, release_best))
+
                             stop = True
                             break
                         # fi

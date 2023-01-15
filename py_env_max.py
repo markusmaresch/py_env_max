@@ -106,7 +106,7 @@ class PyEnvMax:
         group.add_argument('--stat', action='store_true',
                             help='Show statistics of existing python environment')
 
-        group.add_argument('--env_import', action='store_true',
+        group.add_argument('-ei', '--env_import', action='store_true',
                            help='Import existing python environment into internal database')
 
         group.add_argument('-ip', '--install_packages', action='extend', nargs='+', type=str,
