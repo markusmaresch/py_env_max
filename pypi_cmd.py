@@ -196,7 +196,20 @@ class PyPiCmd:
         return True
 
     @staticmethod
+    def test_releases_yanked() -> bool:
+        package_yanked = 'levenshtein-search'
+        #
+        # 1.4.5 seem yanked - but this does not work here
+        #
+        releases_dict = PyPiCmd.get_releases(name=package_yanked)
+        if releases_dict is not None:
+            return True
+        return False
+
+    @staticmethod
     def pip_selftest() -> bool:
+        if not PyPiCmd.test_releases_yanked():
+            return False
         if not PyPiCmd.test_releases_invalid():
             return False
         if not PyPiCmd.test_releases_one():
