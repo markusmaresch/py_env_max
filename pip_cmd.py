@@ -356,7 +356,7 @@ class PipCmd:
         #
         pr2 = None  # silence warning
         t_max = 3
-        for t in range(1, t_max+1):
+        for t in range(1, t_max + 1):
             pr2 = PipCmd.pip_install_commands(packages_with_versions=packages_with_versions)
             if pr2.get_return_code() == PipReturn.OK:
                 # repair succeeded, try next release_update, if any

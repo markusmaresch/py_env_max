@@ -220,11 +220,19 @@ class EnvCmd:
                     if not db.package_set_summary(package_name, summary):
                         return False
 
-                self_check = True
-                if self_check:
-                    rr = db.package_get_releases_recent(package_name, release_filter=ReleaseFilter.REGULAR)
-                    if rr is None:
-                        return False  # not sure, if this really should be fatal ...
+                pypi_package = release_dict.get(Database.PYPI_PACKAGE)
+                if pypi_package is not None and not pypi_package:
+                    # no testing for now ..
+                    if not db.pypi_package_set(package_name, False):
+                        return False
+                else:
+                    if not db.pypi_package_set(package_name, True):
+                        return False
+                    self_check = True
+                    if self_check:
+                        rr = db.package_get_releases_recent(package_name, release_filter=ReleaseFilter.REGULAR)
+                        if rr is None:
+                            return False  # not sure, if this really should be fatal ...
                 packages_resolved.add(package_name)
             # for
             if ok:

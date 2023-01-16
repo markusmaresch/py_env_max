@@ -45,15 +45,27 @@ class PyPiCmd:
     def get_releases(name: str, keep: int = 40) -> typing.Union[typing.Dict, object]:
         js = PyPiCmd.get_pypi_json(name)
         if js is None:
+            # network failure ?
             return None
-        releases = js.get('releases')
-        if releases is None:
-            return None
-        keys = releases.keys()
-        releases = [r for r in keys]
-        sorted_releases = Version.sort(releases=releases, reverse=True)
-        latest_releases = sorted_releases[:keep]
-        d = {Database.RELEASES_RECENT: latest_releases}
+        nf = js.get('message')
+        if nf == 'Not Found':
+            latest_releases = []  # could get it:  pip list | grep <name> .. second argument
+            pypi_flag = False
+        else:
+            releases = js.get('releases')
+            if releases is None:
+                return None
+            keys = releases.keys()
+            releases = [r for r in keys]
+            #
+            # remove yanked releases
+            #
+            sorted_releases = Version.sort(releases=releases, reverse=True)
+            latest_releases = sorted_releases[:keep]
+            pypi_flag = True
+        # fi
+        d = {Database.RELEASES_RECENT: latest_releases,
+             Database.PYPI_PACKAGE: pypi_flag}
         info = js.get('info')
         if info is not None:
             summary = info.get('summary')
@@ -189,7 +201,12 @@ class PyPiCmd:
     def test_releases_invalid() -> bool:
         package_not_on_pypi = 'arena-api'
         releases_dict = PyPiCmd.get_releases(name=package_not_on_pypi)
-        if releases_dict is not None:
+        if releases_dict is None:
+            return False
+        releases_recent = releases_dict.get('releases_recent')
+        if releases_recent is None:
+            return False
+        if len(releases_recent) > 0:
             return False
         if not PyPiCmd.pypi_not_found(name=package_not_on_pypi):
             return False

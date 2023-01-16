@@ -36,6 +36,7 @@ class Database:
     SUMMARY = 'summary'
     REQUIRES = 'requires'
     REQUIRED_BY = 'required_by'
+    PYPI_PACKAGE = 'pypi_package'
     #
     LEVEL = 'level'
     RELEASES_RECENT = 'releases_recent'
@@ -277,6 +278,35 @@ class Database:
         if level is None:
             return -1
         return int(level)
+
+    def pypi_package_get(self, name: str) -> typing.Union[bool, object]:
+        table = self.table_packages()
+        d = table.get(name)
+        if d is None:
+            return None
+        flag = d.get(Database.PYPI_PACKAGE)
+        if flag is None:
+            return None
+        return flag
+
+    def pypi_package_set(self, name: str, flag: bool) -> bool:
+        if type(flag) != bool:
+            return False
+        table = self.table_packages()
+        d = table.get(name)
+        if d is None:
+            # we assume update only
+            return False
+        old_flag = d.get(Database.PYPI_PACKAGE)
+        if old_flag is None:
+            pass
+        elif old_flag == flag:
+            return True
+        else:
+            self.set_dirty(True, reason='set_pypi_flag: {}: {} -> {}'
+                           .format(name, old_flag, flag))
+        d[Database.PYPI_PACKAGE] = bool(flag)
+        return True
 
     def package_get_releases_checked_time(self, name: str) -> int:
         table = self.table_packages()
