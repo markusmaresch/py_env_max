@@ -32,6 +32,16 @@ class PyPiCmd:
         return None
 
     @staticmethod
+    def pypi_not_found(name: str) -> typing.Union[bool, object]:
+        js = PyPiCmd.get_pypi_json(name)
+        if js is None:
+            return False
+        nf = js.get('message')
+        if nf == 'Not Found':
+            return True
+        return False
+
+    @staticmethod
     def get_releases(name: str, keep: int = 40) -> typing.Union[typing.Dict, object]:
         js = PyPiCmd.get_pypi_json(name)
         if js is None:
@@ -170,13 +180,25 @@ class PyPiCmd:
 
     @staticmethod
     def test_releases_one() -> bool:
-        releases_dict = PyPiCmd().get_releases('tensorflow')
+        releases_dict = PyPiCmd.get_releases('tensorflow')
         if releases_dict is None:
             return False
         return True
 
     @staticmethod
+    def test_releases_invalid() -> bool:
+        package_not_on_pypi = 'arena-api'
+        releases_dict = PyPiCmd.get_releases(name=package_not_on_pypi)
+        if releases_dict is not None:
+            return False
+        if not PyPiCmd.pypi_not_found(name=package_not_on_pypi):
+            return False
+        return True
+
+    @staticmethod
     def pip_selftest() -> bool:
+        if not PyPiCmd.test_releases_invalid():
+            return False
         if not PyPiCmd.test_releases_one():
             return False
         if not PyPiCmd.test_releases_many():
