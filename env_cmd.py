@@ -279,6 +279,9 @@ class EnvCmd:
         # from requires, reverse the pointer logic and calculate required_by efficiently
         #
         print('Calculating required_by ..')
+        installed_packages_list = [Utils.canonicalize_name(p.get(PyPi.PACKAGE_NAME)) for p in
+                                   packages_installed_list_of_dicts]
+        installed_packages_set = set(installed_packages_list)  # set is better than list !
         required_by = dict()
         for package in packages_installed_list_of_dicts:
             requires = package.get(Database.REQUIRES)
@@ -286,6 +289,8 @@ class EnvCmd:
                 continue
             package_name = package.get(PyPi.PACKAGE_NAME)
             key_name = Utils.canonicalize_name(package_name)
+            if key_name not in installed_packages_set:
+                continue  # does not seem to trigger, even if we had orphans
             for req in requires:
                 required = req.get(PyPi.PACKAGE_NAME)
                 # print(key_name, ' -> ', required)
@@ -298,8 +303,10 @@ class EnvCmd:
         # for
         # print(required_by)
         for package in packages_installed_list_of_dicts:
-            package_name = package.get('package_name')
+            package_name = package.get(PyPi.PACKAGE_NAME)
             key_name = Utils.canonicalize_name(package_name)
+            if key_name not in installed_packages_set:
+                continue  # does not seem to trigger, even if we had orphans
             rb_set = required_by.get(key_name)
             if rb_set is None:
                 continue
@@ -339,8 +346,9 @@ class EnvCmd:
         # need to check for orphaned packages: no recent_releases, no level
         packages = db.packages_get_names_all()
         if len(packages_installed_list_of_dicts) < len(packages):
-            installed_packages = [Utils.canonicalize_name(p.get('package_name')) for p in
+            installed_packages = [Utils.canonicalize_name(p.get(PyPi.PACKAGE_NAME)) for p in
                                   packages_installed_list_of_dicts]
+            had_orphans = False
             for p in packages:
                 if p in installed_packages:
                     continue
@@ -351,7 +359,11 @@ class EnvCmd:
                 print('Deleting orphan: {}'.format(p))
                 if not db.package_remove(p):
                     return False
+                had_orphans = True
             # for
+            if had_orphans:
+                print('Might have to install packages above .. ??')
+            # fi
         # fi
 
         if not EnvCmd.calc_required_by(db, packages_installed_list_of_dicts):
