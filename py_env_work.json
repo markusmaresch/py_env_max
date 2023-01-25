@@ -6,7 +6,8 @@
         "affinegap": {
             "level": 1,
             "package_name": "affinegap",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "1.12",
                 "1.11",
@@ -29,7 +30,8 @@
         "beautifulsoup4": {
             "level": 2,
             "package_name": "beautifulsoup4",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "4.11.1",
                 "4.11.0",
@@ -85,7 +87,8 @@
         "categorical-distance": {
             "level": 2,
             "package_name": "categorical-distance",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "1.9",
                 "1.8",
@@ -110,7 +113,8 @@
         "certifi": {
             "level": 1,
             "package_name": "certifi",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "2022.12.7",
                 "2022.9.24",
@@ -163,7 +167,8 @@
         "cffi": {
             "level": 2,
             "package_name": "cffi",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "1.15.1",
                 "1.15.0",
@@ -222,7 +227,8 @@
         "charset-normalizer": {
             "level": 1,
             "package_name": "charset-normalizer",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "3.0.1",
                 "3.0.0",
@@ -275,7 +281,8 @@
         "click": {
             "level": 1,
             "package_name": "click",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "8.1.3",
                 "8.1.2",
@@ -328,7 +335,8 @@
         "datetime-distance": {
             "level": 3,
             "package_name": "datetime-distance",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "0.1.3",
                 "0.1.2",
@@ -361,7 +369,8 @@
         "dedupe-hcluster": {
             "level": 2,
             "package_name": "dedupe-hcluster",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "0.3.9",
                 "0.3.8",
@@ -387,7 +396,8 @@
         "doublemetaphone": {
             "level": 1,
             "package_name": "DoubleMetaphone",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "1.1",
                 "0.1"
@@ -399,7 +409,8 @@
         "fastcluster": {
             "level": 2,
             "package_name": "fastcluster",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "1.2.6",
                 "1.2.5",
@@ -441,7 +452,8 @@
         "flake8": {
             "level": 2,
             "package_name": "flake8",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "6.0.0",
                 "5.0.4",
@@ -508,7 +520,8 @@
         "flask": {
             "level": 3,
             "package_name": "Flask",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "2.2.2",
                 "2.2.1",
@@ -579,7 +592,7 @@
                     "requires": [
                         {
                             "package_name": "MarkupSafe",
-                            "version_installed": "2.1.1",
+                            "version_installed": "2.1.2",
                             "version_required": ">=2.0"
                         }
                     ],
@@ -591,7 +604,7 @@
                     "requires": [
                         {
                             "package_name": "MarkupSafe",
-                            "version_installed": "2.1.1",
+                            "version_installed": "2.1.2",
                             "version_required": ">=2.1.1"
                         }
                     ],
@@ -606,7 +619,8 @@
         "future": {
             "level": 1,
             "package_name": "future",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "0.18.3",
                 "0.18.2",
@@ -659,7 +673,8 @@
         "haversine": {
             "level": 1,
             "package_name": "haversine",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "2.7.0",
                 "2.6.0",
@@ -694,7 +709,8 @@
         "highered": {
             "level": 4,
             "package_name": "highered",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "0.2.1",
                 "0.2.0",
@@ -742,7 +758,8 @@
         "idna": {
             "level": 1,
             "package_name": "idna",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "3.4",
                 "3.3",
@@ -782,7 +799,8 @@
         "importlib-metadata": {
             "level": 2,
             "package_name": "importlib-metadata",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "6.0.0",
                 "5.2.0",
@@ -842,7 +860,8 @@
         "itsdangerous": {
             "level": 1,
             "package_name": "itsdangerous",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "2.1.2",
                 "2.1.1",
@@ -881,7 +900,8 @@
         "jinja2": {
             "level": 2,
             "package_name": "Jinja2",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "3.1.2",
                 "3.1.1",
@@ -927,7 +947,7 @@
             "requires": [
                 {
                     "package_name": "MarkupSafe",
-                    "version_installed": "2.1.1",
+                    "version_installed": "2.1.2",
                     "version_required": ">=2.0"
                 }
             ],
@@ -938,7 +958,8 @@
         "levenshtein-search": {
             "level": 1,
             "package_name": "Levenshtein-search",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "1.4.6",
                 "1.4.5",
@@ -951,44 +972,47 @@
         "markupsafe": {
             "level": 1,
             "package_name": "MarkupSafe",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
-                "2.1.1",
-                "2.1.0",
-                "2.0.1",
-                "2.0.0",
-                "2.0.0rc2",
-                "2.0.0rc1",
-                "2.0.0a1",
-                "1.1.1",
-                "1.1.0",
-                "1.0",
-                "0.23",
-                "0.22",
-                "0.21",
-                "0.20",
-                "0.19",
-                "0.18",
-                "0.17",
-                "0.16",
-                "0.15",
-                "0.14",
-                "0.13",
-                "0.12",
                 "0.11",
-                "0.9.3",
-                "0.9.2",
+                "0.12",
+                "0.13",
+                "0.14",
+                "0.15",
+                "0.16",
+                "0.17",
+                "0.18",
+                "0.19",
+                "0.20",
+                "0.21",
+                "0.22",
+                "0.23",
+                "0.9",
                 "0.9.1",
-                "0.9"
+                "0.9.2",
+                "0.9.3",
+                "1.0",
+                "1.1.0",
+                "1.1.1",
+                "2.0.0",
+                "2.0.0a1",
+                "2.0.0rc1",
+                "2.0.0rc2",
+                "2.0.1",
+                "2.1.0",
+                "2.1.1",
+                "2.1.2"
             ],
             "summary": "Safely add untrusted strings to HTML/XML markup",
-            "version_installed": "2.1.1",
-            "version_required": "2.1.1"
+            "version_installed": "2.1.2",
+            "version_required": "2.1.2"
         },
         "mccabe": {
             "level": 1,
             "package_name": "mccabe",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "0.7.0",
                 "0.6.1",
@@ -1014,7 +1038,8 @@
         "mouseinfo": {
             "level": 2,
             "package_name": "MouseInfo",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "0.1.3",
                 "0.1.2",
@@ -1032,7 +1057,7 @@
                 },
                 {
                     "package_name": "rubicon-objc",
-                    "version_installed": "0.4.3"
+                    "version_installed": "0.4.4"
                 }
             ],
             "summary": "An application to display XY position and RGB color information for the pixel currently under the mouse. Works on Python 2 and 3",
@@ -1042,7 +1067,8 @@
         "numpy": {
             "level": 1,
             "package_name": "numpy",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "1.24.1",
                 "1.24.0",
@@ -1103,48 +1129,50 @@
         "pandas": {
             "level": 3,
             "package_name": "pandas",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
-                "1.5.2",
-                "1.5.1",
-                "1.5.0",
-                "1.5.0rc0",
-                "1.4.4",
-                "1.4.3",
-                "1.4.2",
-                "1.4.1",
+                "0.24.1",
+                "0.24.2",
+                "0.25.0",
+                "0.25.1",
+                "0.25.2",
+                "0.25.3",
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.1.4",
+                "1.1.5",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2",
+                "1.2.3",
+                "1.2.4",
+                "1.2.5",
+                "1.3.0",
+                "1.3.1",
+                "1.3.2",
+                "1.3.3",
+                "1.3.4",
+                "1.3.5",
                 "1.4.0",
                 "1.4.0rc0",
-                "1.3.5",
-                "1.3.4",
-                "1.3.3",
-                "1.3.2",
-                "1.3.1",
-                "1.3.0",
-                "1.2.5",
-                "1.2.4",
-                "1.2.3",
-                "1.2.2",
-                "1.2.1",
-                "1.2.0",
-                "1.1.5",
-                "1.1.4",
-                "1.1.3",
-                "1.1.2",
-                "1.1.1",
-                "1.1.0",
-                "1.0.5",
-                "1.0.4",
-                "1.0.3",
-                "1.0.2",
-                "1.0.1",
-                "1.0.0",
-                "0.25.3",
-                "0.25.2",
-                "0.25.1",
-                "0.25.0",
-                "0.24.2",
-                "0.24.1"
+                "1.4.1",
+                "1.4.2",
+                "1.4.3",
+                "1.4.4",
+                "1.5.0",
+                "1.5.0rc0",
+                "1.5.1",
+                "1.5.2",
+                "1.5.3"
             ],
             "requires": [
                 {
@@ -1171,13 +1199,14 @@
                 }
             ],
             "summary": "Powerful data structures for data analysis, time series, and statistics",
-            "version_installed": "1.5.2",
-            "version_required": "1.5.2"
+            "version_installed": "1.5.3",
+            "version_required": "1.5.3"
         },
         "persistent": {
             "level": 3,
             "package_name": "persistent",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "5.0",
                 "4.9.3",
@@ -1234,7 +1263,7 @@
                     "requires": [
                         {
                             "package_name": "setuptools",
-                            "version_installed": "65.7.0"
+                            "version_installed": "66.1.1"
                         }
                     ],
                     "version_installed": "5.5.2"
@@ -1247,7 +1276,8 @@
         "pillow": {
             "level": 1,
             "package_name": "Pillow",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "9.4.0",
                 "9.3.0",
@@ -1297,7 +1327,8 @@
         "pip": {
             "level": 1,
             "package_name": "pip",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "22.3.1",
                 "22.3",
@@ -1347,7 +1378,8 @@
         "pycodestyle": {
             "level": 1,
             "package_name": "pycodestyle",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "2.10.0",
                 "2.9.1",
@@ -1377,7 +1409,8 @@
         "pycparser": {
             "level": 1,
             "package_name": "pycparser",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "2.21",
                 "2.20",
@@ -1411,7 +1444,8 @@
         "pyflakes": {
             "level": 1,
             "package_name": "pyflakes",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "3.0.1",
                 "3.0.0",
@@ -1460,7 +1494,8 @@
         "pygetwindow": {
             "level": 2,
             "package_name": "PyGetWindow",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "0.0.9",
                 "0.0.8",
@@ -1485,7 +1520,8 @@
         "pyhacrf-datamade": {
             "level": 3,
             "package_name": "pyhacrf-datamade",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "0.2.6",
                 "0.2.5",
@@ -1524,7 +1560,8 @@
         "pylbfgs": {
             "level": 2,
             "package_name": "PyLBFGS",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "0.2.0.14",
                 "0.2.0.13",
@@ -1572,7 +1609,8 @@
         "pymsgbox": {
             "level": 1,
             "package_name": "PyMsgBox",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "1.0.9",
                 "1.0.8",
@@ -1592,7 +1630,8 @@
         "pyperclip": {
             "level": 1,
             "package_name": "pyperclip",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "1.8.2",
                 "1.8.1",
@@ -1645,7 +1684,8 @@
         "pyrect": {
             "level": 1,
             "package_name": "PyRect",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "0.2.0",
                 "0.1.4",
@@ -1667,7 +1707,8 @@
         "pyscreeze": {
             "level": 1,
             "package_name": "PyScreeze",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "0.1.28",
                 "0.1.27",
@@ -1702,7 +1743,8 @@
         "python-dateutil": {
             "level": 2,
             "package_name": "python-dateutil",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "2.8.2",
                 "2.8.1",
@@ -1755,7 +1797,8 @@
         "pytweening": {
             "level": 1,
             "package_name": "pytweening",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "1.0.4",
                 "1.0.3",
@@ -1770,7 +1813,8 @@
         "pytz": {
             "level": 1,
             "package_name": "pytz",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "2022.7.1",
                 "2022.7",
@@ -1823,7 +1867,8 @@
         "requests": {
             "level": 2,
             "package_name": "requests",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "2.28.2",
                 "2.28.1",
@@ -1898,7 +1943,8 @@
         "rlr": {
             "level": 3,
             "package_name": "rlr",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "2.4.6",
                 "2.4.5",
@@ -1942,94 +1988,102 @@
         "rubicon-objc": {
             "level": 1,
             "package_name": "rubicon-objc",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
-                "0.4.3",
-                "0.4.2",
-                "0.4.1",
-                "0.4.0",
-                "0.3.1",
-                "0.3.0",
-                "0.2.10",
-                "0.2.9",
-                "0.2.8",
-                "0.2.7",
-                "0.2.6",
-                "0.2.4",
-                "0.2.3",
-                "0.2.2",
-                "0.2.1",
-                "0.2.0",
-                "0.1.3",
-                "0.1.2",
-                "0.1.1",
+                "0.0.0",
                 "0.1.0",
-                "0.0.0"
+                "0.1.1",
+                "0.1.2",
+                "0.1.3",
+                "0.2.0",
+                "0.2.1",
+                "0.2.10",
+                "0.2.2",
+                "0.2.3",
+                "0.2.4",
+                "0.2.6",
+                "0.2.7",
+                "0.2.8",
+                "0.2.9",
+                "0.3.0",
+                "0.3.1",
+                "0.4.0",
+                "0.4.1",
+                "0.4.2",
+                "0.4.3",
+                "0.4.4",
+                "0.4.5rc1"
             ],
             "required_by": [
                 "mouseinfo"
             ],
             "summary": "A bridge between an Objective C runtime environment and Python",
-            "version_installed": "0.4.3",
-            "version_required": "0.4.3"
+            "version_installed": "0.4.4",
+            "version_required": "0.4.4"
         },
         "setuptools": {
             "level": 1,
             "package_name": "setuptools",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
-                "65.7.0",
-                "65.6.3",
-                "65.6.2",
-                "65.6.1",
-                "65.6.0",
-                "65.5.1",
-                "65.5.0",
-                "65.4.1",
-                "65.4.0",
-                "65.3.0",
-                "65.2.0",
-                "65.1.1",
-                "65.1.0",
-                "65.0.2",
-                "65.0.1",
-                "65.0.0",
-                "64.0.3",
-                "64.0.2",
-                "64.0.1",
-                "64.0.0",
-                "63.4.3",
-                "63.4.2",
-                "63.4.1",
-                "63.4.0",
-                "63.3.0",
-                "63.2.0",
-                "63.1.0",
+                "62.0.0",
+                "62.1.0",
+                "62.2.0",
+                "62.3.0",
+                "62.3.1",
+                "62.3.2",
+                "62.3.3",
+                "62.3.4",
+                "62.4.0",
+                "62.5.0",
+                "62.6.0",
                 "63.0.0",
                 "63.0.0b1",
-                "62.6.0",
-                "62.5.0",
-                "62.4.0",
-                "62.3.4",
-                "62.3.3",
-                "62.3.2",
-                "62.3.1",
-                "62.3.0",
-                "62.2.0",
-                "62.1.0",
-                "62.0.0"
+                "63.1.0",
+                "63.2.0",
+                "63.3.0",
+                "63.4.0",
+                "63.4.1",
+                "63.4.2",
+                "63.4.3",
+                "64.0.0",
+                "64.0.1",
+                "64.0.2",
+                "64.0.3",
+                "65.0.0",
+                "65.0.1",
+                "65.0.2",
+                "65.1.0",
+                "65.1.1",
+                "65.2.0",
+                "65.3.0",
+                "65.4.0",
+                "65.4.1",
+                "65.5.0",
+                "65.5.1",
+                "65.6.0",
+                "65.6.1",
+                "65.6.2",
+                "65.6.3",
+                "65.7.0",
+                "66.0.0",
+                "66.1.0",
+                "66.1.1"
             ],
             "required_by": [
                 "zope-interface"
             ],
             "summary": "Easily download, build, install, upgrade, and uninstall Python packages",
-            "version_installed": "65.7.0",
-            "version_required": "65.7.0"
+            "version_installed": "66.1.1",
+            "version_required": "66.1.1"
         },
         "simplecosine": {
             "level": 2,
             "package_name": "simplecosine",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "1.2",
                 "1.1",
@@ -2048,7 +2102,8 @@
         "six": {
             "level": 1,
             "package_name": "six",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "1.16.0",
                 "1.15.0",
@@ -2089,7 +2144,8 @@
         "soupsieve": {
             "level": 1,
             "package_name": "soupsieve",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "2.3.2.post1",
                 "2.3.2",
@@ -2142,7 +2198,8 @@
         "typing-extensions": {
             "level": 1,
             "package_name": "typing-extensions",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "4.4.0",
                 "4.3.0",
@@ -2171,7 +2228,8 @@
         "urllib3": {
             "level": 1,
             "package_name": "urllib3",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "2.0.0a3",
                 "2.0.0a2",
@@ -2224,7 +2282,8 @@
         "werkzeug": {
             "level": 2,
             "package_name": "Werkzeug",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "2.2.2",
                 "2.2.1",
@@ -2270,7 +2329,7 @@
             "requires": [
                 {
                     "package_name": "MarkupSafe",
-                    "version_installed": "2.1.1",
+                    "version_installed": "2.1.2",
                     "version_required": ">=2.1.1"
                 }
             ],
@@ -2281,7 +2340,8 @@
         "wheel": {
             "level": 1,
             "package_name": "wheel",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "0.38.4",
                 "0.38.3",
@@ -2331,7 +2391,8 @@
         "wikipedia": {
             "level": 3,
             "package_name": "wikipedia",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "1.4.0",
                 "1.3.1",
@@ -2401,7 +2462,8 @@
         "zipp": {
             "level": 1,
             "package_name": "zipp",
-            "releases_checked_time": 1673814264,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "3.11.0",
                 "3.10.0",
@@ -2454,7 +2516,8 @@
         "zope-interface": {
             "level": 2,
             "package_name": "zope.interface",
-            "releases_checked_time": 1673815155,
+            "pypi_package": true,
+            "releases_checked_time": 1674675840,
             "releases_recent": [
                 "5.5.2",
                 "5.5.1",
@@ -2500,7 +2563,7 @@
             "requires": [
                 {
                     "package_name": "setuptools",
-                    "version_installed": "65.7.0"
+                    "version_installed": "66.1.1"
                 }
             ],
             "summary": "Interfaces for Python",
