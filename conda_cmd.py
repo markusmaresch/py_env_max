@@ -22,8 +22,8 @@ class CondaCmd:
                 version = v[1]
                 break
             # for
-        except:
-            pass
+        except Exception as e:
+            print('Failed: conda -V .. {}'.format(e))
         if not version:
             print('Failed: conda -V')
         return version
