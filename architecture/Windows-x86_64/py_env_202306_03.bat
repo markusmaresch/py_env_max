@@ -1,7 +1,7 @@
 rem Level 3
 pip install agate==1.7.1 aiohttp==3.8.4 alembic==1.10.4 analytics-python==1.4.0 argon2-cffi-bindings==21.2.0 arrow==1.2.3 astropy==5.2.2 asynq==1.4.0
 pip check
-pip install axial-positional-embedding==0.2.1 azure-core==1.26.4 black==22.12.0 blessed==1.20.0 bokeh==2.4.3 botocore==1.29.117 branca==0.6.0 brotlipy==0.7.0
+pip install axial-positional-embedding==0.2.1 azure-core==1.26.4 black==22.12.0 blessed==1.20.0 bokeh==2.4.3 botocore==1.29.120 branca==0.6.0 brotlipy==0.7.0
 pip check
 pip install bs4==0.0.1 build==0.10.0 cachecontrol==0.12.12 click-didyoumean==0.3.0 click-plugins==1.1.1 click-repl==0.2.0 cligj==0.7.2 coinpaprika==0.1.0
 pip check
@@ -35,12 +35,12 @@ pip install requests-unixsocket==0.3.0 resampy==0.4.2 responses==0.18.0 rich==13
 pip check
 pip install scikit-learn==1.0.2 scikit-surprise==1.1.3 sclblpy==0.1.8 scs==3.2.3 setuptools-scm==7.1.0 simpful==2.10.0 soundfile==0.12.1 spectra==0.0.11
 pip check
-pip install sphinx==4.5.0 stack-data==0.6.2 stanza==1.5.0 starlette==0.26.1 streamz==0.6.4 stumpy==1.11.1 tables==3.8.0 tensorboardx==2.6
+pip install sphinx==4.5.0 stack-data==0.6.2 stanza==1.5.0 starlette==0.26.1 stumpy==1.11.1 tables==3.8.0 tensorboardx==2.6 tensorflow-addons==0.20.0
 pip check
-pip install tensorflow-addons==0.20.0 tensorflow-metadata==1.12.0 tf2onnx==1.14.0 theano==1.0.5 tiingo==0.14.0 tiledb==0.21.2 torchaudio==0.11.0 torchmetrics==0.11.4
+pip install tensorflow-metadata==1.12.0 tf2onnx==1.14.0 theano==1.0.5 tiingo==0.14.0 tiledb==0.21.2 torchaudio==0.11.0 torchmetrics==0.11.4 torchvision==0.12.0
 pip check
-pip install torchvision==0.12.0 trio==0.20.0 typer==0.7.0 typeshed-client==2.2.0 tzlocal==4.3 userpath==1.8.0 uvicorn==0.21.1 vispy==0.12.2
+pip install trio==0.20.0 typer==0.7.0 typeshed-client==2.2.0 tzlocal==4.3 userpath==1.8.0 uvicorn==0.21.1 vispy==0.12.2 xgboost==1.7.5
 pip check
-pip install xgboost==1.7.5 yahoofinancials==1.14 zarr==2.14.2
+pip install yahoofinancials==1.14 zarr==2.14.2
 pip check
 rem Level 3

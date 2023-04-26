@@ -17,7 +17,7 @@ pip install mlxtend==0.22.0 moviepy==1.0.3 mplfinance==0.12.8b9 msrest==0.7.1 mu
 pip check
 pip install onnxruntime==1.14.1 openai==0.27.4 osqp==0.6.2.post5 pandas-datareader==0.10.0 pandas-dedupe==1.5.0 pandera==0.14.5 panel==0.14.4 paramiko==3.1.0
 pip check
-pip install pathy==0.10.1 performer-pytorch==1.1.4 pettingzoo==1.22.3 phik==0.12.3 pip-tools==6.13.0 pipx==1.2.0 powerlaw==1.5 proj==0.2.0
+pip install pathy==0.10.1 performer-pytorch==1.1.4 pettingzoo==1.22.4 phik==0.12.3 pip-tools==6.13.0 pipx==1.2.0 powerlaw==1.5 proj==0.2.0
 pip check
 pip install prometheus-flask-exporter==0.22.3 py-vollib==1.0.1 pyanalyze==0.9.0 pycocotools==2.0.6 pydata-sphinx-theme==0.13.3 pygithub==1.58.1 pynndescent==0.5.10 pyod==1.0.9
 pip check
@@ -29,7 +29,7 @@ pip install sphinx-markdown-tables==0.0.17 sphinx-panels==0.6.0 sphinxcontrib-jq
 pip check
 pip install textblob==0.15.3 thinc==8.1.9 torch-optimizer==0.3.0 trading-calendars==2.1.1 transformers==4.28.1 trio-websocket==0.9.2 tweepy==4.14.0 vega-datasets==0.9.0
 pip check
-pip install visions==0.7.5 wandb==0.15.0 webargs==8.2.0 wordcloud==1.8.2.2 wrds==3.1.6 xarray==2023.4.2 yellowbrick==1.5 yfinance==0.2.17
+pip install visions==0.7.5 wandb==0.15.0 webargs==8.2.0 wordcloud==1.8.2.2 wrds==3.1.6 xarray==2023.4.2 yellowbrick==1.5 yfinance==0.2.18
 pip check
 pip install zeep==4.2.1
 pip check

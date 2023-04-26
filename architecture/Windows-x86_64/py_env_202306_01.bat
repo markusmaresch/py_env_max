@@ -83,7 +83,7 @@ pip install sphinxcontrib-qthelp==1.0.3 sphinxcontrib-serializinghtml==1.1.5 sql
 pip check
 pip install tbb==2021.5.0 tblib==1.7.0 tenacity==8.2.2 tensorboard-data-server==0.6.1 tensorboard-plugin-wit==1.8.1 tensorflow-estimator==2.9.0 tensorflow-gcs-config==2.12.0 tensorflow-io-gcs-filesystem==0.31.0
 pip check
-pip install termcolor==2.3.0 termcolor-whl==1.1.2 testpath==0.6.0 text-unidecode==1.3 texttable==1.6.7 tf-estimator-nightly==2.13.0.dev2023042008 threadpoolctl==3.1.0 tinydb==4.7.1
+pip install termcolor==2.3.0 termcolor-whl==1.1.2 testpath==0.6.0 text-unidecode==1.3 texttable==1.6.7 tf-estimator-nightly==2.13.0.dev2023042508 threadpoolctl==3.1.0 tinydb==4.7.1
 pip check
 pip install tokenizers==0.13.3 toml==0.10.2 tomli==2.0.1 tomlkit==0.11.7 toolz==0.12.0 torchsummary==1.5.1 tornado==6.3.1 traitlets==5.9.0
 pip check
@@ -95,6 +95,6 @@ pip install waitress==2.1.2 wcwidth==0.2.6 webcolors==1.13 webencodings==0.5.1 w
 pip check
 pip install widgetsnbextension==4.0.7 wincertstore==0.2 wireless==0.3.3 wrapt==1.15.0 xlrd==2.0.1 xlsxwriter==3.1.0 xlwt==1.3.0 xxhash==3.2.0
 pip check
-pip install xyzservices==2023.2.0 y-py==0.5.9 zipp==3.15.0 zstd==1.5.5.1
+pip install xyzservices==2023.2.0 y-py==0.5.9 zict==3.0.0 zipp==3.15.0 zstd==1.5.5.1
 pip check
 rem Level 1
