@@ -1,3 +1,7 @@
+rerun-sdk
+	-> pyarrow
+gym-unity
+	-> gym==0.20.0
 openvino-dev
 tensorflowjs
 

@@ -9,5 +9,6 @@ old
 *.cprof
 *.png
 #py_env_*_[0-1][0-9].sh
+py_env_*.json
 py_env_*.json.old
 py_env_*_all.log
