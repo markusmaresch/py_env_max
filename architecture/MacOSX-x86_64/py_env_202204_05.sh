@@ -1,5 +1,5 @@
 # Level 5
-pip install albumentations==1.3.0 boto3==1.26.125 category-encoders==1.3.0 cornac==1.15.1 cvxpy==1.3.1 dask-ml==2022.5.27 etuples==0.3.8 google-api-python-client==2.86.0
+pip install albumentations==1.3.0 boto3==1.26.129 category-encoders==1.3.0 cornac==1.15.1 cvxpy==1.3.1 dask-ml==2022.5.27 etuples==0.3.8 google-api-python-client==2.86.0
 pip check
 pip install google-cloud-bigquery-storage==2.13.2 google-cloud-core==2.3.2 google-cloud-language==2.9.1 gspread==5.8.0 ipykernel==6.22.0 missingno==0.5.2 nbconvert==7.3.1 open3d==0.16.1
 pip check

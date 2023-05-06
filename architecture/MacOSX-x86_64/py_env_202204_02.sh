@@ -13,7 +13,7 @@ pip install django==4.2.1 docker-pycreds==0.4.0 elastic-transport==8.4.0 email-v
 pip check
 pip install fire==0.5.0 flake8==6.0.0 fs==2.4.16 ftfy==6.1.1 geopy==2.3.0 gitdb==4.0.10 glog==0.3.1 google-pasta==0.2.0
 pip check
-pip install google-resumable-media==2.3.3 googleapis-common-protos==1.56.4 grpcio==1.49.0 gunicorn==20.1.0 h5py==3.8.0 html5lib==1.1 httplib2==0.20.4 hypothesis==6.75.0
+pip install google-resumable-media==2.3.3 googleapis-common-protos==1.56.4 grpcio==1.49.0 gunicorn==20.1.0 h5py==3.8.0 html5lib==1.1 httplib2==0.20.4 hypothesis==6.75.2
 pip check
 pip install imagecodecs==2023.3.16 imageio==2.28.1 imagezmq==1.1.1 importlab==0.8 importlib-metadata==6.6.0 importlib-resources==5.12.0 intervaltree==3.1.0 isodate==0.6.1
 pip check

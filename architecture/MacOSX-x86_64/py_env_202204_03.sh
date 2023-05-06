@@ -1,7 +1,7 @@
 # Level 3
 pip install agate==1.7.1 aiohttp==3.8.4 alembic==1.10.4 analytics-python==1.4.0 argon2-cffi-bindings==21.2.0 arrow==1.2.3 astropy==5.2.2 asynq==1.4.0
 pip check
-pip install axial-positional-embedding==0.2.1 azure-core==1.26.4 bokeh==2.4.3 botocore==1.29.126 branca==0.6.0 brotlipy==0.7.0 bs4==0.0.1 build==0.10.0
+pip install axial-positional-embedding==0.2.1 azure-core==1.26.4 bokeh==2.4.3 botocore==1.29.129 branca==0.6.0 brotlipy==0.7.0 bs4==0.0.1 build==0.10.0
 pip check
 pip install cachecontrol==0.12.12 cairocffi==1.5.1 click-repl==0.2.0 coinpaprika==0.1.0 colorcet==3.0.1 comcrawl==1.0.2 confection==0.0.4 coremltools==6.3.0
 pip check
@@ -19,7 +19,7 @@ pip install hyperopt==0.2.7 ib-insync==0.9.85 imagecodecs-lite==2022.9.26 imageh
 pip check
 pip install jax==0.4.8 jupyter-client==8.2.0 jupyter-events==0.5.0 jupyter-server-terminals==0.4.4 jupyter-ydoc==0.3.4 kaggle==1.5.13 kivy-garden==0.1.5 libcst==0.4.9
 pip check
-pip install lightning-utilities==0.8.0 local-attention==1.8.6 logical-unification==0.4.5 luigi==3.3.0 lunarcalendar==0.0.9 markdown==3.4.3 marshmallow==3.19.0 mastodon-py==1.8.1
+pip install lightning-utilities==0.8.0 local-attention==1.8.6 logical-unification==0.4.6 luigi==3.3.0 lunarcalendar==0.0.9 markdown==3.4.3 marshmallow==3.19.0 mastodon-py==1.8.1
 pip check
 pip install matplotlib==3.6.3 mdit-py-plugins==0.3.5 miniful==0.0.6 minimal-snowplow-tracker==0.0.2 mixpanel==4.10.0 mlagents-envs==0.28.0 moviepy==1.0.3 nbformat==5.5.0
 pip check

@@ -117,7 +117,7 @@ pip install django==4.2.1 docker-pycreds==0.4.0 elastic-transport==8.4.0 email-v
 pip check
 pip install fire==0.5.0 flake8==6.0.0 fs==2.4.16 ftfy==6.1.1 geopy==2.3.0 gitdb==4.0.10 glog==0.3.1 google-pasta==0.2.0
 pip check
-pip install google-resumable-media==2.3.3 googleapis-common-protos==1.56.4 grpcio==1.49.0 gunicorn==20.1.0 h5py==3.8.0 html5lib==1.1 httplib2==0.20.4 hypothesis==6.75.0
+pip install google-resumable-media==2.3.3 googleapis-common-protos==1.56.4 grpcio==1.49.0 gunicorn==20.1.0 h5py==3.8.0 html5lib==1.1 httplib2==0.20.4 hypothesis==6.75.2
 pip check
 pip install imagecodecs==2023.3.16 imageio==2.28.1 imagezmq==1.1.1 importlab==0.8 importlib-metadata==6.6.0 importlib-resources==5.12.0 intervaltree==3.1.0 isodate==0.6.1
 pip check
@@ -157,7 +157,7 @@ pip check
 # Level 3
 pip install agate==1.7.1 aiohttp==3.8.4 alembic==1.10.4 analytics-python==1.4.0 argon2-cffi-bindings==21.2.0 arrow==1.2.3 astropy==5.2.2 asynq==1.4.0
 pip check
-pip install axial-positional-embedding==0.2.1 azure-core==1.26.4 bokeh==2.4.3 botocore==1.29.126 branca==0.6.0 brotlipy==0.7.0 bs4==0.0.1 build==0.10.0
+pip install axial-positional-embedding==0.2.1 azure-core==1.26.4 bokeh==2.4.3 botocore==1.29.129 branca==0.6.0 brotlipy==0.7.0 bs4==0.0.1 build==0.10.0
 pip check
 pip install cachecontrol==0.12.12 cairocffi==1.5.1 click-repl==0.2.0 coinpaprika==0.1.0 colorcet==3.0.1 comcrawl==1.0.2 confection==0.0.4 coremltools==6.3.0
 pip check
@@ -175,7 +175,7 @@ pip install hyperopt==0.2.7 ib-insync==0.9.85 imagecodecs-lite==2022.9.26 imageh
 pip check
 pip install jax==0.4.8 jupyter-client==8.2.0 jupyter-events==0.5.0 jupyter-server-terminals==0.4.4 jupyter-ydoc==0.3.4 kaggle==1.5.13 kivy-garden==0.1.5 libcst==0.4.9
 pip check
-pip install lightning-utilities==0.8.0 local-attention==1.8.6 logical-unification==0.4.5 luigi==3.3.0 lunarcalendar==0.0.9 markdown==3.4.3 marshmallow==3.19.0 mastodon-py==1.8.1
+pip install lightning-utilities==0.8.0 local-attention==1.8.6 logical-unification==0.4.6 luigi==3.3.0 lunarcalendar==0.0.9 markdown==3.4.3 marshmallow==3.19.0 mastodon-py==1.8.1
 pip check
 pip install matplotlib==3.6.3 mdit-py-plugins==0.3.5 miniful==0.0.6 minimal-snowplow-tracker==0.0.2 mixpanel==4.10.0 mlagents-envs==0.28.0 moviepy==1.0.3 nbformat==5.5.0
 pip check
@@ -267,7 +267,7 @@ pip install wandb==0.15.2 webargs==8.2.0 wordcloud==1.9.1.1 wrds==3.1.6 xarray==
 pip check
 # Level 4
 # Level 5
-pip install albumentations==1.3.0 boto3==1.26.125 category-encoders==1.3.0 cornac==1.15.1 cvxpy==1.3.1 dask-ml==2022.5.27 etuples==0.3.8 google-api-python-client==2.86.0
+pip install albumentations==1.3.0 boto3==1.26.129 category-encoders==1.3.0 cornac==1.15.1 cvxpy==1.3.1 dask-ml==2022.5.27 etuples==0.3.8 google-api-python-client==2.86.0
 pip check
 pip install google-cloud-bigquery-storage==2.13.2 google-cloud-core==2.3.2 google-cloud-language==2.9.1 gspread==5.8.0 ipykernel==6.22.0 missingno==0.5.2 nbconvert==7.3.1 open3d==0.16.1
 pip check
