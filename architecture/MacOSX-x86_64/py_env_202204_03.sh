@@ -1,25 +1,25 @@
 # Level 3
-pip install agate==1.7.1 aiohttp==3.8.4 alembic==1.10.3 analytics-python==1.4.0 argon2-cffi-bindings==21.2.0 arrow==1.2.3 astropy==5.2.2 asynq==1.4.0
+pip install agate==1.7.1 aiohttp==3.8.4 alembic==1.10.4 analytics-python==1.4.0 argon2-cffi-bindings==21.2.0 arrow==1.2.3 astropy==5.2.2 asynq==1.4.0
 pip check
-pip install axial-positional-embedding==0.2.1 azure-core==1.26.4 bokeh==2.4.3 botocore==1.29.115 branca==0.6.0 brotlipy==0.7.0 bs4==0.0.1 build==0.10.0
+pip install axial-positional-embedding==0.2.1 azure-core==1.26.4 bokeh==2.4.3 botocore==1.29.126 branca==0.6.0 brotlipy==0.7.0 bs4==0.0.1 build==0.10.0
 pip check
 pip install cachecontrol==0.12.12 cairocffi==1.5.1 click-repl==0.2.0 coinpaprika==0.1.0 colorcet==3.0.1 comcrawl==1.0.2 confection==0.0.4 coremltools==6.3.0
 pip check
-pip install croniter==1.3.14 cryptography==40.0.1 cssselect2==0.7.0 curtsies==0.4.1 dask==2022.6.1 databricks-cli==0.17.6 datashape==0.5.2 datetime==5.1
+pip install croniter==1.3.14 cryptography==40.0.2 cssselect2==0.7.0 curtsies==0.4.1 dask==2022.6.1 databricks-cli==0.17.6 datashape==0.5.2 datetime==5.1
 pip check
 pip install datetime-distance==0.1.3 deprecation==2.1.0 django-cors-headers==3.14.0 django-extensions==3.2.1 django-http-exceptions==1.4.0 django-model-utils==4.3.1 django-request-logging==0.7.5 djangorestframework==3.14.0
 pip check
-pip install docker==6.0.1 ecos==2.0.12 elasticsearch==8.7.0 fake-useragent==1.1.3 fastcore==1.5.29 feather-format==0.4.1 flask==2.2.3 gdown==4.7.1
+pip install docker==6.1.0 ecos==2.0.12 elasticsearch==8.7.0 fake-useragent==1.1.3 fastcore==1.5.29 feather-format==0.4.1 flask==2.2.3 gdown==4.7.1
 pip check
 pip install gensim==4.3.1 gitpython==3.1.31 google==3.0.0 google-auth==2.15.0 googletransx==2.4.2 gpustat==1.1 grpc-google-iam-v1==0.12.6 grpcio-status==1.48.1
 pip check
-pip install gym==0.26.2 gymnasium==0.28.1 h2o==3.40.0.3 h5netcdf==1.1.0 holidays==0.23 httpcore==0.17.0 httplib2shim==0.0.3 huggingface-hub==0.13.4
+pip install gym==0.26.2 gymnasium==0.28.1 h2o==3.40.0.4 h5netcdf==1.1.0 holidays==0.24 httpcore==0.17.0 httplib2shim==0.0.3 huggingface-hub==0.14.1
 pip check
-pip install hyperopt==0.2.7 ib-insync==0.9.81 imagecodecs-lite==2022.9.26 imagehash==4.3.1 inflect==6.0.4 influxdb-client==1.36.1 int-date==0.2.0 intrinio-sdk==6.23.1
+pip install hyperopt==0.2.7 ib-insync==0.9.85 imagecodecs-lite==2022.9.26 imagehash==4.3.1 inflect==6.0.4 influxdb-client==1.36.1 int-date==0.2.0 intrinio-sdk==6.23.1
 pip check
-pip install jax==0.4.8 jupyter-client==8.2.0 jupyter-events==0.5.0 jupyter-server-terminals==0.4.4 jupyter-ydoc==0.2.4 kaggle==1.5.13 kivy-garden==0.1.5 libcst==0.4.9
+pip install jax==0.4.8 jupyter-client==8.2.0 jupyter-events==0.5.0 jupyter-server-terminals==0.4.4 jupyter-ydoc==0.3.4 kaggle==1.5.13 kivy-garden==0.1.5 libcst==0.4.9
 pip check
-pip install lightning-utilities==0.8.0 local-attention==1.8.5 logical-unification==0.4.5 luigi==3.2.1 lunarcalendar==0.0.9 markdown==3.4.3 marshmallow==3.19.0 mastodon-py==1.8.0
+pip install lightning-utilities==0.8.0 local-attention==1.8.6 logical-unification==0.4.5 luigi==3.3.0 lunarcalendar==0.0.9 markdown==3.4.3 marshmallow==3.19.0 mastodon-py==1.8.1
 pip check
 pip install matplotlib==3.6.3 mdit-py-plugins==0.3.5 miniful==0.0.6 minimal-snowplow-tracker==0.0.2 mixpanel==4.10.0 mlagents-envs==0.28.0 moviepy==1.0.3 nbformat==5.5.0
 pip check
@@ -53,18 +53,18 @@ pip install pyobjc-framework-screentime==9.1.1 pyobjc-framework-scriptingbridge=
 pip check
 pip install pyobjc-framework-speech==9.1.1 pyobjc-framework-storekit==9.1.1 pyobjc-framework-systemconfiguration==9.1.1 pyobjc-framework-systemextensions==9.1.1 pyobjc-framework-threadnetwork==9.1.1 pyobjc-framework-uniformtypeidentifiers==9.1.1 pyobjc-framework-usernotifications==9.1.1 pyobjc-framework-videosubscriberaccount==9.1.1
 pip check
-pip install pyobjc-framework-virtualization==9.1.1 pyobjc-framework-webkit==9.1.1 pyperformance==1.0.6 pyramid==2.0.1 pyro-ppl==1.8.4 pytesseract==0.3.10 pytest==7.3.1 pytorch-ranger==0.1.1
+pip install pyobjc-framework-virtualization==9.1.1 pyobjc-framework-webkit==9.1.1 pyperformance==1.0.7 pyramid==2.0.1 pyro-ppl==1.8.4 pytesseract==0.3.10 pytest==7.3.1 pytorch-ranger==0.1.1
 pip check
-pip install qdldl==0.1.7 qtpy==2.3.1 requests-cache==1.0.1 requests-file==1.5.1 requests-oauthlib==1.3.1 requests-toolbelt==0.10.1 requests-unixsocket==0.3.0 resampy==0.4.2
+pip install qdldl==0.1.7 qtpy==2.3.1 requests-cache==1.0.1 requests-file==1.5.1 requests-oauthlib==1.3.1 requests-toolbelt==1.0.0 requests-unixsocket==0.3.0 resampy==0.4.2
 pip check
-pip install responses==0.18.0 rich==13.3.4 rlr==2.4.6 scikit-image==0.20.0 scikit-learn==1.0.2 scikit-surprise==1.1.3 sclblpy==0.1.8 scs==3.2.3
+pip install responses==0.18.0 rich==13.3.5 rlr==2.4.6 scikit-image==0.20.0 scikit-learn==1.0.2 scikit-surprise==1.1.3 sclblpy==0.1.8 scs==3.2.3
 pip check
 pip install setuptools-scm==7.1.0 simpful==2.10.0 soundfile==0.12.1 spectra==0.0.11 sphinx==4.5.0 stack-data==0.6.2 stanza==1.5.0 starlette==0.26.1
 pip check
 pip install stumpy==1.11.1 tables==3.8.0 tensorboardx==2.6 tensorflow-addons==0.20.0 tensorflow-metadata==1.12.0 textblob==0.15.3 tf-keras-vis==0.8.4 tf2onnx==1.14.0
 pip check
-pip install theano==1.0.5 tiingo==0.14.0 tiledb==0.21.2 torchaudio==0.11.0 torchmetrics==0.11.4 torchtext==0.12.0 torchvision==0.12.0 trio==0.20.0
+pip install theano==1.0.5 tiingo==0.14.0 tiledb==0.21.3 torchaudio==0.11.0 torchmetrics==0.11.4 torchtext==0.12.0 torchvision==0.12.0 trio==0.20.0
 pip check
-pip install typeshed-client==2.2.0 tzlocal==4.3 vispy==0.12.2 wikipedia==1.4.0 xgboost==1.7.5 yahoofinancials==1.14 zarr==2.14.2
+pip install typeshed-client==2.3.0 tzlocal==4.3 vispy==0.12.2 wikipedia==1.4.0 xgboost==1.7.5 yahoofinancials==1.14 zarr==2.14.2
 pip check
 # Level 3
