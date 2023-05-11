@@ -35,7 +35,7 @@ class ScriptsCmd:
                     break
                 script_name = '{}_{:02d}.{}'.format(env_name, level, script_extension)
                 print('script: {:02d} {} .. {}'.format(level, len(packs), script_name))
-                max_per_line = 8
+                max_per_line = 5
                 with open(script_name, 'w') as s:
                     out = '{} Level {}\n'.format(script_comment, level)
                     s.write(out)
