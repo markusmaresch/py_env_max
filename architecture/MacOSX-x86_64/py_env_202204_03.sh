@@ -9,7 +9,7 @@ pip install build==0.10.0 cachecontrol==0.12.12 cairocffi==1.5.1 click-repl==0.2
 pip check
 pip install colorcet==3.0.1 comcrawl==1.0.2 confection==0.0.4 coremltools==6.3.0 croniter==1.3.14
 pip check
-pip install cryptography==40.0.2 cssselect2==0.7.0 curtsies==0.4.1 dask==2023.3.0 databricks-cli==0.17.7
+pip install cryptography==40.0.2 cssselect2==0.7.0 curtsies==0.4.1 dask==2023.4.1 databricks-cli==0.17.7
 pip check
 pip install datashape==0.5.2 datetime==5.1 datetime-distance==0.1.3 deprecation==2.1.0 django-cors-headers==4.0.0
 pip check

@@ -51,7 +51,7 @@ pip install plaster-pastedeploy==1.0.1 portpicker==1.5.2 preshed==3.0.8 prettyta
 pip check
 pip install progressbar2==4.2.0 promise==2.3 prompt-toolkit==3.0.38 proto-plus==1.22.1 py-lets-be-rational==1.0.1
 pip check
-pip install pyarrow==8.0.0 pyasn1-modules==0.3.0 pyct==0.5.0 pydantic==1.10.7 pydeps==1.12.3
+pip install pyarrow==8.0.0 pyasn1-modules==0.3.0 pyct==0.5.0 pydantic==1.10.7 pydeps==1.12.4
 pip check
 pip install pydot==1.4.2 pyerfa==2.0.0.3 pygetwindow==0.0.9 pylbfgs==0.2.0.14 pymongo==4.3.3
 pip check

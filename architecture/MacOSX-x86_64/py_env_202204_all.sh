@@ -149,7 +149,7 @@ pip install traitlets==5.9.0 translationstring==1.4 typed-ast==1.5.4 typeguard==
 pip check
 pip install typing-extensions==4.5.0 tzdata==2023.3 ua-parser==0.16.1 uc-micro-py==1.0.2 ujson==5.7.0
 pip check
-pip install unidecode==1.3.6 uri-template==1.2.0 uritemplate==4.1.1 urllib3==1.26.14 uuid==1.30
+pip install unidecode==1.3.6 uri-template==1.2.0 uritemplate==4.1.1 urllib3==1.26.15 uuid==1.30
 pip check
 pip install venusian==3.0.0 vine==5.0.0 waitress==2.1.2 wasabi==1.1.1 watchdog==3.0.0
 pip check
@@ -217,7 +217,7 @@ pip install plaster-pastedeploy==1.0.1 portpicker==1.5.2 preshed==3.0.8 prettyta
 pip check
 pip install progressbar2==4.2.0 promise==2.3 prompt-toolkit==3.0.38 proto-plus==1.22.1 py-lets-be-rational==1.0.1
 pip check
-pip install pyarrow==8.0.0 pyasn1-modules==0.3.0 pyct==0.5.0 pydantic==1.10.7 pydeps==1.12.3
+pip install pyarrow==8.0.0 pyasn1-modules==0.3.0 pyct==0.5.0 pydantic==1.10.7 pydeps==1.12.4
 pip check
 pip install pydot==1.4.2 pyerfa==2.0.0.3 pygetwindow==0.0.9 pylbfgs==0.2.0.14 pymongo==4.3.3
 pip check
@@ -257,7 +257,7 @@ pip install build==0.10.0 cachecontrol==0.12.12 cairocffi==1.5.1 click-repl==0.2
 pip check
 pip install colorcet==3.0.1 comcrawl==1.0.2 confection==0.0.4 coremltools==6.3.0 croniter==1.3.14
 pip check
-pip install cryptography==40.0.2 cssselect2==0.7.0 curtsies==0.4.1 dask==2023.3.0 databricks-cli==0.17.7
+pip install cryptography==40.0.2 cssselect2==0.7.0 curtsies==0.4.1 dask==2023.4.1 databricks-cli==0.17.7
 pip check
 pip install datashape==0.5.2 datetime==5.1 datetime-distance==0.1.3 deprecation==2.1.0 django-cors-headers==4.0.0
 pip check
@@ -367,7 +367,7 @@ pip install cairosvg==2.7.0 catboost==1.1.1 chart-studio==1.1.0 cmdstanpy==1.1.0
 pip check
 pip install cons==0.4.5 control==0.9.3 daft==0.1.2 dash==2.9.3 dask-glm==0.2.0
 pip check
-pip install datasets==2.12.0 db-dtypes==1.1.1 descartes==1.1.0 diffusers==0.16.1 distributed==2023.3.0
+pip install datasets==2.12.0 db-dtypes==1.1.1 descartes==1.1.0 diffusers==0.16.1 distributed==2023.4.1
 pip check
 pip install easyocr==1.6.2 exchange-calendars==4.2.7 flask-compress==1.13 folium==0.14.0 fst-pso==1.8.1
 pip check

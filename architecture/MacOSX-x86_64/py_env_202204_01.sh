@@ -149,7 +149,7 @@ pip install traitlets==5.9.0 translationstring==1.4 typed-ast==1.5.4 typeguard==
 pip check
 pip install typing-extensions==4.5.0 tzdata==2023.3 ua-parser==0.16.1 uc-micro-py==1.0.2 ujson==5.7.0
 pip check
-pip install unidecode==1.3.6 uri-template==1.2.0 uritemplate==4.1.1 urllib3==1.26.14 uuid==1.30
+pip install unidecode==1.3.6 uri-template==1.2.0 uritemplate==4.1.1 urllib3==1.26.15 uuid==1.30
 pip check
 pip install venusian==3.0.0 vine==5.0.0 waitress==2.1.2 wasabi==1.1.1 watchdog==3.0.0
 pip check

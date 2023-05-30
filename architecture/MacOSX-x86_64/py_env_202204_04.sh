@@ -7,7 +7,7 @@ pip install cairosvg==2.7.0 catboost==1.1.1 chart-studio==1.1.0 cmdstanpy==1.1.0
 pip check
 pip install cons==0.4.5 control==0.9.3 daft==0.1.2 dash==2.9.3 dask-glm==0.2.0
 pip check
-pip install datasets==2.12.0 db-dtypes==1.1.1 descartes==1.1.0 diffusers==0.16.1 distributed==2023.3.0
+pip install datasets==2.12.0 db-dtypes==1.1.1 descartes==1.1.0 diffusers==0.16.1 distributed==2023.4.1
 pip check
 pip install easyocr==1.6.2 exchange-calendars==4.2.7 flask-compress==1.13 folium==0.14.0 fst-pso==1.8.1
 pip check
