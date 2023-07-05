@@ -131,7 +131,6 @@ class PipCmd:
             version = dist.version
             # print(f'found distribution {name}=={version}')
 
-
         pkg_resources.working_set.__init__()
         pkgs = [d for d in pkg_resources.working_set]
         try:
@@ -260,6 +259,11 @@ class PipCmd:
         try:
             error = False
             pip_args = [sys.executable, '-m', 'pip', 'install']
+            attempt_ssl_fix = True  # this does not seem to be sucessfull
+            if attempt_ssl_fix:
+                pip_args += ['--trusted-host=pypi.python.org',
+                             '--trusted-host=pypi.org',
+                             '--trusted-host=files.pythonhosted.org']
             if dry_run:
                 pip_args += ['--dry-run']
             pip_args += packages_with_versions
@@ -302,6 +306,8 @@ class PipCmd:
                     continue
                 if v[0] == 'ERROR:':
                     error = True
+                    # Todo: Handle: 'ERROR: Could not install packages due to an OSError: HTTPSConnectionPool...'
+                    #       in above case we basically need to stop and fix the SSL error first, none will succeed !!
                     # TODO: Handle: 'ERROR: No matching distribution found for box2d==2.3.10'
                     if len(v) >= 7 and v[1] == 'No' and v[2] == 'matching':
                         mingled = v[6]
