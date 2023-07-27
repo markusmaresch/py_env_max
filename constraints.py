@@ -21,15 +21,18 @@ class Comparator(enum.IntFlag):
 class Constraints:
     def __init__(self, package_name: str):
         self.package_name = package_name
-        self.comparator = [list() for c in Comparator if c >= 0]
+        self.comparator = [list() for c in Comparator if c >= 0]  # this creates bad comp's !!
         return
 
     def __str__(self):
         s0 = 'constraints: {} :'.format(self.package_name)
         s = ''
         for comp in Comparator:
-            comparator = self.comparator[comp]
-            if len(comparator) < 1:
+            try:
+                comparator = self.comparator[comp]
+                if len(comparator) < 1:
+                    continue
+            except:
                 continue
             s += ' {}'.format(comp.name)
             for c in sorted(comparator):  # only visually sorted !!
@@ -42,8 +45,11 @@ class Constraints:
 
     def no_constraints(self) -> bool:
         for comp in Comparator:
-            comparator = self.comparator[comp]
-            if len(comparator) < 1:
+            try:
+                comparator = self.comparator[comp]
+                if len(comparator) < 1:
+                    continue
+            except:
                 continue
             return False
         # for
@@ -52,7 +58,10 @@ class Constraints:
     def optimize(self) -> bool:
         debug = False
         for comp in Comparator:
-            comparator = self.comparator[comp]
+            try:
+                comparator = self.comparator[comp]
+            except:
+                continue
             if len(comparator) <= 1:
                 continue
             if comp in (Comparator.GE, Comparator.GT):
@@ -105,11 +114,14 @@ class Constraints:
         # fi
         if version is None:
             return False
-        comparator = self.comparator[comp]
-        if version in comparator:
+        try:
+            comparator = self.comparator[comp]
+            if version in comparator:
+                return True
+            comparator.append(version)
             return True
-        comparator.append(version)
-        return True
+        except Exception as e:
+            return False
 
     def append(self, version_required: str) -> bool:
         if version_required.find(',') > 0:
@@ -183,8 +195,11 @@ class Constraints:
             release = Version.normalized(r)
             good = True
             for comp in Comparator:
-                comparator = self.comparator[comp]
-                if len(comparator) < 1:
+                try:
+                    comparator = self.comparator[comp]
+                    if len(comparator) < 1:
+                        continue
+                except:
                     continue
                 # print('  Compare: {} .. {}'.format(comp.name, comparator))
                 for v in comparator:

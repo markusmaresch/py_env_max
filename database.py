@@ -389,7 +389,9 @@ class Database:
                         if vr is None:
                             # no constraint given at all
                             continue
-                        constraints.append(vr)  # can be comma separated
+                        vv = vr.split(',')
+                        for vs in vv:
+                            constraints.append(vs)  # can be comma separated
                     # for
             return
 
