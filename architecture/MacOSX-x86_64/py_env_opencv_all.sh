@@ -1,40 +1,60 @@
 # Level 1
-pip install addict==2.4.0 attrs==23.1.0 blinker==1.6.2 certifi==2022.12.7 charset-normalizer==3.1.0 click==8.1.3 colorama==0.4.6 configargparse==1.5.3
+pip install addict==2.4.0 ansi2html==1.8.0 attrs==23.1.0 blinker==1.6.2 certifi==2023.7.22
 pip check
-pip install cycler==0.11.0 dash-core-components==2.0.0 dash-html-components==2.0.0 dash-table==5.0.0 docopt==0.6.2 fastjsonschema==2.16.3 fonttools==4.39.3 idna==3.4
+pip install charset-normalizer==3.2.0 click==8.1.6 colorama==0.4.6 configargparse==1.7 cycler==0.11.0
 pip check
-pip install imutils==0.5.4 itsdangerous==2.1.2 joblib==1.2.0 kiwisolver==1.4.4 lazy-loader==0.2 llvmlite==0.40.0 lmdb==1.4.1 markupsafe==2.1.2
+pip install dash-core-components==2.0.0 dash-html-components==2.0.0 dash-table==5.0.0 defusedxml==0.7.1 docopt==0.6.2
 pip check
-pip install mccabe==0.7.0 networkx==3.1 numpy==1.24.1 packaging==23.1 pillow==9.5.0 pip==23.1.2 platformdirs==3.5.0 pycodestyle==2.10.0
+pip install fastjsonschema==2.18.0 fonttools==4.41.1 idna==3.4 imutils==0.5.4 itsdangerous==2.1.2
 pip check
-pip install pyflakes==3.0.1 pyparsing==3.0.9 pypng==0.20220715.0 pyqrcode==1.2.1 pyqt6-qt6==6.5.0 pyqt6-sip==13.5.1 pyrsistent==0.19.3 python-barcode==0.14.0
+pip install joblib==1.3.1 kiwisolver==1.4.4 lazy-loader==0.3 llvmlite==0.40.0 lmdb==1.4.1
 pip check
-pip install python-dotenv==1.0.0 pytz==2023.3 pyyaml==6.0 pyzbar==0.1.9 qt6-applications==6.5.0.2.3 setuptools==67.7.2 six==1.16.0 tenacity==8.2.2
+pip install markupsafe==2.1.3 mccabe==0.7.0 nest-asyncio==1.5.6 networkx==3.1 numpy==1.24.4
 pip check
-pip install threadpoolctl==3.1.0 tqdm==4.65.0 traitlets==5.9.0 typing-extensions==4.5.0 tzdata==2023.3 urllib3==2.0.1 wheel==0.40.0 wincertstore==0.2
+pip install packaging==23.1 pillow==9.5.0 pip==23.2.1 platformdirs==3.9.1 pycodestyle==2.10.0
 pip check
-pip install xlsxwriter==3.1.0 zipp==3.15.0
+pip install pyflakes==3.0.1 pyparsing==3.0.9 pypng==0.20220715.0 pyqrcode==1.2.1 pyqt6-qt6==6.5.2
+pip check
+pip install pyqt6-sip==13.5.2 pyrsistent==0.19.3 python-barcode==0.15.1 python-dotenv==1.0.0 pytz==2023.3
+pip check
+pip install pyyaml==6.0.1 pyzbar==0.1.9 qt6-applications==6.5.0.2.3 rpds-py==0.9.2 ruff==0.0.280
+pip check
+pip install setuptools==68.0.0 shiboken6==6.5.2 six==1.16.0 tenacity==8.2.2 threadpoolctl==3.2.0
+pip check
+pip install tqdm==4.65.0 traitlets==5.9.0 typing-extensions==4.7.1 tzdata==2023.3 urllib3==2.0.4
+pip check
+pip install wheel==0.41.0 wincertstore==0.2 xlsxwriter==3.1.2 zipp==3.16.2
 pip check
 # Level 1
 # Level 2
-pip install contourpy==1.0.7 flake8==6.0.0 h5py==3.8.0 imageio==2.28.1 importlib-metadata==6.6.0 importlib-resources==5.12.0 jinja2==3.1.2 jsonschema==4.17.3
+pip install contourpy==1.1.0 flake8==6.0.0 fpdf2==2.7.4 h5py==3.9.0 imageio==2.31.1
 pip check
-pip install jupyter-core==5.3.0 numba==0.57.0 opencv-contrib-python==4.7.0.72 opencv-python==4.7.0.72 opencv-python-headless==4.7.0.72 plotly==5.14.1 plyfile==0.9 pyqt6==6.5.0
+pip install importlib-metadata==6.8.0 importlib-resources==6.0.0 jinja2==3.1.2 jupyter-core==5.3.1 numba==0.57.1
 pip check
-pip install pyquaternion==0.9.9 python-dateutil==2.8.2 pywavelets==1.4.1 qrcode==7.4.2 qt6-tools==6.5.0.1.3 reactivex==4.0.4 requests==2.30.0 scipy==1.9.1
+pip install opencv-contrib-python==4.8.0.74 opencv-python==4.8.0.74 opencv-python-headless==4.8.0.74 plotly==5.15.0 plyfile==1.0.1
 pip check
-pip install shapely==2.0.1 tifffile==2023.4.12 werkzeug==2.3.3
+pip install pyqt6==6.5.2 pyquaternion==0.9.9 pyside6-essentials==6.5.2 python-dateutil==2.8.2 pywavelets==1.4.1
+pip check
+pip install qrcode==7.4.2 qt6-tools==6.5.0.1.3 reactivex==4.0.4 referencing==0.30.0 requests==2.31.0
+pip check
+pip install retrying==1.3.4 scipy==1.11.1 shapely==2.0.1 tifffile==2023.7.18 werkzeug==2.2.3
 pip check
 # Level 2
 # Level 3
-pip install flask==2.3.2 influxdb-client==1.36.1 matplotlib==3.7.1 nbformat==5.5.0 pandas==2.0.1 scikit-image==0.20.0 scikit-learn==1.2.2 yarg==0.1.9
+pip install flask==2.2.5 influxdb-client==1.36.1 jsonschema-specifications==2023.7.1 matplotlib==3.7.2 pandas==2.0.3
+pip check
+pip install pyside6-addons==6.5.2 scikit-image==0.21.0 scikit-learn==1.3.0 yarg==0.1.9
 pip check
 # Level 3
 # Level 4
-pip install dash==2.9.3 pipreqs==0.4.13
+pip install dash==2.11.1 jsonschema==4.18.4 pipreqs==0.4.13 pyside6==6.5.2
 pip check
 # Level 4
 # Level 5
-pip install open3d==0.16.1
+pip install nbformat==5.5.0
 pip check
 # Level 5
+# Level 6
+pip install open3d==0.16.1
+pip check
+# Level 6

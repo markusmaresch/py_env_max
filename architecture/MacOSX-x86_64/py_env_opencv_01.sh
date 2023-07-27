@@ -1,18 +1,28 @@
 # Level 1
-pip install addict==2.4.0 attrs==23.1.0 blinker==1.6.2 certifi==2022.12.7 charset-normalizer==3.1.0 click==8.1.3 colorama==0.4.6 configargparse==1.5.3
+pip install addict==2.4.0 ansi2html==1.8.0 attrs==23.1.0 blinker==1.6.2 certifi==2023.7.22
 pip check
-pip install cycler==0.11.0 dash-core-components==2.0.0 dash-html-components==2.0.0 dash-table==5.0.0 docopt==0.6.2 fastjsonschema==2.16.3 fonttools==4.39.3 idna==3.4
+pip install charset-normalizer==3.2.0 click==8.1.6 colorama==0.4.6 configargparse==1.7 cycler==0.11.0
 pip check
-pip install imutils==0.5.4 itsdangerous==2.1.2 joblib==1.2.0 kiwisolver==1.4.4 lazy-loader==0.2 llvmlite==0.40.0 lmdb==1.4.1 markupsafe==2.1.2
+pip install dash-core-components==2.0.0 dash-html-components==2.0.0 dash-table==5.0.0 defusedxml==0.7.1 docopt==0.6.2
 pip check
-pip install mccabe==0.7.0 networkx==3.1 numpy==1.24.1 packaging==23.1 pillow==9.5.0 pip==23.1.2 platformdirs==3.5.0 pycodestyle==2.10.0
+pip install fastjsonschema==2.18.0 fonttools==4.41.1 idna==3.4 imutils==0.5.4 itsdangerous==2.1.2
 pip check
-pip install pyflakes==3.0.1 pyparsing==3.0.9 pypng==0.20220715.0 pyqrcode==1.2.1 pyqt6-qt6==6.5.0 pyqt6-sip==13.5.1 pyrsistent==0.19.3 python-barcode==0.14.0
+pip install joblib==1.3.1 kiwisolver==1.4.4 lazy-loader==0.3 llvmlite==0.40.0 lmdb==1.4.1
 pip check
-pip install python-dotenv==1.0.0 pytz==2023.3 pyyaml==6.0 pyzbar==0.1.9 qt6-applications==6.5.0.2.3 setuptools==67.7.2 six==1.16.0 tenacity==8.2.2
+pip install markupsafe==2.1.3 mccabe==0.7.0 nest-asyncio==1.5.6 networkx==3.1 numpy==1.24.4
 pip check
-pip install threadpoolctl==3.1.0 tqdm==4.65.0 traitlets==5.9.0 typing-extensions==4.5.0 tzdata==2023.3 urllib3==2.0.1 wheel==0.40.0 wincertstore==0.2
+pip install packaging==23.1 pillow==9.5.0 pip==23.2.1 platformdirs==3.9.1 pycodestyle==2.10.0
 pip check
-pip install xlsxwriter==3.1.0 zipp==3.15.0
+pip install pyflakes==3.0.1 pyparsing==3.0.9 pypng==0.20220715.0 pyqrcode==1.2.1 pyqt6-qt6==6.5.2
+pip check
+pip install pyqt6-sip==13.5.2 pyrsistent==0.19.3 python-barcode==0.15.1 python-dotenv==1.0.0 pytz==2023.3
+pip check
+pip install pyyaml==6.0.1 pyzbar==0.1.9 qt6-applications==6.5.0.2.3 rpds-py==0.9.2 ruff==0.0.280
+pip check
+pip install setuptools==68.0.0 shiboken6==6.5.2 six==1.16.0 tenacity==8.2.2 threadpoolctl==3.2.0
+pip check
+pip install tqdm==4.65.0 traitlets==5.9.0 typing-extensions==4.7.1 tzdata==2023.3 urllib3==2.0.4
+pip check
+pip install wheel==0.41.0 wincertstore==0.2 xlsxwriter==3.1.2 zipp==3.16.2
 pip check
 # Level 1
