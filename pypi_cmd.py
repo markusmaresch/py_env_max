@@ -6,13 +6,15 @@ import random
 import threading
 import typing
 import time
-
-from version import Version
-from database import Database
+import warnings
 
 # from pip
 from pip._vendor import requests  # get pip's request, so we do not have to install it
 
+from version import Version
+from database import Database
+
+warnings.filterwarnings('ignore', message='Unverified HTTPS request')
 
 class PyPiCmd:
 
