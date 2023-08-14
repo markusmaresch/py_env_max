@@ -22,7 +22,7 @@ class PyEnvMax:
         self.environment_name = None
         self.environment_default = self.get_environment_default()
         self.python_version_default = '3.11'
-        self.conda_version_minimum = '23.3.1'
+        self.conda_version_minimum = '23.7.2'
         return
 
     def get_environment_default(self) -> str:
