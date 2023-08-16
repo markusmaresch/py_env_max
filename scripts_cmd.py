@@ -47,7 +47,7 @@ class ScriptsCmd:
                             s.write(out)
                             a.write(out)
                         version = db.package_get_version_required(package)
-                        out = ' {}=={}'.format(package, version)
+                        out = ' {}>={}'.format(package, version)  # should be '==', but sometimes versions are not found
                         s.write(out)
                         a.write(out)
                         ii += 1
