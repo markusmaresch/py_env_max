@@ -352,17 +352,17 @@ class PipCmd:
             return pr
         #
         # immediate failure case
-        for pack in installed.keys():
-            # affected_set.add(pack)
-            vers = installed[pack]
-            print('Installed: {}=={}'.format(pack, vers))
-        # for
         packages_with_versions = list()
         for pack in uninstalled.keys():
             vers = uninstalled[pack]
             cmd = '{}=={}'.format(pack, vers)
             print('Uninstalled: {}'.format(cmd))
             packages_with_versions.append(cmd)
+        # for
+        for pack in installed.keys():
+            # affected_set.add(pack)
+            vers = installed[pack]
+            print('Installed: {}=={}'.format(pack, vers))
         # for
         print('pip_install_roll_back: attempt to revert: {} to: {}'
               .format(package_name, packages_with_versions))
