@@ -5,11 +5,17 @@ import sys
 import subprocess
 import typing
 import itertools
-import pkg_resources
+import pkg_resources  # resolve this
 import importlib_metadata
 
 # installed packages
-from _vendor.pipdeptree import PackageDAG, conflicting_deps, render_conflicts_text, cyclic_deps
+try:
+    # attempt new version
+    from _vendor.pipdeptree_2_11_0._models.dag import PackageDAG
+    from _vendor.pipdeptree_2_11_0._validate import conflicting_deps, render_conflicts_text, cyclic_deps
+except:
+    # fallback to old one ..
+    from _vendor.pipdeptree import PackageDAG, conflicting_deps, render_conflicts_text, cyclic_deps
 
 # own imports
 from utils import Utils
