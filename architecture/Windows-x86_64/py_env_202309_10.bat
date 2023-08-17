@@ -1,4 +1,4 @@
 rem Level 10
-pip install jupyter==1.0.0 notebook==6.5.4
+pip install jupyterlab>=4.0.5 nbclassic>=1.0.0
 pip check
 rem Level 10
