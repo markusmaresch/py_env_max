@@ -5,8 +5,8 @@ import sys
 import subprocess
 import typing
 import itertools
-import pkg_resources  # resolve this
-import importlib_metadata
+
+from pip._vendor import pkg_resources  # keep this as compromise. it is hard to work around this.
 
 # installed packages
 try:
@@ -130,12 +130,6 @@ class PipCmd:
     @staticmethod
     def get_tree_installed() -> typing.Union[PackageDAG, typing.Any]:
         print('Getting installed distributions ..')
-
-        dists = importlib_metadata.distributions()
-        for dist in dists:
-            name = dist.metadata["Name"]
-            version = dist.version
-            # print(f'found distribution {name}=={version}')
 
         pkg_resources.working_set.__init__()
         pkgs = [d for d in pkg_resources.working_set]
