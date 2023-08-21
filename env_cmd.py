@@ -607,12 +607,19 @@ class EnvCmd:
                     # fi
 
                     ruN = len(releases_update)
-                    if ruN > 2:  # simulate divide and conquer
-                        releases_update = [releases_update[int(ruN / 2)]]
+                    st = (it-1) % 2
+                    if ruN > 8:  # simulate divide and conquer
+                        release_candidates = releases_update[st::8]
+                    elif ruN > 4:
+                        release_candidates = releases_update[st::4]
+                    elif ruN > 2:
+                        release_candidates = releases_update[st::2]
+                    else:
+                        release_candidates = releases_update
 
                     print('upd_all: {} .. {}/{}: {}: {}: {} .. update candidates: {}'
-                          .format(env_name, it, max_iterations, level, package_name, version_required, releases_update))
-                    for release_best in releases_update:
+                          .format(env_name, it, max_iterations, level, package_name, version_required, release_candidates))
+                    for release_best in release_candidates:
                         print('upd_all: {} .. {}/{}: {}: {}: {} .. {} -> {}'
                               .format(env_name, it, max_iterations, level, package_name, version_required,
                                       constraints, release_best))
