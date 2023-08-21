@@ -21,7 +21,7 @@ class Comparator(enum.IntFlag):
 class Constraints:
     def __init__(self, package_name: str):
         self.package_name = package_name
-        self.comparator = [list() for c in Comparator if c >= 0]  # this creates bad comp's !!
+        self.comparator = [list() for c in Comparator if int(c) >= 0]  # this creates bad comp's !!
         return
 
     def __str__(self):
