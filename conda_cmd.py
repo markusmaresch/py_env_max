@@ -9,6 +9,8 @@ import datetime
 from functools import lru_cache
 
 
+# REMOVE: conda remove --name py_env_XXX --all
+
 class CondaCmd:
     @staticmethod
     def version() -> str:
