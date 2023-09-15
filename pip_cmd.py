@@ -133,6 +133,11 @@ class PipCmd:
 
         pkg_resources.working_set.__init__()
         pkgs = [d for d in pkg_resources.working_set]
+
+        #
+        # also derive pseudo requirements here, and keep it/return
+        #
+
         try:
             print('Converting installed distributions to tree ..')
             # this takes quite a while !!
@@ -388,6 +393,26 @@ class PipCmd:
         pr2.set_return_code(PipReturn.ERROR)
         # failed roll back
         return pr2
+
+    @staticmethod
+    def pip_list(self) -> dict:
+
+        # build a requirement from it in scripts export
+
+        '''
+        import subprocess
+        import sys
+
+        def pip_list():
+            args = [sys.executable, "-m", "pip", "list"]
+            p = subprocess.run(args, check=True, capture_output=True)
+            return p.stdout.decode()
+
+        print(pip_list())
+
+        :return:
+        '''
+        return None
 
     @staticmethod
     def pip_selftest() -> bool:
