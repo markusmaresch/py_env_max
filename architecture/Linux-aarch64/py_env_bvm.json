@@ -7,7 +7,7 @@
             "level": 1,
             "package_name": "appdirs",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
                 "1.4.4",
                 "1.4.3",
@@ -22,12 +22,23 @@
             "version_installed": "1.4.4",
             "version_required": "1.4.4"
         },
+        "arena-api": {
+            "level": 1,
+            "package_name": "arena-api",
+            "pypi_package": false,
+            "releases_checked_time": 1696972228,
+            "releases_recent": [],
+            "version_installed": "2.3.3",
+            "version_required": "2.3.3"
+        },
         "autopep8": {
             "level": 2,
             "package_name": "autopep8",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "2.0.4",
+                "2.0.3",
                 "2.0.2",
                 "2.0.1",
                 "2.0.0",
@@ -65,14 +76,12 @@
                 "1.0.2",
                 "1.0.1",
                 "1.0",
-                "0.9.7",
-                "0.9.6",
-                "0.9.5"
+                "0.9.7"
             ],
             "requires": [
                 {
                     "package_name": "pycodestyle",
-                    "version_installed": "2.10.0",
+                    "version_installed": "2.11.0",
                     "version_required": ">=2.10.0"
                 },
                 {
@@ -81,15 +90,16 @@
                 }
             ],
             "summary": "A tool that automatically formats Python code to conform to the PEP 8 style guide",
-            "version_installed": "2.0.2",
-            "version_required": "2.0.2"
+            "version_installed": "2.0.4",
+            "version_required": "2.0.4"
         },
         "certifi": {
             "level": 1,
             "package_name": "certifi",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "2023.7.22",
                 "2023.5.7",
                 "2022.12.7",
                 "2022.9.24",
@@ -128,22 +138,23 @@
                 "2016.8.2",
                 "2016.2.28",
                 "2015.11.20.1",
-                "2015.11.20",
-                "2015.9.6.2"
+                "2015.11.20"
             ],
             "required_by": [
                 "requests"
             ],
             "summary": "Python package for providing Mozilla's CA Bundle",
-            "version_installed": "2023.5.7",
-            "version_required": "2023.5.7"
+            "version_installed": "2023.7.22",
+            "version_required": "2023.7.22"
         },
         "charset-normalizer": {
             "level": 1,
             "package_name": "charset-normalizer",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "3.3.0",
+                "3.2.0",
                 "3.1.0",
                 "3.0.1",
                 "3.0.0",
@@ -181,23 +192,24 @@
                 "1.1.1",
                 "1.1.0",
                 "1.0.0",
-                "0.3.0",
-                "0.2.3",
-                "0.2.2"
+                "0.3.0"
             ],
             "required_by": [
                 "requests"
             ],
             "summary": "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet",
-            "version_installed": "3.1.0",
-            "version_required": "3.1.0"
+            "version_installed": "3.3.0",
+            "version_required": "3.3.0"
         },
         "contourpy": {
             "level": 2,
             "package_name": "contourpy",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "1.1.1",
+                "1.1.1rc1",
+                "1.1.0",
                 "1.0.7",
                 "1.0.6",
                 "1.0.5",
@@ -218,20 +230,23 @@
             "requires": [
                 {
                     "package_name": "numpy",
-                    "version_installed": "1.24.3",
-                    "version_required": ">=1.16"
+                    "version_installed": "1.26.0",
+                    "version_required": ">=1.16,<2.0"
                 }
             ],
             "summary": "Python library for calculating contours of 2D quadrilateral grids",
-            "version_installed": "1.0.7",
-            "version_required": "1.0.7"
+            "version_installed": "1.1.1",
+            "version_required": "1.1.1"
         },
         "cycler": {
             "level": 1,
             "package_name": "cycler",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "0.12.1",
+                "0.12.0",
+                "0.12.0rc1",
                 "0.11.0",
                 "0.10.0",
                 "0.9.0"
@@ -240,15 +255,41 @@
                 "matplotlib"
             ],
             "summary": "Composable style cycles",
-            "version_installed": "0.11.0",
-            "version_required": "0.11.0"
+            "version_installed": "0.12.1",
+            "version_required": "0.12.1"
+        },
+        "docopt": {
+            "level": 1,
+            "package_name": "docopt",
+            "pypi_package": true,
+            "releases_checked_time": 1696972228,
+            "releases_recent": [
+                "0.6.2",
+                "0.6.1",
+                "0.6.0",
+                "0.5.0",
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.3.0",
+                "0.2.0",
+                "0.1.1",
+                "0.1"
+            ],
+            "required_by": [
+                "pipreqs"
+            ],
+            "summary": "Pythonic argument parser, that will make you smile",
+            "version_installed": "0.6.2",
+            "version_required": "0.6.2"
         },
         "docutils": {
             "level": 1,
             "package_name": "docutils",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "0.20.1",
                 "0.20",
                 "0.20rc1",
                 "0.19",
@@ -288,15 +329,90 @@
                 "0.3"
             ],
             "summary": "Docutils -- Python Documentation Utilities",
-            "version_installed": "0.20",
-            "version_required": "0.20"
+            "version_installed": "0.20.1",
+            "version_required": "0.20.1"
+        },
+        "flake8": {
+            "level": 2,
+            "package_name": "flake8",
+            "pypi_package": true,
+            "releases_checked_time": 1696972228,
+            "releases_recent": [
+                "6.1.0",
+                "6.0.0",
+                "5.0.4",
+                "5.0.3",
+                "5.0.2",
+                "5.0.1",
+                "5.0.0",
+                "4.0.1",
+                "4.0.0",
+                "3.9.2",
+                "3.9.1",
+                "3.9.0",
+                "3.8.4",
+                "3.8.3",
+                "3.8.2",
+                "3.8.1",
+                "3.8.0",
+                "3.8.0a2",
+                "3.8.0a1",
+                "3.7.9",
+                "3.7.8",
+                "3.7.7",
+                "3.7.6",
+                "3.7.5",
+                "3.7.4",
+                "3.7.3",
+                "3.7.2",
+                "3.7.1",
+                "3.7.0",
+                "3.6.0",
+                "3.5.0",
+                "3.4.1",
+                "3.4.0",
+                "3.3.0",
+                "3.3.0.dev0",
+                "3.2.1",
+                "3.2.0",
+                "3.1.1",
+                "3.1.0",
+                "3.0.4"
+            ],
+            "requires": [
+                {
+                    "package_name": "mccabe",
+                    "version_installed": "0.7.0",
+                    "version_required": ">=0.7.0,<0.8.0"
+                },
+                {
+                    "package_name": "pycodestyle",
+                    "version_installed": "2.11.0",
+                    "version_required": ">=2.11.0,<2.12.0"
+                },
+                {
+                    "package_name": "pyflakes",
+                    "version_installed": "3.1.0",
+                    "version_required": ">=3.1.0,<3.2.0"
+                }
+            ],
+            "summary": "the modular source code checker: pep8 pyflakes and co",
+            "version_installed": "6.1.0",
+            "version_required": "6.1.0"
         },
         "fonttools": {
             "level": 1,
             "package_name": "fonttools",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "4.43.1",
+                "4.43.0",
+                "4.42.1",
+                "4.42.0",
+                "4.41.1",
+                "4.41.0",
+                "4.40.0",
                 "4.39.4",
                 "4.39.3",
                 "4.39.2",
@@ -329,27 +445,20 @@
                 "4.29.0",
                 "4.28.5",
                 "4.28.4",
-                "4.28.3",
-                "4.28.2",
-                "4.28.1",
-                "4.28.0",
-                "4.27.1",
-                "4.27.0",
-                "4.26.2",
-                "4.26.1"
+                "4.28.3"
             ],
             "required_by": [
                 "matplotlib"
             ],
             "summary": "Tools to manipulate font files",
-            "version_installed": "4.39.4",
-            "version_required": "4.39.4"
+            "version_installed": "4.43.1",
+            "version_required": "4.43.1"
         },
         "idna": {
             "level": 1,
             "package_name": "idna",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
                 "3.4",
                 "3.3",
@@ -390,8 +499,12 @@
             "level": 2,
             "package_name": "importlib-resources",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "6.1.0",
+                "6.0.1",
+                "6.0.0",
+                "5.13.0",
                 "5.12.0",
                 "5.11.1",
                 "5.11.0",
@@ -427,11 +540,7 @@
                 "4.1.1",
                 "4.1.0",
                 "4.0.0",
-                "3.3.1",
-                "3.3.0",
-                "3.2.1",
-                "3.2.0",
-                "3.1.1"
+                "3.3.1"
             ],
             "required_by": [
                 "matplotlib"
@@ -439,19 +548,19 @@
             "requires": [
                 {
                     "package_name": "zipp",
-                    "version_installed": "3.15.0",
+                    "version_installed": "3.17.0",
                     "version_required": ">=3.1.0"
                 }
             ],
             "summary": "Read resources from Python packages",
-            "version_installed": "5.12.0",
-            "version_required": "5.12.0"
+            "version_installed": "6.1.0",
+            "version_required": "6.1.0"
         },
         "installer": {
             "level": 1,
             "package_name": "installer",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
                 "0.7.0",
                 "0.6.0",
@@ -475,8 +584,9 @@
             "level": 1,
             "package_name": "kiwisolver",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "1.4.5",
                 "1.4.4",
                 "1.4.3",
                 "1.4.2",
@@ -498,14 +608,14 @@
                 "matplotlib"
             ],
             "summary": "A fast implementation of the Cassowary constraint solver",
-            "version_installed": "1.4.4",
-            "version_required": "1.4.4"
+            "version_installed": "1.4.5",
+            "version_required": "1.4.5"
         },
         "mako": {
             "level": 2,
             "package_name": "Mako",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
                 "1.2.4",
                 "1.2.3",
@@ -551,7 +661,7 @@
             "requires": [
                 {
                     "package_name": "MarkupSafe",
-                    "version_installed": "2.1.2",
+                    "version_installed": "2.1.3",
                     "version_required": ">=0.9.2"
                 }
             ],
@@ -563,8 +673,9 @@
             "level": 1,
             "package_name": "MarkupSafe",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "2.1.3",
                 "2.1.2",
                 "2.1.1",
                 "2.1.0",
@@ -595,15 +706,19 @@
                 "0.9"
             ],
             "summary": "Safely add untrusted strings to HTML/XML markup",
-            "version_installed": "2.1.2",
-            "version_required": "2.1.2"
+            "version_installed": "2.1.3",
+            "version_required": "2.1.3"
         },
         "matplotlib": {
             "level": 3,
             "package_name": "matplotlib",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "3.8.0",
+                "3.8.0rc1",
+                "3.7.3",
+                "3.7.2",
                 "3.7.1",
                 "3.7.0",
                 "3.7.0rc1",
@@ -639,11 +754,7 @@
                 "3.2.0rc1",
                 "3.1.3",
                 "3.1.2",
-                "3.1.1",
-                "3.1.0",
-                "3.1.0rc2",
-                "3.1.0rc1",
-                "3.0.3"
+                "3.1.1"
             ],
             "requires": [
                 {
@@ -651,21 +762,21 @@
                     "requires": [
                         {
                             "package_name": "numpy",
-                            "version_installed": "1.24.3",
-                            "version_required": ">=1.16"
+                            "version_installed": "1.26.0",
+                            "version_required": ">=1.16,<2.0"
                         }
                     ],
-                    "version_installed": "1.0.7",
+                    "version_installed": "1.1.1",
                     "version_required": ">=1.0.1"
                 },
                 {
                     "package_name": "cycler",
-                    "version_installed": "0.11.0",
+                    "version_installed": "0.12.1",
                     "version_required": ">=0.10"
                 },
                 {
                     "package_name": "fonttools",
-                    "version_installed": "4.39.4",
+                    "version_installed": "4.43.1",
                     "version_required": ">=4.22.0"
                 },
                 {
@@ -673,36 +784,36 @@
                     "requires": [
                         {
                             "package_name": "zipp",
-                            "version_installed": "3.15.0",
+                            "version_installed": "3.17.0",
                             "version_required": ">=3.1.0"
                         }
                     ],
-                    "version_installed": "5.12.0",
+                    "version_installed": "6.1.0",
                     "version_required": ">=3.2.0"
                 },
                 {
                     "package_name": "kiwisolver",
-                    "version_installed": "1.4.4",
+                    "version_installed": "1.4.5",
                     "version_required": ">=1.0.1"
                 },
                 {
                     "package_name": "numpy",
-                    "version_installed": "1.24.3",
-                    "version_required": ">=1.20"
+                    "version_installed": "1.26.0",
+                    "version_required": ">=1.21,<2"
                 },
                 {
                     "package_name": "packaging",
-                    "version_installed": "23.1",
+                    "version_installed": "23.2",
                     "version_required": ">=20.0"
                 },
                 {
-                    "package_name": "pillow",
-                    "version_installed": "9.5.0",
+                    "package_name": "Pillow",
+                    "version_installed": "10.0.1",
                     "version_required": ">=6.2.0"
                 },
                 {
                     "package_name": "pyparsing",
-                    "version_installed": "3.0.9",
+                    "version_installed": "3.1.1",
                     "version_required": ">=2.3.1"
                 },
                 {
@@ -719,15 +830,50 @@
                 }
             ],
             "summary": "Python plotting package",
-            "version_installed": "3.7.1",
-            "version_required": "3.7.1"
+            "version_installed": "3.8.0",
+            "version_required": "3.8.0"
+        },
+        "mccabe": {
+            "level": 1,
+            "package_name": "mccabe",
+            "pypi_package": true,
+            "releases_checked_time": 1696972228,
+            "releases_recent": [
+                "0.7.0",
+                "0.6.1",
+                "0.6.0",
+                "0.5.3",
+                "0.5.2",
+                "0.5.1",
+                "0.5.0",
+                "0.4.0",
+                "0.3.1",
+                "0.3",
+                "0.2.1",
+                "0.2",
+                "0.0.0"
+            ],
+            "required_by": [
+                "flake8"
+            ],
+            "summary": "McCabe checker, plugin for flake8",
+            "version_installed": "0.7.0",
+            "version_required": "0.7.0"
         },
         "numpy": {
             "level": 1,
             "package_name": "numpy",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "1.26.0",
+                "1.26.0rc1",
+                "1.26.0b1",
+                "1.25.2",
+                "1.25.1",
+                "1.25.0",
+                "1.25.0rc1",
+                "1.24.4",
                 "1.24.3",
                 "1.24.2",
                 "1.24.1",
@@ -759,15 +905,7 @@
                 "1.20.2",
                 "1.20.1",
                 "1.20.0",
-                "1.19.5",
-                "1.19.4",
-                "1.19.3",
-                "1.19.2",
-                "1.19.1",
-                "1.19.0",
-                "1.18.5",
-                "1.18.4",
-                "1.18.3"
+                "1.19.5"
             ],
             "required_by": [
                 "contourpy",
@@ -776,18 +914,22 @@
                 "opencv-python",
                 "opencv-python-headless",
                 "pandas",
+                "plyfile",
                 "scipy"
             ],
             "summary": "Fundamental package for array computing in Python",
-            "version_installed": "1.24.3",
-            "version_required": "1.24.3"
+            "version_installed": "1.26.0",
+            "version_required": "1.26.0"
         },
         "opencv-contrib-python": {
             "level": 2,
             "package_name": "opencv-contrib-python",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "4.8.1.78",
+                "4.8.0.76",
+                "4.8.0.74",
                 "4.7.0.72",
                 "4.7.0.68",
                 "4.6.0.66",
@@ -824,43 +966,43 @@
                 "3.4.13.47",
                 "3.4.11.45",
                 "3.4.11.43",
-                "3.4.11.41",
-                "3.4.11.39",
-                "3.4.10.37",
-                "3.4.10.35"
+                "3.4.11.41"
             ],
             "requires": [
                 {
                     "package_name": "numpy",
-                    "version_installed": "1.24.3",
+                    "version_installed": "1.26.0",
                     "version_required": ">=1.19.3"
                 },
                 {
                     "package_name": "numpy",
-                    "version_installed": "1.24.3",
+                    "version_installed": "1.26.0",
                     "version_required": ">=1.17.0"
                 },
                 {
                     "package_name": "numpy",
-                    "version_installed": "1.24.3",
+                    "version_installed": "1.26.0",
                     "version_required": ">=1.17.3"
                 },
                 {
                     "package_name": "numpy",
-                    "version_installed": "1.24.3",
+                    "version_installed": "1.26.0",
                     "version_required": ">=1.19.3"
                 }
             ],
             "summary": "Wrapper package for OpenCV python bindings",
-            "version_installed": "4.7.0.72",
-            "version_required": "4.7.0.72"
+            "version_installed": "4.8.1.78",
+            "version_required": "4.8.1.78"
         },
         "opencv-python": {
             "level": 2,
             "package_name": "opencv-python",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "4.8.1.78",
+                "4.8.0.76",
+                "4.8.0.74",
                 "4.7.0.72",
                 "4.7.0.68",
                 "4.6.0.66",
@@ -897,43 +1039,43 @@
                 "3.4.13.47",
                 "3.4.11.45",
                 "3.4.11.43",
-                "3.4.11.41",
-                "3.4.11.39",
-                "3.4.10.37",
-                "3.4.10.35"
+                "3.4.11.41"
             ],
             "requires": [
                 {
                     "package_name": "numpy",
-                    "version_installed": "1.24.3",
+                    "version_installed": "1.26.0",
                     "version_required": ">=1.19.3"
                 },
                 {
                     "package_name": "numpy",
-                    "version_installed": "1.24.3",
+                    "version_installed": "1.26.0",
                     "version_required": ">=1.17.0"
                 },
                 {
                     "package_name": "numpy",
-                    "version_installed": "1.24.3",
+                    "version_installed": "1.26.0",
                     "version_required": ">=1.17.3"
                 },
                 {
                     "package_name": "numpy",
-                    "version_installed": "1.24.3",
+                    "version_installed": "1.26.0",
                     "version_required": ">=1.19.3"
                 }
             ],
             "summary": "Wrapper package for OpenCV python bindings",
-            "version_installed": "4.7.0.72",
-            "version_required": "4.7.0.72"
+            "version_installed": "4.8.1.78",
+            "version_required": "4.8.1.78"
         },
         "opencv-python-headless": {
             "level": 2,
             "package_name": "opencv-python-headless",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "4.8.1.78",
+                "4.8.0.76",
+                "4.8.0.74",
                 "4.7.0.72",
                 "4.7.0.68",
                 "4.6.0.66",
@@ -957,7 +1099,6 @@
                 "4.1.1.26",
                 "4.1.0.25",
                 "4.0.1.24",
-                "4.0.1.23",
                 "4.0.0.21",
                 "3.4.18.65",
                 "3.4.17.63",
@@ -971,42 +1112,41 @@
                 "3.4.11.45",
                 "3.4.11.43",
                 "3.4.11.41",
-                "3.4.11.39",
-                "3.4.10.37",
-                "3.4.10.35"
+                "3.4.11.39"
             ],
             "requires": [
                 {
                     "package_name": "numpy",
-                    "version_installed": "1.24.3",
+                    "version_installed": "1.26.0",
                     "version_required": ">=1.19.3"
                 },
                 {
                     "package_name": "numpy",
-                    "version_installed": "1.24.3",
+                    "version_installed": "1.26.0",
                     "version_required": ">=1.17.0"
                 },
                 {
                     "package_name": "numpy",
-                    "version_installed": "1.24.3",
+                    "version_installed": "1.26.0",
                     "version_required": ">=1.17.3"
                 },
                 {
                     "package_name": "numpy",
-                    "version_installed": "1.24.3",
+                    "version_installed": "1.26.0",
                     "version_required": ">=1.19.3"
                 }
             ],
             "summary": "Wrapper package for OpenCV python bindings",
-            "version_installed": "4.7.0.72",
-            "version_required": "4.7.0.72"
+            "version_installed": "4.8.1.78",
+            "version_required": "4.8.1.78"
         },
         "packaging": {
             "level": 1,
             "package_name": "packaging",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "23.2",
                 "23.1",
                 "23.0",
                 "22.0",
@@ -1045,24 +1185,27 @@
                 "15.0",
                 "14.5",
                 "14.4",
-                "14.3",
-                "14.2"
+                "14.3"
             ],
             "required_by": [
                 "matplotlib",
-                "pyqt-builder",
                 "sip"
             ],
             "summary": "Core utilities for Python packages",
-            "version_installed": "23.1",
-            "version_required": "23.1"
+            "version_installed": "23.2",
+            "version_required": "23.2"
         },
         "pandas": {
             "level": 3,
             "package_name": "pandas",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "2.1.1",
+                "2.1.0",
+                "2.1.0rc0",
+                "2.0.3",
+                "2.0.2",
                 "2.0.1",
                 "2.0.0",
                 "2.0.0rc1",
@@ -1097,18 +1240,13 @@
                 "1.1.1",
                 "1.1.0",
                 "1.0.5",
-                "1.0.4",
-                "1.0.3",
-                "1.0.2",
-                "1.0.1",
-                "1.0.0",
-                "0.25.3"
+                "1.0.4"
             ],
             "requires": [
                 {
                     "package_name": "numpy",
-                    "version_installed": "1.24.3",
-                    "version_required": ">=1.20.3"
+                    "version_installed": "1.26.0",
+                    "version_required": ">=1.22.4"
                 },
                 {
                     "package_name": "python-dateutil",
@@ -1134,15 +1272,17 @@
                 }
             ],
             "summary": "Powerful data structures for data analysis, time series, and statistics",
-            "version_installed": "2.0.1",
-            "version_required": "2.0.1"
+            "version_installed": "2.1.1",
+            "version_required": "2.1.1"
         },
         "pillow": {
             "level": 1,
             "package_name": "Pillow",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "10.0.1",
+                "10.0.0",
                 "9.5.0",
                 "9.4.0",
                 "9.3.0",
@@ -1180,23 +1320,20 @@
                 "5.0.0",
                 "4.3.0",
                 "4.2.1",
-                "4.2.0",
-                "4.1.1",
-                "4.1.0"
-            ],
-            "required_by": [
-                "matplotlib"
+                "4.2.0"
             ],
             "summary": "Python Imaging Library (Fork)",
-            "version_installed": "9.5.0",
-            "version_required": "9.5.0"
+            "version_installed": "10.0.1",
+            "version_required": "10.0.1"
         },
         "pip": {
             "level": 1,
             "package_name": "pip",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "23.2.1",
+                "23.2",
                 "23.1.2",
                 "23.1.1",
                 "23.1",
@@ -1234,19 +1371,106 @@
                 "20.3.2",
                 "20.3.1",
                 "20.3",
-                "20.3b1",
-                "20.2.4",
-                "20.2.3"
+                "20.3b1"
             ],
             "summary": "The PyPA recommended tool for installing Python packages",
-            "version_installed": "23.1.2",
-            "version_required": "23.1.2"
+            "version_installed": "23.2.1",
+            "version_required": "23.2.1"
+        },
+        "pipreqs": {
+            "level": 4,
+            "package_name": "pipreqs",
+            "pypi_package": true,
+            "releases_checked_time": 1696972228,
+            "releases_recent": [
+                "0.4.13",
+                "0.4.12",
+                "0.4.11",
+                "0.4.10",
+                "0.4.9",
+                "0.4.8",
+                "0.4.7",
+                "0.4.6",
+                "0.4.5",
+                "0.4.4",
+                "0.4.3",
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.3.9",
+                "0.3.8",
+                "0.3.7",
+                "0.3.6",
+                "0.3.5",
+                "0.3.4",
+                "0.3.3",
+                "0.3.2",
+                "0.3.1",
+                "0.3.0",
+                "0.2.9",
+                "0.2.8",
+                "0.2.7",
+                "0.2.5",
+                "0.2.4",
+                "0.2.3",
+                "0.2.2",
+                "0.2.1",
+                "0.2.0",
+                "0.1.9",
+                "0.1.8",
+                "0.1.7",
+                "0.1.6",
+                "0.1.5",
+                "0.1.4",
+                "0.1.3"
+            ],
+            "requires": [
+                {
+                    "package_name": "docopt",
+                    "version_installed": "0.6.2"
+                },
+                {
+                    "package_name": "yarg",
+                    "requires": [
+                        {
+                            "package_name": "requests",
+                            "requires": [
+                                {
+                                    "package_name": "certifi",
+                                    "version_installed": "2023.7.22",
+                                    "version_required": ">=2017.4.17"
+                                },
+                                {
+                                    "package_name": "charset-normalizer",
+                                    "version_installed": "3.3.0",
+                                    "version_required": ">=2,<4"
+                                },
+                                {
+                                    "package_name": "idna",
+                                    "version_installed": "3.4",
+                                    "version_required": ">=2.5,<4"
+                                },
+                                {
+                                    "package_name": "urllib3",
+                                    "version_installed": "2.0.6",
+                                    "version_required": ">=1.21.1,<3"
+                                }
+                            ],
+                            "version_installed": "2.31.0"
+                        }
+                    ],
+                    "version_installed": "0.1.9"
+                }
+            ],
+            "summary": "Pip requirements.txt generator based on imports in project",
+            "version_installed": "0.4.13",
+            "version_required": "0.4.13"
         },
         "ply": {
             "level": 1,
             "package_name": "ply",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
                 "3.11",
                 "3.10",
@@ -1271,12 +1495,44 @@
             "version_installed": "3.11",
             "version_required": "3.11"
         },
+        "plyfile": {
+            "level": 2,
+            "package_name": "plyfile",
+            "pypi_package": true,
+            "releases_checked_time": 1696972228,
+            "releases_recent": [
+                "1.0.1",
+                "1.0",
+                "0.9",
+                "0.8.1",
+                "0.8",
+                "0.7.4",
+                "0.7.3",
+                "0.7.2",
+                "0.7.1",
+                "0.7",
+                "0.6",
+                "0.5",
+                "0.4"
+            ],
+            "requires": [
+                {
+                    "package_name": "numpy",
+                    "version_installed": "1.26.0",
+                    "version_required": ">=1.17"
+                }
+            ],
+            "summary": "PLY file reader/writer",
+            "version_installed": "1.0.1",
+            "version_required": "1.0.1"
+        },
         "pycodestyle": {
             "level": 1,
             "package_name": "pycodestyle",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "2.11.0",
                 "2.10.0",
                 "2.9.1",
                 "2.9.0",
@@ -1296,18 +1552,72 @@
                 "0.0.0"
             ],
             "required_by": [
-                "autopep8"
+                "autopep8",
+                "flake8"
             ],
             "summary": "Python style guide checker",
-            "version_installed": "2.10.0",
-            "version_required": "2.10.0"
+            "version_installed": "2.11.0",
+            "version_required": "2.11.0"
+        },
+        "pyflakes": {
+            "level": 1,
+            "package_name": "pyflakes",
+            "pypi_package": true,
+            "releases_checked_time": 1696972228,
+            "releases_recent": [
+                "3.1.0",
+                "3.0.1",
+                "3.0.0",
+                "2.5.0",
+                "2.4.0",
+                "2.3.1",
+                "2.3.0",
+                "2.2.0",
+                "2.1.1",
+                "2.1.0",
+                "2.0.0",
+                "1.6.0",
+                "1.5.0",
+                "1.4.0",
+                "1.3.0",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.0",
+                "1.0.0",
+                "0.9.2",
+                "0.9.1",
+                "0.9.0",
+                "0.8.1",
+                "0.8",
+                "0.7.3",
+                "0.7.2",
+                "0.7.1",
+                "0.7",
+                "0.6.1",
+                "0.6.0",
+                "0.5.0",
+                "0.4.0",
+                "0.3.0",
+                "0.2.1",
+                "0.2.0"
+            ],
+            "required_by": [
+                "flake8"
+            ],
+            "summary": "passive checker of Python programs",
+            "version_installed": "3.1.0",
+            "version_required": "3.1.0"
         },
         "pygments": {
             "level": 1,
             "package_name": "Pygments",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "2.16.1",
+                "2.16.0",
                 "2.15.1",
                 "2.15.0",
                 "2.14.0",
@@ -1345,20 +1655,19 @@
                 "2.0rc1",
                 "1.6",
                 "1.6rc1",
-                "1.5",
-                "1.4",
-                "1.3.1"
+                "1.5"
             ],
             "summary": "Pygments is a syntax highlighting package written in Python",
-            "version_installed": "2.15.1",
-            "version_required": "2.15.1"
+            "version_installed": "2.16.1",
+            "version_required": "2.16.1"
         },
         "pygubu": {
             "level": 1,
             "package_name": "pygubu",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "0.31",
                 "0.30",
                 "0.29",
                 "0.28",
@@ -1397,19 +1706,21 @@
                 "0.10.1",
                 "0.10",
                 "0.9.8.6",
-                "0.9.8.5",
-                "0.9.8.4"
+                "0.9.8.5"
             ],
             "summary": "A simple GUI builder for the python tkinter module",
-            "version_installed": "0.30",
-            "version_required": "0.30"
+            "version_installed": "0.31",
+            "version_required": "0.31"
         },
         "pyparsing": {
             "level": 1,
             "package_name": "pyparsing",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "3.1.1",
+                "3.1.0",
+                "3.1.0b2",
                 "3.1.0b1",
                 "3.1.0a1",
                 "3.0.9",
@@ -1446,23 +1757,20 @@
                 "2.1.10",
                 "2.1.9",
                 "2.1.8",
-                "2.1.7",
-                "2.1.6",
-                "2.1.5",
-                "2.1.4"
+                "2.1.7"
             ],
             "required_by": [
                 "matplotlib"
             ],
             "summary": "pyparsing module - Classes and methods to define and execute parsing grammars",
-            "version_installed": "3.0.9",
-            "version_required": "3.0.9"
+            "version_installed": "3.1.1",
+            "version_required": "3.1.1"
         },
         "pyproject-hooks": {
             "level": 2,
             "package_name": "pyproject-hooks",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
                 "1.0.0",
                 "0.1.0"
@@ -1478,98 +1786,11 @@
             "version_installed": "1.0.0",
             "version_required": "1.0.0"
         },
-        "pyqt-builder": {
-            "level": 3,
-            "package_name": "PyQt-builder",
-            "pypi_package": true,
-            "releases_checked_time": 1683734869,
-            "releases_recent": [
-                "1.15.0",
-                "1.14.1",
-                "1.14.0",
-                "1.13.0",
-                "1.12.2",
-                "1.12.1",
-                "1.12.0",
-                "1.11.0",
-                "1.10.3",
-                "1.10.2",
-                "1.10.1",
-                "1.10.0",
-                "1.9.1",
-                "1.9.0",
-                "1.8.0",
-                "1.7.0",
-                "1.6.0",
-                "1.5.0",
-                "1.4.0",
-                "1.3.2",
-                "1.3.1",
-                "1.3.0",
-                "1.2.0",
-                "1.1.0",
-                "1.0.1",
-                "1.0.0"
-            ],
-            "requires": [
-                {
-                    "package_name": "packaging",
-                    "version_installed": "23.1"
-                },
-                {
-                    "package_name": "sip",
-                    "requires": [
-                        {
-                            "package_name": "packaging",
-                            "version_installed": "23.1"
-                        },
-                        {
-                            "package_name": "ply",
-                            "version_installed": "3.11"
-                        },
-                        {
-                            "package_name": "setuptools",
-                            "version_installed": "67.7.2"
-                        },
-                        {
-                            "package_name": "tomli",
-                            "version_installed": "2.0.1"
-                        }
-                    ],
-                    "version_installed": "6.7.9",
-                    "version_required": ">=6.7,<7"
-                }
-            ],
-            "summary": "The PEP 517 compliant PyQt build system",
-            "version_installed": "1.15.0",
-            "version_required": "1.15.0"
-        },
-        "pyqt6-sip": {
-            "level": 1,
-            "package_name": "PyQt6-sip",
-            "pypi_package": true,
-            "releases_checked_time": 1683734869,
-            "releases_recent": [
-                "13.5.1",
-                "13.5.0",
-                "13.4.1",
-                "13.4.0",
-                "13.3.1",
-                "13.2.1",
-                "13.2.0",
-                "13.1.0",
-                "13.0.1",
-                "13.0.0"
-            ],
-            "summary": "The sip module support for PyQt6",
-            "version_installed": "13.5.1",
-            "version_required": "13.5.1"
-        },
         "python-dateutil": {
             "level": 2,
             "package_name": "python-dateutil",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
                 "2.8.2",
                 "2.8.1",
@@ -1623,8 +1844,9 @@
             "level": 1,
             "package_name": "pytz",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "2023.3.post1",
                 "2023.3",
                 "2023.2",
                 "2022.7.1",
@@ -1663,8 +1885,7 @@
                 "2015.6",
                 "2015.4",
                 "2015.2",
-                "2014.9",
-                "2014.7"
+                "2014.9"
             ],
             "required_by": [
                 "pandas"
@@ -1677,7 +1898,7 @@
             "level": 1,
             "package_name": "pyzbar",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
                 "0.1.9",
                 "0.1.8",
@@ -1697,8 +1918,9 @@
             "level": 2,
             "package_name": "requests",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "2.31.0",
                 "2.30.0",
                 "2.29.0",
                 "2.28.2",
@@ -1737,18 +1959,20 @@
                 "2.14.2",
                 "2.14.1",
                 "2.14.0",
-                "2.13.0",
-                "2.12.5"
+                "2.13.0"
+            ],
+            "required_by": [
+                "yarg"
             ],
             "requires": [
                 {
                     "package_name": "certifi",
-                    "version_installed": "2023.5.7",
+                    "version_installed": "2023.7.22",
                     "version_required": ">=2017.4.17"
                 },
                 {
                     "package_name": "charset-normalizer",
-                    "version_installed": "3.1.0",
+                    "version_installed": "3.3.0",
                     "version_required": ">=2,<4"
                 },
                 {
@@ -1758,20 +1982,26 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "2.0.2",
+                    "version_installed": "2.0.6",
                     "version_required": ">=1.21.1,<3"
                 }
             ],
             "summary": "Python HTTP for Humans",
-            "version_installed": "2.30.0",
-            "version_required": "2.30.0"
+            "version_installed": "2.31.0",
+            "version_required": "2.31.0"
         },
         "scipy": {
             "level": 2,
             "package_name": "scipy",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "1.11.3",
+                "1.11.2",
+                "1.11.1",
+                "1.11.0",
+                "1.11.0rc2",
+                "1.11.0rc1",
                 "1.10.1",
                 "1.10.0",
                 "1.10.0rc2",
@@ -1793,8 +2023,6 @@
                 "1.7.2",
                 "1.7.1",
                 "1.7.0",
-                "1.7.0rc2",
-                "1.7.0rc1",
                 "1.6.3",
                 "1.6.2",
                 "1.6.1",
@@ -1807,28 +2035,24 @@
                 "1.4.1",
                 "1.4.0",
                 "1.3.3",
-                "1.3.2",
-                "1.3.1",
-                "1.3.0",
-                "1.2.3",
-                "1.2.2"
+                "1.3.2"
             ],
             "requires": [
                 {
                     "package_name": "numpy",
-                    "version_installed": "1.24.3",
-                    "version_required": ">=1.19.5,<1.27.0"
+                    "version_installed": "1.26.0",
+                    "version_required": ">=1.21.6,<1.28.0"
                 }
             ],
             "summary": "Fundamental algorithms for scientific computing in Python",
-            "version_installed": "1.10.1",
-            "version_required": "1.10.1"
+            "version_installed": "1.11.3",
+            "version_required": "1.11.3"
         },
         "screeninfo": {
             "level": 1,
             "package_name": "screeninfo",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
                 "0.8.1",
                 "0.8",
@@ -1860,8 +2084,15 @@
             "level": 1,
             "package_name": "setuptools",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "68.2.2",
+                "68.2.1",
+                "68.2.0",
+                "68.1.2",
+                "68.1.0",
+                "68.0.0",
+                "67.8.0",
                 "67.7.2",
                 "67.7.1",
                 "67.7.0",
@@ -1894,28 +2125,23 @@
                 "65.1.0",
                 "65.0.2",
                 "65.0.1",
-                "65.0.0",
-                "64.0.3",
-                "64.0.2",
-                "64.0.1",
-                "64.0.0",
-                "63.4.3",
-                "63.4.2",
-                "63.4.1"
+                "65.0.0"
             ],
             "required_by": [
                 "sip"
             ],
             "summary": "Easily download, build, install, upgrade, and uninstall Python packages",
-            "version_installed": "67.7.2",
-            "version_required": "67.7.2"
+            "version_installed": "68.2.2",
+            "version_required": "68.2.2"
         },
         "sip": {
             "level": 2,
             "package_name": "sip",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "6.7.11",
+                "6.7.10",
                 "6.7.9",
                 "6.7.8",
                 "6.7.7",
@@ -1953,17 +2179,12 @@
                 "4.19.8",
                 "4.19.7",
                 "4.19.6",
-                "4.19.5",
-                "4.19.4",
-                "4.19.3"
-            ],
-            "required_by": [
-                "pyqt-builder"
+                "4.19.5"
             ],
             "requires": [
                 {
                     "package_name": "packaging",
-                    "version_installed": "23.1"
+                    "version_installed": "23.2"
                 },
                 {
                     "package_name": "ply",
@@ -1971,7 +2192,7 @@
                 },
                 {
                     "package_name": "setuptools",
-                    "version_installed": "67.7.2"
+                    "version_installed": "68.2.2"
                 },
                 {
                     "package_name": "tomli",
@@ -1979,14 +2200,14 @@
                 }
             ],
             "summary": "A Python bindings generator for C/C++ libraries",
-            "version_installed": "6.7.9",
-            "version_required": "6.7.9"
+            "version_installed": "6.7.11",
+            "version_required": "6.7.11"
         },
         "six": {
             "level": 1,
             "package_name": "six",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
                 "1.16.0",
                 "1.15.0",
@@ -2028,7 +2249,7 @@
             "level": 1,
             "package_name": "tk",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
                 "0.1.0"
             ],
@@ -2040,7 +2261,7 @@
             "level": 1,
             "package_name": "toml",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
                 "0.10.2",
                 "0.10.1",
@@ -2067,7 +2288,7 @@
             "level": 1,
             "package_name": "tomli",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
                 "2.0.1",
                 "2.0.0",
@@ -2106,7 +2327,7 @@
             "level": 1,
             "package_name": "tzdata",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
                 "2023.3",
                 "2023.2",
@@ -2147,8 +2368,12 @@
             "level": 1,
             "package_name": "urllib3",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "2.0.6",
+                "2.0.5",
+                "2.0.4",
+                "2.0.3",
                 "2.0.2",
                 "2.0.1",
                 "2.0.0",
@@ -2156,6 +2381,8 @@
                 "2.0.0a3",
                 "2.0.0a2",
                 "2.0.0a1",
+                "1.26.17",
+                "1.26.16",
                 "1.26.15",
                 "1.26.14",
                 "1.26.13",
@@ -2182,27 +2409,24 @@
                 "1.25.4",
                 "1.25.3",
                 "1.25.2",
-                "1.25.1",
-                "1.25",
-                "1.24.3",
-                "1.24.2",
-                "1.24.1",
-                "1.24",
-                "1.23"
+                "1.25.1"
             ],
             "required_by": [
                 "requests"
             ],
             "summary": "HTTP library with thread-safe connection pooling, file post, and more",
-            "version_installed": "2.0.2",
-            "version_required": "2.0.2"
+            "version_installed": "2.0.6",
+            "version_required": "2.0.6"
         },
         "wheel": {
             "level": 1,
             "package_name": "wheel",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "0.41.2",
+                "0.41.1",
+                "0.41.0",
                 "0.40.0",
                 "0.38.4",
                 "0.38.3",
@@ -2239,21 +2463,25 @@
                 "0.25.0",
                 "0.24.0",
                 "0.23.0",
-                "0.22.0",
-                "0.21.0",
-                "0.19.0",
-                "0.18.0"
+                "0.22.0"
             ],
             "summary": "A built-package format for Python",
-            "version_installed": "0.40.0",
-            "version_required": "0.40.0"
+            "version_installed": "0.41.2",
+            "version_required": "0.41.2"
         },
         "xlsxwriter": {
             "level": 1,
             "package_name": "XlsxWriter",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "3.1.7",
+                "3.1.6",
+                "3.1.5",
+                "3.1.4",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
                 "3.1.0",
                 "3.0.9",
                 "3.0.8",
@@ -2286,25 +2514,73 @@
                 "1.2.7",
                 "1.2.6",
                 "1.2.5",
-                "1.2.4",
-                "1.2.3",
-                "1.2.2",
-                "1.2.1",
-                "1.2.0",
-                "1.1.9",
-                "1.1.8",
-                "1.1.7"
+                "1.2.4"
             ],
             "summary": "A Python module for creating Excel XLSX files",
-            "version_installed": "3.1.0",
-            "version_required": "3.1.0"
+            "version_installed": "3.1.7",
+            "version_required": "3.1.7"
+        },
+        "yarg": {
+            "level": 3,
+            "package_name": "yarg",
+            "pypi_package": true,
+            "releases_checked_time": 1696972228,
+            "releases_recent": [
+                "0.1.9",
+                "0.1.8",
+                "0.1.7",
+                "0.1.6",
+                "0.1.5",
+                "0.1.4",
+                "0.1.2",
+                "0.1.1",
+                "0.1.0"
+            ],
+            "required_by": [
+                "pipreqs"
+            ],
+            "requires": [
+                {
+                    "package_name": "requests",
+                    "requires": [
+                        {
+                            "package_name": "certifi",
+                            "version_installed": "2023.7.22",
+                            "version_required": ">=2017.4.17"
+                        },
+                        {
+                            "package_name": "charset-normalizer",
+                            "version_installed": "3.3.0",
+                            "version_required": ">=2,<4"
+                        },
+                        {
+                            "package_name": "idna",
+                            "version_installed": "3.4",
+                            "version_required": ">=2.5,<4"
+                        },
+                        {
+                            "package_name": "urllib3",
+                            "version_installed": "2.0.6",
+                            "version_required": ">=1.21.1,<3"
+                        }
+                    ],
+                    "version_installed": "2.31.0"
+                }
+            ],
+            "summary": "A semi hard Cornish cheese, also queries PyPI (PyPI client)",
+            "version_installed": "0.1.9",
+            "version_required": "0.1.9"
         },
         "zipp": {
             "level": 1,
             "package_name": "zipp",
             "pypi_package": true,
-            "releases_checked_time": 1683734869,
+            "releases_checked_time": 1696972228,
             "releases_recent": [
+                "3.17.0",
+                "3.16.2",
+                "3.16.1",
+                "3.16.0",
                 "3.15.0",
                 "3.14.0",
                 "3.13.0",
@@ -2340,18 +2616,14 @@
                 "1.0.0",
                 "0.6.0",
                 "0.5.2",
-                "0.5.1",
-                "0.5.0",
-                "0.4.0",
-                "0.3.3",
-                "0.3.2"
+                "0.5.1"
             ],
             "required_by": [
                 "importlib-resources"
             ],
             "summary": "Backport of pathlib-compatible object wrapper for zip files",
-            "version_installed": "3.15.0",
-            "version_required": "3.15.0"
+            "version_installed": "3.17.0",
+            "version_required": "3.17.0"
         }
     }
 }
