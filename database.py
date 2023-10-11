@@ -43,8 +43,10 @@ class Database:
     RELEASES_CHECKED_TIME = 'releases_checked_time'
 
     def truncate(self) -> dict:
+        datetime_utc_iso_string = datetime.datetime.now(datetime.timezone.utc).isoformat()
         self.tables = dict()
-        self.tables[self.CONFIG] = dict(note='JSON style nested database for packages')
+        self.tables[self.CONFIG] = dict(note='JSON style nested database for packages',
+                                        datetime=datetime_utc_iso_string)
         self.tables[self.PACKAGES] = dict()
         return self.tables
 
@@ -290,7 +292,7 @@ class Database:
         return flag
 
     def pypi_package_set(self, name: str, flag: bool) -> bool:
-        if type(flag) != bool:
+        if not isinstance(flag, bool):
             return False
         table = self.table_packages()
         d = table.get(name)

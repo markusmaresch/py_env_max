@@ -120,7 +120,7 @@ class Constraints:
                 return True
             comparator.append(version)
             return True
-        except Exception as e:
+        except:
             return False
 
     def append(self, version_required: str) -> bool:

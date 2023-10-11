@@ -16,6 +16,7 @@ from database import Database
 
 warnings.filterwarnings('ignore', message='Unverified HTTPS request')
 
+
 class PyPiCmd:
 
     @staticmethod
@@ -24,7 +25,8 @@ class PyPiCmd:
         s = 0.1
         for t in range(t_max):
             try:
-                response = requests.get(f'https://pypi.org/pypi/{package}/json', timeout=s, verify=False)
+                response = requests.get(f'https://pypi.org/pypi/{package}/json',
+                                        timeout=s, verify=False)
                 js = response.json()
                 return js
             except:
