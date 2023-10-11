@@ -120,7 +120,9 @@ class Constraints:
                 return True
             comparator.append(version)
             return True
-        except:
+        except Exception as e:
+            # appears to be some logic error: list index out of range !!!
+            # attempt to understand and fix - but it all seems to work for months !!
             return False
 
     def append(self, version_required: str) -> bool:
