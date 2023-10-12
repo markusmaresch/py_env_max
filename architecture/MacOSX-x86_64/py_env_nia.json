@@ -1,5 +1,6 @@
 {
     "config": {
+        "datetime": "2023-10-12T18:20:32.893020+00:00",
         "note": "JSON style nested database for packages"
     },
     "packages": {
@@ -7,7 +8,7 @@
             "level": 1,
             "package_name": "addict",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.4.0",
                 "2.3.0",
@@ -49,7 +50,7 @@
             "level": 1,
             "package_name": "ansi2html",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.9.0rc1",
                 "1.8.0",
@@ -102,7 +103,7 @@
             "level": 1,
             "package_name": "attrs",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "23.1.0",
                 "22.2.0",
@@ -144,8 +145,9 @@
             "level": 1,
             "package_name": "blinker",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
+                "1.6.3",
                 "1.6.2",
                 "1.6.1",
                 "1.6",
@@ -166,7 +168,7 @@
             "level": 1,
             "package_name": "cachetools",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "5.3.1",
                 "5.3.0",
@@ -220,7 +222,7 @@
             "level": 1,
             "package_name": "certifi",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2023.7.22",
                 "2023.5.7",
@@ -275,7 +277,7 @@
             "level": 1,
             "package_name": "charset-normalizer",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "3.3.0",
                 "3.2.0",
@@ -329,7 +331,7 @@
             "level": 1,
             "package_name": "click",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "8.1.7",
                 "8.1.6",
@@ -383,7 +385,7 @@
             "level": 1,
             "package_name": "colorama",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.4.6",
                 "0.4.6rc1",
@@ -434,7 +436,7 @@
             "level": 1,
             "package_name": "ConfigArgParse",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.7",
                 "1.5.5",
@@ -473,7 +475,7 @@
             "level": 2,
             "package_name": "contourpy",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.1.1",
                 "1.1.1rc1",
@@ -510,8 +512,9 @@
             "level": 1,
             "package_name": "cycler",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
+                "0.12.1",
                 "0.12.0",
                 "0.12.0rc1",
                 "0.11.0",
@@ -529,8 +532,9 @@
             "level": 4,
             "package_name": "dash",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
+                "2.14.0",
                 "2.13.0",
                 "2.12.1",
                 "2.12.0",
@@ -569,8 +573,7 @@
                 "1.18.0",
                 "1.17.0",
                 "1.16.3",
-                "1.16.2",
-                "1.16.1"
+                "1.16.2"
             ],
             "requires": [
                 {
@@ -720,7 +723,7 @@
             "level": 1,
             "package_name": "dash-core-components",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.0.0",
                 "2.0.0rc1",
@@ -774,7 +777,7 @@
             "level": 1,
             "package_name": "dash-html-components",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.0.0",
                 "2.0.0rc1",
@@ -828,7 +831,7 @@
             "level": 1,
             "package_name": "dash-table",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "5.0.0",
                 "5.0.0rc1",
@@ -882,7 +885,7 @@
             "level": 1,
             "package_name": "defusedxml",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.8.0rc2",
                 "0.8.0rc1",
@@ -909,7 +912,7 @@
             "level": 1,
             "package_name": "docopt",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.6.2",
                 "0.6.1",
@@ -934,7 +937,7 @@
             "level": 1,
             "package_name": "fastjsonschema",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.18.1",
                 "2.18.0",
@@ -987,7 +990,7 @@
             "level": 2,
             "package_name": "flake8",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "6.1.0",
                 "6.0.0",
@@ -1055,7 +1058,7 @@
             "level": 3,
             "package_name": "Flask",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "3.0.0",
                 "2.3.3",
@@ -1142,8 +1145,9 @@
             "level": 1,
             "package_name": "fonttools",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
+                "4.43.1",
                 "4.43.0",
                 "4.42.1",
                 "4.42.0",
@@ -1182,8 +1186,7 @@
                 "4.29.0",
                 "4.28.5",
                 "4.28.4",
-                "4.28.3",
-                "4.28.2"
+                "4.28.3"
             ],
             "required_by": [
                 "fpdf2",
@@ -1197,8 +1200,9 @@
             "level": 2,
             "package_name": "fpdf2",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
+                "2.7.6",
                 "2.7.5",
                 "2.7.4",
                 "2.7.3",
@@ -1237,8 +1241,7 @@
                 "2.0.6",
                 "2.0.5",
                 "2.0.4",
-                "2.0.3",
-                "2.0.1"
+                "2.0.3"
             ],
             "requires": [
                 {
@@ -1264,7 +1267,7 @@
             "level": 1,
             "package_name": "getmac",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.9.4",
                 "0.9.3",
@@ -1289,7 +1292,7 @@
             "level": 4,
             "package_name": "google-api-core",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.12.0",
                 "2.12.0rc1",
@@ -1437,7 +1440,7 @@
             "level": 5,
             "package_name": "google-api-python-client",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.99.0",
                 "2.98.0",
@@ -1684,8 +1687,9 @@
             "level": 3,
             "package_name": "google-auth",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
+                "2.23.3",
                 "2.23.2",
                 "2.23.1",
                 "2.23.0",
@@ -1724,8 +1728,7 @@
                 "2.6.2",
                 "2.6.0",
                 "2.5.0",
-                "2.4.1",
-                "2.4.0"
+                "2.4.1"
             ],
             "required_by": [
                 "google-api-core",
@@ -1774,7 +1777,7 @@
             "level": 4,
             "package_name": "google-auth-httplib2",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.1.1",
                 "0.1.0",
@@ -1843,7 +1846,7 @@
             "level": 4,
             "package_name": "google-auth-oauthlib",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.1.0",
                 "1.0.0",
@@ -1953,8 +1956,9 @@
             "level": 7,
             "package_name": "google-cloud-aiplatform",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
+                "1.35.0",
                 "1.34.0",
                 "1.33.1",
                 "1.33.0",
@@ -1993,8 +1997,7 @@
                 "1.14.0",
                 "1.13.1",
                 "1.13.0",
-                "1.12.1",
-                "1.12.0"
+                "1.12.1"
             ],
             "requires": [
                 {
@@ -2878,7 +2881,7 @@
             "level": 5,
             "package_name": "google-cloud-artifact-registry",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.8.4",
                 "1.8.3",
@@ -3069,7 +3072,7 @@
             "level": 6,
             "package_name": "google-cloud-bigquery",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "3.12.0",
                 "3.11.4",
@@ -3425,7 +3428,7 @@
             "level": 5,
             "package_name": "google-cloud-bigquery-storage",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.22.0",
                 "2.21.0",
@@ -3594,7 +3597,7 @@
             "level": 5,
             "package_name": "google-cloud-core",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.3.3",
                 "2.3.2",
@@ -3775,7 +3778,7 @@
             "level": 6,
             "package_name": "google-cloud-datastore",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.18.0",
                 "2.17.0",
@@ -4074,8 +4077,9 @@
             "level": 5,
             "package_name": "google-cloud-discoveryengine",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
+                "0.11.2",
                 "0.11.1",
                 "0.11.0",
                 "0.10.0",
@@ -4220,8 +4224,9 @@
             "level": 5,
             "package_name": "google-cloud-documentai",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
+                "2.20.1",
                 "2.20.0",
                 "2.19.0",
                 "2.18.1",
@@ -4260,8 +4265,7 @@
                 "1.2.0",
                 "1.1.0",
                 "1.0.0",
-                "0.5.2",
-                "0.5.1"
+                "0.5.2"
             ],
             "requires": [
                 {
@@ -4389,7 +4393,7 @@
             "level": 5,
             "package_name": "google-cloud-language",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.11.1",
                 "2.11.0",
@@ -4558,8 +4562,9 @@
             "level": 5,
             "package_name": "google-cloud-monitoring",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
+                "2.16.0",
                 "2.15.1",
                 "2.15.0",
                 "2.14.2",
@@ -4598,8 +4603,7 @@
                 "0.36.1",
                 "0.36.0",
                 "0.35.0",
-                "0.34.0",
-                "0.33.0"
+                "0.34.0"
             ],
             "requires": [
                 {
@@ -4727,7 +4731,7 @@
             "level": 5,
             "package_name": "google-cloud-resource-manager",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.10.4",
                 "1.10.3",
@@ -4928,7 +4932,7 @@
             "level": 6,
             "package_name": "google-cloud-storage",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.11.0",
                 "2.10.0",
@@ -5276,7 +5280,7 @@
             "level": 1,
             "package_name": "google-crc32c",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.5.0",
                 "1.3.0",
@@ -5303,7 +5307,7 @@
             "level": 2,
             "package_name": "google-resumable-media",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.6.0",
                 "2.5.0",
@@ -5365,8 +5369,9 @@
             "level": 2,
             "package_name": "googleapis-common-protos",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
+                "1.61.0",
                 "1.60.0",
                 "1.59.1",
                 "1.59.0",
@@ -5405,8 +5410,7 @@
                 "1.5.7",
                 "1.5.6",
                 "1.5.5",
-                "1.5.4",
-                "1.5.3"
+                "1.5.4"
             ],
             "required_by": [
                 "google-api-core",
@@ -5428,7 +5432,7 @@
             "level": 3,
             "package_name": "grpc-google-iam-v1",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.12.6",
                 "0.12.4",
@@ -5480,7 +5484,7 @@
             "level": 1,
             "package_name": "grpcio",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.59.0",
                 "1.59.0rc1",
@@ -5536,7 +5540,7 @@
             "level": 3,
             "package_name": "grpcio-status",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.59.0",
                 "1.59.0rc1",
@@ -5611,7 +5615,7 @@
             "level": 2,
             "package_name": "h5py",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "3.9.0",
                 "3.8.0",
@@ -5622,6 +5626,7 @@
                 "3.3.0",
                 "3.2.1",
                 "3.2.0",
+                "3.10.0",
                 "3.1.0",
                 "3.0.0rc1",
                 "3.0.0",
@@ -5665,7 +5670,7 @@
             "level": 2,
             "package_name": "httplib2",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.22.0",
                 "0.21.0",
@@ -5726,7 +5731,7 @@
             "level": 1,
             "package_name": "idna",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "3.4",
                 "3.3",
@@ -5767,7 +5772,7 @@
             "level": 2,
             "package_name": "imageio",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.31.5",
                 "2.31.4",
@@ -5832,7 +5837,7 @@
             "level": 2,
             "package_name": "importlib-metadata",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "6.8.0",
                 "6.7.0",
@@ -5890,7 +5895,7 @@
             "level": 1,
             "package_name": "importlib-resources",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "6.1.0",
                 "6.0.1",
@@ -5941,7 +5946,7 @@
             "level": 1,
             "package_name": "imutils",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.5.4",
                 "0.5.3",
@@ -5981,7 +5986,7 @@
             "level": 3,
             "package_name": "influxdb-client",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.38.0",
                 "1.37.0",
@@ -6073,7 +6078,7 @@
             "level": 1,
             "package_name": "itsdangerous",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.1.2",
                 "2.1.1",
@@ -6113,7 +6118,7 @@
             "level": 2,
             "package_name": "Jinja2",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "3.1.2",
                 "3.1.1",
@@ -6171,7 +6176,7 @@
             "level": 1,
             "package_name": "joblib",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.3.2",
                 "1.3.1",
@@ -6224,7 +6229,7 @@
             "level": 4,
             "package_name": "jsonschema",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "4.19.1",
                 "4.19.0",
@@ -6331,7 +6336,7 @@
             "level": 3,
             "package_name": "jsonschema-specifications",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2023.7.1",
                 "2023.6.1",
@@ -6383,8 +6388,9 @@
             "level": 2,
             "package_name": "jupyter-core",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
+                "5.4.0",
                 "5.3.2",
                 "5.3.1",
                 "5.3.0",
@@ -6423,8 +6429,7 @@
                 "4.6.1",
                 "4.6.0",
                 "4.5.0",
-                "4.4.0",
-                "4.3.0"
+                "4.4.0"
             ],
             "required_by": [
                 "nbformat"
@@ -6449,7 +6454,7 @@
             "level": 1,
             "package_name": "kiwisolver",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.4.5",
                 "1.4.4",
@@ -6480,7 +6485,7 @@
             "level": 1,
             "package_name": "lazy-loader",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.3",
                 "0.3rc0",
@@ -6502,7 +6507,7 @@
             "level": 1,
             "package_name": "llvmlite",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.41.0",
                 "0.41.0rc1",
@@ -6556,7 +6561,7 @@
             "level": 1,
             "package_name": "lmdb",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.4.1",
                 "1.4.0",
@@ -6607,7 +6612,7 @@
             "level": 1,
             "package_name": "MarkupSafe",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.1.3",
                 "2.1.2",
@@ -6647,7 +6652,7 @@
             "level": 3,
             "package_name": "matplotlib",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "3.8.0",
                 "3.8.0rc1",
@@ -6759,7 +6764,7 @@
             "level": 1,
             "package_name": "mccabe",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.7.0",
                 "0.6.1",
@@ -6786,7 +6791,7 @@
             "level": 5,
             "package_name": "nbformat",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "5.9.2",
                 "5.9.1",
@@ -6918,7 +6923,7 @@
             "level": 1,
             "package_name": "nest-asyncio",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.5.8",
                 "1.5.7",
@@ -6966,8 +6971,9 @@
             "level": 1,
             "package_name": "networkx",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
+                "3.2rc0",
                 "3.1",
                 "3.1rc0",
                 "3.0",
@@ -7006,8 +7012,7 @@
                 "2.2rc1",
                 "2.1",
                 "2.0",
-                "1.11",
-                "1.11rc2"
+                "1.11"
             ],
             "required_by": [
                 "scikit-image"
@@ -7020,7 +7025,7 @@
             "level": 2,
             "package_name": "numba",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.58.0",
                 "0.58.0rc2",
@@ -7083,7 +7088,7 @@
             "level": 1,
             "package_name": "numpy",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.26.0",
                 "1.26.0rc1",
@@ -7153,7 +7158,7 @@
             "level": 1,
             "package_name": "oauthlib",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "3.2.2",
                 "3.2.1",
@@ -7207,7 +7212,7 @@
             "level": 2,
             "package_name": "opencv-contrib-python",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "4.8.1.78",
                 "4.8.0.76",
@@ -7290,7 +7295,7 @@
             "level": 2,
             "package_name": "opencv-python",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "4.8.1.78",
                 "4.8.0.76",
@@ -7373,7 +7378,7 @@
             "level": 2,
             "package_name": "opencv-python-headless",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "4.8.1.78",
                 "4.8.0.76",
@@ -7456,7 +7461,7 @@
             "level": 1,
             "package_name": "packaging",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "23.2",
                 "23.1",
@@ -7514,7 +7519,7 @@
             "level": 3,
             "package_name": "pandas",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.1.1",
                 "2.1.0",
@@ -7590,11 +7595,51 @@
             "version_installed": "2.1.1",
             "version_required": "2.1.1"
         },
+        "persist-queue": {
+            "level": 1,
+            "package_name": "persist-queue",
+            "pypi_package": true,
+            "releases_checked_time": 1697134855,
+            "releases_recent": [
+                "0.8.1",
+                "0.8.0",
+                "0.8.0b0",
+                "0.8.0a0",
+                "0.7.0",
+                "0.6.0",
+                "0.5.1",
+                "0.5.0",
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.3.6",
+                "0.3.5",
+                "0.3.4",
+                "0.3.3",
+                "0.3.2",
+                "0.3.1",
+                "0.3.0",
+                "0.2.3",
+                "0.2.2",
+                "0.2.1",
+                "0.2.0",
+                "0.1.6",
+                "0.1.5",
+                "0.1.4",
+                "0.1.3",
+                "0.1.2",
+                "0.1.1",
+                "0.1.0"
+            ],
+            "summary": "A thread-safe disk based persistent queue in Python",
+            "version_installed": "0.8.1",
+            "version_required": "0.8.1"
+        },
         "pillow": {
             "level": 1,
             "package_name": "Pillow",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "10.0.1",
                 "10.0.0",
@@ -7645,7 +7690,7 @@
             "level": 1,
             "package_name": "pip",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "23.2.1",
                 "23.2",
@@ -7696,7 +7741,7 @@
             "level": 4,
             "package_name": "pipreqs",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.4.13",
                 "0.4.12",
@@ -7785,7 +7830,7 @@
             "level": 1,
             "package_name": "platformdirs",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "3.11.0",
                 "3.10.0",
@@ -7835,7 +7880,7 @@
             "level": 2,
             "package_name": "plotly",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "5.17.0",
                 "5.16.1",
@@ -7900,7 +7945,7 @@
             "level": 2,
             "package_name": "plyfile",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.0.1",
                 "1.0",
@@ -7931,7 +7976,7 @@
             "level": 2,
             "package_name": "prettytable",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "3.9.0",
                 "3.8.0",
@@ -7979,7 +8024,7 @@
             "level": 2,
             "package_name": "proto-plus",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.22.3",
                 "1.22.2",
@@ -8049,7 +8094,7 @@
             "level": 1,
             "package_name": "protobuf",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "4.24.4",
                 "4.24.3",
@@ -8116,7 +8161,7 @@
             "level": 2,
             "package_name": "pyarrow",
             "pypi_package": true,
-            "releases_checked_time": 1696532212,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "13.0.0",
                 "12.0.1",
@@ -8174,7 +8219,7 @@
             "level": 1,
             "package_name": "pyasn1",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.5.0",
                 "0.4.8",
@@ -8225,7 +8270,7 @@
             "level": 2,
             "package_name": "pyasn1-modules",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.3.0",
                 "0.2.8",
@@ -8270,7 +8315,7 @@
             "level": 1,
             "package_name": "pycodestyle",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.11.0",
                 "2.10.0",
@@ -8302,7 +8347,7 @@
             "level": 1,
             "package_name": "pyflakes",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "3.1.0",
                 "3.0.1",
@@ -8353,7 +8398,7 @@
             "level": 1,
             "package_name": "pyparsing",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "3.1.1",
                 "3.1.0",
@@ -8408,7 +8453,7 @@
             "level": 1,
             "package_name": "pypng",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.20220715.0",
                 "0.0.21",
@@ -8444,7 +8489,7 @@
             "level": 1,
             "package_name": "PyQRCode",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.2.1",
                 "1.2",
@@ -8463,7 +8508,7 @@
             "level": 2,
             "package_name": "pyquaternion",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.9.9",
                 "0.9.8",
@@ -8486,7 +8531,7 @@
             "level": 1,
             "package_name": "pyrsistent",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.19.3",
                 "0.19.2",
@@ -8537,7 +8582,7 @@
             "level": 1,
             "package_name": "python-barcode",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.15.1",
                 "0.14.0",
@@ -8560,7 +8605,7 @@
             "level": 2,
             "package_name": "python-dateutil",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.8.2",
                 "2.8.1",
@@ -8616,7 +8661,7 @@
             "level": 1,
             "package_name": "python-dotenv",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.0.0",
                 "0.21.1",
@@ -8667,7 +8712,7 @@
             "level": 1,
             "package_name": "python-nmap",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.7.1",
                 "0.6.4",
@@ -8708,7 +8753,7 @@
             "level": 1,
             "package_name": "pytz",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2023.3.post1",
                 "2023.3",
@@ -8762,7 +8807,7 @@
             "level": 2,
             "package_name": "PyWavelets",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.4.1",
                 "1.4.0",
@@ -8801,7 +8846,7 @@
             "level": 1,
             "package_name": "PyYAML",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "6.0.1",
                 "6.0",
@@ -8849,7 +8894,7 @@
             "level": 1,
             "package_name": "pyzbar",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.1.9",
                 "0.1.8",
@@ -8869,7 +8914,7 @@
             "level": 2,
             "package_name": "qrcode",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "7.4.2",
                 "7.4.1",
@@ -8926,7 +8971,7 @@
             "level": 2,
             "package_name": "reactivex",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "4.0.4",
                 "4.0.3",
@@ -8960,7 +9005,7 @@
             "level": 2,
             "package_name": "referencing",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.30.2",
                 "0.30.1",
@@ -9027,7 +9072,7 @@
             "level": 2,
             "package_name": "requests",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.31.0",
                 "2.30.0",
@@ -9108,7 +9153,7 @@
             "level": 3,
             "package_name": "requests-oauthlib",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.3.1",
                 "1.3.0",
@@ -9175,7 +9220,7 @@
             "level": 2,
             "package_name": "retrying",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.3.4",
                 "1.3.3",
@@ -9208,8 +9253,10 @@
             "level": 1,
             "package_name": "rpds-py",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
+                "0.10.6",
+                "0.10.5",
                 "0.10.4",
                 "0.10.3",
                 "0.10.2",
@@ -9257,7 +9304,7 @@
             "level": 2,
             "package_name": "rsa",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "4.9",
                 "4.8",
@@ -9314,7 +9361,7 @@
             "level": 1,
             "package_name": "ruff",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.0.292",
                 "0.0.291",
@@ -9365,7 +9412,7 @@
             "level": 3,
             "package_name": "scikit-image",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.22.0",
                 "0.22.0rc1",
@@ -9482,7 +9529,7 @@
             "level": 3,
             "package_name": "scikit-learn",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.3.1",
                 "1.3.0",
@@ -9562,7 +9609,7 @@
             "level": 2,
             "package_name": "scipy",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.11.3",
                 "1.11.2",
@@ -9624,7 +9671,7 @@
             "level": 1,
             "package_name": "setuptools",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "68.2.2",
                 "68.2.1",
@@ -9679,7 +9726,7 @@
             "level": 1,
             "package_name": "Shapely",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.0.1",
                 "2.0.0",
@@ -9730,7 +9777,7 @@
             "level": 1,
             "package_name": "shiboken6",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "6.5.3",
                 "6.5.2",
@@ -9763,11 +9810,6 @@
                 "6.0.0a1.dev1606913934",
                 "6.0.0a1.dev1606911628"
             ],
-            "required_by": [
-                "pyside6",
-                "pyside6-addons",
-                "pyside6-essentials"
-            ],
             "summary": "Python/C++ bindings helper module",
             "version_installed": "6.5.2",
             "version_required": "6.5.2"
@@ -9776,7 +9818,7 @@
             "level": 1,
             "package_name": "six",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "1.16.0",
                 "1.15.0",
@@ -9819,7 +9861,7 @@
             "level": 1,
             "package_name": "tenacity",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "8.2.3",
                 "8.2.2",
@@ -9873,7 +9915,7 @@
             "level": 1,
             "package_name": "threadpoolctl",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "3.2.0",
                 "3.1.0",
@@ -9895,7 +9937,7 @@
             "level": 2,
             "package_name": "tifffile",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2023.9.26",
                 "2023.9.18",
@@ -9955,7 +9997,7 @@
             "level": 1,
             "package_name": "tqdm",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "4.66.1",
                 "4.66.0",
@@ -10006,7 +10048,7 @@
             "level": 1,
             "package_name": "traitlets",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "5.11.2",
                 "5.11.1",
@@ -10061,7 +10103,7 @@
             "level": 1,
             "package_name": "typing-extensions",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "4.8.0",
                 "4.8.0rc1",
@@ -10106,7 +10148,7 @@
             "level": 1,
             "package_name": "tzdata",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2023.3",
                 "2023.2",
@@ -10147,7 +10189,7 @@
             "level": 1,
             "package_name": "uritemplate",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "4.1.1",
                 "4.1.0",
@@ -10173,7 +10215,7 @@
             "level": 1,
             "package_name": "urllib3",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "2.0.6",
                 "2.0.5",
@@ -10228,7 +10270,7 @@
             "level": 1,
             "package_name": "wcwidth",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.2.8",
                 "0.2.7",
@@ -10262,7 +10304,7 @@
             "level": 2,
             "package_name": "Werkzeug",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "3.0.0",
                 "2.3.7",
@@ -10320,7 +10362,7 @@
             "level": 1,
             "package_name": "wheel",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.41.2",
                 "0.41.1",
@@ -10371,7 +10413,7 @@
             "level": 1,
             "package_name": "wincertstore",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.2.1",
                 "0.2",
@@ -10385,8 +10427,9 @@
             "level": 1,
             "package_name": "XlsxWriter",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
+                "3.1.7",
                 "3.1.6",
                 "3.1.5",
                 "3.1.4",
@@ -10425,8 +10468,7 @@
                 "1.2.7",
                 "1.2.6",
                 "1.2.5",
-                "1.2.4",
-                "1.2.3"
+                "1.2.4"
             ],
             "summary": "A Python module for creating Excel XLSX files",
             "version_installed": "3.1.6",
@@ -10436,7 +10478,7 @@
             "level": 3,
             "package_name": "yarg",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "0.1.9",
                 "0.1.8",
@@ -10487,7 +10529,7 @@
             "level": 1,
             "package_name": "zipp",
             "pypi_package": true,
-            "releases_checked_time": 1696532173,
+            "releases_checked_time": 1697134833,
             "releases_recent": [
                 "3.17.0",
                 "3.16.2",
