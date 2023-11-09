@@ -166,14 +166,14 @@ class PipCmd:
         lines = list()
         pkgs = sorted(conflicts.keys())
         #
-        # not tested below - we had no use case so far !!
+        #
         #
         for p in pkgs:
-            pkg = p.render_as_root(False)
+            pkg = p.render_as_root(frozen=False)
             line0 = '* {}'.format(pkg)
             lines.append(line0)
             for req in conflicts[p]:
-                req_str = req.render_as_branch(False)
+                req_str = req.render_as_branch(frozen=False)
                 line1 = ' - {}'.format(req_str)
                 lines.append(line1)
         return lines
