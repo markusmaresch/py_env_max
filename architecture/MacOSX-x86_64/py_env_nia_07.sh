@@ -1,5 +1,5 @@
-# 2023-10-12T18:21:13.860930+00:00
+# 2023-11-09T22:06:34.883375+00:00
 # Level 7
-pip install "google-cloud-aiplatform>=1.34.0"
+pip install "google-cloud-aiplatform>=1.36.1"
 pip check
 # Level 7
