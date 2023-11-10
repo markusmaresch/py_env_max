@@ -1364,7 +1364,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -1724,7 +1724,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -3253,7 +3253,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -3346,7 +3346,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -3448,7 +3448,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -4543,7 +4543,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.25.4,<2.1"
                         }
                     ],
@@ -4580,7 +4580,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.25.4,<2.1"
                                 }
                             ],
@@ -4667,7 +4667,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16",
+                    "version_installed": "2.0.6",
                     "version_required": ">=1.25.4,<2.1"
                 }
             ],
@@ -5062,7 +5062,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -6489,7 +6489,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -6795,7 +6795,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -7272,7 +7272,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -7563,7 +7563,7 @@
                                 },
                                 {
                                     "package_name": "pyparsing",
-                                    "version_installed": "3.0.9",
+                                    "version_installed": "3.1.1",
                                     "version_required": ">=2.3.1"
                                 },
                                 {
@@ -8502,7 +8502,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -8695,7 +8695,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -8874,7 +8874,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -9468,7 +9468,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.24.3"
                         },
                         {
@@ -9890,7 +9890,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.24.3"
                                 },
                                 {
@@ -10133,7 +10133,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.24.3"
                         },
                         {
@@ -10346,7 +10346,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -10365,7 +10365,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16",
+                    "version_installed": "2.0.6",
                     "version_required": ">=1.26.7,<3"
                 }
             ],
@@ -10532,7 +10532,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -10642,7 +10642,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -11171,7 +11171,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -11287,7 +11287,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -11351,7 +11351,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -11636,7 +11636,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16",
+                    "version_installed": "2.0.6",
                     "version_required": ">=1.24.3"
                 },
                 {
@@ -12308,7 +12308,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -12317,7 +12317,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16",
+                    "version_installed": "2.0.6",
                     "version_required": ">=1.26.0"
                 },
                 {
@@ -12712,7 +12712,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -12959,7 +12959,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16",
+                    "version_installed": "2.0.6",
                     "version_required": ">=1.26.2,<3"
                 }
             ],
@@ -13027,7 +13027,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.26.2,<3"
                         }
                     ],
@@ -14483,8 +14483,8 @@
                 "tf2onnx"
             ],
             "summary": "The FlatBuffers serialization format for Python",
-            "version_installed": "1.12",
-            "version_required": "1.12"
+            "version_installed": "23.5.9",
+            "version_required": "23.5.9"
         },
         "folium": {
             "level": 4,
@@ -14577,7 +14577,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -15270,7 +15270,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -15901,7 +15901,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -16037,7 +16037,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -16127,7 +16127,7 @@
                             "requires": [
                                 {
                                     "package_name": "pyparsing",
-                                    "version_installed": "3.0.9",
+                                    "version_installed": "3.1.1",
                                     "version_required": ">=2.4.2,<4,!=3.0.3,!=3.0.2,!=3.0.1,!=3.0.0"
                                 }
                             ],
@@ -16143,7 +16143,7 @@
                     "requires": [
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.4.2,<4,!=3.0.3,!=3.0.2,!=3.0.1,!=3.0.0"
                         }
                     ],
@@ -16310,7 +16310,7 @@
                     "requires": [
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.4.2,<4,!=3.0.3,!=3.0.2,!=3.0.1,!=3.0.0"
                         }
                     ],
@@ -16421,7 +16421,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -16561,7 +16561,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -16735,7 +16735,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -16911,7 +16911,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -17001,7 +17001,7 @@
                                         },
                                         {
                                             "package_name": "urllib3",
-                                            "version_installed": "1.26.16",
+                                            "version_installed": "2.0.6",
                                             "version_required": ">=1.21.1,<3"
                                         }
                                     ],
@@ -17210,7 +17210,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -17379,7 +17379,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -17505,7 +17505,7 @@
                                         },
                                         {
                                             "package_name": "urllib3",
-                                            "version_installed": "1.26.16",
+                                            "version_installed": "2.0.6",
                                             "version_required": ">=1.21.1,<3"
                                         }
                                     ],
@@ -17593,7 +17593,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -17729,7 +17729,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -17819,7 +17819,7 @@
                                         },
                                         {
                                             "package_name": "urllib3",
-                                            "version_installed": "1.26.16",
+                                            "version_installed": "2.0.6",
                                             "version_required": ">=1.21.1,<3"
                                         }
                                     ],
@@ -18131,7 +18131,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -18676,7 +18676,7 @@
                                         },
                                         {
                                             "package_name": "urllib3",
-                                            "version_installed": "1.26.16",
+                                            "version_installed": "2.0.6",
                                             "version_required": ">=1.21.1,<3"
                                         }
                                     ],
@@ -18834,7 +18834,7 @@
                                                 },
                                                 {
                                                     "package_name": "urllib3",
-                                                    "version_installed": "1.26.16",
+                                                    "version_installed": "2.0.6",
                                                     "version_required": ">=1.21.1,<3"
                                                 }
                                             ],
@@ -19193,7 +19193,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -19760,7 +19760,7 @@
             "requires": [
                 {
                     "package_name": "pyparsing",
-                    "version_installed": "3.0.9",
+                    "version_installed": "3.1.1",
                     "version_required": ">=2.4.2,<4,!=3.0.3,!=3.0.2,!=3.0.1,!=3.0.0"
                 }
             ],
@@ -19788,7 +19788,7 @@
                     "requires": [
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.4.2,<4,!=3.0.3,!=3.0.2,!=3.0.1,!=3.0.0"
                         }
                     ],
@@ -19800,7 +19800,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16"
+                    "version_installed": "2.0.6"
                 }
             ],
             "summary": "A wrapper over urllib3 that matches httplib2's interface",
@@ -19953,7 +19953,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -21055,7 +21055,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16",
+                    "version_installed": "2.0.6",
                     "version_required": ">=1.26.0"
                 }
             ],
@@ -21275,7 +21275,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16",
+                    "version_installed": "2.0.6",
                     "version_required": ">=1.15"
                 }
             ],
@@ -27679,7 +27679,7 @@
                                                 },
                                                 {
                                                     "package_name": "urllib3",
-                                                    "version_installed": "1.26.16",
+                                                    "version_installed": "2.0.6",
                                                     "version_required": ">=1.21.1,<3"
                                                 }
                                             ],
@@ -29366,7 +29366,7 @@
                                         },
                                         {
                                             "package_name": "urllib3",
-                                            "version_installed": "1.26.16",
+                                            "version_installed": "2.0.6",
                                             "version_required": ">=1.21.1,<3"
                                         }
                                     ],
@@ -37716,7 +37716,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -39473,7 +39473,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -39648,7 +39648,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -39665,7 +39665,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16"
+                    "version_installed": "2.0.6"
                 }
             ],
             "summary": "Kaggle API",
@@ -39871,7 +39871,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -40076,7 +40076,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -40162,7 +40162,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -40236,7 +40236,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -40287,7 +40287,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -40766,7 +40766,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -40909,7 +40909,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -42287,7 +42287,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -42420,7 +42420,7 @@
                 },
                 {
                     "package_name": "pyparsing",
-                    "version_installed": "3.0.9",
+                    "version_installed": "3.1.1",
                     "version_required": ">=2.3.1"
                 },
                 {
@@ -42542,7 +42542,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -42893,7 +42893,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -42991,7 +42991,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -43074,7 +43074,7 @@
                                 },
                                 {
                                     "package_name": "pyparsing",
-                                    "version_installed": "3.0.9",
+                                    "version_installed": "3.1.1",
                                     "version_required": ">=2.3.1"
                                 },
                                 {
@@ -43244,7 +43244,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -43258,7 +43258,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16"
+                    "version_installed": "2.0.6"
                 }
             ],
             "summary": "Official Mixpanel library for Python",
@@ -43355,7 +43355,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -43724,7 +43724,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -43743,7 +43743,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.26.7,<3"
                         }
                     ],
@@ -43778,7 +43778,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -43787,7 +43787,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.26.0"
                         },
                         {
@@ -43952,7 +43952,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -44078,7 +44078,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -44253,7 +44253,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -44643,7 +44643,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -44751,7 +44751,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -44999,7 +44999,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -45056,7 +45056,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -45091,7 +45091,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -45531,7 +45531,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -45577,7 +45577,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -49416,7 +49416,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -53121,7 +53121,7 @@
                                         },
                                         {
                                             "package_name": "urllib3",
-                                            "version_installed": "1.26.16",
+                                            "version_installed": "2.0.6",
                                             "version_required": ">=1.21.1,<3"
                                         }
                                     ],
@@ -54808,7 +54808,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -56979,7 +56979,7 @@
                     "requires": [
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.4.2,<4,!=3.0.3,!=3.0.2,!=3.0.1,!=3.0.0"
                         }
                     ],
@@ -57501,7 +57501,7 @@
                 },
                 {
                     "package_name": "flatbuffers",
-                    "version_installed": "1.12"
+                    "version_installed": "23.5.9"
                 },
                 {
                     "package_name": "numpy",
@@ -59278,7 +59278,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -60309,7 +60309,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -60984,7 +60984,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -61053,7 +61053,7 @@
                                 },
                                 {
                                     "package_name": "pyparsing",
-                                    "version_installed": "3.0.9",
+                                    "version_installed": "3.1.1",
                                     "version_required": ">=2.3.1"
                                 },
                                 {
@@ -61635,7 +61635,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16"
+                    "version_installed": "2.0.6"
                 }
             ],
             "summary": "Python's forecast::auto.arima equivalent",
@@ -61715,7 +61715,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -61899,7 +61899,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -62623,7 +62623,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -64037,7 +64037,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -64549,7 +64549,7 @@
                                         },
                                         {
                                             "package_name": "urllib3",
-                                            "version_installed": "1.26.16",
+                                            "version_installed": "2.0.6",
                                             "version_required": ">=1.21.1,<3"
                                         }
                                     ],
@@ -64724,7 +64724,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -64928,7 +64928,7 @@
             "requires": [
                 {
                     "package_name": "pyparsing",
-                    "version_installed": "3.0.9",
+                    "version_installed": "3.1.1",
                     "version_required": ">=2.1.4"
                 }
             ],
@@ -65384,7 +65384,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -65398,7 +65398,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16",
+                    "version_installed": "2.0.6",
                     "version_required": ">=1.26.0"
                 }
             ],
@@ -76829,7 +76829,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -77176,8 +77176,8 @@
                 "pydot"
             ],
             "summary": "pyparsing module - Classes and methods to define and execute parsing grammars",
-            "version_installed": "3.0.9",
-            "version_required": "3.0.9"
+            "version_installed": "3.1.1",
+            "version_required": "3.1.1"
         },
         "pyperclip": {
             "level": 1,
@@ -79449,7 +79449,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -79489,7 +79489,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -80421,7 +80421,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -80480,7 +80480,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -80510,7 +80510,7 @@
                                         },
                                         {
                                             "package_name": "urllib3",
-                                            "version_installed": "1.26.16",
+                                            "version_installed": "2.0.6",
                                             "version_required": ">=1.21.1,<3"
                                         }
                                     ],
@@ -80548,7 +80548,7 @@
                                         },
                                         {
                                             "package_name": "urllib3",
-                                            "version_installed": "1.26.16",
+                                            "version_installed": "2.0.6",
                                             "version_required": ">=1.21.1,<3"
                                         }
                                     ],
@@ -81067,7 +81067,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16",
+                    "version_installed": "2.0.6",
                     "version_required": ">=1.21.1,<3"
                 }
             ],
@@ -81165,7 +81165,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -81185,7 +81185,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16",
+                    "version_installed": "2.0.6",
                     "version_required": ">=1.25.5"
                 }
             ],
@@ -81236,7 +81236,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -81309,7 +81309,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -81373,7 +81373,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -81421,7 +81421,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -81563,7 +81563,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -81572,7 +81572,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16",
+                    "version_installed": "2.0.6",
                     "version_required": ">=1.25.10,<3.0"
                 }
             ],
@@ -82032,7 +82032,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.25.4,<2.1"
                         }
                     ],
@@ -82581,7 +82581,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -82817,7 +82817,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -82987,7 +82987,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -83253,7 +83253,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16",
+                    "version_installed": "2.0.6",
                     "version_required": ">=1.26,<3"
                 }
             ],
@@ -83388,7 +83388,7 @@
                 },
                 {
                     "package_name": "urllib3",
-                    "version_installed": "1.26.16",
+                    "version_installed": "2.0.6",
                     "version_required": ">=1.26.11"
                 }
             ],
@@ -84996,7 +84996,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -85262,7 +85262,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -85560,7 +85560,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -85707,7 +85707,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -85864,7 +85864,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -86031,7 +86031,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -86194,7 +86194,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -86302,7 +86302,7 @@
                                         },
                                         {
                                             "package_name": "urllib3",
-                                            "version_installed": "1.26.16",
+                                            "version_installed": "2.0.6",
                                             "version_required": ">=1.21.1,<3"
                                         }
                                     ],
@@ -86497,7 +86497,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -86988,7 +86988,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -87225,7 +87225,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -87847,7 +87847,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -88434,7 +88434,7 @@
                                         },
                                         {
                                             "package_name": "urllib3",
-                                            "version_installed": "1.26.16",
+                                            "version_installed": "2.0.6",
                                             "version_required": ">=1.21.1,<3"
                                         }
                                     ],
@@ -88489,7 +88489,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -88735,7 +88735,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -89411,7 +89411,7 @@
             "requires": [
                 {
                     "package_name": "flatbuffers",
-                    "version_installed": "1.12",
+                    "version_installed": "23.5.9",
                     "version_required": ">=1.12"
                 },
                 {
@@ -89460,7 +89460,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -89857,7 +89857,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -90047,7 +90047,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -90684,7 +90684,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -91151,7 +91151,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -91211,7 +91211,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -91266,7 +91266,7 @@
                                         },
                                         {
                                             "package_name": "urllib3",
-                                            "version_installed": "1.26.16",
+                                            "version_installed": "2.0.6",
                                             "version_required": ">=1.21.1,<3"
                                         }
                                     ],
@@ -91554,7 +91554,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -91589,7 +91589,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -91836,7 +91836,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.26.2,<3"
                                 }
                             ],
@@ -91884,7 +91884,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -93003,8 +93003,8 @@
                 "sentry-sdk"
             ],
             "summary": "HTTP library with thread-safe connection pooling, file post, and more",
-            "version_installed": "1.26.16",
-            "version_required": "1.26.16"
+            "version_installed": "2.0.6",
+            "version_required": "2.0.6"
         },
         "userpath": {
             "level": 2,
@@ -93706,7 +93706,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -93722,7 +93722,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.26.11"
                         }
                     ],
@@ -93967,7 +93967,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -94527,7 +94527,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -94645,7 +94645,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -95412,7 +95412,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -95631,7 +95631,7 @@
                         },
                         {
                             "package_name": "pyparsing",
-                            "version_installed": "3.0.9",
+                            "version_installed": "3.1.1",
                             "version_required": ">=2.3.1"
                         },
                         {
@@ -95871,7 +95871,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -96181,7 +96181,7 @@
                         },
                         {
                             "package_name": "urllib3",
-                            "version_installed": "1.26.16",
+                            "version_installed": "2.0.6",
                             "version_required": ">=1.21.1,<3"
                         }
                     ],
@@ -96211,7 +96211,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],
@@ -96249,7 +96249,7 @@
                                 },
                                 {
                                     "package_name": "urllib3",
-                                    "version_installed": "1.26.16",
+                                    "version_installed": "2.0.6",
                                     "version_required": ">=1.21.1,<3"
                                 }
                             ],

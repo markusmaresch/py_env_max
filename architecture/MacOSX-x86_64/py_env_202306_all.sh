@@ -1,4 +1,4 @@
-# 2023-11-10T01:15:27.465779+00:00
+# 2023-11-10T01:22:09.201085+00:00
 # Level 1
 pip install "absl-py>=1.4.0" "addict>=2.4.0" "aenum>=3.1.15" "affine>=2.4.0" "affinegap>=1.12"
 pip check
@@ -44,7 +44,7 @@ pip install "face-recognition-models>=0.3.0" "faiss-cpu>=1.7.4" "fake-useragent>
 pip check
 pip install "fastavro>=1.9.0" "fasteners>=0.19" "fastjsonschema>=2.18.1" "fastprogress>=1.0.3" "fastrlock>=0.8.2"
 pip check
-pip install "ffmpy>=0.3.1" "filelock>=3.13.1" "flatbuffers>=1.12" "fonttools>=4.44.0" "fqdn>=1.5.1"
+pip install "ffmpy>=0.3.1" "filelock>=3.13.1" "flatbuffers>=23.5.9" "fonttools>=4.44.0" "fqdn>=1.5.1"
 pip check
 pip install "freetype-py>=2.4.0" "frozendict>=2.3.8" "frozenlist>=1.4.0" "fsspec>=2023.10.0" "funcy>=2.0"
 pip check
@@ -114,7 +114,7 @@ pip install "pygments>=2.16.1" "pyinstaller-hooks-contrib>=2023.10" "pyjwt>=2.8.
 pip check
 pip install "pymeeus>=0.5.12" "pymsgbox>=1.0.9" "pymysql>=1.1.0" "pynvml>=11.5.0" "pyobjc-core>=10.0"
 pip check
-pip install "pyodbc>=5.0.1" "pyopengl>=3.1.7" "pyotp>=2.9.0" "pyparsing>=3.0.9" "pyperclip>=1.8.2"
+pip install "pyodbc>=5.0.1" "pyopengl>=3.1.7" "pyotp>=2.9.0" "pyparsing>=3.1.1" "pyperclip>=1.8.2"
 pip check
 pip install "pypng>=0.20220715.0" "pyproject-hooks>=1.0.0" "pyqt6-qt6>=6.6.0" "pyqt6-sip>=13.6.0" "pyreadline3>=3.4.1"
 pip check
@@ -156,7 +156,7 @@ pip install "types-pytz>=2023.3.1.1" "types-pyyaml>=6.0.12.12" "typing-extension
 pip check
 pip install "ua-parser>=0.18.0" "uc-micro-py>=1.0.2" "ujson>=5.8.0" "unidecode>=1.3.7" "uri-template>=1.3.0"
 pip check
-pip install "uritemplate>=4.1.1" "urllib3>=1.26.16" "uuid>=1.30" "venusian>=3.1.0" "vine>=5.1.0"
+pip install "uritemplate>=4.1.1" "urllib3>=2.0.6" "uuid>=1.30" "venusian>=3.1.0" "vine>=5.1.0"
 pip check
 pip install "waitress>=2.1.2" "wasabi>=1.1.2" "watchdog>=3.0.0" "wcwidth>=0.2.9" "webcolors>=1.13"
 pip check
