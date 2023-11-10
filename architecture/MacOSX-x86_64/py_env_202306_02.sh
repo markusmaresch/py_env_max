@@ -1,6 +1,6 @@
-# 2023-11-10T00:46:30.549084+00:00
+# 2023-11-10T01:15:27.465779+00:00
 # Level 2
-pip install "accessible-pygments>=0.0.4" "aioredis>=2.0.1" "aiosignal>=1.3.1" "amqp>=5.2.0" "anyio>=4.0.0"
+pip install "accessible-pygments>=0.0.4" "aioredis>=2.0.1" "aiosignal>=1.3.1" "amqp>=5.2.0" "anyio>=3.7.1"
 pip check
 pip install "array-record>=0.4.1" "asttokens>=2.4.1" "astunparse>=1.6.3" "atari-py>=0.3.0" "autograd>=1.6.2"
 pip check
@@ -72,14 +72,16 @@ pip install "sacremoses>=0.1.1" "scipy>=1.11.3" "sentry-sdk>=1.34.0" "setuptools
 pip check
 pip install "simplecosine>=1.2" "soxr>=0.3.7" "sphinx-markdown-tables>=0.0.17" "sqlalchemy>=1.4.49" "srsly>=2.4.8"
 pip check
-pip install "streamz>=0.6.4" "sympy>=1.12" "tensorboardx>=2.6.2.2" "tensorflow-hub>=0.15.0" "terminado>=0.17.1"
+pip install "stanio>=0.3.0" "streamz>=0.6.4" "sympy>=1.12" "tensorboardx>=2.6.2.2" "tensorflow-hub>=0.15.0"
 pip check
-pip install "tifffile>=2023.9.26" "tinycss2>=1.2.1" "typeguard>=4.1.5" "typer>=0.9.0" "typeshed-client>=2.4.0"
+pip install "terminado>=0.17.1" "tifffile>=2023.9.26" "tinycss2>=1.2.1" "typeguard>=4.1.5" "typer>=0.9.0"
 pip check
-pip install "typing-inspect>=0.9.0" "uamqp>=1.6.5" "url-normalize>=1.4.3" "userpath>=1.9.1" "uvicorn>=0.24.0"
+pip install "typeshed-client>=2.4.0" "typing-inspect>=0.9.0" "uamqp>=1.6.5" "url-normalize>=1.4.3" "userpath>=1.9.1"
 pip check
-pip install "validators>=0.22.0" "virtualenv>=20.24.6" "vispy>=0.14.1" "werkzeug>=2.2.3" "wsproto>=1.2.0"
+pip install "uvicorn>=0.24.0" "validators>=0.22.0" "virtualenv>=20.24.6" "vispy>=0.14.1" "werkzeug>=2.2.3"
 pip check
-pip install "yarl>=1.9.2" "yaspin>=3.0.1" "ypy-websocket>=0.8.4" "zope-deprecation>=5.0" "zope-interface>=6.1"
+pip install "wsproto>=1.2.0" "yarl>=1.9.2" "yaspin>=3.0.1" "ypy-websocket>=0.8.4" "zope-deprecation>=5.0"
+pip check
+pip install "zope-interface>=6.1"
 pip check
 # Level 2
