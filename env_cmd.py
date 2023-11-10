@@ -514,7 +514,7 @@ class EnvCmd:
     @staticmethod
     def upd_all(env_name: str, force: bool = False) -> bool:
         # Attempt to update existing python environment
-        max_iterations = 2
+        max_iterations = 4
         print('upd_all: {} (force={}, max_iterations={})'.format(env_name, force, max_iterations))
         if not EnvCmd.env_import(env_name=env_name, force=False):
             return False
