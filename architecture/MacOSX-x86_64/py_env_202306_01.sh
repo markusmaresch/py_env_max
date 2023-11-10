@@ -1,4 +1,4 @@
-# 2023-11-09T23:52:48.454283+00:00
+# 2023-11-10T00:46:30.549084+00:00
 # Level 1
 pip install "absl-py>=1.4.0" "addict>=2.4.0" "aenum>=3.1.15" "affine>=2.4.0" "affinegap>=1.12"
 pip check
@@ -94,7 +94,7 @@ pip install "parsedatetime>=2.6" "parso>=0.8.3" "pastedeploy>=3.0.1" "pastel>=0.
 pip check
 pip install "pathspec>=0.11.2" "pathtools>=0.1.2" "pefile>=2023.2.7" "pep517>=0.13.1" "persist-queue>=0.8.1"
 pip check
-pip install "pickleshare>=0.7.5" "pillow>=10.1.0" "pip>=23.3.1" "pipdeptree>=2.13.1" "plaster>=1.1.2"
+pip install "pickleshare>=0.7.5" "pillow>=10.0.1" "pip>=23.3.1" "pipdeptree>=2.13.1" "plaster>=1.1.2"
 pip check
 pip install "platformdirs>=3.11.0" "pluggy>=1.3.0" "plumbum>=1.8.2" "ply>=3.11" "portalocker>=2.8.2"
 pip check
@@ -104,9 +104,9 @@ pip install "ptyprocess>=0.7.0" "pulp>=2.7.0" "pure-eval>=0.2.2" "py>=1.11.0" "p
 pip check
 pip install "py-params>=0.10.2" "py-spy>=0.3.14" "py4j>=0.10.9.7" "pyasn1>=0.5.0" "pybullet>=3.2.5"
 pip check
-pip install "pycairo>=1.25.1" "pyclipper>=1.3.0.post3" "pycodestyle>=2.10.0" "pycparser>=2.21" "pycryptodome>=3.19.0"
+pip install "pycairo>=1.25.1" "pyclipper>=1.3.0.post3" "pycodestyle>=2.11.1" "pycparser>=2.21" "pycryptodome>=3.19.0"
 pip check
-pip install "pycryptodomex>=3.19.0" "pydeprecate>=0.3.2" "pydicom>=2.4.3" "pydub>=0.25.1" "pyflakes>=3.0.1"
+pip install "pycryptodomex>=3.19.0" "pydeprecate>=0.3.2" "pydicom>=2.4.3" "pydub>=0.25.1" "pyflakes>=3.1.0"
 pip check
 pip install "pygame>=2.5.2" "pygments>=2.16.1" "pyinstaller-hooks-contrib>=2023.10" "pyjwt>=2.8.0" "pylev>=1.4.0"
 pip check
@@ -132,7 +132,7 @@ pip install "send2trash>=1.8.2" "sentencepiece>=0.1.99" "setproctitle>=1.3.3" "s
 pip check
 pip install "shellingham>=1.5.4" "shortuuid>=1.0.11" "simpervisor>=1.0.0" "simplejson>=3.19.2" "six>=1.16.0"
 pip check
-pip install "slicer>=0.0.7" "smart-open>=6.4.0" "smmap>=5.0.0" "sniffio>=1.2.0" "snowballstemmer>=2.2.0"
+pip install "slicer>=0.0.7" "smart-open>=6.4.0" "smmap>=5.0.0" "sniffio>=1.3.0" "snowballstemmer>=2.2.0"
 pip check
 pip install "sortedcontainers>=2.4.0" "soupsieve>=2.5" "spacy-legacy>=3.0.12" "spacy-loggers>=1.0.5" "sphinxcontrib-applehelp>=1.0.4"
 pip check
@@ -150,20 +150,22 @@ pip install "tokenizers>=0.13.3" "toml>=0.10.2" "tomli>=2.0.1" "tomlkit>=0.12.2"
 pip check
 pip install "torchsummary>=1.5.1" "tornado>=6.3.3" "tqdm>=4.66.1" "traitlets>=5.13.0" "translationstring>=1.4"
 pip check
-pip install "typed-ast>=1.5.5" "types-pytz>=2023.3.1.1" "types-pyyaml>=6.0.12.12" "typing-extensions>=4.8.0" "tzdata>=2023.3"
+pip install "typed-ast>=1.5.5" "types-python-dateutil>=2.8.19.14" "types-pytz>=2023.3.1.1" "types-pyyaml>=6.0.12.12" "typing-extensions>=4.8.0"
 pip check
-pip install "tzlocal>=5.2" "ua-parser>=0.18.0" "uc-micro-py>=1.0.2" "ujson>=5.8.0" "unidecode>=1.3.7"
+pip install "tzdata>=2023.3" "tzlocal>=5.2" "ua-parser>=0.18.0" "uc-micro-py>=1.0.2" "ujson>=5.8.0"
 pip check
-pip install "uri-template>=1.3.0" "uritemplate>=4.1.1" "urllib3>=1.26.16" "uuid>=1.30" "venusian>=3.1.0"
+pip install "unidecode>=1.3.7" "uri-template>=1.3.0" "uritemplate>=4.1.1" "urllib3>=1.26.16" "uuid>=1.30"
 pip check
-pip install "vine>=5.1.0" "waitress>=2.1.2" "wasabi>=1.1.2" "watchdog>=3.0.0" "wcwidth>=0.2.9"
+pip install "venusian>=3.1.0" "vine>=5.1.0" "waitress>=2.1.2" "wasabi>=1.1.2" "watchdog>=3.0.0"
 pip check
-pip install "webcolors>=1.13" "webencodings>=0.5.1" "webob>=1.8.7" "websocket-client>=1.6.4" "websockets>=12.0"
+pip install "wcwidth>=0.2.9" "webcolors>=1.13" "webencodings>=0.5.1" "webob>=1.8.7" "websocket-client>=1.6.4"
 pip check
-pip install "wheel>=0.41.3" "widgetsnbextension>=4.0.9" "wincertstore>=0.2" "wireless>=0.3.3" "wrapt>=1.16.0"
+pip install "websockets>=12.0" "wheel>=0.41.3" "widgetsnbextension>=4.0.9" "wincertstore>=0.2" "wireless>=0.3.3"
 pip check
-pip install "xlrd>=2.0.1" "xlsxwriter>=3.1.9" "xlwt>=1.3.0" "xxhash>=3.4.1" "xyzservices>=2023.10.1"
+pip install "wrapt>=1.16.0" "xlrd>=2.0.1" "xlsxwriter>=3.1.9" "xlwt>=1.3.0" "xxhash>=3.4.1"
 pip check
-pip install "y-py>=0.6.2" "youtube-dl>=2021.12.17" "zict>=3.0.0" "zipp>=3.17.0" "zstd>=1.5.5.1"
+pip install "xyzservices>=2023.10.1" "y-py>=0.6.2" "youtube-dl>=2021.12.17" "zict>=3.0.0" "zipp>=3.17.0"
+pip check
+pip install "zstd>=1.5.5.1"
 pip check
 # Level 1
