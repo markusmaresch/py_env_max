@@ -607,12 +607,12 @@ class EnvCmd:
                     # fi
 
                     ruN = len(releases_update)
-                    st = (it - 1) % 2
-                    if ruN > 8:  # simulate divide and conquer
+                    st = 0  # (it - 1) % 2
+                    if ruN > 9:  # simulate divide and conquer
                         release_candidates = releases_update[st::8]
-                    elif ruN > 4:
+                    elif ruN > 5:
                         release_candidates = releases_update[st::4]
-                    elif ruN > 2:
+                    elif ruN > 3:
                         release_candidates = releases_update[st::2]
                     else:
                         release_candidates = releases_update
@@ -658,10 +658,10 @@ class EnvCmd:
                             break
                         # fi
                         #
-                        # could be ROLLED_BACK, that succeeded - could keep trying, but stop now
+                        # could be ROLLED_BACK, that succeeded
                         #
-                        break
-                    # for best
+                        # break
+                    # for release_best
                     update_command = True
                 # for packages
 
