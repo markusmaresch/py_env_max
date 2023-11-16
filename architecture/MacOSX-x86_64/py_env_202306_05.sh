@@ -1,6 +1,6 @@
-# 2023-11-10T01:22:09.201085+00:00
+# 2023-11-16T23:44:16.496351+00:00
 # Level 5
-pip install "albumentations>=1.3.1" "altair>=5.1.2" "boto3>=1.28.83" "category-encoders>=2.6.3" "cornac>=1.17.0"
+pip install "albumentations>=1.3.1" "altair>=5.1.2" "boto3>=1.29.2" "category-encoders>=2.6.3" "cornac>=1.17.0"
 pip check
 pip install "cvxpy>=1.4.1" "dash-ag-grid>=2.4.0" "dask-glm>=0.3.1" "easyocr>=1.7.1" "google-api-python-client>=2.99.0"
 pip check
@@ -14,10 +14,10 @@ pip install "pydata-google-auth>=1.8.2" "pyfume>=0.2.25" "pyobjc-framework-dicti
 pip check
 pip install "pyobjc-framework-localauthenticationembeddedui>=10.0" "pyobjc-framework-mediaplayer>=10.0" "pyobjc-framework-metalperformanceshadersgraph>=10.0" "pyobjc-framework-phase>=10.0" "pyobjc-framework-searchkit>=10.0"
 pip check
-pip install "pytorch-lightning>=2.1.1" "pywhatkit>=5.4" "rapidminer>=10.0.0.0" "selenium>=4.15.2" "spacy>=3.7.2"
+pip install "pytorch-lightning>=2.1.2" "pywhatkit>=5.4" "rapidminer>=10.0.0.0" "selenium>=4.15.2" "sphinx-rtd-theme>=1.3.0"
 pip check
-pip install "sphinx-rtd-theme>=1.3.0" "sshtunnel>=0.4.0" "tensorboard>=2.15.1" "torch-optimizer>=0.3.0" "transformers>=4.35.0"
+pip install "sshtunnel>=0.4.0" "tensorboard>=2.15.1" "thinc>=8.2.1" "torch-optimizer>=0.3.0" "transformers>=4.35.2"
 pip check
-pip install "twint>=2.1.20" "umap-learn>=0.5.4" "xarray-einstats>=0.6.0" "zope-index>=6.0"
+pip install "twint>=2.1.20" "umap-learn>=0.5.4" "weasel>=0.3.4" "xarray-einstats>=0.6.0" "zope-index>=6.0"
 pip check
 # Level 5
