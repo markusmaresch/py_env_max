@@ -1,77 +1,286 @@
-# 2023-12-21T22:24:38.367355+00:00
+# 2023-12-28T19:47:51.903184+00:00
 # Level 1
-pip install "addict>=2.4.0" "ansi2html>=1.9.1" "attrs>=23.1.0" "blinker>=1.7.0" "cachetools>=5.3.2"
+pip install "addict>=2.4.0"
+pip install "ansi2html>=1.9.1"
+pip install "appnope>=0.1.3"
+pip install "async-lru>=2.0.4"
+pip install "attrs>=23.1.0"
 pip check
-pip install "certifi>=2023.11.17" "charset-normalizer>=3.3.2" "click>=8.1.7" "colorama>=0.4.6" "compress-pickle>=2.1.0"
+pip install "babel>=2.14.0"
+pip install "blinker>=1.7.0"
 pip check
-pip install "configargparse>=1.7" "cycler>=0.12.1" "dash-core-components>=2.0.0" "dash-html-components>=2.0.0" "dash-table>=5.0.0"
+pip install "cachetools>=5.3.2"
+pip install "certifi>=2023.11.17"
+pip install "charset-normalizer>=3.3.2"
+pip install "click>=8.1.7"
+pip install "colorama>=0.4.6"
+pip install "compress-pickle>=2.1.0"
+pip install "configargparse>=1.7"
+pip install "cycler>=0.12.1"
 pip check
-pip install "defusedxml>=0.7.1" "docopt>=0.6.2" "fastjsonschema>=2.19.0" "fonttools>=4.47.0" "getmac>=0.9.4"
+pip install "dash-core-components>=2.0.0"
+pip install "dash-html-components>=2.0.0"
+pip install "dash-table>=5.0.0"
+pip install "debugpy>=1.8.0"
+pip install "decorator>=5.1.1"
+pip install "defusedxml>=0.7.1"
+pip install "docopt>=0.6.2"
 pip check
-pip install "google-crc32c>=1.5.0" "grpcio>=1.60.0" "idna>=3.6" "importlib-resources>=6.1.1" "imutils>=0.5.4"
+pip install "executing>=2.0.1"
+pip install "fastjsonschema>=2.19.0"
+pip install "filelock>=3.13.1"
+pip install "flatbuffers>=23.5.26"
+pip install "fonttools>=4.47.0"
+pip install "fqdn>=1.5.1"
+pip install "fsspec>=2023.12.2"
 pip check
-pip install "itsdangerous>=2.1.2" "joblib>=1.3.2" "kiwisolver>=1.4.5" "lazy-loader>=0.3" "llvmlite>=0.41.0"
+pip install "getmac>=0.9.4"
+pip install "google-crc32c>=1.5.0"
+pip install "grpcio>=1.60.0"
 pip check
-pip install "lmdb>=1.4.1" "markupsafe>=2.1.3" "mccabe>=0.7.0" "nest-asyncio>=1.5.8" "networkx>=3.2.1"
+pip install "humanfriendly>=10.0"
+pip install "idna>=3.6"
+pip install "importlib-resources>=6.1.1"
+pip install "imutils>=0.5.4"
+pip install "itsdangerous>=2.1.2"
 pip check
-pip install "numpy>=1.26.2" "oauthlib>=3.2.2" "packaging>=23.2" "persist-queue>=0.8.1" "pillow>=10.1.0"
+pip install "joblib>=1.3.2"
+pip install "json5>=0.9.14"
+pip install "jsonpointer>=2.4"
+pip install "jupyterlab-pygments>=0.3.0"
+pip install "jupyterlab-widgets>=3.0.9"
 pip check
-pip install "pip>=23.3.2" "platformdirs>=4.1.0" "protobuf>=4.25.1" "pyasn1>=0.5.1" "pycodestyle>=2.11.1"
+pip install "kiwisolver>=1.4.5"
+pip install "lazy-loader>=0.3"
+pip install "llvmlite>=0.41.0"
+pip install "lmdb>=1.4.1"
 pip check
-pip install "pyflakes>=3.1.0" "pyparsing>=3.1.1" "pypng>=0.20220715.0" "pyqrcode>=1.2.1" "pyrsistent>=0.20.0"
+pip install "markupsafe>=2.1.3"
+pip install "mccabe>=0.7.0"
+pip install "mistune>=3.0.2"
+pip install "mpmath>=1.3.0"
 pip check
-pip install "python-barcode>=0.15.1" "python-dotenv>=1.0.0" "python-nmap>=0.7.1" "pytz>=2023.3" "pyyaml>=6.0.1"
+pip install "nest-asyncio>=1.5.8"
+pip install "networkx>=3.2.1"
+pip install "numpy>=1.26.2"
 pip check
-pip install "pyzbar>=0.1.9" "rpds-py>=0.15.2" "ruff>=0.1.9" "setuptools>=69.0.2" "six>=1.16.0"
+pip install "oauthlib>=3.2.2"
+pip install "overrides>=7.4.0"
 pip check
-pip install "tenacity>=8.2.3" "threadpoolctl>=3.2.0" "tqdm>=4.66.1" "traitlets>=5.14.0" "typing-extensions>=4.9.0"
+pip install "packaging>=23.2"
+pip install "pandocfilters>=1.5.0"
+pip install "parso>=0.8.3"
+pip install "persist-queue>=0.8.1"
+pip install "pillow>=10.1.0"
+pip install "pip>=23.3.2"
+pip install "platformdirs>=4.1.0"
+pip install "prometheus-client>=0.19.0"
+pip install "protobuf>=4.25.1"
+pip install "psutil>=5.9.7"
 pip check
-pip install "tzdata>=2023.3" "uritemplate>=4.1.1" "urllib3>=2.1.0" "wcwidth>=0.2.12" "wheel>=0.42.0"
+pip install "ptyprocess>=0.7.0"
+pip install "pure-eval>=0.2.2"
+pip install "pyasn1>=0.5.1"
+pip install "pycodestyle>=2.11.1"
+pip install "pycparser>=2.21"
+pip install "pyflakes>=3.1.0"
+pip install "pygments>=2.17.2"
+pip install "pyparsing>=3.1.1"
+pip install "pypng>=0.20220715.0"
+pip install "pyqrcode>=1.2.1"
 pip check
-pip install "xlsxwriter>=3.1.9" "zipp>=3.17.0"
+pip install "pyrsistent>=0.20.0"
+pip install "python-barcode>=0.15.1"
+pip install "python-dotenv>=1.0.0"
+pip install "python-json-logger>=2.0.7"
+pip install "python-nmap>=0.7.1"
+pip install "pytz>=2023.3"
+pip install "pyyaml>=6.0.1"
+pip install "pyzbar>=0.1.9"
+pip install "pyzmq>=25.1.2"
+pip check
+pip install "rfc3986-validator>=0.1.1"
+pip install "rpds-py>=0.15.2"
+pip install "ruff>=0.1.9"
+pip check
+pip install "send2trash>=1.8.2"
+pip install "setuptools>=69.0.2"
+pip install "six>=1.16.0"
+pip install "sniffio>=1.3.0"
+pip install "soupsieve>=2.5"
+pip check
+pip install "tenacity>=8.2.3"
+pip install "threadpoolctl>=3.2.0"
+pip install "tornado>=6.4"
+pip install "tqdm>=4.66.1"
+pip install "traitlets>=5.14.0"
+pip install "types-python-dateutil>=2.8.19.14"
+pip install "typing-extensions>=4.9.0"
+pip install "tzdata>=2023.3"
+pip check
+pip install "uri-template>=1.3.0"
+pip install "uritemplate>=4.1.1"
+pip install "urllib3>=2.1.0"
+pip check
+pip install "wcwidth>=0.2.12"
+pip install "webcolors>=1.13"
+pip install "webencodings>=0.5.1"
+pip install "websocket-client>=1.7.0"
+pip install "wheel>=0.42.0"
+pip install "widgetsnbextension>=4.0.9"
+pip check
+pip install "xlsxwriter>=3.1.9"
+pip install "zipp>=3.17.0"
 pip check
 # Level 1
 # Level 2
-pip install "contourpy>=1.2.0" "flake8>=6.1.0" "fpdf2>=2.7.7" "google-resumable-media>=2.7.0" "googleapis-common-protos>=1.62.0"
+pip install "anyio>=4.2.0"
+pip install "asttokens>=2.4.1"
 pip check
-pip install "h5py>=3.10.0" "httplib2>=0.22.0" "imageio>=2.33.1" "importlib-metadata>=7.0.0" "jinja2>=3.1.2"
+pip install "beautifulsoup4>=4.12.2"
+pip install "bleach>=6.1.0"
 pip check
-pip install "jupyter-core>=5.5.1" "numba>=0.58.1" "opencv-contrib-python>=4.8.1.78" "opencv-python>=4.8.1.78" "opencv-python-headless>=4.8.1.78"
+pip install "cffi>=1.16.0"
+pip install "coloredlogs>=15.0.1"
+pip install "comm>=0.2.0"
+pip install "contourpy>=1.2.0"
 pip check
-pip install "plotly>=5.18.0" "plyfile>=1.0.2" "prettytable>=3.9.0" "proto-plus>=1.23.0" "pyarrow>=14.0.2"
+pip install "flake8>=6.1.0"
+pip install "fpdf2>=2.7.7"
 pip check
-pip install "pyasn1-modules>=0.3.0" "pyquaternion>=0.9.9" "python-dateutil>=2.8.2" "pywavelets>=1.5.0" "qrcode>=7.4.2"
+pip install "google-resumable-media>=2.7.0"
+pip install "googleapis-common-protos>=1.62.0"
 pip check
-pip install "reactivex>=4.0.4" "referencing>=0.32.0" "requests>=2.31.0" "retrying>=1.3.4" "rsa>=4.9"
+pip install "h5py>=3.10.0"
+pip install "httplib2>=0.22.0"
 pip check
-pip install "scipy>=1.11.4" "shapely>=2.0.2" "tifffile>=2023.12.9" "werkzeug>=3.0.1"
+pip install "imageio>=2.33.1"
+pip install "importlib-metadata>=7.0.0"
+pip check
+pip install "jedi>=0.19.1"
+pip install "jinja2>=3.1.2"
+pip install "jupyter-core>=5.5.1"
+pip check
+pip install "matplotlib-inline>=0.1.6"
+pip install "numba>=0.58.1"
+pip check
+pip install "onnx>=1.15.0"
+pip install "opencv-contrib-python>=4.8.1.78"
+pip install "opencv-python>=4.8.1.78"
+pip install "opencv-python-headless>=4.8.1.78"
+pip check
+pip install "pexpect>=4.9.0"
+pip install "plotly>=5.18.0"
+pip install "plyfile>=1.0.2"
+pip install "prettytable>=3.9.0"
+pip install "prompt-toolkit>=3.0.43"
+pip install "proto-plus>=1.23.0"
+pip install "pyarrow>=14.0.2"
+pip install "pyasn1-modules>=0.3.0"
+pip install "pyquaternion>=0.9.9"
+pip install "python-dateutil>=2.8.2"
+pip check
+pip install "pywavelets>=1.5.0"
+pip check
+pip install "qrcode>=7.4.2"
+pip install "qtpy>=2.4.1"
+pip check
+pip install "reactivex>=4.0.4"
+pip install "referencing>=0.32.0"
+pip install "requests>=2.31.0"
+pip install "retrying>=1.3.4"
+pip install "rfc3339-validator>=0.1.4"
+pip install "rsa>=4.9"
+pip check
+pip install "scipy>=1.11.4"
+pip install "shapely>=2.0.2"
+pip install "sympy>=1.12"
+pip check
+pip install "terminado>=0.18.0"
+pip install "tifffile>=2023.12.9"
+pip install "tinycss2>=1.2.1"
+pip check
+pip install "werkzeug>=3.0.1"
 pip check
 # Level 2
 # Level 3
-pip install "flask>=3.0.0" "google-auth>=2.25.2" "grpc-google-iam-v1>=0.13.0" "grpcio-status>=1.60.0" "jsonschema-specifications>=2023.11.2"
+pip install "argon2-cffi-bindings>=21.2.0"
+pip install "arrow>=1.3.0"
 pip check
-pip install "matplotlib>=3.8.2" "pandas>=2.1.4" "requests-oauthlib>=1.3.1" "scikit-image>=0.22.0" "scikit-learn>=1.3.2"
+pip install "flask>=3.0.0"
+pip install "google-auth>=2.25.2"
+pip install "grpc-google-iam-v1>=0.13.0"
+pip install "grpcio-status>=1.60.0"
 pip check
+pip install "jsonschema-specifications>=2023.11.2"
+pip install "jupyter-client>=8.6.0"
+pip install "jupyter-server-terminals>=0.5.0"
+pip check
+pip install "matplotlib>=3.8.2"
+pip install "onnxruntime>=1.16.3"
+pip check
+pip install "pandas>=2.1.4"
+pip install "requests-oauthlib>=1.3.1"
+pip check
+pip install "scikit-image>=0.22.0"
+pip install "scikit-learn>=1.3.2"
+pip install "stack-data>=0.6.3"
+pip check
+pip install "torch>=2.1.2"
 pip install "yarg>=0.1.9"
 pip check
 # Level 3
 # Level 4
-pip install "dash>=2.14.2" "google-api-core>=2.15.0" "google-auth-httplib2>=0.2.0" "google-auth-oauthlib>=1.2.0" "jsonschema>=4.20.0"
+pip install "argon2-cffi>=23.1.0"
 pip check
+pip install "dash>=2.14.2"
+pip install "google-api-core>=2.15.0"
+pip install "google-auth-httplib2>=0.2.0"
+pip install "google-auth-oauthlib>=1.2.0"
+pip check
+pip install "ipython>=8.18.1"
+pip install "isoduration>=20.11.0"
+pip check
+pip install "jsonschema>=4.20.0"
 pip install "pipreqs>=0.4.13"
 pip check
 # Level 4
 # Level 5
-pip install "google-api-python-client>=2.102.0" "google-cloud-artifact-registry>=1.10.0" "google-cloud-bigquery-storage>=2.24.0" "google-cloud-core>=2.4.1" "google-cloud-discoveryengine>=0.11.5"
+pip install "google-api-python-client>=2.102.0"
+pip install "google-cloud-artifact-registry>=1.10.0"
+pip install "google-cloud-bigquery-storage>=2.24.0"
+pip install "google-cloud-core>=2.4.1"
+pip install "google-cloud-discoveryengine>=0.11.5"
+pip install "google-cloud-documentai>=2.21.1"
+pip install "google-cloud-language>=2.12.0"
+pip install "google-cloud-monitoring>=2.18.0"
+pip install "google-cloud-resource-manager>=1.11.0"
 pip check
-pip install "google-cloud-documentai>=2.21.1" "google-cloud-language>=2.12.0" "google-cloud-monitoring>=2.18.0" "google-cloud-resource-manager>=1.11.0" "nbformat>=5.9.2"
+pip install "ipykernel>=6.27.1"
+pip install "jupyter-events>=0.9.0"
+pip check
+pip install "nbformat>=5.9.2"
 pip check
 # Level 5
 # Level 6
-pip install "google-cloud-bigquery>=3.14.1" "google-cloud-datastore>=2.19.0" "google-cloud-storage>=2.14.0"
+pip install "google-cloud-bigquery>=3.14.1"
+pip install "google-cloud-datastore>=2.19.0"
+pip install "google-cloud-storage>=2.14.0"
+pip check
+pip install "nbclient>=0.9.0"
 pip check
 # Level 6
 # Level 7
 pip install "google-cloud-aiplatform>=1.38.1"
 pip check
+pip install "nbconvert>=7.13.1"
+pip check
 # Level 7
+# Level 8
+pip install "jupyter-server>=2.12.1"
+pip check
+# Level 8
+# Level 9
+pip install "jupyter-lsp>=2.2.1"
+pip check
+# Level 9
