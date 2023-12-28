@@ -1,23 +1,65 @@
-# 2023-12-28T18:56:45.846736+00:00
+# 2023-12-28T19:42:33.495403+00:00
 # Level 5
-pip install "albumentations>=1.3.1" "altair>=5.1.2" "boto3>=1.29.2" "category-encoders>=2.6.3" "cornac>=1.17.0"
+pip install "albumentations>=1.3.1"
+pip install "altair>=5.1.2"
 pip check
-pip install "cvxpy>=1.4.1" "dash-ag-grid>=2.4.0" "dask-glm>=0.3.1" "easyocr>=1.7.1" "google-api-python-client>=2.99.0"
+pip install "boto3>=1.29.2"
+pip install "category-encoders>=2.6.3"
+pip install "cornac>=1.17.0"
+pip install "cvxpy>=1.4.1"
 pip check
-pip install "google-cloud-bigquery-storage>=2.19.1" "google-cloud-core>=2.3.3" "google-cloud-language>=2.11.1" "gspread>=5.12.0" "ipykernel>=6.26.0"
+pip install "dash-ag-grid>=2.4.0"
+pip install "dask-glm>=0.3.1"
 pip check
-pip install "ipywidgets>=8.1.1" "jupyter-events>=0.9.0" "minikanren>=1.0.3" "missingno>=0.5.2" "nbformat>=5.9.2"
+pip install "easyocr>=1.7.1"
+pip install "google-api-python-client>=2.99.0"
+pip install "google-cloud-bigquery-storage>=2.19.1"
+pip install "google-cloud-core>=2.3.3"
+pip install "google-cloud-language>=2.11.1"
+pip install "gspread>=5.12.0"
 pip check
-pip install "pandas-market-calendars>=4.3.1" "panel>=1.3.1" "plotnine>=0.12.4" "pmdarima>=2.0.4" "prophet>=1.1.5"
+pip install "ipykernel>=6.26.0"
+pip install "ipywidgets>=8.1.1"
 pip check
-pip install "pydata-google-auth>=1.8.2" "pyfume>=0.2.25" "pyobjc-framework-dictionaryservices>=10.0" "pyobjc-framework-gameplaykit>=10.0" "pyobjc-framework-launchservices>=10.0"
+pip install "jupyter-events>=0.9.0"
+pip install "minikanren>=1.0.3"
+pip install "missingno>=0.5.2"
 pip check
-pip install "pyobjc-framework-localauthenticationembeddedui>=10.0" "pyobjc-framework-mediaplayer>=10.0" "pyobjc-framework-metalperformanceshadersgraph>=10.0" "pyobjc-framework-phase>=10.0" "pyobjc-framework-searchkit>=10.0"
+pip install "nbformat>=5.9.2"
+pip install "pandas-market-calendars>=4.3.1"
+pip install "panel>=1.3.1"
+pip install "plotnine>=0.12.4"
+pip install "pmdarima>=2.0.4"
+pip install "prophet>=1.1.5"
+pip install "pydata-google-auth>=1.8.2"
+pip install "pyfume>=0.2.25"
+pip install "pyobjc-framework-dictionaryservices>=10.0"
+pip install "pyobjc-framework-gameplaykit>=10.0"
 pip check
-pip install "pytorch-lightning>=2.1.2" "pywhatkit>=5.4" "rapidminer>=10.0.0.0" "selenium>=4.15.2" "sphinx-rtd-theme>=1.3.0"
+pip install "pyobjc-framework-launchservices>=10.0"
+pip install "pyobjc-framework-localauthenticationembeddedui>=10.0"
+pip install "pyobjc-framework-mediaplayer>=10.0"
+pip install "pyobjc-framework-metalperformanceshadersgraph>=10.0"
+pip install "pyobjc-framework-phase>=10.0"
+pip install "pyobjc-framework-searchkit>=10.0"
+pip install "pytorch-lightning>=2.1.2"
+pip install "pywhatkit>=5.4"
 pip check
-pip install "sshtunnel>=0.4.0" "tensorboard>=2.15.1" "thinc>=8.2.1" "torch-optimizer>=0.3.0" "transformers>=4.35.2"
+pip install "rapidminer>=10.0.0.0"
+pip install "selenium>=4.15.2"
+pip install "sphinx-rtd-theme>=1.3.0"
+pip install "sshtunnel>=0.4.0"
 pip check
-pip install "twint>=2.1.20" "umap-learn>=0.5.4" "weasel>=0.3.4" "xarray-einstats>=0.6.0" "zope-index>=6.0"
+pip install "tensorboard>=2.15.1"
+pip install "thinc>=8.2.1"
+pip install "torch-optimizer>=0.3.0"
+pip install "transformers>=4.35.2"
+pip install "twint>=2.1.20"
+pip check
+pip install "umap-learn>=0.5.4"
+pip install "weasel>=0.3.4"
+pip check
+pip install "xarray-einstats>=0.6.0"
+pip install "zope-index>=6.0"
 pip check
 # Level 5

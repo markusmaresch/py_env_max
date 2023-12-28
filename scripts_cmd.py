@@ -15,6 +15,7 @@ class ScriptsCmd:
         db_name = '{}.json'.format(env_name)
         db = Database()
         if not db.load(db_name):
+            print('scripts_export: call environment import before')
             return False
         script_extension = OsPlatform.script_extension()
         script_comment = OsPlatform.script_comment()
@@ -29,7 +30,7 @@ class ScriptsCmd:
                              .format(script_comment, env_name, python_version))
         except Exception as e:
             print('Error: {}'.format(e))
-
+            return False
         script_all_name = '{}_all.{}'.format(env_name, script_extension)
         print('script: {}'.format(script_all_name))
         with open(script_all_name, 'w') as all:
@@ -39,7 +40,7 @@ class ScriptsCmd:
                     break
                 script_name = '{}_{:02d}.{}'.format(env_name, level, script_extension)
                 print('script: {:02d} {} .. {}'.format(level, len(packs), script_name))
-                max_per_line = 5
+                max_without_check = 10
                 with open(script_name, 'w') as single:
                     out = '{} {}\n'.format(script_comment, datetime_utc_iso_string)
                     single.write(out)
@@ -49,25 +50,35 @@ class ScriptsCmd:
                     single.write(out)
                     all.write(out)
                     ii = 0
+                    first_letter = ''
+                    finish_check = True
                     for package in packs:
-                        if ii == 0:
-                            out = 'pip install'
+                        version = db.package_get_version_required(package)
+                        if first_letter == '':
+                            first_letter = package[0]
+                        # fi
+                        if first_letter != package[0]:
+                            first_letter = ''
+                            ii = 0
+                            out = 'pip check\n'
                             single.write(out)
                             all.write(out)
-                        version = db.package_get_version_required(package)
+                        elif ii >= max_without_check:
+                            ii = 0
+                            out = 'pip check\n'
+                            single.write(out)
+                            all.write(out)
+                        # fi
+                        ii += 1
+
                         # should be '==', but sometimes versions are not found
-                        out = ' "{}>={}"'.format(package, version)
+                        out = f'pip install "{package}>={version}"\n'
                         single.write(out)
                         all.write(out)
-                        ii += 1
-                        if ii >= max_per_line:
-                            out = '\npip check\n'
-                            single.write(out)
-                            all.write(out)
-                            ii = 0
+
                     # for
-                    if ii != 0:
-                        out = '\npip check\n'
+                    if finish_check:
+                        out = 'pip check\n'
                         single.write(out)
                         all.write(out)
                     out = '{} Level {}\n'.format(script_comment, level)
