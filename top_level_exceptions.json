@@ -1,0 +1,12 @@
+{
+    "top_level_exceptions": {
+        "xxx1": {
+            "reason": "google package",
+            "comment": ""
+        },
+        "xxx2": {
+            "reason": "well known package",
+            "comment": ""
+        }
+    }
+}
