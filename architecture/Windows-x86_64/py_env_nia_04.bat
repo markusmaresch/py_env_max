@@ -1,4 +1,4 @@
-rem 2023-12-23T21:04:29.057643+00:00
+rem 2023-12-28T14:33:24.622144+00:00
 rem Level 4
 pip install "aiobotocore>=2.9.0" "argon2-cffi>=23.1.0" "braincube-connector>=2.6.0" "google-api-core>=2.15.0" "google-auth-oauthlib>=1.2.0"
 pip check
