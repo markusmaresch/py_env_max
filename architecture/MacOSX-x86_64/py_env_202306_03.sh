@@ -1,42 +1,42 @@
-# 2023-11-16T23:44:16.496351+00:00
+# 2023-12-28T18:56:45.846736+00:00
 # Level 3
 pip install "agate>=1.9.0" "aiohttp>=3.8.6" "alembic>=1.12.1" "analytics-python>=1.4.0" "argon2-cffi-bindings>=21.2.0"
 pip check
-pip install "arrow>=1.3.0" "astropy>=5.3.4" "asynq>=1.5.1" "azure-core>=1.29.5" "botocore>=1.32.2"
+pip install "arrow>=1.3.0" "astropy>=5.3.4" "azure-core>=1.29.5" "botocore>=1.32.2" "branca>=0.7.0"
 pip check
-pip install "branca>=0.7.0" "brotlipy>=0.7.0" "bs4>=0.0.1" "cachecontrol>=0.13.1" "cairocffi>=1.6.1"
+pip install "brotlipy>=0.7.0" "bs4>=0.0.1" "cachecontrol>=0.13.1" "cairocffi>=1.6.1" "clarabel>=0.6.0"
 pip check
-pip install "clarabel>=0.6.0" "click-repl>=0.3.0" "coinpaprika>=0.1.0" "colorcet>=3.0.1" "comcrawl>=1.0.2"
+pip install "click-repl>=0.3.0" "coinpaprika>=0.1.0" "colorcet>=3.0.1" "comcrawl>=1.0.2" "cons>=0.4.6"
 pip check
-pip install "cons>=0.4.6" "coremltools>=7.1" "croniter>=2.0.1" "cryptography>=41.0.5" "cssselect2>=0.7.0"
+pip install "coremltools>=7.1" "croniter>=2.0.1" "cryptography>=41.0.5" "cssselect2>=0.7.0" "curtsies>=0.4.2"
 pip check
-pip install "curtsies>=0.4.2" "dask>=2023.11.0" "databricks-cli>=0.18.0" "datashape>=0.5.2" "datetime>=5.3"
+pip install "dask>=2023.11.0" "databricks-cli>=0.18.0" "datashape>=0.5.2" "datetime>=5.3" "datetime-distance>=0.1.3"
 pip check
-pip install "datetime-distance>=0.1.3" "django-cors-headers>=4.3.1" "django-extensions>=3.2.3" "django-http-exceptions>=1.4.0" "django-model-utils>=4.3.1"
+pip install "django-cors-headers>=4.3.1" "django-extensions>=3.2.3" "django-http-exceptions>=1.4.0" "django-model-utils>=4.3.1" "django-request-logging>=0.7.5"
 pip check
-pip install "django-request-logging>=0.7.5" "djangorestframework>=3.14.0" "docker>=6.1.3" "ecos>=2.0.12" "elasticsearch>=8.11.0"
+pip install "djangorestframework>=3.14.0" "docker>=6.1.3" "ecos>=2.0.12" "elasticsearch>=8.11.0" "feather-format>=0.4.1"
 pip check
-pip install "feather-format>=0.4.1" "flask>=3.0.0" "gdown>=4.7.1" "gensim>=4.3.2" "gitpython>=3.1.40"
+pip install "flask>=3.0.0" "gdown>=4.7.1" "gensim>=4.3.2" "gitpython>=3.1.40" "google>=3.0.0"
 pip check
-pip install "google>=3.0.0" "google-auth>=2.23.4" "googletransx>=2.4.2" "gpustat>=1.1.1" "grpc-google-iam-v1>=0.12.7"
+pip install "google-auth>=2.23.4" "googletransx>=2.4.2" "gpustat>=1.1.1" "grpc-google-iam-v1>=0.12.7" "grpcio-status>=1.48.1"
 pip check
-pip install "grpcio-status>=1.48.1" "h2o>=3.44.0.2" "h5netcdf>=1.3.0" "holidays>=0.36" "httplib2shim>=0.0.3"
+pip install "h2o>=3.44.0.2" "h5netcdf>=1.3.0" "holidays>=0.36" "httplib2shim>=0.0.3" "httpx>=0.25.1"
 pip check
-pip install "httpx>=0.25.1" "huggingface-hub>=0.19.4" "hyperopt>=0.2.7" "ib-insync>=0.9.86" "imagecodecs-lite>=2022.9.26"
+pip install "huggingface-hub>=0.19.4" "hyperopt>=0.2.7" "ib-insync>=0.9.86" "imagecodecs-lite>=2022.9.26" "imagehash>=4.3.1"
 pip check
-pip install "imagehash>=4.3.1" "influxdb-client>=1.38.0" "int-date>=0.2.0" "intrinio-sdk>=6.26.2" "jax>=0.4.20"
+pip install "influxdb-client>=1.38.0" "int-date>=0.2.0" "intrinio-sdk>=6.26.2" "jax>=0.4.20" "jsonschema-specifications>=2023.11.1"
 pip check
-pip install "jsonschema-specifications>=2023.11.1" "jupyter-client>=8.6.0" "jupyter-packaging>=0.12.3" "jupyter-server-terminals>=0.4.4" "kaggle>=1.5.16"
+pip install "jupyter-client>=8.6.0" "jupyter-packaging>=0.12.3" "jupyter-server-terminals>=0.4.4" "kaggle>=1.5.16" "kivy-garden>=0.1.5"
 pip check
-pip install "kivy-garden>=0.1.5" "libcst>=1.1.0" "lightgbm>=4.1.0" "luigi>=3.4.0" "lunarcalendar>=0.0.9"
+pip install "libcst>=1.1.0" "lightgbm>=4.1.0" "luigi>=3.4.0" "lunarcalendar>=0.0.9" "mastodon-py>=1.8.1"
 pip check
-pip install "mastodon-py>=1.8.1" "matplotlib>=3.8.1" "mdit-py-plugins>=0.4.0" "miniful>=0.0.6" "minimal-snowplow-tracker>=0.0.2"
+pip install "matplotlib>=3.8.1" "mdit-py-plugins>=0.4.0" "miniful>=0.0.6" "minimal-snowplow-tracker>=0.0.2" "mixpanel>=4.10.0"
 pip check
-pip install "mixpanel>=4.10.0" "moviepy>=1.0.3" "netcdf4>=1.6.5" "oauth2client>=4.1.3" "onnxconverter-common>=1.13.0"
+pip install "moviepy>=1.0.3" "netcdf4>=1.6.5" "oauth2client>=4.1.3" "onnxconverter-common>=1.13.0" "onnxoptimizer>=0.3.13"
 pip check
-pip install "onnxoptimizer>=0.3.13" "onnxruntime>=1.16.2" "pandas>=2.1.3" "pathy>=0.10.3" "persistent>=5.1"
+pip install "onnxruntime>=1.16.2" "pandas>=2.1.3" "pathy>=0.10.3" "persistent>=5.1" "pettingzoo>=1.24.2"
 pip check
-pip install "pettingzoo>=1.24.2" "pip-tools>=7.3.0" "pipx>=1.2.1" "pooch>=1.8.0" "progressbar2>=4.2.0"
+pip install "pip-tools>=7.3.0" "pipx>=1.2.1" "pooch>=1.8.0" "progressbar2>=4.2.0" "pyanalyze>=0.11.0"
 pip check
 pip install "pycares>=4.4.0" "pydantic>=2.5.1" "pynacl>=1.5.0" "pyobjc-framework-accounts>=10.0" "pyobjc-framework-addressbook>=10.0"
 pip check

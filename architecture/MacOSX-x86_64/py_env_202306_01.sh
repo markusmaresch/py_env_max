@@ -1,4 +1,4 @@
-# 2023-11-16T23:44:16.496351+00:00
+# 2023-12-28T18:56:45.846736+00:00
 # Level 1
 pip install "absl-py>=1.4.0" "addict>=2.4.0" "aenum>=3.1.15" "affine>=2.4.0" "affinegap>=1.12"
 pip check
@@ -126,46 +126,48 @@ pip install "python-editor>=1.0.4" "python-gflags>=3.1.2" "python-json-logger>=2
 pip check
 pip install "pytimeparse>=1.1.8" "pytweening>=1.0.7" "pytz>=2023.3" "pyyaml>=6.0.1" "pyzmq>=25.1.1"
 pip check
-pip install "redis>=5.0.1" "regex>=2023.10.3" "rfc3986>=2.0.0" "rfc3986-validator>=0.1.1" "rpds-py>=0.13.0"
+pip install "qcore>=1.10.0" "redis>=5.0.1" "regex>=2023.10.3" "rfc3986>=2.0.0" "rfc3986-validator>=0.1.1"
 pip check
-pip install "rtree>=1.1.0" "ruamel-yaml-clib>=0.2.8" "rubicon-objc>=0.4.7" "safetensors>=0.4.0" "schedule>=1.2.1"
+pip install "rpds-py>=0.13.0" "rtree>=1.1.0" "ruamel-yaml-clib>=0.2.8" "rubicon-objc>=0.4.7" "safetensors>=0.4.0"
 pip check
-pip install "send2trash>=1.8.2" "sentencepiece>=0.1.99" "setproctitle>=1.3.3" "setuptools>=68.2.2" "setuptools-git>=1.2"
+pip install "schedule>=1.2.1" "send2trash>=1.8.2" "sentencepiece>=0.1.99" "setproctitle>=1.3.3" "setuptools>=68.2.2"
 pip check
-pip install "shellingham>=1.5.4" "shortuuid>=1.0.11" "simpervisor>=1.0.0" "simplejson>=3.19.2" "six>=1.16.0"
+pip install "setuptools-git>=1.2" "shellingham>=1.5.4" "shortuuid>=1.0.11" "simpervisor>=1.0.0" "simplejson>=3.19.2"
 pip check
-pip install "slicer>=0.0.7" "smart-open>=6.4.0" "smmap>=5.0.1" "sniffio>=1.3.0" "snowballstemmer>=2.2.0"
+pip install "six>=1.16.0" "slicer>=0.0.7" "smart-open>=6.4.0" "smmap>=5.0.1" "sniffio>=1.3.0"
 pip check
-pip install "sortedcontainers>=2.4.0" "soupsieve>=2.5" "spacy-legacy>=3.0.12" "spacy-loggers>=1.0.5" "sphinxcontrib-applehelp>=1.0.4"
+pip install "snowballstemmer>=2.2.0" "sortedcontainers>=2.4.0" "soupsieve>=2.5" "spacy-legacy>=3.0.12" "spacy-loggers>=1.0.5"
 pip check
-pip install "sphinxcontrib-devhelp>=1.0.2" "sphinxcontrib-htmlhelp>=2.0.1" "sphinxcontrib-jsmath>=1.0.1" "sphinxcontrib-qthelp>=1.0.3" "sphinxcontrib-serializinghtml>=1.1.5"
+pip install "sphinxcontrib-applehelp>=1.0.4" "sphinxcontrib-devhelp>=1.0.2" "sphinxcontrib-htmlhelp>=2.0.1" "sphinxcontrib-jsmath>=1.0.1" "sphinxcontrib-qthelp>=1.0.3"
 pip check
-pip install "sqlparse>=0.4.4" "stdlib-list>=0.9.0" "subprocess32>=3.5.4" "tabulate>=0.9.0" "tangled-up-in-unicode>=0.2.0"
+pip install "sphinxcontrib-serializinghtml>=1.1.5" "sqlparse>=0.4.4" "stdlib-list>=0.9.0" "subprocess32>=3.5.4" "tabulate>=0.9.0"
 pip check
-pip install "tbb>=2021.5.0" "tblib>=3.0.0" "tenacity>=8.2.3" "tensorboard-data-server>=0.7.2" "tensorboard-plugin-wit>=1.8.1"
+pip install "tangled-up-in-unicode>=0.2.0" "tbb>=2021.5.0" "tblib>=3.0.0" "tenacity>=8.2.3" "tensorboard-data-server>=0.7.2"
 pip check
-pip install "tensorflow-estimator>=2.15.0" "tensorflow-gcs-config>=2.14.0" "tensorflow-io-gcs-filesystem>=0.34.0" "termcolor>=2.3.0" "termcolor-whl>=1.1.3"
+pip install "tensorboard-plugin-wit>=1.8.1" "tensorflow-estimator>=2.15.0" "tensorflow-gcs-config>=2.14.0" "tensorflow-io-gcs-filesystem>=0.34.0" "termcolor>=2.3.0"
 pip check
-pip install "testpath>=0.6.0" "text-unidecode>=1.3" "texttable>=1.7.0" "threadpoolctl>=3.2.0" "tinydb>=4.8.0"
+pip install "termcolor-whl>=1.1.3" "testpath>=0.6.0" "text-unidecode>=1.3" "texttable>=1.7.0" "threadpoolctl>=3.2.0"
 pip check
-pip install "toml>=0.10.2" "tomli>=2.0.1" "tomlkit>=0.12.3" "toolz>=0.12.0" "torchsummary>=1.5.1"
+pip install "tinydb>=4.8.0" "toml>=0.10.2" "tomli>=2.0.1" "tomlkit>=0.12.3" "toolz>=0.12.0"
 pip check
-pip install "tornado>=6.3.3" "tqdm>=4.66.1" "traitlets>=5.13.0" "translationstring>=1.4" "typed-ast>=1.5.5"
+pip install "torchsummary>=1.5.1" "tornado>=6.3.3" "tqdm>=4.66.1" "traitlets>=5.13.0" "translationstring>=1.4"
 pip check
-pip install "types-python-dateutil>=2.8.19.14" "types-pytz>=2023.3.1.1" "types-pyyaml>=6.0.12.12" "typing-extensions>=4.8.0" "tzdata>=2023.3"
+pip install "typed-ast>=1.5.5" "types-python-dateutil>=2.8.19.14" "types-pytz>=2023.3.1.1" "types-pyyaml>=6.0.12.12" "typing-extensions>=4.8.0"
 pip check
-pip install "tzlocal>=5.2" "ua-parser>=0.18.0" "uc-micro-py>=1.0.2" "ujson>=5.8.0" "unidecode>=1.3.7"
+pip install "tzdata>=2023.3" "tzlocal>=5.2" "ua-parser>=0.18.0" "uc-micro-py>=1.0.2" "ujson>=5.8.0"
 pip check
-pip install "uri-template>=1.3.0" "uritemplate>=4.1.1" "urllib3>=2.0.7" "uuid>=1.30" "venusian>=3.1.0"
+pip install "unidecode>=1.3.7" "uri-template>=1.3.0" "uritemplate>=4.1.1" "urllib3>=2.0.7" "uuid>=1.30"
 pip check
-pip install "vine>=5.1.0" "waitress>=2.1.2" "wasabi>=1.1.2" "watchdog>=3.0.0" "wcwidth>=0.2.10"
+pip install "validators>=0.22.0" "venusian>=3.1.0" "vine>=5.1.0" "waitress>=2.1.2" "wasabi>=1.1.2"
 pip check
-pip install "webcolors>=1.13" "webencodings>=0.5.1" "webob>=1.8.7" "websocket-client>=1.6.4" "websockets>=12.0"
+pip install "watchdog>=3.0.0" "wcwidth>=0.2.10" "webcolors>=1.13" "webencodings>=0.5.1" "webob>=1.8.7"
 pip check
-pip install "wheel>=0.41.3" "widgetsnbextension>=4.0.9" "wincertstore>=0.2" "wireless>=0.3.3" "wrapt>=1.16.0"
+pip install "websocket-client>=1.6.4" "websockets>=12.0" "wheel>=0.41.3" "widgetsnbextension>=4.0.9" "wincertstore>=0.2"
 pip check
-pip install "xlrd>=2.0.1" "xlsxwriter>=3.1.9" "xlwt>=1.3.0" "xxhash>=3.4.1" "xyzservices>=2023.10.1"
+pip install "wireless>=0.3.3" "wrapt>=1.16.0" "xlrd>=2.0.1" "xlsxwriter>=3.1.9" "xlwt>=1.3.0"
 pip check
-pip install "y-py>=0.6.2" "youtube-dl>=2021.12.17" "zict>=3.0.0" "zipp>=3.17.0" "zstd>=1.5.5.1"
+pip install "xxhash>=3.4.1" "xyzservices>=2023.10.1" "y-py>=0.6.2" "youtube-dl>=2021.12.17" "zict>=3.0.0"
+pip check
+pip install "zipp>=3.17.0" "zstd>=1.5.5.1"
 pip check
 # Level 1

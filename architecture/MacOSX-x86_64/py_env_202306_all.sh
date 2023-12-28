@@ -1,4 +1,4 @@
-# 2023-11-16T23:44:16.496351+00:00
+# 2023-12-28T18:56:45.846736+00:00
 # Level 1
 pip install "absl-py>=1.4.0" "addict>=2.4.0" "aenum>=3.1.15" "affine>=2.4.0" "affinegap>=1.12"
 pip check
@@ -126,113 +126,115 @@ pip install "python-editor>=1.0.4" "python-gflags>=3.1.2" "python-json-logger>=2
 pip check
 pip install "pytimeparse>=1.1.8" "pytweening>=1.0.7" "pytz>=2023.3" "pyyaml>=6.0.1" "pyzmq>=25.1.1"
 pip check
-pip install "redis>=5.0.1" "regex>=2023.10.3" "rfc3986>=2.0.0" "rfc3986-validator>=0.1.1" "rpds-py>=0.13.0"
+pip install "qcore>=1.10.0" "redis>=5.0.1" "regex>=2023.10.3" "rfc3986>=2.0.0" "rfc3986-validator>=0.1.1"
 pip check
-pip install "rtree>=1.1.0" "ruamel-yaml-clib>=0.2.8" "rubicon-objc>=0.4.7" "safetensors>=0.4.0" "schedule>=1.2.1"
+pip install "rpds-py>=0.13.0" "rtree>=1.1.0" "ruamel-yaml-clib>=0.2.8" "rubicon-objc>=0.4.7" "safetensors>=0.4.0"
 pip check
-pip install "send2trash>=1.8.2" "sentencepiece>=0.1.99" "setproctitle>=1.3.3" "setuptools>=68.2.2" "setuptools-git>=1.2"
+pip install "schedule>=1.2.1" "send2trash>=1.8.2" "sentencepiece>=0.1.99" "setproctitle>=1.3.3" "setuptools>=68.2.2"
 pip check
-pip install "shellingham>=1.5.4" "shortuuid>=1.0.11" "simpervisor>=1.0.0" "simplejson>=3.19.2" "six>=1.16.0"
+pip install "setuptools-git>=1.2" "shellingham>=1.5.4" "shortuuid>=1.0.11" "simpervisor>=1.0.0" "simplejson>=3.19.2"
 pip check
-pip install "slicer>=0.0.7" "smart-open>=6.4.0" "smmap>=5.0.1" "sniffio>=1.3.0" "snowballstemmer>=2.2.0"
+pip install "six>=1.16.0" "slicer>=0.0.7" "smart-open>=6.4.0" "smmap>=5.0.1" "sniffio>=1.3.0"
 pip check
-pip install "sortedcontainers>=2.4.0" "soupsieve>=2.5" "spacy-legacy>=3.0.12" "spacy-loggers>=1.0.5" "sphinxcontrib-applehelp>=1.0.4"
+pip install "snowballstemmer>=2.2.0" "sortedcontainers>=2.4.0" "soupsieve>=2.5" "spacy-legacy>=3.0.12" "spacy-loggers>=1.0.5"
 pip check
-pip install "sphinxcontrib-devhelp>=1.0.2" "sphinxcontrib-htmlhelp>=2.0.1" "sphinxcontrib-jsmath>=1.0.1" "sphinxcontrib-qthelp>=1.0.3" "sphinxcontrib-serializinghtml>=1.1.5"
+pip install "sphinxcontrib-applehelp>=1.0.4" "sphinxcontrib-devhelp>=1.0.2" "sphinxcontrib-htmlhelp>=2.0.1" "sphinxcontrib-jsmath>=1.0.1" "sphinxcontrib-qthelp>=1.0.3"
 pip check
-pip install "sqlparse>=0.4.4" "stdlib-list>=0.9.0" "subprocess32>=3.5.4" "tabulate>=0.9.0" "tangled-up-in-unicode>=0.2.0"
+pip install "sphinxcontrib-serializinghtml>=1.1.5" "sqlparse>=0.4.4" "stdlib-list>=0.9.0" "subprocess32>=3.5.4" "tabulate>=0.9.0"
 pip check
-pip install "tbb>=2021.5.0" "tblib>=3.0.0" "tenacity>=8.2.3" "tensorboard-data-server>=0.7.2" "tensorboard-plugin-wit>=1.8.1"
+pip install "tangled-up-in-unicode>=0.2.0" "tbb>=2021.5.0" "tblib>=3.0.0" "tenacity>=8.2.3" "tensorboard-data-server>=0.7.2"
 pip check
-pip install "tensorflow-estimator>=2.15.0" "tensorflow-gcs-config>=2.14.0" "tensorflow-io-gcs-filesystem>=0.34.0" "termcolor>=2.3.0" "termcolor-whl>=1.1.3"
+pip install "tensorboard-plugin-wit>=1.8.1" "tensorflow-estimator>=2.15.0" "tensorflow-gcs-config>=2.14.0" "tensorflow-io-gcs-filesystem>=0.34.0" "termcolor>=2.3.0"
 pip check
-pip install "testpath>=0.6.0" "text-unidecode>=1.3" "texttable>=1.7.0" "threadpoolctl>=3.2.0" "tinydb>=4.8.0"
+pip install "termcolor-whl>=1.1.3" "testpath>=0.6.0" "text-unidecode>=1.3" "texttable>=1.7.0" "threadpoolctl>=3.2.0"
 pip check
-pip install "toml>=0.10.2" "tomli>=2.0.1" "tomlkit>=0.12.3" "toolz>=0.12.0" "torchsummary>=1.5.1"
+pip install "tinydb>=4.8.0" "toml>=0.10.2" "tomli>=2.0.1" "tomlkit>=0.12.3" "toolz>=0.12.0"
 pip check
-pip install "tornado>=6.3.3" "tqdm>=4.66.1" "traitlets>=5.13.0" "translationstring>=1.4" "typed-ast>=1.5.5"
+pip install "torchsummary>=1.5.1" "tornado>=6.3.3" "tqdm>=4.66.1" "traitlets>=5.13.0" "translationstring>=1.4"
 pip check
-pip install "types-python-dateutil>=2.8.19.14" "types-pytz>=2023.3.1.1" "types-pyyaml>=6.0.12.12" "typing-extensions>=4.8.0" "tzdata>=2023.3"
+pip install "typed-ast>=1.5.5" "types-python-dateutil>=2.8.19.14" "types-pytz>=2023.3.1.1" "types-pyyaml>=6.0.12.12" "typing-extensions>=4.8.0"
 pip check
-pip install "tzlocal>=5.2" "ua-parser>=0.18.0" "uc-micro-py>=1.0.2" "ujson>=5.8.0" "unidecode>=1.3.7"
+pip install "tzdata>=2023.3" "tzlocal>=5.2" "ua-parser>=0.18.0" "uc-micro-py>=1.0.2" "ujson>=5.8.0"
 pip check
-pip install "uri-template>=1.3.0" "uritemplate>=4.1.1" "urllib3>=2.0.7" "uuid>=1.30" "venusian>=3.1.0"
+pip install "unidecode>=1.3.7" "uri-template>=1.3.0" "uritemplate>=4.1.1" "urllib3>=2.0.7" "uuid>=1.30"
 pip check
-pip install "vine>=5.1.0" "waitress>=2.1.2" "wasabi>=1.1.2" "watchdog>=3.0.0" "wcwidth>=0.2.10"
+pip install "validators>=0.22.0" "venusian>=3.1.0" "vine>=5.1.0" "waitress>=2.1.2" "wasabi>=1.1.2"
 pip check
-pip install "webcolors>=1.13" "webencodings>=0.5.1" "webob>=1.8.7" "websocket-client>=1.6.4" "websockets>=12.0"
+pip install "watchdog>=3.0.0" "wcwidth>=0.2.10" "webcolors>=1.13" "webencodings>=0.5.1" "webob>=1.8.7"
 pip check
-pip install "wheel>=0.41.3" "widgetsnbextension>=4.0.9" "wincertstore>=0.2" "wireless>=0.3.3" "wrapt>=1.16.0"
+pip install "websocket-client>=1.6.4" "websockets>=12.0" "wheel>=0.41.3" "widgetsnbextension>=4.0.9" "wincertstore>=0.2"
 pip check
-pip install "xlrd>=2.0.1" "xlsxwriter>=3.1.9" "xlwt>=1.3.0" "xxhash>=3.4.1" "xyzservices>=2023.10.1"
+pip install "wireless>=0.3.3" "wrapt>=1.16.0" "xlrd>=2.0.1" "xlsxwriter>=3.1.9" "xlwt>=1.3.0"
 pip check
-pip install "y-py>=0.6.2" "youtube-dl>=2021.12.17" "zict>=3.0.0" "zipp>=3.17.0" "zstd>=1.5.5.1"
+pip install "xxhash>=3.4.1" "xyzservices>=2023.10.1" "y-py>=0.6.2" "youtube-dl>=2021.12.17" "zict>=3.0.0"
+pip check
+pip install "zipp>=3.17.0" "zstd>=1.5.5.1"
 pip check
 # Level 1
 # Level 2
 pip install "accessible-pygments>=0.0.4" "aioredis>=2.0.1" "aiosignal>=1.3.1" "amqp>=5.2.0" "anyio>=3.7.1"
 pip check
-pip install "array-record>=0.4.1" "asttokens>=2.4.1" "astunparse>=1.6.3" "atari-py>=0.3.0" "autograd>=1.6.2"
+pip install "array-record>=0.4.1" "asttokens>=2.4.1" "astunparse>=1.6.3" "asynq>=1.5.1" "atari-py>=0.3.0"
 pip check
-pip install "autopep8>=2.0.4" "beautifulsoup4>=4.12.2" "biopython>=1.81" "black>=23.11.0" "bleach>=6.1.0"
+pip install "autograd>=1.6.2" "autopep8>=2.0.4" "beautifulsoup4>=4.12.2" "biopython>=1.81" "black>=23.11.0"
 pip check
-pip install "blessed>=1.20.0" "blessings>=1.7" "blis>=0.7.11" "blosc2>=2.3.1" "bottleneck>=1.3.7"
+pip install "bleach>=6.1.0" "blessed>=1.20.0" "blessings>=1.7" "blis>=0.7.11" "blosc2>=2.3.1"
 pip check
-pip install "build>=1.0.3" "casadi>=3.6.4" "categorical-distance>=1.9" "cattrs>=23.1.2" "cffi>=1.16.0"
+pip install "bottleneck>=1.3.7" "build>=1.0.3" "casadi>=3.6.4" "categorical-distance>=1.9" "cattrs>=23.1.2"
 pip check
-pip install "cftime>=1.6.3" "click-didyoumean>=0.3.0" "click-plugins>=1.1.1" "cligj>=0.7.2" "clikit>=0.6.2"
+pip install "cffi>=1.16.0" "cftime>=1.6.3" "click-didyoumean>=0.3.0" "click-plugins>=1.1.1" "cligj>=0.7.2"
 pip check
-pip install "coloredlogs>=15.0.1" "colormath>=3.0.0" "comm>=0.2.0" "contourpy>=1.2.0" "convertdate>=2.4.0"
+pip install "clikit>=0.6.2" "coloredlogs>=15.0.1" "colormath>=3.0.0" "comm>=0.2.0" "contourpy>=1.2.0"
 pip check
-pip install "deprecated>=1.2.14" "deprecation>=2.1.0" "django>=4.2.7" "docker-pycreds>=0.4.0" "elastic-transport>=8.10.0"
+pip install "convertdate>=2.4.0" "deprecated>=1.2.14" "deprecation>=2.1.0" "django>=4.2.7" "docker-pycreds>=0.4.0"
 pip check
-pip install "email-validator>=2.1.0" "eventkit>=1.0.1" "face-recognition>=1.3.0" "fastcluster>=1.2.6" "fastcore>=1.5.29"
+pip install "elastic-transport>=8.10.0" "email-validator>=2.1.0" "eventkit>=1.0.1" "face-recognition>=1.3.0" "fastcluster>=1.2.6"
 pip check
-pip install "fastdtw>=0.3.4" "fire>=0.5.0" "flake8>=6.1.0" "fs>=2.4.16" "ftfy>=6.1.1"
+pip install "fastcore>=1.5.29" "fastdtw>=0.3.4" "fire>=0.5.0" "flake8>=6.1.0" "fs>=2.4.16"
 pip check
-pip install "geopy>=2.4.0" "gitdb>=4.0.11" "glog>=0.3.1" "google-pasta>=0.2.0" "google-resumable-media>=2.6.0"
+pip install "ftfy>=6.1.1" "geopy>=2.4.0" "gitdb>=4.0.11" "glog>=0.3.1" "google-pasta>=0.2.0"
 pip check
-pip install "googleapis-common-protos>=1.61.0" "gunicorn>=21.2.0" "gym>=0.26.2" "gymnasium>=0.29.1" "h5py>=3.10.0"
+pip install "google-resumable-media>=2.6.0" "googleapis-common-protos>=1.61.0" "gunicorn>=21.2.0" "gym>=0.26.2" "gymnasium>=0.29.1"
 pip check
-pip install "html5lib>=1.1" "httpcore>=1.0.2" "httplib2>=0.22.0" "hypothesis>=6.89.0" "imagecodecs>=2023.9.18"
+pip install "h5py>=3.10.0" "html5lib>=1.1" "httpcore>=1.0.2" "httplib2>=0.22.0" "hypothesis>=6.89.0"
 pip check
-pip install "imageio>=2.32.0" "imageio-ffmpeg>=0.4.9" "imagezmq>=1.1.1" "importlab>=0.8.1" "importlib-metadata>=6.8.0"
+pip install "imagecodecs>=2023.9.18" "imageio>=2.32.0" "imageio-ffmpeg>=0.4.9" "imagezmq>=1.1.1" "importlab>=0.8.1"
 pip check
-pip install "intervaltree>=3.1.0" "isodate>=0.6.1" "jaraco-classes>=3.3.0" "jax-jumpy>=1.0.0" "jedi>=0.19.1"
+pip install "importlib-metadata>=6.8.0" "intervaltree>=3.1.0" "isodate>=0.6.1" "jaraco-classes>=3.3.0" "jax-jumpy>=1.0.0"
 pip check
-pip install "jinja2>=3.1.2" "jupyter-core>=5.5.0" "jupyter-ydoc>=0.3.4" "keras-preprocessing>=1.1.2" "leather>=0.3.4"
+pip install "jedi>=0.19.1" "jinja2>=3.1.2" "jupyter-core>=5.5.0" "jupyter-ydoc>=0.3.4" "keras-preprocessing>=1.1.2"
 pip check
-pip install "lightning-utilities>=0.9.0" "linkify-it-py>=2.0.2" "livereload>=2.6.3" "logical-unification>=0.4.6" "m3u8>=3.6.0"
+pip install "leather>=0.3.4" "lightning-utilities>=0.9.0" "linkify-it-py>=2.0.2" "livereload>=2.6.3" "logical-unification>=0.4.6"
 pip check
-pip install "macholib>=1.16.3" "mako>=1.3.0" "markdown-it-py>=3.0.0" "marshmallow>=3.20.1" "mashumaro>=3.10"
+pip install "m3u8>=3.6.0" "macholib>=1.16.3" "mako>=1.3.0" "markdown-it-py>=3.0.0" "marshmallow>=3.20.1"
 pip check
-pip install "matplotlib-inline>=0.1.6" "memory-profiler>=0.61.0" "mkl>=2023.2.1" "ml-dtypes>=0.3.1" "mlagents-envs>=0.28.0"
+pip install "mashumaro>=3.10" "matplotlib-inline>=0.1.6" "memory-profiler>=0.61.0" "mkl>=2023.2.1" "ml-dtypes>=0.3.1"
 pip check
-pip install "mouseinfo>=0.1.3" "multiprocess>=0.70.15" "mypy>=1.7.0" "nibabel>=5.1.0" "nltk>=3.8.1"
+pip install "mlagents-envs>=0.28.0" "mouseinfo>=0.1.3" "multiprocess>=0.70.15" "mypy>=1.7.0" "nibabel>=5.1.0"
 pip check
-pip install "nodejs>=0.1.1" "numba>=0.58.1" "numcodecs>=0.12.1" "numexpr>=2.8.7" "omegaconf>=2.3.0"
+pip install "nltk>=3.8.1" "nodejs>=0.1.1" "numba>=0.58.1" "numcodecs>=0.12.1" "numexpr>=2.8.7"
 pip check
-pip install "onnx>=1.15.0" "opencv-contrib-python>=4.8.1.78" "opencv-python>=4.8.1.78" "opencv-python-headless>=4.8.1.78" "openpyxl>=3.1.2"
+pip install "omegaconf>=2.3.0" "onnx>=1.15.0" "opencv-contrib-python>=4.8.1.78" "opencv-python>=4.8.1.78" "opencv-python-headless>=4.8.1.78"
 pip check
-pip install "openvino>=2023.2.0" "opt-einsum>=3.3.0" "oscrypto>=1.3.0" "outcome>=1.3.0" "pandas-stubs>=2.1.1.230928"
+pip install "openpyxl>=3.1.2" "openvino>=2023.2.0" "opt-einsum>=3.3.0" "oscrypto>=1.3.0" "outcome>=1.3.0"
 pip check
-pip install "pandoc>=2.3" "params-flow>=0.8.2" "parasail>=1.3.4" "partd>=1.4.1" "patsy>=0.5.3"
+pip install "pandas-stubs>=2.1.1.230928" "pandoc>=2.3" "params-flow>=0.8.2" "parasail>=1.3.4" "partd>=1.4.1"
 pip check
-pip install "pexpect>=4.8.0" "plaster-pastedeploy>=1.0.1" "plotly>=5.18.0" "plyfile>=1.0.2" "portpicker>=1.6.0"
+pip install "patsy>=0.5.3" "pexpect>=4.8.0" "plaster-pastedeploy>=1.0.1" "plotly>=5.18.0" "plyfile>=1.0.2"
 pip check
-pip install "preshed>=3.0.9" "prettytable>=3.9.0" "proglog>=0.1.10" "promise>=2.3" "prompt-toolkit>=3.0.41"
+pip install "portpicker>=1.6.0" "preshed>=3.0.9" "prettytable>=3.9.0" "proglog>=0.1.10" "promise>=2.3"
 pip check
-pip install "proto-plus>=1.22.3" "py-lets-be-rational>=1.0.1" "pyaml>=23.9.7" "pyarrow>=14.0.1" "pyasn1-modules>=0.3.0"
+pip install "prompt-toolkit>=3.0.41" "proto-plus>=1.22.3" "py-lets-be-rational>=1.0.1" "pyaml>=23.9.7" "pyarrow>=14.0.1"
 pip check
-pip install "pyct>=0.5.0" "pydantic-core>=2.14.3" "pydeps>=1.12.17" "pydot>=1.4.2" "pyerfa>=2.0.1.1"
+pip install "pyasn1-modules>=0.3.0" "pyct>=0.5.0" "pydantic-core>=2.14.3" "pydeps>=1.12.17" "pydot>=1.4.2"
 pip check
-pip install "pygetwindow>=0.0.9" "pymongo>=4.6.0" "pyobjc-framework-cocoa>=10.0" "pyperf>=2.6.2" "pyqt6>=6.6.0"
+pip install "pyerfa>=2.0.1.1" "pygetwindow>=0.0.9" "pymongo>=4.6.0" "pyobjc-framework-cocoa>=10.0" "pyperf>=2.6.2"
 pip check
-pip install "pyquaternion>=0.9.9" "pyscreenshot>=3.1" "pyscreeze>=0.1.30" "pytesseract>=0.3.10" "pytest>=7.4.3"
+pip install "pyqt6>=6.6.0" "pyquaternion>=0.9.9" "pyscreenshot>=3.1" "pyscreeze>=0.1.30" "pytesseract>=0.3.10"
 pip check
-pip install "python-bidi>=0.4.2" "python-daemon>=3.0.1" "python-dateutil>=2.8.2" "python-slugify>=8.0.1" "python-utils>=3.8.1"
+pip install "pytest>=7.4.3" "python-bidi>=0.4.2" "python-daemon>=3.0.1" "python-dateutil>=2.8.2" "python-slugify>=8.0.1"
 pip check
-pip install "pytz-deprecation-shim>=0.1.0.post0" "pyviz-comms>=3.0.0" "pywavelets>=1.4.1" "qcore>=1.10.0" "qrcode>=7.4.2"
+pip install "python-utils>=3.8.1" "pytz-deprecation-shim>=0.1.0.post0" "pyviz-comms>=3.0.0" "pywavelets>=1.4.1" "qrcode>=7.4.2"
 pip check
 pip install "qtpy>=2.4.1" "querystring-parser>=1.2.4" "rawpy>=0.18.1" "reactivex>=4.0.4" "referencing>=0.31.0"
 pip check
@@ -248,51 +250,49 @@ pip install "terminado>=0.18.0" "tifffile>=2023.9.26" "tinycss2>=1.2.1" "typegua
 pip check
 pip install "typeshed-client>=2.4.0" "typing-inspect>=0.9.0" "uamqp>=1.6.6" "url-normalize>=1.4.3" "userpath>=1.9.1"
 pip check
-pip install "uvicorn>=0.24.0" "validators>=0.22.0" "virtualenv>=20.24.6" "vispy>=0.14.1" "werkzeug>=3.0.1"
+pip install "uvicorn>=0.24.0" "virtualenv>=20.24.6" "vispy>=0.14.1" "werkzeug>=3.0.1" "wsproto>=1.2.0"
 pip check
-pip install "wsproto>=1.2.0" "yarl>=1.9.2" "yaspin>=3.0.1" "ypy-websocket>=0.8.4" "zope-deprecation>=5.0"
-pip check
-pip install "zope-interface>=6.1"
+pip install "yarl>=1.9.2" "yaspin>=3.0.1" "ypy-websocket>=0.8.4" "zope-deprecation>=5.0" "zope-interface>=6.1"
 pip check
 # Level 2
 # Level 3
 pip install "agate>=1.9.0" "aiohttp>=3.8.6" "alembic>=1.12.1" "analytics-python>=1.4.0" "argon2-cffi-bindings>=21.2.0"
 pip check
-pip install "arrow>=1.3.0" "astropy>=5.3.4" "asynq>=1.5.1" "azure-core>=1.29.5" "botocore>=1.32.2"
+pip install "arrow>=1.3.0" "astropy>=5.3.4" "azure-core>=1.29.5" "botocore>=1.32.2" "branca>=0.7.0"
 pip check
-pip install "branca>=0.7.0" "brotlipy>=0.7.0" "bs4>=0.0.1" "cachecontrol>=0.13.1" "cairocffi>=1.6.1"
+pip install "brotlipy>=0.7.0" "bs4>=0.0.1" "cachecontrol>=0.13.1" "cairocffi>=1.6.1" "clarabel>=0.6.0"
 pip check
-pip install "clarabel>=0.6.0" "click-repl>=0.3.0" "coinpaprika>=0.1.0" "colorcet>=3.0.1" "comcrawl>=1.0.2"
+pip install "click-repl>=0.3.0" "coinpaprika>=0.1.0" "colorcet>=3.0.1" "comcrawl>=1.0.2" "cons>=0.4.6"
 pip check
-pip install "cons>=0.4.6" "coremltools>=7.1" "croniter>=2.0.1" "cryptography>=41.0.5" "cssselect2>=0.7.0"
+pip install "coremltools>=7.1" "croniter>=2.0.1" "cryptography>=41.0.5" "cssselect2>=0.7.0" "curtsies>=0.4.2"
 pip check
-pip install "curtsies>=0.4.2" "dask>=2023.11.0" "databricks-cli>=0.18.0" "datashape>=0.5.2" "datetime>=5.3"
+pip install "dask>=2023.11.0" "databricks-cli>=0.18.0" "datashape>=0.5.2" "datetime>=5.3" "datetime-distance>=0.1.3"
 pip check
-pip install "datetime-distance>=0.1.3" "django-cors-headers>=4.3.1" "django-extensions>=3.2.3" "django-http-exceptions>=1.4.0" "django-model-utils>=4.3.1"
+pip install "django-cors-headers>=4.3.1" "django-extensions>=3.2.3" "django-http-exceptions>=1.4.0" "django-model-utils>=4.3.1" "django-request-logging>=0.7.5"
 pip check
-pip install "django-request-logging>=0.7.5" "djangorestframework>=3.14.0" "docker>=6.1.3" "ecos>=2.0.12" "elasticsearch>=8.11.0"
+pip install "djangorestframework>=3.14.0" "docker>=6.1.3" "ecos>=2.0.12" "elasticsearch>=8.11.0" "feather-format>=0.4.1"
 pip check
-pip install "feather-format>=0.4.1" "flask>=3.0.0" "gdown>=4.7.1" "gensim>=4.3.2" "gitpython>=3.1.40"
+pip install "flask>=3.0.0" "gdown>=4.7.1" "gensim>=4.3.2" "gitpython>=3.1.40" "google>=3.0.0"
 pip check
-pip install "google>=3.0.0" "google-auth>=2.23.4" "googletransx>=2.4.2" "gpustat>=1.1.1" "grpc-google-iam-v1>=0.12.7"
+pip install "google-auth>=2.23.4" "googletransx>=2.4.2" "gpustat>=1.1.1" "grpc-google-iam-v1>=0.12.7" "grpcio-status>=1.48.1"
 pip check
-pip install "grpcio-status>=1.48.1" "h2o>=3.44.0.2" "h5netcdf>=1.3.0" "holidays>=0.36" "httplib2shim>=0.0.3"
+pip install "h2o>=3.44.0.2" "h5netcdf>=1.3.0" "holidays>=0.36" "httplib2shim>=0.0.3" "httpx>=0.25.1"
 pip check
-pip install "httpx>=0.25.1" "huggingface-hub>=0.19.4" "hyperopt>=0.2.7" "ib-insync>=0.9.86" "imagecodecs-lite>=2022.9.26"
+pip install "huggingface-hub>=0.19.4" "hyperopt>=0.2.7" "ib-insync>=0.9.86" "imagecodecs-lite>=2022.9.26" "imagehash>=4.3.1"
 pip check
-pip install "imagehash>=4.3.1" "influxdb-client>=1.38.0" "int-date>=0.2.0" "intrinio-sdk>=6.26.2" "jax>=0.4.20"
+pip install "influxdb-client>=1.38.0" "int-date>=0.2.0" "intrinio-sdk>=6.26.2" "jax>=0.4.20" "jsonschema-specifications>=2023.11.1"
 pip check
-pip install "jsonschema-specifications>=2023.11.1" "jupyter-client>=8.6.0" "jupyter-packaging>=0.12.3" "jupyter-server-terminals>=0.4.4" "kaggle>=1.5.16"
+pip install "jupyter-client>=8.6.0" "jupyter-packaging>=0.12.3" "jupyter-server-terminals>=0.4.4" "kaggle>=1.5.16" "kivy-garden>=0.1.5"
 pip check
-pip install "kivy-garden>=0.1.5" "libcst>=1.1.0" "lightgbm>=4.1.0" "luigi>=3.4.0" "lunarcalendar>=0.0.9"
+pip install "libcst>=1.1.0" "lightgbm>=4.1.0" "luigi>=3.4.0" "lunarcalendar>=0.0.9" "mastodon-py>=1.8.1"
 pip check
-pip install "mastodon-py>=1.8.1" "matplotlib>=3.8.1" "mdit-py-plugins>=0.4.0" "miniful>=0.0.6" "minimal-snowplow-tracker>=0.0.2"
+pip install "matplotlib>=3.8.1" "mdit-py-plugins>=0.4.0" "miniful>=0.0.6" "minimal-snowplow-tracker>=0.0.2" "mixpanel>=4.10.0"
 pip check
-pip install "mixpanel>=4.10.0" "moviepy>=1.0.3" "netcdf4>=1.6.5" "oauth2client>=4.1.3" "onnxconverter-common>=1.13.0"
+pip install "moviepy>=1.0.3" "netcdf4>=1.6.5" "oauth2client>=4.1.3" "onnxconverter-common>=1.13.0" "onnxoptimizer>=0.3.13"
 pip check
-pip install "onnxoptimizer>=0.3.13" "onnxruntime>=1.16.2" "pandas>=2.1.3" "pathy>=0.10.3" "persistent>=5.1"
+pip install "onnxruntime>=1.16.2" "pandas>=2.1.3" "pathy>=0.10.3" "persistent>=5.1" "pettingzoo>=1.24.2"
 pip check
-pip install "pettingzoo>=1.24.2" "pip-tools>=7.3.0" "pipx>=1.2.1" "pooch>=1.8.0" "progressbar2>=4.2.0"
+pip install "pip-tools>=7.3.0" "pipx>=1.2.1" "pooch>=1.8.0" "progressbar2>=4.2.0" "pyanalyze>=0.11.0"
 pip check
 pip install "pycares>=4.4.0" "pydantic>=2.5.1" "pynacl>=1.5.0" "pyobjc-framework-accounts>=10.0" "pyobjc-framework-addressbook>=10.0"
 pip check
@@ -378,39 +378,39 @@ pip install "nilearn>=0.10.2" "nystrom-attention>=0.0.11" "onnx-simplifier>=0.4.
 pip check
 pip install "paramiko>=3.3.1" "phik>=0.12.3" "powerlaw>=1.5" "proj>=0.2.0" "prometheus-flask-exporter>=0.23.0"
 pip check
-pip install "py-vollib>=1.0.1" "pyanalyze>=0.11.0" "pyautogui>=0.9.54" "pycocotools>=2.0.7" "pydata-sphinx-theme>=0.13.3"
+pip install "py-vollib>=1.0.1" "pyautogui>=0.9.54" "pycocotools>=2.0.7" "pydata-sphinx-theme>=0.13.3" "pygithub>=2.1.1"
 pip check
-pip install "pygithub>=2.1.1" "pyldavis>=3.4.1" "pynndescent>=0.5.10" "pyobjc-framework-accessibility>=10.0" "pyobjc-framework-applicationservices>=10.0"
+pip install "pyldavis>=3.4.1" "pynndescent>=0.5.10" "pyobjc-framework-accessibility>=10.0" "pyobjc-framework-applicationservices>=10.0" "pyobjc-framework-avfoundation>=10.0"
 pip check
-pip install "pyobjc-framework-avfoundation>=10.0" "pyobjc-framework-avkit>=10.0" "pyobjc-framework-cloudkit>=10.0" "pyobjc-framework-contactsui>=10.0" "pyobjc-framework-coreaudiokit>=10.0"
+pip install "pyobjc-framework-avkit>=10.0" "pyobjc-framework-cloudkit>=10.0" "pyobjc-framework-contactsui>=10.0" "pyobjc-framework-coreaudiokit>=10.0" "pyobjc-framework-coreservices>=10.0"
 pip check
-pip install "pyobjc-framework-coreservices>=10.0" "pyobjc-framework-coretext>=10.0" "pyobjc-framework-discrecordingui>=10.0" "pyobjc-framework-fileproviderui>=10.0" "pyobjc-framework-gamekit>=10.0"
+pip install "pyobjc-framework-coretext>=10.0" "pyobjc-framework-discrecordingui>=10.0" "pyobjc-framework-fileproviderui>=10.0" "pyobjc-framework-gamekit>=10.0" "pyobjc-framework-instantmessage>=10.0"
 pip check
-pip install "pyobjc-framework-instantmessage>=10.0" "pyobjc-framework-intentsui>=10.0" "pyobjc-framework-iobluetoothui>=10.0" "pyobjc-framework-linkpresentation>=10.0" "pyobjc-framework-localauthentication>=10.0"
+pip install "pyobjc-framework-intentsui>=10.0" "pyobjc-framework-iobluetoothui>=10.0" "pyobjc-framework-linkpresentation>=10.0" "pyobjc-framework-localauthentication>=10.0" "pyobjc-framework-mapkit>=10.0"
 pip check
-pip install "pyobjc-framework-mapkit>=10.0" "pyobjc-framework-medialibrary>=10.0" "pyobjc-framework-metalfx>=10.0" "pyobjc-framework-metalkit>=10.0" "pyobjc-framework-metalperformanceshaders>=10.0"
+pip install "pyobjc-framework-medialibrary>=10.0" "pyobjc-framework-metalfx>=10.0" "pyobjc-framework-metalkit>=10.0" "pyobjc-framework-metalperformanceshaders>=10.0" "pyobjc-framework-modelio>=10.0"
 pip check
-pip install "pyobjc-framework-modelio>=10.0" "pyobjc-framework-oslog>=10.0" "pyobjc-framework-quicklookthumbnailing>=10.0" "pyobjc-framework-safetykit>=10.0" "pyobjc-framework-scenekit>=10.0"
+pip install "pyobjc-framework-oslog>=10.0" "pyobjc-framework-quicklookthumbnailing>=10.0" "pyobjc-framework-safetykit>=10.0" "pyobjc-framework-scenekit>=10.0" "pyobjc-framework-screencapturekit>=10.0"
 pip check
-pip install "pyobjc-framework-screencapturekit>=10.0" "pyobjc-framework-securityfoundation>=10.0" "pyobjc-framework-securityinterface>=10.0" "pyobjc-framework-sharedwithyou>=10.0" "pyobjc-framework-spritekit>=10.0"
+pip install "pyobjc-framework-securityfoundation>=10.0" "pyobjc-framework-securityinterface>=10.0" "pyobjc-framework-sharedwithyou>=10.0" "pyobjc-framework-spritekit>=10.0" "pyobjc-framework-syncservices>=10.0"
 pip check
-pip install "pyobjc-framework-syncservices>=10.0" "pyobjc-framework-usernotificationsui>=10.0" "pyobjc-framework-videotoolbox>=10.0" "pyobjc-framework-vision>=10.0" "pyod>=1.1.1"
+pip install "pyobjc-framework-usernotificationsui>=10.0" "pyobjc-framework-videotoolbox>=10.0" "pyobjc-framework-vision>=10.0" "pyod>=1.1.1" "pyopenssl>=23.3.0"
 pip check
-pip install "pyopenssl>=23.3.0" "pyro-ppl>=1.8.6" "pytorch-ranger>=0.1.1" "qudida>=0.0.4" "rapids>=0.0.1"
+pip install "pyro-ppl>=1.8.6" "pytorch-ranger>=0.1.1" "qudida>=0.0.4" "rapids>=0.0.1" "s3transfer>=0.7.0"
 pip check
-pip install "s3transfer>=0.7.0" "scikit-plot>=0.3.7" "seaborn>=0.13.0" "secretstorage>=3.3.3" "seqeval>=1.2.2"
+pip install "scikit-plot>=0.3.7" "seaborn>=0.13.0" "secretstorage>=3.3.3" "seqeval>=1.2.2" "shap>=0.43.0"
 pip check
-pip install "shap>=0.43.0" "sklearn>=0.0" "sklearn-pandas>=2.2.0" "snapml>=1.14.2" "sphinx-autobuild>=2021.3.14"
+pip install "sklearn>=0.0" "sklearn-pandas>=2.2.0" "snapml>=1.14.2" "sphinx-autobuild>=2021.3.14" "sphinx-autodoc-typehints>=1.19.1"
 pip check
-pip install "sphinx-autodoc-typehints>=1.19.1" "sphinx-panels>=0.6.0" "sphinxcontrib-jquery>=4.1" "stable-baselines3>=2.2.0" "stanza>=1.6.1"
+pip install "sphinx-panels>=0.6.0" "sphinxcontrib-jquery>=4.1" "stable-baselines3>=2.2.0" "stanza>=1.6.1" "statsmodels>=0.14.0"
 pip check
-pip install "statsmodels>=0.14.0" "stockstats>=0.6.2" "sweetviz>=2.3.0" "tensorflow-datasets>=4.9.3" "tokenizers>=0.15.0"
+pip install "stockstats>=0.6.2" "sweetviz>=2.3.0" "tensorflow-datasets>=4.9.3" "tokenizers>=0.15.0" "torchmetrics>=1.2.0"
 pip check
-pip install "torchmetrics>=1.2.0" "torchvision>=0.16.1" "trading-calendars>=2.1.1" "trio-websocket>=0.11.1" "tweepy>=4.14.0"
+pip install "torchvision>=0.16.1" "trading-calendars>=2.1.1" "trio-websocket>=0.11.1" "tweepy>=4.14.0" "vega-datasets>=0.9.0"
 pip check
-pip install "vega-datasets>=0.9.0" "visions>=0.7.5" "wandb>=0.16.0" "wordcloud>=1.9.2" "wrds>=3.1.6"
+pip install "visions>=0.7.5" "wandb>=0.16.0" "wordcloud>=1.9.2" "wrds>=3.1.6" "xarray>=2023.10.1"
 pip check
-pip install "xarray>=2023.10.1" "yellowbrick>=1.5" "yfinance>=0.2.31" "zeep>=4.2.1"
+pip install "yellowbrick>=1.5" "yfinance>=0.2.31" "zeep>=4.2.1"
 pip check
 # Level 4
 # Level 5
