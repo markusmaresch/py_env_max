@@ -401,3 +401,11 @@ class Database:
         recurse_dict(table)
         constraints.optimize()
         return constraints
+
+    def package_get_summary(self, name: str) -> str:
+        table = self.table_packages()
+        d = table.get(name)
+        s = d.get(Database.SUMMARY)
+        if s is None:
+            return ''
+        return s

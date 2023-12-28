@@ -12,6 +12,7 @@ from yml_cmd import YmlCmd
 from conda_cmd import CondaCmd
 from pip_cmd import PipCmd
 from scripts_cmd import ScriptsCmd
+from cleanup_cmd import CleanupCmd
 from os_platform import OsPlatform
 from stat_cmd import StatCmd
 from version import Version
@@ -125,6 +126,8 @@ class PyEnvMax:
                            help='Create conda YML script from existing python environment')
         group.add_argument('-se', '--scripts_export', action='store_true',
                            help='Create scripts for recreating existing python environment')
+        group.add_argument('-tl', '--top_level', action='store_true',
+                           help='Find top level (or unused) packages')
         args = parser.parse_args()
         # print(args)
         force = args.force
@@ -152,6 +155,8 @@ class PyEnvMax:
             EnvCmd.install_packages(env_name=env_name, packages_with_versions=packages_with_versions, force=force)
         elif args.scripts_export:
             ScriptsCmd.scripts_export(env_name=env_name, python_version=self.python_version_default, force=force)
+        elif args.top_level:
+            CleanupCmd.top_level(env_name=env_name, force=force)
         else:
             print('? internal switch missing ?')
             parser.print_help()
