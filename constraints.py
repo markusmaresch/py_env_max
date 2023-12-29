@@ -120,7 +120,7 @@ class Constraints:
                 return True
             comparator.append(version)
             return True
-        except Exception as e:
+        except:
             # appears to be some logic error: list index out of range !!!
             # attempt to understand and fix - but it all seems to work for months !!
             return False
