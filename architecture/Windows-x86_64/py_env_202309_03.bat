@@ -1,0 +1,148 @@
+rem 2024-01-03T20:02:09.371334+00:00
+rem Level 3
+pip install "aiohttp>=3.8.5"
+pip install "argon2-cffi-bindings>=21.2.0"
+pip install "arrow>=1.2.3"
+pip install "azure-core>=1.29.1"
+pip check
+pip install "black>=23.7.0"
+pip install "blessed>=1.20.0"
+pip install "botocore>=1.31.27"
+pip install "branca>=0.6.0"
+pip install "brotlipy>=0.7.0"
+pip install "bs4>=0.0.1"
+pip check
+pip install "cachecontrol>=0.13.1"
+pip install "click-didyoumean>=0.3.0"
+pip install "click-plugins>=1.1.1"
+pip install "click-repl>=0.3.0"
+pip install "cligj>=0.7.2"
+pip install "coinpaprika>=0.1.0"
+pip install "colorcet>=3.0.1"
+pip install "coloredlogs>=15.0.1"
+pip install "confection>=0.1.1"
+pip install "cons>=0.4.6"
+pip check
+pip install "coremltools>=6.3.0"
+pip install "croniter>=1.4.1"
+pip install "cryptography>=41.0.1"
+pip install "cssselect2>=0.7.0"
+pip check
+pip install "dask>=2023.4.1"
+pip install "databricks-cli>=0.17.7"
+pip install "datashape>=0.5.2"
+pip install "datetime>=5.2"
+pip install "datetime-distance>=0.1.3"
+pip install "django-cors-headers>=4.2.0"
+pip install "django-extensions>=3.2.3"
+pip install "django-http-exceptions>=1.4.0"
+pip install "django-model-utils>=4.3.1"
+pip install "django-request-logging>=0.7.5"
+pip check
+pip install "djangorestframework>=3.14.0"
+pip install "docker>=6.1.3"
+pip check
+pip install "ecos>=2.0.12"
+pip install "elasticsearch>=8.9.0"
+pip check
+pip install "feather-format>=0.4.1"
+pip install "flask>=2.2.5"
+pip check
+pip install "gdown>=4.7.1"
+pip install "gensim>=4.3.1"
+pip install "gitpython>=3.1.32"
+pip install "google>=3.0.0"
+pip install "google-auth>=2.19.1"
+pip install "googletransx>=2.4.2"
+pip install "grpc-google-iam-v1>=0.12.6"
+pip install "grpcio-status>=1.48.1"
+pip install "grpclib>=0.4.5"
+pip check
+pip install "h2o>=3.42.0.2"
+pip install "h5netcdf>=1.2.0"
+pip install "holidays>=0.28"
+pip install "httpcore>=0.17.3"
+pip install "httplib2shim>=0.0.3"
+pip install "huggingface-hub>=0.16.3"
+pip install "hyperopt>=0.2.7"
+pip check
+pip install "ib-insync>=0.9.86"
+pip install "imagecodecs-lite>=2022.9.26"
+pip install "imagehash>=4.3.1"
+pip install "inflect>=7.0.0"
+pip install "int-date>=0.2.0"
+pip install "intrinio-sdk>=6.25.0"
+pip check
+pip install "jax>=0.4.13"
+pip install "jsonschema-specifications>=2023.7.1"
+pip install "jupyter-client>=8.3.0"
+pip install "jupyter-server-terminals>=0.4.4"
+pip check
+pip install "kaggle>=1.5.16"
+pip install "kivy-garden>=0.1.5"
+pip check
+pip install "libcst>=1.0.1"
+pip install "luigi>=3.3.0"
+pip install "lunarcalendar>=0.0.9"
+pip check
+pip install "mastodon-py>=1.8.1"
+pip install "matplotlib>=3.6.3"
+pip install "mdit-py-plugins>=0.4.0"
+pip install "miniful>=0.0.6"
+pip install "minimal-snowplow-tracker>=0.0.2"
+pip install "mixpanel>=4.10.0"
+pip check
+pip install "netcdf4>=1.6.4"
+pip install "nltk>=3.8.1"
+pip check
+pip install "oauth2client>=4.1.3"
+pip install "onnxconverter-common>=1.13.0"
+pip check
+pip install "pandas>=1.5.3"
+pip install "pandoc>=2.3"
+pip install "params-flow>=0.8.2"
+pip install "persistent>=5.0"
+pip install "pettingzoo>=1.23.1"
+pip install "pip-tools>=7.3.0"
+pip install "pooch>=1.7.0"
+pip install "proglog>=0.1.10"
+pip install "progressbar2>=4.2.0"
+pip install "pyanalyze>=0.10.1"
+pip check
+pip install "pycares>=4.3.0"
+pip install "pynacl>=1.5.0"
+pip install "pyramid>=2.0.1"
+pip check
+pip install "qdldl>=0.1.7"
+pip install "requests-cache>=1.1.0"
+pip install "requests-file>=1.5.1"
+pip install "requests-oauthlib>=1.3.1"
+pip install "requests-toolbelt>=1.0.0"
+pip install "responses>=0.22.0"
+pip install "rich>=13.5.2"
+pip install "rpy2>=3.5.7"
+pip check
+pip install "scikit-image>=0.21.0"
+pip install "scikit-learn>=1.3.0"
+pip install "scs>=3.2.3"
+pip install "simpful>=2.11.0"
+pip install "sphinx>=4.5.0"
+pip install "stack-data>=0.6.2"
+pip install "starlette>=0.31.0"
+pip install "stumpy>=1.11.1"
+pip check
+pip install "tables>=3.8.0"
+pip install "tensorflow-metadata>=1.14.0"
+pip install "torch>=2.0.1"
+pip install "trio>=0.22.2"
+pip install "typer>=0.7.0"
+pip check
+pip install "userpath>=1.9.0"
+pip install "uvicorn>=0.23.2"
+pip check
+pip install "xgboost>=1.7.6"
+pip install "yahoofinancials>=1.16"
+pip check
+pip install "zarr>=2.16.0"
+pip check
+rem Level 3
