@@ -17,6 +17,14 @@ class ScriptsCmd:
         if not db.load(db_name):
             print('scripts_export: call environment import before')
             return False
+        packages = db.packages_get_names_all()
+        list_name = f'{env_name}.txt'
+        with open(list_name, 'w') as f:
+            for p in packages:
+                f.write(f'{p}\n')
+            # for
+        # with
+
         script_extension = OsPlatform.script_extension()
         script_comment = OsPlatform.script_comment()
         datetime_utc_iso_string = datetime.datetime.now(datetime.timezone.utc).isoformat()
