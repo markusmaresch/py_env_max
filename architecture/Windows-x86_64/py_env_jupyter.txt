@@ -119,6 +119,7 @@ tinycss2
 tomli
 tornado
 traitlets
+types-python-dateutil
 typing-extensions
 tzdata
 uri-template

@@ -1,5 +1,5 @@
-rem 2024-01-04T20:54:31.799431+00:00
+rem 2024-01-04T21:25:19.135773+00:00
 rem Level 8
-pip install "jupyter-server>=2.7.2"
+pip install "jupyter-server>=2.12.2"
 pip check
 rem Level 8

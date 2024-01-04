@@ -1,6 +1,6 @@
 {
     "config": {
-        "datetime": "2024-01-04T19:32:20.118345+00:00",
+        "datetime": "2024-01-04T21:26:55.934085+00:00",
         "note": "JSON style nested database for packages"
     },
     "packages": {
@@ -8,7 +8,7 @@
             "level": 4,
             "package_name": "aiobotocore",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.9.0",
                 "2.8.0",
@@ -154,7 +154,7 @@
             "level": 3,
             "package_name": "aiohttp",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "4.0.0a1",
                 "4.0.0a0",
@@ -255,7 +255,7 @@
             "level": 1,
             "package_name": "aioitertools",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.11.0",
                 "0.10.0",
@@ -287,7 +287,7 @@
             "level": 2,
             "package_name": "aiosignal",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.3.1",
                 "1.2.0",
@@ -316,7 +316,7 @@
             "level": 5,
             "package_name": "albumentations",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.3.1",
                 "1.3.0",
@@ -394,7 +394,7 @@
                             "version_required": ">=1.19.3"
                         }
                     ],
-                    "version_installed": "4.8.1.78",
+                    "version_installed": "4.9.0.80",
                     "version_required": ">=4.1.1"
                 },
                 {
@@ -438,7 +438,7 @@
                                     "version_required": ">=1.19.3"
                                 }
                             ],
-                            "version_installed": "4.8.1.78",
+                            "version_installed": "4.9.0.80",
                             "version_required": ">=4.0.1"
                         },
                         {
@@ -575,7 +575,7 @@
             "level": 5,
             "package_name": "altair",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "5.2.0",
                 "5.1.2",
@@ -661,7 +661,7 @@
                                     "version_required": ">=0.31.0"
                                 }
                             ],
-                            "version_installed": "2023.11.2",
+                            "version_installed": "2023.12.1",
                             "version_required": ">=2023.03.6"
                         },
                         {
@@ -745,7 +745,7 @@
             "level": 2,
             "package_name": "anyio",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "4.2.0",
                 "4.1.0",
@@ -811,7 +811,7 @@
             "level": 2,
             "package_name": "arena-api",
             "pypi_package": false,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [],
             "requires": [
                 {
@@ -827,7 +827,7 @@
             "level": 4,
             "package_name": "argon2-cffi",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "23.1.0",
                 "21.3.0",
@@ -877,7 +877,7 @@
             "level": 3,
             "package_name": "argon2-cffi-bindings",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "21.2.0",
                 "21.1.0"
@@ -906,7 +906,7 @@
             "level": 3,
             "package_name": "arrow",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.3.0",
                 "1.2.3",
@@ -979,7 +979,7 @@
             "level": 2,
             "package_name": "asttokens",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.4.1",
                 "2.4.0",
@@ -1033,7 +1033,7 @@
             "level": 2,
             "package_name": "astunparse",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.6.3",
                 "1.6.2",
@@ -1067,7 +1067,7 @@
             "level": 1,
             "package_name": "async-lru",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.0.4",
                 "2.0.3",
@@ -1097,7 +1097,7 @@
             "level": 1,
             "package_name": "async-timeout",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "4.0.3",
                 "4.0.2",
@@ -1126,7 +1126,7 @@
             "level": 1,
             "package_name": "attrs",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "23.2.0",
                 "23.1.0",
@@ -1170,7 +1170,7 @@
             "level": 1,
             "package_name": "Babel",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.14.0",
                 "2.13.1",
@@ -1221,7 +1221,7 @@
             "level": 1,
             "package_name": "backcall",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.2.0",
                 "0.1.0"
@@ -1234,7 +1234,7 @@
             "level": 2,
             "package_name": "beautifulsoup4",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "4.12.2",
                 "4.12.1",
@@ -1295,7 +1295,7 @@
             "level": 2,
             "package_name": "bleach",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "6.1.0",
                 "6.0.0",
@@ -1360,7 +1360,7 @@
             "level": 1,
             "package_name": "blinker",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.7.0",
                 "1.6.3",
@@ -1388,7 +1388,7 @@
             "level": 1,
             "package_name": "boto",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.9.9",
                 "2.9.8",
@@ -1439,8 +1439,9 @@
             "level": 3,
             "package_name": "botocore",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
+                "1.34.13",
                 "1.34.12",
                 "1.34.11",
                 "1.34.10",
@@ -1479,8 +1480,7 @@
                 "1.31.85",
                 "1.31.84",
                 "1.31.83",
-                "1.31.82",
-                "1.31.81"
+                "1.31.82"
             ],
             "required_by": [
                 "aiobotocore"
@@ -1517,7 +1517,7 @@
             "level": 4,
             "package_name": "braincube-connector",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.6.0",
                 "2.5.2",
@@ -1614,7 +1614,7 @@
             "level": 1,
             "package_name": "Brotli",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.1.0",
                 "1.0.9",
@@ -1634,7 +1634,7 @@
             "level": 1,
             "package_name": "cachetools",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "5.3.2",
                 "5.3.1",
@@ -1689,7 +1689,7 @@
             "level": 1,
             "package_name": "certifi",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2023.11.17",
                 "2023.7.22",
@@ -1743,7 +1743,7 @@
             "level": 2,
             "package_name": "cffi",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.16.0",
                 "1.16.0rc2",
@@ -1804,7 +1804,7 @@
             "level": 1,
             "package_name": "charset-normalizer",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.3.2",
                 "3.3.1",
@@ -1858,7 +1858,7 @@
             "level": 2,
             "package_name": "click",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "8.1.7",
                 "8.1.6",
@@ -1919,7 +1919,7 @@
             "level": 1,
             "package_name": "colorama",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.4.6",
                 "0.4.6rc1",
@@ -1976,7 +1976,7 @@
             "level": 2,
             "package_name": "comm",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.2.1",
                 "0.2.0",
@@ -1998,14 +1998,14 @@
                 }
             ],
             "summary": "Jupyter Python Comm implementation, for usage in ipykernel, xeus-python etc",
-            "version_installed": "0.2.0",
-            "version_required": "0.2.0"
+            "version_installed": "0.2.1",
+            "version_required": "0.2.1"
         },
         "compress-pickle": {
             "level": 1,
             "package_name": "compress-pickle",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.1.0",
                 "2.0.1",
@@ -2023,7 +2023,7 @@
             "level": 2,
             "package_name": "contourpy",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.2.0",
                 "1.1.1",
@@ -2061,7 +2061,7 @@
             "level": 3,
             "package_name": "cryptography",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "41.0.7",
                 "41.0.6",
@@ -2128,7 +2128,7 @@
             "level": 2,
             "package_name": "customtkinter",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "5.2.1",
                 "5.2.0",
@@ -2185,7 +2185,7 @@
             "level": 1,
             "package_name": "cycler",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.12.1",
                 "0.12.0",
@@ -2205,7 +2205,7 @@
             "level": 1,
             "package_name": "darkdetect",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.8.0",
                 "0.7.1",
@@ -2231,7 +2231,7 @@
             "level": 1,
             "package_name": "debugpy",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.8.0",
                 "1.7.0",
@@ -2281,7 +2281,7 @@
             "level": 1,
             "package_name": "decorator",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "5.1.1",
                 "5.1.0",
@@ -2330,7 +2330,7 @@
             "level": 1,
             "package_name": "defusedxml",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.8.0rc2",
                 "0.8.0rc1",
@@ -2358,7 +2358,7 @@
             "level": 1,
             "package_name": "dm-tree",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.1.8",
                 "0.1.7",
@@ -2377,7 +2377,7 @@
             "level": 1,
             "package_name": "docopt",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.6.2",
                 "0.6.1",
@@ -2402,7 +2402,7 @@
             "level": 1,
             "package_name": "exceptiongroup",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.2.0",
                 "1.1.3",
@@ -2433,7 +2433,7 @@
             "level": 1,
             "package_name": "executing",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.0.1",
                 "2.0.0",
@@ -2480,7 +2480,7 @@
             "level": 1,
             "package_name": "fastjsonschema",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.19.1",
                 "2.19.0",
@@ -2534,7 +2534,7 @@
             "level": 1,
             "package_name": "filelock",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.13.1",
                 "3.13.0",
@@ -2588,7 +2588,7 @@
             "level": 2,
             "package_name": "flake8",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "6.1.0",
                 "6.0.0",
@@ -2656,7 +2656,7 @@
             "level": 3,
             "package_name": "flask",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.0.0",
                 "2.3.3",
@@ -2754,7 +2754,7 @@
             "level": 1,
             "package_name": "fonttools",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "4.47.0",
                 "4.46.0",
@@ -2809,7 +2809,7 @@
             "level": 2,
             "package_name": "fpdf2",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.7.7",
                 "2.7.6",
@@ -2876,7 +2876,7 @@
             "level": 1,
             "package_name": "fqdn",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.5.1",
                 "1.5.0",
@@ -2898,7 +2898,7 @@
             "level": 1,
             "package_name": "frozenlist",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.4.1",
                 "1.4.0",
@@ -2925,7 +2925,7 @@
             "level": 1,
             "package_name": "fsspec",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2023.12.2",
                 "2023.12.1",
@@ -2980,7 +2980,7 @@
             "level": 2,
             "package_name": "gitdb",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "4.0.11",
                 "4.0.10",
@@ -3022,7 +3022,7 @@
             "level": 3,
             "package_name": "GitPython",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.1.40",
                 "3.1.38",
@@ -3087,7 +3087,7 @@
             "level": 1,
             "package_name": "gmpy2",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.2.0a1",
                 "2.1.5",
@@ -3126,7 +3126,7 @@
             "level": 4,
             "package_name": "google-api-core",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.16.0rc0",
                 "2.15.0",
@@ -3210,7 +3210,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.25.2",
+                    "version_installed": "2.26.1",
                     "version_required": ">=2.14.1,<3.0.dev0"
                 },
                 {
@@ -3266,7 +3266,7 @@
             "level": 3,
             "package_name": "google-auth",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.26.1",
                 "2.26.0",
@@ -3347,14 +3347,14 @@
                 }
             ],
             "summary": "Google Authentication Library",
-            "version_installed": "2.25.2",
-            "version_required": "2.25.2"
+            "version_installed": "2.26.1",
+            "version_required": "2.26.1"
         },
         "google-auth-oauthlib": {
             "level": 4,
             "package_name": "google-auth-oauthlib",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.2.0",
                 "1.1.0",
@@ -3414,7 +3414,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.25.2",
+                    "version_installed": "2.26.1",
                     "version_required": ">=2.15.0"
                 },
                 {
@@ -3465,7 +3465,7 @@
             "level": 7,
             "package_name": "google-cloud-aiplatform",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.38.1",
                 "1.38.0",
@@ -3545,7 +3545,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.25.2",
+                            "version_installed": "2.26.1",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -3635,7 +3635,7 @@
                                             "version_required": ">=3.1.4,<5"
                                         }
                                     ],
-                                    "version_installed": "2.25.2",
+                                    "version_installed": "2.26.1",
                                     "version_required": ">=2.14.1,<3.0.dev0"
                                 },
                                 {
@@ -3725,7 +3725,7 @@
                                                     "version_required": ">=3.1.4,<5"
                                                 }
                                             ],
-                                            "version_installed": "2.25.2",
+                                            "version_installed": "2.26.1",
                                             "version_required": ">=2.14.1,<3.0.dev0"
                                         },
                                         {
@@ -3809,7 +3809,7 @@
                                             "version_required": ">=3.1.4,<5"
                                         }
                                     ],
-                                    "version_installed": "2.25.2",
+                                    "version_installed": "2.26.1",
                                     "version_required": ">=1.25.0,<3.0dev"
                                 }
                             ],
@@ -3915,7 +3915,7 @@
                                             "version_required": ">=3.1.4,<5"
                                         }
                                     ],
-                                    "version_installed": "2.25.2",
+                                    "version_installed": "2.26.1",
                                     "version_required": ">=2.14.1,<3.0.dev0"
                                 },
                                 {
@@ -4055,7 +4055,7 @@
                                             "version_required": ">=3.1.4,<5"
                                         }
                                     ],
-                                    "version_installed": "2.25.2",
+                                    "version_installed": "2.26.1",
                                     "version_required": ">=2.14.1,<3.0.dev0"
                                 },
                                 {
@@ -4139,7 +4139,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.25.2",
+                            "version_installed": "2.26.1",
                             "version_required": ">=2.23.3,<3.0dev"
                         },
                         {
@@ -4181,7 +4181,7 @@
                                                     "version_required": ">=3.1.4,<5"
                                                 }
                                             ],
-                                            "version_installed": "2.25.2",
+                                            "version_installed": "2.26.1",
                                             "version_required": ">=2.14.1,<3.0.dev0"
                                         },
                                         {
@@ -4265,7 +4265,7 @@
                                             "version_required": ">=3.1.4,<5"
                                         }
                                     ],
-                                    "version_installed": "2.25.2",
+                                    "version_installed": "2.26.1",
                                     "version_required": ">=1.25.0,<3.0dev"
                                 }
                             ],
@@ -4363,7 +4363,7 @@
             "level": 6,
             "package_name": "google-cloud-bigquery",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.14.1",
                 "3.14.0",
@@ -4446,7 +4446,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.25.2",
+                            "version_installed": "2.26.1",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -4536,7 +4536,7 @@
                                             "version_required": ">=3.1.4,<5"
                                         }
                                     ],
-                                    "version_installed": "2.25.2",
+                                    "version_installed": "2.26.1",
                                     "version_required": ">=2.14.1,<3.0.dev0"
                                 },
                                 {
@@ -4620,7 +4620,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.25.2",
+                            "version_installed": "2.26.1",
                             "version_required": ">=1.25.0,<3.0dev"
                         }
                     ],
@@ -4692,7 +4692,7 @@
             "level": 5,
             "package_name": "google-cloud-core",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.4.1",
                 "2.4.0",
@@ -4776,7 +4776,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.25.2",
+                            "version_installed": "2.26.1",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -4860,7 +4860,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.25.2",
+                    "version_installed": "2.26.1",
                     "version_required": ">=1.25.0,<3.0dev"
                 }
             ],
@@ -4872,7 +4872,7 @@
             "level": 5,
             "package_name": "google-cloud-resource-manager",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.11.0",
                 "1.11.0rc0",
@@ -4955,7 +4955,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.25.2",
+                            "version_installed": "2.26.1",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -5061,7 +5061,7 @@
             "level": 6,
             "package_name": "google-cloud-storage",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.14.0",
                 "2.14.0rc1",
@@ -5144,7 +5144,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.25.2",
+                            "version_installed": "2.26.1",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -5228,7 +5228,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.25.2",
+                    "version_installed": "2.26.1",
                     "version_required": ">=2.23.3,<3.0dev"
                 },
                 {
@@ -5270,7 +5270,7 @@
                                             "version_required": ">=3.1.4,<5"
                                         }
                                     ],
-                                    "version_installed": "2.25.2",
+                                    "version_installed": "2.26.1",
                                     "version_required": ">=2.14.1,<3.0.dev0"
                                 },
                                 {
@@ -5354,7 +5354,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.25.2",
+                            "version_installed": "2.26.1",
                             "version_required": ">=1.25.0,<3.0dev"
                         }
                     ],
@@ -5414,7 +5414,7 @@
             "level": 1,
             "package_name": "google-crc32c",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.5.0",
                 "1.3.0",
@@ -5442,7 +5442,7 @@
             "level": 2,
             "package_name": "google-pasta",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.2.0",
                 "0.1.8",
@@ -5469,7 +5469,7 @@
             "level": 2,
             "package_name": "google-resumable-media",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.7.0",
                 "2.6.0",
@@ -5531,7 +5531,7 @@
             "level": 2,
             "package_name": "googleapis-common-protos",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.62.0",
                 "1.62.0rc2",
@@ -5594,7 +5594,7 @@
             "level": 3,
             "package_name": "grpc-google-iam-v1",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.13.0",
                 "0.13.0rc1",
@@ -5648,7 +5648,7 @@
             "level": 1,
             "package_name": "grpcio",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.60.0",
                 "1.60.0rc1",
@@ -5703,7 +5703,7 @@
             "level": 3,
             "package_name": "grpcio-status",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.60.0",
                 "1.60.0rc1",
@@ -5778,7 +5778,7 @@
             "level": 2,
             "package_name": "h5py",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.9.0",
                 "3.8.0",
@@ -5833,7 +5833,7 @@
             "level": 1,
             "package_name": "idna",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.6",
                 "3.5",
@@ -5878,7 +5878,7 @@
             "level": 2,
             "package_name": "imageio",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.33.1",
                 "2.33.0",
@@ -5943,7 +5943,7 @@
             "level": 2,
             "package_name": "importlib-metadata",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "7.0.1",
                 "7.0.0",
@@ -6004,7 +6004,7 @@
             "level": 1,
             "package_name": "iniconfig",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.0.0",
                 "1.1.1",
@@ -6026,7 +6026,7 @@
             "level": 5,
             "package_name": "ipykernel",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "6.28.0",
                 "6.27.1",
@@ -6082,7 +6082,7 @@
                             "version_required": ">=4"
                         }
                     ],
-                    "version_installed": "0.2.0",
+                    "version_installed": "0.2.1",
                     "version_required": ">=0.1.1"
                 },
                 {
@@ -6197,7 +6197,7 @@
                                     "version_required": ">=5.3"
                                 }
                             ],
-                            "version_installed": "5.5.1",
+                            "version_installed": "5.7.0",
                             "version_required": ">=4.12,!=5.0.*"
                         },
                         {
@@ -6250,7 +6250,7 @@
                             "version_required": ">=5.3"
                         }
                     ],
-                    "version_installed": "5.5.1",
+                    "version_installed": "5.7.0",
                     "version_required": ">=4.12,!=5.0.*"
                 },
                 {
@@ -6279,7 +6279,7 @@
                 {
                     "package_name": "pyzmq",
                     "version_installed": "25.1.2",
-                    "version_required": ">=20"
+                    "version_required": ">=24"
                 },
                 {
                     "package_name": "tornado",
@@ -6293,14 +6293,14 @@
                 }
             ],
             "summary": "IPython Kernel for Jupyter",
-            "version_installed": "6.27.1",
-            "version_required": "6.27.1"
+            "version_installed": "6.28.0",
+            "version_required": "6.28.0"
         },
         "ipython": {
             "level": 4,
             "package_name": "ipython",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "8.9.0",
                 "8.8.0",
@@ -6434,7 +6434,7 @@
             "level": 4,
             "package_name": "isoduration",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "20.11.0"
             ],
@@ -6472,7 +6472,7 @@
             "level": 1,
             "package_name": "itsdangerous",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.1.2",
                 "2.1.1",
@@ -6512,7 +6512,7 @@
             "level": 2,
             "package_name": "jedi",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.9.0",
                 "0.8.1",
@@ -6565,7 +6565,7 @@
             "level": 2,
             "package_name": "Jinja2",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.1.2",
                 "3.1.1",
@@ -6623,7 +6623,7 @@
             "level": 1,
             "package_name": "jmespath",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.0.1",
                 "1.0.0",
@@ -6663,7 +6663,7 @@
             "level": 1,
             "package_name": "joblib",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.3.2",
                 "1.3.1",
@@ -6716,7 +6716,7 @@
             "level": 2,
             "package_name": "json-numpy",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.0.1",
                 "1.0.1a1",
@@ -6736,7 +6736,7 @@
             "level": 1,
             "package_name": "json-tricks",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.17.3",
                 "3.17.2",
@@ -6787,7 +6787,7 @@
             "level": 1,
             "package_name": "json5",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.9.14",
                 "0.9.11",
@@ -6835,7 +6835,7 @@
             "level": 1,
             "package_name": "jsonpointer",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.4",
                 "2.3",
@@ -6873,7 +6873,7 @@
             "level": 4,
             "package_name": "jsonschema",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "4.20.0",
                 "4.19.2",
@@ -6949,7 +6949,7 @@
                             "version_required": ">=0.31.0"
                         }
                     ],
-                    "version_installed": "2023.11.2",
+                    "version_installed": "2023.12.1",
                     "version_required": ">=2023.03.6"
                 },
                 {
@@ -6983,7 +6983,7 @@
             "level": 3,
             "package_name": "jsonschema-specifications",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2023.12.1",
                 "2023.11.2",
@@ -7031,14 +7031,14 @@
                 }
             ],
             "summary": "The JSON Schema meta-schemas and vocabularies, exposed as a Registry",
-            "version_installed": "2023.11.2",
-            "version_required": "2023.11.2"
+            "version_installed": "2023.12.1",
+            "version_required": "2023.12.1"
         },
         "jupyter-client": {
             "level": 3,
             "package_name": "jupyter-client",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "8.6.0",
                 "8.5.0",
@@ -7106,7 +7106,7 @@
                             "version_required": ">=5.3"
                         }
                     ],
-                    "version_installed": "5.5.1",
+                    "version_installed": "5.7.0",
                     "version_required": ">=4.12,!=5.0.*"
                 },
                 {
@@ -7145,7 +7145,7 @@
             "level": 2,
             "package_name": "jupyter-core",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "5.7.0",
                 "5.6.1",
@@ -7215,14 +7215,14 @@
                 }
             ],
             "summary": "Jupyter core package. A base package on which Jupyter projects rely",
-            "version_installed": "5.5.1",
-            "version_required": "5.5.1"
+            "version_installed": "5.7.0",
+            "version_required": "5.7.0"
         },
         "jupyter-events": {
             "level": 5,
             "package_name": "jupyter-events",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.9.0",
                 "0.8.0",
@@ -7270,7 +7270,7 @@
                                     "version_required": ">=0.31.0"
                                 }
                             ],
-                            "version_installed": "2023.11.2",
+                            "version_installed": "2023.12.1",
                             "version_required": ">=2023.03.6"
                         },
                         {
@@ -7354,7 +7354,7 @@
             "level": 9,
             "package_name": "jupyter-lsp",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.2.1",
                 "2.2.0",
@@ -7463,7 +7463,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1",
+                                    "version_installed": "5.7.0",
                                     "version_required": ">=4.12,!=5.0.*"
                                 },
                                 {
@@ -7516,7 +7516,7 @@
                                     "version_required": ">=5.3"
                                 }
                             ],
-                            "version_installed": "5.5.1",
+                            "version_installed": "5.7.0",
                             "version_required": ">=4.12,!=5.0.*"
                         },
                         {
@@ -7551,7 +7551,7 @@
                                                     "version_required": ">=0.31.0"
                                                 }
                                             ],
-                                            "version_installed": "2023.11.2",
+                                            "version_installed": "2023.12.1",
                                             "version_required": ">=2023.03.6"
                                         },
                                         {
@@ -7656,7 +7656,7 @@
                                     "version_required": ">=0.8.3"
                                 }
                             ],
-                            "version_installed": "0.5.0"
+                            "version_installed": "0.5.1"
                         },
                         {
                             "package_name": "nbconvert",
@@ -7723,7 +7723,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1",
+                                    "version_installed": "5.7.0",
                                     "version_required": ">=4.7"
                                 },
                                 {
@@ -7765,7 +7765,7 @@
                                                             "version_required": ">=5.3"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.1",
+                                                    "version_installed": "5.7.0",
                                                     "version_required": ">=4.12,!=5.0.*"
                                                 },
                                                 {
@@ -7818,7 +7818,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1",
+                                            "version_installed": "5.7.0",
                                             "version_required": ">=4.12,!=5.0.*"
                                         },
                                         {
@@ -7857,7 +7857,7 @@
                                                                     "version_required": ">=0.31.0"
                                                                 }
                                                             ],
-                                                            "version_installed": "2023.11.2",
+                                                            "version_installed": "2023.12.1",
                                                             "version_required": ">=2023.03.6"
                                                         },
                                                         {
@@ -7905,7 +7905,7 @@
                                                             "version_required": ">=5.3"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.1"
+                                                    "version_installed": "5.7.0"
                                                 },
                                                 {
                                                     "package_name": "traitlets",
@@ -7961,7 +7961,7 @@
                                                             "version_required": ">=0.31.0"
                                                         }
                                                     ],
-                                                    "version_installed": "2023.11.2",
+                                                    "version_installed": "2023.12.1",
                                                     "version_required": ">=2023.03.6"
                                                 },
                                                 {
@@ -8009,7 +8009,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1"
+                                            "version_installed": "5.7.0"
                                         },
                                         {
                                             "package_name": "traitlets",
@@ -8051,7 +8051,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "7.13.1",
+                            "version_installed": "7.14.0",
                             "version_required": ">=6.4.4"
                         },
                         {
@@ -8090,7 +8090,7 @@
                                                     "version_required": ">=0.31.0"
                                                 }
                                             ],
-                                            "version_installed": "2023.11.2",
+                                            "version_installed": "2023.12.1",
                                             "version_required": ">=2023.03.6"
                                         },
                                         {
@@ -8138,7 +8138,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1"
+                                    "version_installed": "5.7.0"
                                 },
                                 {
                                     "package_name": "traitlets",
@@ -8207,7 +8207,7 @@
                             "version_installed": "1.7.0"
                         }
                     ],
-                    "version_installed": "2.12.1",
+                    "version_installed": "2.12.2",
                     "version_required": ">=1.1.2"
                 }
             ],
@@ -8219,7 +8219,7 @@
             "level": 8,
             "package_name": "jupyter-server",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.12.2",
                 "2.12.1",
@@ -8342,7 +8342,7 @@
                                     "version_required": ">=5.3"
                                 }
                             ],
-                            "version_installed": "5.5.1",
+                            "version_installed": "5.7.0",
                             "version_required": ">=4.12,!=5.0.*"
                         },
                         {
@@ -8395,7 +8395,7 @@
                             "version_required": ">=5.3"
                         }
                     ],
-                    "version_installed": "5.5.1",
+                    "version_installed": "5.7.0",
                     "version_required": ">=4.12,!=5.0.*"
                 },
                 {
@@ -8430,7 +8430,7 @@
                                             "version_required": ">=0.31.0"
                                         }
                                     ],
-                                    "version_installed": "2023.11.2",
+                                    "version_installed": "2023.12.1",
                                     "version_required": ">=2023.03.6"
                                 },
                                 {
@@ -8535,7 +8535,7 @@
                             "version_required": ">=0.8.3"
                         }
                     ],
-                    "version_installed": "0.5.0"
+                    "version_installed": "0.5.1"
                 },
                 {
                     "package_name": "nbconvert",
@@ -8602,7 +8602,7 @@
                                     "version_required": ">=5.3"
                                 }
                             ],
-                            "version_installed": "5.5.1",
+                            "version_installed": "5.7.0",
                             "version_required": ">=4.7"
                         },
                         {
@@ -8644,7 +8644,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1",
+                                            "version_installed": "5.7.0",
                                             "version_required": ">=4.12,!=5.0.*"
                                         },
                                         {
@@ -8697,7 +8697,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1",
+                                    "version_installed": "5.7.0",
                                     "version_required": ">=4.12,!=5.0.*"
                                 },
                                 {
@@ -8736,7 +8736,7 @@
                                                             "version_required": ">=0.31.0"
                                                         }
                                                     ],
-                                                    "version_installed": "2023.11.2",
+                                                    "version_installed": "2023.12.1",
                                                     "version_required": ">=2023.03.6"
                                                 },
                                                 {
@@ -8784,7 +8784,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1"
+                                            "version_installed": "5.7.0"
                                         },
                                         {
                                             "package_name": "traitlets",
@@ -8840,7 +8840,7 @@
                                                     "version_required": ">=0.31.0"
                                                 }
                                             ],
-                                            "version_installed": "2023.11.2",
+                                            "version_installed": "2023.12.1",
                                             "version_required": ">=2023.03.6"
                                         },
                                         {
@@ -8888,7 +8888,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1"
+                                    "version_installed": "5.7.0"
                                 },
                                 {
                                     "package_name": "traitlets",
@@ -8930,7 +8930,7 @@
                             "version_required": ">=5.1"
                         }
                     ],
-                    "version_installed": "7.13.1",
+                    "version_installed": "7.14.0",
                     "version_required": ">=6.4.4"
                 },
                 {
@@ -8969,7 +8969,7 @@
                                             "version_required": ">=0.31.0"
                                         }
                                     ],
-                                    "version_installed": "2023.11.2",
+                                    "version_installed": "2023.12.1",
                                     "version_required": ">=2023.03.6"
                                 },
                                 {
@@ -9017,7 +9017,7 @@
                                     "version_required": ">=5.3"
                                 }
                             ],
-                            "version_installed": "5.5.1"
+                            "version_installed": "5.7.0"
                         },
                         {
                             "package_name": "traitlets",
@@ -9087,14 +9087,14 @@
                 }
             ],
             "summary": "The backend\u2014i.e. core services, APIs, and REST endpoints\u2014to Jupyter web applications",
-            "version_installed": "2.12.1",
-            "version_required": "2.12.1"
+            "version_installed": "2.12.2",
+            "version_required": "2.12.2"
         },
         "jupyter-server-terminals": {
             "level": 3,
             "package_name": "jupyter-server-terminals",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.5.1",
                 "0.5.0",
@@ -9138,14 +9138,14 @@
                 }
             ],
             "summary": "A Jupyter Server Extension Providing Terminals",
-            "version_installed": "0.5.0",
-            "version_required": "0.5.0"
+            "version_installed": "0.5.1",
+            "version_required": "0.5.1"
         },
         "jupyterlab": {
             "level": 10,
             "package_name": "jupyterlab",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "4.1.0b0",
                 "4.1.0a4",
@@ -9206,7 +9206,7 @@
                                     "version_required": ">=4"
                                 }
                             ],
-                            "version_installed": "0.2.0",
+                            "version_installed": "0.2.1",
                             "version_required": ">=0.1.1"
                         },
                         {
@@ -9321,7 +9321,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1",
+                                    "version_installed": "5.7.0",
                                     "version_required": ">=4.12,!=5.0.*"
                                 },
                                 {
@@ -9374,7 +9374,7 @@
                                     "version_required": ">=5.3"
                                 }
                             ],
-                            "version_installed": "5.5.1",
+                            "version_installed": "5.7.0",
                             "version_required": ">=4.12,!=5.0.*"
                         },
                         {
@@ -9403,7 +9403,7 @@
                         {
                             "package_name": "pyzmq",
                             "version_installed": "25.1.2",
-                            "version_required": ">=20"
+                            "version_required": ">=24"
                         },
                         {
                             "package_name": "tornado",
@@ -9416,7 +9416,7 @@
                             "version_required": ">=5.4.0"
                         }
                     ],
-                    "version_installed": "6.27.1"
+                    "version_installed": "6.28.0"
                 },
                 {
                     "package_name": "Jinja2",
@@ -9449,7 +9449,7 @@
                             "version_required": ">=5.3"
                         }
                     ],
-                    "version_installed": "5.5.1"
+                    "version_installed": "5.7.0"
                 },
                 {
                     "package_name": "jupyter-lsp",
@@ -9530,7 +9530,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1",
+                                            "version_installed": "5.7.0",
                                             "version_required": ">=4.12,!=5.0.*"
                                         },
                                         {
@@ -9583,7 +9583,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1",
+                                    "version_installed": "5.7.0",
                                     "version_required": ">=4.12,!=5.0.*"
                                 },
                                 {
@@ -9618,7 +9618,7 @@
                                                             "version_required": ">=0.31.0"
                                                         }
                                                     ],
-                                                    "version_installed": "2023.11.2",
+                                                    "version_installed": "2023.12.1",
                                                     "version_required": ">=2023.03.6"
                                                 },
                                                 {
@@ -9723,7 +9723,7 @@
                                             "version_required": ">=0.8.3"
                                         }
                                     ],
-                                    "version_installed": "0.5.0"
+                                    "version_installed": "0.5.1"
                                 },
                                 {
                                     "package_name": "nbconvert",
@@ -9790,7 +9790,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1",
+                                            "version_installed": "5.7.0",
                                             "version_required": ">=4.7"
                                         },
                                         {
@@ -9832,7 +9832,7 @@
                                                                     "version_required": ">=5.3"
                                                                 }
                                                             ],
-                                                            "version_installed": "5.5.1",
+                                                            "version_installed": "5.7.0",
                                                             "version_required": ">=4.12,!=5.0.*"
                                                         },
                                                         {
@@ -9885,7 +9885,7 @@
                                                             "version_required": ">=5.3"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.1",
+                                                    "version_installed": "5.7.0",
                                                     "version_required": ">=4.12,!=5.0.*"
                                                 },
                                                 {
@@ -9924,7 +9924,7 @@
                                                                             "version_required": ">=0.31.0"
                                                                         }
                                                                     ],
-                                                                    "version_installed": "2023.11.2",
+                                                                    "version_installed": "2023.12.1",
                                                                     "version_required": ">=2023.03.6"
                                                                 },
                                                                 {
@@ -9972,7 +9972,7 @@
                                                                     "version_required": ">=5.3"
                                                                 }
                                                             ],
-                                                            "version_installed": "5.5.1"
+                                                            "version_installed": "5.7.0"
                                                         },
                                                         {
                                                             "package_name": "traitlets",
@@ -10028,7 +10028,7 @@
                                                                     "version_required": ">=0.31.0"
                                                                 }
                                                             ],
-                                                            "version_installed": "2023.11.2",
+                                                            "version_installed": "2023.12.1",
                                                             "version_required": ">=2023.03.6"
                                                         },
                                                         {
@@ -10076,7 +10076,7 @@
                                                             "version_required": ">=5.3"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.1"
+                                                    "version_installed": "5.7.0"
                                                 },
                                                 {
                                                     "package_name": "traitlets",
@@ -10118,7 +10118,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "7.13.1",
+                                    "version_installed": "7.14.0",
                                     "version_required": ">=6.4.4"
                                 },
                                 {
@@ -10157,7 +10157,7 @@
                                                             "version_required": ">=0.31.0"
                                                         }
                                                     ],
-                                                    "version_installed": "2023.11.2",
+                                                    "version_installed": "2023.12.1",
                                                     "version_required": ">=2023.03.6"
                                                 },
                                                 {
@@ -10205,7 +10205,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1"
+                                            "version_installed": "5.7.0"
                                         },
                                         {
                                             "package_name": "traitlets",
@@ -10274,7 +10274,7 @@
                                     "version_installed": "1.7.0"
                                 }
                             ],
-                            "version_installed": "2.12.1",
+                            "version_installed": "2.12.2",
                             "version_required": ">=1.1.2"
                         }
                     ],
@@ -10357,7 +10357,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1",
+                                    "version_installed": "5.7.0",
                                     "version_required": ">=4.12,!=5.0.*"
                                 },
                                 {
@@ -10410,7 +10410,7 @@
                                     "version_required": ">=5.3"
                                 }
                             ],
-                            "version_installed": "5.5.1",
+                            "version_installed": "5.7.0",
                             "version_required": ">=4.12,!=5.0.*"
                         },
                         {
@@ -10445,7 +10445,7 @@
                                                     "version_required": ">=0.31.0"
                                                 }
                                             ],
-                                            "version_installed": "2023.11.2",
+                                            "version_installed": "2023.12.1",
                                             "version_required": ">=2023.03.6"
                                         },
                                         {
@@ -10550,7 +10550,7 @@
                                     "version_required": ">=0.8.3"
                                 }
                             ],
-                            "version_installed": "0.5.0"
+                            "version_installed": "0.5.1"
                         },
                         {
                             "package_name": "nbconvert",
@@ -10617,7 +10617,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1",
+                                    "version_installed": "5.7.0",
                                     "version_required": ">=4.7"
                                 },
                                 {
@@ -10659,7 +10659,7 @@
                                                             "version_required": ">=5.3"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.1",
+                                                    "version_installed": "5.7.0",
                                                     "version_required": ">=4.12,!=5.0.*"
                                                 },
                                                 {
@@ -10712,7 +10712,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1",
+                                            "version_installed": "5.7.0",
                                             "version_required": ">=4.12,!=5.0.*"
                                         },
                                         {
@@ -10751,7 +10751,7 @@
                                                                     "version_required": ">=0.31.0"
                                                                 }
                                                             ],
-                                                            "version_installed": "2023.11.2",
+                                                            "version_installed": "2023.12.1",
                                                             "version_required": ">=2023.03.6"
                                                         },
                                                         {
@@ -10799,7 +10799,7 @@
                                                             "version_required": ">=5.3"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.1"
+                                                    "version_installed": "5.7.0"
                                                 },
                                                 {
                                                     "package_name": "traitlets",
@@ -10855,7 +10855,7 @@
                                                             "version_required": ">=0.31.0"
                                                         }
                                                     ],
-                                                    "version_installed": "2023.11.2",
+                                                    "version_installed": "2023.12.1",
                                                     "version_required": ">=2023.03.6"
                                                 },
                                                 {
@@ -10903,7 +10903,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1"
+                                            "version_installed": "5.7.0"
                                         },
                                         {
                                             "package_name": "traitlets",
@@ -10945,7 +10945,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "7.13.1",
+                            "version_installed": "7.14.0",
                             "version_required": ">=6.4.4"
                         },
                         {
@@ -10984,7 +10984,7 @@
                                                     "version_required": ">=0.31.0"
                                                 }
                                             ],
-                                            "version_installed": "2023.11.2",
+                                            "version_installed": "2023.12.1",
                                             "version_required": ">=2023.03.6"
                                         },
                                         {
@@ -11032,7 +11032,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1"
+                                    "version_installed": "5.7.0"
                                 },
                                 {
                                     "package_name": "traitlets",
@@ -11101,7 +11101,7 @@
                             "version_installed": "1.7.0"
                         }
                     ],
-                    "version_installed": "2.12.1",
+                    "version_installed": "2.12.2",
                     "version_required": ">=2.4.0,<3"
                 },
                 {
@@ -11158,7 +11158,7 @@
                                             "version_required": ">=0.31.0"
                                         }
                                     ],
-                                    "version_installed": "2023.11.2",
+                                    "version_installed": "2023.12.1",
                                     "version_required": ">=2023.03.6"
                                 },
                                 {
@@ -11263,7 +11263,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1",
+                                            "version_installed": "5.7.0",
                                             "version_required": ">=4.12,!=5.0.*"
                                         },
                                         {
@@ -11316,7 +11316,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1",
+                                    "version_installed": "5.7.0",
                                     "version_required": ">=4.12,!=5.0.*"
                                 },
                                 {
@@ -11351,7 +11351,7 @@
                                                             "version_required": ">=0.31.0"
                                                         }
                                                     ],
-                                                    "version_installed": "2023.11.2",
+                                                    "version_installed": "2023.12.1",
                                                     "version_required": ">=2023.03.6"
                                                 },
                                                 {
@@ -11456,7 +11456,7 @@
                                             "version_required": ">=0.8.3"
                                         }
                                     ],
-                                    "version_installed": "0.5.0"
+                                    "version_installed": "0.5.1"
                                 },
                                 {
                                     "package_name": "nbconvert",
@@ -11523,7 +11523,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1",
+                                            "version_installed": "5.7.0",
                                             "version_required": ">=4.7"
                                         },
                                         {
@@ -11565,7 +11565,7 @@
                                                                     "version_required": ">=5.3"
                                                                 }
                                                             ],
-                                                            "version_installed": "5.5.1",
+                                                            "version_installed": "5.7.0",
                                                             "version_required": ">=4.12,!=5.0.*"
                                                         },
                                                         {
@@ -11618,7 +11618,7 @@
                                                             "version_required": ">=5.3"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.1",
+                                                    "version_installed": "5.7.0",
                                                     "version_required": ">=4.12,!=5.0.*"
                                                 },
                                                 {
@@ -11657,7 +11657,7 @@
                                                                             "version_required": ">=0.31.0"
                                                                         }
                                                                     ],
-                                                                    "version_installed": "2023.11.2",
+                                                                    "version_installed": "2023.12.1",
                                                                     "version_required": ">=2023.03.6"
                                                                 },
                                                                 {
@@ -11705,7 +11705,7 @@
                                                                     "version_required": ">=5.3"
                                                                 }
                                                             ],
-                                                            "version_installed": "5.5.1"
+                                                            "version_installed": "5.7.0"
                                                         },
                                                         {
                                                             "package_name": "traitlets",
@@ -11761,7 +11761,7 @@
                                                                     "version_required": ">=0.31.0"
                                                                 }
                                                             ],
-                                                            "version_installed": "2023.11.2",
+                                                            "version_installed": "2023.12.1",
                                                             "version_required": ">=2023.03.6"
                                                         },
                                                         {
@@ -11809,7 +11809,7 @@
                                                             "version_required": ">=5.3"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.1"
+                                                    "version_installed": "5.7.0"
                                                 },
                                                 {
                                                     "package_name": "traitlets",
@@ -11851,7 +11851,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "7.13.1",
+                                    "version_installed": "7.14.0",
                                     "version_required": ">=6.4.4"
                                 },
                                 {
@@ -11890,7 +11890,7 @@
                                                             "version_required": ">=0.31.0"
                                                         }
                                                     ],
-                                                    "version_installed": "2023.11.2",
+                                                    "version_installed": "2023.12.1",
                                                     "version_required": ">=2023.03.6"
                                                 },
                                                 {
@@ -11938,7 +11938,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1"
+                                            "version_installed": "5.7.0"
                                         },
                                         {
                                             "package_name": "traitlets",
@@ -12007,7 +12007,7 @@
                                     "version_installed": "1.7.0"
                                 }
                             ],
-                            "version_installed": "2.12.1",
+                            "version_installed": "2.12.2",
                             "version_required": ">=1.21,<3"
                         },
                         {
@@ -12125,7 +12125,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1",
+                                            "version_installed": "5.7.0",
                                             "version_required": ">=4.12,!=5.0.*"
                                         },
                                         {
@@ -12178,7 +12178,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1",
+                                    "version_installed": "5.7.0",
                                     "version_required": ">=4.12,!=5.0.*"
                                 },
                                 {
@@ -12213,7 +12213,7 @@
                                                             "version_required": ">=0.31.0"
                                                         }
                                                     ],
-                                                    "version_installed": "2023.11.2",
+                                                    "version_installed": "2023.12.1",
                                                     "version_required": ">=2023.03.6"
                                                 },
                                                 {
@@ -12318,7 +12318,7 @@
                                             "version_required": ">=0.8.3"
                                         }
                                     ],
-                                    "version_installed": "0.5.0"
+                                    "version_installed": "0.5.1"
                                 },
                                 {
                                     "package_name": "nbconvert",
@@ -12385,7 +12385,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1",
+                                            "version_installed": "5.7.0",
                                             "version_required": ">=4.7"
                                         },
                                         {
@@ -12427,7 +12427,7 @@
                                                                     "version_required": ">=5.3"
                                                                 }
                                                             ],
-                                                            "version_installed": "5.5.1",
+                                                            "version_installed": "5.7.0",
                                                             "version_required": ">=4.12,!=5.0.*"
                                                         },
                                                         {
@@ -12480,7 +12480,7 @@
                                                             "version_required": ">=5.3"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.1",
+                                                    "version_installed": "5.7.0",
                                                     "version_required": ">=4.12,!=5.0.*"
                                                 },
                                                 {
@@ -12519,7 +12519,7 @@
                                                                             "version_required": ">=0.31.0"
                                                                         }
                                                                     ],
-                                                                    "version_installed": "2023.11.2",
+                                                                    "version_installed": "2023.12.1",
                                                                     "version_required": ">=2023.03.6"
                                                                 },
                                                                 {
@@ -12567,7 +12567,7 @@
                                                                     "version_required": ">=5.3"
                                                                 }
                                                             ],
-                                                            "version_installed": "5.5.1"
+                                                            "version_installed": "5.7.0"
                                                         },
                                                         {
                                                             "package_name": "traitlets",
@@ -12623,7 +12623,7 @@
                                                                     "version_required": ">=0.31.0"
                                                                 }
                                                             ],
-                                                            "version_installed": "2023.11.2",
+                                                            "version_installed": "2023.12.1",
                                                             "version_required": ">=2023.03.6"
                                                         },
                                                         {
@@ -12671,7 +12671,7 @@
                                                             "version_required": ">=5.3"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.1"
+                                                    "version_installed": "5.7.0"
                                                 },
                                                 {
                                                     "package_name": "traitlets",
@@ -12713,7 +12713,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "7.13.1",
+                                    "version_installed": "7.14.0",
                                     "version_required": ">=6.4.4"
                                 },
                                 {
@@ -12752,7 +12752,7 @@
                                                             "version_required": ">=0.31.0"
                                                         }
                                                     ],
-                                                    "version_installed": "2023.11.2",
+                                                    "version_installed": "2023.12.1",
                                                     "version_required": ">=2023.03.6"
                                                 },
                                                 {
@@ -12800,7 +12800,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1"
+                                            "version_installed": "5.7.0"
                                         },
                                         {
                                             "package_name": "traitlets",
@@ -12869,7 +12869,7 @@
                                     "version_installed": "1.7.0"
                                 }
                             ],
-                            "version_installed": "2.12.1",
+                            "version_installed": "2.12.2",
                             "version_required": ">=1.8,<3"
                         }
                     ],
@@ -12891,14 +12891,14 @@
                 }
             ],
             "summary": "JupyterLab computational environment",
-            "version_installed": "4.0.9",
-            "version_required": "4.0.9"
+            "version_installed": "4.0.10",
+            "version_required": "4.0.10"
         },
         "jupyterlab-pygments": {
             "level": 1,
             "package_name": "jupyterlab-pygments",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.3.0",
                 "0.2.2",
@@ -12919,7 +12919,7 @@
             "level": 9,
             "package_name": "jupyterlab-server",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.25.2",
                 "2.25.1",
@@ -13017,7 +13017,7 @@
                                     "version_required": ">=0.31.0"
                                 }
                             ],
-                            "version_installed": "2023.11.2",
+                            "version_installed": "2023.12.1",
                             "version_required": ">=2023.03.6"
                         },
                         {
@@ -13122,7 +13122,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1",
+                                    "version_installed": "5.7.0",
                                     "version_required": ">=4.12,!=5.0.*"
                                 },
                                 {
@@ -13175,7 +13175,7 @@
                                     "version_required": ">=5.3"
                                 }
                             ],
-                            "version_installed": "5.5.1",
+                            "version_installed": "5.7.0",
                             "version_required": ">=4.12,!=5.0.*"
                         },
                         {
@@ -13210,7 +13210,7 @@
                                                     "version_required": ">=0.31.0"
                                                 }
                                             ],
-                                            "version_installed": "2023.11.2",
+                                            "version_installed": "2023.12.1",
                                             "version_required": ">=2023.03.6"
                                         },
                                         {
@@ -13315,7 +13315,7 @@
                                     "version_required": ">=0.8.3"
                                 }
                             ],
-                            "version_installed": "0.5.0"
+                            "version_installed": "0.5.1"
                         },
                         {
                             "package_name": "nbconvert",
@@ -13382,7 +13382,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1",
+                                    "version_installed": "5.7.0",
                                     "version_required": ">=4.7"
                                 },
                                 {
@@ -13424,7 +13424,7 @@
                                                             "version_required": ">=5.3"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.1",
+                                                    "version_installed": "5.7.0",
                                                     "version_required": ">=4.12,!=5.0.*"
                                                 },
                                                 {
@@ -13477,7 +13477,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1",
+                                            "version_installed": "5.7.0",
                                             "version_required": ">=4.12,!=5.0.*"
                                         },
                                         {
@@ -13516,7 +13516,7 @@
                                                                     "version_required": ">=0.31.0"
                                                                 }
                                                             ],
-                                                            "version_installed": "2023.11.2",
+                                                            "version_installed": "2023.12.1",
                                                             "version_required": ">=2023.03.6"
                                                         },
                                                         {
@@ -13564,7 +13564,7 @@
                                                             "version_required": ">=5.3"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.1"
+                                                    "version_installed": "5.7.0"
                                                 },
                                                 {
                                                     "package_name": "traitlets",
@@ -13620,7 +13620,7 @@
                                                             "version_required": ">=0.31.0"
                                                         }
                                                     ],
-                                                    "version_installed": "2023.11.2",
+                                                    "version_installed": "2023.12.1",
                                                     "version_required": ">=2023.03.6"
                                                 },
                                                 {
@@ -13668,7 +13668,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1"
+                                            "version_installed": "5.7.0"
                                         },
                                         {
                                             "package_name": "traitlets",
@@ -13710,7 +13710,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "7.13.1",
+                            "version_installed": "7.14.0",
                             "version_required": ">=6.4.4"
                         },
                         {
@@ -13749,7 +13749,7 @@
                                                     "version_required": ">=0.31.0"
                                                 }
                                             ],
-                                            "version_installed": "2023.11.2",
+                                            "version_installed": "2023.12.1",
                                             "version_required": ">=2023.03.6"
                                         },
                                         {
@@ -13797,7 +13797,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1"
+                                    "version_installed": "5.7.0"
                                 },
                                 {
                                     "package_name": "traitlets",
@@ -13866,7 +13866,7 @@
                             "version_installed": "1.7.0"
                         }
                     ],
-                    "version_installed": "2.12.1",
+                    "version_installed": "2.12.2",
                     "version_required": ">=1.21,<3"
                 },
                 {
@@ -13910,7 +13910,7 @@
             "level": 1,
             "package_name": "kiwisolver",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.4.5",
                 "1.4.4",
@@ -13941,7 +13941,7 @@
             "level": 1,
             "package_name": "lazy-loader",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.3",
                 "0.3rc0",
@@ -13963,7 +13963,7 @@
             "level": 1,
             "package_name": "Markdown",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.5.1",
                 "3.5",
@@ -14014,7 +14014,7 @@
             "level": 2,
             "package_name": "markdown-it-py",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.0.0",
                 "2.2.0",
@@ -14075,7 +14075,7 @@
             "level": 1,
             "package_name": "MarkupSafe",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.1.3",
                 "2.1.2",
@@ -14115,7 +14115,7 @@
             "level": 3,
             "package_name": "matplotlib",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.8.2",
                 "3.8.1",
@@ -14227,7 +14227,7 @@
             "level": 2,
             "package_name": "matplotlib-inline",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.1.6",
                 "0.1.5",
@@ -14255,7 +14255,7 @@
             "level": 1,
             "package_name": "mccabe",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.7.0",
                 "0.6.1",
@@ -14282,7 +14282,7 @@
             "level": 1,
             "package_name": "mdurl",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.1.2",
                 "0.1.1",
@@ -14300,7 +14300,7 @@
             "level": 1,
             "package_name": "mistune",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.0.2",
                 "3.0.1",
@@ -14354,7 +14354,7 @@
             "level": 2,
             "package_name": "mkl-fft",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.3.6",
                 "1.3.1",
@@ -14383,7 +14383,7 @@
             "level": 2,
             "package_name": "mkl-random",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.2.2",
                 "1.2.1",
@@ -14406,7 +14406,7 @@
             "level": 1,
             "package_name": "mkl-service",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.4.0",
                 "2.3.0"
@@ -14422,7 +14422,7 @@
             "level": 2,
             "package_name": "ml-dtypes",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.3.2",
                 "0.3.1",
@@ -14445,22 +14445,22 @@
                 {
                     "package_name": "numpy",
                     "version_installed": "1.26.3",
-                    "version_required": ">=1.23.3"
+                    "version_required": ">=1.21.2"
                 },
                 {
                     "package_name": "numpy",
                     "version_installed": "1.26.3",
-                    "version_required": ">=1.21.2"
+                    "version_required": ">=1.23.3"
                 }
             ],
-            "version_installed": "0.3.1",
-            "version_required": "0.3.1"
+            "version_installed": "0.3.2",
+            "version_required": "0.3.2"
         },
         "mpmath": {
             "level": 1,
             "package_name": "mpmath",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.3.0",
                 "1.2.1",
@@ -14497,7 +14497,7 @@
             "level": 1,
             "package_name": "multidict",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "6.0.4",
                 "6.0.3",
@@ -14552,7 +14552,7 @@
             "level": 6,
             "package_name": "nbclient",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.9.0",
                 "0.8.0",
@@ -14620,7 +14620,7 @@
                                     "version_required": ">=5.3"
                                 }
                             ],
-                            "version_installed": "5.5.1",
+                            "version_installed": "5.7.0",
                             "version_required": ">=4.12,!=5.0.*"
                         },
                         {
@@ -14673,7 +14673,7 @@
                             "version_required": ">=5.3"
                         }
                     ],
-                    "version_installed": "5.5.1",
+                    "version_installed": "5.7.0",
                     "version_required": ">=4.12,!=5.0.*"
                 },
                 {
@@ -14712,7 +14712,7 @@
                                             "version_required": ">=0.31.0"
                                         }
                                     ],
-                                    "version_installed": "2023.11.2",
+                                    "version_installed": "2023.12.1",
                                     "version_required": ">=2023.03.6"
                                 },
                                 {
@@ -14760,7 +14760,7 @@
                                     "version_required": ">=5.3"
                                 }
                             ],
-                            "version_installed": "5.5.1"
+                            "version_installed": "5.7.0"
                         },
                         {
                             "package_name": "traitlets",
@@ -14785,7 +14785,7 @@
             "level": 7,
             "package_name": "nbconvert",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "7.14.0",
                 "7.13.1",
@@ -14894,7 +14894,7 @@
                             "version_required": ">=5.3"
                         }
                     ],
-                    "version_installed": "5.5.1",
+                    "version_installed": "5.7.0",
                     "version_required": ">=4.7"
                 },
                 {
@@ -14936,7 +14936,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1",
+                                    "version_installed": "5.7.0",
                                     "version_required": ">=4.12,!=5.0.*"
                                 },
                                 {
@@ -14989,7 +14989,7 @@
                                     "version_required": ">=5.3"
                                 }
                             ],
-                            "version_installed": "5.5.1",
+                            "version_installed": "5.7.0",
                             "version_required": ">=4.12,!=5.0.*"
                         },
                         {
@@ -15028,7 +15028,7 @@
                                                     "version_required": ">=0.31.0"
                                                 }
                                             ],
-                                            "version_installed": "2023.11.2",
+                                            "version_installed": "2023.12.1",
                                             "version_required": ">=2023.03.6"
                                         },
                                         {
@@ -15076,7 +15076,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1"
+                                    "version_installed": "5.7.0"
                                 },
                                 {
                                     "package_name": "traitlets",
@@ -15132,7 +15132,7 @@
                                             "version_required": ">=0.31.0"
                                         }
                                     ],
-                                    "version_installed": "2023.11.2",
+                                    "version_installed": "2023.12.1",
                                     "version_required": ">=2023.03.6"
                                 },
                                 {
@@ -15180,7 +15180,7 @@
                                     "version_required": ">=5.3"
                                 }
                             ],
-                            "version_installed": "5.5.1"
+                            "version_installed": "5.7.0"
                         },
                         {
                             "package_name": "traitlets",
@@ -15223,14 +15223,14 @@
                 }
             ],
             "summary": "Converting Jupyter Notebooks",
-            "version_installed": "7.13.1",
-            "version_required": "7.13.1"
+            "version_installed": "7.14.0",
+            "version_required": "7.14.0"
         },
         "nbformat": {
             "level": 5,
             "package_name": "nbformat",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "5.9.2",
                 "5.9.1",
@@ -15308,7 +15308,7 @@
                                     "version_required": ">=0.31.0"
                                 }
                             ],
-                            "version_installed": "2023.11.2",
+                            "version_installed": "2023.12.1",
                             "version_required": ">=2023.03.6"
                         },
                         {
@@ -15356,7 +15356,7 @@
                             "version_required": ">=5.3"
                         }
                     ],
-                    "version_installed": "5.5.1"
+                    "version_installed": "5.7.0"
                 },
                 {
                     "package_name": "traitlets",
@@ -15372,7 +15372,7 @@
             "level": 1,
             "package_name": "nest-asyncio",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.5.8",
                 "1.5.7",
@@ -15420,7 +15420,7 @@
             "level": 1,
             "package_name": "networkx",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.2.1",
                 "3.2",
@@ -15475,7 +15475,7 @@
             "level": 9,
             "package_name": "notebook-shim",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.2.3",
                 "0.2.2",
@@ -15567,7 +15567,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1",
+                                    "version_installed": "5.7.0",
                                     "version_required": ">=4.12,!=5.0.*"
                                 },
                                 {
@@ -15620,7 +15620,7 @@
                                     "version_required": ">=5.3"
                                 }
                             ],
-                            "version_installed": "5.5.1",
+                            "version_installed": "5.7.0",
                             "version_required": ">=4.12,!=5.0.*"
                         },
                         {
@@ -15655,7 +15655,7 @@
                                                     "version_required": ">=0.31.0"
                                                 }
                                             ],
-                                            "version_installed": "2023.11.2",
+                                            "version_installed": "2023.12.1",
                                             "version_required": ">=2023.03.6"
                                         },
                                         {
@@ -15760,7 +15760,7 @@
                                     "version_required": ">=0.8.3"
                                 }
                             ],
-                            "version_installed": "0.5.0"
+                            "version_installed": "0.5.1"
                         },
                         {
                             "package_name": "nbconvert",
@@ -15827,7 +15827,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1",
+                                    "version_installed": "5.7.0",
                                     "version_required": ">=4.7"
                                 },
                                 {
@@ -15869,7 +15869,7 @@
                                                             "version_required": ">=5.3"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.1",
+                                                    "version_installed": "5.7.0",
                                                     "version_required": ">=4.12,!=5.0.*"
                                                 },
                                                 {
@@ -15922,7 +15922,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1",
+                                            "version_installed": "5.7.0",
                                             "version_required": ">=4.12,!=5.0.*"
                                         },
                                         {
@@ -15961,7 +15961,7 @@
                                                                     "version_required": ">=0.31.0"
                                                                 }
                                                             ],
-                                                            "version_installed": "2023.11.2",
+                                                            "version_installed": "2023.12.1",
                                                             "version_required": ">=2023.03.6"
                                                         },
                                                         {
@@ -16009,7 +16009,7 @@
                                                             "version_required": ">=5.3"
                                                         }
                                                     ],
-                                                    "version_installed": "5.5.1"
+                                                    "version_installed": "5.7.0"
                                                 },
                                                 {
                                                     "package_name": "traitlets",
@@ -16065,7 +16065,7 @@
                                                             "version_required": ">=0.31.0"
                                                         }
                                                     ],
-                                                    "version_installed": "2023.11.2",
+                                                    "version_installed": "2023.12.1",
                                                     "version_required": ">=2023.03.6"
                                                 },
                                                 {
@@ -16113,7 +16113,7 @@
                                                     "version_required": ">=5.3"
                                                 }
                                             ],
-                                            "version_installed": "5.5.1"
+                                            "version_installed": "5.7.0"
                                         },
                                         {
                                             "package_name": "traitlets",
@@ -16155,7 +16155,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "7.13.1",
+                            "version_installed": "7.14.0",
                             "version_required": ">=6.4.4"
                         },
                         {
@@ -16194,7 +16194,7 @@
                                                     "version_required": ">=0.31.0"
                                                 }
                                             ],
-                                            "version_installed": "2023.11.2",
+                                            "version_installed": "2023.12.1",
                                             "version_required": ">=2023.03.6"
                                         },
                                         {
@@ -16242,7 +16242,7 @@
                                             "version_required": ">=5.3"
                                         }
                                     ],
-                                    "version_installed": "5.5.1"
+                                    "version_installed": "5.7.0"
                                 },
                                 {
                                     "package_name": "traitlets",
@@ -16311,7 +16311,7 @@
                             "version_installed": "1.7.0"
                         }
                     ],
-                    "version_installed": "2.12.1",
+                    "version_installed": "2.12.2",
                     "version_required": ">=1.8,<3"
                 }
             ],
@@ -16323,7 +16323,7 @@
             "level": 1,
             "package_name": "numpy",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.26.3",
                 "1.26.2",
@@ -16401,7 +16401,7 @@
             "level": 1,
             "package_name": "oauthlib",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.2.2",
                 "3.2.1",
@@ -16455,7 +16455,7 @@
             "level": 2,
             "package_name": "opencv-contrib-python",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "4.9.0.80",
                 "4.8.1.78",
@@ -16526,14 +16526,14 @@
                 }
             ],
             "summary": "Wrapper package for OpenCV python bindings",
-            "version_installed": "4.8.1.78",
-            "version_required": "4.8.1.78"
+            "version_installed": "4.9.0.80",
+            "version_required": "4.9.0.80"
         },
         "opencv-python": {
             "level": 2,
             "package_name": "opencv-python",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "4.9.0.80",
                 "4.8.1.78",
@@ -16604,14 +16604,14 @@
                 }
             ],
             "summary": "Wrapper package for OpenCV python bindings",
-            "version_installed": "4.8.1.78",
-            "version_required": "4.8.1.78"
+            "version_installed": "4.9.0.80",
+            "version_required": "4.9.0.80"
         },
         "opencv-python-headless": {
             "level": 2,
             "package_name": "opencv-python-headless",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "4.9.0.80",
                 "4.8.1.78",
@@ -16686,14 +16686,14 @@
                 }
             ],
             "summary": "Wrapper package for OpenCV python bindings",
-            "version_installed": "4.8.1.78",
-            "version_required": "4.8.1.78"
+            "version_installed": "4.9.0.80",
+            "version_required": "4.9.0.80"
         },
         "overrides": {
             "level": 1,
             "package_name": "overrides",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "7.4.0",
                 "7.3.1",
@@ -16747,7 +16747,7 @@
             "level": 1,
             "package_name": "packaging",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "23.2",
                 "23.1",
@@ -16812,7 +16812,7 @@
             "level": 3,
             "package_name": "pandas",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.2.0rc0",
                 "2.1.4",
@@ -16897,7 +16897,7 @@
             "level": 1,
             "package_name": "pandocfilters",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.5.0",
                 "1.4.3",
@@ -16926,7 +16926,7 @@
             "level": 1,
             "package_name": "parso",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.8.3",
                 "0.8.2",
@@ -16966,7 +16966,7 @@
             "level": 1,
             "package_name": "persist-queue",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.8.1",
                 "0.8.0",
@@ -17006,7 +17006,7 @@
             "level": 1,
             "package_name": "pickleshare",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.7.5",
                 "0.7.4",
@@ -17029,7 +17029,7 @@
             "level": 1,
             "package_name": "pillow",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "10.2.0",
                 "10.1.0",
@@ -17088,7 +17088,7 @@
             "level": 1,
             "package_name": "pip",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "23.3.2",
                 "23.3.1",
@@ -17139,7 +17139,7 @@
             "level": 4,
             "package_name": "pipreqs",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.4.13",
                 "0.4.12",
@@ -17228,7 +17228,7 @@
             "level": 1,
             "package_name": "platformdirs",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "4.1.0",
                 "4.0.0",
@@ -17280,7 +17280,7 @@
             "level": 1,
             "package_name": "pluggy",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.3.0",
                 "1.2.0",
@@ -17315,7 +17315,7 @@
             "level": 1,
             "package_name": "prometheus-client",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.19.0",
                 "0.18.0",
@@ -17369,7 +17369,7 @@
             "level": 2,
             "package_name": "prompt-toolkit",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.0.43",
                 "3.0.42",
@@ -17429,7 +17429,7 @@
             "level": 2,
             "package_name": "proto-plus",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.23.0",
                 "1.23.0rc2",
@@ -17491,7 +17491,7 @@
             "level": 1,
             "package_name": "protobuf",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "4.25.1",
                 "4.25.0",
@@ -17551,7 +17551,7 @@
             "level": 1,
             "package_name": "psutil",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "5.9.7",
                 "5.9.6",
@@ -17605,7 +17605,7 @@
             "level": 1,
             "package_name": "pure-eval",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.2.2",
                 "0.2.1",
@@ -17627,7 +17627,7 @@
             "level": 2,
             "package_name": "pyarrow",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "14.0.2",
                 "14.0.1",
@@ -17688,7 +17688,7 @@
             "level": 1,
             "package_name": "pyasn1",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.5.1",
                 "0.5.0",
@@ -17740,7 +17740,7 @@
             "level": 2,
             "package_name": "pyasn1-modules",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.3.0",
                 "0.2.8",
@@ -17785,7 +17785,7 @@
             "level": 1,
             "package_name": "pycairo",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.25.1",
                 "1.25.0",
@@ -17835,7 +17835,7 @@
             "level": 1,
             "package_name": "pycodestyle",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.11.1",
                 "2.11.0",
@@ -17868,7 +17868,7 @@
             "level": 1,
             "package_name": "pycparser",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.21",
                 "2.20",
@@ -17903,7 +17903,7 @@
             "level": 3,
             "package_name": "pydeck",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.8.1b0",
                 "0.8.0",
@@ -17968,7 +17968,7 @@
             "level": 1,
             "package_name": "pyflakes",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.1.0",
                 "3.0.1",
@@ -18019,7 +18019,7 @@
             "level": 1,
             "package_name": "pygments",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.17.2",
                 "2.17.1",
@@ -18075,7 +18075,7 @@
             "level": 1,
             "package_name": "Pympler",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.0.1",
                 "1.0",
@@ -18103,7 +18103,7 @@
             "level": 4,
             "package_name": "pyOpenSSL",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "23.3.0",
                 "23.2.0",
@@ -18168,7 +18168,7 @@
             "level": 1,
             "package_name": "pyparsing",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.1.1",
                 "3.1.0",
@@ -18222,7 +18222,7 @@
             "level": 1,
             "package_name": "pypng",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.20220715.0",
                 "0.0.21",
@@ -18258,7 +18258,7 @@
             "level": 1,
             "package_name": "pyrsistent",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.20.0",
                 "0.19.3",
@@ -18309,7 +18309,7 @@
             "level": 1,
             "package_name": "PySocks",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.7.1",
                 "1.7.0",
@@ -18339,7 +18339,7 @@
             "level": 2,
             "package_name": "pytest",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "8.0.0rc1",
                 "7.4.4",
@@ -18402,14 +18402,14 @@
                 }
             ],
             "summary": "pytest: simple powerful testing with Python",
-            "version_installed": "7.4.3",
-            "version_required": "7.4.3"
+            "version_installed": "7.4.4",
+            "version_required": "7.4.4"
         },
         "python-dateutil": {
             "level": 2,
             "package_name": "python-dateutil",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.8.2",
                 "2.8.1",
@@ -18468,7 +18468,7 @@
             "level": 1,
             "package_name": "python-json-logger",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.0.7",
                 "2.0.6",
@@ -18509,7 +18509,7 @@
             "level": 1,
             "package_name": "pytz",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2023.3.post1",
                 "2023.3",
@@ -18563,7 +18563,7 @@
             "level": 2,
             "package_name": "pytz-deprecation-shim",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.1.0.post0",
                 "0.1.0"
@@ -18582,7 +18582,7 @@
             "level": 2,
             "package_name": "pywavelets",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.5.0",
                 "1.4.1",
@@ -18622,7 +18622,7 @@
             "level": 1,
             "package_name": "pywin32",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "306",
                 "305",
@@ -18653,7 +18653,7 @@
             "level": 1,
             "package_name": "pywinpty",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.0.12",
                 "2.0.11",
@@ -18708,7 +18708,7 @@
             "level": 1,
             "package_name": "PyYAML",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "6.0.1",
                 "6.0",
@@ -18756,7 +18756,7 @@
             "level": 1,
             "package_name": "pyzbar",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.1.9",
                 "0.1.8",
@@ -18776,7 +18776,7 @@
             "level": 1,
             "package_name": "pyzmq",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "25.1.2",
                 "25.1.1",
@@ -18832,7 +18832,7 @@
             "level": 2,
             "package_name": "qrcode",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "7.4.2",
                 "7.4.1",
@@ -18893,7 +18893,7 @@
             "level": 4,
             "package_name": "qudida",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.0.4",
                 "0.0.3",
@@ -18937,7 +18937,7 @@
                             "version_required": ">=1.19.3"
                         }
                     ],
-                    "version_installed": "4.8.1.78",
+                    "version_installed": "4.9.0.80",
                     "version_required": ">=4.0.1"
                 },
                 {
@@ -18987,7 +18987,7 @@
             "level": 2,
             "package_name": "referencing",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.32.0",
                 "0.31.1",
@@ -19055,7 +19055,7 @@
             "level": 2,
             "package_name": "requests",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.31.0",
                 "2.30.0",
@@ -19139,7 +19139,7 @@
             "level": 3,
             "package_name": "requests-oauthlib",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.3.1",
                 "1.3.0",
@@ -19206,7 +19206,7 @@
             "level": 2,
             "package_name": "rfc3339-validator",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.1.4",
                 "0.1.3",
@@ -19231,7 +19231,7 @@
             "level": 1,
             "package_name": "rfc3986-validator",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.1.1",
                 "0.1.0"
@@ -19247,7 +19247,7 @@
             "level": 3,
             "package_name": "rich",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "13.7.0",
                 "13.6.0",
@@ -19320,7 +19320,7 @@
             "level": 1,
             "package_name": "rpds-py",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.16.2",
                 "0.16.1",
@@ -19375,7 +19375,7 @@
             "level": 2,
             "package_name": "rsa",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "4.9",
                 "4.8",
@@ -19432,7 +19432,7 @@
             "level": 1,
             "package_name": "ruff",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.1.11",
                 "0.1.10",
@@ -19483,7 +19483,7 @@
             "level": 5,
             "package_name": "s3fs",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2023.12.2",
                 "2023.12.1",
@@ -19689,7 +19689,7 @@
             "level": 3,
             "package_name": "scikit-image",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.22.0",
                 "0.22.0rc1",
@@ -19809,7 +19809,7 @@
             "level": 3,
             "package_name": "scikit-learn",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.4.0rc1",
                 "1.3.2",
@@ -19892,7 +19892,7 @@
             "level": 2,
             "package_name": "scipy",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.12.0rc1",
                 "1.11.4",
@@ -19955,7 +19955,7 @@
             "level": 1,
             "package_name": "segment-anything",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.0"
             ],
@@ -19966,7 +19966,7 @@
             "level": 1,
             "package_name": "Send2Trash",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.8.2",
                 "1.8.1b0",
@@ -19995,7 +19995,7 @@
             "level": 1,
             "package_name": "setuptools",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "69.0.3",
                 "69.0.2",
@@ -20046,7 +20046,7 @@
             "level": 2,
             "package_name": "shapely",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.0.2",
                 "2.0.1",
@@ -20107,7 +20107,7 @@
             "level": 1,
             "package_name": "shiboken6",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "6.6.1",
                 "6.6.0",
@@ -20150,7 +20150,7 @@
             "level": 1,
             "package_name": "six",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.16.0",
                 "1.15.0",
@@ -20197,7 +20197,7 @@
             "level": 1,
             "package_name": "smmap",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "6.0.0",
                 "5.0.1",
@@ -20227,7 +20227,7 @@
             "level": 1,
             "package_name": "sniffio",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.3.0",
                 "1.2.0",
@@ -20246,7 +20246,7 @@
             "level": 1,
             "package_name": "soupsieve",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.5",
                 "2.4.1",
@@ -20300,7 +20300,7 @@
             "level": 3,
             "package_name": "stack-data",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.6.3",
                 "0.6.2",
@@ -20358,7 +20358,7 @@
             "level": 6,
             "package_name": "streamlit",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.29.0",
                 "1.28.2",
@@ -20445,7 +20445,7 @@
                                             "version_required": ">=0.31.0"
                                         }
                                     ],
-                                    "version_installed": "2023.11.2",
+                                    "version_installed": "2023.12.1",
                                     "version_required": ">=2023.03.6"
                                 },
                                 {
@@ -20779,7 +20779,7 @@
             "level": 2,
             "package_name": "sympy",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.9rc1",
                 "1.9",
@@ -20840,7 +20840,7 @@
             "level": 1,
             "package_name": "tenacity",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "8.2.3",
                 "8.2.2",
@@ -20894,7 +20894,7 @@
             "level": 1,
             "package_name": "tensorboard-data-server",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.7.2",
                 "0.7.1",
@@ -20915,7 +20915,7 @@
             "level": 1,
             "package_name": "tensorflow-estimator",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.15.0",
                 "2.15.0rc0",
@@ -20966,7 +20966,7 @@
             "level": 1,
             "package_name": "termcolor",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.4.0",
                 "2.3.0",
@@ -20991,7 +20991,7 @@
             "level": 2,
             "package_name": "terminado",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.18.0",
                 "0.17.1",
@@ -21053,7 +21053,7 @@
             "level": 1,
             "package_name": "threadpoolctl",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.2.0",
                 "3.1.0",
@@ -21075,7 +21075,7 @@
             "level": 2,
             "package_name": "tifffile",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2023.12.9",
                 "2023.9.26",
@@ -21135,7 +21135,7 @@
             "level": 2,
             "package_name": "tinycss2",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.2.1",
                 "1.2.0",
@@ -21170,7 +21170,7 @@
             "level": 1,
             "package_name": "tinyflux",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.4.1",
                 "0.4.0",
@@ -21194,7 +21194,7 @@
             "level": 1,
             "package_name": "toml",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.10.2",
                 "0.10.1",
@@ -21224,7 +21224,7 @@
             "level": 1,
             "package_name": "tomli",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.0.1",
                 "2.0.0",
@@ -21258,7 +21258,7 @@
             "level": 1,
             "package_name": "toolz",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.12.0",
                 "0.11.2",
@@ -21298,7 +21298,7 @@
             "level": 3,
             "package_name": "torch",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.1.2",
                 "2.1.1",
@@ -21385,7 +21385,7 @@
             "level": 4,
             "package_name": "torchaudio",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.1.2",
                 "2.1.1",
@@ -21470,7 +21470,7 @@
             "level": 4,
             "package_name": "torchvision",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.16.2",
                 "0.16.1",
@@ -21603,7 +21603,7 @@
             "level": 1,
             "package_name": "tornado",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "6.4",
                 "6.4b1",
@@ -21662,7 +21662,7 @@
             "level": 1,
             "package_name": "traitlets",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "5.14.1",
                 "5.14.0",
@@ -21727,7 +21727,7 @@
             "level": 1,
             "package_name": "types-python-dateutil",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.8.19.14",
                 "2.8.19.13",
@@ -21781,7 +21781,7 @@
             "level": 1,
             "package_name": "typing-extensions",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "4.9.0",
                 "4.9.0rc1",
@@ -21829,7 +21829,7 @@
             "level": 1,
             "package_name": "tzdata",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2023.4",
                 "2023.3",
@@ -21873,7 +21873,7 @@
             "level": 2,
             "package_name": "tzlocal",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "5.2",
                 "5.1",
@@ -21933,7 +21933,7 @@
             "level": 1,
             "package_name": "uri-template",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.3.0",
                 "1.2.0",
@@ -21949,7 +21949,7 @@
             "level": 1,
             "package_name": "urllib3",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "2.1.0",
                 "2.0.7",
@@ -22004,7 +22004,7 @@
             "level": 1,
             "package_name": "validators",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.22.0",
                 "0.21.2",
@@ -22058,7 +22058,7 @@
             "level": 1,
             "package_name": "watchdog",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.0.0",
                 "2.3.1",
@@ -22112,7 +22112,7 @@
             "level": 1,
             "package_name": "wcwidth",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.2.12",
                 "0.2.11",
@@ -22150,7 +22150,7 @@
             "level": 1,
             "package_name": "webcolors",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.13",
                 "1.12",
@@ -22179,7 +22179,7 @@
             "level": 1,
             "package_name": "webencodings",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.5.1",
                 "0.5",
@@ -22200,7 +22200,7 @@
             "level": 1,
             "package_name": "websocket-client",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.7.0",
                 "1.6.4",
@@ -22254,7 +22254,7 @@
             "level": 2,
             "package_name": "werkzeug",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.0.1",
                 "3.0.0",
@@ -22315,7 +22315,7 @@
             "level": 1,
             "package_name": "wheel",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.42.0",
                 "0.41.3",
@@ -22369,7 +22369,7 @@
             "level": 1,
             "package_name": "win-inet-pton",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.1.0",
                 "1.0.1",
@@ -22383,7 +22383,7 @@
             "level": 1,
             "package_name": "wrapt",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.16.0",
                 "1.16.0rc2",
@@ -22437,7 +22437,7 @@
             "level": 1,
             "package_name": "XlsxWriter",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.1.9",
                 "3.1.8",
@@ -22488,7 +22488,7 @@
             "level": 3,
             "package_name": "yarg",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "0.1.9",
                 "0.1.8",
@@ -22539,7 +22539,7 @@
             "level": 2,
             "package_name": "yarl",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "1.9.4",
                 "1.9.3",
@@ -22605,7 +22605,7 @@
             "level": 1,
             "package_name": "zipp",
             "pypi_package": true,
-            "releases_checked_time": 1704396752,
+            "releases_checked_time": 1704403617,
             "releases_recent": [
                 "3.17.0",
                 "3.16.2",

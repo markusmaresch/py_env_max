@@ -1,4 +1,4 @@
-rem 2024-01-04T20:29:28.896014+00:00
+rem 2024-01-04T23:22:53.408289+00:00
 rem Level 3
 pip install "aiohttp>=3.8.5"
 pip install "argon2-cffi-bindings>=21.2.0"
@@ -142,6 +142,7 @@ pip install "uvicorn>=0.23.2"
 pip check
 pip install "xgboost>=1.7.6"
 pip install "yahoofinancials>=1.16"
+pip install "ypy-websocket>=0.12.4"
 pip check
 pip install "zarr>=2.16.0"
 pip check
