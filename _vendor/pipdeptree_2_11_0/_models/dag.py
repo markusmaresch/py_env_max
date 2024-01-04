@@ -40,18 +40,25 @@ class PackageDAG(Mapping[DistPackage, List[ReqPackage]]):
         dist_pkgs = [DistPackage(p) for p in pkgs]
         idx = {p.key: p for p in dist_pkgs}
         m: dict[DistPackage, list[ReqPackage]] = {}
+        good = True
         for p in dist_pkgs:
             reqs = []
-            for r in p.requires():
-                d = idx.get(r.key)
-                # pip's _vendor.packaging.requirements.Requirement uses the exact casing of a dependency's name found in
-                # a project's build config, which is not ideal when rendering.
-                # See https://github.com/tox-dev/pipdeptree/issues/242
-                r.project_name = d.project_name if d is not None else r.project_name
-                pkg = ReqPackage(r, d)
-                reqs.append(pkg)
-            m[p] = reqs
-
+            try:
+                for r in p.requires():
+                    d = idx.get(r.key)
+                    # pip's _vendor.packaging.requirements.Requirement uses the exact casing of a dependency's name found in
+                    # a project's build config, which is not ideal when rendering.
+                    # See https://github.com/tox-dev/pipdeptree/issues/242
+                    r.project_name = d.project_name if d is not None else r.project_name
+                    pkg = ReqPackage(r, d)
+                    reqs.append(pkg)
+                m[p] = reqs
+            except Exception as e:
+                print(f'from_pkgs: {p} {e}')
+                good = False
+        # for
+        if not good:
+            return None
         return cls(m)
 
     def __init__(self, m: dict[DistPackage, list[ReqPackage]]) -> None:

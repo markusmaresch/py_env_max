@@ -319,6 +319,8 @@ class EnvCmd:
     @staticmethod
     def env_packages_tree(db: Database, force: bool = False) -> bool:
         tree = PipCmd.get_tree_installed()
+        if tree is None:
+            return False
         conflicts = PipCmd.get_conflicts(tree, verbose=True)
         if len(conflicts) > 0:
             # could also indicate a broken environment
