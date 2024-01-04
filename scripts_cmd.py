@@ -20,10 +20,11 @@ class ScriptsCmd:
         packages = db.packages_get_names_all()
         list_name = f'{env_name}.txt'
         with open(list_name, 'w') as f:
-            for p in packages:
+            for p in sorted(packages):
                 f.write(f'{p}\n')
             # for
         # with
+        print('packages: {}'.format(list_name))
 
         script_extension = OsPlatform.script_extension()
         script_comment = OsPlatform.script_comment()
