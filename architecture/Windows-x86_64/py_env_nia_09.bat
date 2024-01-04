@@ -1,5 +1,8 @@
-rem 2023-12-28T14:33:24.622144+00:00
+rem 2024-01-04T20:23:26.976836+00:00
 rem Level 9
-pip install "jupyter-lsp>=2.2.1" "jupyterlab-server>=2.25.2" "notebook-shim>=0.2.3"
+pip install "jupyter-lsp>=2.2.1"
+pip install "jupyterlab-server>=2.25.2"
+pip check
+pip install "notebook-shim>=0.2.3"
 pip check
 rem Level 9

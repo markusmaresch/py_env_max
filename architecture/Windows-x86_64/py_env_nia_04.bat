@@ -1,9 +1,21 @@
-rem 2023-12-28T14:33:24.622144+00:00
+rem 2024-01-04T20:23:26.976836+00:00
 rem Level 4
-pip install "aiobotocore>=2.9.0" "argon2-cffi>=23.1.0" "braincube-connector>=2.6.0" "google-api-core>=2.15.0" "google-auth-oauthlib>=1.2.0"
+pip install "aiobotocore>=2.9.0"
+pip install "argon2-cffi>=23.1.0"
 pip check
-pip install "ipython>=8.19.0" "isoduration>=20.11.0" "jsonschema>=4.20.0" "pipreqs>=0.4.13" "pyopenssl>=23.3.0"
+pip install "braincube-connector>=2.6.0"
+pip install "google-api-core>=2.15.0"
+pip install "google-auth-oauthlib>=1.2.0"
 pip check
-pip install "qudida>=0.0.4" "torchaudio>=2.1.2" "torchvision>=0.16.2"
+pip install "ipython>=8.19.0"
+pip install "isoduration>=20.11.0"
+pip check
+pip install "jsonschema>=4.20.0"
+pip install "pipreqs>=0.4.13"
+pip install "pyopenssl>=23.3.0"
+pip check
+pip install "qudida>=0.0.4"
+pip install "torchaudio>=2.1.2"
+pip install "torchvision>=0.16.2"
 pip check
 rem Level 4

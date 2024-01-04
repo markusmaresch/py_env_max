@@ -1,4 +1,4 @@
-rem 2024-01-03T20:02:09.371334+00:00
+rem 2024-01-04T20:29:28.896014+00:00
 rem Level 4
 pip install "aiodns>=3.0.0"
 pip install "aiohttp-cors>=0.7.0"
@@ -73,6 +73,7 @@ pip install "pynndescent>=0.5.10"
 pip install "pyod>=1.1.0"
 pip install "pyopenssl>=23.2.0"
 pip install "pytorch-ranger>=0.1.1"
+pip install "pytrends>=4.9.2"
 pip check
 pip install "qudida>=0.0.4"
 pip install "rapids>=0.0.1"
