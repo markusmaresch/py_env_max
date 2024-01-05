@@ -1,4 +1,4 @@
-# 2023-12-28T19:47:51.903184+00:00
+# 2024-01-05T19:08:08.338386+00:00
 # Level 2
 pip install "anyio>=4.2.0"
 pip install "asttokens>=2.4.1"
@@ -8,10 +8,10 @@ pip install "bleach>=6.1.0"
 pip check
 pip install "cffi>=1.16.0"
 pip install "coloredlogs>=15.0.1"
-pip install "comm>=0.2.0"
+pip install "comm>=0.2.1"
 pip install "contourpy>=1.2.0"
 pip check
-pip install "flake8>=6.1.0"
+pip install "flake8>=7.0.0"
 pip install "fpdf2>=2.7.7"
 pip check
 pip install "google-resumable-media>=2.7.0"
@@ -21,19 +21,19 @@ pip install "h5py>=3.10.0"
 pip install "httplib2>=0.22.0"
 pip check
 pip install "imageio>=2.33.1"
-pip install "importlib-metadata>=7.0.0"
+pip install "importlib-metadata>=7.0.1"
 pip check
 pip install "jedi>=0.19.1"
 pip install "jinja2>=3.1.2"
-pip install "jupyter-core>=5.5.1"
+pip install "jupyter-core>=5.7.0"
 pip check
 pip install "matplotlib-inline>=0.1.6"
 pip install "numba>=0.58.1"
 pip check
 pip install "onnx>=1.15.0"
-pip install "opencv-contrib-python>=4.8.1.78"
-pip install "opencv-python>=4.8.1.78"
-pip install "opencv-python-headless>=4.8.1.78"
+pip install "opencv-contrib-python>=4.9.0.80"
+pip install "opencv-python>=4.9.0.80"
+pip install "opencv-python-headless>=4.9.0.80"
 pip check
 pip install "pexpect>=4.9.0"
 pip install "plotly>=5.18.0"
