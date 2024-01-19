@@ -1,4 +1,4 @@
-rem 2024-01-04T21:35:23.729285+00:00
+rem 2024-01-19T14:28:34.285933+00:00
 rem Level 1
 pip install "aioitertools>=0.11.0"
 pip install "async-lru>=2.0.4"
@@ -129,6 +129,7 @@ pip install "toolz>=0.12.0"
 pip install "tornado>=6.4"
 pip check
 pip install "traitlets>=5.14.1"
+pip install "travertino>=0.3.0"
 pip install "types-python-dateutil>=2.8.19.14"
 pip install "typing-extensions>=4.9.0"
 pip install "tzdata>=2023.4"

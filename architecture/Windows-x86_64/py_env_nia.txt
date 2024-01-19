@@ -28,6 +28,8 @@ certifi
 cffi
 charset-normalizer
 click
+cloudevents
+clr-loader
 colorama
 comm
 compress-pickle
@@ -39,6 +41,7 @@ darkdetect
 debugpy
 decorator
 defusedxml
+deprecation
 dm-tree
 docopt
 exceptiongroup
@@ -52,6 +55,7 @@ fpdf2
 fqdn
 frozenlist
 fsspec
+functions-framework
 gitdb
 gitpython
 gmpy2
@@ -161,6 +165,7 @@ pysocks
 pytest
 python-dateutil
 python-json-logger
+pythonnet
 pytz
 pytz-deprecation-shim
 pywavelets
@@ -205,6 +210,10 @@ threadpoolctl
 tifffile
 tinycss2
 tinyflux
+toga
+toga-core
+toga-demo
+toga-winforms
 toml
 tomli
 toolz
@@ -213,6 +222,7 @@ torchaudio
 torchvision
 tornado
 traitlets
+travertino
 types-python-dateutil
 typing-extensions
 tzdata

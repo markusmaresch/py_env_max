@@ -1,4 +1,4 @@
-rem 2024-01-04T21:35:23.729285+00:00
+rem 2024-01-19T14:28:34.285933+00:00
 rem Level 1
 pip install "aioitertools>=0.11.0"
 pip install "async-lru>=2.0.4"
@@ -129,6 +129,7 @@ pip install "toolz>=0.12.0"
 pip install "tornado>=6.4"
 pip check
 pip install "traitlets>=5.14.1"
+pip install "travertino>=0.3.0"
 pip install "types-python-dateutil>=2.8.19.14"
 pip install "typing-extensions>=4.9.0"
 pip install "tzdata>=2023.4"
@@ -166,6 +167,7 @@ pip install "comm>=0.2.1"
 pip install "contourpy>=1.2.0"
 pip install "customtkinter>=5.2.1"
 pip check
+pip install "deprecation>=2.1.0"
 pip install "flake8>=6.1.0"
 pip install "fpdf2>=2.7.7"
 pip check
@@ -215,6 +217,7 @@ pip check
 pip install "terminado>=0.18.0"
 pip install "tifffile>=2023.12.9"
 pip install "tinycss2>=1.2.1"
+pip install "toga-core>=0.4.1"
 pip install "tzlocal>=5.2"
 pip check
 pip install "werkzeug>=3.0.1"
@@ -227,6 +230,8 @@ pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
 pip check
 pip install "botocore>=1.33.13"
+pip install "cloudevents>=1.10.1"
+pip install "clr-loader>=0.2.6"
 pip install "cryptography>=41.0.7"
 pip check
 pip install "flask>=3.0.0"
@@ -259,6 +264,8 @@ pip install "aiobotocore>=2.9.0"
 pip install "argon2-cffi>=23.1.0"
 pip check
 pip install "braincube-connector>=2.6.0"
+pip install "functions-framework>=3.5.0"
+pip check
 pip install "google-api-core>=2.15.0"
 pip install "google-auth-oauthlib>=1.2.0"
 pip check
@@ -268,6 +275,7 @@ pip check
 pip install "jsonschema>=4.20.0"
 pip install "pipreqs>=0.4.13"
 pip install "pyopenssl>=23.3.0"
+pip install "pythonnet>=3.0.3"
 pip check
 pip install "qudida>=0.0.4"
 pip install "torchaudio>=2.1.2"
@@ -287,6 +295,8 @@ pip check
 pip install "nbformat>=5.9.2"
 pip install "s3fs>=2023.12.2"
 pip check
+pip install "toga-winforms>=0.4.1"
+pip check
 rem Level 5
 rem Level 6
 pip install "google-cloud-bigquery>=3.14.1"
@@ -295,11 +305,14 @@ pip check
 pip install "nbclient>=0.9.0"
 pip install "streamlit>=1.29.0"
 pip check
+pip install "toga>=0.4.1"
+pip check
 rem Level 6
 rem Level 7
 pip install "google-cloud-aiplatform>=1.38.1"
 pip check
 pip install "nbconvert>=7.14.0"
+pip install "toga-demo>=0.4.1"
 pip check
 rem Level 7
 rem Level 8

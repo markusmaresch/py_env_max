@@ -1,9 +1,11 @@
-rem 2024-01-04T21:35:23.729285+00:00
+rem 2024-01-19T14:28:34.285933+00:00
 rem Level 4
 pip install "aiobotocore>=2.9.0"
 pip install "argon2-cffi>=23.1.0"
 pip check
 pip install "braincube-connector>=2.6.0"
+pip install "functions-framework>=3.5.0"
+pip check
 pip install "google-api-core>=2.15.0"
 pip install "google-auth-oauthlib>=1.2.0"
 pip check
@@ -13,6 +15,7 @@ pip check
 pip install "jsonschema>=4.20.0"
 pip install "pipreqs>=0.4.13"
 pip install "pyopenssl>=23.3.0"
+pip install "pythonnet>=3.0.3"
 pip check
 pip install "qudida>=0.0.4"
 pip install "torchaudio>=2.1.2"

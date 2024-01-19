@@ -1,4 +1,4 @@
-rem 2024-01-04T21:35:23.729285+00:00
+rem 2024-01-19T14:28:34.285933+00:00
 rem Level 5
 pip install "albumentations>=1.3.1"
 pip install "altair>=5.2.0"
@@ -11,5 +11,7 @@ pip install "jupyter-events>=0.9.0"
 pip check
 pip install "nbformat>=5.9.2"
 pip install "s3fs>=2023.12.2"
+pip check
+pip install "toga-winforms>=0.4.1"
 pip check
 rem Level 5

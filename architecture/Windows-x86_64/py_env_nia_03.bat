@@ -1,10 +1,12 @@
-rem 2024-01-04T21:35:23.729285+00:00
+rem 2024-01-19T14:28:34.285933+00:00
 rem Level 3
 pip install "aiohttp>=3.9.1"
 pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
 pip check
 pip install "botocore>=1.33.13"
+pip install "cloudevents>=1.10.1"
+pip install "clr-loader>=0.2.6"
 pip install "cryptography>=41.0.7"
 pip check
 pip install "flask>=3.0.0"

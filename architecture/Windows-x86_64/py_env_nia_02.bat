@@ -1,4 +1,4 @@
-rem 2024-01-04T21:35:23.729285+00:00
+rem 2024-01-19T14:28:34.285933+00:00
 rem Level 2
 pip install "aiosignal>=1.3.1"
 pip install "anyio>=4.2.0"
@@ -15,6 +15,7 @@ pip install "comm>=0.2.1"
 pip install "contourpy>=1.2.0"
 pip install "customtkinter>=5.2.1"
 pip check
+pip install "deprecation>=2.1.0"
 pip install "flake8>=6.1.0"
 pip install "fpdf2>=2.7.7"
 pip check
@@ -64,6 +65,7 @@ pip check
 pip install "terminado>=0.18.0"
 pip install "tifffile>=2023.12.9"
 pip install "tinycss2>=1.2.1"
+pip install "toga-core>=0.4.1"
 pip install "tzlocal>=5.2"
 pip check
 pip install "werkzeug>=3.0.1"
