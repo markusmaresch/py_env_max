@@ -1,4 +1,4 @@
-# 2024-01-05T21:55:45.979974+00:00
+# 2024-01-05T22:44:38.363905+00:00
 # Level 2
 pip install "accessible-pygments>=0.0.4"
 pip install "aioredis>=2.0.1"
@@ -187,6 +187,7 @@ pip check
 pip install "rawpy>=0.19.0"
 pip install "reactivex>=4.0.4"
 pip install "referencing>=0.32.1"
+pip install "repl>=1.0"
 pip install "requests>=2.31.0"
 pip install "retrying>=1.3.4"
 pip install "rfc3339-validator>=0.1.4"

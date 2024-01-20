@@ -1,6 +1,9 @@
 #
 #
 #
+Scipt Export
+    also include conda export
+
 Bugs
     install packages:
         * infinite loop, if failures in between - need to limit tries, or split the problem
