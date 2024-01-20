@@ -1,9 +1,9 @@
-# 2023-12-29T00:12:30.114228+00:00
+# 2024-01-05T21:55:45.979974+00:00
 # Level 5
 pip install "albumentations>=1.3.1"
 pip install "altair>=5.2.0"
 pip check
-pip install "boto3>=1.34.9"
+pip install "boto3>=1.34.13"
 pip install "category-encoders>=2.6.3"
 pip install "cornac>=1.18.0"
 pip install "cvxpy>=1.4.1"
@@ -16,7 +16,7 @@ pip install "google-api-python-client>=2.99.0"
 pip install "google-cloud-bigquery-storage>=2.23.0"
 pip install "google-cloud-core>=2.4.1"
 pip install "google-cloud-language>=2.12.0"
-pip install "gspread>=5.12.3"
+pip install "gspread>=5.12.4"
 pip check
 pip install "ipykernel>=6.28.0"
 pip install "ipywidgets>=8.1.1"

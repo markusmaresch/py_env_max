@@ -114,7 +114,8 @@ class PyEnvMax:
                             help='Attempt to install packages to existing python environment')
 
         group.add_argument('-ua', '--upd_all', action='store_true',
-                            help='Attempt to update all of existing python environment')
+                            help='Attempt to update all of existing '
+                                 'python environment, then export it')
 
         group.add_argument('-ri', '--req_import', action='store_true',
                            help='Import \'requirements.txt\' into internal database')
@@ -135,32 +136,38 @@ class PyEnvMax:
         if env_name is None:
             return False
 
+        ok = True
         env_name = self.get_activated_environment() if env_name is None else env_name
         if args.stat:
-            StatCmd.statistics(env_name=env_name, force=force)
+            ok = StatCmd.statistics(env_name=env_name, force=force)
         elif args.env_import:
-            EnvCmd.env_import(env_name=env_name, force=force)
+            ok = EnvCmd.env_import(env_name=env_name, force=force)
         elif args.yml_import:
-            YmlCmd.yml_import(env_name=env_name, force=force)
+            ok = YmlCmd.yml_import(env_name=env_name, force=force)
         elif args.yml_export:
-            YmlCmd.yml_export(env_name=env_name, force=force)
+            ok = YmlCmd.yml_export(env_name=env_name, force=force)
         elif args.req_import:
-            ReqCmd.req_import(env_name=env_name, force=force)
+            ok = ReqCmd.req_import(env_name=env_name, force=force)
         elif args.req_export:
-            ReqCmd.req_export(env_name=env_name, force=force)
+            ok = ReqCmd.req_export(env_name=env_name, force=force)
         elif args.upd_all:
-            EnvCmd.upd_all(env_name=env_name, force=force)
+            ok = EnvCmd.upd_all(env_name=env_name, force=force)
+            if ok:
+                ok = ScriptsCmd.scripts_export(env_name=env_name,
+                                               python_version=self.python_version_default, force=force)
         elif args.install_packages:
             packages_with_versions = args.install_packages
             EnvCmd.install_packages(env_name=env_name, packages_with_versions=packages_with_versions, force=force)
         elif args.scripts_export:
-            ScriptsCmd.scripts_export(env_name=env_name, python_version=self.python_version_default, force=force)
+            ok = ScriptsCmd.scripts_export(env_name=env_name,
+                                           python_version=self.python_version_default, force=force)
         elif args.top_level:
-            CleanupCmd.top_level(env_name=env_name, force=force)
+            ok = CleanupCmd.top_level(env_name=env_name, force=force)
         else:
             print('? internal switch missing ?')
             parser.print_help()
-        return 0
+            ok = False
+        return 0 if ok else 1
 
 
 def main():

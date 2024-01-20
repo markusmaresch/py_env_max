@@ -1,4 +1,4 @@
-# 2023-12-29T00:12:30.114228+00:00
+# 2024-01-05T21:55:45.979974+00:00
 # Level 4
 pip install "aiodns>=3.1.1"
 pip install "aiohttp-cors>=0.7.0"
@@ -19,14 +19,14 @@ pip install "control>=0.9.4"
 pip check
 pip install "daft>=0.1.2"
 pip install "dash>=2.14.2"
-pip install "datasets>=2.16.0"
+pip install "datasets>=2.16.1"
 pip install "db-dtypes>=1.2.0"
 pip install "descartes>=1.1.0"
 pip install "diffusers>=0.25.0"
 pip install "distributed>=2023.12.1"
 pip check
 pip install "etuples>=0.3.9"
-pip install "exchange-calendars>=4.5"
+pip install "exchange-calendars>=4.5.1"
 pip check
 pip install "flask-compress>=1.14"
 pip install "folium>=0.15.1"
@@ -45,8 +45,8 @@ pip check
 pip install "jsonschema>=4.20.0"
 pip install "keras>=3.0.2"
 pip install "keras2onnx>=1.7.0"
-pip install "kivy>=2.2.1"
-pip install "kivy-examples>=2.2.1"
+pip install "kivy>=2.3.0"
+pip install "kivy-examples>=2.3.0"
 pip install "kmodes>=0.12.2"
 pip check
 pip install "librosa>=0.10.1"
@@ -56,7 +56,7 @@ pip check
 pip install "matplotlib-venn>=0.11.9"
 pip install "mizani>=0.9.3"
 pip install "mlflow>=2.9.2"
-pip install "mlxtend>=0.23.0"
+pip install "mlxtend>=0.23.1"
 pip install "mplfinance>=0.12.8b9"
 pip install "msrest>=0.7.1"
 pip install "music21>=9.1.0"
@@ -90,7 +90,7 @@ pip install "rapids>=0.0.1"
 pip check
 pip install "s3transfer>=0.10.0"
 pip install "scikit-plot>=0.3.7"
-pip install "seaborn>=0.13.0"
+pip install "seaborn>=0.13.1"
 pip install "secretstorage>=3.3.3"
 pip install "seqeval>=1.2.2"
 pip install "shap>=0.44.0"
