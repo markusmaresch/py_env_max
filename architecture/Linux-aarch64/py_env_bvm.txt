@@ -99,6 +99,7 @@ referencing
 requests
 retrying
 rpds-py
+ruff
 scikit-learn
 scikit-spatial
 scipy

@@ -1,4 +1,4 @@
-# 2024-01-22T17:24:37.137996+00:00
+# 2024-01-22T20:07:41.926205+00:00
 # Level 1
 pip install "ansi2html>=1.9.1"
 pip install "arena-api>=2.3.3"
@@ -73,7 +73,9 @@ pip install "pytz>=2023.3.post1"
 pip install "pyzmq>=25.1.2"
 pip check
 pip install "rpds-py>=0.17.1"
-pip install "setuptools>=68.2.2"
+pip install "ruff>=0.1.14"
+pip check
+pip install "setuptools>=69.0.3"
 pip install "six>=1.16.0"
 pip check
 pip install "tenacity>=8.2.3"
@@ -88,7 +90,7 @@ pip install "tzdata>=2023.4"
 pip check
 pip install "urllib3>=2.1.0"
 pip install "wcwidth>=0.2.13"
-pip install "wheel>=0.41.2"
+pip install "wheel>=0.42.0"
 pip install "widgetsnbextension>=4.0.9"
 pip install "wincertstore>=0.2"
 pip install "wrapt>=1.16.0"
