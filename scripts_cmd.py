@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 import datetime
+import os.path
 
 from database import Database
 from os_platform import OsPlatform
@@ -11,6 +12,21 @@ class ScriptsCmd:
     @staticmethod
     def scripts_export(env_name: str, python_version: str, force: bool = False) -> bool:
         # create scripts for recreating existing python environment
+
+        def make_executable(path: str) -> bool:
+            try:
+                if os.path.exists(path):
+                    new_mode = old_mode = os.stat(path).st_mode
+                    new_mode |= (old_mode & 0o444) >> 2  # copy R bits to X
+                    if new_mode != old_mode:
+                        os.chmod(path, new_mode)
+                    # fi
+                    return True
+                # fi
+            except:
+                pass
+            return False
+
         print('scripts_export: {} (force={})'.format(env_name, force))
         db_name = '{}.json'.format(env_name)
         db = Database()
@@ -37,6 +53,8 @@ class ScriptsCmd:
                 single.write('{} Level {} .. fix below !\n'.format(script_comment, level))
                 single.write('{} conda create --name {}_XXX python={}\n'
                              .format(script_comment, env_name, python_version))
+            # with
+            make_executable(script_name)
         except Exception as e:
             print('Error: {}'.format(e))
             return False
@@ -94,7 +112,9 @@ class ScriptsCmd:
                     single.write(out)
                     all.write(out)
                 # with
+                make_executable(script_name)
             # for
         # with
+        make_executable(script_all_name)
         db.close()
         return True
