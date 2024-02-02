@@ -1,4 +1,4 @@
-# 2024-01-22T20:47:19.216992+00:00
+# 2024-02-02T11:12:20.706463+00:00
 # Level 1
 pip install "ansi2html>=1.9.1"
 pip install "arena-api>=2.3.3"
@@ -96,6 +96,8 @@ pip install "wincertstore>=0.2"
 pip install "wrapt>=1.16.0"
 pip check
 pip install "xlsxwriter>=3.1.9"
+pip install "yoctopuce>=1.10.57762"
+pip check
 pip install "zipp>=3.17.0"
 pip check
 # Level 1
@@ -125,6 +127,7 @@ pip install "pexpect>=4.9.0"
 pip install "plotly>=5.18.0"
 pip install "plyfile>=1.0.3"
 pip install "prompt-toolkit>=3.0.43"
+pip install "pyarrow>=15.0.0"
 pip install "pytest>=7.4.4"
 pip install "python-dateutil>=2.8.2"
 pip check

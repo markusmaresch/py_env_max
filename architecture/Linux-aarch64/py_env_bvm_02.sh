@@ -1,4 +1,4 @@
-# 2024-01-22T20:47:19.216992+00:00
+# 2024-02-02T11:12:20.706463+00:00
 # Level 2
 pip install "asttokens>=2.4.1"
 pip check
@@ -25,6 +25,7 @@ pip install "pexpect>=4.9.0"
 pip install "plotly>=5.18.0"
 pip install "plyfile>=1.0.3"
 pip install "prompt-toolkit>=3.0.43"
+pip install "pyarrow>=15.0.0"
 pip install "pytest>=7.4.4"
 pip install "python-dateutil>=2.8.2"
 pip check
