@@ -1,4 +1,4 @@
-# 2024-02-02T11:12:20.706463+00:00
+# 2024-02-07T15:01:07.661652+00:00
 # Level 2
 pip install "asttokens>=2.4.1"
 pip check
@@ -6,6 +6,9 @@ pip install "comm>=0.2.1"
 pip install "contourpy>=1.2.0"
 pip check
 pip install "flake8>=7.0.0"
+pip install "google-resumable-media>=2.7.0"
+pip install "googleapis-common-protos>=1.62.0"
+pip check
 pip install "imageio>=2.33.1"
 pip install "importlib-metadata>=7.0.1"
 pip check
@@ -26,12 +29,14 @@ pip install "plotly>=5.18.0"
 pip install "plyfile>=1.0.3"
 pip install "prompt-toolkit>=3.0.43"
 pip install "pyarrow>=15.0.0"
+pip install "pyasn1-modules>=0.3.0"
 pip install "pytest>=7.4.4"
 pip install "python-dateutil>=2.8.2"
 pip check
 pip install "referencing>=0.32.1"
 pip install "requests>=2.31.0"
 pip install "retrying>=1.3.4"
+pip install "rsa>=4.9"
 pip check
 pip install "scipy>=1.12.0"
 pip install "shapely>=2.0.2"

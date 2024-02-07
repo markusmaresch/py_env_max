@@ -1,4 +1,4 @@
-# 2024-02-02T11:12:20.706463+00:00
+# 2024-02-07T15:01:07.661652+00:00
 # Level 1
 pip install "ansi2html>=1.9.1"
 pip install "arena-api>=2.3.3"
@@ -8,6 +8,7 @@ pip check
 pip install "backcall>=0.2.0"
 pip install "blinker>=1.7.0"
 pip check
+pip install "cachetools>=5.3.2"
 pip install "certifi>=2023.11.17"
 pip install "charset-normalizer>=3.3.2"
 pip install "click>=8.1.7"
@@ -31,6 +32,7 @@ pip check
 pip install "fastjsonschema>=2.19.1"
 pip install "fonttools>=4.47.2"
 pip check
+pip install "google-crc32c>=1.5.0"
 pip install "idna>=3.6"
 pip install "importlib-resources>=6.1.1"
 pip install "imutils>=0.5.4"
@@ -60,10 +62,12 @@ pip install "pip>=23.3.2"
 pip install "platformdirs>=4.1.0"
 pip install "pluggy>=1.3.0"
 pip install "polars>=0.20.5"
+pip install "protobuf>=4.25.2"
 pip install "psutil>=5.9.8"
-pip install "ptyprocess>=0.7.0"
 pip check
+pip install "ptyprocess>=0.7.0"
 pip install "pure-eval>=0.2.2"
+pip install "pyasn1>=0.5.1"
 pip install "pycodestyle>=2.11.1"
 pip install "pyflakes>=3.2.0"
 pip install "pygments>=2.17.2"
@@ -108,6 +112,9 @@ pip install "comm>=0.2.1"
 pip install "contourpy>=1.2.0"
 pip check
 pip install "flake8>=7.0.0"
+pip install "google-resumable-media>=2.7.0"
+pip install "googleapis-common-protos>=1.62.0"
+pip check
 pip install "imageio>=2.33.1"
 pip install "importlib-metadata>=7.0.1"
 pip check
@@ -128,12 +135,14 @@ pip install "plotly>=5.18.0"
 pip install "plyfile>=1.0.3"
 pip install "prompt-toolkit>=3.0.43"
 pip install "pyarrow>=15.0.0"
+pip install "pyasn1-modules>=0.3.0"
 pip install "pytest>=7.4.4"
 pip install "python-dateutil>=2.8.2"
 pip check
 pip install "referencing>=0.32.1"
 pip install "requests>=2.31.0"
 pip install "retrying>=1.3.4"
+pip install "rsa>=4.9"
 pip check
 pip install "scipy>=1.12.0"
 pip install "shapely>=2.0.2"
@@ -145,6 +154,7 @@ pip check
 # Level 3
 pip install "flask>=3.0.1"
 pip check
+pip install "google-auth>=2.27.0"
 pip install "jsonschema-specifications>=2023.12.1"
 pip install "jupyter-client>=8.6.0"
 pip check
@@ -163,14 +173,18 @@ pip check
 pip install "cylinder-fitting>=1.1.4"
 pip install "dash>=2.14.2"
 pip check
+pip install "google-api-core>=2.16.2"
 pip install "ipython>=8.20.0"
-pip install "jsonschema>=4.21.1"
 pip check
+pip install "jsonschema>=4.21.1"
 pip install "pipreqs>=0.4.13"
+pip check
 pip install "scikit-spatial>=7.0.0"
 pip check
 # Level 4
 # Level 5
+pip install "google-cloud-core>=2.4.1"
+pip check
 pip install "ipykernel>=6.29.0"
 pip install "ipywidgets>=8.1.1"
 pip check
@@ -180,6 +194,9 @@ pip install "pyoints>=0.2.0a3"
 pip check
 # Level 5
 # Level 6
+pip install "google-cloud-bigquery>=3.17.2"
+pip install "google-cloud-storage>=2.14.0"
+pip check
 pip install "open3d>=0.18.0"
 pip check
 # Level 6

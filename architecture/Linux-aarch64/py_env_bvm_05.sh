@@ -1,5 +1,7 @@
-# 2024-02-02T11:12:20.706463+00:00
+# 2024-02-07T15:01:07.661652+00:00
 # Level 5
+pip install "google-cloud-core>=2.4.1"
+pip check
 pip install "ipykernel>=6.29.0"
 pip install "ipywidgets>=8.1.1"
 pip check

@@ -1,4 +1,4 @@
-# 2024-02-02T11:12:20.706463+00:00
+# 2024-02-07T15:01:07.661652+00:00
 # Level 1
 pip install "ansi2html>=1.9.1"
 pip install "arena-api>=2.3.3"
@@ -8,6 +8,7 @@ pip check
 pip install "backcall>=0.2.0"
 pip install "blinker>=1.7.0"
 pip check
+pip install "cachetools>=5.3.2"
 pip install "certifi>=2023.11.17"
 pip install "charset-normalizer>=3.3.2"
 pip install "click>=8.1.7"
@@ -31,6 +32,7 @@ pip check
 pip install "fastjsonschema>=2.19.1"
 pip install "fonttools>=4.47.2"
 pip check
+pip install "google-crc32c>=1.5.0"
 pip install "idna>=3.6"
 pip install "importlib-resources>=6.1.1"
 pip install "imutils>=0.5.4"
@@ -60,10 +62,12 @@ pip install "pip>=23.3.2"
 pip install "platformdirs>=4.1.0"
 pip install "pluggy>=1.3.0"
 pip install "polars>=0.20.5"
+pip install "protobuf>=4.25.2"
 pip install "psutil>=5.9.8"
-pip install "ptyprocess>=0.7.0"
 pip check
+pip install "ptyprocess>=0.7.0"
 pip install "pure-eval>=0.2.2"
+pip install "pyasn1>=0.5.1"
 pip install "pycodestyle>=2.11.1"
 pip install "pyflakes>=3.2.0"
 pip install "pygments>=2.17.2"

@@ -1,7 +1,8 @@
-# 2024-02-02T11:12:20.706463+00:00
+# 2024-02-07T15:01:07.661652+00:00
 # Level 3
 pip install "flask>=3.0.1"
 pip check
+pip install "google-auth>=2.27.0"
 pip install "jsonschema-specifications>=2023.12.1"
 pip install "jupyter-client>=8.6.0"
 pip check

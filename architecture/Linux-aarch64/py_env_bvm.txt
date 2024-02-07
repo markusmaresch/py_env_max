@@ -6,6 +6,7 @@ av
 backcall
 blinker
 braincube-connector
+cachetools
 certifi
 charset-normalizer
 click
@@ -31,6 +32,14 @@ fastjsonschema
 flake8
 flask
 fonttools
+google-api-core
+google-auth
+google-cloud-bigquery
+google-cloud-core
+google-cloud-storage
+google-crc32c
+google-resumable-media
+googleapis-common-protos
 idna
 imageio
 importlib-metadata
@@ -81,11 +90,14 @@ pluggy
 plyfile
 polars
 prompt-toolkit
+protobuf
 psutil
 ptyprocess
 pure-eval
 py-cylinder-fitting
 pyarrow
+pyasn1
+pyasn1-modules
 pycodestyle
 pyflakes
 pygments
@@ -100,6 +112,7 @@ referencing
 requests
 retrying
 rpds-py
+rsa
 ruff
 scikit-learn
 scikit-spatial
