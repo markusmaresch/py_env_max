@@ -1,16 +1,18 @@
-# 2024-02-07T15:01:07.661652+00:00
+# 2024-02-08T13:55:15.457994+00:00
 # Level 2
 pip install "asttokens>=2.4.1"
 pip check
 pip install "comm>=0.2.1"
 pip install "contourpy>=1.2.0"
 pip check
+pip install "deprecated>=1.2.14"
 pip install "flake8>=7.0.0"
+pip check
 pip install "google-resumable-media>=2.7.0"
 pip install "googleapis-common-protos>=1.62.0"
 pip check
 pip install "imageio>=2.33.1"
-pip install "importlib-metadata>=7.0.1"
+pip install "importlib-metadata>=6.11.0"
 pip check
 pip install "jedi>=0.19.1"
 pip install "jinja2>=3.1.3"

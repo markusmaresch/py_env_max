@@ -1,4 +1,4 @@
-# 2024-02-07T15:01:07.661652+00:00
+# 2024-02-08T13:55:15.457994+00:00
 # Level 1
 pip install "ansi2html>=1.9.1"
 pip install "arena-api>=2.3.3"
@@ -58,7 +58,7 @@ pip install "packaging>=23.2"
 pip install "parso>=0.8.3"
 pip install "pickleshare>=0.7.5"
 pip install "pillow>=10.2.0"
-pip install "pip>=23.3.2"
+pip install "pip>=24.0"
 pip install "platformdirs>=4.1.0"
 pip install "pluggy>=1.3.0"
 pip install "polars>=0.20.5"

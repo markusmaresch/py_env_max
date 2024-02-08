@@ -1,4 +1,4 @@
-# 2024-02-07T15:01:07.661652+00:00
+# 2024-02-08T13:55:15.457994+00:00
 # Level 1
 pip install "ansi2html>=1.9.1"
 pip install "arena-api>=2.3.3"
@@ -58,7 +58,7 @@ pip install "packaging>=23.2"
 pip install "parso>=0.8.3"
 pip install "pickleshare>=0.7.5"
 pip install "pillow>=10.2.0"
-pip install "pip>=23.3.2"
+pip install "pip>=24.0"
 pip install "platformdirs>=4.1.0"
 pip install "pluggy>=1.3.0"
 pip install "polars>=0.20.5"
@@ -111,12 +111,14 @@ pip check
 pip install "comm>=0.2.1"
 pip install "contourpy>=1.2.0"
 pip check
+pip install "deprecated>=1.2.14"
 pip install "flake8>=7.0.0"
+pip check
 pip install "google-resumable-media>=2.7.0"
 pip install "googleapis-common-protos>=1.62.0"
 pip check
 pip install "imageio>=2.33.1"
-pip install "importlib-metadata>=7.0.1"
+pip install "importlib-metadata>=6.11.0"
 pip check
 pip install "jedi>=0.19.1"
 pip install "jinja2>=3.1.3"
@@ -159,8 +161,9 @@ pip install "jsonschema-specifications>=2023.12.1"
 pip install "jupyter-client>=8.6.0"
 pip check
 pip install "matplotlib>=3.8.2"
-pip install "pandas>=2.2.0"
+pip install "opentelemetry-api>=1.22.0"
 pip check
+pip install "pandas>=2.2.0"
 pip install "scikit-learn>=1.4.0"
 pip install "stack-data>=0.6.3"
 pip check
@@ -177,8 +180,9 @@ pip install "google-api-core>=2.16.2"
 pip install "ipython>=8.20.0"
 pip check
 pip install "jsonschema>=4.21.1"
-pip install "pipreqs>=0.4.13"
+pip install "opentelemetry-instrumentation>=0.43b0"
 pip check
+pip install "pipreqs>=0.4.13"
 pip install "scikit-spatial>=7.0.0"
 pip check
 # Level 4

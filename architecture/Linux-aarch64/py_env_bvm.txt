@@ -23,6 +23,7 @@ dash-html-components
 dash-table
 debugpy
 decorator
+deprecated
 dill
 docopt
 entrypoints
@@ -76,6 +77,8 @@ open3d
 opencv-contrib-python
 opencv-python
 opencv-python-headless
+opentelemetry-api
+opentelemetry-instrumentation
 packaging
 pandas
 parso
