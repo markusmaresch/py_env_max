@@ -60,6 +60,7 @@ class PyEnvMax:
         if version is None or not version:
             print('Error: conda not working; is miniconda installed ?')
             print('See: https://docs.conda.io/en/latest/miniconda.html')
+            print('See: https://repo.anaconda.com/miniconda/')
             return False
         print('Using: conda=={}'.format(version))
 

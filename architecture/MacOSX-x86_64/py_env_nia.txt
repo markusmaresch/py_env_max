@@ -163,6 +163,7 @@ qrcode
 qtpy
 reactivex
 referencing
+repl
 requests
 requests-oauthlib
 retrying
