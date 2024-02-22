@@ -1,6 +1,8 @@
 #
 # -*- coding: utf-8 -*-
 #
+import json
+
 from database import Database
 
 
@@ -14,6 +16,17 @@ class CleanupCmd:
         db = Database()
         if not db.load(db_name):
             # alternatively could call env_import and continue
+            return False
+
+        #
+        # cat $(git ls-files --recurse-submodules | grep -e "\.py$" ) | grep -e "^import " -e "^from " | grep import | sort -u
+        #
+
+        try:
+            with open('top_level_exceptions.json', 'r') as f:
+                tl = json.load(f)
+        except Exception as e:
+            print(f'Json for Exceptions: {e} ?')
             return False
 
         packages = db.packages_get_names_all()
@@ -39,6 +52,10 @@ class CleanupCmd:
                     # print(f'Level: {level} package_name: {package_name} required by: {required_by}')
                     continue
                 summary = db.package_get_summary(package_name)
+
+                if package_name in tl['top_level_exceptions']:
+                    continue
+
                 print(f'Top level or orphan: {level} / {package_name} .. {summary}')
                 num_top_level += 1
                 num_level_top_level += 1

@@ -1,11 +1,26 @@
 {
+    "info": {},
+    "comments": {},
+
     "top_level_exceptions": {
-        "xxx1": {
-            "reason": "google package",
+        "pip": {
+            "reason": "fundamentally needed",
             "comment": ""
         },
-        "xxx2": {
-            "reason": "well known package",
+        "pyzbar": {
+            "reason": "needed for bar code reading",
+            "comment": ""
+        },
+        "ruff": {
+            "reason": "fundamentally needed for code quality checks",
+            "comment": ""
+        },
+        "xlsxwriter": {
+            "reason": "needed by pandas for writing xlsx",
+            "comment": ""
+        },
+        "wheel": {
+            "reason": "fundamentally needed",
             "comment": ""
         }
     }
