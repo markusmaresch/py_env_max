@@ -11,16 +11,150 @@
             "reason": "needed for bar code reading",
             "comment": ""
         },
+        "qrcode": {
+            "reason": "needed for bar code creation",
+            "comment": ""
+        },
         "ruff": {
             "reason": "fundamentally needed for code quality checks",
+            "comment": ""
+        },
+        "flake8": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "markupsafe": {
+            "reason": "fundamentally needed",
+            "comment": "reference missing"
+        },
+        "wheel": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+
+        "scikit-image": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "matplotlib": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "pandas": {
+            "reason": "fundamentally needed",
             "comment": ""
         },
         "xlsxwriter": {
             "reason": "needed by pandas for writing xlsx",
             "comment": ""
         },
-        "wheel": {
+
+        "torch": {
             "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "jinja2": {
+            "reason": "fundamentally needed",
+            "comment": "required by a lot - but not referenced correctly"
+        },
+        "pyarrow": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "numba": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+
+        "opencv-contrib-python": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "opencv-python": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "opencv-python-headless": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "fpdf2": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "persist-queue": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "tqdm": {
+            "reason": "fundamentally needed",
+            "comment": "many use this"
+        },
+        "send2trash": {
+            "reason": "fundamentally needed",
+            "comment": "many use this"
+        },
+        "pyyaml": {
+            "reason": "fundamentally needed",
+            "comment": "many use this"
+        },
+
+
+        "google-cloud-datastore": {
+            "reason": "keep google cloud",
+            "comment": ""
+        },
+        "google-cloud-aiplatform": {
+            "reason": "keep google cloud",
+            "comment": ""
+        },
+        "google-api-python-client": {
+            "reason": "keep google cloud",
+            "comment": ""
+        },
+        "google-cloud-artifact-registry": {
+            "reason": "keep google cloud",
+            "comment": ""
+        },
+        "google-cloud-bigquery-storage": {
+            "reason": "keep google cloud",
+            "comment": ""
+        },
+        "google-cloud-discoveryengine": {
+            "reason": "keep google cloud",
+            "comment": ""
+        },
+        "google-cloud-documentai": {
+            "reason": "keep google cloud",
+            "comment": ""
+        },
+        "google-cloud-language": {
+            "reason": "keep google cloud",
+            "comment": ""
+        },
+        "google-cloud-monitoring": {
+            "reason": "keep google cloud",
+            "comment": ""
+        },
+        "google-auth-oauthlib": {
+            "reason": "keep google cloud",
+            "comment": ""
+        },
+
+        "jupyter-lsp": {
+            "reason": "better keep jupyter stuff",
+            "comment": "https://pypi.org/project/jupyter-lsp"
+        },
+        "jupyterlab-widgets": {
+            "reason": "better keep jupyter stuff",
+            "comment": ""
+        },
+        "widgetsnbextension": {
+            "reason": "better keep jupyter related stuff",
+            "comment": ""
+        },
+        "ipykernel": {
+            "reason": "better keep jupyter related stuff",
             "comment": ""
         }
     }
