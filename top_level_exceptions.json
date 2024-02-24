@@ -32,7 +32,27 @@
             "comment": ""
         },
 
+        "wikipedia": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "xgboost": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "pyod": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
         "scikit-image": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "scikit-plot": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "sklearn-pandas": {
             "reason": "fundamentally needed",
             "comment": ""
         },
@@ -48,10 +68,26 @@
             "reason": "needed by pandas for writing xlsx",
             "comment": ""
         },
+        "wordcloud": {
+            "reason": "keep for interactive cloud generator",
+            "comment": ""
+        },
+        "openai": {
+            "reason": "keep for now",
+            "comment": ""
+        },
 
         "torch": {
             "reason": "fundamentally needed",
             "comment": ""
+        },
+        "torch-optimizer": {
+            "reason": "keep torch related",
+            "comment": ""
+        },
+        "sphinx": {
+            "reason": "fundamentally needed",
+            "comment": "required by a lot - but not referenced correctly"
         },
         "jinja2": {
             "reason": "fundamentally needed",
@@ -82,7 +118,35 @@
             "reason": "fundamentally needed",
             "comment": ""
         },
+        "h5py": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "lmdb": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
         "persist-queue": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "plyfile": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "imutils": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "pillow": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "albumentations": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "prophet": {
             "reason": "fundamentally needed",
             "comment": ""
         },
@@ -140,10 +204,34 @@
             "reason": "keep google cloud",
             "comment": ""
         },
+        "google-cloud-firestore": {
+            "reason": "keep google cloud",
+            "comment": ""
+        },
+        "google-cloud-storage": {
+            "reason": "keep google cloud",
+            "comment": ""
+        },
+        "google-cloud-translate": {
+            "reason": "keep google cloud",
+            "comment": ""
+        },
 
+        "jupyter": {
+            "reason": "better keep jupyter stuff",
+            "comment": ""
+        },
+        "nbclassic": {
+            "reason": "better keep jupyter stuff",
+            "comment": ""
+        },
         "jupyter-lsp": {
             "reason": "better keep jupyter stuff",
             "comment": "https://pypi.org/project/jupyter-lsp"
+        },
+        "jupyter-server-ydoc": {
+            "reason": "better keep jupyter stuff",
+            "comment": ""
         },
         "jupyterlab-widgets": {
             "reason": "better keep jupyter stuff",
