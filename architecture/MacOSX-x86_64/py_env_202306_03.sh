@@ -1,4 +1,4 @@
-# 2024-01-05T22:44:38.363905+00:00
+# 2024-02-24T00:08:24.814656+00:00
 # Level 3
 pip install "agate>=1.9.1"
 pip install "aiohttp>=3.9.1"
@@ -117,6 +117,7 @@ pip install "pydantic>=2.5.3"
 pip install "pynacl>=1.5.0"
 pip install "pyperformance>=1.10.0"
 pip install "pyramid>=2.0.2"
+pip install "pysimplegui>=5.0.2"
 pip check
 pip install "qdldl>=0.1.7"
 pip install "requests-cache>=1.1.1"
@@ -124,40 +125,24 @@ pip install "requests-file>=1.5.1"
 pip install "requests-oauthlib>=1.3.1"
 pip install "requests-toolbelt>=1.0.0"
 pip install "requests-unixsocket>=0.3.0"
-pip install "resampy>=0.4.2"
-pip install "responses>=0.24.1"
 pip install "rich>=13.7.0"
 pip check
 pip install "scikit-image>=0.22.0"
 pip install "scikit-learn>=1.3.2"
-pip install "sclblpy>=0.1.10"
 pip install "scs>=3.2.4"
 pip install "simpful>=2.11.1"
 pip install "soundfile>=0.12.1"
 pip install "sparse>=0.14.0"
-pip install "spectra>=0.0.11"
-pip install "sphinx>=4.5.0"
+pip install "sphinx>=7.2.6"
 pip install "stack-data>=0.6.3"
 pip check
-pip install "starlette>=0.34.0"
-pip install "stumpy>=1.12.0"
-pip check
-pip install "tables>=3.9.2"
 pip install "tensorflow-metadata>=1.14.0"
-pip install "textblob>=0.17.1"
-pip install "tf-keras-vis>=0.8.6"
-pip install "tf2onnx>=1.16.0"
-pip install "theano>=1.0.5"
-pip install "tiingo>=0.14.0"
 pip install "torch>=2.1.2"
 pip install "trio>=0.23.2"
 pip check
-pip install "webargs>=8.3.0"
 pip install "wikipedia>=1.4.0"
-pip check
 pip install "xgboost>=2.0.3"
-pip install "yahoofinancials>=1.20"
 pip check
-pip install "zarr>=2.16.1"
+pip install "ypy-websocket>=0.8.4"
 pip check
 # Level 3
