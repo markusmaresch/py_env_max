@@ -1,4 +1,4 @@
-rem 2024-02-25T19:57:14.320959+00:00
+rem 2024-02-25T21:51:20.069297+00:00
 rem Level 1
 pip install "aioitertools>=0.11.0"
 pip install "async-lru>=2.0.4"
@@ -217,7 +217,7 @@ pip install "scikit-image>=0.22.0"
 pip install "scikit-learn>=1.4.0"
 pip install "stack-data>=0.6.3"
 pip check
-pip install "torch>=2.1.2"
+pip install "torch>=2.2.1+cu121"
 pip check
 rem Level 3
 rem Level 4
@@ -233,8 +233,8 @@ pip check
 pip install "pythonnet>=3.0.3"
 pip install "qudida>=0.0.4"
 pip check
-pip install "torchaudio>=2.1.2"
-pip install "torchvision>=0.16.2"
+pip install "torchaudio>=2.2.1+cu121"
+pip install "torchvision>=0.17.1+cu121"
 pip check
 rem Level 4
 rem Level 5

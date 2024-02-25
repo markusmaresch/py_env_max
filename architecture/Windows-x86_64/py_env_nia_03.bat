@@ -1,4 +1,4 @@
-rem 2024-02-25T19:57:14.320959+00:00
+rem 2024-02-25T21:51:20.069297+00:00
 rem Level 3
 pip install "aiohttp>=3.9.3"
 pip install "argon2-cffi-bindings>=21.2.0"
@@ -26,6 +26,6 @@ pip install "scikit-image>=0.22.0"
 pip install "scikit-learn>=1.4.0"
 pip install "stack-data>=0.6.3"
 pip check
-pip install "torch>=2.1.2"
+pip install "torch>=2.2.1+cu121"
 pip check
 rem Level 3

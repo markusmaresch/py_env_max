@@ -1,4 +1,4 @@
-rem 2024-02-25T19:57:14.320959+00:00
+rem 2024-02-25T21:51:20.069297+00:00
 rem Level 4
 pip install "argon2-cffi>=23.1.0"
 pip check
@@ -12,7 +12,7 @@ pip check
 pip install "pythonnet>=3.0.3"
 pip install "qudida>=0.0.4"
 pip check
-pip install "torchaudio>=2.1.2"
-pip install "torchvision>=0.16.2"
+pip install "torchaudio>=2.2.1+cu121"
+pip install "torchvision>=0.17.1+cu121"
 pip check
 rem Level 4
