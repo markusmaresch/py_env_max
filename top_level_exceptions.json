@@ -31,6 +31,10 @@
             "reason": "fundamentally needed",
             "comment": ""
         },
+        "setuptools": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
 
         "wikipedia": {
             "reason": "fundamentally needed",
@@ -68,6 +72,27 @@
             "reason": "needed by pandas for writing xlsx",
             "comment": ""
         },
+        "babel": {
+            "reason": "needed by jupyterlab-server",
+            "comment": ""
+        },
+        "gitpython": {
+            "reason": "needed by streamlit",
+            "comment": ""
+        },
+        "pytest": {
+            "reason": "needed for testing",
+            "comment": ""
+        },
+        "json-numpy": {
+            "reason": "probably useful",
+            "comment": ""
+        },
+        "markdown": {
+            "reason": "probably useful",
+            "comment": ""
+        },
+
         "wordcloud": {
             "reason": "keep for interactive cloud generator",
             "comment": ""
@@ -76,13 +101,37 @@
             "reason": "keep for now",
             "comment": ""
         },
+        "arena-api": {
+            "reason": "needs to be installed as wheel",
+            "comment": "Lucid Vision Python Interface"
+        },
+        "braincube-connector": {
+            "reason": "needed very often",
+            "comment": ""
+        },
+        "yoctopuce": {
+            "reason": "needed very often",
+            "comment": ""
+        },
 
         "torch": {
             "reason": "fundamentally needed",
             "comment": ""
         },
+        "torchaudio": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+        "torchvision": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
         "torch-optimizer": {
             "reason": "keep torch related",
+            "comment": ""
+        },
+        "segment-anything": {
+            "reason": "keep SAM",
             "comment": ""
         },
         "sphinx": {
@@ -150,6 +199,11 @@
             "reason": "fundamentally needed",
             "comment": ""
         },
+        "streamlit": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
+
         "tqdm": {
             "reason": "fundamentally needed",
             "comment": "many use this"
@@ -230,6 +284,10 @@
             "comment": "https://pypi.org/project/jupyter-lsp"
         },
         "jupyter-server-ydoc": {
+            "reason": "better keep jupyter stuff",
+            "comment": ""
+        },
+        "jupyterlab": {
             "reason": "better keep jupyter stuff",
             "comment": ""
         },
