@@ -64,6 +64,10 @@
             "reason": "fundamentally needed",
             "comment": ""
         },
+        "flask": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
         "pandas": {
             "reason": "fundamentally needed",
             "comment": ""
