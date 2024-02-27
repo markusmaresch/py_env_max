@@ -1,4 +1,4 @@
-rem 2024-02-25T21:51:20.069297+00:00
+rem 2024-02-27T19:38:39.472622+00:00
 rem Level 3
 pip install "aiohttp>=3.9.3"
 pip install "argon2-cffi-bindings>=21.2.0"
@@ -6,6 +6,7 @@ pip check
 pip install "botocore>=1.34.49"
 pip install "clr-loader>=0.2.6"
 pip check
+pip install "flask>=3.0.2"
 pip install "gitpython>=3.1.42"
 pip install "google-auth>=2.28.1"
 pip install "grpc-google-iam-v1>=0.13.0"
