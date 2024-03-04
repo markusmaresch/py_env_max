@@ -242,6 +242,10 @@
             "reason": "keep google cloud",
             "comment": ""
         },
+        "google-cloud-bigquery": {
+            "reason": "keep google cloud",
+            "comment": ""
+        },
         "google-cloud-bigquery-storage": {
             "reason": "keep google cloud",
             "comment": ""
