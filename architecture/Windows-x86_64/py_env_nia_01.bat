@@ -1,4 +1,4 @@
-rem 2024-02-27T19:38:39.472622+00:00
+rem 2024-03-04T08:58:29.724925+00:00
 rem Level 1
 pip install "aioitertools>=0.11.0"
 pip install "async-lru>=2.0.4"
@@ -16,6 +16,7 @@ pip check
 pip install "debugpy>=1.8.1"
 pip install "decorator>=5.1.1"
 pip install "defusedxml>=0.7.1"
+pip install "dnspython>=2.6.1"
 pip check
 pip install "executing>=2.0.1"
 pip install "fastjsonschema>=2.19.1"

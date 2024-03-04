@@ -68,6 +68,10 @@
             "reason": "fundamentally needed",
             "comment": ""
         },
+        "email-validator": {
+            "reason": "fundamentally needed",
+            "comment": ""
+        },
         "pandas": {
             "reason": "fundamentally needed",
             "comment": ""
