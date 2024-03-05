@@ -1,4 +1,4 @@
-# 2024-02-24T00:08:24.814656+00:00
+# 2024-03-05T22:32:30.250482+00:00
 # Level 5
 pip install "albumentations>=1.3.1"
 pip check
@@ -19,6 +19,7 @@ pip install "prophet>=1.1.5"
 pip install "thinc>=8.2.2"
 pip install "torch-optimizer>=0.3.0"
 pip check
+pip install "watermark>=2.4.3"
 pip install "weasel>=0.3.4"
 pip check
 # Level 5

@@ -347,8 +347,6 @@ jupyter-packaging
 jupyter-server
 jupyter-server-fileid
 jupyter-server-terminals
-jupyter-server-ydoc
-jupyter-ydoc
 jupyterlab
 jupyterlab-pygments
 jupyterlab-server
@@ -486,6 +484,7 @@ partd
 pastedeploy
 pastel
 pathlib
+pathlib-abc
 pathspec
 pathtools
 pathy
@@ -736,6 +735,7 @@ tf-keras
 thinc
 threadpoolctl
 tifffile
+tiktoken
 tinycss2
 tinydb
 tokenizers
@@ -785,6 +785,7 @@ vispy
 waitress
 wasabi
 watchdog
+watermark
 wcwidth
 weasel
 webcolors

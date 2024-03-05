@@ -1,4 +1,4 @@
-# 2024-02-24T00:08:24.814656+00:00
+# 2024-03-05T22:32:30.250482+00:00
 # Level 2
 pip install "accessible-pygments>=0.0.4"
 pip install "aioredis>=2.0.1"
@@ -90,10 +90,8 @@ pip install "jax-jumpy>=1.0.0"
 pip install "jedi>=0.19.1"
 pip install "jinja2>=3.1.3"
 pip install "jupyter-core>=5.7.1"
-pip install "jupyter-ydoc>=0.3.4"
 pip check
 pip install "keras-preprocessing>=1.1.2"
-pip install "leather>=0.4.0"
 pip install "lightning-utilities>=0.10.1"
 pip install "linkify-it-py>=2.0.3"
 pip install "livereload>=2.6.3"
@@ -156,7 +154,7 @@ pip install "pyarrow>=15.0.0"
 pip check
 pip install "pyasn1-modules>=0.3.0"
 pip install "pyct>=0.5.0"
-pip install "pydantic-core>=2.14.6"
+pip install "pydantic-core>=2.16.3"
 pip install "pydeps>=1.12.18"
 pip install "pydot>=2.0.0"
 pip install "pyerfa>=2.0.1.1"
