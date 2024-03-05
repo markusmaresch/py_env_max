@@ -230,6 +230,7 @@ gdown
 gensim
 geographiclib
 geopy
+getmac
 gin-config
 git-lfs
 gitdb
@@ -612,6 +613,7 @@ python-editor
 python-gflags
 python-json-logger
 python-magic
+python-nmap
 python-slugify
 python-socks
 python-utils
@@ -710,6 +712,7 @@ stanio
 statsmodels
 stdlib-list
 streamz
+strenum
 subprocess32
 sympy
 tabulate
