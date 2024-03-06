@@ -282,6 +282,10 @@
             "reason": "keep google cloud",
             "comment": ""
         },
+        "google-cloud-vision": {
+            "reason": "keep google cloud",
+            "comment": ""
+        },
 
         "jupyter": {
             "reason": "better keep jupyter stuff",
