@@ -1,11 +1,11 @@
-# 2024-02-23T21:57:55.314988+00:00
+# 2024-03-14T21:11:26.806955+00:00
 # Level 1
 pip install "appnope>=0.1.4"
 pip install "astroid>=3.1.0"
 pip install "attrs>=23.2.0"
 pip check
 pip install "blinker>=1.7.0"
-pip install "cachetools>=5.3.2"
+pip install "cachetools>=5.3.3"
 pip install "certifi>=2024.2.2"
 pip install "charset-normalizer>=3.3.2"
 pip install "click>=8.1.7"
@@ -23,12 +23,13 @@ pip check
 pip install "executing>=2.0.1"
 pip install "fastjsonschema>=2.19.1"
 pip install "filelock>=3.13.1"
-pip install "flatbuffers>=23.5.26"
+pip install "flatbuffers>=24.3.7"
 pip install "fonttools>=4.49.0"
+pip install "fqdn>=1.5.1"
 pip install "fsspec>=2024.2.0"
 pip check
 pip install "google-crc32c>=1.5.0"
-pip install "grpcio>=1.62.0"
+pip install "grpcio>=1.62.1"
 pip check
 pip install "humanfriendly>=10.0"
 pip install "idna>=3.6"
@@ -36,12 +37,14 @@ pip install "isort>=5.13.2"
 pip install "itsdangerous>=2.1.2"
 pip check
 pip install "joblib>=1.3.2"
+pip install "jsonpointer>=2.4"
 pip install "jupyterlab-pygments>=0.3.0"
 pip install "jupyterlab-widgets>=3.0.10"
 pip check
 pip install "kiwisolver>=1.4.5"
 pip install "lazy-loader>=0.3"
 pip install "llvmlite>=0.42.0"
+pip install "lmdb>=1.4.1"
 pip check
 pip install "markupsafe>=2.1.5"
 pip install "mccabe>=0.7.0"
@@ -55,7 +58,7 @@ pip check
 pip install "oauthlib>=3.2.2"
 pip install "overrides>=7.7.0"
 pip check
-pip install "packaging>=23.2"
+pip install "packaging>=24.0"
 pip install "pandocfilters>=1.5.1"
 pip install "parso>=0.8.3"
 pip install "persist-queue>=0.8.1"
@@ -73,7 +76,7 @@ pip install "pycodestyle>=2.11.1"
 pip install "pycparser>=2.21"
 pip install "pyflakes>=3.2.0"
 pip install "pygments>=2.17.2"
-pip install "pyparsing>=3.1.1"
+pip install "pyparsing>=3.1.2"
 pip install "pypng>=0.20220715.0"
 pip install "python-json-logger>=2.0.7"
 pip check
@@ -84,34 +87,36 @@ pip install "pyzmq>=25.1.2"
 pip check
 pip install "rfc3986-validator>=0.1.1"
 pip install "rpds-py>=0.18.0"
-pip install "ruff>=0.2.2"
+pip install "ruff>=0.3.2"
 pip check
 pip install "send2trash>=1.8.2"
-pip install "setuptools>=69.1.1"
+pip install "setuptools>=69.2.0"
 pip install "six>=1.16.0"
-pip install "sniffio>=1.3.0"
+pip install "sniffio>=1.3.1"
 pip install "soupsieve>=2.5"
 pip check
 pip install "tenacity>=8.2.3"
 pip install "threadpoolctl>=3.3.0"
-pip install "tomlkit>=0.12.3"
+pip install "tomlkit>=0.12.4"
 pip install "tornado>=6.4"
 pip install "tqdm>=4.66.2"
-pip install "traitlets>=5.14.1"
-pip install "types-python-dateutil>=2.8.19.20240106"
-pip install "typing-extensions>=4.9.0"
+pip install "traitlets>=5.14.2"
+pip install "types-python-dateutil>=2.8.19.20240311"
+pip install "typing-extensions>=4.10.0"
 pip install "tzdata>=2024.1"
 pip check
+pip install "uri-template>=1.3.0"
 pip install "uritemplate>=4.1.1"
 pip install "urllib3>=2.2.1"
 pip check
 pip install "wcwidth>=0.2.13"
+pip install "webcolors>=1.13"
 pip install "webencodings>=0.5.1"
 pip install "websocket-client>=1.7.0"
-pip install "wheel>=0.42.0"
+pip install "wheel>=0.43.0"
 pip install "widgetsnbextension>=4.0.10"
 pip check
 pip install "xlsxwriter>=3.2.0"
-pip install "zipp>=3.17.0"
+pip install "zipp>=3.18.0"
 pip check
 # Level 1

@@ -1,5 +1,5 @@
-# 2024-02-23T21:57:55.314988+00:00
+# 2024-03-14T21:11:26.806955+00:00
 # Level 9
-pip install "jupyter-lsp>=2.2.2"
+pip install "jupyter-lsp>=2.2.4"
 pip check
 # Level 9

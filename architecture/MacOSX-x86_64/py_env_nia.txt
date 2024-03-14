@@ -34,6 +34,7 @@ flask
 flatbuffers
 fonttools
 fpdf2
+fqdn
 fsspec
 google-api-core
 google-api-python-client
@@ -58,6 +59,7 @@ googleapis-common-protos
 grpc-google-iam-v1
 grpcio
 grpcio-status
+h5py
 httplib2
 humanfriendly
 idna
@@ -65,11 +67,13 @@ imageio
 importlib-metadata
 ipykernel
 ipython
+isoduration
 isort
 itsdangerous
 jedi
 jinja2
 joblib
+jsonpointer
 jsonschema
 jsonschema-specifications
 jupyter-client
@@ -83,6 +87,7 @@ jupyterlab-widgets
 kiwisolver
 lazy-loader
 llvmlite
+lmdb
 markupsafe
 matplotlib
 matplotlib-inline
@@ -166,9 +171,11 @@ traitlets
 types-python-dateutil
 typing-extensions
 tzdata
+uri-template
 uritemplate
 urllib3
 wcwidth
+webcolors
 webencodings
 websocket-client
 werkzeug
