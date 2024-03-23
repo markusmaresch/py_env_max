@@ -1,8 +1,8 @@
-# 2024-03-14T21:11:26.806955+00:00
+# 2024-03-23T20:06:57.608530+00:00
 # Level 4
 pip install "argon2-cffi>=23.1.0"
 pip check
-pip install "google-api-core>=2.17.1"
+pip install "google-api-core>=2.18.0"
 pip install "google-auth-httplib2>=0.2.0"
 pip install "google-auth-oauthlib>=1.2.0"
 pip check

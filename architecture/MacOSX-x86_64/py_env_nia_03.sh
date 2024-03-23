@@ -1,10 +1,10 @@
-# 2024-03-14T21:11:26.806955+00:00
+# 2024-03-23T20:06:57.608530+00:00
 # Level 3
 pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
 pip check
 pip install "flask>=3.0.2"
-pip install "google-auth>=2.28.2"
+pip install "google-auth>=2.29.0"
 pip install "grpc-google-iam-v1>=0.13.0"
 pip install "grpcio-status>=1.62.1"
 pip check
@@ -15,7 +15,7 @@ pip check
 pip install "matplotlib>=3.8.3"
 pip install "pandas>=2.2.1"
 pip check
-pip install "requests-oauthlib>=1.4.0"
+pip install "requests-oauthlib>=2.0.0"
 pip install "scikit-image>=0.22.0"
 pip install "stack-data>=0.6.3"
 pip check

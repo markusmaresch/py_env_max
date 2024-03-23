@@ -1,4 +1,4 @@
-# 2024-03-14T21:11:26.806955+00:00
+# 2024-03-23T20:06:57.608530+00:00
 # Level 2
 pip install "anyio>=4.3.0"
 pip install "asttokens>=2.4.1"
@@ -21,14 +21,14 @@ pip install "h5py>=3.10.0"
 pip install "httplib2>=0.22.0"
 pip check
 pip install "imageio>=2.34.0"
-pip install "importlib-metadata>=7.0.2"
+pip install "importlib-metadata>=7.1.0"
 pip check
 pip install "jedi>=0.19.1"
 pip install "jinja2>=3.1.3"
 pip install "jupyter-core>=5.7.2"
 pip check
 pip install "matplotlib-inline>=0.1.6"
-pip install "numba>=0.59.0"
+pip install "numba>=0.59.1"
 pip check
 pip install "opencv-contrib-python>=4.9.0.80"
 pip install "opencv-python>=4.9.0.80"
@@ -38,12 +38,12 @@ pip install "pexpect>=4.9.0"
 pip install "plotly>=5.20.0"
 pip install "prompt-toolkit>=3.0.43"
 pip install "proto-plus>=1.23.0"
-pip install "pyarrow>=15.0.1"
+pip install "pyarrow>=15.0.2"
 pip install "pyasn1-modules>=0.3.0"
 pip install "python-dateutil>=2.9.0"
 pip check
 pip install "qrcode>=7.4.2"
-pip install "referencing>=0.33.0"
+pip install "referencing>=0.34.0"
 pip install "requests>=2.31.0"
 pip install "retrying>=1.3.4"
 pip install "rfc3339-validator>=0.1.4"

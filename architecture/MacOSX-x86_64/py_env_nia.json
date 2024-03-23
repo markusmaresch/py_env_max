@@ -1,6 +1,6 @@
 {
     "config": {
-        "datetime": "2024-03-14T21:05:10.545200+00:00",
+        "datetime": "2024-03-23T20:04:31.591116+00:00",
         "note": "JSON style nested database for packages"
     },
     "packages": {
@@ -8,7 +8,7 @@
             "level": 2,
             "package_name": "anyio",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "4.3.0",
                 "4.2.0",
@@ -74,7 +74,7 @@
             "level": 1,
             "package_name": "appnope",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.1.4",
                 "0.1.3",
@@ -100,7 +100,7 @@
             "level": 4,
             "package_name": "argon2-cffi",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "23.1.0",
                 "21.3.0",
@@ -150,7 +150,7 @@
             "level": 3,
             "package_name": "argon2-cffi-bindings",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "21.2.0",
                 "21.1.0"
@@ -179,7 +179,7 @@
             "level": 3,
             "package_name": "arrow",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.3.0",
                 "1.2.3",
@@ -240,7 +240,7 @@
                 },
                 {
                     "package_name": "types-python-dateutil",
-                    "version_installed": "2.8.19.20240311",
+                    "version_installed": "2.9.0.20240316",
                     "version_required": ">=2.8.10"
                 }
             ],
@@ -252,7 +252,7 @@
             "level": 1,
             "package_name": "astroid",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.1.0",
                 "3.0.3",
@@ -303,7 +303,7 @@
             "level": 2,
             "package_name": "asttokens",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.4.1",
                 "2.4.0",
@@ -357,7 +357,7 @@
             "level": 1,
             "package_name": "attrs",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "23.2.0",
                 "23.1.0",
@@ -400,8 +400,9 @@
             "level": 2,
             "package_name": "beautifulsoup4",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "4.13.0b2",
                 "4.12.3",
                 "4.12.2",
                 "4.12.1",
@@ -440,8 +441,7 @@
                 "4.1.0",
                 "4.0.5",
                 "4.0.4",
-                "4.0.3",
-                "4.0.2"
+                "4.0.3"
             ],
             "required_by": [
                 "nbconvert"
@@ -461,7 +461,7 @@
             "level": 2,
             "package_name": "bleach",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "6.1.0",
                 "6.0.0",
@@ -526,7 +526,7 @@
             "level": 1,
             "package_name": "blinker",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.7.0",
                 "1.6.3",
@@ -553,7 +553,7 @@
             "level": 1,
             "package_name": "cachetools",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "5.3.3",
                 "5.3.2",
@@ -607,7 +607,7 @@
             "level": 1,
             "package_name": "certifi",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2024.2.2",
                 "2023.11.17",
@@ -661,7 +661,7 @@
             "level": 2,
             "package_name": "cffi",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.16.0",
                 "1.16.0rc2",
@@ -721,7 +721,7 @@
             "level": 1,
             "package_name": "charset-normalizer",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.3.2",
                 "3.3.1",
@@ -775,7 +775,7 @@
             "level": 1,
             "package_name": "click",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "8.1.7",
                 "8.1.6",
@@ -829,7 +829,7 @@
             "level": 2,
             "package_name": "coloredlogs",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "15.0.1",
                 "15.0",
@@ -887,7 +887,7 @@
             "level": 2,
             "package_name": "comm",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.2.2",
                 "0.2.1",
@@ -917,7 +917,7 @@
             "level": 2,
             "package_name": "contourpy",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.2.0",
                 "1.1.1",
@@ -955,7 +955,7 @@
             "level": 1,
             "package_name": "cycler",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.12.1",
                 "0.12.0",
@@ -975,7 +975,7 @@
             "level": 1,
             "package_name": "dash-core-components",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.0.0",
                 "2.0.0rc1",
@@ -1026,7 +1026,7 @@
             "level": 1,
             "package_name": "dash-html-components",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.0.0",
                 "2.0.0rc1",
@@ -1077,7 +1077,7 @@
             "level": 1,
             "package_name": "dash-table",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "5.0.0",
                 "5.0.0rc1",
@@ -1128,7 +1128,7 @@
             "level": 1,
             "package_name": "debugpy",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.8.1",
                 "1.8.0",
@@ -1179,7 +1179,7 @@
             "level": 1,
             "package_name": "decorator",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "5.1.1",
                 "5.1.0",
@@ -1228,7 +1228,7 @@
             "level": 1,
             "package_name": "defusedxml",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.8.0rc2",
                 "0.8.0rc1",
@@ -1256,7 +1256,7 @@
             "level": 1,
             "package_name": "dill",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.3.8",
                 "0.3.7",
@@ -1294,7 +1294,7 @@
             "level": 1,
             "package_name": "docopt",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.6.2",
                 "0.6.1",
@@ -1316,7 +1316,7 @@
             "level": 1,
             "package_name": "executing",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.0.1",
                 "2.0.0",
@@ -1363,7 +1363,7 @@
             "level": 1,
             "package_name": "fastjsonschema",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.19.1",
                 "2.19.0",
@@ -1417,7 +1417,7 @@
             "level": 1,
             "package_name": "filelock",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.13.1",
                 "3.13.0",
@@ -1471,7 +1471,7 @@
             "level": 2,
             "package_name": "flake8",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "7.0.0",
                 "6.1.0",
@@ -1539,7 +1539,7 @@
             "level": 3,
             "package_name": "flask",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.0.2",
                 "3.0.1",
@@ -1631,7 +1631,7 @@
             "level": 1,
             "package_name": "flatbuffers",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "24.3.7",
                 "24.3.6",
@@ -1661,8 +1661,9 @@
             "level": 1,
             "package_name": "fonttools",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "4.50.0",
                 "4.49.0",
                 "4.48.1",
                 "4.47.2",
@@ -1701,22 +1702,21 @@
                 "4.34.0",
                 "4.33.3",
                 "4.33.2",
-                "4.33.1",
-                "4.33.0"
+                "4.33.1"
             ],
             "required_by": [
                 "fpdf2",
                 "matplotlib"
             ],
             "summary": "Tools to manipulate font files",
-            "version_installed": "4.49.0",
-            "version_required": "4.49.0"
+            "version_installed": "4.50.0",
+            "version_required": "4.50.0"
         },
         "fpdf2": {
             "level": 2,
             "package_name": "fpdf2",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.7.8",
                 "2.7.7",
@@ -1766,7 +1766,7 @@
                 },
                 {
                     "package_name": "fonttools",
-                    "version_installed": "4.49.0",
+                    "version_installed": "4.50.0",
                     "version_required": ">=4.34.0"
                 },
                 {
@@ -1782,6 +1782,22 @@
         "fqdn": {
             "level": 1,
             "package_name": "fqdn",
+            "pypi_package": true,
+            "releases_checked_time": 1711224272,
+            "releases_recent": [
+                "1.5.1",
+                "1.5.0",
+                "1.4.0",
+                "1.3.1",
+                "1.3.0",
+                "1.2.0",
+                "1.1.0",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "0.0.1"
+            ],
+            "summary": "Validates fully-qualified domain names against RFC 1123, so that they are acceptable to modern bowsers",
             "version_installed": "1.5.1",
             "version_required": "1.5.1"
         },
@@ -1789,8 +1805,10 @@
             "level": 1,
             "package_name": "fsspec",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "2024.3.1",
+                "2024.3.0",
                 "2024.2.0",
                 "2023.12.2",
                 "2023.12.1",
@@ -1828,23 +1846,23 @@
                 "2021.4.0",
                 "0.9.0",
                 "0.8.7",
-                "0.8.6",
-                "0.8.5",
-                "0.8.4"
+                "0.8.6"
             ],
             "required_by": [
                 "torch"
             ],
             "summary": "File-system specification",
-            "version_installed": "2024.2.0",
-            "version_required": "2024.2.0"
+            "version_installed": "2024.3.1",
+            "version_required": "2024.3.1"
         },
         "google-api-core": {
             "level": 4,
             "package_name": "google-api-core",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "2.18.0",
+                "2.18.0rc0",
                 "2.17.1",
                 "2.17.1rc1",
                 "2.17.0",
@@ -1882,9 +1900,7 @@
                 "2.6.0",
                 "2.5.0",
                 "2.4.0",
-                "2.3.2",
-                "2.3.1",
-                "2.3.0"
+                "2.3.2"
             ],
             "required_by": [
                 "google-api-python-client",
@@ -1935,7 +1951,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.28.2",
+                    "version_installed": "2.29.0",
                     "version_required": ">=2.14.1,<3.0.dev0"
                 },
                 {
@@ -1949,6 +1965,18 @@
                     ],
                     "version_installed": "1.63.0",
                     "version_required": ">=1.56.2,<2.0.dev0"
+                },
+                {
+                    "package_name": "proto-plus",
+                    "requires": [
+                        {
+                            "package_name": "protobuf",
+                            "version_installed": "4.25.3",
+                            "version_required": ">=3.19.0,<5.0.0dev"
+                        }
+                    ],
+                    "version_installed": "1.23.0",
+                    "version_required": ">=1.22.3,<2.0.0dev"
                 },
                 {
                     "package_name": "protobuf",
@@ -1984,14 +2012,14 @@
                 }
             ],
             "summary": "Google API client core library",
-            "version_installed": "2.17.1",
-            "version_required": "2.17.1"
+            "version_installed": "2.18.0",
+            "version_required": "2.18.0"
         },
         "google-api-python-client": {
             "level": 5,
             "package_name": "google-api-python-client",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.99.0",
                 "2.98.0",
@@ -2071,7 +2099,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -2085,6 +2113,18 @@
                             ],
                             "version_installed": "1.63.0",
                             "version_required": ">=1.56.2,<2.0.dev0"
+                        },
+                        {
+                            "package_name": "proto-plus",
+                            "requires": [
+                                {
+                                    "package_name": "protobuf",
+                                    "version_installed": "4.25.3",
+                                    "version_required": ">=3.19.0,<5.0.0dev"
+                                }
+                            ],
+                            "version_installed": "1.23.0",
+                            "version_required": ">=1.22.3,<2.0.0dev"
                         },
                         {
                             "package_name": "protobuf",
@@ -2119,7 +2159,7 @@
                             "version_required": ">=2.18.0,<3.0.0.dev0"
                         }
                     ],
-                    "version_installed": "2.17.1",
+                    "version_installed": "2.18.0",
                     "version_required": ">=1.31.5,<3.0.0.dev0,!=2.3.0,!=2.2.*,!=2.1.*,!=2.0.*"
                 },
                 {
@@ -2155,7 +2195,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.28.2",
+                    "version_installed": "2.29.0",
                     "version_required": ">=1.19.0,<3.0.0.dev0"
                 },
                 {
@@ -2194,7 +2234,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2"
+                            "version_installed": "2.29.0"
                         },
                         {
                             "package_name": "httplib2",
@@ -2238,8 +2278,9 @@
             "level": 3,
             "package_name": "google-auth",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "2.29.0",
                 "2.28.2",
                 "2.28.1",
                 "2.28.0",
@@ -2278,8 +2319,7 @@
                 "2.13.0",
                 "2.12.0",
                 "2.11.1",
-                "2.11.0",
-                "2.10.0"
+                "2.11.0"
             ],
             "required_by": [
                 "google-api-core",
@@ -2329,14 +2369,14 @@
                 }
             ],
             "summary": "Google Authentication Library",
-            "version_installed": "2.28.2",
-            "version_required": "2.28.2"
+            "version_installed": "2.29.0",
+            "version_required": "2.29.0"
         },
         "google-auth-httplib2": {
             "level": 4,
             "package_name": "google-auth-httplib2",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.2.0",
                 "0.1.1",
@@ -2383,7 +2423,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.28.2"
+                    "version_installed": "2.29.0"
                 },
                 {
                     "package_name": "httplib2",
@@ -2406,7 +2446,7 @@
             "level": 4,
             "package_name": "google-auth-oauthlib",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.2.0",
                 "1.1.0",
@@ -2466,7 +2506,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.28.2",
+                    "version_installed": "2.29.0",
                     "version_required": ">=2.15.0"
                 },
                 {
@@ -2505,7 +2545,7 @@
                             "version_required": ">=2.0.0"
                         }
                     ],
-                    "version_installed": "1.4.0",
+                    "version_installed": "2.0.0",
                     "version_required": ">=0.7.0"
                 }
             ],
@@ -2517,7 +2557,7 @@
             "level": 7,
             "package_name": "google-cloud-aiplatform",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.44.0",
                 "1.43.0",
@@ -2597,7 +2637,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -2611,6 +2651,18 @@
                             ],
                             "version_installed": "1.63.0",
                             "version_required": ">=1.56.2,<2.0.dev0"
+                        },
+                        {
+                            "package_name": "proto-plus",
+                            "requires": [
+                                {
+                                    "package_name": "protobuf",
+                                    "version_installed": "4.25.3",
+                                    "version_required": ">=3.19.0,<5.0.0dev"
+                                }
+                            ],
+                            "version_installed": "1.23.0",
+                            "version_required": ">=1.22.3,<2.0.0dev"
                         },
                         {
                             "package_name": "protobuf",
@@ -2645,7 +2697,7 @@
                             "version_required": ">=2.18.0,<3.0.0.dev0"
                         }
                     ],
-                    "version_installed": "2.17.1",
+                    "version_installed": "2.18.0",
                     "version_required": ">=1.34.1,<3.0.0dev,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.1.*,!=2.0.*"
                 },
                 {
@@ -2681,7 +2733,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.28.2",
+                    "version_installed": "2.29.0",
                     "version_required": ">=2.14.1,<3.0.0dev"
                 },
                 {
@@ -2723,7 +2775,7 @@
                                             "version_required": ">=3.1.4,<5"
                                         }
                                     ],
-                                    "version_installed": "2.28.2",
+                                    "version_installed": "2.29.0",
                                     "version_required": ">=2.14.1,<3.0.dev0"
                                 },
                                 {
@@ -2737,6 +2789,18 @@
                                     ],
                                     "version_installed": "1.63.0",
                                     "version_required": ">=1.56.2,<2.0.dev0"
+                                },
+                                {
+                                    "package_name": "proto-plus",
+                                    "requires": [
+                                        {
+                                            "package_name": "protobuf",
+                                            "version_installed": "4.25.3",
+                                            "version_required": ">=3.19.0,<5.0.0dev"
+                                        }
+                                    ],
+                                    "version_installed": "1.23.0",
+                                    "version_required": ">=1.22.3,<2.0.0dev"
                                 },
                                 {
                                     "package_name": "protobuf",
@@ -2771,7 +2835,7 @@
                                     "version_required": ">=2.18.0,<3.0.0.dev0"
                                 }
                             ],
-                            "version_installed": "2.17.1",
+                            "version_installed": "2.18.0",
                             "version_required": ">=1.34.1,<3.0.0dev,!=2.9.*,!=2.8.*,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.10.*,!=2.1.*,!=2.0.*"
                         },
                         {
@@ -2807,7 +2871,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=2.14.1,<3.0.0dev"
                         },
                         {
@@ -2849,7 +2913,7 @@
                                                     "version_required": ">=3.1.4,<5"
                                                 }
                                             ],
-                                            "version_installed": "2.28.2",
+                                            "version_installed": "2.29.0",
                                             "version_required": ">=2.14.1,<3.0.dev0"
                                         },
                                         {
@@ -2863,6 +2927,18 @@
                                             ],
                                             "version_installed": "1.63.0",
                                             "version_required": ">=1.56.2,<2.0.dev0"
+                                        },
+                                        {
+                                            "package_name": "proto-plus",
+                                            "requires": [
+                                                {
+                                                    "package_name": "protobuf",
+                                                    "version_installed": "4.25.3",
+                                                    "version_required": ">=3.19.0,<5.0.0dev"
+                                                }
+                                            ],
+                                            "version_installed": "1.23.0",
+                                            "version_required": ">=1.22.3,<2.0.0dev"
                                         },
                                         {
                                             "package_name": "protobuf",
@@ -2897,7 +2973,7 @@
                                             "version_required": ">=2.18.0,<3.0.0.dev0"
                                         }
                                     ],
-                                    "version_installed": "2.17.1",
+                                    "version_installed": "2.18.0",
                                     "version_required": ">=1.31.6,<3.0.0dev,!=2.3.0,!=2.2.*,!=2.1.*,!=2.0.*"
                                 },
                                 {
@@ -2933,7 +3009,7 @@
                                             "version_required": ">=3.1.4,<5"
                                         }
                                     ],
-                                    "version_installed": "2.28.2",
+                                    "version_installed": "2.29.0",
                                     "version_required": ">=1.25.0,<3.0dev"
                                 }
                             ],
@@ -3039,7 +3115,7 @@
                                             "version_required": ">=3.1.4,<5"
                                         }
                                     ],
-                                    "version_installed": "2.28.2",
+                                    "version_installed": "2.29.0",
                                     "version_required": ">=2.14.1,<3.0.dev0"
                                 },
                                 {
@@ -3053,6 +3129,18 @@
                                     ],
                                     "version_installed": "1.63.0",
                                     "version_required": ">=1.56.2,<2.0.dev0"
+                                },
+                                {
+                                    "package_name": "proto-plus",
+                                    "requires": [
+                                        {
+                                            "package_name": "protobuf",
+                                            "version_installed": "4.25.3",
+                                            "version_required": ">=3.19.0,<5.0.0dev"
+                                        }
+                                    ],
+                                    "version_installed": "1.23.0",
+                                    "version_required": ">=1.22.3,<2.0.0dev"
                                 },
                                 {
                                     "package_name": "protobuf",
@@ -3087,7 +3175,7 @@
                                     "version_required": ">=2.18.0,<3.0.0.dev0"
                                 }
                             ],
-                            "version_installed": "2.17.1",
+                            "version_installed": "2.18.0",
                             "version_required": ">=1.34.1,<3.0.0dev,!=2.9.*,!=2.8.*,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.10.*,!=2.1.*,!=2.0.*"
                         },
                         {
@@ -3123,7 +3211,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=2.14.1,<3.0.0dev,!=2.25.0,!=2.24.0"
                         },
                         {
@@ -3215,7 +3303,7 @@
                                             "version_required": ">=3.1.4,<5"
                                         }
                                     ],
-                                    "version_installed": "2.28.2",
+                                    "version_installed": "2.29.0",
                                     "version_required": ">=2.14.1,<3.0.dev0"
                                 },
                                 {
@@ -3229,6 +3317,18 @@
                                     ],
                                     "version_installed": "1.63.0",
                                     "version_required": ">=1.56.2,<2.0.dev0"
+                                },
+                                {
+                                    "package_name": "proto-plus",
+                                    "requires": [
+                                        {
+                                            "package_name": "protobuf",
+                                            "version_installed": "4.25.3",
+                                            "version_required": ">=3.19.0,<5.0.0dev"
+                                        }
+                                    ],
+                                    "version_installed": "1.23.0",
+                                    "version_required": ">=1.22.3,<2.0.0dev"
                                 },
                                 {
                                     "package_name": "protobuf",
@@ -3263,7 +3363,7 @@
                                     "version_required": ">=2.18.0,<3.0.0.dev0"
                                 }
                             ],
-                            "version_installed": "2.17.1",
+                            "version_installed": "2.18.0",
                             "version_required": ">=2.15.0,<3.0.0dev"
                         },
                         {
@@ -3299,7 +3399,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=2.26.1,<3.0dev"
                         },
                         {
@@ -3341,7 +3441,7 @@
                                                     "version_required": ">=3.1.4,<5"
                                                 }
                                             ],
-                                            "version_installed": "2.28.2",
+                                            "version_installed": "2.29.0",
                                             "version_required": ">=2.14.1,<3.0.dev0"
                                         },
                                         {
@@ -3355,6 +3455,18 @@
                                             ],
                                             "version_installed": "1.63.0",
                                             "version_required": ">=1.56.2,<2.0.dev0"
+                                        },
+                                        {
+                                            "package_name": "proto-plus",
+                                            "requires": [
+                                                {
+                                                    "package_name": "protobuf",
+                                                    "version_installed": "4.25.3",
+                                                    "version_required": ">=3.19.0,<5.0.0dev"
+                                                }
+                                            ],
+                                            "version_installed": "1.23.0",
+                                            "version_required": ">=1.22.3,<2.0.0dev"
                                         },
                                         {
                                             "package_name": "protobuf",
@@ -3389,7 +3501,7 @@
                                             "version_required": ">=2.18.0,<3.0.0.dev0"
                                         }
                                     ],
-                                    "version_installed": "2.17.1",
+                                    "version_installed": "2.18.0",
                                     "version_required": ">=1.31.6,<3.0.0dev,!=2.3.0,!=2.2.*,!=2.1.*,!=2.0.*"
                                 },
                                 {
@@ -3425,7 +3537,7 @@
                                             "version_required": ">=3.1.4,<5"
                                         }
                                     ],
-                                    "version_installed": "2.28.2",
+                                    "version_installed": "2.29.0",
                                     "version_required": ">=1.25.0,<3.0dev"
                                 }
                             ],
@@ -3477,7 +3589,7 @@
                             "version_required": ">=2.18.0,<3.0.0dev"
                         }
                     ],
-                    "version_installed": "2.15.0",
+                    "version_installed": "2.16.0",
                     "version_required": ">=1.32.0,<3.0.0dev"
                 },
                 {
@@ -3523,7 +3635,7 @@
             "level": 5,
             "package_name": "google-cloud-artifact-registry",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.11.3",
                 "1.11.2",
@@ -3603,7 +3715,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -3617,6 +3729,18 @@
                             ],
                             "version_installed": "1.63.0",
                             "version_required": ">=1.56.2,<2.0.dev0"
+                        },
+                        {
+                            "package_name": "proto-plus",
+                            "requires": [
+                                {
+                                    "package_name": "protobuf",
+                                    "version_installed": "4.25.3",
+                                    "version_required": ">=3.19.0,<5.0.0dev"
+                                }
+                            ],
+                            "version_installed": "1.23.0",
+                            "version_required": ">=1.22.3,<2.0.0dev"
                         },
                         {
                             "package_name": "protobuf",
@@ -3651,7 +3775,7 @@
                             "version_required": ">=2.18.0,<3.0.0.dev0"
                         }
                     ],
-                    "version_installed": "2.17.1",
+                    "version_installed": "2.18.0",
                     "version_required": ">=1.34.1,<3.0.0dev,!=2.9.*,!=2.8.*,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.10.*,!=2.1.*,!=2.0.*"
                 },
                 {
@@ -3687,7 +3811,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.28.2",
+                    "version_installed": "2.29.0",
                     "version_required": ">=2.14.1,<3.0.0dev,!=2.25.0,!=2.24.0"
                 },
                 {
@@ -3745,7 +3869,7 @@
             "level": 6,
             "package_name": "google-cloud-bigquery",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.19.0",
                 "3.18.0",
@@ -3828,7 +3952,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -3842,6 +3966,18 @@
                             ],
                             "version_installed": "1.63.0",
                             "version_required": ">=1.56.2,<2.0.dev0"
+                        },
+                        {
+                            "package_name": "proto-plus",
+                            "requires": [
+                                {
+                                    "package_name": "protobuf",
+                                    "version_installed": "4.25.3",
+                                    "version_required": ">=3.19.0,<5.0.0dev"
+                                }
+                            ],
+                            "version_installed": "1.23.0",
+                            "version_required": ">=1.22.3,<2.0.0dev"
                         },
                         {
                             "package_name": "protobuf",
@@ -3876,7 +4012,7 @@
                             "version_required": ">=2.18.0,<3.0.0.dev0"
                         }
                     ],
-                    "version_installed": "2.17.1",
+                    "version_installed": "2.18.0",
                     "version_required": ">=1.34.1,<3.0.0dev,!=2.9.*,!=2.8.*,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.10.*,!=2.1.*,!=2.0.*"
                 },
                 {
@@ -3912,7 +4048,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.28.2",
+                    "version_installed": "2.29.0",
                     "version_required": ">=2.14.1,<3.0.0dev"
                 },
                 {
@@ -3954,7 +4090,7 @@
                                             "version_required": ">=3.1.4,<5"
                                         }
                                     ],
-                                    "version_installed": "2.28.2",
+                                    "version_installed": "2.29.0",
                                     "version_required": ">=2.14.1,<3.0.dev0"
                                 },
                                 {
@@ -3968,6 +4104,18 @@
                                     ],
                                     "version_installed": "1.63.0",
                                     "version_required": ">=1.56.2,<2.0.dev0"
+                                },
+                                {
+                                    "package_name": "proto-plus",
+                                    "requires": [
+                                        {
+                                            "package_name": "protobuf",
+                                            "version_installed": "4.25.3",
+                                            "version_required": ">=3.19.0,<5.0.0dev"
+                                        }
+                                    ],
+                                    "version_installed": "1.23.0",
+                                    "version_required": ">=1.22.3,<2.0.0dev"
                                 },
                                 {
                                     "package_name": "protobuf",
@@ -4002,7 +4150,7 @@
                                     "version_required": ">=2.18.0,<3.0.0.dev0"
                                 }
                             ],
-                            "version_installed": "2.17.1",
+                            "version_installed": "2.18.0",
                             "version_required": ">=1.31.6,<3.0.0dev,!=2.3.0,!=2.2.*,!=2.1.*,!=2.0.*"
                         },
                         {
@@ -4038,7 +4186,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=1.25.0,<3.0dev"
                         }
                     ],
@@ -4110,7 +4258,7 @@
             "level": 5,
             "package_name": "google-cloud-bigquery-storage",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.24.0",
                 "2.23.0",
@@ -4190,7 +4338,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -4204,6 +4352,18 @@
                             ],
                             "version_installed": "1.63.0",
                             "version_required": ">=1.56.2,<2.0.dev0"
+                        },
+                        {
+                            "package_name": "proto-plus",
+                            "requires": [
+                                {
+                                    "package_name": "protobuf",
+                                    "version_installed": "4.25.3",
+                                    "version_required": ">=3.19.0,<5.0.0dev"
+                                }
+                            ],
+                            "version_installed": "1.23.0",
+                            "version_required": ">=1.22.3,<2.0.0dev"
                         },
                         {
                             "package_name": "protobuf",
@@ -4238,7 +4398,7 @@
                             "version_required": ">=2.18.0,<3.0.0.dev0"
                         }
                     ],
-                    "version_installed": "2.17.1",
+                    "version_installed": "2.18.0",
                     "version_required": ">=1.34.0,<3.0.0dev,!=2.9.*,!=2.8.*,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.10.*,!=2.1.*,!=2.0.*"
                 },
                 {
@@ -4279,7 +4439,7 @@
             "level": 5,
             "package_name": "google-cloud-core",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.4.1",
                 "2.4.0",
@@ -4364,7 +4524,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -4378,6 +4538,18 @@
                             ],
                             "version_installed": "1.63.0",
                             "version_required": ">=1.56.2,<2.0.dev0"
+                        },
+                        {
+                            "package_name": "proto-plus",
+                            "requires": [
+                                {
+                                    "package_name": "protobuf",
+                                    "version_installed": "4.25.3",
+                                    "version_required": ">=3.19.0,<5.0.0dev"
+                                }
+                            ],
+                            "version_installed": "1.23.0",
+                            "version_required": ">=1.22.3,<2.0.0dev"
                         },
                         {
                             "package_name": "protobuf",
@@ -4412,7 +4584,7 @@
                             "version_required": ">=2.18.0,<3.0.0.dev0"
                         }
                     ],
-                    "version_installed": "2.17.1",
+                    "version_installed": "2.18.0",
                     "version_required": ">=1.31.6,<3.0.0dev,!=2.3.0,!=2.2.*,!=2.1.*,!=2.0.*"
                 },
                 {
@@ -4448,7 +4620,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.28.2",
+                    "version_installed": "2.29.0",
                     "version_required": ">=1.25.0,<3.0dev"
                 }
             ],
@@ -4460,7 +4632,7 @@
             "level": 6,
             "package_name": "google-cloud-datastore",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.19.0",
                 "2.18.0",
@@ -4540,7 +4712,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -4554,6 +4726,18 @@
                             ],
                             "version_installed": "1.63.0",
                             "version_required": ">=1.56.2,<2.0.dev0"
+                        },
+                        {
+                            "package_name": "proto-plus",
+                            "requires": [
+                                {
+                                    "package_name": "protobuf",
+                                    "version_installed": "4.25.3",
+                                    "version_required": ">=3.19.0,<5.0.0dev"
+                                }
+                            ],
+                            "version_installed": "1.23.0",
+                            "version_required": ">=1.22.3,<2.0.0dev"
                         },
                         {
                             "package_name": "protobuf",
@@ -4588,7 +4772,7 @@
                             "version_required": ">=2.18.0,<3.0.0.dev0"
                         }
                     ],
-                    "version_installed": "2.17.1",
+                    "version_installed": "2.18.0",
                     "version_required": ">=1.34.0,<3.0.0dev,!=2.9.*,!=2.8.*,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.10.*,!=2.1.*,!=2.0.*"
                 },
                 {
@@ -4630,7 +4814,7 @@
                                             "version_required": ">=3.1.4,<5"
                                         }
                                     ],
-                                    "version_installed": "2.28.2",
+                                    "version_installed": "2.29.0",
                                     "version_required": ">=2.14.1,<3.0.dev0"
                                 },
                                 {
@@ -4644,6 +4828,18 @@
                                     ],
                                     "version_installed": "1.63.0",
                                     "version_required": ">=1.56.2,<2.0.dev0"
+                                },
+                                {
+                                    "package_name": "proto-plus",
+                                    "requires": [
+                                        {
+                                            "package_name": "protobuf",
+                                            "version_installed": "4.25.3",
+                                            "version_required": ">=3.19.0,<5.0.0dev"
+                                        }
+                                    ],
+                                    "version_installed": "1.23.0",
+                                    "version_required": ">=1.22.3,<2.0.0dev"
                                 },
                                 {
                                     "package_name": "protobuf",
@@ -4678,7 +4874,7 @@
                                     "version_required": ">=2.18.0,<3.0.0.dev0"
                                 }
                             ],
-                            "version_installed": "2.17.1",
+                            "version_installed": "2.18.0",
                             "version_required": ">=1.31.6,<3.0.0dev,!=2.3.0,!=2.2.*,!=2.1.*,!=2.0.*"
                         },
                         {
@@ -4714,7 +4910,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=1.25.0,<3.0dev"
                         }
                     ],
@@ -4759,7 +4955,7 @@
             "level": 5,
             "package_name": "google-cloud-discoveryengine",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.11.10",
                 "0.11.9",
@@ -4826,7 +5022,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -4840,6 +5036,18 @@
                             ],
                             "version_installed": "1.63.0",
                             "version_required": ">=1.56.2,<2.0.dev0"
+                        },
+                        {
+                            "package_name": "proto-plus",
+                            "requires": [
+                                {
+                                    "package_name": "protobuf",
+                                    "version_installed": "4.25.3",
+                                    "version_required": ">=3.19.0,<5.0.0dev"
+                                }
+                            ],
+                            "version_installed": "1.23.0",
+                            "version_required": ">=1.22.3,<2.0.0dev"
                         },
                         {
                             "package_name": "protobuf",
@@ -4874,7 +5082,7 @@
                             "version_required": ">=2.18.0,<3.0.0.dev0"
                         }
                     ],
-                    "version_installed": "2.17.1",
+                    "version_installed": "2.18.0",
                     "version_required": ">=1.34.1,<3.0.0dev,!=2.9.*,!=2.8.*,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.10.*,!=2.1.*,!=2.0.*"
                 },
                 {
@@ -4910,7 +5118,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.28.2",
+                    "version_installed": "2.29.0",
                     "version_required": ">=2.14.1,<3.0.0dev,!=2.25.0,!=2.24.0"
                 },
                 {
@@ -4939,8 +5147,9 @@
             "level": 5,
             "package_name": "google-cloud-documentai",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "2.24.2",
                 "2.24.1",
                 "2.24.0",
                 "2.23.0",
@@ -4979,8 +5188,7 @@
                 "2.0.1",
                 "2.0.0",
                 "1.5.1",
-                "1.5.0",
-                "1.4.2"
+                "1.5.0"
             ],
             "requires": [
                 {
@@ -5019,7 +5227,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -5033,6 +5241,18 @@
                             ],
                             "version_installed": "1.63.0",
                             "version_required": ">=1.56.2,<2.0.dev0"
+                        },
+                        {
+                            "package_name": "proto-plus",
+                            "requires": [
+                                {
+                                    "package_name": "protobuf",
+                                    "version_installed": "4.25.3",
+                                    "version_required": ">=3.19.0,<5.0.0dev"
+                                }
+                            ],
+                            "version_installed": "1.23.0",
+                            "version_required": ">=1.22.3,<2.0.0dev"
                         },
                         {
                             "package_name": "protobuf",
@@ -5067,7 +5287,7 @@
                             "version_required": ">=2.18.0,<3.0.0.dev0"
                         }
                     ],
-                    "version_installed": "2.17.1",
+                    "version_installed": "2.18.0",
                     "version_required": ">=1.34.1,<3.0.0dev,!=2.9.*,!=2.8.*,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.10.*,!=2.1.*,!=2.0.*"
                 },
                 {
@@ -5103,7 +5323,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.28.2",
+                    "version_installed": "2.29.0",
                     "version_required": ">=2.14.1,<3.0.0dev,!=2.25.0,!=2.24.0"
                 },
                 {
@@ -5125,14 +5345,14 @@
                 }
             ],
             "summary": "Google Cloud Documentai API client library",
-            "version_installed": "2.24.1",
-            "version_required": "2.24.1"
+            "version_installed": "2.24.2",
+            "version_required": "2.24.2"
         },
         "google-cloud-language": {
             "level": 5,
             "package_name": "google-cloud-language",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.13.3",
                 "2.13.2",
@@ -5212,7 +5432,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -5226,6 +5446,18 @@
                             ],
                             "version_installed": "1.63.0",
                             "version_required": ">=1.56.2,<2.0.dev0"
+                        },
+                        {
+                            "package_name": "proto-plus",
+                            "requires": [
+                                {
+                                    "package_name": "protobuf",
+                                    "version_installed": "4.25.3",
+                                    "version_required": ">=3.19.0,<5.0.0dev"
+                                }
+                            ],
+                            "version_installed": "1.23.0",
+                            "version_required": ">=1.22.3,<2.0.0dev"
                         },
                         {
                             "package_name": "protobuf",
@@ -5260,7 +5492,7 @@
                             "version_required": ">=2.18.0,<3.0.0.dev0"
                         }
                     ],
-                    "version_installed": "2.17.1",
+                    "version_installed": "2.18.0",
                     "version_required": ">=1.34.1,<3.0.0dev,!=2.9.*,!=2.8.*,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.10.*,!=2.1.*,!=2.0.*"
                 },
                 {
@@ -5296,7 +5528,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.28.2",
+                    "version_installed": "2.29.0",
                     "version_required": ">=2.14.1,<3.0.0dev,!=2.25.0,!=2.24.0"
                 },
                 {
@@ -5325,7 +5557,7 @@
             "level": 5,
             "package_name": "google-cloud-monitoring",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.19.3",
                 "2.19.2",
@@ -5405,7 +5637,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -5419,6 +5651,18 @@
                             ],
                             "version_installed": "1.63.0",
                             "version_required": ">=1.56.2,<2.0.dev0"
+                        },
+                        {
+                            "package_name": "proto-plus",
+                            "requires": [
+                                {
+                                    "package_name": "protobuf",
+                                    "version_installed": "4.25.3",
+                                    "version_required": ">=3.19.0,<5.0.0dev"
+                                }
+                            ],
+                            "version_installed": "1.23.0",
+                            "version_required": ">=1.22.3,<2.0.0dev"
                         },
                         {
                             "package_name": "protobuf",
@@ -5453,7 +5697,7 @@
                             "version_required": ">=2.18.0,<3.0.0.dev0"
                         }
                     ],
-                    "version_installed": "2.17.1",
+                    "version_installed": "2.18.0",
                     "version_required": ">=1.34.1,<3.0.0dev,!=2.9.*,!=2.8.*,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.10.*,!=2.1.*,!=2.0.*"
                 },
                 {
@@ -5489,7 +5733,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.28.2",
+                    "version_installed": "2.29.0",
                     "version_required": ">=2.14.1,<3.0.0dev,!=2.25.0,!=2.24.0"
                 },
                 {
@@ -5518,7 +5762,7 @@
             "level": 5,
             "package_name": "google-cloud-resource-manager",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.12.3",
                 "1.12.2",
@@ -5601,7 +5845,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -5615,6 +5859,18 @@
                             ],
                             "version_installed": "1.63.0",
                             "version_required": ">=1.56.2,<2.0.dev0"
+                        },
+                        {
+                            "package_name": "proto-plus",
+                            "requires": [
+                                {
+                                    "package_name": "protobuf",
+                                    "version_installed": "4.25.3",
+                                    "version_required": ">=3.19.0,<5.0.0dev"
+                                }
+                            ],
+                            "version_installed": "1.23.0",
+                            "version_required": ">=1.22.3,<2.0.0dev"
                         },
                         {
                             "package_name": "protobuf",
@@ -5649,7 +5905,7 @@
                             "version_required": ">=2.18.0,<3.0.0.dev0"
                         }
                     ],
-                    "version_installed": "2.17.1",
+                    "version_installed": "2.18.0",
                     "version_required": ">=1.34.1,<3.0.0dev,!=2.9.*,!=2.8.*,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.10.*,!=2.1.*,!=2.0.*"
                 },
                 {
@@ -5685,7 +5941,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.28.2",
+                    "version_installed": "2.29.0",
                     "version_required": ">=2.14.1,<3.0.0dev,!=2.25.0,!=2.24.0"
                 },
                 {
@@ -5743,8 +5999,9 @@
             "level": 6,
             "package_name": "google-cloud-storage",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "2.16.0",
                 "2.15.0",
                 "2.14.0",
                 "2.14.0rc1",
@@ -5783,8 +6040,7 @@
                 "1.35.0",
                 "1.34.0",
                 "1.33.0",
-                "1.32.0",
-                "1.31.2"
+                "1.32.0"
             ],
             "required_by": [
                 "google-cloud-aiplatform"
@@ -5826,7 +6082,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=2.14.1,<3.0.dev0"
                         },
                         {
@@ -5840,6 +6096,18 @@
                             ],
                             "version_installed": "1.63.0",
                             "version_required": ">=1.56.2,<2.0.dev0"
+                        },
+                        {
+                            "package_name": "proto-plus",
+                            "requires": [
+                                {
+                                    "package_name": "protobuf",
+                                    "version_installed": "4.25.3",
+                                    "version_required": ">=3.19.0,<5.0.0dev"
+                                }
+                            ],
+                            "version_installed": "1.23.0",
+                            "version_required": ">=1.22.3,<2.0.0dev"
                         },
                         {
                             "package_name": "protobuf",
@@ -5874,7 +6142,7 @@
                             "version_required": ">=2.18.0,<3.0.0.dev0"
                         }
                     ],
-                    "version_installed": "2.17.1",
+                    "version_installed": "2.18.0",
                     "version_required": ">=2.15.0,<3.0.0dev"
                 },
                 {
@@ -5910,7 +6178,7 @@
                             "version_required": ">=3.1.4,<5"
                         }
                     ],
-                    "version_installed": "2.28.2",
+                    "version_installed": "2.29.0",
                     "version_required": ">=2.26.1,<3.0dev"
                 },
                 {
@@ -5952,7 +6220,7 @@
                                             "version_required": ">=3.1.4,<5"
                                         }
                                     ],
-                                    "version_installed": "2.28.2",
+                                    "version_installed": "2.29.0",
                                     "version_required": ">=2.14.1,<3.0.dev0"
                                 },
                                 {
@@ -5966,6 +6234,18 @@
                                     ],
                                     "version_installed": "1.63.0",
                                     "version_required": ">=1.56.2,<2.0.dev0"
+                                },
+                                {
+                                    "package_name": "proto-plus",
+                                    "requires": [
+                                        {
+                                            "package_name": "protobuf",
+                                            "version_installed": "4.25.3",
+                                            "version_required": ">=3.19.0,<5.0.0dev"
+                                        }
+                                    ],
+                                    "version_installed": "1.23.0",
+                                    "version_required": ">=1.22.3,<2.0.0dev"
                                 },
                                 {
                                     "package_name": "protobuf",
@@ -6000,7 +6280,7 @@
                                     "version_required": ">=2.18.0,<3.0.0.dev0"
                                 }
                             ],
-                            "version_installed": "2.17.1",
+                            "version_installed": "2.18.0",
                             "version_required": ">=1.31.6,<3.0.0dev,!=2.3.0,!=2.2.*,!=2.1.*,!=2.0.*"
                         },
                         {
@@ -6036,7 +6316,7 @@
                                     "version_required": ">=3.1.4,<5"
                                 }
                             ],
-                            "version_installed": "2.28.2",
+                            "version_installed": "2.29.0",
                             "version_required": ">=1.25.0,<3.0dev"
                         }
                     ],
@@ -6089,14 +6369,14 @@
                 }
             ],
             "summary": "Google Cloud Storage API client library",
-            "version_installed": "2.15.0",
-            "version_required": "2.15.0"
+            "version_installed": "2.16.0",
+            "version_required": "2.16.0"
         },
         "google-crc32c": {
             "level": 1,
             "package_name": "google-crc32c",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.5.0",
                 "1.3.0",
@@ -6124,7 +6404,7 @@
             "level": 2,
             "package_name": "google-resumable-media",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.7.0",
                 "2.6.0",
@@ -6186,7 +6466,7 @@
             "level": 2,
             "package_name": "googleapis-common-protos",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.63.0",
                 "1.62.0",
@@ -6249,7 +6529,7 @@
             "level": 3,
             "package_name": "grpc-google-iam-v1",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.13.0",
                 "0.13.0rc1",
@@ -6304,7 +6584,7 @@
             "level": 1,
             "package_name": "grpcio",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.62.1",
                 "1.62.0",
@@ -6359,7 +6639,7 @@
             "level": 3,
             "package_name": "grpcio-status",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.62.1",
                 "1.62.0",
@@ -6434,7 +6714,7 @@
             "level": 2,
             "package_name": "h5py",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.9.0",
                 "3.8.0",
@@ -6489,7 +6769,7 @@
             "level": 2,
             "package_name": "httplib2",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.22.0",
                 "0.21.0",
@@ -6550,7 +6830,7 @@
             "level": 1,
             "package_name": "humanfriendly",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "10.0",
                 "9.2",
@@ -6604,7 +6884,7 @@
             "level": 1,
             "package_name": "idna",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.6",
                 "3.5",
@@ -6648,7 +6928,7 @@
             "level": 2,
             "package_name": "imageio",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.34.0",
                 "2.33.1",
@@ -6713,8 +6993,9 @@
             "level": 2,
             "package_name": "importlib-metadata",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "7.1.0",
                 "7.0.2",
                 "7.0.1",
                 "7.0.0",
@@ -6753,25 +7034,24 @@
                 "4.8.0",
                 "4.7.1",
                 "4.7.0",
-                "4.6.4",
-                "4.6.3"
+                "4.6.4"
             ],
             "requires": [
                 {
                     "package_name": "zipp",
-                    "version_installed": "3.18.0",
+                    "version_installed": "3.18.1",
                     "version_required": ">=0.5"
                 }
             ],
             "summary": "Read metadata from Python packages",
-            "version_installed": "7.0.2",
-            "version_required": "7.0.2"
+            "version_installed": "7.1.0",
+            "version_required": "7.1.0"
         },
         "ipykernel": {
             "level": 5,
             "package_name": "ipykernel",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "6.29.3",
                 "6.29.2",
@@ -7044,7 +7324,7 @@
             "level": 4,
             "package_name": "ipython",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "8.9.0",
                 "8.8.0",
@@ -7185,6 +7465,11 @@
         "isoduration": {
             "level": 4,
             "package_name": "isoduration",
+            "pypi_package": true,
+            "releases_checked_time": 1711224272,
+            "releases_recent": [
+                "20.11.0"
+            ],
             "requires": [
                 {
                     "package_name": "arrow",
@@ -7203,7 +7488,7 @@
                         },
                         {
                             "package_name": "types-python-dateutil",
-                            "version_installed": "2.8.19.20240311",
+                            "version_installed": "2.9.0.20240316",
                             "version_required": ">=2.8.10"
                         }
                     ],
@@ -7211,6 +7496,7 @@
                     "version_required": ">=0.15.0"
                 }
             ],
+            "summary": "Operations with ISO 8601 durations",
             "version_installed": "20.11.0",
             "version_required": "20.11.0"
         },
@@ -7218,7 +7504,7 @@
             "level": 1,
             "package_name": "isort",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "6.0.0b2",
                 "6.0.0b1",
@@ -7269,7 +7555,7 @@
             "level": 1,
             "package_name": "itsdangerous",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.1.2",
                 "2.1.1",
@@ -7309,7 +7595,7 @@
             "level": 2,
             "package_name": "jedi",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.9.0",
                 "0.8.1",
@@ -7362,7 +7648,7 @@
             "level": 2,
             "package_name": "Jinja2",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.1.3",
                 "3.1.2",
@@ -7420,7 +7706,7 @@
             "level": 1,
             "package_name": "joblib",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.3.2",
                 "1.3.1",
@@ -7469,6 +7755,38 @@
         "jsonpointer": {
             "level": 1,
             "package_name": "jsonpointer",
+            "pypi_package": true,
+            "releases_checked_time": 1711224272,
+            "releases_recent": [
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.14",
+                "1.13",
+                "1.12",
+                "1.11",
+                "1.10",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0",
+                "0.7",
+                "0.6",
+                "0.5",
+                "0.4",
+                "0.3",
+                "0.2",
+                "0.1"
+            ],
+            "summary": "Identify specific nodes in a JSON document (RFC 6901)",
             "version_installed": "2.4",
             "version_required": "2.4"
         },
@@ -7476,7 +7794,7 @@
             "level": 4,
             "package_name": "jsonschema",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "4.21.1",
                 "4.21.0",
@@ -7546,7 +7864,7 @@
                                     "version_required": ">=0.7.0"
                                 }
                             ],
-                            "version_installed": "0.33.0",
+                            "version_installed": "0.34.0",
                             "version_required": ">=0.31.0"
                         }
                     ],
@@ -7567,7 +7885,7 @@
                             "version_required": ">=0.7.0"
                         }
                     ],
-                    "version_installed": "0.33.0",
+                    "version_installed": "0.34.0",
                     "version_required": ">=0.28.4"
                 },
                 {
@@ -7584,7 +7902,7 @@
             "level": 3,
             "package_name": "jsonschema-specifications",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2023.12.1",
                 "2023.11.2",
@@ -7627,7 +7945,7 @@
                             "version_required": ">=0.7.0"
                         }
                     ],
-                    "version_installed": "0.33.0",
+                    "version_installed": "0.34.0",
                     "version_required": ">=0.31.0"
                 }
             ],
@@ -7639,7 +7957,7 @@
             "level": 3,
             "package_name": "jupyter-client",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "8.6.1",
                 "8.6.0",
@@ -7741,7 +8059,7 @@
             "level": 2,
             "package_name": "jupyter-core",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "5.7.2",
                 "5.7.1",
@@ -7812,8 +8130,9 @@
             "level": 5,
             "package_name": "jupyter-events",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "0.10.0",
                 "0.9.1",
                 "0.9.0",
                 "0.8.0",
@@ -7857,7 +8176,7 @@
                                             "version_required": ">=0.7.0"
                                         }
                                     ],
-                                    "version_installed": "0.33.0",
+                                    "version_installed": "0.34.0",
                                     "version_required": ">=0.31.0"
                                 }
                             ],
@@ -7878,7 +8197,7 @@
                                     "version_required": ">=0.7.0"
                                 }
                             ],
-                            "version_installed": "0.33.0",
+                            "version_installed": "0.34.0",
                             "version_required": ">=0.28.4"
                         },
                         {
@@ -7914,7 +8233,7 @@
                             "version_required": ">=0.7.0"
                         }
                     ],
-                    "version_installed": "0.33.0"
+                    "version_installed": "0.34.0"
                 },
                 {
                     "package_name": "rfc3339-validator",
@@ -7938,14 +8257,14 @@
                 }
             ],
             "summary": "Jupyter Event System library",
-            "version_installed": "0.9.1",
-            "version_required": "0.9.1"
+            "version_installed": "0.10.0",
+            "version_required": "0.10.0"
         },
         "jupyter-lsp": {
             "level": 9,
             "package_name": "jupyter-lsp",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.2.4",
                 "2.2.3",
@@ -8128,7 +8447,7 @@
                                                             "version_required": ">=0.7.0"
                                                         }
                                                     ],
-                                                    "version_installed": "0.33.0",
+                                                    "version_installed": "0.34.0",
                                                     "version_required": ">=0.31.0"
                                                 }
                                             ],
@@ -8149,7 +8468,7 @@
                                                     "version_required": ">=0.7.0"
                                                 }
                                             ],
-                                            "version_installed": "0.33.0",
+                                            "version_installed": "0.34.0",
                                             "version_required": ">=0.28.4"
                                         },
                                         {
@@ -8185,7 +8504,7 @@
                                             "version_required": ">=0.7.0"
                                         }
                                     ],
-                                    "version_installed": "0.33.0"
+                                    "version_installed": "0.34.0"
                                 },
                                 {
                                     "package_name": "rfc3339-validator",
@@ -8208,7 +8527,7 @@
                                     "version_required": ">=5.3"
                                 }
                             ],
-                            "version_installed": "0.9.1",
+                            "version_installed": "0.10.0",
                             "version_required": ">=0.9.0"
                         },
                         {
@@ -8413,7 +8732,7 @@
                                                                             "version_required": ">=0.7.0"
                                                                         }
                                                                     ],
-                                                                    "version_installed": "0.33.0",
+                                                                    "version_installed": "0.34.0",
                                                                     "version_required": ">=0.31.0"
                                                                 }
                                                             ],
@@ -8434,7 +8753,7 @@
                                                                     "version_required": ">=0.7.0"
                                                                 }
                                                             ],
-                                                            "version_installed": "0.33.0",
+                                                            "version_installed": "0.34.0",
                                                             "version_required": ">=0.28.4"
                                                         },
                                                         {
@@ -8468,7 +8787,7 @@
                                                     "version_required": ">=5.1"
                                                 }
                                             ],
-                                            "version_installed": "5.10.2",
+                                            "version_installed": "5.10.3",
                                             "version_required": ">=5.1"
                                         },
                                         {
@@ -8512,7 +8831,7 @@
                                                                     "version_required": ">=0.7.0"
                                                                 }
                                                             ],
-                                                            "version_installed": "0.33.0",
+                                                            "version_installed": "0.34.0",
                                                             "version_required": ">=0.31.0"
                                                         }
                                                     ],
@@ -8533,7 +8852,7 @@
                                                             "version_required": ">=0.7.0"
                                                         }
                                                     ],
-                                                    "version_installed": "0.33.0",
+                                                    "version_installed": "0.34.0",
                                                     "version_required": ">=0.28.4"
                                                 },
                                                 {
@@ -8567,7 +8886,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "5.10.2",
+                                    "version_installed": "5.10.3",
                                     "version_required": ">=5.7"
                                 },
                                 {
@@ -8601,7 +8920,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "7.16.2",
+                            "version_installed": "7.16.3",
                             "version_required": ">=6.4.4"
                         },
                         {
@@ -8636,7 +8955,7 @@
                                                             "version_required": ">=0.7.0"
                                                         }
                                                     ],
-                                                    "version_installed": "0.33.0",
+                                                    "version_installed": "0.34.0",
                                                     "version_required": ">=0.31.0"
                                                 }
                                             ],
@@ -8657,7 +8976,7 @@
                                                     "version_required": ">=0.7.0"
                                                 }
                                             ],
-                                            "version_installed": "0.33.0",
+                                            "version_installed": "0.34.0",
                                             "version_required": ">=0.28.4"
                                         },
                                         {
@@ -8691,7 +9010,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "5.10.2",
+                            "version_installed": "5.10.3",
                             "version_required": ">=5.3.0"
                         },
                         {
@@ -8759,7 +9078,7 @@
             "level": 8,
             "package_name": "jupyter-server",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.13.0",
                 "2.12.5",
@@ -8953,7 +9272,7 @@
                                                     "version_required": ">=0.7.0"
                                                 }
                                             ],
-                                            "version_installed": "0.33.0",
+                                            "version_installed": "0.34.0",
                                             "version_required": ">=0.31.0"
                                         }
                                     ],
@@ -8974,7 +9293,7 @@
                                             "version_required": ">=0.7.0"
                                         }
                                     ],
-                                    "version_installed": "0.33.0",
+                                    "version_installed": "0.34.0",
                                     "version_required": ">=0.28.4"
                                 },
                                 {
@@ -9010,7 +9329,7 @@
                                     "version_required": ">=0.7.0"
                                 }
                             ],
-                            "version_installed": "0.33.0"
+                            "version_installed": "0.34.0"
                         },
                         {
                             "package_name": "rfc3339-validator",
@@ -9033,7 +9352,7 @@
                             "version_required": ">=5.3"
                         }
                     ],
-                    "version_installed": "0.9.1",
+                    "version_installed": "0.10.0",
                     "version_required": ">=0.9.0"
                 },
                 {
@@ -9238,7 +9557,7 @@
                                                                     "version_required": ">=0.7.0"
                                                                 }
                                                             ],
-                                                            "version_installed": "0.33.0",
+                                                            "version_installed": "0.34.0",
                                                             "version_required": ">=0.31.0"
                                                         }
                                                     ],
@@ -9259,7 +9578,7 @@
                                                             "version_required": ">=0.7.0"
                                                         }
                                                     ],
-                                                    "version_installed": "0.33.0",
+                                                    "version_installed": "0.34.0",
                                                     "version_required": ">=0.28.4"
                                                 },
                                                 {
@@ -9293,7 +9612,7 @@
                                             "version_required": ">=5.1"
                                         }
                                     ],
-                                    "version_installed": "5.10.2",
+                                    "version_installed": "5.10.3",
                                     "version_required": ">=5.1"
                                 },
                                 {
@@ -9337,7 +9656,7 @@
                                                             "version_required": ">=0.7.0"
                                                         }
                                                     ],
-                                                    "version_installed": "0.33.0",
+                                                    "version_installed": "0.34.0",
                                                     "version_required": ">=0.31.0"
                                                 }
                                             ],
@@ -9358,7 +9677,7 @@
                                                     "version_required": ">=0.7.0"
                                                 }
                                             ],
-                                            "version_installed": "0.33.0",
+                                            "version_installed": "0.34.0",
                                             "version_required": ">=0.28.4"
                                         },
                                         {
@@ -9392,7 +9711,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "5.10.2",
+                            "version_installed": "5.10.3",
                             "version_required": ">=5.7"
                         },
                         {
@@ -9426,7 +9745,7 @@
                             "version_required": ">=5.1"
                         }
                     ],
-                    "version_installed": "7.16.2",
+                    "version_installed": "7.16.3",
                     "version_required": ">=6.4.4"
                 },
                 {
@@ -9461,7 +9780,7 @@
                                                     "version_required": ">=0.7.0"
                                                 }
                                             ],
-                                            "version_installed": "0.33.0",
+                                            "version_installed": "0.34.0",
                                             "version_required": ">=0.31.0"
                                         }
                                     ],
@@ -9482,7 +9801,7 @@
                                             "version_required": ">=0.7.0"
                                         }
                                     ],
-                                    "version_installed": "0.33.0",
+                                    "version_installed": "0.34.0",
                                     "version_required": ">=0.28.4"
                                 },
                                 {
@@ -9516,7 +9835,7 @@
                             "version_required": ">=5.1"
                         }
                     ],
-                    "version_installed": "5.10.2",
+                    "version_installed": "5.10.3",
                     "version_required": ">=5.3.0"
                 },
                 {
@@ -9580,7 +9899,7 @@
             "level": 3,
             "package_name": "jupyter-server-terminals",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.5.3",
                 "0.5.2",
@@ -9627,7 +9946,7 @@
             "level": 1,
             "package_name": "jupyterlab-pygments",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.3.0",
                 "0.2.2",
@@ -9648,7 +9967,7 @@
             "level": 1,
             "package_name": "jupyterlab-widgets",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.0.10",
                 "3.0.9",
@@ -9699,7 +10018,7 @@
             "level": 1,
             "package_name": "kiwisolver",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.4.5",
                 "1.4.4",
@@ -9730,7 +10049,7 @@
             "level": 1,
             "package_name": "lazy-loader",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.3",
                 "0.3rc0",
@@ -9752,7 +10071,7 @@
             "level": 1,
             "package_name": "llvmlite",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.42.0",
                 "0.42.0rc1",
@@ -9806,7 +10125,7 @@
             "level": 1,
             "package_name": "lmdb",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.4.1",
                 "1.4.0",
@@ -9857,7 +10176,7 @@
             "level": 1,
             "package_name": "MarkupSafe",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.1.5",
                 "2.1.4",
@@ -9899,7 +10218,7 @@
             "level": 3,
             "package_name": "matplotlib",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.8.3",
                 "3.8.2",
@@ -9962,7 +10281,7 @@
                 },
                 {
                     "package_name": "fonttools",
-                    "version_installed": "4.49.0",
+                    "version_installed": "4.50.0",
                     "version_required": ">=4.22.0"
                 },
                 {
@@ -10011,7 +10330,7 @@
             "level": 2,
             "package_name": "matplotlib-inline",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.1.6",
                 "0.1.5",
@@ -10039,7 +10358,7 @@
             "level": 1,
             "package_name": "mccabe",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.7.0",
                 "0.6.1",
@@ -10066,7 +10385,7 @@
             "level": 1,
             "package_name": "mistune",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.0.2",
                 "3.0.1",
@@ -10120,7 +10439,7 @@
             "level": 1,
             "package_name": "mpmath",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.4.0a0",
                 "1.3.0",
@@ -10158,7 +10477,7 @@
             "level": 6,
             "package_name": "nbclient",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.10.0",
                 "0.9.1",
@@ -10305,7 +10624,7 @@
                                                     "version_required": ">=0.7.0"
                                                 }
                                             ],
-                                            "version_installed": "0.33.0",
+                                            "version_installed": "0.34.0",
                                             "version_required": ">=0.31.0"
                                         }
                                     ],
@@ -10326,7 +10645,7 @@
                                             "version_required": ">=0.7.0"
                                         }
                                     ],
-                                    "version_installed": "0.33.0",
+                                    "version_installed": "0.34.0",
                                     "version_required": ">=0.28.4"
                                 },
                                 {
@@ -10360,7 +10679,7 @@
                             "version_required": ">=5.1"
                         }
                     ],
-                    "version_installed": "5.10.2",
+                    "version_installed": "5.10.3",
                     "version_required": ">=5.1"
                 },
                 {
@@ -10377,8 +10696,9 @@
             "level": 7,
             "package_name": "nbconvert",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "7.16.3",
                 "7.16.2",
                 "7.16.1",
                 "7.16.0",
@@ -10417,8 +10737,7 @@
                 "7.2.1",
                 "7.2.0",
                 "7.1.0",
-                "7.0.0",
-                "7.0.0rc3"
+                "7.0.0"
             ],
             "required_by": [
                 "jupyter-server"
@@ -10601,7 +10920,7 @@
                                                             "version_required": ">=0.7.0"
                                                         }
                                                     ],
-                                                    "version_installed": "0.33.0",
+                                                    "version_installed": "0.34.0",
                                                     "version_required": ">=0.31.0"
                                                 }
                                             ],
@@ -10622,7 +10941,7 @@
                                                     "version_required": ">=0.7.0"
                                                 }
                                             ],
-                                            "version_installed": "0.33.0",
+                                            "version_installed": "0.34.0",
                                             "version_required": ">=0.28.4"
                                         },
                                         {
@@ -10656,7 +10975,7 @@
                                     "version_required": ">=5.1"
                                 }
                             ],
-                            "version_installed": "5.10.2",
+                            "version_installed": "5.10.3",
                             "version_required": ">=5.1"
                         },
                         {
@@ -10700,7 +11019,7 @@
                                                     "version_required": ">=0.7.0"
                                                 }
                                             ],
-                                            "version_installed": "0.33.0",
+                                            "version_installed": "0.34.0",
                                             "version_required": ">=0.31.0"
                                         }
                                     ],
@@ -10721,7 +11040,7 @@
                                             "version_required": ">=0.7.0"
                                         }
                                     ],
-                                    "version_installed": "0.33.0",
+                                    "version_installed": "0.34.0",
                                     "version_required": ">=0.28.4"
                                 },
                                 {
@@ -10755,7 +11074,7 @@
                             "version_required": ">=5.1"
                         }
                     ],
-                    "version_installed": "5.10.2",
+                    "version_installed": "5.10.3",
                     "version_required": ">=5.7"
                 },
                 {
@@ -10790,15 +11109,16 @@
                 }
             ],
             "summary": "Converting Jupyter Notebooks (.ipynb files) to other formats.  Output formats include asciidoc, html, latex, markdown, pdf, py, rst, script.  nbconvert can be used both as a Python library (`import nbconvert`) or as a command line tool (invoked as `jupyter nbconvert ...`)",
-            "version_installed": "7.16.2",
-            "version_required": "7.16.2"
+            "version_installed": "7.16.3",
+            "version_required": "7.16.3"
         },
         "nbformat": {
             "level": 5,
             "package_name": "nbformat",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "5.10.3",
                 "5.10.2",
                 "5.10.1",
                 "5.10.0",
@@ -10874,7 +11194,7 @@
                                             "version_required": ">=0.7.0"
                                         }
                                     ],
-                                    "version_installed": "0.33.0",
+                                    "version_installed": "0.34.0",
                                     "version_required": ">=0.31.0"
                                 }
                             ],
@@ -10895,7 +11215,7 @@
                                     "version_required": ">=0.7.0"
                                 }
                             ],
-                            "version_installed": "0.33.0",
+                            "version_installed": "0.34.0",
                             "version_required": ">=0.28.4"
                         },
                         {
@@ -10930,14 +11250,14 @@
                 }
             ],
             "summary": "The Jupyter Notebook format",
-            "version_installed": "5.10.2",
-            "version_required": "5.10.2"
+            "version_installed": "5.10.3",
+            "version_required": "5.10.3"
         },
         "nest-asyncio": {
             "level": 1,
             "package_name": "nest-asyncio",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.6.0",
                 "1.5.9",
@@ -10987,8 +11307,9 @@
             "level": 1,
             "package_name": "networkx",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "3.3rc0",
                 "3.2.1",
                 "3.2",
                 "3.2rc0",
@@ -11027,8 +11348,7 @@
                 "2.3rc4",
                 "2.3rc3",
                 "2.2",
-                "2.2rc1",
-                "2.1"
+                "2.2rc1"
             ],
             "required_by": [
                 "scikit-image",
@@ -11042,8 +11362,9 @@
             "level": 2,
             "package_name": "numba",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "0.59.1",
                 "0.59.0",
                 "0.59.0rc1",
                 "0.58.1",
@@ -11082,8 +11403,7 @@
                 "0.51.0rc1",
                 "0.50.1",
                 "0.50.0",
-                "0.50.0rc1",
-                "0.49.1"
+                "0.50.0rc1"
             ],
             "requires": [
                 {
@@ -11098,14 +11418,14 @@
                 }
             ],
             "summary": "compiling Python code using LLVM",
-            "version_installed": "0.59.0",
-            "version_required": "0.59.0"
+            "version_installed": "0.59.1",
+            "version_required": "0.59.1"
         },
         "numpy": {
             "level": 1,
             "package_name": "numpy",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.0.0b1",
                 "1.26.4",
@@ -11172,7 +11492,7 @@
             "level": 1,
             "package_name": "oauthlib",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.2.2",
                 "3.2.1",
@@ -11226,7 +11546,7 @@
             "level": 2,
             "package_name": "opencv-contrib-python",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "4.9.0.80",
                 "4.8.1.78",
@@ -11309,7 +11629,7 @@
             "level": 2,
             "package_name": "opencv-python",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "4.9.0.80",
                 "4.8.1.78",
@@ -11392,7 +11712,7 @@
             "level": 2,
             "package_name": "opencv-python-headless",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "4.9.0.80",
                 "4.8.1.78",
@@ -11475,7 +11795,7 @@
             "level": 1,
             "package_name": "overrides",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "7.7.0",
                 "7.6.0",
@@ -11529,7 +11849,7 @@
             "level": 1,
             "package_name": "packaging",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "24.0",
                 "23.2",
@@ -11590,7 +11910,7 @@
             "level": 3,
             "package_name": "pandas",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.2.1",
                 "2.2.0",
@@ -11670,7 +11990,7 @@
             "level": 1,
             "package_name": "pandocfilters",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.5.1",
                 "1.5.0",
@@ -11700,7 +12020,7 @@
             "level": 1,
             "package_name": "parso",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.8.3",
                 "0.8.2",
@@ -11740,7 +12060,7 @@
             "level": 1,
             "package_name": "persist-queue",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.0.0a0",
                 "0.8.1",
@@ -11781,7 +12101,7 @@
             "level": 2,
             "package_name": "pexpect",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "4.9.0",
                 "4.8.0",
@@ -11822,7 +12142,7 @@
             "level": 1,
             "package_name": "pillow",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "10.2.0",
                 "10.1.0",
@@ -11879,7 +12199,7 @@
             "level": 1,
             "package_name": "pip",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "24.0",
                 "23.3.2",
@@ -11930,7 +12250,7 @@
             "level": 1,
             "package_name": "platformdirs",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "4.2.0",
                 "4.1.0",
@@ -11983,7 +12303,7 @@
             "level": 2,
             "package_name": "plotly",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "5.20.0",
                 "5.19.0",
@@ -12045,7 +12365,7 @@
             "level": 1,
             "package_name": "prometheus-client",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.20.0",
                 "0.19.0",
@@ -12099,7 +12419,7 @@
             "level": 2,
             "package_name": "prompt-toolkit",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.0.43",
                 "3.0.42",
@@ -12159,7 +12479,7 @@
             "level": 2,
             "package_name": "proto-plus",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.24.0.dev0",
                 "1.23.0",
@@ -12203,6 +12523,7 @@
                 "1.9.1"
             ],
             "required_by": [
+                "google-api-core",
                 "google-cloud-aiplatform",
                 "google-cloud-artifact-registry",
                 "google-cloud-bigquery-storage",
@@ -12228,7 +12549,7 @@
             "level": 1,
             "package_name": "protobuf",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "5.26.0",
                 "5.26.0rc3",
@@ -12294,7 +12615,7 @@
             "level": 1,
             "package_name": "psutil",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "5.9.8",
                 "5.9.7",
@@ -12348,7 +12669,7 @@
             "level": 1,
             "package_name": "ptyprocess",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.7.0",
                 "0.6.0",
@@ -12373,7 +12694,7 @@
             "level": 1,
             "package_name": "pure-eval",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.2.2",
                 "0.2.1",
@@ -12395,8 +12716,9 @@
             "level": 2,
             "package_name": "pyarrow",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "15.0.2",
                 "15.0.1",
                 "15.0.0",
                 "14.0.2",
@@ -12435,8 +12757,7 @@
                 "0.10.0",
                 "0.9.0.post1",
                 "0.9.0",
-                "0.8.0",
-                "0.7.1"
+                "0.8.0"
             ],
             "requires": [
                 {
@@ -12446,14 +12767,14 @@
                 }
             ],
             "summary": "Python library for Apache Arrow",
-            "version_installed": "15.0.1",
-            "version_required": "15.0.1"
+            "version_installed": "15.0.2",
+            "version_required": "15.0.2"
         },
         "pyasn1": {
             "level": 1,
             "package_name": "pyasn1",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.5.1",
                 "0.5.0",
@@ -12505,7 +12826,7 @@
             "level": 2,
             "package_name": "pyasn1-modules",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.3.0",
                 "0.2.8",
@@ -12550,7 +12871,7 @@
             "level": 1,
             "package_name": "pycodestyle",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.11.1",
                 "2.11.0",
@@ -12583,7 +12904,7 @@
             "level": 1,
             "package_name": "pycparser",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.21",
                 "2.20",
@@ -12618,7 +12939,7 @@
             "level": 1,
             "package_name": "pyflakes",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.2.0",
                 "3.1.0",
@@ -12670,7 +12991,7 @@
             "level": 1,
             "package_name": "pygments",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.17.2",
                 "2.17.1",
@@ -12725,7 +13046,7 @@
             "level": 1,
             "package_name": "pyparsing",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.1.2",
                 "3.1.1",
@@ -12780,7 +13101,7 @@
             "level": 1,
             "package_name": "pypng",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.20220715.0",
                 "0.0.21",
@@ -12816,7 +13137,7 @@
             "level": 2,
             "package_name": "python-dateutil",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.9.0.post0",
                 "2.9.0",
@@ -12875,7 +13196,7 @@
             "level": 1,
             "package_name": "python-json-logger",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.0.7",
                 "2.0.6",
@@ -12916,7 +13237,7 @@
             "level": 1,
             "package_name": "pytz",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2024.1",
                 "2023.4",
@@ -12970,7 +13291,7 @@
             "level": 1,
             "package_name": "PyYAML",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "6.0.1",
                 "6.0",
@@ -13018,7 +13339,7 @@
             "level": 1,
             "package_name": "pyzbar",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.1.9",
                 "0.1.8",
@@ -13038,7 +13359,7 @@
             "level": 1,
             "package_name": "pyzmq",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "26.0.0b2",
                 "26.0.0b1",
@@ -13094,7 +13415,7 @@
             "level": 2,
             "package_name": "qrcode",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "7.4.2",
                 "7.4.1",
@@ -13151,8 +13472,9 @@
             "level": 2,
             "package_name": "referencing",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "0.34.0",
                 "0.33.0",
                 "0.32.1",
                 "0.32.0",
@@ -13191,8 +13513,7 @@
                 "0.24.1",
                 "0.24.0",
                 "0.23.0",
-                "0.22.0",
-                "0.21.1"
+                "0.22.0"
             ],
             "required_by": [
                 "jsonschema",
@@ -13212,14 +13533,14 @@
                 }
             ],
             "summary": "JSON Referencing + Python",
-            "version_installed": "0.33.0",
-            "version_required": "0.33.0"
+            "version_installed": "0.34.0",
+            "version_required": "0.34.0"
         },
         "requests": {
             "level": 2,
             "package_name": "requests",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.31.0",
                 "2.30.0",
@@ -13299,8 +13620,9 @@
             "level": 3,
             "package_name": "requests-oauthlib",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "2.0.0",
                 "1.4.0",
                 "1.4.0.dev0",
                 "1.3.1",
@@ -13361,14 +13683,14 @@
                 }
             ],
             "summary": "OAuthlib authentication support for Requests",
-            "version_installed": "1.4.0",
-            "version_required": "1.4.0"
+            "version_installed": "2.0.0",
+            "version_required": "2.0.0"
         },
         "retrying": {
             "level": 2,
             "package_name": "retrying",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.3.4",
                 "1.3.3",
@@ -13398,7 +13720,7 @@
             "level": 2,
             "package_name": "rfc3339-validator",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.1.4",
                 "0.1.3",
@@ -13423,7 +13745,7 @@
             "level": 1,
             "package_name": "rfc3986-validator",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.1.1",
                 "0.1.0"
@@ -13439,7 +13761,7 @@
             "level": 1,
             "package_name": "rpds-py",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.18.0",
                 "0.17.1",
@@ -13494,7 +13816,7 @@
             "level": 2,
             "package_name": "rsa",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "4.9",
                 "4.8",
@@ -13551,8 +13873,10 @@
             "level": 1,
             "package_name": "ruff",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "0.3.4",
+                "0.3.3",
                 "0.3.2",
                 "0.3.1",
                 "0.3.0",
@@ -13590,20 +13914,19 @@
                 "0.0.280",
                 "0.0.279",
                 "0.0.278",
-                "0.0.277",
-                "0.0.276",
-                "0.0.275"
+                "0.0.277"
             ],
             "summary": "An extremely fast Python linter and code formatter, written in Rust",
-            "version_installed": "0.3.2",
-            "version_required": "0.3.2"
+            "version_installed": "0.3.4",
+            "version_required": "0.3.4"
         },
         "scikit-image": {
             "level": 3,
             "package_name": "scikit-image",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "0.23.0rc0",
                 "0.22.0",
                 "0.22.0rc1",
                 "0.21.0",
@@ -13642,8 +13965,7 @@
                 "0.13.0",
                 "0.12.3",
                 "0.12.2",
-                "0.12.1",
-                "0.12.0"
+                "0.12.1"
             ],
             "requires": [
                 {
@@ -13719,8 +14041,9 @@
             "level": 2,
             "package_name": "scipy",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "1.13.0rc1",
                 "1.12.0",
                 "1.12.0rc2",
                 "1.12.0rc1",
@@ -13759,8 +14082,7 @@
                 "1.5.4",
                 "1.5.3",
                 "1.5.2",
-                "1.5.1",
-                "1.5.0"
+                "1.5.1"
             ],
             "required_by": [
                 "scikit-image"
@@ -13780,7 +14102,7 @@
             "level": 1,
             "package_name": "Send2Trash",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.8.2",
                 "1.8.1b0",
@@ -13809,7 +14131,7 @@
             "level": 1,
             "package_name": "setuptools",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "69.2.0",
                 "69.1.1",
@@ -13860,7 +14182,7 @@
             "level": 2,
             "package_name": "shapely",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.0.3",
                 "2.0.2",
@@ -13921,7 +14243,7 @@
             "level": 1,
             "package_name": "six",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.16.0",
                 "1.15.0",
@@ -13967,7 +14289,7 @@
             "level": 1,
             "package_name": "sniffio",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.3.1",
                 "1.3.0",
@@ -13987,7 +14309,7 @@
             "level": 1,
             "package_name": "soupsieve",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.5",
                 "2.4.1",
@@ -14041,7 +14363,7 @@
             "level": 3,
             "package_name": "stack-data",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.6.3",
                 "0.6.2",
@@ -14099,7 +14421,7 @@
             "level": 2,
             "package_name": "sympy",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.9rc1",
                 "1.9",
@@ -14160,7 +14482,7 @@
             "level": 1,
             "package_name": "tenacity",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "8.2.3",
                 "8.2.2",
@@ -14214,7 +14536,7 @@
             "level": 2,
             "package_name": "terminado",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.18.1",
                 "0.18.0",
@@ -14276,8 +14598,9 @@
             "level": 1,
             "package_name": "threadpoolctl",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "3.4.0",
                 "3.3.0",
                 "3.2.0",
                 "3.1.0",
@@ -14289,14 +14612,14 @@
                 "1.0.0"
             ],
             "summary": "threadpoolctl",
-            "version_installed": "3.3.0",
-            "version_required": "3.3.0"
+            "version_installed": "3.4.0",
+            "version_required": "3.4.0"
         },
         "tifffile": {
             "level": 2,
             "package_name": "tifffile",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2024.2.12",
                 "2024.1.30",
@@ -14356,7 +14679,7 @@
             "level": 2,
             "package_name": "tinycss2",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.2.1",
                 "1.2.0",
@@ -14391,7 +14714,7 @@
             "level": 1,
             "package_name": "tomlkit",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.12.4",
                 "0.12.3",
@@ -14442,7 +14765,7 @@
             "level": 3,
             "package_name": "torch",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.2.1",
                 "2.2.0",
@@ -14486,7 +14809,7 @@
                 },
                 {
                     "package_name": "fsspec",
-                    "version_installed": "2024.2.0"
+                    "version_installed": "2024.3.1"
                 },
                 {
                     "package_name": "Jinja2",
@@ -14528,7 +14851,7 @@
             "level": 1,
             "package_name": "tornado",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "6.4",
                 "6.4b1",
@@ -14585,7 +14908,7 @@
             "level": 1,
             "package_name": "tqdm",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "4.66.2",
                 "4.66.1",
@@ -14636,7 +14959,7 @@
             "level": 1,
             "package_name": "traitlets",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "5.14.2",
                 "5.14.1",
@@ -14700,8 +15023,10 @@
             "level": 1,
             "package_name": "types-python-dateutil",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "2.9.0.20240316",
+                "2.9.0.20240315",
                 "2.8.19.20240311",
                 "2.8.19.20240106",
                 "2.8.19.14",
@@ -14739,22 +15064,20 @@
                 "2.8.1",
                 "2.8.0",
                 "0.1.6",
-                "0.1.5",
-                "0.1.4",
-                "0.1.3"
+                "0.1.5"
             ],
             "required_by": [
                 "arrow"
             ],
             "summary": "Typing stubs for python-dateutil",
-            "version_installed": "2.8.19.20240311",
-            "version_required": "2.8.19.20240311"
+            "version_installed": "2.9.0.20240316",
+            "version_required": "2.9.0.20240316"
         },
         "typing-extensions": {
             "level": 1,
             "package_name": "typing-extensions",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "4.10.0",
                 "4.10.0rc1",
@@ -14802,7 +15125,7 @@
             "level": 1,
             "package_name": "tzdata",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2024.1",
                 "2023.4",
@@ -14844,6 +15167,16 @@
         "uri-template": {
             "level": 1,
             "package_name": "uri-template",
+            "pypi_package": true,
+            "releases_checked_time": 1711224272,
+            "releases_recent": [
+                "1.3.0",
+                "1.2.0",
+                "1.1.0",
+                "1.0.1",
+                "1.0.0"
+            ],
+            "summary": "RFC 6570 URI Template Processor",
             "version_installed": "1.3.0",
             "version_required": "1.3.0"
         },
@@ -14851,7 +15184,7 @@
             "level": 1,
             "package_name": "uritemplate",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "4.1.1",
                 "4.1.0",
@@ -14877,7 +15210,7 @@
             "level": 1,
             "package_name": "urllib3",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "2.2.1",
                 "2.2.0",
@@ -14931,7 +15264,7 @@
             "level": 1,
             "package_name": "wcwidth",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.2.13",
                 "0.2.12",
@@ -14969,6 +15302,29 @@
         "webcolors": {
             "level": 1,
             "package_name": "webcolors",
+            "pypi_package": true,
+            "releases_checked_time": 1711224272,
+            "releases_recent": [
+                "1.13",
+                "1.12",
+                "1.11.1",
+                "1.11",
+                "1.10",
+                "1.9.1",
+                "1.9",
+                "1.8.1",
+                "1.8",
+                "1.7",
+                "1.5",
+                "1.4",
+                "1.3.1",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0",
+                "0.1"
+            ],
+            "summary": "A library for working with the color formats defined by HTML and CSS",
             "version_installed": "1.13",
             "version_required": "1.13"
         },
@@ -14976,7 +15332,7 @@
             "level": 1,
             "package_name": "webencodings",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.5.1",
                 "0.5",
@@ -14997,7 +15353,7 @@
             "level": 1,
             "package_name": "websocket-client",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "1.7.0",
                 "1.6.4",
@@ -15051,7 +15407,7 @@
             "level": 2,
             "package_name": "werkzeug",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.0.1",
                 "3.0.0",
@@ -15112,7 +15468,7 @@
             "level": 1,
             "package_name": "wheel",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.43.0",
                 "0.42.0",
@@ -15163,7 +15519,7 @@
             "level": 1,
             "package_name": "widgetsnbextension",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "4.0.10",
                 "4.0.9",
@@ -15214,7 +15570,7 @@
             "level": 1,
             "package_name": "XlsxWriter",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "3.2.0",
                 "3.1.9",
@@ -15265,7 +15621,7 @@
             "level": 3,
             "package_name": "yarg",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
                 "0.1.9",
                 "0.1.8",
@@ -15313,8 +15669,9 @@
             "level": 1,
             "package_name": "zipp",
             "pypi_package": true,
-            "releases_checked_time": 1710450331,
+            "releases_checked_time": 1711224272,
             "releases_recent": [
+                "3.18.1",
                 "3.18.0",
                 "3.17.0",
                 "3.16.2",
@@ -15353,15 +15710,14 @@
                 "1.1.1",
                 "1.1.0",
                 "1.0.0",
-                "0.6.0",
-                "0.5.2"
+                "0.6.0"
             ],
             "required_by": [
                 "importlib-metadata"
             ],
             "summary": "Backport of pathlib-compatible object wrapper for zip files",
-            "version_installed": "3.18.0",
-            "version_required": "3.18.0"
+            "version_installed": "3.18.1",
+            "version_required": "3.18.1"
         }
     }
 }

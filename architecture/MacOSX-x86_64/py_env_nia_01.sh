@@ -1,4 +1,4 @@
-# 2024-03-14T21:11:26.806955+00:00
+# 2024-03-23T20:06:57.608530+00:00
 # Level 1
 pip install "appnope>=0.1.4"
 pip install "astroid>=3.1.0"
@@ -24,9 +24,9 @@ pip install "executing>=2.0.1"
 pip install "fastjsonschema>=2.19.1"
 pip install "filelock>=3.13.1"
 pip install "flatbuffers>=24.3.7"
-pip install "fonttools>=4.49.0"
+pip install "fonttools>=4.50.0"
 pip install "fqdn>=1.5.1"
-pip install "fsspec>=2024.2.0"
+pip install "fsspec>=2024.3.1"
 pip check
 pip install "google-crc32c>=1.5.0"
 pip install "grpcio>=1.62.1"
@@ -87,7 +87,7 @@ pip install "pyzmq>=25.1.2"
 pip check
 pip install "rfc3986-validator>=0.1.1"
 pip install "rpds-py>=0.18.0"
-pip install "ruff>=0.3.2"
+pip install "ruff>=0.3.4"
 pip check
 pip install "send2trash>=1.8.2"
 pip install "setuptools>=69.2.0"
@@ -96,12 +96,12 @@ pip install "sniffio>=1.3.1"
 pip install "soupsieve>=2.5"
 pip check
 pip install "tenacity>=8.2.3"
-pip install "threadpoolctl>=3.3.0"
+pip install "threadpoolctl>=3.4.0"
 pip install "tomlkit>=0.12.4"
 pip install "tornado>=6.4"
 pip install "tqdm>=4.66.2"
 pip install "traitlets>=5.14.2"
-pip install "types-python-dateutil>=2.8.19.20240311"
+pip install "types-python-dateutil>=2.9.0.20240316"
 pip install "typing-extensions>=4.10.0"
 pip install "tzdata>=2024.1"
 pip check
@@ -117,6 +117,6 @@ pip install "wheel>=0.43.0"
 pip install "widgetsnbextension>=4.0.10"
 pip check
 pip install "xlsxwriter>=3.2.0"
-pip install "zipp>=3.18.0"
+pip install "zipp>=3.18.1"
 pip check
 # Level 1
