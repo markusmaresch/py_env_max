@@ -1,4 +1,4 @@
-rem 2024-03-04T08:58:29.724925+00:00
+rem 2024-03-25T21:38:42.126707+00:00
 rem Level 1
 pip install "aioitertools>=0.11.0"
 pip install "async-lru>=2.0.4"
@@ -7,7 +7,7 @@ pip check
 pip install "babel>=2.14.0"
 pip install "blinker>=1.7.0"
 pip check
-pip install "cachetools>=5.3.2"
+pip install "cachetools>=5.3.3"
 pip install "certifi>=2024.2.2"
 pip install "charset-normalizer>=3.3.2"
 pip install "colorama>=0.4.6"
@@ -21,12 +21,12 @@ pip check
 pip install "executing>=2.0.1"
 pip install "fastjsonschema>=2.19.1"
 pip install "filelock>=3.13.1"
-pip install "fonttools>=4.49.0"
+pip install "fonttools>=4.50.0"
 pip install "frozenlist>=1.4.1"
-pip install "fsspec>=2024.2.0"
+pip install "fsspec>=2024.3.1"
 pip check
 pip install "google-crc32c>=1.5.0"
-pip install "grpcio>=1.62.0"
+pip install "grpcio>=1.62.1"
 pip check
 pip install "h11>=0.14.0"
 pip install "idna>=3.6"

@@ -1,4 +1,4 @@
-rem 2024-03-04T08:58:29.724925+00:00
+rem 2024-03-25T21:38:42.126707+00:00
 rem Level 1
 pip install "aioitertools>=0.11.0"
 pip install "async-lru>=2.0.4"
@@ -7,7 +7,7 @@ pip check
 pip install "babel>=2.14.0"
 pip install "blinker>=1.7.0"
 pip check
-pip install "cachetools>=5.3.2"
+pip install "cachetools>=5.3.3"
 pip install "certifi>=2024.2.2"
 pip install "charset-normalizer>=3.3.2"
 pip install "colorama>=0.4.6"
@@ -21,12 +21,12 @@ pip check
 pip install "executing>=2.0.1"
 pip install "fastjsonschema>=2.19.1"
 pip install "filelock>=3.13.1"
-pip install "fonttools>=4.49.0"
+pip install "fonttools>=4.50.0"
 pip install "frozenlist>=1.4.1"
-pip install "fsspec>=2024.2.0"
+pip install "fsspec>=2024.3.1"
 pip check
 pip install "google-crc32c>=1.5.0"
-pip install "grpcio>=1.62.0"
+pip install "grpcio>=1.62.1"
 pip check
 pip install "h11>=0.14.0"
 pip install "idna>=3.6"
@@ -181,6 +181,7 @@ pip install "rsa>=4.9"
 pip check
 pip install "scipy>=1.12.0"
 pip install "shapely>=2.0.3"
+pip install "snakeviz>=2.2.0"
 pip install "sympy>=1.12"
 pip check
 pip install "terminado>=0.18.0"
@@ -204,6 +205,7 @@ pip install "flask>=3.0.2"
 pip install "gitpython>=3.1.42"
 pip install "google-auth>=2.28.1"
 pip install "grpc-google-iam-v1>=0.13.0"
+pip install "grpcio-status>=1.62.0"
 pip check
 pip install "httpx>=0.27.0"
 pip install "jsonschema-specifications>=2023.12.1"
@@ -247,12 +249,12 @@ pip install "altair>=5.2.0"
 pip check
 pip install "google-cloud-core>=2.4.1"
 pip install "google-cloud-resource-manager>=1.12.2"
+pip install "google-cloud-vision>=3.7.1"
 pip check
 pip install "ipykernel>=6.29.2"
 pip install "jupyter-events>=0.9.0"
 pip check
 pip install "nbformat>=5.9.2"
-pip install "toga-winforms>=0.4.2"
 pip check
 rem Level 5
 rem Level 6

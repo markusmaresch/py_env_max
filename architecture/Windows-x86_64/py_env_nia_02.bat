@@ -1,4 +1,4 @@
-rem 2024-03-04T08:58:29.724925+00:00
+rem 2024-03-25T21:38:42.126707+00:00
 rem Level 2
 pip install "aiosignal>=1.3.1"
 pip install "anyio>=4.3.0"
@@ -56,6 +56,7 @@ pip install "rsa>=4.9"
 pip check
 pip install "scipy>=1.12.0"
 pip install "shapely>=2.0.3"
+pip install "snakeviz>=2.2.0"
 pip install "sympy>=1.12"
 pip check
 pip install "terminado>=0.18.0"

@@ -1,4 +1,4 @@
-rem 2024-03-04T08:58:29.724925+00:00
+rem 2024-03-25T21:38:42.126707+00:00
 rem Level 3
 pip install "aiohttp>=3.9.3"
 pip install "argon2-cffi-bindings>=21.2.0"
@@ -10,6 +10,7 @@ pip install "flask>=3.0.2"
 pip install "gitpython>=3.1.42"
 pip install "google-auth>=2.28.1"
 pip install "grpc-google-iam-v1>=0.13.0"
+pip install "grpcio-status>=1.62.0"
 pip check
 pip install "httpx>=0.27.0"
 pip install "jsonschema-specifications>=2023.12.1"
