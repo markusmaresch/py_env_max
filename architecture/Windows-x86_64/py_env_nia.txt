@@ -31,6 +31,7 @@ decorator
 defusedxml
 deprecation
 dnspython
+docstring-parser
 email-validator
 executing
 fastjsonschema
@@ -49,6 +50,7 @@ google-auth-oauthlib
 google-cloud-aiplatform
 google-cloud-bigquery
 google-cloud-core
+google-cloud-pipeline-components
 google-cloud-resource-manager
 google-cloud-storage
 google-cloud-vision
@@ -86,7 +88,11 @@ jupyter-server-terminals
 jupyterlab
 jupyterlab-pygments
 jupyterlab-server
+kfp
+kfp-pipeline-spec
+kfp-server-api
 kiwisolver
+kubernetes
 lazy-loader
 markdown
 markdown-it-py
@@ -150,6 +156,7 @@ qudida
 referencing
 requests
 requests-oauthlib
+requests-toolbelt
 rfc3339-validator
 rfc3986-validator
 rich
@@ -171,6 +178,7 @@ soupsieve
 stack-data
 streamlit
 sympy
+tabulate
 tenacity
 terminado
 threadpoolctl

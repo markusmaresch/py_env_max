@@ -1,4 +1,4 @@
-rem 2024-03-25T21:38:42.126707+00:00
+rem 2024-03-28T16:49:46.613396+00:00
 rem Level 1
 pip install "aioitertools>=0.11.0"
 pip install "async-lru>=2.0.4"
@@ -17,6 +17,7 @@ pip install "debugpy>=1.8.1"
 pip install "decorator>=5.1.1"
 pip install "defusedxml>=0.7.1"
 pip install "dnspython>=2.6.1"
+pip install "docstring-parser>=0.16"
 pip check
 pip install "executing>=2.0.1"
 pip install "fastjsonschema>=2.19.1"
@@ -97,6 +98,7 @@ pip install "smmap>=5.0.1"
 pip install "sniffio>=1.3.0"
 pip install "soupsieve>=2.5"
 pip check
+pip install "tabulate>=0.9.0"
 pip install "tenacity>=8.2.3"
 pip install "threadpoolctl>=3.3.0"
 pip install "toml>=0.10.2"
@@ -106,9 +108,10 @@ pip install "traitlets>=5.14.1"
 pip install "travertino>=0.3.0"
 pip install "types-python-dateutil>=2.8.19.20240106"
 pip install "typing-extensions>=4.9.0"
+pip check
 pip install "tzdata>=2024.1"
 pip check
-pip install "urllib3>=2.0.7"
+pip install "urllib3>=1.26.18"
 pip install "validators>=0.22.0"
 pip check
 pip install "watchdog>=4.0.0"

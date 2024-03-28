@@ -1,4 +1,4 @@
-rem 2024-03-25T21:38:42.126707+00:00
+rem 2024-03-28T16:49:46.613396+00:00
 rem Level 3
 pip install "aiohttp>=3.9.3"
 pip install "argon2-cffi-bindings>=21.2.0"
@@ -17,11 +17,14 @@ pip install "jsonschema-specifications>=2023.12.1"
 pip install "jupyter-client>=8.6.0"
 pip install "jupyter-server-terminals>=0.5.2"
 pip check
+pip install "kfp-server-api>=2.0.5"
 pip install "matplotlib>=3.8.3"
+pip check
 pip install "pandas>=2.2.1"
 pip install "pydeck>=0.8.0"
 pip check
 pip install "requests-oauthlib>=1.3.1"
+pip install "requests-toolbelt>=0.10.1"
 pip install "rich>=13.7.0"
 pip check
 pip install "scikit-image>=0.22.0"

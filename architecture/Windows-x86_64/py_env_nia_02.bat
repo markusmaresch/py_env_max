@@ -1,4 +1,4 @@
-rem 2024-03-25T21:38:42.126707+00:00
+rem 2024-03-28T16:49:46.613396+00:00
 rem Level 2
 pip install "aiosignal>=1.3.1"
 pip install "anyio>=4.3.0"
@@ -34,6 +34,7 @@ pip install "jinja2>=3.1.3"
 pip install "json-numpy>=2.0.0"
 pip install "jupyter-core>=5.7.1"
 pip check
+pip install "kfp-pipeline-spec>=0.3.0"
 pip install "markdown-it-py>=3.0.0"
 pip install "matplotlib-inline>=0.1.6"
 pip check
