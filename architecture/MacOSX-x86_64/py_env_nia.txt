@@ -1,3 +1,4 @@
+annotated-types
 anyio
 appnope
 argon2-cffi
@@ -26,6 +27,7 @@ decorator
 defusedxml
 dill
 docopt
+docstring-parser
 executing
 fastjsonschema
 filelock
@@ -128,6 +130,8 @@ pyasn1
 pyasn1-modules
 pycodestyle
 pycparser
+pydantic
+pydantic-core
 pyflakes
 pygments
 pyparsing
@@ -183,4 +187,5 @@ wheel
 widgetsnbextension
 xlsxwriter
 yarg
+yoctopuce
 zipp
