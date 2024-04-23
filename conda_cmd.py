@@ -31,10 +31,33 @@ class CondaCmd:
         return version
 
     @staticmethod
-    def env_export() -> bool:
-        # call: conda env export --no-builds
-        # takes long
-        # requires destination file name - or environment name
+    def conda_list(destination_path: str) -> bool:
+        try:
+            output = subprocess.check_output(args=['conda', 'list'], text=True).rstrip()
+            with open(destination_path, 'w', newline='') as f:
+                for line in output.splitlines():
+                    if line.startswith('\x1b'):
+                        continue
+                    f.write(line + '\n')
+                # for
+            # with
+        except Exception as e:
+            print('Failed: conda list .. {}'.format(e))
+        return True
+
+    @staticmethod
+    def conda_env_export(destination_path: str) -> bool:
+        try:
+            output = subprocess.check_output(args=['conda', 'env', 'export'], text=True).rstrip()
+            with open(destination_path, 'w', newline='') as f:
+                for line in output.splitlines():
+                    if line.startswith('\x1b'):
+                        continue
+                    f.write(line + '\n')
+                # for
+            # with
+        except Exception as e:
+            print('Failed: conda env export .. {}'.format(e))
         return True
 
     @staticmethod
@@ -103,6 +126,7 @@ class CondaCmd:
 
     @staticmethod
     def selftest() -> bool:
+        CondaCmd.conda_list('test.yml')
         version = CondaCmd.version()
         if version is None or not version:
             return False

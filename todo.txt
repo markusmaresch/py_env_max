@@ -1,14 +1,18 @@
 #
 #
 #
-Scipt Export
-    also include conda export
+Bug: investigate, what is preventing environment update, if conda installs are present
+    Work: conda list ->  name, version, build, channel
+    Work: pip list -> name, version
+    Resolve above into pip only; and conda only.
 
 Bugs
     install packages:
         * infinite loop, if failures in between - need to limit tries, or split the problem
         * -ip dedupe: does not work
+        * -ip llama-index: does not complete .. only if broken up into pieces
 
+    possible fix: break up the stack, try random installations, if no progress
     possibly fixed: Conceptual package name bug: "Levenshtein-search" for dedupe ... not normalized
 
     remove yanked versions

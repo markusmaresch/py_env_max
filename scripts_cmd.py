@@ -6,6 +6,7 @@ import os.path
 
 from database import Database
 from os_platform import OsPlatform
+from conda_cmd import CondaCmd
 
 
 class ScriptsCmd:
@@ -117,4 +118,17 @@ class ScriptsCmd:
         # with
         make_executable(script_all_name)
         db.close()
+
+        conda_list_txt_name = f'{env_name}_conda_list.txt'
+        if not CondaCmd.conda_list(conda_list_txt_name):
+            print('scripts_export: conda_list failed')
+            return False
+        print(f'script: {conda_list_txt_name}')
+
+        conda_env_export_yml_name = f'{env_name}_conda_env_export.yml'
+        if not CondaCmd.conda_env_export(conda_env_export_yml_name):
+            print('scripts_export: env_export failed')
+            return False
+        print(f'script: {conda_env_export_yml_name}')
+
         return True
