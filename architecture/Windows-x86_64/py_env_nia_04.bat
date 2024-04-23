@@ -1,4 +1,4 @@
-rem 2024-03-28T16:49:46.613396+00:00
+rem 2024-04-23T09:15:10.005159+00:00
 rem Level 4
 pip install "argon2-cffi>=23.1.0"
 pip check
@@ -10,9 +10,14 @@ pip install "ipython>=8.22.1"
 pip install "jsonschema>=4.21.1"
 pip check
 pip install "kubernetes>=26.1.0"
-pip install "pythonnet>=3.0.3"
+pip install "llamaindex-py-client>=0.1.18"
 pip check
+pip install "ollama>=0.1.8"
+pip install "openai>=1.23.2"
+pip check
+pip install "pythonnet>=3.0.3"
 pip install "qudida>=0.0.4"
+pip check
 pip install "torchaudio>=2.2.1+cu121"
 pip install "torchvision>=0.17.1+cu121"
 pip check

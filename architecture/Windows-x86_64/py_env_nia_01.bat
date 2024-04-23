@@ -1,6 +1,7 @@
-rem 2024-03-28T16:49:46.613396+00:00
+rem 2024-04-23T09:15:10.005159+00:00
 rem Level 1
 pip install "aioitertools>=0.11.0"
+pip install "annotated-types>=0.6.0"
 pip install "async-lru>=2.0.4"
 pip install "attrs>=23.2.0"
 pip check
@@ -16,10 +17,14 @@ pip check
 pip install "debugpy>=1.8.1"
 pip install "decorator>=5.1.1"
 pip install "defusedxml>=0.7.1"
+pip install "dirtyjson>=1.0.8"
+pip install "distro>=1.9.0"
 pip install "dnspython>=2.6.1"
 pip install "docstring-parser>=0.16"
 pip check
+pip install "exceptiongroup>=1.2.1"
 pip install "executing>=2.0.1"
+pip check
 pip install "fastjsonschema>=2.19.1"
 pip install "filelock>=3.13.1"
 pip install "fonttools>=4.50.0"
@@ -27,6 +32,7 @@ pip install "frozenlist>=1.4.1"
 pip install "fsspec>=2024.3.1"
 pip check
 pip install "google-crc32c>=1.5.0"
+pip install "greenlet>=3.0.3"
 pip install "grpcio>=1.62.1"
 pip check
 pip install "h11>=0.14.0"
@@ -49,6 +55,7 @@ pip install "mdurl>=0.1.2"
 pip install "mistune>=3.0.2"
 pip install "mpmath>=1.3.0"
 pip install "multidict>=6.0.5"
+pip install "mypy-extensions>=1.0.0"
 pip check
 pip install "nest-asyncio>=1.6.0"
 pip install "networkx>=3.2.1"
@@ -76,9 +83,10 @@ pip install "pycparser>=2.21"
 pip install "pyflakes>=3.2.0"
 pip install "pygments>=2.17.2"
 pip install "pyparsing>=3.1.1"
+pip install "pypdf>=4.2.0"
 pip install "pypng>=0.20220715.0"
-pip install "python-json-logger>=2.0.7"
 pip check
+pip install "python-json-logger>=2.0.7"
 pip install "pytz>=2024.1"
 pip install "pywin32>=306"
 pip install "pywinpty>=2.0.12"
@@ -86,6 +94,7 @@ pip install "pyyaml>=6.0.1"
 pip install "pyzbar>=0.1.9"
 pip install "pyzmq>=25.1.2"
 pip check
+pip install "regex>=2024.4.16"
 pip install "rfc3986-validator>=0.1.1"
 pip install "rpds-py>=0.18.0"
 pip install "ruff>=0.2.2"
@@ -97,6 +106,7 @@ pip install "six>=1.16.0"
 pip install "smmap>=5.0.1"
 pip install "sniffio>=1.3.0"
 pip install "soupsieve>=2.5"
+pip install "striprtf>=0.0.26"
 pip check
 pip install "tabulate>=0.9.0"
 pip install "tenacity>=8.2.3"
@@ -122,7 +132,7 @@ pip install "wheel>=0.42.0"
 pip install "wrapt>=1.16.0"
 pip check
 pip install "xlsxwriter>=3.2.0"
-pip install "yoctopuce>=2.0.59414"
+pip install "yoctopuce>=2.0.60394"
 pip check
 pip install "zipp>=3.17.0"
 pip check

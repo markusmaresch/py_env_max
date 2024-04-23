@@ -1,4 +1,4 @@
-rem 2024-03-28T16:49:46.613396+00:00
+rem 2024-04-23T09:15:10.005159+00:00
 rem Level 2
 pip install "aiosignal>=1.3.1"
 pip install "anyio>=4.3.0"
@@ -13,9 +13,10 @@ pip install "click>=8.1.7"
 pip install "comm>=0.2.1"
 pip install "contourpy>=1.2.0"
 pip check
+pip install "deprecated>=1.2.14"
 pip install "deprecation>=2.1.0"
-pip install "email-validator>=2.1.1"
 pip check
+pip install "email-validator>=2.1.1"
 pip install "flake8>=7.0.0"
 pip install "fpdf2>=2.7.8"
 pip check
@@ -36,6 +37,7 @@ pip install "jupyter-core>=5.7.1"
 pip check
 pip install "kfp-pipeline-spec>=0.3.0"
 pip install "markdown-it-py>=3.0.0"
+pip install "marshmallow>=3.21.1"
 pip install "matplotlib-inline>=0.1.6"
 pip check
 pip install "opencv-contrib-python>=4.9.0.80"
@@ -46,6 +48,7 @@ pip install "prompt-toolkit>=3.0.43"
 pip install "proto-plus>=1.23.0"
 pip install "pyarrow>=15.0.0"
 pip install "pyasn1-modules>=0.3.0"
+pip install "pydantic-core>=2.18.1"
 pip install "pytest>=8.0.2"
 pip install "python-dateutil>=2.8.2"
 pip check
@@ -58,12 +61,15 @@ pip check
 pip install "scipy>=1.12.0"
 pip install "shapely>=2.0.3"
 pip install "snakeviz>=2.2.0"
+pip install "sqlalchemy>=2.0.29"
 pip install "sympy>=1.12"
 pip check
 pip install "terminado>=0.18.0"
 pip install "tifffile>=2024.2.12"
 pip install "tinycss2>=1.2.1"
 pip install "toga-core>=0.4.2"
+pip install "tqdm>=4.66.2"
+pip install "typing-inspect>=0.9.0"
 pip install "tzlocal>=5.2"
 pip check
 pip install "werkzeug>=3.0.1"

@@ -1,6 +1,7 @@
-rem 2024-03-28T16:49:46.613396+00:00
+rem 2024-04-23T09:15:10.005159+00:00
 rem Level 1
 pip install "aioitertools>=0.11.0"
+pip install "annotated-types>=0.6.0"
 pip install "async-lru>=2.0.4"
 pip install "attrs>=23.2.0"
 pip check
@@ -16,10 +17,14 @@ pip check
 pip install "debugpy>=1.8.1"
 pip install "decorator>=5.1.1"
 pip install "defusedxml>=0.7.1"
+pip install "dirtyjson>=1.0.8"
+pip install "distro>=1.9.0"
 pip install "dnspython>=2.6.1"
 pip install "docstring-parser>=0.16"
 pip check
+pip install "exceptiongroup>=1.2.1"
 pip install "executing>=2.0.1"
+pip check
 pip install "fastjsonschema>=2.19.1"
 pip install "filelock>=3.13.1"
 pip install "fonttools>=4.50.0"
@@ -27,6 +32,7 @@ pip install "frozenlist>=1.4.1"
 pip install "fsspec>=2024.3.1"
 pip check
 pip install "google-crc32c>=1.5.0"
+pip install "greenlet>=3.0.3"
 pip install "grpcio>=1.62.1"
 pip check
 pip install "h11>=0.14.0"
@@ -49,6 +55,7 @@ pip install "mdurl>=0.1.2"
 pip install "mistune>=3.0.2"
 pip install "mpmath>=1.3.0"
 pip install "multidict>=6.0.5"
+pip install "mypy-extensions>=1.0.0"
 pip check
 pip install "nest-asyncio>=1.6.0"
 pip install "networkx>=3.2.1"
@@ -76,9 +83,10 @@ pip install "pycparser>=2.21"
 pip install "pyflakes>=3.2.0"
 pip install "pygments>=2.17.2"
 pip install "pyparsing>=3.1.1"
+pip install "pypdf>=4.2.0"
 pip install "pypng>=0.20220715.0"
-pip install "python-json-logger>=2.0.7"
 pip check
+pip install "python-json-logger>=2.0.7"
 pip install "pytz>=2024.1"
 pip install "pywin32>=306"
 pip install "pywinpty>=2.0.12"
@@ -86,6 +94,7 @@ pip install "pyyaml>=6.0.1"
 pip install "pyzbar>=0.1.9"
 pip install "pyzmq>=25.1.2"
 pip check
+pip install "regex>=2024.4.16"
 pip install "rfc3986-validator>=0.1.1"
 pip install "rpds-py>=0.18.0"
 pip install "ruff>=0.2.2"
@@ -97,6 +106,7 @@ pip install "six>=1.16.0"
 pip install "smmap>=5.0.1"
 pip install "sniffio>=1.3.0"
 pip install "soupsieve>=2.5"
+pip install "striprtf>=0.0.26"
 pip check
 pip install "tabulate>=0.9.0"
 pip install "tenacity>=8.2.3"
@@ -122,7 +132,7 @@ pip install "wheel>=0.42.0"
 pip install "wrapt>=1.16.0"
 pip check
 pip install "xlsxwriter>=3.2.0"
-pip install "yoctopuce>=2.0.59414"
+pip install "yoctopuce>=2.0.60394"
 pip check
 pip install "zipp>=3.17.0"
 pip check
@@ -141,9 +151,10 @@ pip install "click>=8.1.7"
 pip install "comm>=0.2.1"
 pip install "contourpy>=1.2.0"
 pip check
+pip install "deprecated>=1.2.14"
 pip install "deprecation>=2.1.0"
-pip install "email-validator>=2.1.1"
 pip check
+pip install "email-validator>=2.1.1"
 pip install "flake8>=7.0.0"
 pip install "fpdf2>=2.7.8"
 pip check
@@ -164,6 +175,7 @@ pip install "jupyter-core>=5.7.1"
 pip check
 pip install "kfp-pipeline-spec>=0.3.0"
 pip install "markdown-it-py>=3.0.0"
+pip install "marshmallow>=3.21.1"
 pip install "matplotlib-inline>=0.1.6"
 pip check
 pip install "opencv-contrib-python>=4.9.0.80"
@@ -174,6 +186,7 @@ pip install "prompt-toolkit>=3.0.43"
 pip install "proto-plus>=1.23.0"
 pip install "pyarrow>=15.0.0"
 pip install "pyasn1-modules>=0.3.0"
+pip install "pydantic-core>=2.18.1"
 pip install "pytest>=8.0.2"
 pip install "python-dateutil>=2.8.2"
 pip check
@@ -186,12 +199,15 @@ pip check
 pip install "scipy>=1.12.0"
 pip install "shapely>=2.0.3"
 pip install "snakeviz>=2.2.0"
+pip install "sqlalchemy>=2.0.29"
 pip install "sympy>=1.12"
 pip check
 pip install "terminado>=0.18.0"
 pip install "tifffile>=2024.2.12"
 pip install "tinycss2>=1.2.1"
 pip install "toga-core>=0.4.2"
+pip install "tqdm>=4.66.2"
+pip install "typing-inspect>=0.9.0"
 pip install "tzlocal>=5.2"
 pip check
 pip install "werkzeug>=3.0.1"
@@ -205,7 +221,9 @@ pip check
 pip install "botocore>=1.34.49"
 pip install "clr-loader>=0.2.6"
 pip check
+pip install "dataclasses-json>=0.6.4"
 pip install "flask>=3.0.2"
+pip check
 pip install "gitpython>=3.1.42"
 pip install "google-auth>=2.28.1"
 pip install "grpc-google-iam-v1>=0.13.0"
@@ -219,7 +237,9 @@ pip check
 pip install "kfp-server-api>=2.0.5"
 pip install "matplotlib>=3.8.3"
 pip check
+pip install "nltk>=3.8.1"
 pip install "pandas>=2.2.1"
+pip install "pydantic>=2.7.0"
 pip install "pydeck>=0.8.0"
 pip check
 pip install "requests-oauthlib>=1.3.1"
@@ -230,6 +250,7 @@ pip install "scikit-image>=0.22.0"
 pip install "scikit-learn>=1.4.0"
 pip install "stack-data>=0.6.3"
 pip check
+pip install "tiktoken>=0.6.0"
 pip install "torch>=2.2.1+cu121"
 pip check
 rem Level 3
@@ -244,9 +265,14 @@ pip install "ipython>=8.22.1"
 pip install "jsonschema>=4.21.1"
 pip check
 pip install "kubernetes>=26.1.0"
-pip install "pythonnet>=3.0.3"
+pip install "llamaindex-py-client>=0.1.18"
 pip check
+pip install "ollama>=0.1.8"
+pip install "openai>=1.23.2"
+pip check
+pip install "pythonnet>=3.0.3"
 pip install "qudida>=0.0.4"
+pip check
 pip install "torchaudio>=2.2.1+cu121"
 pip install "torchvision>=0.17.1+cu121"
 pip check
@@ -262,12 +288,21 @@ pip check
 pip install "ipykernel>=6.29.2"
 pip install "jupyter-events>=0.9.0"
 pip check
+pip install "llama-index-core>=0.10.30"
+pip install "llama-index-legacy>=0.9.48"
+pip check
 pip install "nbformat>=5.9.2"
 pip check
 rem Level 5
 rem Level 6
 pip install "google-cloud-bigquery>=3.17.2"
 pip install "google-cloud-storage>=2.14.0"
+pip check
+pip install "llama-index-embeddings-openai>=0.1.8"
+pip install "llama-index-indices-managed-llama-cloud>=0.1.5"
+pip install "llama-index-llms-openai>=0.1.16"
+pip install "llama-index-readers-file>=0.1.19"
+pip install "llama-parse>=0.4.1"
 pip check
 pip install "nbclient>=0.9.0"
 pip install "streamlit>=1.31.1"
@@ -277,6 +312,11 @@ rem Level 7
 pip install "google-cloud-aiplatform>=1.42.1"
 pip check
 pip install "kfp>=2.7.0"
+pip install "llama-index-agent-openai>=0.2.3"
+pip install "llama-index-cli>=0.1.12"
+pip install "llama-index-multi-modal-llms-openai>=0.1.5"
+pip install "llama-index-readers-llama-parse>=0.1.4"
+pip check
 pip install "nbconvert>=7.16.1"
 pip check
 rem Level 7
@@ -284,16 +324,20 @@ rem Level 8
 pip install "google-cloud-pipeline-components>=2.11.0"
 pip check
 pip install "jupyter-server>=2.12.5"
+pip install "llama-index-program-openai>=0.1.5"
 pip check
 rem Level 8
 rem Level 9
 pip install "jupyter-lsp>=2.2.2"
 pip install "jupyterlab-server>=2.25.3"
 pip check
+pip install "llama-index-question-gen-openai>=0.1.3"
 pip install "notebook-shim>=0.2.4"
 pip check
 rem Level 9
 rem Level 10
 pip install "jupyterlab>=4.1.2"
+pip check
+pip install "llama-index>=0.10.30"
 pip check
 rem Level 10
