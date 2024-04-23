@@ -1,4 +1,4 @@
-rem 2024-04-23T09:15:10.005159+00:00
+rem 2024-04-23T11:46:32.198735+00:00
 rem Level 1
 pip install "aioitertools>=0.11.0"
 pip install "annotated-types>=0.6.0"
@@ -43,6 +43,7 @@ pip check
 pip install "jmespath>=1.0.1"
 pip install "joblib>=1.3.2"
 pip install "json5>=0.9.17"
+pip install "jsonpointer>=2.4"
 pip install "jupyterlab-pygments>=0.3.0"
 pip check
 pip install "kiwisolver>=1.4.5"
@@ -62,6 +63,7 @@ pip install "networkx>=3.2.1"
 pip install "numpy>=1.26.4"
 pip check
 pip install "oauthlib>=3.2.2"
+pip install "orjson>=3.10.1"
 pip install "overrides>=7.7.0"
 pip check
 pip install "packaging>=23.2"
@@ -171,6 +173,7 @@ pip check
 pip install "jedi>=0.19.1"
 pip install "jinja2>=3.1.3"
 pip install "json-numpy>=2.0.0"
+pip install "jsonpatch>=1.33"
 pip install "jupyter-core>=5.7.1"
 pip check
 pip install "kfp-pipeline-spec>=0.3.0"
@@ -265,6 +268,7 @@ pip install "ipython>=8.22.1"
 pip install "jsonschema>=4.21.1"
 pip check
 pip install "kubernetes>=26.1.0"
+pip install "langsmith>=0.1.49"
 pip install "llamaindex-py-client>=0.1.18"
 pip check
 pip install "ollama>=0.1.8"
@@ -288,6 +292,7 @@ pip check
 pip install "ipykernel>=6.29.2"
 pip install "jupyter-events>=0.9.0"
 pip check
+pip install "langchain-core>=0.1.45"
 pip install "llama-index-core>=0.10.30"
 pip install "llama-index-legacy>=0.9.48"
 pip check
@@ -298,8 +303,10 @@ rem Level 6
 pip install "google-cloud-bigquery>=3.17.2"
 pip install "google-cloud-storage>=2.14.0"
 pip check
+pip install "langchain-community>=0.0.34"
 pip install "llama-index-embeddings-openai>=0.1.8"
 pip install "llama-index-indices-managed-llama-cloud>=0.1.5"
+pip install "llama-index-llms-ollama>=0.1.2"
 pip install "llama-index-llms-openai>=0.1.16"
 pip install "llama-index-readers-file>=0.1.19"
 pip install "llama-parse>=0.4.1"

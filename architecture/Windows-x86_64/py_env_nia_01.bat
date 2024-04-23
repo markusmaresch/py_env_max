@@ -1,4 +1,4 @@
-rem 2024-04-23T09:15:10.005159+00:00
+rem 2024-04-23T11:46:32.198735+00:00
 rem Level 1
 pip install "aioitertools>=0.11.0"
 pip install "annotated-types>=0.6.0"
@@ -43,6 +43,7 @@ pip check
 pip install "jmespath>=1.0.1"
 pip install "joblib>=1.3.2"
 pip install "json5>=0.9.17"
+pip install "jsonpointer>=2.4"
 pip install "jupyterlab-pygments>=0.3.0"
 pip check
 pip install "kiwisolver>=1.4.5"
@@ -62,6 +63,7 @@ pip install "networkx>=3.2.1"
 pip install "numpy>=1.26.4"
 pip check
 pip install "oauthlib>=3.2.2"
+pip install "orjson>=3.10.1"
 pip install "overrides>=7.7.0"
 pip check
 pip install "packaging>=23.2"

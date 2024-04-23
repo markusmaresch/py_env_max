@@ -84,6 +84,8 @@ jmespath
 joblib
 json-numpy
 json5
+jsonpatch
+jsonpointer
 jsonschema
 jsonschema-specifications
 jupyter-client
@@ -100,6 +102,9 @@ kfp-pipeline-spec
 kfp-server-api
 kiwisolver
 kubernetes
+langchain-community
+langchain-core
+langsmith
 lazy-loader
 llama-index
 llama-index-agent-openai
@@ -108,6 +113,7 @@ llama-index-core
 llama-index-embeddings-openai
 llama-index-indices-managed-llama-cloud
 llama-index-legacy
+llama-index-llms-ollama
 llama-index-llms-openai
 llama-index-multi-modal-llms-openai
 llama-index-program-openai
@@ -142,6 +148,7 @@ openai
 opencv-contrib-python
 opencv-python
 opencv-python-headless
+orjson
 overrides
 packaging
 pandas

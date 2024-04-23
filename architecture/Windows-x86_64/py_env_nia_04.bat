@@ -1,4 +1,4 @@
-rem 2024-04-23T09:15:10.005159+00:00
+rem 2024-04-23T11:46:32.198735+00:00
 rem Level 4
 pip install "argon2-cffi>=23.1.0"
 pip check
@@ -10,6 +10,7 @@ pip install "ipython>=8.22.1"
 pip install "jsonschema>=4.21.1"
 pip check
 pip install "kubernetes>=26.1.0"
+pip install "langsmith>=0.1.49"
 pip install "llamaindex-py-client>=0.1.18"
 pip check
 pip install "ollama>=0.1.8"
