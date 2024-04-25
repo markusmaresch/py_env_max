@@ -1,4 +1,4 @@
-rem 2024-04-23T14:02:48.095151+00:00
+rem 2024-04-25T19:28:24.217732+00:00
 rem Level 2
 pip install "aiosignal>=1.3.1"
 pip install "anyio>=4.3.0"
@@ -73,7 +73,10 @@ pip install "tqdm>=4.66.2"
 pip install "typing-inspect>=0.9.0"
 pip install "tzlocal>=5.2"
 pip check
+pip install "vbuild>=0.8.2"
 pip install "werkzeug>=3.0.1"
+pip install "wsproto>=1.2.0"
+pip check
 pip install "yarl>=1.9.4"
 pip check
 rem Level 2

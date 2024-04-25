@@ -1,3 +1,4 @@
+aiofiles
 aiohttp
 aioitertools
 aiosignal
@@ -13,6 +14,7 @@ async-lru
 attrs
 babel
 beautifulsoup4
+bidict
 bleach
 blinker
 botocore
@@ -37,9 +39,11 @@ dirtyjson
 distro
 dnspython
 docstring-parser
+docutils
 email-validator
 exceptiongroup
 executing
+fastapi
 fastjsonschema
 filelock
 flake8
@@ -70,8 +74,10 @@ grpcio-status
 h11
 h5py
 httpcore
+httptools
 httpx
 idna
+ifaddr
 imageio
 importlib-metadata
 iniconfig
@@ -124,6 +130,7 @@ llama-parse
 llamaindex-py-client
 markdown
 markdown-it-py
+markdown2
 markupsafe
 marshmallow
 matplotlib
@@ -139,6 +146,7 @@ nbconvert
 nbformat
 nest-asyncio
 networkx
+nicegui
 nltk
 notebook-shim
 numpy
@@ -163,6 +171,7 @@ prometheus-client
 prompt-toolkit
 proto-plus
 protobuf
+pscript
 psutil
 pure-eval
 pyarrow
@@ -180,7 +189,11 @@ pypdf
 pypng
 pytest
 python-dateutil
+python-dotenv
+python-engineio
 python-json-logger
+python-multipart
+python-socketio
 pythonnet
 pytz
 pywin32
@@ -208,6 +221,7 @@ segment-anything
 send2trash
 setuptools
 shapely
+simple-websocket
 six
 smmap
 snakeviz
@@ -215,6 +229,7 @@ sniffio
 soupsieve
 sqlalchemy
 stack-data
+starlette
 streamlit
 striprtf
 sympy
@@ -241,14 +256,19 @@ typing-inspect
 tzdata
 tzlocal
 urllib3
+uvicorn
 validators
+vbuild
 watchdog
+watchfiles
 wcwidth
 webencodings
 websocket-client
+websockets
 werkzeug
 wheel
 wrapt
+wsproto
 xlsxwriter
 yarl
 yoctopuce

@@ -1,4 +1,4 @@
-rem 2024-04-23T14:02:48.095151+00:00
+rem 2024-04-25T19:28:24.217732+00:00
 rem Level 3
 pip install "aiohttp>=3.9.3"
 pip install "argon2-cffi-bindings>=21.2.0"
@@ -33,9 +33,14 @@ pip install "rich>=13.7.0"
 pip check
 pip install "scikit-image>=0.22.0"
 pip install "scikit-learn>=1.4.0"
+pip install "simple-websocket>=1.0.0"
 pip install "stack-data>=0.6.3"
+pip install "starlette>=0.36.3"
 pip check
 pip install "tiktoken>=0.6.0"
 pip install "torch>=2.2.1+cu121"
+pip check
+pip install "uvicorn>=0.29.0"
+pip install "watchfiles>=0.21.0"
 pip check
 rem Level 3

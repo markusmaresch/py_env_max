@@ -1,4 +1,4 @@
-rem 2024-04-23T14:02:48.095151+00:00
+rem 2024-04-25T19:28:24.217732+00:00
 rem Level 5
 pip install "albumentations>=1.4.0"
 pip install "altair>=5.2.0"
@@ -15,5 +15,6 @@ pip install "llama-index-core>=0.10.30"
 pip install "llama-index-legacy>=0.9.48"
 pip check
 pip install "nbformat>=5.9.2"
+pip install "python-socketio>=5.11.2"
 pip check
 rem Level 5

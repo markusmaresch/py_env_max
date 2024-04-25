@@ -1,11 +1,13 @@
-rem 2024-04-23T14:02:48.095151+00:00
+rem 2024-04-25T19:28:24.217732+00:00
 rem Level 1
+pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
 pip install "annotated-types>=0.6.0"
 pip install "async-lru>=2.0.4"
 pip install "attrs>=23.2.0"
 pip check
 pip install "babel>=2.14.0"
+pip install "bidict>=0.23.1"
 pip install "blinker>=1.7.0"
 pip check
 pip install "cachetools>=5.3.3"
@@ -21,6 +23,7 @@ pip install "dirtyjson>=1.0.8"
 pip install "distro>=1.9.0"
 pip install "dnspython>=2.6.1"
 pip install "docstring-parser>=0.16"
+pip install "docutils>=0.19"
 pip check
 pip install "exceptiongroup>=1.2.1"
 pip install "executing>=2.0.1"
@@ -36,7 +39,10 @@ pip install "greenlet>=3.0.3"
 pip install "grpcio>=1.62.1"
 pip check
 pip install "h11>=0.14.0"
+pip install "httptools>=0.6.1"
+pip check
 pip install "idna>=3.6"
+pip install "ifaddr>=0.2.0"
 pip install "iniconfig>=2.0.0"
 pip install "itsdangerous>=2.1.2"
 pip check
@@ -50,6 +56,7 @@ pip install "kiwisolver>=1.4.5"
 pip install "lazy-loader>=0.3"
 pip check
 pip install "markdown>=3.5.2"
+pip install "markdown2>=2.4.13"
 pip install "markupsafe>=2.1.5"
 pip install "mccabe>=0.7.0"
 pip install "mdurl>=0.1.2"
@@ -77,6 +84,7 @@ pip install "pluggy>=1.4.0"
 pip install "prometheus-client>=0.20.0"
 pip install "protobuf>=4.25.3"
 pip check
+pip install "pscript>=0.7.7"
 pip install "psutil>=5.9.8"
 pip install "pure-eval>=0.2.2"
 pip install "pyasn1>=0.5.1"
@@ -86,9 +94,11 @@ pip install "pyflakes>=3.2.0"
 pip install "pygments>=2.17.2"
 pip install "pyparsing>=3.1.1"
 pip install "pypdf>=4.2.0"
-pip install "pypng>=0.20220715.0"
 pip check
+pip install "pypng>=0.20220715.0"
+pip install "python-dotenv>=1.0.1"
 pip install "python-json-logger>=2.0.7"
+pip install "python-multipart>=0.0.9"
 pip install "pytz>=2024.1"
 pip install "pywin32>=306"
 pip install "pywinpty>=2.0.12"
@@ -130,6 +140,7 @@ pip install "watchdog>=4.0.0"
 pip install "wcwidth>=0.2.13"
 pip install "webencodings>=0.5.1"
 pip install "websocket-client>=1.7.0"
+pip install "websockets>=12.0"
 pip install "wheel>=0.42.0"
 pip install "wrapt>=1.16.0"
 pip check
@@ -213,7 +224,10 @@ pip install "tqdm>=4.66.2"
 pip install "typing-inspect>=0.9.0"
 pip install "tzlocal>=5.2"
 pip check
+pip install "vbuild>=0.8.2"
 pip install "werkzeug>=3.0.1"
+pip install "wsproto>=1.2.0"
+pip check
 pip install "yarl>=1.9.4"
 pip check
 rem Level 2
@@ -251,16 +265,23 @@ pip install "rich>=13.7.0"
 pip check
 pip install "scikit-image>=0.22.0"
 pip install "scikit-learn>=1.4.0"
+pip install "simple-websocket>=1.0.0"
 pip install "stack-data>=0.6.3"
+pip install "starlette>=0.36.3"
 pip check
 pip install "tiktoken>=0.6.0"
 pip install "torch>=2.2.1+cu121"
+pip check
+pip install "uvicorn>=0.29.0"
+pip install "watchfiles>=0.21.0"
 pip check
 rem Level 3
 rem Level 4
 pip install "argon2-cffi>=23.1.0"
 pip check
 pip install "braincube-connector>=2.6.0"
+pip install "fastapi>=0.109.2"
+pip check
 pip install "google-api-core>=2.17.1"
 pip install "google-auth-oauthlib>=1.2.0"
 pip check
@@ -274,9 +295,10 @@ pip check
 pip install "ollama>=0.1.8"
 pip install "openai>=1.23.2"
 pip check
+pip install "python-engineio>=4.9.0"
 pip install "pythonnet>=3.0.3"
-pip install "qudida>=0.0.4"
 pip check
+pip install "qudida>=0.0.4"
 pip install "torchaudio>=2.2.1+cu121"
 pip install "torchvision>=0.17.1+cu121"
 pip check
@@ -297,6 +319,7 @@ pip install "llama-index-core>=0.10.30"
 pip install "llama-index-legacy>=0.9.48"
 pip check
 pip install "nbformat>=5.9.2"
+pip install "python-socketio>=5.11.2"
 pip check
 rem Level 5
 rem Level 6
@@ -312,6 +335,8 @@ pip install "llama-index-readers-file>=0.1.19"
 pip install "llama-parse>=0.4.1"
 pip check
 pip install "nbclient>=0.9.0"
+pip install "nicegui>=1.4.23"
+pip check
 pip install "streamlit>=1.31.1"
 pip check
 rem Level 6
