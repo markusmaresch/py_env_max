@@ -1,6 +1,6 @@
-rem 2024-01-04T23:22:53.408289+00:00
+rem 2024-04-25T22:17:18.212318+00:00
 rem Level 10
-pip install "jupyterlab>=4.0.5"
+pip install "jupyterlab>=4.1.6"
 pip check
 pip install "nbclassic>=1.0.0"
 pip check
