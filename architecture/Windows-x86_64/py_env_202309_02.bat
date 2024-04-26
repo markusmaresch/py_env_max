@@ -1,4 +1,4 @@
-rem 2024-04-25T22:17:18.212318+00:00
+rem 2024-04-25T22:59:45.862820+00:00
 rem Level 2
 pip install "accessible-pygments>=0.0.4"
 pip install "aioredis>=2.0.1"
@@ -89,7 +89,6 @@ pip install "jupyter-ydoc>=2.0.1"
 pip check
 pip install "keras-preprocessing>=1.1.2"
 pip install "lazy-loader>=0.4"
-pip install "leather>=0.4.0"
 pip install "libcst>=1.3.1"
 pip install "lightning-utilities>=0.11.2"
 pip install "linkify-it-py>=2.0.3"
@@ -108,7 +107,7 @@ pip install "mkl>=2021.4.0"
 pip install "ml-dtypes>=0.3.2"
 pip check
 pip install "mlagents-envs>=0.28.0"
-pip install "multiprocess>=0.70.15"
+pip install "multiprocess>=0.70.16"
 pip check
 pip install "nibabel>=5.2.1"
 pip install "numba>=0.59.1"
@@ -141,7 +140,7 @@ pip install "prompt-toolkit>=3.0.43"
 pip install "proto-plus>=1.23.0"
 pip install "py-lets-be-rational>=1.0.1"
 pip install "pyaml>=24.4.0"
-pip install "pyarrow>=15.0.1"
+pip install "pyarrow>=16.0.0"
 pip install "pyasn1-modules>=0.4.0"
 pip install "pyct>=0.5.0"
 pip check
@@ -163,7 +162,7 @@ pip install "retrying>=1.3.4"
 pip install "rfc3339-validator>=0.1.4"
 pip install "rsa>=4.9"
 pip check
-pip install "scipy>=1.10.0"
+pip install "scipy>=1.11.2"
 pip install "sentry-sdk>=2.0.0"
 pip install "shapely>=2.0.4"
 pip install "simplecosine>=1.2"
@@ -195,7 +194,7 @@ pip install "url-normalize>=1.4.3"
 pip install "vispy>=0.14.2"
 pip check
 pip install "wasabi>=1.1.2"
-pip install "werkzeug>=2.2.3"
+pip install "werkzeug>=3.0.2"
 pip install "wsproto>=1.2.0"
 pip check
 pip install "yarl>=1.9.4"

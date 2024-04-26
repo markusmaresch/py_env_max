@@ -140,7 +140,7 @@ cramjam                   2.8.3                    pypi_0    pypi
 crashtest                 0.3.1                    pypi_0    pypi
 crcmod                    1.7                      pypi_0    pypi
 croniter                  2.0.5                    pypi_0    pypi
-cryptography              41.0.7                   pypi_0    pypi
+cryptography              42.0.5                   pypi_0    pypi
 cssselect2                0.7.0                    pypi_0    pypi
 curtsies                  0.4.2                    pypi_0    pypi
 cvxopt                    1.3.2                    pypi_0    pypi
@@ -177,7 +177,7 @@ defusedxml                0.7.1                    pypi_0    pypi
 deprecated                1.2.14                   pypi_0    pypi
 deprecation               2.1.0                    pypi_0    pypi
 descartes                 1.1.0                    pypi_0    pypi
-dill                      0.3.7                    pypi_0    pypi
+dill                      0.3.8                    pypi_0    pypi
 distlib                   0.3.8                    pypi_0    pypi
 distributed               2024.4.2                 pypi_0    pypi
 django                    5.0.4                    pypi_0    pypi
@@ -217,7 +217,7 @@ feather-format            0.4.1                    pypi_0    pypi
 filelock                  3.13.4                   pypi_0    pypi
 fire                      0.6.0                    pypi_0    pypi
 flake8                    7.0.0                    pypi_0    pypi
-flask                     2.2.5                    pypi_0    pypi
+flask                     3.0.3                    pypi_0    pypi
 flask-compress            1.15                     pypi_0    pypi
 flatbuffers               24.3.25                  pypi_0    pypi
 folium                    0.16.0                   pypi_0    pypi
@@ -401,7 +401,7 @@ memory-profiler           0.61.0                   pypi_0    pypi
 miniful                   0.0.6                    pypi_0    pypi
 minimal-snowplow-tracker  0.0.2                    pypi_0    pypi
 missingno                 0.5.2                    pypi_0    pypi
-mistune                   2.0.5                    pypi_0    pypi
+mistune                   3.0.2                    pypi_0    pypi
 mixpanel                  4.10.1                   pypi_0    pypi
 mizani                    0.10.0                   pypi_0    pypi
 mkl                       2021.4.0                 pypi_0    pypi
@@ -420,7 +420,7 @@ msrest                    0.7.1                    pypi_0    pypi
 multidict                 6.0.5                    pypi_0    pypi
 multimethod               1.11.2                   pypi_0    pypi
 multipledispatch          1.0.0                    pypi_0    pypi
-multiprocess              0.70.15                  pypi_0    pypi
+multiprocess              0.70.16                  pypi_0    pypi
 multitasking              0.0.11                   pypi_0    pypi
 murmurhash                1.0.10                   pypi_0    pypi
 music21                   9.1.0                    pypi_0    pypi
@@ -538,9 +538,9 @@ py-vollib                 1.0.1                    pypi_0    pypi
 py4j                      0.10.9.7                 pypi_0    pypi
 pyaml                     24.4.0                   pypi_0    pypi
 pyanalyze                 0.12.0                   pypi_0    pypi
-pyarrow                   15.0.1                   pypi_0    pypi
+pyarrow                   16.0.0                   pypi_0    pypi
 pyarrow-hotfix            0.6                      pypi_0    pypi
-pyasn1                    0.5.1                    pypi_0    pypi
+pyasn1                    0.6.0                    pypi_0    pypi
 pyasn1-modules            0.4.0                    pypi_0    pypi
 pybind11                  2.12.0                   pypi_0    pypi
 pybullet                  3.2.6                    pypi_0    pypi
@@ -649,7 +649,7 @@ schedule                  1.2.1                    pypi_0    pypi
 scikit-image              0.23.2                   pypi_0    pypi
 scikit-learn              1.4.2                    pypi_0    pypi
 scikit-plot               0.3.7                    pypi_0    pypi
-scipy                     1.10.0                   pypi_0    pypi
+scipy                     1.11.2                   pypi_0    pypi
 scs                       3.2.4                    pypi_0    pypi
 seaborn                   0.12.2                   pypi_0    pypi
 selenium                  4.20.0                   pypi_0    pypi
@@ -787,7 +787,7 @@ unidecode                 1.3.8                    pypi_0    pypi
 uri-template              1.3.0                    pypi_0    pypi
 uritemplate               4.1.1                    pypi_0    pypi
 url-normalize             1.4.3                    pypi_0    pypi
-urllib3                   1.26.13                  pypi_0    pypi
+urllib3                   2.2.1                    pypi_0    pypi
 userpath                  1.9.2                    pypi_0    pypi
 uuid                      1.30                     pypi_0    pypi
 uvicorn                   0.29.0                   pypi_0    pypi
@@ -807,7 +807,7 @@ webencodings              0.5.1                    pypi_0    pypi
 webob                     1.8.7                    pypi_0    pypi
 websocket-client          1.8.0                    pypi_0    pypi
 websockets                12.0                     pypi_0    pypi
-werkzeug                  2.2.3                    pypi_0    pypi
+werkzeug                  3.0.2                    pypi_0    pypi
 wheel                     0.43.0                   pypi_0    pypi
 widgetsnbextension        4.0.10                   pypi_0    pypi
 wincertstore              0.2                      pypi_0    pypi

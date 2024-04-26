@@ -1,4 +1,4 @@
-rem 2024-04-25T22:17:18.212318+00:00
+rem 2024-04-25T22:59:45.862820+00:00
 rem Level 3
 pip install "aiohttp>=3.9.5"
 pip install "argon2-cffi-bindings>=21.2.0"
@@ -20,14 +20,13 @@ pip install "click-plugins>=1.1.1"
 pip install "click-repl>=0.3.0"
 pip install "cligj>=0.7.2"
 pip install "coinpaprika>=0.1.0"
-pip install "colorcet>=3.1.0"
 pip install "coloredlogs>=15.0.1"
 pip install "confection>=0.1.4"
-pip check
 pip install "cons>=0.4.6"
+pip check
 pip install "coremltools>=7.2"
 pip install "croniter>=2.0.5"
-pip install "cryptography>=41.0.7"
+pip install "cryptography>=42.0.5"
 pip install "cssselect2>=0.7.0"
 pip check
 pip install "dask>=2024.4.2"
@@ -48,7 +47,7 @@ pip install "ecos>=2.0.13"
 pip install "elasticsearch>=8.13.0"
 pip check
 pip install "feather-format>=0.4.1"
-pip install "flask>=2.2.5"
+pip install "flask>=3.0.3"
 pip check
 pip install "gdown>=5.1.0"
 pip install "gensim>=4.3.2"
