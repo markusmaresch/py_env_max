@@ -1,6 +1,6 @@
 {
     "config": {
-        "datetime": "2024-04-25T15:52:52.488618+00:00",
+        "datetime": "2024-04-26T08:08:13.159965+00:00",
         "note": "JSON style nested database for packages"
     },
     "packages": {
@@ -8,7 +8,7 @@
             "level": 1,
             "package_name": "aiofiles",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "23.2.1",
                 "23.2.0",
@@ -36,7 +36,7 @@
             "level": 3,
             "package_name": "aiohttp",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.0.0a1",
                 "4.0.0a0",
@@ -80,6 +80,7 @@
                 "3.6.0a12"
             ],
             "required_by": [
+                "langchain",
                 "langchain-community",
                 "llama-index-core",
                 "llama-index-legacy",
@@ -139,7 +140,7 @@
             "level": 1,
             "package_name": "aioitertools",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.11.0",
                 "0.10.0",
@@ -168,7 +169,7 @@
             "level": 2,
             "package_name": "aiosignal",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.3.1",
                 "1.2.0",
@@ -197,7 +198,7 @@
             "level": 5,
             "package_name": "albumentations",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.4.4",
                 "1.4.3",
@@ -456,7 +457,7 @@
             "level": 5,
             "package_name": "altair",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "5.3.0",
                 "5.2.0",
@@ -627,7 +628,7 @@
             "level": 1,
             "package_name": "annotated-types",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.6.0",
                 "0.5.0",
@@ -648,7 +649,7 @@
             "level": 2,
             "package_name": "anyio",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.3.0",
                 "4.2.0",
@@ -718,7 +719,7 @@
             "level": 2,
             "package_name": "arena-api",
             "pypi_package": false,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [],
             "requires": [
                 {
@@ -734,7 +735,7 @@
             "level": 4,
             "package_name": "argon2-cffi",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "23.1.0",
                 "21.3.0",
@@ -784,7 +785,7 @@
             "level": 3,
             "package_name": "argon2-cffi-bindings",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "21.2.0",
                 "21.1.0"
@@ -813,7 +814,7 @@
             "level": 2,
             "package_name": "asttokens",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.4.1",
                 "2.4.0",
@@ -867,7 +868,7 @@
             "level": 1,
             "package_name": "async-lru",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.0.4",
                 "2.0.3",
@@ -897,7 +898,7 @@
             "level": 1,
             "package_name": "attrs",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "23.2.0",
                 "23.1.0",
@@ -941,7 +942,7 @@
             "level": 1,
             "package_name": "Babel",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.14.0",
                 "2.13.1",
@@ -992,7 +993,7 @@
             "level": 2,
             "package_name": "beautifulsoup4",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.13.0b2",
                 "4.12.3",
@@ -1054,7 +1055,7 @@
             "level": 1,
             "package_name": "bidict",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.23.1",
                 "0.23.0",
@@ -1108,7 +1109,7 @@
             "level": 2,
             "package_name": "bleach",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "6.1.0",
                 "6.0.0",
@@ -1173,7 +1174,7 @@
             "level": 1,
             "package_name": "blinker",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.7.0",
                 "1.6.3",
@@ -1201,8 +1202,9 @@
             "level": 3,
             "package_name": "botocore",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
+                "1.34.92",
                 "1.34.91",
                 "1.34.90",
                 "1.34.89",
@@ -1241,8 +1243,7 @@
                 "1.34.56",
                 "1.34.55",
                 "1.34.54",
-                "1.34.53",
-                "1.34.52"
+                "1.34.53"
             ],
             "requires": [
                 {
@@ -1276,7 +1277,7 @@
             "level": 4,
             "package_name": "braincube-connector",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.6.0",
                 "2.5.2",
@@ -1373,7 +1374,7 @@
             "level": 1,
             "package_name": "cachetools",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "5.3.3",
                 "5.3.2",
@@ -1428,7 +1429,7 @@
             "level": 1,
             "package_name": "certifi",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2024.2.2",
                 "2023.11.17",
@@ -1486,7 +1487,7 @@
             "level": 2,
             "package_name": "cffi",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.16.0",
                 "1.16.0rc2",
@@ -1547,7 +1548,7 @@
             "level": 1,
             "package_name": "charset-normalizer",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.3.2",
                 "3.3.1",
@@ -1601,7 +1602,7 @@
             "level": 2,
             "package_name": "click",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "8.1.7",
                 "8.1.6",
@@ -1665,7 +1666,7 @@
             "level": 3,
             "package_name": "clr-loader",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.2.6",
                 "0.2.5",
@@ -1707,7 +1708,7 @@
             "level": 1,
             "package_name": "colorama",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.4.6",
                 "0.4.6rc1",
@@ -1765,7 +1766,7 @@
             "level": 2,
             "package_name": "comm",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.2.2",
                 "0.2.1",
@@ -1795,7 +1796,7 @@
             "level": 2,
             "package_name": "contourpy",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.2.1",
                 "1.2.1rc1",
@@ -1835,7 +1836,7 @@
             "level": 1,
             "package_name": "cycler",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.12.1",
                 "0.12.0",
@@ -1855,7 +1856,7 @@
             "level": 3,
             "package_name": "dataclasses-json",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.6.4",
                 "0.6.3",
@@ -1899,6 +1900,7 @@
                 "0.2.8"
             ],
             "required_by": [
+                "langchain",
                 "langchain-community",
                 "llama-index-core",
                 "llama-index-legacy"
@@ -1942,7 +1944,7 @@
             "level": 1,
             "package_name": "debugpy",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.8.1",
                 "1.8.0",
@@ -1993,7 +1995,7 @@
             "level": 1,
             "package_name": "decorator",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "5.1.1",
                 "5.1.0",
@@ -2042,7 +2044,7 @@
             "level": 1,
             "package_name": "defusedxml",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.8.0rc2",
                 "0.8.0rc1",
@@ -2070,7 +2072,7 @@
             "level": 2,
             "package_name": "Deprecated",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.2.14",
                 "1.2.13",
@@ -2109,7 +2111,7 @@
             "level": 2,
             "package_name": "deprecation",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.1.0",
                 "2.0.7",
@@ -2139,7 +2141,7 @@
             "level": 1,
             "package_name": "dirtyjson",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.0.8",
                 "1.0.7",
@@ -2160,7 +2162,7 @@
             "level": 1,
             "package_name": "distro",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.9.0",
                 "1.8.0",
@@ -2190,7 +2192,7 @@
             "level": 1,
             "package_name": "dnspython",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.6.1",
                 "2.6.0",
@@ -2244,7 +2246,7 @@
             "level": 1,
             "package_name": "docstring-parser",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.16",
                 "0.15",
@@ -2281,7 +2283,7 @@
             "level": 1,
             "package_name": "docutils",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.21.2",
                 "0.21.1",
@@ -2335,7 +2337,7 @@
             "level": 2,
             "package_name": "email-validator",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.1.1",
                 "2.1.0.post1",
@@ -2387,7 +2389,7 @@
             "level": 1,
             "package_name": "exceptiongroup",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.2.1",
                 "1.2.0",
@@ -2419,7 +2421,7 @@
             "level": 1,
             "package_name": "executing",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.0.1",
                 "2.0.0",
@@ -2466,7 +2468,7 @@
             "level": 4,
             "package_name": "fastapi",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.110.2",
                 "0.110.1",
@@ -2580,7 +2582,7 @@
             "level": 1,
             "package_name": "fastjsonschema",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.19.1",
                 "2.19.0",
@@ -2634,7 +2636,7 @@
             "level": 1,
             "package_name": "filelock",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.13.4",
                 "3.13.3",
@@ -2688,7 +2690,7 @@
             "level": 2,
             "package_name": "flake8",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "7.0.0",
                 "6.1.0",
@@ -2756,7 +2758,7 @@
             "level": 3,
             "package_name": "flask",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.0.3",
                 "3.0.2",
@@ -2854,7 +2856,7 @@
             "level": 1,
             "package_name": "fonttools",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.51.0",
                 "4.50.0",
@@ -2909,7 +2911,7 @@
             "level": 2,
             "package_name": "fpdf2",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.7.8",
                 "2.7.7",
@@ -2976,7 +2978,7 @@
             "level": 1,
             "package_name": "frozenlist",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.4.1",
                 "1.4.0",
@@ -3003,7 +3005,7 @@
             "level": 1,
             "package_name": "fsspec",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2024.3.1",
                 "2024.3.0",
@@ -3059,7 +3061,7 @@
             "level": 2,
             "package_name": "gitdb",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.0.11",
                 "4.0.10",
@@ -3101,7 +3103,7 @@
             "level": 3,
             "package_name": "GitPython",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.1.43",
                 "3.1.42",
@@ -3166,7 +3168,7 @@
             "level": 4,
             "package_name": "google-api-core",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.18.0",
                 "2.18.0rc0",
@@ -3309,7 +3311,7 @@
             "level": 3,
             "package_name": "google-auth",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.29.0",
                 "2.28.2",
@@ -3402,7 +3404,7 @@
             "level": 4,
             "package_name": "google-auth-oauthlib",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.2.0",
                 "1.1.0",
@@ -3513,7 +3515,7 @@
             "level": 7,
             "package_name": "google-cloud-aiplatform",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.48.0",
                 "1.47.0",
@@ -4486,7 +4488,7 @@
             "level": 6,
             "package_name": "google-cloud-bigquery",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.21.0",
                 "3.20.1",
@@ -4815,7 +4817,7 @@
             "level": 5,
             "package_name": "google-cloud-core",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.4.1",
                 "2.4.0",
@@ -4995,7 +4997,7 @@
             "level": 8,
             "package_name": "google-cloud-pipeline-components",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.13.1",
                 "2.13.0",
@@ -6768,7 +6770,7 @@
             "level": 5,
             "package_name": "google-cloud-resource-manager",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.12.3",
                 "1.12.2",
@@ -6993,7 +6995,7 @@
             "level": 6,
             "package_name": "google-cloud-storage",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.16.0",
                 "2.15.0",
@@ -7347,7 +7349,7 @@
             "level": 5,
             "package_name": "google-cloud-vision",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.7.2",
                 "3.7.1",
@@ -7540,7 +7542,7 @@
             "level": 1,
             "package_name": "google-crc32c",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.5.0",
                 "1.3.0",
@@ -7568,7 +7570,7 @@
             "level": 2,
             "package_name": "google-resumable-media",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.7.0",
                 "2.6.0",
@@ -7630,7 +7632,7 @@
             "level": 2,
             "package_name": "googleapis-common-protos",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.63.0",
                 "1.62.0",
@@ -7693,7 +7695,7 @@
             "level": 1,
             "package_name": "greenlet",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.0.3",
                 "3.0.2",
@@ -7747,7 +7749,7 @@
             "level": 3,
             "package_name": "grpc-google-iam-v1",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.13.0",
                 "0.13.0rc1",
@@ -7801,7 +7803,7 @@
             "level": 1,
             "package_name": "grpcio",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.63.0rc2",
                 "1.63.0rc1",
@@ -7856,7 +7858,7 @@
             "level": 3,
             "package_name": "grpcio-status",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.63.0rc2",
                 "1.63.0rc1",
@@ -7931,7 +7933,7 @@
             "level": 1,
             "package_name": "h11",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.14.0",
                 "0.13.0",
@@ -7959,7 +7961,7 @@
             "level": 2,
             "package_name": "h5py",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.9.0",
                 "3.8.0",
@@ -8015,7 +8017,7 @@
             "level": 2,
             "package_name": "httpcore",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.0.5",
                 "1.0.4",
@@ -8080,7 +8082,7 @@
             "level": 1,
             "package_name": "httptools",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.6.1",
                 "0.6.0",
@@ -8113,7 +8115,7 @@
             "level": 3,
             "package_name": "httpx",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.0.0b0",
                 "0.27.0",
@@ -8163,7 +8165,8 @@
                 "llamaindex-py-client",
                 "nicegui",
                 "ollama",
-                "openai"
+                "openai",
+                "replicate"
             ],
             "requires": [
                 {
@@ -8219,7 +8222,7 @@
             "level": 1,
             "package_name": "idna",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.7",
                 "3.6",
@@ -8267,7 +8270,7 @@
             "level": 1,
             "package_name": "ifaddr",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.2.0",
                 "0.1.7",
@@ -8291,7 +8294,7 @@
             "level": 2,
             "package_name": "imageio",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.34.1",
                 "2.34.0",
@@ -8356,7 +8359,7 @@
             "level": 2,
             "package_name": "importlib-metadata",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "7.1.0",
                 "7.0.2",
@@ -8417,7 +8420,7 @@
             "level": 1,
             "package_name": "iniconfig",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.0.0",
                 "1.1.1",
@@ -8439,7 +8442,7 @@
             "level": 5,
             "package_name": "ipykernel",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "6.29.4",
                 "6.29.3",
@@ -8713,7 +8716,7 @@
             "level": 4,
             "package_name": "ipython",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "8.9.0",
                 "8.8.0",
@@ -8847,7 +8850,7 @@
             "level": 1,
             "package_name": "itsdangerous",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.2.0",
                 "2.1.2",
@@ -8889,7 +8892,7 @@
             "level": 2,
             "package_name": "jedi",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.9.0",
                 "0.8.1",
@@ -8942,7 +8945,7 @@
             "level": 2,
             "package_name": "Jinja2",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.1.3",
                 "3.1.2",
@@ -9000,7 +9003,7 @@
             "level": 1,
             "package_name": "jmespath",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.0.1",
                 "1.0.0",
@@ -9040,7 +9043,7 @@
             "level": 1,
             "package_name": "joblib",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.4.0",
                 "1.3.2",
@@ -9094,7 +9097,7 @@
             "level": 2,
             "package_name": "json-numpy",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.0.0",
                 "1.0.1",
@@ -9115,7 +9118,7 @@
             "level": 1,
             "package_name": "json5",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.9.25",
                 "0.9.24",
@@ -9169,7 +9172,7 @@
             "level": 2,
             "package_name": "jsonpatch",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.33",
                 "1.32",
@@ -9213,6 +9216,7 @@
                 "0.3"
             ],
             "required_by": [
+                "langchain",
                 "langchain-core"
             ],
             "requires": [
@@ -9230,7 +9234,7 @@
             "level": 1,
             "package_name": "jsonpointer",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.4",
                 "2.3",
@@ -9271,7 +9275,7 @@
             "level": 4,
             "package_name": "jsonschema",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.21.1",
                 "4.21.0",
@@ -9381,7 +9385,7 @@
             "level": 3,
             "package_name": "jsonschema-specifications",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2023.12.1",
                 "2023.11.2",
@@ -9436,7 +9440,7 @@
             "level": 3,
             "package_name": "jupyter-client",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "8.6.1",
                 "8.6.0",
@@ -9543,7 +9547,7 @@
             "level": 2,
             "package_name": "jupyter-core",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "5.7.2",
                 "5.7.1",
@@ -9620,7 +9624,7 @@
             "level": 5,
             "package_name": "jupyter-events",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.10.0",
                 "0.9.1",
@@ -9754,7 +9758,7 @@
             "level": 9,
             "package_name": "jupyter-lsp",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.2.5",
                 "2.2.4",
@@ -10623,7 +10627,7 @@
             "level": 8,
             "package_name": "jupyter-server",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.14.0",
                 "2.13.0",
@@ -11498,7 +11502,7 @@
             "level": 3,
             "package_name": "jupyter-server-terminals",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.5.3",
                 "0.5.2",
@@ -11551,7 +11555,7 @@
             "level": 10,
             "package_name": "jupyterlab",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.2.0b3",
                 "4.2.0b2",
@@ -15355,7 +15359,7 @@
             "level": 1,
             "package_name": "jupyterlab-pygments",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.3.0",
                 "0.2.2",
@@ -15376,7 +15380,7 @@
             "level": 9,
             "package_name": "jupyterlab-server",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.27.1",
                 "2.27.0",
@@ -16367,7 +16371,7 @@
             "level": 7,
             "package_name": "kfp",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.7.0",
                 "2.6.0",
@@ -17113,7 +17117,7 @@
             "level": 2,
             "package_name": "kfp-pipeline-spec",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.3.0",
                 "0.2.2",
@@ -17155,7 +17159,7 @@
             "level": 3,
             "package_name": "kfp-server-api",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.1.0",
                 "2.0.5",
@@ -17236,7 +17240,7 @@
             "level": 1,
             "package_name": "kiwisolver",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.4.5",
                 "1.4.4",
@@ -17267,7 +17271,7 @@
             "level": 4,
             "package_name": "kubernetes",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "29.0.0",
                 "29.0.0b1",
@@ -17461,11 +17465,940 @@
             "version_installed": "26.1.0",
             "version_required": "26.1.0"
         },
+        "langchain": {
+            "level": 7,
+            "package_name": "langchain",
+            "pypi_package": true,
+            "releases_checked_time": 1714119274,
+            "releases_recent": [
+                "0.1.16",
+                "0.1.15",
+                "0.1.14",
+                "0.1.13",
+                "0.1.12",
+                "0.1.11",
+                "0.1.10",
+                "0.1.9",
+                "0.1.8",
+                "0.1.7",
+                "0.1.6",
+                "0.1.5",
+                "0.1.4",
+                "0.1.3",
+                "0.1.2",
+                "0.1.1",
+                "0.1.0",
+                "0.0.354",
+                "0.0.353",
+                "0.0.352",
+                "0.0.351",
+                "0.0.350",
+                "0.0.349",
+                "0.0.349rc2",
+                "0.0.349rc1",
+                "0.0.348",
+                "0.0.347",
+                "0.0.346",
+                "0.0.345",
+                "0.0.344",
+                "0.0.343",
+                "0.0.342",
+                "0.0.341",
+                "0.0.340",
+                "0.0.339",
+                "0.0.339rc3",
+                "0.0.339rc2",
+                "0.0.339rc1",
+                "0.0.339rc0",
+                "0.0.338"
+            ],
+            "requires": [
+                {
+                    "package_name": "aiohttp",
+                    "requires": [
+                        {
+                            "package_name": "aiosignal",
+                            "requires": [
+                                {
+                                    "package_name": "frozenlist",
+                                    "version_installed": "1.4.1",
+                                    "version_required": ">=1.1.0"
+                                }
+                            ],
+                            "version_installed": "1.3.1",
+                            "version_required": ">=1.1.2"
+                        },
+                        {
+                            "package_name": "attrs",
+                            "version_installed": "23.2.0",
+                            "version_required": ">=17.3.0"
+                        },
+                        {
+                            "package_name": "frozenlist",
+                            "version_installed": "1.4.1",
+                            "version_required": ">=1.1.1"
+                        },
+                        {
+                            "package_name": "multidict",
+                            "version_installed": "6.0.5",
+                            "version_required": ">=4.5,<7.0"
+                        },
+                        {
+                            "package_name": "yarl",
+                            "requires": [
+                                {
+                                    "package_name": "idna",
+                                    "version_installed": "3.6",
+                                    "version_required": ">=2.0"
+                                },
+                                {
+                                    "package_name": "multidict",
+                                    "version_installed": "6.0.5",
+                                    "version_required": ">=4.0"
+                                }
+                            ],
+                            "version_installed": "1.9.4",
+                            "version_required": ">=1.0,<2.0"
+                        }
+                    ],
+                    "version_installed": "3.9.3",
+                    "version_required": ">=3.8.3,<4.0.0"
+                },
+                {
+                    "package_name": "dataclasses-json",
+                    "requires": [
+                        {
+                            "package_name": "marshmallow",
+                            "requires": [
+                                {
+                                    "package_name": "packaging",
+                                    "version_installed": "23.2",
+                                    "version_required": ">=17.0"
+                                }
+                            ],
+                            "version_installed": "3.21.1",
+                            "version_required": ">=3.18.0,<4.0.0"
+                        },
+                        {
+                            "package_name": "typing-inspect",
+                            "requires": [
+                                {
+                                    "package_name": "mypy-extensions",
+                                    "version_installed": "1.0.0",
+                                    "version_required": ">=0.3.0"
+                                },
+                                {
+                                    "package_name": "typing-extensions",
+                                    "version_installed": "4.9.0",
+                                    "version_required": ">=3.7.4"
+                                }
+                            ],
+                            "version_installed": "0.9.0",
+                            "version_required": ">=0.4.0,<1"
+                        }
+                    ],
+                    "version_installed": "0.6.4",
+                    "version_required": ">=0.5.7,<0.7"
+                },
+                {
+                    "package_name": "jsonpatch",
+                    "requires": [
+                        {
+                            "package_name": "jsonpointer",
+                            "version_installed": "2.4",
+                            "version_required": ">=1.9"
+                        }
+                    ],
+                    "version_installed": "1.33",
+                    "version_required": ">=1.33,<2.0"
+                },
+                {
+                    "package_name": "langchain-community",
+                    "requires": [
+                        {
+                            "package_name": "aiohttp",
+                            "requires": [
+                                {
+                                    "package_name": "aiosignal",
+                                    "requires": [
+                                        {
+                                            "package_name": "frozenlist",
+                                            "version_installed": "1.4.1",
+                                            "version_required": ">=1.1.0"
+                                        }
+                                    ],
+                                    "version_installed": "1.3.1",
+                                    "version_required": ">=1.1.2"
+                                },
+                                {
+                                    "package_name": "attrs",
+                                    "version_installed": "23.2.0",
+                                    "version_required": ">=17.3.0"
+                                },
+                                {
+                                    "package_name": "frozenlist",
+                                    "version_installed": "1.4.1",
+                                    "version_required": ">=1.1.1"
+                                },
+                                {
+                                    "package_name": "multidict",
+                                    "version_installed": "6.0.5",
+                                    "version_required": ">=4.5,<7.0"
+                                },
+                                {
+                                    "package_name": "yarl",
+                                    "requires": [
+                                        {
+                                            "package_name": "idna",
+                                            "version_installed": "3.6",
+                                            "version_required": ">=2.0"
+                                        },
+                                        {
+                                            "package_name": "multidict",
+                                            "version_installed": "6.0.5",
+                                            "version_required": ">=4.0"
+                                        }
+                                    ],
+                                    "version_installed": "1.9.4",
+                                    "version_required": ">=1.0,<2.0"
+                                }
+                            ],
+                            "version_installed": "3.9.3",
+                            "version_required": ">=3.8.3,<4.0.0"
+                        },
+                        {
+                            "package_name": "dataclasses-json",
+                            "requires": [
+                                {
+                                    "package_name": "marshmallow",
+                                    "requires": [
+                                        {
+                                            "package_name": "packaging",
+                                            "version_installed": "23.2",
+                                            "version_required": ">=17.0"
+                                        }
+                                    ],
+                                    "version_installed": "3.21.1",
+                                    "version_required": ">=3.18.0,<4.0.0"
+                                },
+                                {
+                                    "package_name": "typing-inspect",
+                                    "requires": [
+                                        {
+                                            "package_name": "mypy-extensions",
+                                            "version_installed": "1.0.0",
+                                            "version_required": ">=0.3.0"
+                                        },
+                                        {
+                                            "package_name": "typing-extensions",
+                                            "version_installed": "4.9.0",
+                                            "version_required": ">=3.7.4"
+                                        }
+                                    ],
+                                    "version_installed": "0.9.0",
+                                    "version_required": ">=0.4.0,<1"
+                                }
+                            ],
+                            "version_installed": "0.6.4",
+                            "version_required": ">=0.5.7,<0.7"
+                        },
+                        {
+                            "package_name": "langchain-core",
+                            "requires": [
+                                {
+                                    "package_name": "jsonpatch",
+                                    "requires": [
+                                        {
+                                            "package_name": "jsonpointer",
+                                            "version_installed": "2.4",
+                                            "version_required": ">=1.9"
+                                        }
+                                    ],
+                                    "version_installed": "1.33",
+                                    "version_required": ">=1.33,<2.0"
+                                },
+                                {
+                                    "package_name": "langsmith",
+                                    "requires": [
+                                        {
+                                            "package_name": "orjson",
+                                            "version_installed": "3.10.1",
+                                            "version_required": ">=3.9.14,<4.0.0"
+                                        },
+                                        {
+                                            "package_name": "pydantic",
+                                            "requires": [
+                                                {
+                                                    "package_name": "annotated-types",
+                                                    "version_installed": "0.6.0",
+                                                    "version_required": ">=0.4.0"
+                                                },
+                                                {
+                                                    "package_name": "pydantic-core",
+                                                    "requires": [
+                                                        {
+                                                            "package_name": "typing-extensions",
+                                                            "version_installed": "4.9.0",
+                                                            "version_required": ">=4.6.0,!=4.7.0"
+                                                        }
+                                                    ],
+                                                    "version_installed": "2.18.1",
+                                                    "version_required": "==2.18.1"
+                                                },
+                                                {
+                                                    "package_name": "typing-extensions",
+                                                    "version_installed": "4.9.0",
+                                                    "version_required": ">=4.6.1"
+                                                }
+                                            ],
+                                            "version_installed": "2.7.0",
+                                            "version_required": ">=1,<3"
+                                        },
+                                        {
+                                            "package_name": "requests",
+                                            "requires": [
+                                                {
+                                                    "package_name": "certifi",
+                                                    "version_installed": "2024.2.2",
+                                                    "version_required": ">=2017.4.17"
+                                                },
+                                                {
+                                                    "package_name": "charset-normalizer",
+                                                    "version_installed": "3.3.2",
+                                                    "version_required": ">=2,<4"
+                                                },
+                                                {
+                                                    "package_name": "idna",
+                                                    "version_installed": "3.6",
+                                                    "version_required": ">=2.5,<4"
+                                                },
+                                                {
+                                                    "package_name": "urllib3",
+                                                    "version_installed": "1.26.18",
+                                                    "version_required": ">=1.21.1,<3"
+                                                }
+                                            ],
+                                            "version_installed": "2.31.0",
+                                            "version_required": ">=2,<3"
+                                        }
+                                    ],
+                                    "version_installed": "0.1.49",
+                                    "version_required": ">=0.1.0,<0.2.0"
+                                },
+                                {
+                                    "package_name": "packaging",
+                                    "version_installed": "23.2",
+                                    "version_required": ">=23.2,<24.0"
+                                },
+                                {
+                                    "package_name": "pydantic",
+                                    "requires": [
+                                        {
+                                            "package_name": "annotated-types",
+                                            "version_installed": "0.6.0",
+                                            "version_required": ">=0.4.0"
+                                        },
+                                        {
+                                            "package_name": "pydantic-core",
+                                            "requires": [
+                                                {
+                                                    "package_name": "typing-extensions",
+                                                    "version_installed": "4.9.0",
+                                                    "version_required": ">=4.6.0,!=4.7.0"
+                                                }
+                                            ],
+                                            "version_installed": "2.18.1",
+                                            "version_required": "==2.18.1"
+                                        },
+                                        {
+                                            "package_name": "typing-extensions",
+                                            "version_installed": "4.9.0",
+                                            "version_required": ">=4.6.1"
+                                        }
+                                    ],
+                                    "version_installed": "2.7.0",
+                                    "version_required": ">=1,<3"
+                                },
+                                {
+                                    "package_name": "PyYAML",
+                                    "version_installed": "6.0.1",
+                                    "version_required": ">=5.3"
+                                },
+                                {
+                                    "package_name": "tenacity",
+                                    "version_installed": "8.2.3",
+                                    "version_required": ">=8.1.0,<9.0.0"
+                                }
+                            ],
+                            "version_installed": "0.1.45",
+                            "version_required": ">=0.1.45,<0.2.0"
+                        },
+                        {
+                            "package_name": "langsmith",
+                            "requires": [
+                                {
+                                    "package_name": "orjson",
+                                    "version_installed": "3.10.1",
+                                    "version_required": ">=3.9.14,<4.0.0"
+                                },
+                                {
+                                    "package_name": "pydantic",
+                                    "requires": [
+                                        {
+                                            "package_name": "annotated-types",
+                                            "version_installed": "0.6.0",
+                                            "version_required": ">=0.4.0"
+                                        },
+                                        {
+                                            "package_name": "pydantic-core",
+                                            "requires": [
+                                                {
+                                                    "package_name": "typing-extensions",
+                                                    "version_installed": "4.9.0",
+                                                    "version_required": ">=4.6.0,!=4.7.0"
+                                                }
+                                            ],
+                                            "version_installed": "2.18.1",
+                                            "version_required": "==2.18.1"
+                                        },
+                                        {
+                                            "package_name": "typing-extensions",
+                                            "version_installed": "4.9.0",
+                                            "version_required": ">=4.6.1"
+                                        }
+                                    ],
+                                    "version_installed": "2.7.0",
+                                    "version_required": ">=1,<3"
+                                },
+                                {
+                                    "package_name": "requests",
+                                    "requires": [
+                                        {
+                                            "package_name": "certifi",
+                                            "version_installed": "2024.2.2",
+                                            "version_required": ">=2017.4.17"
+                                        },
+                                        {
+                                            "package_name": "charset-normalizer",
+                                            "version_installed": "3.3.2",
+                                            "version_required": ">=2,<4"
+                                        },
+                                        {
+                                            "package_name": "idna",
+                                            "version_installed": "3.6",
+                                            "version_required": ">=2.5,<4"
+                                        },
+                                        {
+                                            "package_name": "urllib3",
+                                            "version_installed": "1.26.18",
+                                            "version_required": ">=1.21.1,<3"
+                                        }
+                                    ],
+                                    "version_installed": "2.31.0",
+                                    "version_required": ">=2,<3"
+                                }
+                            ],
+                            "version_installed": "0.1.49",
+                            "version_required": ">=0.1.0,<0.2.0"
+                        },
+                        {
+                            "package_name": "numpy",
+                            "version_installed": "1.26.4",
+                            "version_required": ">=1,<2"
+                        },
+                        {
+                            "package_name": "PyYAML",
+                            "version_installed": "6.0.1",
+                            "version_required": ">=5.3"
+                        },
+                        {
+                            "package_name": "requests",
+                            "requires": [
+                                {
+                                    "package_name": "certifi",
+                                    "version_installed": "2024.2.2",
+                                    "version_required": ">=2017.4.17"
+                                },
+                                {
+                                    "package_name": "charset-normalizer",
+                                    "version_installed": "3.3.2",
+                                    "version_required": ">=2,<4"
+                                },
+                                {
+                                    "package_name": "idna",
+                                    "version_installed": "3.6",
+                                    "version_required": ">=2.5,<4"
+                                },
+                                {
+                                    "package_name": "urllib3",
+                                    "version_installed": "1.26.18",
+                                    "version_required": ">=1.21.1,<3"
+                                }
+                            ],
+                            "version_installed": "2.31.0",
+                            "version_required": ">=2,<3"
+                        },
+                        {
+                            "package_name": "SQLAlchemy",
+                            "requires": [
+                                {
+                                    "package_name": "greenlet",
+                                    "version_installed": "3.0.3",
+                                    "version_required": "!=0.4.17"
+                                },
+                                {
+                                    "package_name": "typing-extensions",
+                                    "version_installed": "4.9.0",
+                                    "version_required": ">=4.6.0"
+                                }
+                            ],
+                            "version_installed": "2.0.29",
+                            "version_required": ">=1.4,<3"
+                        },
+                        {
+                            "package_name": "tenacity",
+                            "version_installed": "8.2.3",
+                            "version_required": ">=8.1.0,<9.0.0"
+                        }
+                    ],
+                    "version_installed": "0.0.34",
+                    "version_required": ">=0.0.32,<0.1"
+                },
+                {
+                    "package_name": "langchain-core",
+                    "requires": [
+                        {
+                            "package_name": "jsonpatch",
+                            "requires": [
+                                {
+                                    "package_name": "jsonpointer",
+                                    "version_installed": "2.4",
+                                    "version_required": ">=1.9"
+                                }
+                            ],
+                            "version_installed": "1.33",
+                            "version_required": ">=1.33,<2.0"
+                        },
+                        {
+                            "package_name": "langsmith",
+                            "requires": [
+                                {
+                                    "package_name": "orjson",
+                                    "version_installed": "3.10.1",
+                                    "version_required": ">=3.9.14,<4.0.0"
+                                },
+                                {
+                                    "package_name": "pydantic",
+                                    "requires": [
+                                        {
+                                            "package_name": "annotated-types",
+                                            "version_installed": "0.6.0",
+                                            "version_required": ">=0.4.0"
+                                        },
+                                        {
+                                            "package_name": "pydantic-core",
+                                            "requires": [
+                                                {
+                                                    "package_name": "typing-extensions",
+                                                    "version_installed": "4.9.0",
+                                                    "version_required": ">=4.6.0,!=4.7.0"
+                                                }
+                                            ],
+                                            "version_installed": "2.18.1",
+                                            "version_required": "==2.18.1"
+                                        },
+                                        {
+                                            "package_name": "typing-extensions",
+                                            "version_installed": "4.9.0",
+                                            "version_required": ">=4.6.1"
+                                        }
+                                    ],
+                                    "version_installed": "2.7.0",
+                                    "version_required": ">=1,<3"
+                                },
+                                {
+                                    "package_name": "requests",
+                                    "requires": [
+                                        {
+                                            "package_name": "certifi",
+                                            "version_installed": "2024.2.2",
+                                            "version_required": ">=2017.4.17"
+                                        },
+                                        {
+                                            "package_name": "charset-normalizer",
+                                            "version_installed": "3.3.2",
+                                            "version_required": ">=2,<4"
+                                        },
+                                        {
+                                            "package_name": "idna",
+                                            "version_installed": "3.6",
+                                            "version_required": ">=2.5,<4"
+                                        },
+                                        {
+                                            "package_name": "urllib3",
+                                            "version_installed": "1.26.18",
+                                            "version_required": ">=1.21.1,<3"
+                                        }
+                                    ],
+                                    "version_installed": "2.31.0",
+                                    "version_required": ">=2,<3"
+                                }
+                            ],
+                            "version_installed": "0.1.49",
+                            "version_required": ">=0.1.0,<0.2.0"
+                        },
+                        {
+                            "package_name": "packaging",
+                            "version_installed": "23.2",
+                            "version_required": ">=23.2,<24.0"
+                        },
+                        {
+                            "package_name": "pydantic",
+                            "requires": [
+                                {
+                                    "package_name": "annotated-types",
+                                    "version_installed": "0.6.0",
+                                    "version_required": ">=0.4.0"
+                                },
+                                {
+                                    "package_name": "pydantic-core",
+                                    "requires": [
+                                        {
+                                            "package_name": "typing-extensions",
+                                            "version_installed": "4.9.0",
+                                            "version_required": ">=4.6.0,!=4.7.0"
+                                        }
+                                    ],
+                                    "version_installed": "2.18.1",
+                                    "version_required": "==2.18.1"
+                                },
+                                {
+                                    "package_name": "typing-extensions",
+                                    "version_installed": "4.9.0",
+                                    "version_required": ">=4.6.1"
+                                }
+                            ],
+                            "version_installed": "2.7.0",
+                            "version_required": ">=1,<3"
+                        },
+                        {
+                            "package_name": "PyYAML",
+                            "version_installed": "6.0.1",
+                            "version_required": ">=5.3"
+                        },
+                        {
+                            "package_name": "tenacity",
+                            "version_installed": "8.2.3",
+                            "version_required": ">=8.1.0,<9.0.0"
+                        }
+                    ],
+                    "version_installed": "0.1.45",
+                    "version_required": ">=0.1.42,<0.2.0"
+                },
+                {
+                    "package_name": "langchain-text-splitters",
+                    "requires": [
+                        {
+                            "package_name": "langchain-core",
+                            "requires": [
+                                {
+                                    "package_name": "jsonpatch",
+                                    "requires": [
+                                        {
+                                            "package_name": "jsonpointer",
+                                            "version_installed": "2.4",
+                                            "version_required": ">=1.9"
+                                        }
+                                    ],
+                                    "version_installed": "1.33",
+                                    "version_required": ">=1.33,<2.0"
+                                },
+                                {
+                                    "package_name": "langsmith",
+                                    "requires": [
+                                        {
+                                            "package_name": "orjson",
+                                            "version_installed": "3.10.1",
+                                            "version_required": ">=3.9.14,<4.0.0"
+                                        },
+                                        {
+                                            "package_name": "pydantic",
+                                            "requires": [
+                                                {
+                                                    "package_name": "annotated-types",
+                                                    "version_installed": "0.6.0",
+                                                    "version_required": ">=0.4.0"
+                                                },
+                                                {
+                                                    "package_name": "pydantic-core",
+                                                    "requires": [
+                                                        {
+                                                            "package_name": "typing-extensions",
+                                                            "version_installed": "4.9.0",
+                                                            "version_required": ">=4.6.0,!=4.7.0"
+                                                        }
+                                                    ],
+                                                    "version_installed": "2.18.1",
+                                                    "version_required": "==2.18.1"
+                                                },
+                                                {
+                                                    "package_name": "typing-extensions",
+                                                    "version_installed": "4.9.0",
+                                                    "version_required": ">=4.6.1"
+                                                }
+                                            ],
+                                            "version_installed": "2.7.0",
+                                            "version_required": ">=1,<3"
+                                        },
+                                        {
+                                            "package_name": "requests",
+                                            "requires": [
+                                                {
+                                                    "package_name": "certifi",
+                                                    "version_installed": "2024.2.2",
+                                                    "version_required": ">=2017.4.17"
+                                                },
+                                                {
+                                                    "package_name": "charset-normalizer",
+                                                    "version_installed": "3.3.2",
+                                                    "version_required": ">=2,<4"
+                                                },
+                                                {
+                                                    "package_name": "idna",
+                                                    "version_installed": "3.6",
+                                                    "version_required": ">=2.5,<4"
+                                                },
+                                                {
+                                                    "package_name": "urllib3",
+                                                    "version_installed": "1.26.18",
+                                                    "version_required": ">=1.21.1,<3"
+                                                }
+                                            ],
+                                            "version_installed": "2.31.0",
+                                            "version_required": ">=2,<3"
+                                        }
+                                    ],
+                                    "version_installed": "0.1.49",
+                                    "version_required": ">=0.1.0,<0.2.0"
+                                },
+                                {
+                                    "package_name": "packaging",
+                                    "version_installed": "23.2",
+                                    "version_required": ">=23.2,<24.0"
+                                },
+                                {
+                                    "package_name": "pydantic",
+                                    "requires": [
+                                        {
+                                            "package_name": "annotated-types",
+                                            "version_installed": "0.6.0",
+                                            "version_required": ">=0.4.0"
+                                        },
+                                        {
+                                            "package_name": "pydantic-core",
+                                            "requires": [
+                                                {
+                                                    "package_name": "typing-extensions",
+                                                    "version_installed": "4.9.0",
+                                                    "version_required": ">=4.6.0,!=4.7.0"
+                                                }
+                                            ],
+                                            "version_installed": "2.18.1",
+                                            "version_required": "==2.18.1"
+                                        },
+                                        {
+                                            "package_name": "typing-extensions",
+                                            "version_installed": "4.9.0",
+                                            "version_required": ">=4.6.1"
+                                        }
+                                    ],
+                                    "version_installed": "2.7.0",
+                                    "version_required": ">=1,<3"
+                                },
+                                {
+                                    "package_name": "PyYAML",
+                                    "version_installed": "6.0.1",
+                                    "version_required": ">=5.3"
+                                },
+                                {
+                                    "package_name": "tenacity",
+                                    "version_installed": "8.2.3",
+                                    "version_required": ">=8.1.0,<9.0.0"
+                                }
+                            ],
+                            "version_installed": "0.1.45",
+                            "version_required": ">=0.1.28,<0.2.0"
+                        }
+                    ],
+                    "version_installed": "0.0.1",
+                    "version_required": ">=0.0.1,<0.1"
+                },
+                {
+                    "package_name": "langsmith",
+                    "requires": [
+                        {
+                            "package_name": "orjson",
+                            "version_installed": "3.10.1",
+                            "version_required": ">=3.9.14,<4.0.0"
+                        },
+                        {
+                            "package_name": "pydantic",
+                            "requires": [
+                                {
+                                    "package_name": "annotated-types",
+                                    "version_installed": "0.6.0",
+                                    "version_required": ">=0.4.0"
+                                },
+                                {
+                                    "package_name": "pydantic-core",
+                                    "requires": [
+                                        {
+                                            "package_name": "typing-extensions",
+                                            "version_installed": "4.9.0",
+                                            "version_required": ">=4.6.0,!=4.7.0"
+                                        }
+                                    ],
+                                    "version_installed": "2.18.1",
+                                    "version_required": "==2.18.1"
+                                },
+                                {
+                                    "package_name": "typing-extensions",
+                                    "version_installed": "4.9.0",
+                                    "version_required": ">=4.6.1"
+                                }
+                            ],
+                            "version_installed": "2.7.0",
+                            "version_required": ">=1,<3"
+                        },
+                        {
+                            "package_name": "requests",
+                            "requires": [
+                                {
+                                    "package_name": "certifi",
+                                    "version_installed": "2024.2.2",
+                                    "version_required": ">=2017.4.17"
+                                },
+                                {
+                                    "package_name": "charset-normalizer",
+                                    "version_installed": "3.3.2",
+                                    "version_required": ">=2,<4"
+                                },
+                                {
+                                    "package_name": "idna",
+                                    "version_installed": "3.6",
+                                    "version_required": ">=2.5,<4"
+                                },
+                                {
+                                    "package_name": "urllib3",
+                                    "version_installed": "1.26.18",
+                                    "version_required": ">=1.21.1,<3"
+                                }
+                            ],
+                            "version_installed": "2.31.0",
+                            "version_required": ">=2,<3"
+                        }
+                    ],
+                    "version_installed": "0.1.49",
+                    "version_required": ">=0.1.17,<0.2.0"
+                },
+                {
+                    "package_name": "numpy",
+                    "version_installed": "1.26.4",
+                    "version_required": ">=1,<2"
+                },
+                {
+                    "package_name": "pydantic",
+                    "requires": [
+                        {
+                            "package_name": "annotated-types",
+                            "version_installed": "0.6.0",
+                            "version_required": ">=0.4.0"
+                        },
+                        {
+                            "package_name": "pydantic-core",
+                            "requires": [
+                                {
+                                    "package_name": "typing-extensions",
+                                    "version_installed": "4.9.0",
+                                    "version_required": ">=4.6.0,!=4.7.0"
+                                }
+                            ],
+                            "version_installed": "2.18.1",
+                            "version_required": "==2.18.1"
+                        },
+                        {
+                            "package_name": "typing-extensions",
+                            "version_installed": "4.9.0",
+                            "version_required": ">=4.6.1"
+                        }
+                    ],
+                    "version_installed": "2.7.0",
+                    "version_required": ">=1,<3"
+                },
+                {
+                    "package_name": "PyYAML",
+                    "version_installed": "6.0.1",
+                    "version_required": ">=5.3"
+                },
+                {
+                    "package_name": "requests",
+                    "requires": [
+                        {
+                            "package_name": "certifi",
+                            "version_installed": "2024.2.2",
+                            "version_required": ">=2017.4.17"
+                        },
+                        {
+                            "package_name": "charset-normalizer",
+                            "version_installed": "3.3.2",
+                            "version_required": ">=2,<4"
+                        },
+                        {
+                            "package_name": "idna",
+                            "version_installed": "3.6",
+                            "version_required": ">=2.5,<4"
+                        },
+                        {
+                            "package_name": "urllib3",
+                            "version_installed": "1.26.18",
+                            "version_required": ">=1.21.1,<3"
+                        }
+                    ],
+                    "version_installed": "2.31.0",
+                    "version_required": ">=2,<3"
+                },
+                {
+                    "package_name": "SQLAlchemy",
+                    "requires": [
+                        {
+                            "package_name": "greenlet",
+                            "version_installed": "3.0.3",
+                            "version_required": "!=0.4.17"
+                        },
+                        {
+                            "package_name": "typing-extensions",
+                            "version_installed": "4.9.0",
+                            "version_required": ">=4.6.0"
+                        }
+                    ],
+                    "version_installed": "2.0.29",
+                    "version_required": ">=1.4,<3"
+                },
+                {
+                    "package_name": "tenacity",
+                    "version_installed": "8.2.3",
+                    "version_required": ">=8.1.0,<9.0.0"
+                }
+            ],
+            "summary": "Building applications with LLMs through composability",
+            "version_installed": "0.1.16",
+            "version_required": "0.1.16"
+        },
         "langchain-community": {
             "level": 6,
             "package_name": "langchain-community",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.0.34",
                 "0.0.33",
@@ -17503,6 +18436,9 @@
                 "0.0.1",
                 "0.0.1rc2",
                 "0.0.1rc1"
+            ],
+            "required_by": [
+                "langchain"
             ],
             "requires": [
                 {
@@ -17859,8 +18795,9 @@
             "level": 5,
             "package_name": "langchain-core",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
+                "0.1.46",
                 "0.1.45",
                 "0.1.44",
                 "0.1.43",
@@ -17899,11 +18836,13 @@
                 "0.1.14",
                 "0.1.13",
                 "0.1.12",
-                "0.1.12rc1",
-                "0.1.11"
+                "0.1.12rc1"
             ],
             "required_by": [
-                "langchain-community"
+                "langchain",
+                "langchain-community",
+                "langchain-openai",
+                "langchain-text-splitters"
             ],
             "requires": [
                 {
@@ -18035,12 +18974,490 @@
             "version_installed": "0.1.45",
             "version_required": "0.1.45"
         },
+        "langchain-openai": {
+            "level": 6,
+            "package_name": "langchain-openai",
+            "pypi_package": true,
+            "releases_checked_time": 1714118959,
+            "releases_recent": [
+                "0.1.3",
+                "0.1.3rc1",
+                "0.1.2",
+                "0.1.1",
+                "0.1.0",
+                "0.0.8",
+                "0.0.8rc1",
+                "0.0.7",
+                "0.0.6",
+                "0.0.5",
+                "0.0.4",
+                "0.0.3",
+                "0.0.2.post1",
+                "0.0.2",
+                "0.0.1",
+                "0.0.1rc1",
+                "0.0.1rc0"
+            ],
+            "requires": [
+                {
+                    "package_name": "langchain-core",
+                    "requires": [
+                        {
+                            "package_name": "jsonpatch",
+                            "requires": [
+                                {
+                                    "package_name": "jsonpointer",
+                                    "version_installed": "2.4",
+                                    "version_required": ">=1.9"
+                                }
+                            ],
+                            "version_installed": "1.33",
+                            "version_required": ">=1.33,<2.0"
+                        },
+                        {
+                            "package_name": "langsmith",
+                            "requires": [
+                                {
+                                    "package_name": "orjson",
+                                    "version_installed": "3.10.1",
+                                    "version_required": ">=3.9.14,<4.0.0"
+                                },
+                                {
+                                    "package_name": "pydantic",
+                                    "requires": [
+                                        {
+                                            "package_name": "annotated-types",
+                                            "version_installed": "0.6.0",
+                                            "version_required": ">=0.4.0"
+                                        },
+                                        {
+                                            "package_name": "pydantic-core",
+                                            "requires": [
+                                                {
+                                                    "package_name": "typing-extensions",
+                                                    "version_installed": "4.9.0",
+                                                    "version_required": ">=4.6.0,!=4.7.0"
+                                                }
+                                            ],
+                                            "version_installed": "2.18.1",
+                                            "version_required": "==2.18.1"
+                                        },
+                                        {
+                                            "package_name": "typing-extensions",
+                                            "version_installed": "4.9.0",
+                                            "version_required": ">=4.6.1"
+                                        }
+                                    ],
+                                    "version_installed": "2.7.0",
+                                    "version_required": ">=1,<3"
+                                },
+                                {
+                                    "package_name": "requests",
+                                    "requires": [
+                                        {
+                                            "package_name": "certifi",
+                                            "version_installed": "2024.2.2",
+                                            "version_required": ">=2017.4.17"
+                                        },
+                                        {
+                                            "package_name": "charset-normalizer",
+                                            "version_installed": "3.3.2",
+                                            "version_required": ">=2,<4"
+                                        },
+                                        {
+                                            "package_name": "idna",
+                                            "version_installed": "3.6",
+                                            "version_required": ">=2.5,<4"
+                                        },
+                                        {
+                                            "package_name": "urllib3",
+                                            "version_installed": "1.26.18",
+                                            "version_required": ">=1.21.1,<3"
+                                        }
+                                    ],
+                                    "version_installed": "2.31.0",
+                                    "version_required": ">=2,<3"
+                                }
+                            ],
+                            "version_installed": "0.1.49",
+                            "version_required": ">=0.1.0,<0.2.0"
+                        },
+                        {
+                            "package_name": "packaging",
+                            "version_installed": "23.2",
+                            "version_required": ">=23.2,<24.0"
+                        },
+                        {
+                            "package_name": "pydantic",
+                            "requires": [
+                                {
+                                    "package_name": "annotated-types",
+                                    "version_installed": "0.6.0",
+                                    "version_required": ">=0.4.0"
+                                },
+                                {
+                                    "package_name": "pydantic-core",
+                                    "requires": [
+                                        {
+                                            "package_name": "typing-extensions",
+                                            "version_installed": "4.9.0",
+                                            "version_required": ">=4.6.0,!=4.7.0"
+                                        }
+                                    ],
+                                    "version_installed": "2.18.1",
+                                    "version_required": "==2.18.1"
+                                },
+                                {
+                                    "package_name": "typing-extensions",
+                                    "version_installed": "4.9.0",
+                                    "version_required": ">=4.6.1"
+                                }
+                            ],
+                            "version_installed": "2.7.0",
+                            "version_required": ">=1,<3"
+                        },
+                        {
+                            "package_name": "PyYAML",
+                            "version_installed": "6.0.1",
+                            "version_required": ">=5.3"
+                        },
+                        {
+                            "package_name": "tenacity",
+                            "version_installed": "8.2.3",
+                            "version_required": ">=8.1.0,<9.0.0"
+                        }
+                    ],
+                    "version_installed": "0.1.45",
+                    "version_required": ">=0.1.42,<0.2.0"
+                },
+                {
+                    "package_name": "openai",
+                    "requires": [
+                        {
+                            "package_name": "anyio",
+                            "requires": [
+                                {
+                                    "package_name": "idna",
+                                    "version_installed": "3.6",
+                                    "version_required": ">=2.8"
+                                },
+                                {
+                                    "package_name": "sniffio",
+                                    "version_installed": "1.3.0",
+                                    "version_required": ">=1.1"
+                                }
+                            ],
+                            "version_installed": "4.3.0",
+                            "version_required": ">=3.5.0,<5"
+                        },
+                        {
+                            "package_name": "distro",
+                            "version_installed": "1.9.0",
+                            "version_required": ">=1.7.0,<2"
+                        },
+                        {
+                            "package_name": "httpx",
+                            "requires": [
+                                {
+                                    "package_name": "anyio",
+                                    "requires": [
+                                        {
+                                            "package_name": "idna",
+                                            "version_installed": "3.6",
+                                            "version_required": ">=2.8"
+                                        },
+                                        {
+                                            "package_name": "sniffio",
+                                            "version_installed": "1.3.0",
+                                            "version_required": ">=1.1"
+                                        }
+                                    ],
+                                    "version_installed": "4.3.0"
+                                },
+                                {
+                                    "package_name": "certifi",
+                                    "version_installed": "2024.2.2"
+                                },
+                                {
+                                    "package_name": "httpcore",
+                                    "requires": [
+                                        {
+                                            "package_name": "certifi",
+                                            "version_installed": "2024.2.2"
+                                        },
+                                        {
+                                            "package_name": "h11",
+                                            "version_installed": "0.14.0",
+                                            "version_required": ">=0.13,<0.15"
+                                        }
+                                    ],
+                                    "version_installed": "1.0.4",
+                                    "version_required": "==1.*"
+                                },
+                                {
+                                    "package_name": "idna",
+                                    "version_installed": "3.6"
+                                },
+                                {
+                                    "package_name": "sniffio",
+                                    "version_installed": "1.3.0"
+                                }
+                            ],
+                            "version_installed": "0.27.0",
+                            "version_required": ">=0.23.0,<1"
+                        },
+                        {
+                            "package_name": "pydantic",
+                            "requires": [
+                                {
+                                    "package_name": "annotated-types",
+                                    "version_installed": "0.6.0",
+                                    "version_required": ">=0.4.0"
+                                },
+                                {
+                                    "package_name": "pydantic-core",
+                                    "requires": [
+                                        {
+                                            "package_name": "typing-extensions",
+                                            "version_installed": "4.9.0",
+                                            "version_required": ">=4.6.0,!=4.7.0"
+                                        }
+                                    ],
+                                    "version_installed": "2.18.1",
+                                    "version_required": "==2.18.1"
+                                },
+                                {
+                                    "package_name": "typing-extensions",
+                                    "version_installed": "4.9.0",
+                                    "version_required": ">=4.6.1"
+                                }
+                            ],
+                            "version_installed": "2.7.0",
+                            "version_required": ">=1.9.0,<3"
+                        },
+                        {
+                            "package_name": "sniffio",
+                            "version_installed": "1.3.0"
+                        },
+                        {
+                            "package_name": "tqdm",
+                            "requires": [
+                                {
+                                    "package_name": "colorama",
+                                    "version_installed": "0.4.6"
+                                }
+                            ],
+                            "version_installed": "4.66.2",
+                            "version_required": ">4"
+                        },
+                        {
+                            "package_name": "typing-extensions",
+                            "version_installed": "4.9.0",
+                            "version_required": ">=4.7,<5"
+                        }
+                    ],
+                    "version_installed": "1.23.2",
+                    "version_required": ">=1.10.0,<2.0.0"
+                },
+                {
+                    "package_name": "tiktoken",
+                    "requires": [
+                        {
+                            "package_name": "regex",
+                            "version_installed": "2024.4.16",
+                            "version_required": ">=2022.1.18"
+                        },
+                        {
+                            "package_name": "requests",
+                            "requires": [
+                                {
+                                    "package_name": "certifi",
+                                    "version_installed": "2024.2.2",
+                                    "version_required": ">=2017.4.17"
+                                },
+                                {
+                                    "package_name": "charset-normalizer",
+                                    "version_installed": "3.3.2",
+                                    "version_required": ">=2,<4"
+                                },
+                                {
+                                    "package_name": "idna",
+                                    "version_installed": "3.6",
+                                    "version_required": ">=2.5,<4"
+                                },
+                                {
+                                    "package_name": "urllib3",
+                                    "version_installed": "1.26.18",
+                                    "version_required": ">=1.21.1,<3"
+                                }
+                            ],
+                            "version_installed": "2.31.0",
+                            "version_required": ">=2.26.0"
+                        }
+                    ],
+                    "version_installed": "0.6.0",
+                    "version_required": ">=0.5.2,<1"
+                }
+            ],
+            "summary": "An integration package connecting OpenAI and LangChain",
+            "version_installed": "0.1.3",
+            "version_required": "0.1.3"
+        },
+        "langchain-text-splitters": {
+            "level": 6,
+            "package_name": "langchain-text-splitters",
+            "pypi_package": true,
+            "releases_checked_time": 1714119274,
+            "releases_recent": [
+                "0.0.1"
+            ],
+            "required_by": [
+                "langchain"
+            ],
+            "requires": [
+                {
+                    "package_name": "langchain-core",
+                    "requires": [
+                        {
+                            "package_name": "jsonpatch",
+                            "requires": [
+                                {
+                                    "package_name": "jsonpointer",
+                                    "version_installed": "2.4",
+                                    "version_required": ">=1.9"
+                                }
+                            ],
+                            "version_installed": "1.33",
+                            "version_required": ">=1.33,<2.0"
+                        },
+                        {
+                            "package_name": "langsmith",
+                            "requires": [
+                                {
+                                    "package_name": "orjson",
+                                    "version_installed": "3.10.1",
+                                    "version_required": ">=3.9.14,<4.0.0"
+                                },
+                                {
+                                    "package_name": "pydantic",
+                                    "requires": [
+                                        {
+                                            "package_name": "annotated-types",
+                                            "version_installed": "0.6.0",
+                                            "version_required": ">=0.4.0"
+                                        },
+                                        {
+                                            "package_name": "pydantic-core",
+                                            "requires": [
+                                                {
+                                                    "package_name": "typing-extensions",
+                                                    "version_installed": "4.9.0",
+                                                    "version_required": ">=4.6.0,!=4.7.0"
+                                                }
+                                            ],
+                                            "version_installed": "2.18.1",
+                                            "version_required": "==2.18.1"
+                                        },
+                                        {
+                                            "package_name": "typing-extensions",
+                                            "version_installed": "4.9.0",
+                                            "version_required": ">=4.6.1"
+                                        }
+                                    ],
+                                    "version_installed": "2.7.0",
+                                    "version_required": ">=1,<3"
+                                },
+                                {
+                                    "package_name": "requests",
+                                    "requires": [
+                                        {
+                                            "package_name": "certifi",
+                                            "version_installed": "2024.2.2",
+                                            "version_required": ">=2017.4.17"
+                                        },
+                                        {
+                                            "package_name": "charset-normalizer",
+                                            "version_installed": "3.3.2",
+                                            "version_required": ">=2,<4"
+                                        },
+                                        {
+                                            "package_name": "idna",
+                                            "version_installed": "3.6",
+                                            "version_required": ">=2.5,<4"
+                                        },
+                                        {
+                                            "package_name": "urllib3",
+                                            "version_installed": "1.26.18",
+                                            "version_required": ">=1.21.1,<3"
+                                        }
+                                    ],
+                                    "version_installed": "2.31.0",
+                                    "version_required": ">=2,<3"
+                                }
+                            ],
+                            "version_installed": "0.1.49",
+                            "version_required": ">=0.1.0,<0.2.0"
+                        },
+                        {
+                            "package_name": "packaging",
+                            "version_installed": "23.2",
+                            "version_required": ">=23.2,<24.0"
+                        },
+                        {
+                            "package_name": "pydantic",
+                            "requires": [
+                                {
+                                    "package_name": "annotated-types",
+                                    "version_installed": "0.6.0",
+                                    "version_required": ">=0.4.0"
+                                },
+                                {
+                                    "package_name": "pydantic-core",
+                                    "requires": [
+                                        {
+                                            "package_name": "typing-extensions",
+                                            "version_installed": "4.9.0",
+                                            "version_required": ">=4.6.0,!=4.7.0"
+                                        }
+                                    ],
+                                    "version_installed": "2.18.1",
+                                    "version_required": "==2.18.1"
+                                },
+                                {
+                                    "package_name": "typing-extensions",
+                                    "version_installed": "4.9.0",
+                                    "version_required": ">=4.6.1"
+                                }
+                            ],
+                            "version_installed": "2.7.0",
+                            "version_required": ">=1,<3"
+                        },
+                        {
+                            "package_name": "PyYAML",
+                            "version_installed": "6.0.1",
+                            "version_required": ">=5.3"
+                        },
+                        {
+                            "package_name": "tenacity",
+                            "version_installed": "8.2.3",
+                            "version_required": ">=8.1.0,<9.0.0"
+                        }
+                    ],
+                    "version_installed": "0.1.45",
+                    "version_required": ">=0.1.28,<0.2.0"
+                }
+            ],
+            "summary": "LangChain text splitting utilities",
+            "version_installed": "0.0.1",
+            "version_required": "0.0.1"
+        },
         "langsmith": {
             "level": 4,
             "package_name": "langsmith",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
+                "0.1.51",
                 "0.1.50",
                 "0.1.49",
                 "0.1.48",
@@ -18079,10 +19496,10 @@
                 "0.1.24",
                 "0.1.23",
                 "0.1.22",
-                "0.1.21",
-                "0.1.20"
+                "0.1.21"
             ],
             "required_by": [
+                "langchain",
                 "langchain-community",
                 "langchain-core"
             ],
@@ -18157,7 +19574,7 @@
             "level": 1,
             "package_name": "lazy-loader",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.4",
                 "0.3",
@@ -18180,8 +19597,9 @@
             "level": 10,
             "package_name": "llama-index",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
+                "0.10.32",
                 "0.10.31",
                 "0.10.30",
                 "0.10.29",
@@ -18220,8 +19638,7 @@
                 "0.9.45.post1",
                 "0.9.45",
                 "0.9.44",
-                "0.9.43",
-                "0.9.42.post2"
+                "0.9.43"
             ],
             "requires": [
                 {
@@ -33753,7 +35170,7 @@
             "level": 7,
             "package_name": "llama-index-agent-openai",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.2.3",
                 "0.2.2",
@@ -35119,7 +36536,7 @@
             "level": 7,
             "package_name": "llama-index-cli",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.1.12",
                 "0.1.11",
@@ -36960,8 +38377,9 @@
             "level": 5,
             "package_name": "llama-index-core",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
+                "0.10.32",
                 "0.10.31",
                 "0.10.30",
                 "0.10.29",
@@ -37000,8 +38418,7 @@
                 "0.10.11",
                 "0.10.10",
                 "0.10.9",
-                "0.10.8.post1",
-                "0.10.8"
+                "0.10.8.post1"
             ],
             "required_by": [
                 "llama-index",
@@ -37620,8 +39037,9 @@
             "level": 6,
             "package_name": "llama-index-embeddings-openai",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
+                "0.1.9",
                 "0.1.8",
                 "0.1.7",
                 "0.1.6",
@@ -38245,7 +39663,7 @@
             "level": 6,
             "package_name": "llama-index-indices-managed-llama-cloud",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.1.5",
                 "0.1.4",
@@ -38953,7 +40371,7 @@
             "level": 5,
             "package_name": "llama-index-legacy",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.9.48",
                 "0.9.46",
@@ -39454,7 +40872,7 @@
             "level": 6,
             "package_name": "llama-index-llms-ollama",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.1.2",
                 "0.1.1",
@@ -40070,7 +41488,7 @@
             "level": 6,
             "package_name": "llama-index-llms-openai",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.1.16",
                 "0.1.15",
@@ -40708,7 +42126,7 @@
             "level": 7,
             "package_name": "llama-index-multi-modal-llms-openai",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.1.5",
                 "0.1.4",
@@ -41937,7 +43355,7 @@
             "level": 8,
             "package_name": "llama-index-program-openai",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.1.6",
                 "0.1.5",
@@ -44510,7 +45928,7 @@
             "level": 9,
             "package_name": "llama-index-question-gen-openai",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.1.3",
                 "0.1.2",
@@ -48290,7 +49708,7 @@
             "level": 6,
             "package_name": "llama-index-readers-file",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.1.19",
                 "0.1.18",
@@ -48955,7 +50373,7 @@
             "level": 7,
             "package_name": "llama-index-readers-llama-parse",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.1.4",
                 "0.1.3",
@@ -50180,7 +51598,7 @@
             "level": 6,
             "package_name": "llama-parse",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.4.2",
                 "0.4.1",
@@ -50812,7 +52230,7 @@
             "level": 4,
             "package_name": "llamaindex-py-client",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.1.18",
                 "0.1.17",
@@ -50929,7 +52347,7 @@
             "level": 1,
             "package_name": "Markdown",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.6",
                 "3.5.2",
@@ -50980,7 +52398,7 @@
             "level": 2,
             "package_name": "markdown-it-py",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.0.0",
                 "2.2.0",
@@ -51041,7 +52459,7 @@
             "level": 1,
             "package_name": "markdown2",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.4.13",
                 "2.4.12",
@@ -51095,7 +52513,7 @@
             "level": 1,
             "package_name": "MarkupSafe",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.1.5",
                 "2.1.4",
@@ -51137,7 +52555,7 @@
             "level": 2,
             "package_name": "marshmallow",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.21.1",
                 "3.21.0",
@@ -51198,7 +52616,7 @@
             "level": 3,
             "package_name": "matplotlib",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.9.0rc2",
                 "3.8.4",
@@ -51310,7 +52728,7 @@
             "level": 2,
             "package_name": "matplotlib-inline",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.1.7",
                 "0.1.6",
@@ -51339,7 +52757,7 @@
             "level": 1,
             "package_name": "mccabe",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.7.0",
                 "0.6.1",
@@ -51366,7 +52784,7 @@
             "level": 1,
             "package_name": "mdurl",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.1.2",
                 "0.1.1",
@@ -51384,7 +52802,7 @@
             "level": 1,
             "package_name": "mistune",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.0.2",
                 "3.0.1",
@@ -51438,7 +52856,7 @@
             "level": 1,
             "package_name": "mpmath",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.4.0a1",
                 "1.4.0a0",
@@ -51477,7 +52895,7 @@
             "level": 1,
             "package_name": "multidict",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "6.0.5",
                 "6.0.4",
@@ -51532,7 +52950,7 @@
             "level": 1,
             "package_name": "mypy-extensions",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.0.0",
                 "0.4.4",
@@ -51555,7 +52973,7 @@
             "level": 6,
             "package_name": "nbclient",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.10.0",
                 "0.9.1",
@@ -51789,7 +53207,7 @@
             "level": 7,
             "package_name": "nbconvert",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "7.16.3",
                 "7.16.2",
@@ -52234,7 +53652,7 @@
             "level": 5,
             "package_name": "nbformat",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "5.10.4",
                 "5.10.3",
@@ -52380,7 +53798,7 @@
             "level": 1,
             "package_name": "nest-asyncio",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.6.0",
                 "1.5.9",
@@ -52432,7 +53850,7 @@
             "level": 1,
             "package_name": "networkx",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.3",
                 "3.3rc0",
@@ -52489,7 +53907,7 @@
             "level": 6,
             "package_name": "nicegui",
             "pypi_package": true,
-            "releases_checked_time": 1714064263,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.4.23",
                 "1.4.22",
@@ -52862,7 +54280,7 @@
             "level": 3,
             "package_name": "nltk",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.8.1",
                 "3.8",
@@ -52948,7 +54366,7 @@
             "level": 9,
             "package_name": "notebook-shim",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.2.4",
                 "0.2.3",
@@ -53797,7 +55215,7 @@
             "level": 1,
             "package_name": "numpy",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.0.0rc1",
                 "2.0.0b1",
@@ -53847,6 +55265,7 @@
                 "h5py",
                 "imageio",
                 "json-numpy",
+                "langchain",
                 "langchain-community",
                 "llama-index-core",
                 "llama-index-legacy",
@@ -53874,7 +55293,7 @@
             "level": 1,
             "package_name": "oauthlib",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.2.2",
                 "3.2.1",
@@ -53928,8 +55347,9 @@
             "level": 4,
             "package_name": "ollama",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
+                "0.1.9",
                 "0.1.8",
                 "0.1.7",
                 "0.1.6",
@@ -54002,7 +55422,7 @@
             "level": 4,
             "package_name": "openai",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.23.6",
                 "1.23.5",
@@ -54046,6 +55466,7 @@
                 "1.3.8"
             ],
             "required_by": [
+                "langchain-openai",
                 "llama-index-agent-openai",
                 "llama-index-core",
                 "llama-index-legacy"
@@ -54182,7 +55603,7 @@
             "level": 2,
             "package_name": "opencv-contrib-python",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.9.0.80",
                 "4.8.1.78",
@@ -54260,7 +55681,7 @@
             "level": 2,
             "package_name": "opencv-python",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.9.0.80",
                 "4.8.1.78",
@@ -54341,7 +55762,7 @@
             "level": 2,
             "package_name": "opencv-python-headless",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.9.0.80",
                 "4.8.1.78",
@@ -54422,7 +55843,7 @@
             "level": 1,
             "package_name": "orjson",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.10.1",
                 "3.10.0",
@@ -54477,7 +55898,7 @@
             "level": 1,
             "package_name": "overrides",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "7.7.0",
                 "7.6.0",
@@ -54531,7 +55952,7 @@
             "level": 1,
             "package_name": "packaging",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "24.0",
                 "23.2",
@@ -54588,6 +56009,7 @@
                 "matplotlib",
                 "nbconvert",
                 "pytest",
+                "replicate",
                 "scikit-image",
                 "streamlit"
             ],
@@ -54599,7 +56021,7 @@
             "level": 3,
             "package_name": "pandas",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.2.2",
                 "2.2.1",
@@ -54686,7 +56108,7 @@
             "level": 1,
             "package_name": "pandocfilters",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.5.1",
                 "1.5.0",
@@ -54716,7 +56138,7 @@
             "level": 1,
             "package_name": "parso",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.8.4",
                 "0.8.3",
@@ -54757,7 +56179,7 @@
             "level": 1,
             "package_name": "persist-queue",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.0.0a0",
                 "0.8.1",
@@ -54798,7 +56220,7 @@
             "level": 1,
             "package_name": "pillow",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "10.3.0",
                 "10.2.0",
@@ -54858,7 +56280,7 @@
             "level": 1,
             "package_name": "pip",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "24.0",
                 "23.3.2",
@@ -54909,7 +56331,7 @@
             "level": 1,
             "package_name": "platformdirs",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.2.1",
                 "4.2.0",
@@ -54963,7 +56385,7 @@
             "level": 1,
             "package_name": "pluggy",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.5.0",
                 "1.4.0",
@@ -55000,7 +56422,7 @@
             "level": 1,
             "package_name": "prometheus-client",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.20.0",
                 "0.19.0",
@@ -55054,7 +56476,7 @@
             "level": 2,
             "package_name": "prompt-toolkit",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.0.43",
                 "3.0.42",
@@ -55114,8 +56536,9 @@
             "level": 2,
             "package_name": "proto-plus",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
+                "1.24.0.dev1",
                 "1.24.0.dev0",
                 "1.23.0",
                 "1.23.0rc2",
@@ -55154,8 +56577,7 @@
                 "1.10.2",
                 "1.10.1",
                 "1.10.0",
-                "1.10.0.dev2",
-                "1.9.1"
+                "1.10.0.dev2"
             ],
             "required_by": [
                 "google-cloud-aiplatform",
@@ -55177,7 +56599,7 @@
             "level": 1,
             "package_name": "protobuf",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "5.27.0rc1",
                 "5.26.1",
@@ -55240,7 +56662,7 @@
             "level": 1,
             "package_name": "pscript",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.7.7",
                 "0.7.6",
@@ -55271,7 +56693,7 @@
             "level": 1,
             "package_name": "psutil",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "5.9.8",
                 "5.9.7",
@@ -55325,7 +56747,7 @@
             "level": 1,
             "package_name": "pure-eval",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.2.2",
                 "0.2.1",
@@ -55347,7 +56769,7 @@
             "level": 2,
             "package_name": "pyarrow",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "16.0.0",
                 "15.0.2",
@@ -55408,7 +56830,7 @@
             "level": 1,
             "package_name": "pyasn1",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.6.0",
                 "0.5.1",
@@ -55461,7 +56883,7 @@
             "level": 2,
             "package_name": "pyasn1-modules",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.4.0",
                 "0.3.0",
@@ -55507,7 +56929,7 @@
             "level": 1,
             "package_name": "pycodestyle",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.11.1",
                 "2.11.0",
@@ -55540,7 +56962,7 @@
             "level": 1,
             "package_name": "pycparser",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.22",
                 "2.21",
@@ -55576,7 +56998,7 @@
             "level": 3,
             "package_name": "pydantic",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.7.1",
                 "2.7.0",
@@ -55621,10 +57043,12 @@
             ],
             "required_by": [
                 "fastapi",
+                "langchain",
                 "langchain-core",
                 "langsmith",
                 "llamaindex-py-client",
-                "openai"
+                "openai",
+                "replicate"
             ],
             "requires": [
                 {
@@ -55658,7 +57082,7 @@
             "level": 2,
             "package_name": "pydantic-core",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.18.2",
                 "2.18.1",
@@ -55719,8 +57143,9 @@
             "level": 3,
             "package_name": "pydeck",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
+                "0.9.0b1",
                 "0.9.0b0",
                 "0.8.1b1",
                 "0.8.1b0",
@@ -55786,7 +57211,7 @@
             "level": 1,
             "package_name": "pyflakes",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.2.0",
                 "3.1.0",
@@ -55838,7 +57263,7 @@
             "level": 1,
             "package_name": "pygments",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.17.2",
                 "2.17.1",
@@ -55895,7 +57320,7 @@
             "level": 1,
             "package_name": "pyparsing",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.1.2",
                 "3.1.1",
@@ -55949,7 +57374,7 @@
             "level": 1,
             "package_name": "pypdf",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.2.0",
                 "4.1.0",
@@ -56003,7 +57428,7 @@
             "level": 1,
             "package_name": "pypng",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.20220715.0",
                 "0.0.21",
@@ -56039,7 +57464,7 @@
             "level": 2,
             "package_name": "pytest",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "8.1.1",
                 "8.1.0",
@@ -56109,7 +57534,7 @@
             "level": 2,
             "package_name": "python-dateutil",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.9.0.post0",
                 "2.9.0",
@@ -56171,7 +57596,7 @@
             "level": 1,
             "package_name": "python-dotenv",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.0.1",
                 "1.0.0",
@@ -56222,7 +57647,7 @@
             "level": 4,
             "package_name": "python-engineio",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.9.0",
                 "4.8.2",
@@ -56296,7 +57721,7 @@
             "level": 1,
             "package_name": "python-json-logger",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.0.7",
                 "2.0.6",
@@ -56337,7 +57762,7 @@
             "level": 1,
             "package_name": "python-multipart",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.0.9",
                 "0.0.8",
@@ -56360,7 +57785,7 @@
             "level": 5,
             "package_name": "python-socketio",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "5.11.2",
                 "5.11.1",
@@ -56446,7 +57871,7 @@
             "level": 4,
             "package_name": "pythonnet",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.0.3",
                 "3.0.2",
@@ -56504,7 +57929,7 @@
             "level": 1,
             "package_name": "pytz",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2024.1",
                 "2023.4",
@@ -56558,7 +57983,7 @@
             "level": 1,
             "package_name": "pywin32",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "306",
                 "305",
@@ -56589,7 +58014,7 @@
             "level": 1,
             "package_name": "pywinpty",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.0.13",
                 "2.0.12",
@@ -56645,7 +58070,7 @@
             "level": 1,
             "package_name": "PyYAML",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "6.0.1",
                 "6.0",
@@ -56693,7 +58118,7 @@
             "level": 1,
             "package_name": "pyzbar",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.1.9",
                 "0.1.8",
@@ -56713,7 +58138,7 @@
             "level": 1,
             "package_name": "pyzmq",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "26.0.2",
                 "26.0.1",
@@ -56769,7 +58194,7 @@
             "level": 2,
             "package_name": "qrcode",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "7.4.2",
                 "7.4.1",
@@ -56830,7 +58255,7 @@
             "level": 4,
             "package_name": "qudida",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.0.4",
                 "0.0.3",
@@ -56924,7 +58349,7 @@
             "level": 2,
             "package_name": "referencing",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.35.0",
                 "0.34.0",
@@ -56992,7 +58417,7 @@
             "level": 1,
             "package_name": "regex",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2024.4.16",
                 "2023.8.8",
@@ -57043,11 +58468,153 @@
             "version_installed": "2024.4.16",
             "version_required": "2024.4.16"
         },
+        "replicate": {
+            "level": 4,
+            "package_name": "replicate",
+            "pypi_package": true,
+            "releases_checked_time": 1714122622,
+            "releases_recent": [
+                "0.25.2",
+                "0.25.1",
+                "0.25.0",
+                "0.24.0",
+                "0.23.1",
+                "0.23.0",
+                "0.22.0",
+                "0.21.1",
+                "0.21.0",
+                "0.20.0",
+                "0.19.0",
+                "0.18.1",
+                "0.18.0",
+                "0.17.0",
+                "0.16.0",
+                "0.15.8",
+                "0.15.7",
+                "0.15.6",
+                "0.15.5",
+                "0.15.4",
+                "0.15.3",
+                "0.15.2",
+                "0.15.1",
+                "0.15.0",
+                "0.14.0",
+                "0.13.0",
+                "0.12.0",
+                "0.11.0",
+                "0.10.0",
+                "0.9.0",
+                "0.8.4",
+                "0.8.3",
+                "0.8.2",
+                "0.8.1",
+                "0.8.0",
+                "0.7.0",
+                "0.6.1",
+                "0.6.0",
+                "0.5.2",
+                "0.5.1"
+            ],
+            "requires": [
+                {
+                    "package_name": "httpx",
+                    "requires": [
+                        {
+                            "package_name": "anyio",
+                            "requires": [
+                                {
+                                    "package_name": "idna",
+                                    "version_installed": "3.6",
+                                    "version_required": ">=2.8"
+                                },
+                                {
+                                    "package_name": "sniffio",
+                                    "version_installed": "1.3.0",
+                                    "version_required": ">=1.1"
+                                }
+                            ],
+                            "version_installed": "4.3.0"
+                        },
+                        {
+                            "package_name": "certifi",
+                            "version_installed": "2024.2.2"
+                        },
+                        {
+                            "package_name": "httpcore",
+                            "requires": [
+                                {
+                                    "package_name": "certifi",
+                                    "version_installed": "2024.2.2"
+                                },
+                                {
+                                    "package_name": "h11",
+                                    "version_installed": "0.14.0",
+                                    "version_required": ">=0.13,<0.15"
+                                }
+                            ],
+                            "version_installed": "1.0.4",
+                            "version_required": "==1.*"
+                        },
+                        {
+                            "package_name": "idna",
+                            "version_installed": "3.6"
+                        },
+                        {
+                            "package_name": "sniffio",
+                            "version_installed": "1.3.0"
+                        }
+                    ],
+                    "version_installed": "0.27.0",
+                    "version_required": ">=0.21.0,<1"
+                },
+                {
+                    "package_name": "packaging",
+                    "version_installed": "23.2"
+                },
+                {
+                    "package_name": "pydantic",
+                    "requires": [
+                        {
+                            "package_name": "annotated-types",
+                            "version_installed": "0.6.0",
+                            "version_required": ">=0.4.0"
+                        },
+                        {
+                            "package_name": "pydantic-core",
+                            "requires": [
+                                {
+                                    "package_name": "typing-extensions",
+                                    "version_installed": "4.9.0",
+                                    "version_required": ">=4.6.0,!=4.7.0"
+                                }
+                            ],
+                            "version_installed": "2.18.1",
+                            "version_required": "==2.18.1"
+                        },
+                        {
+                            "package_name": "typing-extensions",
+                            "version_installed": "4.9.0",
+                            "version_required": ">=4.6.1"
+                        }
+                    ],
+                    "version_installed": "2.7.0",
+                    "version_required": ">1.10.7"
+                },
+                {
+                    "package_name": "typing-extensions",
+                    "version_installed": "4.9.0",
+                    "version_required": ">=4.5.0"
+                }
+            ],
+            "summary": "Python client for Replicate",
+            "version_installed": "0.25.2",
+            "version_required": "0.25.2"
+        },
         "requests": {
             "level": 2,
             "package_name": "requests",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.31.0",
                 "2.30.0",
@@ -57097,6 +58664,7 @@
                 "google-cloud-storage",
                 "jupyterlab-server",
                 "kubernetes",
+                "langchain",
                 "langchain-community",
                 "langsmith",
                 "llama-index-core",
@@ -57136,7 +58704,7 @@
             "level": 3,
             "package_name": "requests-oauthlib",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.0.0",
                 "1.4.1",
@@ -57208,7 +58776,7 @@
             "level": 3,
             "package_name": "requests-toolbelt",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.0.0",
                 "0.10.1",
@@ -57272,7 +58840,7 @@
             "level": 2,
             "package_name": "rfc3339-validator",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.1.4",
                 "0.1.3",
@@ -57297,7 +58865,7 @@
             "level": 1,
             "package_name": "rfc3986-validator",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.1.1",
                 "0.1.0"
@@ -57313,7 +58881,7 @@
             "level": 3,
             "package_name": "rich",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "13.7.1",
                 "13.7.0",
@@ -57386,7 +58954,7 @@
             "level": 1,
             "package_name": "rpds-py",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.18.0",
                 "0.17.1",
@@ -57441,7 +59009,7 @@
             "level": 2,
             "package_name": "rsa",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.9",
                 "4.8",
@@ -57498,8 +59066,9 @@
             "level": 1,
             "package_name": "ruff",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
+                "0.4.2",
                 "0.4.1",
                 "0.4.0",
                 "0.3.7",
@@ -57538,8 +59107,7 @@
                 "0.0.286",
                 "0.0.285",
                 "0.0.284",
-                "0.0.283",
-                "0.0.282"
+                "0.0.283"
             ],
             "summary": "An extremely fast Python linter and code formatter, written in Rust",
             "version_installed": "0.2.2",
@@ -57549,7 +59117,7 @@
             "level": 3,
             "package_name": "scikit-image",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.23.2",
                 "0.23.2rc1",
@@ -57669,7 +59237,7 @@
             "level": 3,
             "package_name": "scikit-learn",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.4.2",
                 "1.4.1.post1",
@@ -57752,7 +59320,7 @@
             "level": 2,
             "package_name": "scipy",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.13.0",
                 "1.13.0rc1",
@@ -57815,7 +59383,7 @@
             "level": 1,
             "package_name": "segment-anything",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.0"
             ],
@@ -57826,7 +59394,7 @@
             "level": 1,
             "package_name": "Send2Trash",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.8.3",
                 "1.8.2",
@@ -57856,7 +59424,7 @@
             "level": 1,
             "package_name": "setuptools",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "69.5.1",
                 "69.5.0",
@@ -57910,7 +59478,7 @@
             "level": 2,
             "package_name": "shapely",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.0.4",
                 "2.0.3",
@@ -57971,7 +59539,7 @@
             "level": 3,
             "package_name": "simple-websocket",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.0.0",
                 "0.10.1",
@@ -58014,7 +59582,7 @@
             "level": 1,
             "package_name": "six",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.16.0",
                 "1.15.0",
@@ -58061,7 +59629,7 @@
             "level": 1,
             "package_name": "smmap",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "6.0.0",
                 "5.0.1",
@@ -58091,7 +59659,7 @@
             "level": 2,
             "package_name": "snakeviz",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.2.0",
                 "2.1.2",
@@ -58128,7 +59696,7 @@
             "level": 1,
             "package_name": "sniffio",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.3.1",
                 "1.3.0",
@@ -58150,7 +59718,7 @@
             "level": 1,
             "package_name": "soupsieve",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.5",
                 "2.4.1",
@@ -58204,7 +59772,7 @@
             "level": 2,
             "package_name": "SQLAlchemy",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.0.29",
                 "2.0.28",
@@ -58267,7 +59835,7 @@
             "level": 3,
             "package_name": "stack-data",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.6.3",
                 "0.6.2",
@@ -58325,7 +59893,7 @@
             "level": 3,
             "package_name": "starlette",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.37.2",
                 "0.37.1",
@@ -58398,7 +59966,7 @@
             "level": 6,
             "package_name": "streamlit",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.33.0",
                 "1.32.2",
@@ -58819,7 +60387,7 @@
             "level": 1,
             "package_name": "striprtf",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.0.26",
                 "0.0.25",
@@ -58859,7 +60427,7 @@
             "level": 2,
             "package_name": "sympy",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.9rc1",
                 "1.9",
@@ -58920,7 +60488,7 @@
             "level": 1,
             "package_name": "tabulate",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.9.0",
                 "0.8.10",
@@ -58961,7 +60529,7 @@
             "level": 1,
             "package_name": "tenacity",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "8.2.3",
                 "8.2.2",
@@ -59005,6 +60573,7 @@
                 "3.7.1"
             ],
             "required_by": [
+                "langchain",
                 "langchain-community",
                 "langchain-core",
                 "llama-index-core",
@@ -59019,7 +60588,7 @@
             "level": 2,
             "package_name": "terminado",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.18.1",
                 "0.18.0",
@@ -59082,7 +60651,7 @@
             "level": 1,
             "package_name": "threadpoolctl",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.4.0",
                 "3.3.0",
@@ -59106,7 +60675,7 @@
             "level": 2,
             "package_name": "tifffile",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2024.4.24",
                 "2024.4.18",
@@ -59166,7 +60735,7 @@
             "level": 3,
             "package_name": "tiktoken",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.6.0",
                 "0.5.2",
@@ -59182,6 +60751,7 @@
                 "0.1.1"
             ],
             "required_by": [
+                "langchain-openai",
                 "llama-index-core",
                 "llama-index-legacy"
             ],
@@ -59227,7 +60797,7 @@
             "level": 2,
             "package_name": "tinycss2",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.3.0",
                 "1.2.1",
@@ -59263,7 +60833,7 @@
             "level": 2,
             "package_name": "toga-core",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.4.2",
                 "0.4.1",
@@ -59321,7 +60891,7 @@
             "level": 1,
             "package_name": "toml",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.10.2",
                 "0.10.1",
@@ -59351,7 +60921,7 @@
             "level": 1,
             "package_name": "toolz",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.12.1",
                 "0.12.1a0",
@@ -59393,7 +60963,7 @@
             "level": 3,
             "package_name": "torch",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.3.0",
                 "2.2.2",
@@ -59485,7 +61055,7 @@
             "level": 4,
             "package_name": "torchaudio",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.3.0",
                 "2.2.2",
@@ -59575,7 +61145,7 @@
             "level": 4,
             "package_name": "torchvision",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.18.0",
                 "0.17.2",
@@ -59683,7 +61253,7 @@
             "level": 1,
             "package_name": "tornado",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "6.4",
                 "6.4b1",
@@ -59743,7 +61313,7 @@
             "level": 2,
             "package_name": "tqdm",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.66.2",
                 "4.66.1",
@@ -59805,7 +61375,7 @@
             "level": 1,
             "package_name": "traitlets",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "5.14.3",
                 "5.14.2",
@@ -59870,7 +61440,7 @@
             "level": 1,
             "package_name": "travertino",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.3.0",
                 "0.2.0",
@@ -59891,7 +61461,7 @@
             "level": 1,
             "package_name": "types-python-dateutil",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.9.0.20240316",
                 "2.9.0.20240315",
@@ -59942,7 +61512,7 @@
             "level": 1,
             "package_name": "typing-extensions",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.11.0",
                 "4.11.0rc1",
@@ -59990,6 +61560,7 @@
                 "pydantic-core",
                 "qrcode",
                 "qudida",
+                "replicate",
                 "sqlalchemy",
                 "streamlit",
                 "torch",
@@ -60003,7 +61574,7 @@
             "level": 2,
             "package_name": "typing-inspect",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.9.0",
                 "0.8.0",
@@ -60043,7 +61614,7 @@
             "level": 1,
             "package_name": "tzdata",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2024.1",
                 "2023.4",
@@ -60087,7 +61658,7 @@
             "level": 2,
             "package_name": "tzlocal",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "5.2",
                 "5.1",
@@ -60147,7 +61718,7 @@
             "level": 1,
             "package_name": "urllib3",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.2.1",
                 "2.2.0",
@@ -60205,7 +61776,7 @@
             "level": 3,
             "package_name": "uvicorn",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.29.0",
                 "0.28.1",
@@ -60277,7 +61848,7 @@
             "level": 1,
             "package_name": "validators",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.28.1",
                 "0.28.0",
@@ -60331,7 +61902,7 @@
             "level": 2,
             "package_name": "vbuild",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.8.2",
                 "0.8.1",
@@ -60368,7 +61939,7 @@
             "level": 1,
             "package_name": "watchdog",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "4.0.0",
                 "3.0.0",
@@ -60422,7 +61993,7 @@
             "level": 3,
             "package_name": "watchfiles",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.21.0",
                 "0.20.0",
@@ -60472,7 +62043,7 @@
             "level": 1,
             "package_name": "wcwidth",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.2.13",
                 "0.2.12",
@@ -60511,7 +62082,7 @@
             "level": 1,
             "package_name": "webencodings",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.5.1",
                 "0.5",
@@ -60532,7 +62103,7 @@
             "level": 1,
             "package_name": "websocket-client",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.8.0",
                 "1.7.0",
@@ -60587,7 +62158,7 @@
             "level": 1,
             "package_name": "websockets",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "12.0",
                 "11.0.3",
@@ -60637,7 +62208,7 @@
             "level": 2,
             "package_name": "werkzeug",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.0.2",
                 "3.0.1",
@@ -60698,7 +62269,7 @@
             "level": 1,
             "package_name": "wheel",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "0.43.0",
                 "0.42.0",
@@ -60749,7 +62320,7 @@
             "level": 1,
             "package_name": "wrapt",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.16.0",
                 "1.16.0rc2",
@@ -60804,7 +62375,7 @@
             "level": 2,
             "package_name": "wsproto",
             "pypi_package": true,
-            "releases_checked_time": 1714060574,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.2.0",
                 "1.1.0",
@@ -60836,7 +62407,7 @@
             "level": 1,
             "package_name": "XlsxWriter",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.2.0",
                 "3.1.9",
@@ -60887,7 +62458,7 @@
             "level": 2,
             "package_name": "yarl",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "1.9.4",
                 "1.9.3",
@@ -60953,7 +62524,7 @@
             "level": 1,
             "package_name": "yoctopuce",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "2.0.60664",
                 "2.0.60394",
@@ -61004,7 +62575,7 @@
             "level": 1,
             "package_name": "zipp",
             "pypi_package": true,
-            "releases_checked_time": 1714060373,
+            "releases_checked_time": 1714118895,
             "releases_recent": [
                 "3.18.1",
                 "3.18.0",

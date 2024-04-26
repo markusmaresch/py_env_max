@@ -1,4 +1,4 @@
-rem 2024-04-25T19:28:24.217732+00:00
+rem 2024-04-26T09:15:29.890601+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -299,6 +299,8 @@ pip install "python-engineio>=4.9.0"
 pip install "pythonnet>=3.0.3"
 pip check
 pip install "qudida>=0.0.4"
+pip install "replicate>=0.25.2"
+pip check
 pip install "torchaudio>=2.2.1+cu121"
 pip install "torchvision>=0.17.1+cu121"
 pip check
@@ -327,6 +329,8 @@ pip install "google-cloud-bigquery>=3.17.2"
 pip install "google-cloud-storage>=2.14.0"
 pip check
 pip install "langchain-community>=0.0.34"
+pip install "langchain-openai>=0.1.3"
+pip install "langchain-text-splitters>=0.0.1"
 pip install "llama-index-embeddings-openai>=0.1.8"
 pip install "llama-index-indices-managed-llama-cloud>=0.1.5"
 pip install "llama-index-llms-ollama>=0.1.2"
@@ -344,6 +348,7 @@ rem Level 7
 pip install "google-cloud-aiplatform>=1.42.1"
 pip check
 pip install "kfp>=2.7.0"
+pip install "langchain>=0.1.16"
 pip install "llama-index-agent-openai>=0.2.3"
 pip install "llama-index-cli>=0.1.12"
 pip install "llama-index-multi-modal-llms-openai>=0.1.5"

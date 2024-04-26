@@ -108,8 +108,11 @@ kfp-pipeline-spec
 kfp-server-api
 kiwisolver
 kubernetes
+langchain
 langchain-community
 langchain-core
+langchain-openai
+langchain-text-splitters
 langsmith
 lazy-loader
 llama-index
@@ -205,6 +208,7 @@ qrcode
 qudida
 referencing
 regex
+replicate
 requests
 requests-oauthlib
 requests-toolbelt
