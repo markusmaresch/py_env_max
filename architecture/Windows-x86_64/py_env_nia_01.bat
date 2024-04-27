@@ -1,8 +1,9 @@
-rem 2024-04-26T09:15:29.890601+00:00
+rem 2024-04-26T15:45:03.162424+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
 pip install "annotated-types>=0.6.0"
+pip install "appdirs>=1.4.4"
 pip install "async-lru>=2.0.4"
 pip install "attrs>=23.2.0"
 pip check
@@ -113,6 +114,7 @@ pip install "ruff>=0.2.2"
 pip check
 pip install "segment-anything>=1.0"
 pip install "send2trash>=1.8.2"
+pip install "setproctitle>=1.3.3"
 pip install "setuptools>=69.1.1"
 pip install "six>=1.16.0"
 pip install "smmap>=5.0.1"

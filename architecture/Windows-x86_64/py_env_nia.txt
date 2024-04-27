@@ -6,6 +6,7 @@ albumentations
 altair
 annotated-types
 anyio
+appdirs
 arena-api
 argon2-cffi
 argon2-cffi-bindings
@@ -38,6 +39,7 @@ deprecation
 dirtyjson
 distro
 dnspython
+docker-pycreds
 docstring-parser
 docutils
 email-validator
@@ -223,6 +225,8 @@ scikit-learn
 scipy
 segment-anything
 send2trash
+sentry-sdk
+setproctitle
 setuptools
 shapely
 simple-websocket
@@ -263,6 +267,7 @@ urllib3
 uvicorn
 validators
 vbuild
+wandb
 watchdog
 watchfiles
 wcwidth

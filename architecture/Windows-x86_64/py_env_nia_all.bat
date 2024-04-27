@@ -1,8 +1,9 @@
-rem 2024-04-26T09:15:29.890601+00:00
+rem 2024-04-26T15:45:03.162424+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
 pip install "annotated-types>=0.6.0"
+pip install "appdirs>=1.4.4"
 pip install "async-lru>=2.0.4"
 pip install "attrs>=23.2.0"
 pip check
@@ -113,6 +114,7 @@ pip install "ruff>=0.2.2"
 pip check
 pip install "segment-anything>=1.0"
 pip install "send2trash>=1.8.2"
+pip install "setproctitle>=1.3.3"
 pip install "setuptools>=69.1.1"
 pip install "six>=1.16.0"
 pip install "smmap>=5.0.1"
@@ -166,6 +168,7 @@ pip install "contourpy>=1.2.0"
 pip check
 pip install "deprecated>=1.2.14"
 pip install "deprecation>=2.1.0"
+pip install "docker-pycreds>=0.4.0"
 pip check
 pip install "email-validator>=2.1.1"
 pip install "flake8>=7.0.0"
@@ -211,6 +214,7 @@ pip install "rfc3339-validator>=0.1.4"
 pip install "rsa>=4.9"
 pip check
 pip install "scipy>=1.12.0"
+pip install "sentry-sdk>=2.0.1"
 pip install "shapely>=2.0.3"
 pip install "snakeviz>=2.2.0"
 pip install "sqlalchemy>=2.0.29"
@@ -303,6 +307,8 @@ pip install "replicate>=0.25.2"
 pip check
 pip install "torchaudio>=2.2.1+cu121"
 pip install "torchvision>=0.17.1+cu121"
+pip check
+pip install "wandb>=0.16.6"
 pip check
 rem Level 4
 rem Level 5
