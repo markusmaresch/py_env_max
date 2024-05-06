@@ -24,8 +24,8 @@ bleach                    6.1.0                    pypi_0    pypi
 blinker                   1.7.0                    pypi_0    pypi
 botocore                  1.34.49                  pypi_0    pypi
 braincube-connector       2.6.0                    pypi_0    pypi
-bzip2                     1.0.8                he774522_0  
-ca-certificates           2023.12.12           haa95532_0  
+bzip2                     1.0.8                h2bbff1b_6  
+ca-certificates           2024.3.11            haa95532_0  
 cachetools                5.3.3                    pypi_0    pypi
 certifi                   2024.2.2                 pypi_0    pypi
 cffi                      1.16.0          py311h2bbff1b_0  
@@ -56,6 +56,7 @@ defusedxml                0.7.1                    pypi_0    pypi
 deprecated                1.2.14                   pypi_0    pypi
 deprecation               2.1.0                    pypi_0    pypi
 dirtyjson                 1.0.8                    pypi_0    pypi
+diskcache                 5.6.3                    pypi_0    pypi
 distro                    1.9.0                    pypi_0    pypi
 dnspython                 2.6.1                    pypi_0    pypi
 docker-pycreds            0.4.0                    pypi_0    pypi
@@ -99,6 +100,7 @@ h5py                      3.10.0                   pypi_0    pypi
 httpcore                  1.0.4                    pypi_0    pypi
 httptools                 0.6.1                    pypi_0    pypi
 httpx                     0.27.0                   pypi_0    pypi
+huggingface-hub           0.23.0                   pypi_0    pypi
 idna                      3.6                      pypi_0    pypi
 ifaddr                    0.2.0                    pypi_0    pypi
 imageio                   2.34.0                   pypi_0    pypi
@@ -165,6 +167,7 @@ libtiff                   4.5.1                hd77b12b_0
 libuv                     1.44.2               h2bbff1b_0  
 libwebp                   1.3.2                hbc33d0d_0  
 libwebp-base              1.3.2                h2bbff1b_0  
+llama-cpp-python          0.2.69                   pypi_0    pypi
 llama-index               0.10.30                  pypi_0    pypi
 llama-index-agent-openai  0.2.3                    pypi_0    pypi
 llama-index-cli           0.1.12                   pypi_0    pypi
@@ -215,7 +218,7 @@ opencv-contrib-python     4.9.0.80                 pypi_0    pypi
 opencv-python             4.9.0.80                 pypi_0    pypi
 opencv-python-headless    4.9.0.80                 pypi_0    pypi
 openjpeg                  2.4.0                h4fc8c34_0  
-openssl                   3.0.12               h2bbff1b_0  
+openssl                   3.0.13               h2bbff1b_1  
 orjson                    3.10.1                   pypi_0    pypi
 overrides                 7.7.0                    pypi_0    pypi
 packaging                 23.2                     pypi_0    pypi

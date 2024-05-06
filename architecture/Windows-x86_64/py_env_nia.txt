@@ -37,6 +37,7 @@ defusedxml
 deprecated
 deprecation
 dirtyjson
+diskcache
 distro
 dnspython
 docker-pycreds
@@ -78,6 +79,7 @@ h5py
 httpcore
 httptools
 httpx
+huggingface-hub
 idna
 ifaddr
 imageio
@@ -117,6 +119,7 @@ langchain-openai
 langchain-text-splitters
 langsmith
 lazy-loader
+llama-cpp-python
 llama-index
 llama-index-agent-openai
 llama-index-cli

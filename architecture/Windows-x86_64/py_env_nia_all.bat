@@ -1,4 +1,4 @@
-rem 2024-04-26T15:45:03.162424+00:00
+rem 2024-05-06T08:59:01.733335+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -21,6 +21,7 @@ pip install "debugpy>=1.8.1"
 pip install "decorator>=5.1.1"
 pip install "defusedxml>=0.7.1"
 pip install "dirtyjson>=1.0.8"
+pip install "diskcache>=5.6.3"
 pip install "distro>=1.9.0"
 pip install "dnspython>=2.6.1"
 pip install "docstring-parser>=0.16"
@@ -251,14 +252,18 @@ pip install "grpc-google-iam-v1>=0.13.0"
 pip install "grpcio-status>=1.62.0"
 pip check
 pip install "httpx>=0.27.0"
+pip install "huggingface-hub>=0.23.0"
+pip check
 pip install "jsonschema-specifications>=2023.12.1"
 pip install "jupyter-client>=8.6.0"
 pip install "jupyter-server-terminals>=0.5.2"
 pip check
 pip install "kfp-server-api>=2.0.5"
-pip install "matplotlib>=3.8.3"
+pip install "llama-cpp-python>=0.2.69"
 pip check
+pip install "matplotlib>=3.8.3"
 pip install "nltk>=3.8.1"
+pip check
 pip install "pandas>=2.2.1"
 pip install "pydantic>=2.7.0"
 pip install "pydeck>=0.8.0"
