@@ -60,8 +60,11 @@ class ScriptsCmd:
             print('Error: {}'.format(e))
             return False
         script_all_name = '{}_all.{}'.format(env_name, script_extension)
-        print('script: {}'.format(script_all_name))
-        with open(script_all_name, 'w') as all:
+        script_packages_sorted_name = f'{env_name}_packages_sorted.txt'
+        print(f'script: {script_all_name}')
+        print(f'script: {script_packages_sorted_name}')
+        with open(script_all_name, 'w') as all, \
+                open(script_packages_sorted_name, 'w') as ps:
             for level in range(1, 20):
                 packs = db.packages_get_names_by_level(level=level)
                 if packs is None or len(packs) < 1:
@@ -74,7 +77,8 @@ class ScriptsCmd:
                     single.write(out)
                     if level == 1:
                         all.write(out)
-                    out = '{} Level {}\n'.format(script_comment, level)
+                    # fi
+                    out = f'{script_comment} Level {level}\n'
                     single.write(out)
                     all.write(out)
                     ii = 0
@@ -103,13 +107,13 @@ class ScriptsCmd:
                         out = f'pip install "{package}>={version}"\n'
                         single.write(out)
                         all.write(out)
-
+                        ps.write(f'{package}\n')
                     # for
                     if finish_check:
                         out = 'pip check\n'
                         single.write(out)
                         all.write(out)
-                    out = '{} Level {}\n'.format(script_comment, level)
+                    out = f'{script_comment} Level {level}\n'
                     single.write(out)
                     all.write(out)
                 # with
