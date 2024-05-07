@@ -114,6 +114,9 @@ class PyEnvMax:
         group.add_argument('-ip', '--install_packages', action='extend', nargs='+', type=str,
                             help='Attempt to install packages to existing python environment')
 
+        group.add_argument('-ip2', '--install_packages2', action='extend', nargs='+', type=str,
+                            help='Attempt to install packages from list to existing python environment')
+
         group.add_argument('-ua', '--upd_all', action='store_true',
                             help='Attempt to update all of existing '
                                  'python environment, then export it')
@@ -159,6 +162,10 @@ class PyEnvMax:
         elif args.install_packages:
             packages_with_versions = args.install_packages
             EnvCmd.install_packages(env_name=env_name, packages_with_versions=packages_with_versions, force=force)
+        elif args.install_packages2:
+            # should redo below one by one, just to be safe !!
+            packages_list = EnvCmd.unwrap_packages(args.install_packages2)
+            EnvCmd.install_packages(env_name=env_name, packages_with_versions=packages_list, force=force)
         elif args.scripts_export:
             ok = ScriptsCmd.scripts_export(env_name=env_name,
                                            python_version=self.python_version_default, force=force)

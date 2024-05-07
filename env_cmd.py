@@ -403,8 +403,35 @@ class EnvCmd:
         return ok
 
     @staticmethod
+    def unwrap_packages(packages_with_versions: str) -> [str]:
+        print(f'unwrap_packages: {packages_with_versions})')
+        try:
+            lines = list()
+            last0 = 'a'
+            for i in range(len(packages_with_versions)):
+                with open(packages_with_versions[i], 'r') as file:
+                    for line in file:
+                        l = line.strip()
+                        if not l or l == 'end':
+                            break
+                        c0 = l[0]
+                        if c0 < last0:
+                            print(f'detected change level - call again')
+                            break
+                        last0 = c0
+                        lines.append(l)
+                    # for
+                # with
+            # for
+            return lines
+        except:
+            return None
+
+    @staticmethod
     def install_packages(env_name: str, packages_with_versions: [str], force: bool = False) -> bool:
         print('install_packages: {} (force={})'.format(env_name, force))
+        if packages_with_versions is None or len(packages_with_versions) < 1:
+            return False
         if force or True:
             # really, this should always be done
             if not EnvCmd.env_import(env_name=env_name, force=False):
