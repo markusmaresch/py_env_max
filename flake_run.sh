@@ -25,7 +25,7 @@ else
     echo "RUFF"
     #ruff --ignore E501,E722 .
     # E722 .. bare except
-    ruff --ignore E722 .
+    ruff check --ignore E722 .
     ret=$?
     #echo
     if [ $ret -eq 0 ]; then

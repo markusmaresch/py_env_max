@@ -403,50 +403,12 @@ class EnvCmd:
         return ok
 
     @staticmethod
-    def unwrap_packages(packages_with_versions: str) -> [str]:
-        print(f'unwrap_packages: {packages_with_versions})')
-        try:
-            lines = list()
-            last0 = 'a'
-            for i in range(len(packages_with_versions)):
-                with open(packages_with_versions[i], 'r') as file:
-                    for line in file:
-                        l = line.strip()
-                        if not l or l == 'end':
-                            break
-                        c0 = l[0]
-                        if c0 < last0:
-                            print(f'detected change level - call again')
-                            break
-                        last0 = c0
-                        lines.append(l)
-                    # for
-                # with
-            # for
-            return lines
-        except:
-            return None
-
-    @staticmethod
-    def install_packages(env_name: str, packages_with_versions: [str], force: bool = False) -> bool:
-        print('install_packages: {} (force={})'.format(env_name, force))
-        if packages_with_versions is None or len(packages_with_versions) < 1:
-            return False
-        if force or True:
-            # really, this should always be done
-            if not EnvCmd.env_import(env_name=env_name, force=False):
-                return False
-        db_name = '{}.json'.format(env_name)
-        db = Database()
-        if not db.load(db_name):
-            # alternatively could call env_import and continue
-            return False
+    def install_stack(env_name: str, packages_with_versions: [str]) -> dict:
         updated_all = dict()
         stack = PackageStack()
         stack.extend_full(packages_with_versions)
         pip_checked = True  # set to False !!!!
         first = True
-        ok = True
         while True:
             print('{}: stack: {}'.format(env_name, stack))
             if stack.len() < 1:
@@ -475,8 +437,8 @@ class EnvCmd:
 
             would_install = pr.get_would_install()
             if len(would_install) == 0:
-                print('{}: nothing to do...'.format(env_name))
-                break
+                print('{}: nothing to do... {}'.format(env_name, current_package_name))
+                # break
             elif len(would_install) == 1:
                 package_name = next(iter(would_install))
                 version = would_install[package_name]
@@ -522,7 +484,73 @@ class EnvCmd:
             # fi
             first = False
         # while
+        return updated_all
 
+    @staticmethod
+    def unwrap_packages(packages_file_list: str) -> [str]:
+        print(f'unwrap_packages: {packages_file_list})')
+        try:
+            #
+            # this should be split by levels, so we do not incur dependencies (at least try)
+            # turn this into a generator
+            # or slower - do this one by one
+            #
+            lines = list()
+            last0 = 'a'
+            for i in range(len(packages_file_list)):
+                with open(packages_file_list[i], 'r') as file:
+                    for line in file:
+                        line_stripped = line.strip()
+                        if not line_stripped or line_stripped == 'end':
+                            break
+                        c0 = line_stripped[0]
+                        if c0 < last0:
+                            print(f'detected change level - call again: {c0} < {last0}')
+                            # break
+                        last0 = c0
+                        lines.append(line_stripped)
+                    # for
+                # with
+            # for
+
+            # because of the stack logic below !!
+            inverted = list(reversed(lines))
+            return inverted
+        except:
+            return None
+
+    @staticmethod
+    def install_packages(env_name: str,
+                         packages_with_versions: [str],
+                         packages_file_list: [str],
+                         force: bool = False) -> bool:
+        print('install_packages: {} (force={})'.format(env_name, force))
+        flag_direct = (packages_with_versions is not None and len(packages_with_versions) > 0)
+        flag_indirect = (packages_file_list is not None and len(packages_file_list) > 0)
+        if not flag_direct and not flag_indirect:
+            return False
+        if force or True:
+            # really, this should always be done
+            if not EnvCmd.env_import(env_name=env_name, force=False):
+                return False
+        db_name = '{}.json'.format(env_name)
+        db = Database()
+        if not db.load(db_name):
+            # alternatively could call env_import and continue
+            return False
+        # fi
+
+        if flag_indirect:
+            #
+            # some logic cleanup needed here
+            #
+            packages_with_versions = EnvCmd.unwrap_packages(packages_file_list)
+            if packages_with_versions is None or len(packages_with_versions) < 1:
+                return False
+        # fi
+
+        ok = True
+        updated_all = EnvCmd.install_stack(env_name, packages_with_versions)
         items = updated_all.items()
         if len(items) > 0:
             print()
@@ -531,11 +559,15 @@ class EnvCmd:
             print()
             if not db.dump(json_path=db_name):
                 ok = False
+            #
+            # this is a bit hacky - open db, import again, but not force ?
+            #
             if not EnvCmd.env_import(env_name=env_name, force=False):
                 ok = False
         else:
             print('{}: NO updates'.format(env_name))
         # fi
+
         ok = ok if db.dump(json_path=db_name) else False
         db.close()
         return ok
