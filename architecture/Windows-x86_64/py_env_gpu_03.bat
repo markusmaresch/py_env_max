@@ -1,4 +1,4 @@
-rem 2024-05-06T23:53:14.749778+00:00
+rem 2024-05-07T00:03:25.070421+00:00
 rem Level 3
 pip install "aiohttp>=3.9.5"
 pip install "argon2-cffi-bindings>=21.2.0"
@@ -15,6 +15,7 @@ pip check
 pip install "httpx>=0.27.0"
 pip install "jsonschema-specifications>=2023.12.1"
 pip install "jupyter-client>=8.6.1"
+pip install "jupyter-server-terminals>=0.5.3"
 pip check
 pip install "kfp-server-api>=2.0.5"
 pip install "nltk>=3.8.1"

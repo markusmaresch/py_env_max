@@ -4,6 +4,7 @@ annotated-types
 appdirs
 async-lru
 attrs
+babel
 bidict
 blinker
 cachetools
@@ -39,6 +40,7 @@ intel-openmp
 itsdangerous
 jmespath
 joblib
+json5
 jsonpointer
 jupyterlab-pygments
 kiwisolver
@@ -55,6 +57,7 @@ networkx
 numpy
 oauthlib
 orjson
+overrides
 packaging
 pandocfilters
 parso
@@ -62,6 +65,7 @@ pillow
 pip
 platformdirs
 pluggy
+prometheus-client
 protobuf
 pscript
 psutil
@@ -86,6 +90,7 @@ regex
 rfc3986-validator
 rpds-py
 segment-anything
+send2trash
 setproctitle
 setuptools
 shellingham
@@ -186,6 +191,7 @@ grpcio-status
 httpx
 jsonschema-specifications
 jupyter-client
+jupyter-server-terminals
 kfp-server-api
 nltk
 pandas
@@ -204,6 +210,7 @@ torch
 uvicorn
 watchfiles
 albumentations
+argon2-cffi
 fastapi
 google-api-core
 ipython
@@ -251,3 +258,12 @@ llama-index-cli
 llama-index-multi-modal-llms-openai
 llama-index-readers-llama-parse
 nbconvert
+google-cloud-pipeline-components
+jupyter-server
+llama-index-program-openai
+jupyter-lsp
+jupyterlab-server
+llama-index-question-gen-openai
+notebook-shim
+jupyterlab
+llama-index

@@ -1,6 +1,7 @@
-rem 2024-05-06T23:53:14.749778+00:00
+rem 2024-05-07T00:03:25.070421+00:00
 rem Level 4
 pip install "albumentations>=1.4.6"
+pip install "argon2-cffi>=23.1.0"
 pip check
 pip install "fastapi>=0.109.2"
 pip install "google-api-core>=2.19.0"

@@ -1,4 +1,4 @@
-rem 2024-05-06T23:53:14.749778+00:00
+rem 2024-05-07T00:03:25.070421+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -7,6 +7,7 @@ pip install "appdirs>=1.4.4"
 pip install "async-lru>=2.0.4"
 pip install "attrs>=23.2.0"
 pip check
+pip install "babel>=2.15.0"
 pip install "bidict>=0.23.1"
 pip install "blinker>=1.8.2"
 pip check
@@ -49,6 +50,7 @@ pip install "itsdangerous>=2.2.0"
 pip check
 pip install "jmespath>=1.0.1"
 pip install "joblib>=1.4.2"
+pip install "json5>=0.9.25"
 pip install "jsonpointer>=2.4"
 pip install "jupyterlab-pygments>=0.3.0"
 pip check
@@ -68,6 +70,7 @@ pip install "numpy>=1.26.4"
 pip check
 pip install "oauthlib>=3.2.2"
 pip install "orjson>=3.10.3"
+pip install "overrides>=7.7.0"
 pip check
 pip install "packaging>=23.2"
 pip install "pandocfilters>=1.5.1"
@@ -76,10 +79,11 @@ pip install "pillow>=10.3.0"
 pip install "pip>=24.0"
 pip install "platformdirs>=4.2.1"
 pip install "pluggy>=1.5.0"
+pip install "prometheus-client>=0.20.0"
 pip install "protobuf>=4.25.3"
 pip install "pscript>=0.7.7"
-pip install "psutil>=5.9.8"
 pip check
+pip install "psutil>=5.9.8"
 pip install "pure-eval>=0.2.2"
 pip install "pyasn1>=0.6.0"
 pip install "pycodestyle>=2.11.1"
@@ -89,8 +93,8 @@ pip install "pygments>=2.18.0"
 pip install "pyparsing>=3.1.2"
 pip install "pypdf>=4.2.0"
 pip install "pypng>=0.20220715.0"
-pip install "python-dotenv>=1.0.1"
 pip check
+pip install "python-dotenv>=1.0.1"
 pip install "python-json-logger>=2.0.7"
 pip install "python-multipart>=0.0.9"
 pip install "pytz>=2024.1"
@@ -104,6 +108,7 @@ pip install "rfc3986-validator>=0.1.1"
 pip install "rpds-py>=0.18.1"
 pip check
 pip install "segment-anything>=1.0"
+pip install "send2trash>=1.8.3"
 pip install "setproctitle>=1.3.3"
 pip install "setuptools>=69.5.1"
 pip install "shellingham>=1.5.4"
@@ -233,6 +238,7 @@ pip check
 pip install "httpx>=0.27.0"
 pip install "jsonschema-specifications>=2023.12.1"
 pip install "jupyter-client>=8.6.1"
+pip install "jupyter-server-terminals>=0.5.3"
 pip check
 pip install "kfp-server-api>=2.0.5"
 pip install "nltk>=3.8.1"
@@ -260,6 +266,7 @@ pip check
 rem Level 3
 rem Level 4
 pip install "albumentations>=1.4.6"
+pip install "argon2-cffi>=23.1.0"
 pip check
 pip install "fastapi>=0.109.2"
 pip install "google-api-core>=2.19.0"
@@ -334,3 +341,24 @@ pip check
 pip install "nbconvert>=7.16.4"
 pip check
 rem Level 7
+rem Level 8
+pip install "google-cloud-pipeline-components>=2.14.0"
+pip check
+pip install "jupyter-server>=2.14.0"
+pip install "llama-index-program-openai>=0.1.6"
+pip check
+rem Level 8
+rem Level 9
+pip install "jupyter-lsp>=2.2.5"
+pip install "jupyterlab-server>=2.27.1"
+pip check
+pip install "llama-index-question-gen-openai>=0.1.3"
+pip install "notebook-shim>=0.2.4"
+pip check
+rem Level 9
+rem Level 10
+pip install "jupyterlab>=4.2.0"
+pip check
+pip install "llama-index>=0.10.34"
+pip check
+rem Level 10

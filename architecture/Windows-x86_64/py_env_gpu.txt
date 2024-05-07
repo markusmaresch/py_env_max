@@ -7,11 +7,13 @@ altair
 annotated-types
 anyio
 appdirs
+argon2-cffi
 argon2-cffi-bindings
 arrow
 asttokens
 async-lru
 attrs
+babel
 beautifulsoup4
 bidict
 bleach
@@ -54,6 +56,7 @@ google-auth
 google-cloud-aiplatform
 google-cloud-bigquery
 google-cloud-core
+google-cloud-pipeline-components
 google-cloud-resource-manager
 google-cloud-storage
 google-cloud-vision
@@ -81,6 +84,7 @@ jedi
 jinja2
 jmespath
 joblib
+json5
 jsonpatch
 jsonpointer
 jsonschema
@@ -88,7 +92,12 @@ jsonschema-specifications
 jupyter-client
 jupyter-core
 jupyter-events
+jupyter-lsp
+jupyter-server
+jupyter-server-terminals
+jupyterlab
 jupyterlab-pygments
+jupyterlab-server
 kfp
 kfp-pipeline-spec
 kfp-server-api
@@ -101,6 +110,7 @@ langchain-openai
 langchain-text-splitters
 langsmith
 lazy-loader
+llama-index
 llama-index-agent-openai
 llama-index-cli
 llama-index-core
@@ -110,6 +120,8 @@ llama-index-legacy
 llama-index-llms-ollama
 llama-index-llms-openai
 llama-index-multi-modal-llms-openai
+llama-index-program-openai
+llama-index-question-gen-openai
 llama-index-readers-file
 llama-index-readers-llama-parse
 llama-parse
@@ -133,11 +145,13 @@ nest-asyncio
 networkx
 nicegui
 nltk
+notebook-shim
 numpy
 oauthlib
 openai
 opencv-python-headless
 orjson
+overrides
 packaging
 pandas
 pandocfilters
@@ -146,6 +160,7 @@ pillow
 pip
 platformdirs
 pluggy
+prometheus-client
 prompt-toolkit
 proto-plus
 protobuf
@@ -190,6 +205,7 @@ scikit-image
 scikit-learn
 scipy
 segment-anything
+send2trash
 sentry-sdk
 setproctitle
 setuptools
