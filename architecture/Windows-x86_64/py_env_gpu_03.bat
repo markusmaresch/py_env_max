@@ -1,11 +1,14 @@
-rem 2024-05-07T07:28:07.044744+00:00
+rem 2024-05-07T10:08:20.363913+00:00
 rem Level 3
 pip install "aiohttp>=3.9.5"
 pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
 pip check
+pip install "botocore>=1.34.99"
 pip install "clr-loader>=0.2.6"
+pip check
 pip install "dataclasses-json>=0.6.5"
+pip install "flask>=3.0.3"
 pip check
 pip install "gitpython>=3.1.43"
 pip install "google-auth>=2.29.0"
@@ -13,11 +16,16 @@ pip install "grpc-google-iam-v1>=0.13.0"
 pip install "grpcio-status>=1.62.2"
 pip check
 pip install "httpx>=0.27.0"
+pip install "huggingface-hub>=0.23.0"
+pip check
 pip install "jsonschema-specifications>=2023.12.1"
 pip install "jupyter-client>=8.6.1"
 pip install "jupyter-server-terminals>=0.5.3"
 pip check
 pip install "kfp-server-api>=2.0.5"
+pip install "llama-cpp-python>=0.2.69"
+pip check
+pip install "matplotlib>=3.8.4"
 pip install "nltk>=3.8.1"
 pip check
 pip install "pandas>=2.2.2"
