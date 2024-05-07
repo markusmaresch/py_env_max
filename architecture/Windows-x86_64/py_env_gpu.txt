@@ -204,7 +204,6 @@ rsa
 scikit-image
 scikit-learn
 scipy
-segment-anything
 send2trash
 sentry-sdk
 setproctitle

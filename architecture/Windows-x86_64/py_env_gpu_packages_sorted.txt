@@ -89,7 +89,6 @@ pyzmq
 regex
 rfc3986-validator
 rpds-py
-segment-anything
 send2trash
 setproctitle
 setuptools

@@ -1,4 +1,4 @@
-rem 2024-05-07T00:03:25.070421+00:00
+rem 2024-05-07T07:28:07.044744+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -107,7 +107,6 @@ pip install "regex>=2024.4.28"
 pip install "rfc3986-validator>=0.1.1"
 pip install "rpds-py>=0.18.1"
 pip check
-pip install "segment-anything>=1.0"
 pip install "send2trash>=1.8.3"
 pip install "setproctitle>=1.3.3"
 pip install "setuptools>=69.5.1"

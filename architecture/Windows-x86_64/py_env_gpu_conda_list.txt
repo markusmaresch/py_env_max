@@ -10,11 +10,13 @@ altair                    5.3.0                    pypi_0    pypi
 annotated-types           0.6.0                    pypi_0    pypi
 anyio                     4.3.0                    pypi_0    pypi
 appdirs                   1.4.4                    pypi_0    pypi
+argon2-cffi               23.1.0                   pypi_0    pypi
 argon2-cffi-bindings      21.2.0                   pypi_0    pypi
 arrow                     1.3.0                    pypi_0    pypi
 asttokens                 2.4.1                    pypi_0    pypi
 async-lru                 2.0.4                    pypi_0    pypi
 attrs                     23.2.0                   pypi_0    pypi
+babel                     2.15.0                   pypi_0    pypi
 beautifulsoup4            4.12.3                   pypi_0    pypi
 bidict                    0.23.1                   pypi_0    pypi
 bleach                    6.1.0                    pypi_0    pypi
@@ -59,6 +61,7 @@ google-auth               2.29.0                   pypi_0    pypi
 google-cloud-aiplatform   1.50.0                   pypi_0    pypi
 google-cloud-bigquery     3.22.0                   pypi_0    pypi
 google-cloud-core         2.4.1                    pypi_0    pypi
+google-cloud-pipeline-components 2.14.0                   pypi_0    pypi
 google-cloud-resource-manager 1.12.3                   pypi_0    pypi
 google-cloud-storage      2.16.0                   pypi_0    pypi
 google-cloud-vision       3.7.2                    pypi_0    pypi
@@ -86,6 +89,7 @@ jedi                      0.19.1                   pypi_0    pypi
 jinja2                    3.1.4                    pypi_0    pypi
 jmespath                  1.0.1                    pypi_0    pypi
 joblib                    1.4.2                    pypi_0    pypi
+json5                     0.9.25                   pypi_0    pypi
 jsonpatch                 1.33                     pypi_0    pypi
 jsonpointer               2.4                      pypi_0    pypi
 jsonschema                4.22.0                   pypi_0    pypi
@@ -93,7 +97,12 @@ jsonschema-specifications 2023.12.1                pypi_0    pypi
 jupyter-client            8.6.1                    pypi_0    pypi
 jupyter-core              5.7.2                    pypi_0    pypi
 jupyter-events            0.10.0                   pypi_0    pypi
+jupyter-lsp               2.2.5                    pypi_0    pypi
+jupyter-server            2.14.0                   pypi_0    pypi
+jupyter-server-terminals  0.5.3                    pypi_0    pypi
+jupyterlab                4.2.0                    pypi_0    pypi
 jupyterlab-pygments       0.3.0                    pypi_0    pypi
+jupyterlab-server         2.27.1                   pypi_0    pypi
 kfp                       2.7.0                    pypi_0    pypi
 kfp-pipeline-spec         0.3.0                    pypi_0    pypi
 kfp-server-api            2.0.5                    pypi_0    pypi
@@ -107,6 +116,7 @@ langchain-text-splitters  0.0.1                    pypi_0    pypi
 langsmith                 0.1.54                   pypi_0    pypi
 lazy-loader               0.4                      pypi_0    pypi
 libffi                    3.4.4                hd77b12b_1  
+llama-index               0.10.34                  pypi_0    pypi
 llama-index-agent-openai  0.2.3                    pypi_0    pypi
 llama-index-cli           0.1.12                   pypi_0    pypi
 llama-index-core          0.10.34                  pypi_0    pypi
@@ -116,6 +126,8 @@ llama-index-legacy        0.9.48                   pypi_0    pypi
 llama-index-llms-ollama   0.1.3                    pypi_0    pypi
 llama-index-llms-openai   0.1.16                   pypi_0    pypi
 llama-index-multi-modal-llms-openai 0.1.5                    pypi_0    pypi
+llama-index-program-openai 0.1.6                    pypi_0    pypi
+llama-index-question-gen-openai 0.1.3                    pypi_0    pypi
 llama-index-readers-file  0.1.20                   pypi_0    pypi
 llama-index-readers-llama-parse 0.1.4                    pypi_0    pypi
 llama-parse               0.4.2                    pypi_0    pypi
@@ -139,12 +151,14 @@ nest-asyncio              1.6.0                    pypi_0    pypi
 networkx                  3.3                      pypi_0    pypi
 nicegui                   1.4.24                   pypi_0    pypi
 nltk                      3.8.1                    pypi_0    pypi
+notebook-shim             0.2.4                    pypi_0    pypi
 numpy                     1.26.4                   pypi_0    pypi
 oauthlib                  3.2.2                    pypi_0    pypi
 openai                    1.26.0                   pypi_0    pypi
 opencv-python-headless    4.9.0.80                 pypi_0    pypi
 openssl                   3.0.13               h2bbff1b_1  
 orjson                    3.10.3                   pypi_0    pypi
+overrides                 7.7.0                    pypi_0    pypi
 packaging                 23.2                     pypi_0    pypi
 pandas                    2.2.2                    pypi_0    pypi
 pandocfilters             1.5.1                    pypi_0    pypi
@@ -153,6 +167,7 @@ pillow                    10.3.0                   pypi_0    pypi
 pip                       24.0                     pypi_0    pypi
 platformdirs              4.2.1                    pypi_0    pypi
 pluggy                    1.5.0                    pypi_0    pypi
+prometheus-client         0.20.0                   pypi_0    pypi
 prompt-toolkit            3.0.43                   pypi_0    pypi
 proto-plus                1.23.0                   pypi_0    pypi
 protobuf                  4.25.3                   pypi_0    pypi
@@ -197,6 +212,7 @@ rsa                       4.9                      pypi_0    pypi
 scikit-image              0.23.2                   pypi_0    pypi
 scikit-learn              1.4.2                    pypi_0    pypi
 scipy                     1.13.0                   pypi_0    pypi
+send2trash                1.8.3                    pypi_0    pypi
 sentry-sdk                2.1.1                    pypi_0    pypi
 setproctitle              1.3.3                    pypi_0    pypi
 setuptools                69.5.1                   pypi_0    pypi
