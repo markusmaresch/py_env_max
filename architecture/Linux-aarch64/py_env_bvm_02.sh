@@ -1,4 +1,4 @@
-# 2024-02-08T13:55:15.457994+00:00
+# 2024-05-07T15:10:15.815360+00:00
 # Level 2
 pip install "asttokens>=2.4.1"
 pip check
@@ -6,8 +6,9 @@ pip install "comm>=0.2.1"
 pip install "contourpy>=1.2.0"
 pip check
 pip install "deprecated>=1.2.14"
-pip install "flake8>=7.0.0"
+pip install "email-validator>=2.1.1"
 pip check
+pip install "flake8>=7.0.0"
 pip install "google-resumable-media>=2.7.0"
 pip install "googleapis-common-protos>=1.62.0"
 pip check

@@ -1,4 +1,4 @@
-# 2024-02-08T13:55:15.457994+00:00
+# 2024-05-07T15:10:15.815360+00:00
 # Level 1
 pip install "ansi2html>=1.9.1"
 pip install "arena-api>=2.3.3"
@@ -23,6 +23,7 @@ pip install "dash-table>=5.0.0"
 pip install "debugpy>=1.8.0"
 pip install "decorator>=5.1.1"
 pip install "dill>=0.3.7"
+pip install "dnspython>=2.6.1"
 pip install "docopt>=0.6.2"
 pip check
 pip install "entrypoints>=0.4"
@@ -100,7 +101,7 @@ pip install "wincertstore>=0.2"
 pip install "wrapt>=1.16.0"
 pip check
 pip install "xlsxwriter>=3.1.9"
-pip install "yoctopuce>=1.10.57762"
+pip install "yoctopuce>=2.0.60394"
 pip check
 pip install "zipp>=3.17.0"
 pip check
