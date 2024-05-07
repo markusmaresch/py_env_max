@@ -1,4 +1,4 @@
-rem 2024-05-07T10:08:20.363913+00:00
+rem 2024-05-07T11:05:07.530026+00:00
 rem Level 6
 pip install "google-cloud-bigquery>=3.22.0"
 pip install "google-cloud-storage>=2.16.0"

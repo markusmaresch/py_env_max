@@ -48,6 +48,7 @@ email-validator
 exceptiongroup
 executing
 fastapi
+fastapi-cli
 fastjsonschema
 filelock
 flake8
@@ -231,6 +232,7 @@ ruff
 scikit-image
 scikit-learn
 scipy
+segment-anything
 send2trash
 sentry-sdk
 setproctitle

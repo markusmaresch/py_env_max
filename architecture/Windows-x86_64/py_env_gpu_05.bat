@@ -1,7 +1,8 @@
-rem 2024-05-07T10:08:20.363913+00:00
+rem 2024-05-07T11:05:07.530026+00:00
 rem Level 5
 pip install "altair>=5.3.0"
 pip check
+pip install "fastapi-cli>=0.0.2"
 pip install "google-cloud-core>=2.4.1"
 pip install "google-cloud-resource-manager>=1.12.3"
 pip install "google-cloud-vision>=3.7.2"

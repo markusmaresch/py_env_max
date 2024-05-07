@@ -1,4 +1,4 @@
-rem 2024-05-07T10:08:20.363913+00:00
+rem 2024-05-07T11:05:07.530026+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -113,6 +113,7 @@ pip install "rfc3986-validator>=0.1.1"
 pip install "rpds-py>=0.18.1"
 pip install "ruff>=0.4.3"
 pip check
+pip install "segment-anything>=1.0"
 pip install "send2trash>=1.8.3"
 pip install "setproctitle>=1.3.3"
 pip install "setuptools>=69.5.1"
@@ -125,7 +126,7 @@ pip install "striprtf>=0.0.26"
 pip check
 pip install "tabulate>=0.9.0"
 pip install "tbb>=2021.12.0"
-pip install "tenacity>=8.2.3"
+pip install "tenacity>=8.3.0"
 pip install "threadpoolctl>=3.5.0"
 pip install "toml>=0.10.2"
 pip install "toolz>=0.12.1"
@@ -331,6 +332,7 @@ rem Level 4
 rem Level 5
 pip install "altair>=5.3.0"
 pip check
+pip install "fastapi-cli>=0.0.2"
 pip install "google-cloud-core>=2.4.1"
 pip install "google-cloud-resource-manager>=1.12.3"
 pip install "google-cloud-vision>=3.7.2"
