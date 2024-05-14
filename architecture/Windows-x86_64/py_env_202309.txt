@@ -449,6 +449,7 @@ olefile
 onnx
 onnx-simplifier
 onnxconverter-common
+onnxruntime
 opencensus-context
 opencv-python
 opencv-python-headless
@@ -507,6 +508,7 @@ portalocker
 portpicker
 powerlaw
 preshed
+pretty-errors
 prettytable
 proglog
 progressbar2
@@ -815,7 +817,6 @@ y-py
 yahoofinancials
 yarl
 yaspin
-ydata-profiling
 ypy-websocket
 zarr
 zeep
