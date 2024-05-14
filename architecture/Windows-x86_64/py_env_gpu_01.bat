@@ -1,4 +1,4 @@
-rem 2024-05-10T20:23:14.213570+00:00
+rem 2024-05-14T19:57:32.058677+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -108,10 +108,10 @@ pip install "pyyaml>=6.0.1"
 pip install "pyzbar>=0.1.9"
 pip install "pyzmq>=26.0.3"
 pip check
-pip install "regex>=2024.4.28"
+pip install "regex>=2024.5.10"
 pip install "rfc3986-validator>=0.1.1"
 pip install "rpds-py>=0.18.1"
-pip install "ruff>=0.4.3"
+pip install "ruff>=0.4.4"
 pip check
 pip install "segment-anything>=1.0"
 pip install "send2trash>=1.8.3"
@@ -138,7 +138,7 @@ pip check
 pip install "typing-extensions>=4.11.0"
 pip install "tzdata>=2024.1"
 pip check
-pip install "ujson>=5.9.0"
+pip install "ujson>=5.10.0"
 pip install "uri-template>=1.3.0"
 pip install "urllib3>=1.26.18"
 pip check

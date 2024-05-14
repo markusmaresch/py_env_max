@@ -1,4 +1,4 @@
-rem 2024-05-10T20:23:14.213570+00:00
+rem 2024-05-14T19:57:32.058677+00:00
 rem Level 2
 pip install "aiosignal>=1.3.1"
 pip install "anyio>=4.3.0"
@@ -51,7 +51,7 @@ pip install "opencv-python-headless>=4.9.0.80"
 pip check
 pip install "prompt-toolkit>=3.0.43"
 pip install "proto-plus>=1.23.0"
-pip install "pyarrow>=16.0.0"
+pip install "pyarrow>=16.1.0"
 pip install "pyasn1-modules>=0.4.0"
 pip install "pydantic-core>=2.18.2"
 pip install "pytest>=8.2.0"
@@ -71,9 +71,9 @@ pip install "sqlalchemy>=2.0.30"
 pip install "sympy>=1.12"
 pip check
 pip install "terminado>=0.18.1"
-pip install "tifffile>=2024.5.3"
+pip install "tifffile>=2024.5.10"
 pip install "tinycss2>=1.3.0"
-pip install "toga-core>=0.4.3"
+pip install "toga-core>=0.4.4"
 pip install "tqdm>=4.66.4"
 pip install "typing-inspect>=0.9.0"
 pip install "tzlocal>=5.2"

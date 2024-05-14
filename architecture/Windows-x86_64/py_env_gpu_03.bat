@@ -1,13 +1,13 @@
-rem 2024-05-10T20:23:14.213570+00:00
+rem 2024-05-14T19:57:32.058677+00:00
 rem Level 3
 pip install "aiohttp>=3.9.5"
 pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
 pip check
-pip install "botocore>=1.34.99"
+pip install "botocore>=1.34.105"
 pip install "clr-loader>=0.2.6"
 pip check
-pip install "dataclasses-json>=0.6.5"
+pip install "dataclasses-json>=0.6.6"
 pip install "flask>=3.0.3"
 pip check
 pip install "gitpython>=3.1.43"
@@ -23,14 +23,14 @@ pip install "jupyter-client>=8.6.1"
 pip install "jupyter-server-terminals>=0.5.3"
 pip check
 pip install "kfp-server-api>=2.0.5"
-pip install "llama-cpp-python>=0.2.69"
+pip install "llama-cpp-python>=0.2.74"
 pip check
 pip install "matplotlib>=3.8.4"
 pip install "nltk>=3.8.1"
 pip check
 pip install "pandas>=2.2.2"
 pip install "pydantic>=2.7.1"
-pip install "pydeck>=0.9.0"
+pip install "pydeck>=0.9.1"
 pip check
 pip install "requests-oauthlib>=2.0.0"
 pip install "requests-toolbelt>=0.10.1"
@@ -42,7 +42,7 @@ pip install "simple-websocket>=1.0.0"
 pip install "stack-data>=0.6.3"
 pip install "starlette>=0.36.3"
 pip check
-pip install "tiktoken>=0.6.0"
+pip install "tiktoken>=0.7.0"
 pip install "torch>=2.3.0+cu121"
 pip check
 pip install "uvicorn>=0.29.0"

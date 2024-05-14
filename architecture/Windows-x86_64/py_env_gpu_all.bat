@@ -1,4 +1,4 @@
-rem 2024-05-10T20:23:14.213570+00:00
+rem 2024-05-14T19:57:32.058677+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -108,10 +108,10 @@ pip install "pyyaml>=6.0.1"
 pip install "pyzbar>=0.1.9"
 pip install "pyzmq>=26.0.3"
 pip check
-pip install "regex>=2024.4.28"
+pip install "regex>=2024.5.10"
 pip install "rfc3986-validator>=0.1.1"
 pip install "rpds-py>=0.18.1"
-pip install "ruff>=0.4.3"
+pip install "ruff>=0.4.4"
 pip check
 pip install "segment-anything>=1.0"
 pip install "send2trash>=1.8.3"
@@ -138,7 +138,7 @@ pip check
 pip install "typing-extensions>=4.11.0"
 pip install "tzdata>=2024.1"
 pip check
-pip install "ujson>=5.9.0"
+pip install "ujson>=5.10.0"
 pip install "uri-template>=1.3.0"
 pip install "urllib3>=1.26.18"
 pip check
@@ -210,7 +210,7 @@ pip install "opencv-python-headless>=4.9.0.80"
 pip check
 pip install "prompt-toolkit>=3.0.43"
 pip install "proto-plus>=1.23.0"
-pip install "pyarrow>=16.0.0"
+pip install "pyarrow>=16.1.0"
 pip install "pyasn1-modules>=0.4.0"
 pip install "pydantic-core>=2.18.2"
 pip install "pytest>=8.2.0"
@@ -230,9 +230,9 @@ pip install "sqlalchemy>=2.0.30"
 pip install "sympy>=1.12"
 pip check
 pip install "terminado>=0.18.1"
-pip install "tifffile>=2024.5.3"
+pip install "tifffile>=2024.5.10"
 pip install "tinycss2>=1.3.0"
-pip install "toga-core>=0.4.3"
+pip install "toga-core>=0.4.4"
 pip install "tqdm>=4.66.4"
 pip install "typing-inspect>=0.9.0"
 pip install "tzlocal>=5.2"
@@ -249,10 +249,10 @@ pip install "aiohttp>=3.9.5"
 pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
 pip check
-pip install "botocore>=1.34.99"
+pip install "botocore>=1.34.105"
 pip install "clr-loader>=0.2.6"
 pip check
-pip install "dataclasses-json>=0.6.5"
+pip install "dataclasses-json>=0.6.6"
 pip install "flask>=3.0.3"
 pip check
 pip install "gitpython>=3.1.43"
@@ -268,14 +268,14 @@ pip install "jupyter-client>=8.6.1"
 pip install "jupyter-server-terminals>=0.5.3"
 pip check
 pip install "kfp-server-api>=2.0.5"
-pip install "llama-cpp-python>=0.2.69"
+pip install "llama-cpp-python>=0.2.74"
 pip check
 pip install "matplotlib>=3.8.4"
 pip install "nltk>=3.8.1"
 pip check
 pip install "pandas>=2.2.2"
 pip install "pydantic>=2.7.1"
-pip install "pydeck>=0.9.0"
+pip install "pydeck>=0.9.1"
 pip check
 pip install "requests-oauthlib>=2.0.0"
 pip install "requests-toolbelt>=0.10.1"
@@ -287,7 +287,7 @@ pip install "simple-websocket>=1.0.0"
 pip install "stack-data>=0.6.3"
 pip install "starlette>=0.36.3"
 pip check
-pip install "tiktoken>=0.6.0"
+pip install "tiktoken>=0.7.0"
 pip install "torch>=2.3.0+cu121"
 pip check
 pip install "uvicorn>=0.29.0"
@@ -295,7 +295,7 @@ pip install "watchfiles>=0.21.0"
 pip check
 rem Level 3
 rem Level 4
-pip install "albumentations>=1.4.6"
+pip install "albumentations>=1.4.7"
 pip install "argon2-cffi>=23.1.0"
 pip check
 pip install "braincube-connector>=2.6.0"
@@ -310,29 +310,29 @@ pip check
 pip install "jsonschema>=4.22.0"
 pip install "kubernetes>=26.1.0"
 pip check
-pip install "langsmith>=0.1.54"
+pip install "langsmith>=0.1.57"
 pip install "llamaindex-py-client>=0.1.19"
 pip check
-pip install "ollama>=0.1.9"
-pip install "openai>=1.26.0"
+pip install "ollama>=0.2.0"
+pip install "openai>=1.30.1"
 pip check
 pip install "python-engineio>=4.9.0"
 pip install "pythonnet>=3.0.3"
 pip check
 pip install "qudida>=0.0.4"
-pip install "replicate>=0.25.2"
+pip install "replicate>=0.26.0"
 pip check
 pip install "torchaudio>=2.3.0+cu121"
 pip install "torchvision>=0.18.0+cu121"
 pip install "typer>=0.12.3"
 pip check
-pip install "wandb>=0.16.6"
+pip install "wandb>=0.17.0"
 pip check
 rem Level 4
 rem Level 5
 pip install "altair>=5.3.0"
 pip check
-pip install "fastapi-cli>=0.0.2"
+pip install "fastapi-cli>=0.0.3"
 pip install "google-cloud-core>=2.4.1"
 pip install "google-cloud-resource-manager>=1.12.3"
 pip install "google-cloud-vision>=3.7.2"
@@ -341,7 +341,7 @@ pip install "ipykernel>=6.29.4"
 pip install "jupyter-events>=0.10.0"
 pip check
 pip install "langchain-core>=0.1.52"
-pip install "llama-index-core>=0.10.34"
+pip install "llama-index-core>=0.10.36"
 pip install "llama-index-legacy>=0.9.48"
 pip check
 pip install "nbformat>=5.10.4"
@@ -352,30 +352,30 @@ rem Level 6
 pip install "google-cloud-bigquery>=3.22.0"
 pip install "google-cloud-storage>=2.16.0"
 pip check
-pip install "langchain-community>=0.0.37"
+pip install "langchain-community>=0.0.38"
 pip install "langchain-openai>=0.1.6"
 pip install "langchain-text-splitters>=0.0.1"
 pip install "llama-index-embeddings-openai>=0.1.9"
 pip install "llama-index-indices-managed-llama-cloud>=0.1.6"
 pip install "llama-index-llms-ollama>=0.1.3"
-pip install "llama-index-llms-openai>=0.1.16"
-pip install "llama-index-readers-file>=0.1.20"
-pip install "llama-parse>=0.4.2"
+pip install "llama-index-llms-openai>=0.1.19"
+pip install "llama-index-readers-file>=0.1.22"
+pip install "llama-parse>=0.4.3"
 pip check
 pip install "nbclient>=0.10.0"
-pip install "nicegui>=1.4.24"
+pip install "nicegui>=1.4.25"
 pip check
 pip install "streamlit>=1.34.0"
 pip check
 rem Level 6
 rem Level 7
-pip install "google-cloud-aiplatform>=1.50.0"
+pip install "google-cloud-aiplatform>=1.51.0"
 pip check
 pip install "kfp>=2.7.0"
-pip install "langchain>=0.1.17"
-pip install "llama-index-agent-openai>=0.2.3"
+pip install "langchain>=0.1.20"
+pip install "llama-index-agent-openai>=0.2.4"
 pip install "llama-index-cli>=0.1.12"
-pip install "llama-index-multi-modal-llms-openai>=0.1.5"
+pip install "llama-index-multi-modal-llms-openai>=0.1.6"
 pip install "llama-index-readers-llama-parse>=0.1.4"
 pip check
 pip install "nbconvert>=7.16.4"
@@ -399,6 +399,6 @@ rem Level 9
 rem Level 10
 pip install "jupyterlab>=4.2.0"
 pip check
-pip install "llama-index>=0.10.34"
+pip install "llama-index>=0.10.36"
 pip check
 rem Level 10
