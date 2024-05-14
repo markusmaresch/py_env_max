@@ -34,6 +34,9 @@ fpdf2
 fqdn
 frozenlist
 fsspec
+h11
+httpcore
+httpx
 idna
 importlib-metadata
 ipykernel

@@ -1,10 +1,10 @@
-rem 2024-01-04T21:25:19.135773+00:00
+rem 2024-05-14T21:09:39.732315+00:00
 rem Level 5
-pip install "ipykernel>=6.28.0"
+pip install "ipykernel>=6.29.4"
 pip check
-pip install "jupyter-events>=0.9.0"
-pip install "nbformat>=5.9.2"
+pip install "jupyter-events>=0.10.0"
+pip install "nbformat>=5.10.4"
 pip check
-pip install "s3fs>=2023.12.2"
+pip install "s3fs>=2024.3.1"
 pip check
 rem Level 5
