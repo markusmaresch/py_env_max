@@ -38,13 +38,16 @@ idna
 ifaddr
 iniconfig
 intel-openmp
+ipython-genutils
 itsdangerous
 jmespath
 joblib
 json5
 jsonpointer
+jupyter-highlight-selected-word
 jupyterlab-pygments
 kiwisolver
+lxml
 markdown
 markdown2
 markupsafe
@@ -297,3 +300,7 @@ llama-index-question-gen-openai
 notebook-shim
 jupyterlab
 llama-index
+notebook
+jupyter-contrib-core
+jupyter-nbextensions-configurator
+jupyter-contrib-nbextensions

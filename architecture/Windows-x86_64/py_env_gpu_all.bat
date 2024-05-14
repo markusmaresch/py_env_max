@@ -1,4 +1,4 @@
-rem 2024-05-14T20:14:32.497190+00:00
+rem 2024-05-14T21:30:07.023053+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -48,15 +48,19 @@ pip install "idna>=3.7"
 pip install "ifaddr>=0.2.0"
 pip install "iniconfig>=2.0.0"
 pip install "intel-openmp>=2021.4.0"
+pip install "ipython-genutils>=0.2.0"
 pip install "itsdangerous>=2.2.0"
 pip check
 pip install "jmespath>=1.0.1"
 pip install "joblib>=1.4.2"
 pip install "json5>=0.9.25"
 pip install "jsonpointer>=2.4"
+pip install "jupyter-highlight-selected-word>=0.2.0"
 pip install "jupyterlab-pygments>=0.3.0"
 pip check
 pip install "kiwisolver>=1.4.5"
+pip install "lxml>=5.2.2"
+pip check
 pip install "markdown>=3.6"
 pip install "markdown2>=2.4.13"
 pip install "markupsafe>=2.1.5"
@@ -373,7 +377,7 @@ pip install "google-cloud-aiplatform>=1.51.0"
 pip check
 pip install "kfp>=2.7.0"
 pip install "langchain>=0.1.20"
-pip install "llama-index-agent-openai>=0.2.4"
+pip install "llama-index-agent-openai>=0.2.5"
 pip install "llama-index-cli>=0.1.12"
 pip install "llama-index-multi-modal-llms-openai>=0.1.6"
 pip install "llama-index-readers-llama-parse>=0.1.4"
@@ -397,8 +401,24 @@ pip install "notebook-shim>=0.2.4"
 pip check
 rem Level 9
 rem Level 10
-pip install "jupyterlab>=4.2.0"
+pip install "jupyterlab>=4.1.8"
 pip check
-pip install "llama-index>=0.10.36"
+pip install "llama-index>=0.10.37"
 pip check
 rem Level 10
+rem Level 11
+pip install "notebook>=7.1.3"
+pip check
+rem Level 11
+rem Level 12
+pip install "jupyter-contrib-core>=0.4.2"
+pip check
+rem Level 12
+rem Level 13
+pip install "jupyter-nbextensions-configurator>=0.6.3"
+pip check
+rem Level 13
+rem Level 14
+pip install "jupyter-contrib-nbextensions>=0.7.0"
+pip check
+rem Level 14

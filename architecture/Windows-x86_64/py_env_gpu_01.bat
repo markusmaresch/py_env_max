@@ -1,4 +1,4 @@
-rem 2024-05-14T20:14:32.497190+00:00
+rem 2024-05-14T21:30:07.023053+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -48,15 +48,19 @@ pip install "idna>=3.7"
 pip install "ifaddr>=0.2.0"
 pip install "iniconfig>=2.0.0"
 pip install "intel-openmp>=2021.4.0"
+pip install "ipython-genutils>=0.2.0"
 pip install "itsdangerous>=2.2.0"
 pip check
 pip install "jmespath>=1.0.1"
 pip install "joblib>=1.4.2"
 pip install "json5>=0.9.25"
 pip install "jsonpointer>=2.4"
+pip install "jupyter-highlight-selected-word>=0.2.0"
 pip install "jupyterlab-pygments>=0.3.0"
 pip check
 pip install "kiwisolver>=1.4.5"
+pip install "lxml>=5.2.2"
+pip check
 pip install "markdown>=3.6"
 pip install "markdown2>=2.4.13"
 pip install "markupsafe>=2.1.5"

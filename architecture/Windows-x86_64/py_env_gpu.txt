@@ -91,6 +91,7 @@ iniconfig
 intel-openmp
 ipykernel
 ipython
+ipython-genutils
 isoduration
 itsdangerous
 jedi
@@ -104,9 +105,13 @@ jsonpointer
 jsonschema
 jsonschema-specifications
 jupyter-client
+jupyter-contrib-core
+jupyter-contrib-nbextensions
 jupyter-core
 jupyter-events
+jupyter-highlight-selected-word
 jupyter-lsp
+jupyter-nbextensions-configurator
 jupyter-server
 jupyter-server-terminals
 jupyterlab
@@ -141,6 +146,7 @@ llama-index-readers-file
 llama-index-readers-llama-parse
 llama-parse
 llamaindex-py-client
+lxml
 markdown
 markdown-it-py
 markdown2
@@ -162,6 +168,7 @@ nest-asyncio
 networkx
 nicegui
 nltk
+notebook
 notebook-shim
 numpy
 oauthlib
