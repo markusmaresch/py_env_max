@@ -1,10 +1,10 @@
-rem 2024-05-14T21:30:07.023053+00:00
+rem 2024-05-16T22:18:36.204470+00:00
 rem Level 3
 pip install "aiohttp>=3.9.5"
 pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
 pip check
-pip install "botocore>=1.34.105"
+pip install "botocore>=1.34.107"
 pip install "clr-loader>=0.2.6"
 pip check
 pip install "dataclasses-json>=0.6.6"
@@ -23,9 +23,9 @@ pip install "jupyter-client>=8.6.1"
 pip install "jupyter-server-terminals>=0.5.3"
 pip check
 pip install "kfp-server-api>=2.0.5"
-pip install "llama-cpp-python>=0.2.74"
+pip install "llama-cpp-python>=0.2.75"
 pip check
-pip install "matplotlib>=3.8.4"
+pip install "matplotlib>=3.9.0"
 pip install "nltk>=3.8.1"
 pip check
 pip install "pandas>=2.2.2"

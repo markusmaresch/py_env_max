@@ -1,4 +1,4 @@
-rem 2024-05-14T21:30:07.023053+00:00
+rem 2024-05-16T22:18:36.204470+00:00
 rem Level 2
 pip install "aiosignal>=1.3.1"
 pip install "anyio>=4.3.0"
@@ -64,7 +64,7 @@ pip install "rfc3339-validator>=0.1.4"
 pip install "rsa>=4.9"
 pip check
 pip install "scipy>=1.13.0"
-pip install "sentry-sdk>=2.1.1"
+pip install "sentry-sdk>=2.2.0"
 pip install "shapely>=2.0.4"
 pip install "snakeviz>=2.2.0"
 pip install "sqlalchemy>=2.0.30"

@@ -1,4 +1,4 @@
-rem 2024-05-14T21:30:07.023053+00:00
+rem 2024-05-16T22:18:36.204470+00:00
 rem Level 4
 pip install "albumentations>=1.4.7"
 pip install "argon2-cffi>=23.1.0"
@@ -15,7 +15,7 @@ pip check
 pip install "jsonschema>=4.22.0"
 pip install "kubernetes>=26.1.0"
 pip check
-pip install "langsmith>=0.1.57"
+pip install "langsmith>=0.1.59"
 pip install "llamaindex-py-client>=0.1.19"
 pip check
 pip install "ollama>=0.2.0"

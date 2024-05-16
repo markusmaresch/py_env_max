@@ -1,4 +1,4 @@
-rem 2024-05-14T21:30:07.023053+00:00
+rem 2024-05-16T22:18:36.204470+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -35,7 +35,7 @@ pip install "filelock>=3.14.0"
 pip install "fonttools>=4.51.0"
 pip install "fqdn>=1.5.1"
 pip install "frozenlist>=1.4.1"
-pip install "fsspec>=2024.3.1"
+pip install "fsspec>=2024.5.0"
 pip check
 pip install "google-crc32c>=1.5.0"
 pip install "greenlet>=3.0.3"
@@ -85,7 +85,7 @@ pip install "parso>=0.8.4"
 pip install "persist-queue>=0.8.1"
 pip install "pillow>=10.3.0"
 pip install "pip>=24.0"
-pip install "platformdirs>=4.2.1"
+pip install "platformdirs>=4.2.2"
 pip install "pluggy>=1.5.0"
 pip install "prometheus-client>=0.20.0"
 pip install "protobuf>=4.25.3"
@@ -112,7 +112,7 @@ pip install "pyyaml>=6.0.1"
 pip install "pyzbar>=0.1.9"
 pip install "pyzmq>=26.0.3"
 pip check
-pip install "regex>=2024.5.10"
+pip install "regex>=2024.5.15"
 pip install "rfc3986-validator>=0.1.1"
 pip install "rpds-py>=0.18.1"
 pip install "ruff>=0.4.4"
@@ -159,7 +159,7 @@ pip check
 pip install "xlsxwriter>=3.2.0"
 pip install "yoctopuce>=2.0.60664"
 pip check
-pip install "zipp>=3.18.1"
+pip install "zipp>=3.18.2"
 pip check
 rem Level 1
 rem Level 2
@@ -227,7 +227,7 @@ pip install "rfc3339-validator>=0.1.4"
 pip install "rsa>=4.9"
 pip check
 pip install "scipy>=1.13.0"
-pip install "sentry-sdk>=2.1.1"
+pip install "sentry-sdk>=2.2.0"
 pip install "shapely>=2.0.4"
 pip install "snakeviz>=2.2.0"
 pip install "sqlalchemy>=2.0.30"
@@ -253,7 +253,7 @@ pip install "aiohttp>=3.9.5"
 pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
 pip check
-pip install "botocore>=1.34.105"
+pip install "botocore>=1.34.107"
 pip install "clr-loader>=0.2.6"
 pip check
 pip install "dataclasses-json>=0.6.6"
@@ -272,9 +272,9 @@ pip install "jupyter-client>=8.6.1"
 pip install "jupyter-server-terminals>=0.5.3"
 pip check
 pip install "kfp-server-api>=2.0.5"
-pip install "llama-cpp-python>=0.2.74"
+pip install "llama-cpp-python>=0.2.75"
 pip check
-pip install "matplotlib>=3.8.4"
+pip install "matplotlib>=3.9.0"
 pip install "nltk>=3.8.1"
 pip check
 pip install "pandas>=2.2.2"
@@ -314,7 +314,7 @@ pip check
 pip install "jsonschema>=4.22.0"
 pip install "kubernetes>=26.1.0"
 pip check
-pip install "langsmith>=0.1.57"
+pip install "langsmith>=0.1.59"
 pip install "llamaindex-py-client>=0.1.19"
 pip check
 pip install "ollama>=0.2.0"

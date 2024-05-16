@@ -22,20 +22,25 @@ beautifulsoup4            4.12.3                   pypi_0    pypi
 bidict                    0.23.1                   pypi_0    pypi
 bleach                    6.1.0                    pypi_0    pypi
 blinker                   1.8.2                    pypi_0    pypi
-botocore                  1.34.105                 pypi_0    pypi
+blis                      0.7.11                   pypi_0    pypi
+botocore                  1.34.107                 pypi_0    pypi
 braincube-connector       2.6.0                    pypi_0    pypi
 bzip2                     1.0.8                h2bbff1b_6  
 ca-certificates           2024.3.11            haa95532_0  
 cachetools                5.3.3                    pypi_0    pypi
+catalogue                 2.0.10                   pypi_0    pypi
 certifi                   2024.2.2                 pypi_0    pypi
 cffi                      1.16.0                   pypi_0    pypi
 charset-normalizer        3.3.2                    pypi_0    pypi
 click                     8.1.7                    pypi_0    pypi
+cloudpathlib              0.16.0                   pypi_0    pypi
 clr-loader                0.2.6                    pypi_0    pypi
 colorama                  0.4.6                    pypi_0    pypi
 comm                      0.2.2                    pypi_0    pypi
+confection                0.1.4                    pypi_0    pypi
 contourpy                 1.2.1                    pypi_0    pypi
 cycler                    0.12.1                   pypi_0    pypi
+cymem                     2.0.8                    pypi_0    pypi
 dataclasses-json          0.6.6                    pypi_0    pypi
 debugpy                   1.8.1                    pypi_0    pypi
 decorator                 5.1.1                    pypi_0    pypi
@@ -62,7 +67,7 @@ fonttools                 4.51.0                   pypi_0    pypi
 fpdf2                     2.7.8                    pypi_0    pypi
 fqdn                      1.5.1                    pypi_0    pypi
 frozenlist                1.4.1                    pypi_0    pypi
-fsspec                    2024.3.1                 pypi_0    pypi
+fsspec                    2024.5.0                 pypi_0    pypi
 gitdb                     4.0.11                   pypi_0    pypi
 gitpython                 3.1.43                   pypi_0    pypi
 google-api-core           2.19.0                   pypi_0    pypi
@@ -106,6 +111,7 @@ joblib                    1.4.2                    pypi_0    pypi
 json-numpy                2.0.0                    pypi_0    pypi
 json5                     0.9.25                   pypi_0    pypi
 jsonpatch                 1.33                     pypi_0    pypi
+jsonpath-ng               1.6.1                    pypi_0    pypi
 jsonpointer               2.4                      pypi_0    pypi
 jsonschema                4.22.0                   pypi_0    pypi
 jsonschema-specifications 2023.12.1                pypi_0    pypi
@@ -132,10 +138,12 @@ langchain-community       0.0.38                   pypi_0    pypi
 langchain-core            0.1.52                   pypi_0    pypi
 langchain-openai          0.1.6                    pypi_0    pypi
 langchain-text-splitters  0.0.1                    pypi_0    pypi
-langsmith                 0.1.57                   pypi_0    pypi
+langcodes                 3.4.0                    pypi_0    pypi
+langsmith                 0.1.59                   pypi_0    pypi
+language-data             1.2.0                    pypi_0    pypi
 lazy-loader               0.4                      pypi_0    pypi
 libffi                    3.4.4                hd77b12b_1  
-llama-cpp-python          0.2.74                   pypi_0    pypi
+llama-cpp-python          0.2.75                   pypi_0    pypi
 llama-index               0.10.37                  pypi_0    pypi
 llama-index-agent-openai  0.2.5                    pypi_0    pypi
 llama-index-cli           0.1.12                   pypi_0    pypi
@@ -153,12 +161,13 @@ llama-index-readers-llama-parse 0.1.4                    pypi_0    pypi
 llama-parse               0.4.3                    pypi_0    pypi
 llamaindex-py-client      0.1.19                   pypi_0    pypi
 lxml                      5.2.2                    pypi_0    pypi
+marisa-trie               1.1.1                    pypi_0    pypi
 markdown                  3.6                      pypi_0    pypi
 markdown-it-py            3.0.0                    pypi_0    pypi
 markdown2                 2.4.13                   pypi_0    pypi
 markupsafe                2.1.5                    pypi_0    pypi
 marshmallow               3.21.2                   pypi_0    pypi
-matplotlib                3.8.4                    pypi_0    pypi
+matplotlib                3.9.0                    pypi_0    pypi
 matplotlib-inline         0.1.7                    pypi_0    pypi
 mccabe                    0.7.0                    pypi_0    pypi
 mdurl                     0.1.2                    pypi_0    pypi
@@ -166,6 +175,7 @@ mistune                   3.0.2                    pypi_0    pypi
 mkl                       2021.4.0                 pypi_0    pypi
 mpmath                    1.3.0                    pypi_0    pypi
 multidict                 6.0.5                    pypi_0    pypi
+murmurhash                1.0.10                   pypi_0    pypi
 mypy-extensions           1.0.0                    pypi_0    pypi
 nbclient                  0.10.0                   pypi_0    pypi
 nbconvert                 7.16.4                   pypi_0    pypi
@@ -193,8 +203,10 @@ parso                     0.8.4                    pypi_0    pypi
 persist-queue             0.8.1                    pypi_0    pypi
 pillow                    10.3.0                   pypi_0    pypi
 pip                       24.0                     pypi_0    pypi
-platformdirs              4.2.1                    pypi_0    pypi
+platformdirs              4.2.2                    pypi_0    pypi
 pluggy                    1.5.0                    pypi_0    pypi
+ply                       3.11                     pypi_0    pypi
+preshed                   3.0.9                    pypi_0    pypi
 prometheus-client         0.20.0                   pypi_0    pypi
 prompt-toolkit            3.0.43                   pypi_0    pypi
 proto-plus                1.23.0                   pypi_0    pypi
@@ -233,7 +245,7 @@ pyzmq                     26.0.3                   pypi_0    pypi
 qrcode                    7.4.2                    pypi_0    pypi
 qudida                    0.0.4                    pypi_0    pypi
 referencing               0.35.1                   pypi_0    pypi
-regex                     2024.5.10                pypi_0    pypi
+regex                     2024.5.15                pypi_0    pypi
 replicate                 0.26.0                   pypi_0    pypi
 requests                  2.31.0                   pypi_0    pypi
 requests-oauthlib         2.0.0                    pypi_0    pypi
@@ -249,19 +261,24 @@ scikit-learn              1.4.2                    pypi_0    pypi
 scipy                     1.13.0                   pypi_0    pypi
 segment-anything          1.0                      pypi_0    pypi
 send2trash                1.8.3                    pypi_0    pypi
-sentry-sdk                2.1.1                    pypi_0    pypi
+sentry-sdk                2.2.0                    pypi_0    pypi
 setproctitle              1.3.3                    pypi_0    pypi
 setuptools                69.5.1                   pypi_0    pypi
 shapely                   2.0.4                    pypi_0    pypi
 shellingham               1.5.4                    pypi_0    pypi
 simple-websocket          1.0.0                    pypi_0    pypi
 six                       1.16.0                   pypi_0    pypi
+smart-open                6.4.0                    pypi_0    pypi
 smmap                     5.0.1                    pypi_0    pypi
 snakeviz                  2.2.0                    pypi_0    pypi
 sniffio                   1.3.1                    pypi_0    pypi
 soupsieve                 2.5                      pypi_0    pypi
+spacy                     3.7.4                    pypi_0    pypi
+spacy-legacy              3.0.12                   pypi_0    pypi
+spacy-loggers             1.0.5                    pypi_0    pypi
 sqlalchemy                2.0.30                   pypi_0    pypi
 sqlite                    3.45.3               h2bbff1b_0  
+srsly                     2.4.8                    pypi_0    pypi
 stack-data                0.6.3                    pypi_0    pypi
 starlette                 0.36.3                   pypi_0    pypi
 streamlit                 1.34.0                   pypi_0    pypi
@@ -271,6 +288,7 @@ tabulate                  0.9.0                    pypi_0    pypi
 tbb                       2021.12.0                pypi_0    pypi
 tenacity                  8.3.0                    pypi_0    pypi
 terminado                 0.18.1                   pypi_0    pypi
+thinc                     8.2.3                    pypi_0    pypi
 threadpoolctl             3.5.0                    pypi_0    pypi
 tifffile                  2024.5.10                pypi_0    pypi
 tiktoken                  0.7.0                    pypi_0    pypi
@@ -301,9 +319,11 @@ vbuild                    0.8.2                    pypi_0    pypi
 vc                        14.2                 h21ff451_1  
 vs2015_runtime            14.27.29016          h5e58377_2  
 wandb                     0.17.0                   pypi_0    pypi
+wasabi                    1.1.2                    pypi_0    pypi
 watchdog                  4.0.0                    pypi_0    pypi
 watchfiles                0.21.0                   pypi_0    pypi
 wcwidth                   0.2.13                   pypi_0    pypi
+weasel                    0.3.4                    pypi_0    pypi
 webcolors                 1.13                     pypi_0    pypi
 webencodings              0.5.1                    pypi_0    pypi
 websocket-client          1.8.0                    pypi_0    pypi
@@ -316,5 +336,5 @@ xlsxwriter                3.2.0                    pypi_0    pypi
 xz                        5.4.6                h8cc25b3_1  
 yarl                      1.9.4                    pypi_0    pypi
 yoctopuce                 2.0.60664                pypi_0    pypi
-zipp                      3.18.1                   pypi_0    pypi
+zipp                      3.18.2                   pypi_0    pypi
 zlib                      1.2.13               h8cc25b3_1
