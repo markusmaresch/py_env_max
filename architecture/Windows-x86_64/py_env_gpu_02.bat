@@ -1,12 +1,13 @@
-rem 2024-05-16T22:18:36.204470+00:00
+rem 2024-06-14T21:44:13.660389+00:00
 rem Level 2
 pip install "aiosignal>=1.3.1"
 pip install "anyio>=4.3.0"
-pip install "arena-api>=2.3.3"
+pip install "arena-api>=2.5.9"
 pip install "asttokens>=2.4.1"
 pip check
 pip install "beautifulsoup4>=4.12.3"
 pip install "bleach>=6.1.0"
+pip install "blis>=0.7.11"
 pip check
 pip install "cffi>=1.16.0"
 pip install "click>=8.1.7"
@@ -35,11 +36,13 @@ pip install "jedi>=0.19.1"
 pip install "jinja2>=3.1.4"
 pip install "json-numpy>=2.0.0"
 pip install "jsonpatch>=1.33"
+pip install "jsonpath-ng>=1.6.1"
 pip install "jupyter-core>=5.7.2"
 pip check
 pip install "kfp-pipeline-spec>=0.3.0"
 pip install "lazy-loader>=0.4"
 pip check
+pip install "marisa-trie>=1.1.1"
 pip install "markdown-it-py>=3.0.0"
 pip install "marshmallow>=3.21.2"
 pip install "matplotlib-inline>=0.1.7"
@@ -49,6 +52,7 @@ pip install "opencv-contrib-python>=4.9.0.80"
 pip install "opencv-python>=4.9.0.80"
 pip install "opencv-python-headless>=4.9.0.80"
 pip check
+pip install "preshed>=3.0.9"
 pip install "prompt-toolkit>=3.0.43"
 pip install "proto-plus>=1.23.0"
 pip install "pyarrow>=16.1.0"
@@ -66,8 +70,10 @@ pip check
 pip install "scipy>=1.13.0"
 pip install "sentry-sdk>=2.2.0"
 pip install "shapely>=2.0.4"
+pip install "smart-open>=7.0.4"
 pip install "snakeviz>=2.2.0"
 pip install "sqlalchemy>=2.0.30"
+pip install "srsly>=2.4.8"
 pip install "sympy>=1.12"
 pip check
 pip install "terminado>=0.18.1"
@@ -79,6 +85,7 @@ pip install "typing-inspect>=0.9.0"
 pip install "tzlocal>=5.2"
 pip check
 pip install "vbuild>=0.8.2"
+pip install "wasabi>=1.1.2"
 pip install "werkzeug>=3.0.3"
 pip install "wsproto>=1.2.0"
 pip check

@@ -1,4 +1,4 @@
-rem 2024-05-16T22:18:36.204470+00:00
+rem 2024-06-14T21:44:13.660389+00:00
 rem Level 3
 pip install "aiohttp>=3.9.5"
 pip install "argon2-cffi-bindings>=21.2.0"
@@ -23,6 +23,7 @@ pip install "jupyter-client>=8.6.1"
 pip install "jupyter-server-terminals>=0.5.3"
 pip check
 pip install "kfp-server-api>=2.0.5"
+pip install "language-data>=1.2.0"
 pip install "llama-cpp-python>=0.2.75"
 pip check
 pip install "matplotlib>=3.9.0"

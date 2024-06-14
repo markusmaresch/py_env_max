@@ -1,4 +1,4 @@
-rem 2024-05-16T22:18:36.204470+00:00
+rem 2024-06-14T21:44:13.660389+00:00
 rem Level 5
 pip install "altair>=5.3.0"
 pip check
@@ -16,5 +16,8 @@ pip install "llama-index-legacy>=0.9.48"
 pip check
 pip install "nbformat>=5.10.4"
 pip install "python-socketio>=5.11.2"
+pip check
+pip install "thinc>=8.2.3"
+pip install "weasel>=0.4.1"
 pip check
 rem Level 5

@@ -8,10 +8,13 @@ babel
 bidict
 blinker
 cachetools
+catalogue
 certifi
 charset-normalizer
+cloudpathlib
 colorama
 cycler
+cymem
 debugpy
 decorator
 defusedxml
@@ -56,6 +59,7 @@ mdurl
 mistune
 mpmath
 multidict
+murmurhash
 mypy-extensions
 nest-asyncio
 networkx
@@ -71,6 +75,7 @@ pillow
 pip
 platformdirs
 pluggy
+ply
 prometheus-client
 protobuf
 pscript
@@ -106,6 +111,8 @@ six
 smmap
 sniffio
 soupsieve
+spacy-legacy
+spacy-loggers
 striprtf
 tabulate
 tbb
@@ -140,6 +147,7 @@ arena-api
 asttokens
 beautifulsoup4
 bleach
+blis
 cffi
 click
 comm
@@ -161,9 +169,11 @@ jedi
 jinja2
 json-numpy
 jsonpatch
+jsonpath-ng
 jupyter-core
 kfp-pipeline-spec
 lazy-loader
+marisa-trie
 markdown-it-py
 marshmallow
 matplotlib-inline
@@ -171,6 +181,7 @@ mkl
 opencv-contrib-python
 opencv-python
 opencv-python-headless
+preshed
 prompt-toolkit
 proto-plus
 pyarrow
@@ -186,8 +197,10 @@ rsa
 scipy
 sentry-sdk
 shapely
+smart-open
 snakeviz
 sqlalchemy
+srsly
 sympy
 terminado
 tifffile
@@ -197,6 +210,7 @@ tqdm
 typing-inspect
 tzlocal
 vbuild
+wasabi
 werkzeug
 wsproto
 yarl
@@ -217,6 +231,7 @@ jsonschema-specifications
 jupyter-client
 jupyter-server-terminals
 kfp-server-api
+language-data
 llama-cpp-python
 matplotlib
 nltk
@@ -238,6 +253,7 @@ watchfiles
 albumentations
 argon2-cffi
 braincube-connector
+confection
 fastapi
 google-api-core
 google-auth-oauthlib
@@ -245,6 +261,7 @@ ipython
 isoduration
 jsonschema
 kubernetes
+langcodes
 langsmith
 llamaindex-py-client
 ollama
@@ -269,6 +286,8 @@ llama-index-core
 llama-index-legacy
 nbformat
 python-socketio
+thinc
+weasel
 google-cloud-bigquery
 google-cloud-storage
 langchain-community
@@ -282,6 +301,7 @@ llama-index-readers-file
 llama-parse
 nbclient
 nicegui
+spacy
 streamlit
 google-cloud-aiplatform
 kfp

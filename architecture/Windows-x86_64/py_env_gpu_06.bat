@@ -1,4 +1,4 @@
-rem 2024-05-16T22:18:36.204470+00:00
+rem 2024-06-14T21:44:13.660389+00:00
 rem Level 6
 pip install "google-cloud-bigquery>=3.22.0"
 pip install "google-cloud-storage>=2.16.0"
@@ -16,6 +16,7 @@ pip check
 pip install "nbclient>=0.10.0"
 pip install "nicegui>=1.4.25"
 pip check
+pip install "spacy>=3.7.5"
 pip install "streamlit>=1.34.0"
 pip check
 rem Level 6
