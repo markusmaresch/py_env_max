@@ -1,4 +1,4 @@
-rem 2024-06-14T21:44:13.660389+00:00
+rem 2024-06-14T22:18:02.864764+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -142,12 +142,13 @@ pip install "tbb>=2021.12.0"
 pip install "tenacity>=8.3.0"
 pip install "threadpoolctl>=3.5.0"
 pip install "toml>=0.10.2"
+pip install "tomli>=2.0.1"
 pip install "toolz>=0.12.1"
 pip install "tornado>=6.4.1"
 pip install "traitlets>=5.14.3"
 pip install "travertino>=0.3.0"
-pip install "types-python-dateutil>=2.9.0.20240316"
 pip check
+pip install "types-python-dateutil>=2.9.0.20240316"
 pip install "typing-extensions>=4.12.2"
 pip install "tzdata>=2024.1"
 pip check

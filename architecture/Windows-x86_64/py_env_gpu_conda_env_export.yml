@@ -19,10 +19,11 @@ dependencies:
       - aiohttp==3.9.5
       - aioitertools==0.11.0
       - aiosignal==1.3.1
-      - albumentations==1.4.7
+      - albucore==0.0.9
+      - albumentations==1.4.8
       - altair==5.3.0
       - annotated-types==0.7.0
-      - anyio==4.3.0
+      - anyio==4.4.0
       - appdirs==1.4.4
       - arena-api==2.5.9
       - argon2-cffi==23.1.0
@@ -37,7 +38,7 @@ dependencies:
       - bleach==6.1.0
       - blinker==1.8.2
       - blis==0.7.11
-      - botocore==1.34.107
+      - botocore==1.34.127
       - braincube-connector==2.6.0
       - cachetools==5.3.3
       - catalogue==2.0.10
@@ -49,11 +50,11 @@ dependencies:
       - clr-loader==0.2.6
       - colorama==0.4.6
       - comm==0.2.2
-      - confection==0.1.4
+      - confection==0.1.5
       - contourpy==1.2.1
       - cycler==0.12.1
       - cymem==2.0.8
-      - dataclasses-json==0.6.6
+      - dataclasses-json==0.6.7
       - debugpy==1.8.1
       - decorator==5.1.1
       - defusedxml==0.7.1
@@ -76,14 +77,14 @@ dependencies:
       - flake8==7.0.0
       - flask==3.0.3
       - fonttools==4.53.0
-      - fpdf2==2.7.8
+      - fpdf2==2.7.9
       - fqdn==1.5.1
       - frozenlist==1.4.1
       - fsspec==2024.6.0
       - gitdb==4.0.11
       - gitpython==3.1.43
       - google-api-core==2.19.0
-      - google-auth==2.29.0
+      - google-auth==2.30.0
       - google-auth-oauthlib==1.2.0
       - google-cloud-aiplatform==1.51.0
       - google-cloud-bigquery==3.22.0
@@ -93,8 +94,8 @@ dependencies:
       - google-cloud-storage==2.16.0
       - google-cloud-vision==3.7.2
       - google-crc32c==1.5.0
-      - google-resumable-media==2.7.0
-      - googleapis-common-protos==1.63.0
+      - google-resumable-media==2.7.1
+      - googleapis-common-protos==1.63.1
       - greenlet==3.0.3
       - grpc-google-iam-v1==0.13.0
       - grpcio==1.64.1
@@ -104,7 +105,7 @@ dependencies:
       - httpcore==1.0.5
       - httptools==0.6.1
       - httpx==0.27.0
-      - huggingface-hub==0.23.0
+      - huggingface-hub==0.23.4
       - idna==3.7
       - ifaddr==0.2.0
       - imageio==2.34.1
@@ -112,7 +113,7 @@ dependencies:
       - iniconfig==2.0.0
       - intel-openmp==2021.4.0
       - ipykernel==6.29.4
-      - ipython==8.24.0
+      - ipython==8.25.0
       - ipython-genutils==0.2.0
       - isoduration==20.11.0
       - itsdangerous==2.2.0
@@ -127,7 +128,7 @@ dependencies:
       - jsonpointer==3.0.0
       - jsonschema==4.22.0
       - jsonschema-specifications==2023.12.1
-      - jupyter-client==8.6.1
+      - jupyter-client==8.6.2
       - jupyter-contrib-core==0.4.2
       - jupyter-contrib-nbextensions==0.7.0
       - jupyter-core==5.7.2
@@ -151,10 +152,10 @@ dependencies:
       - langchain-openai==0.1.6
       - langchain-text-splitters==0.0.1
       - langcodes==3.4.0
-      - langsmith==0.1.59
+      - langsmith==0.1.77
       - language-data==1.2.0
       - lazy-loader==0.4
-      - llama-cpp-python==0.2.75
+      - llama-cpp-python==0.2.78
       - llama-index==0.10.37
       - llama-index-agent-openai==0.2.5
       - llama-index-cli==0.1.12
@@ -172,12 +173,12 @@ dependencies:
       - llama-parse==0.4.3
       - llamaindex-py-client==0.1.19
       - lxml==5.2.2
-      - marisa-trie==1.1.1
+      - marisa-trie==1.2.0
       - markdown==3.6
       - markdown-it-py==3.0.0
       - markdown2==2.4.13
       - markupsafe==2.1.5
-      - marshmallow==3.21.2
+      - marshmallow==3.21.3
       - matplotlib==3.9.0
       - matplotlib-inline==0.1.7
       - mccabe==0.7.0
@@ -199,11 +200,11 @@ dependencies:
       - notebook-shim==0.2.4
       - numpy==1.26.4
       - oauthlib==3.2.2
-      - ollama==0.2.0
-      - openai==1.30.1
-      - opencv-contrib-python==4.9.0.80
-      - opencv-python==4.9.0.80
-      - opencv-python-headless==4.9.0.80
+      - ollama==0.2.1
+      - openai==1.34.0
+      - opencv-contrib-python==4.10.0.82
+      - opencv-python==4.10.0.82
+      - opencv-python-headless==4.10.0.82
       - orjson==3.10.5
       - overrides==7.7.0
       - packaging==23.2
@@ -218,7 +219,7 @@ dependencies:
       - ply==3.11
       - preshed==3.0.9
       - prometheus-client==0.20.0
-      - prompt-toolkit==3.0.43
+      - prompt-toolkit==3.0.47
       - proto-plus==1.23.0
       - protobuf==4.25.3
       - pscript==0.7.7
@@ -229,18 +230,18 @@ dependencies:
       - pyasn1-modules==0.4.0
       - pycodestyle==2.11.1
       - pycparser==2.22
-      - pydantic==2.7.1
-      - pydantic-core==2.18.2
+      - pydantic==2.7.4
+      - pydantic-core==2.18.4
       - pydeck==0.9.1
       - pyflakes==3.2.0
       - pygments==2.18.0
       - pyparsing==3.1.2
       - pypdf==4.2.0
       - pypng==0.20220715.0
-      - pytest==8.2.0
+      - pytest==8.2.2
       - python-dateutil==2.9.0.post0
       - python-dotenv==1.0.1
-      - python-engineio==4.9.0
+      - python-engineio==4.9.1
       - python-json-logger==2.0.7
       - python-multipart==0.0.9
       - python-socketio==5.11.2
@@ -256,7 +257,7 @@ dependencies:
       - referencing==0.35.1
       - regex==2024.5.15
       - replicate==0.26.0
-      - requests==2.31.0
+      - requests==2.32.3
       - requests-oauthlib==2.0.0
       - requests-toolbelt==0.10.1
       - rfc3339-validator==0.1.4
@@ -266,11 +267,11 @@ dependencies:
       - rsa==4.9
       - ruff==0.4.9
       - scikit-image==0.23.2
-      - scikit-learn==1.4.2
-      - scipy==1.13.0
+      - scikit-learn==1.5.0
+      - scipy==1.13.1
       - segment-anything==1.0
       - send2trash==1.8.3
-      - sentry-sdk==2.2.0
+      - sentry-sdk==2.5.1
       - setproctitle==1.3.3
       - setuptools==70.0.0
       - shapely==2.0.4
@@ -291,18 +292,19 @@ dependencies:
       - starlette==0.36.3
       - streamlit==1.34.0
       - striprtf==0.0.26
-      - sympy==1.12
+      - sympy==1.12.1
       - tabulate==0.9.0
       - tbb==2021.12.0
       - tenacity==8.3.0
       - terminado==0.18.1
       - thinc==8.2.3
       - threadpoolctl==3.5.0
-      - tifffile==2024.5.10
+      - tifffile==2024.5.22
       - tiktoken==0.7.0
       - tinycss2==1.3.0
-      - toga-core==0.4.4
+      - toga-core==0.4.5
       - toml==0.10.2
+      - tomli==2.0.1
       - toolz==0.12.1
       - torch==2.3.0+cu121
       - torchaudio==2.3.0+cu121
@@ -320,13 +322,13 @@ dependencies:
       - ujson==5.10.0
       - uri-template==1.3.0
       - urllib3==1.26.18
-      - uvicorn==0.29.0
+      - uvicorn==0.30.1
       - validators==0.28.3
       - vbuild==0.8.2
       - wandb==0.17.0
-      - wasabi==1.1.2
+      - wasabi==1.1.3
       - watchdog==4.0.1
-      - watchfiles==0.21.0
+      - watchfiles==0.22.0
       - wcwidth==0.2.13
       - weasel==0.4.1
       - webcolors==24.6.0

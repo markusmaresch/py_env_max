@@ -1,4 +1,4 @@
-rem 2024-06-14T21:44:13.660389+00:00
+rem 2024-06-14T22:18:02.864764+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -142,12 +142,13 @@ pip install "tbb>=2021.12.0"
 pip install "tenacity>=8.3.0"
 pip install "threadpoolctl>=3.5.0"
 pip install "toml>=0.10.2"
+pip install "tomli>=2.0.1"
 pip install "toolz>=0.12.1"
 pip install "tornado>=6.4.1"
 pip install "traitlets>=5.14.3"
 pip install "travertino>=0.3.0"
-pip install "types-python-dateutil>=2.9.0.20240316"
 pip check
+pip install "types-python-dateutil>=2.9.0.20240316"
 pip install "typing-extensions>=4.12.2"
 pip install "tzdata>=2024.1"
 pip check
@@ -173,7 +174,7 @@ pip check
 rem Level 1
 rem Level 2
 pip install "aiosignal>=1.3.1"
-pip install "anyio>=4.3.0"
+pip install "anyio>=4.4.0"
 pip install "arena-api>=2.5.9"
 pip install "asttokens>=2.4.1"
 pip check
@@ -192,11 +193,11 @@ pip install "docker-pycreds>=0.4.0"
 pip check
 pip install "email-validator>=2.1.1"
 pip install "flake8>=7.0.0"
-pip install "fpdf2>=2.7.8"
+pip install "fpdf2>=2.7.9"
 pip check
 pip install "gitdb>=4.0.11"
-pip install "google-resumable-media>=2.7.0"
-pip install "googleapis-common-protos>=1.63.0"
+pip install "google-resumable-media>=2.7.1"
+pip install "googleapis-common-protos>=1.63.1"
 pip check
 pip install "h5py>=3.11.0"
 pip install "httpcore>=1.0.5"
@@ -214,50 +215,50 @@ pip check
 pip install "kfp-pipeline-spec>=0.3.0"
 pip install "lazy-loader>=0.4"
 pip check
-pip install "marisa-trie>=1.1.1"
+pip install "marisa-trie>=1.2.0"
 pip install "markdown-it-py>=3.0.0"
-pip install "marshmallow>=3.21.2"
+pip install "marshmallow>=3.21.3"
 pip install "matplotlib-inline>=0.1.7"
 pip install "mkl>=2021.4.0"
 pip check
-pip install "opencv-contrib-python>=4.9.0.80"
-pip install "opencv-python>=4.9.0.80"
-pip install "opencv-python-headless>=4.9.0.80"
+pip install "opencv-contrib-python>=4.10.0.82"
+pip install "opencv-python>=4.10.0.82"
+pip install "opencv-python-headless>=4.10.0.82"
 pip check
 pip install "preshed>=3.0.9"
-pip install "prompt-toolkit>=3.0.43"
+pip install "prompt-toolkit>=3.0.47"
 pip install "proto-plus>=1.23.0"
 pip install "pyarrow>=16.1.0"
 pip install "pyasn1-modules>=0.4.0"
-pip install "pydantic-core>=2.18.2"
-pip install "pytest>=8.2.0"
+pip install "pydantic-core>=2.18.4"
+pip install "pytest>=8.2.2"
 pip install "python-dateutil>=2.9.0.post0"
 pip check
 pip install "qrcode>=7.4.2"
 pip install "referencing>=0.35.1"
-pip install "requests>=2.31.0"
+pip install "requests>=2.32.3"
 pip install "rfc3339-validator>=0.1.4"
 pip install "rsa>=4.9"
 pip check
-pip install "scipy>=1.13.0"
-pip install "sentry-sdk>=2.2.0"
+pip install "scipy>=1.13.1"
+pip install "sentry-sdk>=2.5.1"
 pip install "shapely>=2.0.4"
 pip install "smart-open>=7.0.4"
 pip install "snakeviz>=2.2.0"
 pip install "sqlalchemy>=2.0.30"
 pip install "srsly>=2.4.8"
-pip install "sympy>=1.12"
+pip install "sympy>=1.12.1"
 pip check
 pip install "terminado>=0.18.1"
-pip install "tifffile>=2024.5.10"
+pip install "tifffile>=2024.5.22"
 pip install "tinycss2>=1.3.0"
-pip install "toga-core>=0.4.4"
+pip install "toga-core>=0.4.5"
 pip install "tqdm>=4.66.4"
 pip install "typing-inspect>=0.9.0"
 pip install "tzlocal>=5.2"
 pip check
 pip install "vbuild>=0.8.2"
-pip install "wasabi>=1.1.2"
+pip install "wasabi>=1.1.3"
 pip install "werkzeug>=3.0.3"
 pip install "wsproto>=1.2.0"
 pip check
@@ -266,36 +267,37 @@ pip check
 rem Level 2
 rem Level 3
 pip install "aiohttp>=3.9.5"
+pip install "albucore>=0.0.9"
 pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
 pip check
-pip install "botocore>=1.34.107"
+pip install "botocore>=1.34.127"
 pip install "clr-loader>=0.2.6"
 pip check
-pip install "dataclasses-json>=0.6.6"
+pip install "dataclasses-json>=0.6.7"
 pip install "flask>=3.0.3"
 pip check
 pip install "gitpython>=3.1.43"
-pip install "google-auth>=2.29.0"
+pip install "google-auth>=2.30.0"
 pip install "grpc-google-iam-v1>=0.13.0"
 pip install "grpcio-status>=1.62.2"
 pip check
 pip install "httpx>=0.27.0"
-pip install "huggingface-hub>=0.23.0"
+pip install "huggingface-hub>=0.23.4"
 pip check
 pip install "jsonschema-specifications>=2023.12.1"
-pip install "jupyter-client>=8.6.1"
+pip install "jupyter-client>=8.6.2"
 pip install "jupyter-server-terminals>=0.5.3"
 pip check
 pip install "kfp-server-api>=2.0.5"
 pip install "language-data>=1.2.0"
-pip install "llama-cpp-python>=0.2.75"
+pip install "llama-cpp-python>=0.2.78"
 pip check
 pip install "matplotlib>=3.9.0"
 pip install "nltk>=3.8.1"
 pip check
 pip install "pandas>=2.2.2"
-pip install "pydantic>=2.7.1"
+pip install "pydantic>=2.7.4"
 pip install "pydeck>=0.9.1"
 pip check
 pip install "requests-oauthlib>=2.0.0"
@@ -303,7 +305,7 @@ pip install "requests-toolbelt>=0.10.1"
 pip install "rich>=13.7.1"
 pip check
 pip install "scikit-image>=0.23.2"
-pip install "scikit-learn>=1.4.2"
+pip install "scikit-learn>=1.5.0"
 pip install "simple-websocket>=1.0.0"
 pip install "stack-data>=0.6.3"
 pip install "starlette>=0.36.3"
@@ -311,35 +313,35 @@ pip check
 pip install "tiktoken>=0.7.0"
 pip install "torch>=2.3.0+cu121"
 pip check
-pip install "uvicorn>=0.29.0"
-pip install "watchfiles>=0.21.0"
+pip install "uvicorn>=0.30.1"
+pip install "watchfiles>=0.22.0"
 pip check
 rem Level 3
 rem Level 4
-pip install "albumentations>=1.4.7"
+pip install "albumentations>=1.4.8"
 pip install "argon2-cffi>=23.1.0"
 pip check
 pip install "braincube-connector>=2.6.0"
-pip install "confection>=0.1.4"
+pip install "confection>=0.1.5"
 pip check
 pip install "fastapi>=0.109.2"
 pip install "google-api-core>=2.19.0"
 pip install "google-auth-oauthlib>=1.2.0"
 pip check
-pip install "ipython>=8.24.0"
+pip install "ipython>=8.25.0"
 pip install "isoduration>=20.11.0"
 pip check
 pip install "jsonschema>=4.22.0"
 pip install "kubernetes>=26.1.0"
 pip check
 pip install "langcodes>=3.4.0"
-pip install "langsmith>=0.1.59"
+pip install "langsmith>=0.1.77"
 pip install "llamaindex-py-client>=0.1.19"
 pip check
-pip install "ollama>=0.2.0"
-pip install "openai>=1.30.1"
+pip install "ollama>=0.2.1"
+pip install "openai>=1.34.0"
 pip check
-pip install "python-engineio>=4.9.0"
+pip install "python-engineio>=4.9.1"
 pip install "pythonnet>=3.0.3"
 pip check
 pip install "qudida>=0.0.4"
