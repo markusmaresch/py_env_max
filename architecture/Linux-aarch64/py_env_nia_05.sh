@@ -1,5 +1,11 @@
-# 2023-10-11T13:56:33.009973+00:00
+# 2024-06-26T22:15:43.748393+00:00
 # Level 5
-pip install "google-cloud-core>=2.3.3" "ipykernel>=6.25.2" "jupyter-events>=0.7.0" "nbformat>=5.9.2" "s3fs>=2023.9.2"
+pip install "google-cloud-core>=2.4.1"
+pip check
+pip install "ipykernel>=6.29.4"
+pip install "jupyter-events>=0.10.0"
+pip check
+pip install "nbformat>=5.10.4"
+pip install "s3fs>=2024.6.0"
 pip check
 # Level 5

@@ -1,5 +1,5 @@
-# 2023-10-11T13:56:33.009973+00:00
+# 2024-06-26T22:15:43.748393+00:00
 # Level 8
-pip install "jupyter-server>=2.7.3"
+pip install "jupyter-server>=2.14.1"
 pip check
 # Level 8
