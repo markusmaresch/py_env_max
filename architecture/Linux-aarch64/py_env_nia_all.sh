@@ -1,4 +1,4 @@
-# 2024-06-26T22:15:43.748393+00:00
+# 2024-06-27T10:25:24.821543+00:00
 # Level 1
 pip install "aioitertools>=0.11.0"
 pip install "arena-api>=2.3.3"
@@ -113,6 +113,8 @@ pip install "wheel>=0.43.0"
 pip install "wrapt>=1.16.0"
 pip check
 pip install "xlsxwriter>=3.2.0"
+pip install "yoctopuce>=2.0.61305"
+pip check
 pip install "zipp>=3.19.2"
 pip check
 # Level 1

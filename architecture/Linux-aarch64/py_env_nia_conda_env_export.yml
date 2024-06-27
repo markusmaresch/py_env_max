@@ -194,5 +194,6 @@ dependencies:
       - xlsxwriter==3.2.0
       - yarg==0.1.9
       - yarl==1.9.4
+      - yoctopuce==2.0.61305
       - zipp==3.19.2
 prefix: /home/nia/Miniconda3/envs/py_env_nia

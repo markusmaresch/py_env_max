@@ -1,4 +1,4 @@
-# 2024-06-26T22:15:43.748393+00:00
+# 2024-06-27T10:25:24.821543+00:00
 # Level 9
 pip install "jupyter-lsp>=2.2.5"
 pip install "jupyterlab-server>=2.27.2"

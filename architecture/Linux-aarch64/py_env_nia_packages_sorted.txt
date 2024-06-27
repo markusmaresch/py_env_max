@@ -92,6 +92,7 @@ websocket-client
 wheel
 wrapt
 xlsxwriter
+yoctopuce
 zipp
 aiosignal
 anyio

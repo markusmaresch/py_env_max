@@ -1,4 +1,4 @@
-# 2024-06-26T22:15:43.748393+00:00
+# 2024-06-27T10:25:24.821543+00:00
 # Level 6
 pip install "google-cloud-bigquery>=3.25.0"
 pip install "google-cloud-storage>=2.17.0"

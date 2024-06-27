@@ -171,4 +171,5 @@ wrapt
 xlsxwriter
 yarg
 yarl
+yoctopuce
 zipp
