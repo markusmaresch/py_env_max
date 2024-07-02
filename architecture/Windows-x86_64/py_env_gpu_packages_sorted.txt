@@ -129,6 +129,7 @@ typing-extensions
 tzdata
 ujson
 uri-template
+uritemplate
 urllib3
 validators
 watchdog
@@ -164,6 +165,7 @@ google-resumable-media
 googleapis-common-protos
 h5py
 httpcore
+httplib2
 imageio
 importlib-metadata
 jedi
@@ -258,6 +260,7 @@ braincube-connector
 confection
 fastapi
 google-api-core
+google-auth-httplib2
 google-auth-oauthlib
 ipython
 isoduration
@@ -278,6 +281,8 @@ typer
 wandb
 altair
 fastapi-cli
+google-api-python-client
+google-cloud-compute
 google-cloud-core
 google-cloud-resource-manager
 google-cloud-vision

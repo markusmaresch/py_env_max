@@ -1,4 +1,4 @@
-rem 2024-06-14T22:18:02.864764+00:00
+rem 2024-07-01T18:13:28.471442+00:00
 rem Level 4
 pip install "albumentations>=1.4.8"
 pip install "argon2-cffi>=23.1.0"
@@ -8,6 +8,7 @@ pip install "confection>=0.1.5"
 pip check
 pip install "fastapi>=0.109.2"
 pip install "google-api-core>=2.19.0"
+pip install "google-auth-httplib2>=0.2.0"
 pip install "google-auth-oauthlib>=1.2.0"
 pip check
 pip install "ipython>=8.25.0"

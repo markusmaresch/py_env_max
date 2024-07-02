@@ -1,4 +1,4 @@
-rem 2024-06-14T22:18:02.864764+00:00
+rem 2024-07-01T18:13:28.471442+00:00
 rem Level 2
 pip install "aiosignal>=1.3.1"
 pip install "anyio>=4.4.0"
@@ -28,6 +28,7 @@ pip install "googleapis-common-protos>=1.63.1"
 pip check
 pip install "h5py>=3.11.0"
 pip install "httpcore>=1.0.5"
+pip install "httplib2>=0.22.0"
 pip check
 pip install "imageio>=2.34.1"
 pip install "importlib-metadata>=7.1.0"
@@ -49,7 +50,7 @@ pip install "matplotlib-inline>=0.1.7"
 pip install "mkl>=2021.4.0"
 pip check
 pip install "opencv-contrib-python>=4.10.0.82"
-pip install "opencv-python>=4.10.0.82"
+pip install "opencv-python>=4.10.0.84"
 pip install "opencv-python-headless>=4.10.0.82"
 pip check
 pip install "preshed>=3.0.9"

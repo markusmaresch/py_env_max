@@ -1,4 +1,4 @@
-rem 2024-06-14T22:18:02.864764+00:00
+rem 2024-07-01T18:13:28.471442+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -88,7 +88,7 @@ pip install "pandocfilters>=1.5.1"
 pip install "parso>=0.8.4"
 pip install "persist-queue>=0.8.1"
 pip install "pillow>=10.3.0"
-pip install "pip>=24.0"
+pip install "pip>=24.1"
 pip install "platformdirs>=4.2.2"
 pip install "pluggy>=1.5.0"
 pip install "ply>=3.11"
@@ -154,6 +154,7 @@ pip install "tzdata>=2024.1"
 pip check
 pip install "ujson>=5.10.0"
 pip install "uri-template>=1.3.0"
+pip install "uritemplate>=4.1.1"
 pip install "urllib3>=1.26.18"
 pip check
 pip install "validators>=0.28.3"

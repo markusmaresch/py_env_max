@@ -67,10 +67,13 @@ fsspec
 gitdb
 gitpython
 google-api-core
+google-api-python-client
 google-auth
+google-auth-httplib2
 google-auth-oauthlib
 google-cloud-aiplatform
 google-cloud-bigquery
+google-cloud-compute
 google-cloud-core
 google-cloud-pipeline-components
 google-cloud-resource-manager
@@ -86,6 +89,7 @@ grpcio-status
 h11
 h5py
 httpcore
+httplib2
 httptools
 httpx
 huggingface-hub
@@ -304,6 +308,7 @@ tzdata
 tzlocal
 ujson
 uri-template
+uritemplate
 urllib3
 uvicorn
 validators

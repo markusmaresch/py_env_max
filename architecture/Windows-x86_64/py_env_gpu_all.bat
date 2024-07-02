@@ -1,4 +1,4 @@
-rem 2024-06-14T22:18:02.864764+00:00
+rem 2024-07-01T18:13:28.471442+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -88,7 +88,7 @@ pip install "pandocfilters>=1.5.1"
 pip install "parso>=0.8.4"
 pip install "persist-queue>=0.8.1"
 pip install "pillow>=10.3.0"
-pip install "pip>=24.0"
+pip install "pip>=24.1"
 pip install "platformdirs>=4.2.2"
 pip install "pluggy>=1.5.0"
 pip install "ply>=3.11"
@@ -154,6 +154,7 @@ pip install "tzdata>=2024.1"
 pip check
 pip install "ujson>=5.10.0"
 pip install "uri-template>=1.3.0"
+pip install "uritemplate>=4.1.1"
 pip install "urllib3>=1.26.18"
 pip check
 pip install "validators>=0.28.3"
@@ -201,6 +202,7 @@ pip install "googleapis-common-protos>=1.63.1"
 pip check
 pip install "h5py>=3.11.0"
 pip install "httpcore>=1.0.5"
+pip install "httplib2>=0.22.0"
 pip check
 pip install "imageio>=2.34.1"
 pip install "importlib-metadata>=7.1.0"
@@ -222,7 +224,7 @@ pip install "matplotlib-inline>=0.1.7"
 pip install "mkl>=2021.4.0"
 pip check
 pip install "opencv-contrib-python>=4.10.0.82"
-pip install "opencv-python>=4.10.0.82"
+pip install "opencv-python>=4.10.0.84"
 pip install "opencv-python-headless>=4.10.0.82"
 pip check
 pip install "preshed>=3.0.9"
@@ -326,6 +328,7 @@ pip install "confection>=0.1.5"
 pip check
 pip install "fastapi>=0.109.2"
 pip install "google-api-core>=2.19.0"
+pip install "google-auth-httplib2>=0.2.0"
 pip install "google-auth-oauthlib>=1.2.0"
 pip check
 pip install "ipython>=8.25.0"
@@ -358,6 +361,8 @@ rem Level 5
 pip install "altair>=5.3.0"
 pip check
 pip install "fastapi-cli>=0.0.3"
+pip install "google-api-python-client>=2.135.0"
+pip install "google-cloud-compute>=1.19.0"
 pip install "google-cloud-core>=2.4.1"
 pip install "google-cloud-resource-manager>=1.12.3"
 pip install "google-cloud-vision>=3.7.2"
