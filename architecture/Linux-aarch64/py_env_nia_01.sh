@@ -1,4 +1,4 @@
-# 2024-06-27T10:25:24.821543+00:00
+# 2024-07-07T18:02:48.054230+00:00
 # Level 1
 pip install "aioitertools>=0.11.0"
 pip install "arena-api>=2.3.3"
@@ -83,10 +83,12 @@ pip install "pyrsistent>=0.20.0"
 pip install "python-json-logger>=2.0.7"
 pip install "pytz>=2024.1"
 pip install "pyyaml>=6.0.1"
+pip install "pyzbar>=0.1.9"
 pip install "pyzmq>=26.0.3"
 pip check
 pip install "rfc3986-validator>=0.1.1"
 pip install "rpds-py>=0.18.1"
+pip install "ruff>=0.5.1"
 pip check
 pip install "send2trash>=1.8.3"
 pip install "setuptools>=70.1.1"

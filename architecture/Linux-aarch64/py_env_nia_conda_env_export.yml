@@ -154,6 +154,7 @@ dependencies:
       - pytz==2024.1
       - pywavelets==1.6.0
       - pyyaml==6.0.1
+      - pyzbar==0.1.9
       - pyzmq==26.0.3
       - qrcode==7.4.2
       - referencing==0.35.1
@@ -162,6 +163,7 @@ dependencies:
       - rfc3986-validator==0.1.1
       - rpds-py==0.18.1
       - rsa==4.9
+      - ruff==0.5.1
       - s3fs==2024.6.0
       - scikit-image==0.24.0
       - scikit-learn==1.5.0

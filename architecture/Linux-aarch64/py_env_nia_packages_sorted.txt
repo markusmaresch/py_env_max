@@ -68,9 +68,11 @@ pyrsistent
 python-json-logger
 pytz
 pyyaml
+pyzbar
 pyzmq
 rfc3986-validator
 rpds-py
+ruff
 send2trash
 setuptools
 six

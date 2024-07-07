@@ -147,6 +147,7 @@ python-json-logger        2.0.7                    pypi_0    pypi
 pytz                      2024.1                   pypi_0    pypi
 pywavelets                1.6.0                    pypi_0    pypi
 pyyaml                    6.0.1                    pypi_0    pypi
+pyzbar                    0.1.9                    pypi_0    pypi
 pyzmq                     26.0.3                   pypi_0    pypi
 qrcode                    7.4.2                    pypi_0    pypi
 readline                  8.2                  h998d150_0  
@@ -156,6 +157,7 @@ rfc3339-validator         0.1.4                    pypi_0    pypi
 rfc3986-validator         0.1.1                    pypi_0    pypi
 rpds-py                   0.18.1                   pypi_0    pypi
 rsa                       4.9                      pypi_0    pypi
+ruff                      0.5.1                    pypi_0    pypi
 s3fs                      2024.6.0                 pypi_0    pypi
 scikit-image              0.24.0                   pypi_0    pypi
 scikit-learn              1.5.0                    pypi_0    pypi

@@ -131,6 +131,7 @@ python-json-logger
 pytz
 pywavelets
 pyyaml
+pyzbar
 pyzmq
 qrcode
 referencing
@@ -139,6 +140,7 @@ rfc3339-validator
 rfc3986-validator
 rpds-py
 rsa
+ruff
 s3fs
 scikit-image
 scikit-learn
