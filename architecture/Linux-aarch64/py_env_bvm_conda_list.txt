@@ -101,7 +101,7 @@ parso                     0.8.3                    pypi_0    pypi
 pexpect                   4.9.0                    pypi_0    pypi
 pickleshare               0.7.5                    pypi_0    pypi
 pillow                    10.2.0                   pypi_0    pypi
-pip                       24.0                     pypi_0    pypi
+pip                       24.1.2                   pypi_0    pypi
 pipreqs                   0.4.13                   pypi_0    pypi
 platformdirs              4.1.0                    pypi_0    pypi
 plotly                    5.18.0                   pypi_0    pypi
@@ -163,6 +163,6 @@ wrapt                     1.16.0                   pypi_0    pypi
 xlsxwriter                3.1.9                    pypi_0    pypi
 xz                        5.4.5                h998d150_0  
 yarg                      0.1.9                    pypi_0    pypi
-yoctopuce                 2.0.60394                pypi_0    pypi
+yoctopuce                 2.0.61813                pypi_0    pypi
 zipp                      3.17.0                   pypi_0    pypi
 zlib                      1.2.13               h998d150_0
