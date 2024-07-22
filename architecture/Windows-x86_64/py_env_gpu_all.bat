@@ -1,4 +1,4 @@
-rem 2024-07-01T18:13:28.471442+00:00
+rem 2024-07-22T10:08:04.360143+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -19,6 +19,7 @@ pip install "cloudpathlib>=0.18.1"
 pip install "colorama>=0.4.6"
 pip install "cycler>=0.12.1"
 pip install "cymem>=2.0.8"
+pip install "cython>=0.29.37"
 pip check
 pip install "debugpy>=1.8.1"
 pip install "decorator>=5.1.1"
@@ -41,6 +42,7 @@ pip install "frozenlist>=1.4.1"
 pip install "fsspec>=2024.6.0"
 pip check
 pip install "google-crc32c>=1.5.0"
+pip install "graphql-core>=3.2.3"
 pip install "greenlet>=3.0.3"
 pip install "grpcio>=1.64.1"
 pip check
@@ -62,6 +64,7 @@ pip install "jupyter-highlight-selected-word>=0.2.0"
 pip install "jupyterlab-pygments>=0.3.0"
 pip check
 pip install "kiwisolver>=1.4.5"
+pip install "llvmlite>=0.43.0"
 pip install "lxml>=5.2.2"
 pip check
 pip install "markdown>=3.6"
@@ -80,6 +83,7 @@ pip install "networkx>=3.3"
 pip install "numpy>=1.26.4"
 pip check
 pip install "oauthlib>=3.2.2"
+pip install "openinference-semantic-conventions>=0.1.9"
 pip install "orjson>=3.10.5"
 pip install "overrides>=7.7.0"
 pip check
@@ -88,7 +92,7 @@ pip install "pandocfilters>=1.5.1"
 pip install "parso>=0.8.4"
 pip install "persist-queue>=0.8.1"
 pip install "pillow>=10.3.0"
-pip install "pip>=24.1"
+pip install "pip>=24.1.2"
 pip install "platformdirs>=4.2.2"
 pip install "pluggy>=1.5.0"
 pip install "ply>=3.11"
@@ -135,6 +139,7 @@ pip install "soupsieve>=2.5"
 pip install "spacy-legacy>=3.0.12"
 pip check
 pip install "spacy-loggers>=1.0.5"
+pip install "sqlean-py>=3.45.1"
 pip install "striprtf>=0.0.26"
 pip check
 pip install "tabulate>=0.9.0"
@@ -175,6 +180,7 @@ pip check
 rem Level 1
 rem Level 2
 pip install "aiosignal>=1.3.1"
+pip install "aiosqlite>=0.20.0"
 pip install "anyio>=4.4.0"
 pip install "arena-api>=2.5.9"
 pip install "asttokens>=2.4.1"
@@ -217,15 +223,18 @@ pip check
 pip install "kfp-pipeline-spec>=0.3.0"
 pip install "lazy-loader>=0.4"
 pip check
+pip install "mako>=1.3.5"
 pip install "marisa-trie>=1.2.0"
 pip install "markdown-it-py>=3.0.0"
 pip install "marshmallow>=3.21.3"
 pip install "matplotlib-inline>=0.1.7"
 pip install "mkl>=2021.4.0"
 pip check
+pip install "numba>=0.60.0"
 pip install "opencv-contrib-python>=4.10.0.82"
 pip install "opencv-python>=4.10.0.84"
 pip install "opencv-python-headless>=4.10.0.82"
+pip install "opentelemetry-proto>=1.25.0"
 pip check
 pip install "preshed>=3.0.9"
 pip install "prompt-toolkit>=3.0.47"
@@ -270,6 +279,7 @@ rem Level 2
 rem Level 3
 pip install "aiohttp>=3.9.5"
 pip install "albucore>=0.0.9"
+pip install "alembic>=1.13.2"
 pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
 pip check
@@ -298,6 +308,9 @@ pip check
 pip install "matplotlib>=3.9.0"
 pip install "nltk>=3.8.1"
 pip check
+pip install "opentelemetry-api>=1.25.0"
+pip install "opentelemetry-exporter-otlp-proto-common>=1.25.0"
+pip check
 pip install "pandas>=2.2.2"
 pip install "pydantic>=2.7.4"
 pip install "pydeck>=0.9.1"
@@ -311,6 +324,7 @@ pip install "scikit-learn>=1.5.0"
 pip install "simple-websocket>=1.0.0"
 pip install "stack-data>=0.6.3"
 pip install "starlette>=0.36.3"
+pip install "strawberry-graphql>=0.235.0"
 pip check
 pip install "tiktoken>=0.7.0"
 pip install "torch>=2.3.0+cu121"
@@ -322,6 +336,7 @@ rem Level 3
 rem Level 4
 pip install "albumentations>=1.4.8"
 pip install "argon2-cffi>=23.1.0"
+pip install "arize-phoenix-evals>=0.14.1"
 pip check
 pip install "braincube-connector>=2.6.0"
 pip install "confection>=0.1.5"
@@ -331,6 +346,7 @@ pip install "google-api-core>=2.19.0"
 pip install "google-auth-httplib2>=0.2.0"
 pip install "google-auth-oauthlib>=1.2.0"
 pip check
+pip install "hdbscan>=0.8.37"
 pip install "ipython>=8.25.0"
 pip install "isoduration>=20.11.0"
 pip check
@@ -343,6 +359,9 @@ pip install "llamaindex-py-client>=0.1.19"
 pip check
 pip install "ollama>=0.2.1"
 pip install "openai>=1.34.0"
+pip install "openinference-instrumentation>=0.1.8"
+pip install "opentelemetry-instrumentation>=0.46b0"
+pip install "opentelemetry-semantic-conventions>=0.46b0"
 pip check
 pip install "python-engineio>=4.9.1"
 pip install "pythonnet>=3.0.3"
@@ -375,9 +394,14 @@ pip install "llama-index-core>=0.10.36"
 pip install "llama-index-legacy>=0.9.48"
 pip check
 pip install "nbformat>=5.10.4"
-pip install "python-socketio>=5.11.2"
+pip install "openinference-instrumentation-langchain>=0.1.22"
+pip install "openinference-instrumentation-llama-index>=2.1.0"
+pip install "openinference-instrumentation-openai>=0.1.8"
+pip install "opentelemetry-sdk>=1.25.0"
 pip check
+pip install "python-socketio>=5.11.2"
 pip install "thinc>=8.2.3"
+pip check
 pip install "weasel>=0.4.1"
 pip check
 rem Level 5
@@ -398,6 +422,9 @@ pip check
 pip install "nbclient>=0.10.0"
 pip install "nicegui>=1.4.25"
 pip check
+pip install "opentelemetry-exporter-otlp-proto-grpc>=1.25.0"
+pip install "opentelemetry-exporter-otlp-proto-http>=1.25.0"
+pip check
 pip install "spacy>=3.7.5"
 pip install "streamlit>=1.34.0"
 pip check
@@ -413,6 +440,7 @@ pip install "llama-index-multi-modal-llms-openai>=0.1.6"
 pip install "llama-index-readers-llama-parse>=0.1.4"
 pip check
 pip install "nbconvert>=7.16.4"
+pip install "opentelemetry-exporter-otlp>=1.25.0"
 pip check
 rem Level 7
 rem Level 8

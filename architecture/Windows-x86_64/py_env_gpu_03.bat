@@ -1,7 +1,8 @@
-rem 2024-07-01T18:13:28.471442+00:00
+rem 2024-07-22T10:08:04.360143+00:00
 rem Level 3
 pip install "aiohttp>=3.9.5"
 pip install "albucore>=0.0.9"
+pip install "alembic>=1.13.2"
 pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
 pip check
@@ -30,6 +31,9 @@ pip check
 pip install "matplotlib>=3.9.0"
 pip install "nltk>=3.8.1"
 pip check
+pip install "opentelemetry-api>=1.25.0"
+pip install "opentelemetry-exporter-otlp-proto-common>=1.25.0"
+pip check
 pip install "pandas>=2.2.2"
 pip install "pydantic>=2.7.4"
 pip install "pydeck>=0.9.1"
@@ -43,6 +47,7 @@ pip install "scikit-learn>=1.5.0"
 pip install "simple-websocket>=1.0.0"
 pip install "stack-data>=0.6.3"
 pip install "starlette>=0.36.3"
+pip install "strawberry-graphql>=0.235.0"
 pip check
 pip install "tiktoken>=0.7.0"
 pip install "torch>=2.3.0+cu121"

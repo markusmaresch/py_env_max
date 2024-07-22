@@ -15,6 +15,7 @@ cloudpathlib
 colorama
 cycler
 cymem
+cython
 debugpy
 decorator
 defusedxml
@@ -33,6 +34,7 @@ fqdn
 frozenlist
 fsspec
 google-crc32c
+graphql-core
 greenlet
 grpcio
 h11
@@ -50,6 +52,7 @@ jsonpointer
 jupyter-highlight-selected-word
 jupyterlab-pygments
 kiwisolver
+llvmlite
 lxml
 markdown
 markdown2
@@ -65,6 +68,7 @@ nest-asyncio
 networkx
 numpy
 oauthlib
+openinference-semantic-conventions
 orjson
 overrides
 packaging
@@ -113,6 +117,7 @@ sniffio
 soupsieve
 spacy-legacy
 spacy-loggers
+sqlean-py
 striprtf
 tabulate
 tbb
@@ -144,6 +149,7 @@ xlsxwriter
 yoctopuce
 zipp
 aiosignal
+aiosqlite
 anyio
 arena-api
 asttokens
@@ -176,14 +182,17 @@ jsonpath-ng
 jupyter-core
 kfp-pipeline-spec
 lazy-loader
+mako
 marisa-trie
 markdown-it-py
 marshmallow
 matplotlib-inline
 mkl
+numba
 opencv-contrib-python
 opencv-python
 opencv-python-headless
+opentelemetry-proto
 preshed
 prompt-toolkit
 proto-plus
@@ -219,6 +228,7 @@ wsproto
 yarl
 aiohttp
 albucore
+alembic
 argon2-cffi-bindings
 arrow
 botocore
@@ -239,6 +249,8 @@ language-data
 llama-cpp-python
 matplotlib
 nltk
+opentelemetry-api
+opentelemetry-exporter-otlp-proto-common
 pandas
 pydantic
 pydeck
@@ -250,18 +262,21 @@ scikit-learn
 simple-websocket
 stack-data
 starlette
+strawberry-graphql
 tiktoken
 torch
 uvicorn
 watchfiles
 albumentations
 argon2-cffi
+arize-phoenix-evals
 braincube-connector
 confection
 fastapi
 google-api-core
 google-auth-httplib2
 google-auth-oauthlib
+hdbscan
 ipython
 isoduration
 jsonschema
@@ -271,6 +286,9 @@ langsmith
 llamaindex-py-client
 ollama
 openai
+openinference-instrumentation
+opentelemetry-instrumentation
+opentelemetry-semantic-conventions
 python-engineio
 pythonnet
 qudida
@@ -292,6 +310,10 @@ langchain-core
 llama-index-core
 llama-index-legacy
 nbformat
+openinference-instrumentation-langchain
+openinference-instrumentation-llama-index
+openinference-instrumentation-openai
+opentelemetry-sdk
 python-socketio
 thinc
 weasel
@@ -308,6 +330,8 @@ llama-index-readers-file
 llama-parse
 nbclient
 nicegui
+opentelemetry-exporter-otlp-proto-grpc
+opentelemetry-exporter-otlp-proto-http
 spacy
 streamlit
 google-cloud-aiplatform
@@ -318,6 +342,7 @@ llama-index-cli
 llama-index-multi-modal-llms-openai
 llama-index-readers-llama-parse
 nbconvert
+opentelemetry-exporter-otlp
 google-cloud-pipeline-components
 jupyter-server
 llama-index-program-openai

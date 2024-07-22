@@ -1,7 +1,8 @@
-rem 2024-07-01T18:13:28.471442+00:00
+rem 2024-07-22T10:08:04.360143+00:00
 rem Level 4
 pip install "albumentations>=1.4.8"
 pip install "argon2-cffi>=23.1.0"
+pip install "arize-phoenix-evals>=0.14.1"
 pip check
 pip install "braincube-connector>=2.6.0"
 pip install "confection>=0.1.5"
@@ -11,6 +12,7 @@ pip install "google-api-core>=2.19.0"
 pip install "google-auth-httplib2>=0.2.0"
 pip install "google-auth-oauthlib>=1.2.0"
 pip check
+pip install "hdbscan>=0.8.37"
 pip install "ipython>=8.25.0"
 pip install "isoduration>=20.11.0"
 pip check
@@ -23,6 +25,9 @@ pip install "llamaindex-py-client>=0.1.19"
 pip check
 pip install "ollama>=0.2.1"
 pip install "openai>=1.34.0"
+pip install "openinference-instrumentation>=0.1.8"
+pip install "opentelemetry-instrumentation>=0.46b0"
+pip install "opentelemetry-semantic-conventions>=0.46b0"
 pip check
 pip install "python-engineio>=4.9.1"
 pip install "pythonnet>=3.0.3"

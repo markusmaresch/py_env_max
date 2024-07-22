@@ -1,4 +1,4 @@
-rem 2024-07-01T18:13:28.471442+00:00
+rem 2024-07-22T10:08:04.360143+00:00
 rem Level 6
 pip install "google-cloud-bigquery>=3.22.0"
 pip install "google-cloud-storage>=2.16.0"
@@ -15,6 +15,9 @@ pip install "llama-parse>=0.4.3"
 pip check
 pip install "nbclient>=0.10.0"
 pip install "nicegui>=1.4.25"
+pip check
+pip install "opentelemetry-exporter-otlp-proto-grpc>=1.25.0"
+pip install "opentelemetry-exporter-otlp-proto-http>=1.25.0"
 pip check
 pip install "spacy>=3.7.5"
 pip install "streamlit>=1.34.0"

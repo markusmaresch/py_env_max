@@ -1,4 +1,4 @@
-rem 2024-07-01T18:13:28.471442+00:00
+rem 2024-07-22T10:08:04.360143+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -19,6 +19,7 @@ pip install "cloudpathlib>=0.18.1"
 pip install "colorama>=0.4.6"
 pip install "cycler>=0.12.1"
 pip install "cymem>=2.0.8"
+pip install "cython>=0.29.37"
 pip check
 pip install "debugpy>=1.8.1"
 pip install "decorator>=5.1.1"
@@ -41,6 +42,7 @@ pip install "frozenlist>=1.4.1"
 pip install "fsspec>=2024.6.0"
 pip check
 pip install "google-crc32c>=1.5.0"
+pip install "graphql-core>=3.2.3"
 pip install "greenlet>=3.0.3"
 pip install "grpcio>=1.64.1"
 pip check
@@ -62,6 +64,7 @@ pip install "jupyter-highlight-selected-word>=0.2.0"
 pip install "jupyterlab-pygments>=0.3.0"
 pip check
 pip install "kiwisolver>=1.4.5"
+pip install "llvmlite>=0.43.0"
 pip install "lxml>=5.2.2"
 pip check
 pip install "markdown>=3.6"
@@ -80,6 +83,7 @@ pip install "networkx>=3.3"
 pip install "numpy>=1.26.4"
 pip check
 pip install "oauthlib>=3.2.2"
+pip install "openinference-semantic-conventions>=0.1.9"
 pip install "orjson>=3.10.5"
 pip install "overrides>=7.7.0"
 pip check
@@ -88,7 +92,7 @@ pip install "pandocfilters>=1.5.1"
 pip install "parso>=0.8.4"
 pip install "persist-queue>=0.8.1"
 pip install "pillow>=10.3.0"
-pip install "pip>=24.1"
+pip install "pip>=24.1.2"
 pip install "platformdirs>=4.2.2"
 pip install "pluggy>=1.5.0"
 pip install "ply>=3.11"
@@ -135,6 +139,7 @@ pip install "soupsieve>=2.5"
 pip install "spacy-legacy>=3.0.12"
 pip check
 pip install "spacy-loggers>=1.0.5"
+pip install "sqlean-py>=3.45.1"
 pip install "striprtf>=0.0.26"
 pip check
 pip install "tabulate>=0.9.0"
