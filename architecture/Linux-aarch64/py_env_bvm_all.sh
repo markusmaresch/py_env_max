@@ -1,4 +1,4 @@
-# 2024-05-07T15:10:15.815360+00:00
+# 2024-07-09T12:19:40.151654+00:00
 # Level 1
 pip install "ansi2html>=1.9.1"
 pip install "arena-api>=2.3.3"
@@ -59,7 +59,7 @@ pip install "packaging>=23.2"
 pip install "parso>=0.8.3"
 pip install "pickleshare>=0.7.5"
 pip install "pillow>=10.2.0"
-pip install "pip>=24.0"
+pip install "pip>=24.1.2"
 pip install "platformdirs>=4.1.0"
 pip install "pluggy>=1.3.0"
 pip install "polars>=0.20.5"
@@ -101,7 +101,7 @@ pip install "wincertstore>=0.2"
 pip install "wrapt>=1.16.0"
 pip check
 pip install "xlsxwriter>=3.1.9"
-pip install "yoctopuce>=2.0.60394"
+pip install "yoctopuce>=2.0.61813"
 pip check
 pip install "zipp>=3.17.0"
 pip check
