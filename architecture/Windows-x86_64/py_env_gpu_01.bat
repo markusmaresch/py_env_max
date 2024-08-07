@@ -1,4 +1,4 @@
-rem 2024-07-22T10:08:04.360143+00:00
+rem 2024-08-07T12:03:56.240424+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -51,6 +51,7 @@ pip install "httptools>=0.6.1"
 pip check
 pip install "idna>=3.7"
 pip install "ifaddr>=0.2.0"
+pip install "imutils>=0.5.4"
 pip install "iniconfig>=2.0.0"
 pip install "intel-openmp>=2021.4.0"
 pip install "ipython-genutils>=0.2.0"
@@ -92,7 +93,7 @@ pip install "pandocfilters>=1.5.1"
 pip install "parso>=0.8.4"
 pip install "persist-queue>=0.8.1"
 pip install "pillow>=10.3.0"
-pip install "pip>=24.1.2"
+pip install "pip>=24.2"
 pip install "platformdirs>=4.2.2"
 pip install "pluggy>=1.5.0"
 pip install "ply>=3.11"
@@ -111,6 +112,7 @@ pip install "pyparsing>=3.1.2"
 pip check
 pip install "pypdf>=4.2.0"
 pip install "pypng>=0.20220715.0"
+pip install "pyqtree>=1.0.0"
 pip install "python-dotenv>=1.0.1"
 pip install "python-json-logger>=2.0.7"
 pip install "python-multipart>=0.0.9"
@@ -118,8 +120,8 @@ pip install "pytz>=2024.1"
 pip install "pywin32>=306"
 pip install "pywinpty>=2.0.13"
 pip install "pyyaml>=6.0.1"
-pip install "pyzbar>=0.1.9"
 pip check
+pip install "pyzbar>=0.1.9"
 pip install "pyzmq>=26.0.3"
 pip check
 pip install "regex>=2024.5.15"

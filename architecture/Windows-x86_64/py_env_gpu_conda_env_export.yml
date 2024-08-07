@@ -120,6 +120,7 @@ dependencies:
       - ifaddr==0.2.0
       - imageio==2.34.1
       - importlib-metadata==7.1.0
+      - imutils==0.5.4
       - iniconfig==2.0.0
       - intel-openmp==2021.4.0
       - ipykernel==6.29.4
@@ -240,7 +241,7 @@ dependencies:
       - parso==0.8.4
       - persist-queue==0.8.1
       - pillow==10.3.0
-      - pip==24.1.2
+      - pip==24.2
       - platformdirs==4.2.2
       - pluggy==1.5.0
       - ply==3.11
@@ -265,6 +266,7 @@ dependencies:
       - pyparsing==3.1.2
       - pypdf==4.2.0
       - pypng==0.20220715.0
+      - pyqtree==1.0.0
       - pytest==8.2.2
       - python-dateutil==2.9.0.post0
       - python-dotenv==1.0.1

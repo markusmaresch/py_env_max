@@ -108,6 +108,7 @@ idna                      3.7                      pypi_0    pypi
 ifaddr                    0.2.0                    pypi_0    pypi
 imageio                   2.34.1                   pypi_0    pypi
 importlib-metadata        7.1.0                    pypi_0    pypi
+imutils                   0.5.4                    pypi_0    pypi
 iniconfig                 2.0.0                    pypi_0    pypi
 intel-openmp              2021.4.0                 pypi_0    pypi
 ipykernel                 6.29.4                   pypi_0    pypi
@@ -230,7 +231,7 @@ pandocfilters             1.5.1                    pypi_0    pypi
 parso                     0.8.4                    pypi_0    pypi
 persist-queue             0.8.1                    pypi_0    pypi
 pillow                    10.3.0                   pypi_0    pypi
-pip                       24.1.2                   pypi_0    pypi
+pip                       24.2                     pypi_0    pypi
 platformdirs              4.2.2                    pypi_0    pypi
 pluggy                    1.5.0                    pypi_0    pypi
 ply                       3.11                     pypi_0    pypi
@@ -255,6 +256,7 @@ pygments                  2.18.0                   pypi_0    pypi
 pyparsing                 3.1.2                    pypi_0    pypi
 pypdf                     4.2.0                    pypi_0    pypi
 pypng                     0.20220715.0             pypi_0    pypi
+pyqtree                   1.0.0                    pypi_0    pypi
 pytest                    8.2.2                    pypi_0    pypi
 python                    3.11.9               he1021f5_0  
 python-dateutil           2.9.0.post0              pypi_0    pypi

@@ -103,6 +103,7 @@ idna
 ifaddr
 imageio
 importlib-metadata
+imutils
 iniconfig
 intel-openmp
 ipykernel
@@ -248,6 +249,7 @@ pygments
 pyparsing
 pypdf
 pypng
+pyqtree
 pytest
 python-dateutil
 python-dotenv

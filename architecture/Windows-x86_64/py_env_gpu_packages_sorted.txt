@@ -41,6 +41,7 @@ h11
 httptools
 idna
 ifaddr
+imutils
 iniconfig
 intel-openmp
 ipython-genutils
@@ -93,6 +94,7 @@ pygments
 pyparsing
 pypdf
 pypng
+pyqtree
 python-dotenv
 python-json-logger
 python-multipart
