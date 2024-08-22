@@ -1,4 +1,4 @@
-rem 2024-07-01T18:13:28.471442+00:00
+rem 2024-08-07T12:03:56.240424+00:00
 rem Level 5
 pip install "altair>=5.3.0"
 pip check
@@ -17,9 +17,14 @@ pip install "llama-index-core>=0.10.36"
 pip install "llama-index-legacy>=0.9.48"
 pip check
 pip install "nbformat>=5.10.4"
-pip install "python-socketio>=5.11.2"
+pip install "openinference-instrumentation-langchain>=0.1.22"
+pip install "openinference-instrumentation-llama-index>=2.1.0"
+pip install "openinference-instrumentation-openai>=0.1.8"
+pip install "opentelemetry-sdk>=1.25.0"
 pip check
+pip install "python-socketio>=5.11.2"
 pip install "thinc>=8.2.3"
+pip check
 pip install "weasel>=0.4.1"
 pip check
 rem Level 5
