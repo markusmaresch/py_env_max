@@ -1,5 +1,6 @@
-# 2024-08-22T09:58:21.416473+00:00
+# 2024-08-22T11:18:41.235969+00:00
 # Level 2
+pip install "arena-api>=2.5.9"
 pip install "asttokens>=2.4.1"
 pip check
 pip install "beautifulsoup4>=4.12.3"
@@ -16,7 +17,7 @@ pip install "google-resumable-media>=2.7.2"
 pip install "googleapis-common-protos>=1.63.2"
 pip check
 pip install "imageio>=2.35.1"
-pip install "importlib-metadata>=7.0.2"
+pip install "importlib-metadata>=8.0.0"
 pip check
 pip install "jedi>=0.19.1"
 pip install "jinja2>=3.1.4"
@@ -40,7 +41,7 @@ pip install "proto-plus>=1.24.0"
 pip install "pyarrow>=17.0.0"
 pip install "pyasn1-modules>=0.4.0"
 pip install "pytest>=8.3.2"
-pip install "python-dateutil>=2.9.0"
+pip install "python-dateutil>=2.9.0.post0"
 pip check
 pip install "referencing>=0.35.1"
 pip install "requests>=2.32.3"

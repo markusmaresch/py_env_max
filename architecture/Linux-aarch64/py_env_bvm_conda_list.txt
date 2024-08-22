@@ -4,7 +4,7 @@
 _libgcc_mutex             0.1                        main  
 _openmp_mutex             5.1                      51_gnu  
 ansi2html                 1.9.2                    pypi_0    pypi
-arena-api                 2.3.3                    pypi_0    pypi
+arena-api                 2.5.9                    pypi_0    pypi
 asttokens                 2.4.1                    pypi_0    pypi
 attrs                     24.2.0                   pypi_0    pypi
 av                        12.3.0                   pypi_0    pypi
@@ -13,8 +13,8 @@ beautifulsoup4            4.12.3                   pypi_0    pypi
 bleach                    6.1.0                    pypi_0    pypi
 blinker                   1.8.2                    pypi_0    pypi
 braincube-connector       2.6.0                    pypi_0    pypi
-bzip2                     1.0.8                hfd63f10_2  
-ca-certificates           2023.12.12           hd43f75c_0  
+bzip2                     1.0.8                h998d150_6  
+ca-certificates           2024.7.2             hd43f75c_0  
 cachetools                5.5.0                    pypi_0    pypi
 certifi                   2024.7.4                 pypi_0    pypi
 charset-normalizer        3.3.2                    pypi_0    pypi
@@ -41,6 +41,7 @@ email-validator           2.2.0                    pypi_0    pypi
 entrypoints               0.4                      pypi_0    pypi
 exceptiongroup            1.2.2                    pypi_0    pypi
 executing                 2.0.1                    pypi_0    pypi
+expat                     2.6.2                h419075a_0  
 fastjsonschema            2.20.0                   pypi_0    pypi
 flake8                    7.1.1                    pypi_0    pypi
 flask                     3.0.3                    pypi_0    pypi
@@ -57,13 +58,13 @@ grpcio                    1.65.5                   pypi_0    pypi
 grpcio-status             1.65.5                   pypi_0    pypi
 idna                      3.7                      pypi_0    pypi
 imageio                   2.35.1                   pypi_0    pypi
-importlib-metadata        7.0.2                    pypi_0    pypi
+importlib-metadata        8.0.0                    pypi_0    pypi
 importlib-resources       6.4.4                    pypi_0    pypi
 imutils                   0.5.4                    pypi_0    pypi
 iniconfig                 2.0.0                    pypi_0    pypi
 ipykernel                 6.29.5                   pypi_0    pypi
 ipython                   8.12.3                   pypi_0    pypi
-ipywidgets                8.1.3                    pypi_0    pypi
+ipywidgets                8.1.4                    pypi_0    pypi
 itsdangerous              2.2.0                    pypi_0    pypi
 jedi                      0.19.1                   pypi_0    pypi
 jinja2                    3.1.4                    pypi_0    pypi
@@ -73,12 +74,12 @@ jsonschema-specifications 2023.12.1                pypi_0    pypi
 jupyter-client            8.6.2                    pypi_0    pypi
 jupyter-core              5.7.2                    pypi_0    pypi
 jupyterlab-pygments       0.3.0                    pypi_0    pypi
-jupyterlab-widgets        3.0.11                   pypi_0    pypi
+jupyterlab-widgets        3.0.12                   pypi_0    pypi
 kiwisolver                1.4.5                    pypi_0    pypi
 laspy                     2.5.4                    pypi_0    pypi
 lazy-loader               0.4                      pypi_0    pypi
 ld_impl_linux-aarch64     2.38                 h8131f2d_1  
-libffi                    3.4.4                h419075a_0  
+libffi                    3.4.4                h419075a_1  
 libgcc-ng                 11.2.0               h1234567_1  
 libgomp                   11.2.0               h1234567_1  
 libstdcxx-ng              11.2.0               h1234567_1  
@@ -97,11 +98,11 @@ ncurses                   6.4                  h419075a_0
 nest-asyncio              1.6.0                    pypi_0    pypi
 networkx                  3.3                      pypi_0    pypi
 numba                     0.60.0                   pypi_0    pypi
-numpy                     1.26.3                   pypi_0    pypi
+numpy                     1.26.4                   pypi_0    pypi
 opencv-contrib-python     4.10.0.84                pypi_0    pypi
 opencv-python             4.10.0.84                pypi_0    pypi
 opencv-python-headless    4.10.0.84                pypi_0    pypi
-openssl                   3.0.12               h2f4d8fa_0  
+openssl                   3.0.14               h998d150_0  
 opentelemetry-api         1.26.0                   pypi_0    pypi
 opentelemetry-instrumentation 0.47b0                   pypi_0    pypi
 packaging                 24.1                     pypi_0    pypi
@@ -111,7 +112,7 @@ parso                     0.8.4                    pypi_0    pypi
 pexpect                   4.9.0                    pypi_0    pypi
 pickleshare               0.7.5                    pypi_0    pypi
 pillow                    10.4.0                   pypi_0    pypi
-pip                       24.2                     pypi_0    pypi
+pip                       24.2            py312hd43f75c_0  
 pipreqs                   0.5.0                    pypi_0    pypi
 platformdirs              4.2.2                    pypi_0    pypi
 plotly                    5.23.0                   pypi_0    pypi
@@ -135,8 +136,8 @@ pyoints                   0.2.0a3                  pypi_0    pypi
 pyparsing                 3.1.2                    pypi_0    pypi
 pyrsistent                0.20.0                   pypi_0    pypi
 pytest                    8.3.2                    pypi_0    pypi
-python                    3.11.7               h4bb2201_0  
-python-dateutil           2.9.0                    pypi_0    pypi
+python                    3.12.4               h8edadfe_1  
+python-dateutil           2.9.0.post0              pypi_0    pypi
 pytz                      2024.1                   pypi_0    pypi
 pyzmq                     26.2.0                   pypi_0    pypi
 readline                  8.2                  h998d150_0  
@@ -149,11 +150,11 @@ ruff                      0.6.1                    pypi_0    pypi
 scikit-learn              1.5.1                    pypi_0    pypi
 scikit-spatial            7.2.0                    pypi_0    pypi
 scipy                     1.14.1                   pypi_0    pypi
-setuptools                73.0.1                   pypi_0    pypi
+setuptools                72.1.0          py312hd43f75c_0  
 shapely                   2.0.6                    pypi_0    pypi
 six                       1.16.0                   pypi_0    pypi
 soupsieve                 2.6                      pypi_0    pypi
-sqlite                    3.41.2               h998d150_0  
+sqlite                    3.45.3               h998d150_0  
 stack-data                0.6.3                    pypi_0    pypi
 tenacity                  9.0.0                    pypi_0    pypi
 threadpoolctl             3.5.0                    pypi_0    pypi
@@ -170,13 +171,13 @@ urllib3                   2.2.2                    pypi_0    pypi
 wcwidth                   0.2.13                   pypi_0    pypi
 webencodings              0.5.1                    pypi_0    pypi
 werkzeug                  3.0.4                    pypi_0    pypi
-wheel                     0.44.0                   pypi_0    pypi
-widgetsnbextension        4.0.11                   pypi_0    pypi
+wheel                     0.43.0          py312hd43f75c_0  
+widgetsnbextension        4.0.12                   pypi_0    pypi
 wincertstore              0.2.1                    pypi_0    pypi
 wrapt                     1.16.0                   pypi_0    pypi
 xlsxwriter                3.2.0                    pypi_0    pypi
-xz                        5.4.5                h998d150_0  
+xz                        5.4.6                h998d150_1  
 yarg                      0.1.9                    pypi_0    pypi
 yoctopuce                 2.0.61813                pypi_0    pypi
 zipp                      3.20.0                   pypi_0    pypi
-zlib                      1.2.13               h998d150_0
+zlib                      1.2.13               h998d150_1

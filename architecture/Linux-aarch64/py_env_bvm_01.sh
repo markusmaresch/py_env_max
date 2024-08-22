@@ -1,7 +1,6 @@
-# 2024-08-22T09:58:21.416473+00:00
+# 2024-08-22T11:18:41.235969+00:00
 # Level 1
 pip install "ansi2html>=1.9.2"
-pip install "arena-api>=2.3.3"
 pip install "attrs>=24.2.0"
 pip install "av>=12.3.0"
 pip check
@@ -45,7 +44,7 @@ pip install "itsdangerous>=2.2.0"
 pip check
 pip install "joblib>=1.4.2"
 pip install "jupyterlab-pygments>=0.3.0"
-pip install "jupyterlab-widgets>=3.0.11"
+pip install "jupyterlab-widgets>=3.0.12"
 pip check
 pip install "kiwisolver>=1.4.5"
 pip install "llvmlite>=0.43.0"
@@ -57,7 +56,7 @@ pip install "mistune>=3.0.2"
 pip check
 pip install "nest-asyncio>=1.6.0"
 pip install "networkx>=3.3"
-pip install "numpy>=1.26.3"
+pip install "numpy>=1.26.4"
 pip check
 pip install "packaging>=24.1"
 pip install "pandocfilters>=1.5.1"
@@ -86,7 +85,7 @@ pip check
 pip install "rpds-py>=0.20.0"
 pip install "ruff>=0.6.1"
 pip check
-pip install "setuptools>=73.0.1"
+pip install "setuptools>=72.1.0"
 pip install "six>=1.16.0"
 pip install "soupsieve>=2.6"
 pip check
@@ -103,8 +102,8 @@ pip check
 pip install "urllib3>=2.2.2"
 pip install "wcwidth>=0.2.13"
 pip install "webencodings>=0.5.1"
-pip install "wheel>=0.44.0"
-pip install "widgetsnbextension>=4.0.11"
+pip install "wheel>=0.43.0"
+pip install "widgetsnbextension>=4.0.12"
 pip install "wincertstore>=0.2.1"
 pip install "wrapt>=1.16.0"
 pip check

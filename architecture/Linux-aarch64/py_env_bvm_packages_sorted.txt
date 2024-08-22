@@ -1,5 +1,4 @@
 ansi2html
-arena-api
 attrs
 av
 backcall
@@ -90,6 +89,7 @@ wrapt
 xlsxwriter
 yoctopuce
 zipp
+arena-api
 asttokens
 beautifulsoup4
 bleach
