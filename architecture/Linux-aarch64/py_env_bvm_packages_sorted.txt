@@ -17,6 +17,7 @@ dash-html-components
 dash-table
 debugpy
 decorator
+defusedxml
 dill
 dnspython
 docopt
@@ -26,23 +27,26 @@ executing
 fastjsonschema
 fonttools
 google-crc32c
+grpcio
 idna
 importlib-resources
 imutils
 iniconfig
 itsdangerous
 joblib
+jupyterlab-pygments
 jupyterlab-widgets
 kiwisolver
-lazy-loader
 llvmlite
 lmdb
 markupsafe
 mccabe
+mistune
 nest-asyncio
 networkx
 numpy
 packaging
+pandocfilters
 parso
 pickleshare
 pillow
@@ -66,6 +70,7 @@ rpds-py
 ruff
 setuptools
 six
+soupsieve
 tenacity
 threadpoolctl
 tinyflux
@@ -77,6 +82,7 @@ typing-extensions
 tzdata
 urllib3
 wcwidth
+webencodings
 wheel
 widgetsnbextension
 wincertstore
@@ -85,6 +91,8 @@ xlsxwriter
 yoctopuce
 zipp
 asttokens
+beautifulsoup4
+bleach
 comm
 contourpy
 deprecated
@@ -98,6 +106,7 @@ jedi
 jinja2
 jupyter-core
 laspy
+lazy-loader
 matplotlib-inline
 numba
 opencv-contrib-python
@@ -107,6 +116,7 @@ pexpect
 plotly
 plyfile
 prompt-toolkit
+proto-plus
 pyarrow
 pyasn1-modules
 pytest
@@ -118,9 +128,11 @@ rsa
 scipy
 shapely
 tifffile
+tinycss2
 werkzeug
 flask
 google-auth
+grpcio-status
 jsonschema-specifications
 jupyter-client
 matplotlib
@@ -136,7 +148,6 @@ google-api-core
 ipython
 jsonschema
 opentelemetry-instrumentation
-pipreqs
 scikit-spatial
 google-cloud-core
 ipykernel
@@ -146,3 +157,6 @@ py-cylinder-fitting
 pyoints
 google-cloud-bigquery
 google-cloud-storage
+nbclient
+nbconvert
+pipreqs

@@ -1,17 +1,16 @@
-# 2024-07-09T12:19:40.151654+00:00
+# 2024-08-22T09:58:21.416473+00:00
 # Level 4
 pip install "braincube-connector>=2.6.0"
 pip check
 pip install "cylinder-fitting>=1.1.4"
-pip install "dash>=2.14.2"
+pip install "dash>=2.17.1"
 pip check
-pip install "google-api-core>=2.16.2"
-pip install "ipython>=8.20.0"
+pip install "google-api-core>=2.19.1"
+pip install "ipython>=8.12.3"
 pip check
-pip install "jsonschema>=4.21.1"
-pip install "opentelemetry-instrumentation>=0.43b0"
+pip install "jsonschema>=4.23.0"
+pip install "opentelemetry-instrumentation>=0.47b0"
 pip check
-pip install "pipreqs>=0.4.13"
-pip install "scikit-spatial>=7.0.0"
+pip install "scikit-spatial>=7.2.0"
 pip check
 # Level 4

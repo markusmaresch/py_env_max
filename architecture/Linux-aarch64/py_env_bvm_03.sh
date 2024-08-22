@@ -1,16 +1,18 @@
-# 2024-07-09T12:19:40.151654+00:00
+# 2024-08-22T09:58:21.416473+00:00
 # Level 3
-pip install "flask>=3.0.1"
+pip install "flask>=3.0.3"
 pip check
-pip install "google-auth>=2.27.0"
+pip install "google-auth>=2.34.0"
+pip install "grpcio-status>=1.65.5"
+pip check
 pip install "jsonschema-specifications>=2023.12.1"
-pip install "jupyter-client>=8.6.0"
+pip install "jupyter-client>=8.6.2"
 pip check
-pip install "matplotlib>=3.8.2"
-pip install "opentelemetry-api>=1.22.0"
+pip install "matplotlib>=3.9.2"
+pip install "opentelemetry-api>=1.26.0"
 pip check
-pip install "pandas>=2.2.0"
-pip install "scikit-learn>=1.4.0"
+pip install "pandas>=2.2.2"
+pip install "scikit-learn>=1.5.1"
 pip install "stack-data>=0.6.3"
 pip check
 pip install "yarg>=0.1.9"

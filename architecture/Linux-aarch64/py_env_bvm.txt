@@ -4,6 +4,8 @@ asttokens
 attrs
 av
 backcall
+beautifulsoup4
+bleach
 blinker
 braincube-connector
 cachetools
@@ -23,6 +25,7 @@ dash-html-components
 dash-table
 debugpy
 decorator
+defusedxml
 deprecated
 dill
 dnspython
@@ -43,6 +46,8 @@ google-cloud-storage
 google-crc32c
 google-resumable-media
 googleapis-common-protos
+grpcio
+grpcio-status
 idna
 imageio
 importlib-metadata
@@ -60,6 +65,7 @@ jsonschema
 jsonschema-specifications
 jupyter-client
 jupyter-core
+jupyterlab-pygments
 jupyterlab-widgets
 kiwisolver
 laspy
@@ -70,6 +76,9 @@ markupsafe
 matplotlib
 matplotlib-inline
 mccabe
+mistune
+nbclient
+nbconvert
 nbformat
 nest-asyncio
 networkx
@@ -82,6 +91,7 @@ opentelemetry-api
 opentelemetry-instrumentation
 packaging
 pandas
+pandocfilters
 parso
 pexpect
 pickleshare
@@ -94,6 +104,7 @@ pluggy
 plyfile
 polars
 prompt-toolkit
+proto-plus
 protobuf
 psutil
 ptyprocess
@@ -124,10 +135,12 @@ scipy
 setuptools
 shapely
 six
+soupsieve
 stack-data
 tenacity
 threadpoolctl
 tifffile
+tinycss2
 tinyflux
 tk
 tomli
@@ -137,6 +150,7 @@ typing-extensions
 tzdata
 urllib3
 wcwidth
+webencodings
 werkzeug
 wheel
 widgetsnbextension
