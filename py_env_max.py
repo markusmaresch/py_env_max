@@ -22,7 +22,7 @@ class PyEnvMax:
     def __init__(self):
         self.environment_name = None
         self.environment_default = self.get_environment_default()
-        self.python_version_default = '3.11'
+        self.python_version_default = '3.12'
         self.conda_version_minimum = '23.11.0'  # be conservative, stick to most outdated .. aarch64
         return
 
