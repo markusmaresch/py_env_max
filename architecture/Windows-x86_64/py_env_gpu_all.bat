@@ -1,4 +1,4 @@
-rem 2024-08-07T12:03:56.240424+00:00
+rem 2024-08-22T19:06:28.678694+00:00
 rem Level 1
 pip install "aiofiles>=23.2.1"
 pip install "aioitertools>=0.11.0"
@@ -343,7 +343,9 @@ pip check
 pip install "braincube-connector>=2.6.0"
 pip install "confection>=0.1.5"
 pip check
+pip install "db-dtypes>=1.3.0"
 pip install "fastapi>=0.109.2"
+pip check
 pip install "google-api-core>=2.19.0"
 pip install "google-auth-httplib2>=0.2.0"
 pip install "google-auth-oauthlib>=1.2.0"
@@ -401,9 +403,10 @@ pip install "openinference-instrumentation-llama-index>=2.1.0"
 pip install "openinference-instrumentation-openai>=0.1.8"
 pip install "opentelemetry-sdk>=1.25.0"
 pip check
+pip install "pydata-google-auth>=1.8.2"
 pip install "python-socketio>=5.11.2"
-pip install "thinc>=8.2.3"
 pip check
+pip install "thinc>=8.2.3"
 pip install "weasel>=0.4.1"
 pip check
 rem Level 5
@@ -443,6 +446,8 @@ pip install "llama-index-readers-llama-parse>=0.1.4"
 pip check
 pip install "nbconvert>=7.16.4"
 pip install "opentelemetry-exporter-otlp>=1.25.0"
+pip check
+pip install "pandas-gbq>=0.23.1"
 pip check
 rem Level 7
 rem Level 8

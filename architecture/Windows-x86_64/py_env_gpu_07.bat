@@ -1,4 +1,4 @@
-rem 2024-08-07T12:03:56.240424+00:00
+rem 2024-08-22T19:06:28.678694+00:00
 rem Level 7
 pip install "google-cloud-aiplatform>=1.51.0"
 pip check
@@ -11,5 +11,7 @@ pip install "llama-index-readers-llama-parse>=0.1.4"
 pip check
 pip install "nbconvert>=7.16.4"
 pip install "opentelemetry-exporter-otlp>=1.25.0"
+pip check
+pip install "pandas-gbq>=0.23.1"
 pip check
 rem Level 7

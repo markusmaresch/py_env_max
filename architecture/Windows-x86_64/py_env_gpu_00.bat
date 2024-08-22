@@ -1,3 +1,3 @@
-rem 2024-08-07T12:03:56.240424+00:00
+rem 2024-08-22T19:06:28.678694+00:00
 rem Level 0 .. fix below !
-rem conda create --name py_env_gpu_XXX python=3.11
+rem conda create --name py_env_gpu_XXX python=3.12

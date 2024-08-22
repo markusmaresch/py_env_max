@@ -1,4 +1,4 @@
-rem 2024-08-07T12:03:56.240424+00:00
+rem 2024-08-22T19:06:28.678694+00:00
 rem Level 4
 pip install "albumentations>=1.4.8"
 pip install "argon2-cffi>=23.1.0"
@@ -7,7 +7,9 @@ pip check
 pip install "braincube-connector>=2.6.0"
 pip install "confection>=0.1.5"
 pip check
+pip install "db-dtypes>=1.3.0"
 pip install "fastapi>=0.109.2"
+pip check
 pip install "google-api-core>=2.19.0"
 pip install "google-auth-httplib2>=0.2.0"
 pip install "google-auth-oauthlib>=1.2.0"

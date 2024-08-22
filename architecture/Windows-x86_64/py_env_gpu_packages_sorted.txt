@@ -274,6 +274,7 @@ argon2-cffi
 arize-phoenix-evals
 braincube-connector
 confection
+db-dtypes
 fastapi
 google-api-core
 google-auth-httplib2
@@ -316,6 +317,7 @@ openinference-instrumentation-langchain
 openinference-instrumentation-llama-index
 openinference-instrumentation-openai
 opentelemetry-sdk
+pydata-google-auth
 python-socketio
 thinc
 weasel
@@ -345,6 +347,7 @@ llama-index-multi-modal-llms-openai
 llama-index-readers-llama-parse
 nbconvert
 opentelemetry-exporter-otlp
+pandas-gbq
 google-cloud-pipeline-components
 jupyter-server
 llama-index-program-openai

@@ -1,4 +1,4 @@
-rem 2024-08-07T12:03:56.240424+00:00
+rem 2024-08-22T19:06:28.678694+00:00
 rem Level 2
 pip install "aiosignal>=1.3.1"
 pip install "aiosqlite>=0.20.0"

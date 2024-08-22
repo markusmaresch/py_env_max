@@ -42,6 +42,7 @@ cycler
 cymem
 cython
 dataclasses-json
+db-dtypes
 debugpy
 decorator
 defusedxml
@@ -220,6 +221,7 @@ orjson
 overrides
 packaging
 pandas
+pandas-gbq
 pandocfilters
 parso
 persist-queue
@@ -243,6 +245,7 @@ pycodestyle
 pycparser
 pydantic
 pydantic-core
+pydata-google-auth
 pydeck
 pyflakes
 pygments
