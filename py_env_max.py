@@ -23,7 +23,7 @@ class PyEnvMax:
         self.environment_name = None
         self.environment_default = self.get_environment_default()
         self.python_version_default = '3.12'
-        self.conda_version_minimum = '23.11.0'  # be conservative, stick to most outdated .. aarch64
+        self.conda_version_minimum = '24.5.0'  # be conservative, stick to most outdated .. aarch64
         return
 
     def get_environment_default(self) -> str:
@@ -68,7 +68,8 @@ class PyEnvMax:
         vm = Version.normalized(self.conda_version_minimum)
         if vh < vm:
             print('Warning: conda too old ({} < {}), consider updating conda itself or miniconda'.format(vh, vm))
-            print('Use: conda update -n base -c defaults conda')
+            print('Old: conda update -n base -c defaults conda')
+            print(f'Use: conda install -n base -c defaults conda={vm}')
             return False
         return True
 
