@@ -1,4 +1,4 @@
-rem 2024-08-22T19:06:28.678694+00:00
+rem 2024-09-01T22:35:22.740529+00:00
 rem Level 3
 pip install "aiohttp>=3.9.5"
 pip install "albucore>=0.0.9"
@@ -19,7 +19,9 @@ pip install "grpcio-status>=1.62.2"
 pip check
 pip install "httpx>=0.27.0"
 pip install "huggingface-hub>=0.23.4"
+pip install "hydra-core>=1.3.0"
 pip check
+pip install "jaxlib>=0.4.31"
 pip install "jsonschema-specifications>=2023.12.1"
 pip install "jupyter-client>=8.6.2"
 pip install "jupyter-server-terminals>=0.5.3"
@@ -34,7 +36,7 @@ pip check
 pip install "opentelemetry-api>=1.25.0"
 pip install "opentelemetry-exporter-otlp-proto-common>=1.25.0"
 pip check
-pip install "pandas>=2.2.2"
+pip install "pandas>=2.1.4"
 pip install "pydantic>=2.7.4"
 pip install "pydeck>=0.9.1"
 pip check
@@ -49,6 +51,7 @@ pip install "stack-data>=0.6.3"
 pip install "starlette>=0.36.3"
 pip install "strawberry-graphql>=0.235.0"
 pip check
+pip install "tensorboard>=2.17.1"
 pip install "tiktoken>=0.7.0"
 pip install "torch>=2.3.0+cu121"
 pip check

@@ -1,3 +1,4 @@
+absl-py
 aiofiles
 aiohttp
 aioitertools
@@ -8,6 +9,7 @@ albumentations
 alembic
 altair
 annotated-types
+antlr4-python3-runtime
 anyio
 appdirs
 arena-api
@@ -42,12 +44,14 @@ cycler
 cymem
 cython
 dataclasses-json
+datasets
 db-dtypes
 debugpy
 decorator
 defusedxml
 deprecated
 deprecation
+dill
 dirtyjson
 diskcache
 distro
@@ -55,6 +59,7 @@ dnspython
 docker-pycreds
 docstring-parser
 docutils
+einops
 email-validator
 exceptiongroup
 executing
@@ -71,6 +76,7 @@ frozenlist
 fsspec
 gitdb
 gitpython
+gluonts
 google-api-core
 google-api-python-client
 google-auth
@@ -100,6 +106,7 @@ httplib2
 httptools
 httpx
 huggingface-hub
+hydra-core
 idna
 ifaddr
 imageio
@@ -112,6 +119,9 @@ ipython
 ipython-genutils
 isoduration
 itsdangerous
+jax
+jaxlib
+jaxtyping
 jedi
 jinja2
 jmespath
@@ -150,6 +160,8 @@ langcodes
 langsmith
 language-data
 lazy-loader
+lightning
+lightning-utilities
 llama-cpp-python
 llama-index
 llama-index-agent-openai
@@ -182,8 +194,10 @@ mccabe
 mdurl
 mistune
 mkl
+ml-dtypes
 mpmath
 multidict
+multiprocess
 murmurhash
 mypy-extensions
 nbclient
@@ -199,6 +213,7 @@ numba
 numpy
 oauthlib
 ollama
+omegaconf
 openai
 opencv-contrib-python
 opencv-python
@@ -217,6 +232,7 @@ opentelemetry-instrumentation
 opentelemetry-proto
 opentelemetry-sdk
 opentelemetry-semantic-conventions
+opt-einsum
 orjson
 overrides
 packaging
@@ -239,6 +255,7 @@ pscript
 psutil
 pure-eval
 pyarrow
+pyarrow-hotfix
 pyasn1
 pyasn1-modules
 pycodestyle
@@ -261,6 +278,7 @@ python-json-logger
 python-multipart
 python-socketio
 pythonnet
+pytorch-lightning
 pytz
 pywin32
 pywinpty
@@ -281,6 +299,7 @@ rich
 rpds-py
 rsa
 ruff
+safetensors
 scikit-image
 scikit-learn
 scipy
@@ -313,6 +332,8 @@ sympy
 tabulate
 tbb
 tenacity
+tensorboard
+tensorboard-data-server
 terminado
 thinc
 threadpoolctl
@@ -325,11 +346,13 @@ tomli
 toolz
 torch
 torchaudio
+torchmetrics
 torchvision
 tornado
 tqdm
 traitlets
 travertino
+typeguard
 typer
 types-python-dateutil
 typing-extensions
@@ -337,6 +360,7 @@ typing-inspect
 tzdata
 tzlocal
 ujson
+uni2ts
 uri-template
 uritemplate
 urllib3
@@ -358,6 +382,7 @@ wheel
 wrapt
 wsproto
 xlsxwriter
+xxhash
 yarl
 yoctopuce
 zipp

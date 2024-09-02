@@ -1,4 +1,4 @@
-rem 2024-08-22T19:06:28.678694+00:00
+rem 2024-09-01T22:35:22.740529+00:00
 rem Level 2
 pip install "aiosignal>=1.3.1"
 pip install "aiosqlite>=0.20.0"
@@ -34,6 +34,7 @@ pip check
 pip install "imageio>=2.34.1"
 pip install "importlib-metadata>=7.1.0"
 pip check
+pip install "jaxtyping>=0.2.34"
 pip install "jedi>=0.19.1"
 pip install "jinja2>=3.1.4"
 pip install "json-numpy>=2.0.0"
@@ -43,6 +44,7 @@ pip install "jupyter-core>=5.7.2"
 pip check
 pip install "kfp-pipeline-spec>=0.3.0"
 pip install "lazy-loader>=0.4"
+pip install "lightning-utilities>=0.11.6"
 pip check
 pip install "mako>=1.3.5"
 pip install "marisa-trie>=1.2.0"
@@ -50,12 +52,16 @@ pip install "markdown-it-py>=3.0.0"
 pip install "marshmallow>=3.21.3"
 pip install "matplotlib-inline>=0.1.7"
 pip install "mkl>=2021.4.0"
+pip install "ml-dtypes>=0.4.0"
+pip install "multiprocess>=0.70.16"
 pip check
 pip install "numba>=0.60.0"
+pip install "omegaconf>=2.3.0"
 pip install "opencv-contrib-python>=4.10.0.82"
 pip install "opencv-python>=4.10.0.84"
 pip install "opencv-python-headless>=4.10.0.82"
 pip install "opentelemetry-proto>=1.25.0"
+pip install "opt-einsum>=3.3.0"
 pip check
 pip install "preshed>=3.0.9"
 pip install "prompt-toolkit>=3.0.47"
@@ -72,7 +78,7 @@ pip install "requests>=2.32.3"
 pip install "rfc3339-validator>=0.1.4"
 pip install "rsa>=4.9"
 pip check
-pip install "scipy>=1.13.1"
+pip install "scipy>=1.11.4"
 pip install "sentry-sdk>=2.5.1"
 pip install "shapely>=2.0.4"
 pip install "smart-open>=7.0.4"

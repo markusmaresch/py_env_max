@@ -1,4 +1,4 @@
-rem 2024-08-22T19:06:28.678694+00:00
+rem 2024-09-01T22:35:22.740529+00:00
 rem Level 6
 pip install "google-cloud-bigquery>=3.22.0"
 pip install "google-cloud-storage>=2.16.0"
@@ -6,6 +6,7 @@ pip check
 pip install "langchain-community>=0.0.38"
 pip install "langchain-openai>=0.1.6"
 pip install "langchain-text-splitters>=0.0.1"
+pip install "lightning>=2.4.0"
 pip install "llama-index-embeddings-openai>=0.1.9"
 pip install "llama-index-indices-managed-llama-cloud>=0.1.6"
 pip install "llama-index-llms-ollama>=0.1.3"

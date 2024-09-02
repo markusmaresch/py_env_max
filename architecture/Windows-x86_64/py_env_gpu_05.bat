@@ -1,4 +1,4 @@
-rem 2024-08-22T19:06:28.678694+00:00
+rem 2024-09-01T22:35:22.740529+00:00
 rem Level 5
 pip install "altair>=5.3.0"
 pip check
@@ -24,6 +24,7 @@ pip install "opentelemetry-sdk>=1.25.0"
 pip check
 pip install "pydata-google-auth>=1.8.2"
 pip install "python-socketio>=5.11.2"
+pip install "pytorch-lightning>=2.4.0"
 pip check
 pip install "thinc>=8.2.3"
 pip install "weasel>=0.4.1"
