@@ -1,4 +1,4 @@
-# 2024-08-22T11:18:41.235969+00:00
+# 2024-10-04T17:22:08.545453+00:00
 # Level 3
 pip install "flask>=3.0.3"
 pip check
@@ -12,6 +12,7 @@ pip install "matplotlib>=3.9.2"
 pip install "opentelemetry-api>=1.26.0"
 pip check
 pip install "pandas>=2.2.2"
+pip install "scikit-image>=0.24.0"
 pip install "scikit-learn>=1.5.1"
 pip install "stack-data>=0.6.3"
 pip check

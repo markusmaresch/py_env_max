@@ -1,6 +1,7 @@
-# 2024-08-22T11:18:41.235969+00:00
+# 2024-10-04T17:22:08.545453+00:00
 # Level 1
 pip install "ansi2html>=1.9.2"
+pip install "arena-api>=2.3.3"
 pip install "attrs>=24.2.0"
 pip install "av>=12.3.0"
 pip check
@@ -44,7 +45,7 @@ pip install "itsdangerous>=2.2.0"
 pip check
 pip install "joblib>=1.4.2"
 pip install "jupyterlab-pygments>=0.3.0"
-pip install "jupyterlab-widgets>=3.0.12"
+pip install "jupyterlab-widgets>=3.0.11"
 pip check
 pip install "kiwisolver>=1.4.5"
 pip install "llvmlite>=0.43.0"
@@ -56,7 +57,7 @@ pip install "mistune>=3.0.2"
 pip check
 pip install "nest-asyncio>=1.6.0"
 pip install "networkx>=3.3"
-pip install "numpy>=1.26.4"
+pip install "numpy>=1.26.3"
 pip check
 pip install "packaging>=24.1"
 pip install "pandocfilters>=1.5.1"
@@ -78,14 +79,16 @@ pip install "pyflakes>=3.2.0"
 pip install "pygments>=2.18.0"
 pip install "pyparsing>=3.1.2"
 pip install "pyrsistent>=0.20.0"
-pip install "pytz>=2024.1"
+pip install "pyserial>=3.5"
 pip check
+pip install "pytz>=2024.1"
+pip install "pyzbar>=0.1.9"
 pip install "pyzmq>=26.2.0"
 pip check
 pip install "rpds-py>=0.20.0"
 pip install "ruff>=0.6.1"
 pip check
-pip install "setuptools>=72.1.0"
+pip install "setuptools>=73.0.1"
 pip install "six>=1.16.0"
 pip install "soupsieve>=2.6"
 pip check
@@ -102,8 +105,8 @@ pip check
 pip install "urllib3>=2.2.2"
 pip install "wcwidth>=0.2.13"
 pip install "webencodings>=0.5.1"
-pip install "wheel>=0.43.0"
-pip install "widgetsnbextension>=4.0.12"
+pip install "wheel>=0.44.0"
+pip install "widgetsnbextension>=4.0.11"
 pip install "wincertstore>=0.2.1"
 pip install "wrapt>=1.16.0"
 pip check
@@ -114,7 +117,6 @@ pip install "zipp>=3.20.0"
 pip check
 # Level 1
 # Level 2
-pip install "arena-api>=2.5.9"
 pip install "asttokens>=2.4.1"
 pip check
 pip install "beautifulsoup4>=4.12.3"
@@ -130,8 +132,9 @@ pip install "flake8>=7.1.1"
 pip install "google-resumable-media>=2.7.2"
 pip install "googleapis-common-protos>=1.63.2"
 pip check
+pip install "h5py>=3.12.1"
 pip install "imageio>=2.35.1"
-pip install "importlib-metadata>=8.0.0"
+pip install "importlib-metadata>=7.0.2"
 pip check
 pip install "jedi>=0.19.1"
 pip install "jinja2>=3.1.4"
@@ -155,7 +158,7 @@ pip install "proto-plus>=1.24.0"
 pip install "pyarrow>=17.0.0"
 pip install "pyasn1-modules>=0.4.0"
 pip install "pytest>=8.3.2"
-pip install "python-dateutil>=2.9.0.post0"
+pip install "python-dateutil>=2.9.0"
 pip check
 pip install "referencing>=0.35.1"
 pip install "requests>=2.32.3"
@@ -184,6 +187,7 @@ pip install "matplotlib>=3.9.2"
 pip install "opentelemetry-api>=1.26.0"
 pip check
 pip install "pandas>=2.2.2"
+pip install "scikit-image>=0.24.0"
 pip install "scikit-learn>=1.5.1"
 pip install "stack-data>=0.6.3"
 pip check
@@ -209,7 +213,7 @@ pip check
 pip install "google-cloud-core>=2.4.1"
 pip check
 pip install "ipykernel>=6.29.5"
-pip install "ipywidgets>=8.1.4"
+pip install "ipywidgets>=8.1.3"
 pip check
 pip install "nbformat>=5.10.4"
 pip install "py-cylinder-fitting>=1.0.0"

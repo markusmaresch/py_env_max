@@ -1,4 +1,5 @@
 ansi2html
+arena-api
 attrs
 av
 backcall
@@ -63,7 +64,9 @@ pyflakes
 pygments
 pyparsing
 pyrsistent
+pyserial
 pytz
+pyzbar
 pyzmq
 rpds-py
 ruff
@@ -89,7 +92,6 @@ wrapt
 xlsxwriter
 yoctopuce
 zipp
-arena-api
 asttokens
 beautifulsoup4
 bleach
@@ -100,6 +102,7 @@ email-validator
 flake8
 google-resumable-media
 googleapis-common-protos
+h5py
 imageio
 importlib-metadata
 jedi
@@ -138,6 +141,7 @@ jupyter-client
 matplotlib
 opentelemetry-api
 pandas
+scikit-image
 scikit-learn
 stack-data
 yarg

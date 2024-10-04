@@ -48,6 +48,7 @@ google-resumable-media
 googleapis-common-protos
 grpcio
 grpcio-status
+h5py
 idna
 imageio
 importlib-metadata
@@ -119,9 +120,11 @@ pygments
 pyoints
 pyparsing
 pyrsistent
+pyserial
 pytest
 python-dateutil
 pytz
+pyzbar
 pyzmq
 referencing
 requests
@@ -129,6 +132,7 @@ retrying
 rpds-py
 rsa
 ruff
+scikit-image
 scikit-learn
 scikit-spatial
 scipy
