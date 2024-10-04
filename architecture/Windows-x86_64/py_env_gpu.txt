@@ -88,6 +88,7 @@ google-cloud-compute
 google-cloud-core
 google-cloud-pipeline-components
 google-cloud-resource-manager
+google-cloud-secret-manager
 google-cloud-storage
 google-cloud-vision
 google-crc32c
@@ -180,6 +181,7 @@ llama-index-readers-llama-parse
 llama-parse
 llamaindex-py-client
 llvmlite
+lmdb
 lxml
 mako
 marisa-trie

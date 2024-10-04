@@ -58,6 +58,7 @@ jupyter-highlight-selected-word
 jupyterlab-pygments
 kiwisolver
 llvmlite
+lmdb
 lxml
 markdown
 markdown2
@@ -328,6 +329,7 @@ google-api-python-client
 google-cloud-compute
 google-cloud-core
 google-cloud-resource-manager
+google-cloud-secret-manager
 google-cloud-vision
 ipykernel
 jupyter-events
