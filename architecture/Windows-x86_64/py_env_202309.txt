@@ -646,6 +646,7 @@ scikit-plot
 scipy
 scs
 seaborn
+segment-anything
 selenium
 send2trash
 sentencepiece

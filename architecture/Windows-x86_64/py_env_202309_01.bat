@@ -1,4 +1,4 @@
-rem 2024-05-14T22:53:45.506665+00:00
+rem 2024-10-11T17:42:50.354333+00:00
 rem Level 1
 pip install "absl-py>=1.4.0"
 pip install "addict>=2.4.0"
@@ -329,6 +329,7 @@ pip install "rpds-py>=0.18.1"
 pip check
 pip install "safetensors>=0.4.3"
 pip install "schedule>=1.2.1"
+pip install "segment-anything>=1.0"
 pip install "send2trash>=1.8.3"
 pip install "sentencepiece>=0.2.0"
 pip install "setproctitle>=1.3.3"
@@ -336,8 +337,8 @@ pip install "setuptools>=69.5.1"
 pip install "setuptools-git>=1.2"
 pip install "shellingham>=1.5.4"
 pip install "shortuuid>=1.0.13"
-pip install "simpervisor>=1.0.0"
 pip check
+pip install "simpervisor>=1.0.0"
 pip install "simplejson>=3.19.2"
 pip install "six>=1.16.0"
 pip install "sklearn>=0.0.post7"
@@ -347,8 +348,8 @@ pip install "smmap>=5.0.1"
 pip install "sniffio>=1.3.1"
 pip install "snowballstemmer>=2.2.0"
 pip install "sortedcontainers>=2.4.0"
-pip install "soupsieve>=2.5"
 pip check
+pip install "soupsieve>=2.5"
 pip install "spacy-legacy>=3.0.12"
 pip install "spacy-loggers>=1.0.5"
 pip install "sphinxcontrib-applehelp>=1.0.8"
@@ -358,8 +359,8 @@ pip install "sphinxcontrib-jsmath>=1.0.1"
 pip install "sphinxcontrib-qthelp>=1.0.7"
 pip install "sphinxcontrib-serializinghtml>=1.1.10"
 pip install "sqlparse>=0.5.0"
-pip install "stdlib-list>=0.10.0"
 pip check
+pip install "stdlib-list>=0.10.0"
 pip install "strenum>=0.4.15"
 pip install "stringcase>=1.2.0"
 pip install "subprocess32>=3.5.4"
