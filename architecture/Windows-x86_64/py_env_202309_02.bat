@@ -1,4 +1,4 @@
-rem 2024-10-11T20:20:11.004485+00:00
+rem 2024-10-11T21:39:31.691159+00:00
 rem Level 2
 pip install "accessible-pygments>=0.0.5"
 pip install "aioredis>=2.0.1"
@@ -13,7 +13,7 @@ pip install "asynq>=1.5.1"
 pip check
 pip install "atari-py>=0.3.0"
 pip install "autograd>=1.7.0"
-pip install "autopep8>=2.2.0"
+pip install "autopep8>=2.3.1"
 pip check
 pip install "beautifulsoup4>=4.12.3"
 pip install "biopython>=1.84"
@@ -76,10 +76,12 @@ pip install "imageio>=2.35.1"
 pip install "imageio-ffmpeg>=0.5.1"
 pip install "importlab>=0.8.1"
 pip install "importlib-metadata>=8.5.0"
+pip install "intel-openmp>=2024.2.1"
 pip install "intervaltree>=3.1.0"
-pip install "isodate>=0.7.2"
 pip check
 pip install "jaraco-classes>=3.4.0"
+pip install "jaraco-context>=6.0.1"
+pip install "jaraco-functools>=4.1.0"
 pip install "jax-jumpy>=1.0.0"
 pip install "jedi>=0.19.1"
 pip install "jinja2>=3.1.4"
@@ -102,10 +104,9 @@ pip install "marshmallow>=3.22.0"
 pip install "mashumaro>=3.13.1"
 pip install "matplotlib-inline>=0.1.7"
 pip install "memory-profiler>=0.61.0"
-pip install "mkl>=2021.4.0"
-pip install "ml-dtypes>=0.3.2"
-pip check
+pip install "ml-dtypes>=0.4.1"
 pip install "mlagents-envs>=0.28.0"
+pip check
 pip install "multiprocess>=0.70.16"
 pip check
 pip install "nibabel>=5.3.0"
@@ -117,7 +118,6 @@ pip install "onnx>=1.17.0"
 pip install "opencv-python>=4.10.0.84"
 pip install "opencv-python-headless>=4.10.0.84"
 pip install "openvino>=2024.4.0"
-pip install "opt-einsum>=3.4.0"
 pip install "optree>=0.13.0"
 pip install "outcome>=1.3.0"
 pip check
@@ -161,7 +161,7 @@ pip install "retrying>=1.3.4"
 pip install "rfc3339-validator>=0.1.4"
 pip install "rsa>=4.9"
 pip check
-pip install "scipy>=1.11.4"
+pip install "scipy>=1.13.1"
 pip install "sentry-sdk>=2.16.0"
 pip install "shapely>=2.0.6"
 pip install "simple-parsing>=0.1.6"

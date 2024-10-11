@@ -53,7 +53,7 @@ attrs                     24.2.0                   pypi_0    pypi
 audioread                 3.0.1                    pypi_0    pypi
 authlib                   1.3.2                    pypi_0    pypi
 autograd                  1.7.0                    pypi_0    pypi
-autopep8                  2.2.0                    pypi_0    pypi
+autopep8                  2.3.1                    pypi_0    pypi
 axial-positional-embedding 0.2.1                    pypi_0    pypi
 azure-common              1.1.28                   pypi_0    pypi
 azure-core                1.31.0                   pypi_0    pypi
@@ -76,7 +76,7 @@ blosc2                    2.7.1                    pypi_0    pypi
 blurhash                  1.1.4                    pypi_0    pypi
 bokeh                     3.6.0                    pypi_0    pypi
 boltons                   24.0.0                   pypi_0    pypi
-boto3                     1.35.38                  pypi_0    pypi
+boto3                     1.35.39                  pypi_0    pypi
 botocore                  1.35.39                  pypi_0    pypi
 bottleneck                1.4.0                    pypi_0    pypi
 branca                    0.8.0                    pypi_0    pypi
@@ -142,7 +142,7 @@ cramjam                   2.8.4                    pypi_0    pypi
 crashtest                 0.3.1                    pypi_0    pypi
 crcmod                    1.7                      pypi_0    pypi
 croniter                  3.0.3                    pypi_0    pypi
-cryptography              42.0.8                   pypi_0    pypi
+cryptography              43.0.1                   pypi_0    pypi
 cssselect2                0.7.0                    pypi_0    pypi
 curtsies                  0.4.2                    pypi_0    pypi
 cvxopt                    1.3.2                    pypi_0    pypi
@@ -231,7 +231,7 @@ freetype-py               2.5.1                    pypi_0    pypi
 frozendict                2.4.5                    pypi_0    pypi
 frozenlist                1.4.1                    pypi_0    pypi
 fs                        2.4.16                   pypi_0    pypi
-fsspec                    2024.3.1                 pypi_0    pypi
+fsspec                    2024.6.0                 pypi_0    pypi
 fst-pso                   1.8.1                    pypi_0    pypi
 funcy                     2.0                      pypi_0    pypi
 future                    1.0.0                    pypi_0    pypi
@@ -318,7 +318,7 @@ inflect                   7.0.0                    pypi_0    pypi
 iniconfig                 2.0.0                    pypi_0    pypi
 int-date                  0.2.0                    pypi_0    pypi
 intel-cmplr-lib-ur        2024.2.1                 pypi_0    pypi
-intel-openmp              2021.4.0                 pypi_0    pypi
+intel-openmp              2024.2.1                 pypi_0    pypi
 intervaltree              3.1.0                    pypi_0    pypi
 intrinio-sdk              6.31.0                   pypi_0    pypi
 ipykernel                 6.29.5                   pypi_0    pypi
@@ -330,6 +330,9 @@ isodate                   0.7.2                    pypi_0    pypi
 isoduration               20.11.0                  pypi_0    pypi
 itsdangerous              2.2.0                    pypi_0    pypi
 jaraco-classes            3.4.0                    pypi_0    pypi
+jaraco-context            6.0.1                    pypi_0    pypi
+jaraco-functools          4.1.0                    pypi_0    pypi
+jaraco-text               4.0.0                    pypi_0    pypi
 jax                       0.4.34                   pypi_0    pypi
 jax-jumpy                 1.0.0                    pypi_0    pypi
 jaxlib                    0.4.34                   pypi_0    pypi
@@ -410,8 +413,8 @@ missingno                 0.5.2                    pypi_0    pypi
 mistune                   3.0.2                    pypi_0    pypi
 mixpanel                  4.10.1                   pypi_0    pypi
 mizani                    0.11.3                   pypi_0    pypi
-mkl                       2021.4.0                 pypi_0    pypi
-ml-dtypes                 0.3.2                    pypi_0    pypi
+mkl                       2024.2.2                 pypi_0    pypi
+ml-dtypes                 0.4.1                    pypi_0    pypi
 mlagents-envs             0.28.0                   pypi_0    pypi
 mlxtend                   0.23.1                   pypi_0    pypi
 mock                      5.1.0                    pypi_0    pypi
@@ -659,7 +662,7 @@ schedule                  1.2.2                    pypi_0    pypi
 scikit-image              0.24.0                   pypi_0    pypi
 scikit-learn              1.5.2                    pypi_0    pypi
 scikit-plot               0.3.7                    pypi_0    pypi
-scipy                     1.11.4                   pypi_0    pypi
+scipy                     1.13.1                   pypi_0    pypi
 scs                       3.2.7                    pypi_0    pypi
 seaborn                   0.13.2                   pypi_0    pypi
 selenium                  4.25.0                   pypi_0    pypi
@@ -727,7 +730,7 @@ tabulate                  0.9.0                    pypi_0    pypi
 tangled-up-in-unicode     0.2.0                    pypi_0    pypi
 tbb                       2021.5.0                 pypi_0    pypi
 tblib                     3.0.0                    pypi_0    pypi
-tenacity                  8.4.2                    pypi_0    pypi
+tenacity                  8.5.0                    pypi_0    pypi
 tensorboard               2.17.1                   pypi_0    pypi
 tensorboard-data-server   0.7.2                    pypi_0    pypi
 tensorboard-plugin-wit    1.8.1                    pypi_0    pypi
@@ -812,7 +815,7 @@ vs2015_runtime            14.27.29016          h5e58377_2
 waitress                  3.0.0                    pypi_0    pypi
 wasabi                    1.1.3                    pypi_0    pypi
 wcwidth                   0.2.13                   pypi_0    pypi
-weasel                    0.3.4                    pypi_0    pypi
+weasel                    0.4.1                    pypi_0    pypi
 webcolors                 24.8.0                   pypi_0    pypi
 webencodings              0.5.1                    pypi_0    pypi
 webob                     1.8.8                    pypi_0    pypi

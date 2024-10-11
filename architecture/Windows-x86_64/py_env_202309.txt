@@ -49,6 +49,7 @@ atomicwrites
 attrs
 audioread
 authlib
+autocommand
 autograd
 autopep8
 axial-positional-embedding
@@ -58,6 +59,7 @@ azure-eventhub
 babel
 backcall
 backoff
+backports-tarfile
 base58
 bcrypt
 beautifulsoup4
@@ -326,6 +328,10 @@ isodate
 isoduration
 itsdangerous
 jaraco-classes
+jaraco-collections
+jaraco-context
+jaraco-functools
+jaraco-text
 jax
 jax-jumpy
 jaxlib

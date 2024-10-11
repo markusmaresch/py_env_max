@@ -1,4 +1,4 @@
-rem 2024-10-11T20:20:11.004485+00:00
+rem 2024-10-11T21:39:31.691159+00:00
 rem Level 3
 pip install "aiohttp>=3.10.10"
 pip install "albucore>=0.0.17"
@@ -26,7 +26,7 @@ pip install "cons>=0.4.6"
 pip install "coremltools>=7.2"
 pip check
 pip install "croniter>=3.0.3"
-pip install "cryptography>=42.0.8"
+pip install "cryptography>=43.0.1"
 pip install "cssselect2>=0.7.0"
 pip check
 pip install "dask>=2024.4.2"
@@ -73,6 +73,7 @@ pip install "imagehash>=4.3.1"
 pip install "int-date>=0.2.0"
 pip install "intrinio-sdk>=6.31.0"
 pip check
+pip install "jaraco-text>=4.0.0"
 pip install "jaxlib>=0.4.34"
 pip install "jsonschema-specifications>=2024.10.1"
 pip install "jupyter-client>=8.6.3"
@@ -91,6 +92,7 @@ pip install "mdit-py-plugins>=0.4.2"
 pip install "miniful>=0.0.6"
 pip install "minimal-snowplow-tracker>=0.0.2"
 pip install "mixpanel>=4.10.1"
+pip install "mkl>=2024.2.2"
 pip check
 pip install "netcdf4>=1.7.1"
 pip install "nltk>=3.9.1"

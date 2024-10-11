@@ -1,8 +1,8 @@
-rem 2024-10-11T20:20:11.004485+00:00
+rem 2024-10-11T21:39:31.691159+00:00
 rem Level 5
 pip install "altair>=5.4.1"
 pip check
-pip install "boto3>=1.35.38"
+pip install "boto3>=1.35.39"
 pip install "category-encoders>=2.6.4"
 pip install "cornac>=2.2.2"
 pip install "cvxpy>=1.5.3"
@@ -42,7 +42,7 @@ pip install "transformers>=4.45.2"
 pip install "twint>=2.1.20"
 pip check
 pip install "umap-learn>=0.5.6"
-pip install "weasel>=0.3.4"
+pip install "weasel>=0.4.1"
 pip check
 pip install "xarray-einstats>=0.8.0"
 pip check

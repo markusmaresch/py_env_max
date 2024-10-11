@@ -1,4 +1,4 @@
-rem 2024-10-11T20:20:11.004485+00:00
+rem 2024-10-11T21:39:31.691159+00:00
 rem Level 4
 pip install "aiodns>=3.2.0"
 pip install "aiohttp-cors>=0.7.0"
@@ -41,6 +41,7 @@ pip install "inflect>=7.0.0"
 pip install "ipython>=8.28.0"
 pip install "isoduration>=20.11.0"
 pip check
+pip install "jaraco-collections>=5.1.0"
 pip install "jax>=0.4.34"
 pip install "jsonschema>=4.23.0"
 pip install "jupyter-ydoc>=2.1.2"

@@ -26,10 +26,12 @@ asynctest
 atomicwrites
 attrs
 audioread
+autocommand
 azure-common
 babel
 backcall
 backoff
+backports-tarfile
 base58
 bcrypt
 billiard
@@ -143,9 +145,9 @@ importlib-resources
 imutils
 iniconfig
 intel-cmplr-lib-ur
-intel-openmp
 ipython-genutils
 iso8601
+isodate
 itsdangerous
 jdcal
 jeepney
@@ -202,6 +204,7 @@ okgrade
 olefile
 opencensus-context
 openvino-telemetry
+opt-einsum
 optional-django
 orjson
 overrides
@@ -457,9 +460,11 @@ imageio
 imageio-ffmpeg
 importlab
 importlib-metadata
+intel-openmp
 intervaltree
-isodate
 jaraco-classes
+jaraco-context
+jaraco-functools
 jax-jumpy
 jedi
 jinja2
@@ -480,7 +485,6 @@ marshmallow
 mashumaro
 matplotlib-inline
 memory-profiler
-mkl
 ml-dtypes
 mlagents-envs
 multiprocess
@@ -492,7 +496,6 @@ onnx
 opencv-python
 opencv-python-headless
 openvino
-opt-einsum
 optree
 outcome
 pandas-stubs
@@ -627,6 +630,7 @@ imagecodecs-lite
 imagehash
 int-date
 intrinio-sdk
+jaraco-text
 jaxlib
 jsonschema-specifications
 jupyter-client
@@ -642,6 +646,7 @@ mdit-py-plugins
 miniful
 minimal-snowplow-tracker
 mixpanel
+mkl
 netcdf4
 nltk
 oauth2client
@@ -724,6 +729,7 @@ google-auth-oauthlib
 inflect
 ipython
 isoduration
+jaraco-collections
 jax
 jsonschema
 jupyter-ydoc
