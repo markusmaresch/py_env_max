@@ -4,6 +4,7 @@ aenum
 affine
 affinegap
 aiofiles
+aiohappyeyeballs
 alabaster
 altgraph
 annotated-types
@@ -83,6 +84,7 @@ dill
 distlib
 dlib
 dm-tree
+docstring-parser
 docutils
 einops
 emoji
@@ -90,6 +92,7 @@ entrypoints
 ephem
 et-xmlfile
 etils
+eval-type-backport
 exceptiongroup
 executing
 fake-useragent
@@ -139,6 +142,7 @@ immutabledict
 importlib-resources
 imutils
 iniconfig
+intel-cmplr-lib-ur
 intel-openmp
 ipython-genutils
 iso8601
@@ -185,6 +189,7 @@ multitasking
 murmurhash
 mypy-extensions
 namex
+narwhals
 natsort
 ndindex
 nest-asyncio
@@ -220,6 +225,7 @@ platformdirs
 pluggy
 ply
 prometheus-client
+propcache
 protobuf
 psutil
 psycopg2-binary
@@ -239,7 +245,6 @@ pycairo
 pyclipper
 pycodestyle
 pycparser
-pycrdt
 pycryptodome
 pycryptodomex
 pydeprecate
@@ -460,7 +465,6 @@ jedi
 jinja2
 jinxed
 jupyter-core
-jupyter-ydoc
 keras-preprocessing
 lazy-loader
 libcst
@@ -530,6 +534,7 @@ rsa
 scipy
 sentry-sdk
 shapely
+simple-parsing
 simplecosine
 soxr
 sphinx-markdown-tables
@@ -561,6 +566,7 @@ yaspin
 zope-deprecation
 zope-interface
 aiohttp
+albucore
 argon2-cffi-bindings
 arrow
 azure-core
@@ -621,7 +627,7 @@ imagecodecs-lite
 imagehash
 int-date
 intrinio-sdk
-jax
+jaxlib
 jsonschema-specifications
 jupyter-client
 jupyter-server-terminals
@@ -643,7 +649,6 @@ onnxconverter-common
 pandas
 pandoc
 params-flow
-persistent
 pettingzoo
 pip-tools
 pooch
@@ -651,6 +656,7 @@ proglog
 progressbar2
 pyanalyze
 pycares
+pycrdt
 pydantic
 pynacl
 pyramid
@@ -683,6 +689,7 @@ xgboost
 yahoofinancials
 ypy-websocket
 zarr
+zope-proxy
 aiodns
 aiohttp-cors
 aiohttp-socks
@@ -693,7 +700,6 @@ authlib
 axial-positional-embedding
 azure-eventhub
 bokeh
-btrees
 catboost
 cmdstanpy
 confection
@@ -718,7 +724,9 @@ google-auth-oauthlib
 inflect
 ipython
 isoduration
+jax
 jsonschema
+jupyter-ydoc
 keras
 langcodes
 local-attention
@@ -775,6 +783,7 @@ visions
 wordcloud
 xarray
 zeep
+zope-deferredimport
 altair
 boto3
 category-encoders
@@ -792,6 +801,7 @@ missingno
 nbformat
 pandas-market-calendars
 performer-pytorch
+persistent
 plotnine
 pmdarima
 prophet
@@ -810,7 +820,7 @@ twint
 umap-learn
 weasel
 xarray-einstats
-zope-index
+btrees
 dask-ml
 jupyter-console
 nbclient
@@ -819,6 +829,7 @@ spacy
 tensorflow
 nbconvert
 tf-keras
+zope-index
 jupyter-server
 tensorflow-hub
 jupyter-lsp

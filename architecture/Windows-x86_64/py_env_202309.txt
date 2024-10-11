@@ -6,6 +6,7 @@ affine
 affinegap
 aiodns
 aiofiles
+aiohappyeyeballs
 aiohttp
 aiohttp-cors
 aiohttp-socks
@@ -13,6 +14,7 @@ aioredis
 aiosignal
 aiosqlite
 alabaster
+albucore
 albumentations
 alpha-vantage
 altair
@@ -185,6 +187,7 @@ djangorestframework
 dlib
 dm-tree
 docker
+docstring-parser
 docutils
 ecos
 einops
@@ -196,6 +199,7 @@ ephem
 et-xmlfile
 etils
 etuples
+eval-type-backport
 eventkit
 exceptiongroup
 exchange-calendars
@@ -309,6 +313,7 @@ imutils
 inflect
 iniconfig
 int-date
+intel-cmplr-lib-ur
 intel-openmp
 intervaltree
 intrinio-sdk
@@ -323,6 +328,7 @@ itsdangerous
 jaraco-classes
 jax
 jax-jumpy
+jaxlib
 jdcal
 jedi
 jeepney
@@ -421,6 +427,7 @@ murmurhash
 music21
 mypy-extensions
 namex
+narwhals
 natsort
 nbclassic
 nbclient
@@ -517,6 +524,7 @@ prometheus-client
 prometheus-flask-exporter
 promise
 prompt-toolkit
+propcache
 prophet
 proto-plus
 protobuf
@@ -659,6 +667,7 @@ shellingham
 shortuuid
 simpervisor
 simpful
+simple-parsing
 simplecosine
 simplejson
 six
@@ -823,8 +832,10 @@ zarr
 zeep
 zict
 zipp
+zope-deferredimport
 zope-deprecation
 zope-index
 zope-interface
+zope-proxy
 zstandard
 zstd
