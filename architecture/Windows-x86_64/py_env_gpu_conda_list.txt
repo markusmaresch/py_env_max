@@ -401,4 +401,4 @@ xz                        5.4.6                h8cc25b3_1
 yarl                      1.9.4                    pypi_0    pypi
 yoctopuce                 2.0.62875                pypi_0    pypi
 zipp                      3.20.2                   pypi_0    pypi
-zlib                      1.2.13               h8cc25b3_1  
+zlib                      1.2.13               h8cc25b3_1
