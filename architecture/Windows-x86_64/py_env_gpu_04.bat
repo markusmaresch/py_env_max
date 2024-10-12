@@ -1,4 +1,4 @@
-rem 2024-10-04T16:16:42.631055+00:00
+rem 2024-10-12T20:14:15.966583+00:00
 rem Level 4
 pip install "albumentations>=1.4.8"
 pip install "argon2-cffi>=23.1.0"
@@ -40,9 +40,9 @@ pip check
 pip install "qudida>=0.0.4"
 pip install "replicate>=0.26.0"
 pip check
-pip install "torchaudio>=2.3.0+cu121"
+pip install "torchaudio>=2.4.1+cu124"
 pip install "torchmetrics>=1.4.1"
-pip install "torchvision>=0.18.0+cu121"
+pip install "torchvision>=0.19.1+cu124"
 pip install "typer>=0.12.3"
 pip check
 pip install "wandb>=0.17.0"

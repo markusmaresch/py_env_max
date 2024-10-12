@@ -363,10 +363,10 @@ dependencies:
       - toml==0.10.2
       - tomli==2.0.1
       - toolz==0.12.1
-      - torch==2.3.0+cu121
-      - torchaudio==2.3.0+cu121
+      - torch==2.4.1+cu124
+      - torchaudio==2.4.1+cu124
       - torchmetrics==1.4.1
-      - torchvision==0.18.0+cu121
+      - torchvision==0.19.1+cu124
       - tornado==6.4.1
       - tqdm==4.66.4
       - traitlets==5.14.3

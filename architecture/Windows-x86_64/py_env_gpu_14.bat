@@ -1,4 +1,4 @@
-rem 2024-10-04T16:16:42.631055+00:00
+rem 2024-10-12T20:14:15.966583+00:00
 rem Level 14
 pip install "jupyter-contrib-nbextensions>=0.7.0"
 pip check

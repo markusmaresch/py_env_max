@@ -1,4 +1,4 @@
-rem 2024-10-04T16:16:42.631055+00:00
+rem 2024-10-12T20:14:15.966583+00:00
 rem Level 1
 pip install "absl-py>=2.1.0"
 pip install "aiofiles>=23.2.1"
@@ -348,7 +348,7 @@ pip install "strawberry-graphql>=0.235.0"
 pip check
 pip install "tensorboard>=2.17.1"
 pip install "tiktoken>=0.7.0"
-pip install "torch>=2.3.0+cu121"
+pip install "torch>=2.4.1+cu124"
 pip check
 pip install "uvicorn>=0.30.1"
 pip install "watchfiles>=0.22.0"
@@ -395,9 +395,9 @@ pip check
 pip install "qudida>=0.0.4"
 pip install "replicate>=0.26.0"
 pip check
-pip install "torchaudio>=2.3.0+cu121"
+pip install "torchaudio>=2.4.1+cu124"
 pip install "torchmetrics>=1.4.1"
-pip install "torchvision>=0.18.0+cu121"
+pip install "torchvision>=0.19.1+cu124"
 pip install "typer>=0.12.3"
 pip check
 pip install "wandb>=0.17.0"
