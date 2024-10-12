@@ -1,5 +1,6 @@
 absl-py
 aiofiles
+aiohappyeyeballs
 aiohttp
 aioitertools
 aiosignal
@@ -20,7 +21,9 @@ arrow
 asttokens
 async-lru
 attrs
+autocommand
 babel
+backports-tarfile
 beautifulsoup4
 bidict
 bleach
@@ -101,7 +104,6 @@ grpcio
 grpcio-status
 h11
 h5py
-hdbscan
 httpcore
 httplib2
 httptools
@@ -112,17 +114,23 @@ idna
 ifaddr
 imageio
 importlib-metadata
+importlib-resources
 imutils
+inflect
 iniconfig
+intel-cmplr-lib-ur
 intel-openmp
 ipykernel
 ipython
 ipython-genutils
 isoduration
 itsdangerous
+jaraco-collections
+jaraco-context
+jaraco-functools
+jaraco-text
 jax
 jaxlib
-jaxtyping
 jedi
 jinja2
 jmespath
@@ -197,6 +205,7 @@ mdurl
 mistune
 mkl
 ml-dtypes
+more-itertools
 mpmath
 multidict
 multiprocess
@@ -251,6 +260,7 @@ ply
 preshed
 prometheus-client
 prompt-toolkit
+propcache
 proto-plus
 protobuf
 pscript
@@ -362,7 +372,6 @@ typing-inspect
 tzdata
 tzlocal
 ujson
-uni2ts
 uri-template
 uritemplate
 urllib3

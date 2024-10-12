@@ -1,4 +1,4 @@
-rem 2024-10-12T21:12:43.030481+00:00
+rem 2024-10-12T22:05:01.676406+00:00
 rem Level 5
 pip install "altair>=5.3.0"
 pip check
@@ -11,6 +11,7 @@ pip install "google-cloud-secret-manager>=2.20.2"
 pip install "google-cloud-vision>=3.7.2"
 pip check
 pip install "ipykernel>=6.29.4"
+pip install "jaraco-collections>=5.1.0"
 pip install "jupyter-events>=0.10.0"
 pip check
 pip install "langchain-core>=0.1.52"
