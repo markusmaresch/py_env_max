@@ -7,7 +7,6 @@ antlr4-python3-runtime
 appdirs
 async-lru
 attrs
-autocommand
 babel
 backports-tarfile
 bidict
@@ -311,7 +310,6 @@ google-auth-httplib2
 google-auth-oauthlib
 ipython
 isoduration
-jaraco-text
 jax
 jsonschema
 kubernetes
@@ -341,7 +339,6 @@ google-cloud-resource-manager
 google-cloud-secret-manager
 google-cloud-vision
 ipykernel
-jaraco-collections
 jupyter-events
 langchain-core
 llama-index-core
@@ -369,7 +366,6 @@ llama-index-llms-openai
 llama-index-readers-file
 llama-parse
 nbclient
-nicegui
 opentelemetry-exporter-otlp-proto-grpc
 opentelemetry-exporter-otlp-proto-http
 spacy

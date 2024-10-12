@@ -1,4 +1,4 @@
-rem 2024-10-12T22:05:01.676406+00:00
+rem 2024-10-12T22:24:24.730161+00:00
 rem Level 1
 pip install "absl-py>=2.1.0"
 pip install "aiofiles>=24.1.0"
@@ -9,7 +9,6 @@ pip install "antlr4-python3-runtime>=4.9.3"
 pip install "appdirs>=1.4.4"
 pip install "async-lru>=2.0.4"
 pip install "attrs>=24.2.0"
-pip install "autocommand>=2.2.2"
 pip check
 pip install "babel>=2.16.0"
 pip install "backports-tarfile>=1.2.0"

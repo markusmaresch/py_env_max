@@ -1,4 +1,4 @@
-rem 2024-10-12T22:05:01.676406+00:00
+rem 2024-10-12T22:24:24.730161+00:00
 rem Level 4
 pip install "albumentations>=1.4.8"
 pip install "argon2-cffi>=23.1.0"
@@ -19,7 +19,6 @@ pip check
 pip install "ipython>=8.25.0"
 pip install "isoduration>=20.11.0"
 pip check
-pip install "jaraco-text>=3.12.1"
 pip install "jax>=0.4.31"
 pip install "jsonschema>=4.22.0"
 pip check

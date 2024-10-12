@@ -21,7 +21,6 @@ arrow
 asttokens
 async-lru
 attrs
-autocommand
 babel
 backports-tarfile
 beautifulsoup4
@@ -125,10 +124,8 @@ ipython
 ipython-genutils
 isoduration
 itsdangerous
-jaraco-collections
 jaraco-context
 jaraco-functools
-jaraco-text
 jax
 jaxlib
 jedi
@@ -216,7 +213,6 @@ nbconvert
 nbformat
 nest-asyncio
 networkx
-nicegui
 nltk
 notebook
 notebook-shim

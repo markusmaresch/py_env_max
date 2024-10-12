@@ -1,4 +1,4 @@
-rem 2024-10-12T22:05:01.676406+00:00
+rem 2024-10-12T22:24:24.730161+00:00
 rem Level 1
 pip install "absl-py>=2.1.0"
 pip install "aiofiles>=24.1.0"
@@ -9,7 +9,6 @@ pip install "antlr4-python3-runtime>=4.9.3"
 pip install "appdirs>=1.4.4"
 pip install "async-lru>=2.0.4"
 pip install "attrs>=24.2.0"
-pip install "autocommand>=2.2.2"
 pip check
 pip install "babel>=2.16.0"
 pip install "backports-tarfile>=1.2.0"
@@ -384,7 +383,6 @@ pip check
 pip install "ipython>=8.25.0"
 pip install "isoduration>=20.11.0"
 pip check
-pip install "jaraco-text>=3.12.1"
 pip install "jax>=0.4.31"
 pip install "jsonschema>=4.22.0"
 pip check
@@ -425,7 +423,6 @@ pip install "google-cloud-secret-manager>=2.20.2"
 pip install "google-cloud-vision>=3.7.2"
 pip check
 pip install "ipykernel>=6.29.4"
-pip install "jaraco-collections>=5.1.0"
 pip install "jupyter-events>=0.10.0"
 pip check
 pip install "langchain-core>=0.1.52"
@@ -462,8 +459,6 @@ pip install "llama-index-readers-file>=0.1.22"
 pip install "llama-parse>=0.4.3"
 pip check
 pip install "nbclient>=0.10.0"
-pip install "nicegui>=1.4.25"
-pip check
 pip install "opentelemetry-exporter-otlp-proto-grpc>=1.25.0"
 pip install "opentelemetry-exporter-otlp-proto-http>=1.25.0"
 pip check

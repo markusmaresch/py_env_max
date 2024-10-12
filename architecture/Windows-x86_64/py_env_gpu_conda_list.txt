@@ -219,7 +219,6 @@ nbconvert                 7.16.4                   pypi_0    pypi
 nbformat                  5.10.4                   pypi_0    pypi
 nest-asyncio              1.6.0                    pypi_0    pypi
 networkx                  3.4.1                    pypi_0    pypi
-nicegui                   1.4.25                   pypi_0    pypi
 nltk                      3.8.1                    pypi_0    pypi
 notebook                  7.1.3                    pypi_0    pypi
 notebook-shim             0.2.4                    pypi_0    pypi
@@ -407,4 +406,4 @@ xz                        5.4.6                h8cc25b3_1
 yarl                      1.15.0                   pypi_0    pypi
 yoctopuce                 2.0.62875                pypi_0    pypi
 zipp                      3.20.2                   pypi_0    pypi
-zlib                      1.2.13               h8cc25b3_1  
+zlib                      1.2.13               h8cc25b3_1
