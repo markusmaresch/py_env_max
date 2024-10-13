@@ -1,4 +1,4 @@
-rem 2024-10-12T22:24:24.730161+00:00
+rem 2024-10-13T20:21:23.942194+00:00
 rem Level 1
 pip install "absl-py>=2.1.0"
 pip install "aiofiles>=24.1.0"
@@ -9,6 +9,7 @@ pip install "antlr4-python3-runtime>=4.9.3"
 pip install "appdirs>=1.4.4"
 pip install "async-lru>=2.0.4"
 pip install "attrs>=24.2.0"
+pip install "autocommand>=2.2.2"
 pip check
 pip install "babel>=2.16.0"
 pip install "backports-tarfile>=1.2.0"
@@ -34,9 +35,12 @@ pip install "diskcache>=5.6.3"
 pip install "distro>=1.9.0"
 pip install "dnspython>=2.7.0"
 pip install "docstring-parser>=0.16"
-pip install "docutils>=0.19"
+pip install "docutils>=0.21.2"
+pip check
+pip install "durationpy>=0.9"
 pip check
 pip install "einops>=0.8.0"
+pip install "eval-type-backport>=0.2.0"
 pip install "exceptiongroup>=1.2.2"
 pip install "executing>=2.1.0"
 pip check
@@ -45,10 +49,10 @@ pip install "filelock>=3.16.1"
 pip install "fonttools>=4.54.1"
 pip install "fqdn>=1.5.1"
 pip install "frozenlist>=1.4.1"
-pip install "fsspec>=2023.10.0"
+pip install "fsspec>=2023.12.1"
 pip check
 pip install "google-crc32c>=1.6.0"
-pip install "graphql-core>=3.2.4"
+pip install "graphql-core>=3.2.5"
 pip install "greenlet>=3.1.1"
 pip install "grpcio>=1.66.2"
 pip check
@@ -64,6 +68,7 @@ pip install "intel-cmplr-lib-ur>=2024.2.1"
 pip install "ipython-genutils>=0.2.0"
 pip install "itsdangerous>=2.2.0"
 pip check
+pip install "jiter>=0.6.1"
 pip install "jmespath>=1.0.1"
 pip install "joblib>=1.4.2"
 pip install "json5>=0.9.25"
@@ -89,6 +94,7 @@ pip install "murmurhash>=1.0.10"
 pip check
 pip install "mypy-extensions>=1.0.0"
 pip check
+pip install "narwhals>=1.9.3"
 pip install "nest-asyncio>=1.6.0"
 pip install "networkx>=3.4.1"
 pip install "numpy>=1.26.4"
@@ -122,7 +128,7 @@ pip install "pycparser>=2.22"
 pip install "pyflakes>=3.2.0"
 pip check
 pip install "pygments>=2.18.0"
-pip install "pyparsing>=3.1.4"
+pip install "pyparsing>=3.2.0"
 pip install "pypdf>=4.3.1"
 pip install "pypng>=0.20220715.0"
 pip install "pyqtree>=1.0.0"
@@ -199,7 +205,7 @@ rem Level 1
 rem Level 2
 pip install "aiosignal>=1.3.1"
 pip install "aiosqlite>=0.20.0"
-pip install "anyio>=4.6.0"
+pip install "anyio>=4.6.1"
 pip install "arena-api>=2.5.9"
 pip install "asttokens>=2.4.1"
 pip check
@@ -258,14 +264,14 @@ pip install "omegaconf>=2.3.0"
 pip install "opencv-contrib-python>=4.10.0.84"
 pip install "opencv-python>=4.10.0.84"
 pip install "opencv-python-headless>=4.10.0.84"
-pip install "opentelemetry-proto>=1.25.0"
+pip install "opentelemetry-proto>=1.27.0"
 pip check
 pip install "preshed>=3.0.9"
 pip install "prompt-toolkit>=3.0.48"
 pip install "proto-plus>=1.24.0"
 pip install "pyarrow>=17.0.0"
 pip install "pyasn1-modules>=0.4.1"
-pip install "pydantic-core>=2.18.4"
+pip install "pydantic-core>=2.23.4"
 pip install "pytest>=8.3.3"
 pip install "python-dateutil>=2.9.0.post0"
 pip check
@@ -298,7 +304,7 @@ pip install "wasabi>=1.1.3"
 pip install "werkzeug>=3.0.4"
 pip install "wsproto>=1.2.0"
 pip check
-pip install "yarl>=1.15.0"
+pip install "yarl>=1.15.1"
 pip check
 rem Level 2
 rem Level 3
@@ -324,119 +330,119 @@ pip install "huggingface-hub>=0.25.2"
 pip install "hydra-core>=1.3.2"
 pip check
 pip install "inflect>=7.4.0"
-pip install "jaxlib>=0.4.31"
+pip install "jaraco-text>=4.0.0"
+pip install "jaxlib>=0.4.34"
 pip install "jsonschema-specifications>=2024.10.1"
 pip install "jupyter-client>=8.6.3"
 pip install "jupyter-server-terminals>=0.5.3"
 pip check
 pip install "kfp-server-api>=2.0.5"
 pip install "language-data>=1.2.0"
-pip install "llama-cpp-python>=0.2.78"
+pip install "llama-cpp-python>=0.3.1"
 pip check
-pip install "matplotlib>=3.9.0"
+pip install "matplotlib>=3.9.2"
 pip install "mkl>=2024.2.2"
 pip check
-pip install "nltk>=3.8.1"
-pip install "opentelemetry-api>=1.25.0"
-pip install "opentelemetry-exporter-otlp-proto-common>=1.25.0"
+pip install "nltk>=3.9.1"
+pip install "opentelemetry-api>=1.27.0"
+pip install "opentelemetry-exporter-otlp-proto-common>=1.27.0"
 pip check
-pip install "pandas>=2.1.4"
-pip install "pydantic>=2.7.4"
+pip install "pandas>=2.2.3"
+pip install "pydantic>=2.9.2"
 pip install "pydeck>=0.9.1"
 pip check
 pip install "requests-oauthlib>=2.0.0"
 pip install "requests-toolbelt>=0.10.1"
-pip install "rich>=13.7.1"
+pip install "rich>=13.9.2"
 pip check
-pip install "scikit-image>=0.23.2"
-pip install "scikit-learn>=1.5.0"
-pip install "simple-websocket>=1.0.0"
+pip install "scikit-image>=0.24.0"
+pip install "scikit-learn>=1.5.2"
+pip install "simple-websocket>=1.1.0"
 pip install "stack-data>=0.6.3"
-pip install "starlette>=0.36.3"
-pip install "strawberry-graphql>=0.235.0"
+pip install "starlette>=0.39.2"
+pip install "strawberry-graphql>=0.246.2"
 pip check
-pip install "tensorboard>=2.17.1"
-pip install "tiktoken>=0.7.0"
+pip install "tensorboard>=2.18.0"
+pip install "tiktoken>=0.8.0"
 pip install "torch>=2.4.1+cu124"
 pip check
-pip install "uvicorn>=0.30.1"
-pip install "watchfiles>=0.22.0"
+pip install "uvicorn>=0.31.1"
+pip install "watchfiles>=0.24.0"
 pip check
 rem Level 3
 rem Level 4
-pip install "albumentations>=1.4.8"
+pip install "albumentations>=1.4.18"
 pip install "argon2-cffi>=23.1.0"
-pip install "arize-phoenix-evals>=0.14.1"
+pip install "arize-phoenix-evals>=0.17.0"
 pip check
 pip install "braincube-connector>=2.6.0"
 pip install "confection>=0.1.5"
 pip check
-pip install "datasets>=2.17.1"
+pip install "datasets>=3.0.1"
 pip install "db-dtypes>=1.3.0"
 pip check
-pip install "fastapi>=0.109.2"
+pip install "fastapi>=0.115.2"
 pip install "gluonts>=0.15.1"
-pip install "google-api-core>=2.19.0"
+pip install "google-api-core>=2.21.0"
 pip install "google-auth-httplib2>=0.2.0"
-pip install "google-auth-oauthlib>=1.2.0"
+pip install "google-auth-oauthlib>=1.2.1"
 pip check
-pip install "ipython>=8.25.0"
+pip install "ipython>=8.28.0"
 pip install "isoduration>=20.11.0"
 pip check
-pip install "jax>=0.4.31"
-pip install "jsonschema>=4.22.0"
+pip install "jaraco-collections>=5.1.0"
+pip install "jax>=0.4.34"
+pip install "jsonschema>=4.23.0"
 pip check
 pip install "kubernetes>=26.1.0"
-pip install "langcodes>=3.4.0"
-pip install "langsmith>=0.1.77"
+pip install "langcodes>=3.4.1"
+pip install "langsmith>=0.1.126"
+pip install "llama-cloud>=0.1.2"
 pip install "llamaindex-py-client>=0.1.19"
 pip check
-pip install "ollama>=0.2.1"
-pip install "openai>=1.34.0"
-pip install "openinference-instrumentation>=0.1.8"
-pip install "opentelemetry-instrumentation>=0.46b0"
-pip install "opentelemetry-semantic-conventions>=0.46b0"
+pip install "ollama>=0.3.3"
+pip install "openai>=1.51.2"
+pip install "opentelemetry-instrumentation>=0.48b0"
+pip install "opentelemetry-semantic-conventions>=0.48b0"
 pip check
+pip install "pydantic-settings>=2.5.2"
 pip install "python-engineio>=4.9.1"
-pip install "pythonnet>=3.0.3"
+pip install "pythonnet>=3.0.4"
 pip check
 pip install "qudida>=0.0.4"
-pip install "replicate>=0.26.0"
+pip install "replicate>=1.0.1"
 pip check
 pip install "torchaudio>=2.4.1+cu124"
-pip install "torchmetrics>=1.4.1"
+pip install "torchmetrics>=1.4.3"
 pip install "torchvision>=0.19.1+cu124"
-pip install "typer>=0.12.3"
+pip install "typer>=0.12.5"
 pip check
-pip install "wandb>=0.17.0"
+pip install "wandb>=0.18.3"
 pip check
 rem Level 4
 rem Level 5
-pip install "altair>=5.3.0"
+pip install "altair>=5.4.1"
 pip check
-pip install "fastapi-cli>=0.0.3"
+pip install "fastapi-cli>=0.0.5"
 pip install "google-api-python-client>=2.135.0"
-pip install "google-cloud-compute>=1.19.0"
+pip install "google-cloud-compute>=1.19.2"
 pip install "google-cloud-core>=2.4.1"
-pip install "google-cloud-resource-manager>=1.12.3"
+pip install "google-cloud-resource-manager>=1.12.5"
 pip install "google-cloud-secret-manager>=2.20.2"
-pip install "google-cloud-vision>=3.7.2"
+pip install "google-cloud-vision>=3.7.4"
 pip check
-pip install "ipykernel>=6.29.4"
+pip install "ipykernel>=6.29.5"
 pip install "jupyter-events>=0.10.0"
 pip check
 pip install "langchain-core>=0.1.52"
-pip install "llama-index-core>=0.10.36"
+pip install "llama-index-core>=0.10.59"
 pip install "llama-index-legacy>=0.9.48"
 pip check
 pip install "nbformat>=5.10.4"
-pip install "openinference-instrumentation-langchain>=0.1.22"
-pip install "openinference-instrumentation-llama-index>=2.1.0"
-pip install "openinference-instrumentation-openai>=0.1.8"
-pip install "opentelemetry-sdk>=1.25.0"
+pip install "opentelemetry-sdk>=1.27.0"
 pip check
 pip install "pydata-google-auth>=1.8.2"
-pip install "python-socketio>=5.11.2"
+pip install "python-socketio>=5.11.4"
 pip install "pytorch-lightning>=2.4.0"
 pip check
 pip install "thinc>=8.2.3"
@@ -444,67 +450,71 @@ pip install "weasel>=0.4.1"
 pip check
 rem Level 5
 rem Level 6
-pip install "google-cloud-bigquery>=3.22.0"
-pip install "google-cloud-storage>=2.16.0"
+pip install "google-cloud-bigquery>=3.26.0"
+pip install "google-cloud-storage>=2.18.2"
 pip check
 pip install "langchain-community>=0.0.38"
 pip install "langchain-openai>=0.1.6"
 pip install "langchain-text-splitters>=0.0.1"
 pip install "lightning>=2.4.0"
 pip install "llama-index-embeddings-openai>=0.1.9"
-pip install "llama-index-indices-managed-llama-cloud>=0.1.6"
-pip install "llama-index-llms-ollama>=0.1.3"
-pip install "llama-index-llms-openai>=0.1.19"
-pip install "llama-index-readers-file>=0.1.22"
-pip install "llama-parse>=0.4.3"
+pip install "llama-index-indices-managed-llama-cloud>=0.2.7"
+pip install "llama-index-llms-ollama>=0.1.6"
+pip install "llama-index-llms-openai>=0.1.29"
+pip install "llama-index-readers-file>=0.1.28"
+pip install "llama-parse>=0.4.9"
 pip check
 pip install "nbclient>=0.10.0"
-pip install "opentelemetry-exporter-otlp-proto-grpc>=1.25.0"
-pip install "opentelemetry-exporter-otlp-proto-http>=1.25.0"
+pip install "openinference-instrumentation>=0.1.18"
+pip install "opentelemetry-exporter-otlp-proto-grpc>=1.27.0"
+pip install "opentelemetry-exporter-otlp-proto-http>=1.27.0"
 pip check
-pip install "spacy>=3.7.5"
-pip install "streamlit>=1.34.0"
+pip install "spacy>=3.8.0"
+pip install "streamlit>=1.39.0"
 pip check
 rem Level 6
 rem Level 7
-pip install "google-cloud-aiplatform>=1.51.0"
+pip install "google-cloud-aiplatform>=1.70.0"
 pip check
 pip install "kfp>=2.7.0"
 pip install "langchain>=0.1.20"
-pip install "llama-index-agent-openai>=0.2.5"
-pip install "llama-index-cli>=0.1.12"
-pip install "llama-index-multi-modal-llms-openai>=0.1.6"
-pip install "llama-index-readers-llama-parse>=0.1.4"
+pip install "llama-index-agent-openai>=0.2.6"
+pip install "llama-index-cli>=0.1.13"
+pip install "llama-index-multi-modal-llms-openai>=0.1.8"
+pip install "llama-index-readers-llama-parse>=0.1.6"
 pip check
 pip install "nbconvert>=7.16.4"
-pip install "opentelemetry-exporter-otlp>=1.25.0"
+pip install "openinference-instrumentation-langchain>=0.1.28"
+pip install "openinference-instrumentation-llama-index>=3.0.2"
+pip install "openinference-instrumentation-openai>=0.1.14"
+pip install "opentelemetry-exporter-otlp>=1.27.0"
 pip check
-pip install "pandas-gbq>=0.23.1"
+pip install "pandas-gbq>=0.23.2"
 pip check
 rem Level 7
 rem Level 8
-pip install "google-cloud-pipeline-components>=2.14.0"
+pip install "google-cloud-pipeline-components>=2.17.0"
 pip check
-pip install "jupyter-server>=2.14.0"
-pip install "llama-index-program-openai>=0.1.6"
+pip install "jupyter-server>=2.14.2"
+pip install "llama-index-program-openai>=0.1.7"
 pip check
 rem Level 8
 rem Level 9
 pip install "jupyter-lsp>=2.2.5"
-pip install "jupyterlab-server>=2.27.1"
+pip install "jupyterlab-server>=2.27.3"
 pip check
 pip install "llama-index-question-gen-openai>=0.1.3"
 pip install "notebook-shim>=0.2.4"
 pip check
 rem Level 9
 rem Level 10
-pip install "jupyterlab>=4.1.8"
+pip install "jupyterlab>=4.2.5"
 pip check
-pip install "llama-index>=0.10.37"
+pip install "llama-index>=0.10.59"
 pip check
 rem Level 10
 rem Level 11
-pip install "notebook>=7.1.3"
+pip install "notebook>=7.2.2"
 pip check
 rem Level 11
 rem Level 12
@@ -512,7 +522,7 @@ pip install "jupyter-contrib-core>=0.4.2"
 pip check
 rem Level 12
 rem Level 13
-pip install "jupyter-nbextensions-configurator>=0.6.3"
+pip install "jupyter-nbextensions-configurator>=0.6.4"
 pip check
 rem Level 13
 rem Level 14

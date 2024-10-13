@@ -21,6 +21,7 @@ arrow
 asttokens
 async-lru
 attrs
+autocommand
 babel
 backports-tarfile
 beautifulsoup4
@@ -61,8 +62,10 @@ dnspython
 docker-pycreds
 docstring-parser
 docutils
+durationpy
 einops
 email-validator
+eval-type-backport
 exceptiongroup
 executing
 fastapi
@@ -124,12 +127,15 @@ ipython
 ipython-genutils
 isoduration
 itsdangerous
+jaraco-collections
 jaraco-context
 jaraco-functools
+jaraco-text
 jax
 jaxlib
 jedi
 jinja2
+jiter
 jmespath
 joblib
 json-numpy
@@ -168,6 +174,7 @@ language-data
 lazy-loader
 lightning
 lightning-utilities
+llama-cloud
 llama-cpp-python
 llama-index
 llama-index-agent-openai
@@ -208,6 +215,7 @@ multidict
 multiprocess
 murmurhash
 mypy-extensions
+narwhals
 nbclient
 nbconvert
 nbformat
@@ -270,6 +278,7 @@ pycodestyle
 pycparser
 pydantic
 pydantic-core
+pydantic-settings
 pydata-google-auth
 pydeck
 pyflakes

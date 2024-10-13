@@ -1,8 +1,8 @@
-rem 2024-10-12T22:24:24.730161+00:00
+rem 2024-10-13T20:21:23.942194+00:00
 rem Level 2
 pip install "aiosignal>=1.3.1"
 pip install "aiosqlite>=0.20.0"
-pip install "anyio>=4.6.0"
+pip install "anyio>=4.6.1"
 pip install "arena-api>=2.5.9"
 pip install "asttokens>=2.4.1"
 pip check
@@ -61,14 +61,14 @@ pip install "omegaconf>=2.3.0"
 pip install "opencv-contrib-python>=4.10.0.84"
 pip install "opencv-python>=4.10.0.84"
 pip install "opencv-python-headless>=4.10.0.84"
-pip install "opentelemetry-proto>=1.25.0"
+pip install "opentelemetry-proto>=1.27.0"
 pip check
 pip install "preshed>=3.0.9"
 pip install "prompt-toolkit>=3.0.48"
 pip install "proto-plus>=1.24.0"
 pip install "pyarrow>=17.0.0"
 pip install "pyasn1-modules>=0.4.1"
-pip install "pydantic-core>=2.18.4"
+pip install "pydantic-core>=2.23.4"
 pip install "pytest>=8.3.3"
 pip install "python-dateutil>=2.9.0.post0"
 pip check
@@ -101,6 +101,6 @@ pip install "wasabi>=1.1.3"
 pip install "werkzeug>=3.0.4"
 pip install "wsproto>=1.2.0"
 pip check
-pip install "yarl>=1.15.0"
+pip install "yarl>=1.15.1"
 pip check
 rem Level 2

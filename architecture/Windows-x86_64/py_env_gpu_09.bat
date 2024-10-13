@@ -1,7 +1,7 @@
-rem 2024-10-12T22:24:24.730161+00:00
+rem 2024-10-13T20:21:23.942194+00:00
 rem Level 9
 pip install "jupyter-lsp>=2.2.5"
-pip install "jupyterlab-server>=2.27.1"
+pip install "jupyterlab-server>=2.27.3"
 pip check
 pip install "llama-index-question-gen-openai>=0.1.3"
 pip install "notebook-shim>=0.2.4"

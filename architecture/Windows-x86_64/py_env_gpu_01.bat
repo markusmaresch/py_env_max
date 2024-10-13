@@ -1,4 +1,4 @@
-rem 2024-10-12T22:24:24.730161+00:00
+rem 2024-10-13T20:21:23.942194+00:00
 rem Level 1
 pip install "absl-py>=2.1.0"
 pip install "aiofiles>=24.1.0"
@@ -9,6 +9,7 @@ pip install "antlr4-python3-runtime>=4.9.3"
 pip install "appdirs>=1.4.4"
 pip install "async-lru>=2.0.4"
 pip install "attrs>=24.2.0"
+pip install "autocommand>=2.2.2"
 pip check
 pip install "babel>=2.16.0"
 pip install "backports-tarfile>=1.2.0"
@@ -34,9 +35,12 @@ pip install "diskcache>=5.6.3"
 pip install "distro>=1.9.0"
 pip install "dnspython>=2.7.0"
 pip install "docstring-parser>=0.16"
-pip install "docutils>=0.19"
+pip install "docutils>=0.21.2"
+pip check
+pip install "durationpy>=0.9"
 pip check
 pip install "einops>=0.8.0"
+pip install "eval-type-backport>=0.2.0"
 pip install "exceptiongroup>=1.2.2"
 pip install "executing>=2.1.0"
 pip check
@@ -45,10 +49,10 @@ pip install "filelock>=3.16.1"
 pip install "fonttools>=4.54.1"
 pip install "fqdn>=1.5.1"
 pip install "frozenlist>=1.4.1"
-pip install "fsspec>=2023.10.0"
+pip install "fsspec>=2023.12.1"
 pip check
 pip install "google-crc32c>=1.6.0"
-pip install "graphql-core>=3.2.4"
+pip install "graphql-core>=3.2.5"
 pip install "greenlet>=3.1.1"
 pip install "grpcio>=1.66.2"
 pip check
@@ -64,6 +68,7 @@ pip install "intel-cmplr-lib-ur>=2024.2.1"
 pip install "ipython-genutils>=0.2.0"
 pip install "itsdangerous>=2.2.0"
 pip check
+pip install "jiter>=0.6.1"
 pip install "jmespath>=1.0.1"
 pip install "joblib>=1.4.2"
 pip install "json5>=0.9.25"
@@ -89,6 +94,7 @@ pip install "murmurhash>=1.0.10"
 pip check
 pip install "mypy-extensions>=1.0.0"
 pip check
+pip install "narwhals>=1.9.3"
 pip install "nest-asyncio>=1.6.0"
 pip install "networkx>=3.4.1"
 pip install "numpy>=1.26.4"
@@ -122,7 +128,7 @@ pip install "pycparser>=2.22"
 pip install "pyflakes>=3.2.0"
 pip check
 pip install "pygments>=2.18.0"
-pip install "pyparsing>=3.1.4"
+pip install "pyparsing>=3.2.0"
 pip install "pypdf>=4.3.1"
 pip install "pypng>=0.20220715.0"
 pip install "pyqtree>=1.0.0"
