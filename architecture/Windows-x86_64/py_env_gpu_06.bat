@@ -1,4 +1,4 @@
-rem 2024-10-13T21:00:17.364997+00:00
+rem 2024-10-13T21:29:12.574602+00:00
 rem Level 6
 pip install "google-cloud-bigquery>=3.26.0"
 pip install "google-cloud-storage>=2.18.2"
@@ -7,12 +7,10 @@ pip install "langchain-community>=0.0.38"
 pip install "langchain-openai>=0.1.6"
 pip install "langchain-text-splitters>=0.0.1"
 pip install "lightning>=2.4.0"
-pip install "llama-index-embeddings-openai>=0.1.9"
-pip install "llama-index-indices-managed-llama-cloud>=0.2.7"
-pip install "llama-index-llms-ollama>=0.1.6"
-pip install "llama-index-llms-openai>=0.1.29"
-pip install "llama-index-readers-file>=0.1.32"
-pip install "llama-parse>=0.4.9"
+pip install "llama-index-agent-openai>=0.3.4"
+pip install "llama-index-cli>=0.3.1"
+pip install "llama-index-multi-modal-llms-openai>=0.2.2"
+pip install "llama-index-readers-llama-parse>=0.3.0"
 pip check
 pip install "nbclient>=0.10.0"
 pip install "openinference-instrumentation>=0.1.18"

@@ -1,4 +1,4 @@
-rem 2024-10-13T21:00:17.364997+00:00
+rem 2024-10-13T21:29:12.574602+00:00
 rem Level 1
 pip install "absl-py>=2.1.0"
 pip install "aiofiles>=24.1.0"
@@ -49,7 +49,7 @@ pip install "filelock>=3.16.1"
 pip install "fonttools>=4.54.1"
 pip install "fqdn>=1.5.1"
 pip install "frozenlist>=1.4.1"
-pip install "fsspec>=2024.3.1"
+pip install "fsspec>=2024.6.0"
 pip check
 pip install "google-crc32c>=1.6.0"
 pip install "graphql-core>=3.2.5"
@@ -235,7 +235,7 @@ pip install "httpcore>=1.0.5"
 pip install "httplib2>=0.22.0"
 pip check
 pip install "imageio>=2.35.1"
-pip install "importlib-metadata>=8.1.0"
+pip install "importlib-metadata>=8.3.0"
 pip install "intel-openmp>=2024.2.1"
 pip check
 pip install "jaraco-context>=6.0.1"
@@ -398,6 +398,7 @@ pip install "kubernetes>=26.1.0"
 pip install "langcodes>=3.4.1"
 pip install "langsmith>=0.1.126"
 pip install "llama-cloud>=0.1.2"
+pip install "llama-index-core>=0.11.17"
 pip install "llamaindex-py-client>=0.1.19"
 pip check
 pip install "ollama>=0.3.3"
@@ -435,8 +436,13 @@ pip install "ipykernel>=6.29.5"
 pip install "jupyter-events>=0.10.0"
 pip check
 pip install "langchain-core>=0.1.52"
-pip install "llama-index-core>=0.10.59"
-pip install "llama-index-legacy>=0.9.48"
+pip install "llama-index-embeddings-openai>=0.2.5"
+pip install "llama-index-indices-managed-llama-cloud>=0.4.0"
+pip install "llama-index-legacy>=0.9.48.post3"
+pip install "llama-index-llms-ollama>=0.3.4"
+pip install "llama-index-llms-openai>=0.2.13"
+pip install "llama-index-readers-file>=0.2.2"
+pip install "llama-parse>=0.5.7"
 pip check
 pip install "nbformat>=5.10.4"
 pip install "opentelemetry-sdk>=1.27.0"
@@ -457,12 +463,10 @@ pip install "langchain-community>=0.0.38"
 pip install "langchain-openai>=0.1.6"
 pip install "langchain-text-splitters>=0.0.1"
 pip install "lightning>=2.4.0"
-pip install "llama-index-embeddings-openai>=0.1.9"
-pip install "llama-index-indices-managed-llama-cloud>=0.2.7"
-pip install "llama-index-llms-ollama>=0.1.6"
-pip install "llama-index-llms-openai>=0.1.29"
-pip install "llama-index-readers-file>=0.1.32"
-pip install "llama-parse>=0.4.9"
+pip install "llama-index-agent-openai>=0.3.4"
+pip install "llama-index-cli>=0.3.1"
+pip install "llama-index-multi-modal-llms-openai>=0.2.2"
+pip install "llama-index-readers-llama-parse>=0.3.0"
 pip check
 pip install "nbclient>=0.10.0"
 pip install "openinference-instrumentation>=0.1.18"
@@ -478,10 +482,7 @@ pip install "google-cloud-aiplatform>=1.70.0"
 pip check
 pip install "kfp>=2.7.0"
 pip install "langchain>=0.1.20"
-pip install "llama-index-agent-openai>=0.2.6"
-pip install "llama-index-cli>=0.1.13"
-pip install "llama-index-multi-modal-llms-openai>=0.1.8"
-pip install "llama-index-readers-llama-parse>=0.1.6"
+pip install "llama-index-program-openai>=0.2.0"
 pip check
 pip install "nbconvert>=7.16.4"
 pip install "openinference-instrumentation-langchain>=0.1.28"
@@ -496,21 +497,19 @@ rem Level 8
 pip install "google-cloud-pipeline-components>=2.17.0"
 pip check
 pip install "jupyter-server>=2.14.2"
-pip install "llama-index-program-openai>=0.1.7"
+pip install "llama-index-question-gen-openai>=0.2.0"
 pip check
 rem Level 8
 rem Level 9
 pip install "jupyter-lsp>=2.2.5"
 pip install "jupyterlab-server>=2.27.3"
 pip check
-pip install "llama-index-question-gen-openai>=0.1.3"
+pip install "llama-index>=0.11.17"
 pip install "notebook-shim>=0.2.4"
 pip check
 rem Level 9
 rem Level 10
 pip install "jupyterlab>=4.2.5"
-pip check
-pip install "llama-index>=0.10.59"
 pip check
 rem Level 10
 rem Level 11
