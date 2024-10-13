@@ -263,8 +263,8 @@ class PipCmd:
         pr = PipReturn()  # installs=packages_with_versions)
         try:
             error = False
-            pip_args = [sys.executable, '-m', 'pip', 'install']
-            attempt_ssl_fix = True  # this does not seem to be sucessfull
+            pip_args = [sys.executable, '-m', 'pip', '--verbose', 'install']
+            attempt_ssl_fix = True
             if attempt_ssl_fix:
                 pip_args += ['--trusted-host=pypi.python.org',
                              '--trusted-host=pypi.org',
