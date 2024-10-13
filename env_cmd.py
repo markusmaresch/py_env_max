@@ -587,7 +587,6 @@ class EnvCmd:
             return False
 
         releases_max = 50  # no limit
-        debug_helper = False
         debug_already_latest = False
         updated_all = dict()
         stop = False
@@ -610,10 +609,17 @@ class EnvCmd:
                 for package_name in packages:
                     if stop:
                         break
-                    # for package, collect all the constraints in tree, try to improve to most recent
-                    if debug_helper and package_name != 'numpy':  # only debug catch
-                        continue
+                    #
                     version_required = db.package_get_version_required(package_name)
+                    if package_name.startswith('torch'):  # only debug catch
+                        pattern = '+cu1'
+                        if pattern in version_required:
+                            print('upd_all: {} .. {}/{}: {}: {}: {} NOT updating, pattern: {}'
+                                  .format(env_name, it, max_iterations, level,
+                                          package_name, version_required, pattern))
+                            continue
+                        # fi
+                    # fi
                     releases_recent = None
                     for rf in ReleaseFilter:
                         releases_recent = db.package_get_releases_recent(package_name, release_filter=rf)
