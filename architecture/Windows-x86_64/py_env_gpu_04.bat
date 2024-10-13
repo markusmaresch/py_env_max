@@ -1,4 +1,4 @@
-rem 2024-10-13T20:21:23.942194+00:00
+rem 2024-10-13T21:00:17.364997+00:00
 rem Level 4
 pip install "albumentations>=1.4.18"
 pip install "argon2-cffi>=23.1.0"
@@ -35,7 +35,7 @@ pip install "opentelemetry-instrumentation>=0.48b0"
 pip install "opentelemetry-semantic-conventions>=0.48b0"
 pip check
 pip install "pydantic-settings>=2.5.2"
-pip install "python-engineio>=4.9.1"
+pip install "python-engineio>=4.10.0"
 pip install "pythonnet>=3.0.4"
 pip check
 pip install "qudida>=0.0.4"

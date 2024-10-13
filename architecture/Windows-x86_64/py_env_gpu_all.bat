@@ -1,4 +1,4 @@
-rem 2024-10-13T20:21:23.942194+00:00
+rem 2024-10-13T21:00:17.364997+00:00
 rem Level 1
 pip install "absl-py>=2.1.0"
 pip install "aiofiles>=24.1.0"
@@ -49,7 +49,7 @@ pip install "filelock>=3.16.1"
 pip install "fonttools>=4.54.1"
 pip install "fqdn>=1.5.1"
 pip install "frozenlist>=1.4.1"
-pip install "fsspec>=2023.12.1"
+pip install "fsspec>=2024.3.1"
 pip check
 pip install "google-crc32c>=1.6.0"
 pip install "graphql-core>=3.2.5"
@@ -235,7 +235,7 @@ pip install "httpcore>=1.0.5"
 pip install "httplib2>=0.22.0"
 pip check
 pip install "imageio>=2.35.1"
-pip install "importlib-metadata>=7.1.0"
+pip install "importlib-metadata>=8.1.0"
 pip install "intel-openmp>=2024.2.1"
 pip check
 pip install "jaraco-context>=6.0.1"
@@ -304,7 +304,7 @@ pip install "wasabi>=1.1.3"
 pip install "werkzeug>=3.0.4"
 pip install "wsproto>=1.2.0"
 pip check
-pip install "yarl>=1.15.1"
+pip install "yarl>=1.15.2"
 pip check
 rem Level 2
 rem Level 3
@@ -406,7 +406,7 @@ pip install "opentelemetry-instrumentation>=0.48b0"
 pip install "opentelemetry-semantic-conventions>=0.48b0"
 pip check
 pip install "pydantic-settings>=2.5.2"
-pip install "python-engineio>=4.9.1"
+pip install "python-engineio>=4.10.0"
 pip install "pythonnet>=3.0.4"
 pip check
 pip install "qudida>=0.0.4"
@@ -461,7 +461,7 @@ pip install "llama-index-embeddings-openai>=0.1.9"
 pip install "llama-index-indices-managed-llama-cloud>=0.2.7"
 pip install "llama-index-llms-ollama>=0.1.6"
 pip install "llama-index-llms-openai>=0.1.29"
-pip install "llama-index-readers-file>=0.1.28"
+pip install "llama-index-readers-file>=0.1.32"
 pip install "llama-parse>=0.4.9"
 pip check
 pip install "nbclient>=0.10.0"

@@ -1,4 +1,4 @@
-rem 2024-10-13T20:21:23.942194+00:00
+rem 2024-10-13T21:00:17.364997+00:00
 rem Level 1
 pip install "absl-py>=2.1.0"
 pip install "aiofiles>=24.1.0"
@@ -49,7 +49,7 @@ pip install "filelock>=3.16.1"
 pip install "fonttools>=4.54.1"
 pip install "fqdn>=1.5.1"
 pip install "frozenlist>=1.4.1"
-pip install "fsspec>=2023.12.1"
+pip install "fsspec>=2024.3.1"
 pip check
 pip install "google-crc32c>=1.6.0"
 pip install "graphql-core>=3.2.5"
