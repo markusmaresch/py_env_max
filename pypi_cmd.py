@@ -135,7 +135,7 @@ class PyPiCmd:
         c = 'x' if rd is None else '.'
         result[index] = rd
         counter_value = counter.increment(1)
-        print(c, end='' if counter_value % 100 != 0 else '\n', flush=True)
+        print(c, end='' if counter_value % 50 != 0 else '\n', flush=True)
         return
 
     @staticmethod
@@ -184,15 +184,15 @@ class PyPiCmd:
                 threads[i] = threading.Thread(target=PyPiCmd.get_release_one,
                                               args=(package_name, i, releases, counter))
                 threads[i].start()
-                time.sleep(0.1)
-                if threading.active_count() > 3*2:
+                time.sleep(0.05)
+                if threading.active_count() > 4 * 2:
+                    time.sleep(0.05)
+                if threading.active_count() > 8 * 2:
+                    time.sleep(0.05)
+                if threading.active_count() > 12 * 2:
                     time.sleep(0.1)
-                if threading.active_count() > 5*2:
-                    time.sleep(0.1)
-                if threading.active_count() > 7*2:
-                    time.sleep(0.2)
-                if threading.active_count() > 10*2:
-                    time.sleep(0.5)
+                if threading.active_count() > 16 * 2:
+                    time.sleep(0.25)
                 # print('ac: {}: {}'.format(i, threading.active_count()))
             # for
             for i in range(N):
