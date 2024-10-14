@@ -675,11 +675,11 @@ class EnvCmd:
 
                     ruN = len(releases_update)
                     st = 0  # (it - 1) % 2
-                    if ruN > 9:  # simulate divide and conquer
-                        release_candidates = releases_update[st::8]
-                    elif ruN > 5:
+                    if ruN > 24:  # simulate divide and conquer, do not thin too much !!
                         release_candidates = releases_update[st::4]
-                    elif ruN > 3:
+                    elif ruN > 16:
+                        release_candidates = releases_update[st::3]
+                    elif ruN > 8:
                         release_candidates = releases_update[st::2]
                     else:
                         release_candidates = releases_update
