@@ -107,20 +107,20 @@ class PyEnvMax:
 
         group = parser.add_mutually_exclusive_group(required=True)
         group.add_argument('--stat', action='store_true',
-                            help='Show statistics of existing python environment')
+                           help='Show statistics of existing python environment')
 
         group.add_argument('-ei', '--env_import', action='store_true',
                            help='Import existing python environment into internal database')
 
         group.add_argument('-ip', '--install_packages', action='extend', nargs='+', type=str,
-                            help='Attempt to install packages to existing python environment')
+                           help='Attempt to install packages to existing python environment')
 
         group.add_argument('-ip2', '--install_packages2', action='extend', nargs='+', type=str,
-                            help='Attempt to install packages from list to existing python environment')
+                           help='Attempt to install packages from list to existing python environment')
 
         group.add_argument('-ua', '--upd_all', action='store_true',
-                            help='Attempt to update all of existing '
-                                 'python environment, then export it')
+                           help='Attempt to update all of existing '
+                                'python environment, then export it')
 
         group.add_argument('-ri', '--req_import', action='store_true',
                            help='Import \'requirements.txt\' into internal database')
