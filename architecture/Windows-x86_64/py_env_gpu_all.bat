@@ -1,4 +1,4 @@
-rem 2024-10-14T20:26:19.341220+00:00
+rem 2024-10-14T21:20:45.048742+00:00
 rem Level 1
 pip install "absl-py>=2.1.0"
 pip install "aiofiles>=24.1.0"
@@ -117,7 +117,7 @@ pip install "ply>=3.11"
 pip install "prometheus-client>=0.21.0"
 pip check
 pip install "propcache>=0.2.0"
-pip install "protobuf>=4.25.3"
+pip install "protobuf>=4.25.4"
 pip install "pscript>=0.7.7"
 pip install "psutil>=6.0.0"
 pip install "pure-eval>=0.2.3"
@@ -183,7 +183,7 @@ pip check
 pip install "ujson>=5.10.0"
 pip install "uri-template>=1.3.0"
 pip install "uritemplate>=4.1.1"
-pip install "urllib3>=1.26.18"
+pip install "urllib3>=1.26.19"
 pip check
 pip install "validators>=0.34.0"
 pip install "watchdog>=5.0.3"
@@ -323,7 +323,7 @@ pip check
 pip install "gitpython>=3.1.43"
 pip install "google-auth>=2.35.0"
 pip install "grpc-google-iam-v1>=0.13.1"
-pip install "grpcio-status>=1.62.2"
+pip install "grpcio-status>=1.62.3"
 pip check
 pip install "httpx>=0.27.2"
 pip install "huggingface-hub>=0.25.2"
@@ -396,7 +396,7 @@ pip install "jsonschema>=4.23.0"
 pip check
 pip install "kubernetes>=26.1.0"
 pip install "langcodes>=3.4.1"
-pip install "langsmith>=0.1.126"
+pip install "langsmith>=0.1.129"
 pip install "llama-cloud>=0.1.2"
 pip install "llama-index-core>=0.11.17"
 pip install "llamaindex-py-client>=0.1.19"
@@ -451,7 +451,7 @@ pip install "pydata-google-auth>=1.8.2"
 pip install "python-socketio>=5.11.4"
 pip install "pytorch-lightning>=2.4.0"
 pip check
-pip install "thinc>=8.2.3"
+pip install "thinc>=8.2.5"
 pip install "weasel>=0.4.1"
 pip check
 rem Level 5
@@ -461,7 +461,7 @@ pip install "google-cloud-storage>=2.18.2"
 pip check
 pip install "langchain-community>=0.0.38"
 pip install "langchain-openai>=0.1.6"
-pip install "langchain-text-splitters>=0.0.1"
+pip install "langchain-text-splitters>=0.0.2"
 pip install "lightning>=2.4.0"
 pip install "llama-index-agent-openai>=0.3.4"
 pip install "llama-index-cli>=0.3.1"

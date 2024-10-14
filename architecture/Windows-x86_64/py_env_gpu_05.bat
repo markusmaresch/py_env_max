@@ -1,4 +1,4 @@
-rem 2024-10-14T20:26:19.341220+00:00
+rem 2024-10-14T21:20:45.048742+00:00
 rem Level 5
 pip install "altair>=5.4.1"
 pip check
@@ -29,7 +29,7 @@ pip install "pydata-google-auth>=1.8.2"
 pip install "python-socketio>=5.11.4"
 pip install "pytorch-lightning>=2.4.0"
 pip check
-pip install "thinc>=8.2.3"
+pip install "thinc>=8.2.5"
 pip install "weasel>=0.4.1"
 pip check
 rem Level 5

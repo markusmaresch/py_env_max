@@ -1,4 +1,4 @@
-rem 2024-10-14T20:26:19.341220+00:00
+rem 2024-10-14T21:20:45.048742+00:00
 rem Level 1
 pip install "absl-py>=2.1.0"
 pip install "aiofiles>=24.1.0"
@@ -117,7 +117,7 @@ pip install "ply>=3.11"
 pip install "prometheus-client>=0.21.0"
 pip check
 pip install "propcache>=0.2.0"
-pip install "protobuf>=4.25.3"
+pip install "protobuf>=4.25.4"
 pip install "pscript>=0.7.7"
 pip install "psutil>=6.0.0"
 pip install "pure-eval>=0.2.3"
@@ -183,7 +183,7 @@ pip check
 pip install "ujson>=5.10.0"
 pip install "uri-template>=1.3.0"
 pip install "uritemplate>=4.1.1"
-pip install "urllib3>=1.26.18"
+pip install "urllib3>=1.26.19"
 pip check
 pip install "validators>=0.34.0"
 pip install "watchdog>=5.0.3"

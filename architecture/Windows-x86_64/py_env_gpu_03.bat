@@ -1,4 +1,4 @@
-rem 2024-10-14T20:26:19.341220+00:00
+rem 2024-10-14T21:20:45.048742+00:00
 rem Level 3
 pip install "aiohttp>=3.10.10"
 pip install "albucore>=0.0.17"
@@ -15,7 +15,7 @@ pip check
 pip install "gitpython>=3.1.43"
 pip install "google-auth>=2.35.0"
 pip install "grpc-google-iam-v1>=0.13.1"
-pip install "grpcio-status>=1.62.2"
+pip install "grpcio-status>=1.62.3"
 pip check
 pip install "httpx>=0.27.2"
 pip install "huggingface-hub>=0.25.2"
