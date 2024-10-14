@@ -1,4 +1,4 @@
-rem 2024-10-13T21:29:12.574602+00:00
+rem 2024-10-14T20:26:19.341220+00:00
 rem Level 3
 pip install "aiohttp>=3.10.10"
 pip install "albucore>=0.0.17"
@@ -6,7 +6,7 @@ pip install "alembic>=1.13.3"
 pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
 pip check
-pip install "botocore>=1.35.39"
+pip install "botocore>=1.35.40"
 pip install "clr-loader>=0.2.6"
 pip check
 pip install "dataclasses-json>=0.6.7"

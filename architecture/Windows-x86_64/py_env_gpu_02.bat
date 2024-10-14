@@ -1,4 +1,4 @@
-rem 2024-10-13T21:29:12.574602+00:00
+rem 2024-10-14T20:26:19.341220+00:00
 rem Level 2
 pip install "aiosignal>=1.3.1"
 pip install "aiosqlite>=0.20.0"
@@ -31,8 +31,8 @@ pip install "h5py>=3.12.1"
 pip install "httpcore>=1.0.5"
 pip install "httplib2>=0.22.0"
 pip check
-pip install "imageio>=2.35.1"
-pip install "importlib-metadata>=8.3.0"
+pip install "imageio>=2.36.0"
+pip install "importlib-metadata>=8.4.0"
 pip install "intel-openmp>=2024.2.1"
 pip check
 pip install "jaraco-context>=6.0.1"
