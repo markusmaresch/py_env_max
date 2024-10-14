@@ -1,1 +1,1 @@
-sh ./flake_run.sh
+@sh ./flake_run.sh
