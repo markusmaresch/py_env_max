@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 import sys
-import random
+
 import threading
 import typing
 import time
@@ -15,6 +15,17 @@ from version import Version
 from database import Database
 
 warnings.filterwarnings('ignore', message='Unverified HTTPS request')
+
+
+class ThreadSafeCounter:
+    def __init__(self, init_value: int = 0):
+        self.counter = init_value
+        self.lock = threading.Lock()
+
+    def increment(self, increment: int) -> int:
+        with self.lock:
+            self.counter += increment
+            return self.counter
 
 
 class PyPiCmd:
@@ -46,6 +57,47 @@ class PyPiCmd:
         return False
 
     @staticmethod
+    def releases_yanked_prune(name: str, releases: dict) -> dict:
+        if not isinstance(releases, dict):
+            return releases
+        keys_to_delete = list()
+        for key in releases.keys():
+            release = releases[key]
+            if not isinstance(release, list):
+                continue
+            modified_list = False
+            reason = None
+            for i in range(len(release) - 1, -1, -1):
+                r = release[i]
+                yanked = r.get('yanked', None)
+                if yanked is None:
+                    continue
+                if not yanked:
+                    continue
+                # print(f'yanked: {name}: {r}')
+                reason = r.get('yanked_reason', None) if reason is None else reason
+                del release[i]
+                modified_list = True
+            # for
+            if not modified_list:
+                continue
+            if len(release) > 1:
+                # this does not happen; it is all or nothing ..
+                print(f'modified list: {name}: {release}, {reason}')
+                continue
+            # print(f'empty list: {name}: {release}, {reason}')
+            keys_to_delete.append((key, reason))
+        # for
+        while keys_to_delete:
+            tup2 = keys_to_delete.pop()
+            key, reason = tup2
+            # print(f'delete key: {name}: {key}, {reason}')
+            releases.pop(key)
+        # while
+
+        return releases
+
+    @staticmethod
     def get_releases(name: str, keep: int = 40) -> typing.Union[typing.Dict, object]:
         js = PyPiCmd.get_pypi_json(name)
         if js is None:
@@ -53,55 +105,19 @@ class PyPiCmd:
             return None
         nf = js.get('message')
         if nf == 'Not Found':
-            latest_releases = []  # could get it:  pip list | grep <name> .. second argument
+            releases_final = []  # could get it:  pip list | grep <name> .. second argument
             pypi_flag = False
         else:
-            releases = js.get('releases')
-            if releases is None:
+            releases_org = js.get('releases')
+            if releases_org is None:
                 return None
-            keys = releases.keys()
-            releases = [r for r in keys]
-            #
-            # remove yanked releases
-            #
-            # mistral: In python for packages with pypi.org, how do I programmatically determine, if a package version has been yanked
-            #
-            # import requests
-            #
-            # def is_version_yanked(package_name, version):
-            #     url = f"https://pypi.org/pypi/{package_name}/json"
-            #     response = requests.get(url)
-            #
-            #     if response.status_code != 200:
-            #         raise Exception(f"Failed to fetch package data: {response.status_code}")
-            #
-            #     data = response.json()
-            #
-            #     # Check if the version exists in the releases
-            #     if version not in data['releases']:
-            #         return True  # Consider it yanked if the version is not found
-            #
-            #     # Check if the version has been yanked
-            #     for file in data['releases'][version]:
-            #         if file.get('yanked'):
-            #             return True
-            #
-            #     return False
-            #
-            # # Example usage
-            # package_name = "example-package"
-            # version = "1.0.0"
-            #
-            # if is_version_yanked(package_name, version):
-            #     print(f"Version {version} of package {package_name} has been yanked.")
-            # else:
-            #     print(f"Version {version} of package {package_name} has not been yanked.")
-            #
-            sorted_releases = Version.sort(releases=releases, reverse=True)
-            latest_releases = sorted_releases[:keep]
+            releases_pruned = PyPiCmd.releases_yanked_prune(name, releases_org)
+            releases_keys = [r for r in releases_pruned.keys()]
+            releases_sorted = Version.sort(releases=releases_keys, reverse=True)
+            releases_final = releases_sorted[:keep]
             pypi_flag = True
         # fi
-        d = {Database.RELEASES_RECENT: latest_releases,
+        d = {Database.RELEASES_RECENT: releases_final,
              Database.PYPI_PACKAGE: pypi_flag}
         info = js.get('info')
         if info is not None:
@@ -114,11 +130,12 @@ class PyPiCmd:
         return d
 
     @staticmethod
-    def get_release_one(name: str, index: int, result: [typing.Dict]):
+    def get_release_one(name: str, index: int, result: [typing.Dict], counter: ThreadSafeCounter):
         rd = PyPiCmd.get_releases(name=name)
         c = 'x' if rd is None else '.'
         result[index] = rd
-        print(c, end='' if random.random() > 1.0 / 20.0 else '\n', flush=True)
+        counter_value = counter.increment(1)
+        print(c, end='' if counter_value % 100 != 0 else '\n', flush=True)
         return
 
     @staticmethod
@@ -152,6 +169,7 @@ class PyPiCmd:
             # for
             return rf
 
+        counter = ThreadSafeCounter(0)
         N = len(packages)
         threads = [None] * N
         releases = [None] * N
@@ -164,16 +182,16 @@ class PyPiCmd:
                     continue
                 package_name = packages[i]
                 threads[i] = threading.Thread(target=PyPiCmd.get_release_one,
-                                              args=(package_name, i, releases))
+                                              args=(package_name, i, releases, counter))
                 threads[i].start()
                 time.sleep(0.1)
-                if threading.active_count() > 3:
+                if threading.active_count() > 3*2:
                     time.sleep(0.1)
-                if threading.active_count() > 5:
+                if threading.active_count() > 5*2:
                     time.sleep(0.1)
-                if threading.active_count() > 7:
+                if threading.active_count() > 7*2:
                     time.sleep(0.2)
-                if threading.active_count() > 10:
+                if threading.active_count() > 10*2:
                     time.sleep(0.5)
                 # print('ac: {}: {}'.format(i, threading.active_count()))
             # for
