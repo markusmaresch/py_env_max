@@ -1,6 +1,9 @@
 #
 #
 #
+Quick-wins:
+    remove yanked versions .. currently is prohibiting move forward
+
 Bug: investigate, what is preventing environment update, if conda installs are present
     Work: conda list ->  name, version, build, channel
     Work: pip list -> name, version
@@ -15,7 +18,6 @@ Bugs
     possible fix: break up the stack, try random installations, if no progress
     possibly fixed: Conceptual package name bug: "Levenshtein-search" for dedupe ... not normalized
 
-    remove yanked versions
     remove versions too old, not just add
 
 Update All

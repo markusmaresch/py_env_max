@@ -64,6 +64,39 @@ class PyPiCmd:
             #
             # remove yanked releases
             #
+            # mistral: In python for packages with pypi.org, how do I programmatically determine, if a package version has been yanked
+            #
+            # import requests
+            #
+            # def is_version_yanked(package_name, version):
+            #     url = f"https://pypi.org/pypi/{package_name}/json"
+            #     response = requests.get(url)
+            #
+            #     if response.status_code != 200:
+            #         raise Exception(f"Failed to fetch package data: {response.status_code}")
+            #
+            #     data = response.json()
+            #
+            #     # Check if the version exists in the releases
+            #     if version not in data['releases']:
+            #         return True  # Consider it yanked if the version is not found
+            #
+            #     # Check if the version has been yanked
+            #     for file in data['releases'][version]:
+            #         if file.get('yanked'):
+            #             return True
+            #
+            #     return False
+            #
+            # # Example usage
+            # package_name = "example-package"
+            # version = "1.0.0"
+            #
+            # if is_version_yanked(package_name, version):
+            #     print(f"Version {version} of package {package_name} has been yanked.")
+            # else:
+            #     print(f"Version {version} of package {package_name} has not been yanked.")
+            #
             sorted_releases = Version.sort(releases=releases, reverse=True)
             latest_releases = sorted_releases[:keep]
             pypi_flag = True
