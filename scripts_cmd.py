@@ -7,6 +7,7 @@ import os.path
 from database import Database
 from os_platform import OsPlatform
 from conda_cmd import CondaCmd
+from pip_cmd import PipCmd
 
 
 class ScriptsCmd:
@@ -42,6 +43,12 @@ class ScriptsCmd:
             # for
         # with
         print('packages: {}'.format(list_name))
+
+        pip_freeze_txt_name = f'{env_name}_pip_freeze.txt'
+        if not PipCmd.pip_freeze(pip_freeze_txt_name):
+            print('scripts_export: pip_freeze failed')
+            return False
+        print(f'script: {pip_freeze_txt_name}')
 
         script_extension = OsPlatform.script_extension()
         script_comment = OsPlatform.script_comment()
