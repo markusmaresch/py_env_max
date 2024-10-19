@@ -415,10 +415,27 @@ class PipCmd:
         return None
 
     @staticmethod
+    def pip_freeze(output_path: str) -> bool:
+        ok = True
+        try:
+            with open(output_path, 'w') as file:
+                output = subprocess.check_output(['pip', 'freeze'])
+                for line in output.splitlines():
+                    file.write(line.decode() + '\n')
+                # for
+            # with
+        except:
+            ok = False
+        if not ok:
+            print('Failed: pip freeze')
+        return ok
+
+    @staticmethod
     def pip_selftest() -> bool:
         version = PipCmd.version()
         if not version:
             return False
+        # PipCmd.pip_freeze('test_freeze.txt')
 
         check = True  # should be True
         if check:
