@@ -30,6 +30,7 @@ flake8
 flask
 fonttools
 fpdf2
+fqdn
 fsspec
 google-api-core
 google-api-python-client
@@ -53,6 +54,7 @@ google-resumable-media
 googleapis-common-protos
 grpc-google-iam-v1
 grpcio
+grpcio-status
 h5py
 httplib2
 humanfriendly
@@ -61,9 +63,11 @@ imageio
 importlib-metadata
 ipykernel
 ipython
+isoduration
 itsdangerous
 jedi
 jinja2
+jsonpointer
 jsonschema
 jsonschema-specifications
 jupyter-client
@@ -162,9 +166,11 @@ traitlets
 types-python-dateutil
 typing-extensions
 tzdata
+uri-template
 uritemplate
 urllib3
 wcwidth
+webcolors
 webencodings
 websocket-client
 werkzeug
