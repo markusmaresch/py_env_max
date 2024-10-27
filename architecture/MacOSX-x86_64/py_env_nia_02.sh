@@ -1,4 +1,4 @@
-# 2024-10-27T20:52:06.698966+00:00
+# 2024-10-27T21:03:38.789543+00:00
 # Level 2
 pip install "anyio>=4.6.1"
 pip install "asttokens>=2.4.1"
@@ -45,7 +45,6 @@ pip install "pydantic-core>=2.23.4"
 pip install "pydot>=3.0.2"
 pip install "python-dateutil>=2.9.0"
 pip check
-pip install "qrcode>=8.0"
 pip install "referencing>=0.35.1"
 pip install "requests>=2.32.3"
 pip install "rfc3339-validator>=0.1.4"

@@ -1,4 +1,4 @@
-# 2024-10-27T20:52:06.698966+00:00
+# 2024-10-27T21:03:38.789543+00:00
 # Level 3
 pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
@@ -6,7 +6,6 @@ pip check
 pip install "flask>=3.0.3"
 pip install "google-auth>=2.35.0"
 pip install "grpc-google-iam-v1>=0.13.1"
-pip install "grpcio-status>=1.67.0"
 pip check
 pip install "jsonschema-specifications>=2024.10.1"
 pip install "jupyter-client>=8.6.3"

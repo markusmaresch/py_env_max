@@ -20,10 +20,8 @@ fqdn
 fsspec
 google-crc32c
 grpcio
-humanfriendly
 idna
 itsdangerous
-jsonpointer
 jupyterlab-pygments
 jupyterlab-widgets
 kiwisolver
@@ -56,12 +54,12 @@ pycparser
 pyflakes
 pygments
 pyparsing
-pypng
 python-json-logger
 pytz
 pyyaml
 pyzbar
 pyzmq
+qrcode
 rfc3986-validator
 rpds-py
 ruff
@@ -77,11 +75,9 @@ traitlets
 types-python-dateutil
 typing-extensions
 tzdata
-uri-template
 uritemplate
 urllib3
 wcwidth
-webcolors
 webencodings
 websocket-client
 wheel
@@ -123,7 +119,6 @@ pyasn1-modules
 pydantic-core
 pydot
 python-dateutil
-qrcode
 referencing
 requests
 rfc3339-validator
@@ -140,7 +135,6 @@ arrow
 flask
 google-auth
 grpc-google-iam-v1
-grpcio-status
 jsonschema-specifications
 jupyter-client
 jupyter-server-terminals
@@ -156,7 +150,6 @@ google-api-core
 google-auth-httplib2
 google-auth-oauthlib
 ipython
-isoduration
 jsonschema
 seaborn
 google-api-python-client

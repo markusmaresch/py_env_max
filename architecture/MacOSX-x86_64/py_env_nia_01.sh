@@ -1,4 +1,4 @@
-# 2024-10-27T20:52:06.698966+00:00
+# 2024-10-27T21:03:38.789543+00:00
 # Level 1
 pip install "annotated-types>=0.7.0"
 pip install "appnope>=0.1.4"
@@ -27,11 +27,9 @@ pip check
 pip install "google-crc32c>=1.6.0"
 pip install "grpcio>=1.67.0"
 pip check
-pip install "humanfriendly>=10.0"
 pip install "idna>=3.10"
 pip install "itsdangerous>=2.2.0"
 pip check
-pip install "jsonpointer>=3.0.0"
 pip install "jupyterlab-pygments>=0.3.0"
 pip install "jupyterlab-widgets>=3.0.13"
 pip check
@@ -70,14 +68,14 @@ pip install "pycparser>=2.22"
 pip install "pyflakes>=3.2.0"
 pip install "pygments>=2.18.0"
 pip install "pyparsing>=3.2.0"
-pip install "pypng>=0.20220715.0"
 pip install "python-json-logger>=2.0.7"
-pip check
 pip install "pytz>=2024.2"
+pip check
 pip install "pyyaml>=6.0.2"
 pip install "pyzbar>=0.1.9"
 pip install "pyzmq>=26.2.0"
 pip check
+pip install "qrcode>=8.0"
 pip install "rfc3986-validator>=0.1.1"
 pip install "rpds-py>=0.20.0"
 pip install "ruff>=0.7.1"
@@ -96,12 +94,10 @@ pip install "types-python-dateutil>=2.9.0.20241003"
 pip install "typing-extensions>=4.12.2"
 pip install "tzdata>=2024.2"
 pip check
-pip install "uri-template>=1.3.0"
 pip install "uritemplate>=4.1.1"
 pip install "urllib3>=2.2.3"
 pip check
 pip install "wcwidth>=0.2.13"
-pip install "webcolors>=24.8.0"
 pip install "webencodings>=0.5.1"
 pip install "websocket-client>=1.8.0"
 pip install "wheel>=0.44.0"
