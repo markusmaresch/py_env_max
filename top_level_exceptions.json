@@ -47,6 +47,10 @@
             "reason": "fundamentally needed",
             "comment": "Read resources from Python packages"
         },
+        "importlib-metadata": {
+            "reason": "fundamentally needed",
+            "comment": "Read metadata from Python packages"
+        },
 
         "xgboost": {
             "reason": "fundamentally needed",
@@ -72,6 +76,19 @@
             "reason": "fundamentally needed",
             "comment": ""
         },
+        "seaborn": {
+            "reason": "fundamentally needed",
+            "comment": "Statistical data visualization"
+        },
+        "plotly": {
+            "reason": "fundamentally needed",
+            "comment": "An open-source, interactive data visualization library for Python"
+        },
+        "pydot": {
+            "reason": "fundamentally needed",
+            "comment": "Python interface to Graphviz's Dot"
+        },
+
         "flask": {
             "reason": "fundamentally needed",
             "comment": ""
