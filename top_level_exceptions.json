@@ -35,11 +35,19 @@
             "reason": "fundamentally needed",
             "comment": ""
         },
-
-        "wikipedia": {
+        "cython": {
             "reason": "fundamentally needed",
-            "comment": ""
+            "comment": "The Cython compiler for writing C extensions in the Python language"
         },
+        "docutils": {
+            "reason": "fundamentally needed",
+            "comment": "Docutils -- Python Documentation Utilities"
+        },
+        "importlib-resources": {
+            "reason": "fundamentally needed",
+            "comment": "Read resources from Python packages"
+        },
+
         "xgboost": {
             "reason": "fundamentally needed",
             "comment": ""
@@ -80,6 +88,7 @@
             "reason": "needed by pandas for writing xlsx",
             "comment": ""
         },
+
         "babel": {
             "reason": "needed by jupyterlab-server",
             "comment": ""
@@ -101,14 +110,6 @@
             "comment": ""
         },
 
-        "wordcloud": {
-            "reason": "keep for interactive cloud generator",
-            "comment": ""
-        },
-        "openai": {
-            "reason": "keep for now",
-            "comment": ""
-        },
         "arena-api": {
             "reason": "needs to be installed as wheel",
             "comment": "Lucid Vision Python Interface"
@@ -118,7 +119,25 @@
             "comment": ""
         },
         "yoctopuce": {
-            "reason": "needed very often",
+            "reason": "needed (for a while) for current loop devices",
+            "comment": ""
+        },
+        "pylucidio": {
+            "reason": "needed for current loop devices",
+            "comment": "LucidControl USB IO Module Package"
+        },
+        "pyserial": {
+            "reason": "needed for lucidio",
+            "comment": "Python Serial Port Extension"
+        },
+        "pyqtree": {
+            "reason": "needed in NIA",
+            "comment": "A pure Python quad tree spatial index for GIS or rendering usage"
+        },
+
+
+        "openai": {
+            "reason": "keep for now",
             "comment": ""
         },
 
@@ -138,6 +157,12 @@
             "reason": "keep torch related",
             "comment": ""
         },
+        "lightning": {
+            "reason": "keep torch related",
+            "comment": "The Deep Learning framework to train, deploy, and ship AI products Lightning fast"
+        },
+
+
         "segment-anything": {
             "reason": "keep SAM",
             "comment": ""
@@ -224,6 +249,18 @@
             "reason": "fundamentally needed",
             "comment": "many use this"
         },
+        "jax": {
+            "reason": "fundamentally needed",
+            "comment": "Differentiate, compile, and transform Numpy code"
+        },
+        "deprecated": {
+            "reason": "fundamentally needed, dependant of: langchain, llama-index-core, opentelemetry",
+            "comment": "Python @deprecated decorator to deprecate old python classes, functions or methods"
+        },
+        "sqlalchemy": {
+            "reason": "fundamentally needed, dependant of: langchain, llama-index-core",
+            "comment": "Database Abstraction Library"
+        },
 
 
         "google-cloud-datastore": {
@@ -286,6 +323,22 @@
             "reason": "keep google cloud",
             "comment": ""
         },
+        "google-cloud-compute": {
+            "reason": "keep google cloud",
+            "comment": "Google Cloud Compute API client library"
+        },
+        "google-cloud-secret-manager": {
+            "reason": "keep google cloud",
+            "comment": "Google Cloud Secret Manager API client library"
+        },
+        "google-cloud-pipeline-components": {
+            "reason": "keep google cloud",
+            "comment": "This SDK enables a set of First Party (Google owned) pipeline components that allow users to take their experience from Vertex AI SDK and other Google Cloud services and create a corresponding pipeline using KFP or Managed Pipelines"
+        },
+        "pandas-gbq": {
+            "reason": "keep google cloud",
+            "comment": "Google BigQuery connector for pandas"
+        },
 
         "jupyter": {
             "reason": "better keep jupyter stuff",
@@ -311,6 +364,14 @@
             "reason": "better keep jupyter stuff",
             "comment": ""
         },
+        "jupyterlab-contrib-nbextensions": {
+            "reason": "better keep jupyter stuff",
+            "comment": ""
+        },
+        "jupyter-contrib-nbextensions": {
+            "reason": "better keep jupyter stuff",
+            "comment": "A collection of Jupyter nbextensions"
+        },
         "widgetsnbextension": {
             "reason": "better keep jupyter related stuff",
             "comment": ""
@@ -318,6 +379,56 @@
         "ipykernel": {
             "reason": "better keep jupyter related stuff",
             "comment": ""
+        },
+
+        "mkl": {
+            "reason": "better keep mkl related stuff",
+            "comment": "Intel® oneAPI Math Kernel Library"
+        },
+
+        "llama-index": {
+            "reason": "better keep llama related stuff",
+            "comment": "Interface between LLMs and your data"
+        },
+        "llama-index-llms-ollama": {
+            "reason": "better keep llama related stuff",
+            "comment": "llama-index llms ollama integration"
+        },
+        "llamaindex-py-client": {
+            "reason": "better keep llama related stuff",
+            "comment": ""
+        },
+        "llama-cpp-python": {
+            "reason": "better keep llama related stuff",
+            "comment": "Python bindings for the llama.cpp library"
+        },
+
+        "langchain": {
+            "reason": "better keep langchain related stuff",
+            "comment": "Building applications with LLMs through composability"
+        },
+        "langchain-openai": {
+            "reason": "better keep langchain related stuff",
+            "comment": "An integration package connecting OpenAI and LangChain"
+        },
+
+        "openinference-instrumentation-langchain": {
+            "reason": "better keep openinference related stuff",
+            "comment": "OpenInference LangChain Instrumentation"
+        },
+        "openinference-instrumentation-llama-index": {
+            "reason": "better keep openinference related stuff",
+            "comment": "OpenInference LlamaIndex Instrumentation"
+        },
+        "openinference-instrumentation-openai": {
+            "reason": "better keep openinference related stuff",
+            "comment": "OpenInference OpenAI Instrumentation"
+        },
+
+
+        "opentelemetry-exporter-otlp": {
+            "reason": "?",
+            "comment": "OpenTelemetry Collector Exporters"
         }
     }
 }
