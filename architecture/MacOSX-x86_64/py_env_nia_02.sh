@@ -1,4 +1,4 @@
-# 2024-04-18T20:26:31.515546+00:00
+# 2024-10-27T20:25:22.294468+00:00
 # Level 2
 pip install "anyio>=4.3.0"
 pip install "asttokens>=2.4.1"
@@ -7,10 +7,10 @@ pip install "beautifulsoup4>=4.12.3"
 pip install "bleach>=6.1.0"
 pip check
 pip install "cffi>=1.16.0"
-pip install "coloredlogs>=15.0.1"
 pip install "comm>=0.2.2"
 pip install "contourpy>=1.2.1"
 pip check
+pip install "email-validator>=2.1.1"
 pip install "flake8>=7.0.0"
 pip install "fpdf2>=2.7.8"
 pip check
@@ -42,12 +42,12 @@ pip install "proto-plus>=1.23.0"
 pip install "pyarrow>=15.0.2"
 pip install "pyasn1-modules>=0.4.0"
 pip install "pydantic-core>=2.18.1"
+pip install "pydot>=2.0.0"
 pip install "python-dateutil>=2.9.0"
 pip check
 pip install "qrcode>=7.4.2"
 pip install "referencing>=0.34.0"
 pip install "requests>=2.31.0"
-pip install "retrying>=1.3.4"
 pip install "rfc3339-validator>=0.1.4"
 pip install "rsa>=4.9"
 pip check
