@@ -1,4 +1,4 @@
-rem 2024-10-14T21:20:45.048742+00:00
+rem 2024-10-27T18:18:56.901989+00:00
 rem Level 6
 pip install "google-cloud-bigquery>=3.26.0"
 pip install "google-cloud-storage>=2.18.2"
@@ -17,7 +17,6 @@ pip install "openinference-instrumentation>=0.1.18"
 pip install "opentelemetry-exporter-otlp-proto-grpc>=1.27.0"
 pip install "opentelemetry-exporter-otlp-proto-http>=1.27.0"
 pip check
-pip install "spacy>=3.8.0"
 pip install "streamlit>=1.39.0"
 pip check
 rem Level 6

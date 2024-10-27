@@ -1,8 +1,7 @@
-rem 2024-10-14T21:20:45.048742+00:00
+rem 2024-10-27T18:18:56.901989+00:00
 rem Level 5
 pip install "altair>=5.4.1"
 pip check
-pip install "fastapi-cli>=0.0.5"
 pip install "google-api-python-client>=2.135.0"
 pip install "google-cloud-compute>=1.19.2"
 pip install "google-cloud-core>=2.4.1"
@@ -26,7 +25,6 @@ pip install "nbformat>=5.10.4"
 pip install "opentelemetry-sdk>=1.27.0"
 pip check
 pip install "pydata-google-auth>=1.8.2"
-pip install "python-socketio>=5.11.4"
 pip install "pytorch-lightning>=2.4.0"
 pip check
 pip install "thinc>=8.2.5"
