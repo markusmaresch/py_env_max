@@ -1,6 +1,7 @@
-rem 2024-10-30T07:19:44.145030+00:00
+rem 2024-10-30T07:51:51.383422+00:00
 rem Level 5
 pip install "altair>=5.4.1"
+pip install "anthropic>=0.37.1"
 pip check
 pip install "google-api-python-client>=2.135.0"
 pip install "google-cloud-compute>=1.19.2"

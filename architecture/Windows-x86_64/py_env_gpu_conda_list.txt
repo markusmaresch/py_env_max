@@ -8,6 +8,7 @@ albucore                  0.0.19                   pypi_0    pypi
 albumentations            1.4.20                   pypi_0    pypi
 altair                    5.4.1                    pypi_0    pypi
 annotated-types           0.7.0                    pypi_0    pypi
+anthropic                 0.37.1                   pypi_0    pypi
 anyio                     4.6.1                    pypi_0    pypi
 arena-api                 2.5.9                    pypi_0    pypi
 argon2-cffi               23.1.0                   pypi_0    pypi
@@ -85,6 +86,7 @@ h5py                      3.12.1                   pypi_0    pypi
 httpcore                  1.0.5                    pypi_0    pypi
 httplib2                  0.22.0                   pypi_0    pypi
 httpx                     0.27.2                   pypi_0    pypi
+huggingface-hub           0.26.2                   pypi_0    pypi
 idna                      3.10                     pypi_0    pypi
 imageio                   2.36.0                   pypi_0    pypi
 importlib-metadata        8.4.0                    pypi_0    pypi
@@ -156,6 +158,7 @@ llama-index-readers-llama-parse 0.3.0                    pypi_0    pypi
 llama-parse               0.5.12                   pypi_0    pypi
 llamaindex-py-client      0.1.19                   pypi_0    pypi
 llm                       0.17                     pypi_0    pypi
+llm-claude-3              0.6                      pypi_0    pypi
 llvmlite                  0.43.0                   pypi_0    pypi
 lmdb                      1.5.1                    pypi_0    pypi
 lxml                      5.3.0                    pypi_0    pypi
@@ -298,6 +301,7 @@ tifffile                  2024.9.20                pypi_0    pypi
 tiktoken                  0.8.0                    pypi_0    pypi
 tinycss2                  1.4.0                    pypi_0    pypi
 tk                        8.6.14               h0416ee5_0  
+tokenizers                0.20.1                   pypi_0    pypi
 toml                      0.10.2                   pypi_0    pypi
 torch                     2.4.1+cu124              pypi_0    pypi
 torchaudio                2.4.1+cu124              pypi_0    pypi

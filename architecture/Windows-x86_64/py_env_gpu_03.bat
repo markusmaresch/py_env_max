@@ -1,4 +1,4 @@
-rem 2024-10-30T07:19:44.145030+00:00
+rem 2024-10-30T07:51:51.383422+00:00
 rem Level 3
 pip install "aiohttp>=3.10.10"
 pip install "albucore>=0.0.19"
@@ -14,8 +14,9 @@ pip install "grpc-google-iam-v1>=0.13.1"
 pip install "grpcio-status>=1.62.3"
 pip check
 pip install "httpx>=0.27.2"
-pip install "intel-cmplr-lib-ur>=2025.0.0"
+pip install "huggingface-hub>=0.26.2"
 pip check
+pip install "intel-cmplr-lib-ur>=2025.0.0"
 pip install "jaxlib>=0.4.35"
 pip install "jsonschema-specifications>=2024.10.1"
 pip install "jupyter-client>=8.6.3"

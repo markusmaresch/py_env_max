@@ -5,6 +5,7 @@ albucore
 albumentations
 altair
 annotated-types
+anthropic
 anyio
 arena-api
 argon2-cffi
@@ -80,6 +81,7 @@ h5py
 httpcore
 httplib2
 httpx
+huggingface-hub
 idna
 imageio
 importlib-metadata
@@ -150,6 +152,7 @@ llama-index-readers-llama-parse
 llama-parse
 llamaindex-py-client
 llm
+llm-claude-3
 llvmlite
 lmdb
 lxml
@@ -288,6 +291,7 @@ terminado
 tifffile
 tiktoken
 tinycss2
+tokenizers
 toml
 torch
 torchaudio

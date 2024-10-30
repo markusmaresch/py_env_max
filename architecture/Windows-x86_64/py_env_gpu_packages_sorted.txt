@@ -206,6 +206,7 @@ google-auth
 grpc-google-iam-v1
 grpcio-status
 httpx
+huggingface-hub
 intel-cmplr-lib-ur
 jaxlib
 jsonschema-specifications
@@ -249,10 +250,12 @@ opentelemetry-instrumentation
 opentelemetry-semantic-conventions
 pydantic-settings
 sqlite-utils
+tokenizers
 torchaudio
 torchmetrics
 torchvision
 altair
+anthropic
 google-api-python-client
 google-cloud-compute
 google-cloud-core
@@ -295,6 +298,7 @@ google-cloud-aiplatform
 kfp
 langchain
 llama-index-program-openai
+llm-claude-3
 nbconvert
 openinference-instrumentation-langchain
 openinference-instrumentation-llama-index

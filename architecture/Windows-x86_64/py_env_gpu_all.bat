@@ -1,4 +1,4 @@
-rem 2024-10-30T07:19:44.145030+00:00
+rem 2024-10-30T07:51:51.383422+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.3"
 pip install "annotated-types>=0.7.0"
@@ -257,8 +257,9 @@ pip install "grpc-google-iam-v1>=0.13.1"
 pip install "grpcio-status>=1.62.3"
 pip check
 pip install "httpx>=0.27.2"
-pip install "intel-cmplr-lib-ur>=2025.0.0"
+pip install "huggingface-hub>=0.26.2"
 pip check
+pip install "intel-cmplr-lib-ur>=2025.0.0"
 pip install "jaxlib>=0.4.35"
 pip install "jsonschema-specifications>=2024.10.1"
 pip install "jupyter-client>=8.6.3"
@@ -319,6 +320,7 @@ pip check
 pip install "pydantic-settings>=2.6.0"
 pip install "sqlite-utils>=3.37"
 pip check
+pip install "tokenizers>=0.20.1"
 pip install "torchaudio>=2.4.1+cu124"
 pip install "torchmetrics>=1.5.1"
 pip install "torchvision>=0.19.1+cu124"
@@ -326,6 +328,7 @@ pip check
 rem Level 4
 rem Level 5
 pip install "altair>=5.4.1"
+pip install "anthropic>=0.37.1"
 pip check
 pip install "google-api-python-client>=2.135.0"
 pip install "google-cloud-compute>=1.19.2"
@@ -384,6 +387,7 @@ pip check
 pip install "kfp>=2.7.0"
 pip install "langchain>=0.1.20"
 pip install "llama-index-program-openai>=0.2.0"
+pip install "llm-claude-3>=0.6"
 pip check
 pip install "nbconvert>=7.16.4"
 pip install "openinference-instrumentation-langchain>=0.1.28"

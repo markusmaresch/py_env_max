@@ -1,10 +1,11 @@
-rem 2024-10-30T07:19:44.145030+00:00
+rem 2024-10-30T07:51:51.383422+00:00
 rem Level 7
 pip install "google-cloud-aiplatform>=1.70.0"
 pip check
 pip install "kfp>=2.7.0"
 pip install "langchain>=0.1.20"
 pip install "llama-index-program-openai>=0.2.0"
+pip install "llm-claude-3>=0.6"
 pip check
 pip install "nbconvert>=7.16.4"
 pip install "openinference-instrumentation-langchain>=0.1.28"

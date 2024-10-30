@@ -403,6 +403,12 @@
             "comment": "Intel® oneAPI Math Kernel Library"
         },
 
+        "llm": {
+            "reason": "convenient command line tool for script interation",
+            "comment": ""
+        },
+
+
         "llama-index": {
             "reason": "better keep llama related stuff",
             "comment": "Interface between LLMs and your data"

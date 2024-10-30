@@ -1,4 +1,4 @@
-rem 2024-10-30T07:19:44.145030+00:00
+rem 2024-10-30T07:51:51.383422+00:00
 rem Level 4
 pip install "albumentations>=1.4.20"
 pip install "argon2-cffi>=23.1.0"
@@ -30,6 +30,7 @@ pip check
 pip install "pydantic-settings>=2.6.0"
 pip install "sqlite-utils>=3.37"
 pip check
+pip install "tokenizers>=0.20.1"
 pip install "torchaudio>=2.4.1+cu124"
 pip install "torchmetrics>=1.5.1"
 pip install "torchvision>=0.19.1+cu124"
