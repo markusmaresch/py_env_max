@@ -1,4 +1,4 @@
-rem 2024-10-27T22:47:35.627600+00:00
+rem 2024-10-30T07:19:44.145030+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.3"
 pip install "annotated-types>=0.7.0"
@@ -93,25 +93,28 @@ pip check
 pip install "protobuf>=4.25.5"
 pip install "psutil>=6.1.0"
 pip install "pure-eval>=0.2.3"
+pip install "puremagic>=1.28"
 pip install "pyasn1>=0.6.1"
 pip install "pycodestyle>=2.12.1"
 pip install "pycparser>=2.22"
 pip install "pyflakes>=3.2.0"
 pip install "pygments>=2.18.0"
 pip install "pylucidio>=2.4"
-pip install "pyparsing>=3.2.0"
 pip check
+pip install "pyparsing>=3.2.0"
 pip install "pypdf>=4.3.1"
 pip install "pyqtree>=1.0.0"
+pip install "pyreadline3>=3.5.4"
 pip install "pyserial>=3.5"
 pip install "python-dotenv>=1.0.1"
 pip install "python-json-logger>=2.0.7"
+pip install "python-ulid>=3.0.0"
 pip install "pytz>=2024.2"
 pip install "pywin32>=308"
+pip check
 pip install "pywinpty>=2.0.14"
 pip install "pyyaml>=6.0.2"
 pip install "pyzbar>=0.1.9"
-pip check
 pip install "pyzmq>=26.2.0"
 pip check
 pip install "regex>=2024.9.11"
@@ -126,6 +129,7 @@ pip install "six>=1.16.0"
 pip install "smmap>=5.0.1"
 pip install "sniffio>=1.3.1"
 pip install "soupsieve>=2.6"
+pip install "sqlite-fts4>=1.0.3"
 pip install "stringzilla>=3.10.5"
 pip install "striprtf>=0.0.26"
 pip check
@@ -243,9 +247,10 @@ pip install "aiohttp>=3.10.10"
 pip install "albucore>=0.0.19"
 pip install "argon2-cffi-bindings>=21.2.0"
 pip check
+pip install "click-default-group>=1.2.4"
 pip install "dataclasses-json>=0.6.7"
-pip install "flask>=3.0.3"
 pip check
+pip install "flask>=3.0.3"
 pip install "gitpython>=3.1.43"
 pip install "google-auth>=2.35.0"
 pip install "grpc-google-iam-v1>=0.13.1"
@@ -312,6 +317,8 @@ pip install "opentelemetry-instrumentation>=0.48b0"
 pip install "opentelemetry-semantic-conventions>=0.48b0"
 pip check
 pip install "pydantic-settings>=2.6.0"
+pip install "sqlite-utils>=3.37"
+pip check
 pip install "torchaudio>=2.4.1+cu124"
 pip install "torchmetrics>=1.5.1"
 pip install "torchvision>=0.19.1+cu124"
@@ -346,6 +353,8 @@ pip install "opentelemetry-sdk>=1.27.0"
 pip install "pydata-google-auth>=1.8.2"
 pip install "pytorch-lightning>=2.4.0"
 pip check
+pip install "sqlite-migrate>=0.1b0"
+pip check
 rem Level 5
 rem Level 6
 pip install "google-cloud-bigquery>=3.26.0"
@@ -359,6 +368,7 @@ pip install "llama-index-agent-openai>=0.3.4"
 pip install "llama-index-cli>=0.3.1"
 pip install "llama-index-multi-modal-llms-openai>=0.2.3"
 pip install "llama-index-readers-llama-parse>=0.3.0"
+pip install "llm>=0.17"
 pip check
 pip install "nbclient>=0.10.0"
 pip install "openinference-instrumentation>=0.1.18"

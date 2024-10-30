@@ -77,6 +77,7 @@ propcache
 protobuf
 psutil
 pure-eval
+puremagic
 pyasn1
 pycodestyle
 pycparser
@@ -86,9 +87,11 @@ pylucidio
 pyparsing
 pypdf
 pyqtree
+pyreadline3
 pyserial
 python-dotenv
 python-json-logger
+python-ulid
 pytz
 pywin32
 pywinpty
@@ -106,6 +109,7 @@ six
 smmap
 sniffio
 soupsieve
+sqlite-fts4
 stringzilla
 striprtf
 tabulate
@@ -194,6 +198,7 @@ yarl
 aiohttp
 albucore
 argon2-cffi-bindings
+click-default-group
 dataclasses-json
 flask
 gitpython
@@ -243,6 +248,7 @@ openai
 opentelemetry-instrumentation
 opentelemetry-semantic-conventions
 pydantic-settings
+sqlite-utils
 torchaudio
 torchmetrics
 torchvision
@@ -268,6 +274,7 @@ nbformat
 opentelemetry-sdk
 pydata-google-auth
 pytorch-lightning
+sqlite-migrate
 google-cloud-bigquery
 google-cloud-storage
 langchain-community
@@ -278,6 +285,7 @@ llama-index-agent-openai
 llama-index-cli
 llama-index-multi-modal-llms-openai
 llama-index-readers-llama-parse
+llm
 nbclient
 openinference-instrumentation
 opentelemetry-exporter-otlp-proto-grpc

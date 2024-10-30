@@ -22,6 +22,7 @@ certifi
 cffi
 charset-normalizer
 click
+click-default-group
 colorama
 comm
 contourpy
@@ -148,6 +149,7 @@ llama-index-readers-file
 llama-index-readers-llama-parse
 llama-parse
 llamaindex-py-client
+llm
 llvmlite
 lmdb
 lxml
@@ -216,6 +218,7 @@ proto-plus
 protobuf
 psutil
 pure-eval
+puremagic
 pyarrow
 pyasn1
 pyasn1-modules
@@ -232,11 +235,13 @@ pylucidio
 pyparsing
 pypdf
 pyqtree
+pyreadline3
 pyserial
 pytest
 python-dateutil
 python-dotenv
 python-json-logger
+python-ulid
 pytorch-lightning
 pytz
 pywin32
@@ -267,6 +272,9 @@ smmap
 sniffio
 soupsieve
 sqlalchemy
+sqlite-fts4
+sqlite-migrate
+sqlite-utils
 stack-data
 streamlit
 stringzilla

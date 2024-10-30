@@ -1,12 +1,13 @@
-rem 2024-10-27T22:47:35.627600+00:00
+rem 2024-10-30T07:19:44.145030+00:00
 rem Level 3
 pip install "aiohttp>=3.10.10"
 pip install "albucore>=0.0.19"
 pip install "argon2-cffi-bindings>=21.2.0"
 pip check
+pip install "click-default-group>=1.2.4"
 pip install "dataclasses-json>=0.6.7"
-pip install "flask>=3.0.3"
 pip check
+pip install "flask>=3.0.3"
 pip install "gitpython>=3.1.43"
 pip install "google-auth>=2.35.0"
 pip install "grpc-google-iam-v1>=0.13.1"
