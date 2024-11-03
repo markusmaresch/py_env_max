@@ -25,12 +25,14 @@ executing
 fastjsonschema
 filelock
 fonttools
+fqdn
 frozenlist
 fsspec
 google-crc32c
 greenlet
 grpcio
 h11
+httpx-sse
 idna
 importlib-resources
 imutils
@@ -105,6 +107,7 @@ ruff
 segment-anything
 send2trash
 setuptools
+simsimd
 six
 smmap
 sniffio
@@ -118,12 +121,15 @@ tenacity
 toml
 tornado
 traitlets
+types-python-dateutil
 typing-extensions
 tzdata
+uri-template
 uritemplate
 urllib3
 watchdog
 wcwidth
+webcolors
 webencodings
 websocket-client
 wheel
@@ -198,6 +204,7 @@ yarl
 aiohttp
 albucore
 argon2-cffi-bindings
+arrow
 click-default-group
 dataclasses-json
 flask
@@ -237,6 +244,7 @@ google-auth-httplib2
 google-auth-oauthlib
 intel-openmp
 ipython
+isoduration
 jax
 jsonschema
 kubernetes

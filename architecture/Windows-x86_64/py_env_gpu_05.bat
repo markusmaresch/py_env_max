@@ -1,10 +1,10 @@
-rem 2024-10-30T07:51:51.383422+00:00
+rem 2024-11-03T22:43:58.265777+00:00
 rem Level 5
 pip install "altair>=5.4.1"
-pip install "anthropic>=0.37.1"
+pip install "anthropic>=0.38.0"
 pip check
 pip install "google-api-python-client>=2.135.0"
-pip install "google-cloud-compute>=1.19.2"
+pip install "google-cloud-compute>=1.20.1"
 pip install "google-cloud-core>=2.4.1"
 pip install "google-cloud-resource-manager>=1.13.0"
 pip install "google-cloud-secret-manager>=2.21.0"
@@ -20,7 +20,7 @@ pip install "llama-index-legacy>=0.9.48.post3"
 pip install "llama-index-llms-ollama>=0.3.4"
 pip install "llama-index-llms-openai>=0.2.16"
 pip install "llama-index-readers-file>=0.2.2"
-pip install "llama-parse>=0.5.12"
+pip install "llama-parse>=0.5.13"
 pip check
 pip install "mkl>=2025.0.0"
 pip install "nbformat>=5.10.4"

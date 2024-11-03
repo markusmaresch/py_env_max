@@ -10,6 +10,7 @@ anyio
 arena-api
 argon2-cffi
 argon2-cffi-bindings
+arrow
 asttokens
 async-lru
 attrs
@@ -51,6 +52,7 @@ flake8
 flask
 fonttools
 fpdf2
+fqdn
 frozenlist
 fsspec
 gitdb
@@ -81,6 +83,7 @@ h5py
 httpcore
 httplib2
 httpx
+httpx-sse
 huggingface-hub
 idna
 imageio
@@ -93,6 +96,7 @@ intel-openmp
 ipykernel
 ipython
 ipython-genutils
+isoduration
 itsdangerous
 jax
 jaxlib
@@ -270,6 +274,7 @@ segment-anything
 send2trash
 setuptools
 shapely
+simsimd
 six
 smmap
 sniffio
@@ -300,14 +305,17 @@ torchvision
 tornado
 tqdm
 traitlets
+types-python-dateutil
 typing-extensions
 typing-inspect
 tzdata
 umf
+uri-template
 uritemplate
 urllib3
 watchdog
 wcwidth
+webcolors
 webencodings
 websocket-client
 werkzeug

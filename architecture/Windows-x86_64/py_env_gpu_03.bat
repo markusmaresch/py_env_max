@@ -1,8 +1,9 @@
-rem 2024-10-30T07:51:51.383422+00:00
+rem 2024-11-03T22:43:58.265777+00:00
 rem Level 3
 pip install "aiohttp>=3.10.10"
-pip install "albucore>=0.0.19"
+pip install "albucore>=0.0.20"
 pip install "argon2-cffi-bindings>=21.2.0"
+pip install "arrow>=1.3.0"
 pip check
 pip install "click-default-group>=1.2.4"
 pip install "dataclasses-json>=0.6.7"
@@ -37,7 +38,7 @@ pip install "pydeck>=0.9.1"
 pip check
 pip install "requests-oauthlib>=2.0.0"
 pip install "requests-toolbelt>=0.10.1"
-pip install "rich>=13.9.3"
+pip install "rich>=13.9.4"
 pip check
 pip install "scikit-image>=0.24.0"
 pip install "stack-data>=0.6.3"

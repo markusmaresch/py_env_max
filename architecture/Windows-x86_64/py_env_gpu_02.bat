@@ -1,4 +1,4 @@
-rem 2024-10-30T07:51:51.383422+00:00
+rem 2024-11-03T22:43:58.265777+00:00
 rem Level 2
 pip install "aiosignal>=1.3.1"
 pip install "anyio>=4.6.1"
@@ -6,7 +6,7 @@ pip install "arena-api>=2.5.9"
 pip install "asttokens>=2.4.1"
 pip check
 pip install "beautifulsoup4>=4.12.3"
-pip install "bleach>=6.1.0"
+pip install "bleach>=6.2.0"
 pip check
 pip install "cffi>=1.17.1"
 pip install "click>=8.1.7"
@@ -41,7 +41,7 @@ pip install "lazy-loader>=0.4"
 pip install "lightning-utilities>=0.11.8"
 pip check
 pip install "markdown-it-py>=3.0.0"
-pip install "marshmallow>=3.23.0"
+pip install "marshmallow>=3.23.1"
 pip install "matplotlib-inline>=0.1.7"
 pip install "ml-dtypes>=0.5.0"
 pip check
@@ -53,7 +53,7 @@ pip install "opentelemetry-proto>=1.27.0"
 pip check
 pip install "prompt-toolkit>=3.0.48"
 pip install "proto-plus>=1.25.0"
-pip install "pyarrow>=17.0.0"
+pip install "pyarrow>=18.0.0"
 pip install "pyasn1-modules>=0.4.1"
 pip install "pydantic-core>=2.23.4"
 pip install "pytest>=8.3.3"
@@ -74,12 +74,12 @@ pip install "tbb>=2022.0.0"
 pip install "terminado>=0.18.1"
 pip install "tifffile>=2024.9.20"
 pip install "tinycss2>=1.4.0"
-pip install "tqdm>=4.66.5"
+pip install "tqdm>=4.66.6"
 pip install "typing-inspect>=0.9.0"
 pip check
 pip install "umf>=0.9.0"
-pip install "werkzeug>=3.0.6"
+pip install "werkzeug>=3.1.1"
 pip check
-pip install "yarl>=1.16.0"
+pip install "yarl>=1.17.1"
 pip check
 rem Level 2

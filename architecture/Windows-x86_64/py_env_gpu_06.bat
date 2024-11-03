@@ -1,4 +1,4 @@
-rem 2024-10-30T07:51:51.383422+00:00
+rem 2024-11-03T22:43:58.265777+00:00
 rem Level 6
 pip install "google-cloud-bigquery>=3.26.0"
 pip install "google-cloud-storage>=2.18.2"
@@ -11,7 +11,7 @@ pip install "llama-index-agent-openai>=0.3.4"
 pip install "llama-index-cli>=0.3.1"
 pip install "llama-index-multi-modal-llms-openai>=0.2.3"
 pip install "llama-index-readers-llama-parse>=0.3.0"
-pip install "llm>=0.17"
+pip install "llm>=0.17.1"
 pip check
 pip install "nbclient>=0.10.0"
 pip install "openinference-instrumentation>=0.1.18"
