@@ -2,7 +2,7 @@
 requirements_*[0-9].txt
 req_problem.txt
 #py_env_2*.yml
-#/py_env_*.json
+py_env_*.json
 #/py_env_*.txt
 .DS_Store
 .ipynb_checkpoints
