@@ -80,6 +80,7 @@ protobuf
 psutil
 pure-eval
 puremagic
+pyarrow
 pyasn1
 pycodestyle
 pycparser
@@ -178,7 +179,6 @@ opencv-python-headless
 opentelemetry-proto
 prompt-toolkit
 proto-plus
-pyarrow
 pyasn1-modules
 pydantic-core
 pytest

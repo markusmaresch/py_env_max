@@ -1,4 +1,4 @@
-rem 2024-11-03T22:43:58.265777+00:00
+rem 2024-11-03T23:05:48.683195+00:00
 rem Level 7
 pip install "google-cloud-aiplatform>=1.71.1"
 pip check

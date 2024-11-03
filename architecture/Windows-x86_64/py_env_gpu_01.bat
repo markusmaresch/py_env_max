@@ -1,4 +1,4 @@
-rem 2024-11-03T22:43:58.265777+00:00
+rem 2024-11-03T23:05:48.683195+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.3"
 pip install "annotated-types>=0.7.0"
@@ -97,13 +97,14 @@ pip install "protobuf>=4.25.5"
 pip install "psutil>=6.1.0"
 pip install "pure-eval>=0.2.3"
 pip install "puremagic>=1.28"
+pip install "pyarrow>=18.0.0"
 pip install "pyasn1>=0.6.1"
 pip install "pycodestyle>=2.12.1"
 pip install "pycparser>=2.22"
 pip install "pyflakes>=3.2.0"
 pip install "pygments>=2.18.0"
-pip install "pylucidio>=2.4"
 pip check
+pip install "pylucidio>=2.4"
 pip install "pyparsing>=3.2.0"
 pip install "pypdf>=4.3.1"
 pip install "pyqtree>=1.0.0"
@@ -113,8 +114,8 @@ pip install "python-dotenv>=1.0.1"
 pip install "python-json-logger>=2.0.7"
 pip install "python-ulid>=3.0.0"
 pip install "pytz>=2024.2"
-pip install "pywin32>=308"
 pip check
+pip install "pywin32>=308"
 pip install "pywinpty>=2.0.14"
 pip install "pyyaml>=6.0.2"
 pip install "pyzbar>=0.1.9"

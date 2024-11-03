@@ -1,4 +1,4 @@
-rem 2024-11-03T22:43:58.265777+00:00
+rem 2024-11-03T23:05:48.683195+00:00
 rem Level 2
 pip install "aiosignal>=1.3.1"
 pip install "anyio>=4.6.1"
@@ -53,7 +53,6 @@ pip install "opentelemetry-proto>=1.27.0"
 pip check
 pip install "prompt-toolkit>=3.0.48"
 pip install "proto-plus>=1.25.0"
-pip install "pyarrow>=18.0.0"
 pip install "pyasn1-modules>=0.4.1"
 pip install "pydantic-core>=2.23.4"
 pip install "pytest>=8.3.3"
