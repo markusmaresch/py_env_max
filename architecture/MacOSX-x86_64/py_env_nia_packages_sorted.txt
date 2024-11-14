@@ -54,6 +54,7 @@ pycparser
 pyflakes
 pygments
 pyparsing
+pyqtree
 python-json-logger
 pytz
 pyyaml
@@ -135,6 +136,7 @@ arrow
 flask
 google-auth
 grpc-google-iam-v1
+grpcio-status
 jsonschema-specifications
 jupyter-client
 jupyter-server-terminals
