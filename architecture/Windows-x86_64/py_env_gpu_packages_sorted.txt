@@ -1,4 +1,5 @@
 aiohappyeyeballs
+aisuite
 annotated-types
 async-lru
 attrs
@@ -24,6 +25,7 @@ eval-type-backport
 executing
 fastjsonschema
 filelock
+filetype
 fonttools
 fqdn
 frozenlist
@@ -177,6 +179,7 @@ opencv-contrib-python
 opencv-python
 opencv-python-headless
 opentelemetry-proto
+plyfile
 prompt-toolkit
 proto-plus
 pyasn1-modules
@@ -190,6 +193,7 @@ rfc3339-validator
 rsa
 scipy
 shapely
+snakeviz
 sqlalchemy
 sympy
 tbb
@@ -236,6 +240,7 @@ stack-data
 tiktoken
 torch
 albumentations
+anthropic
 argon2-cffi
 braincube-connector
 db-dtypes
@@ -263,7 +268,6 @@ torchaudio
 torchmetrics
 torchvision
 altair
-anthropic
 google-api-python-client
 google-cloud-compute
 google-cloud-core

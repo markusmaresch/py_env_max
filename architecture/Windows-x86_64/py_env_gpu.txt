@@ -1,6 +1,7 @@
 aiohappyeyeballs
 aiohttp
 aiosignal
+aisuite
 albucore
 albumentations
 altair
@@ -48,6 +49,7 @@ eval-type-backport
 executing
 fastjsonschema
 filelock
+filetype
 flake8
 flask
 fonttools
@@ -218,6 +220,7 @@ pillow
 pip
 platformdirs
 pluggy
+plyfile
 prometheus-client
 prompt-toolkit
 propcache
@@ -277,6 +280,7 @@ shapely
 simsimd
 six
 smmap
+snakeviz
 sniffio
 soupsieve
 sqlalchemy

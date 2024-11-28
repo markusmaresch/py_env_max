@@ -1,6 +1,6 @@
-rem 2024-11-03T23:31:38.549032+00:00
+rem 2024-11-28T21:20:04.542234+00:00
 rem Level 3
-pip install "aiohttp>=3.10.10"
+pip install "aiohttp>=3.11.8"
 pip install "albucore>=0.0.20"
 pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
@@ -8,16 +8,16 @@ pip check
 pip install "click-default-group>=1.2.4"
 pip install "dataclasses-json>=0.6.7"
 pip check
-pip install "flask>=3.0.3"
+pip install "flask>=3.1.0"
 pip install "gitpython>=3.1.43"
-pip install "google-auth>=2.35.0"
+pip install "google-auth>=2.36.0"
 pip install "grpc-google-iam-v1>=0.13.1"
 pip install "grpcio-status>=1.62.3"
 pip check
 pip install "httpx>=0.27.2"
-pip install "huggingface-hub>=0.26.2"
+pip install "huggingface-hub>=0.26.3"
 pip check
-pip install "intel-cmplr-lib-ur>=2025.0.0"
+pip install "intel-cmplr-lib-ur>=2025.0.2"
 pip install "jaxlib>=0.4.35"
 pip install "jsonschema-specifications>=2024.10.1"
 pip install "jupyter-client>=8.6.3"
@@ -33,7 +33,7 @@ pip install "opentelemetry-api>=1.27.0"
 pip install "opentelemetry-exporter-otlp-proto-common>=1.27.0"
 pip check
 pip install "pandas>=2.2.3"
-pip install "pydantic>=2.9.2"
+pip install "pydantic>=2.10.2"
 pip install "pydeck>=0.9.1"
 pip check
 pip install "requests-oauthlib>=2.0.0"
