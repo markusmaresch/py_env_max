@@ -8,6 +8,7 @@ from database import Database
 from os_platform import OsPlatform
 from conda_cmd import CondaCmd
 from pip_cmd import PipCmd
+from env_cmd import EnvCmd
 
 
 class ScriptsCmd:
@@ -33,8 +34,14 @@ class ScriptsCmd:
         db_name = '{}.json'.format(env_name)
         db = Database()
         if not db.load(db_name):
-            print('scripts_export: call environment import before')
-            return False
+            print('scripts_export: attempting to call environment import before')
+            if not EnvCmd.env_import(env_name=env_name, force=False):
+                return False
+            if not db.load(db_name):
+                return False
+            # fi
+            print('scripts_export: load succeeded ..')
+        # fi
         packages = db.packages_get_names_all()
         list_name = f'{env_name}.txt'
         with open(list_name, 'w') as f:

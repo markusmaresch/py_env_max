@@ -90,6 +90,7 @@ opencv-python
 opencv-python-headless
 opentelemetry-api
 opentelemetry-instrumentation
+opentelemetry-semantic-conventions
 packaging
 pandas
 pandocfilters
