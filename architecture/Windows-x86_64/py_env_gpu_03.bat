@@ -1,4 +1,4 @@
-rem 2024-11-28T21:20:04.542234+00:00
+rem 2024-11-28T22:27:51.691573+00:00
 rem Level 3
 pip install "aiohttp>=3.11.8"
 pip install "albucore>=0.0.20"
@@ -24,7 +24,7 @@ pip install "jupyter-client>=8.6.3"
 pip install "jupyter-server-terminals>=0.5.3"
 pip check
 pip install "kfp-server-api>=2.0.5"
-pip install "llama-cpp-python>=0.3.1"
+pip install "llama-cpp-python>=0.3.2"
 pip check
 pip install "matplotlib>=3.9.2"
 pip install "nltk>=3.9.1"

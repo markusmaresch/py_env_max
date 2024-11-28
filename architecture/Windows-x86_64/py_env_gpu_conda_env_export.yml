@@ -156,7 +156,7 @@ dependencies:
       - lightning==2.4.0
       - lightning-utilities==0.11.9
       - llama-cloud==0.1.5
-      - llama-cpp-python==0.3.1
+      - llama-cpp-python==0.3.2
       - llama-index==0.11.23
       - llama-index-agent-openai==0.3.4
       - llama-index-cli==0.3.1
@@ -232,7 +232,7 @@ dependencies:
       - pandocfilters==1.5.1
       - parso==0.8.4
       - persist-queue==1.0.0
-      - pillow==10.4.0
+      - pillow==11.0.0
       - pip==24.3.1
       - platformdirs==4.3.6
       - pluggy==1.5.0
@@ -333,7 +333,7 @@ dependencies:
       - uri-template==1.3.0
       - uritemplate==4.1.1
       - urllib3==1.26.19
-      - watchdog==5.0.3
+      - watchdog==6.0.0
       - wcwidth==0.2.13
       - webcolors==24.11.1
       - webencodings==0.5.1

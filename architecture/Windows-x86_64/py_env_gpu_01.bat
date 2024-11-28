@@ -1,4 +1,4 @@
-rem 2024-11-28T21:20:04.542234+00:00
+rem 2024-11-28T22:27:51.691573+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.3"
 pip install "aisuite>=0.1.6"
@@ -88,7 +88,7 @@ pip install "packaging>=23.2"
 pip install "pandocfilters>=1.5.1"
 pip install "parso>=0.8.4"
 pip install "persist-queue>=1.0.0"
-pip install "pillow>=10.4.0"
+pip install "pillow>=11.0.0"
 pip install "pip>=24.3.1"
 pip install "platformdirs>=4.3.6"
 pip install "pluggy>=1.5.0"
@@ -155,7 +155,7 @@ pip install "uri-template>=1.3.0"
 pip install "uritemplate>=4.1.1"
 pip install "urllib3>=1.26.19"
 pip check
-pip install "watchdog>=5.0.3"
+pip install "watchdog>=6.0.0"
 pip install "wcwidth>=0.2.13"
 pip install "webcolors>=24.11.1"
 pip install "webencodings>=0.5.1"
