@@ -1,5 +1,4 @@
 aiobotocore
-aiohappyeyeballs
 aiohttp
 aioitertools
 aiosignal
@@ -42,7 +41,9 @@ fqdn
 frozenlist
 fsspec
 google-api-core
+google-api-python-client
 google-auth
+google-auth-httplib2
 google-cloud-bigquery
 google-cloud-core
 google-cloud-storage
@@ -53,6 +54,7 @@ grpcio
 grpcio-status
 h11
 httpcore
+httplib2
 httpx
 idna
 imageio
@@ -111,7 +113,6 @@ pluggy
 ply
 prometheus-client
 prompt-toolkit
-propcache
 proto-plus
 protobuf
 psutil
@@ -124,10 +125,10 @@ pycodestyle
 pycparser
 pyflakes
 pygments
-pylucidio
 pyparsing
 pypng
 pyqt6-sip
+pyqtree
 pyrsistent
 python-dateutil
 python-json-logger
@@ -166,6 +167,7 @@ types-python-dateutil
 typing-extensions
 tzdata
 uri-template
+uritemplate
 urllib3
 wcwidth
 webcolors
