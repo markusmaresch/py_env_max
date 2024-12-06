@@ -1,5 +1,5 @@
-# 2024-12-03T12:51:09.959347+00:00
+# 2024-12-06T13:08:00.865493+00:00
 # Level 10
-pip install "jupyterlab>=4.2.3"
+pip install "jupyterlab>=4.3.2"
 pip check
 # Level 10

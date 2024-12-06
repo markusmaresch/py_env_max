@@ -1,4 +1,6 @@
+aiohappyeyeballs
 aioitertools
+async-lru
 async-timeout
 attrs
 babel
@@ -17,6 +19,7 @@ docopt
 exceptiongroup
 executing
 fastjsonschema
+filelock
 fonttools
 fqdn
 frozenlist
@@ -35,6 +38,7 @@ kiwisolver
 markupsafe
 mccabe
 mistune
+mpmath
 multidict
 nest-asyncio
 networkx
@@ -51,15 +55,18 @@ platformdirs
 pluggy
 ply
 prometheus-client
+propcache
 protobuf
 psutil
 ptyprocess
 pure-eval
+pyarrow
 pyasn1
 pycodestyle
 pycparser
 pyflakes
 pygments
+pylucidio
 pyparsing
 pypng
 pyqt6-sip
@@ -70,9 +77,11 @@ pytz
 pyyaml
 pyzbar
 pyzmq
+qrcode
 rfc3986-validator
 rpds-py
 ruff
+segment-anything
 send2trash
 setuptools
 six
@@ -80,6 +89,7 @@ sniffio
 soupsieve
 threadpoolctl
 tomli
+torch-vision
 tornado
 traitlets
 types-python-dateutil
@@ -101,7 +111,6 @@ aiosignal
 anyio
 arena-api
 asttokens
-async-lru
 beautifulsoup4
 bleach
 cffi
@@ -127,17 +136,16 @@ opencv-python-headless
 pexpect
 prompt-toolkit
 proto-plus
-pyarrow
 pyasn1-modules
 python-dateutil
 pywavelets
-qrcode
 referencing
 requests
 rfc3339-validator
 rsa
 scipy
 sip
+sympy
 terminado
 tifffile
 tinycss2
@@ -157,6 +165,7 @@ pandas
 scikit-image
 scikit-learn
 stack-data
+torch
 yarg
 aiobotocore
 argon2-cffi

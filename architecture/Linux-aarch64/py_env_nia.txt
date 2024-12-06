@@ -1,4 +1,5 @@
 aiobotocore
+aiohappyeyeballs
 aiohttp
 aioitertools
 aiosignal
@@ -34,6 +35,7 @@ docopt
 exceptiongroup
 executing
 fastjsonschema
+filelock
 flake8
 fonttools
 fpdf2
@@ -87,6 +89,7 @@ matplotlib
 matplotlib-inline
 mccabe
 mistune
+mpmath
 multidict
 nbclient
 nbconvert
@@ -113,6 +116,7 @@ pluggy
 ply
 prometheus-client
 prompt-toolkit
+propcache
 proto-plus
 protobuf
 psutil
@@ -125,6 +129,7 @@ pycodestyle
 pycparser
 pyflakes
 pygments
+pylucidio
 pyparsing
 pypng
 pyqt6-sip
@@ -149,6 +154,7 @@ s3fs
 scikit-image
 scikit-learn
 scipy
+segment-anything
 send2trash
 setuptools
 sip
@@ -156,11 +162,14 @@ six
 sniffio
 soupsieve
 stack-data
+sympy
 terminado
 threadpoolctl
 tifffile
 tinycss2
 tomli
+torch
+torch-vision
 tornado
 traitlets
 types-python-dateutil
