@@ -59,6 +59,7 @@ frozenlist
 fsspec
 gitdb
 gitpython
+google-ai-generativelanguage
 google-api-core
 google-api-python-client
 google-auth
@@ -74,6 +75,8 @@ google-cloud-secret-manager
 google-cloud-storage
 google-cloud-vision
 google-crc32c
+google-genai
+google-generativeai
 google-resumable-media
 googleapis-common-protos
 greenlet
@@ -88,6 +91,7 @@ httpx
 httpx-sse
 huggingface-hub
 idna
+ijson
 imageio
 importlib-metadata
 importlib-resources
@@ -95,6 +99,7 @@ imutils
 iniconfig
 intel-cmplr-lib-ur
 intel-openmp
+iprogress
 ipykernel
 ipython
 ipython-genutils
@@ -159,6 +164,7 @@ llama-parse
 llamaindex-py-client
 llm
 llm-claude-3
+llm-gemini
 llvmlite
 lmdb
 lxml
@@ -183,6 +189,7 @@ nbformat
 nest-asyncio
 networkx
 nltk
+nodeenv
 notebook
 notebook-shim
 numba
@@ -218,6 +225,7 @@ parso
 persist-queue
 pillow
 pip
+pipdeptree
 platformdirs
 pluggy
 plyfile
@@ -246,6 +254,7 @@ pyparsing
 pypdf
 pyqtree
 pyreadline3
+pyright
 pyserial
 pytest
 python-dateutil
@@ -322,6 +331,7 @@ wcwidth
 webcolors
 webencodings
 websocket-client
+websockets
 werkzeug
 wheel
 wrapt

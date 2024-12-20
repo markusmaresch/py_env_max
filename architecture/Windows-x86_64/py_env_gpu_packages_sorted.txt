@@ -36,6 +36,7 @@ grpcio
 h11
 httpx-sse
 idna
+ijson
 importlib-resources
 imutils
 iniconfig
@@ -62,6 +63,7 @@ mypy-extensions
 narwhals
 nest-asyncio
 networkx
+nodeenv
 numpy
 oauthlib
 openinference-semantic-conventions
@@ -135,6 +137,7 @@ wcwidth
 webcolors
 webencodings
 websocket-client
+websockets
 wheel
 wrapt
 xlsxwriter
@@ -162,6 +165,7 @@ httpcore
 httplib2
 imageio
 importlib-metadata
+iprogress
 jedi
 jinja2
 json-numpy
@@ -179,11 +183,13 @@ opencv-contrib-python
 opencv-python
 opencv-python-headless
 opentelemetry-proto
+pipdeptree
 plyfile
 prompt-toolkit
 proto-plus
 pyasn1-modules
 pydantic-core
+pyright
 pytest
 python-dateutil
 qrcode
@@ -247,6 +253,7 @@ db-dtypes
 google-api-core
 google-auth-httplib2
 google-auth-oauthlib
+google-genai
 intel-openmp
 ipython
 isoduration
@@ -268,6 +275,7 @@ torchaudio
 torchmetrics
 torchvision
 altair
+google-ai-generativelanguage
 google-api-python-client
 google-cloud-compute
 google-cloud-core
@@ -292,6 +300,7 @@ pytorch-lightning
 sqlite-migrate
 google-cloud-bigquery
 google-cloud-storage
+google-generativeai
 langchain-community
 langchain-openai
 langchain-text-splitters
@@ -311,6 +320,7 @@ kfp
 langchain
 llama-index-program-openai
 llm-claude-3
+llm-gemini
 nbconvert
 openinference-instrumentation-langchain
 openinference-instrumentation-llama-index
