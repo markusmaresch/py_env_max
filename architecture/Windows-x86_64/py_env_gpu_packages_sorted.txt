@@ -1,6 +1,7 @@
 aiohappyeyeballs
 aisuite
 annotated-types
+ansicon
 async-lru
 attrs
 babel
@@ -23,6 +24,7 @@ docutils
 durationpy
 eval-type-backport
 executing
+fastavro
 fastjsonschema
 filelock
 filetype
@@ -45,6 +47,7 @@ itsdangerous
 jiter
 joblib
 json5
+jsonpath-python
 jsonpointer
 jupyter-highlight-selected-word
 jupyterlab-pygments
@@ -72,6 +75,7 @@ orjson
 overrides
 packaging
 pandocfilters
+parameterized
 parso
 persist-queue
 pillow
@@ -90,6 +94,7 @@ pycodestyle
 pycparser
 pyflakes
 pygments
+pyjwt
 pylucidio
 pyparsing
 pypdf
@@ -109,6 +114,7 @@ regex
 rfc3986-validator
 rpds-py
 ruff
+safetensors
 segment-anything
 send2trash
 setuptools
@@ -123,6 +129,7 @@ striprtf
 tabulate
 tcmlib
 tenacity
+threadpoolctl
 toml
 tornado
 traitlets
@@ -168,6 +175,7 @@ importlib-metadata
 iprogress
 jedi
 jinja2
+jinxed
 json-numpy
 jsonpatch
 jupyter-core
@@ -185,6 +193,7 @@ opencv-python-headless
 opentelemetry-proto
 pipdeptree
 plyfile
+portalocker
 prompt-toolkit
 proto-plus
 pyasn1-modules
@@ -215,7 +224,10 @@ aiohttp
 albucore
 argon2-cffi-bindings
 arrow
+azure-core
+blessed
 click-default-group
+cryptography
 dataclasses-json
 flask
 gitpython
@@ -242,6 +254,7 @@ requests-oauthlib
 requests-toolbelt
 rich
 scikit-image
+scikit-learn
 stack-data
 tiktoken
 torch
@@ -264,6 +277,8 @@ langsmith
 llama-cloud
 llama-index-core
 llamaindex-py-client
+mistralai
+msal
 ollama
 openai
 opentelemetry-instrumentation
@@ -293,11 +308,14 @@ llama-index-llms-openai
 llama-index-readers-file
 llama-parse
 mkl
+msal-extensions
 nbformat
 opentelemetry-sdk
 pydata-google-auth
 pytorch-lightning
 sqlite-migrate
+transformers
+azure-identity
 google-cloud-bigquery
 google-cloud-storage
 google-generativeai
@@ -314,6 +332,7 @@ nbclient
 openinference-instrumentation
 opentelemetry-exporter-otlp-proto-grpc
 opentelemetry-exporter-otlp-proto-http
+sentence-transformers
 streamlit
 google-cloud-aiplatform
 kfp

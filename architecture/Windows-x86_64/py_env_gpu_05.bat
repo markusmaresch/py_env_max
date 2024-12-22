@@ -1,4 +1,4 @@
-rem 2024-12-20T14:09:34.914607+00:00
+rem 2024-12-22T00:01:55.774875+00:00
 rem Level 5
 pip install "altair>=5.5.0"
 pip check
@@ -23,12 +23,15 @@ pip install "llama-index-readers-file>=0.3.0"
 pip install "llama-parse>=0.5.18"
 pip check
 pip install "mkl>=2025.0.1"
-pip install "nbformat>=5.10.4"
+pip install "msal-extensions>=1.2.0"
 pip check
+pip install "nbformat>=5.10.4"
 pip install "opentelemetry-sdk>=1.27.0"
+pip check
 pip install "pydata-google-auth>=1.9.0"
-pip install "pytorch-lightning>=2.4.0"
+pip install "pytorch-lightning>=2.5.0"
 pip check
 pip install "sqlite-migrate>=0.1b0"
+pip install "transformers>=4.47.1"
 pip check
 rem Level 5

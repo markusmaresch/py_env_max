@@ -6,6 +6,7 @@ albucore
 albumentations
 altair
 annotated-types
+ansicon
 anthropic
 anyio
 arena-api
@@ -15,9 +16,12 @@ arrow
 asttokens
 async-lru
 attrs
+azure-core
+azure-identity
 babel
 beautifulsoup4
 bleach
+blessed
 blinker
 braincube-connector
 cachetools
@@ -29,6 +33,7 @@ click-default-group
 colorama
 comm
 contourpy
+cryptography
 cycler
 cython
 dataclasses-json
@@ -47,6 +52,7 @@ durationpy
 email-validator
 eval-type-backport
 executing
+fastavro
 fastjsonschema
 filelock
 filetype
@@ -109,11 +115,13 @@ jax
 jaxlib
 jedi
 jinja2
+jinxed
 jiter
 joblib
 json-numpy
 json5
 jsonpatch
+jsonpath-python
 jsonpointer
 jsonschema
 jsonschema-specifications
@@ -176,10 +184,13 @@ matplotlib
 matplotlib-inline
 mccabe
 mdurl
+mistralai
 mistune
 mkl
 ml-dtypes
 mpmath
+msal
+msal-extensions
 multidict
 mypy-extensions
 narwhals
@@ -221,6 +232,7 @@ packaging
 pandas
 pandas-gbq
 pandocfilters
+parameterized
 parso
 persist-queue
 pillow
@@ -229,6 +241,7 @@ pipdeptree
 platformdirs
 pluggy
 plyfile
+portalocker
 prometheus-client
 prompt-toolkit
 propcache
@@ -249,6 +262,7 @@ pydata-google-auth
 pydeck
 pyflakes
 pygments
+pyjwt
 pylucidio
 pyparsing
 pypdf
@@ -280,10 +294,13 @@ rich
 rpds-py
 rsa
 ruff
+safetensors
 scikit-image
+scikit-learn
 scipy
 segment-anything
 send2trash
+sentence-transformers
 setuptools
 shapely
 simsimd
@@ -306,6 +323,7 @@ tbb
 tcmlib
 tenacity
 terminado
+threadpoolctl
 tifffile
 tiktoken
 tinycss2
@@ -318,6 +336,7 @@ torchvision
 tornado
 tqdm
 traitlets
+transformers
 types-python-dateutil
 typing-extensions
 typing-inspect

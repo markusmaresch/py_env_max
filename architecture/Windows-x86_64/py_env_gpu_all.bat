@@ -1,8 +1,9 @@
-rem 2024-12-20T14:09:34.914607+00:00
+rem 2024-12-22T00:01:55.774875+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.4"
 pip install "aisuite>=0.1.6"
 pip install "annotated-types>=0.7.0"
+pip install "ansicon>=1.89.0"
 pip install "async-lru>=2.0.4"
 pip install "attrs>=24.3.0"
 pip check
@@ -27,9 +28,10 @@ pip install "docstring-parser>=0.16"
 pip install "docutils>=0.21.2"
 pip install "durationpy>=0.9"
 pip check
-pip install "eval-type-backport>=0.2.0"
+pip install "eval-type-backport>=0.2.2"
 pip install "executing>=2.1.0"
 pip check
+pip install "fastavro>=1.10.0"
 pip install "fastjsonschema>=2.21.1"
 pip install "filelock>=3.16.1"
 pip install "filetype>=1.2.0"
@@ -56,6 +58,7 @@ pip check
 pip install "jiter>=0.8.2"
 pip install "joblib>=1.4.2"
 pip install "json5>=0.10.0"
+pip install "jsonpath-python>=1.0.6"
 pip install "jsonpointer>=3.0.0"
 pip install "jupyter-highlight-selected-word>=0.2.0"
 pip install "jupyterlab-pygments>=0.3.0"
@@ -88,6 +91,7 @@ pip install "overrides>=7.7.0"
 pip check
 pip install "packaging>=23.2"
 pip install "pandocfilters>=1.5.1"
+pip install "parameterized>=0.9.0"
 pip install "parso>=0.8.4"
 pip install "persist-queue>=1.0.0"
 pip install "pillow>=11.0.0"
@@ -95,8 +99,8 @@ pip install "pip>=24.3.1"
 pip install "platformdirs>=4.3.6"
 pip install "pluggy>=1.5.0"
 pip install "prometheus-client>=0.21.1"
-pip install "propcache>=0.2.1"
 pip check
+pip install "propcache>=0.2.1"
 pip install "protobuf>=4.25.5"
 pip install "psutil>=6.1.1"
 pip install "pure-eval>=0.2.3"
@@ -106,8 +110,9 @@ pip install "pyasn1>=0.6.1"
 pip install "pycodestyle>=2.12.1"
 pip install "pycparser>=2.22"
 pip install "pyflakes>=3.2.0"
-pip install "pygments>=2.18.0"
 pip check
+pip install "pygments>=2.18.0"
+pip install "pyjwt>=2.10.1"
 pip install "pylucidio>=2.4"
 pip install "pyparsing>=3.2.0"
 pip install "pypdf>=5.1.0"
@@ -116,9 +121,9 @@ pip install "pyreadline3>=3.5.4"
 pip install "pyserial>=3.5"
 pip install "python-dotenv>=1.0.1"
 pip install "python-json-logger>=3.2.1"
+pip check
 pip install "python-ulid>=3.0.0"
 pip install "pytz>=2024.2"
-pip check
 pip install "pywin32>=308"
 pip install "pywinpty>=2.0.14"
 pip install "pyyaml>=6.0.2"
@@ -130,6 +135,7 @@ pip install "rfc3986-validator>=0.1.1"
 pip install "rpds-py>=0.22.3"
 pip install "ruff>=0.8.4"
 pip check
+pip install "safetensors>=0.4.5"
 pip install "segment-anything>=1.0"
 pip install "send2trash>=1.8.3"
 pip install "setuptools>=75.6.0"
@@ -139,13 +145,14 @@ pip install "smmap>=5.0.1"
 pip install "sniffio>=1.3.1"
 pip install "soupsieve>=2.6"
 pip install "sqlite-fts4>=1.0.3"
-pip install "stringzilla>=3.11.2"
 pip check
+pip install "stringzilla>=3.11.2"
 pip install "striprtf>=0.0.26"
 pip check
 pip install "tabulate>=0.9.0"
 pip install "tcmlib>=1.2.0"
 pip install "tenacity>=8.5.0"
+pip install "threadpoolctl>=3.5.0"
 pip install "toml>=0.10.2"
 pip install "tornado>=6.4.2"
 pip install "traitlets>=5.14.3"
@@ -182,7 +189,7 @@ pip install "beautifulsoup4>=4.12.3"
 pip install "bleach>=6.2.0"
 pip check
 pip install "cffi>=1.17.1"
-pip install "click>=8.1.7"
+pip install "click>=8.1.8"
 pip install "comm>=0.2.2"
 pip install "contourpy>=1.3.1"
 pip check
@@ -205,12 +212,13 @@ pip install "importlib-metadata>=8.4.0"
 pip install "iprogress>=0.4"
 pip check
 pip install "jedi>=0.19.2"
-pip install "jinja2>=3.1.4"
+pip install "jinja2>=3.1.5"
+pip install "jinxed>=1.3.0"
 pip install "json-numpy>=2.1.0"
 pip install "jsonpatch>=1.33"
 pip install "jupyter-core>=5.7.2"
 pip check
-pip install "kfp-pipeline-spec>=0.3.0"
+pip install "kfp-pipeline-spec>=0.5.0"
 pip install "lazy-loader>=0.4"
 pip install "lightning-utilities>=0.11.9"
 pip check
@@ -227,6 +235,7 @@ pip install "opentelemetry-proto>=1.27.0"
 pip check
 pip install "pipdeptree>=2.23.1"
 pip install "plyfile>=1.1"
+pip install "portalocker>=2.10.1"
 pip install "prompt-toolkit>=3.0.48"
 pip install "proto-plus>=1.25.0"
 pip install "pyasn1-modules>=0.4.1"
@@ -265,11 +274,15 @@ pip install "aiohttp>=3.11.11"
 pip install "albucore>=0.0.21"
 pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
+pip install "azure-core>=1.32.0"
 pip check
+pip install "blessed>=1.20.0"
 pip install "click-default-group>=1.2.4"
-pip install "dataclasses-json>=0.6.7"
+pip install "cryptography>=44.0.0"
 pip check
+pip install "dataclasses-json>=0.6.7"
 pip install "flask>=3.1.0"
+pip check
 pip install "gitpython>=3.1.43"
 pip install "google-auth>=2.37.0"
 pip install "grpc-google-iam-v1>=0.13.1"
@@ -284,8 +297,8 @@ pip install "jsonschema-specifications>=2024.10.1"
 pip install "jupyter-client>=8.6.3"
 pip install "jupyter-server-terminals>=0.5.3"
 pip check
-pip install "kfp-server-api>=2.0.5"
-pip install "llama-cpp-python>=0.3.2"
+pip install "kfp-server-api>=2.3.0"
+pip install "llama-cpp-python>=0.3.5"
 pip check
 pip install "matplotlib>=3.10.0"
 pip install "nltk>=3.9.1"
@@ -302,6 +315,7 @@ pip install "requests-toolbelt>=0.10.1"
 pip install "rich>=13.9.4"
 pip check
 pip install "scikit-image>=0.25.0"
+pip install "scikit-learn>=1.6.0"
 pip install "stack-data>=0.6.3"
 pip check
 pip install "tiktoken>=0.8.0"
@@ -333,6 +347,9 @@ pip install "langsmith>=0.1.129"
 pip install "llama-cloud>=0.1.6"
 pip install "llama-index-core>=0.11.23"
 pip install "llamaindex-py-client>=0.1.19"
+pip check
+pip install "mistralai>=1.2.5"
+pip install "msal>=1.31.1"
 pip check
 pip install "ollama>=0.4.4"
 pip install "openai>=1.58.1"
@@ -372,16 +389,21 @@ pip install "llama-index-readers-file>=0.3.0"
 pip install "llama-parse>=0.5.18"
 pip check
 pip install "mkl>=2025.0.1"
-pip install "nbformat>=5.10.4"
+pip install "msal-extensions>=1.2.0"
 pip check
+pip install "nbformat>=5.10.4"
 pip install "opentelemetry-sdk>=1.27.0"
+pip check
 pip install "pydata-google-auth>=1.9.0"
-pip install "pytorch-lightning>=2.4.0"
+pip install "pytorch-lightning>=2.5.0"
 pip check
 pip install "sqlite-migrate>=0.1b0"
+pip install "transformers>=4.47.1"
 pip check
 rem Level 5
 rem Level 6
+pip install "azure-identity>=1.19.0"
+pip check
 pip install "google-cloud-bigquery>=3.27.0"
 pip install "google-cloud-storage>=2.19.0"
 pip install "google-generativeai>=0.8.3"
@@ -389,7 +411,7 @@ pip check
 pip install "langchain-community>=0.0.38"
 pip install "langchain-openai>=0.1.6"
 pip install "langchain-text-splitters>=0.0.2"
-pip install "lightning>=2.4.0"
+pip install "lightning>=2.5.0"
 pip install "llama-index-agent-openai>=0.3.4"
 pip install "llama-index-cli>=0.3.1"
 pip install "llama-index-multi-modal-llms-openai>=0.2.3"
@@ -401,13 +423,14 @@ pip install "openinference-instrumentation>=0.1.20"
 pip install "opentelemetry-exporter-otlp-proto-grpc>=1.27.0"
 pip install "opentelemetry-exporter-otlp-proto-http>=1.27.0"
 pip check
+pip install "sentence-transformers>=3.3.1"
 pip install "streamlit>=1.41.1"
 pip check
 rem Level 6
 rem Level 7
 pip install "google-cloud-aiplatform>=1.75.0"
 pip check
-pip install "kfp>=2.7.0"
+pip install "kfp>=2.10.1"
 pip install "langchain>=0.1.20"
 pip install "llama-index-program-openai>=0.2.0"
 pip install "llm-claude-3>=0.10"
@@ -415,7 +438,7 @@ pip install "llm-gemini>=0.8"
 pip check
 pip install "nbconvert>=7.16.4"
 pip install "openinference-instrumentation-langchain>=0.1.29"
-pip install "openinference-instrumentation-llama-index>=3.1.1"
+pip install "openinference-instrumentation-llama-index>=3.1.2"
 pip install "openinference-instrumentation-openai>=0.1.18"
 pip install "opentelemetry-exporter-otlp>=1.27.0"
 pip check
@@ -442,7 +465,7 @@ pip install "jupyterlab>=4.3.4"
 pip check
 rem Level 10
 rem Level 11
-pip install "notebook>=7.3.1"
+pip install "notebook>=7.3.2"
 pip check
 rem Level 11
 rem Level 12

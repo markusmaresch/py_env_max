@@ -1,4 +1,4 @@
-rem 2024-12-20T14:09:34.914607+00:00
+rem 2024-12-22T00:01:55.774875+00:00
 rem Level 2
 pip install "aiosignal>=1.3.2"
 pip install "anyio>=4.7.0"
@@ -9,7 +9,7 @@ pip install "beautifulsoup4>=4.12.3"
 pip install "bleach>=6.2.0"
 pip check
 pip install "cffi>=1.17.1"
-pip install "click>=8.1.7"
+pip install "click>=8.1.8"
 pip install "comm>=0.2.2"
 pip install "contourpy>=1.3.1"
 pip check
@@ -32,12 +32,13 @@ pip install "importlib-metadata>=8.4.0"
 pip install "iprogress>=0.4"
 pip check
 pip install "jedi>=0.19.2"
-pip install "jinja2>=3.1.4"
+pip install "jinja2>=3.1.5"
+pip install "jinxed>=1.3.0"
 pip install "json-numpy>=2.1.0"
 pip install "jsonpatch>=1.33"
 pip install "jupyter-core>=5.7.2"
 pip check
-pip install "kfp-pipeline-spec>=0.3.0"
+pip install "kfp-pipeline-spec>=0.5.0"
 pip install "lazy-loader>=0.4"
 pip install "lightning-utilities>=0.11.9"
 pip check
@@ -54,6 +55,7 @@ pip install "opentelemetry-proto>=1.27.0"
 pip check
 pip install "pipdeptree>=2.23.1"
 pip install "plyfile>=1.1"
+pip install "portalocker>=2.10.1"
 pip install "prompt-toolkit>=3.0.48"
 pip install "proto-plus>=1.25.0"
 pip install "pyasn1-modules>=0.4.1"
