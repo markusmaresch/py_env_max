@@ -1,4 +1,4 @@
-rem 2024-12-22T00:01:55.774875+00:00
+rem 2024-12-22T00:26:48.968264+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.4"
 pip install "aisuite>=0.1.6"
@@ -342,7 +342,7 @@ pip check
 pip install "jax>=0.4.38"
 pip install "jsonschema>=4.23.0"
 pip check
-pip install "kubernetes>=26.1.0"
+pip install "kubernetes>=30.1.0"
 pip install "langsmith>=0.1.129"
 pip install "llama-cloud>=0.1.6"
 pip install "llama-index-core>=0.11.23"
