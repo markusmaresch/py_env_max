@@ -1,13 +1,16 @@
-rem 2024-12-22T00:26:48.968264+00:00
+rem 2025-01-01T23:19:40.822602+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.4"
 pip install "aisuite>=0.1.6"
 pip install "annotated-types>=0.7.0"
 pip install "ansicon>=1.89.0"
+pip install "asgiref>=3.8.1"
 pip install "async-lru>=2.0.4"
 pip install "attrs>=24.3.0"
 pip check
 pip install "babel>=2.16.0"
+pip install "backoff>=2.2.1"
+pip install "bcrypt>=4.2.1"
 pip install "blinker>=1.9.0"
 pip check
 pip install "cachetools>=5.5.0"
@@ -35,6 +38,7 @@ pip install "fastavro>=1.10.0"
 pip install "fastjsonschema>=2.21.1"
 pip install "filelock>=3.16.1"
 pip install "filetype>=1.2.0"
+pip install "flatbuffers>=24.12.23"
 pip install "fonttools>=4.55.3"
 pip install "fqdn>=1.5.1"
 pip install "frozenlist>=1.5.0"
@@ -45,6 +49,7 @@ pip install "greenlet>=3.1.1"
 pip install "grpcio>=1.68.1"
 pip check
 pip install "h11>=0.14.0"
+pip install "httptools>=0.6.4"
 pip install "httpx-sse>=0.4.0"
 pip check
 pip install "idna>=3.10"
@@ -73,6 +78,8 @@ pip install "markupsafe>=3.0.2"
 pip install "mccabe>=0.7.0"
 pip install "mdurl>=0.1.2"
 pip install "mistune>=3.0.2"
+pip install "mmh3>=5.0.1"
+pip install "monotonic>=1.6"
 pip install "mpmath>=1.3.0"
 pip install "multidict>=6.1.0"
 pip install "mypy-extensions>=1.0.0"
@@ -85,6 +92,7 @@ pip install "numpy>=1.26.4"
 pip check
 pip install "oauthlib>=3.2.2"
 pip install "openinference-semantic-conventions>=0.1.12"
+pip install "opentelemetry-util-http>=0.48b0"
 pip install "opt-einsum>=3.4.0"
 pip install "orjson>=3.10.12"
 pip install "overrides>=7.7.0"
@@ -116,12 +124,14 @@ pip install "pyjwt>=2.10.1"
 pip install "pylucidio>=2.4"
 pip install "pyparsing>=3.2.0"
 pip install "pypdf>=5.1.0"
+pip install "pypika>=0.48.9"
+pip install "pyproject-hooks>=1.2.0"
 pip install "pyqtree>=1.0.0"
 pip install "pyreadline3>=3.5.4"
 pip install "pyserial>=3.5"
+pip check
 pip install "python-dotenv>=1.0.1"
 pip install "python-json-logger>=3.2.1"
-pip check
 pip install "python-ulid>=3.0.0"
 pip install "pytz>=2024.2"
 pip install "pywin32>=308"
@@ -139,13 +149,14 @@ pip install "safetensors>=0.4.5"
 pip install "segment-anything>=1.0"
 pip install "send2trash>=1.8.3"
 pip install "setuptools>=75.6.0"
+pip install "shellingham>=1.5.4"
 pip install "simsimd>=6.2.1"
 pip install "six>=1.17.0"
 pip install "smmap>=5.0.1"
 pip install "sniffio>=1.3.1"
 pip install "soupsieve>=2.6"
-pip install "sqlite-fts4>=1.0.3"
 pip check
+pip install "sqlite-fts4>=1.0.3"
 pip install "stringzilla>=3.11.2"
 pip install "striprtf>=0.0.26"
 pip check
@@ -187,8 +198,10 @@ pip install "asttokens>=3.0.0"
 pip check
 pip install "beautifulsoup4>=4.12.3"
 pip install "bleach>=6.2.0"
+pip install "build>=1.2.2.post1"
 pip check
 pip install "cffi>=1.17.1"
+pip install "chroma-hnswlib>=0.7.6"
 pip install "click>=8.1.8"
 pip install "comm>=0.2.2"
 pip install "contourpy>=1.3.1"
@@ -206,6 +219,7 @@ pip check
 pip install "h5py>=3.12.1"
 pip install "httpcore>=1.0.5"
 pip install "httplib2>=0.22.0"
+pip install "humanfriendly>=10.0"
 pip check
 pip install "imageio>=2.36.1"
 pip install "importlib-metadata>=8.4.0"
@@ -278,6 +292,7 @@ pip install "azure-core>=1.32.0"
 pip check
 pip install "blessed>=1.20.0"
 pip install "click-default-group>=1.2.4"
+pip install "coloredlogs>=15.0.1"
 pip install "cryptography>=44.0.0"
 pip check
 pip install "dataclasses-json>=0.6.7"
@@ -307,6 +322,7 @@ pip install "opentelemetry-api>=1.27.0"
 pip install "opentelemetry-exporter-otlp-proto-common>=1.27.0"
 pip check
 pip install "pandas>=2.2.3"
+pip install "posthog>=3.7.4"
 pip install "pydantic>=2.10.4"
 pip install "pydeck>=0.9.1"
 pip check
@@ -317,9 +333,13 @@ pip check
 pip install "scikit-image>=0.25.0"
 pip install "scikit-learn>=1.6.0"
 pip install "stack-data>=0.6.3"
+pip install "starlette>=0.41.3"
 pip check
 pip install "tiktoken>=0.8.0"
 pip install "torch>=2.4.1+cu124"
+pip check
+pip install "uvicorn>=0.34.0"
+pip install "watchfiles>=1.0.3"
 pip check
 rem Level 3
 rem Level 4
@@ -330,6 +350,7 @@ pip check
 pip install "braincube-connector>=2.6.0"
 pip install "db-dtypes>=1.3.1"
 pip check
+pip install "fastapi>=0.115.6"
 pip install "google-api-core>=2.24.0"
 pip install "google-auth-httplib2>=0.2.0"
 pip install "google-auth-oauthlib>=1.2.1"
@@ -352,6 +373,7 @@ pip install "mistralai>=1.2.5"
 pip install "msal>=1.31.1"
 pip check
 pip install "ollama>=0.4.4"
+pip install "onnxruntime>=1.20.1"
 pip install "openai>=1.58.1"
 pip install "opentelemetry-instrumentation>=0.48b0"
 pip install "opentelemetry-semantic-conventions>=0.48b0"
@@ -363,6 +385,7 @@ pip install "tokenizers>=0.21.0"
 pip install "torchaudio>=2.4.1+cu124"
 pip install "torchmetrics>=1.6.0"
 pip install "torchvision>=0.19.1+cu124"
+pip install "typer>=0.15.1"
 pip check
 rem Level 4
 rem Level 5
@@ -392,6 +415,7 @@ pip install "mkl>=2025.0.1"
 pip install "msal-extensions>=1.2.0"
 pip check
 pip install "nbformat>=5.10.4"
+pip install "opentelemetry-instrumentation-asgi>=0.48b0"
 pip install "opentelemetry-sdk>=1.27.0"
 pip check
 pip install "pydata-google-auth>=1.9.0"
@@ -422,15 +446,18 @@ pip install "nbclient>=0.10.2"
 pip install "openinference-instrumentation>=0.1.20"
 pip install "opentelemetry-exporter-otlp-proto-grpc>=1.27.0"
 pip install "opentelemetry-exporter-otlp-proto-http>=1.27.0"
+pip install "opentelemetry-instrumentation-fastapi>=0.48b0"
 pip check
 pip install "sentence-transformers>=3.3.1"
 pip install "streamlit>=1.41.1"
 pip check
 rem Level 6
 rem Level 7
-pip install "google-cloud-aiplatform>=1.75.0"
+pip install "chromadb>=0.6.0"
 pip check
+pip install "google-cloud-aiplatform>=1.75.0"
 pip install "kfp>=2.10.1"
+pip check
 pip install "langchain>=0.1.20"
 pip install "llama-index-program-openai>=0.2.0"
 pip install "llm-claude-3>=0.10"

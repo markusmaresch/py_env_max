@@ -1,8 +1,10 @@
-rem 2024-12-22T00:26:48.968264+00:00
+rem 2025-01-01T23:19:40.822602+00:00
 rem Level 7
-pip install "google-cloud-aiplatform>=1.75.0"
+pip install "chromadb>=0.6.0"
 pip check
+pip install "google-cloud-aiplatform>=1.75.0"
 pip install "kfp>=2.10.1"
+pip check
 pip install "langchain>=0.1.20"
 pip install "llama-index-program-openai>=0.2.0"
 pip install "llm-claude-3>=0.10"

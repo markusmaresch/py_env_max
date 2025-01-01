@@ -1,4 +1,4 @@
-rem 2024-12-22T00:26:48.968264+00:00
+rem 2025-01-01T23:19:40.822602+00:00
 rem Level 2
 pip install "aiosignal>=1.3.2"
 pip install "anyio>=4.7.0"
@@ -7,8 +7,10 @@ pip install "asttokens>=3.0.0"
 pip check
 pip install "beautifulsoup4>=4.12.3"
 pip install "bleach>=6.2.0"
+pip install "build>=1.2.2.post1"
 pip check
 pip install "cffi>=1.17.1"
+pip install "chroma-hnswlib>=0.7.6"
 pip install "click>=8.1.8"
 pip install "comm>=0.2.2"
 pip install "contourpy>=1.3.1"
@@ -26,6 +28,7 @@ pip check
 pip install "h5py>=3.12.1"
 pip install "httpcore>=1.0.5"
 pip install "httplib2>=0.22.0"
+pip install "humanfriendly>=10.0"
 pip check
 pip install "imageio>=2.36.1"
 pip install "importlib-metadata>=8.4.0"

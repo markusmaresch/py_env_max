@@ -1,4 +1,4 @@
-rem 2024-12-22T00:26:48.968264+00:00
+rem 2025-01-01T23:19:40.822602+00:00
 rem Level 6
 pip install "azure-identity>=1.19.0"
 pip check
@@ -20,6 +20,7 @@ pip install "nbclient>=0.10.2"
 pip install "openinference-instrumentation>=0.1.20"
 pip install "opentelemetry-exporter-otlp-proto-grpc>=1.27.0"
 pip install "opentelemetry-exporter-otlp-proto-http>=1.27.0"
+pip install "opentelemetry-instrumentation-fastapi>=0.48b0"
 pip check
 pip install "sentence-transformers>=3.3.1"
 pip install "streamlit>=1.41.1"

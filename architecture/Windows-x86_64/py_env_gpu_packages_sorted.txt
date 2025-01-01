@@ -2,9 +2,12 @@ aiohappyeyeballs
 aisuite
 annotated-types
 ansicon
+asgiref
 async-lru
 attrs
 babel
+backoff
+bcrypt
 blinker
 cachetools
 certifi
@@ -28,6 +31,7 @@ fastavro
 fastjsonschema
 filelock
 filetype
+flatbuffers
 fonttools
 fqdn
 frozenlist
@@ -36,6 +40,7 @@ google-crc32c
 greenlet
 grpcio
 h11
+httptools
 httpx-sse
 idna
 ijson
@@ -60,6 +65,8 @@ markupsafe
 mccabe
 mdurl
 mistune
+mmh3
+monotonic
 mpmath
 multidict
 mypy-extensions
@@ -70,6 +77,7 @@ nodeenv
 numpy
 oauthlib
 openinference-semantic-conventions
+opentelemetry-util-http
 opt-einsum
 orjson
 overrides
@@ -98,6 +106,8 @@ pyjwt
 pylucidio
 pyparsing
 pypdf
+pypika
+pyproject-hooks
 pyqtree
 pyreadline3
 pyserial
@@ -118,6 +128,7 @@ safetensors
 segment-anything
 send2trash
 setuptools
+shellingham
 simsimd
 six
 smmap
@@ -156,7 +167,9 @@ arena-api
 asttokens
 beautifulsoup4
 bleach
+build
 cffi
+chroma-hnswlib
 click
 comm
 contourpy
@@ -170,6 +183,7 @@ googleapis-common-protos
 h5py
 httpcore
 httplib2
+humanfriendly
 imageio
 importlib-metadata
 iprogress
@@ -227,6 +241,7 @@ arrow
 azure-core
 blessed
 click-default-group
+coloredlogs
 cryptography
 dataclasses-json
 flask
@@ -248,6 +263,7 @@ nltk
 opentelemetry-api
 opentelemetry-exporter-otlp-proto-common
 pandas
+posthog
 pydantic
 pydeck
 requests-oauthlib
@@ -256,13 +272,17 @@ rich
 scikit-image
 scikit-learn
 stack-data
+starlette
 tiktoken
 torch
+uvicorn
+watchfiles
 albumentations
 anthropic
 argon2-cffi
 braincube-connector
 db-dtypes
+fastapi
 google-api-core
 google-auth-httplib2
 google-auth-oauthlib
@@ -280,6 +300,7 @@ llamaindex-py-client
 mistralai
 msal
 ollama
+onnxruntime
 openai
 opentelemetry-instrumentation
 opentelemetry-semantic-conventions
@@ -289,6 +310,7 @@ tokenizers
 torchaudio
 torchmetrics
 torchvision
+typer
 altair
 google-ai-generativelanguage
 google-api-python-client
@@ -310,6 +332,7 @@ llama-parse
 mkl
 msal-extensions
 nbformat
+opentelemetry-instrumentation-asgi
 opentelemetry-sdk
 pydata-google-auth
 pytorch-lightning
@@ -332,8 +355,10 @@ nbclient
 openinference-instrumentation
 opentelemetry-exporter-otlp-proto-grpc
 opentelemetry-exporter-otlp-proto-http
+opentelemetry-instrumentation-fastapi
 sentence-transformers
 streamlit
+chromadb
 google-cloud-aiplatform
 kfp
 langchain

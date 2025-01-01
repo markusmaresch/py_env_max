@@ -1,4 +1,4 @@
-rem 2024-12-22T00:26:48.968264+00:00
+rem 2025-01-01T23:19:40.822602+00:00
 rem Level 3
 pip install "aiohttp>=3.11.11"
 pip install "albucore>=0.0.21"
@@ -8,6 +8,7 @@ pip install "azure-core>=1.32.0"
 pip check
 pip install "blessed>=1.20.0"
 pip install "click-default-group>=1.2.4"
+pip install "coloredlogs>=15.0.1"
 pip install "cryptography>=44.0.0"
 pip check
 pip install "dataclasses-json>=0.6.7"
@@ -37,6 +38,7 @@ pip install "opentelemetry-api>=1.27.0"
 pip install "opentelemetry-exporter-otlp-proto-common>=1.27.0"
 pip check
 pip install "pandas>=2.2.3"
+pip install "posthog>=3.7.4"
 pip install "pydantic>=2.10.4"
 pip install "pydeck>=0.9.1"
 pip check
@@ -47,8 +49,12 @@ pip check
 pip install "scikit-image>=0.25.0"
 pip install "scikit-learn>=1.6.0"
 pip install "stack-data>=0.6.3"
+pip install "starlette>=0.41.3"
 pip check
 pip install "tiktoken>=0.8.0"
 pip install "torch>=2.4.1+cu124"
+pip check
+pip install "uvicorn>=0.34.0"
+pip install "watchfiles>=1.0.3"
 pip check
 rem Level 3

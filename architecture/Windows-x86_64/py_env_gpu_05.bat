@@ -1,4 +1,4 @@
-rem 2024-12-22T00:26:48.968264+00:00
+rem 2025-01-01T23:19:40.822602+00:00
 rem Level 5
 pip install "altair>=5.5.0"
 pip check
@@ -26,6 +26,7 @@ pip install "mkl>=2025.0.1"
 pip install "msal-extensions>=1.2.0"
 pip check
 pip install "nbformat>=5.10.4"
+pip install "opentelemetry-instrumentation-asgi>=0.48b0"
 pip install "opentelemetry-sdk>=1.27.0"
 pip check
 pip install "pydata-google-auth>=1.9.0"
