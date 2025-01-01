@@ -1,5 +1,4 @@
 aiohappyeyeballs
-aisuite
 annotated-types
 ansicon
 asgiref
@@ -142,6 +141,8 @@ tcmlib
 tenacity
 threadpoolctl
 toml
+tomli-w
+tomlkit
 tornado
 traitlets
 types-python-dateutil
@@ -277,6 +278,7 @@ tiktoken
 torch
 uvicorn
 watchfiles
+aisuite
 albumentations
 anthropic
 argon2-cffi

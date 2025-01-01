@@ -351,6 +351,8 @@ tiktoken
 tinycss2
 tokenizers
 toml
+tomli-w
+tomlkit
 torch
 torchaudio
 torchmetrics

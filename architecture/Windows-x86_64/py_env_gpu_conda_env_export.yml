@@ -17,9 +17,9 @@ dependencies:
       - aiohappyeyeballs==2.4.4
       - aiohttp==3.11.11
       - aiosignal==1.3.2
-      - aisuite==0.1.6
-      - albucore==0.0.21
-      - albumentations==1.4.23
+      - aisuite==0.1.7
+      - albucore==0.0.23
+      - albumentations==1.4.24
       - altair==5.5.0
       - annotated-types==0.7.0
       - ansicon==1.89.0
@@ -47,7 +47,7 @@ dependencies:
       - cachetools==5.5.0
       - certifi==2024.12.14
       - cffi==1.17.1
-      - charset-normalizer==3.4.0
+      - charset-normalizer==3.4.1
       - chroma-hnswlib==0.7.6
       - chromadb==0.6.0
       - click==8.1.8
@@ -168,7 +168,7 @@ dependencies:
       - kfp==2.10.1
       - kfp-pipeline-spec==0.5.0
       - kfp-server-api==2.3.0
-      - kiwisolver==1.4.7
+      - kiwisolver==1.4.8
       - kubernetes==30.1.0
       - langchain==0.1.20
       - langchain-community==0.0.38
@@ -179,7 +179,7 @@ dependencies:
       - lazy-loader==0.4
       - lightning==2.5.0
       - lightning-utilities==0.11.9
-      - llama-cloud==0.1.6
+      - llama-cloud==0.1.7
       - llama-cpp-python==0.3.5
       - llama-index==0.11.23
       - llama-index-agent-openai==0.3.4
@@ -195,7 +195,7 @@ dependencies:
       - llama-index-question-gen-openai==0.2.0
       - llama-index-readers-file==0.3.0
       - llama-index-readers-llama-parse==0.3.0
-      - llama-parse==0.5.18
+      - llama-parse==0.5.19
       - llamaindex-py-client==0.1.19
       - llm==0.19.1
       - llm-claude-3==0.10
@@ -212,7 +212,7 @@ dependencies:
       - mccabe==0.7.0
       - mdurl==0.1.2
       - mistralai==1.2.5
-      - mistune==3.0.2
+      - mistune==3.1.0
       - mkl==2025.0.1
       - ml-dtypes==0.5.0
       - mmh3==5.0.1
@@ -222,7 +222,7 @@ dependencies:
       - msal-extensions==1.2.0
       - multidict==6.1.0
       - mypy-extensions==1.0.0
-      - narwhals==1.19.0
+      - narwhals==1.20.1
       - nbclient==0.10.2
       - nbconvert==7.16.4
       - nbformat==5.10.4
@@ -235,7 +235,7 @@ dependencies:
       - numba==0.60.0
       - numpy==1.26.4
       - oauthlib==3.2.2
-      - ollama==0.4.4
+      - ollama==0.4.5
       - onnxruntime==1.20.1
       - openai==1.58.1
       - opencv-contrib-python==4.10.0.84
@@ -259,7 +259,7 @@ dependencies:
       - opentelemetry-semantic-conventions==0.48b0
       - opentelemetry-util-http==0.48b0
       - opt-einsum==3.4.0
-      - orjson==3.10.12
+      - orjson==3.10.13
       - overrides==7.7.0
       - packaging==23.2
       - pandas==2.2.3
@@ -291,14 +291,14 @@ dependencies:
       - pycparser==2.22
       - pydantic==2.10.4
       - pydantic-core==2.27.2
-      - pydantic-settings==2.7.0
+      - pydantic-settings==2.7.1
       - pydata-google-auth==1.9.0
       - pydeck==0.9.1
       - pyflakes==3.2.0
       - pygments==2.18.0
       - pyjwt==2.10.1
       - pylucidio==2.4
-      - pyparsing==3.2.0
+      - pyparsing==3.2.1
       - pypdf==5.1.0
       - pypika==0.48.9
       - pyproject-hooks==1.2.0
@@ -353,7 +353,7 @@ dependencies:
       - stack-data==0.6.3
       - starlette==0.41.3
       - streamlit==1.41.1
-      - stringzilla==3.11.2
+      - stringzilla==3.11.3
       - striprtf==0.0.26
       - sympy==1.13.3
       - tabulate==0.9.0
@@ -367,9 +367,11 @@ dependencies:
       - tinycss2==1.4.0
       - tokenizers==0.21.0
       - toml==0.10.2
+      - tomli-w==1.1.0
+      - tomlkit==0.13.2
       - torch==2.4.1+cu124
       - torchaudio==2.4.1+cu124
-      - torchmetrics==1.6.0
+      - torchmetrics==1.6.1
       - torchvision==0.19.1+cu124
       - tornado==6.4.2
       - tqdm==4.67.1
@@ -383,7 +385,7 @@ dependencies:
       - umf==0.9.0
       - uri-template==1.3.0
       - uritemplate==4.1.1
-      - urllib3==1.26.19
+      - urllib3==1.26.20
       - uvicorn==0.34.0
       - watchdog==6.0.0
       - watchfiles==1.0.3

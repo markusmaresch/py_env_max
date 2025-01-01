@@ -1,4 +1,4 @@
-rem 2025-01-01T23:19:40.822602+00:00
+rem 2025-01-01T23:52:00.604862+00:00
 rem Level 5
 pip install "altair>=5.5.0"
 pip check
@@ -20,7 +20,7 @@ pip install "llama-index-legacy>=0.9.48.post3"
 pip install "llama-index-llms-ollama>=0.3.6"
 pip install "llama-index-llms-openai>=0.2.16"
 pip install "llama-index-readers-file>=0.3.0"
-pip install "llama-parse>=0.5.18"
+pip install "llama-parse>=0.5.19"
 pip check
 pip install "mkl>=2025.0.1"
 pip install "msal-extensions>=1.2.0"

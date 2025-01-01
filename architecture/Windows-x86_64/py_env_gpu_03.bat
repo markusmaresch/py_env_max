@@ -1,7 +1,7 @@
-rem 2025-01-01T23:19:40.822602+00:00
+rem 2025-01-01T23:52:00.604862+00:00
 rem Level 3
 pip install "aiohttp>=3.11.11"
-pip install "albucore>=0.0.21"
+pip install "albucore>=0.0.23"
 pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
 pip install "azure-core>=1.32.0"
