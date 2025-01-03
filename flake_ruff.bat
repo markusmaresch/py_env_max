@@ -1,0 +1,1 @@
+@sh ./flake_ruff.sh
