@@ -201,6 +201,7 @@ mkl
 ml-dtypes
 mmh3
 monotonic
+more-itertools
 mpmath
 msal
 msal-extensions

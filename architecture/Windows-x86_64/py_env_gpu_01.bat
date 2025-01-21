@@ -1,9 +1,10 @@
-rem 2025-01-01T23:52:00.604862+00:00
+rem 2025-01-21T12:23:11.377841+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.4"
 pip install "annotated-types>=0.7.0"
 pip install "ansicon>=1.89.0"
 pip install "asgiref>=3.8.1"
+pip install "asttokens>=3.0.0"
 pip install "async-lru>=2.0.4"
 pip install "attrs>=24.3.0"
 pip check
@@ -19,7 +20,7 @@ pip install "colorama>=0.4.6"
 pip install "cycler>=0.12.1"
 pip install "cython>=3.0.11"
 pip check
-pip install "debugpy>=1.8.11"
+pip install "debugpy>=1.8.12"
 pip install "decorator>=5.1.1"
 pip install "defusedxml>=0.7.1"
 pip install "dirtyjson>=1.0.8"
@@ -79,8 +80,10 @@ pip install "mdurl>=0.1.2"
 pip install "mistune>=3.1.0"
 pip install "mmh3>=5.0.1"
 pip install "monotonic>=1.6"
+pip install "more-itertools>=10.3.0"
 pip install "mpmath>=1.3.0"
 pip install "multidict>=6.1.0"
+pip check
 pip install "mypy-extensions>=1.0.0"
 pip check
 pip install "narwhals>=1.20.1"

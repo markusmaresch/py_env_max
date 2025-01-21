@@ -2,6 +2,7 @@ aiohappyeyeballs
 annotated-types
 ansicon
 asgiref
+asttokens
 async-lru
 attrs
 babel
@@ -66,6 +67,7 @@ mdurl
 mistune
 mmh3
 monotonic
+more-itertools
 mpmath
 multidict
 mypy-extensions
@@ -165,7 +167,6 @@ zipp
 aiosignal
 anyio
 arena-api
-asttokens
 beautifulsoup4
 bleach
 build
@@ -225,6 +226,7 @@ scipy
 shapely
 snakeviz
 sqlalchemy
+stack-data
 sympy
 tbb
 terminado
@@ -253,6 +255,7 @@ grpcio-status
 httpx
 huggingface-hub
 intel-cmplr-lib-ur
+ipython
 jaxlib
 jsonschema-specifications
 jupyter-client
@@ -272,7 +275,6 @@ requests-toolbelt
 rich
 scikit-image
 scikit-learn
-stack-data
 starlette
 tiktoken
 torch
@@ -290,7 +292,7 @@ google-auth-httplib2
 google-auth-oauthlib
 google-genai
 intel-openmp
-ipython
+ipykernel
 isoduration
 jax
 jsonschema
@@ -321,7 +323,6 @@ google-cloud-core
 google-cloud-resource-manager
 google-cloud-secret-manager
 google-cloud-vision
-ipykernel
 jupyter-events
 langchain-core
 llama-index-embeddings-openai

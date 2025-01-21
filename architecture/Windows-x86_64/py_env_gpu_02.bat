@@ -1,9 +1,8 @@
-rem 2025-01-01T23:52:00.604862+00:00
+rem 2025-01-21T12:23:11.377841+00:00
 rem Level 2
 pip install "aiosignal>=1.3.2"
 pip install "anyio>=4.7.0"
 pip install "arena-api>=2.5.9"
-pip install "asttokens>=3.0.0"
 pip check
 pip install "beautifulsoup4>=4.12.3"
 pip install "bleach>=6.2.0"
@@ -77,6 +76,7 @@ pip install "scipy>=1.14.1"
 pip install "shapely>=2.0.6"
 pip install "snakeviz>=2.2.2"
 pip install "sqlalchemy>=2.0.36"
+pip install "stack-data>=0.6.3"
 pip install "sympy>=1.13.3"
 pip check
 pip install "tbb>=2022.0.0"

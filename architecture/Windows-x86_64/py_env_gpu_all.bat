@@ -1,9 +1,10 @@
-rem 2025-01-01T23:52:00.604862+00:00
+rem 2025-01-21T12:23:11.377841+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.4"
 pip install "annotated-types>=0.7.0"
 pip install "ansicon>=1.89.0"
 pip install "asgiref>=3.8.1"
+pip install "asttokens>=3.0.0"
 pip install "async-lru>=2.0.4"
 pip install "attrs>=24.3.0"
 pip check
@@ -19,7 +20,7 @@ pip install "colorama>=0.4.6"
 pip install "cycler>=0.12.1"
 pip install "cython>=3.0.11"
 pip check
-pip install "debugpy>=1.8.11"
+pip install "debugpy>=1.8.12"
 pip install "decorator>=5.1.1"
 pip install "defusedxml>=0.7.1"
 pip install "dirtyjson>=1.0.8"
@@ -79,8 +80,10 @@ pip install "mdurl>=0.1.2"
 pip install "mistune>=3.1.0"
 pip install "mmh3>=5.0.1"
 pip install "monotonic>=1.6"
+pip install "more-itertools>=10.3.0"
 pip install "mpmath>=1.3.0"
 pip install "multidict>=6.1.0"
+pip check
 pip install "mypy-extensions>=1.0.0"
 pip check
 pip install "narwhals>=1.20.1"
@@ -196,7 +199,6 @@ rem Level 2
 pip install "aiosignal>=1.3.2"
 pip install "anyio>=4.7.0"
 pip install "arena-api>=2.5.9"
-pip install "asttokens>=3.0.0"
 pip check
 pip install "beautifulsoup4>=4.12.3"
 pip install "bleach>=6.2.0"
@@ -270,6 +272,7 @@ pip install "scipy>=1.14.1"
 pip install "shapely>=2.0.6"
 pip install "snakeviz>=2.2.2"
 pip install "sqlalchemy>=2.0.36"
+pip install "stack-data>=0.6.3"
 pip install "sympy>=1.13.3"
 pip check
 pip install "tbb>=2022.0.0"
@@ -309,6 +312,8 @@ pip install "httpx>=0.27.2"
 pip install "huggingface-hub>=0.27.0"
 pip check
 pip install "intel-cmplr-lib-ur>=2025.0.4"
+pip install "ipython>=8.31.0"
+pip check
 pip install "jaxlib>=0.4.38"
 pip install "jsonschema-specifications>=2024.10.1"
 pip install "jupyter-client>=8.6.3"
@@ -334,10 +339,9 @@ pip install "rich>=13.9.4"
 pip check
 pip install "scikit-image>=0.25.0"
 pip install "scikit-learn>=1.6.0"
-pip install "stack-data>=0.6.3"
 pip install "starlette>=0.41.3"
 pip check
-pip install "tiktoken>=0.8.0"
+pip install "tiktoken>=0.7.0"
 pip install "torch>=2.4.1+cu124"
 pip check
 pip install "uvicorn>=0.34.0"
@@ -360,7 +364,7 @@ pip install "google-auth-oauthlib>=1.2.1"
 pip install "google-genai>=0.3.0"
 pip check
 pip install "intel-openmp>=2025.0.4"
-pip install "ipython>=8.31.0"
+pip install "ipykernel>=6.29.5"
 pip install "isoduration>=20.11.0"
 pip check
 pip install "jax>=0.4.38"
@@ -402,9 +406,7 @@ pip install "google-cloud-resource-manager>=1.14.0"
 pip install "google-cloud-secret-manager>=2.22.0"
 pip install "google-cloud-vision>=3.9.0"
 pip check
-pip install "ipykernel>=6.29.5"
 pip install "jupyter-events>=0.11.0"
-pip check
 pip install "langchain-core>=0.1.52"
 pip install "llama-index-embeddings-openai>=0.2.5"
 pip install "llama-index-indices-managed-llama-cloud>=0.6.0"

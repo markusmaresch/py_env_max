@@ -1,4 +1,4 @@
-rem 2025-01-01T23:52:00.604862+00:00
+rem 2025-01-21T12:23:11.377841+00:00
 rem Level 4
 pip install "aisuite>=0.1.7"
 pip install "albumentations>=1.4.24"
@@ -15,7 +15,7 @@ pip install "google-auth-oauthlib>=1.2.1"
 pip install "google-genai>=0.3.0"
 pip check
 pip install "intel-openmp>=2025.0.4"
-pip install "ipython>=8.31.0"
+pip install "ipykernel>=6.29.5"
 pip install "isoduration>=20.11.0"
 pip check
 pip install "jax>=0.4.38"

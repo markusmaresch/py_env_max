@@ -1,4 +1,4 @@
-rem 2025-01-01T23:52:00.604862+00:00
+rem 2025-01-21T12:23:11.377841+00:00
 rem Level 5
 pip install "altair>=5.5.0"
 pip check
@@ -10,9 +10,7 @@ pip install "google-cloud-resource-manager>=1.14.0"
 pip install "google-cloud-secret-manager>=2.22.0"
 pip install "google-cloud-vision>=3.9.0"
 pip check
-pip install "ipykernel>=6.29.5"
 pip install "jupyter-events>=0.11.0"
-pip check
 pip install "langchain-core>=0.1.52"
 pip install "llama-index-embeddings-openai>=0.2.5"
 pip install "llama-index-indices-managed-llama-cloud>=0.6.0"

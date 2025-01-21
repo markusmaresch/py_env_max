@@ -1,4 +1,4 @@
-rem 2025-01-01T23:52:00.604862+00:00
+rem 2025-01-21T12:23:11.377841+00:00
 rem Level 6
 pip install "azure-identity>=1.19.0"
 pip check
