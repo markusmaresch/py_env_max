@@ -34,13 +34,14 @@ class PyPiCmd:
     def get_pypi_json(package: str) -> typing.Union[dict, object]:
         t_max = 3
         s = 0.1
+        url = f'https://pypi.org/pypi/{package}/json'
         for t in range(t_max):
             try:
-                response = requests.get(f'https://pypi.org/pypi/{package}/json',
-                                        timeout=s, verify=False)
+                response = requests.get(url, timeout=s, verify=False)
                 js = response.json()
                 return js
-            except:
+            except Exception as e:
+                # print(f'Url: {url} .. {e}')
                 time.sleep(s)
                 s *= 2
         # for
