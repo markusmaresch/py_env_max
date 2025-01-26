@@ -164,6 +164,7 @@ wrapt
 xlsxwriter
 yoctopuce
 zipp
+zstandard
 aiosignal
 anyio
 arena-api
