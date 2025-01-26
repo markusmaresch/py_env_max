@@ -1,4 +1,4 @@
-rem 2025-01-26T21:04:51.056983+00:00
+rem 2025-01-26T22:04:50.743178+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.4"
 pip install "annotated-types>=0.7.0"
@@ -46,7 +46,7 @@ pip install "fsspec>=2024.12.0"
 pip check
 pip install "google-crc32c>=1.6.0"
 pip install "greenlet>=3.1.1"
-pip install "grpcio>=1.69.0"
+pip install "grpcio>=1.70.0"
 pip check
 pip install "h11>=0.14.0"
 pip install "httptools>=0.6.4"
@@ -54,7 +54,7 @@ pip install "httpx-sse>=0.4.0"
 pip check
 pip install "idna>=3.10"
 pip install "ijson>=3.3.0"
-pip install "importlib-resources>=6.5.0"
+pip install "importlib-resources>=6.5.1"
 pip install "imutils>=0.5.4"
 pip install "iniconfig>=2.0.0"
 pip install "ipython-genutils>=0.2.0"
@@ -80,7 +80,7 @@ pip install "mdurl>=0.1.2"
 pip install "mistune>=3.1.0"
 pip install "mmh3>=5.1.0"
 pip install "monotonic>=1.6"
-pip install "more-itertools>=10.4.0"
+pip install "more-itertools>=10.5.0"
 pip install "mpmath>=1.3.0"
 pip install "multidict>=6.1.0"
 pip check

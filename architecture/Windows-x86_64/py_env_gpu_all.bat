@@ -1,4 +1,4 @@
-rem 2025-01-26T21:04:51.056983+00:00
+rem 2025-01-26T22:04:50.743178+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.4"
 pip install "annotated-types>=0.7.0"
@@ -46,7 +46,7 @@ pip install "fsspec>=2024.12.0"
 pip check
 pip install "google-crc32c>=1.6.0"
 pip install "greenlet>=3.1.1"
-pip install "grpcio>=1.69.0"
+pip install "grpcio>=1.70.0"
 pip check
 pip install "h11>=0.14.0"
 pip install "httptools>=0.6.4"
@@ -54,7 +54,7 @@ pip install "httpx-sse>=0.4.0"
 pip check
 pip install "idna>=3.10"
 pip install "ijson>=3.3.0"
-pip install "importlib-resources>=6.5.0"
+pip install "importlib-resources>=6.5.1"
 pip install "imutils>=0.5.4"
 pip install "iniconfig>=2.0.0"
 pip install "ipython-genutils>=0.2.0"
@@ -80,7 +80,7 @@ pip install "mdurl>=0.1.2"
 pip install "mistune>=3.1.0"
 pip install "mmh3>=5.1.0"
 pip install "monotonic>=1.6"
-pip install "more-itertools>=10.4.0"
+pip install "more-itertools>=10.5.0"
 pip install "mpmath>=1.3.0"
 pip install "multidict>=6.1.0"
 pip check
@@ -321,7 +321,7 @@ pip install "jupyter-client>=8.6.3"
 pip install "jupyter-server-terminals>=0.5.3"
 pip check
 pip install "kfp-server-api>=2.3.0"
-pip install "llama-cpp-python>=0.3.5"
+pip install "llama-cpp-python>=0.3.6"
 pip check
 pip install "matplotlib>=3.10.0"
 pip install "nltk>=3.9.1"
@@ -340,7 +340,7 @@ pip install "rich>=13.9.4"
 pip check
 pip install "scikit-image>=0.25.1"
 pip install "scikit-learn>=1.6.1"
-pip install "starlette>=0.41.3"
+pip install "starlette>=0.45.3"
 pip check
 pip install "tiktoken>=0.8.0"
 pip install "torch>=2.4.1+cu124"

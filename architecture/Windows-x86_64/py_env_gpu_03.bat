@@ -1,4 +1,4 @@
-rem 2025-01-26T21:04:51.056983+00:00
+rem 2025-01-26T22:04:50.743178+00:00
 rem Level 3
 pip install "aiohttp>=3.11.11"
 pip install "albucore>=0.0.23"
@@ -31,7 +31,7 @@ pip install "jupyter-client>=8.6.3"
 pip install "jupyter-server-terminals>=0.5.3"
 pip check
 pip install "kfp-server-api>=2.3.0"
-pip install "llama-cpp-python>=0.3.5"
+pip install "llama-cpp-python>=0.3.6"
 pip check
 pip install "matplotlib>=3.10.0"
 pip install "nltk>=3.9.1"
@@ -50,7 +50,7 @@ pip install "rich>=13.9.4"
 pip check
 pip install "scikit-image>=0.25.1"
 pip install "scikit-learn>=1.6.1"
-pip install "starlette>=0.41.3"
+pip install "starlette>=0.45.3"
 pip check
 pip install "tiktoken>=0.8.0"
 pip install "torch>=2.4.1+cu124"
