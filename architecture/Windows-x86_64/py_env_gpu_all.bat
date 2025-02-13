@@ -1,8 +1,9 @@
-rem 2025-02-13T08:58:41.192016+00:00
+rem 2025-02-13T10:12:51.975696+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.4"
 pip install "annotated-types>=0.7.0"
 pip install "ansicon>=1.89.0"
+pip install "antlr4-python3-runtime>=4.9.3"
 pip install "asgiref>=3.8.1"
 pip install "asttokens>=3.0.0"
 pip install "async-lru>=2.0.4"
@@ -106,7 +107,7 @@ pip install "parameterized>=0.9.0"
 pip install "parso>=0.8.4"
 pip install "persist-queue>=1.0.0"
 pip install "pillow>=11.1.0"
-pip install "pip>=25.0"
+pip install "pip>=25.0.1"
 pip install "platformdirs>=4.3.6"
 pip install "pluggy>=1.5.0"
 pip install "prometheus-client>=0.21.1"
@@ -248,6 +249,7 @@ pip install "matplotlib-inline>=0.1.7"
 pip install "ml-dtypes>=0.5.1"
 pip check
 pip install "numba>=0.61.0"
+pip install "omegaconf>=2.3.0"
 pip install "opencv-contrib-python>=4.11.0.86"
 pip install "opencv-python>=4.11.0.86"
 pip install "opencv-python-headless>=4.11.0.86"
@@ -275,7 +277,7 @@ pip install "shapely>=2.0.6"
 pip install "snakeviz>=2.2.2"
 pip install "sqlalchemy>=2.0.37"
 pip install "stack-data>=0.6.3"
-pip install "sympy>=1.13.3"
+pip install "sympy>=1.13.1"
 pip check
 pip install "tbb>=2022.0.0"
 pip install "terminado>=0.18.1"
@@ -312,8 +314,10 @@ pip install "grpcio-status>=1.62.3"
 pip check
 pip install "httpx>=0.27.2"
 pip install "huggingface-hub>=0.27.1"
+pip install "hydra-core>=1.3.2"
 pip check
 pip install "intel-cmplr-lib-ur>=2025.0.4"
+pip install "iopath>=0.1.10"
 pip install "ipython>=8.31.0"
 pip check
 pip install "jaxlib>=0.5.0"

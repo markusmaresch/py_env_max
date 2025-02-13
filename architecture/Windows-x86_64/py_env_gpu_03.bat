@@ -1,4 +1,4 @@
-rem 2025-02-13T08:58:41.192016+00:00
+rem 2025-02-13T10:12:51.975696+00:00
 rem Level 3
 pip install "aiohttp>=3.11.11"
 pip install "albucore>=0.0.23"
@@ -21,8 +21,10 @@ pip install "grpcio-status>=1.62.3"
 pip check
 pip install "httpx>=0.27.2"
 pip install "huggingface-hub>=0.27.1"
+pip install "hydra-core>=1.3.2"
 pip check
 pip install "intel-cmplr-lib-ur>=2025.0.4"
+pip install "iopath>=0.1.10"
 pip install "ipython>=8.31.0"
 pip check
 pip install "jaxlib>=0.5.0"

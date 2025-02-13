@@ -1,4 +1,4 @@
-rem 2025-02-13T08:58:41.192016+00:00
+rem 2025-02-13T10:12:51.975696+00:00
 rem Level 2
 pip install "aiosignal>=1.3.2"
 pip install "anyio>=4.8.0"
@@ -50,6 +50,7 @@ pip install "matplotlib-inline>=0.1.7"
 pip install "ml-dtypes>=0.5.1"
 pip check
 pip install "numba>=0.61.0"
+pip install "omegaconf>=2.3.0"
 pip install "opencv-contrib-python>=4.11.0.86"
 pip install "opencv-python>=4.11.0.86"
 pip install "opencv-python-headless>=4.11.0.86"
@@ -77,7 +78,7 @@ pip install "shapely>=2.0.6"
 pip install "snakeviz>=2.2.2"
 pip install "sqlalchemy>=2.0.37"
 pip install "stack-data>=0.6.3"
-pip install "sympy>=1.13.3"
+pip install "sympy>=1.13.1"
 pip check
 pip install "tbb>=2022.0.0"
 pip install "terminado>=0.18.1"

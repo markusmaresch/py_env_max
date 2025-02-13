@@ -8,6 +8,7 @@ altair
 annotated-types
 ansicon
 anthropic
+antlr4-python3-runtime
 anyio
 arena-api
 argon2-cffi
@@ -108,6 +109,7 @@ httpx
 httpx-sse
 huggingface-hub
 humanfriendly
+hydra-core
 idna
 ijson
 imageio
@@ -117,6 +119,7 @@ imutils
 iniconfig
 intel-cmplr-lib-ur
 intel-openmp
+iopath
 iprogress
 ipykernel
 ipython
@@ -222,6 +225,7 @@ numba
 numpy
 oauthlib
 ollama
+omegaconf
 onnxruntime
 openai
 opencv-contrib-python

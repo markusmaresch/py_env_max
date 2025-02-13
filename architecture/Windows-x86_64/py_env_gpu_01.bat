@@ -1,8 +1,9 @@
-rem 2025-02-13T08:58:41.192016+00:00
+rem 2025-02-13T10:12:51.975696+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.4"
 pip install "annotated-types>=0.7.0"
 pip install "ansicon>=1.89.0"
+pip install "antlr4-python3-runtime>=4.9.3"
 pip install "asgiref>=3.8.1"
 pip install "asttokens>=3.0.0"
 pip install "async-lru>=2.0.4"
@@ -106,7 +107,7 @@ pip install "parameterized>=0.9.0"
 pip install "parso>=0.8.4"
 pip install "persist-queue>=1.0.0"
 pip install "pillow>=11.1.0"
-pip install "pip>=25.0"
+pip install "pip>=25.0.1"
 pip install "platformdirs>=4.3.6"
 pip install "pluggy>=1.5.0"
 pip install "prometheus-client>=0.21.1"

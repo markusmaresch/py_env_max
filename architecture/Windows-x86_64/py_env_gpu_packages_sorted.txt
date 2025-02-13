@@ -1,6 +1,7 @@
 aiohappyeyeballs
 annotated-types
 ansicon
+antlr4-python3-runtime
 asgiref
 asttokens
 async-lru
@@ -205,6 +206,7 @@ marshmallow
 matplotlib-inline
 ml-dtypes
 numba
+omegaconf
 opencv-contrib-python
 opencv-python
 opencv-python-headless
@@ -256,7 +258,9 @@ grpc-google-iam-v1
 grpcio-status
 httpx
 huggingface-hub
+hydra-core
 intel-cmplr-lib-ur
+iopath
 ipython
 jaxlib
 jsonschema-specifications
