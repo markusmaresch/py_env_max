@@ -1,4 +1,4 @@
-rem 2025-01-26T22:04:50.743178+00:00
+rem 2025-02-13T08:58:41.192016+00:00
 rem Level 4
 pip install "aisuite>=0.1.7"
 pip install "albumentations>=2.0.1"
@@ -37,8 +37,9 @@ pip install "opentelemetry-instrumentation>=0.48b0"
 pip install "opentelemetry-semantic-conventions>=0.48b0"
 pip check
 pip install "pydantic-settings>=2.7.1"
-pip install "sqlite-utils>=3.38"
+pip install "pygithub>=2.5.0"
 pip check
+pip install "sqlite-utils>=3.38"
 pip install "tokenizers>=0.21.0"
 pip install "torchaudio>=2.4.1+cu124"
 pip install "torchmetrics>=1.6.1"

@@ -1,4 +1,4 @@
-rem 2025-01-26T22:04:50.743178+00:00
+rem 2025-02-13T08:58:41.192016+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.4"
 pip install "annotated-types>=0.7.0"
@@ -6,6 +6,7 @@ pip install "ansicon>=1.89.0"
 pip install "asgiref>=3.8.1"
 pip install "asttokens>=3.0.0"
 pip install "async-lru>=2.0.4"
+pip install "async-timeout>=4.0.3"
 pip install "attrs>=25.1.0"
 pip check
 pip install "babel>=2.16.0"
@@ -15,7 +16,7 @@ pip install "blinker>=1.9.0"
 pip check
 pip install "cachetools>=5.5.1"
 pip install "certifi>=2024.12.14"
-pip install "charset-normalizer>=3.4.1"
+pip install "charset-normalizer>=2.1.1"
 pip install "colorama>=0.4.6"
 pip install "cycler>=0.12.1"
 pip install "cython>=3.0.11"
@@ -333,6 +334,7 @@ pip install "pandas>=2.2.3"
 pip install "posthog>=3.10.0"
 pip install "pydantic>=2.10.6"
 pip install "pydeck>=0.9.1"
+pip install "pynacl>=1.5.0"
 pip check
 pip install "requests-oauthlib>=2.0.0"
 pip install "requests-toolbelt>=0.10.1"
@@ -387,8 +389,9 @@ pip install "opentelemetry-instrumentation>=0.48b0"
 pip install "opentelemetry-semantic-conventions>=0.48b0"
 pip check
 pip install "pydantic-settings>=2.7.1"
-pip install "sqlite-utils>=3.38"
+pip install "pygithub>=2.5.0"
 pip check
+pip install "sqlite-utils>=3.38"
 pip install "tokenizers>=0.21.0"
 pip install "torchaudio>=2.4.1+cu124"
 pip install "torchmetrics>=1.6.1"

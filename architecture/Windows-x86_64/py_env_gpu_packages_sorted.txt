@@ -4,6 +4,7 @@ ansicon
 asgiref
 asttokens
 async-lru
+async-timeout
 attrs
 babel
 backoff
@@ -271,6 +272,7 @@ pandas
 posthog
 pydantic
 pydeck
+pynacl
 requests-oauthlib
 requests-toolbelt
 rich
@@ -310,6 +312,7 @@ openai
 opentelemetry-instrumentation
 opentelemetry-semantic-conventions
 pydantic-settings
+pygithub
 sqlite-utils
 tokenizers
 torchaudio

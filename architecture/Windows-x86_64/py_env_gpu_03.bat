@@ -1,4 +1,4 @@
-rem 2025-01-26T22:04:50.743178+00:00
+rem 2025-02-13T08:58:41.192016+00:00
 rem Level 3
 pip install "aiohttp>=3.11.11"
 pip install "albucore>=0.0.23"
@@ -43,6 +43,7 @@ pip install "pandas>=2.2.3"
 pip install "posthog>=3.10.0"
 pip install "pydantic>=2.10.6"
 pip install "pydeck>=0.9.1"
+pip install "pynacl>=1.5.0"
 pip check
 pip install "requests-oauthlib>=2.0.0"
 pip install "requests-toolbelt>=0.10.1"

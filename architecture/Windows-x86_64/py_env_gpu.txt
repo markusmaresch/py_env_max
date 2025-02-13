@@ -16,6 +16,7 @@ arrow
 asgiref
 asttokens
 async-lru
+async-timeout
 attrs
 azure-core
 azure-identity
@@ -280,9 +281,11 @@ pydantic-settings
 pydata-google-auth
 pydeck
 pyflakes
+pygithub
 pygments
 pyjwt
 pylucidio
+pynacl
 pyparsing
 pypdf
 pypika
