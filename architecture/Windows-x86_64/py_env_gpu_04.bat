@@ -1,4 +1,4 @@
-rem 2025-03-09T00:37:43.827231+00:00
+rem 2025-03-09T00:56:17.854163+00:00
 rem Level 4
 pip install "aisuite>=0.1.7"
 pip install "albumentations>=2.0.1"
@@ -41,9 +41,9 @@ pip install "pygithub>=2.5.0"
 pip check
 pip install "sqlite-utils>=3.38"
 pip install "tokenizers>=0.21.0"
-pip install "torchaudio>=2.4.1+cu124"
+pip install "torchaudio>=2.6.0+cu126"
 pip install "torchmetrics>=1.6.1"
-pip install "torchvision>=0.19.1+cu124"
+pip install "torchvision>=0.21.0+cu126"
 pip install "typer>=0.15.1"
 pip check
 rem Level 4

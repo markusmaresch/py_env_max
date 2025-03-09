@@ -1,4 +1,4 @@
-rem 2025-03-09T00:37:43.827231+00:00
+rem 2025-03-09T00:56:17.854163+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.4"
 pip install "annotated-types>=0.7.0"
@@ -352,7 +352,7 @@ pip install "scikit-learn>=1.6.1"
 pip install "starlette>=0.45.3"
 pip check
 pip install "tiktoken>=0.8.0"
-pip install "torch>=2.4.1+cu124"
+pip install "torch>=2.6.0+cu126"
 pip check
 pip install "uvicorn>=0.34.0"
 pip install "watchfiles>=1.0.4"
@@ -400,9 +400,9 @@ pip install "pygithub>=2.5.0"
 pip check
 pip install "sqlite-utils>=3.38"
 pip install "tokenizers>=0.21.0"
-pip install "torchaudio>=2.4.1+cu124"
+pip install "torchaudio>=2.6.0+cu126"
 pip install "torchmetrics>=1.6.1"
-pip install "torchvision>=0.19.1+cu124"
+pip install "torchvision>=0.21.0+cu126"
 pip install "typer>=0.15.1"
 pip check
 rem Level 4
@@ -437,7 +437,9 @@ pip check
 pip install "pydata-google-auth>=1.9.1"
 pip install "pytorch-lightning>=2.5.0"
 pip check
+pip install "sam2>=1.1.0"
 pip install "sqlite-migrate>=0.1b0"
+pip check
 pip install "transformers>=4.48.1"
 pip check
 rem Level 5

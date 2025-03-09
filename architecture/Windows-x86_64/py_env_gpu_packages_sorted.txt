@@ -350,6 +350,7 @@ opentelemetry-instrumentation-asgi
 opentelemetry-sdk
 pydata-google-auth
 pytorch-lightning
+sam2
 sqlite-migrate
 transformers
 azure-identity

@@ -325,6 +325,7 @@ rpds-py==0.22.3
 rsa==4.9
 ruff==0.9.3
 safetensors==0.5.2
+sam2==1.1.0
 scikit-image==0.25.1
 scikit-learn==1.6.1
 scipy==1.15.1
@@ -362,10 +363,10 @@ tokenizers==0.21.0
 toml==0.10.2
 tomli_w==1.2.0
 tomlkit==0.13.2
-torch==2.4.1+cu124
-torchaudio==2.4.1+cu124
+torch==2.6.0+cu126
+torchaudio==2.6.0+cu126
 torchmetrics==1.6.1
-torchvision==0.19.1+cu124
+torchvision==0.21.0+cu126
 tornado==6.4.2
 tqdm==4.67.1
 traitlets==5.14.3

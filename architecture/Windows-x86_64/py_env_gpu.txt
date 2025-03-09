@@ -326,6 +326,7 @@ rpds-py
 rsa
 ruff
 safetensors
+sam2
 scikit-image
 scikit-learn
 scipy

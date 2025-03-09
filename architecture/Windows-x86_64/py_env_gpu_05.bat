@@ -1,4 +1,4 @@
-rem 2025-03-09T00:37:43.827231+00:00
+rem 2025-03-09T00:56:17.854163+00:00
 rem Level 5
 pip install "altair>=5.5.0"
 pip check
@@ -30,7 +30,9 @@ pip check
 pip install "pydata-google-auth>=1.9.1"
 pip install "pytorch-lightning>=2.5.0"
 pip check
+pip install "sam2>=1.1.0"
 pip install "sqlite-migrate>=0.1b0"
+pip check
 pip install "transformers>=4.48.1"
 pip check
 rem Level 5

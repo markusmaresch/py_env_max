@@ -1,4 +1,4 @@
-rem 2025-03-09T00:37:43.827231+00:00
+rem 2025-03-09T00:56:17.854163+00:00
 rem Level 3
 pip install "aiohttp>=3.11.11"
 pip install "albucore>=0.0.23"
@@ -56,7 +56,7 @@ pip install "scikit-learn>=1.6.1"
 pip install "starlette>=0.45.3"
 pip check
 pip install "tiktoken>=0.8.0"
-pip install "torch>=2.4.1+cu124"
+pip install "torch>=2.6.0+cu126"
 pip check
 pip install "uvicorn>=0.34.0"
 pip install "watchfiles>=1.0.4"
