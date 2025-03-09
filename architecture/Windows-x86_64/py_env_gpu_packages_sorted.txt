@@ -13,6 +13,7 @@ bcrypt
 blinker
 cachetools
 certifi
+chardet
 charset-normalizer
 colorama
 cycler
@@ -107,6 +108,7 @@ pyflakes
 pygments
 pyjwt
 pylucidio
+pymodbustcp
 pyparsing
 pypdf
 pypika
@@ -223,6 +225,7 @@ pytest
 python-dateutil
 qrcode
 referencing
+reportlab
 requests
 rfc3339-validator
 rsa

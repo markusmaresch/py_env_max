@@ -1,4 +1,4 @@
-rem 2025-02-13T10:12:51.975696+00:00
+rem 2025-03-09T00:37:43.827231+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.4"
 pip install "annotated-types>=0.7.0"
@@ -17,6 +17,7 @@ pip install "blinker>=1.9.0"
 pip check
 pip install "cachetools>=5.5.1"
 pip install "certifi>=2024.12.14"
+pip install "chardet>=5.2.0"
 pip install "charset-normalizer>=2.1.1"
 pip install "colorama>=0.4.6"
 pip install "cycler>=0.12.1"
@@ -126,14 +127,15 @@ pip check
 pip install "pygments>=2.19.1"
 pip install "pyjwt>=2.10.1"
 pip install "pylucidio>=2.4"
+pip install "pymodbustcp>=0.3.0"
 pip install "pyparsing>=3.2.1"
 pip install "pypdf>=5.2.0"
 pip install "pypika>=0.48.9"
 pip install "pyproject-hooks>=1.2.0"
 pip install "pyqtree>=1.0.0"
 pip install "pyreadline3>=3.5.4"
-pip install "pyserial>=3.5"
 pip check
+pip install "pyserial>=3.5"
 pip install "python-dotenv>=1.0.1"
 pip install "python-json-logger>=3.2.1"
 pip install "python-ulid>=3.0.0"
@@ -268,6 +270,7 @@ pip install "python-dateutil>=2.9.0.post0"
 pip check
 pip install "qrcode>=8.0"
 pip install "referencing>=0.36.2"
+pip install "reportlab>=4.3.1"
 pip install "requests>=2.32.3"
 pip install "rfc3339-validator>=0.1.4"
 pip install "rsa>=4.9"

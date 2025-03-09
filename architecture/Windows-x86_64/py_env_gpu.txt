@@ -33,6 +33,7 @@ build
 cachetools
 certifi
 cffi
+chardet
 charset-normalizer
 chroma-hnswlib
 chromadb
@@ -289,6 +290,7 @@ pygithub
 pygments
 pyjwt
 pylucidio
+pymodbustcp
 pynacl
 pyparsing
 pypdf
@@ -313,6 +315,7 @@ pyzmq
 qrcode
 referencing
 regex
+reportlab
 requests
 requests-oauthlib
 requests-toolbelt

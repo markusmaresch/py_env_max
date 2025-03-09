@@ -1,4 +1,4 @@
-rem 2025-02-13T10:12:51.975696+00:00
+rem 2025-03-09T00:37:43.827231+00:00
 rem Level 2
 pip install "aiosignal>=1.3.2"
 pip install "anyio>=4.8.0"
@@ -69,6 +69,7 @@ pip install "python-dateutil>=2.9.0.post0"
 pip check
 pip install "qrcode>=8.0"
 pip install "referencing>=0.36.2"
+pip install "reportlab>=4.3.1"
 pip install "requests>=2.32.3"
 pip install "rfc3339-validator>=0.1.4"
 pip install "rsa>=4.9"
