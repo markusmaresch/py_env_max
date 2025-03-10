@@ -69,6 +69,7 @@ mccabe
 mdurl
 mistune
 mmh3
+mobile-sam
 monotonic
 more-itertools
 mpmath
@@ -352,6 +353,7 @@ pydata-google-auth
 pytorch-lightning
 sam2
 sqlite-migrate
+timm
 transformers
 azure-identity
 google-cloud-bigquery

@@ -205,6 +205,7 @@ mistune
 mkl
 ml-dtypes
 mmh3
+mobile-sam
 monotonic
 more-itertools
 mpmath
@@ -360,6 +361,7 @@ terminado
 threadpoolctl
 tifffile
 tiktoken
+timm
 tinycss2
 tokenizers
 toml

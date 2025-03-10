@@ -211,6 +211,7 @@ mistune                   3.1.0                    pypi_0    pypi
 mkl                       2025.0.1                 pypi_0    pypi
 ml-dtypes                 0.5.1                    pypi_0    pypi
 mmh3                      5.1.0                    pypi_0    pypi
+mobile-sam                1.0                      pypi_0    pypi
 monotonic                 1.6                      pypi_0    pypi
 more-itertools            10.6.0                   pypi_0    pypi
 mpmath                    1.3.0                    pypi_0    pypi
@@ -369,6 +370,7 @@ terminado                 0.18.1                   pypi_0    pypi
 threadpoolctl             3.5.0                    pypi_0    pypi
 tifffile                  2025.1.10                pypi_0    pypi
 tiktoken                  0.8.0                    pypi_0    pypi
+timm                      1.0.15                   pypi_0    pypi
 tinycss2                  1.4.0                    pypi_0    pypi
 tk                        8.6.14               h0416ee5_0  
 tokenizers                0.21.0                   pypi_0    pypi

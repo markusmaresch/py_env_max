@@ -1,4 +1,4 @@
-rem 2025-03-09T00:56:17.854163+00:00
+rem 2025-03-10T20:47:16.273503+00:00
 rem Level 5
 pip install "altair>=5.5.0"
 pip check
@@ -33,6 +33,7 @@ pip check
 pip install "sam2>=1.1.0"
 pip install "sqlite-migrate>=0.1b0"
 pip check
+pip install "timm>=1.0.15"
 pip install "transformers>=4.48.1"
 pip check
 rem Level 5
