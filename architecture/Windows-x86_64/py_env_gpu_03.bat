@@ -1,4 +1,4 @@
-rem 2025-03-10T20:47:16.273503+00:00
+rem 2025-03-16T23:45:20.438725+00:00
 rem Level 3
 pip install "aiohttp>=3.11.11"
 pip install "albucore>=0.0.23"
@@ -38,6 +38,7 @@ pip check
 pip install "matplotlib>=3.10.0"
 pip install "nltk>=3.9.1"
 pip check
+pip install "openmeteo-requests>=1.3.0"
 pip install "opentelemetry-api>=1.27.0"
 pip install "opentelemetry-exporter-otlp-proto-common>=1.27.0"
 pip check
@@ -46,6 +47,7 @@ pip install "posthog>=3.10.0"
 pip install "pydantic>=2.10.6"
 pip install "pydeck>=0.9.1"
 pip install "pynacl>=1.5.0"
+pip install "pyowm>=3.3.0"
 pip check
 pip install "requests-oauthlib>=2.0.0"
 pip install "requests-toolbelt>=0.10.1"

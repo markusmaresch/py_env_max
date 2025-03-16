@@ -74,12 +74,13 @@ filelock                  3.17.0                   pypi_0    pypi
 filetype                  1.2.0                    pypi_0    pypi
 flake8                    7.1.1                    pypi_0    pypi
 flask                     3.1.0                    pypi_0    pypi
-flatbuffers               25.1.24                  pypi_0    pypi
+flatbuffers               25.2.10                  pypi_0    pypi
 fonttools                 4.55.6                   pypi_0    pypi
 fpdf2                     2.8.2                    pypi_0    pypi
 fqdn                      1.5.1                    pypi_0    pypi
 frozenlist                1.5.0                    pypi_0    pypi
 fsspec                    2024.12.0                pypi_0    pypi
+geojson                   2.5.0                    pypi_0    pypi
 gitdb                     4.0.12                   pypi_0    pypi
 gitpython                 3.1.44                   pypi_0    pypi
 google-ai-generativelanguage 0.6.15                   pypi_0    pypi
@@ -192,9 +193,10 @@ llama-index-readers-file  0.3.0                    pypi_0    pypi
 llama-index-readers-llama-parse 0.3.0                    pypi_0    pypi
 llama-parse               0.5.20                   pypi_0    pypi
 llamaindex-py-client      0.1.19                   pypi_0    pypi
-llm                       0.20                     pypi_0    pypi
+llm                       0.23                     pypi_0    pypi
 llm-claude-3              0.10                     pypi_0    pypi
 llm-gemini                0.9                      pypi_0    pypi
+llm-ollama                0.9.1                    pypi_0    pypi
 llvmlite                  0.44.0                   pypi_0    pypi
 lmdb                      1.6.2                    pypi_0    pypi
 lxml                      5.3.0                    pypi_0    pypi
@@ -213,7 +215,7 @@ ml-dtypes                 0.5.1                    pypi_0    pypi
 mmh3                      5.1.0                    pypi_0    pypi
 mobile-sam                1.0                      pypi_0    pypi
 monotonic                 1.6                      pypi_0    pypi
-more-itertools            10.6.0                   pypi_0    pypi
+more-itertools            10.5.0                   pypi_0    pypi
 mpmath                    1.3.0                    pypi_0    pypi
 msal                      1.31.1                   pypi_0    pypi
 msal-extensions           1.2.0                    pypi_0    pypi
@@ -244,6 +246,8 @@ openinference-instrumentation-langchain 0.1.29                   pypi_0    pypi
 openinference-instrumentation-llama-index 3.1.3                    pypi_0    pypi
 openinference-instrumentation-openai 0.1.18                   pypi_0    pypi
 openinference-semantic-conventions 0.1.12                   pypi_0    pypi
+openmeteo-requests        1.3.0                    pypi_0    pypi
+openmeteo-sdk             1.19.0                   pypi_0    pypi
 openssl                   3.0.13               h2bbff1b_1  
 opentelemetry-api         1.27.0                   pypi_0    pypi
 opentelemetry-exporter-otlp 1.27.0                   pypi_0    pypi
@@ -300,6 +304,7 @@ pyjwt                     2.10.1                   pypi_0    pypi
 pylucidio                 2.4                      pypi_0    pypi
 pymodbustcp               0.3.0                    pypi_0    pypi
 pynacl                    1.5.0                    pypi_0    pypi
+pyowm                     3.3.0                    pypi_0    pypi
 pyparsing                 3.2.1                    pypi_0    pypi
 pypdf                     5.2.0                    pypi_0    pypi
 pypika                    0.48.9                   pypi_0    pypi
@@ -308,6 +313,7 @@ pyqtree                   1.0.0                    pypi_0    pypi
 pyreadline3               3.5.4                    pypi_0    pypi
 pyright                   1.1.392                  pypi_0    pypi
 pyserial                  3.5                      pypi_0    pypi
+pysocks                   1.7.1                    pypi_0    pypi
 pytest                    8.3.4                    pypi_0    pypi
 python                    3.11.9               he1021f5_0  
 python-dateutil           2.9.0.post0              pypi_0    pypi

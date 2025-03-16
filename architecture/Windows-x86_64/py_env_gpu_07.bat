@@ -1,4 +1,4 @@
-rem 2025-03-10T20:47:16.273503+00:00
+rem 2025-03-16T23:45:20.438725+00:00
 rem Level 7
 pip install "chromadb>=0.6.3"
 pip check
@@ -9,6 +9,7 @@ pip install "langchain>=0.1.20"
 pip install "llama-index-program-openai>=0.2.0"
 pip install "llm-claude-3>=0.10"
 pip install "llm-gemini>=0.9"
+pip install "llm-ollama>=0.9.1"
 pip check
 pip install "nbconvert>=7.16.5"
 pip install "openinference-instrumentation-langchain>=0.1.29"

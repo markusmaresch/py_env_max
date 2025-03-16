@@ -1,4 +1,4 @@
-rem 2025-03-10T20:47:16.273503+00:00
+rem 2025-03-16T23:45:20.438725+00:00
 rem Level 2
 pip install "aiosignal>=1.3.2"
 pip install "anyio>=4.8.0"
@@ -54,6 +54,7 @@ pip install "omegaconf>=2.3.0"
 pip install "opencv-contrib-python>=4.11.0.86"
 pip install "opencv-python>=4.11.0.86"
 pip install "opencv-python-headless>=4.11.0.86"
+pip install "openmeteo-sdk>=1.19.0"
 pip install "opentelemetry-proto>=1.27.0"
 pip check
 pip install "pipdeptree>=2.23.1"

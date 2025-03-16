@@ -1,4 +1,4 @@
-rem 2025-03-10T20:47:16.273503+00:00
+rem 2025-03-16T23:45:20.438725+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.4"
 pip install "annotated-types>=0.7.0"
@@ -41,12 +41,13 @@ pip install "fastavro>=1.10.0"
 pip install "fastjsonschema>=2.21.1"
 pip install "filelock>=3.17.0"
 pip install "filetype>=1.2.0"
-pip install "flatbuffers>=25.1.24"
+pip install "flatbuffers>=25.2.10"
 pip install "fonttools>=4.55.6"
 pip install "fqdn>=1.5.1"
 pip install "frozenlist>=1.5.0"
 pip install "fsspec>=2024.12.0"
 pip check
+pip install "geojson>=2.5.0"
 pip install "google-crc32c>=1.6.0"
 pip install "greenlet>=3.1.1"
 pip install "grpcio>=1.70.0"
@@ -137,6 +138,7 @@ pip install "pyqtree>=1.0.0"
 pip install "pyreadline3>=3.5.4"
 pip check
 pip install "pyserial>=3.5"
+pip install "pysocks>=1.7.1"
 pip install "python-dotenv>=1.0.1"
 pip install "python-json-logger>=3.2.1"
 pip install "python-ulid>=3.0.0"
@@ -145,6 +147,7 @@ pip install "pywin32>=308"
 pip install "pywinpty>=2.0.14"
 pip install "pyyaml>=6.0.2"
 pip install "pyzbar>=0.1.9"
+pip check
 pip install "pyzmq>=26.2.0"
 pip check
 pip install "regex>=2024.11.6"

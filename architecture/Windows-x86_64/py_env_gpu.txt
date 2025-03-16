@@ -75,6 +75,7 @@ fpdf2
 fqdn
 frozenlist
 fsspec
+geojson
 gitdb
 gitpython
 google-ai-generativelanguage
@@ -189,6 +190,7 @@ llamaindex-py-client
 llm
 llm-claude-3
 llm-gemini
+llm-ollama
 llvmlite
 lmdb
 lxml
@@ -238,6 +240,8 @@ openinference-instrumentation-langchain
 openinference-instrumentation-llama-index
 openinference-instrumentation-openai
 openinference-semantic-conventions
+openmeteo-requests
+openmeteo-sdk
 opentelemetry-api
 opentelemetry-exporter-otlp
 opentelemetry-exporter-otlp-proto-common
@@ -293,6 +297,7 @@ pyjwt
 pylucidio
 pymodbustcp
 pynacl
+pyowm
 pyparsing
 pypdf
 pypika
@@ -301,6 +306,7 @@ pyqtree
 pyreadline3
 pyright
 pyserial
+pysocks
 pytest
 python-dateutil
 python-dotenv

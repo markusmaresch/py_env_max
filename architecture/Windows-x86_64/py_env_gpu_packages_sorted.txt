@@ -39,6 +39,7 @@ fonttools
 fqdn
 frozenlist
 fsspec
+geojson
 google-crc32c
 greenlet
 grpcio
@@ -117,6 +118,7 @@ pyproject-hooks
 pyqtree
 pyreadline3
 pyserial
+pysocks
 python-dotenv
 python-json-logger
 python-ulid
@@ -213,6 +215,7 @@ omegaconf
 opencv-contrib-python
 opencv-python
 opencv-python-headless
+openmeteo-sdk
 opentelemetry-proto
 pipdeptree
 plyfile
@@ -274,6 +277,7 @@ kfp-server-api
 llama-cpp-python
 matplotlib
 nltk
+openmeteo-requests
 opentelemetry-api
 opentelemetry-exporter-otlp-proto-common
 pandas
@@ -281,6 +285,7 @@ posthog
 pydantic
 pydeck
 pynacl
+pyowm
 requests-oauthlib
 requests-toolbelt
 rich
@@ -382,6 +387,7 @@ langchain
 llama-index-program-openai
 llm-claude-3
 llm-gemini
+llm-ollama
 nbconvert
 openinference-instrumentation-langchain
 openinference-instrumentation-llama-index

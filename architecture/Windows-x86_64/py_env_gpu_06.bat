@@ -1,4 +1,4 @@
-rem 2025-03-10T20:47:16.273503+00:00
+rem 2025-03-16T23:45:20.438725+00:00
 rem Level 6
 pip install "azure-identity>=1.19.0"
 pip check
@@ -14,7 +14,7 @@ pip install "llama-index-agent-openai>=0.3.4"
 pip install "llama-index-cli>=0.3.1"
 pip install "llama-index-multi-modal-llms-openai>=0.2.3"
 pip install "llama-index-readers-llama-parse>=0.3.0"
-pip install "llm>=0.20"
+pip install "llm>=0.23"
 pip check
 pip install "nbclient>=0.10.2"
 pip install "openinference-instrumentation>=0.1.21"
