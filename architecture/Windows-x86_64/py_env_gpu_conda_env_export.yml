@@ -132,7 +132,7 @@ dependencies:
       - ijson==3.3.0
       - imageio==2.37.0
       - importlib-metadata==8.4.0
-      - importlib-resources==6.5.2
+      - importlib-resources==6.5.1
       - imutils==0.5.4
       - iniconfig==2.0.0
       - intel-cmplr-lib-ur==2025.0.4
