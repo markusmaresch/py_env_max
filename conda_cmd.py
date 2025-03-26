@@ -73,9 +73,9 @@ class CondaCmd:
             output = subprocess.check_output(['conda', 'env', 'list'])
             for line in output.splitlines():
                 v = line.decode().split()
-                if v[0][0] == '#':
-                    continue
                 if len(v) < 2:
+                    continue
+                if v[0][0] == '#':
                     continue
                 if v[1] != '*':
                     continue
