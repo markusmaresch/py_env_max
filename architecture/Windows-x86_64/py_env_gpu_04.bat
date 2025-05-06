@@ -1,4 +1,4 @@
-rem 2025-03-17T18:31:19.712656+00:00
+rem 2025-05-06T09:51:25.878306+00:00
 rem Level 4
 pip install "aisuite>=0.1.7"
 pip install "albumentations>=2.0.1"
@@ -38,6 +38,7 @@ pip install "opentelemetry-semantic-conventions>=0.48b0"
 pip check
 pip install "pydantic-settings>=2.7.1"
 pip install "pygithub>=2.5.0"
+pip install "pythonnet>=3.0.5"
 pip check
 pip install "sqlite-utils>=3.38"
 pip install "tokenizers>=0.21.0"

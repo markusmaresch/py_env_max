@@ -1,9 +1,10 @@
-rem 2025-03-17T18:31:19.712656+00:00
+rem 2025-05-06T09:51:25.878306+00:00
 rem Level 5
 pip install "altair>=5.5.0"
 pip check
 pip install "google-ai-generativelanguage>=0.6.15"
 pip install "google-api-python-client>=2.135.0"
+pip install "google-cloud-artifact-registry>=1.16.0"
 pip install "google-cloud-compute>=1.23.0"
 pip install "google-cloud-core>=2.4.1"
 pip install "google-cloud-resource-manager>=1.14.0"
@@ -27,6 +28,7 @@ pip install "nbformat>=5.10.4"
 pip install "opentelemetry-instrumentation-asgi>=0.48b0"
 pip install "opentelemetry-sdk>=1.27.0"
 pip check
+pip install "piconnect>=0.12.1"
 pip install "pydata-google-auth>=1.9.1"
 pip install "pytorch-lightning>=2.5.0"
 pip check

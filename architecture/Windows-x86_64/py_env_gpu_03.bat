@@ -1,4 +1,4 @@
-rem 2025-03-17T18:31:19.712656+00:00
+rem 2025-05-06T09:51:25.878306+00:00
 rem Level 3
 pip install "aiohttp>=3.11.11"
 pip install "albucore>=0.0.23"
@@ -8,6 +8,7 @@ pip install "azure-core>=1.32.0"
 pip check
 pip install "blessed>=1.20.0"
 pip install "click-default-group>=1.2.4"
+pip install "clr-loader>=0.2.7.post0"
 pip install "coloredlogs>=15.0.1"
 pip install "cryptography>=44.0.0"
 pip check

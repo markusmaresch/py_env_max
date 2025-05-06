@@ -41,6 +41,7 @@ frozenlist
 fsspec
 geojson
 google-crc32c
+gputil
 greenlet
 grpcio
 h11
@@ -110,6 +111,7 @@ pyflakes
 pygments
 pyjwt
 pylucidio
+pymage-size
 pymodbustcp
 pyparsing
 pypdf
@@ -255,6 +257,7 @@ arrow
 azure-core
 blessed
 click-default-group
+clr-loader
 coloredlogs
 cryptography
 dataclasses-json
@@ -326,6 +329,7 @@ opentelemetry-instrumentation
 opentelemetry-semantic-conventions
 pydantic-settings
 pygithub
+pythonnet
 sqlite-utils
 tokenizers
 torchaudio
@@ -335,6 +339,7 @@ typer
 altair
 google-ai-generativelanguage
 google-api-python-client
+google-cloud-artifact-registry
 google-cloud-compute
 google-cloud-core
 google-cloud-resource-manager
@@ -354,6 +359,7 @@ msal-extensions
 nbformat
 opentelemetry-instrumentation-asgi
 opentelemetry-sdk
+piconnect
 pydata-google-auth
 pytorch-lightning
 sam2

@@ -39,6 +39,7 @@ chroma-hnswlib
 chromadb
 click
 click-default-group
+clr-loader
 colorama
 coloredlogs
 comm
@@ -85,6 +86,7 @@ google-auth
 google-auth-httplib2
 google-auth-oauthlib
 google-cloud-aiplatform
+google-cloud-artifact-registry
 google-cloud-bigquery
 google-cloud-compute
 google-cloud-core
@@ -98,6 +100,7 @@ google-genai
 google-generativeai
 google-resumable-media
 googleapis-common-protos
+gputil
 greenlet
 grpc-google-iam-v1
 grpcio
@@ -264,6 +267,7 @@ pandocfilters
 parameterized
 parso
 persist-queue
+piconnect
 pillow
 pip
 pipdeptree
@@ -295,6 +299,7 @@ pygithub
 pygments
 pyjwt
 pylucidio
+pymage-size
 pymodbustcp
 pynacl
 pyowm
@@ -312,6 +317,7 @@ python-dateutil
 python-dotenv
 python-json-logger
 python-ulid
+pythonnet
 pytorch-lightning
 pytz
 pywin32

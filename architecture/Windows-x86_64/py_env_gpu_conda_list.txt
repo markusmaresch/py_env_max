@@ -44,6 +44,7 @@ chroma-hnswlib            0.7.6                    pypi_0    pypi
 chromadb                  0.6.3                    pypi_0    pypi
 click                     8.1.8                    pypi_0    pypi
 click-default-group       1.2.4                    pypi_0    pypi
+clr-loader                0.2.7.post0              pypi_0    pypi
 colorama                  0.4.6                    pypi_0    pypi
 coloredlogs               15.0.1                   pypi_0    pypi
 comm                      0.2.2                    pypi_0    pypi
@@ -90,6 +91,7 @@ google-auth               2.38.0                   pypi_0    pypi
 google-auth-httplib2      0.2.0                    pypi_0    pypi
 google-auth-oauthlib      1.2.1                    pypi_0    pypi
 google-cloud-aiplatform   1.78.0                   pypi_0    pypi
+google-cloud-artifact-registry 1.16.0                   pypi_0    pypi
 google-cloud-bigquery     3.29.0                   pypi_0    pypi
 google-cloud-compute      1.23.0                   pypi_0    pypi
 google-cloud-core         2.4.1                    pypi_0    pypi
@@ -103,6 +105,7 @@ google-genai              0.6.0                    pypi_0    pypi
 google-generativeai       0.8.4                    pypi_0    pypi
 google-resumable-media    2.7.2                    pypi_0    pypi
 googleapis-common-protos  1.66.0                   pypi_0    pypi
+gputil                    1.4.0                    pypi_0    pypi
 greenlet                  3.1.1                    pypi_0    pypi
 grpc-google-iam-v1        0.14.0                   pypi_0    pypi
 grpcio                    1.70.0                   pypi_0    pypi
@@ -121,7 +124,7 @@ idna                      3.10                     pypi_0    pypi
 ijson                     3.3.0                    pypi_0    pypi
 imageio                   2.37.0                   pypi_0    pypi
 importlib-metadata        8.4.0                    pypi_0    pypi
-importlib-resources       6.5.2                    pypi_0    pypi
+importlib-resources       6.5.1                    pypi_0    pypi
 imutils                   0.5.4                    pypi_0    pypi
 iniconfig                 2.0.0                    pypi_0    pypi
 intel-cmplr-lib-ur        2025.0.4                 pypi_0    pypi
@@ -195,7 +198,7 @@ llama-parse               0.5.20                   pypi_0    pypi
 llamaindex-py-client      0.1.19                   pypi_0    pypi
 llm                       0.23                     pypi_0    pypi
 llm-claude-3              0.10                     pypi_0    pypi
-llm-gemini                0.9                      pypi_0    pypi
+llm-gemini                0.16                     pypi_0    pypi
 llm-ollama                0.9.1                    pypi_0    pypi
 llvmlite                  0.44.0                   pypi_0    pypi
 lmdb                      1.6.2                    pypi_0    pypi
@@ -271,8 +274,9 @@ pandocfilters             1.5.1                    pypi_0    pypi
 parameterized             0.9.0                    pypi_0    pypi
 parso                     0.8.4                    pypi_0    pypi
 persist-queue             1.0.0                    pypi_0    pypi
+piconnect                 0.12.1                   pypi_0    pypi
 pillow                    11.1.0                   pypi_0    pypi
-pip                       25.0.1                   pypi_0    pypi
+pip                       25.1.1                   pypi_0    pypi
 pipdeptree                2.23.1                   pypi_0    pypi
 platformdirs              4.3.6                    pypi_0    pypi
 pluggy                    1.5.0                    pypi_0    pypi
@@ -302,6 +306,7 @@ pygithub                  2.5.0                    pypi_0    pypi
 pygments                  2.19.1                   pypi_0    pypi
 pyjwt                     2.10.1                   pypi_0    pypi
 pylucidio                 2.4                      pypi_0    pypi
+pymage-size               1.7.1                    pypi_0    pypi
 pymodbustcp               0.3.0                    pypi_0    pypi
 pynacl                    1.5.0                    pypi_0    pypi
 pyowm                     3.3.0                    pypi_0    pypi
@@ -320,6 +325,7 @@ python-dateutil           2.9.0.post0              pypi_0    pypi
 python-dotenv             1.0.1                    pypi_0    pypi
 python-json-logger        3.2.1                    pypi_0    pypi
 python-ulid               3.0.0                    pypi_0    pypi
+pythonnet                 3.0.5                    pypi_0    pypi
 pytorch-lightning         2.5.0                    pypi_0    pypi
 pytz                      2024.2                   pypi_0    pypi
 pywin32                   308                      pypi_0    pypi

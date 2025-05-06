@@ -1,4 +1,4 @@
-rem 2025-03-17T18:31:19.712656+00:00
+rem 2025-05-06T09:51:25.878306+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.4.4"
 pip install "annotated-types>=0.7.0"
@@ -49,6 +49,7 @@ pip install "fsspec>=2024.12.0"
 pip check
 pip install "geojson>=2.5.0"
 pip install "google-crc32c>=1.6.0"
+pip install "gputil>=1.4.0"
 pip install "greenlet>=3.1.1"
 pip install "grpcio>=1.70.0"
 pip check
@@ -110,7 +111,7 @@ pip install "parameterized>=0.9.0"
 pip install "parso>=0.8.4"
 pip install "persist-queue>=1.0.0"
 pip install "pillow>=11.1.0"
-pip install "pip>=25.0.1"
+pip install "pip>=25.1.1"
 pip install "platformdirs>=4.3.6"
 pip install "pluggy>=1.5.0"
 pip install "prometheus-client>=0.21.1"
@@ -129,14 +130,15 @@ pip check
 pip install "pygments>=2.19.1"
 pip install "pyjwt>=2.10.1"
 pip install "pylucidio>=2.4"
+pip install "pymage-size>=1.7.1"
 pip install "pymodbustcp>=0.3.0"
 pip install "pyparsing>=3.2.1"
 pip install "pypdf>=5.2.0"
 pip install "pypika>=0.48.9"
 pip install "pyproject-hooks>=1.2.0"
 pip install "pyqtree>=1.0.0"
-pip install "pyreadline3>=3.5.4"
 pip check
+pip install "pyreadline3>=3.5.4"
 pip install "pyserial>=3.5"
 pip install "pysocks>=1.7.1"
 pip install "python-dotenv>=1.0.1"
@@ -146,8 +148,8 @@ pip install "pytz>=2024.2"
 pip install "pywin32>=308"
 pip install "pywinpty>=2.0.14"
 pip install "pyyaml>=6.0.2"
-pip install "pyzbar>=0.1.9"
 pip check
+pip install "pyzbar>=0.1.9"
 pip install "pyzmq>=26.2.0"
 pip check
 pip install "regex>=2024.11.6"
@@ -309,6 +311,7 @@ pip install "azure-core>=1.32.0"
 pip check
 pip install "blessed>=1.20.0"
 pip install "click-default-group>=1.2.4"
+pip install "clr-loader>=0.2.7.post0"
 pip install "coloredlogs>=15.0.1"
 pip install "cryptography>=44.0.0"
 pip check
@@ -404,6 +407,7 @@ pip install "opentelemetry-semantic-conventions>=0.48b0"
 pip check
 pip install "pydantic-settings>=2.7.1"
 pip install "pygithub>=2.5.0"
+pip install "pythonnet>=3.0.5"
 pip check
 pip install "sqlite-utils>=3.38"
 pip install "tokenizers>=0.21.0"
@@ -418,6 +422,7 @@ pip install "altair>=5.5.0"
 pip check
 pip install "google-ai-generativelanguage>=0.6.15"
 pip install "google-api-python-client>=2.135.0"
+pip install "google-cloud-artifact-registry>=1.16.0"
 pip install "google-cloud-compute>=1.23.0"
 pip install "google-cloud-core>=2.4.1"
 pip install "google-cloud-resource-manager>=1.14.0"
@@ -441,6 +446,7 @@ pip install "nbformat>=5.10.4"
 pip install "opentelemetry-instrumentation-asgi>=0.48b0"
 pip install "opentelemetry-sdk>=1.27.0"
 pip check
+pip install "piconnect>=0.12.1"
 pip install "pydata-google-auth>=1.9.1"
 pip install "pytorch-lightning>=2.5.0"
 pip check
@@ -487,7 +493,7 @@ pip check
 pip install "langchain>=0.1.20"
 pip install "llama-index-program-openai>=0.2.0"
 pip install "llm-claude-3>=0.10"
-pip install "llm-gemini>=0.9"
+pip install "llm-gemini>=0.16"
 pip install "llm-ollama>=0.9.1"
 pip check
 pip install "nbconvert>=7.16.5"
