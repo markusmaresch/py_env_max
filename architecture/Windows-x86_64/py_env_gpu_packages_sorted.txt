@@ -16,6 +16,7 @@ certifi
 chardet
 charset-normalizer
 colorama
+condense-json
 cycler
 cython
 debugpy
@@ -192,6 +193,7 @@ fpdf2
 gitdb
 google-resumable-media
 googleapis-common-protos
+griffe
 h5py
 httpcore
 httplib2
@@ -199,6 +201,7 @@ humanfriendly
 imageio
 importlib-metadata
 iprogress
+ipython-pygments-lexers
 jedi
 jinja2
 jinxed
@@ -247,6 +250,7 @@ tifffile
 tinycss2
 tqdm
 typing-inspect
+typing-inspection
 umf
 werkzeug
 yarl
@@ -303,6 +307,7 @@ aisuite
 albumentations
 anthropic
 argon2-cffi
+banks
 braincube-connector
 db-dtypes
 fastapi
@@ -347,13 +352,13 @@ google-cloud-secret-manager
 google-cloud-vision
 jupyter-events
 langchain-core
+llama-cloud-services
 llama-index-embeddings-openai
 llama-index-indices-managed-llama-cloud
 llama-index-legacy
 llama-index-llms-ollama
 llama-index-llms-openai
 llama-index-readers-file
-llama-parse
 mkl
 msal-extensions
 nbformat
@@ -377,7 +382,7 @@ lightning
 llama-index-agent-openai
 llama-index-cli
 llama-index-multi-modal-llms-openai
-llama-index-readers-llama-parse
+llama-parse
 llm
 nbclient
 openinference-instrumentation
@@ -391,7 +396,8 @@ google-cloud-aiplatform
 kfp
 langchain
 llama-index-program-openai
-llm-claude-3
+llama-index-readers-llama-parse
+llm-anthropic
 llm-gemini
 llm-ollama
 nbconvert
@@ -403,6 +409,7 @@ pandas-gbq
 google-cloud-pipeline-components
 jupyter-server
 llama-index-question-gen-openai
+llm-claude-3
 jupyter-lsp
 jupyterlab-server
 llama-index

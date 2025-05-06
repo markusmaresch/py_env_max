@@ -23,6 +23,7 @@ azure-core
 azure-identity
 babel
 backoff
+banks
 bcrypt
 beautifulsoup4
 bleach
@@ -43,6 +44,7 @@ clr-loader
 colorama
 coloredlogs
 comm
+condense-json
 contourpy
 cryptography
 cycler
@@ -102,6 +104,7 @@ google-resumable-media
 googleapis-common-protos
 gputil
 greenlet
+griffe
 grpc-google-iam-v1
 grpcio
 grpcio-status
@@ -129,6 +132,7 @@ iprogress
 ipykernel
 ipython
 ipython-genutils
+ipython-pygments-lexers
 isoduration
 itsdangerous
 jax
@@ -173,6 +177,7 @@ lazy-loader
 lightning
 lightning-utilities
 llama-cloud
+llama-cloud-services
 llama-cpp-python
 llama-index
 llama-index-agent-openai
@@ -191,6 +196,7 @@ llama-index-readers-llama-parse
 llama-parse
 llamaindex-py-client
 llm
+llm-anthropic
 llm-claude-3
 llm-gemini
 llm-ollama
@@ -391,6 +397,7 @@ typer
 types-python-dateutil
 typing-extensions
 typing-inspect
+typing-inspection
 tzdata
 umf
 uri-template

@@ -1,5 +1,5 @@
-rem 2025-05-06T09:51:25.878306+00:00
+rem 2025-05-06T11:11:07.996130+00:00
 rem Level 11
-pip install "notebook>=7.3.2"
+pip install "notebook>=7.4.1"
 pip check
 rem Level 11
