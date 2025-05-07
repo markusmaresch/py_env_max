@@ -41,6 +41,7 @@ lmdb
 markupsafe
 mccabe
 mistune
+narwhals
 nest-asyncio
 networkx
 numpy
@@ -147,6 +148,7 @@ opentelemetry-api
 pandas
 scikit-image
 scikit-learn
+scikit-spatial
 stack-data
 xgboost
 yarg
@@ -157,15 +159,14 @@ google-api-core
 ipython
 jsonschema
 opentelemetry-semantic-conventions
+py-cylinder-fitting
 pythonnet
-scikit-spatial
 google-cloud-core
 ipykernel
 ipywidgets
 nbformat
 opentelemetry-instrumentation
 piconnect
-py-cylinder-fitting
 pyoints
 google-cloud-bigquery
 google-cloud-storage

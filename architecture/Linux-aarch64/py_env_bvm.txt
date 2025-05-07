@@ -80,6 +80,7 @@ matplotlib
 matplotlib-inline
 mccabe
 mistune
+narwhals
 nbclient
 nbconvert
 nbformat
