@@ -1,4 +1,4 @@
-rem 2025-05-06T11:11:07.996130+00:00
+rem 2025-05-07T07:39:32.453849+00:00
 rem Level 3
 pip install "aiohttp>=3.11.18"
 pip install "albucore>=0.0.24"
@@ -63,5 +63,7 @@ pip install "torch>=2.6.0+cu126"
 pip check
 pip install "uvicorn>=0.34.2"
 pip install "watchfiles>=1.0.5"
+pip check
+pip install "xgboost>=3.0.0"
 pip check
 rem Level 3

@@ -303,6 +303,7 @@ tiktoken
 torch
 uvicorn
 watchfiles
+xgboost
 aisuite
 albumentations
 anthropic

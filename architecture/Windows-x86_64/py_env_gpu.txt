@@ -414,6 +414,7 @@ websockets
 werkzeug
 wheel
 wrapt
+xgboost
 xlsxwriter
 yarl
 yoctopuce
