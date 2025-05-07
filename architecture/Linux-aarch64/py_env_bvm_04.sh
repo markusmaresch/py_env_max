@@ -1,4 +1,4 @@
-# 2024-11-26T15:38:11.498565+00:00
+# 2025-05-07T07:35:13.826113+00:00
 # Level 4
 pip install "braincube-connector>=2.6.0"
 pip check
@@ -11,6 +11,7 @@ pip check
 pip install "jsonschema>=4.23.0"
 pip install "opentelemetry-semantic-conventions>=0.49b2"
 pip check
+pip install "pythonnet>=3.0.5"
 pip install "scikit-spatial>=8.0.0"
 pip check
 # Level 4

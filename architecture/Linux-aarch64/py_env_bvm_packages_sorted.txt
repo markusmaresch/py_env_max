@@ -60,8 +60,10 @@ pure-eval
 pyarrow
 pyasn1
 pycodestyle
+pycparser
 pyflakes
 pygments
+pylucidio
 pyparsing
 pyrsistent
 pyserial
@@ -96,6 +98,7 @@ arena-api
 asttokens
 beautifulsoup4
 bleach
+cffi
 comm
 contourpy
 deprecated
@@ -133,6 +136,7 @@ shapely
 tifffile
 tinycss2
 werkzeug
+clr-loader
 flask
 google-auth
 grpcio-status
@@ -144,6 +148,7 @@ pandas
 scikit-image
 scikit-learn
 stack-data
+xgboost
 yarg
 braincube-connector
 cylinder-fitting
@@ -152,12 +157,14 @@ google-api-core
 ipython
 jsonschema
 opentelemetry-semantic-conventions
+pythonnet
 scikit-spatial
 google-cloud-core
 ipykernel
 ipywidgets
 nbformat
 opentelemetry-instrumentation
+piconnect
 py-cylinder-fitting
 pyoints
 google-cloud-bigquery

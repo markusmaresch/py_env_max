@@ -1,4 +1,4 @@
-# 2024-11-26T15:38:11.498565+00:00
+# 2025-05-07T07:35:13.826113+00:00
 # Level 1
 pip install "ansi2html>=1.9.2"
 pip install "attrs>=24.2.0"
@@ -63,7 +63,7 @@ pip install "pandocfilters>=1.5.1"
 pip install "parso>=0.8.4"
 pip install "pickleshare>=0.7.5"
 pip install "pillow>=11.0.0"
-pip install "pip>=24.3.1"
+pip install "pip>=25.1.1"
 pip install "platformdirs>=4.3.6"
 pip install "pluggy>=1.5.0"
 pip install "polars>=1.15.0"
@@ -75,11 +75,13 @@ pip install "pure-eval>=0.2.3"
 pip install "pyarrow>=18.1.0"
 pip install "pyasn1>=0.6.1"
 pip install "pycodestyle>=2.12.1"
+pip install "pycparser>=2.22"
 pip install "pyflakes>=3.2.0"
 pip install "pygments>=2.18.0"
+pip install "pylucidio>=2.4"
+pip check
 pip install "pyparsing>=3.2.0"
 pip install "pyrsistent>=0.20.0"
-pip check
 pip install "pyserial>=3.5"
 pip install "pytz>=2024.2"
 pip install "pyzbar>=0.1.9"

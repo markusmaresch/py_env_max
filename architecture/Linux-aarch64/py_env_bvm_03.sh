@@ -1,7 +1,8 @@
-# 2024-11-26T15:38:11.498565+00:00
+# 2025-05-07T07:35:13.826113+00:00
 # Level 3
-pip install "flask>=3.0.3"
+pip install "clr-loader>=0.2.7.post0"
 pip check
+pip install "flask>=3.0.3"
 pip install "google-auth>=2.36.0"
 pip install "grpcio-status>=1.68.0"
 pip check
@@ -16,6 +17,7 @@ pip install "scikit-image>=0.24.0"
 pip install "scikit-learn>=1.5.2"
 pip install "stack-data>=0.6.3"
 pip check
+pip install "xgboost>=3.0.0"
 pip install "yarg>=0.1.9"
 pip check
 # Level 3

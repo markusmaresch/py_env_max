@@ -1,4 +1,4 @@
-# 2024-11-26T15:38:11.498565+00:00
+# 2025-05-07T07:35:13.826113+00:00
 # Level 2
 pip install "arena-api>=2.5.9"
 pip install "asttokens>=2.4.1"
@@ -6,6 +6,7 @@ pip check
 pip install "beautifulsoup4>=4.12.3"
 pip install "bleach>=6.2.0"
 pip check
+pip install "cffi>=1.17.1"
 pip install "comm>=0.2.2"
 pip install "contourpy>=1.3.1"
 pip check

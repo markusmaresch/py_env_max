@@ -10,8 +10,10 @@ blinker
 braincube-connector
 cachetools
 certifi
+cffi
 charset-normalizer
 click
+clr-loader
 colorama
 comm
 compress-pickle
@@ -97,6 +99,7 @@ pandocfilters
 parso
 pexpect
 pickleshare
+piconnect
 pillow
 pip
 pipreqs
@@ -116,14 +119,17 @@ pyarrow
 pyasn1
 pyasn1-modules
 pycodestyle
+pycparser
 pyflakes
 pygments
+pylucidio
 pyoints
 pyparsing
 pyrsistent
 pyserial
 pytest
 python-dateutil
+pythonnet
 pytz
 pyzbar
 pyzmq
@@ -161,6 +167,7 @@ wheel
 widgetsnbextension
 wincertstore
 wrapt
+xgboost
 xlsxwriter
 yarg
 yoctopuce
