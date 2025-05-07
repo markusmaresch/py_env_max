@@ -1,0 +1,1062 @@
+flowchart TD
+    classDef missing stroke-dasharray: 5
+    aiohappyeyeballs["aiohappyeyeballs\n2.4.3"]
+    aiohttp["aiohttp\n3.11.8"]
+    aiosignal["aiosignal\n1.3.1"]
+    aisuite["aisuite\n0.1.6"]
+    albucore["albucore\n0.0.20"]
+    albumentations["albumentations\n1.4.21"]
+    altair["altair\n5.5.0"]
+    annotated-types["annotated-types\n0.7.0"]
+    anthropic["anthropic\n0.40.0"]
+    anyio["anyio\n4.6.1"]
+    arena-api["arena-api\n2.5.9"]
+    argon2-cffi-bindings["argon2-cffi-bindings\n21.2.0"]
+    argon2-cffi["argon2-cffi\n23.1.0"]
+    arrow["arrow\n1.3.0"]
+    asttokens["asttokens\n2.4.1"]
+    async-lru["async-lru\n2.0.4"]
+    attrs["attrs\n24.2.0"]
+    babel["babel\n2.16.0"]
+    beautifulsoup4["beautifulsoup4\n4.12.3"]
+    bleach["bleach\n6.2.0"]
+    blinker["blinker\n1.9.0"]
+    braincube-connector["braincube-connector\n2.6.0"]
+    cachetools["cachetools\n5.5.0"]
+    certifi["certifi\n2024.8.30"]
+    cffi["cffi\n1.17.1"]
+    charset-normalizer["charset-normalizer\n3.4.0"]
+    click-default-group["click-default-group\n1.2.4"]
+    click_0["click\n8.1.7"]
+    colorama["colorama\n0.4.6"]
+    comm["comm\n0.2.2"]
+    contourpy["contourpy\n1.3.1"]
+    cycler["cycler\n0.12.1"]
+    cython["Cython\n3.0.11"]
+    dataclasses-json["dataclasses-json\n0.6.7"]
+    db-dtypes["db-dtypes\n1.3.1"]
+    debugpy["debugpy\n1.8.9"]
+    decorator["decorator\n5.1.1"]
+    defusedxml["defusedxml\n0.7.1"]
+    deprecated["Deprecated\n1.2.15"]
+    dirtyjson["dirtyjson\n1.0.8"]
+    diskcache["diskcache\n5.6.3"]
+    distro["distro\n1.9.0"]
+    dnspython["dnspython\n2.7.0"]
+    docstring-parser["docstring_parser\n0.16"]
+    docutils["docutils\n0.21.2"]
+    durationpy["durationpy\n0.9"]
+    email-validator["email_validator\n2.2.0"]
+    eval-type-backport["eval_type_backport\n0.2.0"]
+    executing["executing\n2.1.0"]
+    fastjsonschema["fastjsonschema\n2.21.0"]
+    filelock["filelock\n3.16.1"]
+    filetype["filetype\n1.2.0"]
+    flake8["flake8\n7.1.1"]
+    flask["Flask\n3.1.0"]
+    fonttools["fonttools\n4.55.0"]
+    fpdf2["fpdf2\n2.8.1"]
+    fqdn["fqdn\n1.5.1"]
+    frozenlist["frozenlist\n1.5.0"]
+    fsspec["fsspec\n2024.10.0"]
+    gitdb["gitdb\n4.0.11"]
+    gitpython["GitPython\n3.1.43"]
+    google-api-core["google-api-core\n2.23.0"]
+    google-api-python-client["google-api-python-client\n2.135.0"]
+    google-auth-httplib2["google-auth-httplib2\n0.2.0"]
+    google-auth-oauthlib["google-auth-oauthlib\n1.2.1"]
+    google-auth["google-auth\n2.36.0"]
+    google-cloud-aiplatform["google-cloud-aiplatform\n1.73.0"]
+    google-cloud-bigquery["google-cloud-bigquery\n3.27.0"]
+    google-cloud-compute["google-cloud-compute\n1.22.0"]
+    google-cloud-core["google-cloud-core\n2.4.1"]
+    google-cloud-pipeline-components["google-cloud-pipeline-components\n2.17.0"]
+    google-cloud-resource-manager["google-cloud-resource-manager\n1.13.1"]
+    google-cloud-secret-manager["google-cloud-secret-manager\n2.21.1"]
+    google-cloud-storage["google-cloud-storage\n2.18.2"]
+    google-cloud-vision["google-cloud-vision\n3.8.1"]
+    google-crc32c["google-crc32c\n1.6.0"]
+    google-resumable-media["google-resumable-media\n2.7.2"]
+    googleapis-common-protos["googleapis-common-protos\n1.66.0"]
+    greenlet["greenlet\n3.1.1"]
+    grpc-google-iam-v1["grpc-google-iam-v1\n0.13.1"]
+    grpcio-status["grpcio-status\n1.62.3"]
+    grpcio["grpcio\n1.68.0"]
+    h11["h11\n0.14.0"]
+    h5py["h5py\n3.12.1"]
+    httpcore["httpcore\n1.0.5"]
+    httplib2["httplib2\n0.22.0"]
+    httpx-sse["httpx-sse\n0.4.0"]
+    httpx["httpx\n0.27.2"]
+    huggingface-hub["huggingface-hub\n0.26.3"]
+    idna["idna\n3.10"]
+    imageio["imageio\n2.36.1"]
+    importlib-metadata["importlib_metadata\n8.4.0"]
+    importlib-resources["importlib_resources\n6.4.5"]
+    imutils["imutils\n0.5.4"]
+    iniconfig["iniconfig\n2.0.0"]
+    intel-cmplr-lib-ur["intel-cmplr-lib-ur\n2025.0.2"]
+    intel-openmp["intel-openmp\n2025.0.2"]
+    ipykernel["ipykernel\n6.29.5"]
+    ipython-genutils["ipython-genutils\n0.2.0"]
+    ipython["ipython\n8.29.0"]
+    isoduration["isoduration\n20.11.0"]
+    itsdangerous["itsdangerous\n2.2.0"]
+    jax["jax\n0.4.35"]
+    jaxlib["jaxlib\n0.4.35"]
+    jedi["jedi\n0.19.2"]
+    jinja2["Jinja2\n3.1.4"]
+    jiter["jiter\n0.8.0"]
+    joblib["joblib\n1.4.2"]
+    json-numpy["json-numpy\n2.1.0"]
+    json5["json5\n0.10.0"]
+    jsonpatch["jsonpatch\n1.33"]
+    jsonpointer["jsonpointer\n3.0.0"]
+    jsonschema-specifications["jsonschema-specifications\n2024.10.1"]
+    jsonschema["jsonschema\n4.23.0"]
+    jupyter-client["jupyter_client\n8.6.3"]
+    jupyter-contrib-core["jupyter_contrib_core\n0.4.2"]
+    jupyter-contrib-nbextensions["jupyter_contrib_nbextensions\n0.7.0"]
+    jupyter-core["jupyter_core\n5.7.2"]
+    jupyter-events["jupyter-events\n0.10.0"]
+    jupyter-highlight-selected-word["jupyter-highlight-selected-word\n0.2.0"]
+    jupyter-lsp["jupyter-lsp\n2.2.5"]
+    jupyter-nbextensions-configurator["jupyter_nbextensions_configurator\n0.6.4"]
+    jupyter-server-terminals["jupyter_server_terminals\n0.5.3"]
+    jupyter-server["jupyter_server\n2.14.2"]
+    jupyterlab-pygments["jupyterlab_pygments\n0.3.0"]
+    jupyterlab-server["jupyterlab_server\n2.27.3"]
+    jupyterlab["jupyterlab\n4.2.6"]
+    kfp-pipeline-spec["kfp-pipeline-spec\n0.3.0"]
+    kfp-server-api["kfp-server-api\n2.0.5"]
+    kfp["kfp\n2.7.0"]
+    kiwisolver["kiwisolver\n1.4.7"]
+    kubernetes["kubernetes\n26.1.0"]
+    langchain-community["langchain-community\n0.0.38"]
+    langchain-core["langchain-core\n0.1.52"]
+    langchain-openai["langchain-openai\n0.1.6"]
+    langchain-text-splitters["langchain-text-splitters\n0.0.2"]
+    langchain["langchain\n0.1.20"]
+    langsmith["langsmith\n0.1.129"]
+    lazy-loader["lazy_loader\n0.4"]
+    lightning-utilities["lightning-utilities\n0.11.9"]
+    lightning["lightning\n2.4.0"]
+    llama-cloud["llama-cloud\n0.1.5"]
+    llama-cpp-python["llama_cpp_python\n0.3.2"]
+    llama-index-agent-openai["llama-index-agent-openai\n0.3.4"]
+    llama-index-cli["llama-index-cli\n0.3.1"]
+    llama-index-core["llama-index-core\n0.11.23"]
+    llama-index-embeddings-openai["llama-index-embeddings-openai\n0.2.5"]
+    llama-index-indices-managed-llama-cloud["llama-index-indices-managed-llama-cloud\n0.6.0"]
+    llama-index-legacy["llama-index-legacy\n0.9.48.post3"]
+    llama-index-llms-ollama["llama-index-llms-ollama\n0.3.6"]
+    llama-index-llms-openai["llama-index-llms-openai\n0.2.16"]
+    llama-index-multi-modal-llms-openai["llama-index-multi-modal-llms-openai\n0.2.3"]
+    llama-index-program-openai["llama-index-program-openai\n0.2.0"]
+    llama-index-question-gen-openai["llama-index-question-gen-openai\n0.2.0"]
+    llama-index-readers-file["llama-index-readers-file\n0.3.0"]
+    llama-index-readers-llama-parse["llama-index-readers-llama-parse\n0.3.0"]
+    llama-index["llama-index\n0.11.23"]
+    llama-parse["llama-parse\n0.5.15"]
+    llamaindex-py-client["llamaindex-py-client\n0.1.19"]
+    llm-claude-3["llm-claude-3\n0.9"]
+    llm["llm\n0.18"]
+    llvmlite["llvmlite\n0.43.0"]
+    lmdb["lmdb\n1.5.1"]
+    lxml["lxml\n5.3.0"]
+    markdown-it-py["markdown-it-py\n3.0.0"]
+    markdown["Markdown\n3.7"]
+    markupsafe["MarkupSafe\n3.0.2"]
+    marshmallow["marshmallow\n3.23.1"]
+    matplotlib-inline["matplotlib-inline\n0.1.7"]
+    matplotlib["matplotlib\n3.9.2"]
+    mccabe["mccabe\n0.7.0"]
+    mdurl["mdurl\n0.1.2"]
+    mistune["mistune\n3.0.2"]
+    mkl["mkl\n2025.0.1"]
+    ml-dtypes["ml_dtypes\n0.5.0"]
+    mpmath["mpmath\n1.3.0"]
+    multidict["multidict\n6.1.0"]
+    mypy-extensions["mypy-extensions\n1.0.0"]
+    narwhals["narwhals\n1.14.3"]
+    nbclient["nbclient\n0.10.0"]
+    nbconvert["nbconvert\n7.16.4"]
+    nbformat["nbformat\n5.10.4"]
+    nest-asyncio["nest-asyncio\n1.6.0"]
+    networkx["networkx\n3.4.2"]
+    nltk["nltk\n3.9.1"]
+    notebook-shim["notebook_shim\n0.2.4"]
+    notebook["notebook\n7.2.2"]
+    numba["numba\n0.60.0"]
+    numpy["numpy\n1.26.4"]
+    oauthlib["oauthlib\n3.2.2"]
+    ollama["ollama\n0.4.1"]
+    openai["openai\n1.55.3"]
+    opencv-contrib-python["opencv-contrib-python\n4.10.0.84"]
+    opencv-python-headless["opencv-python-headless\n4.10.0.84"]
+    opencv-python["opencv-python\n4.10.0.84"]
+    openinference-instrumentation-langchain["openinference-instrumentation-langchain\n0.1.29"]
+    openinference-instrumentation-llama-index["openinference-instrumentation-llama-index\n3.0.4"]
+    openinference-instrumentation-openai["openinference-instrumentation-openai\n0.1.18"]
+    openinference-instrumentation["openinference-instrumentation\n0.1.18"]
+    openinference-semantic-conventions["openinference-semantic-conventions\n0.1.12"]
+    opentelemetry-api["opentelemetry-api\n1.27.0"]
+    opentelemetry-exporter-otlp-proto-common["opentelemetry-exporter-otlp-proto-common\n1.27.0"]
+    opentelemetry-exporter-otlp-proto-grpc["opentelemetry-exporter-otlp-proto-grpc\n1.27.0"]
+    opentelemetry-exporter-otlp-proto-http["opentelemetry-exporter-otlp-proto-http\n1.27.0"]
+    opentelemetry-exporter-otlp["opentelemetry-exporter-otlp\n1.27.0"]
+    opentelemetry-instrumentation["opentelemetry-instrumentation\n0.48b0"]
+    opentelemetry-proto["opentelemetry-proto\n1.27.0"]
+    opentelemetry-sdk["opentelemetry-sdk\n1.27.0"]
+    opentelemetry-semantic-conventions["opentelemetry-semantic-conventions\n0.48b0"]
+    opt-einsum["opt_einsum\n3.4.0"]
+    orjson["orjson\n3.10.12"]
+    overrides["overrides\n7.7.0"]
+    packaging["packaging\n23.2"]
+    pandas-gbq["pandas-gbq\n0.24.0"]
+    pandas["pandas\n2.2.3"]
+    pandocfilters["pandocfilters\n1.5.1"]
+    parso["parso\n0.8.4"]
+    persist-queue["persist-queue\n1.0.0"]
+    pillow["pillow\n11.0.0"]
+    pip["pip\n24.3.1"]
+    pipdeptree["pipdeptree\n2.21.0"]
+    platformdirs["platformdirs\n4.3.6"]
+    pluggy["pluggy\n1.5.0"]
+    plyfile["plyfile\n1.1"]
+    prometheus-client["prometheus_client\n0.21.0"]
+    prompt-toolkit["prompt_toolkit\n3.0.48"]
+    propcache["propcache\n0.2.0"]
+    proto-plus["proto-plus\n1.25.0"]
+    protobuf["protobuf\n4.25.5"]
+    psutil["psutil\n6.1.0"]
+    pure-eval["pure_eval\n0.2.3"]
+    puremagic["puremagic\n1.28"]
+    pyarrow["pyarrow\n18.1.0"]
+    pyasn1-modules["pyasn1_modules\n0.4.1"]
+    pyasn1["pyasn1\n0.6.1"]
+    pycodestyle["pycodestyle\n2.12.1"]
+    pycparser["pycparser\n2.22"]
+    pydantic-core["pydantic_core\n2.27.1"]
+    pydantic-settings["pydantic-settings\n2.6.1"]
+    pydantic["pydantic\n2.10.2"]
+    pydata-google-auth["pydata-google-auth\n1.9.0"]
+    pydeck["pydeck\n0.9.1"]
+    pyflakes["pyflakes\n3.2.0"]
+    pygments["Pygments\n2.18.0"]
+    pylucidio["pyLucidIo\n2.4"]
+    pyparsing["pyparsing\n3.2.0"]
+    pypdf["pypdf\n5.1.0"]
+    pyqtree["Pyqtree\n1.0.0"]
+    pyreadline3["pyreadline3\n3.5.4"]
+    pyserial["pyserial\n3.5"]
+    pytest["pytest\n8.3.3"]
+    python-dateutil["python-dateutil\n2.9.0.post0"]
+    python-dotenv["python-dotenv\n1.0.1"]
+    python-json-logger["python-json-logger\n2.0.7"]
+    python-ulid["python-ulid\n3.0.0"]
+    pytorch-lightning["pytorch-lightning\n2.4.0"]
+    pytz["pytz\n2024.2"]
+    pywin32["pywin32\n308"]
+    pywinpty["pywinpty\n2.0.14"]
+    pyyaml["PyYAML\n6.0.2"]
+    pyzbar["pyzbar\n0.1.9"]
+    pyzmq["pyzmq\n26.2.0"]
+    qrcode["qrcode\n8.0"]
+    referencing["referencing\n0.35.1"]
+    regex["regex\n2024.11.6"]
+    requests-oauthlib["requests-oauthlib\n2.0.0"]
+    requests-toolbelt["requests-toolbelt\n0.10.1"]
+    requests["requests\n2.32.3"]
+    rfc3339-validator["rfc3339-validator\n0.1.4"]
+    rfc3986-validator["rfc3986-validator\n0.1.1"]
+    rich["rich\n13.9.4"]
+    rpds-py["rpds-py\n0.21.0"]
+    rsa["rsa\n4.9"]
+    ruff["ruff\n0.8.0"]
+    scikit-image["scikit-image\n0.24.0"]
+    scipy["scipy\n1.14.1"]
+    segment-anything["segment-anything\n1.0"]
+    send2trash["Send2Trash\n1.8.3"]
+    setuptools["setuptools\n75.6.0"]
+    shapely["shapely\n2.0.6"]
+    simsimd["simsimd\n6.2.1"]
+    six["six\n1.16.0"]
+    smmap["smmap\n5.0.1"]
+    snakeviz["snakeviz\n2.2.2"]
+    sniffio["sniffio\n1.3.1"]
+    soupsieve["soupsieve\n2.6"]
+    sqlalchemy["SQLAlchemy\n2.0.36"]
+    sqlite-fts4["sqlite-fts4\n1.0.3"]
+    sqlite-migrate["sqlite-migrate\n0.1b0"]
+    sqlite-utils["sqlite-utils\n3.38"]
+    stack-data["stack-data\n0.6.3"]
+    streamlit["streamlit\n1.40.2"]
+    stringzilla["stringzilla\n3.10.10"]
+    striprtf["striprtf\n0.0.26"]
+    sympy["sympy\n1.13.3"]
+    tabulate["tabulate\n0.9.0"]
+    tbb["tbb\n2022.0.0"]
+    tcmlib["tcmlib\n1.2.0"]
+    tenacity["tenacity\n8.5.0"]
+    terminado["terminado\n0.18.1"]
+    tifffile["tifffile\n2024.9.20"]
+    tiktoken["tiktoken\n0.8.0"]
+    tinycss2["tinycss2\n1.4.0"]
+    tokenizers["tokenizers\n0.21.0"]
+    toml["toml\n0.10.2"]
+    torch["torch\n2.4.1+cu124"]
+    torchaudio["torchaudio\n2.4.1+cu124"]
+    torchmetrics["torchmetrics\n1.6.0"]
+    torchvision["torchvision\n0.19.1+cu124"]
+    tornado["tornado\n6.4.2"]
+    tqdm["tqdm\n4.67.1"]
+    traitlets["traitlets\n5.14.3"]
+    types-python-dateutil["types-python-dateutil\n2.9.0.20241003"]
+    typing-extensions["typing_extensions\n4.12.2"]
+    typing-inspect["typing-inspect\n0.9.0"]
+    tzdata["tzdata\n2024.2"]
+    umf["umf\n0.9.0"]
+    uri-template["uri-template\n1.3.0"]
+    uritemplate["uritemplate\n4.1.1"]
+    urllib3["urllib3\n1.26.19"]
+    watchdog["watchdog\n6.0.0"]
+    wcwidth["wcwidth\n0.2.13"]
+    webcolors["webcolors\n24.11.1"]
+    webencodings["webencodings\n0.5.1"]
+    websocket-client["websocket-client\n1.8.0"]
+    werkzeug["Werkzeug\n3.1.3"]
+    wheel["wheel\n0.45.1"]
+    wrapt["wrapt\n1.17.0"]
+    xlsxwriter["XlsxWriter\n3.2.0"]
+    yarl["yarl\n1.18.0"]
+    yoctopuce["yoctopuce\n2.0.62875"]
+    zipp["zipp\n3.21.0"]
+    aiohttp -- ">=0.2.0" --> propcache
+    aiohttp -- ">=1.1.1" --> frozenlist
+    aiohttp -- ">=1.1.2" --> aiosignal
+    aiohttp -- ">=1.17.0,<2.0" --> yarl
+    aiohttp -- ">=17.3.0" --> attrs
+    aiohttp -- ">=2.3.0" --> aiohappyeyeballs
+    aiohttp -- ">=4.5,<7.0" --> multidict
+    aiosignal -- ">=1.1.0" --> frozenlist
+    albucore -- ">=1.24.4" --> numpy
+    albucore -- ">=3.10.4" --> stringzilla
+    albucore -- ">=4.9.0.80" --> opencv-python-headless
+    albucore -- ">=5.9.2" --> simsimd
+    albumentations -- "==0.0.20" --> albucore
+    albumentations -- ">=1.10.0" --> scipy
+    albumentations -- ">=1.24.4" --> numpy
+    albumentations -- ">=2.7.0" --> pydantic
+    albumentations -- ">=4.9.0.80" --> opencv-python-headless
+    albumentations -- "any" --> eval-type-backport
+    albumentations -- "any" --> pyyaml
+    altair -- ">=1.14.2" --> narwhals
+    altair -- ">=3.0" --> jsonschema
+    altair -- ">=4.10.0" --> typing-extensions
+    altair -- "any" --> jinja2
+    altair -- "any" --> packaging
+    anthropic -- ">=0.23.0,<1" --> httpx
+    anthropic -- ">=0.4.0,<1" --> jiter
+    anthropic -- ">=1.7.0,<2" --> distro
+    anthropic -- ">=1.9.0,<3" --> pydantic
+    anthropic -- ">=3.5.0,<5" --> anyio
+    anthropic -- ">=4.7,<5" --> typing-extensions
+    anthropic -- "any" --> sniffio
+    anyio -- ">=1.1" --> sniffio
+    anyio -- ">=2.8" --> idna
+    arena-api -- ">=1.19.4" --> numpy
+    arena-api -- ">=224" --> pywin32
+    argon2-cffi -- "any" --> argon2-cffi-bindings
+    argon2-cffi-bindings -- ">=1.0.1" --> cffi
+    arrow -- ">=2.7.0" --> python-dateutil
+    arrow -- ">=2.8.10" --> types-python-dateutil
+    asttokens -- ">=1.12.0" --> six
+    beautifulsoup4 -- ">1.2" --> soupsieve
+    bleach -- "any" --> webencodings
+    braincube-connector -- ">=2.1.1,<3.0.0" --> pandas
+    braincube-connector -- ">=2.23.0,<3.0.0" --> requests
+    cffi -- "any" --> pycparser
+    click-default-group -- "any" --> click_0
+    click_0 -- "any" --> colorama
+    comm -- ">=4" --> traitlets
+    contourpy -- ">=1.23" --> numpy
+    dataclasses-json -- ">=0.4.0,<1" --> typing-inspect
+    dataclasses-json -- ">=3.18.0,<4.0.0" --> marshmallow
+    db-dtypes -- ">=0.24.2" --> pandas
+    db-dtypes -- ">=1.16.6" --> numpy
+    db-dtypes -- ">=17.0" --> packaging
+    db-dtypes -- ">=3.0.0" --> pyarrow
+    deprecated -- ">=1.10,<2" --> wrapt
+    email-validator -- ">=2.0.0" --> dnspython
+    email-validator -- ">=2.0.0" --> idna
+    flake8 -- ">=0.7.0,<0.8.0" --> mccabe
+    flake8 -- ">=2.12.0,<2.13.0" --> pycodestyle
+    flake8 -- ">=3.2.0,<3.3.0" --> pyflakes
+    flask -- ">=1.9" --> blinker
+    flask -- ">=2.2" --> itsdangerous
+    flask -- ">=3.1" --> werkzeug
+    flask -- ">=3.1.2" --> jinja2
+    flask -- ">=8.1.3" --> click_0
+    fpdf2 -- ">=4.34.0" --> fonttools
+    fpdf2 -- ">=6.2.2,!=9.2.*" --> pillow
+    fpdf2 -- "any" --> defusedxml
+    gitdb -- ">=3.0.1,<6" --> smmap
+    gitpython -- ">=4.0.1,<5" --> gitdb
+    google-api-core -- ">=1.22.3,<2.0.0dev" --> proto-plus
+    google-api-core -- ">=1.56.2,<2.0.dev0" --> googleapis-common-protos
+    google-api-core -- ">=2.14.1,<3.0.dev0" --> google-auth
+    google-api-core -- ">=2.18.0,<3.0.0.dev0" --> requests
+    google-api-core -- ">=3.19.5,<6.0.0.dev0,!=4.21.5,!=4.21.4,!=4.21.3,!=4.21.2,!=4.21.1,!=4.21.0,!=3.20.1,!=3.20.0" --> protobuf
+    google-api-python-client -- ">=0.19.0,<1.dev0" --> httplib2
+    google-api-python-client -- ">=0.2.0,<1.0.0" --> google-auth-httplib2
+    google-api-python-client -- ">=1.31.5,<3.0.0.dev0,!=2.3.0,!=2.2.*,!=2.1.*,!=2.0.*" --> google-api-core
+    google-api-python-client -- ">=1.32.0,<3.0.0.dev0,!=2.25.0,!=2.24.0" --> google-auth
+    google-api-python-client -- ">=3.0.1,<5" --> uritemplate
+    google-auth -- ">=0.2.1" --> pyasn1-modules
+    google-auth -- ">=2.0.0,<6.0" --> cachetools
+    google-auth -- ">=3.1.4,<5" --> rsa
+    google-auth-httplib2 -- ">=0.19.0" --> httplib2
+    google-auth-httplib2 -- "any" --> google-auth
+    google-auth-oauthlib -- ">=0.7.0" --> requests-oauthlib
+    google-auth-oauthlib -- ">=2.15.0" --> google-auth
+    google-cloud-aiplatform -- "<1" --> docstring-parser
+    google-cloud-aiplatform -- "<3" --> pydantic
+    google-cloud-aiplatform -- "<3.0.0dev" --> shapely
+    google-cloud-aiplatform -- ">=1.15.0,<4.0.0dev,!=3.20.0" --> google-cloud-bigquery
+    google-cloud-aiplatform -- ">=1.22.3,<2.0.0dev" --> proto-plus
+    google-cloud-aiplatform -- ">=1.3.3,<3.0.0dev" --> google-cloud-resource-manager
+    google-cloud-aiplatform -- ">=1.32.0,<3.0.0dev" --> google-cloud-storage
+    google-cloud-aiplatform -- ">=1.34.1,<3.0.0dev,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.1.*,!=2.0.*" --> google-api-core
+    google-cloud-aiplatform -- ">=14.3" --> packaging
+    google-cloud-aiplatform -- ">=2.14.1,<3.0.0dev" --> google-auth
+    google-cloud-aiplatform -- ">=3.20.2,<6.0.0dev,!=4.21.5,!=4.21.4,!=4.21.3,!=4.21.2,!=4.21.1,!=4.21.0" --> protobuf
+    google-cloud-bigquery -- ">=2.0.0,<3.0dev" --> google-resumable-media
+    google-cloud-bigquery -- ">=2.11.1,<3.0.0dev" --> google-api-core
+    google-cloud-bigquery -- ">=2.14.1,<3.0.0dev" --> google-auth
+    google-cloud-bigquery -- ">=2.21.0,<3.0.0dev" --> requests
+    google-cloud-bigquery -- ">=2.4.1,<3.0.0dev" --> google-cloud-core
+    google-cloud-bigquery -- ">=2.7.3,<3.0dev" --> python-dateutil
+    google-cloud-bigquery -- ">=20.0.0" --> packaging
+    google-cloud-compute -- ">=1.22.3,<2.0.0dev" --> proto-plus
+    google-cloud-compute -- ">=1.34.1,<3.0.0dev,!=2.9.*,!=2.8.*,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.10.*,!=2.1.*,!=2.0.*" --> google-api-core
+    google-cloud-compute -- ">=2.14.1,<3.0.0dev,!=2.25.0,!=2.24.0" --> google-auth
+    google-cloud-compute -- ">=3.20.2,<6.0.0dev,!=4.21.5,!=4.21.4,!=4.21.3,!=4.21.2,!=4.21.1,!=4.21.0" --> protobuf
+    google-cloud-core -- ">=1.25.0,<3.0dev" --> google-auth
+    google-cloud-core -- ">=1.31.6,<3.0.0dev,!=2.3.0,!=2.2.*,!=2.1.*,!=2.0.*" --> google-api-core
+    google-cloud-pipeline-components -- ">=1.14.0,<2" --> google-cloud-aiplatform
+    google-cloud-pipeline-components -- ">=1.31.5,<3.0.0dev,!=2.3.0,!=2.2.*,!=2.1.*,!=2.0.*" --> google-api-core
+    google-cloud-pipeline-components -- ">=2.6.0,<=2.7.0" --> kfp
+    google-cloud-pipeline-components -- ">=3.1.2,<4" --> jinja2
+    google-cloud-resource-manager -- ">=0.12.4,<1.0.0dev" --> grpc-google-iam-v1
+    google-cloud-resource-manager -- ">=1.22.3,<2.0.0dev" --> proto-plus
+    google-cloud-resource-manager -- ">=1.34.1,<3.0.0dev,!=2.9.*,!=2.8.*,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.10.*,!=2.1.*,!=2.0.*" --> google-api-core
+    google-cloud-resource-manager -- ">=2.14.1,<3.0.0dev,!=2.25.0,!=2.24.0" --> google-auth
+    google-cloud-resource-manager -- ">=3.20.2,<6.0.0dev,!=4.21.5,!=4.21.4,!=4.21.3,!=4.21.2,!=4.21.1,!=4.21.0" --> protobuf
+    google-cloud-secret-manager -- ">=0.12.4,<1.0.0dev" --> grpc-google-iam-v1
+    google-cloud-secret-manager -- ">=1.22.3,<2.0.0dev" --> proto-plus
+    google-cloud-secret-manager -- ">=1.34.1,<3.0.0dev,!=2.9.*,!=2.8.*,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.10.*,!=2.1.*,!=2.0.*" --> google-api-core
+    google-cloud-secret-manager -- ">=2.14.1,<3.0.0dev,!=2.25.0,!=2.24.0" --> google-auth
+    google-cloud-secret-manager -- ">=3.20.2,<6.0.0dev,!=4.21.5,!=4.21.4,!=4.21.3,!=4.21.2,!=4.21.1,!=4.21.0" --> protobuf
+    google-cloud-storage -- ">=1.0,<2.0dev" --> google-crc32c
+    google-cloud-storage -- ">=2.15.0,<3.0.0dev" --> google-api-core
+    google-cloud-storage -- ">=2.18.0,<3.0.0dev" --> requests
+    google-cloud-storage -- ">=2.26.1,<3.0dev" --> google-auth
+    google-cloud-storage -- ">=2.3.0,<3.0dev" --> google-cloud-core
+    google-cloud-storage -- ">=2.7.2" --> google-resumable-media
+    google-cloud-vision -- ">=1.22.3,<2.0.0dev" --> proto-plus
+    google-cloud-vision -- ">=1.34.1,<3.0.0dev,!=2.9.*,!=2.8.*,!=2.7.*,!=2.6.*,!=2.5.*,!=2.4.*,!=2.3.*,!=2.2.*,!=2.10.*,!=2.1.*,!=2.0.*" --> google-api-core
+    google-cloud-vision -- ">=2.14.1,<3.0.0dev,!=2.25.0,!=2.24.0" --> google-auth
+    google-cloud-vision -- ">=3.20.2,<6.0.0dev,!=4.21.5,!=4.21.4,!=4.21.3,!=4.21.2,!=4.21.1,!=4.21.0" --> protobuf
+    google-resumable-media -- ">=1.0,<2.0dev" --> google-crc32c
+    googleapis-common-protos -- ">=3.20.2,<6.0.0.dev0,!=4.21.5,!=4.21.4,!=4.21.3,!=4.21.2,!=4.21.1,!=3.20.1,!=3.20.0" --> protobuf
+    grpc-google-iam-v1 -- ">=1.44.0,<2.0.0dev" --> grpcio
+    grpc-google-iam-v1 -- ">=1.56.0,<2.0.0dev" --> googleapis-common-protos
+    grpc-google-iam-v1 -- ">=3.20.2,<6.0.0dev,!=4.21.5,!=4.21.4,!=4.21.3,!=4.21.2,!=4.21.1" --> protobuf
+    grpcio-status -- ">=1.5.5" --> googleapis-common-protos
+    grpcio-status -- ">=1.62.3" --> grpcio
+    grpcio-status -- ">=4.21.6" --> protobuf
+    h5py -- ">=1.19.3" --> numpy
+    httpcore -- ">=0.13,<0.15" --> h11
+    httpcore -- "any" --> certifi
+    httplib2 -- ">=2.4.2,<4,!=3.0.3,!=3.0.2,!=3.0.1,!=3.0.0" --> pyparsing
+    httpx -- "==1.*" --> httpcore
+    httpx -- "any" --> anyio
+    httpx -- "any" --> certifi
+    httpx -- "any" --> idna
+    httpx -- "any" --> sniffio
+    huggingface-hub -- ">=20.9" --> packaging
+    huggingface-hub -- ">=2023.5.0" --> fsspec
+    huggingface-hub -- ">=3.7.4.3" --> typing-extensions
+    huggingface-hub -- ">=4.42.1" --> tqdm
+    huggingface-hub -- ">=5.1" --> pyyaml
+    huggingface-hub -- "any" --> filelock
+    huggingface-hub -- "any" --> requests
+    imageio -- ">=8.3.2" --> pillow
+    imageio -- "any" --> numpy
+    importlib-metadata -- ">=0.5" --> zipp
+    intel-cmplr-lib-ur -- "==0.9.*" --> umf
+    intel-openmp -- "==2025.0.2" --> intel-cmplr-lib-ur
+    ipykernel -- ">=0.1" --> matplotlib-inline
+    ipykernel -- ">=0.1.1" --> comm
+    ipykernel -- ">=1.6.5" --> debugpy
+    ipykernel -- ">=24" --> pyzmq
+    ipykernel -- ">=4.12,!=5.0.*" --> jupyter-core
+    ipykernel -- ">=5.4.0" --> traitlets
+    ipykernel -- ">=6.1" --> tornado
+    ipykernel -- ">=6.1.12" --> jupyter-client
+    ipykernel -- ">=7.23.1" --> ipython
+    ipykernel -- "any" --> nest-asyncio
+    ipykernel -- "any" --> packaging
+    ipykernel -- "any" --> psutil
+    ipython -- ">=0.16" --> jedi
+    ipython -- ">=2.4.0" --> pygments
+    ipython -- ">=3.0.41,<3.1.0" --> prompt-toolkit
+    ipython -- ">=4.6" --> typing-extensions
+    ipython -- ">=5.13.0" --> traitlets
+    ipython -- "any" --> colorama
+    ipython -- "any" --> decorator
+    ipython -- "any" --> matplotlib-inline
+    ipython -- "any" --> stack-data
+    isoduration -- ">=0.15.0" --> arrow
+    jax -- ">=0.4.0" --> ml-dtypes
+    jax -- ">=0.4.34,<=0.4.35" --> jaxlib
+    jax -- ">=1.10" --> scipy
+    jax -- ">=1.24" --> numpy
+    jax -- "any" --> opt-einsum
+    jaxlib -- ">=0.2.0" --> ml-dtypes
+    jaxlib -- ">=1.10" --> scipy
+    jaxlib -- ">=1.24" --> numpy
+    jedi -- ">=0.8.4,<0.9.0" --> parso
+    jinja2 -- ">=2.0" --> markupsafe
+    json-numpy -- "any" --> numpy
+    jsonpatch -- ">=1.9" --> jsonpointer
+    jsonschema -- ">=0.28.4" --> referencing
+    jsonschema -- ">=0.7.1" --> rpds-py
+    jsonschema -- ">=2023.03.6" --> jsonschema-specifications
+    jsonschema -- ">=22.2.0" --> attrs
+    jsonschema-specifications -- ">=0.31.0" --> referencing
+    jupyter-client -- ">=2.8.2" --> python-dateutil
+    jupyter-client -- ">=23.0" --> pyzmq
+    jupyter-client -- ">=4.12,!=5.0.*" --> jupyter-core
+    jupyter-client -- ">=5.3" --> traitlets
+    jupyter-client -- ">=6.2" --> tornado
+    jupyter-contrib-core -- ">=4.0" --> notebook
+    jupyter-contrib-core -- "any" --> jupyter-core
+    jupyter-contrib-core -- "any" --> setuptools
+    jupyter-contrib-core -- "any" --> tornado
+    jupyter-contrib-core -- "any" --> traitlets
+    jupyter-contrib-nbextensions -- ">=0.1.1" --> jupyter-highlight-selected-word
+    jupyter-contrib-nbextensions -- ">=0.3.3" --> jupyter-contrib-core
+    jupyter-contrib-nbextensions -- ">=0.4.0" --> jupyter-nbextensions-configurator
+    jupyter-contrib-nbextensions -- ">=4.1" --> traitlets
+    jupyter-contrib-nbextensions -- ">=6.0" --> nbconvert
+    jupyter-contrib-nbextensions -- ">=6.0" --> notebook
+    jupyter-contrib-nbextensions -- "any" --> ipython-genutils
+    jupyter-contrib-nbextensions -- "any" --> jupyter-core
+    jupyter-contrib-nbextensions -- "any" --> lxml
+    jupyter-contrib-nbextensions -- "any" --> tornado
+    jupyter-core -- ">=2.5" --> platformdirs
+    jupyter-core -- ">=300" --> pywin32
+    jupyter-core -- ">=5.3" --> traitlets
+    jupyter-events -- ">=0.1.1" --> rfc3986-validator
+    jupyter-events -- ">=2.0.4" --> python-json-logger
+    jupyter-events -- ">=4.18.0" --> jsonschema
+    jupyter-events -- ">=5.3" --> pyyaml
+    jupyter-events -- ">=5.3" --> traitlets
+    jupyter-events -- "any" --> referencing
+    jupyter-events -- "any" --> rfc3339-validator
+    jupyter-lsp -- ">=1.1.2" --> jupyter-server
+    jupyter-nbextensions-configurator -- ">=0.3.3" --> jupyter-contrib-core
+    jupyter-nbextensions-configurator -- ">=6.0" --> notebook
+    jupyter-nbextensions-configurator -- "any" --> jupyter-core
+    jupyter-nbextensions-configurator -- "any" --> jupyter-server
+    jupyter-nbextensions-configurator -- "any" --> pyyaml
+    jupyter-nbextensions-configurator -- "any" --> tornado
+    jupyter-nbextensions-configurator -- "any" --> traitlets
+    jupyter-server -- ">=0.4.4" --> jupyter-server-terminals
+    jupyter-server -- ">=0.8.3" --> terminado
+    jupyter-server -- ">=0.9" --> prometheus-client
+    jupyter-server -- ">=0.9.0" --> jupyter-events
+    jupyter-server -- ">=1.7" --> websocket-client
+    jupyter-server -- ">=1.8.2" --> send2trash
+    jupyter-server -- ">=2.0.1" --> pywinpty
+    jupyter-server -- ">=21.1" --> argon2-cffi
+    jupyter-server -- ">=22.0" --> packaging
+    jupyter-server -- ">=24" --> pyzmq
+    jupyter-server -- ">=3.0.3" --> jinja2
+    jupyter-server -- ">=3.1.0" --> anyio
+    jupyter-server -- ">=4.12,!=5.0.*" --> jupyter-core
+    jupyter-server -- ">=5.0" --> overrides
+    jupyter-server -- ">=5.3.0" --> nbformat
+    jupyter-server -- ">=5.6.0" --> traitlets
+    jupyter-server -- ">=6.2.0" --> tornado
+    jupyter-server -- ">=6.4.4" --> nbconvert
+    jupyter-server -- ">=7.4.4" --> jupyter-client
+    jupyter-server-terminals -- ">=0.8.3" --> terminado
+    jupyter-server-terminals -- ">=2.0.3" --> pywinpty
+    jupyterlab -- ">=0.2" --> notebook-shim
+    jupyterlab -- ">=0.25.0" --> httpx
+    jupyterlab -- ">=1.0.0" --> async-lru
+    jupyterlab -- ">=2.0.0" --> jupyter-lsp
+    jupyterlab -- ">=2.27.1,<3" --> jupyterlab-server
+    jupyterlab -- ">=2.4.0,<3" --> jupyter-server
+    jupyterlab -- ">=3.0.3" --> jinja2
+    jupyterlab -- ">=40.1.0" --> setuptools
+    jupyterlab -- ">=6.2.0" --> tornado
+    jupyterlab -- ">=6.5.0" --> ipykernel
+    jupyterlab -- "any" --> jupyter-core
+    jupyterlab -- "any" --> packaging
+    jupyterlab -- "any" --> traitlets
+    jupyterlab-server -- ">=0.9.0" --> json5
+    jupyterlab-server -- ">=1.21,<3" --> jupyter-server
+    jupyterlab-server -- ">=2.10" --> babel
+    jupyterlab-server -- ">=2.31" --> requests
+    jupyterlab-server -- ">=21.3" --> packaging
+    jupyterlab-server -- ">=3.0.3" --> jinja2
+    jupyterlab-server -- ">=4.18.0" --> jsonschema
+    kfp -- "<2.0.0" --> urllib3
+    kfp -- "==0.3.0" --> kfp-pipeline-spec
+    kfp -- ">=0.7.3,<1" --> docstring-parser
+    kfp -- ">=0.8.0,<1" --> requests-toolbelt
+    kfp -- ">=0.8.6,<1" --> tabulate
+    kfp -- ">=1.31.5,<3.0.0dev,!=2.3.0,!=2.2.*,!=2.1.*,!=2.0.*" --> google-api-core
+    kfp -- ">=1.6.1,<3" --> google-auth
+    kfp -- ">=2.0.0,<2.1.0" --> kfp-server-api
+    kfp -- ">=2.2.1,<3" --> google-cloud-storage
+    kfp -- ">=4.21.1,<5" --> protobuf
+    kfp -- ">=5.3,<7" --> pyyaml
+    kfp -- ">=8.0.0,<27" --> kubernetes
+    kfp -- ">=8.0.0,<9" --> click_0
+    kfp-pipeline-spec -- ">=4.21.1,<5" --> protobuf
+    kfp-server-api -- ">=1.10" --> six
+    kfp-server-api -- ">=1.15" --> urllib3
+    kfp-server-api -- "any" --> certifi
+    kfp-server-api -- "any" --> python-dateutil
+    kubernetes -- ">=0.32.0,!=0.42.*,!=0.41.*,!=0.40.0" --> websocket-client
+    kubernetes -- ">=1.0.1" --> google-auth
+    kubernetes -- ">=1.24.2" --> urllib3
+    kubernetes -- ">=1.9.0" --> six
+    kubernetes -- ">=14.05.14" --> certifi
+    kubernetes -- ">=2.5.3" --> python-dateutil
+    kubernetes -- ">=21.0.0" --> setuptools
+    kubernetes -- ">=5.4.1" --> pyyaml
+    kubernetes -- "any" --> requests
+    kubernetes -- "any" --> requests-oauthlib
+    langchain -- ">=0.0.1,<0.1" --> langchain-text-splitters
+    langchain -- ">=0.0.38,<0.1" --> langchain-community
+    langchain -- ">=0.1.17,<0.2.0" --> langsmith
+    langchain -- ">=0.1.52,<0.2.0" --> langchain-core
+    langchain -- ">=0.5.7,<0.7" --> dataclasses-json
+    langchain -- ">=1,<2" --> numpy
+    langchain -- ">=1,<3" --> pydantic
+    langchain -- ">=1.4,<3" --> sqlalchemy
+    langchain -- ">=2,<3" --> requests
+    langchain -- ">=3.8.3,<4.0.0" --> aiohttp
+    langchain -- ">=5.3" --> pyyaml
+    langchain -- ">=8.1.0,<9.0.0" --> tenacity
+    langchain-community -- ">=0.1.0,<0.2.0" --> langsmith
+    langchain-community -- ">=0.1.52,<0.2.0" --> langchain-core
+    langchain-community -- ">=0.5.7,<0.7" --> dataclasses-json
+    langchain-community -- ">=1,<2" --> numpy
+    langchain-community -- ">=1.4,<3" --> sqlalchemy
+    langchain-community -- ">=2,<3" --> requests
+    langchain-community -- ">=3.8.3,<4.0.0" --> aiohttp
+    langchain-community -- ">=5.3" --> pyyaml
+    langchain-community -- ">=8.1.0,<9.0.0" --> tenacity
+    langchain-core -- ">=0.1.0,<0.2.0" --> langsmith
+    langchain-core -- ">=1,<3" --> pydantic
+    langchain-core -- ">=1.33,<2.0" --> jsonpatch
+    langchain-core -- ">=23.2,<24.0" --> packaging
+    langchain-core -- ">=5.3" --> pyyaml
+    langchain-core -- ">=8.1.0,<9.0.0" --> tenacity
+    langchain-openai -- ">=0.1.46,<0.2.0" --> langchain-core
+    langchain-openai -- ">=0.5.2,<1" --> tiktoken
+    langchain-openai -- ">=1.24.0,<2.0.0" --> openai
+    langchain-text-splitters -- ">=0.1.28,<0.3" --> langchain-core
+    langsmith -- ">=0.23.0,<1" --> httpx
+    langsmith -- ">=1,<3" --> pydantic
+    langsmith -- ">=2,<3" --> requests
+    langsmith -- ">=3.9.14,<4.0.0" --> orjson
+    lazy-loader -- "any" --> packaging
+    lightning -- ">=0.10.0,<2.0" --> lightning-utilities
+    lightning -- ">=0.7.0,<3.0" --> torchmetrics
+    lightning -- ">=2.1.0,<4.0" --> torch
+    lightning -- ">=20.0,<25.0" --> packaging
+    lightning -- ">=2022.5.0,<2026.0" --> fsspec
+    lightning -- ">=4.4.0,<6.0" --> typing-extensions
+    lightning -- ">=4.57.0,<6.0" --> tqdm
+    lightning -- ">=5.4,<8.0" --> pyyaml
+    lightning -- "any" --> pytorch-lightning
+    lightning-utilities -- ">=17.1" --> packaging
+    lightning-utilities -- "any" --> setuptools
+    lightning-utilities -- "any" --> typing-extensions
+    llama-cloud -- ">=0.20.0" --> httpx
+    llama-cloud -- ">=1.10" --> pydantic
+    llama-cpp-python -- ">=1.20.0" --> numpy
+    llama-cpp-python -- ">=2.11.3" --> jinja2
+    llama-cpp-python -- ">=4.5.0" --> typing-extensions
+    llama-cpp-python -- ">=5.6.1" --> diskcache
+    llama-index -- ">3.8.1" --> nltk
+    llama-index -- ">=0.11.23,<0.12.0" --> llama-index-core
+    llama-index -- ">=0.2.0,<0.3.0" --> llama-index-multi-modal-llms-openai
+    llama-index -- ">=0.2.0,<0.3.0" --> llama-index-program-openai
+    llama-index -- ">=0.2.0,<0.3.0" --> llama-index-question-gen-openai
+    llama-index -- ">=0.2.10,<0.3.0" --> llama-index-llms-openai
+    llama-index -- ">=0.2.4,<0.3.0" --> llama-index-embeddings-openai
+    llama-index -- ">=0.3.0" --> llama-index-indices-managed-llama-cloud
+    llama-index -- ">=0.3.0" --> llama-index-readers-llama-parse
+    llama-index -- ">=0.3.0,<0.4.0" --> llama-index-readers-file
+    llama-index -- ">=0.3.1,<0.4.0" --> llama-index-cli
+    llama-index -- ">=0.3.4,<0.4.0" --> llama-index-agent-openai
+    llama-index -- ">=0.9.48,<0.10.0" --> llama-index-legacy
+    llama-index-agent-openai -- ">=0.11.0,<0.12.0" --> llama-index-core
+    llama-index-agent-openai -- ">=0.2.9,<0.3.0" --> llama-index-llms-openai
+    llama-index-agent-openai -- ">=1.14.0" --> openai
+    llama-index-cli -- ">=0.11.0,<0.12.0" --> llama-index-core
+    llama-index-cli -- ">=0.2.0,<0.3.0" --> llama-index-embeddings-openai
+    llama-index-cli -- ">=0.2.0,<0.3.0" --> llama-index-llms-openai
+    llama-index-core -- "<2.0.0" --> numpy
+    llama-index-core -- ">3.8.1" --> nltk
+    llama-index-core -- ">=0.3.3" --> tiktoken
+    llama-index-core -- ">=0.8.0" --> typing-inspect
+    llama-index-core -- ">=1.0.8,<2.0.0" --> dirtyjson
+    llama-index-core -- ">=1.2.0,<2.0.0" --> filetype
+    llama-index-core -- ">=1.2.9.3" --> deprecated
+    llama-index-core -- ">=1.4.49" --> sqlalchemy
+    llama-index-core -- ">=1.5.8,<2.0.0" --> nest-asyncio
+    llama-index-core -- ">=2.31.0" --> requests
+    llama-index-core -- ">=2.7.0,<3.0.0" --> pydantic
+    llama-index-core -- ">=2023.5.0" --> fsspec
+    llama-index-core -- ">=3.0" --> networkx
+    llama-index-core -- ">=3.8.6,<4.0.0" --> aiohttp
+    llama-index-core -- ">=4.5.0" --> typing-extensions
+    llama-index-core -- ">=4.66.1,<5.0.0" --> tqdm
+    llama-index-core -- ">=6.0.1" --> pyyaml
+    llama-index-core -- ">=8.2.0,<9.0.0,!=8.4.0" --> tenacity
+    llama-index-core -- ">=9.0.0" --> pillow
+    llama-index-core -- "any" --> dataclasses-json
+    llama-index-core -- "any" --> httpx
+    llama-index-core -- "any" --> wrapt
+    llama-index-embeddings-openai -- ">=0.11.0,<0.12.0" --> llama-index-core
+    llama-index-embeddings-openai -- ">=1.1.0" --> openai
+    llama-index-indices-managed-llama-cloud -- ">=0.1.5" --> llama-cloud
+    llama-index-indices-managed-llama-cloud -- ">=0.11.13.post1,<0.12.0" --> llama-index-core
+    llama-index-legacy -- ">=0.3.3" --> tiktoken
+    llama-index-legacy -- ">=0.8.0" --> typing-inspect
+    llama-index-legacy -- ">=1.0.8,<2.0.0" --> dirtyjson
+    llama-index-legacy -- ">=1.1.0" --> openai
+    llama-index-legacy -- ">=1.2.9.3" --> deprecated
+    llama-index-legacy -- ">=1.4.49" --> sqlalchemy
+    llama-index-legacy -- ">=1.5.8,<2.0.0" --> nest-asyncio
+    llama-index-legacy -- ">=2.31.0" --> requests
+    llama-index-legacy -- ">=2023.5.0" --> fsspec
+    llama-index-legacy -- ">=3.0" --> networkx
+    llama-index-legacy -- ">=3.8.1" --> nltk
+    llama-index-legacy -- ">=3.8.6,<4.0.0" --> aiohttp
+    llama-index-legacy -- ">=4.5.0" --> typing-extensions
+    llama-index-legacy -- ">=8.2.0,<9.0.0" --> tenacity
+    llama-index-legacy -- "any" --> dataclasses-json
+    llama-index-legacy -- "any" --> httpx
+    llama-index-legacy -- "any" --> numpy
+    llama-index-legacy -- "any" --> pandas
+    llama-index-llms-ollama -- ">=0.11.0,<0.12.0" --> llama-index-core
+    llama-index-llms-ollama -- ">=0.3.0" --> ollama
+    llama-index-llms-openai -- ">=0.11.7,<0.12.0" --> llama-index-core
+    llama-index-llms-openai -- ">=1.40.0,<2.0.0" --> openai
+    llama-index-multi-modal-llms-openai -- ">=0.11.0,<0.12.0" --> llama-index-core
+    llama-index-multi-modal-llms-openai -- ">=0.2.11,<0.3.0" --> llama-index-llms-openai
+    llama-index-program-openai -- ">=0.11.0,<0.12.0" --> llama-index-core
+    llama-index-program-openai -- ">=0.2.0,<0.3.0" --> llama-index-llms-openai
+    llama-index-program-openai -- ">=0.3.0,<0.4.0" --> llama-index-agent-openai
+    llama-index-question-gen-openai -- ">=0.11.0,<0.12.0" --> llama-index-core
+    llama-index-question-gen-openai -- ">=0.2.0,<0.3.0" --> llama-index-llms-openai
+    llama-index-question-gen-openai -- ">=0.2.0,<0.3.0" --> llama-index-program-openai
+    llama-index-readers-file -- ">=0.0.26,<0.0.27" --> striprtf
+    llama-index-readers-file -- ">=0.11.0,<0.12.0" --> llama-index-core
+    llama-index-readers-file -- ">=4.12.3,<5.0.0" --> beautifulsoup4
+    llama-index-readers-file -- ">=5.1.0,<6.0.0" --> pypdf
+    llama-index-readers-file -- "any" --> pandas
+    llama-index-readers-llama-parse -- ">=0.11.0,<0.12.0" --> llama-index-core
+    llama-index-readers-llama-parse -- ">=0.5.0" --> llama-parse
+    llama-parse -- "!=2.10" --> pydantic
+    llama-parse -- ">=0.11.0" --> llama-index-core
+    llama-parse -- ">=8.1.7,<9.0.0" --> click_0
+    llamaindex-py-client -- ">=0.20.0" --> httpx
+    llamaindex-py-client -- ">=1.10" --> pydantic
+    llm -- ">=0.1a2" --> sqlite-migrate
+    llm -- ">=1.0" --> openai
+    llm -- ">=1.10.2" --> pydantic
+    llm -- ">=1.2.3" --> click-default-group
+    llm -- ">=3.37" --> sqlite-utils
+    llm -- "any" --> click_0
+    llm -- "any" --> pip
+    llm -- "any" --> pluggy
+    llm -- "any" --> puremagic
+    llm -- "any" --> pyreadline3
+    llm -- "any" --> python-ulid
+    llm -- "any" --> pyyaml
+    llm -- "any" --> setuptools
+    llm-claude-3 -- ">=0.18" --> llm
+    llm-claude-3 -- ">=0.39.0" --> anthropic
+    markdown-it-py -- "~=0.1" --> mdurl
+    marshmallow -- ">=17.0" --> packaging
+    matplotlib -- ">=0.10" --> cycler
+    matplotlib -- ">=1.0.1" --> contourpy
+    matplotlib -- ">=1.23" --> numpy
+    matplotlib -- ">=1.3.1" --> kiwisolver
+    matplotlib -- ">=2.3.1" --> pyparsing
+    matplotlib -- ">=2.7" --> python-dateutil
+    matplotlib -- ">=20.0" --> packaging
+    matplotlib -- ">=4.22.0" --> fonttools
+    matplotlib -- ">=8" --> pillow
+    matplotlib-inline -- "any" --> traitlets
+    mkl -- "==2022.*" --> tbb
+    mkl -- ">=2024" --> intel-openmp
+    ml-dtypes -- ">=1.21" --> numpy
+    ml-dtypes -- ">=1.21.2" --> numpy
+    ml-dtypes -- ">=1.23.3" --> numpy
+    nbclient -- ">=4.12,!=5.0.*" --> jupyter-core
+    nbclient -- ">=5.1" --> nbformat
+    nbclient -- ">=5.4" --> traitlets
+    nbclient -- ">=6.1.12" --> jupyter-client
+    nbconvert -- "!=5.0.0" --> bleach
+    nbconvert -- ">=0.5.0" --> nbclient
+    nbconvert -- ">=1.4.1" --> pandocfilters
+    nbconvert -- ">=2.0" --> markupsafe
+    nbconvert -- ">=2.0.3,<4" --> mistune
+    nbconvert -- ">=2.4.1" --> pygments
+    nbconvert -- ">=3.0" --> jinja2
+    nbconvert -- ">=4.7" --> jupyter-core
+    nbconvert -- ">=5.1" --> traitlets
+    nbconvert -- ">=5.7" --> nbformat
+    nbconvert -- "any" --> beautifulsoup4
+    nbconvert -- "any" --> defusedxml
+    nbconvert -- "any" --> jupyterlab-pygments
+    nbconvert -- "any" --> packaging
+    nbconvert -- "any" --> tinycss2
+    nbformat -- ">=2.15" --> fastjsonschema
+    nbformat -- ">=2.6" --> jsonschema
+    nbformat -- ">=4.12,!=5.0.*" --> jupyter-core
+    nbformat -- ">=5.1" --> traitlets
+    nltk -- ">=2021.8.3" --> regex
+    nltk -- "any" --> click_0
+    nltk -- "any" --> joblib
+    nltk -- "any" --> tqdm
+    notebook -- ">=0.2,<0.3" --> notebook-shim
+    notebook -- ">=2.27.1,<3" --> jupyterlab-server
+    notebook -- ">=2.4.0,<3" --> jupyter-server
+    notebook -- ">=4.2.0,<4.3" --> jupyterlab
+    notebook -- ">=6.2.0" --> tornado
+    notebook-shim -- ">=1.8,<3" --> jupyter-server
+    numba -- ">=0.43.0dev0,<0.44" --> llvmlite
+    numba -- ">=1.22,<2.1" --> numpy
+    ollama -- ">=0.27.0,<0.28.0" --> httpx
+    ollama -- ">=2.9.0,<3.0.0" --> pydantic
+    openai -- ">4" --> tqdm
+    openai -- ">=0.23.0,<1" --> httpx
+    openai -- ">=0.4.0,<1" --> jiter
+    openai -- ">=1.7.0,<2" --> distro
+    openai -- ">=1.9.0,<3" --> pydantic
+    openai -- ">=3.5.0,<5" --> anyio
+    openai -- ">=4.11,<5" --> typing-extensions
+    openai -- "any" --> sniffio
+    opencv-contrib-python -- ">=1.17.0" --> numpy
+    opencv-contrib-python -- ">=1.17.3" --> numpy
+    opencv-contrib-python -- ">=1.19.3" --> numpy
+    opencv-contrib-python -- ">=1.21.2" --> numpy
+    opencv-contrib-python -- ">=1.23.5" --> numpy
+    opencv-python -- ">=1.17.0" --> numpy
+    opencv-python -- ">=1.17.3" --> numpy
+    opencv-python -- ">=1.19.3" --> numpy
+    opencv-python -- ">=1.21.2" --> numpy
+    opencv-python -- ">=1.23.5" --> numpy
+    opencv-python-headless -- ">=1.17.0" --> numpy
+    opencv-python-headless -- ">=1.17.3" --> numpy
+    opencv-python-headless -- ">=1.19.3" --> numpy
+    opencv-python-headless -- ">=1.21.2" --> numpy
+    opencv-python-headless -- ">=1.23.5" --> numpy
+    openinference-instrumentation -- ">=0.1.6" --> openinference-semantic-conventions
+    openinference-instrumentation -- "any" --> opentelemetry-api
+    openinference-instrumentation -- "any" --> opentelemetry-sdk
+    openinference-instrumentation-langchain -- ">=0.1.17" --> openinference-instrumentation
+    openinference-instrumentation-langchain -- ">=0.1.9" --> openinference-semantic-conventions
+    openinference-instrumentation-langchain -- "any" --> opentelemetry-api
+    openinference-instrumentation-langchain -- "any" --> opentelemetry-instrumentation
+    openinference-instrumentation-langchain -- "any" --> opentelemetry-semantic-conventions
+    openinference-instrumentation-langchain -- "any" --> wrapt
+    openinference-instrumentation-llama-index -- ">=0.1.17" --> openinference-instrumentation
+    openinference-instrumentation-llama-index -- ">=0.1.9" --> openinference-semantic-conventions
+    openinference-instrumentation-llama-index -- "any" --> opentelemetry-api
+    openinference-instrumentation-llama-index -- "any" --> opentelemetry-instrumentation
+    openinference-instrumentation-llama-index -- "any" --> opentelemetry-semantic-conventions
+    openinference-instrumentation-llama-index -- "any" --> typing-extensions
+    openinference-instrumentation-llama-index -- "any" --> wrapt
+    openinference-instrumentation-openai -- ">=0.1.12" --> openinference-semantic-conventions
+    openinference-instrumentation-openai -- ">=0.1.18" --> openinference-instrumentation
+    openinference-instrumentation-openai -- "any" --> opentelemetry-api
+    openinference-instrumentation-openai -- "any" --> opentelemetry-instrumentation
+    openinference-instrumentation-openai -- "any" --> opentelemetry-semantic-conventions
+    openinference-instrumentation-openai -- "any" --> typing-extensions
+    openinference-instrumentation-openai -- "any" --> wrapt
+    opentelemetry-api -- ">=1.2.6" --> deprecated
+    opentelemetry-api -- ">=6.0,<=8.4.0" --> importlib-metadata
+    opentelemetry-exporter-otlp -- "==1.27.0" --> opentelemetry-exporter-otlp-proto-grpc
+    opentelemetry-exporter-otlp -- "==1.27.0" --> opentelemetry-exporter-otlp-proto-http
+    opentelemetry-exporter-otlp-proto-common -- "==1.27.0" --> opentelemetry-proto
+    opentelemetry-exporter-otlp-proto-grpc -- "==1.27.0" --> opentelemetry-exporter-otlp-proto-common
+    opentelemetry-exporter-otlp-proto-grpc -- "==1.27.0" --> opentelemetry-proto
+    opentelemetry-exporter-otlp-proto-grpc -- ">=1.0.0,<2.0.0" --> grpcio
+    opentelemetry-exporter-otlp-proto-grpc -- ">=1.2.6" --> deprecated
+    opentelemetry-exporter-otlp-proto-grpc -- "~=1.15" --> opentelemetry-api
+    opentelemetry-exporter-otlp-proto-grpc -- "~=1.27.0" --> opentelemetry-sdk
+    opentelemetry-exporter-otlp-proto-grpc -- "~=1.52" --> googleapis-common-protos
+    opentelemetry-exporter-otlp-proto-http -- "==1.27.0" --> opentelemetry-exporter-otlp-proto-common
+    opentelemetry-exporter-otlp-proto-http -- "==1.27.0" --> opentelemetry-proto
+    opentelemetry-exporter-otlp-proto-http -- ">=1.2.6" --> deprecated
+    opentelemetry-exporter-otlp-proto-http -- "~=1.15" --> opentelemetry-api
+    opentelemetry-exporter-otlp-proto-http -- "~=1.27.0" --> opentelemetry-sdk
+    opentelemetry-exporter-otlp-proto-http -- "~=1.52" --> googleapis-common-protos
+    opentelemetry-exporter-otlp-proto-http -- "~=2.7" --> requests
+    opentelemetry-instrumentation -- ">=1.0.0,<2.0.0" --> wrapt
+    opentelemetry-instrumentation -- ">=16.0" --> setuptools
+    opentelemetry-instrumentation -- "~=1.4" --> opentelemetry-api
+    opentelemetry-proto -- ">=3.19,<5.0" --> protobuf
+    opentelemetry-sdk -- "==0.48b0" --> opentelemetry-semantic-conventions
+    opentelemetry-sdk -- "==1.27.0" --> opentelemetry-api
+    opentelemetry-sdk -- ">=3.7.4" --> typing-extensions
+    opentelemetry-semantic-conventions -- "==1.27.0" --> opentelemetry-api
+    opentelemetry-semantic-conventions -- ">=1.2.6" --> deprecated
+    pandas -- ">=1.23.2" --> numpy
+    pandas -- ">=2.8.2" --> python-dateutil
+    pandas -- ">=2020.1" --> pytz
+    pandas -- ">=2022.7" --> tzdata
+    pandas-gbq -- ">=0.7.0" --> google-auth-oauthlib
+    pandas-gbq -- ">=1.0.4,<2.0.0" --> db-dtypes
+    pandas-gbq -- ">=1.1.4" --> pandas
+    pandas-gbq -- ">=1.18.1" --> numpy
+    pandas-gbq -- ">=1.5.0" --> pydata-google-auth
+    pandas-gbq -- ">=2.10.2,<3.0.0dev" --> google-api-core
+    pandas-gbq -- ">=2.13.0" --> google-auth
+    pandas-gbq -- ">=22.0.0" --> packaging
+    pandas-gbq -- ">=3.4.2,<4.0.0dev" --> google-cloud-bigquery
+    pandas-gbq -- ">=4.0.0" --> pyarrow
+    pandas-gbq -- "any" --> setuptools
+    pipdeptree -- ">=23.1" --> packaging
+    pipdeptree -- ">=23.1.2" --> pip
+    plyfile -- ">=1.21" --> numpy
+    prompt-toolkit -- "any" --> wcwidth
+    proto-plus -- ">=3.19.0,<6.0.0dev" --> protobuf
+    pyasn1-modules -- ">=0.4.6,<0.7.0" --> pyasn1
+    pydantic -- "==2.27.1" --> pydantic-core
+    pydantic -- ">=0.6.0" --> annotated-types
+    pydantic -- ">=4.12.2" --> typing-extensions
+    pydantic-core -- ">=4.6.0,!=4.7.0" --> typing-extensions
+    pydantic-settings -- ">=0.21.0" --> python-dotenv
+    pydantic-settings -- ">=2.7.0" --> pydantic
+    pydata-google-auth -- ">=0.4.0" --> google-auth-oauthlib
+    pydata-google-auth -- ">=1.25.0,<3.0dev" --> google-auth
+    pydata-google-auth -- "any" --> setuptools
+    pydeck -- ">=1.16.4" --> numpy
+    pydeck -- ">=2.10.1" --> jinja2
+    pytest -- ">=1.5,<2" --> pluggy
+    pytest -- "any" --> colorama
+    pytest -- "any" --> iniconfig
+    pytest -- "any" --> packaging
+    python-dateutil -- ">=1.5" --> six
+    pytorch-lightning -- ">=0.10.0" --> lightning-utilities
+    pytorch-lightning -- ">=0.7.0" --> torchmetrics
+    pytorch-lightning -- ">=2.1.0" --> torch
+    pytorch-lightning -- ">=20.0" --> packaging
+    pytorch-lightning -- ">=2022.5.0" --> fsspec
+    pytorch-lightning -- ">=4.4.0" --> typing-extensions
+    pytorch-lightning -- ">=4.57.0" --> tqdm
+    pytorch-lightning -- ">=5.4" --> pyyaml
+    qrcode -- "any" --> colorama
+    referencing -- ">=0.7.0" --> rpds-py
+    referencing -- ">=22.2.0" --> attrs
+    requests -- ">=1.21.1,<3" --> urllib3
+    requests -- ">=2,<4" --> charset-normalizer
+    requests -- ">=2.5,<4" --> idna
+    requests -- ">=2017.4.17" --> certifi
+    requests-oauthlib -- ">=2.0.0" --> requests
+    requests-oauthlib -- ">=3.0.0" --> oauthlib
+    requests-toolbelt -- ">=2.0.1,<3.0.0" --> requests
+    rfc3339-validator -- "any" --> six
+    rich -- ">=2.13.0,<3.0.0" --> pygments
+    rich -- ">=2.2.0" --> markdown-it-py
+    rsa -- ">=0.1.3" --> pyasn1
+    scikit-image -- ">=0.4" --> lazy-loader
+    scikit-image -- ">=1.23" --> numpy
+    scikit-image -- ">=1.9" --> scipy
+    scikit-image -- ">=2.33" --> imageio
+    scikit-image -- ">=2.8" --> networkx
+    scikit-image -- ">=2022.8.12" --> tifffile
+    scikit-image -- ">=21" --> packaging
+    scikit-image -- ">=9.1" --> pillow
+    scipy -- ">=1.23.5,<2.3" --> numpy
+    shapely -- ">=1.14,<3" --> numpy
+    snakeviz -- ">=2.0" --> tornado
+    sqlalchemy -- "!=0.4.17" --> greenlet
+    sqlalchemy -- ">=4.6.0" --> typing-extensions
+    sqlite-migrate -- "any" --> sqlite-utils
+    sqlite-utils -- ">=1.2.3" --> click-default-group
+    sqlite-utils -- "any" --> click_0
+    sqlite-utils -- "any" --> pluggy
+    sqlite-utils -- "any" --> python-dateutil
+    sqlite-utils -- "any" --> sqlite-fts4
+    sqlite-utils -- "any" --> tabulate
+    stack-data -- ">=1.2.0" --> executing
+    stack-data -- ">=2.1.0" --> asttokens
+    stack-data -- "any" --> pure-eval
+    streamlit -- ">=0.10.1,<2" --> toml
+    streamlit -- ">=0.8.0b4,<1" --> pydeck
+    streamlit -- ">=1.0.0,<2" --> blinker
+    streamlit -- ">=1.23,<3" --> numpy
+    streamlit -- ">=1.4.0,<3" --> pandas
+    streamlit -- ">=10.14.0,<14" --> rich
+    streamlit -- ">=2.1.5,<7" --> watchdog
+    streamlit -- ">=2.27,<3" --> requests
+    streamlit -- ">=20,<25" --> packaging
+    streamlit -- ">=3.0.7,<4,!=3.1.19" --> gitpython
+    streamlit -- ">=3.20,<6" --> protobuf
+    streamlit -- ">=4.0,<6" --> altair
+    streamlit -- ">=4.0,<6" --> cachetools
+    streamlit -- ">=4.3.0,<5" --> typing-extensions
+    streamlit -- ">=6.0.3,<7" --> tornado
+    streamlit -- ">=7.0" --> pyarrow
+    streamlit -- ">=7.0,<9" --> click_0
+    streamlit -- ">=7.1.0,<12" --> pillow
+    streamlit -- ">=8.1.0,<10" --> tenacity
+    sympy -- ">=1.1.0,<1.4" --> mpmath
+    tbb -- "==1.*" --> tcmlib
+    terminado -- ">=1.1.0" --> pywinpty
+    terminado -- ">=6.1.0" --> tornado
+    tifffile -- "any" --> numpy
+    tiktoken -- ">=2.26.0" --> requests
+    tiktoken -- ">=2022.1.18" --> regex
+    tinycss2 -- ">=0.4" --> webencodings
+    tokenizers -- ">=0.16.4,<1.0" --> huggingface-hub
+    torch -- ">=4.8.0" --> typing-extensions
+    torch -- "any" --> filelock
+    torch -- "any" --> fsspec
+    torch -- "any" --> jinja2
+    torch -- "any" --> networkx
+    torch -- "any" --> sympy
+    torchaudio -- "==2.4.1+cu124" --> torch
+    torchmetrics -- ">1.20.0" --> numpy
+    torchmetrics -- ">17.1" --> packaging
+    torchmetrics -- ">=0.8.0" --> lightning-utilities
+    torchmetrics -- ">=2.0.0" --> torch
+    torchvision -- "==2.4.1+cu124" --> torch
+    torchvision -- ">=5.3.0,!=8.3.*" --> pillow
+    torchvision -- "any" --> numpy
+    tqdm -- "any" --> colorama
+    typing-inspect -- ">=0.3.0" --> mypy-extensions
+    typing-inspect -- ">=3.7.4" --> typing-extensions
+    umf -- "==1.2" --> tcmlib
+    werkzeug -- ">=2.1.1" --> markupsafe
+    yarl -- ">=0.2.0" --> propcache
+    yarl -- ">=2.0" --> idna
+    yarl -- ">=4.0" --> multidict
+

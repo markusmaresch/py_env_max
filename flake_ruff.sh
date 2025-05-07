@@ -36,10 +36,3 @@ else
     fi
 fi
 exit 0
-
-#### example of .flake8 below
-
-[flake8]
-ignore = E302, E501, F401, F403
-max-line-length = 100
-max-complexity = 18

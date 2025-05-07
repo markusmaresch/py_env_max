@@ -1,1 +1,0 @@
-@sh ./flake_run.sh
