@@ -1,7 +1,6 @@
-# 2025-05-07T07:48:25.055424+00:00
+# 2025-05-07T08:02:01.345146+00:00
 # Level 2
 pip install "arena-api>=2.5.9"
-pip install "asttokens>=3.0.0"
 pip check
 pip install "beautifulsoup4>=4.13.4"
 pip install "bleach>=6.2.0"
@@ -51,6 +50,7 @@ pip install "rsa>=4.9.1"
 pip check
 pip install "scipy>=1.15.2"
 pip install "shapely>=2.1.0"
+pip install "stack-data>=0.6.3"
 pip check
 pip install "tifffile>=2025.3.30"
 pip install "tinycss2>=1.4.0"

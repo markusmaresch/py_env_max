@@ -1,6 +1,7 @@
-# 2025-05-07T07:48:25.055424+00:00
+# 2025-05-07T08:02:01.345146+00:00
 # Level 1
 pip install "ansi2html>=1.9.2"
+pip install "asttokens>=3.0.0"
 pip install "attrs>=25.3.0"
 pip install "av>=14.3.0"
 pip check
@@ -59,6 +60,7 @@ pip install "nest-asyncio>=1.6.0"
 pip install "networkx>=3.4.2"
 pip install "numpy>=2.0.2"
 pip check
+pip install "oauthlib>=3.2.2"
 pip install "packaging>=25.0"
 pip install "pandocfilters>=1.5.1"
 pip install "parso>=0.8.4"
@@ -68,8 +70,8 @@ pip install "pip>=25.1.1"
 pip install "platformdirs>=4.3.7"
 pip install "pluggy>=1.5.0"
 pip install "polars>=1.29.0"
-pip install "protobuf>=5.29.4"
 pip check
+pip install "protobuf>=5.29.4"
 pip install "psutil>=7.0.0"
 pip install "ptyprocess>=0.7.0"
 pip install "pure-eval>=0.2.3"
@@ -79,8 +81,8 @@ pip install "pycodestyle>=2.13.0"
 pip install "pycparser>=2.22"
 pip install "pyflakes>=3.3.2"
 pip install "pygments>=2.19.1"
-pip install "pylucidio>=2.4"
 pip check
+pip install "pylucidio>=2.4"
 pip install "pyparsing>=3.2.3"
 pip install "pyrsistent>=0.20.0"
 pip install "pyserial>=3.5"

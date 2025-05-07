@@ -1,6 +1,7 @@
-# 2025-05-07T07:48:25.055424+00:00
+# 2025-05-07T08:02:01.345146+00:00
 # Level 1
 pip install "ansi2html>=1.9.2"
+pip install "asttokens>=3.0.0"
 pip install "attrs>=25.3.0"
 pip install "av>=14.3.0"
 pip check
@@ -59,6 +60,7 @@ pip install "nest-asyncio>=1.6.0"
 pip install "networkx>=3.4.2"
 pip install "numpy>=2.0.2"
 pip check
+pip install "oauthlib>=3.2.2"
 pip install "packaging>=25.0"
 pip install "pandocfilters>=1.5.1"
 pip install "parso>=0.8.4"
@@ -68,8 +70,8 @@ pip install "pip>=25.1.1"
 pip install "platformdirs>=4.3.7"
 pip install "pluggy>=1.5.0"
 pip install "polars>=1.29.0"
-pip install "protobuf>=5.29.4"
 pip check
+pip install "protobuf>=5.29.4"
 pip install "psutil>=7.0.0"
 pip install "ptyprocess>=0.7.0"
 pip install "pure-eval>=0.2.3"
@@ -79,8 +81,8 @@ pip install "pycodestyle>=2.13.0"
 pip install "pycparser>=2.22"
 pip install "pyflakes>=3.3.2"
 pip install "pygments>=2.19.1"
-pip install "pylucidio>=2.4"
 pip check
+pip install "pylucidio>=2.4"
 pip install "pyparsing>=3.2.3"
 pip install "pyrsistent>=0.20.0"
 pip install "pyserial>=3.5"
@@ -121,7 +123,6 @@ pip check
 # Level 1
 # Level 2
 pip install "arena-api>=2.5.9"
-pip install "asttokens>=3.0.0"
 pip check
 pip install "beautifulsoup4>=4.13.4"
 pip install "bleach>=6.2.0"
@@ -171,6 +172,7 @@ pip install "rsa>=4.9.1"
 pip check
 pip install "scipy>=1.15.2"
 pip install "shapely>=2.1.0"
+pip install "stack-data>=0.6.3"
 pip check
 pip install "tifffile>=2025.3.30"
 pip install "tinycss2>=1.4.0"
@@ -185,6 +187,7 @@ pip install "flask>=3.0.3"
 pip install "google-auth>=2.40.1"
 pip install "grpcio-status>=1.71.0"
 pip check
+pip install "ipython>=8.12.3"
 pip install "jsonschema-specifications>=2025.4.1"
 pip install "jupyter-client>=8.6.3"
 pip check
@@ -192,10 +195,11 @@ pip install "matplotlib>=3.10.1"
 pip install "opentelemetry-api>=1.32.1"
 pip check
 pip install "pandas>=2.2.3"
+pip install "requests-oauthlib>=2.0.0"
+pip check
 pip install "scikit-image>=0.25.2"
 pip install "scikit-learn>=1.6.1"
 pip install "scikit-spatial>=9.0.1"
-pip install "stack-data>=0.6.3"
 pip check
 pip install "xgboost>=3.0.0"
 pip install "yarg>=0.1.9"
@@ -206,9 +210,13 @@ pip install "braincube-connector>=2.7.0"
 pip check
 pip install "cylinder-fitting>=1.1.4"
 pip install "dash>=3.0.4"
+pip install "db-dtypes>=1.4.2"
 pip check
 pip install "google-api-core>=2.24.2"
-pip install "ipython>=8.12.3"
+pip install "google-auth-oauthlib>=1.2.2"
+pip check
+pip install "ipykernel>=6.29.5"
+pip install "ipywidgets>=8.1.7"
 pip check
 pip install "jsonschema>=4.23.0"
 pip install "opentelemetry-semantic-conventions>=0.53b1"
@@ -220,13 +228,11 @@ pip check
 # Level 5
 pip install "google-cloud-core>=2.4.3"
 pip check
-pip install "ipykernel>=6.29.5"
-pip install "ipywidgets>=8.1.7"
-pip check
 pip install "nbformat>=5.10.4"
 pip install "opentelemetry-instrumentation>=0.53b1"
 pip check
 pip install "piconnect>=0.12.4"
+pip install "pydata-google-auth>=1.9.1"
 pip install "pyoints>=0.2.0a3"
 pip check
 # Level 5
@@ -239,6 +245,8 @@ pip check
 # Level 6
 # Level 7
 pip install "nbconvert>=7.16.6"
+pip check
+pip install "pandas-gbq>=0.28.0"
 pip check
 # Level 7
 # Level 8

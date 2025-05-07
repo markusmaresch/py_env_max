@@ -25,6 +25,7 @@ dash
 dash-core-components
 dash-html-components
 dash-table
+db-dtypes
 debugpy
 decorator
 defusedxml
@@ -42,6 +43,7 @@ flask
 fonttools
 google-api-core
 google-auth
+google-auth-oauthlib
 google-cloud-bigquery
 google-cloud-core
 google-cloud-storage
@@ -88,6 +90,7 @@ nest-asyncio
 networkx
 numba
 numpy
+oauthlib
 opencv-contrib-python
 opencv-python
 opencv-python-headless
@@ -96,6 +99,7 @@ opentelemetry-instrumentation
 opentelemetry-semantic-conventions
 packaging
 pandas
+pandas-gbq
 pandocfilters
 parso
 pexpect
@@ -121,6 +125,7 @@ pyasn1
 pyasn1-modules
 pycodestyle
 pycparser
+pydata-google-auth
 pyflakes
 pygments
 pylucidio
@@ -136,6 +141,7 @@ pyzbar
 pyzmq
 referencing
 requests
+requests-oauthlib
 retrying
 rpds-py
 rsa
