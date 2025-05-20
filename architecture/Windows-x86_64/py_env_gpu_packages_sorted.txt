@@ -72,7 +72,6 @@ mccabe
 mdurl
 mistune
 mmh3
-mobile-sam
 monotonic
 more-itertools
 mpmath

@@ -1,4 +1,4 @@
-rem 2025-05-07T07:39:32.453849+00:00
+rem 2025-05-20T22:04:44.633798+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.6.1"
 pip install "annotated-types>=0.7.0"
@@ -85,12 +85,11 @@ pip install "mccabe>=0.7.0"
 pip install "mdurl>=0.1.2"
 pip install "mistune>=3.1.3"
 pip install "mmh3>=5.1.0"
-pip install "mobile-sam>=1.0"
 pip install "monotonic>=1.6"
 pip install "more-itertools>=10.6.0"
 pip install "mpmath>=1.3.0"
-pip check
 pip install "multidict>=6.4.3"
+pip check
 pip install "mypy-extensions>=1.1.0"
 pip check
 pip install "narwhals>=1.38.0"

@@ -216,7 +216,6 @@ mistune
 mkl
 ml-dtypes
 mmh3
-mobile-sam
 monotonic
 more-itertools
 mpmath
