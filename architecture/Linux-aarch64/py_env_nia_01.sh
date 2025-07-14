@@ -1,8 +1,9 @@
-# 2025-07-14T21:04:00.132743+00:00
+# 2025-07-14T22:12:24.197891+00:00
 # Level 1
 pip install "aiohappyeyeballs>=2.6.1"
 pip install "aioitertools>=0.12.0"
 pip install "asttokens>=3.0.0"
+pip install "async-lru>=2.0.5"
 pip install "async-timeout>=5.0.1"
 pip install "attrs>=25.3.0"
 pip check
@@ -32,7 +33,7 @@ pip check
 pip install "google-crc32c>=1.7.1"
 pip install "grpcio>=1.73.1"
 pip check
-pip install "h11>=0.14.0"
+pip install "h11>=0.16.0"
 pip install "idna>=3.10"
 pip install "iniconfig>=2.1.0"
 pip check
@@ -45,9 +46,11 @@ pip check
 pip install "kiwisolver>=1.4.8"
 pip install "markupsafe>=3.0.2"
 pip install "mccabe>=0.7.0"
+pip install "mistune>=3.1.3"
+pip install "multidict>=6.6.3"
 pip check
 pip install "nest-asyncio>=1.6.0"
-pip install "networkx>=3.4.2"
+pip install "networkx>=3.5"
 pip install "numpy>=2.2.6"
 pip check
 pip install "overrides>=7.7.0"
@@ -64,7 +67,7 @@ pip check
 pip install "ply>=3.11"
 pip install "prometheus-client>=0.22.1"
 pip install "propcache>=0.3.2"
-pip install "protobuf>=5.29.5"
+pip install "protobuf>=6.31.1"
 pip install "psutil>=7.0.0"
 pip install "ptyprocess>=0.7.0"
 pip install "pure-eval>=0.2.3"

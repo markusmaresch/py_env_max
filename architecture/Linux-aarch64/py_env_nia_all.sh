@@ -1,8 +1,9 @@
-# 2025-07-14T21:04:00.132743+00:00
+# 2025-07-14T22:12:24.197891+00:00
 # Level 1
 pip install "aiohappyeyeballs>=2.6.1"
 pip install "aioitertools>=0.12.0"
 pip install "asttokens>=3.0.0"
+pip install "async-lru>=2.0.5"
 pip install "async-timeout>=5.0.1"
 pip install "attrs>=25.3.0"
 pip check
@@ -32,7 +33,7 @@ pip check
 pip install "google-crc32c>=1.7.1"
 pip install "grpcio>=1.73.1"
 pip check
-pip install "h11>=0.14.0"
+pip install "h11>=0.16.0"
 pip install "idna>=3.10"
 pip install "iniconfig>=2.1.0"
 pip check
@@ -45,9 +46,11 @@ pip check
 pip install "kiwisolver>=1.4.8"
 pip install "markupsafe>=3.0.2"
 pip install "mccabe>=0.7.0"
+pip install "mistune>=3.1.3"
+pip install "multidict>=6.6.3"
 pip check
 pip install "nest-asyncio>=1.6.0"
-pip install "networkx>=3.4.2"
+pip install "networkx>=3.5"
 pip install "numpy>=2.2.6"
 pip check
 pip install "overrides>=7.7.0"
@@ -64,7 +67,7 @@ pip check
 pip install "ply>=3.11"
 pip install "prometheus-client>=0.22.1"
 pip install "propcache>=0.3.2"
-pip install "protobuf>=5.29.5"
+pip install "protobuf>=6.31.1"
 pip install "psutil>=7.0.0"
 pip install "ptyprocess>=0.7.0"
 pip install "pure-eval>=0.2.3"
@@ -125,8 +128,7 @@ pip check
 # Level 1
 # Level 2
 pip install "aiosignal>=1.4.0"
-pip install "arena-api>=2.5.9"
-pip install "async-lru>=2.0.5"
+pip install "anyio>=4.9.0"
 pip check
 pip install "beautifulsoup4>=4.13.4"
 pip install "bleach>=6.2.0"
@@ -143,20 +145,19 @@ pip check
 pip install "google-resumable-media>=2.7.2"
 pip install "googleapis-common-protos>=1.70.0"
 pip check
-pip install "httpcore>=1.0.5"
+pip install "httpcore>=1.0.9"
 pip install "httplib2>=0.22.0"
 pip check
 pip install "imageio>=2.37.0"
 pip install "importlib-metadata>=8.7.0"
+pip install "ipython-pygments-lexers>=1.1.1"
 pip check
 pip install "jedi>=0.19.2"
 pip install "jinja2>=3.1.6"
-pip install "jupyter-core>=5.3.1"
+pip install "jupyter-core>=5.8.1"
 pip check
 pip install "lazy-loader>=0.4"
 pip install "matplotlib-inline>=0.1.7"
-pip install "mistune>=3.1.3"
-pip install "multidict>=6.6.3"
 pip check
 pip install "opencv-contrib-python>=4.12.0.88"
 pip install "opencv-python>=4.12.0.88"
@@ -166,7 +167,7 @@ pip install "pexpect>=4.9.0"
 pip install "prompt-toolkit>=3.0.51"
 pip install "proto-plus>=1.26.1"
 pip install "pyasn1-modules>=0.4.2"
-pip install "python-dateutil>=2.9.0"
+pip install "python-dateutil>=2.9.0.post0"
 pip install "pywavelets>=1.8.0"
 pip check
 pip install "referencing>=0.36.2"
@@ -174,25 +175,29 @@ pip install "requests>=2.32.4"
 pip install "rfc3339-validator>=0.1.4"
 pip install "rsa>=4.9.1"
 pip check
-pip install "scipy>=1.15.3"
+pip install "scipy>=1.16.0"
 pip install "sip>=6.12.0"
 pip install "stack-data>=0.6.3"
 pip check
 pip install "terminado>=0.18.1"
-pip install "tifffile>=2025.5.10"
+pip install "tifffile>=2025.6.11"
 pip install "tinycss2>=1.4.0"
+pip check
+pip install "yarl>=1.20.1"
 pip check
 # Level 2
 # Level 3
-pip install "anyio>=4.9.0"
+pip install "aiohttp>=3.12.14"
 pip install "argon2-cffi-bindings>=21.2.0"
 pip install "arrow>=1.3.0"
 pip check
 pip install "botocore>=1.38.27"
 pip install "google-auth>=2.40.3"
-pip install "grpcio-status>=1.71.2"
+pip install "grpcio-status>=1.73.1"
 pip check
-pip install "ipython>=8.37.0"
+pip install "httpx>=0.28.1"
+pip install "ipython>=9.4.0"
+pip check
 pip install "jsonschema-specifications>=2025.4.1"
 pip install "jupyter-client>=8.6.3"
 pip install "jupyter-server-terminals>=0.5.3"
@@ -204,17 +209,15 @@ pip install "scikit-image>=0.25.2"
 pip install "scikit-learn>=1.7.0"
 pip check
 pip install "yarg>=0.1.10"
-pip install "yarl>=1.20.1"
 pip check
 # Level 3
 # Level 4
-pip install "aiohttp>=3.12.14"
+pip install "aiobotocore>=2.23.0"
 pip install "argon2-cffi>=25.1.0"
 pip check
-pip install "google-api-core>=2.19.1"
+pip install "google-api-core>=2.25.1"
 pip install "google-auth-httplib2>=0.2.0"
 pip check
-pip install "httpx>=0.28.1"
 pip install "ipykernel>=6.29.5"
 pip install "isoduration>=20.11.0"
 pip check
@@ -222,13 +225,13 @@ pip install "jsonschema>=4.24.0"
 pip check
 # Level 4
 # Level 5
-pip install "aiobotocore>=2.23.0"
-pip check
-pip install "google-api-python-client>=2.154.0"
+pip install "google-api-python-client>=2.176.0"
 pip install "google-cloud-core>=2.4.3"
 pip check
 pip install "jupyter-events>=0.12.0"
 pip install "nbformat>=5.10.4"
+pip check
+pip install "s3fs>=2025.5.1"
 pip check
 # Level 5
 # Level 6
@@ -236,7 +239,6 @@ pip install "google-cloud-bigquery>=3.34.0"
 pip install "google-cloud-storage>=3.2.0"
 pip check
 pip install "nbclient>=0.10.2"
-pip install "s3fs>=2025.5.1"
 pip check
 # Level 6
 # Level 7
