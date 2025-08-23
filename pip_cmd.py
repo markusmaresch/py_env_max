@@ -263,7 +263,7 @@ class PipCmd:
         pr = PipReturn()  # installs=packages_with_versions)
         try:
             error = False
-            pip_args = [sys.executable, '-m', 'pip', '--verbose', 'install']
+            pip_args = [sys.executable, '-m', 'pip', '--verbose']
             attempt_ssl_fix = True
             if attempt_ssl_fix:
                 pip_args += ['--trusted-host=pypi.python.org',
@@ -271,7 +271,9 @@ class PipCmd:
                              '--trusted-host=files.pythonhosted.org']
             if dry_run:
                 pip_args += ['--dry-run']
+            pip_args += ['install']
             pip_args += packages_with_versions
+            # print(f'calling pip: {' '.join(pip_args)}')
             cp = subprocess.run(pip_args, shell=False, capture_output=True)
             for line in cp.stdout.decode().split('\n'):
                 if not line:
@@ -325,6 +327,8 @@ class PipCmd:
                 # fi
                 if len(v) > 2 and v[2] == 'requires':
                     error = True
+                if v[0] == 'Connected' and v[1] == 'to:':
+                    continue
                 # also trace:
                 # ERROR: Could not find a version that satisfies the requirement box2d==2.3.10 (from versions: 2.0.2b1, 2.3b0, 2.3.2)
                 # ERROR: No matching distribution found for box2d==2.3.10
