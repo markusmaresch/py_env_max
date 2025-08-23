@@ -149,7 +149,7 @@ class PipCmd:
         return tree
 
     @staticmethod
-    def get_conflicts(tree: PackageDAG, verbose: bool = False) -> [str]:
+    def get_conflicts(tree: PackageDAG, verbose: bool = False) -> typing.List[str]:
         if verbose:
             print('Checking conflicts ..')
         conflicts = conflicting_deps(tree)
@@ -179,7 +179,7 @@ class PipCmd:
         return lines
 
     @staticmethod
-    def get_cycles(tree: PackageDAG, verbose: bool = False) -> [str]:
+    def get_cycles(tree: PackageDAG, verbose: bool = False) -> typing.List[str]:
         if verbose:
             print('Checking cycles ..')
         cycles_packages = cyclic_deps(tree)
@@ -249,7 +249,7 @@ class PipCmd:
         def has_digit(s: str):
             return any(i.isdigit() for i in s)
 
-        def split_package_version(package_with_version: str) -> (str, str):
+        def split_package_version(package_with_version: str) -> typing.Tuple[str, str]:
             s = package_with_version.rsplit('-', maxsplit=1)
             if s is None or len(s) < 2:
                 return '', ''

@@ -69,7 +69,7 @@ class PackageStack:
         return False
 
     @staticmethod
-    def get_components(pwv: str) -> (str, str):
+    def get_components(pwv: str) -> typing.Tuple[str, str]:
         s = pwv.split('==')
         if s is None:
             return '', ''
@@ -403,7 +403,7 @@ class EnvCmd:
         return ok
 
     @staticmethod
-    def install_stack(env_name: str, packages_with_versions: [str]) -> dict:
+    def install_stack(env_name: str, packages_with_versions: typing.List[str]) -> dict:
         updated_all = dict()
         stack = PackageStack()
         stack.extend_full(packages_with_versions)
@@ -487,7 +487,7 @@ class EnvCmd:
         return updated_all
 
     @staticmethod
-    def unwrap_packages(packages_file_list: str) -> [str]:
+    def unwrap_packages(packages_file_list: typing.List[str]) -> typing.Optional[typing.List[str]]:
         print(f'unwrap_packages: {packages_file_list})')
         try:
             #
@@ -521,8 +521,8 @@ class EnvCmd:
 
     @staticmethod
     def install_packages(env_name: str,
-                         packages_with_versions: [str],
-                         packages_file_list: [str],
+                         packages_with_versions: typing.List[str],
+                         packages_file_list: typing.List[str],
                          force: bool = False) -> bool:
         print('install_packages: {} (force={})'.format(env_name, force))
         flag_direct = (packages_with_versions is not None and len(packages_with_versions) > 0)

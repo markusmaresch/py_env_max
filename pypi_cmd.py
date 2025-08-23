@@ -131,7 +131,7 @@ class PyPiCmd:
         return d
 
     @staticmethod
-    def get_release_one(name: str, index: int, result: [typing.Dict], counter: ThreadSafeCounter):
+    def get_release_one(name: str, index: int, result: typing.List[typing.Dict], counter: ThreadSafeCounter):
         rd = PyPiCmd.get_releases(name=name)
         c = 'x' if rd is None else '.'
         result[index] = rd
@@ -140,7 +140,7 @@ class PyPiCmd:
         return
 
     @staticmethod
-    def get_release_many(packages: [str]) -> [typing.Dict]:
+    def get_release_many(packages: typing.List[str]) -> typing.List[typing.Dict]:
 
         def fix_releases(rf: typing.List) -> typing.Union[typing.List[typing.List], object]:
             """

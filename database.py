@@ -166,7 +166,7 @@ class Database:
         self.set_dirty(True, reason='delete: {}'.format(name))
         return True
 
-    def package_set_required_by(self, name: str, required_by: [str]) -> bool:
+    def package_set_required_by(self, name: str, required_by: typing.List[str]) -> bool:
         table = self.table_packages()
         p = table.get(name)
         if p is None:
@@ -198,7 +198,7 @@ class Database:
                 pass  # print('Summary: same or empty before')
         return True
 
-    def package_get_releases_recent(self, name: str, release_filter: ReleaseFilter) -> [str]:
+    def package_get_releases_recent(self, name: str, release_filter: ReleaseFilter) -> typing.Optional[typing.List[str]]:
         table = self.table_packages()
         d = table.get(name)
         if d is None:
@@ -216,7 +216,7 @@ class Database:
         return s
 
     def package_set_releases_recent(self, name: str,
-                                    releases: [str], checked_time: int) -> bool:
+                                    releases: typing.List[str], checked_time: int) -> bool:
         if releases is None:
             return False
         table = self.table_packages()
@@ -318,7 +318,7 @@ class Database:
             return -1
         return t
 
-    def package_get_requires(self, name: str) -> [str]:
+    def package_get_requires(self, name: str) -> typing.List[str]:
         table = self.table_packages()
         d = table.get(name)
         requires = d.get(Database.REQUIRES)
@@ -331,7 +331,7 @@ class Database:
             print('error multiple packages as requirements: {} {}: {}'.format(name, dupes[0], requires))
         return [Utils.canonicalize_name(r[PyPi.PACKAGE_NAME]) for r in requires]
 
-    def package_get_required_by(self, name: str) -> [str]:
+    def package_get_required_by(self, name: str) -> typing.List[str]:
         table = self.table_packages()
         d = table.get(name)
         required_by = d.get(Database.REQUIRED_BY)
@@ -349,12 +349,12 @@ class Database:
             return '0.0.1'
         return vr
 
-    def packages_get_names_all(self) -> [str]:
+    def packages_get_names_all(self) -> typing.List[str]:
         table = self.table_packages()
         keys = table.keys()
         return [Utils.canonicalize_name(k) for k in keys]
 
-    def packages_get_names_by_level(self, level: int, less_then: bool = False) -> [str]:
+    def packages_get_names_by_level(self, level: int, less_then: bool = False) -> typing.List[str]:
         table = self.table_packages()
         keys_all = table.keys()
         keys_level = list()

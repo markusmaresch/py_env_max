@@ -10,7 +10,7 @@ from packaging.version import Version as PackagingVersion
 class Version:
 
     @staticmethod
-    def sort(releases: [str], reverse: bool) -> [str]:
+    def sort(releases: typing.List[str], reverse: bool) -> typing.List[str]:
         try:
             s = sorted(releases, key=lambda x: version.Version(x), reverse=reverse)
         except:
