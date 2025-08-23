@@ -3,7 +3,7 @@
 #
 import enum
 
-from version import Version, NormalizedVersion
+from version import Version
 
 
 @enum.unique
@@ -135,7 +135,7 @@ class Constraints:
             self.append2(version_required)
         return True
 
-    def accept(self, comp: int, release: NormalizedVersion, version: NormalizedVersion):
+    def accept(self, comp: int, release: Version, version: Version):
         if comp == Comparator.GE:
             if release >= version:
                 return True
