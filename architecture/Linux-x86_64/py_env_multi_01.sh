@@ -1,4 +1,4 @@
-# 2025-06-26T20:50:50.909436+00:00
+# 2025-08-23T22:40:53.969264+00:00
 # Level 1
 pip install "aiohappyeyeballs>=2.6.1"
 pip install "annotated-types>=0.7.0"
@@ -127,7 +127,7 @@ pip install "parameterized>=0.9.0"
 pip install "parso>=0.8.4"
 pip install "persist-queue>=1.0.0"
 pip install "pillow>=11.2.1"
-pip install "pip>=25.1.1"
+pip install "pip>=25.2"
 pip install "platformdirs>=4.3.8"
 pip install "pluggy>=1.6.0"
 pip install "portalocker>=3.2.0"
@@ -150,10 +150,11 @@ pip install "pygments>=2.19.2"
 pip install "pyjwt>=2.10.1"
 pip install "pymage-size>=1.7.1"
 pip install "pymodbustcp>=0.3.0"
+pip install "pymupdf>=1.26.3"
 pip install "pyparsing>=3.2.3"
 pip install "pypdf>=5.6.1"
-pip install "pypika>=0.48.9"
 pip check
+pip install "pypika>=0.48.9"
 pip install "pyproject-hooks>=1.2.0"
 pip install "pyqtree>=1.0.0"
 pip install "pyreadline3>=3.5.4"
@@ -163,8 +164,8 @@ pip install "python-dotenv>=1.1.1"
 pip install "python-json-logger>=3.3.0"
 pip install "python-ulid>=3.0.0"
 pip install "pytz>=2025.2"
-pip install "pyyaml>=6.0.2"
 pip check
+pip install "pyyaml>=6.0.2"
 pip install "pyzbar>=0.1.9"
 pip install "pyzmq>=27.0.0"
 pip check
@@ -174,7 +175,7 @@ pip check
 pip install "regex>=2024.11.6"
 pip install "rfc3986-validator>=0.1.1"
 pip install "rpds-py>=0.25.1"
-pip install "ruff>=0.12.0"
+pip install "ruff>=0.12.1"
 pip check
 pip install "safetensors>=0.5.3"
 pip install "segment-anything>=1.0"

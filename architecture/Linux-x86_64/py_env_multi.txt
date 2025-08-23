@@ -10,6 +10,7 @@ ansicon
 anthropic
 antlr4-python3-runtime
 anyio
+arena-api
 argon2-cffi
 argon2-cffi-bindings
 arrow
@@ -318,6 +319,7 @@ pygments
 pyjwt
 pymage-size
 pymodbustcp
+pymupdf
 pynacl
 pyowm
 pyparsing

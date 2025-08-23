@@ -130,6 +130,7 @@ pygments
 pyjwt
 pymage-size
 pymodbustcp
+pymupdf
 pyparsing
 pypdf
 pypika
@@ -197,6 +198,7 @@ zstandard
 aiosignal
 aiosqlite
 anyio
+arena-api
 beautifulsoup4
 bleach
 blessed

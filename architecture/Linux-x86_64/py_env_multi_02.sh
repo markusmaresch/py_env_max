@@ -1,8 +1,9 @@
-# 2025-06-26T20:50:50.909436+00:00
+# 2025-08-23T22:40:53.969264+00:00
 # Level 2
 pip install "aiosignal>=1.3.2"
 pip install "aiosqlite>=0.21.0"
 pip install "anyio>=4.9.0"
+pip install "arena-api>=2.7.1"
 pip check
 pip install "beautifulsoup4>=4.13.4"
 pip install "bleach>=6.2.0"
