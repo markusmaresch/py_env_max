@@ -55,6 +55,9 @@ class PackageDAG(Mapping[DistPackage, List[ReqPackage]]):
                 m[p] = reqs
             except Exception as e:
                 print(f'from_pkgs: {p} {e}')
+                #
+                # this indicates a broken package; remove it and reinstall manually.
+                #
                 good = False
         # for
         if not good:
