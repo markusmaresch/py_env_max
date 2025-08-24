@@ -1,4 +1,4 @@
-# 2025-08-24T00:02:36.628963+00:00
+# 2025-08-24T00:57:19.071999+00:00
 # Level 3
 pip install "aiohttp>=3.12.15"
 pip install "albucore>=0.0.24"
@@ -52,7 +52,7 @@ pip check
 pip install "scikit-image>=0.25.2"
 pip install "scikit-learn>=1.7.1"
 pip install "sqlite-utils>=3.38"
-pip install "starlette>=0.46.2"
+pip install "starlette>=0.47.2"
 pip check
 pip install "tiktoken>=0.11.0"
 pip install "watchfiles>=1.1.0"

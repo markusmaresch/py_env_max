@@ -1,4 +1,4 @@
-# 2025-08-24T00:02:36.628963+00:00
+# 2025-08-24T00:57:19.071999+00:00
 # Level 1
 pip install "aiohappyeyeballs>=2.6.1"
 pip install "annotated-types>=0.7.0"
@@ -16,7 +16,7 @@ pip install "bcrypt>=4.3.0"
 pip install "blinker>=1.9.0"
 pip check
 pip install "cachetools>=5.5.2"
-pip install "certifi>=2025.6.15"
+pip install "certifi>=2025.8.3"
 pip install "chardet>=5.2.0"
 pip install "charset-normalizer>=3.4.3"
 pip install "click>=8.2.1"
@@ -50,7 +50,7 @@ pip install "fqdn>=1.5.1"
 pip install "frozenlist>=1.7.0"
 pip install "fsspec>=2025.7.0"
 pip check
-pip install "geojson>=2.5.0"
+pip install "geojson>=3.2.0"
 pip install "google-crc32c>=1.7.1"
 pip install "gputil>=1.4.0"
 pip install "greenlet>=3.2.4"
@@ -124,7 +124,7 @@ pip install "opt-einsum>=3.4.0"
 pip install "orjson>=3.11.2"
 pip install "overrides>=7.7.0"
 pip check
-pip install "packaging>=24.2"
+pip install "packaging>=25.0"
 pip install "pandocfilters>=1.5.1"
 pip install "parameterized>=0.9.0"
 pip install "parso>=0.8.5"
@@ -215,7 +215,7 @@ pip install "uritemplate>=4.2.0"
 pip install "urllib3>=2.5.0"
 pip install "uvloop>=0.21.0"
 pip check
-pip install "wassima>=1.2.2"
+pip install "wassima>=2.0.1"
 pip install "watchdog>=6.0.0"
 pip install "wcwidth>=0.2.13"
 pip install "webcolors>=24.11.1"
@@ -229,7 +229,7 @@ pip install "xlsxwriter>=3.2.5"
 pip install "yoctopuce>=2.1.6320"
 pip check
 pip install "zipp>=3.23.0"
-pip install "zstandard>=0.23.0"
+pip install "zstandard>=0.24.0"
 pip check
 # Level 1
 # Level 2
@@ -391,7 +391,7 @@ pip check
 pip install "scikit-image>=0.25.2"
 pip install "scikit-learn>=1.7.1"
 pip install "sqlite-utils>=3.38"
-pip install "starlette>=0.46.2"
+pip install "starlette>=0.47.2"
 pip check
 pip install "tiktoken>=0.11.0"
 pip install "watchfiles>=1.1.0"
