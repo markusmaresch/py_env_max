@@ -1,6 +1,6 @@
-# 2025-08-23T22:40:53.969264+00:00
+# 2025-08-24T00:02:36.628963+00:00
 # Level 9
-pip install "jupyter-lsp>=2.2.5"
+pip install "jupyter-lsp>=2.2.6"
 pip install "jupyterlab-server>=2.27.3"
 pip check
 pip install "llama-index-program-openai>=0.3.2"

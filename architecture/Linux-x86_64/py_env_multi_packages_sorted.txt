@@ -17,6 +17,7 @@ chardet
 charset-normalizer
 click
 colorama
+comm
 condense-json
 cycler
 cython
@@ -56,6 +57,7 @@ ijson
 importlib-resources
 imutils
 iniconfig
+invoke
 ipython-genutils
 itsdangerous
 jh2
@@ -68,6 +70,7 @@ jsonpointer
 jupyter-highlight-selected-word
 jupyterlab-pygments
 kiwisolver
+lark
 llvmlite
 lmdb
 lxml
@@ -205,8 +208,8 @@ blessed
 build
 cffi
 click-default-group
+click-option-group
 coloredlogs
-comm
 contourpy
 deprecated
 email-validator
@@ -260,6 +263,7 @@ referencing
 reportlab
 requests
 rfc3339-validator
+rfc3987-syntax
 rsa
 scipy
 shapely

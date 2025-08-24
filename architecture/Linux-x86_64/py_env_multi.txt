@@ -38,6 +38,7 @@ chardet
 charset-normalizer
 click
 click-default-group
+click-option-group
 clr-loader
 colorama
 coloredlogs
@@ -126,6 +127,7 @@ imutils
 iniconfig
 intel-cmplr-lib-ur
 intel-openmp
+invoke
 iopath
 iprogress
 ipykernel
@@ -173,6 +175,7 @@ langchain-core
 langchain-openai
 langchain-text-splitters
 langsmith
+lark
 lazy-loader
 lightning
 lightning-utilities
@@ -352,6 +355,7 @@ requests-oauthlib
 requests-toolbelt
 rfc3339-validator
 rfc3986-validator
+rfc3987-syntax
 rich
 rpds-py
 rsa
