@@ -1,6 +1,7 @@
 aiohappyeyeballs
 aiohttp
 aiosignal
+aiosqlite
 aisuite
 albucore
 albumentations
@@ -40,6 +41,7 @@ chroma-hnswlib
 chromadb
 click
 click-default-group
+click-option-group
 clr-loader
 colorama
 coloredlogs
@@ -124,9 +126,11 @@ imageio
 importlib-metadata
 importlib-resources
 imutils
+inflect
 iniconfig
 intel-cmplr-lib-ur
 intel-openmp
+invoke
 iopath
 iprogress
 ipykernel
@@ -135,9 +139,11 @@ ipython-genutils
 ipython-pygments-lexers
 isoduration
 itsdangerous
+jaraco-functools
 jax
 jaxlib
 jedi
+jh2
 jinja2
 jinxed
 jiter
@@ -173,6 +179,7 @@ langchain-core
 langchain-openai
 langchain-text-splitters
 langsmith
+lark
 lazy-loader
 lightning
 lightning-utilities
@@ -185,6 +192,7 @@ llama-index-cli
 llama-index-core
 llama-index-embeddings-openai
 llama-index-indices-managed-llama-cloud
+llama-index-instrumentation
 llama-index-legacy
 llama-index-llms-ollama
 llama-index-llms-openai
@@ -193,6 +201,7 @@ llama-index-program-openai
 llama-index-question-gen-openai
 llama-index-readers-file
 llama-index-readers-llama-parse
+llama-index-workflows
 llama-parse
 llamaindex-py-client
 llm
@@ -229,6 +238,7 @@ nbconvert
 nbformat
 nest-asyncio
 networkx
+niquests
 nltk
 nodeenv
 notebook
@@ -271,8 +281,8 @@ pandas-gbq
 pandocfilters
 parameterized
 parso
+pdf2image
 persist-queue
-piconnect
 pillow
 pip
 pipdeptree
@@ -292,6 +302,7 @@ puremagic
 pyarrow
 pyasn1
 pyasn1-modules
+pybase64
 pycodestyle
 pycparser
 pydantic
@@ -306,6 +317,7 @@ pyjwt
 pylucidio
 pymage-size
 pymodbustcp
+pymupdf
 pynacl
 pyowm
 pyparsing
@@ -330,6 +342,7 @@ pywinpty
 pyyaml
 pyzbar
 pyzmq
+qh3
 qrcode
 referencing
 regex
@@ -339,6 +352,7 @@ requests-oauthlib
 requests-toolbelt
 rfc3339-validator
 rfc3986-validator
+rfc3987-syntax
 rich
 rpds-py
 rsa
@@ -382,6 +396,7 @@ timm
 tinycss2
 tokenizers
 toml
+tomli
 tomli-w
 tomlkit
 torch
@@ -392,6 +407,7 @@ tornado
 tqdm
 traitlets
 transformers
+typeguard
 typer
 types-python-dateutil
 typing-extensions
@@ -402,7 +418,9 @@ umf
 uri-template
 uritemplate
 urllib3
+urllib3-future
 uvicorn
+wassima
 watchdog
 watchfiles
 wcwidth
@@ -413,7 +431,6 @@ websockets
 werkzeug
 wheel
 wrapt
-xgboost
 xlsxwriter
 yarl
 yoctopuce

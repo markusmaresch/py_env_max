@@ -16,6 +16,7 @@ certifi
 chardet
 charset-normalizer
 colorama
+comm
 condense-json
 cycler
 cython
@@ -53,8 +54,10 @@ ijson
 importlib-resources
 imutils
 iniconfig
+invoke
 ipython-genutils
 itsdangerous
+jh2
 jiter
 joblib
 json5
@@ -63,6 +66,7 @@ jsonpointer
 jupyter-highlight-selected-word
 jupyterlab-pygments
 kiwisolver
+lark
 llvmlite
 lmdb
 lxml
@@ -105,6 +109,7 @@ pure-eval
 puremagic
 pyarrow
 pyasn1
+pybase64
 pycodestyle
 pycparser
 pyflakes
@@ -113,6 +118,7 @@ pyjwt
 pylucidio
 pymage-size
 pymodbustcp
+pymupdf
 pyparsing
 pypdf
 pypika
@@ -130,6 +136,7 @@ pywinpty
 pyyaml
 pyzbar
 pyzmq
+qh3
 regex
 rfc3986-validator
 rpds-py
@@ -152,6 +159,7 @@ tcmlib
 tenacity
 threadpoolctl
 toml
+tomli
 tomli-w
 tomlkit
 tornado
@@ -162,6 +170,7 @@ tzdata
 uri-template
 uritemplate
 urllib3
+wassima
 watchdog
 wcwidth
 webcolors
@@ -175,6 +184,7 @@ yoctopuce
 zipp
 zstandard
 aiosignal
+aiosqlite
 anyio
 arena-api
 beautifulsoup4
@@ -183,7 +193,6 @@ build
 cffi
 chroma-hnswlib
 click
-comm
 contourpy
 deprecated
 email-validator
@@ -201,6 +210,7 @@ imageio
 importlib-metadata
 iprogress
 ipython-pygments-lexers
+jaraco-functools
 jedi
 jinja2
 jinxed
@@ -221,6 +231,7 @@ opencv-python
 opencv-python-headless
 openmeteo-sdk
 opentelemetry-proto
+pdf2image
 pipdeptree
 plyfile
 portalocker
@@ -236,6 +247,7 @@ referencing
 reportlab
 requests
 rfc3339-validator
+rfc3987-syntax
 rsa
 scipy
 shapely
@@ -248,9 +260,11 @@ terminado
 tifffile
 tinycss2
 tqdm
+typeguard
 typing-inspect
 typing-inspection
 umf
+urllib3-future
 werkzeug
 yarl
 aiohttp
@@ -260,6 +274,7 @@ arrow
 azure-core
 blessed
 click-default-group
+click-option-group
 clr-loader
 coloredlogs
 cryptography
@@ -272,6 +287,7 @@ grpcio-status
 httpx
 huggingface-hub
 hydra-core
+inflect
 intel-cmplr-lib-ur
 iopath
 ipython
@@ -282,8 +298,8 @@ jupyter-server-terminals
 kfp-server-api
 llama-cpp-python
 matplotlib
+niquests
 nltk
-openmeteo-requests
 opentelemetry-api
 opentelemetry-exporter-otlp-proto-common
 pandas
@@ -302,7 +318,6 @@ tiktoken
 torch
 uvicorn
 watchfiles
-xgboost
 aisuite
 albumentations
 anthropic
@@ -324,12 +339,14 @@ kubernetes
 langsmith
 llama-cloud
 llama-index-core
+llama-index-instrumentation
 llamaindex-py-client
 mistralai
 msal
 ollama
 onnxruntime
 openai
+openmeteo-requests
 opentelemetry-instrumentation
 opentelemetry-semantic-conventions
 pydantic-settings
@@ -359,12 +376,12 @@ llama-index-legacy
 llama-index-llms-ollama
 llama-index-llms-openai
 llama-index-readers-file
+llama-index-workflows
 mkl
 msal-extensions
 nbformat
 opentelemetry-instrumentation-asgi
 opentelemetry-sdk
-piconnect
 pydata-google-auth
 pytorch-lightning
 sam2
