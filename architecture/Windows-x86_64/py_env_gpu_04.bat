@@ -1,7 +1,6 @@
-rem 2025-08-25T16:59:47.607702+00:00
+rem 2025-08-30T22:57:51.475034+00:00
 rem Level 4
 pip install "aisuite>=0.1.11"
-pip install "albumentations>=2.0.8"
 pip install "anthropic>=0.64.0"
 pip install "argon2-cffi>=25.1.0"
 pip check
@@ -31,6 +30,7 @@ pip install "llama-index-instrumentation>=0.4.0"
 pip install "llamaindex-py-client>=0.1.19"
 pip check
 pip install "mistralai>=1.5.2"
+pip install "mplfinance>=0.12.10b0"
 pip install "msal>=1.33.0"
 pip check
 pip install "ollama>=0.5.3"
@@ -50,5 +50,7 @@ pip install "torchaudio>=2.6.0+cu126"
 pip install "torchmetrics>=1.8.1"
 pip install "torchvision>=0.21.0+cu126"
 pip install "typer>=0.16.1"
+pip check
+pip install "yfinance>=0.2.65"
 pip check
 rem Level 4

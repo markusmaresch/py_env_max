@@ -1,4 +1,4 @@
-rem 2025-08-25T16:59:47.607702+00:00
+rem 2025-08-30T22:57:51.475034+00:00
 rem Level 1
 pip install "aiohappyeyeballs>=2.6.1"
 pip install "annotated-types>=0.7.0"
@@ -9,9 +9,11 @@ pip install "asttokens>=3.0.0"
 pip install "async-lru>=2.0.5"
 pip install "async-timeout>=5.0.1"
 pip install "attrs>=25.3.0"
+pip install "autocommand>=2.2.2"
 pip check
 pip install "babel>=2.17.0"
 pip install "backoff>=2.2.1"
+pip install "backports-tarfile>=1.2.0"
 pip install "bcrypt>=4.3.0"
 pip install "blinker>=1.9.0"
 pip check
@@ -46,6 +48,7 @@ pip install "filetype>=1.2.0"
 pip install "flatbuffers>=25.2.10"
 pip install "fonttools>=4.59.1"
 pip install "fqdn>=1.5.1"
+pip install "frozendict>=2.4.6"
 pip install "frozenlist>=1.7.0"
 pip install "fsspec>=2025.7.0"
 pip check
@@ -94,6 +97,7 @@ pip install "more-itertools>=10.7.0"
 pip install "mpmath>=1.3.0"
 pip install "multidict>=6.6.4"
 pip check
+pip install "multitasking>=0.0.12"
 pip install "mypy-extensions>=1.1.0"
 pip check
 pip install "narwhals>=2.1.2"
@@ -113,13 +117,14 @@ pip install "packaging>=23.2"
 pip install "pandocfilters>=1.5.1"
 pip install "parameterized>=0.9.0"
 pip install "parso>=0.8.5"
+pip install "peewee>=3.18.2"
 pip install "persist-queue>=1.0.0"
 pip install "pillow>=11.3.0"
 pip install "pip>=25.2"
 pip install "platformdirs>=4.3.8"
 pip install "pluggy>=1.6.0"
-pip install "prometheus-client>=0.22.1"
 pip check
+pip install "prometheus-client>=0.22.1"
 pip install "propcache>=0.3.2"
 pip install "protobuf>=4.25.5"
 pip install "psutil>=7.0.0"
@@ -129,8 +134,8 @@ pip install "pyarrow>=21.0.0"
 pip install "pyasn1>=0.6.1"
 pip install "pybase64>=1.4.2"
 pip install "pycodestyle>=2.14.0"
-pip install "pycparser>=2.22"
 pip check
+pip install "pycparser>=2.22"
 pip install "pyflakes>=3.4.0"
 pip install "pygments>=2.19.2"
 pip install "pyjwt>=2.10.1"
@@ -140,8 +145,8 @@ pip install "pymodbustcp>=0.3.0"
 pip install "pymupdf>=1.26.3"
 pip install "pyparsing>=3.2.3"
 pip install "pypdf>=5.9.0"
-pip install "pypika>=0.48.9"
 pip check
+pip install "pypika>=0.48.9"
 pip install "pyproject-hooks>=1.2.0"
 pip install "pyqtree>=1.0.0"
 pip install "pyreadline3>=3.5.4"
@@ -151,8 +156,8 @@ pip install "python-dotenv>=1.1.1"
 pip install "python-json-logger>=3.3.0"
 pip install "python-ulid>=3.1.0"
 pip install "pytz>=2025.2"
-pip install "pywin32>=311"
 pip check
+pip install "pywin32>=311"
 pip install "pywinpty>=3.0.0"
 pip install "pyyaml>=6.0.2"
 pip install "pyzbar>=0.1.9"
@@ -251,6 +256,7 @@ pip install "importlib-metadata>=8.4.0"
 pip install "iprogress>=0.4"
 pip install "ipython-pygments-lexers>=1.1.1"
 pip check
+pip install "jaraco-context>=6.0.1"
 pip install "jaraco-functools>=4.3.0"
 pip install "jedi>=0.19.2"
 pip install "jinja2>=3.1.6"
@@ -333,6 +339,7 @@ pip install "click-option-group>=0.5.7"
 pip install "clr-loader>=0.2.7.post0"
 pip install "coloredlogs>=15.0.1"
 pip install "cryptography>=45.0.6"
+pip install "curl-cffi>=0.13.0"
 pip check
 pip install "dataclasses-json>=0.6.7"
 pip install "flask>=3.1.2"
@@ -351,6 +358,7 @@ pip install "intel-cmplr-lib-ur>=2025.2.1"
 pip install "iopath>=0.1.10"
 pip install "ipython>=9.4.0"
 pip check
+pip install "jaraco-text>=4.0.0"
 pip install "jaxlib>=0.7.1"
 pip install "jsonschema-specifications>=2025.4.1"
 pip install "jupyter-client>=8.6.3"
@@ -390,7 +398,6 @@ pip check
 rem Level 3
 rem Level 4
 pip install "aisuite>=0.1.11"
-pip install "albumentations>=2.0.8"
 pip install "anthropic>=0.64.0"
 pip install "argon2-cffi>=25.1.0"
 pip check
@@ -420,6 +427,7 @@ pip install "llama-index-instrumentation>=0.4.0"
 pip install "llamaindex-py-client>=0.1.19"
 pip check
 pip install "mistralai>=1.5.2"
+pip install "mplfinance>=0.12.10b0"
 pip install "msal>=1.33.0"
 pip check
 pip install "ollama>=0.5.3"
@@ -439,6 +447,8 @@ pip install "torchaudio>=2.6.0+cu126"
 pip install "torchmetrics>=1.8.1"
 pip install "torchvision>=0.21.0+cu126"
 pip install "typer>=0.16.1"
+pip check
+pip install "yfinance>=0.2.65"
 pip check
 rem Level 4
 rem Level 5

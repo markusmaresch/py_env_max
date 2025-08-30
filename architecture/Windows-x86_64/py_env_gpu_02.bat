@@ -1,4 +1,4 @@
-rem 2025-08-25T16:59:47.607702+00:00
+rem 2025-08-30T22:57:51.475034+00:00
 rem Level 2
 pip install "aiosignal>=1.4.0"
 pip install "aiosqlite>=0.21.0"
@@ -35,6 +35,7 @@ pip install "importlib-metadata>=8.4.0"
 pip install "iprogress>=0.4"
 pip install "ipython-pygments-lexers>=1.1.1"
 pip check
+pip install "jaraco-context>=6.0.1"
 pip install "jaraco-functools>=4.3.0"
 pip install "jedi>=0.19.2"
 pip install "jinja2>=3.1.6"

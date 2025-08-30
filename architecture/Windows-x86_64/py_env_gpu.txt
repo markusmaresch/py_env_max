@@ -4,7 +4,6 @@ aiosignal
 aiosqlite
 aisuite
 albucore
-albumentations
 altair
 annotated-types
 ansicon
@@ -20,10 +19,12 @@ asttokens
 async-lru
 async-timeout
 attrs
+autocommand
 azure-core
 azure-identity
 babel
 backoff
+backports-tarfile
 banks
 bcrypt
 beautifulsoup4
@@ -49,6 +50,7 @@ comm
 condense-json
 contourpy
 cryptography
+curl-cffi
 cycler
 cython
 dataclasses-json
@@ -78,6 +80,7 @@ flatbuffers
 fonttools
 fpdf2
 fqdn
+frozendict
 frozenlist
 fsspec
 geojson
@@ -139,7 +142,9 @@ ipython-genutils
 ipython-pygments-lexers
 isoduration
 itsdangerous
+jaraco-context
 jaraco-functools
+jaraco-text
 jax
 jaxlib
 jedi
@@ -227,10 +232,12 @@ ml-dtypes
 mmh3
 monotonic
 more-itertools
+mplfinance
 mpmath
 msal
 msal-extensions
 multidict
+multitasking
 mypy-extensions
 narwhals
 nbclient
@@ -282,6 +289,7 @@ pandocfilters
 parameterized
 parso
 pdf2image
+peewee
 persist-queue
 pillow
 pip
@@ -433,6 +441,7 @@ wheel
 wrapt
 xlsxwriter
 yarl
+yfinance
 yoctopuce
 zipp
 zstandard

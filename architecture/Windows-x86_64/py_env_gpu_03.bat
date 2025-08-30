@@ -1,4 +1,4 @@
-rem 2025-08-25T16:59:47.607702+00:00
+rem 2025-08-30T22:57:51.475034+00:00
 rem Level 3
 pip install "aiohttp>=3.12.15"
 pip install "albucore>=0.0.24"
@@ -12,6 +12,7 @@ pip install "click-option-group>=0.5.7"
 pip install "clr-loader>=0.2.7.post0"
 pip install "coloredlogs>=15.0.1"
 pip install "cryptography>=45.0.6"
+pip install "curl-cffi>=0.13.0"
 pip check
 pip install "dataclasses-json>=0.6.7"
 pip install "flask>=3.1.2"
@@ -30,6 +31,7 @@ pip install "intel-cmplr-lib-ur>=2025.2.1"
 pip install "iopath>=0.1.10"
 pip install "ipython>=9.4.0"
 pip check
+pip install "jaraco-text>=4.0.0"
 pip install "jaxlib>=0.7.1"
 pip install "jsonschema-specifications>=2025.4.1"
 pip install "jupyter-client>=8.6.3"

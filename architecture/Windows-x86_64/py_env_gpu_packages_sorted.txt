@@ -7,8 +7,10 @@ asttokens
 async-lru
 async-timeout
 attrs
+autocommand
 babel
 backoff
+backports-tarfile
 bcrypt
 blinker
 cachetools
@@ -39,6 +41,7 @@ filetype
 flatbuffers
 fonttools
 fqdn
+frozendict
 frozenlist
 fsspec
 geojson
@@ -80,6 +83,7 @@ monotonic
 more-itertools
 mpmath
 multidict
+multitasking
 mypy-extensions
 narwhals
 nest-asyncio
@@ -96,6 +100,7 @@ packaging
 pandocfilters
 parameterized
 parso
+peewee
 persist-queue
 pillow
 pip
@@ -210,6 +215,7 @@ imageio
 importlib-metadata
 iprogress
 ipython-pygments-lexers
+jaraco-context
 jaraco-functools
 jedi
 jinja2
@@ -278,6 +284,7 @@ click-option-group
 clr-loader
 coloredlogs
 cryptography
+curl-cffi
 dataclasses-json
 flask
 gitpython
@@ -291,6 +298,7 @@ inflect
 intel-cmplr-lib-ur
 iopath
 ipython
+jaraco-text
 jaxlib
 jsonschema-specifications
 jupyter-client
@@ -319,7 +327,6 @@ torch
 uvicorn
 watchfiles
 aisuite
-albumentations
 anthropic
 argon2-cffi
 banks
@@ -342,6 +349,7 @@ llama-index-core
 llama-index-instrumentation
 llamaindex-py-client
 mistralai
+mplfinance
 msal
 ollama
 onnxruntime
@@ -358,6 +366,7 @@ torchaudio
 torchmetrics
 torchvision
 typer
+yfinance
 altair
 google-ai-generativelanguage
 google-api-python-client
