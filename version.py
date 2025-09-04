@@ -4,7 +4,7 @@
 import typing
 
 from pip._vendor.packaging import version
-from packaging.version import Version as PackagingVersion
+from pip._vendor.packaging.version import Version as PackagingVersion
 
 
 class Version:
