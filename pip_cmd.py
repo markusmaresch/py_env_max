@@ -269,9 +269,9 @@ class PipCmd:
                 pip_args += ['--trusted-host=pypi.python.org',
                              '--trusted-host=pypi.org',
                              '--trusted-host=files.pythonhosted.org']
+            pip_args += ['install']
             if dry_run:
                 pip_args += ['--dry-run']
-            pip_args += ['install']
             pip_args += packages_with_versions
             # print(f'calling pip: {' '.join(pip_args)}')
             cp = subprocess.run(pip_args, shell=False, capture_output=True)
