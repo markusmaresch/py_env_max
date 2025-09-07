@@ -15,6 +15,7 @@ cycler
 dnspython
 email-validator
 filelock
+flake8
 flask
 fonttools
 fpdf
@@ -44,6 +45,7 @@ lazy-loader
 lmdb
 markupsafe
 matplotlib
+mccabe
 multidict
 networkx
 numpy
@@ -65,6 +67,8 @@ protobuf
 psutil
 pyasn1
 pyasn1-modules
+pycodestyle
+pyflakes
 pylucidio
 pymage-size
 pyparsing
@@ -77,6 +81,7 @@ qrcode
 reportlab
 requests
 rsa
+ruff
 scikit-image
 scikit-learn
 scipy

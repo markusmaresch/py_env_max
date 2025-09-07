@@ -1,17 +1,17 @@
-# 2025-09-04T15:11:34.137009+00:00
+# 2025-09-07T20:54:45.140131+00:00
 # Level 1
 pip install "aiohappyeyeballs>=2.6.1"
-pip install "async-timeout>=4.0.3"
+pip install "async-timeout>=5.0.1"
 pip install "attrs>=25.3.0"
 pip check
 pip install "blinker>=1.9.0"
 pip install "cachetools>=5.5.2"
 pip install "certifi>=2025.8.3"
-pip install "charset-normalizer>=2.1.1"
+pip install "charset-normalizer>=3.4.3"
 pip install "click>=8.2.1"
 pip install "cycler>=0.12.1"
 pip check
-pip install "dnspython>=2.7.0"
+pip install "dnspython>=2.8.0"
 pip install "filelock>=3.19.1"
 pip install "fonttools>=4.59.2"
 pip install "fpdf>=1.7.2"
@@ -29,6 +29,7 @@ pip install "kiwisolver>=1.4.9"
 pip check
 pip install "lmdb>=1.7.3"
 pip install "markupsafe>=3.0.2"
+pip install "mccabe>=0.7.0"
 pip install "multidict>=6.6.4"
 pip check
 pip install "networkx>=3.5"
@@ -43,8 +44,10 @@ pip install "propcache>=0.3.2"
 pip install "protobuf>=6.32.0"
 pip install "psutil>=7.0.0"
 pip install "pyasn1>=0.6.1"
-pip install "pylucidio>=2.4"
+pip install "pycodestyle>=2.14.0"
 pip check
+pip install "pyflakes>=3.4.0"
+pip install "pylucidio>=2.4"
 pip install "pymage-size>=1.7.1"
 pip install "pyparsing>=3.2.3"
 pip install "pyqtree>=1.0.0"
@@ -53,7 +56,9 @@ pip install "pytz>=2025.2"
 pip install "pyzbar>=0.1.9"
 pip check
 pip install "qrcode>=8.2"
-pip install "setuptools>=78.1.1"
+pip install "ruff>=0.12.12"
+pip check
+pip install "setuptools>=80.9.0"
 pip install "six>=1.17.0"
 pip check
 pip install "threadpoolctl>=3.6.0"
@@ -75,6 +80,7 @@ pip check
 pip install "contourpy>=1.3.3"
 pip install "email-validator>=2.3.0"
 pip check
+pip install "flake8>=7.3.0"
 pip install "google-resumable-media>=2.7.2"
 pip install "googleapis-common-protos>=1.70.0"
 pip check
@@ -89,7 +95,7 @@ pip install "opencv-contrib-python>=4.12.0.88"
 pip install "opencv-python>=4.12.0.88"
 pip install "opencv-python-headless>=4.12.0.88"
 pip check
-pip install "pandas-stubs>=2.2.3.250308"
+pip install "pandas-stubs>=2.3.2.250827"
 pip install "persistqueue>=0.1.6"
 pip install "plyfile>=1.1.2"
 pip install "proto-plus>=1.26.1"
@@ -124,7 +130,7 @@ pip install "scikit-learn>=1.7.1"
 pip check
 # Level 3
 # Level 4
-pip install "braincube-connector>=2.7.0"
+pip install "braincube-connector>=2.8.0"
 pip check
 pip install "google-api-core>=2.25.1"
 pip install "google-auth-httplib2>=0.2.0"

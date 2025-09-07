@@ -21,6 +21,7 @@ joblib
 kiwisolver
 lmdb
 markupsafe
+mccabe
 multidict
 networkx
 numpy
@@ -33,6 +34,8 @@ propcache
 protobuf
 psutil
 pyasn1
+pycodestyle
+pyflakes
 pylucidio
 pymage-size
 pyparsing
@@ -41,6 +44,7 @@ pyserial
 pytz
 pyzbar
 qrcode
+ruff
 setuptools
 six
 threadpoolctl
@@ -55,6 +59,7 @@ aiosignal
 arena-api
 contourpy
 email-validator
+flake8
 google-resumable-media
 googleapis-common-protos
 h5py
