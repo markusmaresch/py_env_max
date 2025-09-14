@@ -1,5 +1,6 @@
-rem 2025-08-30T22:57:51.475034+00:00
+rem 2025-09-14T23:35:58.633326+00:00
 rem Level 1
+pip install "absolufy-imports>=0.3.1"
 pip install "aiohappyeyeballs>=2.6.1"
 pip install "annotated-types>=0.7.0"
 pip install "ansicon>=1.89.0"
@@ -9,6 +10,7 @@ pip install "asttokens>=3.0.0"
 pip install "async-lru>=2.0.5"
 pip install "async-timeout>=5.0.1"
 pip install "attrs>=25.3.0"
+pip check
 pip install "autocommand>=2.2.2"
 pip check
 pip install "babel>=2.17.0"
@@ -21,6 +23,7 @@ pip install "cachetools>=5.5.2"
 pip install "certifi>=2025.8.3"
 pip install "chardet>=5.2.0"
 pip install "charset-normalizer>=3.4.3"
+pip install "cloudpickle>=3.1.1"
 pip install "colorama>=0.4.6"
 pip install "comm>=0.2.3"
 pip install "condense-json>=0.1.3"
@@ -55,6 +58,7 @@ pip check
 pip install "geojson>=2.5.0"
 pip install "google-crc32c>=1.7.1"
 pip install "gputil>=1.4.0"
+pip install "graphviz>=0.21"
 pip install "greenlet>=3.2.4"
 pip install "grpcio>=1.74.0"
 pip check
@@ -111,6 +115,7 @@ pip install "openinference-semantic-conventions>=0.1.21"
 pip install "opentelemetry-util-http>=0.48b0"
 pip install "opt-einsum>=3.4.0"
 pip install "orjson>=3.11.2"
+pip install "ormsgpack>=1.10.0"
 pip install "overrides>=7.7.0"
 pip check
 pip install "packaging>=23.2"
@@ -124,6 +129,7 @@ pip install "pip>=25.2"
 pip install "platformdirs>=4.3.8"
 pip install "pluggy>=1.6.0"
 pip check
+pip install "primp>=0.15.0"
 pip install "prometheus-client>=0.22.1"
 pip install "propcache>=0.3.2"
 pip install "protobuf>=4.25.5"
@@ -133,8 +139,8 @@ pip install "puremagic>=1.30"
 pip install "pyarrow>=21.0.0"
 pip install "pyasn1>=0.6.1"
 pip install "pybase64>=1.4.2"
-pip install "pycodestyle>=2.14.0"
 pip check
+pip install "pycodestyle>=2.14.0"
 pip install "pycparser>=2.22"
 pip install "pyflakes>=3.4.0"
 pip install "pygments>=2.19.2"
@@ -144,8 +150,8 @@ pip install "pymage-size>=1.7.1"
 pip install "pymodbustcp>=0.3.0"
 pip install "pymupdf>=1.26.3"
 pip install "pyparsing>=3.2.3"
-pip install "pypdf>=5.9.0"
 pip check
+pip install "pypdf>=5.9.0"
 pip install "pypika>=0.48.9"
 pip install "pyproject-hooks>=1.2.0"
 pip install "pyqtree>=1.0.0"
@@ -154,9 +160,10 @@ pip install "pyserial>=3.5"
 pip install "pysocks>=1.7.1"
 pip install "python-dotenv>=1.1.1"
 pip install "python-json-logger>=3.3.0"
+pip install "python-multipart>=0.0.20"
+pip check
 pip install "python-ulid>=3.1.0"
 pip install "pytz>=2025.2"
-pip check
 pip install "pywin32>=311"
 pip install "pywinpty>=3.0.0"
 pip install "pyyaml>=6.0.2"
@@ -181,6 +188,7 @@ pip install "sniffio>=1.3.1"
 pip install "soupsieve>=2.7"
 pip check
 pip install "sqlite-fts4>=1.0.3"
+pip install "sqlparse>=0.5.3"
 pip install "stringzilla>=3.12.6"
 pip install "striprtf>=0.0.26"
 pip check
@@ -214,8 +222,9 @@ pip install "wheel>=0.45.1"
 pip install "wrapt>=1.17.3"
 pip check
 pip install "xlsxwriter>=3.2.5"
-pip install "yoctopuce>=2.1.6320"
+pip install "xxhash>=3.5.0"
 pip check
+pip install "yoctopuce>=2.1.6320"
 pip install "zipp>=3.23.0"
 pip install "zstandard>=0.24.0"
 pip check

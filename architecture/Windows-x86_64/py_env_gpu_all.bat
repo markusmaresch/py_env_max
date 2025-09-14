@@ -1,5 +1,6 @@
-rem 2025-08-30T22:57:51.475034+00:00
+rem 2025-09-14T23:35:58.633326+00:00
 rem Level 1
+pip install "absolufy-imports>=0.3.1"
 pip install "aiohappyeyeballs>=2.6.1"
 pip install "annotated-types>=0.7.0"
 pip install "ansicon>=1.89.0"
@@ -9,6 +10,7 @@ pip install "asttokens>=3.0.0"
 pip install "async-lru>=2.0.5"
 pip install "async-timeout>=5.0.1"
 pip install "attrs>=25.3.0"
+pip check
 pip install "autocommand>=2.2.2"
 pip check
 pip install "babel>=2.17.0"
@@ -21,6 +23,7 @@ pip install "cachetools>=5.5.2"
 pip install "certifi>=2025.8.3"
 pip install "chardet>=5.2.0"
 pip install "charset-normalizer>=3.4.3"
+pip install "cloudpickle>=3.1.1"
 pip install "colorama>=0.4.6"
 pip install "comm>=0.2.3"
 pip install "condense-json>=0.1.3"
@@ -55,6 +58,7 @@ pip check
 pip install "geojson>=2.5.0"
 pip install "google-crc32c>=1.7.1"
 pip install "gputil>=1.4.0"
+pip install "graphviz>=0.21"
 pip install "greenlet>=3.2.4"
 pip install "grpcio>=1.74.0"
 pip check
@@ -111,6 +115,7 @@ pip install "openinference-semantic-conventions>=0.1.21"
 pip install "opentelemetry-util-http>=0.48b0"
 pip install "opt-einsum>=3.4.0"
 pip install "orjson>=3.11.2"
+pip install "ormsgpack>=1.10.0"
 pip install "overrides>=7.7.0"
 pip check
 pip install "packaging>=23.2"
@@ -124,6 +129,7 @@ pip install "pip>=25.2"
 pip install "platformdirs>=4.3.8"
 pip install "pluggy>=1.6.0"
 pip check
+pip install "primp>=0.15.0"
 pip install "prometheus-client>=0.22.1"
 pip install "propcache>=0.3.2"
 pip install "protobuf>=4.25.5"
@@ -133,8 +139,8 @@ pip install "puremagic>=1.30"
 pip install "pyarrow>=21.0.0"
 pip install "pyasn1>=0.6.1"
 pip install "pybase64>=1.4.2"
-pip install "pycodestyle>=2.14.0"
 pip check
+pip install "pycodestyle>=2.14.0"
 pip install "pycparser>=2.22"
 pip install "pyflakes>=3.4.0"
 pip install "pygments>=2.19.2"
@@ -144,8 +150,8 @@ pip install "pymage-size>=1.7.1"
 pip install "pymodbustcp>=0.3.0"
 pip install "pymupdf>=1.26.3"
 pip install "pyparsing>=3.2.3"
-pip install "pypdf>=5.9.0"
 pip check
+pip install "pypdf>=5.9.0"
 pip install "pypika>=0.48.9"
 pip install "pyproject-hooks>=1.2.0"
 pip install "pyqtree>=1.0.0"
@@ -154,9 +160,10 @@ pip install "pyserial>=3.5"
 pip install "pysocks>=1.7.1"
 pip install "python-dotenv>=1.1.1"
 pip install "python-json-logger>=3.3.0"
+pip install "python-multipart>=0.0.20"
+pip check
 pip install "python-ulid>=3.1.0"
 pip install "pytz>=2025.2"
-pip check
 pip install "pywin32>=311"
 pip install "pywinpty>=3.0.0"
 pip install "pyyaml>=6.0.2"
@@ -181,6 +188,7 @@ pip install "sniffio>=1.3.1"
 pip install "soupsieve>=2.7"
 pip check
 pip install "sqlite-fts4>=1.0.3"
+pip install "sqlparse>=0.5.3"
 pip install "stringzilla>=3.12.6"
 pip install "striprtf>=0.0.26"
 pip check
@@ -214,8 +222,9 @@ pip install "wheel>=0.45.1"
 pip install "wrapt>=1.17.3"
 pip check
 pip install "xlsxwriter>=3.2.5"
-pip install "yoctopuce>=2.1.6320"
+pip install "xxhash>=3.5.0"
 pip check
+pip install "yoctopuce>=2.1.6320"
 pip install "zipp>=3.23.0"
 pip install "zstandard>=0.24.0"
 pip check
@@ -236,8 +245,9 @@ pip install "click>=8.2.1"
 pip install "contourpy>=1.3.3"
 pip check
 pip install "deprecated>=1.2.18"
-pip install "email-validator>=2.2.0"
+pip install "deprecation>=2.1.0"
 pip check
+pip install "email-validator>=2.2.0"
 pip install "flake8>=7.3.0"
 pip install "fpdf2>=2.8.4"
 pip check
@@ -245,6 +255,7 @@ pip install "gitdb>=4.0.12"
 pip install "google-resumable-media>=2.7.2"
 pip install "googleapis-common-protos>=1.70.0"
 pip install "griffe>=1.12.1"
+pip install "grpc-interceptor>=0.15.4"
 pip check
 pip install "h5py>=3.14.0"
 pip install "httpcore>=1.0.5"
@@ -269,6 +280,7 @@ pip install "kfp-pipeline-spec>=0.6.0"
 pip install "lazy-loader>=0.4"
 pip install "lightning-utilities>=0.15.2"
 pip check
+pip install "mako>=1.3.10"
 pip install "markdown-it-py>=4.0.0"
 pip install "marshmallow>=3.26.1"
 pip install "matplotlib-inline>=0.1.7"
@@ -318,6 +330,7 @@ pip install "tqdm>=4.67.1"
 pip install "typeguard>=4.4.4"
 pip install "typing-inspect>=0.9.0"
 pip install "typing-inspection>=0.4.1"
+pip install "tzlocal>=5.3.1"
 pip check
 pip install "umf>=0.11.0"
 pip install "urllib3-future>=2.13.905"
@@ -329,6 +342,7 @@ rem Level 2
 rem Level 3
 pip install "aiohttp>=3.12.15"
 pip install "albucore>=0.0.24"
+pip install "alembic>=1.16.5"
 pip install "argon2-cffi-bindings>=25.1.0"
 pip install "arrow>=1.3.0"
 pip install "azure-core>=1.35.0"
@@ -342,10 +356,12 @@ pip install "cryptography>=45.0.6"
 pip install "curl-cffi>=0.13.0"
 pip check
 pip install "dataclasses-json>=0.6.7"
-pip install "flask>=3.1.2"
+pip install "ddgs>=9.5.5"
 pip check
+pip install "flask>=3.1.2"
 pip install "gitpython>=3.1.45"
 pip install "google-auth>=2.40.3"
+pip install "google-cloud-audit-log>=0.3.2"
 pip install "grpc-google-iam-v1>=0.14.2"
 pip install "grpcio-status>=1.62.3"
 pip check
@@ -353,6 +369,7 @@ pip install "httpx>=0.27.2"
 pip install "huggingface-hub>=0.34.4"
 pip install "hydra-core>=1.3.2"
 pip check
+pip install "icalendar>=6.3.1"
 pip install "inflect>=7.5.0"
 pip install "intel-cmplr-lib-ur>=2025.2.1"
 pip install "iopath>=0.1.10"
@@ -382,12 +399,13 @@ pip install "pynacl>=1.5.0"
 pip install "pyowm>=3.4.0"
 pip check
 pip install "requests-oauthlib>=2.0.0"
-pip install "requests-toolbelt>=0.10.1"
+pip install "requests-toolbelt>=1.0.0"
 pip install "rich>=14.1.0"
 pip check
 pip install "scikit-image>=0.25.2"
 pip install "scikit-learn>=1.7.1"
-pip install "starlette>=0.45.3"
+pip install "sse-starlette>=3.0.2"
+pip install "starlette>=0.47.3"
 pip check
 pip install "tiktoken>=0.11.0"
 pip install "torch>=2.6.0+cu126"
@@ -400,12 +418,13 @@ rem Level 4
 pip install "aisuite>=0.1.11"
 pip install "anthropic>=0.64.0"
 pip install "argon2-cffi>=25.1.0"
+pip install "authlib>=1.6.3"
 pip check
 pip install "banks>=2.2.0"
 pip install "braincube-connector>=2.7.0"
 pip check
 pip install "db-dtypes>=1.4.2"
-pip install "fastapi>=0.115.9"
+pip install "fastapi>=0.116.1"
 pip check
 pip install "google-api-core>=2.25.1"
 pip install "google-auth-httplib2>=0.2.0"
@@ -420,7 +439,9 @@ pip install "jax>=0.7.1"
 pip install "jsonschema>=4.25.1"
 pip check
 pip install "kubernetes>=30.1.0"
-pip install "langsmith>=0.1.129"
+pip install "lancedb>=0.24.3"
+pip install "langgraph-sdk>=0.2.4"
+pip install "langsmith>=0.1.147"
 pip install "llama-cloud>=0.1.19"
 pip install "llama-index-core>=0.11.23"
 pip install "llama-index-instrumentation>=0.4.0"
@@ -452,15 +473,20 @@ pip install "yfinance>=0.2.65"
 pip check
 rem Level 4
 rem Level 5
+pip install "agno>=1.8.1"
 pip install "altair>=5.5.0"
 pip check
 pip install "google-ai-generativelanguage>=0.6.15"
-pip install "google-api-python-client>=2.135.0"
+pip install "google-api-python-client>=2.181.0"
+pip install "google-cloud-appengine-logging>=1.6.2"
 pip install "google-cloud-artifact-registry>=1.16.1"
 pip install "google-cloud-compute>=1.35.0"
 pip install "google-cloud-core>=2.4.3"
 pip install "google-cloud-resource-manager>=1.14.2"
 pip install "google-cloud-secret-manager>=2.24.0"
+pip install "google-cloud-speech>=2.33.0"
+pip install "google-cloud-trace>=1.16.2"
+pip check
 pip install "google-cloud-vision>=3.10.2"
 pip check
 pip install "jupyter-events>=0.12.0"
@@ -474,6 +500,7 @@ pip install "llama-index-llms-openai>=0.2.16"
 pip install "llama-index-readers-file>=0.3.0"
 pip install "llama-index-workflows>=1.3.0"
 pip check
+pip install "mcp>=1.13.1"
 pip install "mkl>=2025.2.0"
 pip install "msal-extensions>=1.3.1"
 pip check
@@ -495,6 +522,9 @@ rem Level 6
 pip install "azure-identity>=1.24.0"
 pip check
 pip install "google-cloud-bigquery>=3.30.0"
+pip install "google-cloud-bigtable>=2.32.0"
+pip install "google-cloud-logging>=3.12.1"
+pip install "google-cloud-spanner>=3.57.0"
 pip install "google-cloud-storage>=2.19.0"
 pip install "google-generativeai>=0.8.5"
 pip check
@@ -513,6 +543,7 @@ pip install "openinference-instrumentation>=0.1.37"
 pip install "opentelemetry-exporter-otlp-proto-grpc>=1.27.0"
 pip install "opentelemetry-exporter-otlp-proto-http>=1.27.0"
 pip install "opentelemetry-instrumentation-fastapi>=0.48b0"
+pip install "opentelemetry-resourcedetector-gcp>=1.9.0a0"
 pip check
 pip install "sentence-transformers>=5.1.0"
 pip install "streamlit>=1.48.1"
@@ -535,9 +566,11 @@ pip install "nbconvert>=7.16.6"
 pip install "openinference-instrumentation-langchain>=0.1.50"
 pip install "openinference-instrumentation-llama-index>=4.3.4"
 pip install "openinference-instrumentation-openai>=0.1.31"
+pip install "opentelemetry-exporter-gcp-trace>=1.9.0"
 pip install "opentelemetry-exporter-otlp>=1.27.0"
 pip check
 pip install "pandas-gbq>=0.29.2"
+pip install "sqlalchemy-spanner>=1.16.0"
 pip check
 rem Level 7
 rem Level 8

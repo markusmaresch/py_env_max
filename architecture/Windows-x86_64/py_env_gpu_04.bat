@@ -1,14 +1,15 @@
-rem 2025-08-30T22:57:51.475034+00:00
+rem 2025-09-14T23:35:58.633326+00:00
 rem Level 4
 pip install "aisuite>=0.1.11"
 pip install "anthropic>=0.64.0"
 pip install "argon2-cffi>=25.1.0"
+pip install "authlib>=1.6.3"
 pip check
 pip install "banks>=2.2.0"
 pip install "braincube-connector>=2.7.0"
 pip check
 pip install "db-dtypes>=1.4.2"
-pip install "fastapi>=0.115.9"
+pip install "fastapi>=0.116.1"
 pip check
 pip install "google-api-core>=2.25.1"
 pip install "google-auth-httplib2>=0.2.0"
@@ -23,7 +24,9 @@ pip install "jax>=0.7.1"
 pip install "jsonschema>=4.25.1"
 pip check
 pip install "kubernetes>=30.1.0"
-pip install "langsmith>=0.1.129"
+pip install "lancedb>=0.24.3"
+pip install "langgraph-sdk>=0.2.4"
+pip install "langsmith>=0.1.147"
 pip install "llama-cloud>=0.1.19"
 pip install "llama-index-core>=0.11.23"
 pip install "llama-index-instrumentation>=0.4.0"

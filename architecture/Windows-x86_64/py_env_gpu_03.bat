@@ -1,7 +1,8 @@
-rem 2025-08-30T22:57:51.475034+00:00
+rem 2025-09-14T23:35:58.633326+00:00
 rem Level 3
 pip install "aiohttp>=3.12.15"
 pip install "albucore>=0.0.24"
+pip install "alembic>=1.16.5"
 pip install "argon2-cffi-bindings>=25.1.0"
 pip install "arrow>=1.3.0"
 pip install "azure-core>=1.35.0"
@@ -15,10 +16,12 @@ pip install "cryptography>=45.0.6"
 pip install "curl-cffi>=0.13.0"
 pip check
 pip install "dataclasses-json>=0.6.7"
-pip install "flask>=3.1.2"
+pip install "ddgs>=9.5.5"
 pip check
+pip install "flask>=3.1.2"
 pip install "gitpython>=3.1.45"
 pip install "google-auth>=2.40.3"
+pip install "google-cloud-audit-log>=0.3.2"
 pip install "grpc-google-iam-v1>=0.14.2"
 pip install "grpcio-status>=1.62.3"
 pip check
@@ -26,6 +29,7 @@ pip install "httpx>=0.27.2"
 pip install "huggingface-hub>=0.34.4"
 pip install "hydra-core>=1.3.2"
 pip check
+pip install "icalendar>=6.3.1"
 pip install "inflect>=7.5.0"
 pip install "intel-cmplr-lib-ur>=2025.2.1"
 pip install "iopath>=0.1.10"
@@ -55,12 +59,13 @@ pip install "pynacl>=1.5.0"
 pip install "pyowm>=3.4.0"
 pip check
 pip install "requests-oauthlib>=2.0.0"
-pip install "requests-toolbelt>=0.10.1"
+pip install "requests-toolbelt>=1.0.0"
 pip install "rich>=14.1.0"
 pip check
 pip install "scikit-image>=0.25.2"
 pip install "scikit-learn>=1.7.1"
-pip install "starlette>=0.45.3"
+pip install "sse-starlette>=3.0.2"
+pip install "starlette>=0.47.3"
 pip check
 pip install "tiktoken>=0.11.0"
 pip install "torch>=2.6.0+cu126"

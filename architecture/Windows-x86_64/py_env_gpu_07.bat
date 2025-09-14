@@ -1,4 +1,4 @@
-rem 2025-08-30T22:57:51.475034+00:00
+rem 2025-09-14T23:35:58.633326+00:00
 rem Level 7
 pip install "chromadb>=1.0.20"
 pip check
@@ -16,8 +16,10 @@ pip install "nbconvert>=7.16.6"
 pip install "openinference-instrumentation-langchain>=0.1.50"
 pip install "openinference-instrumentation-llama-index>=4.3.4"
 pip install "openinference-instrumentation-openai>=0.1.31"
+pip install "opentelemetry-exporter-gcp-trace>=1.9.0"
 pip install "opentelemetry-exporter-otlp>=1.27.0"
 pip check
 pip install "pandas-gbq>=0.29.2"
+pip install "sqlalchemy-spanner>=1.16.0"
 pip check
 rem Level 7

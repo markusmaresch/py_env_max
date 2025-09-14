@@ -1,4 +1,4 @@
-rem 2025-08-30T22:57:51.475034+00:00
+rem 2025-09-14T23:35:58.633326+00:00
 rem Level 2
 pip install "aiosignal>=1.4.0"
 pip install "aiosqlite>=0.21.0"
@@ -15,8 +15,9 @@ pip install "click>=8.2.1"
 pip install "contourpy>=1.3.3"
 pip check
 pip install "deprecated>=1.2.18"
-pip install "email-validator>=2.2.0"
+pip install "deprecation>=2.1.0"
 pip check
+pip install "email-validator>=2.2.0"
 pip install "flake8>=7.3.0"
 pip install "fpdf2>=2.8.4"
 pip check
@@ -24,6 +25,7 @@ pip install "gitdb>=4.0.12"
 pip install "google-resumable-media>=2.7.2"
 pip install "googleapis-common-protos>=1.70.0"
 pip install "griffe>=1.12.1"
+pip install "grpc-interceptor>=0.15.4"
 pip check
 pip install "h5py>=3.14.0"
 pip install "httpcore>=1.0.5"
@@ -48,6 +50,7 @@ pip install "kfp-pipeline-spec>=0.6.0"
 pip install "lazy-loader>=0.4"
 pip install "lightning-utilities>=0.15.2"
 pip check
+pip install "mako>=1.3.10"
 pip install "markdown-it-py>=4.0.0"
 pip install "marshmallow>=3.26.1"
 pip install "matplotlib-inline>=0.1.7"
@@ -97,6 +100,7 @@ pip install "tqdm>=4.67.1"
 pip install "typeguard>=4.4.4"
 pip install "typing-inspect>=0.9.0"
 pip install "typing-inspection>=0.4.1"
+pip install "tzlocal>=5.3.1"
 pip check
 pip install "umf>=0.11.0"
 pip install "urllib3-future>=2.13.905"

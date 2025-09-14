@@ -1,14 +1,19 @@
-rem 2025-08-30T22:57:51.475034+00:00
+rem 2025-09-14T23:35:58.633326+00:00
 rem Level 5
+pip install "agno>=1.8.1"
 pip install "altair>=5.5.0"
 pip check
 pip install "google-ai-generativelanguage>=0.6.15"
-pip install "google-api-python-client>=2.135.0"
+pip install "google-api-python-client>=2.181.0"
+pip install "google-cloud-appengine-logging>=1.6.2"
 pip install "google-cloud-artifact-registry>=1.16.1"
 pip install "google-cloud-compute>=1.35.0"
 pip install "google-cloud-core>=2.4.3"
 pip install "google-cloud-resource-manager>=1.14.2"
 pip install "google-cloud-secret-manager>=2.24.0"
+pip install "google-cloud-speech>=2.33.0"
+pip install "google-cloud-trace>=1.16.2"
+pip check
 pip install "google-cloud-vision>=3.10.2"
 pip check
 pip install "jupyter-events>=0.12.0"
@@ -22,6 +27,7 @@ pip install "llama-index-llms-openai>=0.2.16"
 pip install "llama-index-readers-file>=0.3.0"
 pip install "llama-index-workflows>=1.3.0"
 pip check
+pip install "mcp>=1.13.1"
 pip install "mkl>=2025.2.0"
 pip install "msal-extensions>=1.3.1"
 pip check

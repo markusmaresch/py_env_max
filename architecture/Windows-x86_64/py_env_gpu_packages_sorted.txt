@@ -1,3 +1,4 @@
+absolufy-imports
 aiohappyeyeballs
 annotated-types
 ansicon
@@ -17,6 +18,7 @@ cachetools
 certifi
 chardet
 charset-normalizer
+cloudpickle
 colorama
 comm
 condense-json
@@ -47,6 +49,7 @@ fsspec
 geojson
 google-crc32c
 gputil
+graphviz
 greenlet
 grpcio
 h11
@@ -95,6 +98,7 @@ openinference-semantic-conventions
 opentelemetry-util-http
 opt-einsum
 orjson
+ormsgpack
 overrides
 packaging
 pandocfilters
@@ -106,6 +110,7 @@ pillow
 pip
 platformdirs
 pluggy
+primp
 prometheus-client
 propcache
 protobuf
@@ -134,6 +139,7 @@ pyserial
 pysocks
 python-dotenv
 python-json-logger
+python-multipart
 python-ulid
 pytz
 pywin32
@@ -157,6 +163,7 @@ smmap
 sniffio
 soupsieve
 sqlite-fts4
+sqlparse
 stringzilla
 striprtf
 tabulate
@@ -185,6 +192,7 @@ websockets
 wheel
 wrapt
 xlsxwriter
+xxhash
 yoctopuce
 zipp
 zstandard
@@ -200,6 +208,7 @@ chroma-hnswlib
 click
 contourpy
 deprecated
+deprecation
 email-validator
 flake8
 fpdf2
@@ -207,6 +216,7 @@ gitdb
 google-resumable-media
 googleapis-common-protos
 griffe
+grpc-interceptor
 h5py
 httpcore
 httplib2
@@ -226,6 +236,7 @@ jupyter-core
 kfp-pipeline-spec
 lazy-loader
 lightning-utilities
+mako
 markdown-it-py
 marshmallow
 matplotlib-inline
@@ -269,12 +280,14 @@ tqdm
 typeguard
 typing-inspect
 typing-inspection
+tzlocal
 umf
 urllib3-future
 werkzeug
 yarl
 aiohttp
 albucore
+alembic
 argon2-cffi-bindings
 arrow
 azure-core
@@ -286,14 +299,17 @@ coloredlogs
 cryptography
 curl-cffi
 dataclasses-json
+ddgs
 flask
 gitpython
 google-auth
+google-cloud-audit-log
 grpc-google-iam-v1
 grpcio-status
 httpx
 huggingface-hub
 hydra-core
+icalendar
 inflect
 intel-cmplr-lib-ur
 iopath
@@ -321,6 +337,7 @@ requests-toolbelt
 rich
 scikit-image
 scikit-learn
+sse-starlette
 starlette
 tiktoken
 torch
@@ -329,6 +346,7 @@ watchfiles
 aisuite
 anthropic
 argon2-cffi
+authlib
 banks
 braincube-connector
 db-dtypes
@@ -343,6 +361,8 @@ isoduration
 jax
 jsonschema
 kubernetes
+lancedb
+langgraph-sdk
 langsmith
 llama-cloud
 llama-index-core
@@ -367,14 +387,18 @@ torchmetrics
 torchvision
 typer
 yfinance
+agno
 altair
 google-ai-generativelanguage
 google-api-python-client
+google-cloud-appengine-logging
 google-cloud-artifact-registry
 google-cloud-compute
 google-cloud-core
 google-cloud-resource-manager
 google-cloud-secret-manager
+google-cloud-speech
+google-cloud-trace
 google-cloud-vision
 jupyter-events
 langchain-core
@@ -386,6 +410,7 @@ llama-index-llms-ollama
 llama-index-llms-openai
 llama-index-readers-file
 llama-index-workflows
+mcp
 mkl
 msal-extensions
 nbformat
@@ -399,6 +424,9 @@ timm
 transformers
 azure-identity
 google-cloud-bigquery
+google-cloud-bigtable
+google-cloud-logging
+google-cloud-spanner
 google-cloud-storage
 google-generativeai
 langchain-community
@@ -415,6 +443,7 @@ openinference-instrumentation
 opentelemetry-exporter-otlp-proto-grpc
 opentelemetry-exporter-otlp-proto-http
 opentelemetry-instrumentation-fastapi
+opentelemetry-resourcedetector-gcp
 sentence-transformers
 streamlit
 chromadb
@@ -430,8 +459,10 @@ nbconvert
 openinference-instrumentation-langchain
 openinference-instrumentation-llama-index
 openinference-instrumentation-openai
+opentelemetry-exporter-gcp-trace
 opentelemetry-exporter-otlp
 pandas-gbq
+sqlalchemy-spanner
 google-cloud-pipeline-components
 jupyter-server
 llama-index-question-gen-openai
