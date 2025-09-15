@@ -4,7 +4,6 @@ aiohappyeyeballs
 aiohttp
 aiosignal
 aiosqlite
-aisuite
 albucore
 alembic
 altair
@@ -195,6 +194,8 @@ kfp-pipeline-spec
 kfp-server-api
 kiwisolver
 kubernetes
+lance-namespace
+lance-namespace-urllib3-client
 lancedb
 langchain
 langchain-community
@@ -347,6 +348,7 @@ pyflakes
 pygithub
 pygments
 pyjwt
+pylance
 pylucidio
 pymage-size
 pymodbustcp

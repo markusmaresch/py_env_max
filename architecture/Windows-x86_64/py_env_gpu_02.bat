@@ -1,15 +1,15 @@
-rem 2025-09-14T23:35:58.633326+00:00
+rem 2025-09-15T01:11:37.805923+00:00
 rem Level 2
 pip install "aiosignal>=1.4.0"
 pip install "aiosqlite>=0.21.0"
 pip install "anyio>=4.10.0"
 pip install "arena-api>=2.5.9"
 pip check
-pip install "beautifulsoup4>=4.13.4"
+pip install "beautifulsoup4>=4.13.5"
 pip install "bleach>=6.2.0"
 pip install "build>=1.3.0"
 pip check
-pip install "cffi>=1.17.1"
+pip install "cffi>=2.0.0"
 pip install "chroma-hnswlib>=0.7.6"
 pip install "click>=8.2.1"
 pip install "contourpy>=1.3.3"
@@ -17,19 +17,19 @@ pip check
 pip install "deprecated>=1.2.18"
 pip install "deprecation>=2.1.0"
 pip check
-pip install "email-validator>=2.2.0"
+pip install "email-validator>=2.3.0"
 pip install "flake8>=7.3.0"
 pip install "fpdf2>=2.8.4"
 pip check
 pip install "gitdb>=4.0.12"
 pip install "google-resumable-media>=2.7.2"
 pip install "googleapis-common-protos>=1.70.0"
-pip install "griffe>=1.12.1"
+pip install "griffe>=1.14.0"
 pip install "grpc-interceptor>=0.15.4"
 pip check
 pip install "h5py>=3.14.0"
 pip install "httpcore>=1.0.5"
-pip install "httplib2>=0.22.0"
+pip install "httplib2>=0.31.0"
 pip install "humanfriendly>=10.0"
 pip check
 pip install "imageio>=2.37.0"
@@ -68,13 +68,14 @@ pip install "pdf2image>=1.17.0"
 pip install "pipdeptree>=2.23.1"
 pip install "plyfile>=1.1.2"
 pip install "portalocker>=3.2.0"
-pip install "prompt-toolkit>=3.0.51"
+pip install "prompt-toolkit>=3.0.52"
 pip install "proto-plus>=1.26.1"
 pip install "pyasn1-modules>=0.4.2"
 pip install "pydantic-core>=2.33.2"
-pip install "pyright>=1.1.404"
-pip install "pytest>=8.4.1"
+pip install "pylance>=0.36.0"
+pip install "pyright>=1.1.405"
 pip check
+pip install "pytest>=8.4.2"
 pip install "python-dateutil>=2.9.0.post0"
 pip check
 pip install "qrcode>=8.2"
@@ -85,7 +86,7 @@ pip install "rfc3339-validator>=0.1.4"
 pip install "rfc3987-syntax>=1.1.0"
 pip install "rsa>=4.9.1"
 pip check
-pip install "scipy>=1.16.1"
+pip install "scipy>=1.16.2"
 pip install "shapely>=2.1.1"
 pip install "snakeviz>=2.2.2"
 pip install "sqlalchemy>=2.0.43"
@@ -94,7 +95,7 @@ pip install "sympy>=1.13.1"
 pip check
 pip install "tbb>=2022.0.0"
 pip install "terminado>=0.18.1"
-pip install "tifffile>=2025.6.11"
+pip install "tifffile>=2025.9.9"
 pip install "tinycss2>=1.4.0"
 pip install "tqdm>=4.67.1"
 pip install "typeguard>=4.4.4"
@@ -103,7 +104,7 @@ pip install "typing-inspection>=0.4.1"
 pip install "tzlocal>=5.3.1"
 pip check
 pip install "umf>=0.11.0"
-pip install "urllib3-future>=2.13.905"
+pip install "urllib3-future>=2.13.909"
 pip check
 pip install "werkzeug>=3.1.3"
 pip install "yarl>=1.20.1"

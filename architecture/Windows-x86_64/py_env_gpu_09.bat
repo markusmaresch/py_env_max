@@ -1,6 +1,6 @@
-rem 2025-09-14T23:35:58.633326+00:00
+rem 2025-09-15T01:11:37.805923+00:00
 rem Level 9
-pip install "jupyter-lsp>=2.2.6"
+pip install "jupyter-lsp>=2.3.0"
 pip install "jupyterlab-server>=2.27.3"
 pip check
 pip install "llama-index>=0.11.23"

@@ -256,6 +256,7 @@ prompt-toolkit
 proto-plus
 pyasn1-modules
 pydantic-core
+pylance
 pyright
 pytest
 python-dateutil
@@ -343,7 +344,6 @@ tiktoken
 torch
 uvicorn
 watchfiles
-aisuite
 anthropic
 argon2-cffi
 authlib
@@ -361,7 +361,7 @@ isoduration
 jax
 jsonschema
 kubernetes
-lancedb
+lance-namespace-urllib3-client
 langgraph-sdk
 langsmith
 llama-cloud
@@ -401,6 +401,7 @@ google-cloud-speech
 google-cloud-trace
 google-cloud-vision
 jupyter-events
+lance-namespace
 langchain-core
 llama-cloud-services
 llama-index-embeddings-openai
@@ -429,6 +430,7 @@ google-cloud-logging
 google-cloud-spanner
 google-cloud-storage
 google-generativeai
+lancedb
 langchain-community
 langchain-openai
 langchain-text-splitters
