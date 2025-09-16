@@ -1,4 +1,4 @@
-# 2025-09-16T21:07:15.343992+00:00
+# 2025-09-16T22:16:02.733169+00:00
 # Level 3
 pip install "aiohttp>=3.12.15"
 pip install "albucore>=0.0.24"
@@ -7,7 +7,7 @@ pip install "arrow>=1.3.0"
 pip install "azure-core>=1.35.1"
 pip check
 pip install "clr-loader>=0.2.7.post0"
-pip install "cryptography>=45.0.7"
+pip install "cryptography>=46.0.0"
 pip install "curl-cffi>=0.13.0"
 pip check
 pip install "dataclasses-json>=0.6.7"
@@ -53,7 +53,7 @@ pip check
 pip install "scikit-image>=0.25.2"
 pip install "scikit-learn>=1.7.2"
 pip install "sqlite-utils>=3.38"
-pip install "starlette>=0.47.3"
+pip install "starlette>=0.48.0"
 pip check
 pip install "tiktoken>=0.11.0"
 pip install "watchfiles>=1.1.0"
