@@ -1,4 +1,4 @@
-rem 2025-09-16T19:13:19.984878+00:00
+rem 2025-09-16T19:40:58.066380+00:00
 rem Level 1
 pip install "absolufy-imports>=0.3.1"
 pip install "aiohappyeyeballs>=2.6.1"
@@ -28,7 +28,7 @@ pip install "colorama>=0.4.6"
 pip install "comm>=0.2.3"
 pip install "condense-json>=0.1.3"
 pip install "cycler>=0.12.1"
-pip install "cython>=3.1.3"
+pip install "cython>=3.1.4"
 pip check
 pip install "debugpy>=1.8.16"
 pip install "decorator>=5.2.1"
@@ -60,7 +60,6 @@ pip install "google-crc32c>=1.7.1"
 pip install "gputil>=1.4.0"
 pip install "graphviz>=0.21"
 pip install "greenlet>=3.2.4"
-pip install "grpcio>=1.74.0"
 pip check
 pip install "h11>=0.14.0"
 pip install "httptools>=0.6.4"
@@ -76,7 +75,7 @@ pip install "ipython-genutils>=0.2.0"
 pip install "itsdangerous>=2.2.0"
 pip check
 pip install "jh2>=5.0.9"
-pip install "jiter>=0.10.0"
+pip install "jiter>=0.11.0"
 pip install "joblib>=1.5.2"
 pip install "json5>=0.12.1"
 pip install "jsonpath-python>=1.0.6"
@@ -108,7 +107,7 @@ pip install "narwhals>=2.5.0"
 pip install "nest-asyncio>=1.6.0"
 pip install "networkx>=3.5"
 pip install "nodeenv>=1.9.1"
-pip install "numpy>=1.26.4"
+pip install "numpy>=2.2.4"
 pip check
 pip install "oauthlib>=3.3.1"
 pip install "openinference-semantic-conventions>=0.1.21"
@@ -118,7 +117,7 @@ pip install "orjson>=3.11.3"
 pip install "ormsgpack>=1.10.0"
 pip install "overrides>=7.7.0"
 pip check
-pip install "packaging>=23.2"
+pip install "packaging>=25.0"
 pip install "pandocfilters>=1.5.1"
 pip install "parameterized>=0.9.0"
 pip install "parso>=0.8.5"
@@ -189,7 +188,7 @@ pip install "soupsieve>=2.8"
 pip check
 pip install "sqlite-fts4>=1.0.3"
 pip install "sqlparse>=0.5.3"
-pip install "stringzilla>=4.0.7"
+pip install "stringzilla>=4.0.10"
 pip install "striprtf>=0.0.26"
 pip check
 pip install "tabulate>=0.9.0"
@@ -221,7 +220,7 @@ pip install "websockets>=15.0.1"
 pip install "wheel>=0.45.1"
 pip install "wrapt>=1.17.3"
 pip check
-pip install "xlsxwriter>=3.2.8"
+pip install "xlsxwriter>=3.2.9"
 pip install "xxhash>=3.5.0"
 pip check
 pip install "yoctopuce>=2.1.6320"

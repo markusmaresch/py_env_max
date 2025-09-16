@@ -1,4 +1,4 @@
-rem 2025-09-16T19:13:19.984878+00:00
+rem 2025-09-16T19:40:58.066380+00:00
 rem Level 2
 pip install "aiosignal>=1.4.0"
 pip install "aiosqlite>=0.21.0"
@@ -25,7 +25,7 @@ pip install "gitdb>=4.0.12"
 pip install "google-resumable-media>=2.7.2"
 pip install "googleapis-common-protos>=1.70.0"
 pip install "griffe>=1.14.0"
-pip install "grpc-interceptor>=0.15.4"
+pip install "grpcio>=1.75.0"
 pip check
 pip install "h5py>=3.14.0"
 pip install "httpcore>=1.0.5"
@@ -58,14 +58,14 @@ pip install "ml-dtypes>=0.5.3"
 pip check
 pip install "numba>=0.61.2"
 pip install "omegaconf>=2.3.0"
-pip install "opencv-contrib-python>=4.11.0.86"
-pip install "opencv-python>=4.11.0.86"
-pip install "opencv-python-headless>=4.11.0.86"
+pip install "opencv-contrib-python>=4.12.0.88"
+pip install "opencv-python>=4.12.0.88"
+pip install "opencv-python-headless>=4.12.0.88"
 pip install "openmeteo-sdk>=1.20.1"
 pip install "opentelemetry-proto>=1.27.0"
 pip check
 pip install "pdf2image>=1.17.0"
-pip install "pipdeptree>=2.23.1"
+pip install "pipdeptree>=2.28.0"
 pip install "plyfile>=1.1.2"
 pip install "portalocker>=3.2.0"
 pip install "prompt-toolkit>=3.0.52"

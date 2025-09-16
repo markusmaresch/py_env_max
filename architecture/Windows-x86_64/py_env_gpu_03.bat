@@ -1,4 +1,4 @@
-rem 2025-09-16T19:13:19.984878+00:00
+rem 2025-09-16T19:40:58.066380+00:00
 rem Level 3
 pip install "aiohttp>=3.12.15"
 pip install "albucore>=0.0.33"
@@ -7,7 +7,7 @@ pip install "argon2-cffi-bindings>=25.1.0"
 pip install "arrow>=1.3.0"
 pip install "azure-core>=1.35.1"
 pip check
-pip install "blessed>=1.21.0"
+pip install "blessed>=1.22.0"
 pip install "click-default-group>=1.2.4"
 pip install "click-option-group>=0.5.7"
 pip install "clr-loader>=0.2.7.post0"
@@ -23,10 +23,11 @@ pip install "gitpython>=3.1.45"
 pip install "google-auth>=2.40.3"
 pip install "google-cloud-audit-log>=0.3.2"
 pip install "grpc-google-iam-v1>=0.14.2"
+pip install "grpc-interceptor>=0.15.4"
 pip install "grpcio-status>=1.62.3"
 pip check
 pip install "httpx>=0.28.1"
-pip install "huggingface-hub>=0.34.4"
+pip install "huggingface-hub>=0.35.0"
 pip install "hydra-core>=1.3.2"
 pip check
 pip install "icalendar>=6.3.1"
@@ -36,13 +37,13 @@ pip install "iopath>=0.1.10"
 pip install "ipython>=9.5.0"
 pip check
 pip install "jaraco-text>=4.0.0"
-pip install "jaxlib>=0.7.1"
+pip install "jaxlib>=0.7.2"
 pip install "jsonschema-specifications>=2025.9.1"
 pip install "jupyter-client>=8.6.3"
 pip install "jupyter-server-terminals>=0.5.3"
 pip check
 pip install "kfp-server-api>=2.4.0"
-pip install "llama-cpp-python>=0.3.6"
+pip install "llama-cpp-python>=0.3.16"
 pip check
 pip install "matplotlib>=3.10.6"
 pip install "niquests>=3.15.2"

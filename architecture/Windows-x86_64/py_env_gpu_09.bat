@@ -1,4 +1,4 @@
-rem 2025-09-16T19:13:19.984878+00:00
+rem 2025-09-16T19:40:58.066380+00:00
 rem Level 9
 pip install "jupyter-lsp>=2.3.0"
 pip install "jupyterlab-server>=2.27.3"

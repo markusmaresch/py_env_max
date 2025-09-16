@@ -51,7 +51,6 @@ google-crc32c
 gputil
 graphviz
 greenlet
-grpcio
 h11
 httptools
 httpx-sse
@@ -216,7 +215,7 @@ gitdb
 google-resumable-media
 googleapis-common-protos
 griffe
-grpc-interceptor
+grpcio
 h5py
 httpcore
 httplib2
@@ -306,6 +305,7 @@ gitpython
 google-auth
 google-cloud-audit-log
 grpc-google-iam-v1
+grpc-interceptor
 grpcio-status
 httpx
 huggingface-hub

@@ -1,8 +1,8 @@
-rem 2025-09-16T19:13:19.984878+00:00
+rem 2025-09-16T19:40:58.066380+00:00
 rem Level 6
 pip install "azure-identity>=1.25.0"
 pip check
-pip install "google-cloud-bigquery>=3.30.0"
+pip install "google-cloud-bigquery>=3.37.0"
 pip install "google-cloud-bigtable>=2.32.0"
 pip install "google-cloud-logging>=3.12.1"
 pip install "google-cloud-spanner>=3.57.0"
