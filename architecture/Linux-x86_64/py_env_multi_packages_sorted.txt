@@ -11,6 +11,7 @@ babel
 backoff
 bcrypt
 blinker
+bottle
 cachetools
 certifi
 chardet
@@ -40,13 +41,13 @@ filetype
 flatbuffers
 fonttools
 fqdn
+frozendict
 frozenlist
 fsspec
 geojson
 google-crc32c
 gputil
 greenlet
-grpcio
 h11
 hf-xet
 httptools
@@ -84,6 +85,7 @@ monotonic
 more-itertools
 mpmath
 multidict
+multitasking
 mypy-extensions
 narwhals
 nest-asyncio
@@ -110,6 +112,7 @@ packaging
 pandocfilters
 parameterized
 parso
+peewee
 persist-queue
 pillow
 pip
@@ -119,6 +122,7 @@ portalocker
 prometheus-client
 propcache
 protobuf
+proxy-tools
 psutil
 ptyprocess
 pure-eval
@@ -131,6 +135,7 @@ pycparser
 pyflakes
 pygments
 pyjwt
+pylucidio
 pymage-size
 pymodbustcp
 pymupdf
@@ -138,6 +143,8 @@ pyparsing
 pypdf
 pypika
 pyproject-hooks
+pyqt6-qt6
+pyqt6-sip
 pyqtree
 pyreadline3
 pyserial
@@ -219,6 +226,7 @@ gitdb
 google-resumable-media
 googleapis-common-protos
 griffe
+grpcio
 h5py
 httpcore
 httplib2
@@ -290,6 +298,7 @@ arrow
 azure-core
 clr-loader
 cryptography
+curl-cffi
 dataclasses-json
 flask
 gitpython
@@ -349,6 +358,7 @@ llama-cloud
 llama-index-instrumentation
 llamaindex-py-client
 mistralai
+mplfinance
 msal
 ollama
 openai
@@ -361,6 +371,7 @@ sqlite-migrate
 tokenizers
 torch
 typer
+yfinance
 altair
 google-ai-generativelanguage
 google-api-python-client

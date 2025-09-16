@@ -29,6 +29,7 @@ beautifulsoup4
 bleach
 blessed
 blinker
+bottle
 braincube-connector
 build
 cachetools
@@ -46,6 +47,7 @@ comm
 condense-json
 contourpy
 cryptography
+curl-cffi
 cycler
 cython
 dataclasses-json
@@ -75,6 +77,7 @@ flatbuffers
 fonttools
 fpdf2
 fqdn
+frozendict
 frozenlist
 fsspec
 geojson
@@ -222,10 +225,12 @@ ml-dtypes
 mmh3
 monotonic
 more-itertools
+mplfinance
 mpmath
 msal
 msal-extensions
 multidict
+multitasking
 mypy-extensions
 narwhals
 nbclient
@@ -285,6 +290,7 @@ pandas-gbq
 pandocfilters
 parameterized
 parso
+peewee
 persist-queue
 pexpect
 piconnect
@@ -301,6 +307,7 @@ prompt-toolkit
 propcache
 proto-plus
 protobuf
+proxy-tools
 psutil
 ptyprocess
 pure-eval
@@ -320,6 +327,7 @@ pyflakes
 pygithub
 pygments
 pyjwt
+pylucidio
 pymage-size
 pymodbustcp
 pymupdf
@@ -329,6 +337,8 @@ pyparsing
 pypdf
 pypika
 pyproject-hooks
+pyqt6-qt6
+pyqt6-sip
 pyqtree
 pyreadline3
 pyright
@@ -436,6 +446,7 @@ wrapt
 xgboost
 xlsxwriter
 yarl
+yfinance
 yoctopuce
 zipp
 zstandard
