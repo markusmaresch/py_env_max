@@ -5,14 +5,13 @@ import sys
 import subprocess
 import typing
 import itertools
-
-from pip._vendor import pkg_resources  # keep this as compromise. it is hard to work around this.
+import importlib.metadata as metadata
 
 # installed packages
 try:
     # attempt new version
-    from _vendor.pipdeptree_2_11_0._models.dag import PackageDAG
-    from _vendor.pipdeptree_2_11_0._validate import conflicting_deps, render_conflicts_text, cyclic_deps
+    from _vendor.pipdeptree_2_28_0._models.dag import PackageDAG
+    from _vendor.pipdeptree_2_28_0._validate import conflicting_deps, render_conflicts_text, cyclic_deps
 except:
     # fallback to old one ..
     from _vendor.pipdeptree import PackageDAG, conflicting_deps, render_conflicts_text, cyclic_deps
@@ -130,13 +129,7 @@ class PipCmd:
     @staticmethod
     def get_tree_installed() -> typing.Union[PackageDAG, typing.Any]:
         print('Getting installed distributions ..')
-
-        pkg_resources.working_set.__init__()
-        pkgs = [d for d in pkg_resources.working_set]
-
-        #
-        # also derive pseudo requirements here, and keep it/return
-        #
+        pkgs = list(metadata.distributions())
 
         try:
             print('Converting installed distributions to tree ..')
