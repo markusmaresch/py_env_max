@@ -1,4 +1,4 @@
-rem 2025-09-15T01:11:37.805923+00:00
+rem 2025-09-16T19:13:19.984878+00:00
 rem Level 4
 pip install "anthropic>=0.67.0"
 pip install "argon2-cffi>=25.1.0"
@@ -25,9 +25,8 @@ pip check
 pip install "kubernetes>=30.1.0"
 pip install "lance-namespace-urllib3-client>=0.0.14"
 pip install "langgraph-sdk>=0.2.6"
-pip install "langsmith>=0.1.147"
-pip install "llama-cloud>=0.1.19"
-pip install "llama-index-core>=0.11.23"
+pip install "langsmith>=0.4.28"
+pip install "llama-cloud>=0.1.35"
 pip install "llama-index-instrumentation>=0.4.0"
 pip install "llamaindex-py-client>=0.1.19"
 pip check

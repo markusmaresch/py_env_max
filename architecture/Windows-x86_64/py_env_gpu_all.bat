@@ -1,4 +1,4 @@
-rem 2025-09-15T01:11:37.805923+00:00
+rem 2025-09-16T19:13:19.984878+00:00
 rem Level 1
 pip install "absolufy-imports>=0.3.1"
 pip install "aiohappyeyeballs>=2.6.1"
@@ -392,7 +392,7 @@ pip check
 pip install "opentelemetry-api>=1.27.0"
 pip install "opentelemetry-exporter-otlp-proto-common>=1.27.0"
 pip check
-pip install "pandas>=2.3.2"
+pip install "pandas>=2.2.3"
 pip install "posthog>=5.4.0"
 pip install "pydantic>=2.11.9"
 pip install "pydeck>=0.9.1"
@@ -441,9 +441,8 @@ pip check
 pip install "kubernetes>=30.1.0"
 pip install "lance-namespace-urllib3-client>=0.0.14"
 pip install "langgraph-sdk>=0.2.6"
-pip install "langsmith>=0.1.147"
-pip install "llama-cloud>=0.1.19"
-pip install "llama-index-core>=0.11.23"
+pip install "langsmith>=0.4.28"
+pip install "llama-cloud>=0.1.35"
 pip install "llama-index-instrumentation>=0.4.0"
 pip install "llamaindex-py-client>=0.1.19"
 pip check
@@ -491,16 +490,9 @@ pip install "google-cloud-vision>=3.10.2"
 pip check
 pip install "jupyter-events>=0.12.0"
 pip install "lance-namespace>=0.0.6"
-pip install "langchain-core>=0.1.52"
-pip install "llama-cloud-services>=0.6.21"
-pip install "llama-index-embeddings-openai>=0.2.5"
-pip install "llama-index-indices-managed-llama-cloud>=0.6.0"
+pip install "langchain-core>=0.3.76"
 pip install "llama-index-legacy>=0.9.48.post3"
-pip install "llama-index-llms-ollama>=0.3.6"
-pip install "llama-index-llms-openai>=0.2.16"
-pip install "llama-index-readers-file>=0.3.0"
-pip check
-pip install "llama-index-workflows>=2.2.0"
+pip install "llama-index-workflows>=1.3.0"
 pip check
 pip install "mcp>=1.14.0"
 pip install "mkl>=2025.2.0"
@@ -531,14 +523,10 @@ pip install "google-cloud-storage>=2.19.0"
 pip install "google-generativeai>=0.8.5"
 pip check
 pip install "lancedb>=0.25.0"
-pip install "langchain-community>=0.0.38"
-pip install "langchain-openai>=0.1.6"
-pip install "langchain-text-splitters>=0.0.2"
+pip install "langchain-openai>=0.3.33"
+pip install "langchain-text-splitters>=0.3.11"
 pip install "lightning>=2.5.5"
-pip install "llama-index-agent-openai>=0.3.4"
-pip install "llama-index-cli>=0.3.1"
-pip install "llama-index-multi-modal-llms-openai>=0.2.3"
-pip install "llama-parse>=0.6.21"
+pip install "llama-index-core>=0.12.52.post1"
 pip install "llm>=0.27.1"
 pip check
 pip install "nbclient>=0.10.2"
@@ -558,9 +546,13 @@ pip check
 pip install "google-cloud-aiplatform>=1.113.0"
 pip install "kfp>=2.13.0"
 pip check
-pip install "langchain>=0.1.20"
-pip install "llama-index-program-openai>=0.2.0"
-pip install "llama-index-readers-llama-parse>=0.3.0"
+pip install "langchain>=0.3.27"
+pip install "llama-cloud-services>=0.6.54"
+pip install "llama-index-embeddings-openai>=0.3.1"
+pip install "llama-index-indices-managed-llama-cloud>=0.8.0"
+pip install "llama-index-llms-ollama>=0.6.2"
+pip install "llama-index-llms-openai>=0.4.7"
+pip install "llama-index-readers-file>=0.4.11"
 pip install "llm-anthropic>=0.18"
 pip install "llm-gemini>=0.25"
 pip install "llm-ollama>=0.14.0"
@@ -580,7 +572,11 @@ rem Level 8
 pip install "google-cloud-pipeline-components>=2.20.1"
 pip check
 pip install "jupyter-server>=2.17.0"
-pip install "llama-index-question-gen-openai>=0.2.0"
+pip install "langchain-community>=0.3.27"
+pip install "llama-index-agent-openai>=0.4.12"
+pip install "llama-index-cli>=0.4.4"
+pip install "llama-index-multi-modal-llms-openai>=0.5.3"
+pip install "llama-parse>=0.6.21"
 pip install "llm-claude-3>=0.11"
 pip check
 rem Level 8
@@ -588,15 +584,21 @@ rem Level 9
 pip install "jupyter-lsp>=2.3.0"
 pip install "jupyterlab-server>=2.27.3"
 pip check
-pip install "llama-index>=0.11.23"
+pip install "llama-index-program-openai>=0.3.2"
+pip install "llama-index-readers-llama-parse>=0.4.0"
+pip check
 pip install "notebook-shim>=0.2.4"
 pip check
 rem Level 9
 rem Level 10
 pip install "jupyterlab>=4.4.7"
 pip check
+pip install "llama-index-question-gen-openai>=0.3.1"
+pip check
 rem Level 10
 rem Level 11
+pip install "llama-index>=0.12.52"
+pip check
 pip install "notebook>=7.4.5"
 pip check
 rem Level 11

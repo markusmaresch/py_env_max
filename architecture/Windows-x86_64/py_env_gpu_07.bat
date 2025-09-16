@@ -1,13 +1,17 @@
-rem 2025-09-15T01:11:37.805923+00:00
+rem 2025-09-16T19:13:19.984878+00:00
 rem Level 7
 pip install "chromadb>=1.0.21"
 pip check
 pip install "google-cloud-aiplatform>=1.113.0"
 pip install "kfp>=2.13.0"
 pip check
-pip install "langchain>=0.1.20"
-pip install "llama-index-program-openai>=0.2.0"
-pip install "llama-index-readers-llama-parse>=0.3.0"
+pip install "langchain>=0.3.27"
+pip install "llama-cloud-services>=0.6.54"
+pip install "llama-index-embeddings-openai>=0.3.1"
+pip install "llama-index-indices-managed-llama-cloud>=0.8.0"
+pip install "llama-index-llms-ollama>=0.6.2"
+pip install "llama-index-llms-openai>=0.4.7"
+pip install "llama-index-readers-file>=0.4.11"
 pip install "llm-anthropic>=0.18"
 pip install "llm-gemini>=0.25"
 pip install "llm-ollama>=0.14.0"

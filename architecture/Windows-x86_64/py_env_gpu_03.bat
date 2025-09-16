@@ -1,4 +1,4 @@
-rem 2025-09-15T01:11:37.805923+00:00
+rem 2025-09-16T19:13:19.984878+00:00
 rem Level 3
 pip install "aiohttp>=3.12.15"
 pip install "albucore>=0.0.33"
@@ -51,7 +51,7 @@ pip check
 pip install "opentelemetry-api>=1.27.0"
 pip install "opentelemetry-exporter-otlp-proto-common>=1.27.0"
 pip check
-pip install "pandas>=2.3.2"
+pip install "pandas>=2.2.3"
 pip install "posthog>=5.4.0"
 pip install "pydantic>=2.11.9"
 pip install "pydeck>=0.9.1"

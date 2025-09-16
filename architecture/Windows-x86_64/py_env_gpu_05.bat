@@ -1,4 +1,4 @@
-rem 2025-09-15T01:11:37.805923+00:00
+rem 2025-09-16T19:13:19.984878+00:00
 rem Level 5
 pip install "agno>=2.0.4"
 pip install "altair>=5.5.0"
@@ -18,16 +18,9 @@ pip install "google-cloud-vision>=3.10.2"
 pip check
 pip install "jupyter-events>=0.12.0"
 pip install "lance-namespace>=0.0.6"
-pip install "langchain-core>=0.1.52"
-pip install "llama-cloud-services>=0.6.21"
-pip install "llama-index-embeddings-openai>=0.2.5"
-pip install "llama-index-indices-managed-llama-cloud>=0.6.0"
+pip install "langchain-core>=0.3.76"
 pip install "llama-index-legacy>=0.9.48.post3"
-pip install "llama-index-llms-ollama>=0.3.6"
-pip install "llama-index-llms-openai>=0.2.16"
-pip install "llama-index-readers-file>=0.3.0"
-pip check
-pip install "llama-index-workflows>=2.2.0"
+pip install "llama-index-workflows>=1.3.0"
 pip check
 pip install "mcp>=1.14.0"
 pip install "mkl>=2025.2.0"
