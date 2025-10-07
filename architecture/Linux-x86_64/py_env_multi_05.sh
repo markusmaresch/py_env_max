@@ -1,18 +1,18 @@
-# 2025-10-07T19:06:15.917354+00:00
+# 2025-10-07T21:30:37.640891+00:00
 # Level 5
 pip install "altair>=5.5.0"
 pip check
 pip install "google-ai-generativelanguage>=0.6.15"
 pip install "google-api-python-client>=2.174.0"
 pip install "google-cloud-artifact-registry>=1.16.1"
-pip install "google-cloud-compute>=1.37.0"
+pip install "google-cloud-compute>=1.38.0"
 pip install "google-cloud-core>=2.4.3"
 pip install "google-cloud-resource-manager>=1.14.2"
 pip install "google-cloud-secret-manager>=2.24.0"
 pip install "google-cloud-vision>=3.10.2"
 pip check
 pip install "jupyter-events>=0.12.0"
-pip install "langchain-core>=0.3.76"
+pip install "langchain-core>=0.3.78"
 pip install "llama-index-legacy>=0.9.48.post4"
 pip install "llama-index-workflows>=1.3.0"
 pip install "llm>=0.27.1"
@@ -29,6 +29,6 @@ pip install "pydata-google-auth>=1.9.1"
 pip check
 pip install "torchmetrics>=1.8.2"
 pip install "torchvision>=0.23.0"
-pip install "transformers>=4.56.1"
+pip install "transformers>=4.57.0"
 pip check
 # Level 5
