@@ -320,7 +320,19 @@ class PipCmd:
                 # fi
                 if len(v) > 2 and v[2] == 'requires':
                     error = True
+                    if len(v) >= 11 and v[2] == 'requires' and v[4] == 'but' and v[11] == 'incompatible.':
+                        offender0 = v[0]
+                        offender1 = v[1]
+                        required_package = v[3]
+                        but_have0 = v[7]
+                        but_have1 = v[8]
+                        print(f'requires / incompatible: {offender0}=={offender1} ; req: {required_package} ; but_have: {but_have0}=={but_have1}')
+                        pass
+                    # fi
                 if v[0] == 'Connected' and v[1] == 'to:':
+                    continue
+                if len(v) >= 7 and v[0] == 'Exception' and v[1] == 'ignored' and v[2] == 'in:':
+                    # stupid '_DeleteDummyThreadOnDel.__del__' bug .. there are two more lines, one with 'in' '__del__', the second '\'NoneType\''
                     continue
                 # also trace:
                 # ERROR: Could not find a version that satisfies the requirement box2d==2.3.10 (from versions: 2.0.2b1, 2.3b0, 2.3.2)
