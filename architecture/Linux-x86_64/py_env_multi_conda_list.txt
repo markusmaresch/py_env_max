@@ -19,7 +19,7 @@ arena-api                                    2.7.1              pypi_0          
 argon2-cffi                                  25.1.0             pypi_0              pypi
 argon2-cffi-bindings                         25.1.0             pypi_0              pypi
 arrow                                        1.3.0              pypi_0              pypi
-asgiref                                      3.10.0             pypi_0              pypi
+asgiref                                      3.8.1              pypi_0              pypi
 asttokens                                    3.0.0              pypi_0              pypi
 async-lru                                    2.0.5              pypi_0              pypi
 async-timeout                                5.0.1              pypi_0              pypi
@@ -100,7 +100,7 @@ google-auth-oauthlib                         1.2.2              pypi_0          
 google-cloud-aiplatform                      1.119.0            pypi_0              pypi
 google-cloud-artifact-registry               1.16.1             pypi_0              pypi
 google-cloud-bigquery                        3.38.0             pypi_0              pypi
-google-cloud-compute                         1.38.0             pypi_0              pypi
+google-cloud-compute                         1.39.0             pypi_0              pypi
 google-cloud-core                            2.4.3              pypi_0              pypi
 google-cloud-pipeline-components             2.21.0             pypi_0              pypi
 google-cloud-resource-manager                1.14.2             pypi_0              pypi
@@ -464,7 +464,7 @@ watchfiles                                   1.1.0              pypi_0          
 wcwidth                                      0.2.14             pypi_0              pypi
 webcolors                                    24.11.1            pypi_0              pypi
 webencodings                                 0.5.1              pypi_0              pypi
-websocket-client                             1.8.0              pypi_0              pypi
+websocket-client                             1.9.0              pypi_0              pypi
 websockets                                   15.0.1             pypi_0              pypi
 werkzeug                                     3.1.3              pypi_0              pypi
 wheel                                        0.45.1             py313h06a4308_0

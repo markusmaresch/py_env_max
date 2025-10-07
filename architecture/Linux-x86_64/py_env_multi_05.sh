@@ -1,11 +1,11 @@
-# 2025-10-07T21:30:37.640891+00:00
+# 2025-10-07T22:00:22.765385+00:00
 # Level 5
 pip install "altair>=5.5.0"
 pip check
 pip install "google-ai-generativelanguage>=0.6.15"
 pip install "google-api-python-client>=2.174.0"
 pip install "google-cloud-artifact-registry>=1.16.1"
-pip install "google-cloud-compute>=1.38.0"
+pip install "google-cloud-compute>=1.39.0"
 pip install "google-cloud-core>=2.4.3"
 pip install "google-cloud-resource-manager>=1.14.2"
 pip install "google-cloud-secret-manager>=2.24.0"

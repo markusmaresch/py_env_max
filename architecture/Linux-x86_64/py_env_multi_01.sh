@@ -1,4 +1,4 @@
-# 2025-10-07T21:30:37.640891+00:00
+# 2025-10-07T22:00:22.765385+00:00
 # Level 1
 pip install "aiohappyeyeballs>=2.6.1"
 pip install "annotated-types>=0.7.0"
@@ -228,7 +228,7 @@ pip install "watchdog>=6.0.0"
 pip install "wcwidth>=0.2.14"
 pip install "webcolors>=24.11.1"
 pip install "webencodings>=0.5.1"
-pip install "websocket-client>=1.8.0"
+pip install "websocket-client>=1.9.0"
 pip install "websockets>=15.0.1"
 pip install "wheel>=0.45.1"
 pip install "wrapt>=1.17.3"

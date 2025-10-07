@@ -1,4 +1,4 @@
-# 2025-10-07T21:30:37.640891+00:00
+# 2025-10-07T22:00:22.765385+00:00
 # Level 1
 pip install "aiohappyeyeballs>=2.6.1"
 pip install "annotated-types>=0.7.0"
@@ -228,7 +228,7 @@ pip install "watchdog>=6.0.0"
 pip install "wcwidth>=0.2.14"
 pip install "webcolors>=24.11.1"
 pip install "webencodings>=0.5.1"
-pip install "websocket-client>=1.8.0"
+pip install "websocket-client>=1.9.0"
 pip install "websockets>=15.0.1"
 pip install "wheel>=0.45.1"
 pip install "wrapt>=1.17.3"
@@ -467,7 +467,7 @@ pip check
 pip install "google-ai-generativelanguage>=0.6.15"
 pip install "google-api-python-client>=2.174.0"
 pip install "google-cloud-artifact-registry>=1.16.1"
-pip install "google-cloud-compute>=1.38.0"
+pip install "google-cloud-compute>=1.39.0"
 pip install "google-cloud-core>=2.4.3"
 pip install "google-cloud-resource-manager>=1.14.2"
 pip install "google-cloud-secret-manager>=2.24.0"
