@@ -287,6 +287,7 @@ overrides
 packaging
 pandas
 pandas-gbq
+pandas-stubs
 pandocfilters
 parameterized
 parso
@@ -421,6 +422,7 @@ transformers
 triton
 typer
 types-python-dateutil
+types-pytz
 typing-extensions
 typing-inspect
 typing-inspection

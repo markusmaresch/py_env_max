@@ -186,6 +186,7 @@ tornado
 tqdm
 traitlets
 types-python-dateutil
+types-pytz
 typing-extensions
 tzdata
 uri-template
@@ -257,6 +258,7 @@ opencv-contrib-python
 opencv-python
 opencv-python-headless
 openmeteo-sdk
+pandas-stubs
 pexpect
 pipdeptree
 plyfile

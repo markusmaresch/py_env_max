@@ -1,4 +1,4 @@
-# 2025-09-16T22:16:02.733169+00:00
+# 2025-10-07T19:06:15.917354+00:00
 # Level 1
 pip install "aiohappyeyeballs>=2.6.1"
 pip install "annotated-types>=0.7.0"
@@ -214,6 +214,7 @@ pip install "tqdm>=4.67.1"
 pip install "traitlets>=5.14.3"
 pip check
 pip install "types-python-dateutil>=2.9.0.20250822"
+pip install "types-pytz>=2025.2.0.20250809"
 pip install "typing-extensions>=4.15.0"
 pip install "tzdata>=2025.2"
 pip check

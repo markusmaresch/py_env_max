@@ -1,4 +1,4 @@
-# 2025-09-16T22:16:02.733169+00:00
+# 2025-10-07T19:06:15.917354+00:00
 # Level 2
 pip install "aiosignal>=1.4.0"
 pip install "aiosqlite>=0.21.0"
@@ -65,6 +65,7 @@ pip install "opencv-python>=4.12.0.88"
 pip install "opencv-python-headless>=4.12.0.88"
 pip install "openmeteo-sdk>=1.20.1"
 pip check
+pip install "pandas-stubs>=2.3.2.250926"
 pip install "pexpect>=4.9.0"
 pip install "pipdeptree>=2.28.0"
 pip install "plyfile>=1.1.2"
@@ -74,6 +75,7 @@ pip install "pyasn1-modules>=0.4.2"
 pip install "pydantic-core>=2.33.2"
 pip install "pyright>=1.1.405"
 pip install "pytest>=8.4.2"
+pip check
 pip install "python-dateutil>=2.9.0.post0"
 pip check
 pip install "referencing>=0.36.2"
