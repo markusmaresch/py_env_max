@@ -1,4 +1,4 @@
-# 2025-10-07T22:00:22.765385+00:00
+# 2025-10-13T23:58:40.322049+00:00
 # Level 3
 pip install "aiohttp>=3.13.0"
 pip install "albucore>=0.0.24"
@@ -31,24 +31,24 @@ pip install "jupyter-client>=8.6.3"
 pip install "jupyter-server-terminals>=0.5.3"
 pip check
 pip install "kfp-server-api>=2.4.0"
-pip install "matplotlib>=3.10.6"
+pip install "matplotlib>=3.10.7"
 pip check
 pip install "niquests>=3.15.2"
 pip install "nvidia-cusolver-cu12>=11.7.3.90"
 pip check
-pip install "onnxruntime>=1.23.0"
+pip install "onnxruntime>=1.23.1"
 pip install "opentelemetry-api>=1.34.1"
 pip check
 pip install "pandas>=2.2.3"
 pip install "posthog>=6.7.6"
-pip install "pydantic>=2.12.0"
+pip install "pydantic>=2.12.1"
 pip install "pydeck>=0.9.1"
 pip install "pynacl>=1.6.0"
 pip install "pyowm>=3.5.0"
 pip check
 pip install "requests-oauthlib>=2.0.0"
 pip install "requests-toolbelt>=1.0.0"
-pip install "rich>=14.1.0"
+pip install "rich>=14.2.0"
 pip check
 pip install "scikit-image>=0.25.2"
 pip install "scikit-learn>=1.7.2"

@@ -1,4 +1,4 @@
-# 2025-10-07T22:00:22.765385+00:00
+# 2025-10-13T23:58:40.322049+00:00
 # Level 6
 pip install "azure-identity>=1.25.1"
 pip check
@@ -10,11 +10,11 @@ pip install "langchain-openai>=0.3.35"
 pip install "langchain-text-splitters>=0.3.11"
 pip install "llama-index-core>=0.12.52.post1"
 pip install "llm-anthropic>=0.19"
-pip install "llm-gemini>=0.26"
-pip install "llm-ollama>=0.14.0"
+pip install "llm-gemini>=0.26.1"
+pip install "llm-ollama>=0.15.0"
 pip check
 pip install "nbclient>=0.10.2"
-pip install "openinference-instrumentation>=0.1.39"
+pip install "openinference-instrumentation>=0.1.40"
 pip install "opentelemetry-instrumentation-asgi>=0.55b1"
 pip check
 pip install "pytorch-lightning>=2.5.5"

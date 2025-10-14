@@ -1,4 +1,4 @@
-# 2025-10-07T22:00:22.765385+00:00
+# 2025-10-13T23:58:40.322049+00:00
 # Level 2
 pip install "aiosignal>=1.4.0"
 pip install "aiosqlite>=0.21.0"
@@ -12,7 +12,7 @@ pip install "build>=1.3.0"
 pip check
 pip install "cffi>=2.0.0"
 pip install "click-default-group>=1.2.4"
-pip install "click-option-group>=0.5.8"
+pip install "click-option-group>=0.5.9"
 pip install "coloredlogs>=15.0.1"
 pip install "contourpy>=1.3.3"
 pip check
@@ -28,7 +28,7 @@ pip install "googleapis-common-protos>=1.70.0"
 pip install "griffe>=1.14.0"
 pip install "grpcio>=1.75.1"
 pip check
-pip install "h5py>=3.14.0"
+pip install "h5py>=3.15.0"
 pip install "httpcore>=1.0.9"
 pip install "httplib2>=0.31.0"
 pip check
@@ -67,18 +67,18 @@ pip install "openmeteo-sdk>=1.21.2"
 pip check
 pip install "pandas-stubs>=2.3.2.250926"
 pip install "pexpect>=4.9.0"
-pip install "pipdeptree>=2.28.0"
+pip install "pipdeptree>=2.29.0"
 pip install "plyfile>=1.1.2"
 pip install "prompt-toolkit>=3.0.52"
 pip install "proto-plus>=1.26.1"
 pip install "pyasn1-modules>=0.4.2"
-pip install "pydantic-core>=2.41.1"
+pip install "pydantic-core>=2.41.3"
 pip install "pyright>=1.1.406"
 pip install "pytest>=8.4.2"
 pip check
 pip install "python-dateutil>=2.9.0.post0"
 pip check
-pip install "referencing>=0.36.2"
+pip install "referencing>=0.37.0"
 pip install "reportlab>=4.4.4"
 pip install "requests>=2.32.5"
 pip install "rfc3339-validator>=0.1.4"
@@ -88,7 +88,7 @@ pip check
 pip install "scipy>=1.16.2"
 pip install "shapely>=2.1.2"
 pip install "snakeviz>=2.2.2"
-pip install "sqlalchemy>=2.0.43"
+pip install "sqlalchemy>=2.0.44"
 pip install "stack-data>=0.6.3"
 pip install "sympy>=1.14.0"
 pip check
@@ -101,7 +101,7 @@ pip install "typing-inspect>=0.9.0"
 pip install "typing-inspection>=0.4.2"
 pip check
 pip install "umf>=0.11.0"
-pip install "urllib3-future>=2.14.902"
+pip install "urllib3-future>=2.14.904"
 pip install "uvicorn>=0.37.0"
 pip check
 pip install "werkzeug>=3.1.3"

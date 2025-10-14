@@ -1,6 +1,6 @@
-# 2025-10-07T22:00:22.765385+00:00
+# 2025-10-13T23:58:40.322049+00:00
 # Level 7
-pip install "google-cloud-aiplatform>=1.119.0"
+pip install "google-cloud-aiplatform>=1.120.0"
 pip check
 pip install "kfp>=2.13.0"
 pip install "langchain>=0.3.27"
@@ -14,9 +14,9 @@ pip install "llama-index-readers-file>=0.4.11"
 pip install "llm-claude-3>=0.11"
 pip check
 pip install "nbconvert>=7.16.6"
-pip install "openinference-instrumentation-langchain>=0.1.52"
-pip install "openinference-instrumentation-llama-index>=4.3.5"
-pip install "openinference-instrumentation-openai>=0.1.37"
+pip install "openinference-instrumentation-langchain>=0.1.53"
+pip install "openinference-instrumentation-llama-index>=4.3.6"
+pip install "openinference-instrumentation-openai>=0.1.39"
 pip install "opentelemetry-instrumentation-fastapi>=0.55b1"
 pip check
 pip install "pandas-gbq>=0.29.2"

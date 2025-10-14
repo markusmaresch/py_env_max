@@ -1,4 +1,4 @@
-# 2025-10-07T22:00:22.765385+00:00
+# 2025-10-13T23:58:40.322049+00:00
 # Level 5
 pip install "altair>=5.5.0"
 pip check
@@ -12,7 +12,7 @@ pip install "google-cloud-secret-manager>=2.24.0"
 pip install "google-cloud-vision>=3.10.2"
 pip check
 pip install "jupyter-events>=0.12.0"
-pip install "langchain-core>=0.3.78"
+pip install "langchain-core>=0.3.79"
 pip install "llama-index-legacy>=0.9.48.post4"
 pip install "llama-index-workflows>=1.3.0"
 pip install "llm>=0.27.1"
