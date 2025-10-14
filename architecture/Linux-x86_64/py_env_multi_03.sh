@@ -1,4 +1,4 @@
-# 2025-10-13T23:58:40.322049+00:00
+# 2025-10-14T21:31:12.795578+00:00
 # Level 3
 pip install "aiohttp>=3.13.0"
 pip install "albucore>=0.0.24"
@@ -40,8 +40,8 @@ pip install "onnxruntime>=1.23.1"
 pip install "opentelemetry-api>=1.34.1"
 pip check
 pip install "pandas>=2.2.3"
-pip install "posthog>=6.7.6"
-pip install "pydantic>=2.12.1"
+pip install "posthog>=6.7.7"
+pip install "pydantic>=2.12.2"
 pip install "pydeck>=0.9.1"
 pip install "pynacl>=1.6.0"
 pip install "pyowm>=3.5.0"
@@ -56,7 +56,7 @@ pip install "sqlite-utils>=3.38"
 pip install "starlette>=0.48.0"
 pip check
 pip install "tiktoken>=0.12.0"
-pip install "watchfiles>=1.1.0"
+pip install "watchfiles>=1.1.1"
 pip check
 pip install "xgboost>=3.0.5"
 pip check

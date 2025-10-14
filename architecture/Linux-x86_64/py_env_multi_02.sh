@@ -1,4 +1,4 @@
-# 2025-10-13T23:58:40.322049+00:00
+# 2025-10-14T21:31:12.795578+00:00
 # Level 2
 pip install "aiosignal>=1.4.0"
 pip install "aiosqlite>=0.21.0"
@@ -72,7 +72,7 @@ pip install "plyfile>=1.1.2"
 pip install "prompt-toolkit>=3.0.52"
 pip install "proto-plus>=1.26.1"
 pip install "pyasn1-modules>=0.4.2"
-pip install "pydantic-core>=2.41.3"
+pip install "pydantic-core>=2.41.4"
 pip install "pyright>=1.1.406"
 pip install "pytest>=8.4.2"
 pip check

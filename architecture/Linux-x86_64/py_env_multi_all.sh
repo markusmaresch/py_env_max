@@ -1,4 +1,4 @@
-# 2025-10-13T23:58:40.322049+00:00
+# 2025-10-14T21:31:12.795578+00:00
 # Level 1
 pip install "aiohappyeyeballs>=2.6.1"
 pip install "annotated-types>=0.7.0"
@@ -19,7 +19,7 @@ pip check
 pip install "cachetools>=6.2.1"
 pip install "certifi>=2025.10.5"
 pip install "chardet>=5.2.0"
-pip install "charset-normalizer>=3.4.3"
+pip install "charset-normalizer>=3.4.4"
 pip install "click>=8.3.0"
 pip install "colorama>=0.4.6"
 pip install "comm>=0.2.3"
@@ -313,7 +313,7 @@ pip install "plyfile>=1.1.2"
 pip install "prompt-toolkit>=3.0.52"
 pip install "proto-plus>=1.26.1"
 pip install "pyasn1-modules>=0.4.2"
-pip install "pydantic-core>=2.41.3"
+pip install "pydantic-core>=2.41.4"
 pip install "pyright>=1.1.406"
 pip install "pytest>=8.4.2"
 pip check
@@ -390,8 +390,8 @@ pip install "onnxruntime>=1.23.1"
 pip install "opentelemetry-api>=1.34.1"
 pip check
 pip install "pandas>=2.2.3"
-pip install "posthog>=6.7.6"
-pip install "pydantic>=2.12.1"
+pip install "posthog>=6.7.7"
+pip install "pydantic>=2.12.2"
 pip install "pydeck>=0.9.1"
 pip install "pynacl>=1.6.0"
 pip install "pyowm>=3.5.0"
@@ -406,7 +406,7 @@ pip install "sqlite-utils>=3.38"
 pip install "starlette>=0.48.0"
 pip check
 pip install "tiktoken>=0.12.0"
-pip install "watchfiles>=1.1.0"
+pip install "watchfiles>=1.1.1"
 pip check
 pip install "xgboost>=3.0.5"
 pip check
@@ -428,14 +428,14 @@ pip install "google-auth-oauthlib>=1.2.2"
 pip install "google-genai>=1.43.0"
 pip check
 pip install "intel-openmp>=2025.2.1"
-pip install "ipykernel>=7.0.0"
+pip install "ipykernel>=7.0.1"
 pip install "isoduration>=20.11.0"
 pip check
 pip install "jax>=0.7.2"
 pip install "jsonschema>=4.25.1"
 pip check
 pip install "kubernetes>=30.1.0"
-pip install "langsmith>=0.4.34"
+pip install "langsmith>=0.4.35"
 pip install "llama-cloud>=0.1.26"
 pip install "llama-index-instrumentation>=0.4.2"
 pip install "llamaindex-py-client>=0.1.19"
@@ -470,7 +470,7 @@ pip install "google-cloud-artifact-registry>=1.16.1"
 pip install "google-cloud-compute>=1.39.0"
 pip install "google-cloud-core>=2.4.3"
 pip install "google-cloud-resource-manager>=1.14.2"
-pip install "google-cloud-secret-manager>=2.24.0"
+pip install "google-cloud-secret-manager>=2.25.0"
 pip install "google-cloud-vision>=3.10.2"
 pip check
 pip install "jupyter-events>=0.12.0"
@@ -491,7 +491,7 @@ pip install "pydata-google-auth>=1.9.1"
 pip check
 pip install "torchmetrics>=1.8.2"
 pip install "torchvision>=0.23.0"
-pip install "transformers>=4.57.0"
+pip install "transformers>=4.57.1"
 pip check
 # Level 5
 # Level 6

@@ -1,4 +1,4 @@
-# 2025-10-13T23:58:40.322049+00:00
+# 2025-10-14T21:31:12.795578+00:00
 # Level 5
 pip install "altair>=5.5.0"
 pip check
@@ -8,7 +8,7 @@ pip install "google-cloud-artifact-registry>=1.16.1"
 pip install "google-cloud-compute>=1.39.0"
 pip install "google-cloud-core>=2.4.3"
 pip install "google-cloud-resource-manager>=1.14.2"
-pip install "google-cloud-secret-manager>=2.24.0"
+pip install "google-cloud-secret-manager>=2.25.0"
 pip install "google-cloud-vision>=3.10.2"
 pip check
 pip install "jupyter-events>=0.12.0"
@@ -29,6 +29,6 @@ pip install "pydata-google-auth>=1.9.1"
 pip check
 pip install "torchmetrics>=1.8.2"
 pip install "torchvision>=0.23.0"
-pip install "transformers>=4.57.0"
+pip install "transformers>=4.57.1"
 pip check
 # Level 5

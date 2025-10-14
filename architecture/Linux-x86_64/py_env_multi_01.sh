@@ -1,4 +1,4 @@
-# 2025-10-13T23:58:40.322049+00:00
+# 2025-10-14T21:31:12.795578+00:00
 # Level 1
 pip install "aiohappyeyeballs>=2.6.1"
 pip install "annotated-types>=0.7.0"
@@ -19,7 +19,7 @@ pip check
 pip install "cachetools>=6.2.1"
 pip install "certifi>=2025.10.5"
 pip install "chardet>=5.2.0"
-pip install "charset-normalizer>=3.4.3"
+pip install "charset-normalizer>=3.4.4"
 pip install "click>=8.3.0"
 pip install "colorama>=0.4.6"
 pip install "comm>=0.2.3"

@@ -1,4 +1,4 @@
-# 2025-10-13T23:58:40.322049+00:00
+# 2025-10-14T21:31:12.795578+00:00
 # Level 4
 pip install "albumentations>=2.0.8"
 pip install "anthropic>=0.69.0"
@@ -16,14 +16,14 @@ pip install "google-auth-oauthlib>=1.2.2"
 pip install "google-genai>=1.43.0"
 pip check
 pip install "intel-openmp>=2025.2.1"
-pip install "ipykernel>=7.0.0"
+pip install "ipykernel>=7.0.1"
 pip install "isoduration>=20.11.0"
 pip check
 pip install "jax>=0.7.2"
 pip install "jsonschema>=4.25.1"
 pip check
 pip install "kubernetes>=30.1.0"
-pip install "langsmith>=0.4.34"
+pip install "langsmith>=0.4.35"
 pip install "llama-cloud>=0.1.26"
 pip install "llama-index-instrumentation>=0.4.2"
 pip install "llamaindex-py-client>=0.1.19"
