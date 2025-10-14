@@ -35,6 +35,7 @@ bleach
 blessed
 blinker
 braincube-connector
+brotli
 build
 cachetools
 certifi
@@ -129,7 +130,9 @@ grpc-interceptor
 grpcio
 grpcio-status
 h11
+h2
 h5py
+hpack
 httpcore
 httplib2
 httptools
@@ -138,6 +141,7 @@ httpx-sse
 huggingface-hub
 humanfriendly
 hydra-core
+hyperframe
 icalendar
 idna
 ijson
@@ -409,6 +413,7 @@ six
 smmap
 snakeviz
 sniffio
+socksio
 soupsieve
 sqlalchemy
 sqlalchemy-spanner
