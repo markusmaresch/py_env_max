@@ -1,4 +1,4 @@
-rem 2025-10-14T21:33:25.528254+00:00
+rem 2025-10-14T22:48:34.449841+00:00
 rem Level 1
 pip install "absolufy-imports>=0.3.1"
 pip install "aiohappyeyeballs>=2.6.1"
@@ -20,7 +20,7 @@ pip install "bcrypt>=5.0.0"
 pip install "blinker>=1.9.0"
 pip install "brotli>=1.1.0"
 pip check
-pip install "cachetools>=5.5.2"
+pip install "cachetools>=6.2.1"
 pip install "certifi>=2025.10.5"
 pip install "chardet>=5.2.0"
 pip install "charset-normalizer>=3.4.4"

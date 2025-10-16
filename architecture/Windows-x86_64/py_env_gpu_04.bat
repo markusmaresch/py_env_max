@@ -1,4 +1,4 @@
-rem 2025-10-14T21:33:25.528254+00:00
+rem 2025-10-14T22:48:34.449841+00:00
 rem Level 4
 pip install "anthropic>=0.69.0"
 pip install "argon2-cffi>=25.1.0"
@@ -37,7 +37,7 @@ pip install "msal>=1.34.0"
 pip check
 pip install "ollama>=0.6.0"
 pip install "onnxruntime>=1.23.1"
-pip install "openai>=1.109.0"
+pip install "openai>=1.109.1"
 pip install "openmeteo-requests>=1.7.3"
 pip install "opentelemetry-instrumentation>=0.48b0"
 pip install "opentelemetry-semantic-conventions>=0.48b0"
