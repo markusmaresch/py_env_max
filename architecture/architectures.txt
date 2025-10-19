@@ -1,2 +1,11 @@
 Linux-ppc64le
 MacOSX-arm64
+#
+# parts of names below
+#
+win_x86_64
+osx_x86_64
+osx_arm_64
+linux_x86_64
+linux_aarch_64
+linux_ppc_64

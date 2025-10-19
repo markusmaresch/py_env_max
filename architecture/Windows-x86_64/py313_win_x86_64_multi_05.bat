@@ -1,0 +1,40 @@
+rem 2025-10-19T20:07:03.026491+00:00
+rem Level 5
+pip install "agno>=2.1.8"
+pip install "altair>=5.5.0"
+pip check
+pip install "google-api-python-client>=2.185.0"
+pip install "google-cloud-appengine-logging>=1.7.0"
+pip install "google-cloud-artifact-registry>=1.17.0"
+pip install "google-cloud-compute>=1.40.0"
+pip install "google-cloud-core>=2.4.3"
+pip install "google-cloud-resource-manager>=1.14.2"
+pip install "google-cloud-secret-manager>=2.25.0"
+pip install "google-cloud-speech>=2.33.0"
+pip install "google-cloud-trace>=1.16.2"
+pip install "google-cloud-vision>=3.10.2"
+pip check
+pip install "jupyter-events>=0.12.0"
+pip install "lance-namespace>=0.0.18"
+pip install "langchain-core>=1.0.0"
+pip install "llama-index-legacy>=0.9.48.post4"
+pip install "llama-index-workflows>=2.8.3"
+pip check
+pip install "mcp>=1.18.0"
+pip install "mkl>=2025.2.0"
+pip install "msal-extensions>=1.3.1"
+pip check
+pip install "nbformat>=5.10.4"
+pip install "opentelemetry-instrumentation>=0.59b0"
+pip install "opentelemetry-sdk>=1.38.0"
+pip check
+pip install "pydata-google-auth>=1.9.1"
+pip install "pytorch-lightning>=2.5.5"
+pip check
+pip install "sam2>=1.1.0"
+pip install "sqlite-migrate>=0.1b0"
+pip check
+pip install "timm>=1.0.20"
+pip install "transformers>=4.57.1"
+pip check
+rem Level 5
