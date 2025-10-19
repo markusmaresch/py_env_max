@@ -128,6 +128,7 @@ pycparser
 pyflakes
 pygments
 pyjwt
+pylucidio
 pymage-size
 pymodbustcp
 pymupdf
@@ -202,6 +203,7 @@ zstandard
 aiosignal
 aiosqlite
 anyio
+arena-api
 beautifulsoup4
 bleach
 build

@@ -1,8 +1,9 @@
-rem 2025-10-19T20:31:33.741741+00:00
+rem 2025-10-19T20:55:07.658361+00:00
 rem Level 2
 pip install "aiosignal>=1.4.0"
 pip install "aiosqlite>=0.21.0"
 pip install "anyio>=4.11.0"
+pip install "arena-api>=2.7.1"
 pip check
 pip install "beautifulsoup4>=4.14.2"
 pip install "bleach>=6.2.0"

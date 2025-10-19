@@ -1,4 +1,4 @@
-rem 2025-10-19T20:31:33.741741+00:00
+rem 2025-10-19T20:55:07.658361+00:00
 rem Level 1
 pip install "absolufy-imports>=0.3.1"
 pip install "aiohappyeyeballs>=2.6.1"
@@ -148,12 +148,13 @@ pip install "pycparser>=2.23"
 pip install "pyflakes>=3.4.0"
 pip install "pygments>=2.19.2"
 pip install "pyjwt>=2.10.1"
+pip install "pylucidio>=2.4"
 pip install "pymage-size>=1.7.1"
 pip install "pymodbustcp>=0.3.0"
 pip install "pymupdf>=1.26.5"
 pip install "pyparsing>=3.2.5"
-pip install "pypdf>=6.1.2"
 pip check
+pip install "pypdf>=6.1.2"
 pip install "pypika>=0.48.9"
 pip install "pyproject-hooks>=1.2.0"
 pip install "pyqtree>=1.0.0"
@@ -163,8 +164,8 @@ pip install "pysocks>=1.7.1"
 pip install "python-dotenv>=1.1.1"
 pip install "python-json-logger>=4.0.0"
 pip install "python-multipart>=0.0.20"
-pip install "python-ulid>=3.1.0"
 pip check
+pip install "python-ulid>=3.1.0"
 pip install "pytz>=2025.2"
 pip install "pywin32>=311"
 pip install "pywinpty>=3.0.2"
@@ -236,6 +237,7 @@ rem Level 2
 pip install "aiosignal>=1.4.0"
 pip install "aiosqlite>=0.21.0"
 pip install "anyio>=4.11.0"
+pip install "arena-api>=2.7.1"
 pip check
 pip install "beautifulsoup4>=4.14.2"
 pip install "bleach>=6.2.0"
