@@ -1,4 +1,4 @@
-rem 2025-10-19T20:07:03.026491+00:00
+rem 2025-10-19T20:31:33.741741+00:00
 rem Level 4
 pip install "anthropic>=0.71.0"
 pip install "argon2-cffi>=25.1.0"
@@ -47,8 +47,9 @@ pip install "pythonnet>=3.0.5"
 pip check
 pip install "sqlite-utils>=3.38"
 pip install "tokenizers>=0.22.1"
+pip install "torchaudio>=2.8.0+cu129"
 pip install "torchmetrics>=1.8.2"
-pip install "torchvision>=0.24.0"
+pip install "torchvision>=0.23.0+cu129"
 pip install "typer>=0.19.2"
 pip check
 pip install "yfinance>=0.2.66"

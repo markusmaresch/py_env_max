@@ -383,6 +383,7 @@ pygithub
 pythonnet
 sqlite-utils
 tokenizers
+torchaudio
 torchmetrics
 torchvision
 typer

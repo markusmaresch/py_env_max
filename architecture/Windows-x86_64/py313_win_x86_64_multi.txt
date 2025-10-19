@@ -441,6 +441,7 @@ tomli
 tomli-w
 tomlkit
 torch
+torchaudio
 torchmetrics
 torchvision
 tornado
