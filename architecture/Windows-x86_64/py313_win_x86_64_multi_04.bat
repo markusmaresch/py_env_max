@@ -1,5 +1,6 @@
-rem 2025-10-19T21:41:54.526057+00:00
+rem 2025-10-19T21:59:12.774933+00:00
 rem Level 4
+pip install "accelerate>=1.10.1"
 pip install "anthropic>=0.71.0"
 pip install "argon2-cffi>=25.1.0"
 pip install "authlib>=1.6.5"
@@ -7,10 +8,13 @@ pip check
 pip install "banks>=2.2.0"
 pip install "braincube-connector>=2.8.0"
 pip check
+pip install "datasets>=4.2.0"
 pip install "db-dtypes>=1.4.3"
 pip install "ddgs>=9.6.1"
 pip check
 pip install "fastapi>=0.119.0"
+pip install "fla-core>=0.3.2"
+pip check
 pip install "google-api-core>=2.26.0"
 pip install "google-auth-httplib2>=0.2.0"
 pip install "google-auth-oauthlib>=1.2.2"

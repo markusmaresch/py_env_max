@@ -2,6 +2,7 @@
 #
 # Name                                       Version          Build               Channel
 absolufy-imports                             0.3.1            pypi_0              pypi
+accelerate                                   1.10.1           pypi_0              pypi
 agno                                         2.1.8            pypi_0              pypi
 aiohappyeyeballs                             2.6.1            pypi_0              pypi
 aiohttp                                      3.13.1           pypi_0              pypi
@@ -64,6 +65,7 @@ curl-cffi                                    0.13.0           pypi_0            
 cycler                                       0.12.1           pypi_0              pypi
 cython                                       3.1.4            pypi_0              pypi
 dataclasses-json                             0.6.7            pypi_0              pypi
+datasets                                     4.2.0            pypi_0              pypi
 db-dtypes                                    1.4.3            pypi_0              pypi
 ddgs                                         9.6.1            pypi_0              pypi
 debugpy                                      1.8.17           pypi_0              pypi
@@ -71,6 +73,7 @@ decorator                                    5.2.1            pypi_0            
 defusedxml                                   0.7.1            pypi_0              pypi
 deprecated                                   1.2.18           pypi_0              pypi
 deprecation                                  2.1.0            pypi_0              pypi
+dill                                         0.4.0            pypi_0              pypi
 dirtyjson                                    1.0.8            pypi_0              pypi
 diskcache                                    5.6.3            pypi_0              pypi
 distro                                       1.9.0            pypi_0              pypi
@@ -78,6 +81,7 @@ dnspython                                    2.8.0            pypi_0            
 docstring-parser                             0.17.0           pypi_0              pypi
 docutils                                     0.22.2           pypi_0              pypi
 durationpy                                   0.10             pypi_0              pypi
+einops                                       0.8.1            pypi_0              pypi
 email-validator                              2.3.0            pypi_0              pypi
 eval-type-backport                           0.2.2            pypi_0              pypi
 executing                                    2.2.1            pypi_0              pypi
@@ -87,6 +91,7 @@ fastavro                                     1.12.1           pypi_0            
 fastjsonschema                               2.21.2           pypi_0              pypi
 filelock                                     3.20.0           pypi_0              pypi
 filetype                                     1.2.0            pypi_0              pypi
+fla-core                                     0.3.2            pypi_0              pypi
 flake8                                       7.3.0            pypi_0              pypi
 flask                                        3.1.2            pypi_0              pypi
 flatbuffers                                  25.2.10          pypi_0              pypi
@@ -271,6 +276,7 @@ mpmath                                       1.3.0            pypi_0            
 msal                                         1.34.0           pypi_0              pypi
 msal-extensions                              1.3.1            pypi_0              pypi
 multidict                                    6.7.0            pypi_0              pypi
+multiprocess                                 0.70.16          pypi_0              pypi
 multitasking                                 0.0.12           pypi_0              pypi
 mypy-extensions                              1.1.0            pypi_0              pypi
 narwhals                                     2.8.0            pypi_0              pypi

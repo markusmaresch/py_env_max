@@ -1,4 +1,4 @@
-rem 2025-10-19T21:41:54.526057+00:00
+rem 2025-10-19T21:59:12.774933+00:00
 rem Level 1
 pip install "absolufy-imports>=0.3.1"
 pip install "aiohappyeyeballs>=2.6.1"
@@ -34,14 +34,17 @@ pip check
 pip install "debugpy>=1.8.17"
 pip install "decorator>=5.2.1"
 pip install "defusedxml>=0.7.1"
+pip install "dill>=0.4.0"
 pip install "dirtyjson>=1.0.8"
 pip install "diskcache>=5.6.3"
 pip install "distro>=1.9.0"
 pip install "dnspython>=2.8.0"
 pip install "docstring-parser>=0.17.0"
 pip install "docutils>=0.22.2"
+pip check
 pip install "durationpy>=0.10"
 pip check
+pip install "einops>=0.8.1"
 pip install "eval-type-backport>=0.2.2"
 pip install "executing>=2.2.1"
 pip check
@@ -289,6 +292,7 @@ pip install "markdown-it-py>=4.0.0"
 pip install "marshmallow>=3.26.1"
 pip install "matplotlib-inline>=0.1.7"
 pip install "ml-dtypes>=0.5.3"
+pip install "multiprocess>=0.70.16"
 pip check
 pip install "numba>=0.62.1"
 pip install "omegaconf>=2.3.0"
@@ -420,6 +424,7 @@ pip install "watchfiles>=1.1.1"
 pip check
 rem Level 3
 rem Level 4
+pip install "accelerate>=1.10.1"
 pip install "anthropic>=0.71.0"
 pip install "argon2-cffi>=25.1.0"
 pip install "authlib>=1.6.5"
@@ -427,10 +432,13 @@ pip check
 pip install "banks>=2.2.0"
 pip install "braincube-connector>=2.8.0"
 pip check
+pip install "datasets>=4.2.0"
 pip install "db-dtypes>=1.4.3"
 pip install "ddgs>=9.6.1"
 pip check
 pip install "fastapi>=0.119.0"
+pip install "fla-core>=0.3.2"
+pip check
 pip install "google-api-core>=2.26.0"
 pip install "google-auth-httplib2>=0.2.0"
 pip install "google-auth-oauthlib>=1.2.2"

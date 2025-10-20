@@ -28,6 +28,7 @@ cython
 debugpy
 decorator
 defusedxml
+dill
 dirtyjson
 diskcache
 distro
@@ -35,6 +36,7 @@ dnspython
 docstring-parser
 docutils
 durationpy
+einops
 eval-type-backport
 executing
 fastavro
@@ -245,6 +247,7 @@ markdown-it-py
 marshmallow
 matplotlib-inline
 ml-dtypes
+multiprocess
 numba
 omegaconf
 opencv-contrib-python
@@ -348,14 +351,17 @@ tiktoken
 torch
 uvicorn
 watchfiles
+accelerate
 anthropic
 argon2-cffi
 authlib
 banks
 braincube-connector
+datasets
 db-dtypes
 ddgs
 fastapi
+fla-core
 google-api-core
 google-auth-httplib2
 google-auth-oauthlib
