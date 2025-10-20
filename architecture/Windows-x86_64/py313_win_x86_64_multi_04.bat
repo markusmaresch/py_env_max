@@ -1,4 +1,4 @@
-rem 2025-10-19T21:59:12.774933+00:00
+rem 2025-10-20T10:40:58.935437+00:00
 rem Level 4
 pip install "accelerate>=1.10.1"
 pip install "anthropic>=0.71.0"

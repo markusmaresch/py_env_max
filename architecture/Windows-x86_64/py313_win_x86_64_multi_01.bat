@@ -1,4 +1,4 @@
-rem 2025-10-19T21:59:12.774933+00:00
+rem 2025-10-20T10:40:58.935437+00:00
 rem Level 1
 pip install "absolufy-imports>=0.3.1"
 pip install "aiohappyeyeballs>=2.6.1"
@@ -29,7 +29,7 @@ pip install "colorama>=0.4.6"
 pip install "comm>=0.2.3"
 pip install "condense-json>=0.1.3"
 pip install "cycler>=0.12.1"
-pip install "cython>=3.1.4"
+pip install "cython>=3.1.5"
 pip check
 pip install "debugpy>=1.8.17"
 pip install "decorator>=5.2.1"

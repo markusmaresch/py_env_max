@@ -1,7 +1,8 @@
-rem 2025-10-19T21:59:12.774933+00:00
+rem 2025-10-20T10:40:58.935437+00:00
 rem Level 6
 pip install "azure-identity>=1.25.1"
 pip check
+pip install "flash-linear-attention>=0.3.2"
 pip install "google-cloud-bigquery>=3.38.0"
 pip install "google-cloud-bigtable>=2.33.0"
 pip install "google-cloud-logging>=3.12.1"

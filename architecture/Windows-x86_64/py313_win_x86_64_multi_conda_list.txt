@@ -63,7 +63,7 @@ contourpy                                    1.3.3            pypi_0            
 cryptography                                 46.0.3           pypi_0              pypi
 curl-cffi                                    0.13.0           pypi_0              pypi
 cycler                                       0.12.1           pypi_0              pypi
-cython                                       3.1.4            pypi_0              pypi
+cython                                       3.1.5            pypi_0              pypi
 dataclasses-json                             0.6.7            pypi_0              pypi
 datasets                                     4.2.0            pypi_0              pypi
 db-dtypes                                    1.4.3            pypi_0              pypi
@@ -93,6 +93,7 @@ filelock                                     3.20.0           pypi_0            
 filetype                                     1.2.0            pypi_0              pypi
 fla-core                                     0.3.2            pypi_0              pypi
 flake8                                       7.3.0            pypi_0              pypi
+flash-linear-attention                       0.3.2            pypi_0              pypi
 flask                                        3.1.2            pypi_0              pypi
 flatbuffers                                  25.2.10          pypi_0              pypi
 fonttools                                    4.60.1           pypi_0              pypi

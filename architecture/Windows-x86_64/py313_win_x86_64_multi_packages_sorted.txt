@@ -426,6 +426,7 @@ sqlite-migrate
 timm
 transformers
 azure-identity
+flash-linear-attention
 google-cloud-bigquery
 google-cloud-bigtable
 google-cloud-logging

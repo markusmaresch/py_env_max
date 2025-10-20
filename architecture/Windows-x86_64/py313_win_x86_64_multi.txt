@@ -87,6 +87,7 @@ filelock
 filetype
 fla-core
 flake8
+flash-linear-attention
 flask
 flatbuffers
 fonttools
