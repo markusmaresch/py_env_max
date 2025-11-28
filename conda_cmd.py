@@ -5,6 +5,7 @@ import os.path
 import sys
 import subprocess
 import datetime
+import typing
 
 from functools import lru_cache
 
@@ -61,13 +62,8 @@ class CondaCmd:
         return True
 
     @staticmethod
-    def env_list() -> [str]:
-        # call: conda env list | awk '{print $1}' # more or less
-        return None
-
-    @staticmethod
     @lru_cache(maxsize=1)  # it does not change during runtime
-    def _env_activated() -> (str, str):
+    def _env_activated() -> typing.Tuple[str, str]:
         # conda env list | grep -e ' \* ' | awk '{print $1 $3}'
         try:
             output = subprocess.check_output(['conda', 'env', 'list'])

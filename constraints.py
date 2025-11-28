@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 import enum
+import typing
 
 from version import Version
 
@@ -185,7 +186,7 @@ class Constraints:
 
         return False
 
-    def match_possible_releases(self, package_name: str, releases: [str]) -> [str]:
+    def match_possible_releases(self, package_name: str, releases: typing.List[str]) -> typing.List[str]:
         # reduce the list of release, according to constraints
         if self.no_constraints():
             return releases
