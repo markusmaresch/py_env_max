@@ -1,4 +1,4 @@
-rem 2025-10-20T10:40:58.935437+00:00
+rem 2026-03-23T17:16:45.521349+00:00
 rem Level 5
 pip install "agno>=2.1.8"
 pip install "altair>=5.5.0"
@@ -15,7 +15,7 @@ pip install "google-cloud-trace>=1.16.2"
 pip install "google-cloud-vision>=3.10.2"
 pip check
 pip install "jupyter-events>=0.12.0"
-pip install "lance-namespace>=0.0.18"
+pip install "lance-namespace>=0.6.1"
 pip install "langchain-core>=1.0.0"
 pip install "llama-index-legacy>=0.9.48.post4"
 pip install "llama-index-workflows>=2.8.3"

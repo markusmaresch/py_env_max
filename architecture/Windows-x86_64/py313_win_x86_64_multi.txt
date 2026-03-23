@@ -129,6 +129,8 @@ gputil
 graphviz
 greenlet
 griffe
+griffecli
+griffelib
 grpc-google-iam-v1
 grpc-interceptor
 grpcio
@@ -218,6 +220,7 @@ langgraph-sdk
 langsmith
 lark
 lazy-loader
+librt
 lightning
 lightning-utilities
 llama-cloud
@@ -270,6 +273,7 @@ msal-extensions
 multidict
 multiprocess
 multitasking
+mypy
 mypy-extensions
 narwhals
 nbclient
@@ -284,6 +288,7 @@ notebook
 notebook-shim
 numba
 numpy
+numpy-typing-compat
 oauthlib
 ollama
 omegaconf
@@ -314,6 +319,7 @@ opentelemetry-sdk
 opentelemetry-semantic-conventions
 opentelemetry-util-http
 opt-einsum
+optype
 orjson
 ormsgpack
 overrides
@@ -323,6 +329,7 @@ pandas-gbq
 pandocfilters
 parameterized
 parso
+pathspec
 pdf2image
 peewee
 persist-queue
@@ -408,6 +415,7 @@ sam2
 scikit-image
 scikit-learn
 scipy
+scipy-stubs
 segment-anything
 send2trash
 sentence-transformers

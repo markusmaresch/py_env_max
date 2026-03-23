@@ -54,6 +54,7 @@ google-crc32c
 gputil
 graphviz
 greenlet
+griffelib
 h11
 hpack
 httptools
@@ -78,6 +79,7 @@ jupyter-highlight-selected-word
 jupyterlab-pygments
 kiwisolver
 lark
+librt
 llvmlite
 lmdb
 lxml
@@ -102,6 +104,7 @@ oauthlib
 openinference-semantic-conventions
 opentelemetry-util-http
 opt-einsum
+optype
 orjson
 ormsgpack
 overrides
@@ -109,6 +112,7 @@ packaging
 pandocfilters
 parameterized
 parso
+pathspec
 peewee
 persist-queue
 pillow
@@ -195,7 +199,6 @@ webcolors
 webencodings
 websocket-client
 websockets
-wheel
 wrapt
 xlsxwriter
 xxhash
@@ -221,7 +224,7 @@ fpdf2
 gitdb
 google-resumable-media
 googleapis-common-protos
-griffe
+griffecli
 grpcio
 h2
 h5py
@@ -248,7 +251,9 @@ marshmallow
 matplotlib-inline
 ml-dtypes
 multiprocess
+mypy
 numba
+numpy-typing-compat
 omegaconf
 opencv-contrib-python
 opencv-python
@@ -263,7 +268,6 @@ prompt-toolkit
 proto-plus
 pyasn1-modules
 pydantic-core
-pylance
 pyright
 pytest
 python-dateutil
@@ -275,6 +279,7 @@ rfc3339-validator
 rfc3987-syntax
 rsa
 scipy
+scipy-stubs
 shapely
 snakeviz
 sqlalchemy
@@ -292,6 +297,7 @@ tzlocal
 umf
 urllib3-future
 werkzeug
+wheel
 yarl
 aiohttp
 albucore
@@ -311,6 +317,7 @@ flask
 gitpython
 google-auth
 google-cloud-audit-log
+griffe
 grpc-google-iam-v1
 grpc-interceptor
 grpcio-status
@@ -445,6 +452,7 @@ opentelemetry-exporter-otlp-proto-grpc
 opentelemetry-exporter-otlp-proto-http
 opentelemetry-instrumentation-asgi
 opentelemetry-resourcedetector-gcp
+pylance
 sentence-transformers
 streamlit
 chromadb

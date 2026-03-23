@@ -1,4 +1,4 @@
-rem 2025-10-20T10:40:58.935437+00:00
+rem 2026-03-23T17:16:45.521349+00:00
 rem Level 6
 pip install "azure-identity>=1.25.1"
 pip check
@@ -24,6 +24,7 @@ pip install "opentelemetry-exporter-otlp-proto-http>=1.38.0"
 pip install "opentelemetry-instrumentation-asgi>=0.59b0"
 pip install "opentelemetry-resourcedetector-gcp>=1.10.0a0"
 pip check
+pip install "pylance>=3.0.1"
 pip install "sentence-transformers>=5.1.1"
 pip install "streamlit>=1.50.0"
 pip check

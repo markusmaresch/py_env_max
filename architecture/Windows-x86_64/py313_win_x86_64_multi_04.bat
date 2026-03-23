@@ -1,4 +1,4 @@
-rem 2025-10-20T10:40:58.935437+00:00
+rem 2026-03-23T17:16:45.521349+00:00
 rem Level 4
 pip install "accelerate>=1.10.1"
 pip install "anthropic>=0.71.0"
@@ -28,7 +28,7 @@ pip install "jax>=0.8.0"
 pip install "jsonschema>=4.25.1"
 pip check
 pip install "kubernetes>=30.1.0"
-pip install "lance-namespace-urllib3-client>=0.0.18"
+pip install "lance-namespace-urllib3-client>=0.6.1"
 pip install "langgraph-sdk>=0.2.9"
 pip install "langsmith>=0.4.37"
 pip install "llama-cloud>=0.1.35"

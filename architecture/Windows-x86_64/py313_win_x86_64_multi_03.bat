@@ -1,4 +1,4 @@
-rem 2025-10-20T10:40:58.935437+00:00
+rem 2026-03-23T17:16:45.521349+00:00
 rem Level 3
 pip install "aiohttp>=3.13.1"
 pip install "albucore>=0.0.33"
@@ -21,6 +21,7 @@ pip check
 pip install "gitpython>=3.1.45"
 pip install "google-auth>=2.41.1"
 pip install "google-cloud-audit-log>=0.4.0"
+pip install "griffe>=2.0.0"
 pip install "grpc-google-iam-v1>=0.14.3"
 pip install "grpc-interceptor>=0.15.4"
 pip install "grpcio-status>=1.75.1"

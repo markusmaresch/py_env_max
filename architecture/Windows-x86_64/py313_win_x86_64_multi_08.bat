@@ -1,4 +1,4 @@
-rem 2025-10-20T10:40:58.935437+00:00
+rem 2026-03-23T17:16:45.521349+00:00
 rem Level 8
 pip install "google-cloud-pipeline-components>=2.21.0"
 pip check
