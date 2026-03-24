@@ -620,6 +620,7 @@ class EnvCmd:
                             continue
                         # fi
                     # fi
+                    # also need to check for not-updateable packages, like: chardet==5.2.0
                     releases_recent = None
                     for rf in ReleaseFilter:
                         releases_recent = db.package_get_releases_recent(package_name, release_filter=rf)
