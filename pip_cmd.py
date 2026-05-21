@@ -7,15 +7,8 @@ import typing
 import itertools
 import importlib.metadata as metadata
 
-# installed packages
-try:
-    # attempt new version
-    from _vendor.pipdeptree_2_35_1._models.dag import PackageDAG
-    from _vendor.pipdeptree_2_35_1._validate import conflicting_deps, render_conflicts_text, cyclic_deps
-except Exception as e:
-    # fallback to old one ..
-    print(f'fallback: {e} - not good, check package above !')
-    from _vendor.pipdeptree import PackageDAG, conflicting_deps, render_conflicts_text, cyclic_deps
+from _vendor.pipdeptree_2_35_1._models.dag import PackageDAG
+from _vendor.pipdeptree_2_35_1._validate import conflicting_deps, render_conflicts_text, cyclic_deps
 
 # own imports
 from utils import Utils
@@ -327,7 +320,8 @@ class PipCmd:
                         required_package = v[3]
                         but_have0 = v[7]
                         but_have1 = v[8]
-                        print(f'requires / incompatible: {offender0}=={offender1} ; req: {required_package} ; but_have: {but_have0}=={but_have1}')
+                        print(f'requires / incompatible: {offender0}=={offender1} ; '
+                              f'req: {required_package} ; but_have: {but_have0}=={but_have1}')
                         pass
                     # fi
                 if v[0] == 'Connected' and v[1] == 'to:':
