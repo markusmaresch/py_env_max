@@ -10,10 +10,11 @@ import importlib.metadata as metadata
 # installed packages
 try:
     # attempt new version
-    from _vendor.pipdeptree_2_28_0._models.dag import PackageDAG
-    from _vendor.pipdeptree_2_28_0._validate import conflicting_deps, render_conflicts_text, cyclic_deps
-except:
+    from _vendor.pipdeptree_2_35_1._models.dag import PackageDAG
+    from _vendor.pipdeptree_2_35_1._validate import conflicting_deps, render_conflicts_text, cyclic_deps
+except Exception as e:
     # fallback to old one ..
+    print(f'fallback: {e} - not good, check package above !')
     from _vendor.pipdeptree import PackageDAG, conflicting_deps, render_conflicts_text, cyclic_deps
 
 # own imports
