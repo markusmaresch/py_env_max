@@ -1,10 +1,11 @@
-# 2025-10-14T21:31:12.795578+00:00
+# 2026-05-21T21:11:54.946865+00:00
 # Level 7
-pip install "google-cloud-aiplatform>=1.120.0"
+pip install "google-cloud-bigquery>=3.41.0"
+pip install "google-cloud-storage>=2.19.0"
 pip check
-pip install "kfp>=2.13.0"
-pip install "langchain>=0.3.27"
-pip install "lightning>=2.5.5"
+pip install "langchain-classic>=1.0.4"
+pip install "langgraph-prebuilt>=1.0.10"
+pip install "lightning>=2.6.1"
 pip install "llama-cloud-services>=0.6.34"
 pip install "llama-index-embeddings-openai>=0.3.1"
 pip install "llama-index-indices-managed-llama-cloud>=0.7.7"
@@ -13,12 +14,9 @@ pip install "llama-index-llms-openai>=0.4.7"
 pip install "llama-index-readers-file>=0.4.11"
 pip install "llm-claude-3>=0.11"
 pip check
-pip install "nbconvert>=7.16.6"
-pip install "openinference-instrumentation-langchain>=0.1.53"
-pip install "openinference-instrumentation-llama-index>=4.3.6"
-pip install "openinference-instrumentation-openai>=0.1.39"
-pip install "opentelemetry-instrumentation-fastapi>=0.55b1"
+pip install "mistralai>=1.12.3"
+pip install "nbconvert>=7.17.1"
 pip check
-pip install "pandas-gbq>=0.29.2"
+pip install "transformers>=5.5.4"
 pip check
 # Level 7
