@@ -20,12 +20,10 @@ asttokens
 async-lru
 async-timeout
 attrs
-autocommand
 azure-core
 azure-identity
 babel
 backoff
-backports-tarfile
 banks
 bcrypt
 beautifulsoup4
@@ -127,6 +125,7 @@ httpx-sse
 huggingface-hub
 humanfriendly
 hydra-core
+id
 idna
 ijson
 imageio
@@ -146,12 +145,14 @@ ipython-genutils
 ipython-pygments-lexers
 isoduration
 itsdangerous
+jaraco-classes
 jaraco-context
 jaraco-functools
 jaraco-text
 jax
 jaxlib
 jedi
+jeepney
 jh2
 jinja2
 jinxed
@@ -177,6 +178,7 @@ jupyter-server-terminals
 jupyterlab
 jupyterlab-pygments
 jupyterlab-server
+keyring
 kfp-server-api
 kiwisolver
 kubernetes
@@ -184,6 +186,7 @@ langchain
 langchain-classic
 langchain-community
 langchain-core
+langchain-protocol
 langchain-text-splitters
 langgraph
 langgraph-checkpoint
@@ -250,6 +253,7 @@ nbconvert
 nbformat
 nest-asyncio
 networkx
+nh3
 niquests
 nltk
 nodeenv
@@ -377,6 +381,7 @@ pytest-cov
 python-dateutil
 python-dotenv
 python-json-logger
+python-multipart
 python-ulid
 pythonnet
 pytorch-lightning
@@ -386,6 +391,7 @@ pyzbar
 pyzmq
 qh3
 qrcode
+readme-renderer
 referencing
 regex
 reportlab
@@ -393,6 +399,7 @@ requests
 requests-oauthlib
 requests-toolbelt
 rfc3339-validator
+rfc3986
 rfc3986-validator
 rfc3987-syntax
 rich
@@ -405,6 +412,7 @@ scikit-image
 scikit-learn
 scipy
 seaborn
+secretstorage
 segment-anything
 send2trash
 sentence-transformers
@@ -451,6 +459,7 @@ tqdm
 traitlets
 transformers
 triton
+twine
 typeguard
 typer
 typer-slim
