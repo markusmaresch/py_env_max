@@ -1,4 +1,4 @@
-# 2026-05-21T22:01:10.549213+00:00
+# 2026-05-21T22:35:05.924530+00:00
 # Level 4
 pip install "albumentations>=2.0.8"
 pip install "anthropic>=0.104.0"
@@ -13,7 +13,7 @@ pip check
 pip install "fastapi>=0.136.1"
 pip install "google-auth>=2.53.0"
 pip check
-pip install "intel-openmp>=2025.3.3"
+pip install "intel-openmp>=2026.0.0"
 pip install "ipykernel>=7.2.0"
 pip install "isoduration>=20.11.0"
 pip check

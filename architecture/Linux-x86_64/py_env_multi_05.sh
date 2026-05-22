@@ -1,11 +1,11 @@
-# 2026-05-21T22:01:10.549213+00:00
+# 2026-05-21T22:35:05.924530+00:00
 # Level 5
 pip install "altair>=6.1.0"
 pip check
 pip install "google-api-core>=2.30.3"
 pip install "google-auth-httplib2>=0.4.0"
 pip install "google-auth-oauthlib>=1.4.0"
-pip install "google-genai>=1.74.0"
+pip install "google-genai>=2.5.0"
 pip check
 pip install "huggingface-hub>=1.16.1"
 pip install "jupyter-events>=0.12.1"

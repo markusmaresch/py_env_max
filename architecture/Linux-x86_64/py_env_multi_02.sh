@@ -1,4 +1,4 @@
-# 2026-05-21T22:01:10.549213+00:00
+# 2026-05-21T22:35:05.924530+00:00
 # Level 2
 pip install "aiosignal>=1.4.0"
 pip install "anyio>=4.13.0"
@@ -34,7 +34,7 @@ pip install "httplib2>=0.31.2"
 pip check
 pip install "id>=1.6.1"
 pip install "imageio>=2.37.3"
-pip install "importlib-metadata>=8.7.1"
+pip install "importlib-metadata>=9.0.0"
 pip install "iopath>=0.1.10"
 pip install "iprogress>=0.4"
 pip install "ipython-pygments-lexers>=1.1.1"
@@ -60,9 +60,9 @@ pip install "nltk>=3.9.4"
 pip install "numba>=0.65.1"
 pip install "nvidia-cublas>=13.1.1.3"
 pip install "nvidia-cublas-cu12>=12.9.2.10"
-pip install "nvidia-cufft>=12.0.0.61"
+pip install "nvidia-cufft>=12.2.0.46"
 pip install "nvidia-cufft-cu12>=11.4.1.4"
-pip install "nvidia-cusparse>=12.6.3.3"
+pip install "nvidia-cusparse>=12.7.10.1"
 pip install "nvidia-cusparse-cu12>=12.5.10.65"
 pip check
 pip install "omegaconf>=2.3.0"
@@ -106,12 +106,12 @@ pip check
 pip install "tbb>=2023.0.0"
 pip install "terminado>=0.18.1"
 pip install "tifffile>=2026.5.15"
-pip install "tinycss2>=1.4.0"
+pip install "tinycss2>=1.5.1"
 pip install "typeguard>=4.5.2"
 pip install "typing-inspect>=0.9.0"
 pip install "typing-inspection>=0.4.2"
 pip check
-pip install "umf>=1.0.3"
+pip install "umf>=1.1.0"
 pip install "urllib3-future>=2.20.906"
 pip install "uvicorn>=0.47.0"
 pip check
