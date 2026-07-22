@@ -1,4 +1,4 @@
-# 2026-05-21T22:35:05.924530+00:00
+# 2026-07-22T22:42:57.964464+00:00
 # Level 1
 pip install "aiohappyeyeballs>=2.6.2"
 pip install "aiosqlite>=0.22.1"
@@ -157,7 +157,7 @@ pip install "parso>=0.8.7"
 pip install "peewee>=4.0.6"
 pip install "persist-queue>=1.1.0"
 pip install "pillow>=12.2.0"
-pip install "pip>=26.1.1"
+pip install "pip>=26.1.2"
 pip install "platformdirs>=4.9.6"
 pip install "pluggy>=1.6.0"
 pip check
@@ -242,6 +242,7 @@ pip check
 pip install "tqdm>=4.67.3"
 pip install "traitlets>=5.15.0"
 pip install "triton>=3.7.0"
+pip install "ty>=0.0.59"
 pip install "types-python-dateutil>=2.9.0.20260518"
 pip install "types-pytz>=2026.2.0.20260518"
 pip install "typing-extensions>=4.15.0"

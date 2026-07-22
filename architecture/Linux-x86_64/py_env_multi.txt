@@ -460,6 +460,7 @@ traitlets
 transformers
 triton
 twine
+ty
 typeguard
 typer
 typer-slim

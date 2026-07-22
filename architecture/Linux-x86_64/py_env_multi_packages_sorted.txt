@@ -210,6 +210,7 @@ tornado
 tqdm
 traitlets
 triton
+ty
 types-python-dateutil
 types-pytz
 typing-extensions
