@@ -189,9 +189,9 @@ class PipCmd:
     def version() -> str:
         version = ''
         try:
-            output = subprocess.check_output(['pip', '-V'])
+            output = subprocess.check_output([sys.executable, '-m', 'pip', '-V'], text=True)
             for line in output.splitlines():
-                v = line.decode().split()
+                v = line.split()
                 if v[0] != 'pip':
                     continue
                 version = v[1]
@@ -423,7 +423,7 @@ class PipCmd:
         ok = True
         try:
             with open(output_path, 'w') as file:
-                output = subprocess.check_output(['pip', 'freeze'])
+                output = subprocess.check_output([sys.executable, '-m', 'pip', 'freeze'])
                 for line in output.splitlines():
                     file.write(line.decode() + '\n')
                 # for

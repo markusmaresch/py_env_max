@@ -6,20 +6,46 @@ import sys
 import subprocess
 import datetime
 import typing
+from pathlib import Path
 
 from functools import lru_cache
-
 
 # REMOVE: conda remove --name py_env_XXX --all
 
 class CondaCmd:
+
+    @staticmethod
+    def find_conda_executable() -> str:
+        """Find the conda binary relative to the current Python interpreter."""
+        python_path = Path(sys.executable)
+
+        # Scenario A: Running in the 'base' environment
+        # e.g., /home/user/miniconda3/bin/python
+        base_conda = python_path.parent / "conda"
+        if base_conda.exists():
+            return str(base_conda)
+
+        # Scenario B: Running in a named environment
+        # e.g., /home/user/miniconda3/envs/my_env/bin/python
+        # The root miniconda/anaconda directory is 3 levels up from the python binary
+        root_dir = python_path.parents[3]
+
+        for bin_dir in ["bin", "condabin"]:
+            env_conda = root_dir / bin_dir / "conda"
+            if env_conda.exists():
+                return str(env_conda)
+
+        # Fallback to hoping it's in the PATH
+        return "conda"
+
     @staticmethod
     def version() -> str:
         version = ''
+        conda_exe = CondaCmd.find_conda_executable()
         try:
-            output = subprocess.check_output(['conda', '-V'])
+            output = subprocess.check_output([conda_exe, '-V'], text=True)
             for line in output.splitlines():
-                v = line.decode().split()
+                v = line.split()
                 if v[0] != 'conda':
                     continue
                 version = v[1]
@@ -33,8 +59,9 @@ class CondaCmd:
 
     @staticmethod
     def conda_list(destination_path: str) -> bool:
+        conda_exe = CondaCmd.find_conda_executable()
         try:
-            output = subprocess.check_output(args=['conda', 'list'], text=True).rstrip()
+            output = subprocess.check_output(args=[conda_exe, 'list'], text=True).rstrip()
             with open(destination_path, 'w', newline='') as f:
                 for line in output.splitlines():
                     if line.startswith('\x1b'):
@@ -48,8 +75,9 @@ class CondaCmd:
 
     @staticmethod
     def conda_env_export(destination_path: str) -> bool:
+        conda_exe = CondaCmd.find_conda_executable()
         try:
-            output = subprocess.check_output(args=['conda', 'env', 'export'], text=True).rstrip()
+            output = subprocess.check_output(args=[conda_exe, 'env', 'export'], text=True).rstrip()
             with open(destination_path, 'w', newline='') as f:
                 for line in output.splitlines():
                     if line.startswith('\x1b'):
@@ -65,10 +93,11 @@ class CondaCmd:
     @lru_cache(maxsize=1)  # it does not change during runtime
     def _env_activated() -> typing.Tuple[str, str]:
         # conda env list | grep -e ' \* ' | awk '{print $1 $3}'
+        conda_exe = CondaCmd.find_conda_executable()
         try:
-            output = subprocess.check_output(['conda', 'env', 'list'])
+            output = subprocess.check_output([conda_exe, 'env', 'list'], text=True)
             for line in output.splitlines():
-                v = line.decode().split()
+                v = line.split()
                 if len(v) < 2:
                     continue
                 if v[0][0] == '#':
