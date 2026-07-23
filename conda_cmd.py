@@ -6,9 +6,11 @@ import sys
 import subprocess
 import datetime
 import typing
+import platform
 from pathlib import Path
 
 from functools import lru_cache
+
 
 # REMOVE: conda remove --name py_env_XXX --all
 
@@ -19,24 +21,26 @@ class CondaCmd:
         """Find the conda binary relative to the current Python interpreter."""
         python_path = Path(sys.executable)
 
-        # Scenario A: Running in the 'base' environment
-        # e.g., /home/user/miniconda3/bin/python
         base_conda = python_path.parent / "conda"
         if base_conda.exists():
             return str(base_conda)
 
-        # Scenario B: Running in a named environment
-        # e.g., /home/user/miniconda3/envs/my_env/bin/python
-        # The root miniconda/anaconda directory is 3 levels up from the python binary
-        root_dir = python_path.parents[3]
+        IS_LINUX = False if platform.system() == 'Windows' else True
+        if IS_LINUX:
+            root_dir = python_path.parents[3]
+            search = ["bin", "condabin"]
+        else:
+            root_dir = python_path.parents[2]
+            search = ['Scripts']
+        # fi
 
-        for bin_dir in ["bin", "condabin"]:
-            env_conda = root_dir / bin_dir / "conda"
-            if env_conda.exists():
-                return str(env_conda)
+        for bin_dir in search:
+            for c in ['conda', 'conda.exe']:
+                env_conda = root_dir / bin_dir / c
+                if env_conda.exists():
+                    return str(env_conda)
 
-        # Fallback to hoping it's in the PATH
-        return "conda"
+        return 'conda'
 
     @staticmethod
     def version() -> str:
