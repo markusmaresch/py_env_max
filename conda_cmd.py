@@ -1,7 +1,7 @@
 #
 # -*- coding: utf-8 -*-
 #
-import os.path
+import os
 import sys
 import subprocess
 import datetime
@@ -17,29 +17,102 @@ from functools import lru_cache
 class CondaCmd:
 
     @staticmethod
+    def _is_conda_root(path: Path) -> bool:
+        """Checks if a given path looks like a conda installation root."""
+        return (path / "conda-meta").is_dir() and \
+            (path / "envs").is_dir() and \
+            (path / "pkgs").is_dir()
+
+    @staticmethod
+    @lru_cache(maxsize=1)
+    def _find_conda_root() -> typing.Optional[Path]:
+        """
+        Attempts to find the root directory of the conda installation.
+        This is typically the directory containing 'envs', 'pkgs', and 'conda-meta'.
+        """
+        # 1. Check CONDA_ROOT environment variable (if set by some installations)
+        conda_root_env = os.environ.get('CONDA_ROOT')
+        if conda_root_env and CondaCmd._is_conda_root(Path(conda_root_env)):
+            return Path(conda_root_env)
+
+        # 2. Check CONDA_PREFIX environment variable (points to current activated env)
+        conda_prefix_env = os.environ.get('CONDA_PREFIX')
+        if conda_prefix_env:
+            env_path = Path(conda_prefix_env)
+            # If CONDA_PREFIX is the root itself
+            if CondaCmd._is_conda_root(env_path):
+                return env_path
+            # If CONDA_PREFIX is an environment within a root
+            if CondaCmd._is_conda_root(env_path.parent):
+                return env_path.parent
+
+        # 3. Derive from sys.prefix (current Python environment's prefix)
+        current_prefix = Path(sys.prefix)
+        if CondaCmd._is_conda_root(current_prefix):
+            return current_prefix
+        if CondaCmd._is_conda_root(current_prefix.parent):
+            return current_prefix.parent
+
+        # 4. Search up from sys.executable's directory
+        path_to_check = Path(sys.executable).parent
+        for _ in range(5):  # Go up a few levels to find the root
+            if CondaCmd._is_conda_root(path_to_check):
+                return path_to_check
+            if path_to_check == path_to_check.parent:  # Reached filesystem root
+                break
+            path_to_check = path_to_check.parent
+
+        return None
+
+    @staticmethod
+    @lru_cache(maxsize=1)
     def find_conda_executable() -> str:
-        """Find the conda binary relative to the current Python interpreter."""
-        python_path = Path(sys.executable)
+        """
+        Find the conda binary reliably for Windows and Linux, considering multiple environments.
+        Prioritizes CONDA_EXE, then searches common installation paths, then falls back to PATH.
+        """
+        # 1. Check CONDA_EXE environment variable (most reliable if set)
+        conda_exe_env = os.environ.get('CONDA_EXE')
+        if conda_exe_env and Path(conda_exe_env).is_file():
+            return conda_exe_env
 
-        base_conda = python_path.parent / "conda"
-        if base_conda.exists():
-            return str(base_conda)
+        # Determine OS specific executable name
+        is_windows = platform.system() == 'Windows'
+        conda_exec_name = 'conda.exe' if is_windows else 'conda'
+        conda_bat_name = 'conda.bat'  # Specific to Windows
 
-        IS_LINUX = False if platform.system() == 'Windows' else True
-        if IS_LINUX:
-            root_dir = python_path.parents[3]
-            search = ["bin", "condabin"]
-        else:
-            root_dir = python_path.parents[2]
-            search = ['Scripts']
-        # fi
+        potential_paths = []
 
-        for bin_dir in search:
-            for c in ['conda', 'conda.exe']:
-                env_conda = root_dir / bin_dir / c
-                if env_conda.exists():
-                    return str(env_conda)
+        # 2. Search relative to the detected conda root
+        conda_root = CondaCmd._find_conda_root()
+        if conda_root:
+            if is_windows:
+                potential_paths.append(conda_root / "Scripts" / conda_exec_name)
+                potential_paths.append(conda_root / "condabin" / conda_exec_name)
+                potential_paths.append(conda_root / "condabin" / conda_bat_name)
+            else:  # Linux/macOS
+                potential_paths.append(conda_root / "bin" / conda_exec_name)
+                potential_paths.append(conda_root / "condabin" / conda_exec_name)
 
+        # 3. Search relative to sys.prefix (current Python environment)
+        # This covers cases where conda might be installed directly in the environment
+        # or if _find_conda_root failed for some reason.
+        current_env_prefix = Path(sys.prefix)
+        if is_windows:
+            potential_paths.append(current_env_prefix / "Scripts" / conda_exec_name)
+            potential_paths.append(current_env_prefix / "condabin" / conda_exec_name)
+            potential_paths.append(current_env_prefix / "condabin" / conda_bat_name)
+        else:  # Linux/macOS
+            potential_paths.append(current_env_prefix / "bin" / conda_exec_name)
+            potential_paths.append(current_env_prefix / "condabin" / conda_exec_name)
+
+        # Remove duplicates and check existence
+        # Using dict.fromkeys to preserve order and remove duplicates (Python 3.7+)
+        for p in list(dict.fromkeys(potential_paths)):
+            if p.is_file():
+                return str(p)
+
+        # 4. Fallback: Assume 'conda' is in PATH
         return 'conda'
 
     @staticmethod
@@ -110,8 +183,8 @@ class CondaCmd:
                     continue
                 return v[0], v[2]
             # for
-        except:
-            pass
+        except Exception as e:
+            print(f'Failed: conda env list .. {e}')
         print('Failed: conda env list')
         return '', ''
 
