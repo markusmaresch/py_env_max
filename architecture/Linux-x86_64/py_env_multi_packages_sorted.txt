@@ -64,6 +64,7 @@ ijson
 importlib-resources
 imutils
 iniconfig
+installer
 invoke
 ipython-genutils
 itsdangerous
@@ -97,6 +98,7 @@ multitasking
 mypy-extensions
 narwhals
 nest-asyncio
+nest-asyncio2
 networkx
 nh3
 nodeenv
@@ -210,6 +212,7 @@ tornado
 tqdm
 traitlets
 triton
+truststore
 ty
 types-python-dateutil
 types-pytz
@@ -278,6 +281,8 @@ markdown-it-py
 marshmallow
 matplotlib-inline
 ml-dtypes
+nab-index
+nab-resolver
 nltk
 numba
 nvidia-cublas
@@ -297,7 +302,6 @@ opentelemetry-proto
 pandas-stubs
 pexpect
 pillow-heif
-pipdeptree
 plyfile
 prompt-toolkit
 proto-plus
@@ -352,10 +356,12 @@ intel-cmplr-lib-ur
 ipython
 jaxlib
 jsonschema-specifications
+jupyter-builder
 jupyter-client
 jupyter-server-terminals
 kfp-server-api
 matplotlib
+nab-python
 niquests
 nvidia-cudnn-cu12
 nvidia-cudnn-cu13
@@ -389,13 +395,13 @@ curl-cffi
 db-dtypes
 fastapi
 google-auth
+huggingface-hub
 intel-openmp
 ipykernel
 isoduration
 jax
 jsonschema
 kubernetes
-langgraph-sdk
 langsmith
 llama-cloud
 llama-index-instrumentation
@@ -406,6 +412,7 @@ ollama
 openai
 openmeteo-requests
 opentelemetry-sdk
+pipdeptree
 pydantic-settings
 pygithub
 pythonnet
@@ -419,7 +426,6 @@ google-api-core
 google-auth-httplib2
 google-auth-oauthlib
 google-genai
-huggingface-hub
 jupyter-events
 keyring
 langchain-core
@@ -432,6 +438,7 @@ nbformat
 openinference-instrumentation
 opentelemetry-exporter-otlp-proto-http
 piconnect
+tokenizers
 torchmetrics
 torchvision
 typer-slim
@@ -447,6 +454,7 @@ google-cloud-vision
 jaraco-text
 langchain-text-splitters
 langgraph-checkpoint
+langgraph-sdk
 llama-index-core
 llm-anthropic
 llm-gemini
@@ -458,7 +466,7 @@ pytorch-lightning
 sam2
 streamlit
 timm
-tokenizers
+transformers
 twine
 google-cloud-bigquery
 google-cloud-storage
@@ -473,7 +481,7 @@ llama-index-llms-openai
 llama-index-readers-file
 llm-claude-3
 nbconvert
-transformers
+sentence-transformers
 google-cloud-aiplatform
 jupyter-server
 langchain-community
@@ -483,7 +491,6 @@ llama-index-cli
 llama-index-multi-modal-llms-openai
 llama-parse
 pandas-gbq
-sentence-transformers
 jupyter-lsp
 jupyterlab-server
 langchain

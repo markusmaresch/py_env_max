@@ -134,6 +134,7 @@ importlib-resources
 imutils
 inflect
 iniconfig
+installer
 intel-cmplr-lib-ur
 intel-openmp
 invoke
@@ -165,6 +166,7 @@ jsonpath-python
 jsonpointer
 jsonschema
 jsonschema-specifications
+jupyter-builder
 jupyter-client
 jupyter-contrib-core
 jupyter-contrib-nbextensions
@@ -247,11 +249,15 @@ msal-extensions
 multidict
 multitasking
 mypy-extensions
+nab-index
+nab-python
+nab-resolver
 narwhals
 nbclient
 nbconvert
 nbformat
 nest-asyncio
+nest-asyncio2
 networkx
 nh3
 niquests
@@ -459,6 +465,7 @@ tqdm
 traitlets
 transformers
 triton
+truststore
 twine
 ty
 typeguard
