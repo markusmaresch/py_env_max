@@ -444,7 +444,7 @@ secretstorage                               3.5.0              pypi_0           
 segment-anything                            1.0                pypi_0              pypi
 send2trash                                  2.1.0              pypi_0              pypi
 sentence-transformers                       5.6.1              pypi_0              pypi
-setuptools                                  80.9.0             pypi_0              pypi
+setuptools                                  82.0.1             pypi_0              pypi
 shapely                                     2.1.2              pypi_0              pypi
 shellingham                                 1.5.4              pypi_0              pypi
 simsimd                                     6.5.16             pypi_0              pypi
