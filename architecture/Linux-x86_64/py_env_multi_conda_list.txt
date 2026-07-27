@@ -20,7 +20,7 @@ arena-api                                   2.7.1              pypi_0           
 argon2-cffi                                 25.1.0             pypi_0              pypi
 argon2-cffi-bindings                        25.1.0             pypi_0              pypi
 arrow                                       1.4.0              pypi_0              pypi
-asgiref                                     3.8.1              pypi_0              pypi
+asgiref                                     3.11.1             pypi_0              pypi
 asttokens                                   3.0.1              pypi_0              pypi
 async-lru                                   2.3.0              pypi_0              pypi
 async-timeout                               5.0.1              pypi_0              pypi
