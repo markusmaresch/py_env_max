@@ -9,7 +9,7 @@ from typing import TYPE_CHECKING
 from packaging.requirements import InvalidRequirement, Requirement
 from packaging.utils import canonicalize_name
 
-from pipdeptree._parser import distribution_to_specifier
+from _vendor.pipdeptree_2_35_1._parser import distribution_to_specifier
 
 if TYPE_CHECKING:
     from collections.abc import Iterator

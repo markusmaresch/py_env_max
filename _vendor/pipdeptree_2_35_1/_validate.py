@@ -4,11 +4,11 @@ import sys
 from collections import defaultdict
 from typing import TYPE_CHECKING
 
-from pipdeptree._models.package import ReqPackage
-from pipdeptree._warning import get_warning_printer
+from _vendor.pipdeptree_2_35_1._models.package import ReqPackage
+from _vendor.pipdeptree_2_35_1._warning import get_warning_printer
 
 if TYPE_CHECKING:
-    from pipdeptree._models.package import Package
+    from _vendor.pipdeptree_2_35_1._models.package import Package
 
     from ._models import DistPackage, PackageDAG
 

@@ -13,7 +13,7 @@ if TYPE_CHECKING:
     from importlib.metadata import Distribution
 
 
-from pipdeptree._warning import get_warning_printer
+from _vendor.pipdeptree_2_35_1._warning import get_warning_printer
 
 from .package import DistPackage, InvalidRequirementError, ReqPackage
 
