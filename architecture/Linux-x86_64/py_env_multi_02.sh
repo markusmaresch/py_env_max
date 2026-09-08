@@ -1,4 +1,4 @@
-# 2026-07-27T21:15:22.560098+00:00
+# 2026-07-27T21:31:12.284824+00:00
 # Level 2
 pip install "aiosignal>=1.4.0"
 pip install "anyio>=4.14.2"
@@ -60,11 +60,11 @@ pip install "nab-index>=0.0.11"
 pip install "nab-resolver>=0.0.11"
 pip install "nltk>=3.10.0"
 pip install "numba>=0.66.0"
-pip install "nvidia-cublas>=13.1.1.3"
+pip install "nvidia-cublas>=13.6.0.2"
 pip install "nvidia-cublas-cu12>=12.9.2.10"
-pip install "nvidia-cufft>=12.0.0.61"
+pip install "nvidia-cufft>=12.3.0.29"
 pip install "nvidia-cufft-cu12>=11.4.1.4"
-pip install "nvidia-cusparse>=12.6.3.3"
+pip install "nvidia-cusparse>=12.8.2.51"
 pip install "nvidia-cusparse-cu12>=12.5.10.65"
 pip check
 pip install "omegaconf>=2.3.1"
