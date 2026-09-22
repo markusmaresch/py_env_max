@@ -232,6 +232,7 @@ langsmith
 lark
 lazy-loader
 librt
+lightgbm
 lightning
 lightning-utilities
 llama-cloud
@@ -421,6 +422,7 @@ scikit-image
 scikit-learn
 scipy
 scipy-stubs
+seaborn
 segment-anything
 send2trash
 sentence-transformers
@@ -499,6 +501,7 @@ websockets
 werkzeug
 wheel
 wrapt
+xgboost
 xlsxwriter
 xxhash
 yarl

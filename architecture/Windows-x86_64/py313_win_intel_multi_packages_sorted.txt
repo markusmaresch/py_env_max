@@ -355,6 +355,7 @@ jupyter-builder
 jupyter-client
 jupyter-server-terminals
 kfp-server-api
+lightgbm
 matplotlib
 nab-index
 niquests
@@ -378,6 +379,7 @@ starlette
 tiktoken
 torch
 watchfiles
+xgboost
 anthropic
 argon2-cffi
 banks
@@ -410,6 +412,7 @@ opentelemetry-sdk
 pydantic-settings
 pygithub
 pythonnet
+seaborn
 sqlite-migrate
 sse-starlette
 torchmetrics

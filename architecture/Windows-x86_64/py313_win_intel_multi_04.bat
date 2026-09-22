@@ -1,4 +1,4 @@
-rem 2026-09-22T13:20:27.741194+00:00
+rem 2026-09-22T18:10:59.724243+00:00
 rem Level 4
 pip install "anthropic>=1.7.0"
 pip install "argon2-cffi>=25.1.0"
@@ -42,6 +42,7 @@ pip install "pydantic-settings>=2.15.0"
 pip install "pygithub>=2.10.0"
 pip install "pythonnet>=3.1.0"
 pip check
+pip install "seaborn>=0.13.2"
 pip install "sqlite-migrate>=0.2"
 pip install "sse-starlette>=3.4.11"
 pip check

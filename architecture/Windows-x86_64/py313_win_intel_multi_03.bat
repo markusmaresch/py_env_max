@@ -1,4 +1,4 @@
-rem 2026-09-22T13:20:27.741194+00:00
+rem 2026-09-22T18:10:59.724243+00:00
 rem Level 3
 pip install "aiohttp>=3.14.3"
 pip install "alembic>=1.20.0"
@@ -39,8 +39,9 @@ pip install "jupyter-client>=8.10.0"
 pip install "jupyter-server-terminals>=0.5.4"
 pip check
 pip install "kfp-server-api>=2.17.0"
-pip install "matplotlib>=3.11.2"
+pip install "lightgbm>=4.7.0"
 pip check
+pip install "matplotlib>=3.11.2"
 pip install "nab-index>=0.0.18"
 pip install "niquests>=3.21.1"
 pip install "nltk>=3.10.3"
@@ -69,5 +70,6 @@ pip install "tiktoken>=0.14.0"
 pip install "torch>=2.11.0+cu128"
 pip check
 pip install "watchfiles>=1.3.0"
+pip install "xgboost>=3.4.1"
 pip check
 rem Level 3
