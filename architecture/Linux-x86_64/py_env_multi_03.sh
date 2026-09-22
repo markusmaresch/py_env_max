@@ -1,4 +1,4 @@
-# 2026-07-27T21:15:22.560098+00:00
+# 2026-07-27T21:31:12.284824+00:00
 # Level 3
 pip install "aiohttp>=3.14.3"
 pip install "albucore>=0.0.24"
@@ -7,7 +7,7 @@ pip install "arrow>=1.4.0"
 pip install "azure-core>=1.41.0"
 pip check
 pip install "clr-loader>=0.3.1"
-pip install "cryptography>=48.0.1"
+pip install "cryptography>=49.0.0"
 pip check
 pip install "dataclasses-json>=0.6.7"
 pip install "flask>=3.1.3"
@@ -30,14 +30,14 @@ pip install "jupyter-builder>=1.1.1"
 pip install "jupyter-client>=8.9.1"
 pip install "jupyter-server-terminals>=0.5.4"
 pip check
-pip install "kfp-server-api>=2.16.1"
+pip install "kfp-server-api>=2.17.0"
 pip install "matplotlib>=3.11.1"
 pip check
 pip install "nab-python>=0.0.11"
 pip install "niquests>=3.20.1"
 pip install "nvidia-cudnn-cu12>=9.24.0.43"
 pip install "nvidia-cudnn-cu13>=9.20.0.48"
-pip install "nvidia-cusolver>=12.0.4.66"
+pip install "nvidia-cusolver>=12.2.6.9"
 pip install "nvidia-cusolver-cu12>=11.7.5.82"
 pip check
 pip install "opentelemetry-exporter-otlp-proto-common>=1.44.0"
